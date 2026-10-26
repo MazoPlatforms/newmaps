@@ -3,8 +3,8 @@ const $=s=>document.querySelector(s);
 const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https://tiles.openfreemap.org/styles/dark'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const map=new maplibregl.Map({container:'map',style:styles[theme()],center:[81.729,7.685],zoom:14,minZoom:12,maxBounds:[[81.685,7.635],[81.785,7.735]]});
-map.addControl(new maplibregl.NavigationControl(),'bottom-right');
-const datasets=['places.json','bakery.json','supermarket.json','halls.json','banks.json','mosque.json','textiles.json','cafe.json','gym.json','jewelry.json','schools.json','stationery.json','atms.json','automotive.json','electronics.json','fuel.json','government.json','hardware.json','hospitals.json','hotels.json','landmarks.json','markets.json','salons.json','saloons.json','services.json','sports.json','transport.json'];
+// Minimal map chrome: touch gestures remain available without zoom buttons.
+const datasets=["places.json","bakery.json","supermarket.json","halls.json","banks.json","mosque.json","textiles.json","cafe.json","gym.json","jewelry.json","schools.json","stationery.json","atms.json","automotive.json","electronics.json","fuel.json","government.json","hardware.json","hospitals.json","hotels.json","landmarks.json","markets.json","salons.json","saloons.json","services.json","sports.json","transport.json","accessories.json","accommodation.json","addresses.json","agriculture.json","baby.json","bags.json","boundaries.json","boundary.json","clinics.json","cosmetics.json","couriers.json","education.json","emergency.json","entrances.json","fancy.json","fashion.json","finance.json","footwear.json","furniture.json","homeware.json","opticals.json","parking.json","pet-shops.json","pharmacies.json","public-utilities.json","recreation.json","religious.json","tailors.json","utilities.json","waterways.json"];
 let places=[],category='all',roadsVisible=true,placesVisible=true;
 const KATTANKUDY=[81.70,7.65,81.77,7.72];
 const inArea=p=>+p.coordinates.longitude>=KATTANKUDY[0]&&+p.coordinates.longitude<=KATTANKUDY[2]&&+p.coordinates.latitude>=KATTANKUDY[1]&&+p.coordinates.latitude<=KATTANKUDY[3];
@@ -69,7 +69,34 @@ function ensurePoiLayer(){
 map.on('click',POI_LAYER,e=>{const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
 map.on('mouseenter',POI_LAYER,()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',POI_LAYER,()=>map.getCanvas().style.cursor='');
-function openPlace(p){const c=p.coordinates;map.flyTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16)});new maplibregl.Popup({offset:20}).setLngLat([+c.longitude,+c.latitude]).setHTML('<strong>'+safe(p.name)+'</strong><p>'+safe(p.address||'')+'</p><p>'+safe((p.categories||[]).join(', '))+'</p>'+(p.phone?'<p>'+safe(p.phone)+'</p>':'')).addTo(map)}
+let selectedPlace=null,sheetState='half',touchStart=null;
+const sheet=$('#place-sheet');
+function setSheetState(state){
+ sheetState=state;sheet.dataset.state=state;
+ sheet.querySelectorAll('[data-sheet-state]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.sheetState===state)));
+}
+function closePlace(){selectedPlace=null;sheet.hidden=true;map.easeTo({padding:{bottom:0},duration:250});}
+function openPlace(p){
+ selectedPlace=p;sheet.hidden=false;setSheetState('half');
+ $('#place-title').textContent=p.name;
+ $('#place-category').textContent=(p.categories||[]).join(' · ')||'Place';
+ $('#place-address').textContent=p.address||'Address unavailable';
+ $('#place-coordinates').textContent=Number(p.coordinates.latitude).toFixed(6)+', '+Number(p.coordinates.longitude).toFixed(6);
+ const phone=$('#place-phone');phone.hidden=!p.phone;phone.href=p.phone?'tel:'+String(p.phone).replace(/[^+0-9]/g,''):'#';
+ const website=$('#place-website');const url=String(p.website||'');website.hidden=!/^https?:\/\//i.test(url);if(!website.hidden)website.href=url;
+ $('#place-directions').href='https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(p.coordinates.latitude+','+p.coordinates.longitude);
+ const hours=$('#place-hours');hours.replaceChildren();
+ if(Array.isArray(p.hours)&&p.hours.length){for(const h of p.hours){const line=document.createElement('p');line.textContent=(h.day||'')+' · '+(h.times||[]).join(', ');hours.append(line)}}
+ else hours.textContent='Opening hours unavailable';
+ const c=p.coordinates;map.easeTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16),padding:{bottom:Math.round(window.innerHeight*.25)},duration:400});
+}
+$('#place-close').onclick=closePlace;
+sheet.querySelectorAll('[data-sheet-state]').forEach(b=>b.onclick=()=>setSheetState(b.dataset.sheetState));
+const handle=$('#place-handle');
+handle.addEventListener('touchstart',e=>{touchStart=e.touches[0].clientY},{passive:true});
+handle.addEventListener('touchend',e=>{if(touchStart===null)return;const dy=e.changedTouches[0].clientY-touchStart;touchStart=null;if(Math.abs(dy)<35)return;const states=['compact','half','expanded'];setSheetState(states[Math.max(0,Math.min(2,states.indexOf(sheetState)+(dy<0?1:-1)))])},{passive:true});
+handle.addEventListener('keydown',e=>{if(e.key==='ArrowUp'||e.key==='ArrowDown'){e.preventDefault();const states=['compact','half','expanded'];setSheetState(states[Math.max(0,Math.min(2,states.indexOf(sheetState)+(e.key==='ArrowUp'?1:-1)))])}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sheet.hidden)closePlace()});
 function refresh(){
  const q=$('#map-search').value.trim().toLowerCase();
  const hits=places.filter(p=>(category==='all'||kind(p)===category)&&[p.name,p.address,...(p.categories||[])].join(' ').toLowerCase().includes(q));
@@ -87,7 +114,7 @@ async function roads(){try{const r=await fetch('./data/roads/kattankudy.json');i
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
 map.on('style.load',()=>{try{for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && !layer.id.startsWith('mazo-') && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer()}catch(error){console.error('Map layer initialization:',error)}});
-(async()=>{try{const data=await Promise.all(datasets.map(async f=>{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return r.json()}));const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){$('#map-status').textContent='Dataset error: '+e.message}})();
+(async()=>{try{const data=(await Promise.all(datasets.map(async f=>{try{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return await r.json()}catch(e){console.warn('Dataset skipped:',f,e);return null}}))).filter(Boolean);const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){$('#map-status').textContent='Dataset error: '+e.message}})();
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
 document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{category=b.dataset.category;document.querySelectorAll('[data-category]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));refresh()});
 $('#layers-toggle').onclick=()=>{const p=$('#layers-panel');p.hidden=!p.hidden;$('#layers-toggle').setAttribute('aria-expanded',String(!p.hidden))};
