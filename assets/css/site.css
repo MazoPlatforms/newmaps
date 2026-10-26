@@ -306,3 +306,22 @@ body,.place-sheet,.place-sheet button,.place-sheet a{font-family:Inter,-apple-sy
 .maplibregl-ctrl-bottom-left,.maplibregl-ctrl-bottom-right{z-index:1}
 .maplibregl-ctrl-bottom-right .maplibregl-ctrl-attrib{max-width:min(85vw,340px);font-size:10px}
 @media(max-width:600px){.search-dock{width:calc(100% - 92px)}.utility-controls{right:14px}}
+
+
+/* Directions panel, independent of place bottom sheet */
+.route-panel{position:absolute;z-index:9;left:14px;top:calc(78px + env(safe-area-inset-top));width:min(410px,calc(100% - 28px));max-height:min(66dvh,650px);overflow:auto;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;gap:9px}
+.route-head{display:flex;justify-content:space-between;align-items:center;font-size:17px;margin-bottom:3px}
+#route-close{border:0;background:transparent;font-size:26px;line-height:1;cursor:pointer}
+.route-panel label{font-size:12px;font-weight:650;color:var(--muted)}
+.route-panel input{width:100%;border:1px solid var(--line);border-radius:9px;padding:11px;background:var(--surface-alt);font-size:13px}
+.route-field{display:flex;gap:6px;flex-wrap:wrap}
+.route-field input{flex:1 1 100%}
+.route-field button,.route-modes button{border:1px solid var(--line);background:var(--surface-alt);padding:9px 11px;border-radius:9px;font-size:12px}
+.route-modes{display:flex;gap:7px;margin-top:4px}
+.route-modes button[aria-pressed=true]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
+#route-status{margin:2px 0;color:var(--muted);font-size:12px}
+#route-summary{font-size:17px;font-weight:700}
+#route-steps{margin:0;padding-left:22px;max-height:160px;overflow:auto;font-size:12px;line-height:1.6}
+#route-steps li{padding:5px 0;border-bottom:1px solid var(--line)}
+.route-panel small{font-size:10px;color:var(--muted);line-height:1.4}
+@media(max-width:600px){.route-panel{top:calc(76px + env(safe-area-inset-top));max-height:57dvh}}
