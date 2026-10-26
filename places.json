@@ -420,7 +420,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "KaதாN",
+      "name": "Kathan",
       "coordinates": {
         "latitude": 7.686451,
         "longitude": 81.7276475
@@ -1049,7 +1049,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "Taste King - Taste கடை",
+      "name": "Taste King - Taste Shop",
       "coordinates": {
         "latitude": 7.679566899999999,
         "longitude": 81.7375114
@@ -1103,7 +1103,8 @@
           ]
         }
       ],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "Taste King - Taste கடை"
     },
     {
       "name": "Ulfath Bakery And Hotel",
@@ -2460,7 +2461,7 @@
       "name_original": "FIRST ROOTS MART"
     },
     {
-      "name": "சூப் கடை",
+      "name": "Soup Shop",
       "coordinates": {
         "latitude": 7.6891929999999995,
         "longitude": 81.7363191
@@ -2515,7 +2516,8 @@
           ]
         }
       ],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "சூப் கடை"
     },
     {
       "name": "MS Kitchen Kattankudy",
@@ -3034,7 +3036,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "சூப் கடை (Poonochchimunai)",
+      "name": "Soup Shop (Poonochchimunai)",
       "coordinates": {
         "latitude": 7.6956663,
         "longitude": 81.727887
@@ -3092,7 +3094,8 @@
           ]
         }
       ],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "சூப் கடை (Poonochchimunai)"
     },
     {
       "name": "Leena home made",
@@ -6005,7 +6008,7 @@
       "business_status": "CLOSED_TEMPORARILY"
     },
     {
-      "name": "Qul ya Appam Home குல்யா அப்பம்",
+      "name": "Qul Ya Appam Home",
       "coordinates": {
         "latitude": 7.686312999999999,
         "longitude": 81.722188
@@ -6016,7 +6019,8 @@
       ],
       "phone": "0774471726",
       "hours": [],
-      "business_status": "CLOSED_TEMPORARILY"
+      "business_status": "CLOSED_TEMPORARILY",
+      "name_original": "Qul ya Appam Home குல்யா அப்பம்"
     }
   ]
 }
