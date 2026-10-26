@@ -72,10 +72,10 @@ map.on('mouseleave',POI_LAYER,()=>map.getCanvas().style.cursor='');
 let selectedPlace=null,sheetState='half',dragStart=null,dragDelta=0,closeTimer=null;
 const sheet=$('#place-sheet');
 function setSheetState(state){
- sheetState=state;sheet.dataset.state=state;
+ sheetState=state;sheet.dataset.state=state;document.querySelector('.map-actions').dataset.sheet=state;
  sheet.style.removeProperty('--sheet-drag');
 }
-function closePlace(){selectedPlace=null;sheet.classList.add('is-closing');clearTimeout(closeTimer);closeTimer=setTimeout(()=>{sheet.hidden=true;sheet.classList.remove('is-closing')},260);map.easeTo({padding:{bottom:0},duration:260});}
+function closePlace(){selectedPlace=null;document.querySelector('.map-actions').removeAttribute('data-sheet');sheet.classList.add('is-closing');clearTimeout(closeTimer);closeTimer=setTimeout(()=>{sheet.hidden=true;sheet.classList.remove('is-closing')},260);map.easeTo({padding:{bottom:0},duration:260});}
 function openPlace(p){
  selectedPlace=p;clearTimeout(closeTimer);sheet.classList.remove('is-closing');sheet.hidden=false;setSheetState('half');
  $('#place-title').textContent=p.name;
@@ -143,7 +143,7 @@ function refresh(){
  for(const id of [POI_LAYER])if(map.getLayer(id)){map.setLayoutProperty(id,'visibility',placesVisible?'visible':'none');map.setFilter(id,['in',['get','index'],['literal',hits.map(p=>places.indexOf(p))]])}
  const results=$('#search-results');results.replaceChildren();
  if(q){results.hidden=false;for(const p of hits.slice(0,30)){const b=document.createElement('button');b.type='button';b.textContent=p.name+' · '+(p.address||'');b.style.cssText='display:block;width:100%;padding:10px;text-align:left;border:0;background:transparent;cursor:pointer';b.onclick=()=>{openPlace(p);results.hidden=true};results.append(b)}}else results.hidden=true;
- $('#map-status').textContent=hits.length+' places in Kattankudy';
+ // Search results remain available; no persistent place-count overlay.
 
 }
 map.on('click',POI_LAYER,e=>{const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
@@ -154,16 +154,32 @@ async function roads(){try{const r=await fetch('./data/roads/kattankudy.json');i
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
 map.on('style.load',()=>{try{for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && !layer.id.startsWith('mazo-') && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer()}catch(error){console.error('Map layer initialization:',error)}});
-(async()=>{try{const data=(await Promise.all(datasets.map(async f=>{try{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return await r.json()}catch(e){console.warn('Dataset skipped:',f,e);return null}}))).filter(Boolean);const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){$('#map-status').textContent='Dataset error: '+e.message}})();
+(async()=>{try{const data=(await Promise.all(datasets.map(async f=>{try{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return await r.json()}catch(e){console.warn('Dataset skipped:',f,e);return null}}))).filter(Boolean);const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){console.error('Dataset error:',e)}})();
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
 document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{category=b.dataset.category;document.querySelectorAll('[data-category]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));refresh()});
-$('#layers-toggle').onclick=()=>{const p=$('#layers-panel');p.hidden=!p.hidden;$('#layers-toggle').setAttribute('aria-expanded',String(!p.hidden))};
-document.querySelectorAll('[data-layer]').forEach(x=>x.onchange=()=>{if(x.dataset.layer==='places'){placesVisible=x.checked;refresh()}if(x.dataset.layer==='roads'){roadsVisible=x.checked;for(const id of ['mazo-road-lines','mazo-road-names'])if(map.getLayer(id))map.setLayoutProperty(id,'visibility',roadsVisible?'visible':'none')}});
 $('#theme-toggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';$('#theme-toggle').setAttribute('aria-pressed',String(dark));try{localStorage.setItem('mazo-maps-theme',dark?'dark':'light')}catch{};map.setStyle(styles[dark?'dark':'light']);};
-$('#map-reset').onclick=()=>map.flyTo({center:[81.729,7.685],zoom:14});
-$('#map-locate').onclick=()=>navigator.geolocation?.getCurrentPosition(p=>map.flyTo({center:[p.coords.longitude,p.coords.latitude],zoom:15}),()=>alert('Location unavailable'));
-$('#map-fullscreen').onclick=()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();
+const locateButton=$('#map-locate');
+let locationMarker=null;
+locateButton.onclick=()=>{
+ if(!navigator.geolocation){alert('Location is not supported by this browser.');return}
+ locateButton.disabled=true;locateButton.setAttribute('aria-busy','true');
+ navigator.geolocation.getCurrentPosition(position=>{
+  locateButton.disabled=false;locateButton.setAttribute('aria-busy','false');
+  const coords=[position.coords.longitude,position.coords.latitude];
+  if(locationMarker)locationMarker.remove();
+  const dot=document.createElement('div');dot.className='user-location-dot';dot.setAttribute('aria-label','Your current location');
+  locationMarker=new maplibregl.Marker({element:dot,anchor:'center'}).setLngLat(coords).addTo(map);
+  // The map is intentionally Kattankudy-only. Outside it, report the actual position rather than silently clamping.
+  const bounds=map.getMaxBounds();
+  if(bounds&&!bounds.contains(coords)){alert('Your location is outside the current Kattankudy map boundary.');return}
+  map.flyTo({center:coords,zoom:Math.max(map.getZoom(),16),duration:750});
+ },error=>{
+  locateButton.disabled=false;locateButton.setAttribute('aria-busy','false');
+  const reason=error.code===1?'Location permission denied. Enable location access for this site.':error.code===2?'Unable to determine your location. Check GPS and connectivity.':'Location request timed out. Please try again.';
+  alert(reason);
+ },{enableHighAccuracy:true,timeout:12000,maximumAge:10000});
+};
 async function cities(){try{const r=await fetch('./data/cities.json');if(!r.ok)return;const d=await r.json();const features=(d.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)).map(c=>({type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:c.name||'',level:c.level||'city'}}));if(map.getSource('mazo-cities'))return;map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-city-labels',type:'symbol',source:'mazo-cities',layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],5,11,13,17],'text-allow-overlap':false},paint:{'text-color':theme()==='dark'?'#e8edf4':'#27313b','text-halo-color':theme()==='dark'?'#161b22':'#fff','text-halo-width':2}})}catch(e){console.warn('City labels:',e)}}
 
-map.on('load',()=>{$('#map-frame').dataset.state='ready';try{ensurePoiLayer()}catch(e){console.warn('POI on load:',e)}});
+map.on('load',()=>{$('#map-frame').dataset.state='ready';$('#map-status').hidden=true;try{ensurePoiLayer()}catch(e){console.warn('POI on load:',e)}});
 map.on('error',event=>console.error('MapLibre:',event.error));
