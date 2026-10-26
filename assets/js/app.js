@@ -1,5 +1,8 @@
+import { Protocol } from 'https://mazoplatforms.github.io/maps/assets/vendor/pmtiles.mjs';
+const pmtilesProtocol=new Protocol();
+maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile);
 const $=s=>document.querySelector(s);
-const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https://tiles.openfreemap.org/styles/dark'};
+const styles={light:'./assets/styles/mazo-light.json',dark:'./assets/styles/mazo-dark.json'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const map=new maplibregl.Map({container:'map',style:styles[theme()],center:[80.75,7.75],zoom:6.6});
 map.addControl(new maplibregl.NavigationControl(),'bottom-right');
@@ -15,58 +18,53 @@ const POI_LAYER='mazo-poi-symbols';
 function priority(p){const k=kind(p);return ({health:1,worship:2,shop:3,food:4,hotel:5,park:6})[k]||7}
 function iconFor(k){return 'mazo-'+k}
 function registerIcons(){
-  for(const [kindName,[color,path]] of Object.entries(artwork)){
-    const svg='<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="'+color+'" stroke="#fff" stroke-width="3"/><path d="'+path+'" transform="translate(12 12) scale(0.95)" stroke="#fff" fill="none" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></svg>';
-    const img=new Image(64,64);
-    img.onload=()=>{if(!map.hasImage(iconFor(kindName)))map.addImage(iconFor(kindName),img,{pixelRatio:2});ensurePoiLayer()};
-    img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
-  }
+ for(const [k,[color,path]] of Object.entries(artwork)){
+  const id=iconFor(k);if(map.hasImage(id))continue;
+  const canvas=document.createElement('canvas');canvas.width=48;canvas.height=56;
+  const ctx=canvas.getContext('2d');ctx.fillStyle=color;ctx.strokeStyle='#fff';ctx.lineWidth=2;
+  ctx.beginPath();ctx.moveTo(24,53);ctx.bezierCurveTo(19,44,6,35,6,23);ctx.arc(24,23,18,Math.PI,0);ctx.bezierCurveTo(42,35,29,44,24,53);ctx.closePath();ctx.fill();ctx.stroke();
+  ctx.translate(12,11);ctx.lineWidth=1.8;ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke(new Path2D(path));
+  map.addImage(id,ctx.getImageData(0,0,48,56),{pixelRatio:2});
+ }
 }
 function poiFeatures(){return places.map((p,i)=>({type:'Feature',id:i,geometry:{type:'Point',coordinates:[+p.coordinates.longitude,+p.coordinates.latitude]},properties:{name:p.name,kind:kind(p),priority:priority(p),index:i,category:(p.categories||[]).join(' '),address:p.address||''}}))}
 function ensurePoiLayer(){
  if(!map.getStyle()?.layers?.length)return;
+ registerIcons();
  const geojson={type:'FeatureCollection',features:poiFeatures()};
  if(!map.getSource(POI_SOURCE))map.addSource(POI_SOURCE,{type:'geojson',data:geojson});
  else map.getSource(POI_SOURCE).setData(geojson);
- const before=(map.getStyle().layers||[]).find(l=>l.type==='symbol'&&/place|settlement|city|town/i.test(l.id))?.id;
- if(!map.getLayer('mazo-poi-dots'))map.addLayer({id:'mazo-poi-dots',type:'circle',source:POI_SOURCE,minzoom:13,
-   paint:{'circle-radius':['interpolate',['linear'],['zoom'],13,2,15,4,17,5.5],'circle-color':['match',['get','kind'],'food','#cb8959','health','#b5666c','worship','#967c9c','shop','#6d81aa','hotel','#8c76a6','#638a7c'],'circle-stroke-color':theme()==='dark'?'#202b3b':'#fff','circle-stroke-width':1.5,'circle-opacity':['interpolate',['linear'],['zoom'],13,0,14,0.95]}},before);
- if(!map.getLayer(POI_LAYER))map.addLayer({id:POI_LAYER,type:'symbol',source:POI_SOURCE,minzoom:14,
-   layout:{'symbol-sort-key':['get','priority'],'text-field':['get','name'],'text-font':['Open Sans Regular','Arial Unicode MS Regular'],'text-size':['interpolate',['linear'],['zoom'],14,9,17,11],'text-offset':[0,0.85],'text-anchor':'top','text-optional':true,'text-max-width':10,'text-allow-overlap':false,'text-padding':12},
-   paint:{'text-opacity':['interpolate',['linear'],['zoom'],14,0,15,1],'text-color':theme()==='dark'?'#dbe5ee':'#364152','text-halo-color':theme()==='dark'?'#16202c':'#fff','text-halo-width':1.25}},before);
+ if(!map.getLayer(POI_LAYER))map.addLayer({id:POI_LAYER,type:'symbol',source:POI_SOURCE,minzoom:13,
+  layout:{'symbol-sort-key':['get','priority'],'icon-image':['concat','mazo-',['get','kind']],
+   'icon-size':['interpolate',['linear'],['zoom'],13,0.3,15,0.48,18,0.7],
+   'icon-allow-overlap':false,'icon-padding':12,
+   'text-field':['get','name'],'text-font':['Open Sans Regular','Arial Unicode MS Regular'],
+   'text-size':['interpolate',['linear'],['zoom'],14,10,17,12],
+   'text-offset':[0,1.2],'text-anchor':'top','text-max-width':11,'text-optional':true,
+   'text-allow-overlap':false,'text-padding':10},
+  paint:{'icon-opacity':['interpolate',['linear'],['zoom'],13,0,14,1],
+   'text-opacity':['interpolate',['linear'],['zoom'],14,0,15.5,1],
+   'text-color':theme()==='dark'?'#dce6f0':'#374151',
+   'text-halo-color':theme()==='dark'?'#17212e':'#fff','text-halo-width':1.2}});
  refresh();
 }
 function openPlace(p){const c=p.coordinates;map.flyTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16)});new maplibregl.Popup({offset:20}).setLngLat([+c.longitude,+c.latitude]).setHTML('<strong>'+safe(p.name)+'</strong><p>'+safe(p.address||'')+'</p><p>'+safe((p.categories||[]).join(', '))+'</p>'+(p.phone?'<p>'+safe(p.phone)+'</p>':'')).addTo(map)}
 function refresh(){
  const q=$('#map-search').value.trim().toLowerCase();
  const hits=places.filter(p=>(category==='all'||kind(p)===category)&&[p.name,p.address,...(p.categories||[])].join(' ').toLowerCase().includes(q));
- for(const id of [POI_LAYER,'mazo-poi-dots'])if(map.getLayer(id)){map.setLayoutProperty(id,'visibility',placesVisible?'visible':'none');map.setFilter(id,['in',['get','index'],['literal',hits.map(p=>places.indexOf(p))]])}
+ for(const id of [POI_LAYER])if(map.getLayer(id)){map.setLayoutProperty(id,'visibility',placesVisible?'visible':'none');map.setFilter(id,['in',['get','index'],['literal',hits.map(p=>places.indexOf(p))]])}
  const results=$('#search-results');results.replaceChildren();
  if(q){results.hidden=false;for(const p of hits.slice(0,30)){const b=document.createElement('button');b.type='button';b.textContent=p.name+' · '+(p.address||'');b.style.cssText='display:block;width:100%;padding:10px;text-align:left;border:0;background:transparent;cursor:pointer';b.onclick=()=>{openPlace(p);results.hidden=true};results.append(b)}}else results.hidden=true;
  $('#map-status').textContent=hits.length+' places in Kattankudy';
 }
-map.on('click','mazo-poi-dots',e=>{const i=e.features?.[0]?.properties?.index;if(Number.isInteger(i)&&places[i])openPlace(places[i])});
-map.on('mouseenter','mazo-poi-dots',()=>map.getCanvas().style.cursor='pointer');
-map.on('mouseleave','mazo-poi-dots',()=>map.getCanvas().style.cursor='');
+map.on('click',POI_LAYER,e=>{const i=e.features?.[0]?.properties?.index;if(Number.isInteger(i)&&places[i])openPlace(places[i])});
+map.on('mouseenter',POI_LAYER,()=>map.getCanvas().style.cursor='pointer');
+map.on('mouseleave',POI_LAYER,()=>map.getCanvas().style.cursor='');
 async function roads(){try{const r=await fetch('./data/roads/kattankudy.json');if(!r.ok)return;const data=await r.json();const features=(data.roads||[]).filter(x=>x.coordinates?.length>1).map(x=>({type:'Feature',properties:{name:x.name||''},geometry:{type:'LineString',coordinates:x.coordinates}}));if(map.getSource('mazo-roads'))return;map.addSource('mazo-roads',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-road-lines',type:'line',source:'mazo-roads',paint:{'line-color':'#f8f9fa','line-width':['interpolate',['linear'],['zoom'],11,2,16,9]}});map.addLayer({id:'mazo-road-names',type:'symbol',source:'mazo-roads',minzoom:13,filter:['!=',['get','name'],''],layout:{'symbol-placement':'line','text-field':['get','name'],'text-size':12},paint:{'text-color':'#46515b','text-halo-color':'#fff','text-halo-width':2}});for(const id of ['mazo-road-lines','mazo-road-names'])map.setLayoutProperty(id,'visibility',roadsVisible?'visible':'none')}catch(e){console.warn(e)}}
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{
-  for(const layer of map.getStyle().layers||[]){
-    if(layer.type!=='symbol')continue;
-    const id=layer.id.toLowerCase();
-    const sourceLayer=String(layer['source-layer']||'').toLowerCase();
-    // Allow geographic labels and road shields only; all provider business labels are excluded.
-    const geographic=/place|settlement|country|state|province|region|district|city|town|village|hamlet|locality|neighbourhood|neighborhood|suburb|island|ocean|sea|water|river|lake|peak|mountain|park|forest|road|street|highway|transportation|motorway|trunk|primary|secondary|tertiary|route|shield|boundary|admin/i;
-    const providerPOI=/poi|place_of_interest|housenumber|house_number|airport|aerodrome|shop|commercial|retail|amenity|business|tourism|attraction|restaurant|hotel|religion|worship|hospital|school/i;
-    const keep=geographic.test(id+' '+sourceLayer)&&!providerPOI.test(id+' '+sourceLayer);
-    if(!keep)map.setLayoutProperty(layer.id,'visibility','none');
-  }
-  // Roads are already supplied by the vector basemap; custom JSON roads remain optional.
-  cities();
-  ensurePoiLayer();
-});
+map.on('style.load',()=>{ensurePoiLayer()});
 (async()=>{try{const data=await Promise.all(datasets.map(async f=>{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return r.json()}));const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}ensurePoiLayer();refresh();}catch(e){$('#map-status').textContent='Dataset error: '+e.message}})();
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
 document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{category=b.dataset.category;document.querySelectorAll('[data-category]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));refresh()});
