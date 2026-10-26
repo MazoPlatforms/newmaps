@@ -1,0 +1,119 @@
+{
+    "count": 2,
+    "results":[
+        {
+            "name": "Kattankudy Vehicle Parking Place",
+            "coordinates": {
+                "latitude": 7.683283899999999,
+                "longitude": 81.72798689999999
+            },
+            "address": "20 Fisheries Rd, Kattankudy",
+            "categories":[
+                "Public parking space"
+            ],
+            "phone": "0755250380",
+            "hours":[
+                {
+                    "day": "Monday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Friday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Sunday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                }
+            ],
+            "business_status": "OPEN"
+        },
+        {
+            "name": "SAN PARKING",
+            "coordinates": {
+                "latitude": 7.6908023,
+                "longitude": 81.7335733
+            },
+            "address": "MPRM+8CG, Telecom Rd, Kattankudy",
+            "categories":[
+                "Parking lot"
+            ],
+            "phone": "0779177777",
+            "hours":[
+                {
+                    "day": "Monday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Friday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Sunday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                }
+            ],
+            "business_status": "OPEN"
+        }
+    ]
+}
