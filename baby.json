@@ -1,1668 +1,1671 @@
 {
-    "count": 32,
-    "results":[
+  "count": 32,
+  "results": [
+    {
+      "name": "Baby Blocks",
+      "coordinates": {
+        "latitude": 7.6874465,
+        "longitude": 81.7248575
+      },
+      "address": "Main St, Kattankudy 01",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0777233160",
+      "hours": [
         {
-            "name": "Baby Blocks",
-            "coordinates": {
-                "latitude": 7.6874465,
-                "longitude": 81.7248575
-            },
-            "address": "Main St, Kattankudy 01",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0777233160",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Monday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
         },
         {
-            "name": "The BabyShop Kattankudy",
-            "coordinates": {
-                "latitude": 7.681537199999999,
-                "longitude": 81.7281149
-            },
-            "address": "No 14, Methaipalli Complex, Main St, Kattankudy 30100",
-            "categories":[
-                "Baby store",
-                "Children's store"
-            ],
-            "phone": "0778191491",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Tuesday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
         },
         {
-            "name": "Baby World Kattankudy",
-            "coordinates": {
-                "latitude": 7.675450499999999,
-                "longitude": 81.7316171
-            },
-            "address": "Colombo - Batticaloa Hwy, Kattankudy 30100",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0772255199",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Wednesday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
         },
         {
-            "name": "Baby & Kids Wearhouse",
-            "coordinates": {
-                "latitude": 7.686691799999999,
-                "longitude": 81.72510539999999
-            },
-            "address": "Welcome Board Bus Stop, Colombo-Ratnapura-Wellawaya-Batticaloa Hwy, Kattankudy",
-            "categories":[
-                "Children's clothing store"
-            ],
-            "phone": "0772689550",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Thursday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
         },
         {
-            "name": "Pumpkins",
-            "coordinates": {
-                "latitude": 7.6785649,
-                "longitude": 81.7299585
-            },
-            "address": "Divisional Secretariat Office, Main St, Kattankudy 30100",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0719528172",
-            "hours":[],
-            "business_status": "OPEN"
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
         },
         {
-            "name": "Hi Babies",
-            "coordinates": {
-                "latitude": 7.6869749999999994,
-                "longitude": 81.725188
-            },
-            "address": "422 Main St, Kattankudy",
-            "categories":[
-                "Baby clothing store"
-            ],
-            "phone": "0777926669",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "12–10 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–12 AM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Saturday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
         },
         {
-            "name": "Baby Choice",
-            "coordinates": {
-                "latitude": 7.6815026,
-                "longitude": 81.7280499
-            },
-            "address": "Main St, Kattankudy 30100",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0776540000",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Children Toys",
-            "coordinates": {
-                "latitude": 7.681477999999999,
-                "longitude": 81.7322047
-            },
-            "address": "16 Dr Badhiudeen Mahmood Mawatha, Kattankudy",
-            "categories":[
-                "Store"
-            ],
-            "phone": "0752239364",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "4–10 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "BABY COLLECTION",
-            "coordinates": {
-                "latitude": 7.685326399999999,
-                "longitude": 81.7259349
-            },
-            "address": "NO.152, 06 MAINE STREET, Kattankudy 30100",
-            "categories":[
-                "Baby clothing store"
-            ],
-            "phone": "0771686017",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–5 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–6 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Liberty Baby Care",
-            "coordinates": {
-                "latitude": 7.6812621,
-                "longitude": 81.72827889999999
-            },
-            "address": "MPJH+G82, Kattankudy",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0652054341",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8:30 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8:30 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8:30 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8:30 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8:30 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8:30 AM–8 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Familiar Baby Shop",
-            "coordinates": {
-                "latitude": 7.6806551999999995,
-                "longitude": 81.7300515
-            },
-            "address": "MPJJ+72F, Dr Badhiudeen Mahmood Mawatha, Kattankudy",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0770664968",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "WORLD BABY KIDS",
-            "coordinates": {
-                "latitude": 7.681482,
-                "longitude": 81.73217149999999
-            },
-            "address": "NO 3 Dr Badhiudeen Mahmood Mawatha, Kattankudy",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0776174260",
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Haani Tex",
-            "coordinates": {
-                "latitude": 7.6826941,
-                "longitude": 81.7274156
-            },
-            "address": "new 173 Main St, Kattankudy 2",
-            "categories":[
-                "Baby clothing store"
-            ],
-            "phone": "0778809715",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Aaima Unlimited Kids Fashion House",
-            "coordinates": {
-                "latitude": 7.684459599999999,
-                "longitude": 81.7264043
-            },
-            "address": "MPMG+QHJ, Kattankudy",
-            "categories":[
-                "Baby clothing store"
-            ],
-            "phone": "0777219061",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "BRILLIANT WORLD DIRECT MARKETING COMPANY (PRIVATE) Limited",
-            "coordinates": {
-                "latitude": 7.6853912,
-                "longitude": 81.7261128
-            },
-            "address": "Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Kattankudy",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0754379289",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–7:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–12 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–4 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Baby Kids Outlet Batticaloa",
-            "coordinates": {
-                "latitude": 7.7134556,
-                "longitude": 81.6974644
-            },
-            "address": "Central Road, Batticaloa",
-            "categories":[
-                "Children's clothing store"
-            ],
-            "phone": "0652227479",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9:30 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–8 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Hathiq Toys",
-            "coordinates": {
-                "latitude": 7.6804384,
-                "longitude": 81.7287202
-            },
-            "address": "23 Main St, Kattankudy",
-            "categories":[
-                "Toy store"
-            ],
-            "phone": "0789929944",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "ToySmart",
-            "coordinates": {
-                "latitude": 7.680622,
-                "longitude": 81.7288532
-            },
-            "address": "Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Kattankudy",
-            "categories":[
-                "Toy store"
-            ],
-            "phone": "0770761997",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "GiftBee. LK",
-            "coordinates": {
-                "latitude": 7.6832286,
-                "longitude": 81.7237583
-            },
-            "address": "Ash Shaheed Ahamed Lebbe Rd, Kattankudy",
-            "categories":[
-                "Gift shop"
-            ],
-            "phone": "0767086064",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–5 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9–10:30 AM"
-                    ]
-                }
-            ],
-            "website": "https://chat.whatsapp.com/Jue3pCuD9cE2iZWgAx1aoj",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Shapi kids&house",
-            "coordinates": {
-                "latitude": 7.6083938,
-                "longitude": 81.7122978
-            },
-            "address": "Kokkaddicholai, Batticaloa",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0766645679",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–7 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–7 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–7 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–7 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–7 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–7 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "SHAZA BABY & KIDS",
-            "coordinates": {
-                "latitude": 7.715738699999999,
-                "longitude": 81.6984469
-            },
-            "address": "33 Trinco Rd, Batticaloa 30000",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0774646963",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–12 PM",
-                        "1:30–9 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–8:30 PM"
-                    ]
-                }
-            ],
-            "website": "http://shaza.lk/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Baby Cuddles",
-            "coordinates": {
-                "latitude": 7.731827999999999,
-                "longitude": 81.6944199
-            },
-            "address": "61C, Colombo - Batticaloa Hwy, Batticaloa 30000",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0779797829",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "7 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "7 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "7 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "7 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "7 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "7 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "7 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Savings Supermarket",
-            "coordinates": {
-                "latitude": 7.685760299999999,
-                "longitude": 81.7266234
-            },
-            "address": "Telecom Rd, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0764706878",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8:30 AM–3 AM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "7:30–11:30 AM",
-                        "5 PM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "12 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Fourams City Center - Kattankudy Super Market",
-            "coordinates": {
-                "latitude": 7.681198599999999,
-                "longitude": 81.7316666
-            },
-            "address": "140 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0707070666",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                }
-            ],
-            "website": "http://www.fourams.lk/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Baby Garden",
-            "coordinates": {
-                "latitude": 7.7131336,
-                "longitude": 81.6984367
-            },
-            "address": "PM7X+793, A15, Batticaloa",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0713215076",
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Cheap Center",
-            "coordinates": {
-                "latitude": 7.7181184,
-                "longitude": 81.6984969
-            },
-            "address": "181 Trincomalee-Batticaloa Rd, Batticaloa 30000",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0782878126",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "China Fancy",
-            "coordinates": {
-                "latitude": 7.6826688999999995,
-                "longitude": 81.7233973
-            },
-            "address": "65 Ash Shaheed Ahamed Lebbe Rd, Kattankudy 30100",
-            "categories":[
-                "Toy store"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Baby Corner",
-            "coordinates": {
-                "latitude": 7.7159365,
-                "longitude": 81.6987575
-            },
-            "address": "PM8X+9F5, Batticaloa",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0776403404",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "MaX Creation (Studio MaX)",
-            "coordinates": {
-                "latitude": 7.6810126,
-                "longitude": 81.73103499999999
-            },
-            "address": "128 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
-            "categories":[
-                "Photographer",
-                "Passport photo processor",
-                "Photo shop",
-                "Photography studio",
-                "Portrait studio",
-                "Wedding photographer"
-            ],
-            "phone": "0759990009",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–10:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Muslim Child Development Center",
-            "coordinates": {
-                "latitude": 7.6877758,
-                "longitude": 81.7281874
-            },
-            "address": "MPQH+477, muslim orphanage, Kattankudy",
-            "categories":[
-                "Social services organization"
-            ],
-            "phone": "0652245308",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Bilaal Kidz",
-            "coordinates": {
-                "latitude": 7.713653,
-                "longitude": 81.69820949999999
-            },
-            "address": "PM7X+F78, Bazaar St, Batticaloa",
-            "categories":[
-                "Clothing store"
-            ],
-            "phone": "0652226305",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–7:30 PM"
-                    ]
-                }
-            ],
-            "website": "https://www.facebook.com/bilaalkidz?mibextid=ZbWKwL",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Baby Care",
-            "coordinates": {
-                "latitude": 7.7134784,
-                "longitude": 81.6978352
-            },
-            "address": "PM7X+94W, Batticaloa",
-            "categories":[
-                "Baby store"
-            ],
-            "phone": "0773308215",
-            "hours":[],
-            "business_status": "OPEN"
+          "day": "Sunday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
         }
-    ]
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "The BabyShop Kattankudy",
+      "coordinates": {
+        "latitude": 7.681537199999999,
+        "longitude": 81.7281149
+      },
+      "address": "No 14, Methaipalli Complex, Main St, Kattankudy 30100",
+      "categories": [
+        "Baby store",
+        "Children's store"
+      ],
+      "phone": "0778191491",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Baby World Kattankudy",
+      "coordinates": {
+        "latitude": 7.675450499999999,
+        "longitude": 81.7316171
+      },
+      "address": "Colombo - Batticaloa Hwy, Kattankudy 30100",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0772255199",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Baby & Kids Wearhouse",
+      "coordinates": {
+        "latitude": 7.686691799999999,
+        "longitude": 81.72510539999999
+      },
+      "address": "Welcome Board Bus Stop, Colombo-Ratnapura-Wellawaya-Batticaloa Hwy, Kattankudy",
+      "categories": [
+        "Children's clothing store"
+      ],
+      "phone": "0772689550",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Pumpkins",
+      "coordinates": {
+        "latitude": 7.6785649,
+        "longitude": 81.7299585
+      },
+      "address": "Divisional Secretariat Office, Main St, Kattankudy 30100",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0719528172",
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Hi Babies",
+      "coordinates": {
+        "latitude": 7.6869749999999994,
+        "longitude": 81.725188
+      },
+      "address": "422 Main St, Kattankudy",
+      "categories": [
+        "Baby clothing store"
+      ],
+      "phone": "0777926669",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "10 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "10 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "10 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "10 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "12–10 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "10 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–12 AM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Baby Choice",
+      "coordinates": {
+        "latitude": 7.6815026,
+        "longitude": 81.7280499
+      },
+      "address": "Main St, Kattankudy 30100",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0776540000",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Children Toys",
+      "coordinates": {
+        "latitude": 7.681477999999999,
+        "longitude": 81.7322047
+      },
+      "address": "16 Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+      "categories": [
+        "Store"
+      ],
+      "phone": "0752239364",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "4–10 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Baby Collection",
+      "coordinates": {
+        "latitude": 7.685326399999999,
+        "longitude": 81.7259349
+      },
+      "address": "NO.152, 06 MAINE STREET, Kattankudy 30100",
+      "categories": [
+        "Baby clothing store"
+      ],
+      "phone": "0771686017",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–5 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–6 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN",
+      "name_original": "BABY COLLECTION"
+    },
+    {
+      "name": "Liberty Baby Care",
+      "coordinates": {
+        "latitude": 7.6812621,
+        "longitude": 81.72827889999999
+      },
+      "address": "MPJH+G82, Kattankudy",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0652054341",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8:30 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8:30 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8:30 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8:30 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8:30 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8:30 AM–8 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Familiar Baby Shop",
+      "coordinates": {
+        "latitude": 7.6806551999999995,
+        "longitude": 81.7300515
+      },
+      "address": "MPJJ+72F, Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0770664968",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "World Baby Kids",
+      "coordinates": {
+        "latitude": 7.681482,
+        "longitude": 81.73217149999999
+      },
+      "address": "NO 3 Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0776174260",
+      "hours": [],
+      "business_status": "OPEN",
+      "name_original": "WORLD BABY KIDS"
+    },
+    {
+      "name": "Haani Tex",
+      "coordinates": {
+        "latitude": 7.6826941,
+        "longitude": 81.7274156
+      },
+      "address": "new 173 Main St, Kattankudy 2",
+      "categories": [
+        "Baby clothing store"
+      ],
+      "phone": "0778809715",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Aaima Unlimited Kids Fashion House",
+      "coordinates": {
+        "latitude": 7.684459599999999,
+        "longitude": 81.7264043
+      },
+      "address": "MPMG+QHJ, Kattankudy",
+      "categories": [
+        "Baby clothing store"
+      ],
+      "phone": "0777219061",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "BRILLIANT WORLD DIRECT MARKETING COMPANY (PRIVATE) Limited",
+      "coordinates": {
+        "latitude": 7.6853912,
+        "longitude": 81.7261128
+      },
+      "address": "Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Kattankudy",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0754379289",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "10 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "10 AM–7:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "10 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "10 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–12 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "10 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–4 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Baby Kids Outlet Batticaloa",
+      "coordinates": {
+        "latitude": 7.7134556,
+        "longitude": 81.6974644
+      },
+      "address": "Central Road, Batticaloa",
+      "categories": [
+        "Children's clothing store"
+      ],
+      "phone": "0652227479",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9:30 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–8 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Hathiq Toys",
+      "coordinates": {
+        "latitude": 7.6804384,
+        "longitude": 81.7287202
+      },
+      "address": "23 Main St, Kattankudy",
+      "categories": [
+        "Toy store"
+      ],
+      "phone": "0789929944",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "ToySmart",
+      "coordinates": {
+        "latitude": 7.680622,
+        "longitude": 81.7288532
+      },
+      "address": "Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Kattankudy",
+      "categories": [
+        "Toy store"
+      ],
+      "phone": "0770761997",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "GiftBee. LK",
+      "coordinates": {
+        "latitude": 7.6832286,
+        "longitude": 81.7237583
+      },
+      "address": "Ash Shaheed Ahamed Lebbe Rd, Kattankudy",
+      "categories": [
+        "Gift shop"
+      ],
+      "phone": "0767086064",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–5 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9–10:30 AM"
+          ]
+        }
+      ],
+      "website": "https://chat.whatsapp.com/Jue3pCuD9cE2iZWgAx1aoj",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Shapi kids&house",
+      "coordinates": {
+        "latitude": 7.6083938,
+        "longitude": 81.7122978
+      },
+      "address": "Kokkaddicholai, Batticaloa",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0766645679",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–7 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–7 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–7 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–7 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–7 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–7 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Shaza Baby & Kids",
+      "coordinates": {
+        "latitude": 7.715738699999999,
+        "longitude": 81.6984469
+      },
+      "address": "33 Trinco Rd, Batticaloa 30000",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0774646963",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–12 PM",
+            "1:30–9 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–8:30 PM"
+          ]
+        }
+      ],
+      "website": "http://shaza.lk/",
+      "business_status": "OPEN",
+      "name_original": "SHAZA BABY & KIDS"
+    },
+    {
+      "name": "Baby Cuddles",
+      "coordinates": {
+        "latitude": 7.731827999999999,
+        "longitude": 81.6944199
+      },
+      "address": "61C, Colombo - Batticaloa Hwy, Batticaloa 30000",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0779797829",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "7 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "7 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "7 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "7 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "7 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "7 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "7 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Savings Supermarket",
+      "coordinates": {
+        "latitude": 7.685760299999999,
+        "longitude": 81.7266234
+      },
+      "address": "Telecom Rd, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0764706878",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8:30 AM–3 AM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "7:30–11:30 AM",
+            "5 PM–12 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "12 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Fourams City Center - Kattankudy Super Market",
+      "coordinates": {
+        "latitude": 7.681198599999999,
+        "longitude": 81.7316666
+      },
+      "address": "140 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0707070666",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        }
+      ],
+      "website": "http://www.fourams.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Baby Garden",
+      "coordinates": {
+        "latitude": 7.7131336,
+        "longitude": 81.6984367
+      },
+      "address": "PM7X+793, A15, Batticaloa",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0713215076",
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Cheap Center",
+      "coordinates": {
+        "latitude": 7.7181184,
+        "longitude": 81.6984969
+      },
+      "address": "181 Trincomalee-Batticaloa Rd, Batticaloa 30000",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0782878126",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "China Fancy",
+      "coordinates": {
+        "latitude": 7.6826688999999995,
+        "longitude": 81.7233973
+      },
+      "address": "65 Ash Shaheed Ahamed Lebbe Rd, Kattankudy 30100",
+      "categories": [
+        "Toy store"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Baby Corner",
+      "coordinates": {
+        "latitude": 7.7159365,
+        "longitude": 81.6987575
+      },
+      "address": "PM8X+9F5, Batticaloa",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0776403404",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "MaX Creation (Studio MaX)",
+      "coordinates": {
+        "latitude": 7.6810126,
+        "longitude": 81.73103499999999
+      },
+      "address": "128 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
+      "categories": [
+        "Photographer",
+        "Passport photo processor",
+        "Photo shop",
+        "Photography studio",
+        "Portrait studio",
+        "Wedding photographer"
+      ],
+      "phone": "0759990009",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "10 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "10 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "10 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "10 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "10 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–10:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Muslim Child Development Center",
+      "coordinates": {
+        "latitude": 7.6877758,
+        "longitude": 81.7281874
+      },
+      "address": "MPQH+477, muslim orphanage, Kattankudy",
+      "categories": [
+        "Social services organization"
+      ],
+      "phone": "0652245308",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Open 24 hours"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Bilaal Kidz",
+      "coordinates": {
+        "latitude": 7.713653,
+        "longitude": 81.69820949999999
+      },
+      "address": "PM7X+F78, Bazaar St, Batticaloa",
+      "categories": [
+        "Clothing store"
+      ],
+      "phone": "0652226305",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–7:30 PM"
+          ]
+        }
+      ],
+      "website": "https://www.facebook.com/bilaalkidz?mibextid=ZbWKwL",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Baby Care",
+      "coordinates": {
+        "latitude": 7.7134784,
+        "longitude": 81.6978352
+      },
+      "address": "PM7X+94W, Batticaloa",
+      "categories": [
+        "Baby store"
+      ],
+      "phone": "0773308215",
+      "hours": [],
+      "business_status": "OPEN"
+    }
+  ]
 }
