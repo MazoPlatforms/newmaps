@@ -1,7 +1,6 @@
 {
-  "description": "Reviewed English-only replacements for Tamil/Sinhala/mixed POI names. Original strings retained in name_original on source records.",
+  "description": "Reviewed English-only replacements for Tamil/Sinhala/mixed POI names; mixed-script brand names such as KaதாN are intentionally preserved. No name_original fields are stored.",
   "translations": {
-    "KaதாN": "Kathan",
     "Taste King - Taste கடை": "Taste King - Taste Shop",
     "சூப் கடை": "Soup Shop",
     "சூப் கடை (Poonochchimunai)": "Soup Shop (Poonochchimunai)",
