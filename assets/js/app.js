@@ -4,7 +4,7 @@ const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https:/
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const map=new maplibregl.Map({container:'map',style:styles[theme()],center:[81.729,7.685],zoom:14,minZoom:12,maxBounds:[[81.685,7.635],[81.785,7.735]]});
 // Minimal map chrome: touch gestures remain available without zoom buttons.
-let places=[],category='all',roadsVisible=true,placesVisible=true;
+let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null;
 const KATTANKUDY=[81.70,7.65,81.77,7.72];
 const inArea=p=>+p.coordinates.longitude>=KATTANKUDY[0]&&+p.coordinates.longitude<=KATTANKUDY[2]&&+p.coordinates.latitude>=KATTANKUDY[1]&&+p.coordinates.latitude<=KATTANKUDY[3];
 // Presentation-only Sri Lankan postal address cleanup. This never invents a house number.
@@ -347,7 +347,16 @@ function refresh(){
 map.on('click',POI_LAYER,e=>{const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
 map.on('mouseenter',POI_LAYER,()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',POI_LAYER,()=>map.getCanvas().style.cursor='');
-async function roads(){try{const r=await fetch('./data/roads/kattankudy.json');if(!r.ok)return;const data=await r.json();const features=(data.roads||[]).filter(x=>x.coordinates?.length>1).map(x=>({type:'Feature',properties:{name:x.name||''},geometry:{type:'LineString',coordinates:x.coordinates}}));if(map.getSource('mazo-roads'))return;map.addSource('mazo-roads',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-road-lines',type:'line',source:'mazo-roads',paint:{'line-color':'#f8f9fa','line-width':['interpolate',['linear'],['zoom'],11,2,16,9]}});map.addLayer({id:'mazo-road-names',type:'symbol',source:'mazo-roads',minzoom:13,filter:['!=',['get','name'],''],layout:{'symbol-placement':'line','text-field':['get','name'],'text-size':12},paint:{'text-color':'#46515b','text-halo-color':'#fff','text-halo-width':2}});for(const id of ['mazo-road-lines','mazo-road-names'])map.setLayoutProperty(id,'visibility',roadsVisible?'visible':'none')}catch(e){console.warn(e)}}
+function loadRoadGeoJSON(){
+ if(!roadGeoJSONPromise)roadGeoJSONPromise=(async()=>{
+  const mr=await fetch('./generated/kattankudy-roads-manifest.json');if(!mr.ok)throw Error('Road manifest '+mr.status);
+  const manifest=await mr.json(),r=await fetch('./generated/'+manifest.geojson+'?v='+manifest.sha256);if(!r.ok)throw Error('Road MZP '+r.status);
+  const data=JSON.parse(await r.text());if(data.type!=='FeatureCollection'||data.features.length!==manifest.valid_geographic_features)throw Error('Road MZP manifest mismatch');
+  return data;
+ })();
+ return roadGeoJSONPromise;
+}
+async function roads(){try{const data=await loadRoadGeoJSON();if(map.getSource('mazo-roads'))return;map.addSource('mazo-roads',{type:'geojson',data});map.addLayer({id:'mazo-road-lines',type:'line',source:'mazo-roads',paint:{'line-color':'#f8f9fa','line-width':['interpolate',['linear'],['zoom'],11,2,16,9]}});map.addLayer({id:'mazo-road-names',type:'symbol',source:'mazo-roads',minzoom:13,filter:['!=',['get','name'],null],layout:{'symbol-placement':'line','text-field':['get','name'],'text-size':12},paint:{'text-color':'#46515b','text-halo-color':'#fff','text-halo-width':2}});for(const id of ['mazo-road-lines','mazo-road-names'])map.setLayoutProperty(id,'visibility',roadsVisible?'visible':'none')}catch(e){console.warn('Road MZP unavailable:',e)}}
 
 
 /* Gazette-backed provisional 70 km/h defaults. Not individually verified road limits.
@@ -374,10 +383,10 @@ function ensureSpeedReview(){
 }
 async function loadSpeedReviews(){
  try{
-  const [sr,rr]=await Promise.all([fetch('./data/speed-limits/kattankudy.json'),fetch('./data/roads/kattankudy.json')]);
-  if(!sr.ok||!rr.ok)return;
-  const speed=await sr.json(),roadData=await rr.json();
-  const byId=new Map((roadData.roads||[]).map(road=>[road.id,road]));
+  const [sr,roadData]=await Promise.all([fetch('./data/speed-limits/kattankudy.json'),loadRoadGeoJSON()]);
+  if(!sr.ok)return;
+  const speed=await sr.json();
+  const byId=new Map((roadData.features||[]).map(feature=>[feature.properties?.source_id,{id:feature.id,name:feature.properties?.name,type:feature.properties?.type,coordinates:feature.geometry?.coordinates}]));
   const seen=new Set(),features=[];
   for(const record of speed.segments||[]){
    const road=byId.get(record.road_id),coords=road?.coordinates;

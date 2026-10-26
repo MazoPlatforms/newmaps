@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mazoplatforms.github.io/newmaps/road.schema.json",
+  "title": "Mazo Road Segment",
+  "type": "object",
+  "required": ["id", "source_id", "name", "type", "coordinates"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[0-7][0-9A-HJKMNP-TV-Z]{25}$"},
+    "source_id": {"type": "string", "minLength": 1},
+    "name": {"type": ["string", "null"]},
+    "type": {"type": "string", "minLength": 1},
+    "coordinates": {
+      "description": "Preserved source coordinate array. Geometry validity is checked by scripts/roads.py; invalid coordinates must be documented in road-exclusions.json.",
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

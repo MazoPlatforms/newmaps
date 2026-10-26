@@ -5,11 +5,13 @@ on:
     paths:
       - '.github/workflows/refresh-roads.yml'
       - 'scripts/convert_roads.py'
+      - 'scripts/roads.py'
   workflow_dispatch:
   schedule:
     - cron: '17 3 1 * *'
 permissions:
   contents: write
+  pull-requests: write
 concurrency:
   group: kattankudy-roads
   cancel-in-progress: false
@@ -30,23 +32,22 @@ jobs:
         run: |
           mkdir -p /tmp/mazo-roads
           overturemaps download --bbox=81.70,7.65,81.77,7.72 -f geojson --type=segment -o /tmp/mazo-roads/segments.geojson
-      - name: Convert to Mazo JSON
-        run: python scripts/convert_roads.py /tmp/mazo-roads/segments.geojson data/roads/kattankudy.json
-      - name: Validate output
+      - name: Convert and allocate individual road records
         run: |
-          python - <<'PY'
-          import json
-          p=json.load(open('data/roads/kattankudy.json'))
-          assert p['count']==len(p['roads']) and p['count']>0
-          assert all(len(r['coordinates'])>=2 for r in p['roads'])
-          print('Validated',p['count'],'roads')
-          PY
-      - name: Commit updated roads
+          python scripts/convert_roads.py /tmp/mazo-roads/segments.geojson /tmp/mazo-roads/kattankudy.json
+          python scripts/roads.py migrate /tmp/mazo-roads/kattankudy.json
+          python scripts/roads.py validate
+      - name: Create reviewed update pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/roads/kattankudy.json
+          git add -A data/roads/
           if git diff --cached --quiet; then echo 'No changes'; else
+            branch="automation/refresh-roads-$(date -u +%Y%m%d-%H%M%S)"
+            git switch -c "$branch"
             git commit -m 'data: refresh Kattankudy roads from Overture'
-            git push
+            git push --set-upstream origin "$branch"
+            gh pr create --base main --head "$branch" --title 'Refresh Kattankudy road data' --body 'Update individual road records from Overture Maps. Validation and MZP generation run in GitHub Actions.'
           fi
