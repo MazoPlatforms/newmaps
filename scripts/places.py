@@ -4,7 +4,7 @@ import argparse, hashlib, json, os, re, secrets, sys, time
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
-PLACES=ROOT/'data'/'places'; GENERATED=ROOT/'generated'; LIMIT=999
+PLACES=ROOT/'data'/'places'; GENERATED=ROOT/'generated'; ALIASES=PLACES/'aliases.json'; LIMIT=999
 ULID=re.compile(r'^[0-7][0-9A-HJKMNP-TV-Z]{25}$')
 SOURCE_FILES=sorted(p for p in ROOT.glob('*.json') if p.name not in {'manifest.json','migration-record-map.json','migration-exclusions.json'})
 
@@ -38,6 +38,7 @@ def validate_record(record, path=None, allow_invalid_coordinates=False):
 def load_places():
     records=[]; ids=set(); counts={}; suspicious=[]
     for shard in sorted(PLACES.iterdir(),key=lambda p:p.name) if PLACES.exists() else []:
+        if shard.is_file() and shard.name=='aliases.json': continue
         if not shard.is_dir() or not re.fullmatch(r'\d{4,}',shard.name): raise ValueError(f'Invalid shard name: {shard.name}')
         files=shard_files(shard); counts[shard.name]=len(files)
         if len(files)>LIMIT: raise ValueError(f'{shard} contains {len(files)} files; maximum is {LIMIT}')
@@ -45,6 +46,11 @@ def load_places():
             p=json.loads(path.read_text(encoding='utf8')); validate_record(p,path,allow_invalid_coordinates=True)
             if p['id'] in ids: raise ValueError(f'Duplicate ID: {p["id"]}')
             ids.add(p['id']); records.append(p)
+    aliases=load_aliases()
+    for retired_id in aliases:
+        if retired_id in ids: raise ValueError(f'Retired place ID is also active: {retired_id}')
+        target=resolve_place_id(retired_id,aliases)
+        if target not in ids: raise ValueError(f'Place alias does not resolve to an active record: {retired_id} -> {target}')
     fingerprints={}
     for p in records:
         if not isinstance(p.get('coordinates'),dict):continue
@@ -53,6 +59,18 @@ def load_places():
     for ids in fingerprints.values():
         if len(ids)>1:suspicious.extend([[ids[0],other] for other in ids[1:]])
     return records,counts,suspicious
+def load_aliases():
+    if not ALIASES.exists(): return {}
+    data=json.loads(ALIASES.read_text(encoding='utf8'))
+    if data.get('version')!=1 or not isinstance(data.get('aliases'),dict): raise ValueError('Invalid place aliases.json')
+    return data['aliases']
+def resolve_place_id(record_id, aliases=None):
+    aliases=load_aliases() if aliases is None else aliases
+    seen=set()
+    while record_id in aliases:
+        if record_id in seen: raise ValueError(f'Place alias cycle: {record_id}')
+        seen.add(record_id);record_id=aliases[record_id]['canonical_id']
+    return record_id
 def feature(p):
     return {'type':'Feature','id':p['id'],'geometry':{'type':'Point','coordinates':[p['coordinates']['longitude'],p['coordinates']['latitude']]},'properties':{k:v for k,v in p.items() if k not in {'id','coordinates'}}}
 def build():
@@ -62,12 +80,21 @@ def build():
     data=json.dumps({'type':'FeatureCollection','features':features},ensure_ascii=False,separators=(',',':')).encode()
     out=GENERATED/'kattankudy.mzp';out.write_bytes(data)
     digest=hashlib.sha256(data).hexdigest()
-    report={'format':'MZP/1','geojson':'kattankudy.mzp','features':len(features),'excluded_without_coordinates':excluded,'bytes':len(data),'sha256':digest,'shards':counts}
+    aliases=load_aliases()
+    resolved_aliases={retired:resolve_place_id(retired,aliases) for retired in aliases}
+    report={'format':'MZP/1','geojson':'kattankudy.mzp','features':len(features),'excluded_without_coordinates':excluded,'bytes':len(data),'sha256':digest,'shards':counts,'aliases':resolved_aliases}
     (GENERATED/'manifest.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({**report,'suspicious_duplicate_pairs':len(suspicious)},indent=2))
-def allocate(record):
+def allocate(record, allow_duplicate_candidate=False):
     if 'id' in record: raise ValueError('New places must not supply an existing id')
     record={**record,'id':new_ulid()};validate_record(record)
+    if not allow_duplicate_candidate and isinstance(record.get('coordinates'),dict):
+        incoming=(re.sub(r'[^\w]','',record['name'].casefold()),record['coordinates'].get('latitude'),record['coordinates'].get('longitude'))
+        for existing in load_places()[0]:
+            c=existing.get('coordinates')
+            if not isinstance(c,dict): continue
+            key=(re.sub(r'[^\w]','',existing['name'].casefold()),c.get('latitude'),c.get('longitude'))
+            if key==incoming: raise ValueError(f'Potential duplicate place already exists: {existing["id"]}; review or pass --allow-duplicate-candidate for a verified separate branch/place')
     shard=next_shard();shard.mkdir(parents=True,exist_ok=True);target=shard/(record['id']+'.json')
     with target.open('x',encoding='utf8') as f:json.dump(record,f,ensure_ascii=False,indent=2);f.write('\n')
     print(target.relative_to(ROOT))
@@ -99,11 +126,11 @@ def migrate():
 def main():
     parser=argparse.ArgumentParser(); sub=parser.add_subparsers(dest='cmd',required=True)
     sub.add_parser('ulid'); sub.add_parser('validate'); sub.add_parser('build'); sub.add_parser('migrate')
-    a=sub.add_parser('add');a.add_argument('json_file',type=Path)
+    a=sub.add_parser('add');a.add_argument('json_file',type=Path);a.add_argument('--allow-duplicate-candidate',action='store_true')
     args=parser.parse_args()
     try:
         if args.cmd=='ulid':print(new_ulid())
-        elif args.cmd=='add':allocate(json.loads(args.json_file.read_text(encoding='utf8')))
+        elif args.cmd=='add':allocate(json.loads(args.json_file.read_text(encoding='utf8')),args.allow_duplicate_candidate)
         elif args.cmd=='migrate':migrate()
         elif args.cmd=='validate':
             r,c,d=load_places();print(json.dumps({'records':len(r),'shards':c,'suspicious_duplicate_pairs':d},indent=2))
