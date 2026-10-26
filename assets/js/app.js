@@ -152,8 +152,8 @@ map.on('mouseleave',POI_LAYER,()=>map.getCanvas().style.cursor='');
 async function roads(){try{const r=await fetch('./data/roads/kattankudy.json');if(!r.ok)return;const data=await r.json();const features=(data.roads||[]).filter(x=>x.coordinates?.length>1).map(x=>({type:'Feature',properties:{name:x.name||''},geometry:{type:'LineString',coordinates:x.coordinates}}));if(map.getSource('mazo-roads'))return;map.addSource('mazo-roads',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-road-lines',type:'line',source:'mazo-roads',paint:{'line-color':'#f8f9fa','line-width':['interpolate',['linear'],['zoom'],11,2,16,9]}});map.addLayer({id:'mazo-road-names',type:'symbol',source:'mazo-roads',minzoom:13,filter:['!=',['get','name'],''],layout:{'symbol-placement':'line','text-field':['get','name'],'text-size':12},paint:{'text-color':'#46515b','text-halo-color':'#fff','text-halo-width':2}});for(const id of ['mazo-road-lines','mazo-road-names'])map.setLayoutProperty(id,'visibility',roadsVisible?'visible':'none')}catch(e){console.warn(e)}}
 
 
-/* Gazette-backed speed-limit review markers. A question mark is deliberate:
-   no individual road has a verified posted limit or mapped A04 chainage yet. */
+/* Gazette-backed provisional 70 km/h defaults. Not individually verified road limits.
+   A04 built-up geometry requires authoritative chainage matching before 50 km/h display. */
 const SPEED_SOURCE='mazo-speed-review',SPEED_LAYER='mazo-speed-review-signs';
 let speedReviewFeatures=[];
 function ensureSpeedReview(){
@@ -164,7 +164,7 @@ function ensureSpeedReview(){
   const ctx=canvas.getContext('2d');
   ctx.beginPath();ctx.arc(36,36,31,0,Math.PI*2);ctx.fillStyle='#fff';ctx.fill();
   ctx.lineWidth=7;ctx.strokeStyle='#d63030';ctx.stroke();
-  ctx.fillStyle='#263238';ctx.font='bold 38px sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('?',36,39);
+  ctx.fillStyle='#263238';ctx.font='bold 29px sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('70',36,39);
   map.addImage(id,ctx.getImageData(0,0,72,72),{pixelRatio:2});
  }
  const data={type:'FeatureCollection',features:speedReviewFeatures};
@@ -189,7 +189,7 @@ async function loadSpeedReviews(){
    const key=Math.round(midpoint[0]*800)+'/'+Math.round(midpoint[1]*800);
    if(seen.has(key))continue;seen.add(key);
    features.push({type:'Feature',geometry:{type:'Point',coordinates:midpoint},properties:{
-    road:record.road_name||'Unnamed road',status:'Needs verification',
+    road:record.road_name||'Unnamed road',status:'Legal default candidate — unverified',
     candidate:record.legal_default_candidate_kmh??'',road_id:record.road_id}});
   }
   speedReviewFeatures=features;ensureSpeedReview();
@@ -201,9 +201,9 @@ map.on('click',SPEED_LAYER,e=>{
  new maplibregl.Popup({offset:18,maxWidth:'280px'}).setLngLat(f.geometry.coordinates)
   .setDOMContent((()=>{
    const box=document.createElement('div');
-   const heading=document.createElement('strong');heading.textContent='Speed limit · Not verified';
-   const detail=document.createElement('p');detail.textContent=p.road+' — this road has no mapped, verified speed limit. The 2012 Gazette provides general legal rules, not a confirmed sign at this location.';
-   const note=document.createElement('small');note.textContent='? is a review marker, not a regulatory speed-limit sign. Do not use it as driving guidance.';
+   const heading=document.createElement('strong');heading.textContent='70 km/h · Legal default candidate';
+   const detail=document.createElement('p');detail.textContent=p.road+' — 70 km/h is the general non-built-up motor-vehicle limit in the 2012 Gazette, shown here as a provisional default. This road has not been individually classified or verified; A04 scheduled built-up sections have different limits.';
+   const note=document.createElement('small');note.textContent='Provisional map data only — not a verified posted sign or safe driving-speed recommendation. Vehicle-specific limits and local restrictions may differ.';
    box.append(heading,detail,note);return box;
   })()).addTo(map);
 });
