@@ -208,3 +208,30 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .mazo-place-marker{width:118px;min-height:54px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;cursor:pointer;filter:drop-shadow(0 2px 2px #0004);font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;pointer-events:auto}
 .mazo-place-marker svg{flex:none}
 .mazo-place-label{display:block;max-width:118px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:1px;padding:2px 5px;border-radius:5px;background:var(--surface);color:var(--ink);border:1px solid var(--line);font-size:11px;font-weight:600;line-height:1.3;text-align:center;box-shadow:0 1px 4px #0002}
+
+/* Lightweight, image-free native place details. */
+[hidden]{display:none!important}
+.place-sheet{position:absolute;z-index:8;left:50%;bottom:0;width:min(480px,100%);height:50dvh;max-height:calc(100dvh - 12px);transform:translateX(-50%);display:flex;flex-direction:column;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-bottom:0;border-radius:20px 20px 0 0;box-shadow:0 -8px 32px #0002;overflow:hidden;transition:height .22s ease}
+.place-sheet[data-state=compact]{height:190px}
+.place-sheet[data-state=half]{height:50dvh}
+.place-sheet[data-state=expanded]{height:calc(100dvh - 20px)}
+.place-sheet-top{position:relative;flex:none;height:35px}
+.place-handle{width:75%;height:35px;margin:auto;display:grid;place-items:center;touch-action:none;cursor:ns-resize}
+.place-handle span{width:38px;height:5px;border-radius:9px;background:var(--line)}
+.place-close{position:absolute;right:12px;top:3px;border:0;background:transparent;color:var(--ink);font-size:26px;cursor:pointer}
+.place-sheet-heading{padding:3px 22px 10px;flex:none}
+.place-sheet-heading h2{font-size:21px;line-height:1.25;margin:0 26px 6px 0;overflow-wrap:anywhere}
+.place-sheet-heading p{margin:0;color:var(--muted);font-size:13px}
+.place-sheet-actions{display:flex;gap:8px;padding:6px 22px 12px;overflow-x:auto;flex:none}
+.place-sheet-actions a{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;border:1px solid var(--line);border-radius:24px;padding:9px 15px;color:var(--ink);text-decoration:none;font-size:13px}
+.place-sheet-actions a:first-child{background:var(--accent);color:#fff;border-color:var(--accent)}
+.place-sheet-content{overflow-y:auto;padding:0 22px 20px;flex:1;min-height:0;font-size:14px;overscroll-behavior:contain}
+.place-sheet-content p{margin:10px 0;overflow-wrap:anywhere}
+.place-sheet-content h3{font-size:14px;margin:18px 0 8px}
+.place-coordinates{color:var(--muted);font-size:12px}
+.place-sheet-sizes{display:flex;justify-content:center;gap:8px;padding:10px 16px calc(12px + env(safe-area-inset-bottom));border-top:1px solid var(--line);flex:none}
+.place-sheet-sizes button{border:1px solid var(--line);background:var(--surface-alt);color:var(--ink);padding:7px 12px;border-radius:16px;font-size:12px}
+.place-sheet-sizes button[aria-pressed=true]{border-color:var(--accent);color:var(--accent-ink)}
+.place-sheet[data-state=compact] .place-sheet-content,.place-sheet[data-state=compact] .place-sheet-sizes{display:none}
+@media(min-width:601px){.place-sheet{border-radius:18px 18px 0 0}}
+@media(prefers-reduced-motion:reduce){.place-sheet{transition:none}}
