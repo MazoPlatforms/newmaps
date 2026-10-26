@@ -16,32 +16,5 @@
       81.7259764,
       7.6766642
     ]
-  ],
-  "supplementary_maxspeed_evidence": {
-    "source": "kattankudy-all-roads.json",
-    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
-    "osm_id": "450704653",
-    "maxspeed": "30",
-    "maxspeed_unit": null,
-    "maxspeed_status": "unverified_source_tag",
-    "source_tags": {
-      "highway": "service",
-      "lanes": "1",
-      "maxspeed": "30",
-      "name": "Market Road",
-      "service": "alley",
-      "source": "Maxar-Premium",
-      "surface": "unpaved"
-    },
-    "highway": "service",
-    "name": "Market Road",
-    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
-    "match_evidence": {
-      "status": "matched",
-      "road_source_id": "0c4366af-925a-485f-bb76-21c7980ee681:0",
-      "geometry_coverage_8m": 1.0,
-      "nearest_road_share": 0.941,
-      "runner_up_margin": 0.8819999999999999
-    }
-  }
+  ]
 }

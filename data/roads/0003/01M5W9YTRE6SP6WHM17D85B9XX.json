@@ -44,29 +44,5 @@
       81.7110944,
       7.7186758
     ]
-  ],
-  "supplementary_maxspeed_evidence": {
-    "source": "kattankudy-all-roads.json",
-    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
-    "osm_id": "219995621",
-    "maxspeed": "30",
-    "maxspeed_unit": null,
-    "maxspeed_status": "unverified_source_tag",
-    "source_tags": {
-      "highway": "service",
-      "maxspeed": "30",
-      "name": "Riviera Hotel Road",
-      "type": "gravel"
-    },
-    "highway": "service",
-    "name": "Riviera Hotel Road",
-    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
-    "match_evidence": {
-      "status": "matched",
-      "road_source_id": "ca62d027-586c-4d8f-9d40-90aadf7fc722:0",
-      "geometry_coverage_8m": 1.0,
-      "nearest_road_share": 0.982,
-      "runner_up_margin": 0.964
-    }
-  }
+  ]
 }

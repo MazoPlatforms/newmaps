@@ -32,33 +32,5 @@
       81.7278307,
       7.6775529
     ]
-  ],
-  "supplementary_maxspeed_evidence": {
-    "source": "kattankudy-all-roads.json",
-    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
-    "osm_id": "407681701",
-    "maxspeed": "30",
-    "maxspeed_unit": null,
-    "maxspeed_status": "unverified_source_tag",
-    "source_tags": {
-      "bicycle": "designated",
-      "bicycle_road": "yes",
-      "highway": "track",
-      "maxspeed": "30",
-      "name": "SK Hajiyar Lane",
-      "smoothness": "intermediate",
-      "surface": "concrete",
-      "vehicle": "no"
-    },
-    "highway": "track",
-    "name": "SK Hajiyar Lane",
-    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
-    "match_evidence": {
-      "status": "matched",
-      "road_source_id": "fcab5bc0-2ccf-4cce-9ac7-81a37cbdea71:0",
-      "geometry_coverage_8m": 1.0,
-      "nearest_road_share": 0.979,
-      "runner_up_margin": 0.958
-    }
-  }
+  ]
 }

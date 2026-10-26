@@ -16,28 +16,5 @@
       81.7382111,
       7.6836052
     ]
-  ],
-  "supplementary_maxspeed_evidence": {
-    "source": "kattankudy-all-roads.json",
-    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
-    "osm_id": "179555127",
-    "maxspeed": "30",
-    "maxspeed_unit": null,
-    "maxspeed_status": "unverified_source_tag",
-    "source_tags": {
-      "highway": "residential",
-      "maxspeed": "30",
-      "name": "Third Cross Lane"
-    },
-    "highway": "residential",
-    "name": "Third Cross Lane",
-    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
-    "match_evidence": {
-      "status": "matched",
-      "road_source_id": "25273c3c-8233-4919-8dd9-6ffead6f042e:0",
-      "geometry_coverage_8m": 1.0,
-      "nearest_road_share": 0.667,
-      "runner_up_margin": 0.396
-    }
-  }
+  ]
 }

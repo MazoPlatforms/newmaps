@@ -40,27 +40,5 @@
       81.7158214,
       7.7093265
     ]
-  ],
-  "supplementary_maxspeed_evidence": {
-    "source": "kattankudy-all-roads.json",
-    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
-    "osm_id": "224828204",
-    "maxspeed": "30",
-    "maxspeed_unit": null,
-    "maxspeed_status": "unverified_source_tag",
-    "source_tags": {
-      "highway": "service",
-      "maxspeed": "30"
-    },
-    "highway": "service",
-    "name": null,
-    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
-    "match_evidence": {
-      "status": "matched",
-      "road_source_id": "3d464e70-aab6-4f74-9ffc-34c4259d4bc5:0",
-      "geometry_coverage_8m": 1.0,
-      "nearest_road_share": 0.943,
-      "runner_up_margin": 0.9239999999999999
-    }
-  }
+  ]
 }

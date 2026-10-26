@@ -36,28 +36,5 @@
       81.72048,
       7.6872869
     ]
-  ],
-  "supplementary_maxspeed_evidence": {
-    "source": "kattankudy-all-roads.json",
-    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
-    "osm_id": "220718027",
-    "maxspeed": "30",
-    "maxspeed_unit": null,
-    "maxspeed_status": "unverified_source_tag",
-    "source_tags": {
-      "highway": "residential",
-      "maxspeed": "30",
-      "name": "2nd Cross Road"
-    },
-    "highway": "residential",
-    "name": "2nd Cross Road",
-    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
-    "match_evidence": {
-      "status": "matched",
-      "road_source_id": "348ba9e9-7afd-4b3f-80c7-acbddca5a7c2:0",
-      "geometry_coverage_8m": 1.0,
-      "nearest_road_share": 0.75,
-      "runner_up_margin": 0.521
-    }
-  }
+  ]
 }

@@ -16,28 +16,5 @@
       81.7023728,
       7.7163241
     ]
-  ],
-  "supplementary_maxspeed_evidence": {
-    "source": "kattankudy-all-roads.json",
-    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
-    "osm_id": "224466385",
-    "maxspeed": "25",
-    "maxspeed_unit": null,
-    "maxspeed_status": "unverified_source_tag",
-    "source_tags": {
-      "highway": "track",
-      "maxspeed": "25",
-      "motorcycle": "yes"
-    },
-    "highway": "track",
-    "name": null,
-    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
-    "match_evidence": {
-      "status": "matched",
-      "road_source_id": "4946fc72-eb79-4217-9496-a96fcc1aa609:0",
-      "geometry_coverage_8m": 1.0,
-      "nearest_road_share": 1.0,
-      "runner_up_margin": 1.0
-    }
-  }
+  ]
 }

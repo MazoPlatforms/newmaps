@@ -28,30 +28,5 @@
       81.7287805,
       7.6730703
     ]
-  ],
-  "supplementary_maxspeed_evidence": {
-    "source": "kattankudy-all-roads.json",
-    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
-    "osm_id": "179555269",
-    "maxspeed": "30",
-    "maxspeed_unit": null,
-    "maxspeed_status": "unverified_source_tag",
-    "source_tags": {
-      "highway": "path",
-      "lanes": "1",
-      "maxspeed": "30",
-      "source": "Maxar-Premium",
-      "surface": "unpaved"
-    },
-    "highway": "path",
-    "name": null,
-    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
-    "match_evidence": {
-      "status": "matched",
-      "road_source_id": "3b3a0070-e5b1-469d-94c5-48a653aa90d7:0",
-      "geometry_coverage_8m": 1.0,
-      "nearest_road_share": 0.967,
-      "runner_up_margin": 0.9339999999999999
-    }
-  }
+  ]
 }
