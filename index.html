@@ -1,39 +1,85 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mazo Maps — Kattankudy</title><link href="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.css" rel="stylesheet"><style>*{box-sizing:border-box}body{margin:0;font:14px system-ui,sans-serif;color:#17212b}#map{position:absolute;inset:0}.panel{position:absolute;z-index:2;top:16px;left:16px;width:min(350px,calc(100vw - 32px));background:white;padding:16px;border-radius:18px;box-shadow:0 8px 40px #0002}h1{font-size:20px;margin:0 0 4px}.muted{color:#667085;font-size:12px}input{width:100%;padding:12px;border:1px solid #d0d5dd;border-radius:10px;margin-top:12px;font:inherit}#list{max-height:38vh;overflow:auto;margin-top:8px}.item{width:100%;display:block;text-align:left;background:none;border:0;border-bottom:1px solid #eee;padding:10px 2px;cursor:pointer}.item:hover{background:#f6f8fa}.item small{display:block;color:#667085;margin-top:3px}.maplibregl-popup-content{border-radius:12px;max-width:270px;overflow-wrap:anywhere}.maplibregl-popup-content h3{margin:0 0 8px}@media(max-width:600px){.panel{top:8px;left:8px;width:calc(100vw - 16px);padding:12px}#list{max-height:22vh}}</style></head><body><div id="map"></div><section class="panel"><h1>Mazo Maps</h1><div class="muted" id="status">Loading places…</div><input id="search" type="search" placeholder="Search businesses and categories" aria-label="Search places"><div id="list"></div></section><script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js"></script><script>
-const map=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',center:[81.729,7.685],zoom:13});map.addControl(new maplibregl.NavigationControl(),'bottom-right');
-// Keep geographic basemap geometry, but suppress every provider-supplied
-// symbol (POI icons, business names, city labels and road text).
-// The only visible place pins are rendered from ./places.json.
-map.on('style.load',()=>{
-  for(const layer of map.getStyle().layers||[]){
-    if(layer.type==='symbol') map.setLayoutProperty(layer.id,'visibility','none');
-  }
-});
-const status=document.querySelector('#status'),list=document.querySelector('#list'),search=document.querySelector('#search');let places=[],markers=[];
-function safe(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function makePin(p){const el=document.createElement('div');el.style.cssText='width:34px;height:40px;cursor:pointer;filter:drop-shadow(0 2px 3px #0005)';el.innerHTML='<svg width="34" height="40" viewBox="0 0 34 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 1C8 1 2 8 2 17c0 11 15 22 15 22s15-11 15-22C32 8 26 1 17 1Z" fill="#b87353" stroke="white" stroke-width="2"/><path d="M12 9v10m4-10v10m-7-6h9m5-4v15m0-15c-4 3-4 8 0 8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/></svg>';el.setAttribute('aria-label',p.name);return el;}
-function openPlace(p){const c=p.coordinates;map.flyTo({center:[+c.longitude,+c.latitude],zoom:16});new maplibregl.Popup({offset:16}).setLngLat([+c.longitude,+c.latitude]).setHTML('<h3>'+safe(p.name)+'</h3><p>'+safe(p.address||'')+'</p><p>'+safe((p.categories||[]).join(', '))+'</p>'+(p.phone?'<p>Phone: '+safe(p.phone)+'</p>':'')+(p.website&&/^https?:\/\//i.test(p.website)?'<a href="'+safe(p.website)+'" target="_blank" rel="noopener noreferrer">Website</a>':'')).addTo(map);}
-function render(){const q=search.value.trim().toLocaleLowerCase();const matched=places.filter(p=>(p.name+' '+p.address+' '+(p.categories||[]).join(' ')).toLocaleLowerCase().includes(q));list.replaceChildren();for(const p of matched.slice(0,80)){const b=document.createElement('button');b.className='item';const name=document.createElement('strong');name.textContent=p.name;const small=document.createElement('small');small.textContent=(p.categories||[]).join(', ')+' · '+(p.address||'');b.append(name,small);b.onclick=()=>openPlace(p);list.append(b)}status.textContent=matched.length+' places found'+(matched.length>80?' · first 80 shown':'');}
-async function load(){try{const files=['./places.json','./bakery.json','./supermarket.json','./halls.json'];const responses=await Promise.all(files.map(async file=>{const r=await fetch(file);if(!r.ok)throw Error(file+': HTTP '+r.status);return r.json()}));const unique=new Map();for(const json of responses){for(const p of (Array.isArray(json)?json:json.results||[])){if(!p||!p.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const key=p.name.trim().toLocaleLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!unique.has(key))unique.set(key,p);}}places=[...unique.values()];for(const p of places){const c=p.coordinates;const marker=new maplibregl.Marker({element:makePin(p)}).setLngLat([+c.longitude,+c.latitude]).addTo(map);marker.getElement().addEventListener('click',()=>openPlace(p));markers.push(marker)}render();if(places.length){const bounds=new maplibregl.LngLatBounds();places.forEach(p=>bounds.extend([+p.coordinates.longitude,+p.coordinates.latitude]));map.fitBounds(bounds,{padding:65,maxZoom:15})}}catch(e){status.textContent='Dataset unavailable: '+e.message+'. Add places.json';}}
-// Render only our repository-owned roads; external basemap road lines are hidden.
-map.on('style.load',()=>{
-  if(map.getSource('mazo-roads'))return;
-  fetch('./data/roads/kattankudy.json').then(r=>{if(!r.ok)throw Error('Road dataset not generated yet');return r.json()}).then(data=>{
-    const features=(data.roads||[]).filter(r=>Array.isArray(r.coordinates)&&r.coordinates.length>1).map(r=>({
-      type:'Feature',properties:{id:r.id,name:r.name||'',roadType:r.type||''},
-      geometry:{type:'LineString',coordinates:r.coordinates}
-    }));
-    map.addSource('mazo-roads',{type:'geojson',data:{type:'FeatureCollection',features}});
-    map.addLayer({id:'mazo-road-casing',type:'line',source:'mazo-roads',paint:{'line-color':'#9b9b98','line-width':['interpolate',['linear'],['zoom'],10,1.5,16,9]}});
-    map.addLayer({id:'mazo-road-surface',type:'line',source:'mazo-roads',paint:{'line-color':'#ffffff','line-width':['interpolate',['linear'],['zoom'],10,1,16,7]}});
-    map.addLayer({id:'mazo-road-names',type:'symbol',source:'mazo-roads',minzoom:13,filter:['!=',['get','name'],''],layout:{'symbol-placement':'line','text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':12,'text-rotation-alignment':'map','text-keep-upright':true},paint:{'text-color':'#46515b','text-halo-color':'#fff','text-halo-width':1.5}});
-    // Hide provider roads only after our own road dataset has loaded successfully.
-    for(const layer of map.getStyle().layers||[]){
-      if(layer.id.startsWith('mazo-'))continue;
-      if(layer.type==='line' && /road|street|highway|transport|bridge|tunnel/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none');
-    }
-    map.addLayer({id:'mazo-road-names',type:'symbol',source:'mazo-roads',filter:['has','name'],layout:{'symbol-placement':'line','text-field':['get','name'],'text-size':12,'text-font':['Noto Sans Regular'],'symbol-spacing':300},paint:{'text-color':'#424242','text-halo-color':'#ffffff','text-halo-width':1.5}});
-
-  }).catch(err=>console.warn('Mazo road layer unavailable:',err.message));
-});
-search.addEventListener('input',render);load();
-</script></body></html>
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f6f8fa" />
+    <meta
+      name="description"
+      content="A closer look at Sri Lanka. Explore Kattankudy places with Mazo Maps."
+    />
+    <meta
+      property="og:title"
+      content="Mazo Maps — A closer look at Sri Lanka"
+    />
+    <meta
+      property="og:description"
+      content="An open map of the whole island, from the coast to the hill country."
+    />
+    <title>Mazo Maps — A closer look at Sri Lanka</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/mazo-mark.svg" />
+    <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
+    
+    
+    <script>
+      try {
+        const t = localStorage.getItem('mazo-maps-theme');
+        document.documentElement.dataset.theme =
+          t === 'dark' ||
+          (t !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)
+            ? 'dark'
+            : 'light';
+      } catch {}
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.css" />
+    <link rel="stylesheet" href="./assets/css/site.css" />
+    <script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#map">Skip to map</a>
+    <main id="main">
+      <div class="map-frame" id="map-frame" data-state="loading">
+        <div id="map" role="region" aria-label="Interactive map of Sri Lanka" tabindex="0"></div>
+        <div class="search-dock">
+          <form id="search-form" class="search-box" role="search">
+            <a class="brand" href="./" aria-label="Mazo Maps home"><img src="./assets/mazo-mark.svg" width="32" height="32" alt=""/><strong>Mazo Maps</strong></a>
+            <label class="sr-only" for="map-search">Search Kattankudy</label>
+            <input id="map-search" type="search" placeholder="Search Kattankudy" autocomplete="off" aria-controls="search-results" />
+            <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></button>
+          </form>
+          <div id="search-results" class="panel search-results" aria-label="Search results" hidden></div>
+          <div class="categories" role="group" aria-label="Place categories">
+            <button data-category="all" aria-pressed="true">Explore</button>
+            <button data-category="food" aria-pressed="false">Food</button>
+            <button data-category="hotel" aria-pressed="false">Hotels</button>
+            <button data-category="park" aria-pressed="false">Nature</button>
+            <button data-category="health" aria-pressed="false">Health</button>
+            <button data-category="shop" aria-pressed="false">Shopping</button>
+          </div>
+        </div>
+        <div class="utility-controls" aria-label="Map tools">
+          
+          <button class="icon-button" id="layers-toggle" aria-label="Map layers" aria-expanded="false" aria-controls="layers-panel" title="Layers"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 8 10-5 10 5-10 5ZM2 12l10 5 10-5M2 16l10 5 10-5"/></svg></button>
+          <button class="icon-button" id="theme-toggle" aria-label="Switch to dark theme" aria-pressed="false" title="Light or dark map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14A8 8 0 0 1 10 4a8 8 0 1 0 10 10Z"/></svg></button>
+        </div>
+        <section class="panel tool-panel" id="layers-panel" aria-label="Map layers" hidden>
+          <h2>Map layers</h2>
+          <label><input type="checkbox" data-layer="roads" checked/> Roads</label>
+          <label><input type="checkbox" data-layer="buildings" checked/> Buildings</label>
+          <label><input type="checkbox" data-layer="places" checked/> Places</label>
+          
+          
+          
+          <button id="map-fullscreen" aria-label="Enter fullscreen" aria-pressed="false">Fullscreen</button>
+        </section>
+        <div class="map-loading" id="map-status" role="status" aria-live="polite"><span class="loading-pulse" aria-hidden="true"></span><span>Loading Kattankudy</span></div>
+        <div class="map-actions">
+          
+          <button class="icon-button" id="map-locate" aria-label="Find my location" title="My location"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
+          <button class="icon-button" id="map-reset" aria-label="Reset map view to Sri Lanka" title="Island view"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 2 8M4 4v6h6"/></svg></button>
+        </div>
+        <a class="attribution-link" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">Mazo Maps · Sources</a>
+      </div>
+    </main>
+  </body>
+</html>
