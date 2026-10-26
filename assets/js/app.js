@@ -105,10 +105,13 @@ $('#place-close').onclick=closePlace;
 /* In-map directions: pickup defaults to device location; map-click override.
    Public OSRM endpoints are best-effort and need a managed backend for production SLA. */
 const routePanel=$('#route-panel');
+let routeSteps=[],routeWatch=null,routeCurrent=null;
 let routeDestination=null,routePickup=null,routeMode='driving',routeAbort=null,routeLine=null,routePickupMarker=null,routeDestinationMarker=null,pickingPickup=false,routeSequence=0;
 const routeStatus=message=>{$('#route-status').textContent=message};
 const routeCoord=c=>c.map(x=>Number(x).toFixed(6)).join(',');
 function routeClear(){
+ if(routeWatch!==null){navigator.geolocation.clearWatch(routeWatch);routeWatch=null}
+ routeSteps=[];routeCurrent=null;$('#route-turn-card').hidden=true;
  if(routeAbort)routeAbort.abort();routeAbort=null;routeSequence++;
  for(const id of ['mazo-route-line'])if(map.getLayer(id))map.removeLayer(id);
  if(map.getSource('mazo-route'))map.removeSource('mazo-route');
@@ -151,19 +154,21 @@ async function routeCalculate(){
   const mins=Math.max(1,Math.round(route.duration/60));
   $('#route-summary').textContent=km+' km · about '+mins+' min · '+routeMode;
   routeStatus('Route ready');
-  const list=$('#route-steps');
+  const list=$('#route-steps');routeSteps=[];
   for(const leg of route.legs||[])for(const step of leg.steps||[]){
    const li=document.createElement('li');const m=step.maneuver||{};
+   if(Array.isArray(m.location))routeSteps.push({location:m.location,type:m.type||'continue',modifier:m.modifier||'',name:step.name||''});
    const action=(m.modifier?m.modifier+' ':'')+(m.type||'Continue').replace(/_/g,' ');
    li.textContent=action+' '+(step.name?'onto '+step.name:'')+' · '+Math.round(step.distance)+' m';list.append(li);
   }
+  routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();
   const b=new maplibregl.LngLatBounds();for(const c of route.geometry.coordinates)b.extend(c);
-  map.fitBounds(b,{padding:{top:Math.max(210,Math.round(window.innerHeight*.32)),bottom:70,left:35,right:35},maxZoom:17,duration:550});
+  map.fitBounds(b,{padding:{top:95,bottom:230,left:35,right:35},maxZoom:17,duration:550});
  }catch(e){if(e.name==='AbortError'||sequence!==routeSequence)return;routeStatus('Unable to calculate route: '+e.message+' Try again or select another pickup.');routeLine=null;routeDraw()}
 }
 async function routeOpen(place){
  closePlace();routePanel.hidden=false;pickingPickup=false;
- routeClear();routeDestination=[+place.coordinates.longitude,+place.coordinates.latitude];
+ routeClear();$('#route-details').hidden=true;$('#route-expand').setAttribute('aria-expanded','false');routeDestination=[+place.coordinates.longitude,+place.coordinates.latitude];
  $('#route-destination').value=place.name;$('#route-pickup').value='Locating…';
  $('#route-summary').textContent='';$('#route-steps').replaceChildren();
  routeStatus('Requesting your location…');routeMarkers();
@@ -172,6 +177,40 @@ async function routeOpen(place){
   if(!map.getMaxBounds()?.contains(coords)){routeStatus('Your location is outside the current map boundary. Choose a pickup within Kattankudy.');$('#route-pickup').value='Choose pickup on map';return}
   routePickup=coords;$('#route-pickup').value='My location';await routeCalculate();
  }catch(e){routeStatus(e.message);$('#route-pickup').value='Choose pickup on map'}
+}
+$('#route-expand').onclick=()=>{
+ const details=$('#route-details'),open=details.hidden;details.hidden=!open;
+ $('#route-expand').setAttribute('aria-expanded',String(open));
+ $('#route-expand').textContent=open?'Less':'Details';
+ $('#route-steps').hidden=!open;
+};
+function routeMeters(a,b){
+ const rad=Math.PI/180,lat1=a[1]*rad,lat2=b[1]*rad,dlat=(b[1]-a[1])*rad,dlon=(b[0]-a[0])*rad;
+ const h=Math.sin(dlat/2)**2+Math.cos(lat1)*Math.cos(lat2)*Math.sin(dlon/2)**2;
+ return 12742000*Math.asin(Math.min(1,Math.sqrt(h)));
+}
+function routeUpdateTurn(){
+ if(!routeSteps.length||!routeCurrent)return;
+ // Choose nearest maneuver ahead by proximity to maneuver points; approximate,
+ // not map-matched navigation or authoritative lane guidance.
+ let nearest=0,best=Infinity;
+ routeSteps.forEach((step,i)=>{const d=routeMeters(routeCurrent,step.location);if(d<best){best=d;nearest=i}});
+ const step=routeSteps[Math.min(routeSteps.length-1,nearest+(best<25?1:0))];
+ const d=routeMeters(routeCurrent,step.location);
+ const action=step.type==='depart'?'Depart':step.type==='arrive'?'Arrive at destination':step.type==='turn'?'Turn '+(step.modifier||''):step.type==='roundabout'?'Enter roundabout':step.type==='new name'?'Continue':step.type.replace(/_/g,' ');
+ $('#route-turn-icon').textContent=/left/i.test(action)?'↰':/right/i.test(action)?'↱':step.type==='arrive'?'●':'↑';
+ $('#route-turn-title').textContent=action+(step.name?' · '+step.name:'');
+ $('#route-turn-distance').textContent=(d<1000?Math.round(d)+' m':(d/1000).toFixed(1)+' km')+' to maneuver · approximate GPS guidance';
+ $('#route-turn-card').hidden=false;
+}
+function routeStartWatch(){
+ if(routeWatch!==null){navigator.geolocation.clearWatch(routeWatch);routeWatch=null}
+ if(!navigator.geolocation||$('#route-pickup').value!=='My location')return;
+ routeWatch=navigator.geolocation.watchPosition(p=>{
+  if(routePanel.hidden)return;
+  const c=[p.coords.longitude,p.coords.latitude];if(p.coords.accuracy>100)return;
+  routeCurrent=c;routeUpdateTurn();
+ },()=>{}, {enableHighAccuracy:true,maximumAge:2000,timeout:15000});
 }
 $('#route-close').onclick=()=>{routePanel.hidden=true;pickingPickup=false;routeClear()};
 $('#route-use-location').onclick=async()=>{
