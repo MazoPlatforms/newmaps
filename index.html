@@ -35,8 +35,8 @@
       } catch {}
     </script>
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.css" />
-    <link rel="stylesheet" href="./assets/css/site.css?v=directions-21" />
-    <script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=directions-21"></script>
+    <link rel="stylesheet" href="./assets/css/site.css?v=compact-route-22" />
+    <script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=compact-route-22"></script>
   </head>
   <body>
     <a class="skip-link" href="#map">Skip to map</a>
@@ -69,13 +69,14 @@
           <button class="icon-button" id="map-locate" aria-label="Find my location" aria-busy="false" title="My location"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
 
         </div>
+<div id="route-turn-card" class="route-turn-card" hidden><span id="route-turn-icon">↱</span><div><strong id="route-turn-title">Depart</strong><small id="route-turn-distance"></small></div></div>
 <section id="route-panel" class="route-panel" aria-label="Directions" hidden>
- <div class="route-head"><strong>Directions</strong><button type="button" id="route-close" aria-label="Close directions">×</button></div>
- <label for="route-pickup">Pickup</label>
+ <div class="route-head"><strong>Directions</strong><button type="button" id="route-expand" aria-expanded="false">Details</button><button type="button" id="route-close" aria-label="Close directions">×</button></div>
+ <div class="route-details" id="route-details" hidden><label for="route-pickup">Pickup</label>
  <div class="route-field"><input id="route-pickup" value="My location" aria-label="Pickup location" readonly/><button type="button" id="route-use-location">My location</button><button type="button" id="route-pick-map">Choose on map</button></div>
  <label for="route-destination">Destination</label><input id="route-destination" readonly aria-label="Destination"/>
- <div class="route-modes"><button type="button" data-route-mode="driving" aria-pressed="true">Drive</button><button type="button" data-route-mode="walking" aria-pressed="false">Walk</button><button type="button" data-route-mode="cycling" aria-pressed="false">Cycle</button></div>
- <p id="route-status" role="status" aria-live="polite"></p><div id="route-summary"></div><ol id="route-steps"></ol>
+ </div><div class="route-modes"><button type="button" data-route-mode="driving" aria-pressed="true">Drive</button><button type="button" data-route-mode="walking" aria-pressed="false">Walk</button><button type="button" data-route-mode="cycling" aria-pressed="false">Cycle</button></div>
+ <p id="route-status" role="status" aria-live="polite"></p><div id="route-summary"></div><ol id="route-steps" hidden></ol>
  <small>Routes are estimates from public routing services. Follow actual signs and road conditions.</small>
 </section>
 <section id="place-sheet" class="place-sheet" data-state="half" aria-label="Selected place details" hidden>
