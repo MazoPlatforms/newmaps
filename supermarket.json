@@ -1,2116 +1,2117 @@
 {
-    "count": 42,
-    "results":[
+  "count": 42,
+  "results": [
+    {
+      "name": "Super Mini Mart",
+      "coordinates": {
+        "latitude": 7.6887172999999995,
+        "longitude": 81.7307912
+      },
+      "address": "160 , Telecom Road , Kattankudy 02, Kattankudy 30100",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "0752653545",
+      "hours": [
         {
-            "name": "Super Mini Mart",
-            "coordinates": {
-                "latitude": 7.6887172999999995,
-                "longitude": 81.7307912
-            },
-            "address": "160 , Telecom Road , Kattankudy 02, Kattankudy 30100",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "0752653545",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "6:30 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "6:30 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "6:30 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "6:30 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "6:30 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "6:30 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "6:30 AM–12 AM"
-                    ]
-                }
-            ],
-            "website": "https://www.superminimart.com/",
-            "business_status": "OPEN"
+          "day": "Monday",
+          "times": [
+            "6:30 AM–12 AM"
+          ]
         },
         {
-            "name": "Savings Supermarket",
-            "coordinates": {
-                "latitude": 7.685760299999999,
-                "longitude": 81.7266234
-            },
-            "address": "Telecom Rd, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0764706878",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8:30 AM–3 AM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "7:30–11:30 AM",
-                        "5 PM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "12 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Tuesday",
+          "times": [
+            "6:30 AM–12 AM"
+          ]
         },
         {
-            "name": "Al - Othaim Supermarket",
-            "coordinates": {
-                "latitude": 7.685617799999999,
-                "longitude": 81.7265599
-            },
-            "address": "Telecom Road, 02, Kattankudy 30100",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "0772383232",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                }
-            ],
-            "website": "https://www.al-othaim.lk/",
-            "business_status": "OPEN"
+          "day": "Wednesday",
+          "times": [
+            "6:30 AM–12 AM"
+          ]
         },
         {
-            "name": "Hani Mart",
-            "coordinates": {
-                "latitude": 7.684277,
-                "longitude": 81.7226677
-            },
-            "address": "Zaviya Road, 01, Kattankudy 30100",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "0779636856",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Thursday",
+          "times": [
+            "6:30 AM–12 AM"
+          ]
         },
         {
-            "name": "Fourams City Center - Kattankudy Super Market",
-            "coordinates": {
-                "latitude": 7.681198599999999,
-                "longitude": 81.7316666
-            },
-            "address": "140 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0707070666",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                }
-            ],
-            "website": "http://www.fourams.lk/",
-            "business_status": "OPEN"
+          "day": "Friday",
+          "times": [
+            "6:30 AM–12 AM"
+          ]
         },
         {
-            "name": "Tip Top Super Mart",
-            "coordinates": {
-                "latitude": 7.6816702999999995,
-                "longitude": 81.7283203
-            },
-            "address": "Main St, Kattankudy",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "0652248255",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8:30–10:30 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                }
-            ],
-            "website": "http://www.tiptopsm.com/",
-            "business_status": "OPEN"
+          "day": "Saturday",
+          "times": [
+            "6:30 AM–12 AM"
+          ]
         },
         {
-            "name": "Top Mini Mart",
-            "coordinates": {
-                "latitude": 7.685534499999999,
-                "longitude": 81.7260288
-            },
-            "address": "MPPG+6C6, Colombo - Batticaloa Hwy, Kattankudy",
-            "categories":[
-                "Supermarket"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Home needs food centre",
-            "coordinates": {
-                "latitude": 7.6851011,
-                "longitude": 81.7262751
-            },
-            "address": "287D, Main street, kattankudi, 02කොළඹ - මඩකළපුව ප්‍රධාන පාර, Kattankudiකාත්තාන්කුඩි 30100",
-            "categories":[
-                "Supermarket",
-                "Grocery store"
-            ],
-            "phone": "0774423665",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "5 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Quick Mart Store Kattankudy",
-            "coordinates": {
-                "latitude": 7.6753749,
-                "longitude": 81.72769319999999
-            },
-            "address": "105 jamiyillahfreen road, Kattankudy",
-            "categories":[
-                "Convenience store"
-            ],
-            "phone": "0777068998",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Rahmath Food City",
-            "coordinates": {
-                "latitude": 7.6809724,
-                "longitude": 81.7221864
-            },
-            "address": "Old Rd, Kattankudy 30100",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "0743419072",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8:30 AM–2 PM",
-                        "4 PM–12:30 AM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8:30 AM–2 PM",
-                        "4 PM–12:30 AM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8:30 AM–2 PM",
-                        "4 PM–12:30 AM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8:30 AM–2 PM",
-                        "4 PM–12:30 AM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8:30 AM–12 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8:30 AM–2 PM",
-                        "4 PM–12:30 AM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8:30 AM–2 PM",
-                        "4 PM–12:30 AM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Latheeff Stores",
-            "coordinates": {
-                "latitude": 7.6884701,
-                "longitude": 81.7315678
-            },
-            "address": "234/3, Farm Road, New Kattankudy",
-            "categories":[
-                "Grocery delivery service"
-            ],
-            "phone": "0777481490",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "6:45 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "6:45 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "6:45 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "6:45 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "6:45 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "6:45 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "6:45 AM–11:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Jana Lanka Store",
-            "coordinates": {
-                "latitude": 7.688716299999999,
-                "longitude": 81.735095
-            },
-            "address": "MPQP+F2Q, Fisheries Rd, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "5:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "5:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "5:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "5:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "5:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "5:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "5:30 AM–11:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Baqalathul kanz",
-            "coordinates": {
-                "latitude": 7.6821817999999995,
-                "longitude": 81.7301233
-            },
-            "address": "MPJJ+V2H, Shareef, Sheihul Falah Road, Ismail Hajiyar Ln, Kattankudy 30100",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0765253424",
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Cargills Food City, Manchanthoduwai",
-            "coordinates": {
-                "latitude": 7.688471,
-                "longitude": 81.72393439999999
-            },
-            "address": "No. 488, New Kalmunai Road, Manchanthoduwaii, (Kathankudy) Kallady",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "0652248445",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                }
-            ],
-            "website": "http://www.cargillsceylon.com/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Faleel store",
-            "coordinates": {
-                "latitude": 7.6814073,
-                "longitude": 81.73207579999999
-            },
-            "address": "Beach Road Kattankudy-06, Kattankudy 35100",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0775282166",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8:30–11 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8:30 AM–10:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "NJH Stores",
-            "coordinates": {
-                "latitude": 7.683788099999999,
-                "longitude": 81.7348627
-            },
-            "address": "NO.22 Central Road New kattankudy Ladies market, road, Kattankudy 30100",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0756244781",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "6 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "6 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "6 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "6 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "6 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "6 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "6 AM–12 AM"
-                    ]
-                }
-            ],
-            "website": "https://www.facebook.com/profile.php?id=100075114716485",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Q DEALS",
-            "coordinates": {
-                "latitude": 7.6805642999999995,
-                "longitude": 81.7289019
-            },
-            "address": "Main St, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0774104140",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                }
-            ],
-            "website": "http://www.qdeals.lk/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Asni Stores",
-            "coordinates": {
-                "latitude": 7.6870517,
-                "longitude": 81.7341884
-            },
-            "address": "19,muthu vappa street, new kattankudy -03",
-            "categories":[
-                "Asian grocery store"
-            ],
-            "phone": "0770269698",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Aqeel mini supermarket",
-            "coordinates": {
-                "latitude": 7.682368899999999,
-                "longitude": 81.7343509
-            },
-            "address": "Al Ameen Rd, Kattankudy 30100",
-            "categories":[
-                "Shopping mall"
-            ],
-            "phone": "0759755227",
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "RHF ONLINE SHOPPING",
-            "coordinates": {
-                "latitude": 7.6896124,
-                "longitude": 81.732873
-            },
-            "address": "A H ROAD, FAREED TOWN, NEW KATTANKUDY 02, Kattankudy 30100",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0741158433",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "MBM SUPER MART",
-            "coordinates": {
-                "latitude": 7.6805447,
-                "longitude": 81.7297854
-            },
-            "address": "MPJH+6W7, Dr Badhiudeen Mahmood Mawatha, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0778103717",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "SHA MULTI SHOP",
-            "coordinates": {
-                "latitude": 7.676377,
-                "longitude": 81.7259619
-            },
-            "address": "No. 18, Jamiullafreen Market Squre, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0771317363",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "6:35 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "6:35 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "6:35 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "6:35 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "6:35 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "6:35 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "6:35 AM–4 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Hairath grocery shop kattankudy",
-            "coordinates": {
-                "latitude": 7.683133499999999,
-                "longitude": 81.7336625
-            },
-            "address": "141 hairath Mosque Avenue, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0778934555",
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Shakeel Stores",
-            "coordinates": {
-                "latitude": 7.6763528,
-                "longitude": 81.726066
-            },
-            "address": "No. 18, Jamiullafreen Market Squre, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0770578483",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "7 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "7 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "7 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "7 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "7–11:30 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "7 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "7 AM–8 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "ZS Trading",
-            "coordinates": {
-                "latitude": 7.6770160999999995,
-                "longitude": 81.7360018
-            },
-            "address": "Deen Rd, Kattankudy 30100",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "+97451165977",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "6 AM–1:30 PM",
-                        "4–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "6 AM–1:30 PM",
-                        "4–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "6 AM–1:30 PM",
-                        "4–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "6 AM–1:30 PM",
-                        "4–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "6–11 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "6 AM–1:30 PM",
-                        "4–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "6 AM–1:30 PM",
-                        "4–10:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Uwais Grocery Store",
-            "coordinates": {
-                "latitude": 7.6783543,
-                "longitude": 81.7235623
-            },
-            "address": "MPHF+8CV, Old Rd, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0773049089",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–1 AM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–1 AM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–1 AM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–1 AM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–1 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–1 AM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–1 AM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Sri Shakthi Trades",
-            "coordinates": {
-                "latitude": 7.6925788,
-                "longitude": 81.7215253
-            },
-            "address": "MPVC+2JJ, Kattankudy",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "0652223736",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Nawas Stores",
-            "coordinates": {
-                "latitude": 7.678966099999999,
-                "longitude": 81.73522349999999
-            },
-            "address": "MPHP+H3Q, Kattankudy",
-            "categories":[
-                "Asian grocery store"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–11 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Vellai Boss Grocery",
-            "coordinates": {
-                "latitude": 7.6815525,
-                "longitude": 81.72592
-            },
-            "address": "MPJG+J9F, Methapalli Rd, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Rafeek Bakery",
-            "coordinates": {
-                "latitude": 7.682868,
-                "longitude": 81.72733769999999
-            },
-            "address": "Colombo - Batticaloa Hwy, Kattankudy",
-            "categories":[
-                "Bakery"
-            ],
-            "phone": "0777711497",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                }
-            ],
-            "website": "http://www.rafeekbakery.hol.es/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Fazul stores",
-            "coordinates": {
-                "latitude": 7.6829405,
-                "longitude": 81.7380632
-            },
-            "address": "No59hostel road new, 06 Hostel Rd, Kattankudy",
-            "categories":[
-                "Supermarket"
-            ],
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Rauf Stores",
-            "coordinates": {
-                "latitude": 7.6857769,
-                "longitude": 81.72551729999999
-            },
-            "address": "MPPG+866, Kattankudy 30100",
-            "categories":[
-                "Wholesale grocer"
-            ],
-            "phone": "0652247141",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Salaka",
-            "coordinates": {
-                "latitude": 7.6834454999999995,
-                "longitude": 81.7269158
-            },
-            "address": "MPMG+9QF, Colombo - Batticaloa Hwy, Kattankudy",
-            "categories":[
-                "Gift shop",
-                "Home goods store"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Foreign City Kattankudy",
-            "coordinates": {
-                "latitude": 7.681512499999999,
-                "longitude": 81.7281374
-            },
-            "address": "Colombo - Batticaloa Hwy, Kattankudy",
-            "categories":[
-                "Home goods store"
-            ],
-            "phone": "0776540000",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Vimal store Arayampathy Batticaloa Sri lanka",
-            "coordinates": {
-                "latitude": 7.6719696,
-                "longitude": 81.7309502
-            },
-            "address": "Mariyamman Kovil Road Arayampathy 02 Batticaloa, Kattankudy 30150",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "0756633172",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "7 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "7 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "7 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "7 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "7 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "7 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "7 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Emirates Mall",
-            "coordinates": {
-                "latitude": 7.6789473,
-                "longitude": 81.7282381
-            },
-            "address": "MPHH+H7H, Arabic College Rd, Kattankudy 04",
-            "categories":[
-                "Store"
-            ],
-            "phone": "0778172101",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Rizly Pharmacy",
-            "coordinates": {
-                "latitude": 7.6862808,
-                "longitude": 81.7255764
-            },
-            "address": "MPPG+G67, 382 Main St, Kattankudy 30100",
-            "categories":[
-                "Pharmacy"
-            ],
-            "phone": "0760950813",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "7:30 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "7:30 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "7:30 AM–12:30 AM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "7:30 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "7:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "7:30 AM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "7:30 AM–12 AM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "JRS Super Mart",
-            "coordinates": {
-                "latitude": 7.715751099999999,
-                "longitude": 81.710576
-            },
-            "address": "PP86+864, Colombo - Batticaloa Hwy, Kallady",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0779185650",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Cargills Food City Express - Arayampathy",
-            "coordinates": {
-                "latitude": 7.6739754,
-                "longitude": 81.73287859999999
-            },
-            "address": "71A Main St, East 30100",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "0652248153",
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "City Walk",
-            "coordinates": {
-                "latitude": 7.6835485,
-                "longitude": 81.7269578
-            },
-            "address": "221 Main Street Kattankudy 02, 30100",
-            "categories":[
-                "Shoe store",
-                "Bag shop"
-            ],
-            "phone": "0777722100",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Bahee Home",
-            "coordinates": {
-                "latitude": 7.678254399999999,
-                "longitude": 81.73897939999999
-            },
-            "address": "no.07 s.n t lane, Kattankudy 30100",
-            "categories":[
-                "Supermarket"
-            ],
-            "phone": "0754342568",
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "HANI STORES",
-            "coordinates": {
-                "latitude": 7.684997399999999,
-                "longitude": 81.7302708
-            },
-            "address": "MPMJ+X4R, Fisheries Rd, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0767454129",
-            "hours":[],
-            "business_status": "CLOSED_TEMPORARILY"
+          "day": "Sunday",
+          "times": [
+            "6:30 AM–12 AM"
+          ]
         }
-    ]
+      ],
+      "website": "https://www.superminimart.com/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Savings Supermarket",
+      "coordinates": {
+        "latitude": 7.685760299999999,
+        "longitude": 81.7266234
+      },
+      "address": "Telecom Rd, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0764706878",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8:30 AM–3 AM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "7:30–11:30 AM",
+            "5 PM–12 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "12 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Al - Othaim Supermarket",
+      "coordinates": {
+        "latitude": 7.685617799999999,
+        "longitude": 81.7265599
+      },
+      "address": "Telecom Road, 02, Kattankudy 30100",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "0772383232",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        }
+      ],
+      "website": "https://www.al-othaim.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Hani Mart",
+      "coordinates": {
+        "latitude": 7.684277,
+        "longitude": 81.7226677
+      },
+      "address": "Zaviya Road, 01, Kattankudy 30100",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "0779636856",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Fourams City Center - Kattankudy Super Market",
+      "coordinates": {
+        "latitude": 7.681198599999999,
+        "longitude": 81.7316666
+      },
+      "address": "140 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0707070666",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        }
+      ],
+      "website": "http://www.fourams.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Tip Top Super Mart",
+      "coordinates": {
+        "latitude": 7.6816702999999995,
+        "longitude": 81.7283203
+      },
+      "address": "Main St, Kattankudy",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "0652248255",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8:30–10:30 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        }
+      ],
+      "website": "http://www.tiptopsm.com/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Top Mini Mart",
+      "coordinates": {
+        "latitude": 7.685534499999999,
+        "longitude": 81.7260288
+      },
+      "address": "MPPG+6C6, Colombo - Batticaloa Hwy, Kattankudy",
+      "categories": [
+        "Supermarket"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Home needs food centre",
+      "coordinates": {
+        "latitude": 7.6851011,
+        "longitude": 81.7262751
+      },
+      "address": "287D, Main street, kattankudi, 02කොළඹ - මඩකළපුව ප්‍රධාන පාර, Kattankudiකාත්තාන්කුඩි 30100",
+      "categories": [
+        "Supermarket",
+        "Grocery store"
+      ],
+      "phone": "0774423665",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "5 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Quick Mart Store Kattankudy",
+      "coordinates": {
+        "latitude": 7.6753749,
+        "longitude": 81.72769319999999
+      },
+      "address": "105 jamiyillahfreen road, Kattankudy",
+      "categories": [
+        "Convenience store"
+      ],
+      "phone": "0777068998",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Open 24 hours"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Rahmath Food City",
+      "coordinates": {
+        "latitude": 7.6809724,
+        "longitude": 81.7221864
+      },
+      "address": "Old Rd, Kattankudy 30100",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "0743419072",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8:30 AM–2 PM",
+            "4 PM–12:30 AM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8:30 AM–2 PM",
+            "4 PM–12:30 AM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8:30 AM–2 PM",
+            "4 PM–12:30 AM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8:30 AM–2 PM",
+            "4 PM–12:30 AM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8:30 AM–12 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8:30 AM–2 PM",
+            "4 PM–12:30 AM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8:30 AM–2 PM",
+            "4 PM–12:30 AM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Latheeff Stores",
+      "coordinates": {
+        "latitude": 7.6884701,
+        "longitude": 81.7315678
+      },
+      "address": "234/3, Farm Road, New Kattankudy",
+      "categories": [
+        "Grocery delivery service"
+      ],
+      "phone": "0777481490",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "6:45 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "6:45 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "6:45 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "6:45 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "6:45 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "6:45 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "6:45 AM–11:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Jana Lanka Store",
+      "coordinates": {
+        "latitude": 7.688716299999999,
+        "longitude": 81.735095
+      },
+      "address": "MPQP+F2Q, Fisheries Rd, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "5:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "5:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "5:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "5:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "5:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "5:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "5:30 AM–11:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Baqalathul Kanz",
+      "coordinates": {
+        "latitude": 7.6821817999999995,
+        "longitude": 81.7301233
+      },
+      "address": "MPJJ+V2H, Shareef, Sheihul Falah Road, Ismail Hajiyar Ln, Kattankudy 30100",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0765253424",
+      "hours": [],
+      "business_status": "OPEN",
+      "name_original": "Baqalathul kanz"
+    },
+    {
+      "name": "Cargills Food City, Manchanthoduwai",
+      "coordinates": {
+        "latitude": 7.688471,
+        "longitude": 81.72393439999999
+      },
+      "address": "No. 488, New Kalmunai Road, Manchanthoduwaii, (Kathankudy) Kallady",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "0652248445",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        }
+      ],
+      "website": "http://www.cargillsceylon.com/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Faleel store",
+      "coordinates": {
+        "latitude": 7.6814073,
+        "longitude": 81.73207579999999
+      },
+      "address": "Beach Road Kattankudy-06, Kattankudy 35100",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0775282166",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8:30–11 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8:30 AM–10:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "NJH Stores",
+      "coordinates": {
+        "latitude": 7.683788099999999,
+        "longitude": 81.7348627
+      },
+      "address": "NO.22 Central Road New kattankudy Ladies market, road, Kattankudy 30100",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0756244781",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "6 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "6 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "6 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "6 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "6 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "6 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "6 AM–12 AM"
+          ]
+        }
+      ],
+      "website": "https://www.facebook.com/profile.php?id=100075114716485",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Q DEALS",
+      "coordinates": {
+        "latitude": 7.6805642999999995,
+        "longitude": 81.7289019
+      },
+      "address": "Main St, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0774104140",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        }
+      ],
+      "website": "http://www.qdeals.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Asni Stores",
+      "coordinates": {
+        "latitude": 7.6870517,
+        "longitude": 81.7341884
+      },
+      "address": "19,muthu vappa street, new kattankudy -03",
+      "categories": [
+        "Asian grocery store"
+      ],
+      "phone": "0770269698",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Aqeel mini supermarket",
+      "coordinates": {
+        "latitude": 7.682368899999999,
+        "longitude": 81.7343509
+      },
+      "address": "Al Ameen Rd, Kattankudy 30100",
+      "categories": [
+        "Shopping mall"
+      ],
+      "phone": "0759755227",
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "RHF ONLINE SHOPPING",
+      "coordinates": {
+        "latitude": 7.6896124,
+        "longitude": 81.732873
+      },
+      "address": "A H ROAD, FAREED TOWN, NEW KATTANKUDY 02, Kattankudy 30100",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0741158433",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Open 24 hours"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "MBM SUPER MART",
+      "coordinates": {
+        "latitude": 7.6805447,
+        "longitude": 81.7297854
+      },
+      "address": "MPJH+6W7, Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0778103717",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "SHA MULTI SHOP",
+      "coordinates": {
+        "latitude": 7.676377,
+        "longitude": 81.7259619
+      },
+      "address": "No. 18, Jamiullafreen Market Squre, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0771317363",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "6:35 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "6:35 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "6:35 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "6:35 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "6:35 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "6:35 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "6:35 AM–4 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Hairath grocery shop kattankudy",
+      "coordinates": {
+        "latitude": 7.683133499999999,
+        "longitude": 81.7336625
+      },
+      "address": "141 hairath Mosque Avenue, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0778934555",
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Shakeel Stores",
+      "coordinates": {
+        "latitude": 7.6763528,
+        "longitude": 81.726066
+      },
+      "address": "No. 18, Jamiullafreen Market Squre, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0770578483",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "7 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "7 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "7 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "7 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "7–11:30 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "7 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "7 AM–8 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "ZS Trading",
+      "coordinates": {
+        "latitude": 7.6770160999999995,
+        "longitude": 81.7360018
+      },
+      "address": "Deen Rd, Kattankudy 30100",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "+97451165977",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "6 AM–1:30 PM",
+            "4–10:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "6 AM–1:30 PM",
+            "4–10:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "6 AM–1:30 PM",
+            "4–10:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "6 AM–1:30 PM",
+            "4–10:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "6–11 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "6 AM–1:30 PM",
+            "4–10:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "6 AM–1:30 PM",
+            "4–10:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Uwais Grocery Store",
+      "coordinates": {
+        "latitude": 7.6783543,
+        "longitude": 81.7235623
+      },
+      "address": "MPHF+8CV, Old Rd, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0773049089",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–1 AM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–1 AM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–1 AM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–1 AM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–1 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–1 AM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–1 AM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Sri Shakthi Trades",
+      "coordinates": {
+        "latitude": 7.6925788,
+        "longitude": 81.7215253
+      },
+      "address": "MPVC+2JJ, Kattankudy",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "0652223736",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Nawas Stores",
+      "coordinates": {
+        "latitude": 7.678966099999999,
+        "longitude": 81.73522349999999
+      },
+      "address": "MPHP+H3Q, Kattankudy",
+      "categories": [
+        "Asian grocery store"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–11 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Vellai Boss Grocery",
+      "coordinates": {
+        "latitude": 7.6815525,
+        "longitude": 81.72592
+      },
+      "address": "MPJG+J9F, Methapalli Rd, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Rafeek Bakery",
+      "coordinates": {
+        "latitude": 7.682868,
+        "longitude": 81.72733769999999
+      },
+      "address": "Colombo - Batticaloa Hwy, Kattankudy",
+      "categories": [
+        "Bakery"
+      ],
+      "phone": "0777711497",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        }
+      ],
+      "website": "http://www.rafeekbakery.hol.es/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Fazul stores",
+      "coordinates": {
+        "latitude": 7.6829405,
+        "longitude": 81.7380632
+      },
+      "address": "No59hostel road new, 06 Hostel Rd, Kattankudy",
+      "categories": [
+        "Supermarket"
+      ],
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Rauf Stores",
+      "coordinates": {
+        "latitude": 7.6857769,
+        "longitude": 81.72551729999999
+      },
+      "address": "MPPG+866, Kattankudy 30100",
+      "categories": [
+        "Wholesale grocer"
+      ],
+      "phone": "0652247141",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Salaka",
+      "coordinates": {
+        "latitude": 7.6834454999999995,
+        "longitude": 81.7269158
+      },
+      "address": "MPMG+9QF, Colombo - Batticaloa Hwy, Kattankudy",
+      "categories": [
+        "Gift shop",
+        "Home goods store"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Foreign City Kattankudy",
+      "coordinates": {
+        "latitude": 7.681512499999999,
+        "longitude": 81.7281374
+      },
+      "address": "Colombo - Batticaloa Hwy, Kattankudy",
+      "categories": [
+        "Home goods store"
+      ],
+      "phone": "0776540000",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Vimal store Arayampathy Batticaloa Sri lanka",
+      "coordinates": {
+        "latitude": 7.6719696,
+        "longitude": 81.7309502
+      },
+      "address": "Mariyamman Kovil Road Arayampathy 02 Batticaloa, Kattankudy 30150",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "0756633172",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "7 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "7 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "7 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "7 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "7 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "7 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "7 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Emirates Mall",
+      "coordinates": {
+        "latitude": 7.6789473,
+        "longitude": 81.7282381
+      },
+      "address": "MPHH+H7H, Arabic College Rd, Kattankudy 04",
+      "categories": [
+        "Store"
+      ],
+      "phone": "0778172101",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Rizly Pharmacy",
+      "coordinates": {
+        "latitude": 7.6862808,
+        "longitude": 81.7255764
+      },
+      "address": "MPPG+G67, 382 Main St, Kattankudy 30100",
+      "categories": [
+        "Pharmacy"
+      ],
+      "phone": "0760950813",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "7:30 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "7:30 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "7:30 AM–12:30 AM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "7:30 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "7:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "7:30 AM–12 AM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "7:30 AM–12 AM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "JRS Super Mart",
+      "coordinates": {
+        "latitude": 7.715751099999999,
+        "longitude": 81.710576
+      },
+      "address": "PP86+864, Colombo - Batticaloa Hwy, Kallady",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0779185650",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Cargills Food City Express - Arayampathy",
+      "coordinates": {
+        "latitude": 7.6739754,
+        "longitude": 81.73287859999999
+      },
+      "address": "71A Main St, East 30100",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "0652248153",
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "City Walk",
+      "coordinates": {
+        "latitude": 7.6835485,
+        "longitude": 81.7269578
+      },
+      "address": "221 Main Street Kattankudy 02, 30100",
+      "categories": [
+        "Shoe store",
+        "Bag shop"
+      ],
+      "phone": "0777722100",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Bahee Home",
+      "coordinates": {
+        "latitude": 7.678254399999999,
+        "longitude": 81.73897939999999
+      },
+      "address": "no.07 s.n t lane, Kattankudy 30100",
+      "categories": [
+        "Supermarket"
+      ],
+      "phone": "0754342568",
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "HANI STORES",
+      "coordinates": {
+        "latitude": 7.684997399999999,
+        "longitude": 81.7302708
+      },
+      "address": "MPMJ+X4R, Fisheries Rd, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0767454129",
+      "hours": [],
+      "business_status": "CLOSED_TEMPORARILY"
+    }
+  ]
 }
