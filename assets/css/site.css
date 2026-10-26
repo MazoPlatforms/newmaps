@@ -351,3 +351,14 @@ body,.place-sheet,.place-sheet button,.place-sheet a{font-family:Inter,-apple-sy
 .route-panel[data-state="compact"] #route-steps,.route-panel[data-state="compact"] .route-details{display:none!important}
 .route-panel[data-state="half"] #route-steps:not([hidden]){display:block}
 .route-panel .route-head{touch-action:pan-y}
+
+
+/* Align the search and theme control as a single flexible top row. */
+.search-dock{right:calc(max(14px,env(safe-area-inset-right)) + 48px + 8px);width:auto!important;max-width:none!important}
+.utility-controls{right:max(14px,env(safe-area-inset-right))}
+.utility-controls .icon-button{width:48px;height:52px;border-radius:9px}
+@media(max-width:600px){
+ .search-dock{left:10px;right:calc(14px + 48px + 8px);width:auto!important}
+ .utility-controls{right:14px;top:max(8px,env(safe-area-inset-top))}
+ .utility-controls .icon-button{height:48px;width:48px}
+}
