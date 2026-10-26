@@ -35,4 +35,9 @@ Do not invent house numbers, street names, school census numbers, postcodes for 
 - Unverified names, especially private schools and ambiguous legacy labels, remain untouched rather than being guessed.
 - The client has a presentation-only address formatter for other older POI datasets. Source records should be corrected after community verification.
 
+## Retired ULIDs and Phase 2 cleanup
+When identical place records are consolidated, the chosen permanent ULID remains active and every retired ULID is retained in `data/places/aliases.json` with its canonical target, original record payload, source lineage and original shard path. `python scripts/places.py validate` checks that aliases resolve to active records; `python scripts/places.py build` publishes the flattened aliases in the generated manifest. Use `window.resolveMazoPlaceId(id)` for browser references that may contain a retired ULID.
+
+The Phase 2 cleanup is reversible with `python scripts/places_cleanup_phase2.py --rollback`. Its machine-readable report records exact before/after fields and all unresolved conflicts. Only non-ID-identical groups are consolidated automatically; records with conflicting values remain available for review.
+
 Do not use Google Maps as the authoritative verification source for school names.

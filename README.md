@@ -8,6 +8,8 @@ Every place has an immutable 26-character ULID `id`, a non-empty `name`, and `co
 
 Use `python scripts/places.py add record.json` to create a place. The allocator generates its ULID and chooses the first shard with capacity. Shards are sequential numeric folders and contain at most 999 JSON files. Never change an existing ID when editing. Submit edits and deletions as reviewed pull requests. Concurrent PRs are checked against the target branch by CI.
 
+Retired place ULIDs resolve through `data/places/aliases.json`; the generated place manifest includes the flattened alias-to-canonical mapping, and the browser exposes `window.resolveMazoPlaceId(id)`. The allocator blocks a new exact name/coordinate duplicate candidate; a verified separate branch can be added with `--allow-duplicate-candidate` and its reason should be documented in the PR. Phase 2 source backups and the per-record review report are in `data/places/aliases.json` and `reports/places-data-quality-phase-2.json`.
+
 ## MZP format
 
 `.mzp` is compact, ordinary GeoJSON `FeatureCollection` JSON. Feature IDs are ULIDs, coordinates follow GeoJSON `[longitude, latitude]`, and place fields are properties. Records without coordinates stay in the individual JSON archive and mapping but are listed in the manifest and omitted from map features. Invalid non-null coordinates fail validation. Build locally with `python scripts/places.py build`; output is `generated/kattankudy.mzp` and `generated/manifest.json`. The manifest provides feature count, byte length, shard counts, and SHA-256 for cache invalidation.
