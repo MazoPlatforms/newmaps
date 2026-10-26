@@ -1,7 +1,7 @@
 const $=s=>document.querySelector(s);
 const map=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',center:[81.729,7.685],zoom:13});
 map.addControl(new maplibregl.NavigationControl(),'bottom-right');
-const datasets=['places.json','bakery.json','supermarket.json','halls.json'];
+const datasets=['places.json','bakery.json','supermarket.json','halls.json','banks.json'];
 let places=[],markers=[],category='all',roadsVisible=true,placesVisible=true;
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function kind(p){const c=(p.categories||[]).join(' ').toLowerCase();if(/bakery|restaurant|cafe|food|hotel & bakery/.test(c))return 'food';if(/hotel|lodg|hall|banquet/.test(c))return 'hotel';if(/hospital|clinic|pharmacy|medical/.test(c))return 'health';if(/park|nature/.test(c))return 'park';return 'shop'}
