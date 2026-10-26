@@ -48,6 +48,35 @@ function ensurePoiLayer(){
    'text-halo-color':theme()==='dark'?'#17212e':'#fff','text-halo-width':1.2}});
  refresh();
 }
+// Resilient DOM pins: independent of symbol-layer loading, font glyphs and sprite errors.
+let fallbackPins=[];
+function renderFallbackPins(){
+ for(const marker of fallbackPins)marker.remove();
+ fallbackPins=[];
+ if(!placesVisible||map.getZoom()<12||!places.length)return;
+ const zoom=map.getZoom(),cell=zoom<14?85:zoom<16?58:34;
+ const seen=new Set(),bounds=map.getBounds(),q=$('#map-search').value.trim().toLowerCase();
+ const ranked=places.map((p,i)=>({p,i})).sort((a,b)=>priority(a.p)-priority(b.p));
+ for(const {p} of ranked){
+  if(category!=='all'&&kind(p)!==category)continue;
+  if(q&&![p.name,p.address,...(p.categories||[])].join(' ').toLowerCase().includes(q))continue;
+  const lng=+p.coordinates.longitude,lat=+p.coordinates.latitude;
+  if(!bounds.contains([lng,lat]))continue;
+  const pixel=map.project([lng,lat]),key=Math.floor(pixel.x/cell)+':'+Math.floor(pixel.y/cell);
+  if(seen.has(key))continue;seen.add(key);
+  const el=document.createElement('button');el.type='button';el.title=p.name;
+  el.setAttribute('aria-label',p.name);
+  const color=artwork[kind(p)]?.[0]||'#6d81aa';
+  el.style.cssText='width:30px;height:30px;border-radius:50%;border:3px solid white;background:'+color+';color:white;box-shadow:0 2px 7px #0005;cursor:pointer;display:grid;place-items:center;font:bold 14px Arial;padding:0';
+  el.textContent=({food:'F',health:'+',shop:'S',hotel:'H',park:'P',worship:'W'})[kind(p)]||'•';
+  el.onclick=()=>openPlace(p);
+  fallbackPins.push(new maplibregl.Marker({element:el,anchor:'center'}).setLngLat([lng,lat]).addTo(map));
+  if(fallbackPins.length>=180)break;
+ }
+}
+map.on('moveend',renderFallbackPins);
+map.on('zoomend',renderFallbackPins);
+map.on('load',()=>{try{ensurePoiLayer()}catch(e){console.warn('Native POIs:',e)}renderFallbackPins()});
 function openPlace(p){const c=p.coordinates;map.flyTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16)});new maplibregl.Popup({offset:20}).setLngLat([+c.longitude,+c.latitude]).setHTML('<strong>'+safe(p.name)+'</strong><p>'+safe(p.address||'')+'</p><p>'+safe((p.categories||[]).join(', '))+'</p>'+(p.phone?'<p>'+safe(p.phone)+'</p>':'')).addTo(map)}
 function refresh(){
  const q=$('#map-search').value.trim().toLowerCase();
@@ -56,6 +85,7 @@ function refresh(){
  const results=$('#search-results');results.replaceChildren();
  if(q){results.hidden=false;for(const p of hits.slice(0,30)){const b=document.createElement('button');b.type='button';b.textContent=p.name+' · '+(p.address||'');b.style.cssText='display:block;width:100%;padding:10px;text-align:left;border:0;background:transparent;cursor:pointer';b.onclick=()=>{openPlace(p);results.hidden=true};results.append(b)}}else results.hidden=true;
  $('#map-status').textContent=hits.length+' places in Kattankudy';
+ renderFallbackPins();
 }
 map.on('click',POI_LAYER,e=>{const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
 map.on('mouseenter',POI_LAYER,()=>map.getCanvas().style.cursor='pointer');
@@ -65,7 +95,7 @@ async function roads(){try{const r=await fetch('./data/roads/kattankudy.json');i
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
 map.on('style.load',()=>{map.once('idle',()=>{try{ensurePoiLayer()}catch(e){console.error('POI layer:',e)}});try{for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer()}catch(error){console.error('Map layer initialization:',error)}});
-(async()=>{try{const data=await Promise.all(datasets.map(async f=>{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return r.json()}));const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}if(map.isStyleLoaded())ensurePoiLayer();refresh();}catch(e){$('#map-status').textContent='Dataset error: '+e.message}})();
+(async()=>{try{const data=await Promise.all(datasets.map(async f=>{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return r.json()}));const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}if(map.isStyleLoaded())try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){$('#map-status').textContent='Dataset error: '+e.message}})();
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
 document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{category=b.dataset.category;document.querySelectorAll('[data-category]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));refresh()});
 $('#layers-toggle').onclick=()=>{const p=$('#layers-panel');p.hidden=!p.hidden;$('#layers-toggle').setAttribute('aria-expanded',String(!p.hidden))};
