@@ -33,7 +33,7 @@
     </script>
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.css" />
     <link rel="stylesheet" href="./assets/css/site.css" />
-    <script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=27-datasets-11"></script>
+    <script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=place-sheet-12"></script>
   </head>
   <body>
     <a class="skip-link" href="#map">Skip to map</a>
@@ -70,14 +70,35 @@
           
           
           
-          <button id="map-fullscreen" aria-label="Enter fullscreen" aria-pressed="false">Fullscreen</button>
+          <button id="map-fullscreen" hidden aria-label="Enter fullscreen" aria-pressed="false">Fullscreen</button>
         </section>
         <div class="map-loading" id="map-status" role="status" aria-live="polite"><span class="loading-pulse" aria-hidden="true"></span><span>Loading Kattankudy</span></div>
         <div class="map-actions">
           
           <button class="icon-button" id="map-locate" aria-label="Find my location" title="My location"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
-          <button class="icon-button" id="map-reset" aria-label="Reset map view to Sri Lanka" title="Island view"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 2 8M4 4v6h6"/></svg></button>
+          <button class="icon-button" id="map-reset" hidden aria-label="Reset map view"></button>
         </div>
+<section id="place-sheet" class="place-sheet" data-state="half" aria-label="Selected place details" hidden>
+ <div class="place-sheet-top">
+  <div id="place-handle" class="place-handle" role="button" tabindex="0" aria-label="Swipe up or down to resize place details"><span></span></div>
+  <button id="place-close" type="button" class="place-close" aria-label="Close place details">×</button>
+ </div>
+ <div class="place-sheet-heading"><h2 id="place-title"></h2><p id="place-category"></p></div>
+ <div class="place-sheet-actions">
+  <a id="place-directions" target="_blank" rel="noopener noreferrer">↗ Directions</a>
+  <a id="place-phone" hidden>☎ Call</a>
+  <a id="place-website" target="_blank" rel="noopener noreferrer" hidden>Website</a>
+ </div>
+ <div class="place-sheet-content">
+  <p id="place-address"></p><p class="place-coordinates" id="place-coordinates"></p>
+  <h3>Opening hours</h3><div id="place-hours"></div>
+ </div>
+ <div class="place-sheet-sizes" aria-label="Sheet size">
+  <button data-sheet-state="compact" type="button">Compact</button>
+  <button data-sheet-state="half" type="button">Half</button>
+  <button data-sheet-state="expanded" type="button">Expand</button>
+ </div>
+</section>
         <a class="attribution-link" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">Mazo Maps · Sources</a>
       </div>
     </main>
