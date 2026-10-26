@@ -3,20 +3,19 @@ on:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/refresh-roads.yml'
       - 'scripts/convert_roads.py'
       - 'scripts/roads.py'
   workflow_dispatch:
   schedule:
     - cron: '17 3 1 * *'
-permissions:
-  contents: write
-  pull-requests: write
 concurrency:
   group: kattankudy-roads
   cancel-in-progress: false
 jobs:
   build:
+    permissions:
+      contents: write
+      pull-requests: write
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:

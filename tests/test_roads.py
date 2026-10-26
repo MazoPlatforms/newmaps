@@ -58,6 +58,35 @@ class RoadTests(unittest.TestCase):
             self.assertEqual(second["written_or_updated"], 0)
             self.assertEqual(before, after)
 
+    def test_refresh_preserves_supplementary_maxspeed_evidence(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / "source.json"
+            source.write_text(json.dumps({"count": 1, "roads": [
+                {"id": "source-a:0", "name": "Old name", "type": "residential",
+                 "coordinates": [[81.1, 7.1], [81.2, 7.2]]},
+            ]}), encoding="utf-8")
+            with contextlib.redirect_stdout(io.StringIO()):
+                roads.migrate(source, root)
+            record_path = next((root / "data/roads").glob("*/01*.json"))
+            before = json.loads(record_path.read_text(encoding="utf-8"))
+            evidence = {"maxspeed": "30", "maxspeed_unit": None,
+                        "maxspeed_status": "unverified_source_tag", "source": "PR #5"}
+            before["supplementary_maxspeed_evidence"] = evidence
+            record_path.write_text(json.dumps(before), encoding="utf-8")
+            source.write_text(json.dumps({"count": 1, "roads": [
+                {"id": "source-a:0", "name": "Updated name", "type": "residential",
+                 "coordinates": [[81.1, 7.1], [81.2, 7.2]]},
+            ]}), encoding="utf-8")
+            with contextlib.redirect_stdout(io.StringIO()):
+                roads.migrate(source, root)
+            after = json.loads(record_path.read_text(encoding="utf-8"))
+            self.assertEqual(after["id"], before["id"])
+            self.assertEqual(after["source_id"], before["source_id"])
+            self.assertEqual(after["coordinates"], before["coordinates"])
+            self.assertEqual(after["name"], "Updated name")
+            self.assertEqual(after["supplementary_maxspeed_evidence"], evidence)
+
     def test_shard_capacity_and_overflow(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp) / "data" / "roads"
