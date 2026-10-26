@@ -884,7 +884,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "Q DEALS",
+      "name": "Q Deals",
       "coordinates": {
         "latitude": 7.6805642999999995,
         "longitude": 81.7289019
@@ -939,7 +939,8 @@
         }
       ],
       "website": "http://www.qdeals.lk/",
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "Q DEALS"
     },
     {
       "name": "Asni Stores",
@@ -1013,7 +1014,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "RHF ONLINE SHOPPING",
+      "name": "Rhf Online Shopping",
       "coordinates": {
         "latitude": 7.6896124,
         "longitude": 81.732873
@@ -1067,10 +1068,11 @@
           ]
         }
       ],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "RHF ONLINE SHOPPING"
     },
     {
-      "name": "MBM SUPER MART",
+      "name": "Mbm Super Mart",
       "coordinates": {
         "latitude": 7.6805447,
         "longitude": 81.7297854
@@ -1124,10 +1126,11 @@
           ]
         }
       ],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "MBM SUPER MART"
     },
     {
-      "name": "SHA MULTI SHOP",
+      "name": "Sha Multi Shop",
       "coordinates": {
         "latitude": 7.676377,
         "longitude": 81.7259619
@@ -1181,7 +1184,8 @@
           ]
         }
       ],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "SHA MULTI SHOP"
     },
     {
       "name": "Hairath grocery shop kattankudy",
@@ -2100,7 +2104,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "HANI STORES",
+      "name": "Hani Stores",
       "coordinates": {
         "latitude": 7.684997399999999,
         "longitude": 81.7302708
@@ -2111,7 +2115,8 @@
       ],
       "phone": "0767454129",
       "hours": [],
-      "business_status": "CLOSED_TEMPORARILY"
+      "business_status": "CLOSED_TEMPORARILY",
+      "name_original": "HANI STORES"
     }
   ]
 }
