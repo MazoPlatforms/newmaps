@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/convert_roads.py'
+      - 'scripts/download_overture_roads.py'
+      - 'scripts/refresh_roads.py'
       - 'scripts/roads.py'
   workflow_dispatch:
   schedule:
@@ -13,6 +15,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
+    outputs:
+      branch: ${{ steps.pr.outputs.branch }}
     permissions:
       contents: write
       pull-requests: write
@@ -26,27 +30,77 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install extraction dependencies
-        run: python -m pip install 'overturemaps>=0.12,<1' 'shapely>=2,<3'
-      - name: Download Overture road segments
+        run: python -m pip install 'duckdb>=1.1,<2' 'shapely>=2,<3'
+      - name: Download latest available Overture road segments
         run: |
           mkdir -p /tmp/mazo-roads
-          overturemaps download --bbox=81.70,7.65,81.77,7.72 -f geojson --type=segment -o /tmp/mazo-roads/segments.geojson
-      - name: Convert and allocate individual road records
+          python scripts/download_overture_roads.py \
+            --bbox 81.70 7.65 81.77 7.72 \
+            --output /tmp/mazo-roads/segments.geojson \
+            --metadata-output /tmp/mazo-roads/release.json
+      - name: Convert source extract and apply additive-only refresh
         run: |
           python scripts/convert_roads.py /tmp/mazo-roads/segments.geojson /tmp/mazo-roads/kattankudy.json
-          python scripts/roads.py migrate /tmp/mazo-roads/kattankudy.json
+          python scripts/refresh_roads.py \
+            --source /tmp/mazo-roads/kattankudy.json \
+            --metadata /tmp/mazo-roads/release.json
           python scripts/roads.py validate
-      - name: Create reviewed update pull request
+      - name: Create reviewed data pull request
+        id: pr
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A data/roads/
-          if git diff --cached --quiet; then echo 'No changes'; else
-            branch="automation/refresh-roads-$(date -u +%Y%m%d-%H%M%S)"
+          if git diff --cached --quiet; then
+            echo 'No road data or review report changes.'
+            exit 0
+          else
+            branch="automation/refresh-roads-$(date -u +%Y%m%d)-${GITHUB_RUN_ID}"
             git switch -c "$branch"
             git commit -m 'data: refresh Kattankudy roads from Overture'
             git push --set-upstream origin "$branch"
-            gh pr create --base main --head "$branch" --title 'Refresh Kattankudy road data' --body 'Update individual road records from Overture Maps. Validation and MZP generation run in GitHub Actions.'
+            release=$(python -c 'import json; print(json.load(open("/tmp/mazo-roads/release.json"))["release"])')
+            cat > "$RUNNER_TEMP/refresh-pr.md" <<EOF
+          ## Overture road refresh
+
+          Release: \`$release\`
+
+          This refresh is additive-only. Existing road ULIDs, geometries, source metadata, speed-limit references, and supplementary maxspeed evidence are retained. Roads absent from this release are not deleted. Existing-source changes and near-geometry candidates are documented in \`data/roads/overture-refresh-report.json\` for review; ambiguous candidates are not added.
+
+          The PR workflow dispatches the full validation suite against this branch and waits for its result.
+          EOF
+            gh pr create --base main --head "$branch" \
+              --title "Refresh Kattankudy roads ($release)" \
+              --body-file "$RUNNER_TEMP/refresh-pr.md"
+            echo "branch=$branch" >> "$GITHUB_OUTPUT"
           fi
+
+  validate_review_pr:
+    needs: build
+    if: needs.build.outputs.branch != ''
+    permissions:
+      actions: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Dispatch and wait for validation on the generated PR branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REVIEW_BRANCH: ${{ needs.build.outputs.branch }}
+        run: |
+          gh workflow run validate-speed-limits.yml --ref "$REVIEW_BRANCH"
+          run_id=''
+          for attempt in $(seq 1 24); do
+            run_id=$(gh run list --workflow validate-speed-limits.yml \
+              --branch "$REVIEW_BRANCH" --event workflow_dispatch --limit 1 \
+              --json databaseId --jq '.[0].databaseId // empty')
+            if [ -n "$run_id" ]; then break; fi
+            sleep 5
+          done
+          if [ -z "$run_id" ]; then
+            echo 'Validation workflow did not start for the generated PR branch.' >&2
+            exit 1
+          fi
+          gh run watch "$run_id" --exit-status --interval 10

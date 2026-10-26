@@ -1,5 +1,6 @@
 name: Validate speed-limit data
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - 'data/roads/**'
@@ -8,6 +9,8 @@ on:
       - 'data/road.schema.json'
       - 'kattankudy-all-roads.json'
       - 'scripts/enrich_roads.py'
+      - 'scripts/download_overture_roads.py'
+      - 'scripts/refresh_roads.py'
       - 'scripts/speed_limits.py'
       - 'scripts/roads.py'
       - 'scripts/places.py'
@@ -24,6 +27,8 @@ on:
       - 'data/road.schema.json'
       - 'kattankudy-all-roads.json'
       - 'scripts/enrich_roads.py'
+      - 'scripts/download_overture_roads.py'
+      - 'scripts/refresh_roads.py'
       - 'scripts/speed_limits.py'
       - 'scripts/roads.py'
       - 'scripts/places.py'
@@ -44,6 +49,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - run: python -m pip install 'shapely>=2,<3'
       - run: python scripts/places.py validate
       - run: python scripts/roads.py validate
       - run: python scripts/enrich_roads.py --check
