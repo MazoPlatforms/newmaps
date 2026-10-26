@@ -325,3 +325,21 @@ body,.place-sheet,.place-sheet button,.place-sheet a{font-family:Inter,-apple-sy
 #route-steps li{padding:5px 0;border-bottom:1px solid var(--line)}
 .route-panel small{font-size:10px;color:var(--muted);line-height:1.4}
 @media(max-width:600px){.route-panel{top:calc(76px + env(safe-area-inset-top));max-height:57dvh}}
+
+
+/* Compact route bottom sheet: preserve the visible roadway. */
+.route-panel{top:auto!important;bottom:0!important;left:0!important;width:100%!important;max-height:58dvh!important;border-radius:20px 20px 0 0!important;padding:12px 16px calc(15px + env(safe-area-inset-bottom))!important;gap:7px!important}
+.route-panel .route-head{margin:0}
+.route-head button{background:transparent;border:0;color:var(--accent);font-weight:650;cursor:pointer}
+.route-panel .route-details{display:flex;flex-direction:column;gap:7px}
+.route-panel .route-details[hidden],.route-panel #route-steps[hidden]{display:none!important}
+.route-panel .route-modes{margin-top:0}
+.route-panel #route-status{margin:0}
+.route-panel #route-summary{font-size:14px}
+.route-panel small{font-size:10px}
+.route-turn-card{position:absolute;z-index:10;left:14px;bottom:calc(168px + env(safe-area-inset-bottom));width:min(390px,calc(100% - 28px));display:flex;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:12px;box-shadow:var(--shadow);pointer-events:none}
+.route-turn-card[hidden]{display:none}
+#route-turn-icon{font-size:30px;color:var(--accent);min-width:35px;text-align:center}
+.route-turn-card strong{font-size:14px;display:block}
+.route-turn-card small{display:block;color:var(--muted);font-size:11px;margin-top:3px}
+@media(max-width:600px){.route-panel{max-height:64dvh!important}.route-turn-card{bottom:calc(176px + env(safe-area-inset-bottom))}}
