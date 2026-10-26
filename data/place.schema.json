@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mazoplatforms.github.io/newmaps/place.schema.json",
+  "title": "Mazo Place",
+  "type": "object",
+  "required": ["id", "name", "coordinates"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[0-7][0-9A-HJKMNP-TV-Z]{25}$"},
+    "name": {"type": "string", "minLength": 1},
+    "coordinates": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "object", "required": ["latitude", "longitude"], "properties": {"latitude": {"type": "number", "minimum": -90, "maximum": 90}, "longitude": {"type": "number", "minimum": -180, "maximum": 180}}, "additionalProperties": true}
+      ]
+    },
+    "categories": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "address": {"type": "string"},
+    "phone": {"type": "string"},
+    "website": {"type": "string"},
+    "hours": {"type": "array"},
+    "business_status": {"type": "string"}
+  },
+  "additionalProperties": true
+}

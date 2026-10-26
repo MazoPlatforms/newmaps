@@ -1,0 +1,58 @@
+{
+  "name": "Marain Cafe",
+  "coordinates": {
+    "latitude": 7.684798799999999,
+    "longitude": 81.7413071
+  },
+  "address": "Colombo - Batticaloa Hwy, Kattankudy 30100",
+  "categories": [
+    "Food court"
+  ],
+  "phone": "0776647747",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJDBFVBRPRHMMSG2CGW"
+}

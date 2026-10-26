@@ -1,0 +1,58 @@
+{
+  "name": "Rrc Shop",
+  "coordinates": {
+    "latitude": 7.681444099999999,
+    "longitude": 81.7284135
+  },
+  "address": "155 Main St, Kattankudy",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0776673338",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQZADY3K7KP9H3BKQ5N4"
+}

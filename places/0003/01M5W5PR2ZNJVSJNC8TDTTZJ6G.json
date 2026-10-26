@@ -1,0 +1,63 @@
+{
+  "name": "Harnee beauty care & cosmetics",
+  "coordinates": {
+    "latitude": 7.6675146,
+    "longitude": 81.7369475
+  },
+  "address": "Main St, Kattankudy 30000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0764339312",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–6 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–6 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 AM",
+        "8:30 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR2ZNJVSJNC8TDTTZJ6G"
+}

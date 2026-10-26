@@ -1,0 +1,58 @@
+{
+  "name": "Euro Phone Shop",
+  "coordinates": {
+    "latitude": 7.680441399999999,
+    "longitude": 81.7289673
+  },
+  "address": "No. 1, Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+  "categories": [
+    "Cell phone store"
+  ],
+  "phone": "0652245747",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQWMKTYYN1GBSYT02ZSK"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Western Union",
+  "coordinates": {
+    "latitude": 7.689011,
+    "longitude": 81.72946999999999
+  },
+  "address": "Kattankudy 30150",
+  "categories": [
+    "Money transfer service"
+  ],
+  "phone": "0652247846",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://www.westernunion.com/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQS02RV62NZANKSNZ0TM"
+}

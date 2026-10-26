@@ -1,0 +1,58 @@
+{
+  "name": "Shaz beauty salon and Academy",
+  "coordinates": {
+    "latitude": 7.6827932,
+    "longitude": 81.734793
+  },
+  "address": "286/5,jolly lane, 06 Dr Badhiudeen Mahmood Mawatha",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0729330521",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQMGB8HJ4NBFXTGSSRSN"
+}

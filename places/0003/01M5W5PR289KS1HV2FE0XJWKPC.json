@@ -1,0 +1,57 @@
+{
+  "name": "Pearl Shine Beauty Parlour",
+  "coordinates": {
+    "latitude": 7.7268953,
+    "longitude": 81.68798199999999
+  },
+  "address": "No: 10B Selvanayagam Rd, Batticaloa 30000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR289KS1HV2FE0XJWKPC"
+}

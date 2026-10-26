@@ -1,0 +1,59 @@
+{
+  "name": "Happy land ice cream",
+  "coordinates": {
+    "latitude": 7.6783065,
+    "longitude": 81.7372441
+  },
+  "address": "MPHP+5RM, Bai lane, road, Kattankudy 30100",
+  "categories": [
+    "Ice cream shop"
+  ],
+  "phone": "0752876525",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:30 AM",
+        "1:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJNS5958FRTW44ZJERF"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "IT care Kattankudy",
+  "coordinates": {
+    "latitude": 7.6888879999999995,
+    "longitude": 81.72951479999999
+  },
+  "address": "92, Baduriya Road, New, Kattankudy 01",
+  "categories": [
+    "Electronics repair shop"
+  ],
+  "phone": "0767500680",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQP8NMPHNK8XM6ETW51M"
+}

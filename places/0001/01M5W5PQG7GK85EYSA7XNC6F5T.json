@@ -1,0 +1,58 @@
+{
+  "name": "Buyzobicycle",
+  "coordinates": {
+    "latitude": 7.679749999999999,
+    "longitude": 81.7290866
+  },
+  "address": "Main Street, Colombo - Batticaloa Hwy, Kattankudy 30100",
+  "categories": [
+    "Bicycle store"
+  ],
+  "phone": "0772107700",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQG7GK85EYSA7XNC6F5T"
+}

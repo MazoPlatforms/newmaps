@@ -1,0 +1,58 @@
+{
+  "name": "Rahmath Sweet Mart",
+  "coordinates": {
+    "latitude": 7.6759328,
+    "longitude": 81.73164899999999
+  },
+  "address": "06 Main St, Kattankudy 30100",
+  "categories": [
+    "Sweets and dessert buffet"
+  ],
+  "phone": "0770431852",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJM9TAD3WDC1V19K301"
+}

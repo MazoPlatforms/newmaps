@@ -1,0 +1,58 @@
+{
+  "name": "Top Shoe Mart",
+  "coordinates": {
+    "latitude": 7.6825874999999995,
+    "longitude": 81.73367189999999
+  },
+  "address": "MPMM+2FM, Kattankudy",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0778055302",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQS5KWY7ENFTX399267Q"
+}

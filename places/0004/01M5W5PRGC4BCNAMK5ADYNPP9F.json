@@ -1,0 +1,59 @@
+{
+  "name": "MTD Electricity & Technology Center",
+  "coordinates": {
+    "latitude": 7.857685,
+    "longitude": 80.70625
+  },
+  "address": "",
+  "categories": [
+    "Electric utility company",
+    "Service establishment"
+  ],
+  "phone": "0752581880",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRGC4BCNAMK5ADYNPP9F"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Oceanic farm",
+  "coordinates": {
+    "latitude": 7.7744718,
+    "longitude": 81.6379146
+  },
+  "address": "savukkady, Kamatchi Amman Kovil road, mayilambaveli, Batticaloa 30350",
+  "categories": [
+    "Farm"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQGNF1HM7MDYX0Q133QF"
+}

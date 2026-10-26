@@ -1,0 +1,59 @@
+{
+  "name": "New Pioneer Hospital Batticaloa",
+  "coordinates": {
+    "latitude": 7.719015,
+    "longitude": 81.7011933
+  },
+  "address": "91 Pioneer Rd, Batticaloa",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0652223642",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "website": "http://newpioneerhospital.com/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQQAA5E528WNMYTKFHAC"
+}

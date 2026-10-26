@@ -1,0 +1,58 @@
+{
+  "name": "Baby Corner",
+  "coordinates": {
+    "latitude": 7.7159365,
+    "longitude": 81.6987575
+  },
+  "address": "PM8X+9F5, Batticaloa",
+  "categories": [
+    "Baby store"
+  ],
+  "phone": "0776403404",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHJT9QJ7QWGRWEWR2DZ"
+}

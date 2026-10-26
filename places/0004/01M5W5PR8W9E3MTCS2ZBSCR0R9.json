@@ -1,0 +1,63 @@
+{
+  "name": "Studio Jeyani Vavunathivu",
+  "coordinates": {
+    "latitude": 7.696356,
+    "longitude": 81.65452359999999
+  },
+  "address": "No 12 Main Street, Batticaloa",
+  "categories": [
+    "Photography studio"
+  ],
+  "phone": "0770475254",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR8W9E3MTCS2ZBSCR0R9"
+}

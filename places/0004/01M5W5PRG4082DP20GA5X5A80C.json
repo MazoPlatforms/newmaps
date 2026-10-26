@@ -1,0 +1,59 @@
+{
+  "name": "Pay&Go Bill Payment Kiosk - Batticaloa",
+  "coordinates": {
+    "latitude": 7.7145879,
+    "longitude": 81.6969139
+  },
+  "address": "51 Munai St, Batticaloa 30000",
+  "categories": [
+    "Payment terminal"
+  ],
+  "phone": "0117420888",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://paygo.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PRG4082DP20GA5X5A80C"
+}

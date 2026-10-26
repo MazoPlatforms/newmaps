@@ -1,0 +1,58 @@
+{
+  "name": "Laptop Store - MacsarIT",
+  "coordinates": {
+    "latitude": 7.686723799999999,
+    "longitude": 81.72532869999999
+  },
+  "address": "412 Main St, Kattankudy 30100",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0755050009",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQG3DKX5F9SE5CZ35NNJ"
+}

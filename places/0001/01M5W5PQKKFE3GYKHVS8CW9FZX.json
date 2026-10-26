@@ -1,0 +1,61 @@
+{
+  "name": "Tech Bite",
+  "coordinates": {
+    "latitude": 7.6813521,
+    "longitude": 81.7284446
+  },
+  "address": "68 main street, 03, Kattankudy 30100",
+  "categories": [
+    "Computer store",
+    "Cell phone accessory store",
+    "Computer repair service",
+    "Mobile phone repair shop"
+  ],
+  "phone": "0772252498",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQKKFE3GYKHVS8CW9FZX"
+}

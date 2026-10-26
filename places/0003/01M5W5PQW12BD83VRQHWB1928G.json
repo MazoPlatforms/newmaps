@@ -1,0 +1,59 @@
+{
+  "name": "Home needs food centre",
+  "coordinates": {
+    "latitude": 7.6851011,
+    "longitude": 81.7262751
+  },
+  "address": "287D, Main street, kattankudi, 02කොළඹ - මඩකළපුව ප්‍රධාන පාර, Kattankudiකාත්තාන්කුඩි 30100",
+  "categories": [
+    "Supermarket",
+    "Grocery store"
+  ],
+  "phone": "0774423665",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQW12BD83VRQHWB1928G"
+}

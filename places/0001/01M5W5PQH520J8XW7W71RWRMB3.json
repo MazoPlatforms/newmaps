@@ -1,0 +1,58 @@
+{
+  "name": "Global Auto Parts",
+  "coordinates": {
+    "latitude": 7.6844876,
+    "longitude": 81.7267164
+  },
+  "address": "254 Main St, Kattankudy 30100",
+  "categories": [
+    "Auto parts store"
+  ],
+  "phone": "0761883040",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQH520J8XW7W71RWRMB3"
+}

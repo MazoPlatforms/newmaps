@@ -1,0 +1,58 @@
+{
+  "name": "Hani Mart",
+  "coordinates": {
+    "latitude": 7.684277,
+    "longitude": 81.7226677
+  },
+  "address": "Zaviya Road, 01, Kattankudy 30100",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0779636856",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRBCR5G54QQJ7KB32QJ7"
+}

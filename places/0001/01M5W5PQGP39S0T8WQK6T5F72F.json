@@ -1,0 +1,58 @@
+{
+  "name": "District Agriculture Training Center",
+  "coordinates": {
+    "latitude": 7.7516606999999995,
+    "longitude": 81.6636588
+  },
+  "address": "Batticaloa",
+  "categories": [
+    "Government office"
+  ],
+  "phone": "0652059083",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQGP39S0T8WQK6T5F72F"
+}

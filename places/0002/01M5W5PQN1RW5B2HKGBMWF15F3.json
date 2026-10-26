@@ -1,0 +1,58 @@
+{
+  "name": "Monash English academy",
+  "coordinates": {
+    "latitude": 7.6813088,
+    "longitude": 81.72197589999999
+  },
+  "address": "Old Road, Kattankudy 30100",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0775566499",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3:45–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3:45–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3:45–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3:45–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQN1RW5B2HKGBMWF15F3"
+}

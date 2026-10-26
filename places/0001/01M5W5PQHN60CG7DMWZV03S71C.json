@@ -1,0 +1,57 @@
+{
+  "name": "Star Hotel & Bakery",
+  "coordinates": {
+    "latitude": 7.6886313,
+    "longitude": 81.7306754
+  },
+  "address": "MPQJ+F73, Telecom Rd, Kattankudy",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHN60CG7DMWZV03S71C"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kanna Auto Garage",
+  "coordinates": {
+    "latitude": 7.6861174,
+    "longitude": 81.7275521
+  },
+  "address": "No 42 Fawzi Mawatha, Kattankudy",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0772203469",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQH5ZZ5AMQJXMKGZYJ8V"
+}

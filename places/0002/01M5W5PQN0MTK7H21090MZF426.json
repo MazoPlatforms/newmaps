@@ -1,0 +1,59 @@
+{
+  "name": "AI Employee",
+  "coordinates": {
+    "latitude": 7.6768108999999995,
+    "longitude": 81.7318039
+  },
+  "address": "19 Deen Road, Kattankudy 30100",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0721096028",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "website": "https://aiemployee.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQN0MTK7H21090MZF426"
+}

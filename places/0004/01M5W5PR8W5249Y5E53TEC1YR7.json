@@ -1,0 +1,58 @@
+{
+  "name": "Theva's Studio",
+  "coordinates": {
+    "latitude": 7.7179848,
+    "longitude": 81.7086851
+  },
+  "address": "Market, No- 4, Bridge, Kallady",
+  "categories": [
+    "Photography studio"
+  ],
+  "phone": "0754300592",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR8W5249Y5E53TEC1YR7"
+}

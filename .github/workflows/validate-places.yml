@@ -1,0 +1,19 @@
+name: Validate Mazo Places
+on:
+  pull_request:
+    paths: ['places/**', 'scripts/**', 'tests/**', 'data/place.schema.json', 'assets/js/app.js', '.github/workflows/**']
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.x'}
+      - run: python scripts/places.py validate
+      - run: python scripts/places.py build
+      - run: python -m unittest discover -s tests -v
+      - run: node --check assets/js/app.js

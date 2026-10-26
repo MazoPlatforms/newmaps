@@ -1,0 +1,58 @@
+{
+  "name": "Dell Concept Store",
+  "coordinates": {
+    "latitude": 7.7181994,
+    "longitude": 81.6984274
+  },
+  "address": "197 Trincomalee-Batticaloa Rd, Batticaloa",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0773686166",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQMC4P65VG20FFNXP420"
+}

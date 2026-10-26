@@ -1,0 +1,57 @@
+{
+  "name": "Saloon",
+  "coordinates": {
+    "latitude": 7.674989,
+    "longitude": 81.7318276
+  },
+  "address": "MPFJ+XQ7, Batticaloa",
+  "categories": [
+    "Hair salon"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR1XESH7FK3CKZZQTA74"
+}

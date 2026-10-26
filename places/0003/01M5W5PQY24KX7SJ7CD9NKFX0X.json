@@ -1,0 +1,58 @@
+{
+  "name": "Aahaa restaurant",
+  "coordinates": {
+    "latitude": 7.7212486,
+    "longitude": 81.6942578
+  },
+  "address": "Trincomalee-Batticaloa Road, Batticaloa",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0705226740",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQY24KX7SJ7CD9NKFX0X"
+}

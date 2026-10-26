@@ -1,0 +1,58 @@
+{
+  "name": "Aslam Paint Zone",
+  "coordinates": {
+    "latitude": 7.6867659999999995,
+    "longitude": 81.722815
+  },
+  "address": "50 Apdul Rahman Rd, Kattankudy",
+  "categories": [
+    "Motorcycle repair shop"
+  ],
+  "phone": "0763788586",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHCGQ81M8XX7THGYR6N"
+}

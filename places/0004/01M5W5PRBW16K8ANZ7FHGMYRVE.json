@@ -1,0 +1,59 @@
+{
+  "name": "Rafeek Bakery",
+  "coordinates": {
+    "latitude": 7.682868,
+    "longitude": 81.72733769999999
+  },
+  "address": "Colombo - Batticaloa Hwy, Kattankudy",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0777711497",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "website": "http://www.rafeekbakery.hol.es/",
+  "business_status": "OPEN",
+  "id": "01M5W5PRBW16K8ANZ7FHGMYRVE"
+}

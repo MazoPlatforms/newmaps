@@ -1,0 +1,58 @@
+{
+  "name": "Thanvanthiri Hospital",
+  "coordinates": {
+    "latitude": 7.7075173999999995,
+    "longitude": 81.7133159
+  },
+  "address": "PP57+284, A4, Kallady",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0653063766",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQTFHM7NY909BJAAYFQ7"
+}

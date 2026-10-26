@@ -1,0 +1,58 @@
+{
+  "name": "Cool Time",
+  "coordinates": {
+    "latitude": 7.6835664999999995,
+    "longitude": 81.7353636
+  },
+  "address": "Beach Road New Kattankudy 03, Kattankudy 30100",
+  "categories": [
+    "Juice shop"
+  ],
+  "phone": "0766797337",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJ9V3ME4FXWP0DQHN7K"
+}

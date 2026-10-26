@@ -1,0 +1,58 @@
+{
+  "name": "Fisheries rd",
+  "coordinates": {
+    "latitude": 7.6833642,
+    "longitude": 81.7280061
+  },
+  "address": "20 Fisheries Rd, Kattankudy",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0771099288",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR2XDMXQV3WNGQ0EVCFY"
+}

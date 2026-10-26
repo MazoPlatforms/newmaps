@@ -1,0 +1,58 @@
+{
+  "name": "TLK Food city",
+  "coordinates": {
+    "latitude": 7.6764573,
+    "longitude": 81.728248
+  },
+  "address": "MPGH+H7Q, A.J.A. Rd, Kattankudy",
+  "categories": [
+    "Grocery delivery service"
+  ],
+  "phone": "0776013866",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQMQ3J08BQ5TY7AS8MQ7"
+}

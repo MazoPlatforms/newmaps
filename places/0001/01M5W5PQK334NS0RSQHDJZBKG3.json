@@ -1,0 +1,66 @@
+{
+  "name": "JR Tech",
+  "coordinates": {
+    "latitude": 7.714614699999999,
+    "longitude": 81.69689939999999
+  },
+  "address": "51 Munai St, Batticaloa 30000",
+  "categories": [
+    "Electronics store",
+    "Electrical equipment supplier",
+    "Gift shop",
+    "Print shop",
+    "Stationery store",
+    "Telecommunications service provider",
+    "Watch store"
+  ],
+  "phone": "0778759392",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11:30 AM",
+        "2–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://www.daraz.lk/shop/gwgas8mt/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQK334NS0RSQHDJZBKG3"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "SPC Hospital & kidney care",
+  "coordinates": {
+    "latitude": 7.696893299999999,
+    "longitude": 81.71888899999999
+  },
+  "address": "386c New Kalmunai Road, Batticaloa 30000",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0760060036",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "http://spchospital.com/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQQ9AGR5HX79PNRNF18F"
+}

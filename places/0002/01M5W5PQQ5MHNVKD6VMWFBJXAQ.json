@@ -1,0 +1,57 @@
+{
+  "name": "Central Ayurvedic Dispensary",
+  "coordinates": {
+    "latitude": 7.689,
+    "longitude": 81.73218469999999
+  },
+  "address": "MPQJ+HVV, Kattankudy",
+  "categories": [
+    "Hospital"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQQ5MHNVKD6VMWFBJXAQ"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "FIUM Creation",
+  "coordinates": {
+    "latitude": 7.6779641,
+    "longitude": 81.7349481
+  },
+  "address": "Amanullah road, Majeed lane, Kattankudy",
+  "categories": [
+    "Custom tailor"
+  ],
+  "phone": "0774818839",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 PM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12 PM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 PM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12 PM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 PM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 PM",
+        "3–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRCAAZ4AR9CVRRG8PPKT"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Crescent Institute",
+  "coordinates": {
+    "latitude": 7.6798784,
+    "longitude": 81.7278738
+  },
+  "address": "MPHH+X45, Kattankudy 30100",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0774394535",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 AM",
+        "8 PM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQN3MN1YY0J29PCKNG2Q"
+}

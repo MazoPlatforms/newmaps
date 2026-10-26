@@ -1,0 +1,58 @@
+{
+  "name": "Aazif Hotel",
+  "coordinates": {
+    "latitude": 7.6826519,
+    "longitude": 81.72770729999999
+  },
+  "address": "Kattankudy 30100",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0778808102",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQYC86D28DZGC20DVTJ1"
+}

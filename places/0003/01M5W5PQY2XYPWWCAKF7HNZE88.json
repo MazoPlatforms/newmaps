@@ -1,0 +1,59 @@
+{
+  "name": "Fast Food Mafia",
+  "coordinates": {
+    "latitude": 7.685326399999999,
+    "longitude": 81.7259349
+  },
+  "address": "24000, Kattankudy 30100",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0771713356",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3 PM–1 AM"
+      ]
+    }
+  ],
+  "website": "http://fastfoodmafia.com/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQY2XYPWWCAKF7HNZE88"
+}

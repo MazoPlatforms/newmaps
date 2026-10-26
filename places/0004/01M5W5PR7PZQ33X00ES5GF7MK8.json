@@ -1,0 +1,59 @@
+{
+  "name": "Dessert Dash",
+  "coordinates": {
+    "latitude": 7.679846899999999,
+    "longitude": 81.72592449999999
+  },
+  "address": "MPHG+W9M, Old G.S. Ln, Kattankudy",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0765444850",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "https://www.facebook.com/dessertdashkky",
+  "business_status": "OPEN",
+  "id": "01M5W5PR7PZQ33X00ES5GF7MK8"
+}

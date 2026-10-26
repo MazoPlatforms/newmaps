@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 7.6859319,
+    "longitude": 81.72734299999999
+  },
+  "address": "No 42 Fawzi Mawatha, Kattankudy 30100",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0652248576",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://www.combank.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQHYFKAWGCZS8TR99ZSD"
+}

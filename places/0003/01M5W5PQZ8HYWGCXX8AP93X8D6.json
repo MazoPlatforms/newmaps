@@ -1,0 +1,58 @@
+{
+  "name": "Heath Care Centre",
+  "coordinates": {
+    "latitude": 7.6820602,
+    "longitude": 81.72815419999999
+  },
+  "address": "MPJH+R7C, Kattankudy",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0652246987",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQZ8HYWGCXX8AP93X8D6"
+}

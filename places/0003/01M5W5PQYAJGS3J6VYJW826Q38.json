@@ -1,0 +1,64 @@
+{
+  "name": "China town",
+  "coordinates": {
+    "latitude": 7.7110461,
+    "longitude": 81.6938102
+  },
+  "address": "39 Covington's Road, Batticaloa 30410",
+  "categories": [
+    "Chinese restaurant"
+  ],
+  "phone": "0654677448",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQYAJGS3J6VYJW826Q38"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Urban Council",
+  "coordinates": {
+    "latitude": 7.6837396,
+    "longitude": 81.7313556
+  },
+  "address": "MPMJ+FGX, Kattankudy 30100",
+  "categories": [
+    "Council"
+  ],
+  "phone": "0652245925",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQNV4S6PW7KRRBQAE3RV"
+}

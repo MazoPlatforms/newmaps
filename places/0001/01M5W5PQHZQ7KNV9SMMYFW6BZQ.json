@@ -1,0 +1,58 @@
+{
+  "name": "People's Bank",
+  "coordinates": {
+    "latitude": 7.6753852,
+    "longitude": 81.7319667
+  },
+  "address": "MPGJ+5Q4, Colombo-Ratnapura-Wellawaya-Batticaloa Highway, Kattankudy",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0652246598",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHZQ7KNV9SMMYFW6BZQ"
+}

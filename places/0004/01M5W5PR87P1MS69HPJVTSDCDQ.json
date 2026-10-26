@@ -1,0 +1,65 @@
+{
+  "name": "Faris Tailoring Shop",
+  "coordinates": {
+    "latitude": 7.6856577999999995,
+    "longitude": 81.7316937
+  },
+  "address": "",
+  "categories": [
+    "Tailor",
+    "Service establishment"
+  ],
+  "phone": "0774444154",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM",
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR87P1MS69HPJVTSDCDQ"
+}

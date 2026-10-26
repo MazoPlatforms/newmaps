@@ -1,0 +1,64 @@
+{
+  "name": "Niyas Jewellery",
+  "coordinates": {
+    "latitude": 7.6806097,
+    "longitude": 81.7294419
+  },
+  "address": "Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
+  "categories": [
+    "Jewelry store"
+  ],
+  "phone": "0652247796",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–2 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–2 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM",
+        "4–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQFTHENZPZMCSPHV7NES"
+}

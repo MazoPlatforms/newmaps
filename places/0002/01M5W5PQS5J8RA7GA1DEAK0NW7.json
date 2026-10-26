@@ -1,0 +1,58 @@
+{
+  "name": "AAA Shoe",
+  "coordinates": {
+    "latitude": 7.6807137999999995,
+    "longitude": 81.7298014
+  },
+  "address": "MPJH+7XC, 47 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0779684110",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:45 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:45 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:45 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:45 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:45 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:45 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQS5J8RA7GA1DEAK0NW7"
+}

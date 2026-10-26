@@ -1,0 +1,58 @@
+{
+  "name": "Rukshi Beauty Parlor",
+  "coordinates": {
+    "latitude": 7.7215102,
+    "longitude": 81.6939926
+  },
+  "address": "381/1/1 Trinco Rd, Batticaloa 30000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0770269400",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR28X9F5MPG0YC3G2JVW"
+}

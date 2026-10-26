@@ -1,0 +1,64 @@
+{
+  "name": "Faris Tailoring Shop",
+  "coordinates": {
+    "latitude": 7.6841725,
+    "longitude": 81.7365155
+  },
+  "address": "03 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
+  "categories": [
+    "Tailor"
+  ],
+  "phone": "0774444154",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 PM",
+        "5–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRC2N77W5GW9EQNSQ9Y6"
+}

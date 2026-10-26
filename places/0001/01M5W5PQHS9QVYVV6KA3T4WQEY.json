@@ -1,0 +1,58 @@
+{
+  "name": "Bombay Sweet House",
+  "coordinates": {
+    "latitude": 7.6836568,
+    "longitude": 81.72687599999999
+  },
+  "address": "Main St, Kattankudy 30235",
+  "categories": [
+    "Candy store"
+  ],
+  "phone": "0773598265",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHS9QVYVV6KA3T4WQEY"
+}

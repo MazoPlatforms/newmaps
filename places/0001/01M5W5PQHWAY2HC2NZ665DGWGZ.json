@@ -1,0 +1,58 @@
+{
+  "name": "Maruthi Bakery and Cool spot",
+  "coordinates": {
+    "latitude": 7.7044273,
+    "longitude": 81.7122839
+  },
+  "address": "115 B337, Kallady",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0776939593",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHWAY2HC2NZ665DGWGZ"
+}

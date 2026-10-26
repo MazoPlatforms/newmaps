@@ -1,0 +1,58 @@
+{
+  "name": "Mr Tech Phone Repairing Shop",
+  "coordinates": {
+    "latitude": 7.686196499999999,
+    "longitude": 81.7256273
+  },
+  "address": "Main St, Kattankudy 30100",
+  "categories": [
+    "Repair service"
+  ],
+  "phone": "0750949274",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQWF2T3BHCEEB63RB6AR"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Quickz Delivery",
+  "coordinates": {
+    "latitude": 7.6840578,
+    "longitude": 81.7341543
+  },
+  "address": "MPMM+JMC, Kattankudy",
+  "categories": [
+    "Delivery service"
+  ],
+  "phone": "0768969898",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "http://www.facebook.com/quickzde",
+  "business_status": "OPEN",
+  "id": "01M5W5PQMNP4ZWYKEHGQPJ1YCG"
+}

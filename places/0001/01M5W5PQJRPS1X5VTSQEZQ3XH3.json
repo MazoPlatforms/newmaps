@@ -1,0 +1,58 @@
+{
+  "name": "Thasleem Dental Lab",
+  "coordinates": {
+    "latitude": 7.682107299999999,
+    "longitude": 81.7277264
+  },
+  "address": "MPJH+R3X, Main St, Kattankudy",
+  "categories": [
+    "Dental clinic"
+  ],
+  "phone": "0777245437",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJRPS1X5VTSQEZQ3XH3"
+}

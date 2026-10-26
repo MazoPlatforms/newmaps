@@ -1,0 +1,59 @@
+{
+  "name": "Tekno World",
+  "coordinates": {
+    "latitude": 7.724526699999999,
+    "longitude": 81.691937
+  },
+  "address": "360, Trinco Road, Batticaloa 30000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0777932718",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://www.teknoworld.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQKSQ04B0FE0TCH6MSW3"
+}

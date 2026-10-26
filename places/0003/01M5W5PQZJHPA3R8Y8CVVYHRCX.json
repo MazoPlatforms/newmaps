@@ -1,0 +1,58 @@
+{
+  "name": "Aha Aquarium",
+  "coordinates": {
+    "latitude": 7.6752671999999995,
+    "longitude": 81.7317709
+  },
+  "address": "Main St, Kattankudy",
+  "categories": [
+    "Aquarium"
+  ],
+  "phone": "0775388801",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQZJHPA3R8Y8CVVYHRCX"
+}

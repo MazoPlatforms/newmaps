@@ -1,0 +1,58 @@
+{
+  "name": "Everest Electronics",
+  "coordinates": {
+    "latitude": 7.6784231,
+    "longitude": 81.7301215
+  },
+  "address": "88 Main St, Kattankudy",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0776179572",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQP206FYPE8EY0JK7P6C"
+}

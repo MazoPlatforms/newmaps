@@ -1,0 +1,57 @@
+{
+  "name": "Heritage Museum, Kattankudy",
+  "coordinates": {
+    "latitude": 7.6771139999999995,
+    "longitude": 81.7306668
+  },
+  "address": "243 Main Street, Kattankudy 30100",
+  "categories": [
+    "Museum"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQNBD772DX588FTBZRT5"
+}

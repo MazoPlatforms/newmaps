@@ -1,0 +1,63 @@
+{
+  "name": "Clicktomart",
+  "coordinates": {
+    "latitude": 7.7199544,
+    "longitude": 81.70169299999999
+  },
+  "address": "8A Subramaniyam Ln, Koddaimunai 30000",
+  "categories": [
+    "E-commerce service",
+    "Clothing store",
+    "Cosmetics store",
+    "Electronics store",
+    "Furniture store",
+    "Grocery store"
+  ],
+  "phone": "0762660466",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQK1SMGGXF62JGNE1C5M"
+}

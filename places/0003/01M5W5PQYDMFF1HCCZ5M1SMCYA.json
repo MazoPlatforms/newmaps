@@ -1,0 +1,62 @@
+{
+  "name": "Pizza Hut - Arayampathy",
+  "coordinates": {
+    "latitude": 7.6738520999999995,
+    "longitude": 81.73297149999999
+  },
+  "address": "New Kalmunai Road, Batticaloa",
+  "categories": [
+    "Pizza restaurant",
+    "Fast food restaurant",
+    "Pizza delivery",
+    "Pizza takeaway"
+  ],
+  "phone": "0112729729",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "website": "https://www.pizzahut.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQYDMFF1HCCZ5M1SMCYA"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "ToySmart",
+  "coordinates": {
+    "latitude": 7.680622,
+    "longitude": 81.7288532
+  },
+  "address": "Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Kattankudy",
+  "categories": [
+    "Toy store"
+  ],
+  "phone": "0770761997",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHHJG74WJ0CH5P13WG7"
+}

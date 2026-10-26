@@ -1,0 +1,58 @@
+{
+  "name": "Baby Collection",
+  "coordinates": {
+    "latitude": 7.685326399999999,
+    "longitude": 81.7259349
+  },
+  "address": "NO.152, 06 MAINE STREET, Kattankudy 30100",
+  "categories": [
+    "Baby clothing store"
+  ],
+  "phone": "0771686017",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRETK1WHXZB62XH16FRE"
+}

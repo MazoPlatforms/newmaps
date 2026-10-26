@@ -1,0 +1,65 @@
+{
+  "name": "Home Taste",
+  "coordinates": {
+    "latitude": 7.696866399999999,
+    "longitude": 81.7267095
+  },
+  "address": "333/33 6th Cross Road, Kalkudah",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0717485103",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–9 AM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–9 AM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–9 AM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–9 AM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–9 AM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–9 AM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6–9 AM",
+        "5:30–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHVBP92PTQBZQWJB20A"
+}

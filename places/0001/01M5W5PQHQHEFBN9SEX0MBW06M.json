@@ -1,0 +1,58 @@
+{
+  "name": "Al Aqsa Bake House",
+  "coordinates": {
+    "latitude": 7.6770502,
+    "longitude": 81.7359987
+  },
+  "address": "123 Deen Rd, Kattankudy",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0775809524",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "2–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHQHEFBN9SEX0MBW06M"
+}

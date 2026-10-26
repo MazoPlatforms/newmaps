@@ -1,0 +1,58 @@
+{
+  "name": "Studio Max",
+  "coordinates": {
+    "latitude": 7.5202982,
+    "longitude": 81.7878923
+  },
+  "address": "Main street, Kaluwanchikudy 30200",
+  "categories": [
+    "Photography service"
+  ],
+  "phone": "0761210029",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRAS2JFBJNPQSNY1ZQAE"
+}

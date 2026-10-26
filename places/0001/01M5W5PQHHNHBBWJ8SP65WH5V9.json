@@ -1,0 +1,58 @@
+{
+  "name": "Hathiq Toys",
+  "coordinates": {
+    "latitude": 7.6804384,
+    "longitude": 81.7287202
+  },
+  "address": "23 Main St, Kattankudy",
+  "categories": [
+    "Toy store"
+  ],
+  "phone": "0789929944",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHHNHBBWJ8SP65WH5V9"
+}
