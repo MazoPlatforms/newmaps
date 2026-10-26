@@ -382,26 +382,26 @@ function ensureSpeedReview(){
    'icon-allow-overlap':false,'icon-ignore-placement':false,'icon-padding':22}});
 }
 async function loadSpeedReviews(){
- try{
-  const [sr,roadData]=await Promise.all([fetch('./data/speed-limits/kattankudy.json'),loadRoadGeoJSON()]);
-  if(!sr.ok)return;
-  const speed=await sr.json();
-  const byId=new Map((roadData.features||[]).map(feature=>[feature.properties?.source_id,{id:feature.id,name:feature.properties?.name,type:feature.properties?.type,coordinates:feature.geometry?.coordinates}]));
-  const seen=new Set(),features=[];
-  for(const record of speed.segments||[]){
-   const road=byId.get(record.road_id),coords=road?.coordinates;
-   if(!coords||coords.length<2)continue;
-   const midpoint=coords[Math.floor(coords.length/2)];
-   if(!midpoint||!midpoint.every(Number.isFinite))continue;
-   const key=Math.round(midpoint[0]*800)+'/'+Math.round(midpoint[1]*800);
-   if(seen.has(key))continue;seen.add(key);
-   features.push({type:'Feature',geometry:{type:'Point',coordinates:midpoint},properties:{
-    road:record.road_name||'Unnamed road',status:'Legal default candidate — unverified',
-    candidate:record.legal_default_candidate_kmh??'',road_id:record.road_id}});
-  }
-  speedReviewFeatures=features;ensureSpeedReview();
- }catch(e){console.warn('Speed-limit reviews unavailable:',e)}
-}
+  try{
+   const response=await fetch('./generated/kattankudy-speed-limits.mzp');
+   if(!response.ok)return;
+   const speedData=await response.json();
+   const seen=new Set(),features=[];
+   for(const feature of speedData.features||[]){
+    const coordinates=feature.geometry?.coordinates;
+    if(feature.geometry?.type!=='LineString'||!Array.isArray(coordinates)||coordinates.length<2)continue;
+    const midpoint=coordinates[Math.floor(coordinates.length/2)];
+    if(!midpoint||!midpoint.every(Number.isFinite))continue;
+    const key=Math.round(midpoint[0]*800)+'/'+Math.round(midpoint[1]*800);
+    if(seen.has(key))continue;seen.add(key);
+    const record=feature.properties||{};
+    features.push({type:'Feature',geometry:{type:'Point',coordinates:midpoint},properties:{
+     road:record.road_name||'Unnamed road',status:'Legal default candidate — unverified',
+     candidate:record.legal_default_candidate_kmh??'',road_id:record.road_id}});
+   }
+   speedReviewFeatures=features;ensureSpeedReview();
+  }catch(e){console.warn('Speed-limit reviews unavailable:',e)}
+ }
 map.on('click',SPEED_LAYER,e=>{
  if(!routePanel.hidden)return;
  const f=e.features?.[0];if(!f)return;

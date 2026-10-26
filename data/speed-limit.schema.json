@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mazoplatforms.github.io/newmaps/speed-limit.schema.json",
+  "title": "Mazo Speed Limit Segment",
+  "type": "object",
+  "required": [
+    "id",
+    "source_id",
+    "road_ref",
+    "road_id",
+    "road_name",
+    "road_type",
+    "classification",
+    "verification_status",
+    "source"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-7][0-9A-HJKMNP-TV-Z]{25}$"
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Original speed-limit source record identifier."
+    },
+    "road_ref": {
+      "type": "string",
+      "pattern": "^[0-7][0-9A-HJKMNP-TV-Z]{25}$",
+      "description": "Internal road ULID resolved from an explicit source road_id."
+    },
+    "road_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Original Overture road segment ID; preserved unchanged."
+    },
+    "road_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "road_type": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "legal_default_candidate_kmh": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "Provisional legal default; not a verified posted limit."
+    },
+    "speed_limit_kmh": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "Null means no numeric posted speed is known; it is not zero or unrestricted."
+    },
+    "verification_status": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "direction": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "vehicle_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "conditional": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "speed_limit_status": {
+      "type": "string",
+      "enum": [
+        "unknown",
+        "unrestricted",
+        "conditional",
+        "numeric",
+        "absent"
+      ],
+      "description": "Optional explicit source status; absence must not be converted into another status."
+    }
+  },
+  "additionalProperties": true
+}
