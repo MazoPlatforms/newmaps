@@ -11,7 +11,7 @@
   "sources": {
     "base": {
       "type": "vector",
-      "url": "pmtiles://https://mazoplatforms.github.io/maps//data/sri-lanka/base.pmtiles",
+      "url": "pmtiles://https://mazoplatforms.github.io/maps/data/sri-lanka/base.pmtiles",
       "attribution": "© <a href=\"https://docs.overturemaps.org/attribution/\">Overture Maps Foundation</a> · © <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a> · <a href=\"https://www.geonames.org/\">GeoNames (CC BY 4.0)</a>",
       "bounds": [
         79.3,
@@ -24,7 +24,7 @@
     },
     "transportation": {
       "type": "vector",
-      "url": "pmtiles://https://mazoplatforms.github.io/maps//data/sri-lanka/transportation.pmtiles",
+      "url": "pmtiles://https://mazoplatforms.github.io/maps/data/sri-lanka/transportation.pmtiles",
       "attribution": "© <a href=\"https://docs.overturemaps.org/attribution/\">Overture Maps Foundation</a> · © <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
       "bounds": [
         79.3,
@@ -37,7 +37,7 @@
     },
     "buildings": {
       "type": "vector",
-      "url": "pmtiles://https://mazoplatforms.github.io/maps//data/sri-lanka/buildings.pmtiles",
+      "url": "pmtiles://https://mazoplatforms.github.io/maps/data/sri-lanka/buildings.pmtiles",
       "attribution": "© <a href=\"https://docs.overturemaps.org/attribution/\">Overture Maps Foundation</a> · © <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
       "bounds": [
         79.3,
