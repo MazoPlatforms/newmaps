@@ -343,3 +343,11 @@ body,.place-sheet,.place-sheet button,.place-sheet a{font-family:Inter,-apple-sy
 .route-turn-card strong{font-size:14px;display:block}
 .route-turn-card small{display:block;color:var(--muted);font-size:11px;margin-top:3px}
 @media(max-width:600px){.route-panel{max-height:64dvh!important}.route-turn-card{bottom:calc(176px + env(safe-area-inset-bottom))}}
+
+
+/* Automatic directions sheet states */
+.route-panel[data-state="compact"]{height:auto!important;min-height:0!important;max-height:190px!important;overflow:auto!important}
+.route-panel[data-state="half"]{height:50dvh!important;max-height:50dvh!important;overflow-y:auto!important}
+.route-panel[data-state="compact"] #route-steps,.route-panel[data-state="compact"] .route-details{display:none!important}
+.route-panel[data-state="half"] #route-steps:not([hidden]){display:block}
+.route-panel .route-head{touch-action:pan-y}
