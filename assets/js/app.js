@@ -24,25 +24,28 @@ function registerIcons(){
 }
 function poiFeatures(){return places.map((p,i)=>({type:'Feature',id:i,geometry:{type:'Point',coordinates:[+p.coordinates.longitude,+p.coordinates.latitude]},properties:{name:p.name,kind:kind(p),priority:priority(p),index:i,category:(p.categories||[]).join(' '),address:p.address||''}}))}
 function ensurePoiLayer(){
-  if(!map.isStyleLoaded()||!Object.keys(artwork).every(k=>map.hasImage(iconFor(k))))return;
-  if(!map.getSource(POI_SOURCE))map.addSource(POI_SOURCE,{type:'geojson',data:{type:'FeatureCollection',features:poiFeatures()}});
-  if(!map.getLayer(POI_LAYER))map.addLayer({id:POI_LAYER,type:'symbol',source:POI_SOURCE,minzoom:11.5,
-    layout:{'symbol-sort-key':['get','priority'],'icon-image':['concat','mazo-',['get','kind']],'icon-size':['interpolate',['linear'],['zoom'],11.5,0.25,14,0.38,17,0.52],'icon-allow-overlap':false,'text-field':['get','name'],'text-font':['Open Sans Regular','Arial Unicode MS Regular'],'text-size':['interpolate',['linear'],['zoom'],12,9,16,12,18,13],'text-offset':[0,1.6],'text-anchor':'top','text-optional':true,'text-max-width':12,'text-allow-overlap':false},
-    paint:{'icon-opacity':['interpolate',['linear'],['zoom'],11.5,0,12.5,0.9,14,1],'text-opacity':['interpolate',['linear'],['zoom'],12,0,13.5,1],'text-color':theme()==='dark'?'#e8edf4':'#29313a','text-halo-color':theme()==='dark'?'#101820':'#fff','text-halo-width':1.6}});
-  refresh();
+ if(!map.getStyle()?.layers?.length)return;
+ if(!map.getSource(POI_SOURCE))map.addSource(POI_SOURCE,{type:'geojson',data:{type:'FeatureCollection',features:poiFeatures()}});
+ const before=(map.getStyle().layers||[]).find(l=>l.type==='symbol'&&/place|settlement|city|town/i.test(l.id))?.id;
+ if(!map.getLayer('mazo-poi-dots'))map.addLayer({id:'mazo-poi-dots',type:'circle',source:POI_SOURCE,minzoom:13,
+   paint:{'circle-radius':['interpolate',['linear'],['zoom'],13,2,15,4,17,5.5],'circle-color':['match',['get','kind'],'food','#cb8959','health','#b5666c','worship','#967c9c','shop','#6d81aa','hotel','#8c76a6','#638a7c'],'circle-stroke-color':theme()==='dark'?'#202b3b':'#fff','circle-stroke-width':1.5,'circle-opacity':['interpolate',['linear'],['zoom'],13,0,14,0.95]}},before);
+ if(!map.getLayer(POI_LAYER))map.addLayer({id:POI_LAYER,type:'symbol',source:POI_SOURCE,minzoom:14,
+   layout:{'symbol-sort-key':['get','priority'],'text-field':['get','name'],'text-font':['Open Sans Regular','Arial Unicode MS Regular'],'text-size':['interpolate',['linear'],['zoom'],14,10,17,12],'text-offset':[0,0.85],'text-anchor':'top','text-optional':true,'text-max-width':10,'text-allow-overlap':false,'text-padding':8},
+   paint:{'text-opacity':['interpolate',['linear'],['zoom'],14,0,15,1],'text-color':theme()==='dark'?'#dbe5ee':'#364152','text-halo-color':theme()==='dark'?'#16202c':'#fff','text-halo-width':1.25}},before);
+ refresh();
 }
 function openPlace(p){const c=p.coordinates;map.flyTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16)});new maplibregl.Popup({offset:20}).setLngLat([+c.longitude,+c.latitude]).setHTML('<strong>'+safe(p.name)+'</strong><p>'+safe(p.address||'')+'</p><p>'+safe((p.categories||[]).join(', '))+'</p>'+(p.phone?'<p>'+safe(p.phone)+'</p>':'')).addTo(map)}
 function refresh(){
  const q=$('#map-search').value.trim().toLowerCase();
  const hits=places.filter(p=>(category==='all'||kind(p)===category)&&[p.name,p.address,...(p.categories||[])].join(' ').toLowerCase().includes(q));
- if(map.getLayer(POI_LAYER)){map.setLayoutProperty(POI_LAYER,'visibility',placesVisible?'visible':'none');map.setFilter(POI_LAYER,['in',['get','index'],['literal',hits.map(p=>places.indexOf(p))]])}
+ for(const id of [POI_LAYER,'mazo-poi-dots'])if(map.getLayer(id)){map.setLayoutProperty(id,'visibility',placesVisible?'visible':'none');map.setFilter(id,['in',['get','index'],['literal',hits.map(p=>places.indexOf(p))]])}
  const results=$('#search-results');results.replaceChildren();
  if(q){results.hidden=false;for(const p of hits.slice(0,30)){const b=document.createElement('button');b.type='button';b.textContent=p.name+' · '+(p.address||'');b.style.cssText='display:block;width:100%;padding:10px;text-align:left;border:0;background:transparent;cursor:pointer';b.onclick=()=>{openPlace(p);results.hidden=true};results.append(b)}}else results.hidden=true;
  $('#map-status').textContent=hits.length+' places in Kattankudy';
 }
-map.on('click',POI_LAYER,e=>{const i=e.features?.[0]?.properties?.index;if(Number.isInteger(i)&&places[i])openPlace(places[i])});
-map.on('mouseenter',POI_LAYER,()=>map.getCanvas().style.cursor='pointer');
-map.on('mouseleave',POI_LAYER,()=>map.getCanvas().style.cursor='');
+map.on('click','mazo-poi-dots',e=>{const i=e.features?.[0]?.properties?.index;if(Number.isInteger(i)&&places[i])openPlace(places[i])});
+map.on('mouseenter','mazo-poi-dots',()=>map.getCanvas().style.cursor='pointer');
+map.on('mouseleave','mazo-poi-dots',()=>map.getCanvas().style.cursor='');
 async function roads(){try{const r=await fetch('./data/roads/kattankudy.json');if(!r.ok)return;const data=await r.json();const features=(data.roads||[]).filter(x=>x.coordinates?.length>1).map(x=>({type:'Feature',properties:{name:x.name||''},geometry:{type:'LineString',coordinates:x.coordinates}}));if(map.getSource('mazo-roads'))return;map.addSource('mazo-roads',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-road-lines',type:'line',source:'mazo-roads',paint:{'line-color':'#f8f9fa','line-width':['interpolate',['linear'],['zoom'],11,2,16,9]}});map.addLayer({id:'mazo-road-names',type:'symbol',source:'mazo-roads',minzoom:13,filter:['!=',['get','name'],''],layout:{'symbol-placement':'line','text-field':['get','name'],'text-size':12},paint:{'text-color':'#46515b','text-halo-color':'#fff','text-halo-width':2}});for(const id of ['mazo-road-lines','mazo-road-names'])map.setLayoutProperty(id,'visibility',roadsVisible?'visible':'none')}catch(e){console.warn(e)}}
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
@@ -52,13 +55,12 @@ map.on('style.load',()=>{
     if(layer.type!=='symbol')continue;
     const id=layer.id.toLowerCase();
     const sourceLayer=String(layer['source-layer']||'').toLowerCase();
-    const poi=/poi|place_of_interest|housenumber|house_number/.test(id+' '+sourceLayer);
+    const poi=/poi|place_of_interest|housenumber|house_number|airport|aerodrome/.test(id+' '+sourceLayer) || /^(poi|poi_label|poi_labels)$/.test(sourceLayer);
     if(poi)map.setLayoutProperty(layer.id,'visibility','none');
   }
   // Roads are already supplied by the vector basemap; custom JSON roads remain optional.
   cities();
-  registerIcons();
-  map.once('idle',ensurePoiLayer);
+  ensurePoiLayer();
 });
 (async()=>{try{const data=await Promise.all(datasets.map(async f=>{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return r.json()}));const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}refresh();ensurePoiLayer();}catch(e){$('#map-status').textContent='Dataset error: '+e.message}})();
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
