@@ -69,15 +69,15 @@ function ensurePoiLayer(){
 map.on('click',POI_LAYER,e=>{const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
 map.on('mouseenter',POI_LAYER,()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',POI_LAYER,()=>map.getCanvas().style.cursor='');
-let selectedPlace=null,sheetState='half',touchStart=null;
+let selectedPlace=null,sheetState='half',dragStart=null,dragDelta=0,closeTimer=null;
 const sheet=$('#place-sheet');
 function setSheetState(state){
  sheetState=state;sheet.dataset.state=state;
- sheet.querySelectorAll('[data-sheet-state]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.sheetState===state)));
+ sheet.style.removeProperty('--sheet-drag');
 }
-function closePlace(){selectedPlace=null;sheet.hidden=true;map.easeTo({padding:{bottom:0},duration:250});}
+function closePlace(){selectedPlace=null;sheet.classList.add('is-closing');clearTimeout(closeTimer);closeTimer=setTimeout(()=>{sheet.hidden=true;sheet.classList.remove('is-closing')},260);map.easeTo({padding:{bottom:0},duration:260});}
 function openPlace(p){
- selectedPlace=p;sheet.hidden=false;setSheetState('half');
+ selectedPlace=p;clearTimeout(closeTimer);sheet.classList.remove('is-closing');sheet.hidden=false;setSheetState('half');
  $('#place-title').textContent=p.name;
  $('#place-category').textContent=(p.categories||[]).join(' · ')||'Place';
  $('#place-address').textContent=p.address||'Address unavailable';
@@ -91,11 +91,34 @@ function openPlace(p){
  const c=p.coordinates;map.easeTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16),padding:{bottom:Math.round(window.innerHeight*.25)},duration:400});
 }
 $('#place-close').onclick=closePlace;
-sheet.querySelectorAll('[data-sheet-state]').forEach(b=>b.onclick=()=>setSheetState(b.dataset.sheetState));
 const handle=$('#place-handle');
-handle.addEventListener('touchstart',e=>{touchStart=e.touches[0].clientY},{passive:true});
-handle.addEventListener('touchend',e=>{if(touchStart===null)return;const dy=e.changedTouches[0].clientY-touchStart;touchStart=null;if(Math.abs(dy)<35)return;const states=['compact','half','expanded'];setSheetState(states[Math.max(0,Math.min(2,states.indexOf(sheetState)+(dy<0?1:-1)))])},{passive:true});
-handle.addEventListener('keydown',e=>{if(e.key==='ArrowUp'||e.key==='ArrowDown'){e.preventDefault();const states=['compact','half','expanded'];setSheetState(states[Math.max(0,Math.min(2,states.indexOf(sheetState)+(e.key==='ArrowUp'?1:-1)))])}});
+handle.addEventListener('pointerdown',e=>{
+ if(e.button!==0)return;dragStart=e.clientY;dragDelta=0;
+ handle.setPointerCapture(e.pointerId);sheet.classList.add('is-dragging');
+});
+handle.addEventListener('pointermove',e=>{
+ if(dragStart===null)return;
+ dragDelta=e.clientY-dragStart;
+ sheet.style.setProperty('--sheet-drag',dragDelta+'px');
+});
+function finishSheetDrag(){
+ if(dragStart===null)return;
+ sheet.classList.remove('is-dragging');sheet.style.removeProperty('--sheet-drag');
+ const dy=dragDelta;dragStart=null;dragDelta=0;
+ if(Math.abs(dy)<45)return;
+ const states=['compact','half','expanded'];
+ const next=states.indexOf(sheetState)+(dy<0?1:-1);
+ if(next<0&&dy>120){closePlace();return}
+ setSheetState(states[Math.max(0,Math.min(2,next))]);
+}
+handle.addEventListener('pointerup',finishSheetDrag);
+handle.addEventListener('pointercancel',finishSheetDrag);
+handle.addEventListener('keydown',e=>{
+ if(e.key==='ArrowUp'||e.key==='ArrowDown'){
+  e.preventDefault();const states=['compact','half','expanded'];
+  setSheetState(states[Math.max(0,Math.min(2,states.indexOf(sheetState)+(e.key==='ArrowUp'?1:-1)))]);
+ }
+});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sheet.hidden)closePlace()});
  // Fallback for clicks on visible labels/pins even when symbol hit-testing misses.
  map.on('click',e=>{
