@@ -79,7 +79,7 @@ function registerIcons(){
   ctx.beginPath();ctx.moveTo(32,77);ctx.bezierCurveTo(25,65,9,49,9,31);
   ctx.arc(32,31,23,Math.PI,0);ctx.bezierCurveTo(55,49,39,65,32,77);ctx.closePath();
   ctx.fillStyle=color;ctx.fill();ctx.lineWidth=4;ctx.strokeStyle='#fff';ctx.stroke();
-  ctx.save();ctx.translate(4,3);ctx.scale(0.86,0.86);
+  ctx.save();ctx.translate(32,31);ctx.scale(0.86,0.86);ctx.translate(-28,-31);
   ctx.strokeStyle='#fff';ctx.lineWidth=3;ctx.lineJoin='round';ctx.lineCap='round';
   ctx.stroke(new Path2D(paths[kind]||paths.shop));ctx.restore();
   map.addImage(id,ctx.getImageData(0,0,64,80),{pixelRatio:2});
