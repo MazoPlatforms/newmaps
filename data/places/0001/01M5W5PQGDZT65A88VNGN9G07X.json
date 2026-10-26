@@ -12,5 +12,29 @@
   "hours": [],
   "website": "https://www.booking.com/Share-gxMRBwt",
   "business_status": "OPEN",
-  "id": "01M5W5PQGDZT65A88VNGN9G07X"
+  "id": "01M5W5PQGDZT65A88VNGN9G07X",
+  "aliases": [
+    "01M5W5PQKETKT60MCSS1ERQDJV",
+    "01M5W5PQTK8R22KF1FAXC9G2BJ"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGDZT65A88VNGN9G07X",
+      "source": "accommodation.json",
+      "index": 20,
+      "original_id": "01M5W5PQGDZT65A88VNGN9G07X"
+    },
+    {
+      "id": "01M5W5PQKETKT60MCSS1ERQDJV",
+      "source": "communication.json",
+      "index": 121,
+      "original_id": "01M5W5PQKETKT60MCSS1ERQDJV"
+    },
+    {
+      "id": "01M5W5PQTK8R22KF1FAXC9G2BJ",
+      "source": "hotels.json",
+      "index": 20,
+      "original_id": "01M5W5PQTK8R22KF1FAXC9G2BJ"
+    }
+  ]
 }

@@ -11,5 +11,22 @@
   "phone": "0741996840",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQN0AQSQA6QC10WTJ3E2"
+  "id": "01M5W5PQN0AQSQA6QC10WTJ3E2",
+  "aliases": [
+    "01M5W5PR3TANAY3889X27KM817"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQN0AQSQA6QC10WTJ3E2",
+      "source": "education.json",
+      "index": 11,
+      "original_id": "01M5W5PQN0AQSQA6QC10WTJ3E2"
+    },
+    {
+      "id": "01M5W5PR3TANAY3889X27KM817",
+      "source": "schools.json",
+      "index": 48,
+      "original_id": "01M5W5PR3TANAY3889X27KM817"
+    }
+  ]
 }

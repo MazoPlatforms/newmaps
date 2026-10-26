@@ -11,5 +11,22 @@
   "phone": "0652245405",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQN7HV9PGRXMBHCK35G8"
+  "id": "01M5W5PQN7HV9PGRXMBHCK35G8",
+  "aliases": [
+    "01M5W5PR3T4MD5X11DZKY8FKEV"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQN7HV9PGRXMBHCK35G8",
+      "source": "education.json",
+      "index": 53,
+      "original_id": "01M5W5PQN7HV9PGRXMBHCK35G8"
+    },
+    {
+      "id": "01M5W5PR3T4MD5X11DZKY8FKEV",
+      "source": "schools.json",
+      "index": 50,
+      "original_id": "01M5W5PR3T4MD5X11DZKY8FKEV"
+    }
+  ]
 }

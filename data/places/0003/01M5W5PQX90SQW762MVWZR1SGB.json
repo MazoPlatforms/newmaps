@@ -11,5 +11,22 @@
   "phone": "0772328686",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQX90SQW762MVWZR1SGB"
+  "id": "01M5W5PQX90SQW762MVWZR1SGB",
+  "aliases": [
+    "01M5W5PR17B57YR5XPVG954YZ3"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQX90SQW762MVWZR1SGB",
+      "source": "mosque.json",
+      "index": 78,
+      "original_id": "01M5W5PQX90SQW762MVWZR1SGB"
+    },
+    {
+      "id": "01M5W5PR17B57YR5XPVG954YZ3",
+      "source": "religious.json",
+      "index": 90,
+      "original_id": "01M5W5PR17B57YR5XPVG954YZ3"
+    }
+  ]
 }

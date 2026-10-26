@@ -11,5 +11,22 @@
   "phone": "0777425266",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGGCG86WKPDQ5TK69FQ"
+  "id": "01M5W5PQGGCG86WKPDQ5TK69FQ",
+  "aliases": [
+    "01M5W5PQTQ2P5QHTBKK6TY3MZH"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGCG86WKPDQ5TK69FQ",
+      "source": "accommodation.json",
+      "index": 46,
+      "original_id": "01M5W5PQGGCG86WKPDQ5TK69FQ"
+    },
+    {
+      "id": "01M5W5PQTQ2P5QHTBKK6TY3MZH",
+      "source": "hotels.json",
+      "index": 52,
+      "original_id": "01M5W5PQTQ2P5QHTBKK6TY3MZH"
+    }
+  ]
 }

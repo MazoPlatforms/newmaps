@@ -55,5 +55,29 @@
   ],
   "website": "https://www.amanabank.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQH2EGQ5NRKCAFZ87487"
+  "id": "01M5W5PQH2EGQ5NRKCAFZ87487",
+  "aliases": [
+    "01M5W5PQHZTAD2YF7J5B641EK8",
+    "01M5W5PQRVMX98XD9ZGWACV2TN"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQH2EGQ5NRKCAFZ87487",
+      "source": "atms.json",
+      "index": 0,
+      "original_id": "01M5W5PQH2EGQ5NRKCAFZ87487"
+    },
+    {
+      "id": "01M5W5PQHZTAD2YF7J5B641EK8",
+      "source": "banks.json",
+      "index": 5,
+      "original_id": "01M5W5PQHZTAD2YF7J5B641EK8"
+    },
+    {
+      "id": "01M5W5PQRVMX98XD9ZGWACV2TN",
+      "source": "finance.json",
+      "index": 20,
+      "original_id": "01M5W5PQRVMX98XD9ZGWACV2TN"
+    }
+  ]
 }

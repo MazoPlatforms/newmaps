@@ -55,5 +55,22 @@
   ],
   "website": "https://www.facebook.com/profile.php?id=100075114716485",
   "business_status": "OPEN",
-  "id": "01M5W5PQVSJK573HJSBDP6JDP2"
+  "id": "01M5W5PQVSJK573HJSBDP6JDP2",
+  "aliases": [
+    "01M5W5PRBMZ3XT0T5WR9D43R52"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQVSJK573HJSBDP6JDP2",
+      "source": "markets.json",
+      "index": 17,
+      "original_id": "01M5W5PQVSJK573HJSBDP6JDP2"
+    },
+    {
+      "id": "01M5W5PRBMZ3XT0T5WR9D43R52",
+      "source": "supermarket.json",
+      "index": 15,
+      "original_id": "01M5W5PRBMZ3XT0T5WR9D43R52"
+    }
+  ]
 }

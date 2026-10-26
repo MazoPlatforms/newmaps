@@ -22,6 +22,7 @@ jobs:
         with:
           python-version: '3.x'
       - run: python -m pip install 'shapely>=2,<3'
+      - run: git fetch origin archive/pre-ulid-migration:refs/heads/archive/pre-ulid-migration
       - run: python scripts/places.py validate
       - run: python scripts/places.py build
       - run: python scripts/enrich_roads.py --check

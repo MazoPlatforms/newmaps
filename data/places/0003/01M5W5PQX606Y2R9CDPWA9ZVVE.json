@@ -11,5 +11,22 @@
   "phone": "0776419274",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQX606Y2R9CDPWA9ZVVE"
+  "id": "01M5W5PQX606Y2R9CDPWA9ZVVE",
+  "aliases": [
+    "01M5W5PR17GK017B8TK7AV79FY"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQX606Y2R9CDPWA9ZVVE",
+      "source": "mosque.json",
+      "index": 59,
+      "original_id": "01M5W5PQX606Y2R9CDPWA9ZVVE"
+    },
+    {
+      "id": "01M5W5PR17GK017B8TK7AV79FY",
+      "source": "religious.json",
+      "index": 93,
+      "original_id": "01M5W5PR17GK017B8TK7AV79FY"
+    }
+  ]
 }

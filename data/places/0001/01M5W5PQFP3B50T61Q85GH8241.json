@@ -53,5 +53,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFP3B50T61Q85GH8241"
+  "id": "01M5W5PQFP3B50T61Q85GH8241",
+  "aliases": [
+    "01M5W5PQTS5MV0PP7M68NV17XJ"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFP3B50T61Q85GH8241",
+      "source": "accessories.json",
+      "index": 31,
+      "original_id": "01M5W5PQFP3B50T61Q85GH8241"
+    },
+    {
+      "id": "01M5W5PQTS5MV0PP7M68NV17XJ",
+      "source": "jewelry.json",
+      "index": 1,
+      "original_id": "01M5W5PQTS5MV0PP7M68NV17XJ"
+    }
+  ]
 }

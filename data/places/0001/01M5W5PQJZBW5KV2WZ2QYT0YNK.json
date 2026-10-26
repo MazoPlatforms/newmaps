@@ -11,5 +11,29 @@
   "phone": "0753333733",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQJZBW5KV2WZ2QYT0YNK"
+  "id": "01M5W5PQJZBW5KV2WZ2QYT0YNK",
+  "aliases": [
+    "01M5W5PQWE6XWPFT38F7ZMBJVF",
+    "01M5W5PR7TPZMCQ954TN6VPMGS"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJZBW5KV2WZ2QYT0YNK",
+      "source": "communication.json",
+      "index": 34,
+      "original_id": "01M5W5PQJZBW5KV2WZ2QYT0YNK"
+    },
+    {
+      "id": "01M5W5PQWE6XWPFT38F7ZMBJVF",
+      "source": "mobile.json",
+      "index": 32,
+      "original_id": "01M5W5PQWE6XWPFT38F7ZMBJVF"
+    },
+    {
+      "id": "01M5W5PR7TPZMCQ954TN6VPMGS",
+      "source": "services.json",
+      "index": 163,
+      "original_id": "01M5W5PR7TPZMCQ954TN6VPMGS"
+    }
+  ]
 }

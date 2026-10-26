@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQHA6DS690M2T7W3K01Z"
+  "id": "01M5W5PQHA6DS690M2T7W3K01Z",
+  "aliases": [
+    "01M5W5PR6XWTNSA59S15W5BGFA"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHA6DS690M2T7W3K01Z",
+      "source": "automotive.json",
+      "index": 65,
+      "original_id": "01M5W5PQHA6DS690M2T7W3K01Z"
+    },
+    {
+      "id": "01M5W5PR6XWTNSA59S15W5BGFA",
+      "source": "services.json",
+      "index": 61,
+      "original_id": "01M5W5PR6XWTNSA59S15W5BGFA"
+    }
+  ]
 }

@@ -54,5 +54,50 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFK4Z16FC9V3ED6D6ER"
+  "id": "01M5W5PQFK4Z16FC9V3ED6D6ER",
+  "aliases": [
+    "01M5W5PQP7BSHW3SM30F70J24V",
+    "01M5W5PQSYRFSQD67YX315TWJX",
+    "01M5W5PQT9GX1XGV7E79DZFN5P",
+    "01M5W5PQYJG2TP0DDKWA21Q2G8",
+    "01M5W5PR6GCSYHBM5SKDC3SEHT"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFK4Z16FC9V3ED6D6ER",
+      "source": "accessories.json",
+      "index": 5,
+      "original_id": "01M5W5PQFK4Z16FC9V3ED6D6ER"
+    },
+    {
+      "id": "01M5W5PQP7BSHW3SM30F70J24V",
+      "source": "electronics.json",
+      "index": 26,
+      "original_id": "01M5W5PQP7BSHW3SM30F70J24V"
+    },
+    {
+      "id": "01M5W5PQSYRFSQD67YX315TWJX",
+      "source": "hardware.json",
+      "index": 2,
+      "original_id": "01M5W5PQSYRFSQD67YX315TWJX"
+    },
+    {
+      "id": "01M5W5PQT9GX1XGV7E79DZFN5P",
+      "source": "homeware.json",
+      "index": 8,
+      "original_id": "01M5W5PQT9GX1XGV7E79DZFN5P"
+    },
+    {
+      "id": "01M5W5PQYJG2TP0DDKWA21Q2G8",
+      "source": "public-utilities.json",
+      "index": 3,
+      "original_id": "01M5W5PQYJG2TP0DDKWA21Q2G8"
+    },
+    {
+      "id": "01M5W5PR6GCSYHBM5SKDC3SEHT",
+      "source": "services.json",
+      "index": 28,
+      "original_id": "01M5W5PR6GCSYHBM5SKDC3SEHT"
+    }
+  ]
 }

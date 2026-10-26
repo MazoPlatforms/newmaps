@@ -11,5 +11,22 @@
   "phone": "0777545421",
   "hours": [],
   "business_status": "CLOSED_TEMPORARILY",
-  "id": "01M5W5PQMCHPV2ZJ32ZCYE72S4"
+  "id": "01M5W5PQMCHPV2ZJ32ZCYE72S4",
+  "aliases": [
+    "01M5W5PQQ0SAG73E7FF342S7TF"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMCHPV2ZJ32ZCYE72S4",
+      "source": "computer.json",
+      "index": 57,
+      "original_id": "01M5W5PQMCHPV2ZJ32ZCYE72S4"
+    },
+    {
+      "id": "01M5W5PQQ0SAG73E7FF342S7TF",
+      "source": "electronics.json",
+      "index": 111,
+      "original_id": "01M5W5PQQ0SAG73E7FF342S7TF"
+    }
+  ]
 }

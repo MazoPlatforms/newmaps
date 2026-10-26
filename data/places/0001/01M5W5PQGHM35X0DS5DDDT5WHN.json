@@ -55,5 +55,64 @@
   ],
   "website": "http://www.slpost.gov.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGHM35X0DS5DDDT5WHN"
+  "id": "01M5W5PQGHM35X0DS5DDDT5WHN",
+  "aliases": [
+    "01M5W5PQJ020FPJZDD7GT76MB8",
+    "01M5W5PQJX0GN91NAYA7J2JEKW",
+    "01M5W5PQMNH8Q0B10V186JJSK7",
+    "01M5W5PQRZ6Q1MJV35WJ4HJVMP",
+    "01M5W5PQSNH06PXNWXP4GAAAT9",
+    "01M5W5PQYK8X9J75PJ7XSH7NY8",
+    "01M5W5PR6H6WAWFXV77RE9DN22"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGHM35X0DS5DDDT5WHN",
+      "source": "addresses.json",
+      "index": 2,
+      "original_id": "01M5W5PQGHM35X0DS5DDDT5WHN"
+    },
+    {
+      "id": "01M5W5PQJ020FPJZDD7GT76MB8",
+      "source": "banks.json",
+      "index": 14,
+      "original_id": "01M5W5PQJ020FPJZDD7GT76MB8"
+    },
+    {
+      "id": "01M5W5PQJX0GN91NAYA7J2JEKW",
+      "source": "communication.json",
+      "index": 15,
+      "original_id": "01M5W5PQJX0GN91NAYA7J2JEKW"
+    },
+    {
+      "id": "01M5W5PQMNH8Q0B10V186JJSK7",
+      "source": "couriers.json",
+      "index": 2,
+      "original_id": "01M5W5PQMNH8Q0B10V186JJSK7"
+    },
+    {
+      "id": "01M5W5PQRZ6Q1MJV35WJ4HJVMP",
+      "source": "finance.json",
+      "index": 37,
+      "original_id": "01M5W5PQRZ6Q1MJV35WJ4HJVMP"
+    },
+    {
+      "id": "01M5W5PQSNH06PXNWXP4GAAAT9",
+      "source": "government.json",
+      "index": 12,
+      "original_id": "01M5W5PQSNH06PXNWXP4GAAAT9"
+    },
+    {
+      "id": "01M5W5PQYK8X9J75PJ7XSH7NY8",
+      "source": "public-utilities.json",
+      "index": 9,
+      "original_id": "01M5W5PQYK8X9J75PJ7XSH7NY8"
+    },
+    {
+      "id": "01M5W5PR6H6WAWFXV77RE9DN22",
+      "source": "services.json",
+      "index": 33,
+      "original_id": "01M5W5PR6H6WAWFXV77RE9DN22"
+    }
+  ]
 }

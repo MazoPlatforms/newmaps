@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGEASSTG29A1HQY4A4T"
+  "id": "01M5W5PQGEASSTG29A1HQY4A4T",
+  "aliases": [
+    "01M5W5PQTK52EMQH64546ZW0SE"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGEASSTG29A1HQY4A4T",
+      "source": "accommodation.json",
+      "index": 23,
+      "original_id": "01M5W5PQGEASSTG29A1HQY4A4T"
+    },
+    {
+      "id": "01M5W5PQTK52EMQH64546ZW0SE",
+      "source": "hotels.json",
+      "index": 22,
+      "original_id": "01M5W5PQTK52EMQH64546ZW0SE"
+    }
+  ]
 }

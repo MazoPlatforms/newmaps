@@ -53,5 +53,29 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQHWJ3379DJV0KF3E23Y"
+  "id": "01M5W5PQHWJ3379DJV0KF3E23Y",
+  "aliases": [
+    "01M5W5PQWS7HQA3S4T1862NEWW",
+    "01M5W5PR0VBVWRJGQ9MRPK59CW"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHWJ3379DJV0KF3E23Y",
+      "source": "bakery.json",
+      "index": 59,
+      "original_id": "01M5W5PQHWJ3379DJV0KF3E23Y"
+    },
+    {
+      "id": "01M5W5PQWS7HQA3S4T1862NEWW",
+      "source": "mosque.json",
+      "index": 0,
+      "original_id": "01M5W5PQWS7HQA3S4T1862NEWW"
+    },
+    {
+      "id": "01M5W5PR0VBVWRJGQ9MRPK59CW",
+      "source": "religious.json",
+      "index": 20,
+      "original_id": "01M5W5PR0VBVWRJGQ9MRPK59CW"
+    }
+  ]
 }

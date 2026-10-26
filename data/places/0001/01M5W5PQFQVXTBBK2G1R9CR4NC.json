@@ -58,5 +58,36 @@
   ],
   "website": "https://www.facebook.com/Jewelinagold",
   "business_status": "OPEN",
-  "id": "01M5W5PQFQVXTBBK2G1R9CR4NC"
+  "id": "01M5W5PQFQVXTBBK2G1R9CR4NC",
+  "aliases": [
+    "01M5W5PQRAHF00MVJPAQWQZ3H3",
+    "01M5W5PQTVVCC81Y1C5XT3S1K6",
+    "01M5W5PR7CZA5Q8RWQ3YTN9TH8"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFQVXTBBK2G1R9CR4NC",
+      "source": "accessories.json",
+      "index": 42,
+      "original_id": "01M5W5PQFQVXTBBK2G1R9CR4NC"
+    },
+    {
+      "id": "01M5W5PQRAHF00MVJPAQWQZ3H3",
+      "source": "fashion.json",
+      "index": 115,
+      "original_id": "01M5W5PQRAHF00MVJPAQWQZ3H3"
+    },
+    {
+      "id": "01M5W5PQTVVCC81Y1C5XT3S1K6",
+      "source": "jewelry.json",
+      "index": 14,
+      "original_id": "01M5W5PQTVVCC81Y1C5XT3S1K6"
+    },
+    {
+      "id": "01M5W5PR7CZA5Q8RWQ3YTN9TH8",
+      "source": "services.json",
+      "index": 108,
+      "original_id": "01M5W5PR7CZA5Q8RWQ3YTN9TH8"
+    }
+  ]
 }

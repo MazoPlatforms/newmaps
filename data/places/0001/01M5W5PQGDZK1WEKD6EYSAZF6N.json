@@ -11,5 +11,22 @@
   "phone": "0652223723",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGDZK1WEKD6EYSAZF6N"
+  "id": "01M5W5PQGDZK1WEKD6EYSAZF6N",
+  "aliases": [
+    "01M5W5PQTJ5SXWJ6BTQC9BSNKZ"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGDZK1WEKD6EYSAZF6N",
+      "source": "accommodation.json",
+      "index": 19,
+      "original_id": "01M5W5PQGDZK1WEKD6EYSAZF6N"
+    },
+    {
+      "id": "01M5W5PQTJ5SXWJ6BTQC9BSNKZ",
+      "source": "hotels.json",
+      "index": 14,
+      "original_id": "01M5W5PQTJ5SXWJ6BTQC9BSNKZ"
+    }
+  ]
 }

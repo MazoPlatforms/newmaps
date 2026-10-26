@@ -56,5 +56,36 @@
   ],
   "website": "https://mynionline.store/",
   "business_status": "OPEN",
-  "id": "01M5W5PQFK1KQE81R1ZAVMSVE2"
+  "id": "01M5W5PQFK1KQE81R1ZAVMSVE2",
+  "aliases": [
+    "01M5W5PQQN1S2ATGW18S37MST9",
+    "01M5W5PRCCFHHTMY8J8S9VG1YC",
+    "01M5W5PRCTHR1W5W2X5531RMX5"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFK1KQE81R1ZAVMSVE2",
+      "source": "accessories.json",
+      "index": 11,
+      "original_id": "01M5W5PQFK1KQE81R1ZAVMSVE2"
+    },
+    {
+      "id": "01M5W5PQQN1S2ATGW18S37MST9",
+      "source": "fashion.json",
+      "index": 4,
+      "original_id": "01M5W5PQQN1S2ATGW18S37MST9"
+    },
+    {
+      "id": "01M5W5PRCCFHHTMY8J8S9VG1YC",
+      "source": "tailors.json",
+      "index": 28,
+      "original_id": "01M5W5PRCCFHHTMY8J8S9VG1YC"
+    },
+    {
+      "id": "01M5W5PRCTHR1W5W2X5531RMX5",
+      "source": "textiles.json",
+      "index": 10,
+      "original_id": "01M5W5PRCTHR1W5W2X5531RMX5"
+    }
+  ]
 }

@@ -55,5 +55,43 @@
   ],
   "website": "http://www.fourams.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQFZ8RVKVA672RZJQTK1"
+  "id": "01M5W5PQFZ8RVKVA672RZJQTK1",
+  "aliases": [
+    "01M5W5PQHHS6P4YQER777TF72J",
+    "01M5W5PQVPZ03XAK1K6BYCE5G5",
+    "01M5W5PR8EQRTPMAWY171ZC5MV",
+    "01M5W5PRBC03M61992TF08A1K1"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFZ8RVKVA672RZJQTK1",
+      "source": "accessories.json",
+      "index": 91,
+      "original_id": "01M5W5PQFZ8RVKVA672RZJQTK1"
+    },
+    {
+      "id": "01M5W5PQHHS6P4YQER777TF72J",
+      "source": "baby.json",
+      "index": 23,
+      "original_id": "01M5W5PQHHS6P4YQER777TF72J"
+    },
+    {
+      "id": "01M5W5PQVPZ03XAK1K6BYCE5G5",
+      "source": "markets.json",
+      "index": 2,
+      "original_id": "01M5W5PQVPZ03XAK1K6BYCE5G5"
+    },
+    {
+      "id": "01M5W5PR8EQRTPMAWY171ZC5MV",
+      "source": "stationery.json",
+      "index": 7,
+      "original_id": "01M5W5PR8EQRTPMAWY171ZC5MV"
+    },
+    {
+      "id": "01M5W5PRBC03M61992TF08A1K1",
+      "source": "supermarket.json",
+      "index": 4,
+      "original_id": "01M5W5PRBC03M61992TF08A1K1"
+    }
+  ]
 }

@@ -55,5 +55,36 @@
   ],
   "website": "http://www.barberking.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQZBP4B168JYDC6J0CCD"
+  "id": "01M5W5PQZBP4B168JYDC6J0CCD",
+  "aliases": [
+    "01M5W5PR1HM08E6601NNA7S3C7",
+    "01M5W5PR2VZ9A8ZG27211JRXSH",
+    "01M5W5PR79GTZBDEZWZRJJPTRE"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQZBP4B168JYDC6J0CCD",
+      "source": "public-utilities.json",
+      "index": 96,
+      "original_id": "01M5W5PQZBP4B168JYDC6J0CCD"
+    },
+    {
+      "id": "01M5W5PR1HM08E6601NNA7S3C7",
+      "source": "salons.json",
+      "index": 3,
+      "original_id": "01M5W5PR1HM08E6601NNA7S3C7"
+    },
+    {
+      "id": "01M5W5PR2VZ9A8ZG27211JRXSH",
+      "source": "saloons.json",
+      "index": 4,
+      "original_id": "01M5W5PR2VZ9A8ZG27211JRXSH"
+    },
+    {
+      "id": "01M5W5PR79GTZBDEZWZRJJPTRE",
+      "source": "services.json",
+      "index": 94,
+      "original_id": "01M5W5PR79GTZBDEZWZRJJPTRE"
+    }
+  ]
 }

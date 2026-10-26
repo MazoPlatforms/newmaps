@@ -11,5 +11,22 @@
   "phone": "0652222495",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGGBMY4JCYR4F4SZB3B"
+  "id": "01M5W5PQGGBMY4JCYR4F4SZB3B",
+  "aliases": [
+    "01M5W5PQTPN51T6GRHXKRY6FX5"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGBMY4JCYR4F4SZB3B",
+      "source": "accommodation.json",
+      "index": 40,
+      "original_id": "01M5W5PQGGBMY4JCYR4F4SZB3B"
+    },
+    {
+      "id": "01M5W5PQTPN51T6GRHXKRY6FX5",
+      "source": "hotels.json",
+      "index": 44,
+      "original_id": "01M5W5PQTPN51T6GRHXKRY6FX5"
+    }
+  ]
 }

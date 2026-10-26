@@ -54,5 +54,57 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFS2TNTF33XPJQYGWTG"
+  "id": "01M5W5PQFS2TNTF33XPJQYGWTG",
+  "aliases": [
+    "01M5W5PQHFH0XXN1V808RD7QGM",
+    "01M5W5PQR07J18GYPH8A0TP1RE",
+    "01M5W5PQS8059K9W3MV6D3074R",
+    "01M5W5PQWR1B3ZPTXHMPFTR9AS",
+    "01M5W5PR79HY42Q8HB8769XBEK",
+    "01M5W5PRD8P8CY1WNYP10N3JBC"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFS2TNTF33XPJQYGWTG",
+      "source": "accessories.json",
+      "index": 58,
+      "original_id": "01M5W5PQFS2TNTF33XPJQYGWTG"
+    },
+    {
+      "id": "01M5W5PQHFH0XXN1V808RD7QGM",
+      "source": "baby.json",
+      "index": 3,
+      "original_id": "01M5W5PQHFH0XXN1V808RD7QGM"
+    },
+    {
+      "id": "01M5W5PQR07J18GYPH8A0TP1RE",
+      "source": "fashion.json",
+      "index": 59,
+      "original_id": "01M5W5PQR07J18GYPH8A0TP1RE"
+    },
+    {
+      "id": "01M5W5PQS8059K9W3MV6D3074R",
+      "source": "footwear.json",
+      "index": 32,
+      "original_id": "01M5W5PQS8059K9W3MV6D3074R"
+    },
+    {
+      "id": "01M5W5PQWR1B3ZPTXHMPFTR9AS",
+      "source": "mobile.json",
+      "index": 90,
+      "original_id": "01M5W5PQWR1B3ZPTXHMPFTR9AS"
+    },
+    {
+      "id": "01M5W5PR79HY42Q8HB8769XBEK",
+      "source": "services.json",
+      "index": 96,
+      "original_id": "01M5W5PR79HY42Q8HB8769XBEK"
+    },
+    {
+      "id": "01M5W5PRD8P8CY1WNYP10N3JBC",
+      "source": "textiles.json",
+      "index": 40,
+      "original_id": "01M5W5PRD8P8CY1WNYP10N3JBC"
+    }
+  ]
 }

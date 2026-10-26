@@ -55,5 +55,29 @@
   ],
   "website": "https://www.facebook.com/dessertdashkky",
   "business_status": "OPEN",
-  "id": "01M5W5PQHN878QNFVMZSNVJF49"
+  "id": "01M5W5PQHN878QNFVMZSNVJF49",
+  "aliases": [
+    "01M5W5PQMRBA5G4AGPHJ7CC6Z4",
+    "01M5W5PR7PZQ33X00ES5GF7MK8"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHN878QNFVMZSNVJF49",
+      "source": "bakery.json",
+      "index": 4,
+      "original_id": "01M5W5PQHN878QNFVMZSNVJF49"
+    },
+    {
+      "id": "01M5W5PQMRBA5G4AGPHJ7CC6Z4",
+      "source": "couriers.json",
+      "index": 20,
+      "original_id": "01M5W5PQMRBA5G4AGPHJ7CC6Z4"
+    },
+    {
+      "id": "01M5W5PR7PZQ33X00ES5GF7MK8",
+      "source": "services.json",
+      "index": 139,
+      "original_id": "01M5W5PR7PZQ33X00ES5GF7MK8"
+    }
+  ]
 }

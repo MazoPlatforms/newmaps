@@ -11,5 +11,22 @@
   "phone": "0718247860",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGG56JBKJABF25RX0Z5"
+  "id": "01M5W5PQGG56JBKJABF25RX0Z5",
+  "aliases": [
+    "01M5W5PQTPXXY3FCZW7E00GRBH"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGG56JBKJABF25RX0Z5",
+      "source": "accommodation.json",
+      "index": 50,
+      "original_id": "01M5W5PQGG56JBKJABF25RX0Z5"
+    },
+    {
+      "id": "01M5W5PQTPXXY3FCZW7E00GRBH",
+      "source": "hotels.json",
+      "index": 49,
+      "original_id": "01M5W5PQTPXXY3FCZW7E00GRBH"
+    }
+  ]
 }

@@ -12,5 +12,22 @@
   "phone": "0771471721",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG36BF97RX2PJ872RRX"
+  "id": "01M5W5PQG36BF97RX2PJ872RRX",
+  "aliases": [
+    "01M5W5PQK7B7MD86VSBW2DA3NG"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG36BF97RX2PJ872RRX",
+      "source": "accessories.json",
+      "index": 118,
+      "original_id": "01M5W5PQG36BF97RX2PJ872RRX"
+    },
+    {
+      "id": "01M5W5PQK7B7MD86VSBW2DA3NG",
+      "source": "communication.json",
+      "index": 91,
+      "original_id": "01M5W5PQK7B7MD86VSBW2DA3NG"
+    }
+  ]
 }

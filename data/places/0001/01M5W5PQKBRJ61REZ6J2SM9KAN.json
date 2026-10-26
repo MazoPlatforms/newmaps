@@ -57,5 +57,22 @@
   ],
   "website": "http://www.singersl.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQKBRJ61REZ6J2SM9KAN"
+  "id": "01M5W5PQKBRJ61REZ6J2SM9KAN",
+  "aliases": [
+    "01M5W5PQQ027EF98108QWDG8AP"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQKBRJ61REZ6J2SM9KAN",
+      "source": "communication.json",
+      "index": 111,
+      "original_id": "01M5W5PQKBRJ61REZ6J2SM9KAN"
+    },
+    {
+      "id": "01M5W5PQQ027EF98108QWDG8AP",
+      "source": "electronics.json",
+      "index": 107,
+      "original_id": "01M5W5PQQ027EF98108QWDG8AP"
+    }
+  ]
 }

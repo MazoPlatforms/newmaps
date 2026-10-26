@@ -55,5 +55,22 @@
   ],
   "website": "https://www.moneygram.com/r/lk/en?utm_source=google&utm_medium=organic&utm_campaign=gbp",
   "business_status": "OPEN",
-  "id": "01M5W5PQRRX117HXR83ZN84KM1"
+  "id": "01M5W5PQRRX117HXR83ZN84KM1",
+  "aliases": [
+    "01M5W5PQYRCC8TSS6V7EQWKN0P"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQRRX117HXR83ZN84KM1",
+      "source": "finance.json",
+      "index": 8,
+      "original_id": "01M5W5PQRRX117HXR83ZN84KM1"
+    },
+    {
+      "id": "01M5W5PQYRCC8TSS6V7EQWKN0P",
+      "source": "public-utilities.json",
+      "index": 24,
+      "original_id": "01M5W5PQYRCC8TSS6V7EQWKN0P"
+    }
+  ]
 }

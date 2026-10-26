@@ -11,5 +11,29 @@
   "phone": "0112337828",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGJHWP0HA5GQ77HZVA6"
+  "id": "01M5W5PQGJHWP0HA5GQ77HZVA6",
+  "aliases": [
+    "01M5W5PR6E2X4R44VWFWXDKGXC",
+    "01M5W5PRFAW8SCC90PPC6D3SNV"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGJHWP0HA5GQ77HZVA6",
+      "source": "addresses.json",
+      "index": 8,
+      "original_id": "01M5W5PQGJHWP0HA5GQ77HZVA6"
+    },
+    {
+      "id": "01M5W5PR6E2X4R44VWFWXDKGXC",
+      "source": "services.json",
+      "index": 22,
+      "original_id": "01M5W5PR6E2X4R44VWFWXDKGXC"
+    },
+    {
+      "id": "01M5W5PRFAW8SCC90PPC6D3SNV",
+      "source": "transport.json",
+      "index": 2,
+      "original_id": "01M5W5PRFAW8SCC90PPC6D3SNV"
+    }
+  ]
 }

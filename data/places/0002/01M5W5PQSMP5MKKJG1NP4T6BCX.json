@@ -11,5 +11,22 @@
   "phone": "0652246779",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQSMP5MKKJG1NP4T6BCX"
+  "id": "01M5W5PQSMP5MKKJG1NP4T6BCX",
+  "aliases": [
+    "01M5W5PRG04T26SWCD2836X0QM"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQSMP5MKKJG1NP4T6BCX",
+      "source": "government.json",
+      "index": 7,
+      "original_id": "01M5W5PQSMP5MKKJG1NP4T6BCX"
+    },
+    {
+      "id": "01M5W5PRG04T26SWCD2836X0QM",
+      "source": "utilities.json",
+      "index": 2,
+      "original_id": "01M5W5PRG04T26SWCD2836X0QM"
+    }
+  ]
 }

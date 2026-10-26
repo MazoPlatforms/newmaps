@@ -11,5 +11,22 @@
   "phone": "0774677201",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG996EM7JYPEVYHZSW3"
+  "id": "01M5W5PQG996EM7JYPEVYHZSW3",
+  "aliases": [
+    "01M5W5PQTFVYXB97R5HXTZ32YX"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG996EM7JYPEVYHZSW3",
+      "source": "accommodation.json",
+      "index": 1,
+      "original_id": "01M5W5PQG996EM7JYPEVYHZSW3"
+    },
+    {
+      "id": "01M5W5PQTFVYXB97R5HXTZ32YX",
+      "source": "hotels.json",
+      "index": 0,
+      "original_id": "01M5W5PQTFVYXB97R5HXTZ32YX"
+    }
+  ]
 }

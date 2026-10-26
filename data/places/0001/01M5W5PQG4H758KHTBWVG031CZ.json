@@ -11,5 +11,36 @@
   "phone": "0752292592",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG4H758KHTBWVG031CZ"
+  "id": "01M5W5PQG4H758KHTBWVG031CZ",
+  "aliases": [
+    "01M5W5PQWG84N4HJGAN3D8CBCE",
+    "01M5W5PQZ8T61R9AKKCXTCB2ZC",
+    "01M5W5PR6DKHDZ23SZHD61MXKW"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG4H758KHTBWVG031CZ",
+      "source": "accessories.json",
+      "index": 129,
+      "original_id": "01M5W5PQG4H758KHTBWVG031CZ"
+    },
+    {
+      "id": "01M5W5PQWG84N4HJGAN3D8CBCE",
+      "source": "mobile.json",
+      "index": 44,
+      "original_id": "01M5W5PQWG84N4HJGAN3D8CBCE"
+    },
+    {
+      "id": "01M5W5PQZ8T61R9AKKCXTCB2ZC",
+      "source": "public-utilities.json",
+      "index": 86,
+      "original_id": "01M5W5PQZ8T61R9AKKCXTCB2ZC"
+    },
+    {
+      "id": "01M5W5PR6DKHDZ23SZHD61MXKW",
+      "source": "services.json",
+      "index": 20,
+      "original_id": "01M5W5PR6DKHDZ23SZHD61MXKW"
+    }
+  ]
 }

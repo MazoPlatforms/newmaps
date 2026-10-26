@@ -55,5 +55,36 @@
   ],
   "website": "http://www.police.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQQ2GT38SK8X81B18EH6"
+  "id": "01M5W5PQQ2GT38SK8X81B18EH6",
+  "aliases": [
+    "01M5W5PQSN6V85E07DEM9WNKT0",
+    "01M5W5PQYKVMG9F92HTWR8T6BC",
+    "01M5W5PR71Z7XYXBJ857EQGRH1"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQQ2GT38SK8X81B18EH6",
+      "source": "emergency.json",
+      "index": 7,
+      "original_id": "01M5W5PQQ2GT38SK8X81B18EH6"
+    },
+    {
+      "id": "01M5W5PQSN6V85E07DEM9WNKT0",
+      "source": "government.json",
+      "index": 11,
+      "original_id": "01M5W5PQSN6V85E07DEM9WNKT0"
+    },
+    {
+      "id": "01M5W5PQYKVMG9F92HTWR8T6BC",
+      "source": "public-utilities.json",
+      "index": 6,
+      "original_id": "01M5W5PQYKVMG9F92HTWR8T6BC"
+    },
+    {
+      "id": "01M5W5PR71Z7XYXBJ857EQGRH1",
+      "source": "services.json",
+      "index": 67,
+      "original_id": "01M5W5PR71Z7XYXBJ857EQGRH1"
+    }
+  ]
 }

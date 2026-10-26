@@ -11,5 +11,22 @@
   "phone": "0775159942",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQNKDPVY5JTQZCX2T93C"
+  "id": "01M5W5PQNKDPVY5JTQZCX2T93C",
+  "aliases": [
+    "01M5W5PR40KBVHK7QFSRE6PSAS"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQNKDPVY5JTQZCX2T93C",
+      "source": "education.json",
+      "index": 119,
+      "original_id": "01M5W5PQNKDPVY5JTQZCX2T93C"
+    },
+    {
+      "id": "01M5W5PR40KBVHK7QFSRE6PSAS",
+      "source": "schools.json",
+      "index": 63,
+      "original_id": "01M5W5PR40KBVHK7QFSRE6PSAS"
+    }
+  ]
 }

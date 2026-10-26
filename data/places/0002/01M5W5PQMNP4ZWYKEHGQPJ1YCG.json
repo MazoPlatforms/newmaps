@@ -55,5 +55,22 @@
   ],
   "website": "http://www.facebook.com/quickzde",
   "business_status": "OPEN",
-  "id": "01M5W5PQMNP4ZWYKEHGQPJ1YCG"
+  "id": "01M5W5PQMNP4ZWYKEHGQPJ1YCG",
+  "aliases": [
+    "01M5W5PRFM23SER4WP0DW33PY0"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMNP4ZWYKEHGQPJ1YCG",
+      "source": "couriers.json",
+      "index": 1,
+      "original_id": "01M5W5PQMNP4ZWYKEHGQPJ1YCG"
+    },
+    {
+      "id": "01M5W5PRFM23SER4WP0DW33PY0",
+      "source": "transport.json",
+      "index": 37,
+      "original_id": "01M5W5PRFM23SER4WP0DW33PY0"
+    }
+  ]
 }

@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQMVR7DNTA600FXV4G80"
+  "id": "01M5W5PQMVR7DNTA600FXV4G80",
+  "aliases": [
+    "01M5W5PRFYBM9EW3R8KDM4RKMQ"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMVR7DNTA600FXV4G80",
+      "source": "couriers.json",
+      "index": 30,
+      "original_id": "01M5W5PQMVR7DNTA600FXV4G80"
+    },
+    {
+      "id": "01M5W5PRFYBM9EW3R8KDM4RKMQ",
+      "source": "transport.json",
+      "index": 74,
+      "original_id": "01M5W5PRFYBM9EW3R8KDM4RKMQ"
+    }
+  ]
 }

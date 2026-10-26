@@ -55,5 +55,22 @@
   "business_status": "OPEN",
   "school_census_no": 14137,
   "name_source": "https://dmb.moe.gov.lk/2024/01/01_PDF/Tbl20240106.pdf",
-  "id": "01M5W5PQN33J2GAW0G159SK3WQ"
+  "id": "01M5W5PQN33J2GAW0G159SK3WQ",
+  "aliases": [
+    "01M5W5PR35E8MT431ZEW5195EB"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQN33J2GAW0G159SK3WQ",
+      "source": "education.json",
+      "index": 31,
+      "original_id": "01M5W5PQN33J2GAW0G159SK3WQ"
+    },
+    {
+      "id": "01M5W5PR35E8MT431ZEW5195EB",
+      "source": "schools.json",
+      "index": 7,
+      "original_id": "01M5W5PR35E8MT431ZEW5195EB"
+    }
+  ]
 }

@@ -53,5 +53,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQSMKJQDVGAMP60ERDVM"
+  "id": "01M5W5PQSMKJQDVGAMP60ERDVM",
+  "aliases": [
+    "01M5W5PRFBABDNNGQFXDMJKJ5G"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQSMKJQDVGAMP60ERDVM",
+      "source": "government.json",
+      "index": 3,
+      "original_id": "01M5W5PQSMKJQDVGAMP60ERDVM"
+    },
+    {
+      "id": "01M5W5PRFBABDNNGQFXDMJKJ5G",
+      "source": "transport.json",
+      "index": 3,
+      "original_id": "01M5W5PRFBABDNNGQFXDMJKJ5G"
+    }
+  ]
 }

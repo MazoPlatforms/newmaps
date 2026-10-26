@@ -11,5 +11,22 @@
   "phone": "0774884115",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQNBW4608DKGS2CXC19Q"
+  "id": "01M5W5PQNBW4608DKGS2CXC19Q",
+  "aliases": [
+    "01M5W5PR3H2A37469QN9VSHDWG"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQNBW4608DKGS2CXC19Q",
+      "source": "education.json",
+      "index": 71,
+      "original_id": "01M5W5PQNBW4608DKGS2CXC19Q"
+    },
+    {
+      "id": "01M5W5PR3H2A37469QN9VSHDWG",
+      "source": "schools.json",
+      "index": 20,
+      "original_id": "01M5W5PR3H2A37469QN9VSHDWG"
+    }
+  ]
 }

@@ -55,5 +55,29 @@
   ],
   "website": "http://www.battiads.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQYTZNYG1PT7VS1GJH9B"
+  "id": "01M5W5PQYTZNYG1PT7VS1GJH9B",
+  "aliases": [
+    "01M5W5PR6Q67TXGHWEBAPG1ZB0",
+    "01M5W5PRG79RF6X9H28558PET2"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQYTZNYG1PT7VS1GJH9B",
+      "source": "public-utilities.json",
+      "index": 37,
+      "original_id": "01M5W5PQYTZNYG1PT7VS1GJH9B"
+    },
+    {
+      "id": "01M5W5PR6Q67TXGHWEBAPG1ZB0",
+      "source": "services.json",
+      "index": 47,
+      "original_id": "01M5W5PR6Q67TXGHWEBAPG1ZB0"
+    },
+    {
+      "id": "01M5W5PRG79RF6X9H28558PET2",
+      "source": "utilities.json",
+      "index": 29,
+      "original_id": "01M5W5PRG79RF6X9H28558PET2"
+    }
+  ]
 }

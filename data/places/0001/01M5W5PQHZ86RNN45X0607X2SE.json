@@ -4,7 +4,7 @@
     "latitude": 7.6738509,
     "longitude": 81.7329535
   },
-  "address": "No. 73b,73b 1/1,73C and 73C 1/1 Main street, East, Kattankudy 30100",
+  "address": "No. 73b, 73b 1/1, 73C and 73C 1/1 Main street, East, Kattankudy 30100",
   "categories": [
     "Bank"
   ],
@@ -55,5 +55,23 @@
   ],
   "website": "http://www.pabcbank.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQHZ86RNN45X0607X2SE"
+  "id": "01M5W5PQHZ86RNN45X0607X2SE",
+  "aliases": [
+    "01M5W5PQRRRQ30AFJ2Y1310A3T"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHZ86RNN45X0607X2SE",
+      "source": "banks.json",
+      "index": 8,
+      "original_id": "01M5W5PQHZ86RNN45X0607X2SE"
+    },
+    {
+      "id": "01M5W5PQRRRQ30AFJ2Y1310A3T",
+      "source": "finance.json",
+      "index": 9,
+      "original_id": "01M5W5PQRRRQ30AFJ2Y1310A3T"
+    }
+  ],
+  "address_original": "No. 73b,73b 1/1,73C and 73C 1/1 Main street, East, Kattankudy 30100"
 }

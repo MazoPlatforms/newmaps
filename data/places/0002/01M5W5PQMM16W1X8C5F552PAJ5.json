@@ -12,5 +12,22 @@
   "hours": [],
   "website": "http://www.maroonfancy.com.lk/",
   "business_status": "CLOSED_TEMPORARILY",
-  "id": "01M5W5PQMM16W1X8C5F552PAJ5"
+  "id": "01M5W5PQMM16W1X8C5F552PAJ5",
+  "aliases": [
+    "01M5W5PQQHC0RZBP0GMYPY94R9"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMM16W1X8C5F552PAJ5",
+      "source": "cosmetics.json",
+      "index": 37,
+      "original_id": "01M5W5PQMM16W1X8C5F552PAJ5"
+    },
+    {
+      "id": "01M5W5PQQHC0RZBP0GMYPY94R9",
+      "source": "fancy.json",
+      "index": 28,
+      "original_id": "01M5W5PQQHC0RZBP0GMYPY94R9"
+    }
+  ]
 }

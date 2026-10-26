@@ -56,5 +56,36 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQG0WSHZ0Y14PZEQYVQN"
+  "id": "01M5W5PQG0WSHZ0Y14PZEQYVQN",
+  "aliases": [
+    "01M5W5PQPRW4AWJRKAPMKZM3JY",
+    "01M5W5PQSHX40PPGEK4FWFM3JE",
+    "01M5W5PQTAA6SJGVPCAY8G5REG"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG0WSHZ0Y14PZEQYVQN",
+      "source": "accessories.json",
+      "index": 102,
+      "original_id": "01M5W5PQG0WSHZ0Y14PZEQYVQN"
+    },
+    {
+      "id": "01M5W5PQPRW4AWJRKAPMKZM3JY",
+      "source": "electronics.json",
+      "index": 79,
+      "original_id": "01M5W5PQPRW4AWJRKAPMKZM3JY"
+    },
+    {
+      "id": "01M5W5PQSHX40PPGEK4FWFM3JE",
+      "source": "furniture.json",
+      "index": 20,
+      "original_id": "01M5W5PQSHX40PPGEK4FWFM3JE"
+    },
+    {
+      "id": "01M5W5PQTAA6SJGVPCAY8G5REG",
+      "source": "homeware.json",
+      "index": 16,
+      "original_id": "01M5W5PQTAA6SJGVPCAY8G5REG"
+    }
+  ]
 }

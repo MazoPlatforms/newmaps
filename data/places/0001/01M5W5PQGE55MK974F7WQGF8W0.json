@@ -13,5 +13,22 @@
   "phone": "0773503826",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGE55MK974F7WQGF8W0"
+  "id": "01M5W5PQGE55MK974F7WQGF8W0",
+  "aliases": [
+    "01M5W5PQTKK5HW0YDJ9JR2EZGM"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGE55MK974F7WQGF8W0",
+      "source": "accommodation.json",
+      "index": 29,
+      "original_id": "01M5W5PQGE55MK974F7WQGF8W0"
+    },
+    {
+      "id": "01M5W5PQTKK5HW0YDJ9JR2EZGM",
+      "source": "hotels.json",
+      "index": 24,
+      "original_id": "01M5W5PQTKK5HW0YDJ9JR2EZGM"
+    }
+  ]
 }

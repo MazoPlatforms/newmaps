@@ -55,5 +55,22 @@
   ],
   "website": "http://www.plc.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQHDP4WQADFD84RCS4WP"
+  "id": "01M5W5PQHDP4WQADFD84RCS4WP",
+  "aliases": [
+    "01M5W5PQRPT501SR216EVSEV01"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHDP4WQADFD84RCS4WP",
+      "source": "automotive.json",
+      "index": 105,
+      "original_id": "01M5W5PQHDP4WQADFD84RCS4WP"
+    },
+    {
+      "id": "01M5W5PQRPT501SR216EVSEV01",
+      "source": "finance.json",
+      "index": 2,
+      "original_id": "01M5W5PQRPT501SR216EVSEV01"
+    }
+  ]
 }

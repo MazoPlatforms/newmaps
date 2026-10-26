@@ -11,5 +11,22 @@
   "phone": "0778206060",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQRH3RA6KAXDZ8FBNDDR"
+  "id": "01M5W5PQRH3RA6KAXDZ8FBNDDR",
+  "aliases": [
+    "01M5W5PRECEMZAV0PSZWY4N19P"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQRH3RA6KAXDZ8FBNDDR",
+      "source": "fashion.json",
+      "index": 155,
+      "original_id": "01M5W5PQRH3RA6KAXDZ8FBNDDR"
+    },
+    {
+      "id": "01M5W5PRECEMZAV0PSZWY4N19P",
+      "source": "textiles.json",
+      "index": 107,
+      "original_id": "01M5W5PRECEMZAV0PSZWY4N19P"
+    }
+  ]
 }

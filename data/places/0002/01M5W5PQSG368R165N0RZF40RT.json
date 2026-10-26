@@ -11,5 +11,22 @@
   "phone": "0777773441",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQSG368R165N0RZF40RT"
+  "id": "01M5W5PQSG368R165N0RZF40RT",
+  "aliases": [
+    "01M5W5PQTACW67PV7BZF11DWCH"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQSG368R165N0RZF40RT",
+      "source": "furniture.json",
+      "index": 12,
+      "original_id": "01M5W5PQSG368R165N0RZF40RT"
+    },
+    {
+      "id": "01M5W5PQTACW67PV7BZF11DWCH",
+      "source": "homeware.json",
+      "index": 14,
+      "original_id": "01M5W5PQTACW67PV7BZF11DWCH"
+    }
+  ]
 }

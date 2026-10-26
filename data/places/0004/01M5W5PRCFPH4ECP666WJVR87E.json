@@ -11,5 +11,22 @@
   "phone": "0775477758",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PRCFPH4ECP666WJVR87E"
+  "id": "01M5W5PRCFPH4ECP666WJVR87E",
+  "aliases": [
+    "01M5W5PREQ1PSRD28N17WKNC9D"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PRCFPH4ECP666WJVR87E",
+      "source": "tailors.json",
+      "index": 37,
+      "original_id": "01M5W5PRCFPH4ECP666WJVR87E"
+    },
+    {
+      "id": "01M5W5PREQ1PSRD28N17WKNC9D",
+      "source": "textiles.json",
+      "index": 126,
+      "original_id": "01M5W5PREQ1PSRD28N17WKNC9D"
+    }
+  ]
 }

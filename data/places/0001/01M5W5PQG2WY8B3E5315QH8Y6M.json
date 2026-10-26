@@ -54,5 +54,78 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQG2WY8B3E5315QH8Y6M"
+  "id": "01M5W5PQG2WY8B3E5315QH8Y6M",
+  "aliases": [
+    "01M5W5PQK05QN19VYDVZKGG7A3",
+    "01M5W5PQPQGV28QEXVMR2J8QGF",
+    "01M5W5PQRERGNW66P49S6RS503",
+    "01M5W5PQW11EEPVEREAMPMRQ4K",
+    "01M5W5PQWMPP40XWDA6P5K5FP3",
+    "01M5W5PR7RVEZ9P7DZFA0NGJAH",
+    "01M5W5PRBM0HT9TR6APXGYSJQW",
+    "01M5W5PRF4FXKXMS2PCE60654X",
+    "01M5W5PRG99B5PB00Y3P8SFWK3"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG2WY8B3E5315QH8Y6M",
+      "source": "accessories.json",
+      "index": 113,
+      "original_id": "01M5W5PQG2WY8B3E5315QH8Y6M"
+    },
+    {
+      "id": "01M5W5PQK05QN19VYDVZKGG7A3",
+      "source": "communication.json",
+      "index": 40,
+      "original_id": "01M5W5PQK05QN19VYDVZKGG7A3"
+    },
+    {
+      "id": "01M5W5PQPQGV28QEXVMR2J8QGF",
+      "source": "electronics.json",
+      "index": 77,
+      "original_id": "01M5W5PQPQGV28QEXVMR2J8QGF"
+    },
+    {
+      "id": "01M5W5PQRERGNW66P49S6RS503",
+      "source": "fashion.json",
+      "index": 139,
+      "original_id": "01M5W5PQRERGNW66P49S6RS503"
+    },
+    {
+      "id": "01M5W5PQW11EEPVEREAMPMRQ4K",
+      "source": "markets.json",
+      "index": 22,
+      "original_id": "01M5W5PQW11EEPVEREAMPMRQ4K"
+    },
+    {
+      "id": "01M5W5PQWMPP40XWDA6P5K5FP3",
+      "source": "mobile.json",
+      "index": 69,
+      "original_id": "01M5W5PQWMPP40XWDA6P5K5FP3"
+    },
+    {
+      "id": "01M5W5PR7RVEZ9P7DZFA0NGJAH",
+      "source": "services.json",
+      "index": 155,
+      "original_id": "01M5W5PR7RVEZ9P7DZFA0NGJAH"
+    },
+    {
+      "id": "01M5W5PRBM0HT9TR6APXGYSJQW",
+      "source": "supermarket.json",
+      "index": 14,
+      "original_id": "01M5W5PRBM0HT9TR6APXGYSJQW"
+    },
+    {
+      "id": "01M5W5PRF4FXKXMS2PCE60654X",
+      "source": "textiles.json",
+      "index": 152,
+      "original_id": "01M5W5PRF4FXKXMS2PCE60654X"
+    },
+    {
+      "id": "01M5W5PRG99B5PB00Y3P8SFWK3",
+      "source": "utilities.json",
+      "index": 39,
+      "original_id": "01M5W5PRG99B5PB00Y3P8SFWK3"
+    }
+  ]
 }

@@ -55,5 +55,43 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQG1DEEFG41KKE641N6K"
+  "id": "01M5W5PQG1DEEFG41KKE641N6K",
+  "aliases": [
+    "01M5W5PQMJMW60VYE0ZF1E73M1",
+    "01M5W5PQNNWKC1GBJDDACF6CPS",
+    "01M5W5PR794HTQMZE87ZPSNVJK",
+    "01M5W5PREPFVY1XHKD611HQ6JT"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG1DEEFG41KKE641N6K",
+      "source": "accessories.json",
+      "index": 106,
+      "original_id": "01M5W5PQG1DEEFG41KKE641N6K"
+    },
+    {
+      "id": "01M5W5PQMJMW60VYE0ZF1E73M1",
+      "source": "cosmetics.json",
+      "index": 26,
+      "original_id": "01M5W5PQMJMW60VYE0ZF1E73M1"
+    },
+    {
+      "id": "01M5W5PQNNWKC1GBJDDACF6CPS",
+      "source": "education.json",
+      "index": 128,
+      "original_id": "01M5W5PQNNWKC1GBJDDACF6CPS"
+    },
+    {
+      "id": "01M5W5PR794HTQMZE87ZPSNVJK",
+      "source": "services.json",
+      "index": 93,
+      "original_id": "01M5W5PR794HTQMZE87ZPSNVJK"
+    },
+    {
+      "id": "01M5W5PREPFVY1XHKD611HQ6JT",
+      "source": "textiles.json",
+      "index": 122,
+      "original_id": "01M5W5PREPFVY1XHKD611HQ6JT"
+    }
+  ]
 }

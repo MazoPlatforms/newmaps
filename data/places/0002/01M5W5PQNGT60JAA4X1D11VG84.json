@@ -55,5 +55,22 @@
   ],
   "website": "https://dasschool.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQNGT60JAA4X1D11VG84"
+  "id": "01M5W5PQNGT60JAA4X1D11VG84",
+  "aliases": [
+    "01M5W5PR418AX7TWVSAMMF8E91"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQNGT60JAA4X1D11VG84",
+      "source": "education.json",
+      "index": 96,
+      "original_id": "01M5W5PQNGT60JAA4X1D11VG84"
+    },
+    {
+      "id": "01M5W5PR418AX7TWVSAMMF8E91",
+      "source": "schools.json",
+      "index": 70,
+      "original_id": "01M5W5PR418AX7TWVSAMMF8E91"
+    }
+  ]
 }

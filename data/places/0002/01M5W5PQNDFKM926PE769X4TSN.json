@@ -57,5 +57,29 @@
   ],
   "website": "http://www.inspirations.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQNDFKM926PE769X4TSN"
+  "id": "01M5W5PQNDFKM926PE769X4TSN",
+  "aliases": [
+    "01M5W5PR0BEP283G2JVTDGRNCX",
+    "01M5W5PR6T6QVDW08J298EERWT"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQNDFKM926PE769X4TSN",
+      "source": "education.json",
+      "index": 86,
+      "original_id": "01M5W5PQNDFKM926PE769X4TSN"
+    },
+    {
+      "id": "01M5W5PR0BEP283G2JVTDGRNCX",
+      "source": "recreation.json",
+      "index": 137,
+      "original_id": "01M5W5PR0BEP283G2JVTDGRNCX"
+    },
+    {
+      "id": "01M5W5PR6T6QVDW08J298EERWT",
+      "source": "services.json",
+      "index": 54,
+      "original_id": "01M5W5PR6T6QVDW08J298EERWT"
+    }
+  ]
 }

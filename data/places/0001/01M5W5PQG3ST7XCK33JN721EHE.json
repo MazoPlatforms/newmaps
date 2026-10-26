@@ -11,5 +11,29 @@
   "phone": "0729646990",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG3ST7XCK33JN721EHE"
+  "id": "01M5W5PQG3ST7XCK33JN721EHE",
+  "aliases": [
+    "01M5W5PQHC7141X6DTZQW9TZ8W",
+    "01M5W5PR7E5KVE62G5A2N4PY0S"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG3ST7XCK33JN721EHE",
+      "source": "accessories.json",
+      "index": 117,
+      "original_id": "01M5W5PQG3ST7XCK33JN721EHE"
+    },
+    {
+      "id": "01M5W5PQHC7141X6DTZQW9TZ8W",
+      "source": "automotive.json",
+      "index": 85,
+      "original_id": "01M5W5PQHC7141X6DTZQW9TZ8W"
+    },
+    {
+      "id": "01M5W5PR7E5KVE62G5A2N4PY0S",
+      "source": "services.json",
+      "index": 112,
+      "original_id": "01M5W5PR7E5KVE62G5A2N4PY0S"
+    }
+  ]
 }

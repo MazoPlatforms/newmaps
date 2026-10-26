@@ -60,5 +60,36 @@
   ],
   "website": "http://www.ilagroup.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQFSH1RGJTXGT171RRTV"
+  "id": "01M5W5PQFSH1RGJTXGT171RRTV",
+  "aliases": [
+    "01M5W5PQSYA4M5RS2PM9FXRKJ9",
+    "01M5W5PQYM0RS03EXMABBSD4PF",
+    "01M5W5PR6HC6PGNS4Y2KNVS05W"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFSH1RGJTXGT171RRTV",
+      "source": "accessories.json",
+      "index": 54,
+      "original_id": "01M5W5PQFSH1RGJTXGT171RRTV"
+    },
+    {
+      "id": "01M5W5PQSYA4M5RS2PM9FXRKJ9",
+      "source": "hardware.json",
+      "index": 0,
+      "original_id": "01M5W5PQSYA4M5RS2PM9FXRKJ9"
+    },
+    {
+      "id": "01M5W5PQYM0RS03EXMABBSD4PF",
+      "source": "public-utilities.json",
+      "index": 13,
+      "original_id": "01M5W5PQYM0RS03EXMABBSD4PF"
+    },
+    {
+      "id": "01M5W5PR6HC6PGNS4Y2KNVS05W",
+      "source": "services.json",
+      "index": 36,
+      "original_id": "01M5W5PR6HC6PGNS4Y2KNVS05W"
+    }
+  ]
 }

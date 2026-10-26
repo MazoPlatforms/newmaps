@@ -11,5 +11,22 @@
   "phone": "0770080051",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGG0H8EPQKKHYX7KA92"
+  "id": "01M5W5PQGG0H8EPQKKHYX7KA92",
+  "aliases": [
+    "01M5W5PQTN6NQS8REYBF8P45NB"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGG0H8EPQKKHYX7KA92",
+      "source": "accommodation.json",
+      "index": 43,
+      "original_id": "01M5W5PQGG0H8EPQKKHYX7KA92"
+    },
+    {
+      "id": "01M5W5PQTN6NQS8REYBF8P45NB",
+      "source": "hotels.json",
+      "index": 40,
+      "original_id": "01M5W5PQTN6NQS8REYBF8P45NB"
+    }
+  ]
 }

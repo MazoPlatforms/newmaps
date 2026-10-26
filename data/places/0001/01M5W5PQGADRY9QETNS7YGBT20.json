@@ -12,5 +12,22 @@
   "phone": "0777775869",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGADRY9QETNS7YGBT20"
+  "id": "01M5W5PQGADRY9QETNS7YGBT20",
+  "aliases": [
+    "01M5W5PQTJQPANKZ31VT32N3B6"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGADRY9QETNS7YGBT20",
+      "source": "accommodation.json",
+      "index": 6,
+      "original_id": "01M5W5PQGADRY9QETNS7YGBT20"
+    },
+    {
+      "id": "01M5W5PQTJQPANKZ31VT32N3B6",
+      "source": "hotels.json",
+      "index": 13,
+      "original_id": "01M5W5PQTJQPANKZ31VT32N3B6"
+    }
+  ]
 }

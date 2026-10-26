@@ -4,7 +4,7 @@
     "latitude": 7.6796288,
     "longitude": 81.7340491
   },
-  "address": "No. 7/28,Bava Lane Kattankudy 06, Kattankudy 30100",
+  "address": "No. 7/28, Bava Lane Kattankudy 06, Kattankudy 30100",
   "categories": [
     "Cosmetics store"
   ],
@@ -55,5 +55,23 @@
   ],
   "website": "https://chat.whatsapp.com/HqHcicMPkop2q2aYFT60aP?mode=wwt",
   "business_status": "OPEN",
-  "id": "01M5W5PQMGKKEFM8H4X71Y099W"
+  "id": "01M5W5PQMGKKEFM8H4X71Y099W",
+  "aliases": [
+    "01M5W5PQQSX296SC9DQSK1YY31"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMGKKEFM8H4X71Y099W",
+      "source": "cosmetics.json",
+      "index": 12,
+      "original_id": "01M5W5PQMGKKEFM8H4X71Y099W"
+    },
+    {
+      "id": "01M5W5PQQSX296SC9DQSK1YY31",
+      "source": "fashion.json",
+      "index": 26,
+      "original_id": "01M5W5PQQSX296SC9DQSK1YY31"
+    }
+  ],
+  "address_original": "No. 7/28,Bava Lane Kattankudy 06, Kattankudy 30100"
 }

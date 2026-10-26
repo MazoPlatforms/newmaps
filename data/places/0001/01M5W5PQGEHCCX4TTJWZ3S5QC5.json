@@ -11,5 +11,22 @@
   "phone": "0771533396",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGEHCCX4TTJWZ3S5QC5"
+  "id": "01M5W5PQGEHCCX4TTJWZ3S5QC5",
+  "aliases": [
+    "01M5W5PQTK2M10ZM52AVM6S7A9"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGEHCCX4TTJWZ3S5QC5",
+      "source": "accommodation.json",
+      "index": 24,
+      "original_id": "01M5W5PQGEHCCX4TTJWZ3S5QC5"
+    },
+    {
+      "id": "01M5W5PQTK2M10ZM52AVM6S7A9",
+      "source": "hotels.json",
+      "index": 23,
+      "original_id": "01M5W5PQTK2M10ZM52AVM6S7A9"
+    }
+  ]
 }

@@ -11,5 +11,22 @@
   "phone": "0756161963",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQYR0RB0PVC53RXEC01Q"
+  "id": "01M5W5PQYR0RB0PVC53RXEC01Q",
+  "aliases": [
+    "01M5W5PRFBVS5S74CD5EFQV41T"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQYR0RB0PVC53RXEC01Q",
+      "source": "public-utilities.json",
+      "index": 25,
+      "original_id": "01M5W5PQYR0RB0PVC53RXEC01Q"
+    },
+    {
+      "id": "01M5W5PRFBVS5S74CD5EFQV41T",
+      "source": "transport.json",
+      "index": 4,
+      "original_id": "01M5W5PRFBVS5S74CD5EFQV41T"
+    }
+  ]
 }

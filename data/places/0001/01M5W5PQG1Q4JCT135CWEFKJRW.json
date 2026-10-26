@@ -55,5 +55,36 @@
   ],
   "website": "http://www.kkybazar.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQG1Q4JCT135CWEFKJRW"
+  "id": "01M5W5PQG1Q4JCT135CWEFKJRW",
+  "aliases": [
+    "01M5W5PQP6238Q2Y8FW67HSC1Y",
+    "01M5W5PQW3MBBS98J580ME4429",
+    "01M5W5PRG7MTW7Q2AQSVW71HK7"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG1Q4JCT135CWEFKJRW",
+      "source": "accessories.json",
+      "index": 112,
+      "original_id": "01M5W5PQG1Q4JCT135CWEFKJRW"
+    },
+    {
+      "id": "01M5W5PQP6238Q2Y8FW67HSC1Y",
+      "source": "electronics.json",
+      "index": 23,
+      "original_id": "01M5W5PQP6238Q2Y8FW67HSC1Y"
+    },
+    {
+      "id": "01M5W5PQW3MBBS98J580ME4429",
+      "source": "markets.json",
+      "index": 40,
+      "original_id": "01M5W5PQW3MBBS98J580ME4429"
+    },
+    {
+      "id": "01M5W5PRG7MTW7Q2AQSVW71HK7",
+      "source": "utilities.json",
+      "index": 32,
+      "original_id": "01M5W5PRG7MTW7Q2AQSVW71HK7"
+    }
+  ]
 }

@@ -11,5 +11,22 @@
   "phone": "0774471726",
   "hours": [],
   "business_status": "CLOSED_TEMPORARILY",
-  "id": "01M5W5PQJPME5EF5Y2M1ZA0GS0"
+  "id": "01M5W5PQJPME5EF5Y2M1ZA0GS0",
+  "aliases": [
+    "01M5W5PQYF946TA5XF2CJ55052"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJPME5EF5Y2M1ZA0GS0",
+      "source": "cafe.json",
+      "index": 146,
+      "original_id": "01M5W5PQJPME5EF5Y2M1ZA0GS0"
+    },
+    {
+      "id": "01M5W5PQYF946TA5XF2CJ55052",
+      "source": "places.json",
+      "index": 143,
+      "original_id": "01M5W5PQYF946TA5XF2CJ55052"
+    }
+  ]
 }

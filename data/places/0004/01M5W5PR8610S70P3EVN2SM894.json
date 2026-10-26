@@ -12,5 +12,22 @@
   "phone": "0773711022",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PR8610S70P3EVN2SM894"
+  "id": "01M5W5PR8610S70P3EVN2SM894",
+  "aliases": [
+    "01M5W5PR8GQR1BPTYX9CJKGK2R"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PR8610S70P3EVN2SM894",
+      "source": "services.json",
+      "index": 186,
+      "original_id": "01M5W5PR8610S70P3EVN2SM894"
+    },
+    {
+      "id": "01M5W5PR8GQR1BPTYX9CJKGK2R",
+      "source": "stationery.json",
+      "index": 15,
+      "original_id": "01M5W5PR8GQR1BPTYX9CJKGK2R"
+    }
+  ]
 }

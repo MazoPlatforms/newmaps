@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQJK0RQDB9NZCH23TXK2"
+  "id": "01M5W5PQJK0RQDB9NZCH23TXK2",
+  "aliases": [
+    "01M5W5PQY1TA8ZYHTZW4VZSJW8"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJK0RQDB9NZCH23TXK2",
+      "source": "cafe.json",
+      "index": 114,
+      "original_id": "01M5W5PQJK0RQDB9NZCH23TXK2"
+    },
+    {
+      "id": "01M5W5PQY1TA8ZYHTZW4VZSJW8",
+      "source": "places.json",
+      "index": 79,
+      "original_id": "01M5W5PQY1TA8ZYHTZW4VZSJW8"
+    }
+  ]
 }

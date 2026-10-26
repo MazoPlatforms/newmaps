@@ -4,7 +4,7 @@
     "latitude": 7.6855932,
     "longitude": 81.7355065
   },
-  "address": "06/1,3rd cross, Central Rd, Kattankudy 30100",
+  "address": "06/1, 3rd cross, Central Rd, Kattankudy 30100",
   "categories": [
     "Electrician",
     "Plumber"
@@ -55,5 +55,30 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQP428EWWGR8DNE678X9"
+  "id": "01M5W5PQP428EWWGR8DNE678X9",
+  "aliases": [
+    "01M5W5PR6CX89CRD948H95Z5CK",
+    "01M5W5PRG03166350VFNK274AK"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQP428EWWGR8DNE678X9",
+      "source": "electronics.json",
+      "index": 17,
+      "original_id": "01M5W5PQP428EWWGR8DNE678X9"
+    },
+    {
+      "id": "01M5W5PR6CX89CRD948H95Z5CK",
+      "source": "services.json",
+      "index": 18,
+      "original_id": "01M5W5PR6CX89CRD948H95Z5CK"
+    },
+    {
+      "id": "01M5W5PRG03166350VFNK274AK",
+      "source": "utilities.json",
+      "index": 1,
+      "original_id": "01M5W5PRG03166350VFNK274AK"
+    }
+  ],
+  "address_original": "06/1,3rd cross, Central Rd, Kattankudy 30100"
 }

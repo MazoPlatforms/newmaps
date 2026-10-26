@@ -54,5 +54,43 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFN9PZFYB13QEN4AG2X"
+  "id": "01M5W5PQFN9PZFYB13QEN4AG2X",
+  "aliases": [
+    "01M5W5PQMVPPWK53QKADAT4138",
+    "01M5W5PQR8JTDNEQSBT92AT746",
+    "01M5W5PQTSYD56H3YNX0EDC1HH",
+    "01M5W5PR7VD6PA91FAG72B3B2A"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFN9PZFYB13QEN4AG2X",
+      "source": "accessories.json",
+      "index": 27,
+      "original_id": "01M5W5PQFN9PZFYB13QEN4AG2X"
+    },
+    {
+      "id": "01M5W5PQMVPPWK53QKADAT4138",
+      "source": "couriers.json",
+      "index": 31,
+      "original_id": "01M5W5PQMVPPWK53QKADAT4138"
+    },
+    {
+      "id": "01M5W5PQR8JTDNEQSBT92AT746",
+      "source": "fashion.json",
+      "index": 101,
+      "original_id": "01M5W5PQR8JTDNEQSBT92AT746"
+    },
+    {
+      "id": "01M5W5PQTSYD56H3YNX0EDC1HH",
+      "source": "jewelry.json",
+      "index": 6,
+      "original_id": "01M5W5PQTSYD56H3YNX0EDC1HH"
+    },
+    {
+      "id": "01M5W5PR7VD6PA91FAG72B3B2A",
+      "source": "services.json",
+      "index": 164,
+      "original_id": "01M5W5PR7VD6PA91FAG72B3B2A"
+    }
+  ]
 }

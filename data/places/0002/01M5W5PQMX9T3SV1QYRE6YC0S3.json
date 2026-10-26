@@ -55,5 +55,22 @@
   ],
   "website": "https://coccampus.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQMX9T3SV1QYRE6YC0S3"
+  "id": "01M5W5PQMX9T3SV1QYRE6YC0S3",
+  "aliases": [
+    "01M5W5PR3K0JP5A2BCKH3EF64F"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMX9T3SV1QYRE6YC0S3",
+      "source": "education.json",
+      "index": 1,
+      "original_id": "01M5W5PQMX9T3SV1QYRE6YC0S3"
+    },
+    {
+      "id": "01M5W5PR3K0JP5A2BCKH3EF64F",
+      "source": "schools.json",
+      "index": 23,
+      "original_id": "01M5W5PR3K0JP5A2BCKH3EF64F"
+    }
+  ]
 }

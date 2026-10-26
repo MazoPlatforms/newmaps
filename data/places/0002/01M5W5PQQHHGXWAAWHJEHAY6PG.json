@@ -55,5 +55,36 @@
   ],
   "website": "http://dreamtextiles.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQQHHGXWAAWHJEHAY6PG"
+  "id": "01M5W5PQQHHGXWAAWHJEHAY6PG",
+  "aliases": [
+    "01M5W5PQQNEN17TY8Y7H8Z30DB",
+    "01M5W5PRC69FV8MPYBPMFFSRKD",
+    "01M5W5PRCQY2V9DD7BDW14ZDW1"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQQHHGXWAAWHJEHAY6PG",
+      "source": "fancy.json",
+      "index": 24,
+      "original_id": "01M5W5PQQHHGXWAAWHJEHAY6PG"
+    },
+    {
+      "id": "01M5W5PQQNEN17TY8Y7H8Z30DB",
+      "source": "fashion.json",
+      "index": 5,
+      "original_id": "01M5W5PQQNEN17TY8Y7H8Z30DB"
+    },
+    {
+      "id": "01M5W5PRC69FV8MPYBPMFFSRKD",
+      "source": "tailors.json",
+      "index": 10,
+      "original_id": "01M5W5PRC69FV8MPYBPMFFSRKD"
+    },
+    {
+      "id": "01M5W5PRCQY2V9DD7BDW14ZDW1",
+      "source": "textiles.json",
+      "index": 0,
+      "original_id": "01M5W5PRCQY2V9DD7BDW14ZDW1"
+    }
+  ]
 }

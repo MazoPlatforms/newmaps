@@ -55,5 +55,29 @@
   ],
   "website": "https://reema.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQZ11X2FEZVF0ZV3RVZB"
+  "id": "01M5W5PQZ11X2FEZVF0ZV3RVZB",
+  "aliases": [
+    "01M5W5PQZX6KAJBNZW5J8B1B9X",
+    "01M5W5PR6PP4RT6HZ3JHGA7P1V"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQZ11X2FEZVF0ZV3RVZB",
+      "source": "public-utilities.json",
+      "index": 64,
+      "original_id": "01M5W5PQZ11X2FEZVF0ZV3RVZB"
+    },
+    {
+      "id": "01M5W5PQZX6KAJBNZW5J8B1B9X",
+      "source": "recreation.json",
+      "index": 77,
+      "original_id": "01M5W5PQZX6KAJBNZW5J8B1B9X"
+    },
+    {
+      "id": "01M5W5PR6PP4RT6HZ3JHGA7P1V",
+      "source": "services.json",
+      "index": 44,
+      "original_id": "01M5W5PR6PP4RT6HZ3JHGA7P1V"
+    }
+  ]
 }

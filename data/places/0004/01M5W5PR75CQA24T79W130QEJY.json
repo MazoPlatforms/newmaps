@@ -55,5 +55,22 @@
   ],
   "website": "https://www.deluxelanka.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PR75CQA24T79W130QEJY"
+  "id": "01M5W5PR75CQA24T79W130QEJY",
+  "aliases": [
+    "01M5W5PRFRKZ09F2YWRGT6HTGR"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PR75CQA24T79W130QEJY",
+      "source": "services.json",
+      "index": 82,
+      "original_id": "01M5W5PR75CQA24T79W130QEJY"
+    },
+    {
+      "id": "01M5W5PRFRKZ09F2YWRGT6HTGR",
+      "source": "transport.json",
+      "index": 49,
+      "original_id": "01M5W5PRFRKZ09F2YWRGT6HTGR"
+    }
+  ]
 }

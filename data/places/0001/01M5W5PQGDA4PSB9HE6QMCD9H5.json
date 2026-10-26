@@ -11,5 +11,22 @@
   "phone": "0777118775",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGDA4PSB9HE6QMCD9H5"
+  "id": "01M5W5PQGDA4PSB9HE6QMCD9H5",
+  "aliases": [
+    "01M5W5PQTJ63DX1ZQRSGBN4J5X"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGDA4PSB9HE6QMCD9H5",
+      "source": "accommodation.json",
+      "index": 17,
+      "original_id": "01M5W5PQGDA4PSB9HE6QMCD9H5"
+    },
+    {
+      "id": "01M5W5PQTJ63DX1ZQRSGBN4J5X",
+      "source": "hotels.json",
+      "index": 19,
+      "original_id": "01M5W5PQTJ63DX1ZQRSGBN4J5X"
+    }
+  ]
 }

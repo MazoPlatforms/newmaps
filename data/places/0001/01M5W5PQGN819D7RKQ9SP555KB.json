@@ -55,5 +55,22 @@
   ],
   "website": "https://chat.whatsapp.com/LOvs4FCnMnp20OKqo5tP7V?mode=ems_copy_c",
   "business_status": "OPEN",
-  "id": "01M5W5PQGN819D7RKQ9SP555KB"
+  "id": "01M5W5PQGN819D7RKQ9SP555KB",
+  "aliases": [
+    "01M5W5PR79NKD5ZZ6RTSVPJBE5"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGN819D7RKQ9SP555KB",
+      "source": "agriculture.json",
+      "index": 4,
+      "original_id": "01M5W5PQGN819D7RKQ9SP555KB"
+    },
+    {
+      "id": "01M5W5PR79NKD5ZZ6RTSVPJBE5",
+      "source": "services.json",
+      "index": 95,
+      "original_id": "01M5W5PR79NKD5ZZ6RTSVPJBE5"
+    }
+  ]
 }

@@ -13,5 +13,22 @@
   "phone": "0775803845",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGAEPH5BKEN23DFN56W"
+  "id": "01M5W5PQGAEPH5BKEN23DFN56W",
+  "aliases": [
+    "01M5W5PQTG4QJ83GKABJPAA1NS"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGAEPH5BKEN23DFN56W",
+      "source": "accommodation.json",
+      "index": 7,
+      "original_id": "01M5W5PQGAEPH5BKEN23DFN56W"
+    },
+    {
+      "id": "01M5W5PQTG4QJ83GKABJPAA1NS",
+      "source": "hotels.json",
+      "index": 6,
+      "original_id": "01M5W5PQTG4QJ83GKABJPAA1NS"
+    }
+  ]
 }

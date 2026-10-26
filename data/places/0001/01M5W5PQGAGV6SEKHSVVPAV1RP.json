@@ -12,5 +12,22 @@
   "hours": [],
   "website": "https://juda.xtadia.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGAGV6SEKHSVVPAV1RP"
+  "id": "01M5W5PQGAGV6SEKHSVVPAV1RP",
+  "aliases": [
+    "01M5W5PQTJHWR19TN7FR1T5F4G"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGAGV6SEKHSVVPAV1RP",
+      "source": "accommodation.json",
+      "index": 10,
+      "original_id": "01M5W5PQGAGV6SEKHSVVPAV1RP"
+    },
+    {
+      "id": "01M5W5PQTJHWR19TN7FR1T5F4G",
+      "source": "hotels.json",
+      "index": 15,
+      "original_id": "01M5W5PQTJHWR19TN7FR1T5F4G"
+    }
+  ]
 }

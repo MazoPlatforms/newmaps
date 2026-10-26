@@ -62,5 +62,22 @@
   ],
   "website": "http://klick.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQK6ZKA0MV491JBE8DDJ"
+  "id": "01M5W5PQK6ZKA0MV491JBE8DDJ",
+  "aliases": [
+    "01M5W5PR8V98F6Z25QY7CK3CTE"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQK6ZKA0MV491JBE8DDJ",
+      "source": "communication.json",
+      "index": 85,
+      "original_id": "01M5W5PQK6ZKA0MV491JBE8DDJ"
+    },
+    {
+      "id": "01M5W5PR8V98F6Z25QY7CK3CTE",
+      "source": "studio.json",
+      "index": 36,
+      "original_id": "01M5W5PR8V98F6Z25QY7CK3CTE"
+    }
+  ]
 }

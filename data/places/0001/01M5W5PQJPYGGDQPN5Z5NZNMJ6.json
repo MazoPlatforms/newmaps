@@ -54,5 +54,43 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJPYGGDQPN5Z5NZNMJ6"
+  "id": "01M5W5PQJPYGGDQPN5Z5NZNMJ6",
+  "aliases": [
+    "01M5W5PQQ1G3T72Y5ZMJ25TSW7",
+    "01M5W5PQTEZAJG1JWM3QPF1G2S",
+    "01M5W5PQZ8HYWGCXX8AP93X8D6",
+    "01M5W5PR6R3RB32MZ9DAG28CA5"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJPYGGDQPN5Z5NZNMJ6",
+      "source": "clinics.json",
+      "index": 3,
+      "original_id": "01M5W5PQJPYGGDQPN5Z5NZNMJ6"
+    },
+    {
+      "id": "01M5W5PQQ1G3T72Y5ZMJ25TSW7",
+      "source": "emergency.json",
+      "index": 3,
+      "original_id": "01M5W5PQQ1G3T72Y5ZMJ25TSW7"
+    },
+    {
+      "id": "01M5W5PQTEZAJG1JWM3QPF1G2S",
+      "source": "hospitals.json",
+      "index": 3,
+      "original_id": "01M5W5PQTEZAJG1JWM3QPF1G2S"
+    },
+    {
+      "id": "01M5W5PQZ8HYWGCXX8AP93X8D6",
+      "source": "public-utilities.json",
+      "index": 83,
+      "original_id": "01M5W5PQZ8HYWGCXX8AP93X8D6"
+    },
+    {
+      "id": "01M5W5PR6R3RB32MZ9DAG28CA5",
+      "source": "services.json",
+      "index": 48,
+      "original_id": "01M5W5PR6R3RB32MZ9DAG28CA5"
+    }
+  ]
 }

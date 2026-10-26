@@ -12,5 +12,22 @@
   "hours": [],
   "website": "http://www.mannankulam.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGGVZYPFQDQ4DCZXY3W"
+  "id": "01M5W5PQGGVZYPFQDQ4DCZXY3W",
+  "aliases": [
+    "01M5W5PQTPAGCKQMBZ9AQ6RMV7"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGVZYPFQDQ4DCZXY3W",
+      "source": "accommodation.json",
+      "index": 48,
+      "original_id": "01M5W5PQGGVZYPFQDQ4DCZXY3W"
+    },
+    {
+      "id": "01M5W5PQTPAGCKQMBZ9AQ6RMV7",
+      "source": "hotels.json",
+      "index": 46,
+      "original_id": "01M5W5PQTPAGCKQMBZ9AQ6RMV7"
+    }
+  ]
 }

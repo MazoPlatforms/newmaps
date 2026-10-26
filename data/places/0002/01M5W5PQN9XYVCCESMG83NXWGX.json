@@ -11,5 +11,22 @@
   "phone": "0765689699",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQN9XYVCCESMG83NXWGX"
+  "id": "01M5W5PQN9XYVCCESMG83NXWGX",
+  "aliases": [
+    "01M5W5PR3YP4X2ZQRRJW6B5Q52"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQN9XYVCCESMG83NXWGX",
+      "source": "education.json",
+      "index": 65,
+      "original_id": "01M5W5PQN9XYVCCESMG83NXWGX"
+    },
+    {
+      "id": "01M5W5PR3YP4X2ZQRRJW6B5Q52",
+      "source": "schools.json",
+      "index": 60,
+      "original_id": "01M5W5PR3YP4X2ZQRRJW6B5Q52"
+    }
+  ]
 }

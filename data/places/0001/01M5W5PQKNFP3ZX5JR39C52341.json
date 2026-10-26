@@ -55,5 +55,22 @@
   ],
   "website": "https://rebotinex.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQKNFP3ZX5JR39C52341"
+  "id": "01M5W5PQKNFP3ZX5JR39C52341",
+  "aliases": [
+    "01M5W5PQPZ684V2CD063XF9VPD"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQKNFP3ZX5JR39C52341",
+      "source": "computer.json",
+      "index": 16,
+      "original_id": "01M5W5PQKNFP3ZX5JR39C52341"
+    },
+    {
+      "id": "01M5W5PQPZ684V2CD063XF9VPD",
+      "source": "electronics.json",
+      "index": 105,
+      "original_id": "01M5W5PQPZ684V2CD063XF9VPD"
+    }
+  ]
 }

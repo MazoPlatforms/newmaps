@@ -61,5 +61,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQX14PMGW6Z39BNS976M"
+  "id": "01M5W5PQX14PMGW6Z39BNS976M",
+  "aliases": [
+    "01M5W5PR0RK10D1H386E7XTE5Z"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQX14PMGW6Z39BNS976M",
+      "source": "mosque.json",
+      "index": 34,
+      "original_id": "01M5W5PQX14PMGW6Z39BNS976M"
+    },
+    {
+      "id": "01M5W5PR0RK10D1H386E7XTE5Z",
+      "source": "religious.json",
+      "index": 8,
+      "original_id": "01M5W5PR0RK10D1H386E7XTE5Z"
+    }
+  ]
 }

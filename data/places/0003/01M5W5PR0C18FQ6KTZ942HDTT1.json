@@ -64,5 +64,22 @@
   ],
   "website": "https://labs.google.com/u/0/pomelli/website/8u-Bhs95laPas9IuvrM43J",
   "business_status": "OPEN",
-  "id": "01M5W5PR0C18FQ6KTZ942HDTT1"
+  "id": "01M5W5PR0C18FQ6KTZ942HDTT1",
+  "aliases": [
+    "01M5W5PRFK9HBBKVNSX32PY4N2"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PR0C18FQ6KTZ942HDTT1",
+      "source": "recreation.json",
+      "index": 140,
+      "original_id": "01M5W5PR0C18FQ6KTZ942HDTT1"
+    },
+    {
+      "id": "01M5W5PRFK9HBBKVNSX32PY4N2",
+      "source": "transport.json",
+      "index": 34,
+      "original_id": "01M5W5PRFK9HBBKVNSX32PY4N2"
+    }
+  ]
 }

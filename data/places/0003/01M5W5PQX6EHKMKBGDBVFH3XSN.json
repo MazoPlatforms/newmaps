@@ -11,5 +11,22 @@
   "phone": "0779697654",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQX6EHKMKBGDBVFH3XSN"
+  "id": "01M5W5PQX6EHKMKBGDBVFH3XSN",
+  "aliases": [
+    "01M5W5PR12S9X032XVYZ3HBWZA"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQX6EHKMKBGDBVFH3XSN",
+      "source": "mosque.json",
+      "index": 62,
+      "original_id": "01M5W5PQX6EHKMKBGDBVFH3XSN"
+    },
+    {
+      "id": "01M5W5PR12S9X032XVYZ3HBWZA",
+      "source": "religious.json",
+      "index": 66,
+      "original_id": "01M5W5PR12S9X032XVYZ3HBWZA"
+    }
+  ]
 }

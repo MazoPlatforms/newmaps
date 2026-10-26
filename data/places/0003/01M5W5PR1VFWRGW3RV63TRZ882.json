@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PR1VFWRGW3RV63TRZ882"
+  "id": "01M5W5PR1VFWRGW3RV63TRZ882",
+  "aliases": [
+    "01M5W5PR2Y4YA2ZBVR8YNJ4XG6"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PR1VFWRGW3RV63TRZ882",
+      "source": "salons.json",
+      "index": 18,
+      "original_id": "01M5W5PR1VFWRGW3RV63TRZ882"
+    },
+    {
+      "id": "01M5W5PR2Y4YA2ZBVR8YNJ4XG6",
+      "source": "saloons.json",
+      "index": 9,
+      "original_id": "01M5W5PR2Y4YA2ZBVR8YNJ4XG6"
+    }
+  ]
 }

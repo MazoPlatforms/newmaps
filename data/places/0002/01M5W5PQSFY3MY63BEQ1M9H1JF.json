@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQSFY3MY63BEQ1M9H1JF"
+  "id": "01M5W5PQSFY3MY63BEQ1M9H1JF",
+  "aliases": [
+    "01M5W5PQTD8F045BBF88P9PQRY"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQSFY3MY63BEQ1M9H1JF",
+      "source": "furniture.json",
+      "index": 4,
+      "original_id": "01M5W5PQSFY3MY63BEQ1M9H1JF"
+    },
+    {
+      "id": "01M5W5PQTD8F045BBF88P9PQRY",
+      "source": "homeware.json",
+      "index": 20,
+      "original_id": "01M5W5PQTD8F045BBF88P9PQRY"
+    }
+  ]
 }

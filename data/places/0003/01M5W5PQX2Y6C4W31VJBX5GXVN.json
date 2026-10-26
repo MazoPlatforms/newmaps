@@ -55,5 +55,22 @@
   ],
   "website": "http://www.shumsmedia.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQX2Y6C4W31VJBX5GXVN"
+  "id": "01M5W5PQX2Y6C4W31VJBX5GXVN",
+  "aliases": [
+    "01M5W5PR0Q3AQH53MT4NB52JJ7"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQX2Y6C4W31VJBX5GXVN",
+      "source": "mosque.json",
+      "index": 41,
+      "original_id": "01M5W5PQX2Y6C4W31VJBX5GXVN"
+    },
+    {
+      "id": "01M5W5PR0Q3AQH53MT4NB52JJ7",
+      "source": "religious.json",
+      "index": 0,
+      "original_id": "01M5W5PR0Q3AQH53MT4NB52JJ7"
+    }
+  ]
 }

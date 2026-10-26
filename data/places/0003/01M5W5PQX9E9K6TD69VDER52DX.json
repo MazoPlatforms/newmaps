@@ -11,5 +11,22 @@
   "phone": "0776054329",
   "hours": [],
   "business_status": "CLOSED_TEMPORARILY",
-  "id": "01M5W5PQX9E9K6TD69VDER52DX"
+  "id": "01M5W5PQX9E9K6TD69VDER52DX",
+  "aliases": [
+    "01M5W5PR1ES9CP3NM7NVVER30A"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQX9E9K6TD69VDER52DX",
+      "source": "mosque.json",
+      "index": 79,
+      "original_id": "01M5W5PQX9E9K6TD69VDER52DX"
+    },
+    {
+      "id": "01M5W5PR1ES9CP3NM7NVVER30A",
+      "source": "religious.json",
+      "index": 133,
+      "original_id": "01M5W5PR1ES9CP3NM7NVVER30A"
+    }
+  ]
 }

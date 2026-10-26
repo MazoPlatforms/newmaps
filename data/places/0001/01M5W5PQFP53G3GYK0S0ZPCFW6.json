@@ -54,5 +54,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFP53G3GYK0S0ZPCFW6"
+  "id": "01M5W5PQFP53G3GYK0S0ZPCFW6",
+  "aliases": [
+    "01M5W5PQH56W5X13C5XWG2BJBE"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFP53G3GYK0S0ZPCFW6",
+      "source": "accessories.json",
+      "index": 34,
+      "original_id": "01M5W5PQFP53G3GYK0S0ZPCFW6"
+    },
+    {
+      "id": "01M5W5PQH56W5X13C5XWG2BJBE",
+      "source": "automotive.json",
+      "index": 7,
+      "original_id": "01M5W5PQH56W5X13C5XWG2BJBE"
+    }
+  ]
 }

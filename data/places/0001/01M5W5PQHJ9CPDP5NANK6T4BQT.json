@@ -54,5 +54,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQHJ9CPDP5NANK6T4BQT"
+  "id": "01M5W5PQHJ9CPDP5NANK6T4BQT",
+  "aliases": [
+    "01M5W5PR1869KNNSFYW8B93021"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHJ9CPDP5NANK6T4BQT",
+      "source": "baby.json",
+      "index": 29,
+      "original_id": "01M5W5PQHJ9CPDP5NANK6T4BQT"
+    },
+    {
+      "id": "01M5W5PR1869KNNSFYW8B93021",
+      "source": "religious.json",
+      "index": 97,
+      "original_id": "01M5W5PR1869KNNSFYW8B93021"
+    }
+  ]
 }

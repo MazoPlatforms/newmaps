@@ -11,5 +11,22 @@
   "phone": "0770440883",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQYVNV42NSDDEXF178WC"
+  "id": "01M5W5PQYVNV42NSDDEXF178WC",
+  "aliases": [
+    "01M5W5PRFF8HPGG88SYCWMH5G3"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQYVNV42NSDDEXF178WC",
+      "source": "public-utilities.json",
+      "index": 40,
+      "original_id": "01M5W5PQYVNV42NSDDEXF178WC"
+    },
+    {
+      "id": "01M5W5PRFF8HPGG88SYCWMH5G3",
+      "source": "transport.json",
+      "index": 19,
+      "original_id": "01M5W5PRFF8HPGG88SYCWMH5G3"
+    }
+  ]
 }

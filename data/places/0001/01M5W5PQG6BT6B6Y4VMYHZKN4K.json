@@ -55,5 +55,120 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQG6BT6B6Y4VMYHZKN4K"
+  "id": "01M5W5PQG6BT6B6Y4VMYHZKN4K",
+  "aliases": [
+    "01M5W5PQGJ9XJCGN4P0G4DDG9R",
+    "01M5W5PQHHS5QF2HAM473T66C4",
+    "01M5W5PQHV7FRQQ0Q3FKPNBACJ",
+    "01M5W5PQJX1V1PSBM68BAJRG9R",
+    "01M5W5PQMQ4S2GE8BHKMGNK15K",
+    "01M5W5PQPN4SEKX2KP6K7Y9KV6",
+    "01M5W5PQRFM3FB4FEA3ZZ43W2A",
+    "01M5W5PQVPFW2412ZJ7JCHFT15",
+    "01M5W5PQWMVCD6ESFB35YP9WR3",
+    "01M5W5PQXKC4SS78Z1BZ48346J",
+    "01M5W5PR77XH9NVAMQKWP2K4B3",
+    "01M5W5PR8E5M2MS4H2A5MTBYQG",
+    "01M5W5PRBAJK64JP07GQ5BV4SJ",
+    "01M5W5PRECGC0DHKXFMS6YR9VT",
+    "01M5W5PRG261HYNR49SABBYW6T"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG6BT6B6Y4VMYHZKN4K",
+      "source": "accessories.json",
+      "index": 136,
+      "original_id": "01M5W5PQG6BT6B6Y4VMYHZKN4K"
+    },
+    {
+      "id": "01M5W5PQGJ9XJCGN4P0G4DDG9R",
+      "source": "addresses.json",
+      "index": 9,
+      "original_id": "01M5W5PQGJ9XJCGN4P0G4DDG9R"
+    },
+    {
+      "id": "01M5W5PQHHS5QF2HAM473T66C4",
+      "source": "baby.json",
+      "index": 22,
+      "original_id": "01M5W5PQHHS5QF2HAM473T66C4"
+    },
+    {
+      "id": "01M5W5PQHV7FRQQ0Q3FKPNBACJ",
+      "source": "bakery.json",
+      "index": 50,
+      "original_id": "01M5W5PQHV7FRQQ0Q3FKPNBACJ"
+    },
+    {
+      "id": "01M5W5PQJX1V1PSBM68BAJRG9R",
+      "source": "communication.json",
+      "index": 22,
+      "original_id": "01M5W5PQJX1V1PSBM68BAJRG9R"
+    },
+    {
+      "id": "01M5W5PQMQ4S2GE8BHKMGNK15K",
+      "source": "couriers.json",
+      "index": 10,
+      "original_id": "01M5W5PQMQ4S2GE8BHKMGNK15K"
+    },
+    {
+      "id": "01M5W5PQPN4SEKX2KP6K7Y9KV6",
+      "source": "electronics.json",
+      "index": 69,
+      "original_id": "01M5W5PQPN4SEKX2KP6K7Y9KV6"
+    },
+    {
+      "id": "01M5W5PQRFM3FB4FEA3ZZ43W2A",
+      "source": "fashion.json",
+      "index": 145,
+      "original_id": "01M5W5PQRFM3FB4FEA3ZZ43W2A"
+    },
+    {
+      "id": "01M5W5PQVPFW2412ZJ7JCHFT15",
+      "source": "markets.json",
+      "index": 0,
+      "original_id": "01M5W5PQVPFW2412ZJ7JCHFT15"
+    },
+    {
+      "id": "01M5W5PQWMVCD6ESFB35YP9WR3",
+      "source": "mobile.json",
+      "index": 72,
+      "original_id": "01M5W5PQWMVCD6ESFB35YP9WR3"
+    },
+    {
+      "id": "01M5W5PQXKC4SS78Z1BZ48346J",
+      "source": "pharmacies.json",
+      "index": 16,
+      "original_id": "01M5W5PQXKC4SS78Z1BZ48346J"
+    },
+    {
+      "id": "01M5W5PR77XH9NVAMQKWP2K4B3",
+      "source": "services.json",
+      "index": 88,
+      "original_id": "01M5W5PR77XH9NVAMQKWP2K4B3"
+    },
+    {
+      "id": "01M5W5PR8E5M2MS4H2A5MTBYQG",
+      "source": "stationery.json",
+      "index": 5,
+      "original_id": "01M5W5PR8E5M2MS4H2A5MTBYQG"
+    },
+    {
+      "id": "01M5W5PRBAJK64JP07GQ5BV4SJ",
+      "source": "supermarket.json",
+      "index": 1,
+      "original_id": "01M5W5PRBAJK64JP07GQ5BV4SJ"
+    },
+    {
+      "id": "01M5W5PRECGC0DHKXFMS6YR9VT",
+      "source": "textiles.json",
+      "index": 106,
+      "original_id": "01M5W5PRECGC0DHKXFMS6YR9VT"
+    },
+    {
+      "id": "01M5W5PRG261HYNR49SABBYW6T",
+      "source": "utilities.json",
+      "index": 9,
+      "original_id": "01M5W5PRG261HYNR49SABBYW6T"
+    }
+  ]
 }

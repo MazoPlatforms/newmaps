@@ -11,5 +11,22 @@
   "phone": "0761719475",
   "hours": [],
   "business_status": "CLOSED_TEMPORARILY",
-  "id": "01M5W5PQJN9W2VN5Y9QH4Z0RGZ"
+  "id": "01M5W5PQJN9W2VN5Y9QH4Z0RGZ",
+  "aliases": [
+    "01M5W5PQYFAG7NQ1DHJ1D6N8BX"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJN9W2VN5Y9QH4Z0RGZ",
+      "source": "cafe.json",
+      "index": 137,
+      "original_id": "01M5W5PQJN9W2VN5Y9QH4Z0RGZ"
+    },
+    {
+      "id": "01M5W5PQYFAG7NQ1DHJ1D6N8BX",
+      "source": "places.json",
+      "index": 141,
+      "original_id": "01M5W5PQYFAG7NQ1DHJ1D6N8BX"
+    }
+  ]
 }

@@ -11,5 +11,29 @@
   "phone": "0773666924",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQFT95QB9QFD0BEZVQQ2"
+  "id": "01M5W5PQFT95QB9QFD0BEZVQQ2",
+  "aliases": [
+    "01M5W5PQREQ3HMJ7T53JXB0QV0",
+    "01M5W5PQTY5575SZADH435PX17"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFT95QB9QFD0BEZVQQ2",
+      "source": "accessories.json",
+      "index": 67,
+      "original_id": "01M5W5PQFT95QB9QFD0BEZVQQ2"
+    },
+    {
+      "id": "01M5W5PQREQ3HMJ7T53JXB0QV0",
+      "source": "fashion.json",
+      "index": 135,
+      "original_id": "01M5W5PQREQ3HMJ7T53JXB0QV0"
+    },
+    {
+      "id": "01M5W5PQTY5575SZADH435PX17",
+      "source": "jewelry.json",
+      "index": 32,
+      "original_id": "01M5W5PQTY5575SZADH435PX17"
+    }
+  ]
 }

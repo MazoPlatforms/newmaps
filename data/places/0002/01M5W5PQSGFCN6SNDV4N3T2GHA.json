@@ -11,5 +11,22 @@
   "phone": "0772325315",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQSGFCN6SNDV4N3T2GHA"
+  "id": "01M5W5PQSGFCN6SNDV4N3T2GHA",
+  "aliases": [
+    "01M5W5PQT9EVD7N04VRGKXBD93"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQSGFCN6SNDV4N3T2GHA",
+      "source": "furniture.json",
+      "index": 10,
+      "original_id": "01M5W5PQSGFCN6SNDV4N3T2GHA"
+    },
+    {
+      "id": "01M5W5PQT9EVD7N04VRGKXBD93",
+      "source": "homeware.json",
+      "index": 9,
+      "original_id": "01M5W5PQT9EVD7N04VRGKXBD93"
+    }
+  ]
 }

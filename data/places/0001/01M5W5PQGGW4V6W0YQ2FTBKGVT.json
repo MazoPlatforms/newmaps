@@ -13,5 +13,22 @@
   "hours": [],
   "website": "http://www.olivegreenresort.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGGW4V6W0YQ2FTBKGVT"
+  "id": "01M5W5PQGGW4V6W0YQ2FTBKGVT",
+  "aliases": [
+    "01M5W5PQTN4HGSMWV498CAPDAK"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGW4V6W0YQ2FTBKGVT",
+      "source": "accommodation.json",
+      "index": 37,
+      "original_id": "01M5W5PQGGW4V6W0YQ2FTBKGVT"
+    },
+    {
+      "id": "01M5W5PQTN4HGSMWV498CAPDAK",
+      "source": "hotels.json",
+      "index": 37,
+      "original_id": "01M5W5PQTN4HGSMWV498CAPDAK"
+    }
+  ]
 }

@@ -55,5 +55,22 @@
   ],
   "website": "https://www.facebook.com/multimotorstopone",
   "business_status": "OPEN",
-  "id": "01M5W5PQH5VN1ZHSA1TJW5VSJ4"
+  "id": "01M5W5PQH5VN1ZHSA1TJW5VSJ4",
+  "aliases": [
+    "01M5W5PQSBWNRDVV5SR6D04G3T"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQH5VN1ZHSA1TJW5VSJ4",
+      "source": "automotive.json",
+      "index": 8,
+      "original_id": "01M5W5PQH5VN1ZHSA1TJW5VSJ4"
+    },
+    {
+      "id": "01M5W5PQSBWNRDVV5SR6D04G3T",
+      "source": "fuel.json",
+      "index": 13,
+      "original_id": "01M5W5PQSBWNRDVV5SR6D04G3T"
+    }
+  ]
 }

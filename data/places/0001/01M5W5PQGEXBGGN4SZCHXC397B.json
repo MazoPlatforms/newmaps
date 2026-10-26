@@ -11,5 +11,22 @@
   "phone": "0777230837",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGEXBGGN4SZCHXC397B"
+  "id": "01M5W5PQGEXBGGN4SZCHXC397B",
+  "aliases": [
+    "01M5W5PQTMV4XSC980XCGHG5DM"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGEXBGGN4SZCHXC397B",
+      "source": "accommodation.json",
+      "index": 25,
+      "original_id": "01M5W5PQGEXBGGN4SZCHXC397B"
+    },
+    {
+      "id": "01M5W5PQTMV4XSC980XCGHG5DM",
+      "source": "hotels.json",
+      "index": 27,
+      "original_id": "01M5W5PQTMV4XSC980XCGHG5DM"
+    }
+  ]
 }

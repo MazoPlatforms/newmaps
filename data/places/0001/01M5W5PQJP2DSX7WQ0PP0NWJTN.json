@@ -54,5 +54,50 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJP2DSX7WQ0PP0NWJTN"
+  "id": "01M5W5PQJP2DSX7WQ0PP0NWJTN",
+  "aliases": [
+    "01M5W5PQQ1CA6X6F4RJCFFPFF4",
+    "01M5W5PQTDFCNDCA7NGGQ93BGJ",
+    "01M5W5PQXKZ7ZMDQBFWAG0SQQ0",
+    "01M5W5PQYYF4MJ6Z3NHCEMX5N1",
+    "01M5W5PR6Q696SM1VH9KD8HKZ5"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJP2DSX7WQ0PP0NWJTN",
+      "source": "clinics.json",
+      "index": 0,
+      "original_id": "01M5W5PQJP2DSX7WQ0PP0NWJTN"
+    },
+    {
+      "id": "01M5W5PQQ1CA6X6F4RJCFFPFF4",
+      "source": "emergency.json",
+      "index": 2,
+      "original_id": "01M5W5PQQ1CA6X6F4RJCFFPFF4"
+    },
+    {
+      "id": "01M5W5PQTDFCNDCA7NGGQ93BGJ",
+      "source": "hospitals.json",
+      "index": 0,
+      "original_id": "01M5W5PQTDFCNDCA7NGGQ93BGJ"
+    },
+    {
+      "id": "01M5W5PQXKZ7ZMDQBFWAG0SQQ0",
+      "source": "pharmacies.json",
+      "index": 13,
+      "original_id": "01M5W5PQXKZ7ZMDQBFWAG0SQQ0"
+    },
+    {
+      "id": "01M5W5PQYYF4MJ6Z3NHCEMX5N1",
+      "source": "public-utilities.json",
+      "index": 52,
+      "original_id": "01M5W5PQYYF4MJ6Z3NHCEMX5N1"
+    },
+    {
+      "id": "01M5W5PR6Q696SM1VH9KD8HKZ5",
+      "source": "services.json",
+      "index": 46,
+      "original_id": "01M5W5PR6Q696SM1VH9KD8HKZ5"
+    }
+  ]
 }

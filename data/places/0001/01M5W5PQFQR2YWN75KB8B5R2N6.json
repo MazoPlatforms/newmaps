@@ -4,7 +4,7 @@
     "latitude": 7.681712399999999,
     "longitude": 81.72791149999999
   },
-  "address": "No.13,Mohideen Meththai Grand City Complex, Kattankudy 03",
+  "address": "No.13, Mohideen Meththai Grand City Complex, Kattankudy 03",
   "categories": [
     "Home goods store"
   ],
@@ -54,5 +54,37 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFQR2YWN75KB8B5R2N6"
+  "id": "01M5W5PQFQR2YWN75KB8B5R2N6",
+  "aliases": [
+    "01M5W5PQMKFJRC6DZXGFXTZCV2",
+    "01M5W5PQQDPEYYBJCMWCV23MCT",
+    "01M5W5PQT9PVSEJGCSV2J0X2EH"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFQR2YWN75KB8B5R2N6",
+      "source": "accessories.json",
+      "index": 40,
+      "original_id": "01M5W5PQFQR2YWN75KB8B5R2N6"
+    },
+    {
+      "id": "01M5W5PQMKFJRC6DZXGFXTZCV2",
+      "source": "cosmetics.json",
+      "index": 30,
+      "original_id": "01M5W5PQMKFJRC6DZXGFXTZCV2"
+    },
+    {
+      "id": "01M5W5PQQDPEYYBJCMWCV23MCT",
+      "source": "fancy.json",
+      "index": 8,
+      "original_id": "01M5W5PQQDPEYYBJCMWCV23MCT"
+    },
+    {
+      "id": "01M5W5PQT9PVSEJGCSV2J0X2EH",
+      "source": "homeware.json",
+      "index": 11,
+      "original_id": "01M5W5PQT9PVSEJGCSV2J0X2EH"
+    }
+  ],
+  "address_original": "No.13,Mohideen Meththai Grand City Complex, Kattankudy 03"
 }

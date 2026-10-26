@@ -53,5 +53,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQHZ4T3BVVENZHBGYA0A"
+  "id": "01M5W5PQHZ4T3BVVENZHBGYA0A",
+  "aliases": [
+    "01M5W5PQRS2MRHSPAZNAR5645X"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHZ4T3BVVENZHBGYA0A",
+      "source": "banks.json",
+      "index": 7,
+      "original_id": "01M5W5PQHZ4T3BVVENZHBGYA0A"
+    },
+    {
+      "id": "01M5W5PQRS2MRHSPAZNAR5645X",
+      "source": "finance.json",
+      "index": 11,
+      "original_id": "01M5W5PQRS2MRHSPAZNAR5645X"
+    }
+  ]
 }

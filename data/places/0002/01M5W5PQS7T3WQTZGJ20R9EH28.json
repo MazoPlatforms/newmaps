@@ -55,5 +55,29 @@
   ],
   "website": "https://www.facebook.com/sanaabilsports/",
   "business_status": "OPEN",
-  "id": "01M5W5PQS7T3WQTZGJ20R9EH28"
+  "id": "01M5W5PQS7T3WQTZGJ20R9EH28",
+  "aliases": [
+    "01M5W5PR6THKM2RJWK6TVPBNS7",
+    "01M5W5PR8A4D7WGJ93NKB0WJZH"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQS7T3WQTZGJ20R9EH28",
+      "source": "footwear.json",
+      "index": 29,
+      "original_id": "01M5W5PQS7T3WQTZGJ20R9EH28"
+    },
+    {
+      "id": "01M5W5PR6THKM2RJWK6TVPBNS7",
+      "source": "services.json",
+      "index": 53,
+      "original_id": "01M5W5PR6THKM2RJWK6TVPBNS7"
+    },
+    {
+      "id": "01M5W5PR8A4D7WGJ93NKB0WJZH",
+      "source": "sports.json",
+      "index": 0,
+      "original_id": "01M5W5PR8A4D7WGJ93NKB0WJZH"
+    }
+  ]
 }

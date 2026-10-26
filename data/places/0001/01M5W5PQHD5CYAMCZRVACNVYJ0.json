@@ -54,5 +54,29 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQHD5CYAMCZRVACNVYJ0"
+  "id": "01M5W5PQHD5CYAMCZRVACNVYJ0",
+  "aliases": [
+    "01M5W5PQS9XECHM1VX6VBKD98Z",
+    "01M5W5PQYJM5FDW0DKTWKKEG6Q"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHD5CYAMCZRVACNVYJ0",
+      "source": "automotive.json",
+      "index": 98,
+      "original_id": "01M5W5PQHD5CYAMCZRVACNVYJ0"
+    },
+    {
+      "id": "01M5W5PQS9XECHM1VX6VBKD98Z",
+      "source": "fuel.json",
+      "index": 1,
+      "original_id": "01M5W5PQS9XECHM1VX6VBKD98Z"
+    },
+    {
+      "id": "01M5W5PQYJM5FDW0DKTWKKEG6Q",
+      "source": "public-utilities.json",
+      "index": 4,
+      "original_id": "01M5W5PQYJM5FDW0DKTWKKEG6Q"
+    }
+  ]
 }

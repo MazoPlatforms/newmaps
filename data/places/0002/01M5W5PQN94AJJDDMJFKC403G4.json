@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQN94AJJDDMJFKC403G4"
+  "id": "01M5W5PQN94AJJDDMJFKC403G4",
+  "aliases": [
+    "01M5W5PR3FNVWYSVMCJ5ETJDQ8"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQN94AJJDDMJFKC403G4",
+      "source": "education.json",
+      "index": 64,
+      "original_id": "01M5W5PQN94AJJDDMJFKC403G4"
+    },
+    {
+      "id": "01M5W5PR3FNVWYSVMCJ5ETJDQ8",
+      "source": "schools.json",
+      "index": 18,
+      "original_id": "01M5W5PR3FNVWYSVMCJ5ETJDQ8"
+    }
+  ]
 }

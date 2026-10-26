@@ -55,5 +55,29 @@
   ],
   "website": "https://goldlankagemandjewellers.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQFT9EF5NTQQEKW1TEMC"
+  "id": "01M5W5PQFT9EF5NTQQEKW1TEMC",
+  "aliases": [
+    "01M5W5PQRA5Y61QWVZRE2B3VKR",
+    "01M5W5PQTRT6ZMBPGPZMX7CSVH"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFT9EF5NTQQEKW1TEMC",
+      "source": "accessories.json",
+      "index": 64,
+      "original_id": "01M5W5PQFT9EF5NTQQEKW1TEMC"
+    },
+    {
+      "id": "01M5W5PQRA5Y61QWVZRE2B3VKR",
+      "source": "fashion.json",
+      "index": 114,
+      "original_id": "01M5W5PQRA5Y61QWVZRE2B3VKR"
+    },
+    {
+      "id": "01M5W5PQTRT6ZMBPGPZMX7CSVH",
+      "source": "jewelry.json",
+      "index": 0,
+      "original_id": "01M5W5PQTRT6ZMBPGPZMX7CSVH"
+    }
+  ]
 }

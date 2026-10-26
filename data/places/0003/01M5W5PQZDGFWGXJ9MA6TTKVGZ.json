@@ -54,5 +54,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQZDGFWGXJ9MA6TTKVGZ"
+  "id": "01M5W5PQZDGFWGXJ9MA6TTKVGZ",
+  "aliases": [
+    "01M5W5PR8AK04W806W2KWF0YBK"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQZDGFWGXJ9MA6TTKVGZ",
+      "source": "recreation.json",
+      "index": 0,
+      "original_id": "01M5W5PQZDGFWGXJ9MA6TTKVGZ"
+    },
+    {
+      "id": "01M5W5PR8AK04W806W2KWF0YBK",
+      "source": "sports.json",
+      "index": 1,
+      "original_id": "01M5W5PR8AK04W806W2KWF0YBK"
+    }
+  ]
 }

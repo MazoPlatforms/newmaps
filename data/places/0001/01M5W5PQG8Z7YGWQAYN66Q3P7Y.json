@@ -11,5 +11,22 @@
   "phone": "0776600136",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG8Z7YGWQAYN66Q3P7Y"
+  "id": "01M5W5PQG8Z7YGWQAYN66Q3P7Y",
+  "aliases": [
+    "01M5W5PQV11F143P1W3VQP1WAR"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG8Z7YGWQAYN66Q3P7Y",
+      "source": "accessories.json",
+      "index": 160,
+      "original_id": "01M5W5PQG8Z7YGWQAYN66Q3P7Y"
+    },
+    {
+      "id": "01M5W5PQV11F143P1W3VQP1WAR",
+      "source": "jewelry.json",
+      "index": 46,
+      "original_id": "01M5W5PQV11F143P1W3VQP1WAR"
+    }
+  ]
 }

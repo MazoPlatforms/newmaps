@@ -55,5 +55,29 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQT73ZT0R1P637JZJRXS"
+  "id": "01M5W5PQT73ZT0R1P637JZJRXS",
+  "aliases": [
+    "01M5W5PQW12BD83VRQHWB1928G",
+    "01M5W5PRBJGXP8XYE7YE73YRX2"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQT73ZT0R1P637JZJRXS",
+      "source": "homeware.json",
+      "index": 4,
+      "original_id": "01M5W5PQT73ZT0R1P637JZJRXS"
+    },
+    {
+      "id": "01M5W5PQW12BD83VRQHWB1928G",
+      "source": "markets.json",
+      "index": 24,
+      "original_id": "01M5W5PQW12BD83VRQHWB1928G"
+    },
+    {
+      "id": "01M5W5PRBJGXP8XYE7YE73YRX2",
+      "source": "supermarket.json",
+      "index": 7,
+      "original_id": "01M5W5PRBJGXP8XYE7YE73YRX2"
+    }
+  ]
 }

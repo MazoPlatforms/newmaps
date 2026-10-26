@@ -4,7 +4,7 @@
     "latitude": 7.6804046999999995,
     "longitude": 81.7292968
   },
-  "address": "197/A/10, Beach Road , Kattankudi 06, 30100",
+  "address": "197/A/10, Beach Road, Kattankudi 06, 30100",
   "categories": [
     "Mobile phone repair shop"
   ],
@@ -12,5 +12,23 @@
   "hours": [],
   "website": "https://www.tiktok.com/@musthakeem0?_r=1&_t=ZS-92VFPsb8gYJ",
   "business_status": "OPEN",
-  "id": "01M5W5PQWHGAWEY4F4KX44MSZJ"
+  "id": "01M5W5PQWHGAWEY4F4KX44MSZJ",
+  "aliases": [
+    "01M5W5PQZ79ZPEDXMD1V1KSX2K"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQWHGAWEY4F4KX44MSZJ",
+      "source": "mobile.json",
+      "index": 49,
+      "original_id": "01M5W5PQWHGAWEY4F4KX44MSZJ"
+    },
+    {
+      "id": "01M5W5PQZ79ZPEDXMD1V1KSX2K",
+      "source": "public-utilities.json",
+      "index": 79,
+      "original_id": "01M5W5PQZ79ZPEDXMD1V1KSX2K"
+    }
+  ],
+  "address_original": "197/A/10, Beach Road , Kattankudi 06, 30100"
 }

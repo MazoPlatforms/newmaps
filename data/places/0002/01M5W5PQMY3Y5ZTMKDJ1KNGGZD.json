@@ -55,5 +55,22 @@
   ],
   "website": "http://collegeoftlc.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQMY3Y5ZTMKDJ1KNGGZD"
+  "id": "01M5W5PQMY3Y5ZTMKDJ1KNGGZD",
+  "aliases": [
+    "01M5W5PR3N4ZPQARDSVM35615N"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMY3Y5ZTMKDJ1KNGGZD",
+      "source": "education.json",
+      "index": 2,
+      "original_id": "01M5W5PQMY3Y5ZTMKDJ1KNGGZD"
+    },
+    {
+      "id": "01M5W5PR3N4ZPQARDSVM35615N",
+      "source": "schools.json",
+      "index": 36,
+      "original_id": "01M5W5PR3N4ZPQARDSVM35615N"
+    }
+  ]
 }

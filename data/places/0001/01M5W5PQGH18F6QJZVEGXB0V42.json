@@ -54,5 +54,36 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQGH18F6QJZVEGXB0V42"
+  "id": "01M5W5PQGH18F6QJZVEGXB0V42",
+  "aliases": [
+    "01M5W5PQH25RFKV96F4J8FY3V6",
+    "01M5W5PQHZQ7KNV9SMMYFW6BZQ",
+    "01M5W5PQRPCH9D694QRAYEYX1Y"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGH18F6QJZVEGXB0V42",
+      "source": "addresses.json",
+      "index": 3,
+      "original_id": "01M5W5PQGH18F6QJZVEGXB0V42"
+    },
+    {
+      "id": "01M5W5PQH25RFKV96F4J8FY3V6",
+      "source": "atms.json",
+      "index": 8,
+      "original_id": "01M5W5PQH25RFKV96F4J8FY3V6"
+    },
+    {
+      "id": "01M5W5PQHZQ7KNV9SMMYFW6BZQ",
+      "source": "banks.json",
+      "index": 3,
+      "original_id": "01M5W5PQHZQ7KNV9SMMYFW6BZQ"
+    },
+    {
+      "id": "01M5W5PQRPCH9D694QRAYEYX1Y",
+      "source": "finance.json",
+      "index": 3,
+      "original_id": "01M5W5PQRPCH9D694QRAYEYX1Y"
+    }
+  ]
 }

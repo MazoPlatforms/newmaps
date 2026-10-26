@@ -19,5 +19,22 @@
   "hours": [],
   "website": "http://hoteleastlagoon.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGDA6VA5XWP4XFG9MW1"
+  "id": "01M5W5PQGDA6VA5XWP4XFG9MW1",
+  "aliases": [
+    "01M5W5PQTH1RACCQ2XXJ9B1WQM"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGDA6VA5XWP4XFG9MW1",
+      "source": "accommodation.json",
+      "index": 22,
+      "original_id": "01M5W5PQGDA6VA5XWP4XFG9MW1"
+    },
+    {
+      "id": "01M5W5PQTH1RACCQ2XXJ9B1WQM",
+      "source": "hotels.json",
+      "index": 9,
+      "original_id": "01M5W5PQTH1RACCQ2XXJ9B1WQM"
+    }
+  ]
 }

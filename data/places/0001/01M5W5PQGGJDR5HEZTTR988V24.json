@@ -11,5 +11,22 @@
   "phone": "0774235087",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGGJDR5HEZTTR988V24"
+  "id": "01M5W5PQGGJDR5HEZTTR988V24",
+  "aliases": [
+    "01M5W5PQTQDH7EZXFS5PRC2V64"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGJDR5HEZTTR988V24",
+      "source": "accommodation.json",
+      "index": 52,
+      "original_id": "01M5W5PQGGJDR5HEZTTR988V24"
+    },
+    {
+      "id": "01M5W5PQTQDH7EZXFS5PRC2V64",
+      "source": "hotels.json",
+      "index": 50,
+      "original_id": "01M5W5PQTQDH7EZXFS5PRC2V64"
+    }
+  ]
 }

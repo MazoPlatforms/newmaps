@@ -12,5 +12,22 @@
   "phone": "0774107755",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGAFV7SWNB97FY8R2ZZ"
+  "id": "01M5W5PQGAFV7SWNB97FY8R2ZZ",
+  "aliases": [
+    "01M5W5PQTHAAA6Y6K5E9X136YY"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGAFV7SWNB97FY8R2ZZ",
+      "source": "accommodation.json",
+      "index": 8,
+      "original_id": "01M5W5PQGAFV7SWNB97FY8R2ZZ"
+    },
+    {
+      "id": "01M5W5PQTHAAA6Y6K5E9X136YY",
+      "source": "hotels.json",
+      "index": 11,
+      "original_id": "01M5W5PQTHAAA6Y6K5E9X136YY"
+    }
+  ]
 }

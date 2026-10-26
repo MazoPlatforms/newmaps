@@ -60,5 +60,22 @@
   ],
   "website": "http://lakestudiobatticaloa.wordpress.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PR8PBSGXRK8YGTDSF3VJ"
+  "id": "01M5W5PR8PBSGXRK8YGTDSF3VJ",
+  "aliases": [
+    "01M5W5PRGB6QAKE2Z6BMEG0WWR"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PR8PBSGXRK8YGTDSF3VJ",
+      "source": "studio.json",
+      "index": 19,
+      "original_id": "01M5W5PR8PBSGXRK8YGTDSF3VJ"
+    },
+    {
+      "id": "01M5W5PRGB6QAKE2Z6BMEG0WWR",
+      "source": "utilities.json",
+      "index": 52,
+      "original_id": "01M5W5PRGB6QAKE2Z6BMEG0WWR"
+    }
+  ]
 }

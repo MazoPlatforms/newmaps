@@ -11,5 +11,22 @@
   "phone": "0777175048",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGG9DFF8ZC408YGBSPB"
+  "id": "01M5W5PQGG9DFF8ZC408YGBSPB",
+  "aliases": [
+    "01M5W5PQTNAC3ZADSNDMB51R7S"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGG9DFF8ZC408YGBSPB",
+      "source": "accommodation.json",
+      "index": 45,
+      "original_id": "01M5W5PQGG9DFF8ZC408YGBSPB"
+    },
+    {
+      "id": "01M5W5PQTNAC3ZADSNDMB51R7S",
+      "source": "hotels.json",
+      "index": 39,
+      "original_id": "01M5W5PQTNAC3ZADSNDMB51R7S"
+    }
+  ]
 }
