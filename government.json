@@ -186,7 +186,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "GS Office (கிராம உத்தியோகத்தர்) - 167 B New Kattankudy East",
+      "name": "GS Office - 167B New Kattankudy East",
       "coordinates": {
         "latitude": 7.6796954,
         "longitude": 81.7426382
@@ -196,7 +196,8 @@
         "Government office"
       ],
       "hours": [],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "GS Office (கிராம உத்தியோகத்தர்) - 167 B New Kattankudy East"
     },
     {
       "name": "SWM Facility",
@@ -366,7 +367,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "Kattankudy Police Station காத்தான்குடி பொலிஸ் நிலையம் කාත්තන්කුඩි පොලිස් ස්ථානය",
+      "name": "Kattankudy Police Station",
       "coordinates": {
         "latitude": 7.683914199999999,
         "longitude": 81.73798819999999
@@ -421,10 +422,11 @@
         }
       ],
       "website": "http://www.police.lk/",
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "Kattankudy Police Station காத்தான்குடி பொலிஸ் நிலையம் කාත්තන්කුඩි පොලිස් ස්ථානය"
     },
     {
-      "name": "காத்தான்குடி தபாலகம் Post Office කාත්තන්කුඩි තැපැල් කාර්යාලය",
+      "name": "Kattankudy Post Office",
       "coordinates": {
         "latitude": 7.685410699999999,
         "longitude": 81.7266887
@@ -479,7 +481,8 @@
         }
       ],
       "website": "http://www.slpost.gov.lk/",
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "காத்தான்குடி தபாலகம் Post Office කාත්තන්කුඩි තැපැල් කාර්යාලය"
     },
     {
       "name": "Sub MOH office",
