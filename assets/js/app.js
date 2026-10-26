@@ -3,7 +3,7 @@ const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https:/
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const map=new maplibregl.Map({container:'map',style:styles[theme()],center:[80.75,7.75],zoom:6.6});
 map.addControl(new maplibregl.NavigationControl(),'bottom-right');
-const datasets=['places.json','bakery.json','supermarket.json','halls.json','banks.json','mosque.json'];
+const datasets=['places.json','bakery.json','supermarket.json','halls.json','banks.json','mosque.json','textiles.json'];
 let places=[],category='all',roadsVisible=true,placesVisible=true;
 const KATTANKUDY=[81.70,7.65,81.77,7.72];
 const inArea=p=>+p.coordinates.longitude>=KATTANKUDY[0]&&+p.coordinates.longitude<=KATTANKUDY[2]&&+p.coordinates.latitude>=KATTANKUDY[1]&&+p.coordinates.latitude<=KATTANKUDY[3];
