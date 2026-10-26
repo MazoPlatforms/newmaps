@@ -19,6 +19,9 @@
     <title>Mazo Maps — A closer look at Sri Lanka</title>
     <link rel="icon" type="image/svg+xml" href="./assets/mazo-mark.svg" />
     <link rel="preconnect" href="https://mazoplatforms.github.io" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     
     
     <script>
@@ -32,8 +35,8 @@
       } catch {}
     </script>
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.css" />
-    <link rel="stylesheet" href="./assets/css/site.css?v=place-sheet-14" />
-    <script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=place-sheet-14"></script>
+    <link rel="stylesheet" href="./assets/css/site.css?v=inter-hours-15" />
+    <script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=inter-hours-15"></script>
   </head>
   <body>
     <a class="skip-link" href="#map">Skip to map</a>
@@ -85,13 +88,13 @@
  </div>
  <div class="place-sheet-heading"><h2 id="place-title"></h2><p id="place-category"></p></div>
  <div class="place-sheet-actions">
-  <a id="place-directions" target="_blank" rel="noopener noreferrer">↗ Directions</a>
-  <a id="place-phone" hidden>☎ Call</a>
-  <a id="place-website" target="_blank" rel="noopener noreferrer" hidden>Website</a>
+  <a id="place-directions" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 12l9 9 9-9-9-9Z"/><path d="M9 15v-4h6m-3-3 3 3-3 3"/></svg><span>Directions</span></a>
+  <a id="place-phone" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7l.6 3a2 2 0 0 1-.6 1.8L7.2 10a16 16 0 0 0 6.8 6.8l1.5-1.9a2 2 0 0 1 1.8-.6l3 .6a2 2 0 0 1 1.7 1.8Z"/></svg><span>Call</span></a>
+  <a id="place-website" target="_blank" rel="noopener noreferrer" hidden><span>Website</span></a>
  </div>
  <div class="place-sheet-content">
   <p id="place-address"></p><p class="place-coordinates" id="place-coordinates"></p>
-  <h3>Opening hours</h3><div id="place-hours"></div>
+  <h3 class="hours-heading"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Opening hours</span></h3><div id="place-hours" class="hours-list"></div>
  </div>
 </section>
         <a class="attribution-link" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">Mazo Maps · Sources</a>
