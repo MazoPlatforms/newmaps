@@ -86,8 +86,18 @@ function openPlace(p){
  const website=$('#place-website');const url=String(p.website||'');website.hidden=!/^https?:\/\//i.test(url);if(!website.hidden)website.href=url;
  $('#place-directions').href='https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(p.coordinates.latitude+','+p.coordinates.longitude);
  const hours=$('#place-hours');hours.replaceChildren();
- if(Array.isArray(p.hours)&&p.hours.length){for(const h of p.hours){const line=document.createElement('p');line.textContent=(h.day||'')+' · '+(h.times||[]).join(', ');hours.append(line)}}
- else hours.textContent='Opening hours unavailable';
+ if(Array.isArray(p.hours)&&p.hours.length){
+  const today=new Date().toLocaleDateString('en-US',{weekday:'long'});
+  for(const h of p.hours){
+   const row=document.createElement('div');row.className='hours-row';
+   const day=document.createElement('span');day.className='hours-day';day.textContent=h.day||'Day';
+   const time=document.createElement('span');time.className='hours-time';
+   const values=Array.isArray(h.times)?h.times:[];
+   time.textContent=values.length?values.join(' · '):'Closed';
+   if(String(h.day).toLowerCase()===today.toLowerCase()){row.classList.add('is-today');const dot=document.createElement('span');dot.className='hours-today-dot';dot.setAttribute('aria-label','Today');day.prepend(dot)}
+   row.append(day,time);hours.append(row);
+  }
+ }else{const empty=document.createElement('p');empty.className='hours-empty';empty.textContent='Opening hours unavailable';hours.append(empty)}
  const c=p.coordinates;map.easeTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16),padding:{bottom:Math.round(window.innerHeight*.25)},duration:400});
 }
 $('#place-close').onclick=closePlace;
