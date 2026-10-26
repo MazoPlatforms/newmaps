@@ -1,353 +1,354 @@
 {
-    "count": 10,
-    "results":[
+  "count": 10,
+  "results": [
+    {
+      "name": "Kattankudy",
+      "coordinates": {
+        "latitude": 7.6803317,
+        "longitude": 81.7289785
+      },
+      "address": "",
+      "categories": [],
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Kattankudy New Beach",
+      "coordinates": {
+        "latitude": 7.6864975,
+        "longitude": 81.740433
+      },
+      "address": "13 Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+      "categories": [
+        "Tourist attraction"
+      ],
+      "hours": [
         {
-            "name": "Kattankudy",
-            "coordinates": {
-                "latitude": 7.6803317,
-                "longitude": 81.7289785
-            },
-            "address": "",
-            "categories":[],
-            "hours":[],
-            "business_status": "OPEN"
+          "day": "Monday",
+          "times": [
+            "Open 24 hours"
+          ]
         },
         {
-            "name": "Kattankudy New Beach",
-            "coordinates": {
-                "latitude": 7.6864975,
-                "longitude": 81.740433
-            },
-            "address": "13 Dr Badhiudeen Mahmood Mawatha, Kattankudy",
-            "categories":[
-                "Tourist attraction"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Tuesday",
+          "times": [
+            "Open 24 hours"
+          ]
         },
         {
-            "name": "சிவபதி அன்பு இல்லம்",
-            "coordinates": {
-                "latitude": 7.6739172,
-                "longitude": 81.7284863
-            },
-            "address": "MPFH+H99, Arayampathy Boundary Rd, Kattankudy",
-            "categories":[
-                "Housing complex"
-            ],
-            "hours":[],
-            "business_status": "OPEN"
+          "day": "Wednesday",
+          "times": [
+            "Open 24 hours"
+          ]
         },
         {
-            "name": "Hotel Beachway",
-            "coordinates": {
-                "latitude": 7.6816952999999994,
-                "longitude": 81.7317667
-            },
-            "address": "MPJJ+MM6, 127, Beach Road, Hizbullah Stadium Rd, Kattankudy",
-            "categories":[
-                "Hotel"
-            ],
-            "phone": "0717802312",
-            "hours":[],
-            "business_status": "OPEN"
+          "day": "Thursday",
+          "times": [
+            "Open 24 hours"
+          ]
         },
         {
-            "name": "Heritage Museum, Kattankudy | කාත්තන්කුඩි කෞතුකාගාරය | நூதனசாலை",
-            "coordinates": {
-                "latitude": 7.6771139999999995,
-                "longitude": 81.7306668
-            },
-            "address": "243 Main St, Kattankudy",
-            "categories":[
-                "Museum"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–7 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–7 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–7 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Friday",
+          "times": [
+            "Open 24 hours"
+          ]
         },
         {
-            "name": "DR BATTERY SHOWROOM & WORK SHOP",
-            "coordinates": {
-                "latitude": 7.6749374999999995,
-                "longitude": 81.73168749999999
-            },
-            "address": "Arayampathy Boundary Rd",
-            "categories":[
-                "Battery store"
-            ],
-            "phone": "0773682400",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Saturday",
+          "times": [
+            "Open 24 hours"
+          ]
         },
         {
-            "name": "Zainab Marketing & Distributors",
-            "coordinates": {
-                "latitude": 7.690029099999999,
-                "longitude": 81.724077
-            },
-            "address": "MPRF+2J8, Boundary Rd S, Kattankudy",
-            "categories":[
-                "Hardware store"
-            ],
-            "phone": "0772094647",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–6 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Kattankudy DS Office",
-            "coordinates": {
-                "latitude": 7.6783117,
-                "longitude": 81.7297059
-            },
-            "address": "Divisional Secretariat Office, Kattankudy",
-            "categories":[
-                "Government office"
-            ],
-            "phone": "0652245048",
-            "hours":[],
-            "website": "http://www.kattankudy.ds.gov.lk/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Kattankudy Beach Park",
-            "coordinates": {
-                "latitude": 7.6849837999999995,
-                "longitude": 81.74127899999999
-            },
-            "address": "MPMR+XGR, Kattankudy",
-            "categories":[
-                "Park"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Home for short stay",
-            "coordinates": {
-                "latitude": 7.7268808,
-                "longitude": 81.6970819
-            },
-            "address": "Boundary Rd, Batticaloa 30000",
-            "categories":[
-                "Holiday home"
-            ],
-            "hours":[],
-            "business_status": "OPEN"
+          "day": "Sunday",
+          "times": [
+            "Open 24 hours"
+          ]
         }
-    ]
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "சிவபதி அன்பு இல்லம்",
+      "coordinates": {
+        "latitude": 7.6739172,
+        "longitude": 81.7284863
+      },
+      "address": "MPFH+H99, Arayampathy Boundary Rd, Kattankudy",
+      "categories": [
+        "Housing complex"
+      ],
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Hotel Beachway",
+      "coordinates": {
+        "latitude": 7.6816952999999994,
+        "longitude": 81.7317667
+      },
+      "address": "MPJJ+MM6, 127, Beach Road, Hizbullah Stadium Rd, Kattankudy",
+      "categories": [
+        "Hotel"
+      ],
+      "phone": "0717802312",
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Heritage Museum, Kattankudy | කාත්තන්කුඩි කෞතුකාගාරය | நூதனசாலை",
+      "coordinates": {
+        "latitude": 7.6771139999999995,
+        "longitude": 81.7306668
+      },
+      "address": "243 Main St, Kattankudy",
+      "categories": [
+        "Museum"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–7 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–7 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–7 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Dr Battery Showroom & Work Shop",
+      "coordinates": {
+        "latitude": 7.6749374999999995,
+        "longitude": 81.73168749999999
+      },
+      "address": "Arayampathy Boundary Rd",
+      "categories": [
+        "Battery store"
+      ],
+      "phone": "0773682400",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Open 24 hours"
+          ]
+        }
+      ],
+      "business_status": "OPEN",
+      "name_original": "DR BATTERY SHOWROOM & WORK SHOP"
+    },
+    {
+      "name": "Zainab Marketing & Distributors",
+      "coordinates": {
+        "latitude": 7.690029099999999,
+        "longitude": 81.724077
+      },
+      "address": "MPRF+2J8, Boundary Rd S, Kattankudy",
+      "categories": [
+        "Hardware store"
+      ],
+      "phone": "0772094647",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–6 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Kattankudy DS Office",
+      "coordinates": {
+        "latitude": 7.6783117,
+        "longitude": 81.7297059
+      },
+      "address": "Divisional Secretariat Office, Kattankudy",
+      "categories": [
+        "Government office"
+      ],
+      "phone": "0652245048",
+      "hours": [],
+      "website": "http://www.kattankudy.ds.gov.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Kattankudy Beach Park",
+      "coordinates": {
+        "latitude": 7.6849837999999995,
+        "longitude": 81.74127899999999
+      },
+      "address": "MPMR+XGR, Kattankudy",
+      "categories": [
+        "Park"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Open 24 hours"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Home for short stay",
+      "coordinates": {
+        "latitude": 7.7268808,
+        "longitude": 81.6970819
+      },
+      "address": "Boundary Rd, Batticaloa 30000",
+      "categories": [
+        "Holiday home"
+      ],
+      "hours": [],
+      "business_status": "OPEN"
+    }
+  ]
 }
