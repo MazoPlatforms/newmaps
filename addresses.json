@@ -1,708 +1,709 @@
 {
-    "count": 16,
-    "results":[
+  "count": 16,
+  "results": [
+    {
+      "name": "Kattankudy DS Office",
+      "coordinates": {
+        "latitude": 7.6783117,
+        "longitude": 81.7297059
+      },
+      "address": "Divisional Secretariat Office, Kattankudy",
+      "categories": [
+        "Government office"
+      ],
+      "phone": "0652245048",
+      "hours": [],
+      "website": "http://www.kattankudy.ds.gov.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Kattankudy",
+      "coordinates": {
+        "latitude": 7.6803317,
+        "longitude": 81.7289785
+      },
+      "address": "",
+      "categories": [],
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Kattankudy Post Office",
+      "coordinates": {
+        "latitude": 7.685410699999999,
+        "longitude": 81.7266887
+      },
+      "address": "MPPG+5M8, Kattankudy",
+      "categories": [
+        "Post office"
+      ],
+      "phone": "0652245499",
+      "hours": [
         {
-            "name": "Kattankudy DS Office",
-            "coordinates": {
-                "latitude": 7.6783117,
-                "longitude": 81.7297059
-            },
-            "address": "Divisional Secretariat Office, Kattankudy",
-            "categories":[
-                "Government office"
-            ],
-            "phone": "0652245048",
-            "hours":[],
-            "website": "http://www.kattankudy.ds.gov.lk/",
-            "business_status": "OPEN"
+          "day": "Monday",
+          "times": [
+            "9 AM–4 PM"
+          ]
         },
         {
-            "name": "Kattankudy",
-            "coordinates": {
-                "latitude": 7.6803317,
-                "longitude": 81.7289785
-            },
-            "address": "",
-            "categories":[],
-            "hours":[],
-            "business_status": "OPEN"
+          "day": "Tuesday",
+          "times": [
+            "9 AM–4 PM"
+          ]
         },
         {
-            "name": "காத்தான்குடி தபாலகம் Post Office කාත්තන්කුඩි තැපැල් කාර්යාලය",
-            "coordinates": {
-                "latitude": 7.685410699999999,
-                "longitude": 81.7266887
-            },
-            "address": "MPPG+5M8, Kattankudy",
-            "categories":[
-                "Post office"
-            ],
-            "phone": "0652245499",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "http://www.slpost.gov.lk/",
-            "business_status": "OPEN"
+          "day": "Wednesday",
+          "times": [
+            "9 AM–4 PM"
+          ]
         },
         {
-            "name": "People's Bank",
-            "coordinates": {
-                "latitude": 7.6753852,
-                "longitude": 81.7319667
-            },
-            "address": "MPGJ+5Q4, Colombo-Ratnapura-Wellawaya-Batticaloa Highway, Kattankudy",
-            "categories":[
-                "Bank"
-            ],
-            "phone": "0652246598",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Thursday",
+          "times": [
+            "9 AM–4 PM"
+          ]
         },
         {
-            "name": "Seylan Bank PLC - Kattankudy",
-            "coordinates": {
-                "latitude": 7.6876961999999995,
-                "longitude": 81.7244553
-            },
-            "address": "No 500B, 500C New Kalmunai Road Manchanthoduwai, 30100",
-            "categories":[
-                "Public sector bank"
-            ],
-            "phone": "0652246625",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "https://www.seylan.lk/",
-            "business_status": "OPEN"
+          "day": "Friday",
+          "times": [
+            "9 AM–4 PM"
+          ]
         },
         {
-            "name": "Commercial Bank",
-            "coordinates": {
-                "latitude": 7.6859319,
-                "longitude": 81.72734299999999
-            },
-            "address": "No 42 Fawzi Mawatha, Kattankudy 30100",
-            "categories":[
-                "Bank",
-                "ATM"
-            ],
-            "phone": "0652248576",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "https://www.combank.lk/",
-            "business_status": "OPEN"
+          "day": "Saturday",
+          "times": [
+            "9 AM–4 PM"
+          ]
         },
         {
-            "name": "New Kattankudy Post Office",
-            "coordinates": {
-                "latitude": 7.6839507,
-                "longitude": 81.7360104
-            },
-            "address": "MPMP+HCJ, Dr Badhiudeen Mahmood Mawatha, Kattankudy",
-            "categories":[
-                "Post office"
-            ],
-            "phone": "0652246695",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–4 AM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–4 AM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–4 AM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–4 AM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–4 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Sampath Bank & ATM Kattankudy",
-            "coordinates": {
-                "latitude": 7.6812292,
-                "longitude": 81.72829109999999
-            },
-            "address": "No. 57, 59 Main Street, 03, Kattankudy 30100",
-            "categories":[
-                "Bank"
-            ],
-            "phone": "0652247930",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "http://www.sampath.lk/en/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "MAM Transport Batticaloa Branch",
-            "coordinates": {
-                "latitude": 7.6781692999999995,
-                "longitude": 81.7292368
-            },
-            "address": "MPHH+7M9, Kattankudy",
-            "categories":[
-                "Transportation service"
-            ],
-            "phone": "0112337828",
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Savings Supermarket",
-            "coordinates": {
-                "latitude": 7.685760299999999,
-                "longitude": 81.7266234
-            },
-            "address": "Telecom Rd, Kattankudy",
-            "categories":[
-                "Grocery store"
-            ],
-            "phone": "0764706878",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8:30 AM–3 AM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "7:30–11:30 AM",
-                        "5 PM–12 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "12 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8:30 AM–11 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "City Walk",
-            "coordinates": {
-                "latitude": 7.6835485,
-                "longitude": 81.7269578
-            },
-            "address": "221 Main Street Kattankudy 02, 30100",
-            "categories":[
-                "Shoe store",
-                "Bag shop"
-            ],
-            "phone": "0777722100",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Meera Jumma Masjid",
-            "coordinates": {
-                "latitude": 7.6849305999999995,
-                "longitude": 81.7243173
-            },
-            "address": "MPMF+XPG, Kattankudy",
-            "categories":[
-                "Mosque"
-            ],
-            "hours":[],
-            "website": "https://eathamozhi-masjid.netlify.app/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Urban Council",
-            "coordinates": {
-                "latitude": 7.6837396,
-                "longitude": 81.7313556
-            },
-            "address": "MPMJ+FGX, Kattankudy",
-            "categories":[
-                "Council"
-            ],
-            "phone": "0652245925",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–4:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–4:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–4:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–4:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–4:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Rafeek Bakery",
-            "coordinates": {
-                "latitude": 7.682868,
-                "longitude": 81.72733769999999
-            },
-            "address": "Colombo - Batticaloa Hwy, Kattankudy",
-            "categories":[
-                "Bakery"
-            ],
-            "phone": "0777711497",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "6:30 AM–11:30 PM"
-                    ]
-                }
-            ],
-            "website": "http://www.rafeekbakery.hol.es/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "AL Jazeera Book Shop Kattankudy",
-            "coordinates": {
-                "latitude": 7.6818246,
-                "longitude": 81.7278991
-            },
-            "address": "MPJH+P5C, Colombo - Batticaloa Hwy, Kattankudy",
-            "categories":[
-                "Book store"
-            ],
-            "phone": "0773864498",
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Quazi Court",
-            "coordinates": {
-                "latitude": 7.6767218999999995,
-                "longitude": 81.7392522
-            },
-            "address": "MPGQ+MPJ, Kattankudy",
-            "categories":[
-                "Court reporter"
-            ],
-            "phone": "0778487333",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–1 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–1 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
         }
-    ]
+      ],
+      "website": "http://www.slpost.gov.lk/",
+      "business_status": "OPEN",
+      "name_original": "காத்தான்குடி தபாலகம் Post Office කාත්තන්කුඩි තැපැල් කාර්යාලය"
+    },
+    {
+      "name": "People's Bank",
+      "coordinates": {
+        "latitude": 7.6753852,
+        "longitude": 81.7319667
+      },
+      "address": "MPGJ+5Q4, Colombo-Ratnapura-Wellawaya-Batticaloa Highway, Kattankudy",
+      "categories": [
+        "Bank"
+      ],
+      "phone": "0652246598",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Seylan Bank PLC - Kattankudy",
+      "coordinates": {
+        "latitude": 7.6876961999999995,
+        "longitude": 81.7244553
+      },
+      "address": "No 500B, 500C New Kalmunai Road Manchanthoduwai, 30100",
+      "categories": [
+        "Public sector bank"
+      ],
+      "phone": "0652246625",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "https://www.seylan.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Commercial Bank",
+      "coordinates": {
+        "latitude": 7.6859319,
+        "longitude": 81.72734299999999
+      },
+      "address": "No 42 Fawzi Mawatha, Kattankudy 30100",
+      "categories": [
+        "Bank",
+        "ATM"
+      ],
+      "phone": "0652248576",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "https://www.combank.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "New Kattankudy Post Office",
+      "coordinates": {
+        "latitude": 7.6839507,
+        "longitude": 81.7360104
+      },
+      "address": "MPMP+HCJ, Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+      "categories": [
+        "Post office"
+      ],
+      "phone": "0652246695",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–4 AM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–4 AM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–4 AM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–4 AM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–4 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Sampath Bank & ATM Kattankudy",
+      "coordinates": {
+        "latitude": 7.6812292,
+        "longitude": 81.72829109999999
+      },
+      "address": "No. 57, 59 Main Street, 03, Kattankudy 30100",
+      "categories": [
+        "Bank"
+      ],
+      "phone": "0652247930",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "http://www.sampath.lk/en/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "MAM Transport Batticaloa Branch",
+      "coordinates": {
+        "latitude": 7.6781692999999995,
+        "longitude": 81.7292368
+      },
+      "address": "MPHH+7M9, Kattankudy",
+      "categories": [
+        "Transportation service"
+      ],
+      "phone": "0112337828",
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Savings Supermarket",
+      "coordinates": {
+        "latitude": 7.685760299999999,
+        "longitude": 81.7266234
+      },
+      "address": "Telecom Rd, Kattankudy",
+      "categories": [
+        "Grocery store"
+      ],
+      "phone": "0764706878",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8:30 AM–3 AM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "7:30–11:30 AM",
+            "5 PM–12 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "12 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8:30 AM–11 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "City Walk",
+      "coordinates": {
+        "latitude": 7.6835485,
+        "longitude": 81.7269578
+      },
+      "address": "221 Main Street Kattankudy 02, 30100",
+      "categories": [
+        "Shoe store",
+        "Bag shop"
+      ],
+      "phone": "0777722100",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Meera Jumma Masjid",
+      "coordinates": {
+        "latitude": 7.6849305999999995,
+        "longitude": 81.7243173
+      },
+      "address": "MPMF+XPG, Kattankudy",
+      "categories": [
+        "Mosque"
+      ],
+      "hours": [],
+      "website": "https://eathamozhi-masjid.netlify.app/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Urban Council",
+      "coordinates": {
+        "latitude": 7.6837396,
+        "longitude": 81.7313556
+      },
+      "address": "MPMJ+FGX, Kattankudy",
+      "categories": [
+        "Council"
+      ],
+      "phone": "0652245925",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–4:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–4:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–4:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–4:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–4:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Rafeek Bakery",
+      "coordinates": {
+        "latitude": 7.682868,
+        "longitude": 81.72733769999999
+      },
+      "address": "Colombo - Batticaloa Hwy, Kattankudy",
+      "categories": [
+        "Bakery"
+      ],
+      "phone": "0777711497",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "6:30 AM–11:30 PM"
+          ]
+        }
+      ],
+      "website": "http://www.rafeekbakery.hol.es/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "AL Jazeera Book Shop Kattankudy",
+      "coordinates": {
+        "latitude": 7.6818246,
+        "longitude": 81.7278991
+      },
+      "address": "MPJH+P5C, Colombo - Batticaloa Hwy, Kattankudy",
+      "categories": [
+        "Book store"
+      ],
+      "phone": "0773864498",
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Quazi Court",
+      "coordinates": {
+        "latitude": 7.6767218999999995,
+        "longitude": 81.7392522
+      },
+      "address": "MPGQ+MPJ, Kattankudy",
+      "categories": [
+        "Court reporter"
+      ],
+      "phone": "0778487333",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–1 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–1 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    }
+  ]
 }
