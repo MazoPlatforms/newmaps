@@ -105,6 +105,23 @@ $('#place-close').onclick=closePlace;
 /* In-map directions: pickup defaults to device location; map-click override.
    Public OSRM endpoints are best-effort and need a managed backend for production SLA. */
 const routePanel=$('#route-panel');
+function routeLayout(){
+ // Force mobile bottom docking even when older CSS is cached or theme rules conflict.
+ routePanel.style.setProperty('position','fixed','important');
+ routePanel.style.setProperty('top','auto','important');
+ routePanel.style.setProperty('bottom','0px','important');
+ routePanel.style.setProperty('left','0px','important');
+ routePanel.style.setProperty('right','0px','important');
+ routePanel.style.setProperty('width','100%','important');
+ routePanel.style.setProperty('max-height','55dvh','important');
+ routePanel.style.setProperty('border-radius','18px 18px 0 0','important');
+ const turn=$('#route-turn-card');
+ turn.style.setProperty('position','fixed','important');
+ turn.style.setProperty('top','auto','important');
+ turn.style.setProperty('bottom',(routePanel.getBoundingClientRect().height+12)+'px','important');
+ turn.style.setProperty('z-index','12','important');
+}
+window.addEventListener('resize',()=>{if(!routePanel.hidden)routeLayout()});
 let routeSteps=[],routeWatch=null,routeCurrent=null;
 let routeDestination=null,routePickup=null,routeMode='driving',routeAbort=null,routeLine=null,routePickupMarker=null,routeDestinationMarker=null,pickingPickup=false,routeSequence=0;
 const routeStatus=message=>{$('#route-status').textContent=message};
@@ -167,7 +184,7 @@ async function routeCalculate(){
  }catch(e){if(e.name==='AbortError'||sequence!==routeSequence)return;routeStatus('Unable to calculate route: '+e.message+' Try again or select another pickup.');routeLine=null;routeDraw()}
 }
 async function routeOpen(place){
- closePlace();routePanel.hidden=false;pickingPickup=false;
+ closePlace();routePanel.hidden=false;pickingPickup=false;document.querySelector('.search-dock').style.display='none';routeLayout();
  routeClear();$('#route-details').hidden=true;$('#route-expand').setAttribute('aria-expanded','false');routeDestination=[+place.coordinates.longitude,+place.coordinates.latitude];
  $('#route-destination').value=place.name;$('#route-pickup').value='Locating…';
  $('#route-summary').textContent='';$('#route-steps').replaceChildren();
@@ -182,6 +199,7 @@ $('#route-expand').onclick=()=>{
  const details=$('#route-details'),open=details.hidden;details.hidden=!open;
  $('#route-expand').setAttribute('aria-expanded',String(open));
  $('#route-expand').textContent=open?'Less':'Details';
+ requestAnimationFrame(routeLayout);
  $('#route-steps').hidden=!open;
 };
 function routeMeters(a,b){
@@ -201,7 +219,7 @@ function routeUpdateTurn(){
  $('#route-turn-icon').textContent=/left/i.test(action)?'↰':/right/i.test(action)?'↱':step.type==='arrive'?'●':'↑';
  $('#route-turn-title').textContent=action+(step.name?' · '+step.name:'');
  $('#route-turn-distance').textContent=(d<1000?Math.round(d)+' m':(d/1000).toFixed(1)+' km')+' to maneuver · approximate GPS guidance';
- $('#route-turn-card').hidden=false;
+ $('#route-turn-card').hidden=false;routeLayout();
 }
 function routeStartWatch(){
  if(routeWatch!==null){navigator.geolocation.clearWatch(routeWatch);routeWatch=null}
@@ -212,7 +230,7 @@ function routeStartWatch(){
   routeCurrent=c;routeUpdateTurn();
  },()=>{}, {enableHighAccuracy:true,maximumAge:2000,timeout:15000});
 }
-$('#route-close').onclick=()=>{routePanel.hidden=true;pickingPickup=false;routeClear()};
+$('#route-close').onclick=()=>{document.querySelector('.search-dock').style.removeProperty('display');routePanel.hidden=true;pickingPickup=false;routeClear()};
 $('#route-use-location').onclick=async()=>{
  pickingPickup=false;routeStatus('Requesting your location…');
  try{const c=await routeLocation();if(!map.getMaxBounds()?.contains(c))throw Error('Outside Kattankudy map bounds. Choose a pickup on the map.');routePickup=c;$('#route-pickup').value='My location';await routeCalculate()}catch(e){routeStatus(e.message)}
