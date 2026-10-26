@@ -1,0 +1,58 @@
+{
+  "name": "Ruzni Bakery",
+  "coordinates": {
+    "latitude": 7.6835265999999995,
+    "longitude": 81.7348286
+  },
+  "address": "New, Central Rd, Kattankudy 03",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0771603777",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHRAJQ2F990QT9898ES"
+}

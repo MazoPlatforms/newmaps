@@ -1,0 +1,63 @@
+{
+  "name": "Cheap multi shop",
+  "coordinates": {
+    "latitude": 7.6787608999999994,
+    "longitude": 81.7378421
+  },
+  "address": "Abrar Road, Kattankudy 30100",
+  "categories": [
+    "Women's clothing store",
+    "Book store",
+    "Costume jewelry shop",
+    "Telephone exchange",
+    "Toy store"
+  ],
+  "phone": "0767127255",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "website": "http://www.cheapmultishop.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQNS7FJ3CJV8FKF37QK7"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Div 1 Market",
+  "coordinates": {
+    "latitude": 7.6835629999999995,
+    "longitude": 81.72068829999999
+  },
+  "address": "01, B337, Kattankudy",
+  "categories": [
+    "Market"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQVRMF4ETHP3TNRA7FCC"
+}

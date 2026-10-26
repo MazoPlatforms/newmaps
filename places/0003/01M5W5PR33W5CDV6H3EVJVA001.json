@@ -1,0 +1,60 @@
+{
+  "name": "BT/BC/Bathriya Vidyalaya",
+  "coordinates": {
+    "latitude": 7.6887767,
+    "longitude": 81.7304107
+  },
+  "address": "2nd Cross Street, Kattankudy 30100",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0785042795",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "school_census_no": 14142,
+  "name_source": "https://dmb.moe.gov.lk/2024/01/01_PDF/Tbl20240106.pdf",
+  "id": "01M5W5PR33W5CDV6H3EVJVA001"
+}

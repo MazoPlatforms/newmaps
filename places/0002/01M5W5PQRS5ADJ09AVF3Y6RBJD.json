@@ -1,0 +1,59 @@
+{
+  "name": "MoneyGram",
+  "coordinates": {
+    "latitude": 7.6784186,
+    "longitude": 81.73012539999999
+  },
+  "address": "Main St, Kattankudy 30100",
+  "categories": [
+    "Money transfer service"
+  ],
+  "phone": "0652248641",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://www.moneygram.com/r/lk/en",
+  "business_status": "OPEN",
+  "id": "01M5W5PQRS5ADJ09AVF3Y6RBJD"
+}

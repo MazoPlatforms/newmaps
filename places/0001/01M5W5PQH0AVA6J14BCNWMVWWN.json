@@ -1,0 +1,58 @@
+{
+  "name": "Greenery Plants Palace",
+  "coordinates": {
+    "latitude": 7.7311247,
+    "longitude": 81.6709959
+  },
+  "address": "PMJC+C9X, main street, Batticaloa 88888",
+  "categories": [
+    "Plant nursery"
+  ],
+  "phone": "0755171498",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQH0AVA6J14BCNWMVWWN"
+}

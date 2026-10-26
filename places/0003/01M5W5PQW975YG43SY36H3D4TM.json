@@ -1,0 +1,58 @@
+{
+  "name": "TechNest Mobiles",
+  "coordinates": {
+    "latitude": 7.6833995999999996,
+    "longitude": 81.7278039
+  },
+  "address": "11 Fisheries Rd, Kattankudy",
+  "categories": [
+    "Mobile phone repair shop"
+  ],
+  "phone": "0771342212",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9–9:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQW975YG43SY36H3D4TM"
+}

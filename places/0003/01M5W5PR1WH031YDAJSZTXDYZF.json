@@ -1,0 +1,58 @@
+{
+  "name": "Salon A2ZEE",
+  "coordinates": {
+    "latitude": 7.7210223,
+    "longitude": 81.6958824
+  },
+  "address": "Shop 01, Boundary Rd S, Batticaloa 30000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0717689682",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR1WH031YDAJSZTXDYZF"
+}

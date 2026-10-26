@@ -1,0 +1,58 @@
+{
+  "name": "YO Extension & Beauty Salon",
+  "coordinates": {
+    "latitude": 7.6998912,
+    "longitude": 81.72395759999999
+  },
+  "address": "Tharisanam Rd, Batticaloa",
+  "categories": [
+    "Nail salon"
+  ],
+  "phone": "0755745871",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR1W0D9G927BW20WJZZS"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Cloud Techies",
+  "coordinates": {
+    "latitude": 7.700168,
+    "longitude": 81.7130378
+  },
+  "address": "25 Anumar Rd, Batticaloa 30000",
+  "categories": [
+    "Computer service"
+  ],
+  "phone": "0752077077",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://cloudtechies.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQKR6PG8VV3DTAK8SX4D"
+}

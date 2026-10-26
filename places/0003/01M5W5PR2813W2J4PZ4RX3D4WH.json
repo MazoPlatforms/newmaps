@@ -1,0 +1,58 @@
+{
+  "name": "Latest Saloon (Uthayan)",
+  "coordinates": {
+    "latitude": 7.7210619,
+    "longitude": 81.7010134
+  },
+  "address": "PPC2+CCC, Baily Rd, Batticaloa",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0778021932",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR2813W2J4PZ4RX3D4WH"
+}

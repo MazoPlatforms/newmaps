@@ -1,0 +1,59 @@
+{
+  "name": "Yusuf & Co. Grocers",
+  "coordinates": {
+    "latitude": 7.680038799999999,
+    "longitude": 81.7226767
+  },
+  "address": "Samsudeen Alim Lane, Old Road, 03, Kattankudy 30100",
+  "categories": [
+    "Snack bar"
+  ],
+  "phone": "0770746202",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11 AM",
+        "1:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJH7BXBSHS4J42SFY4Q"
+}

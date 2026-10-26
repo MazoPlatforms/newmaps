@@ -1,0 +1,57 @@
+{
+  "name": "Abaya World",
+  "coordinates": {
+    "latitude": 7.6842362,
+    "longitude": 81.7265656
+  },
+  "address": "211 Main St, Kattankudy",
+  "categories": [
+    "Clothing store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQG3F0VR477QP9M5Y5RQ"
+}

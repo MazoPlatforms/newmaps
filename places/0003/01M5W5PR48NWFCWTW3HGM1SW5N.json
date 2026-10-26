@@ -1,0 +1,58 @@
+{
+  "name": "Mobile world",
+  "coordinates": {
+    "latitude": 7.6819625,
+    "longitude": 81.7286005
+  },
+  "address": "Main St, Kattankudy",
+  "categories": [
+    "Mobile phone repair shop"
+  ],
+  "phone": "0752682580",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR48NWFCWTW3HGM1SW5N"
+}

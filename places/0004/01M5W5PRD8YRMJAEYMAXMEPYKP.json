@@ -1,0 +1,59 @@
+{
+  "name": "RAHMATH Fashion Superstore",
+  "coordinates": {
+    "latitude": 7.6830377,
+    "longitude": 81.7274669
+  },
+  "address": "173 Main St, Kattankudy",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0772240134",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://www.facebook.com/share/1FAMMUyvYK/",
+  "business_status": "OPEN",
+  "id": "01M5W5PRD8YRMJAEYMAXMEPYKP"
+}

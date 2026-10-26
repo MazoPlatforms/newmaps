@@ -1,0 +1,59 @@
+{
+  "name": "ABS Courier Pvt ltd",
+  "coordinates": {
+    "latitude": 7.7143897,
+    "longitude": 81.6951962
+  },
+  "address": "PM7W+Q32, Batticaloa 30000",
+  "categories": [
+    "Courier service"
+  ],
+  "phone": "0703706400",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://abscourier.com/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQMRFCHH2DPSPKPTECP2"
+}

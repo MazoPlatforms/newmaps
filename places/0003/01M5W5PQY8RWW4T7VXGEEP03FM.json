@@ -1,0 +1,65 @@
+{
+  "name": "Lakshmi Restaurant",
+  "coordinates": {
+    "latitude": 7.6674554,
+    "longitude": 81.73330779999999
+  },
+  "address": "Amarasingam Road",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0757025272",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12:30 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12:30 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12:30 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12:30 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12:30 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–12:30 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12:30 PM",
+        "3–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQY8RWW4T7VXGEEP03FM"
+}

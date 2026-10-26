@@ -1,0 +1,58 @@
+{
+  "name": "SIPS Farm",
+  "coordinates": {
+    "latitude": 7.717418899999999,
+    "longitude": 81.6670347
+  },
+  "address": "Thiruperunthurai, Batticaloa 30000",
+  "categories": [
+    "Farm"
+  ],
+  "phone": "0773417477",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQGS4Y33FWTDNBC6EYM2"
+}

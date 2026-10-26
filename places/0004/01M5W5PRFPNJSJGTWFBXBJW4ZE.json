@@ -1,0 +1,60 @@
+{
+  "name": "Surena Travels Pvt Limited",
+  "coordinates": {
+    "latitude": 7.7145835,
+    "longitude": 81.69604149999999
+  },
+  "address": "83 Munai St, Batticaloa 30000",
+  "categories": [
+    "Travel agency",
+    "Transportation service"
+  ],
+  "phone": "0771075670",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "http://surenatravels.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PRFPNJSJGTWFBXBJW4ZE"
+}

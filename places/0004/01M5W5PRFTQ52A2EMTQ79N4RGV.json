@@ -1,0 +1,58 @@
+{
+  "name": "Liya Travel's",
+  "coordinates": {
+    "latitude": 7.707712,
+    "longitude": 81.7121792
+  },
+  "address": "Bokkadi road, Kallady 30150",
+  "categories": [
+    "Transportation service"
+  ],
+  "phone": "0743620447",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRFTQ52A2EMTQ79N4RGV"
+}

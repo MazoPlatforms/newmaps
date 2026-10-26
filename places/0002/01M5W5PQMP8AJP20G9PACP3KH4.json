@@ -1,0 +1,59 @@
+{
+  "name": "Teeparam Courier Service & Money Transfer",
+  "coordinates": {
+    "latitude": 7.7134586999999994,
+    "longitude": 81.69871789999999
+  },
+  "address": "100 Bazaar Street, Gandhi Square, Batticaloa 30000",
+  "categories": [
+    "Courier service"
+  ],
+  "phone": "0706161641",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://www.teeparam.com/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQMP8AJP20G9PACP3KH4"
+}

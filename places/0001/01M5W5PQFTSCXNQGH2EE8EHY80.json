@@ -1,0 +1,58 @@
+{
+  "name": "Mega Computers",
+  "coordinates": {
+    "latitude": 7.681629999999999,
+    "longitude": 81.7280042
+  },
+  "address": "12, Methaipalli Complex, Main St, Kattankudy",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0772348487",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQFTSCXNQGH2EE8EHY80"
+}

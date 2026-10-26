@@ -1,0 +1,62 @@
+{
+  "name": "Soup Shop (Poonochchimunai)",
+  "coordinates": {
+    "latitude": 7.6956663,
+    "longitude": 81.727887
+  },
+  "address": "MPWH+756, Kattankudy 30100",
+  "categories": [
+    "Soup shop"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12 AM–12 PM",
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12 AM–12 PM",
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12 AM–12 PM",
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12 AM–12 PM",
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12 AM–12 PM",
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQY05AH1A9FJR5YXX5FY"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Anand yoga studio",
+  "coordinates": {
+    "latitude": 7.726772599999999,
+    "longitude": 81.7003916
+  },
+  "address": "Sinna Uppodai Rd, Batticaloa",
+  "categories": [
+    "Yoga instructor"
+  ],
+  "phone": "0773545972",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–7:30 AM",
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–7:30 AM",
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–7:30 AM",
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–7:30 AM",
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–7:30 AM",
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–7:30 AM",
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30–7:30 AM",
+        "6–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRB61GANMD2QQ9DJTB4B"
+}

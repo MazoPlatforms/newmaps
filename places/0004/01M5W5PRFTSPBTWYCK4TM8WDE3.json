@@ -1,0 +1,58 @@
+{
+  "name": "Royal Travels & Tours",
+  "coordinates": {
+    "latitude": 7.676214399999999,
+    "longitude": 81.7313123
+  },
+  "address": "197 Main St, Kattankudy 02",
+  "categories": [
+    "Airline ticket agency"
+  ],
+  "phone": "0779083344",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRFTSPBTWYCK4TM8WDE3"
+}

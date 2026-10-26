@@ -1,0 +1,59 @@
+{
+  "name": "RS City Market",
+  "coordinates": {
+    "latitude": 7.7083355,
+    "longitude": 81.6886103
+  },
+  "address": "103, 11 Hospital Rd, Batticaloa",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0654321823",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "website": "http://www.rscitymarket.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQW6HWMVM069FG9W6CAN"
+}

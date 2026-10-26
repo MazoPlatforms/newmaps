@@ -1,0 +1,58 @@
+{
+  "name": "BlendBazaar",
+  "coordinates": {
+    "latitude": 7.6811709,
+    "longitude": 81.72221569999999
+  },
+  "address": "No 128 Old Kalmunai Street, Kattankudy 30100",
+  "categories": [
+    "Clothes market"
+  ],
+  "phone": "0757986635",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQVS6ZNSTH9V5XMTY7JF"
+}

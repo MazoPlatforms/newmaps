@@ -1,0 +1,58 @@
+{
+  "name": "Azeef Fancy",
+  "coordinates": {
+    "latitude": 7.713068,
+    "longitude": 81.69823219999999
+  },
+  "address": "89 Main Street, Batticaloa 30000",
+  "categories": [
+    "Cosmetics store"
+  ],
+  "phone": "0759696650",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQQH9EMMXD7WJ24NB8N0"
+}

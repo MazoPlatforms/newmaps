@@ -1,0 +1,58 @@
+{
+  "name": "Lanka Hardware Stores",
+  "coordinates": {
+    "latitude": 7.7133623,
+    "longitude": 81.6986472
+  },
+  "address": "No 60, Bazar Street, Batticaloa",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0777251244",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQT527K27HGHJ82A5S3K"
+}

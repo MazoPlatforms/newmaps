@@ -1,0 +1,59 @@
+{
+  "name": "HUTHA Elc CONNECT",
+  "coordinates": {
+    "latitude": 7.6855932,
+    "longitude": 81.7355065
+  },
+  "address": "06/1,3rd cross, Central Rd, Kattankudy 30100",
+  "categories": [
+    "Electrician",
+    "Plumber"
+  ],
+  "phone": "0775027321",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRG03166350VFNK274AK"
+}

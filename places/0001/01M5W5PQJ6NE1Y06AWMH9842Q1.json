@@ -1,0 +1,58 @@
+{
+  "name": "Sea Breeze cafe",
+  "coordinates": {
+    "latitude": 7.687898,
+    "longitude": 81.7393833
+  },
+  "address": "Marine Dr, Kattankudy 30100",
+  "categories": [
+    "Ice cream shop"
+  ],
+  "phone": "0779794885",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "2–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJ6NE1Y06AWMH9842Q1"
+}

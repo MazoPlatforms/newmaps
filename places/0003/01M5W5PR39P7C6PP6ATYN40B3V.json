@@ -1,0 +1,59 @@
+{
+  "name": "BT/BC/Dharussalam Vidyalayam",
+  "coordinates": {
+    "latitude": 7.6768974,
+    "longitude": 81.7441891
+  },
+  "address": "Kattankudy 30100",
+  "categories": [
+    "Primary school"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:15 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:15 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:15 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:15 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:15 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "school_census_no": 14453,
+  "name_source": "https://dmb.moe.gov.lk/2024/01/01_PDF/Tbl20240106.pdf",
+  "id": "01M5W5PR39P7C6PP6ATYN40B3V"
+}

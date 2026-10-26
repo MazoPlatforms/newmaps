@@ -1,0 +1,65 @@
+{
+  "name": "Soull Kitchen",
+  "coordinates": {
+    "latitude": 7.717529799999999,
+    "longitude": 81.7185422
+  },
+  "address": "Saravana Rd, Batticaloa",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0652054235",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–2 PM",
+        "6–10:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–2 PM",
+        "6–10:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–2 PM",
+        "6–10:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–2 PM",
+        "6–10:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–2 PM",
+        "6–10:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–2 PM",
+        "6–10:45 PM"
+      ]
+    }
+  ],
+  "website": "https://m.facebook.com/Soullkitchen.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQJEYPT68ZD75VTG9ZVZ"
+}

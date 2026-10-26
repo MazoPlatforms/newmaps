@@ -1,0 +1,58 @@
+{
+  "name": "Queens Tailor",
+  "coordinates": {
+    "latitude": 7.676571399999999,
+    "longitude": 81.731236
+  },
+  "address": "217 Main St, Kattankudy",
+  "categories": [
+    "Tailor"
+  ],
+  "phone": "0779900411",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRF4K4MCCSAE9PJB4Y0F"
+}

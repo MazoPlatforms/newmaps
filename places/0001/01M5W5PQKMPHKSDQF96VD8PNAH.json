@@ -1,0 +1,58 @@
+{
+  "name": "PC Town Hikvision Showroom",
+  "coordinates": {
+    "latitude": 7.675488799999999,
+    "longitude": 81.7316505
+  },
+  "address": "Main St, Kattankudy",
+  "categories": [
+    "Camera store"
+  ],
+  "phone": "0772249389",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQKMPHKSDQF96VD8PNAH"
+}

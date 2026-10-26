@@ -1,0 +1,57 @@
+{
+  "name": "MOH Office Kattankudy",
+  "coordinates": {
+    "latitude": 7.6835856,
+    "longitude": 81.73076739999999
+  },
+  "address": "MOH Office - Kathankudy, Kattankudy",
+  "categories": [
+    "Public health department"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQSKB77PAD9VBFNB64JB"
+}

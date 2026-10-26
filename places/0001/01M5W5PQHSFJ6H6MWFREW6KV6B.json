@@ -1,0 +1,58 @@
+{
+  "name": "Homey Brownies",
+  "coordinates": {
+    "latitude": 7.6744344,
+    "longitude": 81.72775519999999
+  },
+  "address": "No:22 keny lane, Kattankudy 30100",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0751882020",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHSFJ6H6MWFREW6KV6B"
+}

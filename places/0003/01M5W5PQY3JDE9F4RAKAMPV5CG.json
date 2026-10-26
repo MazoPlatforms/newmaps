@@ -1,0 +1,58 @@
+{
+  "name": "Six Flav Kitchen",
+  "coordinates": {
+    "latitude": 7.7163279,
+    "longitude": 81.6974621
+  },
+  "address": "Lloyd's Ave, Batticaloa 30000",
+  "categories": [
+    "Eclectic restaurant"
+  ],
+  "phone": "0753333983",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQY3JDE9F4RAKAMPV5CG"
+}

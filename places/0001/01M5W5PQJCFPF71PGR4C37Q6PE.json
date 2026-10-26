@@ -1,0 +1,58 @@
+{
+  "name": "First Roots Mart",
+  "coordinates": {
+    "latitude": 7.6740601999999996,
+    "longitude": 81.7259199
+  },
+  "address": "MPFG+J9F, B337, Kattankudy",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777657036",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJCFPF71PGR4C37Q6PE"
+}

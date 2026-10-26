@@ -1,0 +1,59 @@
+{
+  "name": "CSJ Agri",
+  "coordinates": {
+    "latitude": 7.7537104999999995,
+    "longitude": 81.6359288
+  },
+  "address": "Thannamunai, Batticaloa ( Trincomalee Highway, Main street, Mylambaveli",
+  "categories": [
+    "Agricultural service"
+  ],
+  "phone": "0762250017",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12 PM",
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQGSJ8AG1G2Z66RD3VSY"
+}

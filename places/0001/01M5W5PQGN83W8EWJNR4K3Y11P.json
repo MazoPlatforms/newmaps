@@ -1,0 +1,59 @@
+{
+  "name": "Bathuriya Farm House",
+  "coordinates": {
+    "latitude": 7.6890307,
+    "longitude": 81.7312321
+  },
+  "address": "Kattankudy",
+  "categories": [
+    "Animal feed store"
+  ],
+  "phone": "0779679586",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11:30 AM",
+        "4–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQGN83W8EWJNR4K3Y11P"
+}

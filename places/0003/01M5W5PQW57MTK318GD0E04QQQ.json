@@ -1,0 +1,57 @@
+{
+  "name": "Batticaloa Public Market",
+  "coordinates": {
+    "latitude": 7.7156305,
+    "longitude": 81.6997465
+  },
+  "address": "10, Pansala, Batticaloa",
+  "categories": [
+    "Market"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQW57MTK318GD0E04QQQ"
+}

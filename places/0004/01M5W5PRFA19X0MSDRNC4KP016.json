@@ -1,0 +1,58 @@
+{
+  "name": "J.M Transport",
+  "coordinates": {
+    "latitude": 7.678456,
+    "longitude": 81.7326044
+  },
+  "address": "Am, 11 Amanullah Rd., kattankudy~6",
+  "categories": [
+    "Transportation service"
+  ],
+  "phone": "0764675186",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30–11 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30–11 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30–11 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30–11 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30–11 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30–11 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRFA19X0MSDRNC4KP016"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Tip Top Super Mart",
+  "coordinates": {
+    "latitude": 7.6816702999999995,
+    "longitude": 81.7283203
+  },
+  "address": "Main St, Kattankudy",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0652248255",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–10:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "website": "http://www.tiptopsm.com/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQVQR49Z2V4Q3JN46ETZ"
+}

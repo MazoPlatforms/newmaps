@@ -1,0 +1,63 @@
+{
+  "name": "IAF Communication",
+  "coordinates": {
+    "latitude": 7.6851145,
+    "longitude": 81.7260204
+  },
+  "address": "MPPG+2CR, Main St, Kattankudy",
+  "categories": [
+    "Store"
+  ],
+  "phone": "0772407271",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJWSYN7YEQ8Z4J0E52N"
+}

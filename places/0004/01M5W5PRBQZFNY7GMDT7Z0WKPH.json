@@ -1,0 +1,58 @@
+{
+  "name": "Uwais Grocery Store",
+  "coordinates": {
+    "latitude": 7.6783543,
+    "longitude": 81.7235623
+  },
+  "address": "MPHF+8CV, Old Rd, Kattankudy",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0773049089",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRBQZFNY7GMDT7Z0WKPH"
+}

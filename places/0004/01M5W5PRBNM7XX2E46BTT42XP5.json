@@ -1,0 +1,58 @@
+{
+  "name": "Mbm Super Mart",
+  "coordinates": {
+    "latitude": 7.6805447,
+    "longitude": 81.7297854
+  },
+  "address": "MPJH+6W7, Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0778103717",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRBNM7XX2E46BTT42XP5"
+}

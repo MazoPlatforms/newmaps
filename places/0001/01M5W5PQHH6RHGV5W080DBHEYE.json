@@ -1,0 +1,58 @@
+{
+  "name": "Shapi kids&house",
+  "coordinates": {
+    "latitude": 7.6083938,
+    "longitude": 81.7122978
+  },
+  "address": "Kokkaddicholai, Batticaloa",
+  "categories": [
+    "Baby store"
+  ],
+  "phone": "0766645679",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHH6RHGV5W080DBHEYE"
+}

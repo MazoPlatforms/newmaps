@@ -1,0 +1,59 @@
+{
+  "name": "MK Xpress - Batticaloa",
+  "coordinates": {
+    "latitude": 7.7176686,
+    "longitude": 81.6989469
+  },
+  "address": "250 Trinco Rd, Batticaloa",
+  "categories": [
+    "Transportation service"
+  ],
+  "phone": "0743922097",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://www.mkxpress.lk/",
+  "business_status": "OPEN",
+  "id": "01M5W5PRFV503QRCYV4VSDYGH5"
+}

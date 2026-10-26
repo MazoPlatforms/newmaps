@@ -1,0 +1,58 @@
+{
+  "name": "IT Maal",
+  "coordinates": {
+    "latitude": 7.6759876,
+    "longitude": 81.7313403
+  },
+  "address": "No:186, Main Street, Kattankudy - 06, 30100",
+  "categories": [
+    "Mobile phone repair shop"
+  ],
+  "phone": "0770600015",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQWH6FZ9JZVFK3CFXBFQ"
+}

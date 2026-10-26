@@ -1,0 +1,58 @@
+{
+  "name": "Emirates Mall",
+  "coordinates": {
+    "latitude": 7.6789473,
+    "longitude": 81.7282381
+  },
+  "address": "MPHH+H7H, Arabic College Rd, Kattankudy 04",
+  "categories": [
+    "Store"
+  ],
+  "phone": "0778172101",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRBYSTNN3V4VGDGVBF8K"
+}

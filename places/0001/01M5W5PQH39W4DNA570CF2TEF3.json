@@ -1,0 +1,57 @@
+{
+  "name": "Commercial Bank ATM",
+  "coordinates": {
+    "latitude": 7.6581765,
+    "longitude": 81.7408174
+  },
+  "address": "Batticaloa",
+  "categories": [
+    "ATM"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQH39W4DNA570CF2TEF3"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Nehemiya Rent A Car",
+  "coordinates": {
+    "latitude": 7.6662463,
+    "longitude": 81.7378595
+  },
+  "address": "No. 10, Main Street, 03, Batticaloa 30000",
+  "categories": [
+    "Car rental agency"
+  ],
+  "phone": "0756300992",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "website": "http://www.nehemiyatravels.com/",
+  "business_status": "OPEN",
+  "id": "01M5W5PR0EC8PZN0S29VZF5G8D"
+}

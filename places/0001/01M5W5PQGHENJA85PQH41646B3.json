@@ -1,0 +1,59 @@
+{
+  "name": "Sampath Bank & ATM Kattankudy",
+  "coordinates": {
+    "latitude": 7.6812292,
+    "longitude": 81.72829109999999
+  },
+  "address": "No. 57, 59 Main Street, 03, Kattankudy 30100",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0652247930",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.sampath.lk/en/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQGHENJA85PQH41646B3"
+}

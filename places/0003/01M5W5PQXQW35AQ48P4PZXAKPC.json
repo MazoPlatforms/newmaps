@@ -1,0 +1,58 @@
+{
+  "name": "MoonRose Cafe",
+  "coordinates": {
+    "latitude": 7.6767908,
+    "longitude": 81.73507239999999
+  },
+  "address": "124A Deen Road, Kattankudy 30100",
+  "categories": [
+    "Cafe",
+    "Fast food restaurant"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQXQW35AQ48P4PZXAKPC"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Corner Chicken",
+  "coordinates": {
+    "latitude": 7.6627795999999995,
+    "longitude": 81.7513855
+  },
+  "address": "ARAYAMPATHY PALAMUNAI MAIN STREET 10",
+  "categories": [
+    "Poultry farm"
+  ],
+  "phone": "0757647188",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQGTYTABA0T1M58RQXA9"
+}

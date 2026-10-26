@@ -1,0 +1,64 @@
+{
+  "name": "Shafeek Shoe Palace",
+  "coordinates": {
+    "latitude": 7.6812216,
+    "longitude": 81.7281802
+  },
+  "address": "MPJH+F7M, Hutha Lane, Kattankudy",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0652248601",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–2 PM",
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQS3AH672CTRKK79XSNF"
+}

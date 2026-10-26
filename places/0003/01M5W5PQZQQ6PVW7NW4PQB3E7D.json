@@ -1,0 +1,58 @@
+{
+  "name": "Champion Gym",
+  "coordinates": {
+    "latitude": 7.6858021999999995,
+    "longitude": 81.7270054
+  },
+  "address": "MPPG+8RC, Telecom Rd, Kattankudy",
+  "categories": [
+    "Gym"
+  ],
+  "phone": "0770063177",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQZQQ6PVW7NW4PQB3E7D"
+}

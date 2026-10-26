@@ -1,0 +1,58 @@
+{
+  "name": "Lotus Academy",
+  "coordinates": {
+    "latitude": 7.6856732,
+    "longitude": 81.7384928
+  },
+  "address": "391/2, Beach Road, New Kattankudy 03, Kattankudy 30100",
+  "categories": [
+    "Coaching center"
+  ],
+  "phone": "0757091610",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQN1F0Q22W0ZWB69R8CB"
+}

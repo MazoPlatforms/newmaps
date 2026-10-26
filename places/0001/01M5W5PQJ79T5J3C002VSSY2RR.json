@@ -1,0 +1,58 @@
+{
+  "name": "Ghafoor's Restaurant",
+  "coordinates": {
+    "latitude": 7.6817585,
+    "longitude": 81.7267617
+  },
+  "address": "MPJG+PP2, Kattankudy",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0771300467",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJ79T5J3C002VSSY2RR"
+}

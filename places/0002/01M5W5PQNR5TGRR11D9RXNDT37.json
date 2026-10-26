@@ -1,0 +1,58 @@
+{
+  "name": "Ritha International Pre School",
+  "coordinates": {
+    "latitude": 7.6755948,
+    "longitude": 81.7246602
+  },
+  "address": "8/3 A, Mahmood Poodiyar Lane, Kattankudy 30100",
+  "categories": [
+    "Preschool"
+  ],
+  "phone": "0772275133",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQNR5TGRR11D9RXNDT37"
+}

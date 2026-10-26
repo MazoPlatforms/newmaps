@@ -1,0 +1,64 @@
+{
+  "name": "AAA Pharmacy",
+  "coordinates": {
+    "latitude": 7.6817834,
+    "longitude": 81.732653
+  },
+  "address": "188, Beach Road, 06, Kattankudy 30100",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0652248290",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQXHHDA3CWGGVG8NJ0H7"
+}

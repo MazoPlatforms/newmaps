@@ -1,0 +1,58 @@
+{
+  "name": "Alpha Gardens",
+  "coordinates": {
+    "latitude": 7.6484729,
+    "longitude": 81.7389639
+  },
+  "address": "Sri Madhurapuram Road, Ollikulam 30150",
+  "categories": [
+    "Agricultural service"
+  ],
+  "phone": "0766648885",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQGWTDQCMYCP54BJA4X8"
+}

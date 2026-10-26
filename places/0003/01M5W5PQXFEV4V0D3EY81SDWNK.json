@@ -1,0 +1,59 @@
+{
+  "name": "Boots Pharmacy",
+  "coordinates": {
+    "latitude": 7.681248699999999,
+    "longitude": 81.72848599999999
+  },
+  "address": "MPJH+JFH, 66 Main St, Kattankudy",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0775025874",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11:30 AM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQXFEV4V0D3EY81SDWNK"
+}

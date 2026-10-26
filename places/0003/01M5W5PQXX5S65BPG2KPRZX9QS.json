@@ -1,0 +1,58 @@
+{
+  "name": "Kathir Restaurant & Banquet Hall",
+  "coordinates": {
+    "latitude": 7.7143231,
+    "longitude": 81.7101371
+  },
+  "address": "176 Kallady Bridge, Batticaloa 30000",
+  "categories": [
+    "Family restaurant"
+  ],
+  "phone": "0772829829",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQXX5S65BPG2KPRZX9QS"
+}

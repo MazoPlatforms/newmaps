@@ -1,0 +1,58 @@
+{
+  "name": "Copy Hub",
+  "coordinates": {
+    "latitude": 7.6940401,
+    "longitude": 81.7228677
+  },
+  "address": "No.360, East 30000",
+  "categories": [
+    "Smart shop"
+  ],
+  "phone": "0706787668",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PR0FFKQFQHZVCFWQ4TS9"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Twin Stall",
+  "coordinates": {
+    "latitude": 7.684121599999999,
+    "longitude": 81.74166439999999
+  },
+  "address": "Marine Dr, Kattankudy 30100",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0757570959",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQJ9E48CB5D1BVXEZ81P"
+}

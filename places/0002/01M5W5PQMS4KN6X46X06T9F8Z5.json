@@ -1,0 +1,60 @@
+{
+  "name": "Bluecourt Furniture",
+  "coordinates": {
+    "latitude": 7.6846939,
+    "longitude": 81.72625699999999
+  },
+  "address": "Main St, Kattankudy 30100",
+  "categories": [
+    "Furniture store",
+    "Electronics company"
+  ],
+  "phone": "0771677467",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    }
+  ],
+  "website": "https://www.facebook.com/share/1DCv9X7sjW/",
+  "business_status": "OPEN",
+  "id": "01M5W5PQMS4KN6X46X06T9F8Z5"
+}

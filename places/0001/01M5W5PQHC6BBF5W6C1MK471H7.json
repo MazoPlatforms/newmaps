@@ -1,0 +1,58 @@
+{
+  "name": "Raswinth Automobile & Servic Station",
+  "coordinates": {
+    "latitude": 7.7514281,
+    "longitude": 81.676018
+  },
+  "address": "22, government housing scheme, Thiraimadu School Rd, Batticaloa",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0775020043",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHC6BBF5W6C1MK471H7"
+}

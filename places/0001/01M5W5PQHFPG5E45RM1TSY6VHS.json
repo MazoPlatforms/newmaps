@@ -1,0 +1,59 @@
+{
+  "name": "The BabyShop Kattankudy",
+  "coordinates": {
+    "latitude": 7.681537199999999,
+    "longitude": 81.7281149
+  },
+  "address": "No 14, Methaipalli Complex, Main St, Kattankudy 30100",
+  "categories": [
+    "Baby store",
+    "Children's store"
+  ],
+  "phone": "0778191491",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQHFPG5E45RM1TSY6VHS"
+}

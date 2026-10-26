@@ -1,0 +1,58 @@
+{
+  "name": "Alu Hub",
+  "coordinates": {
+    "latitude": 7.6865681,
+    "longitude": 81.7253946
+  },
+  "address": "390A, Main Street, 02, Kattankudy 30100",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0777765890",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQSZCBMH3X3HX5RAY1NX"
+}

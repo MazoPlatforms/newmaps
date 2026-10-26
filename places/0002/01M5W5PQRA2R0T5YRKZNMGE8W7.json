@@ -1,0 +1,58 @@
+{
+  "name": "MJ Store",
+  "coordinates": {
+    "latitude": 7.679391099999999,
+    "longitude": 81.72955619999999
+  },
+  "address": "Main St, Kattankudy 30100",
+  "categories": [
+    "Sportswear store"
+  ],
+  "phone": "0777232342",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9–10:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQRA2R0T5YRKZNMGE8W7"
+}

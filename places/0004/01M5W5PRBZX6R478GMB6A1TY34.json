@@ -1,0 +1,58 @@
+{
+  "name": "JRS Super Mart",
+  "coordinates": {
+    "latitude": 7.715751099999999,
+    "longitude": 81.710576
+  },
+  "address": "PP86+864, Colombo - Batticaloa Hwy, Kallady",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0779185650",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PRBZX6R478GMB6A1TY34"
+}

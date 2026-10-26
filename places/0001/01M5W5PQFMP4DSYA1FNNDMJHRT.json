@@ -1,0 +1,58 @@
+{
+  "name": "Watch Point",
+  "coordinates": {
+    "latitude": 7.6823665,
+    "longitude": 81.72762449999999
+  },
+  "address": "Main St, Kattankudy 30100",
+  "categories": [
+    "Watch store"
+  ],
+  "phone": "0779670999",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–9:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQFMP4DSYA1FNNDMJHRT"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Foodies Lane",
+  "coordinates": {
+    "latitude": 7.669961799999999,
+    "longitude": 81.7355911
+  },
+  "address": "New kalmunai road, Batticaloa",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0762022341",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M5W5PQXXH9CV0ZTN1WT48ND4"
+}

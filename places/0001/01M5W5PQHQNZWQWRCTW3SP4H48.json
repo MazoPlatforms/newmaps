@@ -1,0 +1,60 @@
+{
+  "name": "Bombay Sweets & Chocolates",
+  "coordinates": {
+    "latitude": 7.682684399999999,
+    "longitude": 81.7339176
+  },
+  "address": "Falah, 04 Mosque Avenue, Kattankudy",
+  "categories": [
+    "Candy store",
+    "Chocolate shop"
+  ],
+  "phone": "0772825868",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    }
+  ],
+  "website": "https://kky.app/bombay-sweets-chocolates",
+  "business_status": "OPEN",
+  "id": "01M5W5PQHQNZWQWRCTW3SP4H48"
+}
