@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "source": "Initial manually curated city label seed; coordinates approximate, expand via verified geographic data",
+  "cities": [
+    {
+      "name": "Kattankudy",
+      "coordinates": {
+        "latitude": 7.685,
+        "longitude": 81.729
+      },
+      "level": "town"
+    },
+    {
+      "name": "Batticaloa",
+      "coordinates": {
+        "latitude": 7.717,
+        "longitude": 81.7
+      },
+      "level": "city"
+    },
+    {
+      "name": "Colombo",
+      "coordinates": {
+        "latitude": 6.9271,
+        "longitude": 79.8612
+      },
+      "level": "city"
+    },
+    {
+      "name": "Kandy",
+      "coordinates": {
+        "latitude": 7.2906,
+        "longitude": 80.6337
+      },
+      "level": "city"
+    },
+    {
+      "name": "Jaffna",
+      "coordinates": {
+        "latitude": 9.6615,
+        "longitude": 80.0255
+      },
+      "level": "city"
+    },
+    {
+      "name": "Galle",
+      "coordinates": {
+        "latitude": 6.0535,
+        "longitude": 80.221
+      },
+      "level": "city"
+    },
+    {
+      "name": "Trincomalee",
+      "coordinates": {
+        "latitude": 8.5874,
+        "longitude": 81.2152
+      },
+      "level": "city"
+    },
+    {
+      "name": "Negombo",
+      "coordinates": {
+        "latitude": 7.2083,
+        "longitude": 79.8358
+      },
+      "level": "city"
+    },
+    {
+      "name": "Kalmunai",
+      "coordinates": {
+        "latitude": 7.4167,
+        "longitude": 81.8167
+      },
+      "level": "city"
+    }
+  ]
+}
