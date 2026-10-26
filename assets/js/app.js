@@ -4,30 +4,41 @@ const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https:/
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const map=new maplibregl.Map({container:'map',style:styles[theme()],center:[81.729,7.685],zoom:14,minZoom:12,maxBounds:[[81.685,7.635],[81.785,7.735]]});
 map.addControl(new maplibregl.NavigationControl(),'bottom-right');
-const datasets=['places.json','bakery.json','supermarket.json','halls.json','banks.json','mosque.json','textiles.json'];
+const datasets=['places.json','bakery.json','supermarket.json','halls.json','banks.json','mosque.json','textiles.json','cafe.json','gym.json','jewelry.json','schools.json','stationery.json'];
 let places=[],category='all',roadsVisible=true,placesVisible=true;
 const KATTANKUDY=[81.70,7.65,81.77,7.72];
 const inArea=p=>+p.coordinates.longitude>=KATTANKUDY[0]&&+p.coordinates.longitude<=KATTANKUDY[2]&&+p.coordinates.latitude>=KATTANKUDY[1]&&+p.coordinates.latitude<=KATTANKUDY[3];
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function kind(p){const c=(p.categories||[]).join(' ').toLowerCase();if(/bakery|restaurant|cafe|food|hotel & bakery/.test(c))return 'food';if(/hotel|lodg|hall|banquet/.test(c))return 'hotel';if(/mosque|worship|masjid/.test(c))return 'worship';if(/hospital|clinic|pharmacy|medical/.test(c))return 'health';if(/park|nature/.test(c))return 'park';return 'shop'}
-const artwork={food:['#b87353','M7 3v7m3-7v7M5 7h7v3a3 3 0 0 1-3 3v8m9-18v18m0-18c-4 3-4 8 0 8'],health:['#b5666c','M10 4h4v6h6v4h-6v6h-4v-6H4v-4h6Z'],shop:['#6d81aa','M5 8h14l1 12H4ZM9 8V6a3 3 0 0 1 6 0v2'],hotel:['#8c76a6','M3 19V6m0 9h18v4m-12-8h9a3 3 0 0 1 3 3v1M6 9h3v4H6Z'],park:['#628c6e','M12 3L5 12h4l-5 5h16l-5-5h4ZM12 17v4'],worship:['#967c9c','M4 20h16M6 20V9l6-5 6 5v11M10 20v-6h4v6m-2-16V1']};
+function kind(p){const c=(p.categories||[]).join(' ').toLowerCase();if(/gym|fitness/.test(c))return 'gym';if(/jewel|goldsmith/.test(c))return 'jewelry';if(/school|education|college|tuition|learning/.test(c))return 'school';if(/stationery|print shop|bookstore/.test(c))return 'stationery';if(/cafe|coffee|ice cream|tea shop/.test(c))return 'cafe';if(/bakery|restaurant|food|hotel & bakery/.test(c))return 'food';if(/hotel|lodg|hall|banquet/.test(c))return 'hotel';if(/mosque|worship|masjid/.test(c))return 'worship';if(/hospital|clinic|pharmacy|medical/.test(c))return 'health';if(/park|nature/.test(c))return 'park';return 'shop'}
+const artwork={food:['#b87353','M7 3v7m3-7v7M5 7h7v3a3 3 0 0 1-3 3v8m9-18v18m0-18c-4 3-4 8 0 8'],health:['#b5666c','M10 4h4v6h6v4h-6v6h-4v-6H4v-4h6Z'],shop:['#6d81aa','M5 8h14l1 12H4ZM9 8V6a3 3 0 0 1 6 0v2'],hotel:['#8c76a6','M3 19V6m0 9h18v4m-12-8h9a3 3 0 0 1 3 3v1M6 9h3v4H6Z'],park:['#628c6e','M12 3L5 12h4l-5 5h16l-5-5h4ZM12 17v4'],gym:['#538a8c',''],jewelry:['#a67b41',''],school:['#4e7fba',''],stationery:['#6e8791',''],cafe:['#b87353',''],worship:['#967c9c','M4 20h16M6 20V9l6-5 6 5v11M10 20v-6h4v6m-2-16V1']};
 const POI_SOURCE='mazo-pois';
 const POI_LAYER='mazo-poi-symbols';
 function priority(p){const k=kind(p);return ({health:1,worship:2,shop:3,food:4,hotel:5,park:6})[k]||7}
 function iconFor(k){return 'mazo-'+k}
 function registerIcons(){
+ const paths={
+ food:'M23 21v18m-6-18v10m6-10v10m-6 0h6m13-10v18m0-18c-7 5-7 11 0 11',
+ cafe:'M16 24h19v9a9 9 0 0 1-18 0v-9m18 2h4a4 4 0 0 1-4 8M16 40h20',
+ health:'M24 20h8v8h8v8h-8v8h-8v-8h-8v-8h8z',
+ shop:'M17 25h22l-2 17H19zm5 0v-4a6 6 0 0 1 12 0v4',
+ hotel:'M16 40V24m0 11h24v5m-18-10h14a4 4 0 0 1 4 4v1',
+ park:'M28 18l-12 18h7l-4 5h18l-4-5h7zM28 41v5',
+ worship:'M15 42h26M19 42V27l9-8 9 8v15M25 42v-9h6v9',
+ gym:'M16 27v12m4-16v20m16-20v20m4-16v12M20 33h16',
+ jewelry:'M16 27l7-8h10l7 8-12 17zM16 27h24M23 19l5 8 5-8M28 27v17',
+ school:'M14 26l14-7 14 7-14 7zM20 30v9q8 6 16 0v-9M42 27v12',
+ stationery:'M18 38l2-8 17-17 7 7-17 17zM20 30l7 7M17 43h25'
+ };
  for(const [kind,[color]] of Object.entries(artwork)){
   const id=iconFor(kind);if(map.hasImage(id))continue;
   const canvas=document.createElement('canvas');canvas.width=64;canvas.height=80;
   const ctx=canvas.getContext('2d');
-  ctx.beginPath();ctx.moveTo(32,77);
-  ctx.bezierCurveTo(25,65,9,49,9,31);
-  ctx.arc(32,31,23,Math.PI,0);
-  ctx.bezierCurveTo(55,49,39,65,32,77);ctx.closePath();
+  ctx.beginPath();ctx.moveTo(32,77);ctx.bezierCurveTo(25,65,9,49,9,31);
+  ctx.arc(32,31,23,Math.PI,0);ctx.bezierCurveTo(55,49,39,65,32,77);ctx.closePath();
   ctx.fillStyle=color;ctx.fill();ctx.lineWidth=4;ctx.strokeStyle='#fff';ctx.stroke();
-  ctx.beginPath();ctx.arc(32,31,15,0,Math.PI*2);ctx.fillStyle='#fff';ctx.fill();
-  ctx.font='bold 20px sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle=color;
-  ctx.fillText(({food:'F',health:'+',shop:'S',hotel:'H',park:'P',worship:'W'})[kind],32,32);
+  ctx.save();ctx.translate(4,3);ctx.scale(0.86,0.86);
+  ctx.strokeStyle='#fff';ctx.lineWidth=3;ctx.lineJoin='round';ctx.lineCap='round';
+  ctx.stroke(new Path2D(paths[kind]||paths.shop));ctx.restore();
   map.addImage(id,ctx.getImageData(0,0,64,80),{pixelRatio:2});
  }
 }
