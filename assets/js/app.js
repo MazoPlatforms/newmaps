@@ -84,7 +84,7 @@ function openPlace(p){
  $('#place-coordinates').textContent=Number(p.coordinates.latitude).toFixed(6)+', '+Number(p.coordinates.longitude).toFixed(6);
  const phone=$('#place-phone');phone.hidden=!p.phone;phone.href=p.phone?'tel:'+String(p.phone).replace(/[^+0-9]/g,''):'#';
  const website=$('#place-website');const url=String(p.website||'');website.hidden=!/^https?:\/\//i.test(url);if(!website.hidden)website.href=url;
- $('#place-directions').href='https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(p.coordinates.latitude+','+p.coordinates.longitude);
+
  const hours=$('#place-hours');hours.replaceChildren();
  if(Array.isArray(p.hours)&&p.hours.length){
   const today=new Date().toLocaleDateString('en-US',{weekday:'long'});
@@ -101,6 +101,97 @@ function openPlace(p){
  const c=p.coordinates;map.easeTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16),padding:{bottom:Math.round(window.innerHeight*.25)},duration:400});
 }
 $('#place-close').onclick=closePlace;
+
+/* In-map directions: pickup defaults to device location; map-click override.
+   Public OSRM endpoints are best-effort and need a managed backend for production SLA. */
+const routePanel=$('#route-panel');
+let routeDestination=null,routePickup=null,routeMode='driving',routeAbort=null,routeLine=null,routePickupMarker=null,routeDestinationMarker=null,pickingPickup=false,routeSequence=0;
+const routeStatus=message=>{$('#route-status').textContent=message};
+const routeCoord=c=>c.map(x=>Number(x).toFixed(6)).join(',');
+function routeClear(){
+ if(routeAbort)routeAbort.abort();routeAbort=null;routeSequence++;
+ for(const id of ['mazo-route-line'])if(map.getLayer(id))map.removeLayer(id);
+ if(map.getSource('mazo-route'))map.removeSource('mazo-route');
+ routePickupMarker?.remove();routeDestinationMarker?.remove();
+ routePickupMarker=routeDestinationMarker=null;routeLine=null;
+}
+function routeDraw(){
+ if(!routeLine||!map.getStyle()?.layers)return;
+ if(!map.getSource('mazo-route'))map.addSource('mazo-route',{type:'geojson',data:routeLine});
+ else map.getSource('mazo-route').setData(routeLine);
+ if(!map.getLayer('mazo-route-line'))map.addLayer({id:'mazo-route-line',type:'line',source:'mazo-route',layout:{'line-join':'round','line-cap':'round'},paint:{'line-color':'#2563eb','line-width':6,'line-opacity':0.9}});
+}
+map.on('style.load',()=>{if(!routePanel.hidden)routeDraw()});
+function routeMarkers(){
+ routePickupMarker?.remove();routeDestinationMarker?.remove();
+ if(routePickup)routePickupMarker=new maplibregl.Marker({color:'#16a34a'}).setLngLat(routePickup).addTo(map);
+ if(routeDestination)routeDestinationMarker=new maplibregl.Marker({color:'#dc2626'}).setLngLat(routeDestination).addTo(map);
+}
+function routeLocation(){
+ return new Promise((resolve,reject)=>{
+  if(!navigator.geolocation){reject(Error('Location is unavailable in this browser. Choose pickup on the map.'));return}
+  navigator.geolocation.getCurrentPosition(p=>resolve([p.coords.longitude,p.coords.latitude]),e=>reject(Error(e.code===1?'Location permission denied. Choose pickup on the map.':'Could not determine your location. Choose pickup on the map.')),{enableHighAccuracy:true,timeout:12000,maximumAge:10000});
+ });
+}
+async function routeCalculate(){
+ if(!routePickup||!routeDestination)return;
+ if(routeAbort)routeAbort.abort();const controller=new AbortController();routeAbort=controller;const sequence=++routeSequence;
+ routeStatus('Calculating '+routeMode+' route…');$('#route-summary').textContent='';$('#route-steps').replaceChildren();
+ const profile=routeMode==='walking'?'foot':routeMode==='cycling'?'bike':'driving';
+ // Distinct public OSRM profiles; walking/cycling do not silently fall back to driving.
+ const base=profile==='driving'?'https://router.project-osrm.org/route/v1/driving/':profile==='foot'?'https://routing.openstreetmap.de/routed-foot/route/v1/driving/':'https://routing.openstreetmap.de/routed-bike/route/v1/driving/';
+ const url=base+routeCoord(routePickup)+';'+routeCoord(routeDestination)+'?overview=full&geometries=geojson&steps=true';
+ try{
+  const res=await fetch(url,{signal:controller.signal});
+  if(!res.ok)throw Error('Routing service returned '+res.status);
+  const data=await res.json();if(sequence!==routeSequence)return;
+  const route=data.routes?.[0];if(data.code!=='Ok'||!route?.geometry?.coordinates?.length)throw Error('No connected route found.');
+  routeLine={type:'FeatureCollection',features:[{type:'Feature',properties:{},geometry:route.geometry}]};routeDraw();routeMarkers();
+  const km=(route.distance/1000).toFixed(route.distance<1000?2:1);
+  const mins=Math.max(1,Math.round(route.duration/60));
+  $('#route-summary').textContent=km+' km · about '+mins+' min · '+routeMode;
+  routeStatus('Route ready');
+  const list=$('#route-steps');
+  for(const leg of route.legs||[])for(const step of leg.steps||[]){
+   const li=document.createElement('li');const m=step.maneuver||{};
+   const action=(m.modifier?m.modifier+' ':'')+(m.type||'Continue').replace(/_/g,' ');
+   li.textContent=action+' '+(step.name?'onto '+step.name:'')+' · '+Math.round(step.distance)+' m';list.append(li);
+  }
+  const b=new maplibregl.LngLatBounds();for(const c of route.geometry.coordinates)b.extend(c);
+  map.fitBounds(b,{padding:{top:Math.max(210,Math.round(window.innerHeight*.32)),bottom:70,left:35,right:35},maxZoom:17,duration:550});
+ }catch(e){if(e.name==='AbortError'||sequence!==routeSequence)return;routeStatus('Unable to calculate route: '+e.message+' Try again or select another pickup.');routeLine=null;routeDraw()}
+}
+async function routeOpen(place){
+ closePlace();routePanel.hidden=false;pickingPickup=false;
+ routeClear();routeDestination=[+place.coordinates.longitude,+place.coordinates.latitude];
+ $('#route-destination').value=place.name;$('#route-pickup').value='Locating…';
+ $('#route-summary').textContent='';$('#route-steps').replaceChildren();
+ routeStatus('Requesting your location…');routeMarkers();
+ try{
+  const coords=await routeLocation();if(routePanel.hidden)return;
+  if(!map.getMaxBounds()?.contains(coords)){routeStatus('Your location is outside the current map boundary. Choose a pickup within Kattankudy.');$('#route-pickup').value='Choose pickup on map';return}
+  routePickup=coords;$('#route-pickup').value='My location';await routeCalculate();
+ }catch(e){routeStatus(e.message);$('#route-pickup').value='Choose pickup on map'}
+}
+$('#route-close').onclick=()=>{routePanel.hidden=true;pickingPickup=false;routeClear()};
+$('#route-use-location').onclick=async()=>{
+ pickingPickup=false;routeStatus('Requesting your location…');
+ try{const c=await routeLocation();if(!map.getMaxBounds()?.contains(c))throw Error('Outside Kattankudy map bounds. Choose a pickup on the map.');routePickup=c;$('#route-pickup').value='My location';await routeCalculate()}catch(e){routeStatus(e.message)}
+};
+$('#route-pick-map').onclick=()=>{pickingPickup=true;routeStatus('Tap a road or point on the map to choose pickup.');};
+map.on('click',e=>{
+ if(!pickingPickup||routePanel.hidden)return;
+ pickingPickup=false;routePickup=[e.lngLat.lng,e.lngLat.lat];
+ $('#route-pickup').value=e.lngLat.lat.toFixed(5)+', '+e.lngLat.lng.toFixed(5);
+ routeCalculate();
+});
+document.querySelectorAll('[data-route-mode]').forEach(b=>b.onclick=()=>{
+ routeMode=b.dataset.routeMode;
+ document.querySelectorAll('[data-route-mode]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+ routeCalculate();
+});
+$('#place-directions').onclick=e=>{e.preventDefault();if(selectedPlace)routeOpen(selectedPlace)};
+
 const handle=$('#place-handle');
 handle.addEventListener('pointerdown',e=>{
  if(e.button!==0)return;dragStart=e.clientY;dragDelta=0;
