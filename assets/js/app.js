@@ -1,11 +1,8 @@
-import { Protocol, PMTiles, FetchSource } from 'https://mazoplatforms.github.io/maps/assets/vendor/pmtiles.mjs';
-const pmtilesProtocol=new Protocol();
-maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile);
-// The PMTiles protocol resolves archive URLs from the active style. No archive pre-registration is required.
+// Reliable OpenFreeMap fallback; optional local PMTiles are enabled only after verification.
 const $=s=>document.querySelector(s);
-const styles={light:'./assets/styles/mazo-light.json',dark:'./assets/styles/mazo-dark.json'};
+const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https://tiles.openfreemap.org/styles/dark'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
-const map=new maplibregl.Map({container:'map',style:styles[theme()],center:[80.75,7.75],zoom:6.6});
+const map=new maplibregl.Map({container:'map',style:styles[theme()],center:[81.729,7.685],zoom:14});
 map.addControl(new maplibregl.NavigationControl(),'bottom-right');
 const datasets=['places.json','bakery.json','supermarket.json','halls.json','banks.json','mosque.json','textiles.json'];
 let places=[],category='all',roadsVisible=true,placesVisible=true;
@@ -65,7 +62,7 @@ async function roads(){try{const r=await fetch('./data/roads/kattankudy.json');i
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{ensurePoiLayer()});
+map.on('style.load',()=>{try{for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer()}catch(error){console.error('Map layer initialization:',error)}});
 (async()=>{try{const data=await Promise.all(datasets.map(async f=>{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return r.json()}));const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}ensurePoiLayer();refresh();}catch(e){$('#map-status').textContent='Dataset error: '+e.message}})();
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
 document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{category=b.dataset.category;document.querySelectorAll('[data-category]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));refresh()});
@@ -77,4 +74,5 @@ $('#map-locate').onclick=()=>navigator.geolocation?.getCurrentPosition(p=>map.fl
 $('#map-fullscreen').onclick=()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();
 async function cities(){try{const r=await fetch('./data/cities.json');if(!r.ok)return;const d=await r.json();const features=(d.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)).map(c=>({type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:c.name||'',level:c.level||'city'}}));if(map.getSource('mazo-cities'))return;map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-city-labels',type:'symbol',source:'mazo-cities',layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],5,11,13,17],'text-allow-overlap':false},paint:{'text-color':theme()==='dark'?'#e8edf4':'#27313b','text-halo-color':theme()==='dark'?'#161b22':'#fff','text-halo-width':2}})}catch(e){console.warn('City labels:',e)}}
 
-$('#map-frame').dataset.state='ready';
+map.on('load',()=>{$('#map-frame').dataset.state='ready'});
+map.on('error',event=>console.error('MapLibre:',event.error));
