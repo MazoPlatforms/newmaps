@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "format": "MazoSpeedLimits/1",
+  "source_file": "data/speed-limits/kattankudy.json",
+  "source_sha256": "4639d963319d588fe4006fa0d46854da3cb23ca010570578ce803fc540abbd7d",
+  "source_count": 3710,
+  "source_metadata": {
+    "schema_version": 1,
+    "area": "Kattankudy",
+    "units": "km/h",
+    "source_roads": "data/roads/road-migration-map.json",
+    "legal_basis": {
+      "gazette": "Sri Lanka Gazette Extraordinary 1763/26",
+      "date": "2012-06-22",
+      "regulations": "Motor Traffic (Speed Limits) Regulations No. 1 of 2012",
+      "current_status": "Current applicability and later local restrictions not independently verified",
+      "scheduled_built_up": {
+        "general_motor_vehicles": 50,
+        "land_vehicles_motor_tricycles_motor_tricycle_vans_special_purpose": 40
+      },
+      "non_built_up": {
+        "general_motor_vehicles": 70,
+        "motor_coaches_lorries": 60,
+        "land_vehicles_motor_tricycles_motor_tricycle_vans_special_purpose": 40
+      }
+    },
+    "gazette_scheduled_sections": [
+      {
+        "road_ref": "A04",
+        "town": "Kattankudy",
+        "from_km": 420,
+        "to_km": 422.5,
+        "general_motor_vehicles_kmh": 50,
+        "restricted_vehicle_categories_kmh": 40,
+        "geometry_match": "pending",
+        "source_page": 6
+      }
+    ],
+    "notes": [
+      "The 2012 Gazette identifies A04 km 420.00–422.50 as built-up; matching its chainage to map geometry requires authoritative reference points.",
+      "Other roads are not automatically assigned the 50 km/h built-up limit merely because they are within Kattankudy town.",
+      "For unclassified road segments the 70 km/h non-built-up legal default is only a candidate, not a verified posted limit. Never show it as verified navigation guidance.",
+      "Check later amendments, signs, school zones, temporary restrictions and applicable local regulations before public speed guidance."
+    ]
+  },
+  "records_count": 3710,
+  "mapping_parts": [
+    "speed-limit-migration-map-0001.json",
+    "speed-limit-migration-map-0002.json",
+    "speed-limit-migration-map-0003.json",
+    "speed-limit-migration-map-0004.json"
+  ]
+}

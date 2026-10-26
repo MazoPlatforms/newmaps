@@ -1,7 +1,7 @@
 name: Validate Mazo Places
 on:
   pull_request:
-    paths: ['data/places/**', 'data/roads/**', '*.json', 'scripts/**', 'tests/**', 'data/place.schema.json', 'data/road.schema.json', 'assets/js/app.js', '.github/workflows/**']
+    paths: ['data/places/**', 'data/roads/**', 'data/speed-limits/**', 'data/speed-limit.schema.json', '*.json', 'scripts/**', 'tests/**', 'data/place.schema.json', 'data/road.schema.json', 'assets/js/app.js', '.github/workflows/**']
   push:
     branches: [main]
 permissions:
@@ -17,5 +17,7 @@ jobs:
       - run: python scripts/places.py build
       - run: python scripts/roads.py validate
       - run: python scripts/roads.py build
+      - run: python scripts/speed_limits.py validate
+      - run: python scripts/speed_limits.py build
       - run: python -m unittest discover -s tests -v
       - run: node --check assets/js/app.js

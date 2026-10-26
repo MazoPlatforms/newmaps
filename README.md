@@ -25,3 +25,10 @@ Migration artifacts `migration-record-map.json` and `migration-exclusions.json` 
 ## Rollback
 
 Revert the migration pull request to restore the prior app and data layout, then allow the Pages workflow to deploy the reverted tree. Generated MZP files are build artifacts and do not need commits.
+
+
+## Speed-limit records
+
+Speed-limit records live in `data/speed-limits/<shard>/<ULID>.json`, with at most 999 records per sequential shard. Their original `road_id` and `source_id` are preserved; `road_ref` resolves only through the explicit Roads migration map. A missing posted speed remains `null`; the 70 km/h field is a legal-default candidate and all imported records remain unverified. The source Gazette notes and caveats are retained in the speed-limit migration manifest.
+
+Run `python scripts/speed_limits.py migrate` for an idempotent source migration, `python scripts/speed_limits.py add <record.json>` to allocate a contributor record, `python scripts/speed_limits.py validate` to check source preservation and road references, and `python scripts/speed_limits.py build` to generate `generated/kattankudy-speed-limits.mzp` and its checksum manifest. The MZP is a GeoJSON FeatureCollection and uses linked road LineStrings only where the explicit road reference resolves. Invalid geometries remain in the individual records and are listed in the manifest. The pre-migration source is preserved on `archive/pre-ulid-speed-limits-migration`.
