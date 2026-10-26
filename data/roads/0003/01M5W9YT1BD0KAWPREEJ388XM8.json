@@ -16,5 +16,29 @@
       81.7321433,
       7.6886743
     ]
-  ]
+  ],
+  "supplementary_maxspeed_evidence": {
+    "source": "kattankudy-all-roads.json",
+    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+    "osm_id": "404856295",
+    "maxspeed": "20",
+    "maxspeed_unit": null,
+    "maxspeed_status": "unverified_source_tag",
+    "source_tags": {
+      "highway": "residential",
+      "maxspeed": "20",
+      "name": "RDS Lane",
+      "surface": "asphalt"
+    },
+    "highway": "residential",
+    "name": "RDS Lane",
+    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
+    "match_evidence": {
+      "status": "matched",
+      "road_source_id": "c658a62c-a652-4f28-9b09-6385ace22070:0",
+      "geometry_coverage_8m": 1.0,
+      "nearest_road_share": 1.0,
+      "runner_up_margin": 1.0
+    }
+  }
 }

@@ -351,7 +351,7 @@ def validate(repository_root=ROOT):
         actual = path_by_id.get(identifier)
         if actual is None or actual != expected_path:
             raise ValueError(f"Mapping path mismatch for {source_id}")
-        reconstructed = {"id": source_id, **{k: v for k, v in record.items() if k not in {"id", "source_id"}}}
+        reconstructed = {"id": source_id, **{k: v for k, v in record.items() if k not in {"id", "source_id", "supplementary_maxspeed_evidence"}}}
         if record_hash(reconstructed) != row.get("source_record_sha256"):
             raise ValueError(f"Source field checksum mismatch for {source_id}")
 
@@ -371,7 +371,7 @@ def validate(repository_root=ROOT):
             road = by_source.get(original["id"])
             if not road:
                 raise ValueError(f"Source road missing after migration: {original['id']}")
-            reconstructed = {"id": road["source_id"], **{k: v for k, v in road.items() if k not in {"id", "source_id"}}}
+            reconstructed = {"id": road["source_id"], **{k: v for k, v in road.items() if k not in {"id", "source_id", "supplementary_maxspeed_evidence"}}}
             if reconstructed != original:
                 raise ValueError(f"Field-by-field source mismatch for {original['id']}")
     names = [p.name for p in shard_dirs(road_root)]
@@ -417,6 +417,13 @@ def build(repository_root=ROOT, output_dir=None):
         "bytes": len(body),
         "sha256": hashlib.sha256(body).hexdigest(),
     }
+    audit_path = road_root / "supplementary-road-audit.json"
+    if audit_path.exists():
+        audit = json.loads(audit_path.read_text(encoding="utf-8"))
+        manifest["supplementary_roads"] = {"source_file": audit["source_file"], "source_sha256": audit["source_sha256"],
+            "source_records": audit["source_records"], "source_records_with_maxspeed": audit["source_records_with_maxspeed"],
+            "matched_roads": audit["matched_roads"], "tagged_matches": audit["tagged_matches"],
+            "new_roads_added": audit["new_roads_added"], "audit": "data/roads/supplementary-road-audit.json"}
     (target_dir / "kattankudy-roads-manifest.json").write_bytes(json_bytes(manifest, pretty=True))
     print(json.dumps({"features": len(features), "excluded": len(exclusions), "bytes": len(body), "sha256": manifest["sha256"], "shards": counts}, indent=2))
     return manifest

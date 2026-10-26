@@ -35,7 +35,7 @@ class RoadTests(unittest.TestCase):
         mapping = roads.read_mapping()
         for row in mapping["records"]:
             record = by_source[row["source_id"]]
-            reconstructed = {"id": record["source_id"], **{k: v for k, v in record.items() if k not in {"id", "source_id"}}}
+            reconstructed = {"id": record["source_id"], **{k: v for k, v in record.items() if k not in {"id", "source_id", "supplementary_maxspeed_evidence"}}}
             self.assertEqual(roads.record_hash(reconstructed), row["source_record_sha256"])
             self.assertEqual(record["source_id"], row["source_id"])
 

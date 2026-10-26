@@ -40,5 +40,28 @@
       81.7176607,
       7.7117582
     ]
-  ]
+  ],
+  "supplementary_maxspeed_evidence": {
+    "source": "kattankudy-all-roads.json",
+    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+    "osm_id": "177966310",
+    "maxspeed": "30",
+    "maxspeed_unit": null,
+    "maxspeed_status": "unverified_source_tag",
+    "source_tags": {
+      "highway": "residential",
+      "maxspeed": "30",
+      "name": "9th Cross Street"
+    },
+    "highway": "residential",
+    "name": "9th Cross Street",
+    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
+    "match_evidence": {
+      "status": "matched",
+      "road_source_id": "c4eecb97-a338-47c9-b7e5-81b38b70fec0:0",
+      "geometry_coverage_8m": 1.0,
+      "nearest_road_share": 0.484,
+      "runner_up_margin": 0.32299999999999995
+    }
+  }
 }

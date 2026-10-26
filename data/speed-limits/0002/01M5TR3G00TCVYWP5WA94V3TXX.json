@@ -9,5 +9,39 @@
   "legal_default_candidate_kmh": 70,
   "speed_limit_kmh": null,
   "verification_status": "unverified",
-  "source": "2012-gazette-rule-3-candidate"
+  "source": "2012-gazette-rule-3-candidate",
+  "supplementary_maxspeed_evidence": {
+    "source": "kattankudy-all-roads.json",
+    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+    "osm_id": "228470728",
+    "maxspeed": "60",
+    "maxspeed_unit": null,
+    "maxspeed_status": "unverified_source_tag",
+    "source_tags": {
+      "access": "yes",
+      "description": "Road declared in Gazette 06-06-1989 as A4 Colombo-Ratnapura-Wellawaya-Batticaloa Road. Starts at Colombo CTO RB; runs via Avissawella, Ratnapura, Wellawaya to Batticaloa. No one may alter this trace unless redefined and issued in a new Gazette.",
+      "highway": "trunk",
+      "lanes": "2",
+      "maxspeed": "60",
+      "motor_vehicle": "yes",
+      "name": "New Kalmunai Road",
+      "nat_name": "Colombo-Ratnapura-Wellawaya-Batticaloa Road",
+      "network": "SL:national",
+      "official_name": "New Kalmunai Road",
+      "oneway": "yes",
+      "operator": "Road Development Authority",
+      "ref": "A4",
+      "surface": "asphalt"
+    },
+    "highway": "trunk",
+    "name": "New Kalmunai Road",
+    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
+    "match_evidence": {
+      "status": "matched",
+      "road_source_id": "8338dc74-1042-4a4c-aa8e-3092c5a05c5c:0",
+      "geometry_coverage_8m": 1.0,
+      "nearest_road_share": 0.909,
+      "runner_up_margin": 0.8180000000000001
+    }
+  }
 }

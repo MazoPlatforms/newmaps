@@ -191,7 +191,7 @@ def migrate(repository_root=ROOT, source_path=None):
             if old:
                 path = repository_root / old["path"]
                 record = json.loads(path.read_text(encoding="utf-8"))
-                expected = {k: v for k, v in record.items() if k not in {"id", "source_id", "road_ref"}}
+                expected = {k: v for k, v in record.items() if k not in {"id", "source_id", "road_ref", "supplementary_maxspeed_evidence"}}
                 if old["id"] != record.get("id") or expected != original or record.get("road_ref") != road_row["id"]:
                     raise ValueError(f"Existing migrated record differs from source: {source_id}")
                 continue
@@ -289,7 +289,7 @@ def source_compare(records, mapping, root=ROOT):
         raise ValueError("A baseline source record is missing from migrated speed-limit records")
     for source_id, original in originals.items():
         record = by_source[source_id]
-        restored = {k: v for k, v in record.items() if k not in {"id", "source_id", "road_ref"}}
+        restored = {k: v for k, v in record.items() if k not in {"id", "source_id", "road_ref", "supplementary_maxspeed_evidence"}}
         if restored != original:
             raise ValueError(f"Field-by-field source mismatch for {source_id}")
     return {"sha256": hashlib.sha256(raw).hexdigest(), "bytes": len(raw), "records": len(originals)}
@@ -354,7 +354,7 @@ def validate(repository_root=ROOT):
             raise ValueError(f"Invalid speed-limit mapping path: {row['path']}")
         if not expected_path.is_file() or json.loads(expected_path.read_text()) != by_id[row["id"]]:
             raise ValueError(f"Speed-limit mapping path/content mismatch: {row['source_id']}")
-        original = {k: v for k, v in record.items() if k not in {"id", "source_id", "road_ref"}}
+        original = {k: v for k, v in record.items() if k not in {"id", "source_id", "road_ref", "supplementary_maxspeed_evidence"}}
         if record_hash(original) != row.get("source_record_sha256"):
             raise ValueError(f"Speed-limit source field checksum mismatch: {row['source_id']}")
     source_status = source_compare(records, mapping, repository_root)
@@ -444,6 +444,16 @@ def build(repository_root=ROOT, output_dir=None):
         "mzp_json_parse_ms": mzp_parse_ms,
         "sha256": hashlib.sha256(body).hexdigest(), "build_time_ms": elapsed_ms,
     }
+    audit_path = repository_root / "data/roads/supplementary-road-audit.json"
+    if audit_path.exists():
+        audit = json.loads(audit_path.read_text(encoding="utf-8"))
+        manifest["supplementary_maxspeed_evidence"] = {
+            "source_file": audit["source_file"], "source_sha256": audit["source_sha256"],
+            "source_records": audit["source_records"], "source_records_with_maxspeed": audit["source_records_with_maxspeed"],
+            "matched_roads": audit["matched_roads"], "tagged_matches": audit["tagged_matches"],
+            "classification": "unverified_source_tag", "unit": None,
+            "road_audit": "data/roads/supplementary-road-audit.json"
+        }
     atomic_json(target / "kattankudy-speed-limits-manifest.json", manifest)
     print(json.dumps(manifest, ensure_ascii=False, indent=2))
     return manifest
