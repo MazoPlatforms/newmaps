@@ -248,13 +248,8 @@ $('#route-use-location').onclick=async()=>{
  pickingPickup=false;routeStatus('Requesting your location…');
  try{const c=await routeLocation();if(!map.getMaxBounds()?.contains(c))throw Error('Outside Kattankudy map bounds. Choose a pickup on the map.');routePickup=c;$('#route-pickup').value='My location';await routeCalculate()}catch(e){routeStatus(e.message)}
 };
-$('#route-pick-map').onclick=()=>{routeStatus('Map taps are disabled during directions. Use My location for pickup.');};
-map.on('click',e=>{
- if(routePanel.hidden||!pickingPickup)return;
- pickingPickup=false;routePickup=[e.lngLat.lng,e.lngLat.lat];
- $('#route-pickup').value=e.lngLat.lat.toFixed(5)+', '+e.lngLat.lng.toFixed(5);
- routeCalculate();
-});
+
+
 document.querySelectorAll('[data-route-mode]').forEach(b=>b.onclick=()=>{
  routeMode=b.dataset.routeMode;
  document.querySelectorAll('[data-route-mode]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
