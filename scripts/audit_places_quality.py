@@ -125,6 +125,13 @@ def load_records():
     for path in sorted(PLACES.glob("*/*.json")):
         record = json.loads(path.read_text(encoding="utf-8"))
         records.append((path, record))
+    # Retired source copies remain part of historical quality review through
+    # their durable aliases; they are excluded from active MZP builds.
+    aliases_path = PLACES / "aliases.json"
+    if aliases_path.exists():
+        aliases = json.loads(aliases_path.read_text(encoding="utf-8"))
+        for entry in aliases.get("aliases", {}).values():
+            records.append((ROOT / entry["original_path"], entry["record"]))
     return records, mapping
 
 
