@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "format": "MazoSupplementaryRoadAudit/1",
+  "source_file": "kattankudy-all-roads.json",
+  "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+  "source_records": 2102,
+  "source_records_with_maxspeed": 711,
+  "matched_roads": 1665,
+  "tagged_matches": 462,
+  "new_roads_added": 0,
+  "new_roads_reason": "No unmatched feature could be confirmed as a distinct missing road from the available geometry, class, name, and uniqueness evidence; candidates remain in this review report for topology review.",
+  "matching_thresholds": {
+    "geometry_coverage_8m_min": 0.9,
+    "nearest_share_margin_min": 0.25,
+    "road_class": "exact",
+    "names": "equal when both present",
+    "duplicate_targets": "review"
+  },
+  "shards": {
+    "0001": 999,
+    "0002": 999,
+    "0003": 999,
+    "0004": 713
+  },
+  "records_count": 2102,
+  "mapping_parts": [
+    "supplementary-road-audit-0001.json",
+    "supplementary-road-audit-0002.json",
+    "supplementary-road-audit-0003.json",
+    "supplementary-road-audit-0004.json",
+    "supplementary-road-audit-0005.json",
+    "supplementary-road-audit-0006.json",
+    "supplementary-road-audit-0007.json",
+    "supplementary-road-audit-0008.json",
+    "supplementary-road-audit-0009.json",
+    "supplementary-road-audit-0010.json",
+    "supplementary-road-audit-0011.json",
+    "supplementary-road-audit-0012.json",
+    "supplementary-road-audit-0013.json",
+    "supplementary-road-audit-0014.json",
+    "supplementary-road-audit-0015.json",
+    "supplementary-road-audit-0016.json",
+    "supplementary-road-audit-0017.json",
+    "supplementary-road-audit-0018.json",
+    "supplementary-road-audit-0019.json",
+    "supplementary-road-audit-0020.json",
+    "supplementary-road-audit-0021.json",
+    "supplementary-road-audit-0022.json"
+  ]
+}

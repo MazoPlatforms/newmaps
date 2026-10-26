@@ -40,5 +40,28 @@
       81.7171752,
       7.7060429
     ]
-  ]
+  ],
+  "supplementary_maxspeed_evidence": {
+    "source": "kattankudy-all-roads.json",
+    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+    "osm_id": "177966348",
+    "maxspeed": "30",
+    "maxspeed_unit": null,
+    "maxspeed_status": "unverified_source_tag",
+    "source_tags": {
+      "highway": "residential",
+      "maxspeed": "30",
+      "name": "Vipulananda 3rd Cross Road"
+    },
+    "highway": "residential",
+    "name": "Vipulananda 3rd Cross Road",
+    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
+    "match_evidence": {
+      "status": "matched",
+      "road_source_id": "151ee290-5d94-4199-9f9c-22323c267af9:0",
+      "geometry_coverage_8m": 1.0,
+      "nearest_road_share": 0.683,
+      "runner_up_margin": 0.5640000000000001
+    }
+  }
 }

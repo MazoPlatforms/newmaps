@@ -24,5 +24,29 @@
       81.7260223,
       7.6854091
     ]
-  ]
+  ],
+  "supplementary_maxspeed_evidence": {
+    "source": "kattankudy-all-roads.json",
+    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+    "osm_id": "177966335",
+    "maxspeed": "30",
+    "maxspeed_unit": null,
+    "maxspeed_status": "unverified_source_tag",
+    "source_tags": {
+      "highway": "tertiary",
+      "maxspeed": "30",
+      "name": "Telecom Road",
+      "surface": "asphalt"
+    },
+    "highway": "tertiary",
+    "name": "Telecom Road",
+    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
+    "match_evidence": {
+      "status": "matched",
+      "road_source_id": "2e27d295-1bfc-4fc1-b885-549363a8c2ba:0",
+      "geometry_coverage_8m": 1.0,
+      "nearest_road_share": 0.935,
+      "runner_up_margin": 0.913
+    }
+  }
 }

@@ -9,5 +9,29 @@
   "legal_default_candidate_kmh": 70,
   "speed_limit_kmh": null,
   "verification_status": "unverified",
-  "source": "2012-gazette-rule-3-candidate"
+  "source": "2012-gazette-rule-3-candidate",
+  "supplementary_maxspeed_evidence": {
+    "source": "kattankudy-all-roads.json",
+    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+    "osm_id": "1214975064",
+    "maxspeed": "20",
+    "maxspeed_unit": null,
+    "maxspeed_status": "unverified_source_tag",
+    "source_tags": {
+      "highway": "residential",
+      "maxspeed": "20",
+      "name": "Zakaf Moulana Lane",
+      "oneway": "no"
+    },
+    "highway": "residential",
+    "name": "Zakaf Moulana Lane",
+    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
+    "match_evidence": {
+      "status": "matched",
+      "road_source_id": "50837d1a-5230-4bff-a618-2e805047fb86:0",
+      "geometry_coverage_8m": 1.0,
+      "nearest_road_share": 0.8,
+      "runner_up_margin": 0.6000000000000001
+    }
+  }
 }

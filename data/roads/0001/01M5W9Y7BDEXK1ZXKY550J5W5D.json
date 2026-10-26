@@ -16,5 +16,28 @@
       81.7310801,
       7.6810429
     ]
-  ]
+  ],
+  "supplementary_maxspeed_evidence": {
+    "source": "kattankudy-all-roads.json",
+    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+    "osm_id": "179555144",
+    "maxspeed": "30",
+    "maxspeed_unit": null,
+    "maxspeed_status": "unverified_source_tag",
+    "source_tags": {
+      "highway": "residential",
+      "maxspeed": "30",
+      "name": "CB Cassim Lane"
+    },
+    "highway": "residential",
+    "name": "CB Cassim Lane",
+    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
+    "match_evidence": {
+      "status": "matched",
+      "road_source_id": "190860a5-c08d-4716-9dcb-7f0f0b01a3fd:0",
+      "geometry_coverage_8m": 1.0,
+      "nearest_road_share": 0.966,
+      "runner_up_margin": 0.9319999999999999
+    }
+  }
 }

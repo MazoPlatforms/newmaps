@@ -397,7 +397,9 @@ async function loadSpeedReviews(){
     const record=feature.properties||{};
     features.push({type:'Feature',geometry:{type:'Point',coordinates:midpoint},properties:{
      road:record.road_name||'Unnamed road',status:'Legal default candidate — unverified',
-     candidate:record.legal_default_candidate_kmh??'',road_id:record.road_id}});
+     candidate:record.legal_default_candidate_kmh??'',road_id:record.road_id,
+     sourceMaxspeed:record.supplementary_maxspeed_evidence?.maxspeed??'',sourceUnit:record.supplementary_maxspeed_evidence?.maxspeed_unit??null,
+     sourceStatus:record.supplementary_maxspeed_evidence?.maxspeed_status??''}});
    }
    speedReviewFeatures=features;ensureSpeedReview();
   }catch(e){console.warn('Speed-limit reviews unavailable:',e)}
@@ -411,6 +413,7 @@ map.on('click',SPEED_LAYER,e=>{
    const box=document.createElement('div');
    const heading=document.createElement('strong');heading.textContent='70 km/h · Legal default candidate';
    const detail=document.createElement('p');detail.textContent=p.road+' — 70 km/h is the general non-built-up motor-vehicle limit in the 2012 Gazette, shown here as a provisional default. This road has not been individually classified or verified; A04 scheduled built-up sections have different limits.';
+   const sourceTag=document.createElement('p');if(p.sourceStatus==='unverified_source_tag'){sourceTag.textContent='Supplementary OSM maxspeed tag: '+p.sourceMaxspeed+(p.sourceUnit?' '+p.sourceUnit:' (unit not declared)')+' — unverified source data.';box.append(sourceTag)}
    const note=document.createElement('small');note.textContent='Provisional map data only — not a verified posted sign or safe driving-speed recommendation. Vehicle-specific limits and local restrictions may differ.';
    box.append(heading,detail,note);return box;
   })()).addTo(map);

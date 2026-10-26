@@ -32,5 +32,28 @@
       81.7156153,
       7.710927
     ]
-  ]
+  ],
+  "supplementary_maxspeed_evidence": {
+    "source": "kattankudy-all-roads.json",
+    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+    "osm_id": "220001227",
+    "maxspeed": "30",
+    "maxspeed_unit": null,
+    "maxspeed_status": "unverified_source_tag",
+    "source_tags": {
+      "highway": "residential",
+      "maxspeed": "30",
+      "name": "6th Cross Street"
+    },
+    "highway": "residential",
+    "name": "6th Cross Street",
+    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
+    "match_evidence": {
+      "status": "matched",
+      "road_source_id": "7cb2cca0-04ad-4ecb-b545-2b3d3a65f3c8:0",
+      "geometry_coverage_8m": 1.0,
+      "nearest_road_share": 0.971,
+      "runner_up_margin": 0.957
+    }
+  }
 }

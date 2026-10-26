@@ -23,6 +23,7 @@ jobs:
           python-version: '3.x'
       - run: python scripts/places.py validate
       - run: python scripts/places.py build
+      - run: python scripts/enrich_roads.py --check
       - run: python scripts/roads.py validate
       - run: python scripts/roads.py build
       - run: python scripts/speed_limits.py validate

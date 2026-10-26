@@ -40,5 +40,27 @@
       81.7309496,
       7.6665678
     ]
-  ]
+  ],
+  "supplementary_maxspeed_evidence": {
+    "source": "kattankudy-all-roads.json",
+    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+    "osm_id": "399049256",
+    "maxspeed": "30",
+    "maxspeed_unit": null,
+    "maxspeed_status": "unverified_source_tag",
+    "source_tags": {
+      "highway": "residential",
+      "maxspeed": "30"
+    },
+    "highway": "residential",
+    "name": null,
+    "match_method": "sampled_line_overlap_8m_and_class_name_with_unique_margin",
+    "match_evidence": {
+      "status": "matched",
+      "road_source_id": "049dd097-fd60-471f-9414-28050057dc3a:0",
+      "geometry_coverage_8m": 1.0,
+      "nearest_road_share": 0.96,
+      "runner_up_margin": 0.94
+    }
+  }
 }
