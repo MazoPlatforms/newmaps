@@ -35,8 +35,8 @@
       } catch {}
     </script>
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.css" />
-    <link rel="stylesheet" href="./assets/css/site.css?v=locate-clean-16" />
-    <script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=locate-clean-16"></script>
+    <link rel="stylesheet" href="./assets/css/site.css?v=layout-repair-17" />
+    <script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=layout-repair-17"></script>
   </head>
   <body>
     <a class="skip-link" href="#map">Skip to map</a>
@@ -59,10 +59,11 @@
             <button data-category="health" aria-pressed="false">Health</button>
             <button data-category="shop" aria-pressed="false">Shopping</button>
           </div>
+        </div>
         <div class="utility-controls" aria-label="Map tools">
           <button class="icon-button" id="theme-toggle" aria-label="Toggle map theme" aria-pressed="false" title="Light or dark map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14A8 8 0 0 1 10 4a8 8 0 1 0 10 10Z"/></svg></button>
         </div>
-        <div class="map-loading" id="map-status" role="status" aria-live="polite"><span class="loading-pulse" aria-hidden="true"></span><span>Loading Kattankudy</span></div>
+
         <div class="map-actions">
           
           <button class="icon-button" id="map-locate" aria-label="Find my location" aria-busy="false" title="My location"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
@@ -84,7 +85,7 @@
   <h3 class="hours-heading"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Opening hours</span></h3><div id="place-hours" class="hours-list"></div>
  </div>
 </section>
-        <a class="attribution-link" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">Mazo Maps · Sources</a>
+
       </div>
     </main>
   </body>
