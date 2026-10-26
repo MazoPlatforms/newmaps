@@ -1,0 +1,973 @@
+{
+  "version": 8,
+  "name": "Mazo Maps Sri Lanka Dark",
+  "metadata": {
+    "mazo:project": "Mazo Maps",
+    "mazo:area": "Sri Lanka bounding box",
+    "mazo:theme": "dark",
+    "mazo:release": "See data/sri-lanka/manifest.json"
+  },
+  "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
+  "sources": {
+    "base": {
+      "type": "vector",
+      "url": "pmtiles://https://mazoplatforms.github.io/maps//data/sri-lanka/base.pmtiles",
+      "attribution": "© <a href=\"https://docs.overturemaps.org/attribution/\">Overture Maps Foundation</a> · © <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a> · <a href=\"https://www.geonames.org/\">GeoNames (CC BY 4.0)</a>",
+      "bounds": [
+        79.3,
+        5.8,
+        82.1,
+        10.1
+      ],
+      "minzoom": 0,
+      "maxzoom": 13
+    },
+    "transportation": {
+      "type": "vector",
+      "url": "pmtiles://https://mazoplatforms.github.io/maps//data/sri-lanka/transportation.pmtiles",
+      "attribution": "© <a href=\"https://docs.overturemaps.org/attribution/\">Overture Maps Foundation</a> · © <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+      "bounds": [
+        79.3,
+        5.8,
+        82.1,
+        10.1
+      ],
+      "minzoom": 4,
+      "maxzoom": 14
+    },
+    "buildings": {
+      "type": "vector",
+      "url": "pmtiles://https://mazoplatforms.github.io/maps//data/sri-lanka/buildings.pmtiles",
+      "attribution": "© <a href=\"https://docs.overturemaps.org/attribution/\">Overture Maps Foundation</a> · © <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+      "bounds": [
+        79.3,
+        5.8,
+        82.1,
+        10.1
+      ],
+      "minzoom": 12,
+      "maxzoom": 14
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#152e3b"
+      }
+    },
+    {
+      "id": "land",
+      "type": "fill",
+      "source": "base",
+      "source-layer": "land",
+      "paint": {
+        "fill-color": "#202b2a",
+        "fill-opacity": 1
+      },
+      "minzoom": 2,
+      "filter": [
+        "==",
+        [
+          "geometry-type"
+        ],
+        "Polygon"
+      ]
+    },
+    {
+      "id": "land-cover",
+      "type": "fill",
+      "source": "base",
+      "source-layer": "land_cover",
+      "paint": {
+        "fill-color": "#283e34",
+        "fill-opacity": 0.5
+      },
+      "minzoom": 3,
+      "filter": [
+        "==",
+        [
+          "geometry-type"
+        ],
+        "Polygon"
+      ]
+    },
+    {
+      "id": "land-use",
+      "type": "fill",
+      "source": "base",
+      "source-layer": "land_use",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "coalesce",
+            [
+              "get",
+              "subtype"
+            ],
+            [
+              "get",
+              "class"
+            ],
+            ""
+          ],
+          [
+            "park",
+            "forest",
+            "recreation",
+            "nature_reserve",
+            "wood"
+          ],
+          "#283e34",
+          [
+            "industrial",
+            "commercial",
+            "residential"
+          ],
+          "#293332",
+          "#202b2a"
+        ],
+        "fill-opacity": 0.65
+      },
+      "minzoom": 6,
+      "filter": [
+        "==",
+        [
+          "geometry-type"
+        ],
+        "Polygon"
+      ]
+    },
+    {
+      "id": "bathymetry-fill",
+      "type": "fill",
+      "source": "base",
+      "source-layer": "bathymetry",
+      "minzoom": 3,
+      "paint": {
+        "fill-color": "#152e3b",
+        "fill-opacity": 0.25
+      },
+      "filter": [
+        "==",
+        [
+          "geometry-type"
+        ],
+        "Polygon"
+      ]
+    },
+    {
+      "id": "water-fill",
+      "type": "fill",
+      "source": "base",
+      "source-layer": "water",
+      "paint": {
+        "fill-color": "#152e3b",
+        "fill-opacity": 1
+      },
+      "minzoom": 2,
+      "filter": [
+        "==",
+        [
+          "geometry-type"
+        ],
+        "Polygon"
+      ]
+    },
+    {
+      "id": "water-lines",
+      "type": "line",
+      "source": "base",
+      "source-layer": "water",
+      "paint": {
+        "line-color": "#244759",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          7,
+          0.4,
+          12,
+          1,
+          16,
+          3
+        ]
+      },
+      "minzoom": 5,
+      "filter": [
+        "==",
+        [
+          "geometry-type"
+        ],
+        "LineString"
+      ]
+    },
+    {
+      "id": "base-infrastructure",
+      "type": "line",
+      "source": "base",
+      "source-layer": "infrastructure",
+      "paint": {
+        "line-color": "#414d4b",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          8,
+          0.5,
+          14,
+          1.5
+        ],
+        "line-opacity": 0.4
+      },
+      "minzoom": 8,
+      "filter": [
+        "==",
+        [
+          "geometry-type"
+        ],
+        "LineString"
+      ]
+    },
+    {
+      "id": "rail-lines",
+      "type": "line",
+      "source": "transportation",
+      "source-layer": "segment",
+      "paint": {
+        "line-color": "#64736d",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          7,
+          0.7,
+          14,
+          2.2
+        ],
+        "line-dasharray": [
+          2,
+          1.5
+        ],
+        "line-opacity": 0.7
+      },
+      "minzoom": 7,
+      "filter": [
+        "==",
+        [
+          "get",
+          "subtype"
+        ],
+        "rail"
+      ]
+    },
+    {
+      "id": "transport-water-lines",
+      "type": "line",
+      "source": "transportation",
+      "source-layer": "segment",
+      "paint": {
+        "line-color": "#244759",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          7,
+          0.7,
+          14,
+          2
+        ]
+      },
+      "minzoom": 7,
+      "filter": [
+        "==",
+        [
+          "get",
+          "subtype"
+        ],
+        "water"
+      ]
+    },
+    {
+      "id": "road-casing",
+      "type": "line",
+      "source": "transportation",
+      "source-layer": "segment",
+      "paint": {
+        "line-color": "#26312f",
+        "line-width": [
+          "interpolate",
+          [
+            "exponential",
+            1.35
+          ],
+          [
+            "zoom"
+          ],
+          5,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "motorway",
+              "trunk"
+            ],
+            1,
+            [
+              "primary",
+              "secondary"
+            ],
+            0.75,
+            [
+              "tertiary"
+            ],
+            0.55,
+            0
+          ],
+          9,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "motorway",
+              "trunk"
+            ],
+            2.6,
+            [
+              "primary",
+              "secondary"
+            ],
+            1.9500000000000002,
+            [
+              "tertiary"
+            ],
+            1.4300000000000002,
+            0.6
+          ],
+          12,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "motorway",
+              "trunk"
+            ],
+            5.4,
+            [
+              "primary",
+              "secondary"
+            ],
+            4.050000000000001,
+            [
+              "tertiary"
+            ],
+            2.9700000000000006,
+            1.9
+          ],
+          15,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "motorway",
+              "trunk"
+            ],
+            10.4,
+            [
+              "primary",
+              "secondary"
+            ],
+            7.800000000000001,
+            [
+              "tertiary"
+            ],
+            5.720000000000001,
+            5.6
+          ],
+          18,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "motorway",
+              "trunk"
+            ],
+            24,
+            [
+              "primary",
+              "secondary"
+            ],
+            18,
+            [
+              "tertiary"
+            ],
+            13.200000000000001,
+            14
+          ]
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          8,
+          0.25,
+          14,
+          0.65
+        ]
+      },
+      "minzoom": 5,
+      "filter": [
+        "all",
+        [
+          "==",
+          [
+            "geometry-type"
+          ],
+          "LineString"
+        ],
+        [
+          "any",
+          [
+            "==",
+            [
+              "get",
+              "subtype"
+            ],
+            "road"
+          ],
+          [
+            "all",
+            [
+              "<",
+              [
+                "zoom"
+              ],
+              8
+            ],
+            [
+              "!",
+              [
+                "has",
+                "subtype"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "line-sort-key": [
+          "match",
+          [
+            "get",
+            "class"
+          ],
+          [
+            "motorway",
+            "trunk"
+          ],
+          4,
+          [
+            "primary",
+            "secondary"
+          ],
+          3,
+          "tertiary",
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "road-lines",
+      "type": "line",
+      "source": "transportation",
+      "source-layer": "segment",
+      "paint": {
+        "line-color": [
+          "match",
+          [
+            "get",
+            "class"
+          ],
+          [
+            "motorway",
+            "trunk"
+          ],
+          "#7d7961",
+          [
+            "primary",
+            "secondary"
+          ],
+          "#59625b",
+          "#465250"
+        ],
+        "line-width": [
+          "interpolate",
+          [
+            "exponential",
+            1.35
+          ],
+          [
+            "zoom"
+          ],
+          5,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "motorway",
+              "trunk"
+            ],
+            0.65,
+            [
+              "primary",
+              "secondary"
+            ],
+            0.48750000000000004,
+            [
+              "tertiary"
+            ],
+            0.35750000000000004,
+            0
+          ],
+          9,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "motorway",
+              "trunk"
+            ],
+            1.9,
+            [
+              "primary",
+              "secondary"
+            ],
+            1.4249999999999998,
+            [
+              "tertiary"
+            ],
+            1.045,
+            0.25
+          ],
+          12,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "motorway",
+              "trunk"
+            ],
+            4.4,
+            [
+              "primary",
+              "secondary"
+            ],
+            3.3000000000000003,
+            [
+              "tertiary"
+            ],
+            2.4200000000000004,
+            1.1
+          ],
+          15,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "motorway",
+              "trunk"
+            ],
+            9,
+            [
+              "primary",
+              "secondary"
+            ],
+            6.75,
+            [
+              "tertiary"
+            ],
+            4.95,
+            4.4
+          ],
+          18,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            [
+              "motorway",
+              "trunk"
+            ],
+            22,
+            [
+              "primary",
+              "secondary"
+            ],
+            16.5,
+            [
+              "tertiary"
+            ],
+            12.100000000000001,
+            12
+          ]
+        ]
+      },
+      "minzoom": 5,
+      "filter": [
+        "all",
+        [
+          "==",
+          [
+            "geometry-type"
+          ],
+          "LineString"
+        ],
+        [
+          "any",
+          [
+            "==",
+            [
+              "get",
+              "subtype"
+            ],
+            "road"
+          ],
+          [
+            "all",
+            [
+              "<",
+              [
+                "zoom"
+              ],
+              8
+            ],
+            [
+              "!",
+              [
+                "has",
+                "subtype"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "line-sort-key": [
+          "match",
+          [
+            "get",
+            "class"
+          ],
+          [
+            "motorway",
+            "trunk"
+          ],
+          4,
+          [
+            "primary",
+            "secondary"
+          ],
+          3,
+          "tertiary",
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "connectors",
+      "type": "circle",
+      "source": "transportation",
+      "source-layer": "connector",
+      "paint": {
+        "circle-color": "#e6b741",
+        "circle-radius": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          12,
+          1,
+          15,
+          2.2
+        ],
+        "circle-stroke-color": "#11191b",
+        "circle-stroke-width": 0.75
+      },
+      "minzoom": 12,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "building-fills",
+      "type": "fill",
+      "source": "buildings",
+      "source-layer": "building",
+      "paint": {
+        "fill-color": "#34403f",
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0.15,
+          15,
+          0.75,
+          17,
+          0.9
+        ]
+      },
+      "minzoom": 13,
+      "filter": [
+        "==",
+        [
+          "geometry-type"
+        ],
+        "Polygon"
+      ]
+    },
+    {
+      "id": "building-parts",
+      "type": "fill",
+      "source": "buildings",
+      "source-layer": "building_part",
+      "paint": {
+        "fill-color": "#34403f",
+        "fill-opacity": 0.65
+      },
+      "minzoom": 14,
+      "filter": [
+        "==",
+        [
+          "geometry-type"
+        ],
+        "Polygon"
+      ]
+    },
+    {
+      "id": "building-outlines",
+      "type": "line",
+      "source": "buildings",
+      "source-layer": "building",
+      "paint": {
+        "line-color": "#414d4b",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0.35,
+          18,
+          0.7
+        ]
+      },
+      "minzoom": 15,
+      "filter": [
+        "==",
+        [
+          "geometry-type"
+        ],
+        "Polygon"
+      ]
+    },
+    {
+      "id": "road-names",
+      "type": "symbol",
+      "source": "transportation",
+      "source-layer": "segment",
+      "paint": {
+        "text-color": "#c1ccc7",
+        "text-halo-color": "#202b2a",
+        "text-halo-width": 1.3,
+        "text-halo-blur": 0.3
+      },
+      "minzoom": 13,
+      "filter": [
+        "all",
+        [
+          "==",
+          [
+            "get",
+            "subtype"
+          ],
+          "road"
+        ],
+        [
+          "has",
+          "@name"
+        ]
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": [
+          "get",
+          "@name"
+        ],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          9.5,
+          16,
+          11,
+          18,
+          12
+        ],
+        "text-max-angle": 40,
+        "symbol-spacing": 300,
+        "text-padding": 3,
+        "text-allow-overlap": false,
+        "text-ignore-placement": false,
+        "text-keep-upright": true,
+        "text-rotation-alignment": "auto",
+        "text-pitch-alignment": "auto"
+      }
+    },
+    {
+      "id": "highway-names",
+      "type": "symbol",
+      "source": "transportation",
+      "source-layer": "segment",
+      "paint": {
+        "text-color": "#c1ccc7",
+        "text-halo-color": "#202b2a",
+        "text-halo-width": 1.3,
+        "text-halo-blur": 0.3
+      },
+      "minzoom": 7,
+      "filter": [
+        "all",
+        [
+          "all",
+          [
+            "==",
+            [
+              "get",
+              "subtype"
+            ],
+            "road"
+          ],
+          [
+            "has",
+            "@name"
+          ]
+        ],
+        [
+          "in",
+          [
+            "get",
+            "class"
+          ],
+          [
+            "literal",
+            [
+              "motorway",
+              "trunk",
+              "primary"
+            ]
+          ]
+        ]
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": [
+          "get",
+          "@name"
+        ],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 10,
+        "text-max-angle": 40,
+        "symbol-spacing": 500,
+        "text-padding": 3,
+        "text-allow-overlap": false,
+        "text-ignore-placement": false,
+        "text-keep-upright": true,
+        "text-rotation-alignment": "auto",
+        "text-pitch-alignment": "auto"
+      },
+      "maxzoom": 13
+    }
+  ],
+  "transition": {
+    "duration": 180,
+    "delay": 0
+  }
+}
