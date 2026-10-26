@@ -232,7 +232,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "EZI",
+      "name": "Ezi",
       "coordinates": {
         "latitude": 7.679489599999999,
         "longitude": 81.7267524
@@ -286,7 +286,8 @@
           ]
         }
       ],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "EZI"
     },
     {
       "name": "Al hudha college",
@@ -575,7 +576,7 @@
       "name_original": "Al-Hira Maha Vidyalayam"
     },
     {
-      "name": "MELT",
+      "name": "Melt",
       "coordinates": {
         "latitude": 7.680872399999999,
         "longitude": 81.72424409999999
@@ -628,7 +629,8 @@
           ]
         }
       ],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "MELT"
     },
     {
       "name": "Kanvus Academy",
@@ -1005,7 +1007,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "MISSION ACADEMY",
+      "name": "Mission Academy",
       "coordinates": {
         "latitude": 7.6822439,
         "longitude": 81.72670649999999
@@ -1059,7 +1061,8 @@
           ]
         }
       ],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "MISSION ACADEMY"
     },
     {
       "name": "Goodwill Institute Kattankudi",
@@ -1309,7 +1312,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "SIP ABACUS KATTANKUDY",
+      "name": "Sip Abacus Kattankudy",
       "coordinates": {
         "latitude": 7.682346399999999,
         "longitude": 81.7268131
@@ -1364,7 +1367,8 @@
         }
       ],
       "website": "http://www.sipacademylanka.lk/",
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "SIP ABACUS KATTANKUDY"
     },
     {
       "name": "Infinity Academy",
@@ -1425,7 +1429,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "ICT CENTER",
+      "name": "ICT Center",
       "coordinates": {
         "latitude": 7.6806692,
         "longitude": 81.72800699999999
@@ -1436,7 +1440,8 @@
       ],
       "phone": "0778992902",
       "hours": [],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "ICT CENTER"
     },
     {
       "name": "BT/BC/Kattankudy Madya Maha Vidyalaya",
@@ -1805,7 +1810,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "FIRST ROOTS INTERNATIONAL SCHOOL",
+      "name": "First Roots International School",
       "coordinates": {
         "latitude": 7.673925199999999,
         "longitude": 81.7257557
@@ -1816,7 +1821,8 @@
       ],
       "phone": "0777657036",
       "hours": [],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "FIRST ROOTS INTERNATIONAL SCHOOL"
     },
     {
       "name": "assignment Cafe",
@@ -2197,7 +2203,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "TEAM KKY (ASSOCIATION FOR UNIVERSITY AND HIGHER EDUCATION)",
+      "name": "Team Kky (Association For University And Higher Education)",
       "coordinates": {
         "latitude": 7.6821807,
         "longitude": 81.72943699999999
@@ -2208,7 +2214,8 @@
       ],
       "phone": "0769951528",
       "hours": [],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "TEAM KKY (ASSOCIATION FOR UNIVERSITY AND HIGHER EDUCATION)"
     },
     {
       "name": "Mysoft IT College",
@@ -2717,7 +2724,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "AL JAMIATHUR RABBANIYYAH ARABIC UNIVERSITY",
+      "name": "Al Jamiathur Rabbaniyyah Arabic University",
       "coordinates": {
         "latitude": 7.6763014,
         "longitude": 81.72787579999999
@@ -2727,7 +2734,8 @@
         "College"
       ],
       "hours": [],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "AL JAMIATHUR RABBANIYYAH ARABIC UNIVERSITY"
     },
     {
       "name": "Al Manar Islamic College Kathankudy",
@@ -2884,7 +2892,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "PATHWAY INSTITUTE OF PROFESSIONAL STUDIES",
+      "name": "Pathway Institute Of Professional Studies",
       "coordinates": {
         "latitude": 7.678017199999999,
         "longitude": 81.72563079999999
@@ -2895,7 +2903,8 @@
       ],
       "phone": "0765689699",
       "hours": [],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "PATHWAY INSTITUTE OF PROFESSIONAL STUDIES"
     },
     {
       "name": "BT/BC/Dharussalam Vidyalayam",
@@ -3296,7 +3305,7 @@
       "name_original": "Zaviya ladies school"
     },
     {
-      "name": "JAYS KIDS COLLEGE",
+      "name": "Jays Kids College",
       "coordinates": {
         "latitude": 7.6772857,
         "longitude": 81.7239721
@@ -3307,7 +3316,8 @@
       ],
       "phone": "0767159095",
       "hours": [],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "JAYS KIDS COLLEGE"
     },
     {
       "name": "Kattankudy Welcome Board",
@@ -3537,7 +3547,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "BT/BC/ZAHIRA SPECIAL SCHOOL",
+      "name": "BT/BC/Zahira Special School",
       "coordinates": {
         "latitude": 7.6771509,
         "longitude": 81.7383875
@@ -3547,7 +3557,8 @@
         "Special education school"
       ],
       "hours": [],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "BT/BC/ZAHIRA SPECIAL SCHOOL"
     },
     {
       "name": "Education Development Society",
@@ -3738,7 +3749,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "NAAS CAMPUS BATICALOA",
+      "name": "Naas Campus Baticaloa",
       "coordinates": {
         "latitude": 7.6866806,
         "longitude": 81.72816929999999
@@ -3750,7 +3761,8 @@
       "phone": "0751501603",
       "hours": [],
       "website": "https://naascampus.com/",
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "NAAS CAMPUS BATICALOA"
     },
     {
       "name": "Dr Alavi Sheriffdeen School for Pioneers",
@@ -4832,7 +4844,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "ATI BATTICALOA",
+      "name": "Ati Batticaloa",
       "coordinates": {
         "latitude": 7.657631299999999,
         "longitude": 81.7408969
@@ -4844,10 +4856,11 @@
       "phone": "0652247470",
       "hours": [],
       "website": "https://www.atibatti.edu.lk/",
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "ATI BATTICALOA"
     },
     {
-      "name": "ISLAMIC GALAXY KATTANKUDY",
+      "name": "Islamic Galaxy Kattankudy",
       "coordinates": {
         "latitude": 7.6885242,
         "longitude": 81.7305331
@@ -4902,7 +4915,8 @@
           ]
         }
       ],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "ISLAMIC GALAXY KATTANKUDY"
     },
     {
       "name": "CIG - Kathankudy",
@@ -6578,7 +6592,7 @@
       "business_status": "OPEN"
     },
     {
-      "name": "WORLD BABY KIDS",
+      "name": "World Baby Kids",
       "coordinates": {
         "latitude": 7.681482,
         "longitude": 81.73217149999999
@@ -6589,7 +6603,8 @@
       ],
       "phone": "0776174260",
       "hours": [],
-      "business_status": "OPEN"
+      "business_status": "OPEN",
+      "name_original": "WORLD BABY KIDS"
     },
     {
       "name": "Sri Murugam Nursery School",
