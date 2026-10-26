@@ -1,6 +1,6 @@
 # Mazo Maps
 
-A static MapLibre GL JS map for Kattankudy. Place records live in `places/<shard>/<ULID>.json`; non-place geography remains under `data/`.
+A static MapLibre GL JS map for Kattankudy. Place records live in `data/places/<shard>/<ULID>.json`; non-place geography remains under `data/`.
 
 ## Place records
 
@@ -14,9 +14,9 @@ Use `python scripts/places.py add record.json` to create a place. The allocator 
 
 ## Validation and deployment
 
-`python scripts/places.py validate` checks IDs, filenames, JSON, coordinates, duplicate IDs, and shard limits. `python -m unittest discover -s tests -v` runs migration and shard tests. GitHub Actions validates pull requests and the Pages workflow builds the MZP before uploading the site artifact. Set Pages source to GitHub Actions.
+`python scripts/places.py validate` checks IDs, filenames, JSON, coordinates, duplicate IDs, and shard limits. `python -m unittest discover -s tests -v` runs allocator, migration integrity, and shard tests. GitHub Actions validates pull requests and the Pages workflow builds the MZP before uploading the site artifact. Set Pages source to GitHub Actions.
 
-Migration artifacts `migration-record-map.json` and `migration-exclusions.json` map every original file/index to its new ID and document records without coordinates. Original category files remain in git history for rollback and audit; the live app loads the generated MZP instead of requesting all category files.
+Migration artifacts `migration-record-map.json` and `migration-exclusions.json` map every original file/index to its new ID and document records without coordinates. The original 61 category datasets are preserved on the [`archive/pre-ulid-migration`](https://github.com/MazoPlatforms/newmaps/tree/archive/pre-ulid-migration) branch. The live app loads the generated MZP instead of requesting individual place JSON files.
 
 ## Rollback
 
