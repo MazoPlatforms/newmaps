@@ -18,13 +18,17 @@ function iconFor(k){return 'mazo-'+k}
 function registerIcons(){
  for(const [kind,[color]] of Object.entries(artwork)){
   const id=iconFor(kind);if(map.hasImage(id))continue;
-  const canvas=document.createElement('canvas');canvas.width=48;canvas.height=48;
-  const ctx=canvas.getContext('2d');ctx.beginPath();ctx.arc(24,24,21,0,Math.PI*2);
-  ctx.fillStyle='#fff';ctx.fill();ctx.strokeStyle=color;ctx.lineWidth=3;ctx.stroke();
-  ctx.beginPath();ctx.arc(24,24,15,0,Math.PI*2);ctx.fillStyle=color;ctx.fill();
-  ctx.font='bold 19px sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle='#fff';
-  ctx.fillText(({food:'F',health:'+',shop:'S',hotel:'H',park:'P',worship:'W'})[kind],24,25);
-  map.addImage(id,ctx.getImageData(0,0,48,48),{pixelRatio:2});
+  const canvas=document.createElement('canvas');canvas.width=64;canvas.height=80;
+  const ctx=canvas.getContext('2d');
+  ctx.beginPath();ctx.moveTo(32,77);
+  ctx.bezierCurveTo(25,65,9,49,9,31);
+  ctx.arc(32,31,23,Math.PI,0);
+  ctx.bezierCurveTo(55,49,39,65,32,77);ctx.closePath();
+  ctx.fillStyle=color;ctx.fill();ctx.lineWidth=4;ctx.strokeStyle='#fff';ctx.stroke();
+  ctx.beginPath();ctx.arc(32,31,15,0,Math.PI*2);ctx.fillStyle='#fff';ctx.fill();
+  ctx.font='bold 20px sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle=color;
+  ctx.fillText(({food:'F',health:'+',shop:'S',hotel:'H',park:'P',worship:'W'})[kind],32,32);
+  map.addImage(id,ctx.getImageData(0,0,64,80),{pixelRatio:2});
  }
 }
 function poiFeatures(){return places.map((p,i)=>({type:'Feature',id:i,geometry:{type:'Point',coordinates:[+p.coordinates.longitude,+p.coordinates.latitude]},properties:{name:p.name,kind:kind(p),priority:priority(p),index:i,category:(p.categories||[]).join(' '),address:p.address||''}}))}
@@ -33,32 +37,31 @@ function ensurePoiLayer(){
  const data={type:'FeatureCollection',features:poiFeatures()};
  if(!map.getSource(POI_SOURCE))map.addSource(POI_SOURCE,{type:'geojson',data});
  else map.getSource(POI_SOURCE).setData(data);
- if(!map.getLayer('mazo-poi-dots'))map.addLayer({
-  id:'mazo-poi-dots',type:'circle',source:POI_SOURCE,minzoom:12,
-  paint:{'circle-radius':['interpolate',['linear'],['zoom'],12,3,14,5,17,8],
-   'circle-color':['match',['get','kind'],'food','#b87353','health','#b5666c','shop','#6d81aa','hotel','#8c76a6','park','#628c6e','worship','#967c9c','#6d81aa'],
-   'circle-stroke-color':'#ffffff','circle-stroke-width':2,
-   'circle-opacity':0.95}
- });
+ registerIcons();
  if(!map.getLayer(POI_LAYER))map.addLayer({
-  id:POI_LAYER,type:'symbol',source:POI_SOURCE,minzoom:14,
-  layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],
+  id:POI_LAYER,type:'symbol',source:POI_SOURCE,minzoom:12,
+  layout:{
+   'icon-image':['concat','mazo-',['get','kind']],
+   'icon-anchor':'bottom','icon-size':['interpolate',['linear'],['zoom'],12,0.48,15,0.62,18,0.82],
+   'icon-allow-overlap':false,'icon-padding':4,
+   'text-field':['get','name'],'text-font':['Noto Sans Regular'],
    'text-size':['interpolate',['linear'],['zoom'],14,10,17,13],
-   'text-offset':[0,1.2],'text-anchor':'top','text-max-width':12,
-   'text-optional':true,'text-allow-overlap':false,'text-padding':4},
+   'text-offset':[0,0.7],'text-anchor':'top','text-max-width':12,
+   'text-optional':true,'text-allow-overlap':false,'text-padding':4
+  },
   paint:{'text-color':theme()==='dark'?'#e5e7eb':'#334155',
    'text-halo-color':theme()==='dark'?'#17212e':'#ffffff','text-halo-width':1.5}
  });
  refresh();
 }
-map.on('click','mazo-poi-dots',e=>{const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
-map.on('mouseenter','mazo-poi-dots',()=>map.getCanvas().style.cursor='pointer');
-map.on('mouseleave','mazo-poi-dots',()=>map.getCanvas().style.cursor='');
+map.on('click',POI_LAYER,e=>{const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
+map.on('mouseenter',POI_LAYER,()=>map.getCanvas().style.cursor='pointer');
+map.on('mouseleave',POI_LAYER,()=>map.getCanvas().style.cursor='');
 function openPlace(p){const c=p.coordinates;map.flyTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16)});new maplibregl.Popup({offset:20}).setLngLat([+c.longitude,+c.latitude]).setHTML('<strong>'+safe(p.name)+'</strong><p>'+safe(p.address||'')+'</p><p>'+safe((p.categories||[]).join(', '))+'</p>'+(p.phone?'<p>'+safe(p.phone)+'</p>':'')).addTo(map)}
 function refresh(){
  const q=$('#map-search').value.trim().toLowerCase();
  const hits=places.filter(p=>(category==='all'||kind(p)===category)&&[p.name,p.address,...(p.categories||[])].join(' ').toLowerCase().includes(q));
- for(const id of [POI_LAYER,'mazo-poi-dots'])if(map.getLayer(id)){map.setLayoutProperty(id,'visibility',placesVisible?'visible':'none');map.setFilter(id,['in',['get','index'],['literal',hits.map(p=>places.indexOf(p))]])}
+ for(const id of [POI_LAYER])if(map.getLayer(id)){map.setLayoutProperty(id,'visibility',placesVisible?'visible':'none');map.setFilter(id,['in',['get','index'],['literal',hits.map(p=>places.indexOf(p))]])}
  const results=$('#search-results');results.replaceChildren();
  if(q){results.hidden=false;for(const p of hits.slice(0,30)){const b=document.createElement('button');b.type='button';b.textContent=p.name+' · '+(p.address||'');b.style.cssText='display:block;width:100%;padding:10px;text-align:left;border:0;background:transparent;cursor:pointer';b.onclick=()=>{openPlace(p);results.hidden=true};results.append(b)}}else results.hidden=true;
  $('#map-status').textContent=hits.length+' places in Kattankudy';
