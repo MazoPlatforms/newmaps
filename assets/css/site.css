@@ -297,3 +297,12 @@ body,.place-sheet,.place-sheet button,.place-sheet a{font-family:Inter,-apple-sy
  .map-actions[data-sheet=expanded]{bottom:calc(100dvh - max(12px,env(safe-area-inset-top)) + 14px)}
 }
 @media(prefers-reduced-motion:reduce){.map-actions{transition:none}}
+
+/* Layout repair: controls must be siblings of the search dock, never nested inside it. */
+.search-dock{z-index:4;width:min(460px,calc(100% - 92px))}
+.utility-controls{z-index:5;top:max(12px,env(safe-area-inset-top));right:max(14px,env(safe-area-inset-right))}
+.map-actions{z-index:6}
+.place-sheet{z-index:8}
+.maplibregl-ctrl-bottom-left,.maplibregl-ctrl-bottom-right{z-index:1}
+.maplibregl-ctrl-bottom-right .maplibregl-ctrl-attrib{max-width:min(85vw,340px);font-size:10px}
+@media(max-width:600px){.search-dock{width:calc(100% - 92px)}.utility-controls{right:14px}}
