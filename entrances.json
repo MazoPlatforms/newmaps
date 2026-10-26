@@ -1,0 +1,143 @@
+{
+    "count": 4,
+    "results":[
+        {
+            "name": "Kattankudy New Beach",
+            "coordinates": {
+                "latitude": 7.6864975,
+                "longitude": 81.740433
+            },
+            "address": "13 Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+            "categories":[
+                "Tourist attraction"
+            ],
+            "hours":[
+                {
+                    "day": "Monday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Friday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Sunday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                }
+            ],
+            "business_status": "OPEN"
+        },
+        {
+            "name": "Kattankudy Welcome Board",
+            "coordinates": {
+                "latitude": 7.6870946,
+                "longitude": 81.72497489999999
+            },
+            "address": "456 Main St, Kattankudy",
+            "categories":[
+                "Historical landmark"
+            ],
+            "hours":[],
+            "business_status": "OPEN"
+        },
+        {
+            "name": "Goodwin Junction",
+            "coordinates": {
+                "latitude": 7.6803231,
+                "longitude": 81.7287961
+            },
+            "address": "MPJH+4GF, Sir Razeek Fareed Mawatha, Kattankudy",
+            "categories":[
+                "Historical landmark"
+            ],
+            "hours":[],
+            "business_status": "OPEN"
+        },
+        {
+            "name": "Kattankudy Beach Park",
+            "coordinates": {
+                "latitude": 7.6849837999999995,
+                "longitude": 81.74127899999999
+            },
+            "address": "MPMR+XGR, Kattankudy",
+            "categories":[
+                "Park"
+            ],
+            "hours":[
+                {
+                    "day": "Monday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Friday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Sunday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                }
+            ],
+            "business_status": "OPEN"
+        }
+    ]
+}
