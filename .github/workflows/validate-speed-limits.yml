@@ -16,6 +16,9 @@ on:
       - 'scripts/places.py'
       - 'assets/js/app.js'
       - 'tests/**'
+      - 'scripts/audit_places_quality.py'
+      - 'docs/PLACES_DATA_QUALITY_AUDIT_2026-10-27.md'
+      - '.gitignore'
       - '.github/workflows/validate-speed-limits.yml'
       - '.github/workflows/pages.yml'
   push:
@@ -34,6 +37,9 @@ on:
       - 'scripts/places.py'
       - 'assets/js/app.js'
       - 'tests/**'
+      - 'scripts/audit_places_quality.py'
+      - 'docs/PLACES_DATA_QUALITY_AUDIT_2026-10-27.md'
+      - '.gitignore'
       - '.github/workflows/validate-speed-limits.yml'
       - '.github/workflows/pages.yml'
 permissions:
@@ -57,4 +63,18 @@ jobs:
       - run: python scripts/roads.py build
       - run: python scripts/speed_limits.py build
       - run: python -m unittest discover -s tests -v
+      - name: Generate complete Places audit report
+        if: startsWith(github.head_ref, 'audit/places-data-quality-')
+        run: python scripts/audit_places_quality.py
+      - name: Validate report invariants
+        if: startsWith(github.head_ref, 'audit/places-data-quality-')
+        run: python scripts/audit_places_quality.py --check
+      - name: Upload per-record Places audit report
+        if: startsWith(github.head_ref, 'audit/places-data-quality-')
+        uses: actions/upload-artifact@v4
+        with:
+          name: places-quality-audit-2026-10-27
+          path: reports/places-quality-audit-2026-10-27.json
+          if-no-files-found: error
+          retention-days: 30
       - run: node --check assets/js/app.js
