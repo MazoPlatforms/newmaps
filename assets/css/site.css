@@ -235,3 +235,32 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .place-sheet[data-state=compact] .place-sheet-content,.place-sheet[data-state=compact] .place-sheet-sizes{display:none}
 @media(min-width:601px){.place-sheet{border-radius:18px 18px 0 0}}
 @media(prefers-reduced-motion:reduce){.place-sheet{transition:none}}
+
+/* Refined Inter place sheet — gesture driven, no mode buttons */
+.place-sheet{
+ font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+ border-radius:22px 22px 0 0;
+ box-shadow:0 -10px 40px rgba(0,0,0,.16);
+ will-change:height,transform;
+ transform:translateX(-50%) translateY(var(--sheet-drag,0px));
+ transition:height 340ms cubic-bezier(.22,1,.36,1),transform 280ms cubic-bezier(.22,1,.36,1),opacity 250ms ease;
+}
+.place-sheet.is-dragging{transition:none;user-select:none}
+.place-sheet.is-closing{transform:translate(-50%,105%);opacity:0;pointer-events:none}
+.place-sheet-top{height:42px}
+.place-handle{height:42px;touch-action:none}
+.place-handle span{width:36px;height:4px;background:var(--muted);opacity:.42}
+.place-close{top:7px;right:14px;width:32px;height:32px;border-radius:50%;font-size:23px;line-height:1;color:var(--muted)}
+.place-close:hover{background:var(--surface-alt)}
+.place-sheet-heading{padding:2px 22px 12px}
+.place-sheet-heading h2{font-family:inherit;font-size:22px;font-weight:650;letter-spacing:-.55px;line-height:1.22}
+.place-sheet-heading p{font-size:13px;line-height:1.5}
+.place-sheet-actions{padding:5px 22px 16px;gap:9px;scrollbar-width:none}
+.place-sheet-actions a{font-family:inherit;font-size:13px;font-weight:600;border-radius:999px;min-height:40px;padding:10px 17px}
+.place-sheet-content{border-top:1px solid var(--line);padding:8px 22px 28px;line-height:1.55}
+.place-sheet-content h3{font-size:13px;font-weight:650;letter-spacing:-.1px}
+.place-sheet[data-state=compact]{height:180px}
+.place-sheet[data-state=half]{height:52dvh}
+.place-sheet[data-state=expanded]{height:calc(100dvh - max(12px,env(safe-area-inset-top)))}
+.place-sheet[data-state=compact] .place-sheet-content{display:none}
+@media(prefers-reduced-motion:reduce){.place-sheet{transition:none}}
