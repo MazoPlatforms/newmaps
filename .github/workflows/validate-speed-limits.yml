@@ -39,5 +39,6 @@ jobs:
       - run: python scripts/places.py validate
       - run: python scripts/roads.py validate
       - run: python scripts/speed_limits.py validate
+      - run: python scripts/speed_limits.py build
       - run: python -m unittest discover -s tests -v
       - run: node --check assets/js/app.js
