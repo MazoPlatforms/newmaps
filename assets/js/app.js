@@ -66,7 +66,7 @@ function ensurePoiLayer(){
  });
  refresh();
 }
-map.on('click',POI_LAYER,e=>{const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
+map.on('click',POI_LAYER,e=>{if(!routePanel.hidden)return;const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
 map.on('mouseenter',POI_LAYER,()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',POI_LAYER,()=>map.getCanvas().style.cursor='');
 let selectedPlace=null,sheetState='half',dragStart=null,dragDelta=0,closeTimer=null;
@@ -77,6 +77,7 @@ function setSheetState(state){
 }
 function closePlace(){selectedPlace=null;document.querySelector('.map-actions').removeAttribute('data-sheet');sheet.classList.add('is-closing');clearTimeout(closeTimer);closeTimer=setTimeout(()=>{sheet.hidden=true;sheet.classList.remove('is-closing')},260);map.easeTo({padding:{bottom:0},duration:260});}
 function openPlace(p){
+ if(typeof routePanel!=='undefined'&&!routePanel.hidden)return;
  selectedPlace=p;clearTimeout(closeTimer);sheet.classList.remove('is-closing');sheet.hidden=false;setSheetState('half');
  $('#place-title').textContent=p.name;
  $('#place-category').textContent=(p.categories||[]).join(' · ')||'Place';
@@ -105,6 +106,25 @@ $('#place-close').onclick=closePlace;
 /* In-map directions: pickup defaults to device location; map-click override.
    Public OSRM endpoints are best-effort and need a managed backend for production SLA. */
 const routePanel=$('#route-panel');
+let routeSheetState='compact';
+function setRouteSheetState(state){
+ if(routePanel.hidden)return;
+ routeSheetState=state;
+ routePanel.dataset.state=state;
+ const expanded=state==='half';
+ $('#route-details').hidden=!expanded;
+ $('#route-steps').hidden=!expanded;
+ requestAnimationFrame(routeLayout);
+}
+routePanel.addEventListener('pointerdown',e=>{
+ if(e.target.closest('#route-close'))return;
+ setRouteSheetState('half');
+});
+routePanel.addEventListener('focusin',()=>setRouteSheetState('half'));
+map.getCanvas().addEventListener('pointerdown',()=>{if(!routePanel.hidden)setRouteSheetState('compact')});
+map.getCanvas().addEventListener('wheel',()=>{if(!routePanel.hidden)setRouteSheetState('compact')},{passive:true});
+map.on('movestart',()=>{if(!routePanel.hidden)setRouteSheetState('compact')});
+
 function routeLayout(){
  // Force mobile bottom docking even when older CSS is cached or theme rules conflict.
  routePanel.style.setProperty('position','fixed','important');
@@ -113,7 +133,7 @@ function routeLayout(){
  routePanel.style.setProperty('left','0px','important');
  routePanel.style.setProperty('right','0px','important');
  routePanel.style.setProperty('width','100%','important');
- routePanel.style.setProperty('max-height','55dvh','important');
+ routePanel.style.setProperty('max-height',routeSheetState==='half'?'55dvh':'none','important');
  routePanel.style.setProperty('border-radius','18px 18px 0 0','important');
  const turn=$('#route-turn-card');
  turn.style.setProperty('position','fixed','important');
@@ -184,8 +204,8 @@ async function routeCalculate(){
  }catch(e){if(e.name==='AbortError'||sequence!==routeSequence)return;routeStatus('Unable to calculate route: '+e.message+' Try again or select another pickup.');routeLine=null;routeDraw()}
 }
 async function routeOpen(place){
- closePlace();routePanel.hidden=false;pickingPickup=false;document.querySelector('.search-dock').style.display='none';routeLayout();
- routeClear();$('#route-details').hidden=true;$('#route-expand').setAttribute('aria-expanded','false');routeDestination=[+place.coordinates.longitude,+place.coordinates.latitude];
+ closePlace();routePanel.hidden=false;pickingPickup=false;document.querySelector('.search-dock').style.display='none';setRouteSheetState('compact');
+ routeClear();routeDestination=[+place.coordinates.longitude,+place.coordinates.latitude];
  $('#route-destination').value=place.name;$('#route-pickup').value='Locating…';
  $('#route-summary').textContent='';$('#route-steps').replaceChildren();
  routeStatus('Requesting your location…');routeMarkers();
@@ -195,13 +215,6 @@ async function routeOpen(place){
   routePickup=coords;$('#route-pickup').value='My location';await routeCalculate();
  }catch(e){routeStatus(e.message);$('#route-pickup').value='Choose pickup on map'}
 }
-$('#route-expand').onclick=()=>{
- const details=$('#route-details'),open=details.hidden;details.hidden=!open;
- $('#route-expand').setAttribute('aria-expanded',String(open));
- $('#route-expand').textContent=open?'Less':'Details';
- requestAnimationFrame(routeLayout);
- $('#route-steps').hidden=!open;
-};
 function routeMeters(a,b){
  const rad=Math.PI/180,lat1=a[1]*rad,lat2=b[1]*rad,dlat=(b[1]-a[1])*rad,dlon=(b[0]-a[0])*rad;
  const h=Math.sin(dlat/2)**2+Math.cos(lat1)*Math.cos(lat2)*Math.sin(dlon/2)**2;
@@ -235,9 +248,9 @@ $('#route-use-location').onclick=async()=>{
  pickingPickup=false;routeStatus('Requesting your location…');
  try{const c=await routeLocation();if(!map.getMaxBounds()?.contains(c))throw Error('Outside Kattankudy map bounds. Choose a pickup on the map.');routePickup=c;$('#route-pickup').value='My location';await routeCalculate()}catch(e){routeStatus(e.message)}
 };
-$('#route-pick-map').onclick=()=>{pickingPickup=true;routeStatus('Tap a road or point on the map to choose pickup.');};
+$('#route-pick-map').onclick=()=>{routeStatus('Map taps are disabled during directions. Use My location for pickup.');};
 map.on('click',e=>{
- if(!pickingPickup||routePanel.hidden)return;
+ if(routePanel.hidden||!pickingPickup)return;
  pickingPickup=false;routePickup=[e.lngLat.lng,e.lngLat.lat];
  $('#route-pickup').value=e.lngLat.lat.toFixed(5)+', '+e.lngLat.lng.toFixed(5);
  routeCalculate();
@@ -280,7 +293,7 @@ handle.addEventListener('keydown',e=>{
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sheet.hidden)closePlace()});
  // Fallback for clicks on visible labels/pins even when symbol hit-testing misses.
  map.on('click',e=>{
-  if(!sheet.hidden)return;
+  if(!sheet.hidden||!routePanel.hidden)return;
   const features=map.queryRenderedFeatures([[e.point.x-14,e.point.y-14],[e.point.x+14,e.point.y+14]],{layers:map.getLayer(POI_LAYER)?[POI_LAYER]:[]});
   for(const f of features){const i=Number(f.properties?.index);if(Number.isInteger(i)&&places[i]){openPlace(places[i]);return}}
  });
@@ -344,6 +357,7 @@ async function loadSpeedReviews(){
  }catch(e){console.warn('Speed-limit reviews unavailable:',e)}
 }
 map.on('click',SPEED_LAYER,e=>{
+ if(!routePanel.hidden)return;
  const f=e.features?.[0];if(!f)return;
  const p=f.properties||{};
  new maplibregl.Popup({offset:18,maxWidth:'280px'}).setLngLat(f.geometry.coordinates)
