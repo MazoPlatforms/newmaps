@@ -69,6 +69,15 @@
           <button class="icon-button" id="map-locate" aria-label="Find my location" aria-busy="false" title="My location"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
 
         </div>
+<section id="route-panel" class="route-panel" aria-label="Directions" hidden>
+ <div class="route-head"><strong>Directions</strong><button type="button" id="route-close" aria-label="Close directions">×</button></div>
+ <label for="route-pickup">Pickup</label>
+ <div class="route-field"><input id="route-pickup" value="My location" aria-label="Pickup location" readonly/><button type="button" id="route-use-location">My location</button><button type="button" id="route-pick-map">Choose on map</button></div>
+ <label for="route-destination">Destination</label><input id="route-destination" readonly aria-label="Destination"/>
+ <div class="route-modes"><button type="button" data-route-mode="driving" aria-pressed="true">Drive</button><button type="button" data-route-mode="walking" aria-pressed="false">Walk</button><button type="button" data-route-mode="cycling" aria-pressed="false">Cycle</button></div>
+ <p id="route-status" role="status" aria-live="polite"></p><div id="route-summary"></div><ol id="route-steps"></ol>
+ <small>Routes are estimates from public routing services. Follow actual signs and road conditions.</small>
+</section>
 <section id="place-sheet" class="place-sheet" data-state="half" aria-label="Selected place details" hidden>
  <div class="place-sheet-top">
   <div id="place-handle" class="place-handle" role="button" tabindex="0" aria-label="Swipe up or down to resize place details"><span></span></div>
@@ -76,7 +85,7 @@
  </div>
  <div class="place-sheet-heading"><h2 id="place-title"></h2><p id="place-category"></p></div>
  <div class="place-sheet-actions">
-  <a id="place-directions" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 12l9 9 9-9-9-9Z"/><path d="M9 15v-4h6m-3-3 3 3-3 3"/></svg><span>Directions</span></a>
+  <a id="place-directions" href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 12l9 9 9-9-9-9Z"/><path d="M9 15v-4h6m-3-3 3 3-3 3"/></svg><span>Directions</span></a>
   <a id="place-phone" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7l.6 3a2 2 0 0 1-.6 1.8L7.2 10a16 16 0 0 0 6.8 6.8l1.5-1.9a2 2 0 0 1 1.8-.6l3 .6a2 2 0 0 1 1.7 1.8Z"/></svg><span>Call</span></a>
   <a id="place-website" target="_blank" rel="noopener noreferrer" hidden><span>Website</span></a>
  </div>
