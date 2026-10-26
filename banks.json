@@ -1,813 +1,814 @@
 {
-    "count": 17,
-    "results":[
+  "count": 17,
+  "results": [
+    {
+      "name": "Commercial Bank",
+      "coordinates": {
+        "latitude": 7.6859319,
+        "longitude": 81.72734299999999
+      },
+      "address": "No 42 Fawzi Mawatha, Kattankudy 30100",
+      "categories": [
+        "Bank",
+        "ATM"
+      ],
+      "phone": "0652248576",
+      "hours": [
         {
-            "name": "Commercial Bank",
-            "coordinates": {
-                "latitude": 7.6859319,
-                "longitude": 81.72734299999999
-            },
-            "address": "No 42 Fawzi Mawatha, Kattankudy 30100",
-            "categories":[
-                "Bank",
-                "ATM"
-            ],
-            "phone": "0652248576",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "https://www.combank.lk/",
-            "business_status": "OPEN"
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
         },
         {
-            "name": "Seylan Bank PLC - Kattankudy",
-            "coordinates": {
-                "latitude": 7.6876961999999995,
-                "longitude": 81.7244553
-            },
-            "address": "No 500B, 500C New Kalmunai Road Manchanthoduwai, 30100",
-            "categories":[
-                "Public sector bank"
-            ],
-            "phone": "0652246625",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "https://www.seylan.lk/",
-            "business_status": "OPEN"
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
         },
         {
-            "name": "Amana Bank | Kattankudy Branch",
-            "coordinates": {
-                "latitude": 7.683642799999999,
-                "longitude": 81.72679819999999
-            },
-            "address": "237 Main St, Kattankudy 30100",
-            "categories":[
-                "Bank",
-                "ATM",
-                "Private sector bank"
-            ],
-            "phone": "0652247398",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "https://www.amanabank.lk/",
-            "business_status": "OPEN"
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
         },
         {
-            "name": "People's Bank",
-            "coordinates": {
-                "latitude": 7.6753852,
-                "longitude": 81.7319667
-            },
-            "address": "MPGJ+5Q4, Colombo-Ratnapura-Wellawaya-Batticaloa Highway, Kattankudy",
-            "categories":[
-                "Bank"
-            ],
-            "phone": "0652246598",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
         },
         {
-            "name": "Sampath Bank & ATM Kattankudy",
-            "coordinates": {
-                "latitude": 7.6812292,
-                "longitude": 81.72829109999999
-            },
-            "address": "No. 57, 59 Main Street, 03, Kattankudy 30100",
-            "categories":[
-                "Bank"
-            ],
-            "phone": "0652247930",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "http://www.sampath.lk/en/",
-            "business_status": "OPEN"
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
         },
         {
-            "name": "Amana Bank | SBC | Kattankudy beach Road",
-            "coordinates": {
-                "latitude": 7.6848294,
-                "longitude": 81.73763559999999
-            },
-            "address": "Al-Aqsa Mosque Complex, 03 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30000",
-            "categories":[
-                "ATM"
-            ],
-            "phone": "0117756756",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                }
-            ],
-            "website": "https://www.amanabank.lk/",
-            "business_status": "OPEN"
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
         },
         {
-            "name": "HNB Kattankudy",
-            "coordinates": {
-                "latitude": 7.6771036,
-                "longitude": 81.7312379
-            },
-            "address": "No.183, 185 Main St, Kattankudy 30100",
-            "categories":[
-                "Private sector bank",
-                "Bank"
-            ],
-            "phone": "0652247433",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "http://www.hnb.net/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "MCB BANK Limited",
-            "coordinates": {
-                "latitude": 7.683629,
-                "longitude": 81.72689199999999
-            },
-            "address": "MPMG+FQ2, Kattankudy",
-            "categories":[
-                "Bank"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Pan Asia Bank",
-            "coordinates": {
-                "latitude": 7.6738509,
-                "longitude": 81.7329535
-            },
-            "address": "No. 73b,73b 1/1,73C and 73C 1/1 Main street, East, Kattankudy 30100",
-            "categories":[
-                "Bank"
-            ],
-            "phone": "0654926901",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "http://www.pabcbank.com/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Hatton National Bank",
-            "coordinates": {
-                "latitude": 7.683569899999999,
-                "longitude": 81.7268303
-            },
-            "address": "Colombo - Batticaloa Hwy, Kattankudy",
-            "categories":[],
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Sharaf Centre",
-            "coordinates": {
-                "latitude": 7.6863706999999994,
-                "longitude": 81.72528319999999
-            },
-            "address": "MPPG+G4V, Kattankudy",
-            "categories":[
-                "Bank"
-            ],
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "ATM Kathankudy People's Bank",
-            "coordinates": {
-                "latitude": 7.6753845,
-                "longitude": 81.7319864
-            },
-            "address": "MPGJ+5Q5, Main St, Kattankudy",
-            "categories":[
-                "ATM"
-            ],
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "LB Finance PLC Arayampathy",
-            "coordinates": {
-                "latitude": 7.673856499999999,
-                "longitude": 81.73294039999999
-            },
-            "address": "71A, Main Street, East, 30100",
-            "categories":[
-                "Financial institution"
-            ],
-            "phone": "0652248280",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8:30 AM–5:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8:30 AM–5:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8:30 AM–5:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8:30 AM–5:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8:30 AM–5:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8:30 AM–5:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "http://www.lbfinance.com/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "DFCC Bank - Arayampathy",
-            "coordinates": {
-                "latitude": 7.671362299999999,
-                "longitude": 81.7342484
-            },
-            "address": "No.97 New Kalmunai Road",
-            "categories":[
-                "Private sector bank",
-                "ATM",
-                "Currency exchange service",
-                "Money transfer service"
-            ],
-            "phone": "0652248641",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–3 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "https://www.dfcc.lk/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "காத்தான்குடி தபாலகம் Post Office කාත්තන්කුඩි තැපැල් කාර්යාලය",
-            "coordinates": {
-                "latitude": 7.685410699999999,
-                "longitude": 81.7266887
-            },
-            "address": "MPPG+5M8, Kattankudy",
-            "categories":[
-                "Post office"
-            ],
-            "phone": "0652245499",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–4 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Closed"
-                    ]
-                }
-            ],
-            "website": "http://www.slpost.gov.lk/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "MoneyGram",
-            "coordinates": {
-                "latitude": 7.681228699999999,
-                "longitude": 81.72827989999999
-            },
-            "address": "Inside Sampath Bank, 59 Main St, Kattankudy 30100",
-            "categories":[
-                "Money transfer service"
-            ],
-            "phone": "0652247930",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–5 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–5 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–5 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–5 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–5 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–5 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–5 PM"
-                    ]
-                }
-            ],
-            "website": "https://www.moneygram.com/r/lk/en?utm_source=google&utm_medium=organic&utm_campaign=gbp",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Sampath bank ATM",
-            "coordinates": {
-                "latitude": 7.6812577,
-                "longitude": 81.72828059999999
-            },
-            "address": "No 57, 59 Main St, Kattankudy",
-            "categories":[
-                "ATM"
-            ],
-            "hours":[],
-            "business_status": "OPEN"
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
         }
-    ]
+      ],
+      "website": "https://www.combank.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Seylan Bank PLC - Kattankudy",
+      "coordinates": {
+        "latitude": 7.6876961999999995,
+        "longitude": 81.7244553
+      },
+      "address": "No 500B, 500C New Kalmunai Road Manchanthoduwai, 30100",
+      "categories": [
+        "Public sector bank"
+      ],
+      "phone": "0652246625",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "https://www.seylan.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Amana Bank | Kattankudy Branch",
+      "coordinates": {
+        "latitude": 7.683642799999999,
+        "longitude": 81.72679819999999
+      },
+      "address": "237 Main St, Kattankudy 30100",
+      "categories": [
+        "Bank",
+        "ATM",
+        "Private sector bank"
+      ],
+      "phone": "0652247398",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "https://www.amanabank.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "People's Bank",
+      "coordinates": {
+        "latitude": 7.6753852,
+        "longitude": 81.7319667
+      },
+      "address": "MPGJ+5Q4, Colombo-Ratnapura-Wellawaya-Batticaloa Highway, Kattankudy",
+      "categories": [
+        "Bank"
+      ],
+      "phone": "0652246598",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Sampath Bank & ATM Kattankudy",
+      "coordinates": {
+        "latitude": 7.6812292,
+        "longitude": 81.72829109999999
+      },
+      "address": "No. 57, 59 Main Street, 03, Kattankudy 30100",
+      "categories": [
+        "Bank"
+      ],
+      "phone": "0652247930",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "http://www.sampath.lk/en/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Amana Bank | SBC | Kattankudy beach Road",
+      "coordinates": {
+        "latitude": 7.6848294,
+        "longitude": 81.73763559999999
+      },
+      "address": "Al-Aqsa Mosque Complex, 03 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30000",
+      "categories": [
+        "ATM"
+      ],
+      "phone": "0117756756",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Open 24 hours"
+          ]
+        }
+      ],
+      "website": "https://www.amanabank.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "HNB Kattankudy",
+      "coordinates": {
+        "latitude": 7.6771036,
+        "longitude": 81.7312379
+      },
+      "address": "No.183, 185 Main St, Kattankudy 30100",
+      "categories": [
+        "Private sector bank",
+        "Bank"
+      ],
+      "phone": "0652247433",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "http://www.hnb.net/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "MCB BANK Limited",
+      "coordinates": {
+        "latitude": 7.683629,
+        "longitude": 81.72689199999999
+      },
+      "address": "MPMG+FQ2, Kattankudy",
+      "categories": [
+        "Bank"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Pan Asia Bank",
+      "coordinates": {
+        "latitude": 7.6738509,
+        "longitude": 81.7329535
+      },
+      "address": "No. 73b,73b 1/1,73C and 73C 1/1 Main street, East, Kattankudy 30100",
+      "categories": [
+        "Bank"
+      ],
+      "phone": "0654926901",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "http://www.pabcbank.com/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Hatton National Bank",
+      "coordinates": {
+        "latitude": 7.683569899999999,
+        "longitude": 81.7268303
+      },
+      "address": "Colombo - Batticaloa Hwy, Kattankudy",
+      "categories": [],
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Sharaf Centre",
+      "coordinates": {
+        "latitude": 7.6863706999999994,
+        "longitude": 81.72528319999999
+      },
+      "address": "MPPG+G4V, Kattankudy",
+      "categories": [
+        "Bank"
+      ],
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "ATM Kathankudy People's Bank",
+      "coordinates": {
+        "latitude": 7.6753845,
+        "longitude": 81.7319864
+      },
+      "address": "MPGJ+5Q5, Main St, Kattankudy",
+      "categories": [
+        "ATM"
+      ],
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "LB Finance PLC Arayampathy",
+      "coordinates": {
+        "latitude": 7.673856499999999,
+        "longitude": 81.73294039999999
+      },
+      "address": "71A, Main Street, East, 30100",
+      "categories": [
+        "Financial institution"
+      ],
+      "phone": "0652248280",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8:30 AM–5:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8:30 AM–5:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8:30 AM–5:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8:30 AM–5:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8:30 AM–5:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8:30 AM–5:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "http://www.lbfinance.com/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "DFCC Bank - Arayampathy",
+      "coordinates": {
+        "latitude": 7.671362299999999,
+        "longitude": 81.7342484
+      },
+      "address": "No.97 New Kalmunai Road",
+      "categories": [
+        "Private sector bank",
+        "ATM",
+        "Currency exchange service",
+        "Money transfer service"
+      ],
+      "phone": "0652248641",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–3 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "https://www.dfcc.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Kattankudy Post Office",
+      "coordinates": {
+        "latitude": 7.685410699999999,
+        "longitude": 81.7266887
+      },
+      "address": "MPPG+5M8, Kattankudy",
+      "categories": [
+        "Post office"
+      ],
+      "phone": "0652245499",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–4 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Closed"
+          ]
+        }
+      ],
+      "website": "http://www.slpost.gov.lk/",
+      "business_status": "OPEN",
+      "name_original": "காத்தான்குடி தபாலகம் Post Office කාත්තන්කුඩි තැපැල් කාර්යාලය"
+    },
+    {
+      "name": "MoneyGram",
+      "coordinates": {
+        "latitude": 7.681228699999999,
+        "longitude": 81.72827989999999
+      },
+      "address": "Inside Sampath Bank, 59 Main St, Kattankudy 30100",
+      "categories": [
+        "Money transfer service"
+      ],
+      "phone": "0652247930",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–5 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–5 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–5 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–5 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–5 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–5 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–5 PM"
+          ]
+        }
+      ],
+      "website": "https://www.moneygram.com/r/lk/en?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Sampath bank ATM",
+      "coordinates": {
+        "latitude": 7.6812577,
+        "longitude": 81.72828059999999
+      },
+      "address": "No 57, 59 Main St, Kattankudy",
+      "categories": [
+        "ATM"
+      ],
+      "hours": [],
+      "business_status": "OPEN"
+    }
+  ]
 }
