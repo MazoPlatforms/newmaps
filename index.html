@@ -16,9 +16,6 @@ function render(){const q=search.value.trim().toLocaleLowerCase();const matched=
 async function load(){try{const files=['./places.json','./bakery.json'];const responses=await Promise.all(files.map(async file=>{const r=await fetch(file);if(!r.ok)throw Error(file+': HTTP '+r.status);return r.json()}));const unique=new Map();for(const json of responses){for(const p of (Array.isArray(json)?json:json.results||[])){if(!p||!p.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const key=p.name.trim().toLocaleLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!unique.has(key))unique.set(key,p);}}places=[...unique.values()];for(const p of places){const c=p.coordinates;const marker=new maplibregl.Marker({element:makePin(p)}).setLngLat([+c.longitude,+c.latitude]).addTo(map);marker.getElement().addEventListener('click',()=>openPlace(p));markers.push(marker)}render();if(places.length){const bounds=new maplibregl.LngLatBounds();places.forEach(p=>bounds.extend([+p.coordinates.longitude,+p.coordinates.latitude]));map.fitBounds(bounds,{padding:65,maxZoom:15})}}catch(e){status.textContent='Dataset unavailable: '+e.message+'. Add places.json';}}
 // Render only our repository-owned roads; external basemap road lines are hidden.
 map.on('style.load',()=>{
-  for(const layer of map.getStyle().layers||[]){
-    if(layer.type==='line' && /road|street|highway|transport|bridge|tunnel/i.test(layer.id)) map.setLayoutProperty(layer.id,'visibility','none');
-  }
   if(map.getSource('mazo-roads'))return;
   fetch('./data/roads/kattankudy.json').then(r=>{if(!r.ok)throw Error('Road dataset not generated yet');return r.json()}).then(data=>{
     const features=(data.roads||[]).filter(r=>Array.isArray(r.coordinates)&&r.coordinates.length>1).map(r=>({
@@ -28,6 +25,13 @@ map.on('style.load',()=>{
     map.addSource('mazo-roads',{type:'geojson',data:{type:'FeatureCollection',features}});
     map.addLayer({id:'mazo-road-casing',type:'line',source:'mazo-roads',paint:{'line-color':'#9b9b98','line-width':['interpolate',['linear'],['zoom'],10,1.5,16,9]}});
     map.addLayer({id:'mazo-road-surface',type:'line',source:'mazo-roads',paint:{'line-color':'#ffffff','line-width':['interpolate',['linear'],['zoom'],10,1,16,7]}});
+    // Hide provider roads only after our own road dataset has loaded successfully.
+    for(const layer of map.getStyle().layers||[]){
+      if(layer.id.startsWith('mazo-'))continue;
+      if(layer.type==='line' && /road|street|highway|transport|bridge|tunnel/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none');
+    }
+    map.addLayer({id:'mazo-road-names',type:'symbol',source:'mazo-roads',filter:['has','name'],layout:{'symbol-placement':'line','text-field':['get','name'],'text-size':12,'text-font':['Noto Sans Regular'],'symbol-spacing':300},paint:{'text-color':'#424242','text-halo-color':'#ffffff','text-halo-width':1.5}});
+
   }).catch(err=>console.warn('Mazo road layer unavailable:',err.message));
 });
 search.addEventListener('input',render);load();
