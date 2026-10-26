@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import places
 import places_cleanup_phase2 as cleanup
+from place_names import normalize_place_name
 
 
 class Phase2NormalizationTests(unittest.TestCase):
@@ -18,6 +19,23 @@ class Phase2NormalizationTests(unittest.TestCase):
         self.assertEqual(cleanup.normalize_name("BOC ATM"), "BOC ATM")
         self.assertEqual(cleanup.normalize_name("iPhone repair"), "iPhone repair")
         self.assertEqual(cleanup.normalize_name("காத்தான்குடி"), "காத்தான்குடி")
+
+    def test_comprehensive_title_case_examples_and_stylization(self):
+        examples = {
+            "Mansoor koli kade": "Mansoor Koli Kade",
+            "aayisha meat shop": "Aayisha Meat Shop",
+            "smr transport": "SMR Transport",
+            "baqalathul kanz": "Baqalathul Kanz",
+            "AL AMEEN HOTEL": "Al Ameen Hotel",
+            "People's Bank": "People's Bank",
+            "iPhone Repair": "iPhone Repair",
+            "SMR Transport": "SMR Transport",
+            "காத்தான்குடி": "காத்தான்குடி",
+            "Bikerboy.lk": "Bikerboy.lk",
+        }
+        for before, after in examples.items():
+            with self.subTest(before=before):
+                self.assertEqual(normalize_place_name(before), after)
 
     def test_address_formatting_is_conservative_and_preserves_localities(self):
         self.assertEqual(cleanup.normalize_address("No8 Ash Shaheed Rd., Kattankudy 30100"),
@@ -60,6 +78,9 @@ class Phase2DuplicateTests(unittest.TestCase):
                 self.assertEqual(len(list(shard.glob("*.json"))), 1)
                 places.allocate({"name": "Nearby Separate Business", "coordinates": existing["coordinates"]})
                 self.assertEqual(len(list(shard.glob("*.json"))), 2)
+                places.allocate({"name": "aayisha meat shop", "coordinates": {"latitude": 7.69, "longitude": 81.74}}, True)
+                names = [json.loads(path.read_text())["name"] for path in shard.glob("*.json")]
+                self.assertIn("Aayisha Meat Shop", names)
         finally:
             places.PLACES, places.ALIASES, places.ROOT = old_places, old_aliases, old_root
 
@@ -100,7 +121,8 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
         self.assertEqual(summary["records_retired"], 1039)
         self.assertEqual(summary["canonical_records_retained"], 695)
         self.assertEqual(summary["unresolved_duplicate_groups"], 172)
-        self.assertEqual(summary["names_normalized"], 2)
+        self.assertGreater(summary["names_normalized"], 2)
+        self.assertEqual(summary["title_case_names_normalized"], len(report["title_case_changes"]))
         self.assertEqual(summary["addresses_normalized"], 954)
         aliases = places.load_aliases()
         self.assertEqual(len(aliases), 1039)
@@ -116,6 +138,81 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
         self.assertTrue(all(group["conflicting_fields"] for group in groups))
         self.assertTrue(all(len(group["candidate_record_ids"]) >= 2 for group in groups))
 
+    def test_every_reported_format_change_is_persisted_to_active_or_alias_record(self):
+        report = json.loads((ROOT / "reports/places-data-quality-phase-2.json").read_text())
+        aliases = places.load_aliases()
+        self.assertEqual(cleanup.formatting_drift(), [])
+        for change in report["format_changes"]:
+            active = list((ROOT / "data/places").glob(f"*/{change['id']}.json"))
+            record = json.loads(active[0].read_text()) if active else aliases[change["id"]]["record"]
+            for field, expected in change["after"].items():
+                self.assertEqual(record[field], expected, change["id"])
+
+    def test_title_case_report_covers_active_names_without_changing_ids_or_aliases(self):
+        report = json.loads((ROOT / "reports/places-data-quality-phase-2.json").read_text())
+        aliases = places.load_aliases()
+        self.assertEqual(len(aliases), 1039)
+        self.assertEqual(len(report["title_case_changes"]), report["summary"]["title_case_names_normalized"])
+        for row in report["title_case_changes"]:
+            active = ROOT / row["filename"]
+            record = json.loads(active.read_text())
+            self.assertEqual(record["id"], row["id"])
+            self.assertEqual(record["name"], row["after"])
+            self.assertEqual(normalize_place_name(record["name"]), record["name"])
+        active_ids = {p.stem for p in (ROOT / "data/places").glob("*/*.json")}
+        self.assertEqual(active_ids | set(aliases), {row["id"] for row in json.loads((ROOT / "migration-record-map.json").read_text())})
+
+    def test_rollback_restores_retired_and_normalized_records_in_isolation(self):
+        old = (cleanup.ROOT, cleanup.PLACES, cleanup.ALIASES,
+               places.ROOT, places.PLACES, places.ALIASES, places.GENERATED)
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                place_root = root / "data/places"
+                shard = place_root / "0001"
+                shard.mkdir(parents=True)
+                canonical_id = "01AAAAAAAAAAAAAAAAAAAAAAAA"
+                retired_id = "01BBBBBBBBBBBBBBBBBBBBBBBB"
+                titlecase_id = "01CCCCCCCCCCCCCCCCCCCCCCCC"
+                coords = {"latitude": 7.68, "longitude": 81.73}
+                canonical = {"id": canonical_id, "name": "Canonical Name", "coordinates": coords,
+                             "address": "No. 2 Main Road"}
+                retired = {"id": retired_id, "name": "Canonical Name", "coordinates": coords,
+                           "address": "No. 2 Main Road"}
+                titlecase_only = {"id": titlecase_id, "name": "Title Case Place",
+                                  "coordinates": {"latitude": 7.70, "longitude": 81.75}}
+                (shard / f"{canonical_id}.json").write_text(json.dumps(canonical))
+                (shard / f"{titlecase_id}.json").write_text(json.dumps(titlecase_only))
+                aliases = {"version": 1, "aliases": {retired_id: {
+                    "canonical_id": canonical_id, "original_path": f"data/places/0001/{retired_id}.json",
+                    "record": retired, "source_lineage": {"id": retired_id, "source": "legacy.json", "index": 1},
+                }}, "phase2_titlecase_backup": [
+                    {"id": titlecase_id, "filename": f"data/places/0001/{titlecase_id}.json",
+                     "before": {"name": "title case place"}},
+                ], "phase2_formatting_backup": [
+                    {"id": canonical_id, "filename": f"data/places/0001/{canonical_id}.json",
+                     "before": {"name": "canonical name", "address": "No 2 Main Rd"}},
+                    {"id": retired_id, "filename": f"data/places/0001/{retired_id}.json",
+                     "before": {"name": "canonical name", "address": "No 2 Main Rd"}},
+                ]}
+                (place_root / "aliases.json").write_text(json.dumps(aliases))
+                cleanup.ROOT, cleanup.PLACES, cleanup.ALIASES = root, place_root, place_root / "aliases.json"
+                places.ROOT, places.PLACES, places.ALIASES = root, place_root, place_root / "aliases.json"
+                places.GENERATED = root / "generated"
+                cleanup.rollback()
+                self.assertFalse((place_root / "aliases.json").exists())
+                restored = [json.loads(p.read_text()) for p in sorted(shard.glob("*.json"))]
+                self.assertEqual({r["id"] for r in restored}, {canonical_id, retired_id, titlecase_id})
+                self.assertTrue(all(r["name"] == "canonical name" and r["address"] == "No 2 Main Rd"
+                                    for r in restored if r["id"] != titlecase_id))
+                restored_title = next(r for r in restored if r["id"] == titlecase_id)
+                self.assertEqual(restored_title["name"], "title case place")
+                geo = json.loads((places.GENERATED / "kattankudy.mzp").read_text())
+                self.assertEqual(len(geo["features"]), 3)
+        finally:
+            (cleanup.ROOT, cleanup.PLACES, cleanup.ALIASES,
+             places.ROOT, places.PLACES, places.ALIASES, places.GENERATED) = old
+
     def test_shards_mzp_and_manifest_stay_consistent(self):
         records, shard_counts, _ = places.load_places()
         self.assertEqual(len(records), 2655)
@@ -127,9 +224,27 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
         self.assertEqual(len(geo["features"]), manifest["features"])
         self.assertEqual(manifest["shards"], shard_counts)
         self.assertEqual(manifest["aliases"], {key: places.resolve_place_id(key) for key in places.load_aliases()})
+        by_id = {feature["id"]: feature["properties"]["name"] for feature in geo["features"]}
+        for row in json.loads((ROOT / "reports/places-data-quality-phase-2.json").read_text())["title_case_changes"]:
+            self.assertEqual(by_id.get(row["id"]), row["after"])
         first_hash = cleanup.sha256_file(places.GENERATED / "kattankudy.mzp")
         places.build()
         self.assertEqual(cleanup.sha256_file(places.GENERATED / "kattankudy.mzp"), first_hash)
+
+    def test_map_loader_keeps_every_in_area_feature_searchable(self):
+        geo = json.loads((places.GENERATED / "kattankudy.mzp").read_text())
+        features = geo["features"]
+        eligible = [f for f in features if f.get("properties", {}).get("name")
+                    and f["properties"]["name"].strip().lower() != "kattankudt"
+                    and 81.70 <= f["geometry"]["coordinates"][0] <= 81.77
+                    and 7.65 <= f["geometry"]["coordinates"][1] <= 7.72]
+        self.assertEqual(len(eligible), 2202)
+        app = (ROOT / "assets/js/app.js").read_text()
+        self.assertIn("if(inArea(p))places.push", app)
+        self.assertNotIn("if(!seen.has(k)", app)
+        self.assertIn("const hits=places.filter", app)
+        self.assertIn("[p.name,p.address,...(p.categories||[])].join(' ').toLowerCase().includes(q)", app)
+        self.assertIn("$('#place-address').textContent=p.address||'Address unavailable'", app)
 
     def test_roads_and_speed_limit_sources_match_pre_cleanup_hashes(self):
         report = json.loads((ROOT / "reports/places-data-quality-phase-2.json").read_text())

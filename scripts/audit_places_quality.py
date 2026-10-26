@@ -122,16 +122,31 @@ def load_records():
     records, mapping = [], {}
     for row in json.loads(MAPPING.read_text(encoding="utf-8")):
         mapping[row["id"]] = {"source_file": row.get("source"), "source_index": row.get("index")}
+    aliases_path = PLACES / "aliases.json"
+    alias_data = json.loads(aliases_path.read_text(encoding="utf-8")) if aliases_path.exists() else {"aliases": {}}
+    titlecase_before = {
+        item["id"]: item["before"]
+        for item in alias_data.get("phase2_titlecase_backup", [])
+    }
+    formatting_before = {
+        item["id"]: item["before"]
+        for item in alias_data.get("phase2_formatting_backup", [])
+    }
     for path in sorted(PLACES.glob("*/*.json")):
         record = json.loads(path.read_text(encoding="utf-8"))
+        # This audit reconstructs the original candidate snapshot, including
+        # pre-cleanup name/address values retained by the rollback manifest.
+        record.update(titlecase_before.get(record.get("id"), {}))
+        record.update(formatting_before.get(record.get("id"), {}))
         records.append((path, record))
     # Retired source copies remain part of historical quality review through
     # their durable aliases; they are excluded from active MZP builds.
-    aliases_path = PLACES / "aliases.json"
     if aliases_path.exists():
-        aliases = json.loads(aliases_path.read_text(encoding="utf-8"))
-        for entry in aliases.get("aliases", {}).values():
-            records.append((ROOT / entry["original_path"], entry["record"]))
+        for entry in alias_data.get("aliases", {}).values():
+            record = dict(entry["record"])
+            record.update(titlecase_before.get(record.get("id"), {}))
+            record.update(formatting_before.get(record.get("id"), {}))
+            records.append((ROOT / entry["original_path"], record))
     return records, mapping
 
 

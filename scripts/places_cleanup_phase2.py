@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import audit_places_quality as audit
+from place_names import normalize_place_name
 
 PLACES = ROOT / "data" / "places"
 ALIASES = PLACES / "aliases.json"
@@ -120,15 +121,19 @@ def data_hashes(pattern: str) -> dict[str, str]:
 def reconstruct_pre_cleanup_audit() -> dict:
     """Rebuild the historical report from active records and durable retired-record backups."""
     aliases = load_alias_data()
+    titlecase_backup = {item["id"]: item["before"] for item in aliases.get("phase2_titlecase_backup", [])}
     backup = {item["id"]: item["before"] for item in aliases.get("phase2_formatting_backup", [])}
     entries = []
     for path in sorted(PLACES.glob("*/*.json")):
         record = json.loads(path.read_text(encoding="utf-8"))
+        record.update(titlecase_backup.get(record["id"], {}))
         record.update(backup.get(record["id"], {}))
         entries.append((path, record))
     for entry in aliases.get("aliases", {}).values():
         path = ROOT / entry["original_path"]
         record = dict(entry["record"])
+        before = backup.get(record["id"], {})
+        record.update(titlecase_backup.get(record["id"], {}))
         before = backup.get(record["id"], {})
         record.update(before)
         entries.append((path, record))
@@ -147,6 +152,14 @@ def rebuild_phase2_report() -> dict:
     historical = reconstruct_pre_cleanup_audit()
     alias_data = load_alias_data()
     aliases = alias_data.get("aliases", {})
+    titlecase_backup = alias_data.get("phase2_titlecase_backup", [])
+    titlecase_changes = []
+    for item in titlecase_backup:
+        after = normalize_place_name(item["before"]["name"])
+        titlecase_changes.append({"id": item["id"], "filename": item["filename"],
+                                  "before": item["before"]["name"], "after": after,
+                                  "reason": "Title Case normalization of each ordinary word; spelling, ULID, and existing intentional mixed-case styling preserved.",
+                                  "evidence": "Existing active place-record name; case-only transformation, no external spelling claim."})
     changes = []
     for row in historical["records"]:
         before, after = {}, {}
@@ -172,6 +185,19 @@ def rebuild_phase2_report() -> dict:
         consolidated.append({"group_id": group["group_id"], "canonical_id": canonical_id,
                              "retired_ids": retired, "record_ids": sorted(group["candidate_record_ids"]),
                              "conflicting_fields": [], "field_preservation": "All non-ID fields were identical; no field values were discarded."})
+    final_by_id = {}
+    for path in sorted(PLACES.glob("*/*.json")):
+        record = json.loads(path.read_text(encoding="utf-8"))
+        final_by_id[record["id"]] = (record, "active")
+    for retired_id, entry in aliases.items():
+        final_by_id[retired_id] = (entry["record"], "retired_alias")
+    name_changes = []
+    for row in historical["records"]:
+        final, state = final_by_id.get(row["id"], ({}, "missing"))
+        if row.get("name") != final.get("name"):
+            name_changes.append({"id": row["id"], "before": row.get("name"), "after": final.get("name"),
+                                 "record_state": state,
+                                 "reason": "Case-only name normalization; spelling and permanent ULID retained."})
     road_hashes = data_hashes("data/roads/*/*.json")
     speed_hashes = data_hashes("data/speed-limits/*/*.json")
     supplementary_count = sum(
@@ -192,7 +218,9 @@ def rebuild_phase2_report() -> dict:
                            "artifact_sha256": "6fccb4b4f91047d9355f9818cf5d68acdfbee85dff98db2acc05ffba1ccd50d2",
                            "reconstruction_matches_artifact": True},
         "summary": {"records_before": len(historical["records"]), "records_after": active_count,
-                    "names_normalized": sum("name" in item["after"] for item in changes),
+                    "names_normalized": sum("name" in item["after"] for item in changes) + len(titlecase_changes),
+                    "names_changed_from_base": len(name_changes),
+                    "title_case_names_normalized": len(titlecase_changes),
                     "addresses_normalized": sum("address" in item["after"] for item in changes),
                     "duplicate_groups_consolidated": len(consolidated), "records_retired": len(aliases),
                     "canonical_records_retained": len(consolidated), "unresolved_duplicate_groups": len(unresolved),
@@ -211,7 +239,9 @@ def rebuild_phase2_report() -> dict:
             "speed_limits": {"record_count": len(speed_hashes), "all_source_hashes_unchanged": diff.returncode == 0 and not diff.stdout},
             "supplementary_unverified_maxspeed_records": supplementary_count,
         },
-        "format_changes": changes, "consolidated_groups": consolidated,
+        "format_changes": changes, "title_case_changes": titlecase_changes,
+        "name_changes_from_base": name_changes,
+        "consolidated_groups": consolidated,
         "retired_aliases": {k: {"canonical_id": v["canonical_id"], "original_path": v["original_path"],
                                 "source_lineage": v["source_lineage"], "record": v["record"], "reason": v["reason"]}
                            for k, v in sorted(aliases.items())},
@@ -241,6 +271,98 @@ def load_alias_data() -> dict:
     if data.get("version") != 1 or not isinstance(data.get("aliases"), dict):
         raise ValueError("Unsupported place alias file")
     return data
+
+
+def apply_pending_formatting() -> int:
+    """Apply every recorded safe formatting change, including edits missed by an earlier run."""
+    data = load_alias_data()
+    aliases = data.get("aliases", {})
+    backups = data.get("phase2_formatting_backup", [])
+    changed = 0
+    for item in backups:
+        record_id = item["id"]
+        active_path = next(iter(PLACES.glob(f"*/{record_id}.json")), None)
+        alias_entry = aliases.get(record_id)
+        if active_path:
+            record = json.loads(active_path.read_text(encoding="utf-8"))
+        elif alias_entry:
+            record = alias_entry["record"]
+        else:
+            raise ValueError(f"Formatting backup does not resolve to an active or retired record: {record_id}")
+        record_changed = False
+        for field, original in item["before"].items():
+            candidate = normalize_name(original) if field == "name" else normalize_address(original)
+            if record.get(field) != candidate:
+                record[field] = candidate
+                changed += 1
+                record_changed = True
+        if active_path:
+            if record_changed:
+                active_path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        elif alias_entry:
+            alias_entry["record"] = record
+    ALIASES.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return changed
+
+
+def formatting_drift() -> list[str]:
+    data = load_alias_data()
+    aliases = data.get("aliases", {})
+    drift = []
+    for item in data.get("phase2_formatting_backup", []):
+        record_id = item["id"]
+        active_path = next(iter(PLACES.glob(f"*/{record_id}.json")), None)
+        record = json.loads(active_path.read_text(encoding="utf-8")) if active_path else aliases.get(record_id, {}).get("record")
+        if record is None:
+            drift.append(record_id)
+            continue
+        for field, original in item["before"].items():
+            candidate = normalize_name(original) if field == "name" else normalize_address(original)
+            if record.get(field) != candidate:
+                drift.append(record_id)
+                break
+    for item in data.get("phase2_titlecase_backup", []):
+        record_id = item["id"]
+        active_path = next(iter(PLACES.glob(f"*/{record_id}.json")), None)
+        if not active_path:
+            drift.append(record_id)
+            continue
+        record = json.loads(active_path.read_text(encoding="utf-8"))
+        expected = normalize_place_name(item["before"]["name"])
+        if record.get("name") != expected:
+            drift.append(record_id)
+    return drift
+
+
+def apply_active_titlecase() -> int:
+    """Reversibly title-case every applicable active name and rebuild outputs."""
+    data = load_alias_data()
+    if data.get("phase2_titlecase_backup"):
+        # Idempotent; repair drift if a checked-out record was changed later.
+        for item in data["phase2_titlecase_backup"]:
+            path = ROOT / item["filename"]
+            record = json.loads(path.read_text(encoding="utf-8"))
+            record["name"] = normalize_place_name(item["before"]["name"])
+            path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        return 0
+    changes = []
+    for path in sorted(PLACES.glob("*/*.json")):
+        record = json.loads(path.read_text(encoding="utf-8"))
+        before = record.get("name")
+        if not isinstance(before, str):
+            continue
+        after = normalize_place_name(before)
+        if after != before:
+            changes.append({"id": record["id"], "filename": str(path.relative_to(ROOT)),
+                            "before": {"name": before}, "after": after})
+            record["name"] = after
+            path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    data["phase2_titlecase_backup"] = changes
+    ALIASES.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    import places
+    with contextlib.redirect_stdout(io.StringIO()):
+        places.build()
+    return len(changes)
 
 
 def validate_alias_data(alias_data: dict, active_ids: set[str]) -> None:
@@ -288,6 +410,12 @@ def apply_cleanup(do_apply: bool = False) -> dict:
             changed_values.append({"id": row["id"], "filename": row["filename"], "before": before, "after": after,
                                   "reason": "Whitespace, explicit house-number label, or unambiguous Rd abbreviation formatting only.",
                                   "evidence": "Existing record value only; no street, locality, postcode, or name spelling was inferred."})
+
+    # Persist every formatting edit, including records outside consolidated groups.
+    if do_apply:
+        for item in changed_values:
+            path = ROOT / item["filename"]
+            path.write_text(json.dumps(original_records[item["id"]], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     duplicate_report = current["duplicate_groups"]
     confirmed = [g for g in duplicate_report if g["identical_except_id"]]
@@ -412,6 +540,11 @@ def rollback() -> None:
             raise ValueError(f"Cannot restore {retired_id}; path is already occupied: {path}")
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(entry["record"], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    for item in data.get("phase2_titlecase_backup", []):
+        path = ROOT / item["filename"]
+        record = json.loads(path.read_text(encoding="utf-8"))
+        record.update(item["before"])
+        path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     for item in data.get("phase2_formatting_backup", []):
         path = ROOT / item["filename"]
         record = json.loads(path.read_text(encoding="utf-8"))
@@ -464,13 +597,22 @@ def write_reports(report: dict) -> None:
         "The score ranks investigation priority only; it is not a probability that a place is fake.", "",
         "## Changes", "",
         f"- Names normalized: {s['names_normalized']}", f"- Addresses normalized: {s['addresses_normalized']}",
+        f"- Comprehensive Title Case changes on active records: {s.get('title_case_names_normalized', 0)} (complete before/after list in the JSON report)",
         f"- Exact duplicate groups consolidated: {s['duplicate_groups_consolidated']}",
         f"- Records retired with permanent ULID aliases: {s['records_retired']}",
         f"- Canonical records retained: {s['canonical_records_retained']}",
         f"- Unresolved duplicate groups: {s['unresolved_duplicate_groups']}",
         f"- Active Places: {s['records_before']} → {s['records_after']}", "",
         "Exact before/after values, affected ULIDs, all conflict fields, evidence states, and retired-record backups are in `../reports/places-data-quality-phase-2.json`.", "",
-        "## Review scope and limits", "",
+        f"## Complete name changes ({s.get('names_changed_from_base', 0)} records)", "",
+        "| ULID | Before | After | Record state |", "|---|---|---|---|",
+    ]
+    for item in report.get("name_changes_from_base", []):
+        before = str(item.get("before") or "").replace("|", "\\|").replace("\n", " ")
+        after = str(item.get("after") or "").replace("|", "\\|").replace("\n", " ")
+        lines.append(f"| `{item['id']}` | {before} | {after} | {item['record_state']} |")
+    lines += [
+        "", "## Review scope and limits", "",
         "All 867 audit groups were re-evaluated against current field values. Only groups with every non-ID field exactly equal were consolidated. The 172 groups with field differences remain unresolved; co-location alone was not used to merge records.", "",
         "Records without independently checked public listings are marked unverified/not checked. Search links are leads only. Missing online presence does not label a record invalid. The two ADDAX records have an IDB name/contact match but conflicting address evidence; the source address and pin were preserved.", "",
         "Kattankudy postcode 30100 is retained as a reference. Conflicting locality/postcode records were not changed. Invalid or missing coordinates, category mismatches, and pin placement require review from a source that was not available for each record.", "",
@@ -494,11 +636,20 @@ def main() -> int:
         rollback()
         return 0
     if args.apply and not ALIASES.exists():
-        report = apply_cleanup(do_apply=True)
+        apply_cleanup(do_apply=True)
+        apply_active_titlecase()
+        report = rebuild_phase2_report()
         write_reports(report)
         print(json.dumps(report["summary"], indent=2))
         return 0
     if ALIASES.exists():
+        if args.apply:
+            applied = apply_pending_formatting()
+            titlecase_applied = apply_active_titlecase()
+            report = rebuild_phase2_report()
+            write_reports(report)
+            print(json.dumps({"formatting_fields_applied": applied, "title_case_names_applied": titlecase_applied, **report["summary"]}, indent=2))
+            return 0
         report = json.loads(JSON_REPORT.read_text(encoding="utf-8"))
         if ("record_review" not in report or "data_integrity_before_after" not in report
                 or not report.get("summary", {}).get("road_source_hashes_unchanged")
@@ -508,6 +659,9 @@ def main() -> int:
             report = rebuild_phase2_report()
         validate_alias_data(load_alias_data(), {p.stem for p in PLACES.glob("*/*.json")})
         if args.check:
+            drift = formatting_drift()
+            if drift:
+                raise SystemExit(f"Unapplied formatting edits for {len(drift)} records; rerun with --apply")
             print(json.dumps(report["summary"], indent=2))
             return 0
         write_reports(report)

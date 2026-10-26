@@ -4,6 +4,8 @@ import argparse, hashlib, json, os, re, secrets, sys, time
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT/'scripts'))
+from place_names import normalize_place_name
 PLACES=ROOT/'data'/'places'; GENERATED=ROOT/'generated'; ALIASES=PLACES/'aliases.json'; LIMIT=999
 ULID=re.compile(r'^[0-7][0-9A-HJKMNP-TV-Z]{25}$')
 SOURCE_FILES=sorted(p for p in ROOT.glob('*.json') if p.name not in {'manifest.json','migration-record-map.json','migration-exclusions.json'})
@@ -87,7 +89,7 @@ def build():
     print(json.dumps({**report,'suspicious_duplicate_pairs':len(suspicious)},indent=2))
 def allocate(record, allow_duplicate_candidate=False):
     if 'id' in record: raise ValueError('New places must not supply an existing id')
-    record={**record,'id':new_ulid()};validate_record(record)
+    record={**record,'name':normalize_place_name(record.get('name','')),'id':new_ulid()};validate_record(record)
     if not allow_duplicate_candidate and isinstance(record.get('coordinates'),dict):
         incoming=(re.sub(r'[^\w]','',record['name'].casefold()),record['coordinates'].get('latitude'),record['coordinates'].get('longitude'))
         for existing in load_places()[0]:
