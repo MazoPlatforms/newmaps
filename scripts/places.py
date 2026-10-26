@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Mazo Maps place data validator, allocator, migrator and MZP builder."""
-import argparse, base64, hashlib, json, os, re, secrets, sys, time
+import argparse, hashlib, json, os, re, secrets, sys, time
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
-PLACES=ROOT/'places'; GENERATED=ROOT/'generated'; LIMIT=999
+PLACES=ROOT/'data'/'places'; GENERATED=ROOT/'generated'; LIMIT=999
 ULID=re.compile(r'^[0-7][0-9A-HJKMNP-TV-Z]{25}$')
 SOURCE_FILES=sorted(p for p in ROOT.glob('*.json') if p.name not in {'manifest.json','migration-record-map.json','migration-exclusions.json'})
 
@@ -72,8 +72,8 @@ def allocate(record):
     with target.open('x',encoding='utf8') as f:json.dump(record,f,ensure_ascii=False,indent=2);f.write('\n')
     print(target.relative_to(ROOT))
 def migrate():
-    import shutil
-    if PLACES.exists():shutil.rmtree(PLACES)
+    if PLACES.exists(): raise ValueError(f'{PLACES.relative_to(ROOT)} already exists; refusing to overwrite place records')
+    if not SOURCE_FILES: raise ValueError('No legacy root-level place datasets found; refusing to create an empty migration')
     map_path=ROOT/'migration-record-map.json'
     old_mapping=json.loads(map_path.read_text()) if map_path.exists() else []
     stable_ids={(row['source'],row['index']):row['id'] for row in old_mapping}

@@ -1,7 +1,7 @@
 name: Validate Mazo Places
 on:
   pull_request:
-    paths: ['places/**', 'scripts/**', 'tests/**', 'data/place.schema.json', 'assets/js/app.js', '.github/workflows/**']
+    paths: ['data/places/**', '*.json', 'scripts/**', 'tests/**', 'data/place.schema.json', 'assets/js/app.js', '.github/workflows/**']
   push:
     branches: [main]
 permissions:
