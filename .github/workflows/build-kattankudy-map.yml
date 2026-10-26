@@ -1,0 +1,62 @@
+name: Build Kattankudy PMTiles
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-kattankudy-map.yml'
+  schedule:
+    - cron: '12 2 3 * *'
+permissions:
+  contents: write
+concurrency:
+  group: kattankudy-pmtiles
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+      - name: Install PMTiles CLI
+        run: |
+          go install github.com/protomaps/go-pmtiles@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+      - name: Extract Kattankudy area from Mazo Overture archives
+        run: |
+          mkdir -p data/kattankudy
+          for name in base transportation buildings; do
+            pmtiles extract "https://mazoplatforms.github.io/maps/data/sri-lanka/${name}.pmtiles" "data/kattankudy/${name}.pmtiles" --bbox=81.69,7.64,81.78,7.73
+            test -s "data/kattankudy/${name}.pmtiles"
+            pmtiles show "data/kattankudy/${name}.pmtiles"
+          done
+      - name: Verify archives and switch styles to local URLs
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          root=pathlib.Path('data/kattankudy')
+          for name in ('base','transportation','buildings'):
+              p=root/(name+'.pmtiles')
+              assert p.stat().st_size>127 and p.open('rb').read(7)==b'PMTiles', p
+              assert p.stat().st_size<95_000_000, f'{p} too large for GitHub'
+          for theme in ('light','dark'):
+              p=pathlib.Path('assets/styles/mazo-'+theme+'.json')
+              style=json.loads(p.read_text())
+              for name in ('base','transportation','buildings'):
+                  style['sources'][name]['url']='pmtiles://./data/kattankudy/'+name+'.pmtiles'
+                  style['sources'][name]['bounds']=[81.69,7.64,81.78,7.73]
+              p.write_text(json.dumps(style,indent=2)+'\n')
+          PY
+      - name: Commit validated tiles and styles
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/kattankudy/*.pmtiles assets/styles/mazo-*.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: host verified Kattankudy Overture PMTiles locally'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
