@@ -37,6 +37,7 @@ const canonicalNames=new Map([
 const knownAcronyms=new Set(['SMR','BT','BC','ATM','ATMs','LED','CCTV','IT','ICT','PC','USB','GPS','NGO','TV','AC','DC','MCC','RDA','SLT','HNB','BOC','NSB','NDB','DFCC','CEB','LPG','KFC','BTS']);
 function canonicalPlaceName(raw){
  const value=String(raw??'').trim().replace(/\s+/g,' ');
+ if(/[\u0B80-\u0BFF\u0D80-\u0DFF]/.test(value))return value;
  const known=canonicalNames.get(value.toLocaleLowerCase('en'));
  if(known)return known;
  // Preserve existing intentional mixed-case brand styling. Only normalize
