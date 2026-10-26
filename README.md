@@ -12,9 +12,13 @@ Use `python scripts/places.py add record.json` to create a place. The allocator 
 
 `.mzp` is compact, ordinary GeoJSON `FeatureCollection` JSON. Feature IDs are ULIDs, coordinates follow GeoJSON `[longitude, latitude]`, and place fields are properties. Records without coordinates stay in the individual JSON archive and mapping but are listed in the manifest and omitted from map features. Invalid non-null coordinates fail validation. Build locally with `python scripts/places.py build`; output is `generated/kattankudy.mzp` and `generated/manifest.json`. The manifest provides feature count, byte length, shard counts, and SHA-256 for cache invalidation.
 
+## Road records
+
+Road segments live in `data/roads/<shard>/<ULID>.json`, with no more than 999 records per shard. The permanent ULID is `id`; the Overture segment ID is retained as `source_id`. The compact `road-migration-map.json` manifest points to per-shard mapping files and preserves the source-to-ULID path and source-record checksum. Run `python scripts/roads.py add road.json` to allocate a new record, `python scripts/roads.py validate` to check the road tree and source mapping, and `python scripts/roads.py build` to generate `generated/kattankudy-roads.mzp` plus its roads-specific manifest. The map fetches this GeoJSON once and reuses it for road-related map data. Do not merge segments by name or alter their source coordinates. The previous combined source dataset is retained on the `archive/pre-ulid-roads-migration` branch.
+
 ## Validation and deployment
 
-`python scripts/places.py validate` checks IDs, filenames, JSON, coordinates, duplicate IDs, and shard limits. `python -m unittest discover -s tests -v` runs allocator, migration integrity, and shard tests. GitHub Actions validates pull requests and the Pages workflow builds the MZP before uploading the site artifact. Set Pages source to GitHub Actions.
+`python scripts/places.py validate` and `python scripts/roads.py validate` check IDs, filenames, source IDs, JSON, geometry, duplicate IDs, and shard limits. `python -m unittest discover -s tests -v` runs allocator, migration integrity, roads, and shard tests. GitHub Actions validates pull requests and the Pages workflow builds both MZP files before uploading the site artifact. Set Pages source to GitHub Actions.
 
 Migration artifacts `migration-record-map.json` and `migration-exclusions.json` map every original file/index to its new ID and document records without coordinates. The original 61 category datasets are preserved on the [`archive/pre-ulid-migration`](https://github.com/MazoPlatforms/newmaps/tree/archive/pre-ulid-migration) branch. The live app loads the generated MZP instead of requesting individual place JSON files.
 

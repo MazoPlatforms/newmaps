@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "source_file": "kattankudy.json",
+  "source_sha256": "6a7cada357c8cfe55c6618a6df76579deeceaec40caa6acb962424db07eec060",
+  "source_count": 3710,
+  "source_metadata": {
+    "schema_version": 1,
+    "area": "Kattankudy (approximate bounding box)",
+    "source": "Overture Maps transportation/segment",
+    "bbox": [
+      81.7,
+      7.65,
+      81.77,
+      7.72
+    ]
+  },
+  "records_count": 3710,
+  "mapping_parts": [
+    "road-migration-map-0001.json",
+    "road-migration-map-0002.json",
+    "road-migration-map-0003.json",
+    "road-migration-map-0004.json"
+  ]
+}
