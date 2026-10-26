@@ -1,0 +1,113 @@
+{
+    "count": 5,
+    "results":[
+        {
+            "name": "Kattankudy Square",
+            "coordinates": {
+                "latitude": 7.675901499999999,
+                "longitude": 81.73137559999999
+            },
+            "address": "MPGJ+9H6, Kattankudy",
+            "categories":[
+                "Historical landmark"
+            ],
+            "hours":[],
+            "business_status": "OPEN"
+        },
+        {
+            "name": "Al Quraan Square",
+            "coordinates": {
+                "latitude": 7.6803041,
+                "longitude": 81.7287678
+            },
+            "address": "MPJH+4GC, Kattankudy",
+            "categories":[
+                "Historical landmark"
+            ],
+            "hours":[
+                {
+                    "day": "Monday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Friday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                },
+                {
+                    "day": "Sunday",
+                    "times":[
+                        "Open 24 hours"
+                    ]
+                }
+            ],
+            "business_status": "OPEN"
+        },
+        {
+            "name": "Kattankudy Welcome Board",
+            "coordinates": {
+                "latitude": 7.6870946,
+                "longitude": 81.72497489999999
+            },
+            "address": "456 Main St, Kattankudy",
+            "categories":[
+                "Historical landmark"
+            ],
+            "hours":[],
+            "business_status": "OPEN"
+        },
+        {
+            "name": "Kalima Square",
+            "coordinates": {
+                "latitude": 7.686364299999999,
+                "longitude": 81.7401223
+            },
+            "address": "MPPR+G2X, Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+            "categories":[
+                "Historical landmark"
+            ],
+            "hours":[],
+            "business_status": "OPEN"
+        },
+        {
+            "name": "Goodwin Junctioni",
+            "coordinates": {
+                "latitude": 7.6803231,
+                "longitude": 81.7287961
+            },
+            "address": "MPJH+4GF, Sir Razeek Fareed Mawatha, Kattankudy",
+            "categories":[
+                "Historical landmark"
+            ],
+            "hours":[],
+            "business_status": "OPEN"
+        }
+    ]
+}
