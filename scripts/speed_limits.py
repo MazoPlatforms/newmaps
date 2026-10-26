@@ -407,6 +407,17 @@ def build(repository_root=ROOT, output_dir=None):
     if source_raw:
         json.loads(source_raw)
     source_parse_ms = round((time.perf_counter() - source_parse_started) * 1000, 3)
+    mzp_parse_started = time.perf_counter()
+    parsed_geojson = json.loads(body)
+    mzp_parse_ms = round((time.perf_counter() - mzp_parse_started) * 1000, 3)
+    if parsed_geojson.get("type") != "FeatureCollection" or len(parsed_geojson.get("features", [])) != len(features):
+        raise ValueError("Generated speed-limit MZP failed its GeoJSON parse/count check")
+    record_payload = b"\n".join(json_bytes(record, pretty=True) for record in records)
+    road_mzp_path = repository_root / "generated" / "kattankudy-roads.mzp"
+    road_mzp_raw = road_mzp_path.read_bytes() if road_mzp_path.exists() else b""
+    road_mzp_gzip = len(gzip.compress(road_mzp_raw, mtime=0)) if road_mzp_raw else None
+    legacy_total_raw = len(source_raw) + len(road_mzp_raw) if source_raw and road_mzp_raw else None
+    legacy_total_gzip = len(gzip.compress(source_raw, mtime=0)) + road_mzp_gzip if source_raw and road_mzp_raw else None
     record_payload = b"\n".join(json_bytes(record, pretty=True) for record in records)
     manifest = {
         "schema_version": SCHEMA_VERSION, "format": "MZP/1", "geojson": output.name,
@@ -423,9 +434,14 @@ def build(repository_root=ROOT, output_dir=None):
         "source_bytes": len(source_raw) if source_raw else None,
         "source_gzip_bytes": len(gzip.compress(source_raw, mtime=0)) if source_raw else None,
         "speed_dataset_fetch_requests_before": 2, "speed_dataset_fetch_requests_after": 1,
-        "benchmark_note": "Request counts cover the speed-review loader and its road-geometry dependency; base-map requests are excluded.",
+        "legacy_speed_loader_total_raw_bytes": legacy_total_raw,
+        "legacy_speed_loader_total_gzip_bytes": legacy_total_gzip,
+        "legacy_road_mzp_bytes": len(road_mzp_raw) if road_mzp_raw else None,
+        "legacy_road_mzp_gzip_bytes": road_mzp_gzip,
+        "benchmark_note": "Request counts cover the speed-review loader and its road-geometry dependency; Python JSON parsing is a build-time proxy, not browser timing. Base-map requests are excluded.",
+        "browser_rendering_benchmark": "not measured in the GitHub Actions build environment",
         "python_source_json_parse_ms": source_parse_ms,
-        "mzp_parse_ms": round((time.perf_counter() - started) * 1000, 3),
+        "mzp_json_parse_ms": mzp_parse_ms,
         "sha256": hashlib.sha256(body).hexdigest(), "build_time_ms": elapsed_ms,
     }
     atomic_json(target / "kattankudy-speed-limits-manifest.json", manifest)
