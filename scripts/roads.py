@@ -285,6 +285,13 @@ def _migrate_locked(source_path=SOURCE, repository_root=ROOT):
 
         migrated = {"id": identifier, "source_id": source_id}
         migrated.update({k: v for k, v in source_record.items() if k != "id"})
+        # Overture refreshes update source-derived fields, but PR #5's independent
+        # maxspeed evidence must survive when the same source road is re-migrated.
+        if target.exists():
+            previous_record = json.loads(target.read_text(encoding="utf-8"))
+            supplementary = previous_record.get("supplementary_maxspeed_evidence")
+            if supplementary is not None:
+                migrated["supplementary_maxspeed_evidence"] = supplementary
         if not target.exists() or json.loads(target.read_text(encoding="utf-8")) != migrated:
             atomic_json(target, migrated)
             written += 1
