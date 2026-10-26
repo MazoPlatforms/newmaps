@@ -1,1481 +1,1485 @@
 {
-    "count": 29,
-    "results":[
+  "count": 29,
+  "results": [
+    {
+      "name": "Modern Cosmetics & Fancy",
+      "coordinates": {
+        "latitude": 7.6830653,
+        "longitude": 81.72724699999999
+      },
+      "address": "49 Main St, Kattankudy",
+      "categories": [
+        "Cosmetics store"
+      ],
+      "phone": "0755623604",
+      "hours": [
         {
-            "name": "Modern Cosmetics & Fancy",
-            "coordinates": {
-                "latitude": 7.6830653,
-                "longitude": 81.72724699999999
-            },
-            "address": "49 Main St, Kattankudy",
-            "categories":[
-                "Cosmetics store"
-            ],
-            "phone": "0755623604",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                }
-            ],
-            "website": "https://vyaparapp.in/store/moderncosmeticsfancy",
-            "business_status": "OPEN"
+          "day": "Monday",
+          "times": [
+            "9 AM–11 PM"
+          ]
         },
         {
-            "name": "Fancy Point",
-            "coordinates": {
-                "latitude": 7.676542599999999,
-                "longitude": 81.7312548
-            },
-            "address": "6 Main St, Kattankudy",
-            "categories":[
-                "Store"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "Open 24 hours"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Tuesday",
+          "times": [
+            "9 AM–11 PM"
+          ]
         },
         {
-            "name": "Royal Fancy",
-            "coordinates": {
-                "latitude": 7.683685799999999,
-                "longitude": 81.72688649999999
-            },
-            "address": "307 Main St, Kattankudy",
-            "categories":[
-                "Store"
-            ],
-            "phone": "0777924240",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9–11 AM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                }
-            ],
-            "website": "https://www.facebook.com/Royal-Fancy-Kattankudy-101328334949851/",
-            "business_status": "OPEN"
+          "day": "Wednesday",
+          "times": [
+            "9 AM–11 PM"
+          ]
         },
         {
-            "name": "Fancy World",
-            "coordinates": {
-                "latitude": 7.6799944,
-                "longitude": 81.72928
-            },
-            "address": "MPHH+XPR, French Ave, Kattankudy",
-            "categories":[],
-            "hours":[],
-            "business_status": "OPEN"
+          "day": "Thursday",
+          "times": [
+            "9 AM–11 PM"
+          ]
         },
         {
-            "name": "Femina Fancy Kattankudy",
-            "coordinates": {
-                "latitude": 7.6815028,
-                "longitude": 81.72812069999999
-            },
-            "address": "No 15, Meththaippalli Complex, Main St, Kattankudy 30100",
-            "categories":[
-                "Cosmetics store"
-            ],
-            "phone": "0753046626",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–11 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
         },
         {
-            "name": "Barakath fancy",
-            "coordinates": {
-                "latitude": 7.685196299999999,
-                "longitude": 81.72601379999999
-            },
-            "address": "207, Main Street kattankudy 06, Kattankudy 30100",
-            "categories":[
-                "Cosmetics store"
-            ],
-            "phone": "0752303023",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–9:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
+          "day": "Saturday",
+          "times": [
+            "9 AM–11 PM"
+          ]
         },
         {
-            "name": "YLM FANCY",
-            "coordinates": {
-                "latitude": 7.679710699999999,
-                "longitude": 81.7309258
-            },
-            "address": "Rasa Alim Rd, Kattankudy 30100",
-            "categories":[
-                "Countertop store"
-            ],
-            "phone": "0766651280",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Global Fancy Kattankudy. GFK",
-            "coordinates": {
-                "latitude": 7.676151099999999,
-                "longitude": 81.7312211
-            },
-            "address": "4 Main St, Kattankudy 30100",
-            "categories":[
-                "Home goods store"
-            ],
-            "phone": "0770708484",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8:30 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8:30 AM–9:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "HiFi Fancy",
-            "coordinates": {
-                "latitude": 7.681712399999999,
-                "longitude": 81.72791149999999
-            },
-            "address": "No.13,Mohideen Meththai Grand City Complex, Kattankudy 03",
-            "categories":[
-                "Home goods store"
-            ],
-            "phone": "0758618442",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "7 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "7 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "7 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "7 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "4–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "7 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "7 AM–10:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Dream Fancy",
-            "coordinates": {
-                "latitude": 7.674451599999999,
-                "longitude": 81.7322805
-            },
-            "address": "Main St, Kattankudy 30100",
-            "categories":[
-                "Cosmetics store"
-            ],
-            "phone": "0773850908",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "China Fancy",
-            "coordinates": {
-                "latitude": 7.6826688999999995,
-                "longitude": 81.7233973
-            },
-            "address": "65 Ash Shaheed Ahamed Lebbe Rd, Kattankudy 30100",
-            "categories":[
-                "Toy store"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–9:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "House of fancy",
-            "coordinates": {
-                "latitude": 7.6769273,
-                "longitude": 81.73104119999999
-            },
-            "address": "6 Colombo - Batticaloa Hwy, Kattankudy",
-            "categories":[
-                "Store"
-            ],
-            "phone": "0771899782",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–9:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Gleza Fancy & Cosmetics",
-            "coordinates": {
-                "latitude": 7.680589599999999,
-                "longitude": 81.72947889999999
-            },
-            "address": "Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
-            "categories":[
-                "Cosmetics store"
-            ],
-            "phone": "0778343308",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Mr fancy",
-            "coordinates": {
-                "latitude": 7.6798338,
-                "longitude": 81.74178119999999
-            },
-            "address": "MPHR+WPJ, thaqwa masjid new, 2nd Cross St, Kattankudy 3",
-            "categories":[
-                "Association / Organization"
-            ],
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "FAIZAN FANCY",
-            "coordinates": {
-                "latitude": 7.6813845,
-                "longitude": 81.7315761
-            },
-            "address": "MPJJ+HJ4, Kattankudy",
-            "categories":[
-                "Store"
-            ],
-            "phone": "0776020520",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Fancy Point",
-            "coordinates": {
-                "latitude": 7.6814715,
-                "longitude": 81.7283406
-            },
-            "address": "no 223 Main St, Kattankudy",
-            "categories":[
-                "Cosmetics store"
-            ],
-            "phone": "0777573900",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "10 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Gem Fancy",
-            "coordinates": {
-                "latitude": 7.6806079,
-                "longitude": 81.72992459999999
-            },
-            "address": "MPJH+7X6, 47 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
-            "categories":[
-                "Cosmetics store"
-            ],
-            "phone": "0776994295",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "AFRAH GALLERY",
-            "coordinates": {
-                "latitude": 7.6886382,
-                "longitude": 81.725971
-            },
-            "address": "26, Elders Home Road, Kattankudy-01, Kattankudy 30100",
-            "categories":[
-                "Gift shop",
-                "Digital printing service"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Suxus Fancy",
-            "coordinates": {
-                "latitude": 7.6809626,
-                "longitude": 81.7306028
-            },
-            "address": "MPJJ+96H, Kattankudy",
-            "categories":[
-                "Cosmetics store"
-            ],
-            "phone": "0776521312",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–11:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–11:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Fashion Heart",
-            "coordinates": {
-                "latitude": 7.6818899,
-                "longitude": 81.72812789999999
-            },
-            "address": "MPJH+Q72, Colombo - Batticaloa Hwy, Kattankudy",
-            "categories":[
-                "Home goods store"
-            ],
-            "phone": "0652245677",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Fouzan's",
-            "coordinates": {
-                "latitude": 7.687527299999999,
-                "longitude": 81.729196
-            },
-            "address": "110, Assaheed Ashraff Road (teleocm road Kattankudy - 2, Kattankudy 30100",
-            "categories":[
-                "Home goods store"
-            ],
-            "phone": "0778599977",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "5–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–10:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Razeen Alim Fancy",
-            "coordinates": {
-                "latitude": 7.6773511,
-                "longitude": 81.73049569999999
-            },
-            "address": "MPGJ+W5X, Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
-            "categories":[
-                "Toy store"
-            ],
-            "phone": "0655686863",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–10 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Hana Fancy & Hardware Tools",
-            "coordinates": {
-                "latitude": 7.6805787,
-                "longitude": 81.72921989999999
-            },
-            "address": "Beach Road Kattankudy-03, Kattankudy 30100",
-            "categories":[
-                "Hardware store"
-            ],
-            "phone": "0771383030",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–11 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Sun Fancy House",
-            "coordinates": {
-                "latitude": 7.7179091,
-                "longitude": 81.698657
-            },
-            "address": "163, 171 Trinco Rd, Batticaloa",
-            "categories":[
-                "Gift shop"
-            ],
-            "phone": "0652223092",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "8 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "8 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "8 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "8 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "8 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "8 AM–8 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "8 AM–1 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Dream Textiles",
-            "coordinates": {
-                "latitude": 7.6826039999999995,
-                "longitude": 81.7339899
-            },
-            "address": "Beach Road, New Kattankudy-06, Kattankudy 30100",
-            "categories":[
-                "Clothing store"
-            ],
-            "phone": "0728000006",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "12:30 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–10:30 PM"
-                    ]
-                }
-            ],
-            "website": "http://dreamtextiles.lk/",
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Salaka",
-            "coordinates": {
-                "latitude": 7.6834454999999995,
-                "longitude": 81.7269158
-            },
-            "address": "MPMG+9QF, Colombo - Batticaloa Hwy, Kattankudy",
-            "categories":[
-                "Gift shop",
-                "Home goods store"
-            ],
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "Closed"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9 AM–9 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "AZEEF FANCY",
-            "coordinates": {
-                "latitude": 7.713068,
-                "longitude": 81.69823219999999
-            },
-            "address": "89 Main Street, Batticaloa 30000",
-            "categories":[
-                "Cosmetics store"
-            ],
-            "phone": "0759696650",
-            "hours":[
-                {
-                    "day": "Monday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Thursday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Friday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Saturday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                },
-                {
-                    "day": "Sunday",
-                    "times":[
-                        "9:30 AM–8:30 PM"
-                    ]
-                }
-            ],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Rahmath Fancy",
-            "coordinates": {
-                "latitude": 7.6806342999999995,
-                "longitude": 81.72883619999999
-            },
-            "address": "47 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
-            "categories":[],
-            "hours":[],
-            "business_status": "OPEN"
-        },
-        {
-            "name": "Maroon Fancy",
-            "coordinates": {
-                "latitude": 7.6828031999999995,
-                "longitude": 81.7342421
-            },
-            "address": "209 Dr Badhiudeen Mahmood Mawatha, Kattankudy",
-            "categories":[
-                "Cosmetics store"
-            ],
-            "phone": "0757772008",
-            "hours":[],
-            "website": "http://www.maroonfancy.com.lk/",
-            "business_status": "CLOSED_TEMPORARILY"
+          "day": "Sunday",
+          "times": [
+            "9 AM–11 PM"
+          ]
         }
-    ]
+      ],
+      "website": "https://vyaparapp.in/store/moderncosmeticsfancy",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Fancy Point",
+      "coordinates": {
+        "latitude": 7.676542599999999,
+        "longitude": 81.7312548
+      },
+      "address": "6 Main St, Kattankudy",
+      "categories": [
+        "Store"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "Open 24 hours"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "Open 24 hours"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Royal Fancy",
+      "coordinates": {
+        "latitude": 7.683685799999999,
+        "longitude": 81.72688649999999
+      },
+      "address": "307 Main St, Kattankudy",
+      "categories": [
+        "Store"
+      ],
+      "phone": "0777924240",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9–11 AM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        }
+      ],
+      "website": "https://www.facebook.com/Royal-Fancy-Kattankudy-101328334949851/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Fancy World",
+      "coordinates": {
+        "latitude": 7.6799944,
+        "longitude": 81.72928
+      },
+      "address": "MPHH+XPR, French Ave, Kattankudy",
+      "categories": [],
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Femina Fancy Kattankudy",
+      "coordinates": {
+        "latitude": 7.6815028,
+        "longitude": 81.72812069999999
+      },
+      "address": "No 15, Meththaippalli Complex, Main St, Kattankudy 30100",
+      "categories": [
+        "Cosmetics store"
+      ],
+      "phone": "0753046626",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–11 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Barakath fancy",
+      "coordinates": {
+        "latitude": 7.685196299999999,
+        "longitude": 81.72601379999999
+      },
+      "address": "207, Main Street kattankudy 06, Kattankudy 30100",
+      "categories": [
+        "Cosmetics store"
+      ],
+      "phone": "0752303023",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–9:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Ylm Fancy",
+      "coordinates": {
+        "latitude": 7.679710699999999,
+        "longitude": 81.7309258
+      },
+      "address": "Rasa Alim Rd, Kattankudy 30100",
+      "categories": [
+        "Countertop store"
+      ],
+      "phone": "0766651280",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN",
+      "name_original": "YLM FANCY"
+    },
+    {
+      "name": "Global Fancy Kattankudy. GFK",
+      "coordinates": {
+        "latitude": 7.676151099999999,
+        "longitude": 81.7312211
+      },
+      "address": "4 Main St, Kattankudy 30100",
+      "categories": [
+        "Home goods store"
+      ],
+      "phone": "0770708484",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8:30 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8:30 AM–9:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "HiFi Fancy",
+      "coordinates": {
+        "latitude": 7.681712399999999,
+        "longitude": 81.72791149999999
+      },
+      "address": "No.13,Mohideen Meththai Grand City Complex, Kattankudy 03",
+      "categories": [
+        "Home goods store"
+      ],
+      "phone": "0758618442",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "7 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "7 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "7 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "7 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "4–10:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "7 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "7 AM–10:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Dream Fancy",
+      "coordinates": {
+        "latitude": 7.674451599999999,
+        "longitude": 81.7322805
+      },
+      "address": "Main St, Kattankudy 30100",
+      "categories": [
+        "Cosmetics store"
+      ],
+      "phone": "0773850908",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "China Fancy",
+      "coordinates": {
+        "latitude": 7.6826688999999995,
+        "longitude": 81.7233973
+      },
+      "address": "65 Ash Shaheed Ahamed Lebbe Rd, Kattankudy 30100",
+      "categories": [
+        "Toy store"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–9:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "House of fancy",
+      "coordinates": {
+        "latitude": 7.6769273,
+        "longitude": 81.73104119999999
+      },
+      "address": "6 Colombo - Batticaloa Hwy, Kattankudy",
+      "categories": [
+        "Store"
+      ],
+      "phone": "0771899782",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–9:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Gleza Fancy & Cosmetics",
+      "coordinates": {
+        "latitude": 7.680589599999999,
+        "longitude": 81.72947889999999
+      },
+      "address": "Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
+      "categories": [
+        "Cosmetics store"
+      ],
+      "phone": "0778343308",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Mr fancy",
+      "coordinates": {
+        "latitude": 7.6798338,
+        "longitude": 81.74178119999999
+      },
+      "address": "MPHR+WPJ, thaqwa masjid new, 2nd Cross St, Kattankudy 3",
+      "categories": [
+        "Association / Organization"
+      ],
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Faizan Fancy",
+      "coordinates": {
+        "latitude": 7.6813845,
+        "longitude": 81.7315761
+      },
+      "address": "MPJJ+HJ4, Kattankudy",
+      "categories": [
+        "Store"
+      ],
+      "phone": "0776020520",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN",
+      "name_original": "FAIZAN FANCY"
+    },
+    {
+      "name": "Fancy Point",
+      "coordinates": {
+        "latitude": 7.6814715,
+        "longitude": 81.7283406
+      },
+      "address": "no 223 Main St, Kattankudy",
+      "categories": [
+        "Cosmetics store"
+      ],
+      "phone": "0777573900",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "10 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Gem Fancy",
+      "coordinates": {
+        "latitude": 7.6806079,
+        "longitude": 81.72992459999999
+      },
+      "address": "MPJH+7X6, 47 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
+      "categories": [
+        "Cosmetics store"
+      ],
+      "phone": "0776994295",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Afrah Gallery",
+      "coordinates": {
+        "latitude": 7.6886382,
+        "longitude": 81.725971
+      },
+      "address": "26, Elders Home Road, Kattankudy-01, Kattankudy 30100",
+      "categories": [
+        "Gift shop",
+        "Digital printing service"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN",
+      "name_original": "AFRAH GALLERY"
+    },
+    {
+      "name": "Suxus Fancy",
+      "coordinates": {
+        "latitude": 7.6809626,
+        "longitude": 81.7306028
+      },
+      "address": "MPJJ+96H, Kattankudy",
+      "categories": [
+        "Cosmetics store"
+      ],
+      "phone": "0776521312",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–11:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–11:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Fashion Heart",
+      "coordinates": {
+        "latitude": 7.6818899,
+        "longitude": 81.72812789999999
+      },
+      "address": "MPJH+Q72, Colombo - Batticaloa Hwy, Kattankudy",
+      "categories": [
+        "Home goods store"
+      ],
+      "phone": "0652245677",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Fouzan's",
+      "coordinates": {
+        "latitude": 7.687527299999999,
+        "longitude": 81.729196
+      },
+      "address": "110, Assaheed Ashraff Road (teleocm road Kattankudy - 2, Kattankudy 30100",
+      "categories": [
+        "Home goods store"
+      ],
+      "phone": "0778599977",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "5–10:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–10:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Razeen Alim Fancy",
+      "coordinates": {
+        "latitude": 7.6773511,
+        "longitude": 81.73049569999999
+      },
+      "address": "MPGJ+W5X, Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
+      "categories": [
+        "Toy store"
+      ],
+      "phone": "0655686863",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–10 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Hana Fancy & Hardware Tools",
+      "coordinates": {
+        "latitude": 7.6805787,
+        "longitude": 81.72921989999999
+      },
+      "address": "Beach Road Kattankudy-03, Kattankudy 30100",
+      "categories": [
+        "Hardware store"
+      ],
+      "phone": "0771383030",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–11 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–11 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Sun Fancy House",
+      "coordinates": {
+        "latitude": 7.7179091,
+        "longitude": 81.698657
+      },
+      "address": "163, 171 Trinco Rd, Batticaloa",
+      "categories": [
+        "Gift shop"
+      ],
+      "phone": "0652223092",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "8 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "8 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "8 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "8 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "8 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "8 AM–8 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "8 AM–1 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Dream Textiles",
+      "coordinates": {
+        "latitude": 7.6826039999999995,
+        "longitude": 81.7339899
+      },
+      "address": "Beach Road, New Kattankudy-06, Kattankudy 30100",
+      "categories": [
+        "Clothing store"
+      ],
+      "phone": "0728000006",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "12:30 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–10:30 PM"
+          ]
+        }
+      ],
+      "website": "http://dreamtextiles.lk/",
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Salaka",
+      "coordinates": {
+        "latitude": 7.6834454999999995,
+        "longitude": 81.7269158
+      },
+      "address": "MPMG+9QF, Colombo - Batticaloa Hwy, Kattankudy",
+      "categories": [
+        "Gift shop",
+        "Home goods store"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "Closed"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9 AM–9 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Azeef Fancy",
+      "coordinates": {
+        "latitude": 7.713068,
+        "longitude": 81.69823219999999
+      },
+      "address": "89 Main Street, Batticaloa 30000",
+      "categories": [
+        "Cosmetics store"
+      ],
+      "phone": "0759696650",
+      "hours": [
+        {
+          "day": "Monday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            "9:30 AM–8:30 PM"
+          ]
+        }
+      ],
+      "business_status": "OPEN",
+      "name_original": "AZEEF FANCY"
+    },
+    {
+      "name": "Rahmath Fancy",
+      "coordinates": {
+        "latitude": 7.6806342999999995,
+        "longitude": 81.72883619999999
+      },
+      "address": "47 Dr Badhiudeen Mahmood Mawatha, Kattankudy 30100",
+      "categories": [],
+      "hours": [],
+      "business_status": "OPEN"
+    },
+    {
+      "name": "Maroon Fancy",
+      "coordinates": {
+        "latitude": 7.6828031999999995,
+        "longitude": 81.7342421
+      },
+      "address": "209 Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+      "categories": [
+        "Cosmetics store"
+      ],
+      "phone": "0757772008",
+      "hours": [],
+      "website": "http://www.maroonfancy.com.lk/",
+      "business_status": "CLOSED_TEMPORARILY"
+    }
+  ]
 }
