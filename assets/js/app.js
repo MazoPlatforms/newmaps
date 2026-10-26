@@ -30,7 +30,7 @@ function ensurePoiLayer(){
  if(!map.getLayer('mazo-poi-dots'))map.addLayer({id:'mazo-poi-dots',type:'circle',source:POI_SOURCE,minzoom:13,
    paint:{'circle-radius':['interpolate',['linear'],['zoom'],13,2,15,4,17,5.5],'circle-color':['match',['get','kind'],'food','#cb8959','health','#b5666c','worship','#967c9c','shop','#6d81aa','hotel','#8c76a6','#638a7c'],'circle-stroke-color':theme()==='dark'?'#202b3b':'#fff','circle-stroke-width':1.5,'circle-opacity':['interpolate',['linear'],['zoom'],13,0,14,0.95]}},before);
  if(!map.getLayer(POI_LAYER))map.addLayer({id:POI_LAYER,type:'symbol',source:POI_SOURCE,minzoom:14,
-   layout:{'symbol-sort-key':['get','priority'],'text-field':['get','name'],'text-font':['Open Sans Regular','Arial Unicode MS Regular'],'text-size':['interpolate',['linear'],['zoom'],14,10,17,12],'text-offset':[0,0.85],'text-anchor':'top','text-optional':true,'text-max-width':10,'text-allow-overlap':false,'text-padding':8},
+   layout:{'symbol-sort-key':['get','priority'],'text-field':['get','name'],'text-font':['Open Sans Regular','Arial Unicode MS Regular'],'text-size':['interpolate',['linear'],['zoom'],14,9,17,11],'text-offset':[0,0.85],'text-anchor':'top','text-optional':true,'text-max-width':10,'text-allow-overlap':false,'text-padding':12},
    paint:{'text-opacity':['interpolate',['linear'],['zoom'],14,0,15,1],'text-color':theme()==='dark'?'#dbe5ee':'#364152','text-halo-color':theme()==='dark'?'#16202c':'#fff','text-halo-width':1.25}},before);
  refresh();
 }
@@ -55,8 +55,11 @@ map.on('style.load',()=>{
     if(layer.type!=='symbol')continue;
     const id=layer.id.toLowerCase();
     const sourceLayer=String(layer['source-layer']||'').toLowerCase();
-    const poi=/poi|place_of_interest|housenumber|house_number|airport|aerodrome/.test(id+' '+sourceLayer) || /^(poi|poi_label|poi_labels)$/.test(sourceLayer);
-    if(poi)map.setLayoutProperty(layer.id,'visibility','none');
+    // Allow geographic labels and road shields only; all provider business labels are excluded.
+    const geographic=/place|settlement|country|state|province|region|district|city|town|village|hamlet|locality|neighbourhood|neighborhood|suburb|island|ocean|sea|water|river|lake|peak|mountain|park|forest|road|street|highway|transportation|motorway|trunk|primary|secondary|tertiary|route|shield|boundary|admin/i;
+    const providerPOI=/poi|place_of_interest|housenumber|house_number|airport|aerodrome|shop|commercial|retail|amenity|business|tourism|attraction|restaurant|hotel|religion|worship|hospital|school/i;
+    const keep=geographic.test(id+' '+sourceLayer)&&!providerPOI.test(id+' '+sourceLayer);
+    if(!keep)map.setLayoutProperty(layer.id,'visibility','none');
   }
   // Roads are already supplied by the vector basemap; custom JSON roads remain optional.
   cities();
