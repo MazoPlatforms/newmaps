@@ -97,6 +97,13 @@ handle.addEventListener('touchstart',e=>{touchStart=e.touches[0].clientY},{passi
 handle.addEventListener('touchend',e=>{if(touchStart===null)return;const dy=e.changedTouches[0].clientY-touchStart;touchStart=null;if(Math.abs(dy)<35)return;const states=['compact','half','expanded'];setSheetState(states[Math.max(0,Math.min(2,states.indexOf(sheetState)+(dy<0?1:-1)))])},{passive:true});
 handle.addEventListener('keydown',e=>{if(e.key==='ArrowUp'||e.key==='ArrowDown'){e.preventDefault();const states=['compact','half','expanded'];setSheetState(states[Math.max(0,Math.min(2,states.indexOf(sheetState)+(e.key==='ArrowUp'?1:-1)))])}});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sheet.hidden)closePlace()});
+ // Fallback for clicks on visible labels/pins even when symbol hit-testing misses.
+ map.on('click',e=>{
+  if(!sheet.hidden)return;
+  const features=map.queryRenderedFeatures([[e.point.x-14,e.point.y-14],[e.point.x+14,e.point.y+14]],{layers:map.getLayer(POI_LAYER)?[POI_LAYER]:[]});
+  for(const f of features){const i=Number(f.properties?.index);if(Number.isInteger(i)&&places[i]){openPlace(places[i]);return}}
+ });
+
 function refresh(){
  const q=$('#map-search').value.trim().toLowerCase();
  const hits=places.filter(p=>(category==='all'||kind(p)===category)&&[p.name,p.address,...(p.categories||[])].join(' ').toLowerCase().includes(q));
