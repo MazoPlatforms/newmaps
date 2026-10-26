@@ -5,7 +5,7 @@
 **Records inspected:** 3,694 across shards `0001`–`0004`  
 **Record edits, merges, and deletions:** none
 
-The audit workflow generates a downloadable `places-quality-audit-2026-10-27.json` artifact. It contains an entry for every ULID, its current record hash, source filename/index, review score and explanations, proposed formatting-only edits, duplicate-group membership, and per-record discovery links for OSM, Google, Bing, and IDB business listings.
+The `Validate speed-limit data` PR workflow generates a downloadable `places-quality-audit-2026-10-27.json` artifact for this audit branch. It contains an entry for every ULID, its current record hash, source filename/index, review score and explanations, proposed formatting-only edits, duplicate-group membership, and per-record discovery links for OSM, Google, Bing, and IDB business listings.
 
 ## Findings
 
