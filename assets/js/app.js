@@ -151,9 +151,68 @@ map.on('mouseenter',POI_LAYER,()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',POI_LAYER,()=>map.getCanvas().style.cursor='');
 async function roads(){try{const r=await fetch('./data/roads/kattankudy.json');if(!r.ok)return;const data=await r.json();const features=(data.roads||[]).filter(x=>x.coordinates?.length>1).map(x=>({type:'Feature',properties:{name:x.name||''},geometry:{type:'LineString',coordinates:x.coordinates}}));if(map.getSource('mazo-roads'))return;map.addSource('mazo-roads',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-road-lines',type:'line',source:'mazo-roads',paint:{'line-color':'#f8f9fa','line-width':['interpolate',['linear'],['zoom'],11,2,16,9]}});map.addLayer({id:'mazo-road-names',type:'symbol',source:'mazo-roads',minzoom:13,filter:['!=',['get','name'],''],layout:{'symbol-placement':'line','text-field':['get','name'],'text-size':12},paint:{'text-color':'#46515b','text-halo-color':'#fff','text-halo-width':2}});for(const id of ['mazo-road-lines','mazo-road-names'])map.setLayoutProperty(id,'visibility',roadsVisible?'visible':'none')}catch(e){console.warn(e)}}
 
+
+/* Gazette-backed speed-limit review markers. A question mark is deliberate:
+   no individual road has a verified posted limit or mapped A04 chainage yet. */
+const SPEED_SOURCE='mazo-speed-review',SPEED_LAYER='mazo-speed-review-signs';
+let speedReviewFeatures=[];
+function ensureSpeedReview(){
+ if(!map.getStyle()?.layers||!speedReviewFeatures.length)return;
+ const id='mazo-speed-review-icon';
+ if(!map.hasImage(id)){
+  const canvas=document.createElement('canvas');canvas.width=72;canvas.height=72;
+  const ctx=canvas.getContext('2d');
+  ctx.beginPath();ctx.arc(36,36,31,0,Math.PI*2);ctx.fillStyle='#fff';ctx.fill();
+  ctx.lineWidth=7;ctx.strokeStyle='#d63030';ctx.stroke();
+  ctx.fillStyle='#263238';ctx.font='bold 38px sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('?',36,39);
+  map.addImage(id,ctx.getImageData(0,0,72,72),{pixelRatio:2});
+ }
+ const data={type:'FeatureCollection',features:speedReviewFeatures};
+ if(map.getSource(SPEED_SOURCE))map.getSource(SPEED_SOURCE).setData(data);
+ else map.addSource(SPEED_SOURCE,{type:'geojson',data});
+ if(!map.getLayer(SPEED_LAYER))map.addLayer({id:SPEED_LAYER,type:'symbol',source:SPEED_SOURCE,minzoom:16,
+  layout:{'icon-image':id,'icon-size':['interpolate',['linear'],['zoom'],16,0.34,19,0.53],
+   'icon-allow-overlap':false,'icon-ignore-placement':false,'icon-padding':22}});
+}
+async function loadSpeedReviews(){
+ try{
+  const [sr,rr]=await Promise.all([fetch('./data/speed-limits/kattankudy.json'),fetch('./data/roads/kattankudy.json')]);
+  if(!sr.ok||!rr.ok)return;
+  const speed=await sr.json(),roadData=await rr.json();
+  const byId=new Map((roadData.roads||[]).map(road=>[road.id,road]));
+  const seen=new Set(),features=[];
+  for(const record of speed.segments||[]){
+   const road=byId.get(record.road_id),coords=road?.coordinates;
+   if(!coords||coords.length<2)continue;
+   const midpoint=coords[Math.floor(coords.length/2)];
+   if(!midpoint||!midpoint.every(Number.isFinite))continue;
+   const key=Math.round(midpoint[0]*800)+'/'+Math.round(midpoint[1]*800);
+   if(seen.has(key))continue;seen.add(key);
+   features.push({type:'Feature',geometry:{type:'Point',coordinates:midpoint},properties:{
+    road:record.road_name||'Unnamed road',status:'Needs verification',
+    candidate:record.legal_default_candidate_kmh??'',road_id:record.road_id}});
+  }
+  speedReviewFeatures=features;ensureSpeedReview();
+ }catch(e){console.warn('Speed-limit reviews unavailable:',e)}
+}
+map.on('click',SPEED_LAYER,e=>{
+ const f=e.features?.[0];if(!f)return;
+ const p=f.properties||{};
+ new maplibregl.Popup({offset:18,maxWidth:'280px'}).setLngLat(f.geometry.coordinates)
+  .setDOMContent((()=>{
+   const box=document.createElement('div');
+   const heading=document.createElement('strong');heading.textContent='Speed limit · Not verified';
+   const detail=document.createElement('p');detail.textContent=p.road+' — this road has no mapped, verified speed limit. The 2012 Gazette provides general legal rules, not a confirmed sign at this location.';
+   const note=document.createElement('small');note.textContent='? is a review marker, not a regulatory speed-limit sign. Do not use it as driving guidance.';
+   box.append(heading,detail,note);return box;
+  })()).addTo(map);
+});
+map.on('mouseenter',SPEED_LAYER,()=>map.getCanvas().style.cursor='pointer');
+map.on('mouseleave',SPEED_LAYER,()=>map.getCanvas().style.cursor='');
+
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{try{for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && !layer.id.startsWith('mazo-') && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer()}catch(error){console.error('Map layer initialization:',error)}});
+map.on('style.load',()=>{try{for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && !layer.id.startsWith('mazo-') && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
 (async()=>{try{const data=(await Promise.all(datasets.map(async f=>{try{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return await r.json()}catch(e){console.warn('Dataset skipped:',f,e);return null}}))).filter(Boolean);const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){console.error('Dataset error:',e)}})();
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
 document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{category=b.dataset.category;document.querySelectorAll('[data-category]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));refresh()});
@@ -181,5 +240,6 @@ locateButton.onclick=()=>{
 };
 async function cities(){try{const r=await fetch('./data/cities.json');if(!r.ok)return;const d=await r.json();const features=(d.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)).map(c=>({type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:c.name||'',level:c.level||'city'}}));if(map.getSource('mazo-cities'))return;map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-city-labels',type:'symbol',source:'mazo-cities',layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],5,11,13,17],'text-allow-overlap':false},paint:{'text-color':theme()==='dark'?'#e8edf4':'#27313b','text-halo-color':theme()==='dark'?'#161b22':'#fff','text-halo-width':2}})}catch(e){console.warn('City labels:',e)}}
 
+loadSpeedReviews();
 map.on('load',()=>{$('#map-frame').dataset.state='ready';try{ensurePoiLayer()}catch(e){console.warn('POI on load:',e)}});
 map.on('error',event=>console.error('MapLibre:',event.error));
