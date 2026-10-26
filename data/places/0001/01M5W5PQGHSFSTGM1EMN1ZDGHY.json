@@ -11,5 +11,22 @@
   "phone": "0652222613",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGHSFSTGM1EMN1ZDGHY"
+  "id": "01M5W5PQGHSFSTGM1EMN1ZDGHY",
+  "aliases": [
+    "01M5W5PQTQ5DCTF0Z69E6N8NZ7"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGHSFSTGM1EMN1ZDGHY",
+      "source": "accommodation.json",
+      "index": 56,
+      "original_id": "01M5W5PQGHSFSTGM1EMN1ZDGHY"
+    },
+    {
+      "id": "01M5W5PQTQ5DCTF0Z69E6N8NZ7",
+      "source": "hotels.json",
+      "index": 55,
+      "original_id": "01M5W5PQTQ5DCTF0Z69E6N8NZ7"
+    }
+  ]
 }

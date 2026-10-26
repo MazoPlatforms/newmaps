@@ -11,5 +11,22 @@
   "phone": "0756161963",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQHDAJG1K5T5J66T3N3X"
+  "id": "01M5W5PQHDAJG1K5T5J66T3N3X",
+  "aliases": [
+    "01M5W5PRFHS26B81632ZRGH03M"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHDAJG1K5T5J66T3N3X",
+      "source": "automotive.json",
+      "index": 100,
+      "original_id": "01M5W5PQHDAJG1K5T5J66T3N3X"
+    },
+    {
+      "id": "01M5W5PRFHS26B81632ZRGH03M",
+      "source": "transport.json",
+      "index": 25,
+      "original_id": "01M5W5PRFHS26B81632ZRGH03M"
+    }
+  ]
 }

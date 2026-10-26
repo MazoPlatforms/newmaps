@@ -11,5 +11,22 @@
   "phone": "0652248080",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQXJ25GCRFWA8VPT857H"
+  "id": "01M5W5PQXJ25GCRFWA8VPT857H",
+  "aliases": [
+    "01M5W5PR7RXK14SV271QPME6VA"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQXJ25GCRFWA8VPT857H",
+      "source": "pharmacies.json",
+      "index": 10,
+      "original_id": "01M5W5PQXJ25GCRFWA8VPT857H"
+    },
+    {
+      "id": "01M5W5PR7RXK14SV271QPME6VA",
+      "source": "services.json",
+      "index": 152,
+      "original_id": "01M5W5PR7RXK14SV271QPME6VA"
+    }
+  ]
 }

@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQX3M7YHYDTZZ4ZWKQZZ"
+  "id": "01M5W5PQX3M7YHYDTZZ4ZWKQZZ",
+  "aliases": [
+    "01M5W5PR0WSKK3VTBKY13TSH9K"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQX3M7YHYDTZZ4ZWKQZZ",
+      "source": "mosque.json",
+      "index": 47,
+      "original_id": "01M5W5PQX3M7YHYDTZZ4ZWKQZZ"
+    },
+    {
+      "id": "01M5W5PR0WSKK3VTBKY13TSH9K",
+      "source": "religious.json",
+      "index": 29,
+      "original_id": "01M5W5PR0WSKK3VTBKY13TSH9K"
+    }
+  ]
 }

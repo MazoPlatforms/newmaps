@@ -53,5 +53,36 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJ1N1E34J1T4467SR7G"
+  "id": "01M5W5PQJ1N1E34J1T4467SR7G",
+  "aliases": [
+    "01M5W5PQQCEG2Q81RB0XQCYXHT",
+    "01M5W5PQZDCTJSKXC60VAXSMPA",
+    "01M5W5PRGCWYTJTKSTZ0VQ6G3C"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJ1N1E34J1T4467SR7G",
+      "source": "boundary.json",
+      "index": 8,
+      "original_id": "01M5W5PQJ1N1E34J1T4467SR7G"
+    },
+    {
+      "id": "01M5W5PQQCEG2Q81RB0XQCYXHT",
+      "source": "entrances.json",
+      "index": 3,
+      "original_id": "01M5W5PQQCEG2Q81RB0XQCYXHT"
+    },
+    {
+      "id": "01M5W5PQZDCTJSKXC60VAXSMPA",
+      "source": "recreation.json",
+      "index": 3,
+      "original_id": "01M5W5PQZDCTJSKXC60VAXSMPA"
+    },
+    {
+      "id": "01M5W5PRGCWYTJTKSTZ0VQ6G3C",
+      "source": "waterways.json",
+      "index": 0,
+      "original_id": "01M5W5PRGCWYTJTKSTZ0VQ6G3C"
+    }
+  ]
 }

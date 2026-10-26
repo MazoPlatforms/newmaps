@@ -55,5 +55,36 @@
   ],
   "website": "http://www.qdeals.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQMQCHZK68J3FA1CTQDS"
+  "id": "01M5W5PQMQCHZK68J3FA1CTQDS",
+  "aliases": [
+    "01M5W5PQRH8P7NMYX5S8365NC8",
+    "01M5W5PQW22FAXZ6XA33MKFPGQ",
+    "01M5W5PRBMZP3A8W976TGGR9QM"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMQCHZK68J3FA1CTQDS",
+      "source": "couriers.json",
+      "index": 8,
+      "original_id": "01M5W5PQMQCHZK68J3FA1CTQDS"
+    },
+    {
+      "id": "01M5W5PQRH8P7NMYX5S8365NC8",
+      "source": "fashion.json",
+      "index": 157,
+      "original_id": "01M5W5PQRH8P7NMYX5S8365NC8"
+    },
+    {
+      "id": "01M5W5PQW22FAXZ6XA33MKFPGQ",
+      "source": "markets.json",
+      "index": 29,
+      "original_id": "01M5W5PQW22FAXZ6XA33MKFPGQ"
+    },
+    {
+      "id": "01M5W5PRBMZP3A8W976TGGR9QM",
+      "source": "supermarket.json",
+      "index": 16,
+      "original_id": "01M5W5PRBMZP3A8W976TGGR9QM"
+    }
+  ]
 }

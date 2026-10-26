@@ -55,5 +55,22 @@
   ],
   "website": "http://www.sipacademylanka.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQN23T7J1DSZC1G9G0PF"
+  "id": "01M5W5PQN23T7J1DSZC1G9G0PF",
+  "aliases": [
+    "01M5W5PR3AMFXK75ZMHC5V2988"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQN23T7J1DSZC1G9G0PF",
+      "source": "education.json",
+      "index": 25,
+      "original_id": "01M5W5PQN23T7J1DSZC1G9G0PF"
+    },
+    {
+      "id": "01M5W5PR3AMFXK75ZMHC5V2988",
+      "source": "schools.json",
+      "index": 14,
+      "original_id": "01M5W5PR3AMFXK75ZMHC5V2988"
+    }
+  ]
 }

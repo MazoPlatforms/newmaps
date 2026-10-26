@@ -11,5 +11,22 @@
   "phone": "0767364580",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGGK6Q45F71619ZN8JH"
+  "id": "01M5W5PQGGK6Q45F71619ZN8JH",
+  "aliases": [
+    "01M5W5PQTMNTD21A4FYECW35S3"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGK6Q45F71619ZN8JH",
+      "source": "accommodation.json",
+      "index": 41,
+      "original_id": "01M5W5PQGGK6Q45F71619ZN8JH"
+    },
+    {
+      "id": "01M5W5PQTMNTD21A4FYECW35S3",
+      "source": "hotels.json",
+      "index": 31,
+      "original_id": "01M5W5PQTMNTD21A4FYECW35S3"
+    }
+  ]
 }

@@ -54,5 +54,43 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQH9TR6MG6GW1SMCT2YB"
+  "id": "01M5W5PQH9TR6MG6GW1SMCT2YB",
+  "aliases": [
+    "01M5W5PQXBCZJ04SXCKFZWDPGY",
+    "01M5W5PQYMBRFC1TQAF06EE6GV",
+    "01M5W5PR497VY1CP2EDREKTJH7",
+    "01M5W5PRFF5SRVMRN1FSYFA63Q"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQH9TR6MG6GW1SMCT2YB",
+      "source": "automotive.json",
+      "index": 56,
+      "original_id": "01M5W5PQH9TR6MG6GW1SMCT2YB"
+    },
+    {
+      "id": "01M5W5PQXBCZJ04SXCKFZWDPGY",
+      "source": "parking.json",
+      "index": 0,
+      "original_id": "01M5W5PQXBCZJ04SXCKFZWDPGY"
+    },
+    {
+      "id": "01M5W5PQYMBRFC1TQAF06EE6GV",
+      "source": "public-utilities.json",
+      "index": 11,
+      "original_id": "01M5W5PQYMBRFC1TQAF06EE6GV"
+    },
+    {
+      "id": "01M5W5PR497VY1CP2EDREKTJH7",
+      "source": "services.json",
+      "index": 11,
+      "original_id": "01M5W5PR497VY1CP2EDREKTJH7"
+    },
+    {
+      "id": "01M5W5PRFF5SRVMRN1FSYFA63Q",
+      "source": "transport.json",
+      "index": 18,
+      "original_id": "01M5W5PRFF5SRVMRN1FSYFA63Q"
+    }
+  ]
 }

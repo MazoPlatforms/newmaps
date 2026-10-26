@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG6JPSQHMQ82CKC0KWC"
+  "id": "01M5W5PQG6JPSQHMQ82CKC0KWC",
+  "aliases": [
+    "01M5W5PQVMSR27YX34ECX7178E"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG6JPSQHMQ82CKC0KWC",
+      "source": "accessories.json",
+      "index": 135,
+      "original_id": "01M5W5PQG6JPSQHMQ82CKC0KWC"
+    },
+    {
+      "id": "01M5W5PQVMSR27YX34ECX7178E",
+      "source": "jewelry.json",
+      "index": 49,
+      "original_id": "01M5W5PQVMSR27YX34ECX7178E"
+    }
+  ]
 }

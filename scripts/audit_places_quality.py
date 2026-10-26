@@ -11,6 +11,7 @@ import hashlib
 import json
 import math
 import re
+import subprocess
 import unicodedata
 from collections import defaultdict, Counter
 from pathlib import Path
@@ -122,7 +123,7 @@ def load_records():
     records, mapping = [], {}
     for row in json.loads(MAPPING.read_text(encoding="utf-8")):
         mapping[row["id"]] = {"source_file": row.get("source"), "source_index": row.get("index")}
-    for path in sorted(PLACES.glob("*/*.json")):
+    for path in sorted(p for p in PLACES.glob("*/*.json") if p.parent.name.isdigit()):
         record = json.loads(path.read_text(encoding="utf-8"))
         records.append((path, record))
     return records, mapping
@@ -307,9 +308,9 @@ def audit():
     unique_coords = sum(1 for g in coords.values() if len(g) > 1)
     identical_groups = sum(1 for g in duplicate_groups if g["identical_except_id"])
     summary = {
-        "audit_date": "2026-10-27", "audit_scope": "all individual place JSON records on main commit d53345822df5b49f0f3248409dbb2202990a386e",
-        "main_commit": "d53345822df5b49f0f3248409dbb2202990a386e", "records_audited": len(rows),
-        "files_shards": {p.name: sum(1 for f, _ in entries if f.parent.name == p.name) for p in sorted(PLACES.iterdir()) if p.is_dir()},
+        "audit_date": "2026-10-27", "audit_scope": "all active individual place JSON records in the current checkout",
+        "main_commit": subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip(), "records_audited": len(rows),
+        "files_shards": {p.name: sum(1 for f, _ in entries if f.parent.name == p.name) for p in sorted(PLACES.iterdir()) if p.is_dir() and p.name.isdigit()},
         "records_with_missing_coordinates": sum(r.get("coordinates") is None for r in rows),
         "records_with_invalid_coordinates": sum("invalid_coordinates" in {x["code"] for x in r["flags"]} for r in rows),
         "records_without_address": sum(not r.get("address") for r in rows),
@@ -338,9 +339,9 @@ def audit():
             "Score is review priority, not probability of falsity or real-world existence.",
             "Public online lookup links are leads, not evidence; most businesses were not individually checked.",
             "No record is labeled fake solely for missing a web listing, phone, website, address, or coordinates.",
-            "No records, IDs, geometries, names, or source lineage were changed.",
+            "This audit is read-only; the separate Phase 2 cleanup report documents any data edits.",
             "Duplicate groups are candidate groups only; identical content except ULID is strong evidence but still requires approval before merge.",
-            "migration-record-map.json preserves source filename and row index, but the original legacy JSON payloads are not present to independently reconstruct every before-state.",
+            "The pre-migration source snapshot is preserved in the archive/pre-ulid-migration Git reference; exact pre-migration records can be checked there.",
         ],
         "flag_counts_by_code": dict(sorted(summary_flags.items())),
     }
@@ -360,7 +361,11 @@ def main():
         return
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"output": str(args.output.relative_to(ROOT)), **report["summary"]}, indent=2))
+    try:
+        output_label = str(args.output.resolve().relative_to(ROOT))
+    except ValueError:
+        output_label = str(args.output.resolve())
+    print(json.dumps({"output": output_label, **report["summary"]}, indent=2))
 
 
 if __name__ == "__main__":

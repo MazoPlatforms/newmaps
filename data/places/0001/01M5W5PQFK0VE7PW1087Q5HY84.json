@@ -57,5 +57,29 @@
   ],
   "website": "https://ceylon-electronics.web.app/",
   "business_status": "OPEN",
-  "id": "01M5W5PQFK0VE7PW1087Q5HY84"
+  "id": "01M5W5PQFK0VE7PW1087Q5HY84",
+  "aliases": [
+    "01M5W5PQP1KVSV0N5RE2ZR2DVH",
+    "01M5W5PQZVQWR57FF0PSP4C1NB"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFK0VE7PW1087Q5HY84",
+      "source": "accessories.json",
+      "index": 8,
+      "original_id": "01M5W5PQFK0VE7PW1087Q5HY84"
+    },
+    {
+      "id": "01M5W5PQP1KVSV0N5RE2ZR2DVH",
+      "source": "electronics.json",
+      "index": 0,
+      "original_id": "01M5W5PQP1KVSV0N5RE2ZR2DVH"
+    },
+    {
+      "id": "01M5W5PQZVQWR57FF0PSP4C1NB",
+      "source": "recreation.json",
+      "index": 65,
+      "original_id": "01M5W5PQZVQWR57FF0PSP4C1NB"
+    }
+  ]
 }

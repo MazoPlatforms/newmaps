@@ -12,5 +12,22 @@
   "hours": [],
   "website": "https://www.grace.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGD0PCN2E2MV779PSXM"
+  "id": "01M5W5PQGD0PCN2E2MV779PSXM",
+  "aliases": [
+    "01M5W5PQTJDY4R4R6TPEE224YQ"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGD0PCN2E2MV779PSXM",
+      "source": "accommodation.json",
+      "index": 18,
+      "original_id": "01M5W5PQGD0PCN2E2MV779PSXM"
+    },
+    {
+      "id": "01M5W5PQTJDY4R4R6TPEE224YQ",
+      "source": "hotels.json",
+      "index": 18,
+      "original_id": "01M5W5PQTJDY4R4R6TPEE224YQ"
+    }
+  ]
 }

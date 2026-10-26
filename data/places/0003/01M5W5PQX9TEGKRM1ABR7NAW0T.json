@@ -11,5 +11,22 @@
   "phone": "0768328295",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQX9TEGKRM1ABR7NAW0T"
+  "id": "01M5W5PQX9TEGKRM1ABR7NAW0T",
+  "aliases": [
+    "01M5W5PR17RKEP9FWT61QWNC5G"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQX9TEGKRM1ABR7NAW0T",
+      "source": "mosque.json",
+      "index": 75,
+      "original_id": "01M5W5PQX9TEGKRM1ABR7NAW0T"
+    },
+    {
+      "id": "01M5W5PR17RKEP9FWT61QWNC5G",
+      "source": "religious.json",
+      "index": 92,
+      "original_id": "01M5W5PR17RKEP9FWT61QWNC5G"
+    }
+  ]
 }

@@ -54,5 +54,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQHR5KN391W7DFKY8XXS"
+  "id": "01M5W5PQHR5KN391W7DFKY8XXS",
+  "aliases": [
+    "01M5W5PQMVXKY7468J0WE038FF"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHR5KN391W7DFKY8XXS",
+      "source": "bakery.json",
+      "index": 32,
+      "original_id": "01M5W5PQHR5KN391W7DFKY8XXS"
+    },
+    {
+      "id": "01M5W5PQMVXKY7468J0WE038FF",
+      "source": "couriers.json",
+      "index": 33,
+      "original_id": "01M5W5PQMVXKY7468J0WE038FF"
+    }
+  ]
 }

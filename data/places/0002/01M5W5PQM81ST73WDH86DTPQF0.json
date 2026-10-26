@@ -54,5 +54,29 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQM81ST73WDH86DTPQF0"
+  "id": "01M5W5PQM81ST73WDH86DTPQF0",
+  "aliases": [
+    "01M5W5PQPGKX7PGY22QVB61RHF",
+    "01M5W5PQYWS5F88JFJE9HXYWHX"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQM81ST73WDH86DTPQF0",
+      "source": "computer.json",
+      "index": 37,
+      "original_id": "01M5W5PQM81ST73WDH86DTPQF0"
+    },
+    {
+      "id": "01M5W5PQPGKX7PGY22QVB61RHF",
+      "source": "electronics.json",
+      "index": 54,
+      "original_id": "01M5W5PQPGKX7PGY22QVB61RHF"
+    },
+    {
+      "id": "01M5W5PQYWS5F88JFJE9HXYWHX",
+      "source": "public-utilities.json",
+      "index": 45,
+      "original_id": "01M5W5PQYWS5F88JFJE9HXYWHX"
+    }
+  ]
 }

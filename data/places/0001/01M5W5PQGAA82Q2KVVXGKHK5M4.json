@@ -13,5 +13,22 @@
   "hours": [],
   "website": "http://www.seethevihotels.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGAA82Q2KVVXGKHK5M4"
+  "id": "01M5W5PQGAA82Q2KVVXGKHK5M4",
+  "aliases": [
+    "01M5W5PQTGTVQS50PP2172CDP1"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGAA82Q2KVVXGKHK5M4",
+      "source": "accommodation.json",
+      "index": 11,
+      "original_id": "01M5W5PQGAA82Q2KVVXGKHK5M4"
+    },
+    {
+      "id": "01M5W5PQTGTVQS50PP2172CDP1",
+      "source": "hotels.json",
+      "index": 7,
+      "original_id": "01M5W5PQTGTVQS50PP2172CDP1"
+    }
+  ]
 }

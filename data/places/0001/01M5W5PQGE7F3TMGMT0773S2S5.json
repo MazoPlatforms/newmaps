@@ -11,5 +11,22 @@
   "phone": "0652222155",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGE7F3TMGMT0773S2S5"
+  "id": "01M5W5PQGE7F3TMGMT0773S2S5",
+  "aliases": [
+    "01M5W5PQTMT22PBC7TNM3B56Q1"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGE7F3TMGMT0773S2S5",
+      "source": "accommodation.json",
+      "index": 28,
+      "original_id": "01M5W5PQGE7F3TMGMT0773S2S5"
+    },
+    {
+      "id": "01M5W5PQTMT22PBC7TNM3B56Q1",
+      "source": "hotels.json",
+      "index": 28,
+      "original_id": "01M5W5PQTMT22PBC7TNM3B56Q1"
+    }
+  ]
 }

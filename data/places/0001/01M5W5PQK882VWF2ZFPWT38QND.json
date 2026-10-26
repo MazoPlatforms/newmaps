@@ -55,5 +55,22 @@
   ],
   "website": "http://www.cameralk.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQK882VWF2ZFPWT38QND"
+  "id": "01M5W5PQK882VWF2ZFPWT38QND",
+  "aliases": [
+    "01M5W5PRGCS86Q3AZRYJHRKMX6"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQK882VWF2ZFPWT38QND",
+      "source": "communication.json",
+      "index": 100,
+      "original_id": "01M5W5PQK882VWF2ZFPWT38QND"
+    },
+    {
+      "id": "01M5W5PRGCS86Q3AZRYJHRKMX6",
+      "source": "utilities.json",
+      "index": 54,
+      "original_id": "01M5W5PRGCS86Q3AZRYJHRKMX6"
+    }
+  ]
 }

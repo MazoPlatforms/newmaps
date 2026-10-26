@@ -55,5 +55,36 @@
   ],
   "website": "http://www.sampath.lk/en/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGHENJA85PQH41646B3"
+  "id": "01M5W5PQGHENJA85PQH41646B3",
+  "aliases": [
+    "01M5W5PQH2NHEM9BBQGWS8SQGE",
+    "01M5W5PQHZFP8467E6E04BBE8X",
+    "01M5W5PQRSESTXPME9G81RV8X2"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGHENJA85PQH41646B3",
+      "source": "addresses.json",
+      "index": 7,
+      "original_id": "01M5W5PQGHENJA85PQH41646B3"
+    },
+    {
+      "id": "01M5W5PQH2NHEM9BBQGWS8SQGE",
+      "source": "atms.json",
+      "index": 6,
+      "original_id": "01M5W5PQH2NHEM9BBQGWS8SQGE"
+    },
+    {
+      "id": "01M5W5PQHZFP8467E6E04BBE8X",
+      "source": "banks.json",
+      "index": 4,
+      "original_id": "01M5W5PQHZFP8467E6E04BBE8X"
+    },
+    {
+      "id": "01M5W5PQRSESTXPME9G81RV8X2",
+      "source": "finance.json",
+      "index": 12,
+      "original_id": "01M5W5PQRSESTXPME9G81RV8X2"
+    }
+  ]
 }

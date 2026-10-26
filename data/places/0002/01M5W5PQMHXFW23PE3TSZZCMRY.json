@@ -54,5 +54,29 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQMHXFW23PE3TSZZCMRY"
+  "id": "01M5W5PQMHXFW23PE3TSZZCMRY",
+  "aliases": [
+    "01M5W5PQQFRN8FFDD93H98BSH3",
+    "01M5W5PQV0DDK6XRXSSBA9D82Y"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMHXFW23PE3TSZZCMRY",
+      "source": "cosmetics.json",
+      "index": 23,
+      "original_id": "01M5W5PQMHXFW23PE3TSZZCMRY"
+    },
+    {
+      "id": "01M5W5PQQFRN8FFDD93H98BSH3",
+      "source": "fancy.json",
+      "index": 16,
+      "original_id": "01M5W5PQQFRN8FFDD93H98BSH3"
+    },
+    {
+      "id": "01M5W5PQV0DDK6XRXSSBA9D82Y",
+      "source": "jewelry.json",
+      "index": 42,
+      "original_id": "01M5W5PQV0DDK6XRXSSBA9D82Y"
+    }
+  ]
 }

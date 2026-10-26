@@ -55,5 +55,36 @@
   ],
   "website": "https://www.facebook.com/imazagroupkky/",
   "business_status": "OPEN",
-  "id": "01M5W5PQFXHPC0KPEFYJ3GT523"
+  "id": "01M5W5PQFXHPC0KPEFYJ3GT523",
+  "aliases": [
+    "01M5W5PQMTRW2H58FDX2D9KJ39",
+    "01M5W5PQP42M6DD2HTMEJ45V9V",
+    "01M5W5PQSYH6CQP34D0EPBVYXB"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFXHPC0KPEFYJ3GT523",
+      "source": "accessories.json",
+      "index": 73,
+      "original_id": "01M5W5PQFXHPC0KPEFYJ3GT523"
+    },
+    {
+      "id": "01M5W5PQMTRW2H58FDX2D9KJ39",
+      "source": "couriers.json",
+      "index": 26,
+      "original_id": "01M5W5PQMTRW2H58FDX2D9KJ39"
+    },
+    {
+      "id": "01M5W5PQP42M6DD2HTMEJ45V9V",
+      "source": "electronics.json",
+      "index": 16,
+      "original_id": "01M5W5PQP42M6DD2HTMEJ45V9V"
+    },
+    {
+      "id": "01M5W5PQSYH6CQP34D0EPBVYXB",
+      "source": "hardware.json",
+      "index": 1,
+      "original_id": "01M5W5PQSYH6CQP34D0EPBVYXB"
+    }
+  ]
 }

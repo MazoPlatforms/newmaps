@@ -11,5 +11,22 @@
   "hours": [],
   "website": "https://instagram.com/chaaru_sha?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
   "business_status": "OPEN",
-  "id": "01M5W5PQRCDFHRJ7JHB2TQT49J"
+  "id": "01M5W5PQRCDFHRJ7JHB2TQT49J",
+  "aliases": [
+    "01M5W5PREMFEX69JRCCJRQYBTM"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQRCDFHRJ7JHB2TQT49J",
+      "source": "fashion.json",
+      "index": 120,
+      "original_id": "01M5W5PQRCDFHRJ7JHB2TQT49J"
+    },
+    {
+      "id": "01M5W5PREMFEX69JRCCJRQYBTM",
+      "source": "textiles.json",
+      "index": 119,
+      "original_id": "01M5W5PREMFEX69JRCCJRQYBTM"
+    }
+  ]
 }

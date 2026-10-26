@@ -196,7 +196,8 @@ class RoadTests(unittest.TestCase):
         self.assertIn("generated/kattankudy-roads-manifest.json", app)
         self.assertNotIn("./data/roads/kattankudy.json", app)
         self.assertIn("manifest.geojson+'?v='+manifest.sha256", app)
-        self.assertIn("generated/manifest.json?v=places-ulid-1", app)
+        self.assertIn("generated/manifest.json?v=places-phase2-1", app)
+        self.assertIn("...(p.aliases||[])", app)
 
 
 if __name__ == "__main__":

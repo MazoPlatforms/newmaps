@@ -54,5 +54,43 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFNGJWCAEQH04XCP45B"
+  "id": "01M5W5PQFNGJWCAEQH04XCP45B",
+  "aliases": [
+    "01M5W5PQPFBJCSFSMM1R5XDRH9",
+    "01M5W5PQW83F0SFW8E01FNRPMG",
+    "01M5W5PQZ57MEGW08SMEYZKQ97",
+    "01M5W5PR6Y1GDAEXXZ4E71022C"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFNGJWCAEQH04XCP45B",
+      "source": "accessories.json",
+      "index": 20,
+      "original_id": "01M5W5PQFNGJWCAEQH04XCP45B"
+    },
+    {
+      "id": "01M5W5PQPFBJCSFSMM1R5XDRH9",
+      "source": "electronics.json",
+      "index": 48,
+      "original_id": "01M5W5PQPFBJCSFSMM1R5XDRH9"
+    },
+    {
+      "id": "01M5W5PQW83F0SFW8E01FNRPMG",
+      "source": "mobile.json",
+      "index": 0,
+      "original_id": "01M5W5PQW83F0SFW8E01FNRPMG"
+    },
+    {
+      "id": "01M5W5PQZ57MEGW08SMEYZKQ97",
+      "source": "public-utilities.json",
+      "index": 77,
+      "original_id": "01M5W5PQZ57MEGW08SMEYZKQ97"
+    },
+    {
+      "id": "01M5W5PR6Y1GDAEXXZ4E71022C",
+      "source": "services.json",
+      "index": 62,
+      "original_id": "01M5W5PR6Y1GDAEXXZ4E71022C"
+    }
+  ]
 }

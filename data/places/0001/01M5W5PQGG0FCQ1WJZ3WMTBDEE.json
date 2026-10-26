@@ -11,5 +11,22 @@
   "phone": "0763338620",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGG0FCQ1WJZ3WMTBDEE"
+  "id": "01M5W5PQGG0FCQ1WJZ3WMTBDEE",
+  "aliases": [
+    "01M5W5PQTN1Z7Q63VVMDH1MW8D"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGG0FCQ1WJZ3WMTBDEE",
+      "source": "accommodation.json",
+      "index": 42,
+      "original_id": "01M5W5PQGG0FCQ1WJZ3WMTBDEE"
+    },
+    {
+      "id": "01M5W5PQTN1Z7Q63VVMDH1MW8D",
+      "source": "hotels.json",
+      "index": 41,
+      "original_id": "01M5W5PQTN1Z7Q63VVMDH1MW8D"
+    }
+  ]
 }

@@ -55,5 +55,36 @@
   ],
   "website": "https://www.facebook.com/Royal-Fancy-Kattankudy-101328334949851/",
   "business_status": "OPEN",
-  "id": "01M5W5PQFRBNZN0YHNHDAEX3BR"
+  "id": "01M5W5PQFRBNZN0YHNHDAEX3BR",
+  "aliases": [
+    "01M5W5PQHKP9CV72VYT5VFFB25",
+    "01M5W5PQMH8EGZM6AQQ3XRM76V",
+    "01M5W5PQQC0RA2S94FPGPK6265"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFRBNZN0YHNHDAEX3BR",
+      "source": "accessories.json",
+      "index": 44,
+      "original_id": "01M5W5PQFRBNZN0YHNHDAEX3BR"
+    },
+    {
+      "id": "01M5W5PQHKP9CV72VYT5VFFB25",
+      "source": "bags.json",
+      "index": 7,
+      "original_id": "01M5W5PQHKP9CV72VYT5VFFB25"
+    },
+    {
+      "id": "01M5W5PQMH8EGZM6AQQ3XRM76V",
+      "source": "cosmetics.json",
+      "index": 21,
+      "original_id": "01M5W5PQMH8EGZM6AQQ3XRM76V"
+    },
+    {
+      "id": "01M5W5PQQC0RA2S94FPGPK6265",
+      "source": "fancy.json",
+      "index": 2,
+      "original_id": "01M5W5PQQC0RA2S94FPGPK6265"
+    }
+  ]
 }

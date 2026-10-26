@@ -4,7 +4,7 @@
     "latitude": 7.680180399999999,
     "longitude": 81.7291003
   },
-  "address": "No09,New Kalmunai Road,New Kattankudy 06, Kattankudy 30100",
+  "address": "No09, New Kalmunai Road, New Kattankudy 06, Kattankudy 30100",
   "categories": [
     "Jewelry store"
   ],
@@ -54,5 +54,30 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFRN3572KE90KYSH97H"
+  "id": "01M5W5PQFRN3572KE90KYSH97H",
+  "aliases": [
+    "01M5W5PQRAAT49JFBR1DGDNQ8J",
+    "01M5W5PQTV5BCRPRWPK34C12CF"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFRN3572KE90KYSH97H",
+      "source": "accessories.json",
+      "index": 52,
+      "original_id": "01M5W5PQFRN3572KE90KYSH97H"
+    },
+    {
+      "id": "01M5W5PQRAAT49JFBR1DGDNQ8J",
+      "source": "fashion.json",
+      "index": 116,
+      "original_id": "01M5W5PQRAAT49JFBR1DGDNQ8J"
+    },
+    {
+      "id": "01M5W5PQTV5BCRPRWPK34C12CF",
+      "source": "jewelry.json",
+      "index": 15,
+      "original_id": "01M5W5PQTV5BCRPRWPK34C12CF"
+    }
+  ],
+  "address_original": "No09,New Kalmunai Road,New Kattankudy 06, Kattankudy 30100"
 }

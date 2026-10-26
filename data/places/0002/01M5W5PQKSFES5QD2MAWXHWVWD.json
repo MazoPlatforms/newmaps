@@ -55,5 +55,22 @@
   ],
   "website": "https://www.ruebix.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQKSFES5QD2MAWXHWVWD"
+  "id": "01M5W5PQKSFES5QD2MAWXHWVWD",
+  "aliases": [
+    "01M5W5PQPQ17B77J9ZD1D0M4AQ"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQKSFES5QD2MAWXHWVWD",
+      "source": "computer.json",
+      "index": 35,
+      "original_id": "01M5W5PQKSFES5QD2MAWXHWVWD"
+    },
+    {
+      "id": "01M5W5PQPQ17B77J9ZD1D0M4AQ",
+      "source": "electronics.json",
+      "index": 75,
+      "original_id": "01M5W5PQPQ17B77J9ZD1D0M4AQ"
+    }
+  ]
 }

@@ -54,5 +54,29 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQG1TVGWGDFJM0CDAJ6G"
+  "id": "01M5W5PQG1TVGWGDFJM0CDAJ6G",
+  "aliases": [
+    "01M5W5PQR44S5VQWKBTRXJ1VV2",
+    "01M5W5PREDVTQG5TWC8RX70RGC"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG1TVGWGDFJM0CDAJ6G",
+      "source": "accessories.json",
+      "index": 107,
+      "original_id": "01M5W5PQG1TVGWGDFJM0CDAJ6G"
+    },
+    {
+      "id": "01M5W5PQR44S5VQWKBTRXJ1VV2",
+      "source": "fashion.json",
+      "index": 75,
+      "original_id": "01M5W5PQR44S5VQWKBTRXJ1VV2"
+    },
+    {
+      "id": "01M5W5PREDVTQG5TWC8RX70RGC",
+      "source": "textiles.json",
+      "index": 109,
+      "original_id": "01M5W5PREDVTQG5TWC8RX70RGC"
+    }
+  ]
 }

@@ -11,5 +11,22 @@
   "phone": "0774311234",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGGREP0ES5MHMJREY3E"
+  "id": "01M5W5PQGGREP0ES5MHMJREY3E",
+  "aliases": [
+    "01M5W5PQTQ32E1GZ8R908WBH5B"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGREP0ES5MHMJREY3E",
+      "source": "accommodation.json",
+      "index": 44,
+      "original_id": "01M5W5PQGGREP0ES5MHMJREY3E"
+    },
+    {
+      "id": "01M5W5PQTQ32E1GZ8R908WBH5B",
+      "source": "hotels.json",
+      "index": 51,
+      "original_id": "01M5W5PQTQ32E1GZ8R908WBH5B"
+    }
+  ]
 }

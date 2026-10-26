@@ -11,5 +11,22 @@
   "phone": "0755598136",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQYWSFV9PW7CHYADRGSV"
+  "id": "01M5W5PQYWSFV9PW7CHYADRGSV",
+  "aliases": [
+    "01M5W5PR73FA6YFWVY66QT25A6"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQYWSFV9PW7CHYADRGSV",
+      "source": "public-utilities.json",
+      "index": 42,
+      "original_id": "01M5W5PQYWSFV9PW7CHYADRGSV"
+    },
+    {
+      "id": "01M5W5PR73FA6YFWVY66QT25A6",
+      "source": "services.json",
+      "index": 75,
+      "original_id": "01M5W5PR73FA6YFWVY66QT25A6"
+    }
+  ]
 }

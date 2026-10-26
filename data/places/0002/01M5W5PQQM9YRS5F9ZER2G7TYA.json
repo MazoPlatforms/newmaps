@@ -55,5 +55,22 @@
   ],
   "website": "https://chat.whatsapp.com/EBxbmyx0Za878eajpXqIXz",
   "business_status": "OPEN",
-  "id": "01M5W5PQQM9YRS5F9ZER2G7TYA"
+  "id": "01M5W5PQQM9YRS5F9ZER2G7TYA",
+  "aliases": [
+    "01M5W5PRDGQE3FN4ZZ40FM0S1T"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQQM9YRS5F9ZER2G7TYA",
+      "source": "fashion.json",
+      "index": 1,
+      "original_id": "01M5W5PQQM9YRS5F9ZER2G7TYA"
+    },
+    {
+      "id": "01M5W5PRDGQE3FN4ZZ40FM0S1T",
+      "source": "textiles.json",
+      "index": 51,
+      "original_id": "01M5W5PRDGQE3FN4ZZ40FM0S1T"
+    }
+  ]
 }

@@ -55,5 +55,22 @@
   ],
   "website": "http://www.cargillsceylon.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQVS9HX1DSY1FV26SAJ7"
+  "id": "01M5W5PQVS9HX1DSY1FV26SAJ7",
+  "aliases": [
+    "01M5W5PRBKV6RDRPTFC3ANWFHT"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQVS9HX1DSY1FV26SAJ7",
+      "source": "markets.json",
+      "index": 21,
+      "original_id": "01M5W5PQVS9HX1DSY1FV26SAJ7"
+    },
+    {
+      "id": "01M5W5PRBKV6RDRPTFC3ANWFHT",
+      "source": "supermarket.json",
+      "index": 13,
+      "original_id": "01M5W5PRBKV6RDRPTFC3ANWFHT"
+    }
+  ]
 }

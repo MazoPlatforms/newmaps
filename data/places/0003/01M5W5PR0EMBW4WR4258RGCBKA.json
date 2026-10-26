@@ -11,5 +11,29 @@
   "phone": "0767343748",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PR0EMBW4WR4258RGCBKA"
+  "id": "01M5W5PR0EMBW4WR4258RGCBKA",
+  "aliases": [
+    "01M5W5PR1WJ8T3KXATF792XR4H",
+    "01M5W5PR7QM8QRTFTDXK679370"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PR0EMBW4WR4258RGCBKA",
+      "source": "recreation.json",
+      "index": 155,
+      "original_id": "01M5W5PR0EMBW4WR4258RGCBKA"
+    },
+    {
+      "id": "01M5W5PR1WJ8T3KXATF792XR4H",
+      "source": "salons.json",
+      "index": 25,
+      "original_id": "01M5W5PR1WJ8T3KXATF792XR4H"
+    },
+    {
+      "id": "01M5W5PR7QM8QRTFTDXK679370",
+      "source": "services.json",
+      "index": 148,
+      "original_id": "01M5W5PR7QM8QRTFTDXK679370"
+    }
+  ]
 }

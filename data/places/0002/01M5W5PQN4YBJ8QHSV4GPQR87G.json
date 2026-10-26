@@ -11,5 +11,22 @@
   "phone": "0777657036",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQN4YBJ8QHSV4GPQR87G"
+  "id": "01M5W5PQN4YBJ8QHSV4GPQR87G",
+  "aliases": [
+    "01M5W5PR35Z92J3NA1H03ZP846"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQN4YBJ8QHSV4GPQR87G",
+      "source": "education.json",
+      "index": 35,
+      "original_id": "01M5W5PQN4YBJ8QHSV4GPQR87G"
+    },
+    {
+      "id": "01M5W5PR35Z92J3NA1H03ZP846",
+      "source": "schools.json",
+      "index": 9,
+      "original_id": "01M5W5PR35Z92J3NA1H03ZP846"
+    }
+  ]
 }

@@ -55,5 +55,22 @@
   ],
   "website": "http://www.lbfinance.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQJ0W2MTJRH6TXVZ1VEZ"
+  "id": "01M5W5PQJ0W2MTJRH6TXVZ1VEZ",
+  "aliases": [
+    "01M5W5PQRNWQ1CNZXE1SNAHWN7"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJ0W2MTJRH6TXVZ1VEZ",
+      "source": "banks.json",
+      "index": 12,
+      "original_id": "01M5W5PQJ0W2MTJRH6TXVZ1VEZ"
+    },
+    {
+      "id": "01M5W5PQRNWQ1CNZXE1SNAHWN7",
+      "source": "finance.json",
+      "index": 0,
+      "original_id": "01M5W5PQRNWQ1CNZXE1SNAHWN7"
+    }
+  ]
 }

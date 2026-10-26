@@ -55,5 +55,22 @@
   ],
   "website": "https://www.facebook.com/imastermobile/",
   "business_status": "OPEN",
-  "id": "01M5W5PQG0436Q30217WNZQ48X"
+  "id": "01M5W5PQG0436Q30217WNZQ48X",
+  "aliases": [
+    "01M5W5PQW9EWNTQKD6PERB6N3S"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG0436Q30217WNZQ48X",
+      "source": "accessories.json",
+      "index": 98,
+      "original_id": "01M5W5PQG0436Q30217WNZQ48X"
+    },
+    {
+      "id": "01M5W5PQW9EWNTQKD6PERB6N3S",
+      "source": "mobile.json",
+      "index": 2,
+      "original_id": "01M5W5PQW9EWNTQKD6PERB6N3S"
+    }
+  ]
 }

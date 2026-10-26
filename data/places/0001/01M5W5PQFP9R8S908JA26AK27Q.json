@@ -55,5 +55,22 @@
   ],
   "website": "https://www.facebook.com/sajeethn?mibextid=ZbWKwL",
   "business_status": "OPEN",
-  "id": "01M5W5PQFP9R8S908JA26AK27Q"
+  "id": "01M5W5PQFP9R8S908JA26AK27Q",
+  "aliases": [
+    "01M5W5PQHBFG3AFHFPV3RDGNMW"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFP9R8S908JA26AK27Q",
+      "source": "accessories.json",
+      "index": 32,
+      "original_id": "01M5W5PQFP9R8S908JA26AK27Q"
+    },
+    {
+      "id": "01M5W5PQHBFG3AFHFPV3RDGNMW",
+      "source": "automotive.json",
+      "index": 77,
+      "original_id": "01M5W5PQHBFG3AFHFPV3RDGNMW"
+    }
+  ]
 }

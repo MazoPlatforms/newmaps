@@ -59,5 +59,22 @@
   ],
   "website": "http://www.riviera-online.com/dining/",
   "business_status": "OPEN",
-  "id": "01M5W5PQYA5SAG1Q4KGXEWRFAH"
+  "id": "01M5W5PQYA5SAG1Q4KGXEWRFAH",
+  "aliases": [
+    "01M5W5PR09JX7NCEQ224BJQC5F"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQYA5SAG1Q4KGXEWRFAH",
+      "source": "places.json",
+      "index": 120,
+      "original_id": "01M5W5PQYA5SAG1Q4KGXEWRFAH"
+    },
+    {
+      "id": "01M5W5PR09JX7NCEQ224BJQC5F",
+      "source": "recreation.json",
+      "index": 134,
+      "original_id": "01M5W5PR09JX7NCEQ224BJQC5F"
+    }
+  ]
 }

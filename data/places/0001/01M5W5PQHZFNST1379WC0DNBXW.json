@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQHZFNST1379WC0DNBXW"
+  "id": "01M5W5PQHZFNST1379WC0DNBXW",
+  "aliases": [
+    "01M5W5PQRSTE91HQT7VB4D34JF"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHZFNST1379WC0DNBXW",
+      "source": "banks.json",
+      "index": 10,
+      "original_id": "01M5W5PQHZFNST1379WC0DNBXW"
+    },
+    {
+      "id": "01M5W5PQRSTE91HQT7VB4D34JF",
+      "source": "finance.json",
+      "index": 14,
+      "original_id": "01M5W5PQRSTE91HQT7VB4D34JF"
+    }
+  ]
 }

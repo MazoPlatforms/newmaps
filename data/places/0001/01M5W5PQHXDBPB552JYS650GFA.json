@@ -55,5 +55,29 @@
   ],
   "website": "https://www.theculture.cafe/",
   "business_status": "OPEN",
-  "id": "01M5W5PQHXDBPB552JYS650GFA"
+  "id": "01M5W5PQHXDBPB552JYS650GFA",
+  "aliases": [
+    "01M5W5PQJ6W5QFM0B61F5CK2ZQ",
+    "01M5W5PQXS7WZF3A9FNRP97JJ5"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHXDBPB552JYS650GFA",
+      "source": "bakery.json",
+      "index": 68,
+      "original_id": "01M5W5PQHXDBPB552JYS650GFA"
+    },
+    {
+      "id": "01M5W5PQJ6W5QFM0B61F5CK2ZQ",
+      "source": "cafe.json",
+      "index": 7,
+      "original_id": "01M5W5PQJ6W5QFM0B61F5CK2ZQ"
+    },
+    {
+      "id": "01M5W5PQXS7WZF3A9FNRP97JJ5",
+      "source": "places.json",
+      "index": 26,
+      "original_id": "01M5W5PQXS7WZF3A9FNRP97JJ5"
+    }
+  ]
 }

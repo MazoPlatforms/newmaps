@@ -55,5 +55,22 @@
   ],
   "website": "https://www.facebook.com/profile.php?id=100063824419530&mibextid=ZbWKwL",
   "business_status": "OPEN",
-  "id": "01M5W5PQFRE1Q1XRY54TJX64JP"
+  "id": "01M5W5PQFRE1Q1XRY54TJX64JP",
+  "aliases": [
+    "01M5W5PQHKKPK7HZ8YS6DY4CH8"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFRE1Q1XRY54TJX64JP",
+      "source": "accessories.json",
+      "index": 45,
+      "original_id": "01M5W5PQFRE1Q1XRY54TJX64JP"
+    },
+    {
+      "id": "01M5W5PQHKKPK7HZ8YS6DY4CH8",
+      "source": "bags.json",
+      "index": 0,
+      "original_id": "01M5W5PQHKKPK7HZ8YS6DY4CH8"
+    }
+  ]
 }

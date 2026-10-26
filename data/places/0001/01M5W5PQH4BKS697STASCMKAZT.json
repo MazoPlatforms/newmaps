@@ -55,5 +55,29 @@
   ],
   "website": "https://eastlankaauto.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQH4BKS697STASCMKAZT"
+  "id": "01M5W5PQH4BKS697STASCMKAZT",
+  "aliases": [
+    "01M5W5PQYNAKYZNRRZDT50AE4D",
+    "01M5W5PR6DPDJW0VT061VQX93G"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQH4BKS697STASCMKAZT",
+      "source": "automotive.json",
+      "index": 1,
+      "original_id": "01M5W5PQH4BKS697STASCMKAZT"
+    },
+    {
+      "id": "01M5W5PQYNAKYZNRRZDT50AE4D",
+      "source": "public-utilities.json",
+      "index": 17,
+      "original_id": "01M5W5PQYNAKYZNRRZDT50AE4D"
+    },
+    {
+      "id": "01M5W5PR6DPDJW0VT061VQX93G",
+      "source": "services.json",
+      "index": 21,
+      "original_id": "01M5W5PR6DPDJW0VT061VQX93G"
+    }
+  ]
 }

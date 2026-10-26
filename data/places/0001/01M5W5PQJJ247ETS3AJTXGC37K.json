@@ -11,5 +11,22 @@
   "phone": "0761609477",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQJJ247ETS3AJTXGC37K"
+  "id": "01M5W5PQJJ247ETS3AJTXGC37K",
+  "aliases": [
+    "01M5W5PQY2D3VGM477J2N5TWC2"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJJ247ETS3AJTXGC37K",
+      "source": "cafe.json",
+      "index": 104,
+      "original_id": "01M5W5PQJJ247ETS3AJTXGC37K"
+    },
+    {
+      "id": "01M5W5PQY2D3VGM477J2N5TWC2",
+      "source": "places.json",
+      "index": 87,
+      "original_id": "01M5W5PQY2D3VGM477J2N5TWC2"
+    }
+  ]
 }

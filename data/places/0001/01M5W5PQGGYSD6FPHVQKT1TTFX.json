@@ -11,5 +11,22 @@
   "phone": "0716588779",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGGYSD6FPHVQKT1TTFX"
+  "id": "01M5W5PQGGYSD6FPHVQKT1TTFX",
+  "aliases": [
+    "01M5W5PQTP3FY2P05A0WASZFJT"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGYSD6FPHVQKT1TTFX",
+      "source": "accommodation.json",
+      "index": 49,
+      "original_id": "01M5W5PQGGYSD6FPHVQKT1TTFX"
+    },
+    {
+      "id": "01M5W5PQTP3FY2P05A0WASZFJT",
+      "source": "hotels.json",
+      "index": 43,
+      "original_id": "01M5W5PQTP3FY2P05A0WASZFJT"
+    }
+  ]
 }

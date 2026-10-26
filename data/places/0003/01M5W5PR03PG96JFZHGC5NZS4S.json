@@ -11,5 +11,29 @@
   "phone": "0784223284",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PR03PG96JFZHGC5NZS4S"
+  "id": "01M5W5PR03PG96JFZHGC5NZS4S",
+  "aliases": [
+    "01M5W5PR1NY9B2BX4NGREXNJBJ",
+    "01M5W5PR2X3403QWK42J1WEJFZ"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PR03PG96JFZHGC5NZS4S",
+      "source": "recreation.json",
+      "index": 101,
+      "original_id": "01M5W5PR03PG96JFZHGC5NZS4S"
+    },
+    {
+      "id": "01M5W5PR1NY9B2BX4NGREXNJBJ",
+      "source": "salons.json",
+      "index": 6,
+      "original_id": "01M5W5PR1NY9B2BX4NGREXNJBJ"
+    },
+    {
+      "id": "01M5W5PR2X3403QWK42J1WEJFZ",
+      "source": "saloons.json",
+      "index": 6,
+      "original_id": "01M5W5PR2X3403QWK42J1WEJFZ"
+    }
+  ]
 }

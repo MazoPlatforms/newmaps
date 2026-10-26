@@ -11,5 +11,29 @@
   "phone": "0652051155",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQJQ4SD7HB45JHVM28H1"
+  "id": "01M5W5PQJQ4SD7HB45JHVM28H1",
+  "aliases": [
+    "01M5W5PQQ1RCAW4FXB7K12DXQ8",
+    "01M5W5PQTED0FGGTN1VT0KWS3Z"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJQ4SD7HB45JHVM28H1",
+      "source": "clinics.json",
+      "index": 8,
+      "original_id": "01M5W5PQJQ4SD7HB45JHVM28H1"
+    },
+    {
+      "id": "01M5W5PQQ1RCAW4FXB7K12DXQ8",
+      "source": "emergency.json",
+      "index": 1,
+      "original_id": "01M5W5PQQ1RCAW4FXB7K12DXQ8"
+    },
+    {
+      "id": "01M5W5PQTED0FGGTN1VT0KWS3Z",
+      "source": "hospitals.json",
+      "index": 2,
+      "original_id": "01M5W5PQTED0FGGTN1VT0KWS3Z"
+    }
+  ]
 }

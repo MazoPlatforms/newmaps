@@ -4,12 +4,30 @@
     "latitude": 7.680345999999999,
     "longitude": 81.7290299
   },
-  "address": "No,35 05, Kattankudy 30100",
+  "address": "No, 35 05, Kattankudy 30100",
   "categories": [
     "Coffee shop"
   ],
   "phone": "0657200072",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQHW1Y0A34VQ8ZQVMWE1"
+  "id": "01M5W5PQHW1Y0A34VQ8ZQVMWE1",
+  "aliases": [
+    "01M5W5PQJ8THGFEB4YMK4NHAYP"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHW1Y0A34VQ8ZQVMWE1",
+      "source": "bakery.json",
+      "index": 62,
+      "original_id": "01M5W5PQHW1Y0A34VQ8ZQVMWE1"
+    },
+    {
+      "id": "01M5W5PQJ8THGFEB4YMK4NHAYP",
+      "source": "cafe.json",
+      "index": 22,
+      "original_id": "01M5W5PQJ8THGFEB4YMK4NHAYP"
+    }
+  ],
+  "address_original": "No,35 05, Kattankudy 30100"
 }

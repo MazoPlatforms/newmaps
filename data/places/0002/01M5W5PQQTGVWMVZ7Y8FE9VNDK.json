@@ -11,5 +11,22 @@
   "phone": "0776987229",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQQTGVWMVZ7Y8FE9VNDK"
+  "id": "01M5W5PQQTGVWMVZ7Y8FE9VNDK",
+  "aliases": [
+    "01M5W5PRE3NKPDS7TDNJ4H52AV"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQQTGVWMVZ7Y8FE9VNDK",
+      "source": "fashion.json",
+      "index": 30,
+      "original_id": "01M5W5PQQTGVWMVZ7Y8FE9VNDK"
+    },
+    {
+      "id": "01M5W5PRE3NKPDS7TDNJ4H52AV",
+      "source": "textiles.json",
+      "index": 81,
+      "original_id": "01M5W5PRE3NKPDS7TDNJ4H52AV"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
     "latitude": 7.7186566999999995,
     "longitude": 81.7158596
   },
-  "address": "Beach Road,, Kallady, Batticaloa 30000",
+  "address": "Beach Road,  Kallady, Batticaloa 30000",
   "categories": [
     "Homestay"
   ],
@@ -12,5 +12,23 @@
   "hours": [],
   "website": "https://www.booking.com/Share-l10SG0",
   "business_status": "OPEN",
-  "id": "01M5W5PQG9ZXAJ5MWB2HDC9PH9"
+  "id": "01M5W5PQG9ZXAJ5MWB2HDC9PH9",
+  "aliases": [
+    "01M5W5PQTHRW41GKR1R8N5C1BP"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG9ZXAJ5MWB2HDC9PH9",
+      "source": "accommodation.json",
+      "index": 4,
+      "original_id": "01M5W5PQG9ZXAJ5MWB2HDC9PH9"
+    },
+    {
+      "id": "01M5W5PQTHRW41GKR1R8N5C1BP",
+      "source": "hotels.json",
+      "index": 10,
+      "original_id": "01M5W5PQTHRW41GKR1R8N5C1BP"
+    }
+  ],
+  "address_original": "Beach Road,, Kallady, Batticaloa 30000"
 }

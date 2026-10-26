@@ -55,5 +55,22 @@
   ],
   "website": "http://www.hindudept.gov.lk/web/index.php?option=com_content&view=article&id=22&Itemid=77&lang=en",
   "business_status": "OPEN",
-  "id": "01M5W5PQZZ2FBXJZ6Y68GF891C"
+  "id": "01M5W5PQZZ2FBXJZ6Y68GF891C",
+  "aliases": [
+    "01M5W5PR14KHNSR5T631GANNQK"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQZZ2FBXJZ6Y68GF891C",
+      "source": "recreation.json",
+      "index": 87,
+      "original_id": "01M5W5PQZZ2FBXJZ6Y68GF891C"
+    },
+    {
+      "id": "01M5W5PR14KHNSR5T631GANNQK",
+      "source": "religious.json",
+      "index": 74,
+      "original_id": "01M5W5PR14KHNSR5T631GANNQK"
+    }
+  ]
 }

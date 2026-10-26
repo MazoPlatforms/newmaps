@@ -11,5 +11,29 @@
   "phone": "0750330332",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG0C62GJV64P73CCFZ1"
+  "id": "01M5W5PQG0C62GJV64P73CCFZ1",
+  "aliases": [
+    "01M5W5PQRFA43BFCF8HZ8FC6AF",
+    "01M5W5PQTW754M1B5F0ZK4E1S0"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG0C62GJV64P73CCFZ1",
+      "source": "accessories.json",
+      "index": 94,
+      "original_id": "01M5W5PQG0C62GJV64P73CCFZ1"
+    },
+    {
+      "id": "01M5W5PQRFA43BFCF8HZ8FC6AF",
+      "source": "fashion.json",
+      "index": 143,
+      "original_id": "01M5W5PQRFA43BFCF8HZ8FC6AF"
+    },
+    {
+      "id": "01M5W5PQTW754M1B5F0ZK4E1S0",
+      "source": "jewelry.json",
+      "index": 20,
+      "original_id": "01M5W5PQTW754M1B5F0ZK4E1S0"
+    }
+  ]
 }

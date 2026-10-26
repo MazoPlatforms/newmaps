@@ -10,5 +10,29 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQJQJZWEF1QE026PJDRR"
+  "id": "01M5W5PQJQJZWEF1QE026PJDRR",
+  "aliases": [
+    "01M5W5PQQ1PF9BQ1WS03NDNQMG",
+    "01M5W5PR6WGRC2Z53QCS68TCQ8"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJQJZWEF1QE026PJDRR",
+      "source": "clinics.json",
+      "index": 10,
+      "original_id": "01M5W5PQJQJZWEF1QE026PJDRR"
+    },
+    {
+      "id": "01M5W5PQQ1PF9BQ1WS03NDNQMG",
+      "source": "emergency.json",
+      "index": 4,
+      "original_id": "01M5W5PQQ1PF9BQ1WS03NDNQMG"
+    },
+    {
+      "id": "01M5W5PR6WGRC2Z53QCS68TCQ8",
+      "source": "services.json",
+      "index": 58,
+      "original_id": "01M5W5PR6WGRC2Z53QCS68TCQ8"
+    }
+  ]
 }

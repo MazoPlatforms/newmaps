@@ -11,5 +11,22 @@
   "phone": "0652245125",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQPS8J3XJMG4BH482Y7E"
+  "id": "01M5W5PQPS8J3XJMG4BH482Y7E",
+  "aliases": [
+    "01M5W5PRG2G9FJT92XCPZ649YD"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQPS8J3XJMG4BH482Y7E",
+      "source": "electronics.json",
+      "index": 87,
+      "original_id": "01M5W5PQPS8J3XJMG4BH482Y7E"
+    },
+    {
+      "id": "01M5W5PRG2G9FJT92XCPZ649YD",
+      "source": "utilities.json",
+      "index": 10,
+      "original_id": "01M5W5PRG2G9FJT92XCPZ649YD"
+    }
+  ]
 }

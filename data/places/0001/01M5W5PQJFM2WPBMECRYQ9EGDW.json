@@ -55,5 +55,22 @@
   ],
   "website": "http://www.kilobiriyani.shop/",
   "business_status": "OPEN",
-  "id": "01M5W5PQJFM2WPBMECRYQ9EGDW"
+  "id": "01M5W5PQJFM2WPBMECRYQ9EGDW",
+  "aliases": [
+    "01M5W5PQXTMDJ9EER991YESFAG"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJFM2WPBMECRYQ9EGDW",
+      "source": "cafe.json",
+      "index": 84,
+      "original_id": "01M5W5PQJFM2WPBMECRYQ9EGDW"
+    },
+    {
+      "id": "01M5W5PQXTMDJ9EER991YESFAG",
+      "source": "places.json",
+      "index": 33,
+      "original_id": "01M5W5PQXTMDJ9EER991YESFAG"
+    }
+  ]
 }

@@ -55,5 +55,22 @@
   ],
   "website": "https://www.facebook.com/school4pioneers/",
   "business_status": "OPEN",
-  "id": "01M5W5PQNAG99XPJB20HKPYTC0"
+  "id": "01M5W5PQNAG99XPJB20HKPYTC0",
+  "aliases": [
+    "01M5W5PR3AEYNWWC4YXH8WP837"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQNAG99XPJB20HKPYTC0",
+      "source": "education.json",
+      "index": 67,
+      "original_id": "01M5W5PQNAG99XPJB20HKPYTC0"
+    },
+    {
+      "id": "01M5W5PR3AEYNWWC4YXH8WP837",
+      "source": "schools.json",
+      "index": 12,
+      "original_id": "01M5W5PR3AEYNWWC4YXH8WP837"
+    }
+  ]
 }

@@ -10,5 +10,29 @@
   ],
   "hours": [],
   "business_status": "CLOSED_TEMPORARILY",
-  "id": "01M5W5PQJSHMC6SQWH8EBXTRV2"
+  "id": "01M5W5PQJSHMC6SQWH8EBXTRV2",
+  "aliases": [
+    "01M5W5PQQB107RRNS605R0PKAT",
+    "01M5W5PQTF9KESVAAX4RZ1S76D"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJSHMC6SQWH8EBXTRV2",
+      "source": "clinics.json",
+      "index": 23,
+      "original_id": "01M5W5PQJSHMC6SQWH8EBXTRV2"
+    },
+    {
+      "id": "01M5W5PQQB107RRNS605R0PKAT",
+      "source": "emergency.json",
+      "index": 30,
+      "original_id": "01M5W5PQQB107RRNS605R0PKAT"
+    },
+    {
+      "id": "01M5W5PQTF9KESVAAX4RZ1S76D",
+      "source": "hospitals.json",
+      "index": 7,
+      "original_id": "01M5W5PQTF9KESVAAX4RZ1S76D"
+    }
+  ]
 }

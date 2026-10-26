@@ -4,7 +4,7 @@
     "latitude": 7.6827932,
     "longitude": 81.734793
   },
-  "address": "286/5,jolly lane, 06 Dr Badhiudeen Mahmood Mawatha",
+  "address": "286/5, jolly lane, 06 Dr Badhiudeen Mahmood Mawatha",
   "categories": [
     "Beauty salon"
   ],
@@ -54,5 +54,37 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQMGB8HJ4NBFXTGSSRSN"
+  "id": "01M5W5PQMGB8HJ4NBFXTGSSRSN",
+  "aliases": [
+    "01M5W5PR03MVKJYVCSC5VFYBGR",
+    "01M5W5PR1GK9TM0ZT7BJ073WRX",
+    "01M5W5PR2QTJCPP2E8QPVNYN8Q"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMGB8HJ4NBFXTGSSRSN",
+      "source": "cosmetics.json",
+      "index": 18,
+      "original_id": "01M5W5PQMGB8HJ4NBFXTGSSRSN"
+    },
+    {
+      "id": "01M5W5PR03MVKJYVCSC5VFYBGR",
+      "source": "recreation.json",
+      "index": 102,
+      "original_id": "01M5W5PR03MVKJYVCSC5VFYBGR"
+    },
+    {
+      "id": "01M5W5PR1GK9TM0ZT7BJ073WRX",
+      "source": "salons.json",
+      "index": 0,
+      "original_id": "01M5W5PR1GK9TM0ZT7BJ073WRX"
+    },
+    {
+      "id": "01M5W5PR2QTJCPP2E8QPVNYN8Q",
+      "source": "saloons.json",
+      "index": 0,
+      "original_id": "01M5W5PR2QTJCPP2E8QPVNYN8Q"
+    }
+  ],
+  "address_original": "286/5,jolly lane, 06 Dr Badhiudeen Mahmood Mawatha"
 }

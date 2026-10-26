@@ -12,5 +12,22 @@
   "hours": [],
   "website": "http://www.thailanka.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQHBRX9E6SQ29VR56M74"
+  "id": "01M5W5PQHBRX9E6SQ29VR56M74",
+  "aliases": [
+    "01M5W5PR7VXDQ7A9W1J6E56TM3"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHBRX9E6SQ29VR56M74",
+      "source": "automotive.json",
+      "index": 80,
+      "original_id": "01M5W5PQHBRX9E6SQ29VR56M74"
+    },
+    {
+      "id": "01M5W5PR7VXDQ7A9W1J6E56TM3",
+      "source": "services.json",
+      "index": 165,
+      "original_id": "01M5W5PR7VXDQ7A9W1J6E56TM3"
+    }
+  ]
 }

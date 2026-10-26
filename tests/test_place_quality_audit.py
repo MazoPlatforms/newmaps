@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import audit_places_quality as audit
+import generate_places_phase2_report
 
 
 class PlaceQualityAuditTests(unittest.TestCase):
@@ -25,7 +26,7 @@ class PlaceQualityAuditTests(unittest.TestCase):
         report = audit.audit()
         rows = report["records"]
         ids = [row["id"] for row in rows]
-        self.assertEqual(len(rows), 3694)
+        self.assertEqual(len(rows), 2655)
         self.assertEqual(len(ids), len(set(ids)))
         self.assertTrue(all(audit.ULID.fullmatch(value) for value in ids))
         self.assertTrue(all(row["independent_lookup_links"]["openstreetmap_search"].startswith("https://www.openstreetmap.org/search?") for row in rows))
@@ -36,10 +37,21 @@ class PlaceQualityAuditTests(unittest.TestCase):
         summary = report["summary"]
         groups = report["duplicate_groups"]
         self.assertEqual(summary["duplicate_candidate_groups"], len(groups))
-        self.assertEqual(summary["potential_duplicate_excess_records"], 1422)
-        self.assertEqual(summary["exactly_identical_groups_except_ulid"], 695)
+        self.assertEqual(summary["potential_duplicate_excess_records"], 383)
+        self.assertEqual(summary["exactly_identical_groups_except_ulid"], 0)
+        self.assertEqual(summary["duplicate_groups_with_field_conflicts"], 172)
         self.assertTrue(all("proposed_canonical_record_id" in group and "source_lineage" in group for group in groups))
         self.assertTrue(all(group["proposed_action"].startswith("Human review") for group in groups))
+
+    def test_phase2_report_accounts_for_all_original_candidate_groups(self):
+        report = generate_places_phase2_report.generate()
+        summary = report["summary"]
+        decisions = report["duplicate_group_decisions"]
+        self.assertEqual(summary["duplicate_groups_reviewed"], 867)
+        self.assertEqual(len(decisions), 867)
+        self.assertEqual(summary["confirmed_exact_groups_merged"], 695)
+        self.assertEqual(summary["conflicting_groups_retained"], 172)
+        self.assertEqual(summary["original_source_records"], 3694)
 
     def test_absence_of_contact_does_not_create_fake_classification(self):
         report = audit.audit()

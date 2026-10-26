@@ -13,5 +13,22 @@
   "phone": "0779445284",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGAZQZ48N25TSAS4AF5"
+  "id": "01M5W5PQGAZQZ48N25TSAS4AF5",
+  "aliases": [
+    "01M5W5PQTGBHPN7X9B9FMH0G0S"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGAZQZ48N25TSAS4AF5",
+      "source": "accommodation.json",
+      "index": 9,
+      "original_id": "01M5W5PQGAZQZ48N25TSAS4AF5"
+    },
+    {
+      "id": "01M5W5PQTGBHPN7X9B9FMH0G0S",
+      "source": "hotels.json",
+      "index": 5,
+      "original_id": "01M5W5PQTGBHPN7X9B9FMH0G0S"
+    }
+  ]
 }

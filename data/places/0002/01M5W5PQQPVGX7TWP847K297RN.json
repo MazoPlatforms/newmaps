@@ -55,5 +55,22 @@
   ],
   "website": "http://www.rooh.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQQPVGX7TWP847K297RN"
+  "id": "01M5W5PQQPVGX7TWP847K297RN",
+  "aliases": [
+    "01M5W5PRCZVQYMEPQ8CP4S531Q"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQQPVGX7TWP847K297RN",
+      "source": "fashion.json",
+      "index": 7,
+      "original_id": "01M5W5PQQPVGX7TWP847K297RN"
+    },
+    {
+      "id": "01M5W5PRCZVQYMEPQ8CP4S531Q",
+      "source": "textiles.json",
+      "index": 22,
+      "original_id": "01M5W5PRCZVQYMEPQ8CP4S531Q"
+    }
+  ]
 }

@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG70Z3HH55MPPE1HEMT"
+  "id": "01M5W5PQG70Z3HH55MPPE1HEMT",
+  "aliases": [
+    "01M5W5PQWJ9RW46MXCHWCCRA0D"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG70Z3HH55MPPE1HEMT",
+      "source": "accessories.json",
+      "index": 146,
+      "original_id": "01M5W5PQG70Z3HH55MPPE1HEMT"
+    },
+    {
+      "id": "01M5W5PQWJ9RW46MXCHWCCRA0D",
+      "source": "mobile.json",
+      "index": 54,
+      "original_id": "01M5W5PQWJ9RW46MXCHWCCRA0D"
+    }
+  ]
 }

@@ -59,5 +59,22 @@
   ],
   "website": "http://www.visioncare.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQKBF6CA6FF5M4C68QBW"
+  "id": "01M5W5PQKBF6CA6FF5M4C68QBW",
+  "aliases": [
+    "01M5W5PQXBR53NDGHBZ2BVNF9Z"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQKBF6CA6FF5M4C68QBW",
+      "source": "communication.json",
+      "index": 110,
+      "original_id": "01M5W5PQKBF6CA6FF5M4C68QBW"
+    },
+    {
+      "id": "01M5W5PQXBR53NDGHBZ2BVNF9Z",
+      "source": "opticals.json",
+      "index": 3,
+      "original_id": "01M5W5PQXBR53NDGHBZ2BVNF9Z"
+    }
+  ]
 }

@@ -11,5 +11,22 @@
   "phone": "0773237540",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGG9Q3WNK3K5VM3YE4D"
+  "id": "01M5W5PQGG9Q3WNK3K5VM3YE4D",
+  "aliases": [
+    "01M5W5PQTPPBJRD1ESCYH8ETNQ"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGG9Q3WNK3K5VM3YE4D",
+      "source": "accommodation.json",
+      "index": 47,
+      "original_id": "01M5W5PQGG9Q3WNK3K5VM3YE4D"
+    },
+    {
+      "id": "01M5W5PQTPPBJRD1ESCYH8ETNQ",
+      "source": "hotels.json",
+      "index": 45,
+      "original_id": "01M5W5PQTPPBJRD1ESCYH8ETNQ"
+    }
+  ]
 }

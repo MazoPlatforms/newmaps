@@ -57,5 +57,22 @@
   ],
   "website": "https://thareekathulmufliheen.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQNGFA0DNKGT7RE93MAT"
+  "id": "01M5W5PQNGFA0DNKGT7RE93MAT",
+  "aliases": [
+    "01M5W5PR0VJ4KSGA148NM9XXG5"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQNGFA0DNKGT7RE93MAT",
+      "source": "education.json",
+      "index": 98,
+      "original_id": "01M5W5PQNGFA0DNKGT7RE93MAT"
+    },
+    {
+      "id": "01M5W5PR0VJ4KSGA148NM9XXG5",
+      "source": "religious.json",
+      "index": 23,
+      "original_id": "01M5W5PR0VJ4KSGA148NM9XXG5"
+    }
+  ]
 }

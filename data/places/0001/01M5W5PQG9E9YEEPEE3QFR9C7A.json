@@ -11,5 +11,29 @@
   "phone": "0776143389",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG9E9YEEPEE3QFR9C7A"
+  "id": "01M5W5PQG9E9YEEPEE3QFR9C7A",
+  "aliases": [
+    "01M5W5PQTGRAYJT2NZE0GHA5CN",
+    "01M5W5PR09SQW9EW4KCGVEJ3WX"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG9E9YEEPEE3QFR9C7A",
+      "source": "accommodation.json",
+      "index": 0,
+      "original_id": "01M5W5PQG9E9YEEPEE3QFR9C7A"
+    },
+    {
+      "id": "01M5W5PQTGRAYJT2NZE0GHA5CN",
+      "source": "hotels.json",
+      "index": 1,
+      "original_id": "01M5W5PQTGRAYJT2NZE0GHA5CN"
+    },
+    {
+      "id": "01M5W5PR09SQW9EW4KCGVEJ3WX",
+      "source": "recreation.json",
+      "index": 133,
+      "original_id": "01M5W5PR09SQW9EW4KCGVEJ3WX"
+    }
+  ]
 }

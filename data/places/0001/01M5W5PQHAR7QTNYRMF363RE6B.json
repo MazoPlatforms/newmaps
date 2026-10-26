@@ -55,5 +55,22 @@
   ],
   "website": "https://sathees-co.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQHAR7QTNYRMF363RE6B"
+  "id": "01M5W5PQHAR7QTNYRMF363RE6B",
+  "aliases": [
+    "01M5W5PR08QR79E0YVVAK8K20K"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHAR7QTNYRMF363RE6B",
+      "source": "automotive.json",
+      "index": 64,
+      "original_id": "01M5W5PQHAR7QTNYRMF363RE6B"
+    },
+    {
+      "id": "01M5W5PR08QR79E0YVVAK8K20K",
+      "source": "recreation.json",
+      "index": 128,
+      "original_id": "01M5W5PR08QR79E0YVVAK8K20K"
+    }
+  ]
 }

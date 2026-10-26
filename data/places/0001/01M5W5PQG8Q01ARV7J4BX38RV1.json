@@ -55,5 +55,29 @@
   ],
   "website": "http://www.bikerboy.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQG8Q01ARV7J4BX38RV1"
+  "id": "01M5W5PQG8Q01ARV7J4BX38RV1",
+  "aliases": [
+    "01M5W5PQHC9G3RBFGA5H3ZDW4Q",
+    "01M5W5PR76X0R6SK9A78ETHQXW"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG8Q01ARV7J4BX38RV1",
+      "source": "accessories.json",
+      "index": 153,
+      "original_id": "01M5W5PQG8Q01ARV7J4BX38RV1"
+    },
+    {
+      "id": "01M5W5PQHC9G3RBFGA5H3ZDW4Q",
+      "source": "automotive.json",
+      "index": 92,
+      "original_id": "01M5W5PQHC9G3RBFGA5H3ZDW4Q"
+    },
+    {
+      "id": "01M5W5PR76X0R6SK9A78ETHQXW",
+      "source": "services.json",
+      "index": 84,
+      "original_id": "01M5W5PR76X0R6SK9A78ETHQXW"
+    }
+  ]
 }

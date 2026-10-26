@@ -14,5 +14,22 @@
   "phone": "0652227770",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGGQNZ6KGZFXT0HFE1Q"
+  "id": "01M5W5PQGGQNZ6KGZFXT0HFE1Q",
+  "aliases": [
+    "01M5W5PQTNQJGNXWVBPPG79SH3"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGQNZ6KGZFXT0HFE1Q",
+      "source": "accommodation.json",
+      "index": 39,
+      "original_id": "01M5W5PQGGQNZ6KGZFXT0HFE1Q"
+    },
+    {
+      "id": "01M5W5PQTNQJGNXWVBPPG79SH3",
+      "source": "hotels.json",
+      "index": 38,
+      "original_id": "01M5W5PQTNQJGNXWVBPPG79SH3"
+    }
+  ]
 }

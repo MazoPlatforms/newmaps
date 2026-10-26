@@ -10,5 +10,22 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQRCSGVZ1SR0KEKM9R2S"
+  "id": "01M5W5PQRCSGVZ1SR0KEKM9R2S",
+  "aliases": [
+    "01M5W5PREWXK07NX11V3C6BJR7"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQRCSGVZ1SR0KEKM9R2S",
+      "source": "fashion.json",
+      "index": 125,
+      "original_id": "01M5W5PQRCSGVZ1SR0KEKM9R2S"
+    },
+    {
+      "id": "01M5W5PREWXK07NX11V3C6BJR7",
+      "source": "textiles.json",
+      "index": 136,
+      "original_id": "01M5W5PREWXK07NX11V3C6BJR7"
+    }
+  ]
 }

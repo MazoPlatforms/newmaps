@@ -55,5 +55,29 @@
   ],
   "website": "https://www.facebook.com/blackbeauty",
   "business_status": "OPEN",
-  "id": "01M5W5PQMH5SD59YK02FVZWC5F"
+  "id": "01M5W5PQMH5SD59YK02FVZWC5F",
+  "aliases": [
+    "01M5W5PQR1JDFEP1AB8127VS9N",
+    "01M5W5PREHX1DK0P2WNN8QRS8N"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMH5SD59YK02FVZWC5F",
+      "source": "cosmetics.json",
+      "index": 25,
+      "original_id": "01M5W5PQMH5SD59YK02FVZWC5F"
+    },
+    {
+      "id": "01M5W5PQR1JDFEP1AB8127VS9N",
+      "source": "fashion.json",
+      "index": 63,
+      "original_id": "01M5W5PQR1JDFEP1AB8127VS9N"
+    },
+    {
+      "id": "01M5W5PREHX1DK0P2WNN8QRS8N",
+      "source": "textiles.json",
+      "index": 114,
+      "original_id": "01M5W5PREHX1DK0P2WNN8QRS8N"
+    }
+  ]
 }

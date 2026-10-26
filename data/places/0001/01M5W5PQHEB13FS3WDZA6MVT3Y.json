@@ -12,5 +12,22 @@
   "hours": [],
   "website": "https://www.facebook.com/profile.php?id=61550698174391&mibextid=LQQJ4d",
   "business_status": "CLOSED_TEMPORARILY",
-  "id": "01M5W5PQHEB13FS3WDZA6MVT3Y"
+  "id": "01M5W5PQHEB13FS3WDZA6MVT3Y",
+  "aliases": [
+    "01M5W5PR7Q1CXCN4R5MRRWJT18"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHEB13FS3WDZA6MVT3Y",
+      "source": "automotive.json",
+      "index": 115,
+      "original_id": "01M5W5PQHEB13FS3WDZA6MVT3Y"
+    },
+    {
+      "id": "01M5W5PR7Q1CXCN4R5MRRWJT18",
+      "source": "services.json",
+      "index": 143,
+      "original_id": "01M5W5PR7Q1CXCN4R5MRRWJT18"
+    }
+  ]
 }

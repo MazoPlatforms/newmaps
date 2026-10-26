@@ -1,7 +1,7 @@
 name: Validate Mazo Places
 on:
   pull_request:
-    paths: ['data/places/**', 'data/roads/**', 'data/speed-limits/**', 'data/speed-limit.schema.json', '*.json', 'scripts/**', 'tests/**', 'data/place.schema.json', 'data/road.schema.json', 'assets/js/app.js', '.github/workflows/**']
+    paths: ['data/places/**', 'data/place-aliases.json', 'data/roads/**', 'data/speed-limits/**', 'data/speed-limit.schema.json', '*.json', 'scripts/**', 'tests/**', 'data/place.schema.json', 'data/road.schema.json', 'assets/js/app.js', '.github/workflows/**']
   push:
     branches: [main]
 permissions:
@@ -14,11 +14,26 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.x'}
       - run: python -m pip install 'shapely>=2,<3'
+      - run: git fetch origin archive/pre-ulid-migration:refs/heads/archive/pre-ulid-migration
       - run: python scripts/places.py validate
+      - run: python scripts/validate_places_phase2.py
       - run: python scripts/places.py build
       - run: python scripts/roads.py validate
       - run: python scripts/roads.py build
       - run: python scripts/speed_limits.py validate
       - run: python scripts/speed_limits.py build
       - run: python -m unittest discover -s tests -v
+      - name: Generate Phase 2 review reports
+        if: startsWith(github.head_ref, 'places/phase-2-quality-cleanup')
+        run: |
+          python scripts/generate_places_phase2_report.py --output reports/places-phase2-before-after.json
+          python scripts/audit_places_quality.py --output reports/places-phase2-after-audit.json
+      - name: Upload Phase 2 review reports
+        if: startsWith(github.head_ref, 'places/phase-2-quality-cleanup')
+        uses: actions/upload-artifact@v4
+        with:
+          name: places-phase-2-review-reports
+          path: reports/places-phase2-*.json
+          if-no-files-found: error
+          retention-days: 30
       - run: node --check assets/js/app.js

@@ -11,5 +11,22 @@
   "phone": "0773572022",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGGH3W0ZWTMK64RM0MM"
+  "id": "01M5W5PQGGH3W0ZWTMK64RM0MM",
+  "aliases": [
+    "01M5W5PQTPX00GH4WPYWWQ7Y5Q"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGH3W0ZWTMK64RM0MM",
+      "source": "accommodation.json",
+      "index": 38,
+      "original_id": "01M5W5PQGGH3W0ZWTMK64RM0MM"
+    },
+    {
+      "id": "01M5W5PQTPX00GH4WPYWWQ7Y5Q",
+      "source": "hotels.json",
+      "index": 42,
+      "original_id": "01M5W5PQTPX00GH4WPYWWQ7Y5Q"
+    }
+  ]
 }

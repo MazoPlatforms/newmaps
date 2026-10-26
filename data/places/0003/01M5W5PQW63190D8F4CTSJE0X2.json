@@ -11,5 +11,22 @@
   "phone": "0652248153",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQW63190D8F4CTSJE0X2"
+  "id": "01M5W5PQW63190D8F4CTSJE0X2",
+  "aliases": [
+    "01M5W5PRC0YT9SHMA3V4AMR1DR"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQW63190D8F4CTSJE0X2",
+      "source": "markets.json",
+      "index": 45,
+      "original_id": "01M5W5PQW63190D8F4CTSJE0X2"
+    },
+    {
+      "id": "01M5W5PRC0YT9SHMA3V4AMR1DR",
+      "source": "supermarket.json",
+      "index": 38,
+      "original_id": "01M5W5PRC0YT9SHMA3V4AMR1DR"
+    }
+  ]
 }

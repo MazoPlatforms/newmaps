@@ -55,5 +55,22 @@
   ],
   "website": "https://web.facebook.com/HinthushanRK",
   "business_status": "OPEN",
-  "id": "01M5W5PQK6QBNSN9C4QPBFGGS6"
+  "id": "01M5W5PQK6QBNSN9C4QPBFGGS6",
+  "aliases": [
+    "01M5W5PR8VQ2ZV5RM2Q7323HVB"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQK6QBNSN9C4QPBFGGS6",
+      "source": "communication.json",
+      "index": 87,
+      "original_id": "01M5W5PQK6QBNSN9C4QPBFGGS6"
+    },
+    {
+      "id": "01M5W5PR8VQ2ZV5RM2Q7323HVB",
+      "source": "studio.json",
+      "index": 35,
+      "original_id": "01M5W5PR8VQ2ZV5RM2Q7323HVB"
+    }
+  ]
 }

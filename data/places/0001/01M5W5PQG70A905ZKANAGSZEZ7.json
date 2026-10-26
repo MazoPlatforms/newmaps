@@ -54,5 +54,22 @@
   ],
   "website": "https://l1nq.com/anx7bwm",
   "business_status": "OPEN",
-  "id": "01M5W5PQG70A905ZKANAGSZEZ7"
+  "id": "01M5W5PQG70A905ZKANAGSZEZ7",
+  "aliases": [
+    "01M5W5PQH7H7H19GMY0MNGXQGN"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG70A905ZKANAGSZEZ7",
+      "source": "accessories.json",
+      "index": 144,
+      "original_id": "01M5W5PQG70A905ZKANAGSZEZ7"
+    },
+    {
+      "id": "01M5W5PQH7H7H19GMY0MNGXQGN",
+      "source": "automotive.json",
+      "index": 35,
+      "original_id": "01M5W5PQH7H7H19GMY0MNGXQGN"
+    }
+  ]
 }

@@ -12,5 +12,22 @@
   "hours": [],
   "website": "https://www.facebook.com/profile.php?id=61579771361310",
   "business_status": "OPEN",
-  "id": "01M5W5PQGAZ9TXDMK8ZHX0YVGB"
+  "id": "01M5W5PQGAZ9TXDMK8ZHX0YVGB",
+  "aliases": [
+    "01M5W5PQTGYV96SXW2M8E47V7K"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGAZ9TXDMK8ZHX0YVGB",
+      "source": "accommodation.json",
+      "index": 12,
+      "original_id": "01M5W5PQGAZ9TXDMK8ZHX0YVGB"
+    },
+    {
+      "id": "01M5W5PQTGYV96SXW2M8E47V7K",
+      "source": "hotels.json",
+      "index": 2,
+      "original_id": "01M5W5PQTGYV96SXW2M8E47V7K"
+    }
+  ]
 }

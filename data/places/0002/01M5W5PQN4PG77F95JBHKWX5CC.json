@@ -56,5 +56,22 @@
   "business_status": "OPEN",
   "school_census_no": 14147,
   "name_source": "https://moe.gov.lk/wp-content/uploads/2025/07/School_List.pdf",
-  "id": "01M5W5PQN4PG77F95JBHKWX5CC"
+  "id": "01M5W5PQN4PG77F95JBHKWX5CC",
+  "aliases": [
+    "01M5W5PR33CTPWPB8EXAD9MVM2"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQN4PG77F95JBHKWX5CC",
+      "source": "education.json",
+      "index": 39,
+      "original_id": "01M5W5PQN4PG77F95JBHKWX5CC"
+    },
+    {
+      "id": "01M5W5PR33CTPWPB8EXAD9MVM2",
+      "source": "schools.json",
+      "index": 4,
+      "original_id": "01M5W5PR33CTPWPB8EXAD9MVM2"
+    }
+  ]
 }

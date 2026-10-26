@@ -10,5 +10,36 @@
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG7CPA9EJ1HBS9BQY6H"
+  "id": "01M5W5PQG7CPA9EJ1HBS9BQY6H",
+  "aliases": [
+    "01M5W5PQWFWNNXM7ZK07FBAZCQ",
+    "01M5W5PQZ1CMZ76QER5S50JNCM",
+    "01M5W5PR7C89DFJR947MJ39G4C"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG7CPA9EJ1HBS9BQY6H",
+      "source": "accessories.json",
+      "index": 151,
+      "original_id": "01M5W5PQG7CPA9EJ1HBS9BQY6H"
+    },
+    {
+      "id": "01M5W5PQWFWNNXM7ZK07FBAZCQ",
+      "source": "mobile.json",
+      "index": 40,
+      "original_id": "01M5W5PQWFWNNXM7ZK07FBAZCQ"
+    },
+    {
+      "id": "01M5W5PQZ1CMZ76QER5S50JNCM",
+      "source": "public-utilities.json",
+      "index": 65,
+      "original_id": "01M5W5PQZ1CMZ76QER5S50JNCM"
+    },
+    {
+      "id": "01M5W5PR7C89DFJR947MJ39G4C",
+      "source": "services.json",
+      "index": 105,
+      "original_id": "01M5W5PR7C89DFJR947MJ39G4C"
+    }
+  ]
 }

@@ -11,5 +11,22 @@
   "phone": "0771992227",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQQ8B6NJTNKCP6G18Q91"
+  "id": "01M5W5PQQ8B6NJTNKCP6G18Q91",
+  "aliases": [
+    "01M5W5PR7PG5P0102PS3FH6BZ6"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQQ8B6NJTNKCP6G18Q91",
+      "source": "emergency.json",
+      "index": 20,
+      "original_id": "01M5W5PQQ8B6NJTNKCP6G18Q91"
+    },
+    {
+      "id": "01M5W5PR7PG5P0102PS3FH6BZ6",
+      "source": "services.json",
+      "index": 141,
+      "original_id": "01M5W5PR7PG5P0102PS3FH6BZ6"
+    }
+  ]
 }

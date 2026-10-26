@@ -55,5 +55,29 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQXFEV4V0D3EY81SDWNK"
+  "id": "01M5W5PQXFEV4V0D3EY81SDWNK",
+  "aliases": [
+    "01M5W5PQZ5996MDYAGF6QN0J3Z",
+    "01M5W5PR780T4ZXZ8PWP97PR2A"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQXFEV4V0D3EY81SDWNK",
+      "source": "pharmacies.json",
+      "index": 0,
+      "original_id": "01M5W5PQXFEV4V0D3EY81SDWNK"
+    },
+    {
+      "id": "01M5W5PQZ5996MDYAGF6QN0J3Z",
+      "source": "public-utilities.json",
+      "index": 74,
+      "original_id": "01M5W5PQZ5996MDYAGF6QN0J3Z"
+    },
+    {
+      "id": "01M5W5PR780T4ZXZ8PWP97PR2A",
+      "source": "services.json",
+      "index": 89,
+      "original_id": "01M5W5PR780T4ZXZ8PWP97PR2A"
+    }
+  ]
 }

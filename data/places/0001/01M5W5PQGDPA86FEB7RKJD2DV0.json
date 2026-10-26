@@ -11,5 +11,29 @@
   "phone": "0752880006",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGDPA86FEB7RKJD2DV0"
+  "id": "01M5W5PQGDPA86FEB7RKJD2DV0",
+  "aliases": [
+    "01M5W5PQTKHFY43M42NWQQYAV6",
+    "01M5W5PR72RJV58VG76W0TS03R"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGDPA86FEB7RKJD2DV0",
+      "source": "accommodation.json",
+      "index": 21,
+      "original_id": "01M5W5PQGDPA86FEB7RKJD2DV0"
+    },
+    {
+      "id": "01M5W5PQTKHFY43M42NWQQYAV6",
+      "source": "hotels.json",
+      "index": 25,
+      "original_id": "01M5W5PQTKHFY43M42NWQQYAV6"
+    },
+    {
+      "id": "01M5W5PR72RJV58VG76W0TS03R",
+      "source": "services.json",
+      "index": 72,
+      "original_id": "01M5W5PR72RJV58VG76W0TS03R"
+    }
+  ]
 }

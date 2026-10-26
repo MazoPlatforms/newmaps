@@ -55,5 +55,22 @@
   ],
   "website": "https://www.facebook.com/zaraamen.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQREYYGS7J29ZWB8507K"
+  "id": "01M5W5PQREYYGS7J29ZWB8507K",
+  "aliases": [
+    "01M5W5PRF6DAHANW8G70TRX1XH"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQREYYGS7J29ZWB8507K",
+      "source": "fashion.json",
+      "index": 137,
+      "original_id": "01M5W5PQREYYGS7J29ZWB8507K"
+    },
+    {
+      "id": "01M5W5PRF6DAHANW8G70TRX1XH",
+      "source": "textiles.json",
+      "index": 160,
+      "original_id": "01M5W5PRF6DAHANW8G70TRX1XH"
+    }
+  ]
 }

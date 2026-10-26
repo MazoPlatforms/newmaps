@@ -54,5 +54,36 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQK370KXYE93P660KNTD"
+  "id": "01M5W5PQK370KXYE93P660KNTD",
+  "aliases": [
+    "01M5W5PQRK9MN7EW2RQGEVF47A",
+    "01M5W5PQXA34ZCZ9DAWAXJQM38",
+    "01M5W5PR7Q3VBMNNPSVYK362VJ"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQK370KXYE93P660KNTD",
+      "source": "communication.json",
+      "index": 53,
+      "original_id": "01M5W5PQK370KXYE93P660KNTD"
+    },
+    {
+      "id": "01M5W5PQRK9MN7EW2RQGEVF47A",
+      "source": "fashion.json",
+      "index": 174,
+      "original_id": "01M5W5PQRK9MN7EW2RQGEVF47A"
+    },
+    {
+      "id": "01M5W5PQXA34ZCZ9DAWAXJQM38",
+      "source": "opticals.json",
+      "index": 1,
+      "original_id": "01M5W5PQXA34ZCZ9DAWAXJQM38"
+    },
+    {
+      "id": "01M5W5PR7Q3VBMNNPSVYK362VJ",
+      "source": "services.json",
+      "index": 147,
+      "original_id": "01M5W5PR7Q3VBMNNPSVYK362VJ"
+    }
+  ]
 }

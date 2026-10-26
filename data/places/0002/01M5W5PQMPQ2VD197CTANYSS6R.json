@@ -55,5 +55,29 @@
   ],
   "website": "https://kkymall.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQMPQ2VD197CTANYSS6R"
+  "id": "01M5W5PQMPQ2VD197CTANYSS6R",
+  "aliases": [
+    "01M5W5PQWR3QC89WWXFKZ8SDXT",
+    "01M5W5PR6F5JH1BTBJY4GNHV68"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQMPQ2VD197CTANYSS6R",
+      "source": "couriers.json",
+      "index": 7,
+      "original_id": "01M5W5PQMPQ2VD197CTANYSS6R"
+    },
+    {
+      "id": "01M5W5PQWR3QC89WWXFKZ8SDXT",
+      "source": "mobile.json",
+      "index": 89,
+      "original_id": "01M5W5PQWR3QC89WWXFKZ8SDXT"
+    },
+    {
+      "id": "01M5W5PR6F5JH1BTBJY4GNHV68",
+      "source": "services.json",
+      "index": 24,
+      "original_id": "01M5W5PR6F5JH1BTBJY4GNHV68"
+    }
+  ]
 }

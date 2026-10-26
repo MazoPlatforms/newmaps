@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 PLACES=ROOT/'data'/'places'; GENERATED=ROOT/'generated'; LIMIT=999
+ALIAS_MAP=ROOT/'data'/'place-aliases.json'
 ULID=re.compile(r'^[0-7][0-9A-HJKMNP-TV-Z]{25}$')
 SOURCE_FILES=sorted(p for p in ROOT.glob('*.json') if p.name not in {'manifest.json','migration-record-map.json','migration-exclusions.json'})
 
@@ -15,7 +16,7 @@ def encode_ulid(ms, randomness):
 def new_ulid(): return encode_ulid(int(time.time()*1000),secrets.randbits(80))
 def shard_files(shard): return sorted(p for p in shard.glob('*.json') if p.is_file())
 def next_shard():
-    shards=sorted((p for p in PLACES.iterdir() if p.is_dir()),key=lambda p:int(p.name)) if PLACES.exists() else []
+    shards=sorted((p for p in PLACES.iterdir() if p.is_dir() and p.name.isdigit()),key=lambda p:int(p.name)) if PLACES.exists() else []
     for shard in shards:
         if not shard.name.isdigit() or len(shard.name)!=4: raise ValueError(f'Invalid shard directory: {shard}')
         if len(shard_files(shard))<LIMIT:return shard
@@ -38,6 +39,7 @@ def validate_record(record, path=None, allow_invalid_coordinates=False):
 def load_places():
     records=[]; ids=set(); counts={}; suspicious=[]
     for shard in sorted(PLACES.iterdir(),key=lambda p:p.name) if PLACES.exists() else []:
+        if shard.is_dir() and shard.name=='retired': continue
         if not shard.is_dir() or not re.fullmatch(r'\d{4,}',shard.name): raise ValueError(f'Invalid shard name: {shard.name}')
         files=shard_files(shard); counts[shard.name]=len(files)
         if len(files)>LIMIT: raise ValueError(f'{shard} contains {len(files)} files; maximum is {LIMIT}')
@@ -45,6 +47,42 @@ def load_places():
             p=json.loads(path.read_text(encoding='utf8')); validate_record(p,path,allow_invalid_coordinates=True)
             if p['id'] in ids: raise ValueError(f'Duplicate ID: {p["id"]}')
             ids.add(p['id']); records.append(p)
+    if ALIAS_MAP.exists():
+        alias_map=json.loads(ALIAS_MAP.read_text(encoding='utf8')).get('aliases',{})
+        if not isinstance(alias_map,dict): raise ValueError('Place aliases must map retired ULIDs to canonical ULIDs')
+        aliases=[{'retired_id':old,'canonical_id':target} for old,target in alias_map.items()]
+        alias_ids=set()
+        for item in aliases:
+            old=item.get('retired_id'); target=item.get('canonical_id')
+            if not isinstance(old,str) or not ULID.fullmatch(old) or old in ids or old in alias_ids:
+                raise ValueError(f'Invalid or duplicate retired place alias: {old}')
+            if target not in ids: raise ValueError(f'Place alias target does not exist: {target}')
+            archive=PLACES/'retired'/f'{old}.json'
+            if not archive.is_file(): raise ValueError(f'Missing retired place archive: {archive}')
+            archived=json.loads(archive.read_text(encoding='utf8'))
+            if archived.get('id')!=old: raise ValueError(f'Retired archive ID mismatch: {archive}')
+            alias_ids.add(old)
+        for p in records:
+            if sorted(p.get('aliases',[])) != sorted(a['retired_id'] for a in aliases if a['canonical_id']==p['id']):
+                raise ValueError(f'Canonical record alias list mismatch: {p["id"]}')
+            if p.get('aliases') and len(p.get('source_records',[])) != len(p['aliases'])+1:
+                raise ValueError(f'Canonical source lineage incomplete: {p["id"]}')
+        mapping_path=ROOT/'migration-record-map.json'
+        if mapping_path.exists():
+            mapping=json.loads(mapping_path.read_text(encoding='utf8'))
+            migrated={row['id']:row for row in mapping}
+            if len(migrated)!=len(mapping): raise ValueError('Duplicate source mapping ULID')
+            for p in records:
+                for source in p.get('source_records',[]):
+                    if source.get('id') and source['id'] not in ids|alias_ids:
+                        raise ValueError(f'Canonical source ULID is unresolved: {source["id"]}')
+                    if source.get('id'):
+                        original=migrated.get(source['id'])
+                        if not original or original.get('source')!=source.get('source') or original.get('index')!=source.get('index'):
+                            raise ValueError(f'Canonical source lineage mismatch: {source["id"]}')
+            for alias in aliases:
+                if alias['retired_id'] not in migrated:
+                    raise ValueError(f'Migration mapping missing alias source: {alias["retired_id"]}')
     fingerprints={}
     for p in records:
         if not isinstance(p.get('coordinates'),dict):continue
@@ -62,7 +100,8 @@ def build():
     data=json.dumps({'type':'FeatureCollection','features':features},ensure_ascii=False,separators=(',',':')).encode()
     out=GENERATED/'kattankudy.mzp';out.write_bytes(data)
     digest=hashlib.sha256(data).hexdigest()
-    report={'format':'MZP/1','geojson':'kattankudy.mzp','features':len(features),'excluded_without_coordinates':excluded,'bytes':len(data),'sha256':digest,'shards':counts}
+    aliases=json.loads(ALIAS_MAP.read_text(encoding='utf8')).get('aliases',[]) if ALIAS_MAP.exists() else []
+    report={'format':'MZP/1','geojson':'kattankudy.mzp','features':len(features),'excluded_without_coordinates':excluded,'bytes':len(data),'sha256':digest,'shards':counts,'active_records':len(records),'source_records':len(records)+len(aliases),'retired_aliases':len(aliases),'alias_map':'data/place-aliases.json' if aliases else None,'alias_map_sha256':hashlib.sha256(ALIAS_MAP.read_bytes()).hexdigest() if aliases else None,'source_to_ulid_mapping':'migration-record-map.json','schema_version':2}
     (GENERATED/'manifest.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({**report,'suspicious_duplicate_pairs':len(suspicious)},indent=2))
 def allocate(record):

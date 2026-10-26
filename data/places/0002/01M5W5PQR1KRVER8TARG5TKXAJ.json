@@ -11,5 +11,22 @@
   "phone": "0652246633",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQR1KRVER8TARG5TKXAJ"
+  "id": "01M5W5PQR1KRVER8TARG5TKXAJ",
+  "aliases": [
+    "01M5W5PRCWRFK88Y4WP07A8TYF"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQR1KRVER8TARG5TKXAJ",
+      "source": "fashion.json",
+      "index": 64,
+      "original_id": "01M5W5PQR1KRVER8TARG5TKXAJ"
+    },
+    {
+      "id": "01M5W5PRCWRFK88Y4WP07A8TYF",
+      "source": "textiles.json",
+      "index": 14,
+      "original_id": "01M5W5PRCWRFK88Y4WP07A8TYF"
+    }
+  ]
 }

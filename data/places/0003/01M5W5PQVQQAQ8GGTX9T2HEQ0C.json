@@ -54,5 +54,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQVQQAQ8GGTX9T2HEQ0C"
+  "id": "01M5W5PQVQQAQ8GGTX9T2HEQ0C",
+  "aliases": [
+    "01M5W5PRBCR5G54QQJ7KB32QJ7"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQVQQAQ8GGTX9T2HEQ0C",
+      "source": "markets.json",
+      "index": 6,
+      "original_id": "01M5W5PQVQQAQ8GGTX9T2HEQ0C"
+    },
+    {
+      "id": "01M5W5PRBCR5G54QQJ7KB32QJ7",
+      "source": "supermarket.json",
+      "index": 3,
+      "original_id": "01M5W5PRBCR5G54QQJ7KB32QJ7"
+    }
+  ]
 }

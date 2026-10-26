@@ -11,5 +11,22 @@
   "phone": "0714273747",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQP8M3N13ET2B0RC1R9N"
+  "id": "01M5W5PQP8M3N13ET2B0RC1R9N",
+  "aliases": [
+    "01M5W5PRG7GKWYQ4ZDEKY74M6K"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQP8M3N13ET2B0RC1R9N",
+      "source": "electronics.json",
+      "index": 35,
+      "original_id": "01M5W5PQP8M3N13ET2B0RC1R9N"
+    },
+    {
+      "id": "01M5W5PRG7GKWYQ4ZDEKY74M6K",
+      "source": "utilities.json",
+      "index": 30,
+      "original_id": "01M5W5PRG7GKWYQ4ZDEKY74M6K"
+    }
+  ]
 }

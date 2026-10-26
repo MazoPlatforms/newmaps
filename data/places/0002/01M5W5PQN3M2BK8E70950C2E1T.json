@@ -54,5 +54,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQN3M2BK8E70950C2E1T"
+  "id": "01M5W5PQN3M2BK8E70950C2E1T",
+  "aliases": [
+    "01M5W5PR38DVHFW323CCSG5MAA"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQN3M2BK8E70950C2E1T",
+      "source": "education.json",
+      "index": 32,
+      "original_id": "01M5W5PQN3M2BK8E70950C2E1T"
+    },
+    {
+      "id": "01M5W5PR38DVHFW323CCSG5MAA",
+      "source": "schools.json",
+      "index": 10,
+      "original_id": "01M5W5PR38DVHFW323CCSG5MAA"
+    }
+  ]
 }

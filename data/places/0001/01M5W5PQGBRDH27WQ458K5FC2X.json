@@ -11,5 +11,22 @@
   "phone": "0774786966",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGBRDH27WQ458K5FC2X"
+  "id": "01M5W5PQGBRDH27WQ458K5FC2X",
+  "aliases": [
+    "01M5W5PQTH4S6VCBX4914SS3P4"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGBRDH27WQ458K5FC2X",
+      "source": "accommodation.json",
+      "index": 13,
+      "original_id": "01M5W5PQGBRDH27WQ458K5FC2X"
+    },
+    {
+      "id": "01M5W5PQTH4S6VCBX4914SS3P4",
+      "source": "hotels.json",
+      "index": 8,
+      "original_id": "01M5W5PQTH4S6VCBX4914SS3P4"
+    }
+  ]
 }

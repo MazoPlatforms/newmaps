@@ -11,5 +11,22 @@
   "phone": "0777484808",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG9DKTP3P826E9KXVXA"
+  "id": "01M5W5PQG9DKTP3P826E9KXVXA",
+  "aliases": [
+    "01M5W5PQTHW6ZNMDMKT770FZP2"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG9DKTP3P826E9KXVXA",
+      "source": "accommodation.json",
+      "index": 3,
+      "original_id": "01M5W5PQG9DKTP3P826E9KXVXA"
+    },
+    {
+      "id": "01M5W5PQTHW6ZNMDMKT770FZP2",
+      "source": "hotels.json",
+      "index": 12,
+      "original_id": "01M5W5PQTHW6ZNMDMKT770FZP2"
+    }
+  ]
 }

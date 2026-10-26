@@ -54,5 +54,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQP7G6XJ9XGRTY84N56M"
+  "id": "01M5W5PQP7G6XJ9XGRTY84N56M",
+  "aliases": [
+    "01M5W5PRGAJVNH1CBQR0CB5JPA"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQP7G6XJ9XGRTY84N56M",
+      "source": "electronics.json",
+      "index": 29,
+      "original_id": "01M5W5PQP7G6XJ9XGRTY84N56M"
+    },
+    {
+      "id": "01M5W5PRGAJVNH1CBQR0CB5JPA",
+      "source": "utilities.json",
+      "index": 45,
+      "original_id": "01M5W5PRGAJVNH1CBQR0CB5JPA"
+    }
+  ]
 }

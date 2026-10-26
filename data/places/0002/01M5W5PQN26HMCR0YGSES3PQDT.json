@@ -4,12 +4,30 @@
     "latitude": 7.6829787,
     "longitude": 81.7243493
   },
-  "address": "Ash Shaheed Ahmad, No,93A Labbi Road, Kattankudy 30100",
+  "address": "Ash Shaheed Ahmad, No, 93A Labbi Road, Kattankudy 30100",
   "categories": [
     "German language school"
   ],
   "phone": "0742258522",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQN26HMCR0YGSES3PQDT"
+  "id": "01M5W5PQN26HMCR0YGSES3PQDT",
+  "aliases": [
+    "01M5W5PR3MQA1MAHKZ2SBCRYPM"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQN26HMCR0YGSES3PQDT",
+      "source": "education.json",
+      "index": 22,
+      "original_id": "01M5W5PQN26HMCR0YGSES3PQDT"
+    },
+    {
+      "id": "01M5W5PR3MQA1MAHKZ2SBCRYPM",
+      "source": "schools.json",
+      "index": 30,
+      "original_id": "01M5W5PR3MQA1MAHKZ2SBCRYPM"
+    }
+  ],
+  "address_original": "Ash Shaheed Ahmad, No,93A Labbi Road, Kattankudy 30100"
 }

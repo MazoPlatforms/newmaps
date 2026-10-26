@@ -54,5 +54,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQGQXSEZSBF8CV88DKX4"
+  "id": "01M5W5PQGQXSEZSBF8CV88DKX4",
+  "aliases": [
+    "01M5W5PR18GP0RR9GFK31TT2HX"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGQXSEZSBF8CV88DKX4",
+      "source": "agriculture.json",
+      "index": 34,
+      "original_id": "01M5W5PQGQXSEZSBF8CV88DKX4"
+    },
+    {
+      "id": "01M5W5PR18GP0RR9GFK31TT2HX",
+      "source": "religious.json",
+      "index": 98,
+      "original_id": "01M5W5PR18GP0RR9GFK31TT2HX"
+    }
+  ]
 }

@@ -11,5 +11,22 @@
   "phone": "0652227881",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGFCSCGGGV1SBQDRNGT"
+  "id": "01M5W5PQGFCSCGGGV1SBQDRNGT",
+  "aliases": [
+    "01M5W5PQTM76WYB64F36K9NZ8Z"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGFCSCGGGV1SBQDRNGT",
+      "source": "accommodation.json",
+      "index": 34,
+      "original_id": "01M5W5PQGFCSCGGGV1SBQDRNGT"
+    },
+    {
+      "id": "01M5W5PQTM76WYB64F36K9NZ8Z",
+      "source": "hotels.json",
+      "index": 32,
+      "original_id": "01M5W5PQTM76WYB64F36K9NZ8Z"
+    }
+  ]
 }

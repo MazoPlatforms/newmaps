@@ -54,5 +54,43 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQHYRARZJV4S0H356SE9"
+  "id": "01M5W5PQHYRARZJV4S0H356SE9",
+  "aliases": [
+    "01M5W5PQXGTNSFKWR0FTG3YM34",
+    "01M5W5PQZ8X7T5649A3EA6ZBG3",
+    "01M5W5PR7ASWXHP4BJ7B7DKTMB",
+    "01M5W5PRBZJ5YGVKR804KA8X7N"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQHYRARZJV4S0H356SE9",
+      "source": "bakery.json",
+      "index": 72,
+      "original_id": "01M5W5PQHYRARZJV4S0H356SE9"
+    },
+    {
+      "id": "01M5W5PQXGTNSFKWR0FTG3YM34",
+      "source": "pharmacies.json",
+      "index": 2,
+      "original_id": "01M5W5PQXGTNSFKWR0FTG3YM34"
+    },
+    {
+      "id": "01M5W5PQZ8X7T5649A3EA6ZBG3",
+      "source": "public-utilities.json",
+      "index": 82,
+      "original_id": "01M5W5PQZ8X7T5649A3EA6ZBG3"
+    },
+    {
+      "id": "01M5W5PR7ASWXHP4BJ7B7DKTMB",
+      "source": "services.json",
+      "index": 99,
+      "original_id": "01M5W5PR7ASWXHP4BJ7B7DKTMB"
+    },
+    {
+      "id": "01M5W5PRBZJ5YGVKR804KA8X7N",
+      "source": "supermarket.json",
+      "index": 36,
+      "original_id": "01M5W5PRBZJ5YGVKR804KA8X7N"
+    }
+  ]
 }

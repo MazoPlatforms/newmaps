@@ -4,7 +4,7 @@
     "latitude": 7.6955171,
     "longitude": 81.7263534
   },
-  "address": "378/58 6th cross,beach Road, Kattankudy 30000",
+  "address": "378/58 6th cross, beach Road, Kattankudy 30000",
   "categories": [
     "Travel agency",
     "Tour operator",
@@ -56,5 +56,30 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQZYG5BXSQGDGJ65N1H5"
+  "id": "01M5W5PQZYG5BXSQGDGJ65N1H5",
+  "aliases": [
+    "01M5W5PR6Z4HARPNQP8WQQXAMG",
+    "01M5W5PRFE6ZFZPY8AQAZM8WCY"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQZYG5BXSQGDGJ65N1H5",
+      "source": "recreation.json",
+      "index": 83,
+      "original_id": "01M5W5PQZYG5BXSQGDGJ65N1H5"
+    },
+    {
+      "id": "01M5W5PR6Z4HARPNQP8WQQXAMG",
+      "source": "services.json",
+      "index": 63,
+      "original_id": "01M5W5PR6Z4HARPNQP8WQQXAMG"
+    },
+    {
+      "id": "01M5W5PRFE6ZFZPY8AQAZM8WCY",
+      "source": "transport.json",
+      "index": 14,
+      "original_id": "01M5W5PRFE6ZFZPY8AQAZM8WCY"
+    }
+  ],
+  "address_original": "378/58 6th cross,beach Road, Kattankudy 30000"
 }

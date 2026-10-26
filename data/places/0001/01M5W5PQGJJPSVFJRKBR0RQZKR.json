@@ -55,5 +55,78 @@
   ],
   "website": "http://www.rafeekbakery.hol.es/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGJJPSVFJRKBR0RQZKR"
+  "id": "01M5W5PQGJJPSVFJRKBR0RQZKR",
+  "aliases": [
+    "01M5W5PQHNWCCPS25XGCW8C7X7",
+    "01M5W5PQK34AKNPT55RGYMC8YD",
+    "01M5W5PQRHFD6YHFH42JH50JF0",
+    "01M5W5PQXKYK8MHZZJ6W158F4Y",
+    "01M5W5PR7SE5ZZJTQNC7RFE3Y5",
+    "01M5W5PRAZ70J1NT63G4KS5ASS",
+    "01M5W5PRBW16K8ANZ7FHGMYRVE",
+    "01M5W5PRF5YZM2NQ7JCECVPR7Q",
+    "01M5W5PRG89BMDW6NSH95A5CNB"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGJJPSVFJRKBR0RQZKR",
+      "source": "addresses.json",
+      "index": 13,
+      "original_id": "01M5W5PQGJJPSVFJRKBR0RQZKR"
+    },
+    {
+      "id": "01M5W5PQHNWCCPS25XGCW8C7X7",
+      "source": "bakery.json",
+      "index": 0,
+      "original_id": "01M5W5PQHNWCCPS25XGCW8C7X7"
+    },
+    {
+      "id": "01M5W5PQK34AKNPT55RGYMC8YD",
+      "source": "communication.json",
+      "index": 55,
+      "original_id": "01M5W5PQK34AKNPT55RGYMC8YD"
+    },
+    {
+      "id": "01M5W5PQRHFD6YHFH42JH50JF0",
+      "source": "fashion.json",
+      "index": 156,
+      "original_id": "01M5W5PQRHFD6YHFH42JH50JF0"
+    },
+    {
+      "id": "01M5W5PQXKYK8MHZZJ6W158F4Y",
+      "source": "pharmacies.json",
+      "index": 17,
+      "original_id": "01M5W5PQXKYK8MHZZJ6W158F4Y"
+    },
+    {
+      "id": "01M5W5PR7SE5ZZJTQNC7RFE3Y5",
+      "source": "services.json",
+      "index": 156,
+      "original_id": "01M5W5PR7SE5ZZJTQNC7RFE3Y5"
+    },
+    {
+      "id": "01M5W5PRAZ70J1NT63G4KS5ASS",
+      "source": "studio.json",
+      "index": 78,
+      "original_id": "01M5W5PRAZ70J1NT63G4KS5ASS"
+    },
+    {
+      "id": "01M5W5PRBW16K8ANZ7FHGMYRVE",
+      "source": "supermarket.json",
+      "index": 29,
+      "original_id": "01M5W5PRBW16K8ANZ7FHGMYRVE"
+    },
+    {
+      "id": "01M5W5PRF5YZM2NQ7JCECVPR7Q",
+      "source": "textiles.json",
+      "index": 155,
+      "original_id": "01M5W5PRF5YZM2NQ7JCECVPR7Q"
+    },
+    {
+      "id": "01M5W5PRG89BMDW6NSH95A5CNB",
+      "source": "utilities.json",
+      "index": 35,
+      "original_id": "01M5W5PRG89BMDW6NSH95A5CNB"
+    }
+  ]
 }

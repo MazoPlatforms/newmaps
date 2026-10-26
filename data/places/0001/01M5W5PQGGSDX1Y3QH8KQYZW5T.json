@@ -11,5 +11,22 @@
   "phone": "0776570198",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGGSDX1Y3QH8KQYZW5T"
+  "id": "01M5W5PQGGSDX1Y3QH8KQYZW5T",
+  "aliases": [
+    "01M5W5PQTPK6W72E7E2VE3T4E2"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGGSDX1Y3QH8KQYZW5T",
+      "source": "accommodation.json",
+      "index": 51,
+      "original_id": "01M5W5PQGGSDX1Y3QH8KQYZW5T"
+    },
+    {
+      "id": "01M5W5PQTPK6W72E7E2VE3T4E2",
+      "source": "hotels.json",
+      "index": 47,
+      "original_id": "01M5W5PQTPK6W72E7E2VE3T4E2"
+    }
+  ]
 }

@@ -11,5 +11,22 @@
   "phone": "0776033144",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGFPFQN81VBX7GJ82ND"
+  "id": "01M5W5PQGFPFQN81VBX7GJ82ND",
+  "aliases": [
+    "01M5W5PQTN98EZJW86FAM9YE3Z"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGFPFQN81VBX7GJ82ND",
+      "source": "accommodation.json",
+      "index": 31,
+      "original_id": "01M5W5PQGFPFQN81VBX7GJ82ND"
+    },
+    {
+      "id": "01M5W5PQTN98EZJW86FAM9YE3Z",
+      "source": "hotels.json",
+      "index": 36,
+      "original_id": "01M5W5PQTN98EZJW86FAM9YE3Z"
+    }
+  ]
 }

@@ -55,5 +55,29 @@
   ],
   "website": "http://www.tiptopsm.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQVQR49Z2V4Q3JN46ETZ"
+  "id": "01M5W5PQVQR49Z2V4Q3JN46ETZ",
+  "aliases": [
+    "01M5W5PQWN0NVY9G3A2R8MBWWH",
+    "01M5W5PRBF5QZ19XN351HFS61S"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQVQR49Z2V4Q3JN46ETZ",
+      "source": "markets.json",
+      "index": 4,
+      "original_id": "01M5W5PQVQR49Z2V4Q3JN46ETZ"
+    },
+    {
+      "id": "01M5W5PQWN0NVY9G3A2R8MBWWH",
+      "source": "mobile.json",
+      "index": 76,
+      "original_id": "01M5W5PQWN0NVY9G3A2R8MBWWH"
+    },
+    {
+      "id": "01M5W5PRBF5QZ19XN351HFS61S",
+      "source": "supermarket.json",
+      "index": 5,
+      "original_id": "01M5W5PRBF5QZ19XN351HFS61S"
+    }
+  ]
 }

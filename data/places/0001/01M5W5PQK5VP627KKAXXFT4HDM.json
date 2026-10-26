@@ -11,5 +11,43 @@
   "phone": "0756146138",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQK5VP627KKAXXFT4HDM"
+  "id": "01M5W5PQK5VP627KKAXXFT4HDM",
+  "aliases": [
+    "01M5W5PQYT9N2NKBR71S4S84G7",
+    "01M5W5PR04CKY8KE028JA6GQC1",
+    "01M5W5PR75HZAG4KTJNGTHVY47",
+    "01M5W5PRFERASD0FJ01TNTD94F"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQK5VP627KKAXXFT4HDM",
+      "source": "communication.json",
+      "index": 70,
+      "original_id": "01M5W5PQK5VP627KKAXXFT4HDM"
+    },
+    {
+      "id": "01M5W5PQYT9N2NKBR71S4S84G7",
+      "source": "public-utilities.json",
+      "index": 32,
+      "original_id": "01M5W5PQYT9N2NKBR71S4S84G7"
+    },
+    {
+      "id": "01M5W5PR04CKY8KE028JA6GQC1",
+      "source": "recreation.json",
+      "index": 108,
+      "original_id": "01M5W5PR04CKY8KE028JA6GQC1"
+    },
+    {
+      "id": "01M5W5PR75HZAG4KTJNGTHVY47",
+      "source": "services.json",
+      "index": 79,
+      "original_id": "01M5W5PR75HZAG4KTJNGTHVY47"
+    },
+    {
+      "id": "01M5W5PRFERASD0FJ01TNTD94F",
+      "source": "transport.json",
+      "index": 11,
+      "original_id": "01M5W5PRFERASD0FJ01TNTD94F"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
     "latitude": 7.6802405,
     "longitude": 81.72857909999999
   },
-  "address": "Sir razeek fareed mawathe, Street food , goodvin Junction",
+  "address": "Sir razeek fareed mawathe, Street food, goodvin Junction",
   "categories": [
     "Ice cream shop"
   ],
@@ -54,5 +54,23 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJAHFATEKFMRHD3HV7D"
+  "id": "01M5W5PQJAHFATEKFMRHD3HV7D",
+  "aliases": [
+    "01M5W5PR7ZKD7697XW78HEWC30"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJAHFATEKFMRHD3HV7D",
+      "source": "cafe.json",
+      "index": 47,
+      "original_id": "01M5W5PQJAHFATEKFMRHD3HV7D"
+    },
+    {
+      "id": "01M5W5PR7ZKD7697XW78HEWC30",
+      "source": "services.json",
+      "index": 170,
+      "original_id": "01M5W5PR7ZKD7697XW78HEWC30"
+    }
+  ],
+  "address_original": "Sir razeek fareed mawathe, Street food , goodvin Junction"
 }

@@ -11,5 +11,29 @@
   "phone": "0775474096",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQJAM14C67QMR5VW68JN"
+  "id": "01M5W5PQJAM14C67QMR5VW68JN",
+  "aliases": [
+    "01M5W5PQK4Z32WNQJNRTRYM21G",
+    "01M5W5PR7QGXFQDWMZEC5CHV08"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJAM14C67QMR5VW68JN",
+      "source": "cafe.json",
+      "index": 52,
+      "original_id": "01M5W5PQJAM14C67QMR5VW68JN"
+    },
+    {
+      "id": "01M5W5PQK4Z32WNQJNRTRYM21G",
+      "source": "communication.json",
+      "index": 64,
+      "original_id": "01M5W5PQK4Z32WNQJNRTRYM21G"
+    },
+    {
+      "id": "01M5W5PR7QGXFQDWMZEC5CHV08",
+      "source": "services.json",
+      "index": 145,
+      "original_id": "01M5W5PR7QGXFQDWMZEC5CHV08"
+    }
+  ]
 }

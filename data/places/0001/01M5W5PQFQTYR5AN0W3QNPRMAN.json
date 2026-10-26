@@ -54,5 +54,29 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFQTYR5AN0W3QNPRMAN"
+  "id": "01M5W5PQFQTYR5AN0W3QNPRMAN",
+  "aliases": [
+    "01M5W5PQH71743CS03489R2WZ3",
+    "01M5W5PR6WDAF6VXN09P2JZAQ9"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFQTYR5AN0W3QNPRMAN",
+      "source": "accessories.json",
+      "index": 37,
+      "original_id": "01M5W5PQFQTYR5AN0W3QNPRMAN"
+    },
+    {
+      "id": "01M5W5PQH71743CS03489R2WZ3",
+      "source": "automotive.json",
+      "index": 34,
+      "original_id": "01M5W5PQH71743CS03489R2WZ3"
+    },
+    {
+      "id": "01M5W5PR6WDAF6VXN09P2JZAQ9",
+      "source": "services.json",
+      "index": 59,
+      "original_id": "01M5W5PR6WDAF6VXN09P2JZAQ9"
+    }
+  ]
 }

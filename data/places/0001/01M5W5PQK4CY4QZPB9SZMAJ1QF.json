@@ -55,5 +55,57 @@
   ],
   "website": "https://www.al-othaim.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQK4CY4QZPB9SZMAJ1QF"
+  "id": "01M5W5PQK4CY4QZPB9SZMAJ1QF",
+  "aliases": [
+    "01M5W5PQRJBB8E0S92J9DY9BRE",
+    "01M5W5PQVQQW2Q1KT0C698PHKT",
+    "01M5W5PR7WF0KWZRT7WGCX8Z4J",
+    "01M5W5PRBBMKEQXN66C6G2J5GG",
+    "01M5W5PRF5JH8M1W5JW9WH987V",
+    "01M5W5PRG6D1B83P6C2F8ZHCDN"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQK4CY4QZPB9SZMAJ1QF",
+      "source": "communication.json",
+      "index": 68,
+      "original_id": "01M5W5PQK4CY4QZPB9SZMAJ1QF"
+    },
+    {
+      "id": "01M5W5PQRJBB8E0S92J9DY9BRE",
+      "source": "fashion.json",
+      "index": 167,
+      "original_id": "01M5W5PQRJBB8E0S92J9DY9BRE"
+    },
+    {
+      "id": "01M5W5PQVQQW2Q1KT0C698PHKT",
+      "source": "markets.json",
+      "index": 5,
+      "original_id": "01M5W5PQVQQW2Q1KT0C698PHKT"
+    },
+    {
+      "id": "01M5W5PR7WF0KWZRT7WGCX8Z4J",
+      "source": "services.json",
+      "index": 168,
+      "original_id": "01M5W5PR7WF0KWZRT7WGCX8Z4J"
+    },
+    {
+      "id": "01M5W5PRBBMKEQXN66C6G2J5GG",
+      "source": "supermarket.json",
+      "index": 2,
+      "original_id": "01M5W5PRBBMKEQXN66C6G2J5GG"
+    },
+    {
+      "id": "01M5W5PRF5JH8M1W5JW9WH987V",
+      "source": "textiles.json",
+      "index": 158,
+      "original_id": "01M5W5PRF5JH8M1W5JW9WH987V"
+    },
+    {
+      "id": "01M5W5PRG6D1B83P6C2F8ZHCDN",
+      "source": "utilities.json",
+      "index": 28,
+      "original_id": "01M5W5PRG6D1B83P6C2F8ZHCDN"
+    }
+  ]
 }

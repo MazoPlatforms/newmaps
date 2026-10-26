@@ -13,5 +13,22 @@
   "phone": "0773359760",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQSSKD70XQ9KY6W5GZDB"
+  "id": "01M5W5PQSSKD70XQ9KY6W5GZDB",
+  "aliases": [
+    "01M5W5PQZRC4CZYQ1RCC463H7P"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQSSKD70XQ9KY6W5GZDB",
+      "source": "halls.json",
+      "index": 6,
+      "original_id": "01M5W5PQSSKD70XQ9KY6W5GZDB"
+    },
+    {
+      "id": "01M5W5PQZRC4CZYQ1RCC463H7P",
+      "source": "recreation.json",
+      "index": 53,
+      "original_id": "01M5W5PQZRC4CZYQ1RCC463H7P"
+    }
+  ]
 }

@@ -12,5 +12,36 @@
   "phone": "0704711781",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQNKNQ5MK8W9JBE50F73"
+  "id": "01M5W5PQNKNQ5MK8W9JBE50F73",
+  "aliases": [
+    "01M5W5PQZBSBCFY98W2B0RBWX1",
+    "01M5W5PR42GJZQZ22HA55460QM",
+    "01M5W5PR87N4EH7HM2SXMG38YA"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQNKNQ5MK8W9JBE50F73",
+      "source": "education.json",
+      "index": 117,
+      "original_id": "01M5W5PQNKNQ5MK8W9JBE50F73"
+    },
+    {
+      "id": "01M5W5PQZBSBCFY98W2B0RBWX1",
+      "source": "public-utilities.json",
+      "index": 98,
+      "original_id": "01M5W5PQZBSBCFY98W2B0RBWX1"
+    },
+    {
+      "id": "01M5W5PR42GJZQZ22HA55460QM",
+      "source": "schools.json",
+      "index": 76,
+      "original_id": "01M5W5PR42GJZQZ22HA55460QM"
+    },
+    {
+      "id": "01M5W5PR87N4EH7HM2SXMG38YA",
+      "source": "services.json",
+      "index": 195,
+      "original_id": "01M5W5PR87N4EH7HM2SXMG38YA"
+    }
+  ]
 }

@@ -11,5 +11,29 @@
   "phone": "0774357610",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQG9KE0B882CPDQVC14X"
+  "id": "01M5W5PQG9KE0B882CPDQVC14X",
+  "aliases": [
+    "01M5W5PQTGX77Y6695D2Y8WD31",
+    "01M5W5PR0M4YNMV9H3PTAKFG0H"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG9KE0B882CPDQVC14X",
+      "source": "accommodation.json",
+      "index": 2,
+      "original_id": "01M5W5PQG9KE0B882CPDQVC14X"
+    },
+    {
+      "id": "01M5W5PQTGX77Y6695D2Y8WD31",
+      "source": "hotels.json",
+      "index": 4,
+      "original_id": "01M5W5PQTGX77Y6695D2Y8WD31"
+    },
+    {
+      "id": "01M5W5PR0M4YNMV9H3PTAKFG0H",
+      "source": "recreation.json",
+      "index": 175,
+      "original_id": "01M5W5PR0M4YNMV9H3PTAKFG0H"
+    }
+  ]
 }

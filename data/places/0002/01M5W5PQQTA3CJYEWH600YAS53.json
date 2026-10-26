@@ -11,5 +11,22 @@
   "phone": "0754192155",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQQTA3CJYEWH600YAS53"
+  "id": "01M5W5PQQTA3CJYEWH600YAS53",
+  "aliases": [
+    "01M5W5PREAHGF2C4TG4GD4NG2A"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQQTA3CJYEWH600YAS53",
+      "source": "fashion.json",
+      "index": 31,
+      "original_id": "01M5W5PQQTA3CJYEWH600YAS53"
+    },
+    {
+      "id": "01M5W5PREAHGF2C4TG4GD4NG2A",
+      "source": "textiles.json",
+      "index": 98,
+      "original_id": "01M5W5PREAHGF2C4TG4GD4NG2A"
+    }
+  ]
 }

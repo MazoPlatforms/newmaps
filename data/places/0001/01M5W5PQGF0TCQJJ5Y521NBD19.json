@@ -11,5 +11,22 @@
   "phone": "0771130305",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGF0TCQJJ5Y521NBD19"
+  "id": "01M5W5PQGF0TCQJJ5Y521NBD19",
+  "aliases": [
+    "01M5W5PQTN3B1THFGKNJ1W6AXH"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGF0TCQJJ5Y521NBD19",
+      "source": "accommodation.json",
+      "index": 33,
+      "original_id": "01M5W5PQGF0TCQJJ5Y521NBD19"
+    },
+    {
+      "id": "01M5W5PQTN3B1THFGKNJ1W6AXH",
+      "source": "hotels.json",
+      "index": 35,
+      "original_id": "01M5W5PQTN3B1THFGKNJ1W6AXH"
+    }
+  ]
 }

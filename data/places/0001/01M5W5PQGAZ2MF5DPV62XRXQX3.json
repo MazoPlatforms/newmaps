@@ -15,5 +15,29 @@
   "hours": [],
   "website": "http://www.riviera-online.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGAZ2MF5DPV62XRXQX3"
+  "id": "01M5W5PQGAZ2MF5DPV62XRXQX3",
+  "aliases": [
+    "01M5W5PQTG30K8Q8EHADYQXJVQ",
+    "01M5W5PQY96ES10W7RRDFA75HQ"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGAZ2MF5DPV62XRXQX3",
+      "source": "accommodation.json",
+      "index": 5,
+      "original_id": "01M5W5PQGAZ2MF5DPV62XRXQX3"
+    },
+    {
+      "id": "01M5W5PQTG30K8Q8EHADYQXJVQ",
+      "source": "hotels.json",
+      "index": 3,
+      "original_id": "01M5W5PQTG30K8Q8EHADYQXJVQ"
+    },
+    {
+      "id": "01M5W5PQY96ES10W7RRDFA75HQ",
+      "source": "places.json",
+      "index": 116,
+      "original_id": "01M5W5PQY96ES10W7RRDFA75HQ"
+    }
+  ]
 }

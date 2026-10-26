@@ -54,5 +54,50 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQG746Y3JBVFFFSNWH57"
+  "id": "01M5W5PQG746Y3JBVFFFSNWH57",
+  "aliases": [
+    "01M5W5PQPD5KKVDKD2S4ZK9W6J",
+    "01M5W5PQT0KDYJWXMTWJW5Z9V7",
+    "01M5W5PQYZHZ4HCNQQJ080PZYM",
+    "01M5W5PR7RPKJGJBG82NB2MQS6",
+    "01M5W5PRG579Q024H6RFTSMX9Q"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG746Y3JBVFFFSNWH57",
+      "source": "accessories.json",
+      "index": 142,
+      "original_id": "01M5W5PQG746Y3JBVFFFSNWH57"
+    },
+    {
+      "id": "01M5W5PQPD5KKVDKD2S4ZK9W6J",
+      "source": "electronics.json",
+      "index": 47,
+      "original_id": "01M5W5PQPD5KKVDKD2S4ZK9W6J"
+    },
+    {
+      "id": "01M5W5PQT0KDYJWXMTWJW5Z9V7",
+      "source": "hardware.json",
+      "index": 11,
+      "original_id": "01M5W5PQT0KDYJWXMTWJW5Z9V7"
+    },
+    {
+      "id": "01M5W5PQYZHZ4HCNQQJ080PZYM",
+      "source": "public-utilities.json",
+      "index": 54,
+      "original_id": "01M5W5PQYZHZ4HCNQQJ080PZYM"
+    },
+    {
+      "id": "01M5W5PR7RPKJGJBG82NB2MQS6",
+      "source": "services.json",
+      "index": 150,
+      "original_id": "01M5W5PR7RPKJGJBG82NB2MQS6"
+    },
+    {
+      "id": "01M5W5PRG579Q024H6RFTSMX9Q",
+      "source": "utilities.json",
+      "index": 24,
+      "original_id": "01M5W5PRG579Q024H6RFTSMX9Q"
+    }
+  ]
 }

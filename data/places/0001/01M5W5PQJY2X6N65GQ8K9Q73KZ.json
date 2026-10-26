@@ -55,5 +55,36 @@
   ],
   "website": "https://www.lankaliving.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQJY2X6N65GQ8K9Q73KZ"
+  "id": "01M5W5PQJY2X6N65GQ8K9Q73KZ",
+  "aliases": [
+    "01M5W5PQRHZCBYX0TXP8S91EXQ",
+    "01M5W5PQYTKQS5YF8DVF32T8PN",
+    "01M5W5PR72GXFXVQ8CMQHX0DFN"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJY2X6N65GQ8K9Q73KZ",
+      "source": "communication.json",
+      "index": 26,
+      "original_id": "01M5W5PQJY2X6N65GQ8K9Q73KZ"
+    },
+    {
+      "id": "01M5W5PQRHZCBYX0TXP8S91EXQ",
+      "source": "fashion.json",
+      "index": 159,
+      "original_id": "01M5W5PQRHZCBYX0TXP8S91EXQ"
+    },
+    {
+      "id": "01M5W5PQYTKQS5YF8DVF32T8PN",
+      "source": "public-utilities.json",
+      "index": 33,
+      "original_id": "01M5W5PQYTKQS5YF8DVF32T8PN"
+    },
+    {
+      "id": "01M5W5PR72GXFXVQ8CMQHX0DFN",
+      "source": "services.json",
+      "index": 71,
+      "original_id": "01M5W5PR72GXFXVQ8CMQHX0DFN"
+    }
+  ]
 }

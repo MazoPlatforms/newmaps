@@ -13,5 +13,22 @@
   "hours": [],
   "website": "https://www.corvingtons.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGHYMCRJF44MCD31KPM"
+  "id": "01M5W5PQGHYMCRJF44MCD31KPM",
+  "aliases": [
+    "01M5W5PQTQT2FAP31B42N8B2MC"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGHYMCRJF44MCD31KPM",
+      "source": "accommodation.json",
+      "index": 54,
+      "original_id": "01M5W5PQGHYMCRJF44MCD31KPM"
+    },
+    {
+      "id": "01M5W5PQTQT2FAP31B42N8B2MC",
+      "source": "hotels.json",
+      "index": 54,
+      "original_id": "01M5W5PQTQT2FAP31B42N8B2MC"
+    }
+  ]
 }

@@ -55,5 +55,22 @@
   ],
   "website": "https://www.facebook.com/goldentechsrilanka/",
   "business_status": "OPEN",
-  "id": "01M5W5PQWKAK0G2FK0HJ9MK7XJ"
+  "id": "01M5W5PQWKAK0G2FK0HJ9MK7XJ",
+  "aliases": [
+    "01M5W5PR6GVVXAZJ530CPBF6G9"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQWKAK0G2FK0HJ9MK7XJ",
+      "source": "mobile.json",
+      "index": 68,
+      "original_id": "01M5W5PQWKAK0G2FK0HJ9MK7XJ"
+    },
+    {
+      "id": "01M5W5PR6GVVXAZJ530CPBF6G9",
+      "source": "services.json",
+      "index": 26,
+      "original_id": "01M5W5PR6GVVXAZJ530CPBF6G9"
+    }
+  ]
 }

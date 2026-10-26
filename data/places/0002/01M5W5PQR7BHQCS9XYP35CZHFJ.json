@@ -57,5 +57,22 @@
   ],
   "website": "http://www.duckwalks.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQR7BHQCS9XYP35CZHFJ"
+  "id": "01M5W5PQR7BHQCS9XYP35CZHFJ",
+  "aliases": [
+    "01M5W5PQS69QFHG3W59TVAZT5P"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQR7BHQCS9XYP35CZHFJ",
+      "source": "fashion.json",
+      "index": 94,
+      "original_id": "01M5W5PQR7BHQCS9XYP35CZHFJ"
+    },
+    {
+      "id": "01M5W5PQS69QFHG3W59TVAZT5P",
+      "source": "footwear.json",
+      "index": 23,
+      "original_id": "01M5W5PQS69QFHG3W59TVAZT5P"
+    }
+  ]
 }

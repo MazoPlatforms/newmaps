@@ -55,5 +55,29 @@
   ],
   "website": "http://famaclothing.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQFSGD9F057MJ6QN29HS"
+  "id": "01M5W5PQFSGD9F057MJ6QN29HS",
+  "aliases": [
+    "01M5W5PQQTE4KASJP9XKVBSCDT",
+    "01M5W5PRDJGYWBKZM8CBZ7BT4F"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFSGD9F057MJ6QN29HS",
+      "source": "accessories.json",
+      "index": 60,
+      "original_id": "01M5W5PQFSGD9F057MJ6QN29HS"
+    },
+    {
+      "id": "01M5W5PQQTE4KASJP9XKVBSCDT",
+      "source": "fashion.json",
+      "index": 33,
+      "original_id": "01M5W5PQQTE4KASJP9XKVBSCDT"
+    },
+    {
+      "id": "01M5W5PRDJGYWBKZM8CBZ7BT4F",
+      "source": "textiles.json",
+      "index": 55,
+      "original_id": "01M5W5PRDJGYWBKZM8CBZ7BT4F"
+    }
+  ]
 }

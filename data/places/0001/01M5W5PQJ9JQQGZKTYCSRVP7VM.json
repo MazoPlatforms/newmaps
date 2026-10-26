@@ -55,5 +55,29 @@
   ],
   "website": "https://www.facebook.com/share/ut1n9VY1Aco17Cqq/?mibextid=qi2Omg",
   "business_status": "OPEN",
-  "id": "01M5W5PQJ9JQQGZKTYCSRVP7VM"
+  "id": "01M5W5PQJ9JQQGZKTYCSRVP7VM",
+  "aliases": [
+    "01M5W5PQXSQTFDMB1TBBKVTH2B",
+    "01M5W5PR7R7CP1R4KHZGBMJE2B"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJ9JQQGZKTYCSRVP7VM",
+      "source": "cafe.json",
+      "index": 44,
+      "original_id": "01M5W5PQJ9JQQGZKTYCSRVP7VM"
+    },
+    {
+      "id": "01M5W5PQXSQTFDMB1TBBKVTH2B",
+      "source": "places.json",
+      "index": 25,
+      "original_id": "01M5W5PQXSQTFDMB1TBBKVTH2B"
+    },
+    {
+      "id": "01M5W5PR7R7CP1R4KHZGBMJE2B",
+      "source": "services.json",
+      "index": 154,
+      "original_id": "01M5W5PR7R7CP1R4KHZGBMJE2B"
+    }
+  ]
 }

@@ -55,5 +55,57 @@
   ],
   "website": "https://www.mylifegb.com/asian-electricals",
   "business_status": "OPEN",
-  "id": "01M5W5PQG18WGHNDTWJSR0KX77"
+  "id": "01M5W5PQG18WGHNDTWJSR0KX77",
+  "aliases": [
+    "01M5W5PQP3DTJ9Q7SBT28T5KNX",
+    "01M5W5PQT3R2BN1QSM3YHD8623",
+    "01M5W5PQWPT6Y9XCGV40SG6YZ9",
+    "01M5W5PQYJF2BKTEGRR12YZ8TA",
+    "01M5W5PR75Z0WWPWJD9FAM6MP0",
+    "01M5W5PRG0X8CWABE63PCETX26"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQG18WGHNDTWJSR0KX77",
+      "source": "accessories.json",
+      "index": 110,
+      "original_id": "01M5W5PQG18WGHNDTWJSR0KX77"
+    },
+    {
+      "id": "01M5W5PQP3DTJ9Q7SBT28T5KNX",
+      "source": "electronics.json",
+      "index": 7,
+      "original_id": "01M5W5PQP3DTJ9Q7SBT28T5KNX"
+    },
+    {
+      "id": "01M5W5PQT3R2BN1QSM3YHD8623",
+      "source": "hardware.json",
+      "index": 33,
+      "original_id": "01M5W5PQT3R2BN1QSM3YHD8623"
+    },
+    {
+      "id": "01M5W5PQWPT6Y9XCGV40SG6YZ9",
+      "source": "mobile.json",
+      "index": 81,
+      "original_id": "01M5W5PQWPT6Y9XCGV40SG6YZ9"
+    },
+    {
+      "id": "01M5W5PQYJF2BKTEGRR12YZ8TA",
+      "source": "public-utilities.json",
+      "index": 1,
+      "original_id": "01M5W5PQYJF2BKTEGRR12YZ8TA"
+    },
+    {
+      "id": "01M5W5PR75Z0WWPWJD9FAM6MP0",
+      "source": "services.json",
+      "index": 78,
+      "original_id": "01M5W5PR75Z0WWPWJD9FAM6MP0"
+    },
+    {
+      "id": "01M5W5PRG0X8CWABE63PCETX26",
+      "source": "utilities.json",
+      "index": 0,
+      "original_id": "01M5W5PRG0X8CWABE63PCETX26"
+    }
+  ]
 }

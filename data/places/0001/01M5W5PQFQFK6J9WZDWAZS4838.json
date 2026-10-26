@@ -54,5 +54,43 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFQFK6J9WZDWAZS4838"
+  "id": "01M5W5PQFQFK6J9WZDWAZS4838",
+  "aliases": [
+    "01M5W5PQYYPNBD5T5XGB88CQG4",
+    "01M5W5PR6J81GPAM67R18Q0T2Z",
+    "01M5W5PRCFQGPB1R7GZR6ZAQBS",
+    "01M5W5PREA7QX74WHW75FZ03HP"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFQFK6J9WZDWAZS4838",
+      "source": "accessories.json",
+      "index": 39,
+      "original_id": "01M5W5PQFQFK6J9WZDWAZS4838"
+    },
+    {
+      "id": "01M5W5PQYYPNBD5T5XGB88CQG4",
+      "source": "public-utilities.json",
+      "index": 50,
+      "original_id": "01M5W5PQYYPNBD5T5XGB88CQG4"
+    },
+    {
+      "id": "01M5W5PR6J81GPAM67R18Q0T2Z",
+      "source": "services.json",
+      "index": 37,
+      "original_id": "01M5W5PR6J81GPAM67R18Q0T2Z"
+    },
+    {
+      "id": "01M5W5PRCFQGPB1R7GZR6ZAQBS",
+      "source": "tailors.json",
+      "index": 34,
+      "original_id": "01M5W5PRCFQGPB1R7GZR6ZAQBS"
+    },
+    {
+      "id": "01M5W5PREA7QX74WHW75FZ03HP",
+      "source": "textiles.json",
+      "index": 97,
+      "original_id": "01M5W5PREA7QX74WHW75FZ03HP"
+    }
+  ]
 }

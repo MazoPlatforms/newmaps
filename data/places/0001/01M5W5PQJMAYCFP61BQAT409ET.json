@@ -11,5 +11,22 @@
   "phone": "0757575655",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQJMAYCFP61BQAT409ET"
+  "id": "01M5W5PQJMAYCFP61BQAT409ET",
+  "aliases": [
+    "01M5W5PQY68H73N3AQJXYAS5D2"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJMAYCFP61BQAT409ET",
+      "source": "cafe.json",
+      "index": 132,
+      "original_id": "01M5W5PQJMAYCFP61BQAT409ET"
+    },
+    {
+      "id": "01M5W5PQY68H73N3AQJXYAS5D2",
+      "source": "places.json",
+      "index": 105,
+      "original_id": "01M5W5PQY68H73N3AQJXYAS5D2"
+    }
+  ]
 }

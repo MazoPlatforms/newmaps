@@ -56,5 +56,29 @@
   ],
   "website": "https://m.facebook.com/shalwarssrilanka/",
   "business_status": "OPEN",
-  "id": "01M5W5PQR6BHTXWCZ32ZYG5GHN"
+  "id": "01M5W5PQR6BHTXWCZ32ZYG5GHN",
+  "aliases": [
+    "01M5W5PR7R8XRQHK036ZZHHC4A",
+    "01M5W5PRDK8HQYFZE2PQXGFWYK"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQR6BHTXWCZ32ZYG5GHN",
+      "source": "fashion.json",
+      "index": 85,
+      "original_id": "01M5W5PQR6BHTXWCZ32ZYG5GHN"
+    },
+    {
+      "id": "01M5W5PR7R8XRQHK036ZZHHC4A",
+      "source": "services.json",
+      "index": 153,
+      "original_id": "01M5W5PR7R8XRQHK036ZZHHC4A"
+    },
+    {
+      "id": "01M5W5PRDK8HQYFZE2PQXGFWYK",
+      "source": "textiles.json",
+      "index": 57,
+      "original_id": "01M5W5PRDK8HQYFZE2PQXGFWYK"
+    }
+  ]
 }

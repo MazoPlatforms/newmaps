@@ -61,5 +61,22 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PR87P1MS69HPJVTSDCDQ"
+  "id": "01M5W5PR87P1MS69HPJVTSDCDQ",
+  "aliases": [
+    "01M5W5PRCDM1TMC79SN1VTV0J6"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PR87P1MS69HPJVTSDCDQ",
+      "source": "services.json",
+      "index": 192,
+      "original_id": "01M5W5PR87P1MS69HPJVTSDCDQ"
+    },
+    {
+      "id": "01M5W5PRCDM1TMC79SN1VTV0J6",
+      "source": "tailors.json",
+      "index": 31,
+      "original_id": "01M5W5PRCDM1TMC79SN1VTV0J6"
+    }
+  ]
 }

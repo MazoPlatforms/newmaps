@@ -11,5 +11,29 @@
   "hours": [],
   "website": "https://eathamozhi-masjid.netlify.app/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGJSD6AXWFF7JFXBPGA"
+  "id": "01M5W5PQGJSD6AXWFF7JFXBPGA",
+  "aliases": [
+    "01M5W5PQWTDY95VV68A24JH58Q",
+    "01M5W5PR0TJ8SHVFNZ91Q7EYXV"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGJSD6AXWFF7JFXBPGA",
+      "source": "addresses.json",
+      "index": 11,
+      "original_id": "01M5W5PQGJSD6AXWFF7JFXBPGA"
+    },
+    {
+      "id": "01M5W5PQWTDY95VV68A24JH58Q",
+      "source": "mosque.json",
+      "index": 2,
+      "original_id": "01M5W5PQWTDY95VV68A24JH58Q"
+    },
+    {
+      "id": "01M5W5PR0TJ8SHVFNZ91Q7EYXV",
+      "source": "religious.json",
+      "index": 19,
+      "original_id": "01M5W5PR0TJ8SHVFNZ91Q7EYXV"
+    }
+  ]
 }

@@ -11,5 +11,29 @@
   "phone": "0717802312",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQJ1RDJP1S70MHV6EZ5H"
+  "id": "01M5W5PQJ1RDJP1S70MHV6EZ5H",
+  "aliases": [
+    "01M5W5PQZ9SQZDANMZX1QWGPS0",
+    "01M5W5PR7KAJNEAKNXQNVQYTNB"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQJ1RDJP1S70MHV6EZ5H",
+      "source": "boundary.json",
+      "index": 3,
+      "original_id": "01M5W5PQJ1RDJP1S70MHV6EZ5H"
+    },
+    {
+      "id": "01M5W5PQZ9SQZDANMZX1QWGPS0",
+      "source": "public-utilities.json",
+      "index": 92,
+      "original_id": "01M5W5PQZ9SQZDANMZX1QWGPS0"
+    },
+    {
+      "id": "01M5W5PR7KAJNEAKNXQNVQYTNB",
+      "source": "services.json",
+      "index": 131,
+      "original_id": "01M5W5PR7KAJNEAKNXQNVQYTNB"
+    }
+  ]
 }

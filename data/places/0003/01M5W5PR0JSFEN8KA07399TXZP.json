@@ -57,5 +57,22 @@
   ],
   "website": "http://www.nehemiyatravels.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PR0JSFEN8KA07399TXZP"
+  "id": "01M5W5PR0JSFEN8KA07399TXZP",
+  "aliases": [
+    "01M5W5PRFSFKZ500G3WT3KAEE1"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PR0JSFEN8KA07399TXZP",
+      "source": "recreation.json",
+      "index": 169,
+      "original_id": "01M5W5PR0JSFEN8KA07399TXZP"
+    },
+    {
+      "id": "01M5W5PRFSFKZ500G3WT3KAEE1",
+      "source": "transport.json",
+      "index": 53,
+      "original_id": "01M5W5PRFSFKZ500G3WT3KAEE1"
+    }
+  ]
 }

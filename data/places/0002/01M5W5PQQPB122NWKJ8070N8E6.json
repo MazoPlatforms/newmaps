@@ -12,5 +12,29 @@
   "hours": [],
   "website": "https://chat.whatsapp.com/KQpr0j0eY9s9ySpcRqa35C",
   "business_status": "OPEN",
-  "id": "01M5W5PQQPB122NWKJ8070N8E6"
+  "id": "01M5W5PQQPB122NWKJ8070N8E6",
+  "aliases": [
+    "01M5W5PRC57MNA6CR820BDWA2D",
+    "01M5W5PRCX29VMEN7174N2FHME"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQQPB122NWKJ8070N8E6",
+      "source": "fashion.json",
+      "index": 12,
+      "original_id": "01M5W5PQQPB122NWKJ8070N8E6"
+    },
+    {
+      "id": "01M5W5PRC57MNA6CR820BDWA2D",
+      "source": "tailors.json",
+      "index": 8,
+      "original_id": "01M5W5PRC57MNA6CR820BDWA2D"
+    },
+    {
+      "id": "01M5W5PRCX29VMEN7174N2FHME",
+      "source": "textiles.json",
+      "index": 16,
+      "original_id": "01M5W5PRCX29VMEN7174N2FHME"
+    }
+  ]
 }

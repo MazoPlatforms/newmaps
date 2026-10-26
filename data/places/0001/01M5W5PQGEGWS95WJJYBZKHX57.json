@@ -12,5 +12,22 @@
   "hours": [],
   "website": "https://www.catrayinn.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGEGWS95WJJYBZKHX57"
+  "id": "01M5W5PQGEGWS95WJJYBZKHX57",
+  "aliases": [
+    "01M5W5PQTMTNJF1FTQE4DPS87T"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGEGWS95WJJYBZKHX57",
+      "source": "accommodation.json",
+      "index": 27,
+      "original_id": "01M5W5PQGEGWS95WJJYBZKHX57"
+    },
+    {
+      "id": "01M5W5PQTMTNJF1FTQE4DPS87T",
+      "source": "hotels.json",
+      "index": 30,
+      "original_id": "01M5W5PQTMTNJF1FTQE4DPS87T"
+    }
+  ]
 }

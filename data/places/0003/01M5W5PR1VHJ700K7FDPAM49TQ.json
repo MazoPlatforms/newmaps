@@ -58,5 +58,22 @@
   ],
   "website": "https://www.facebook.com/people/Akshayini-Beauty-Salon/100063727441817/",
   "business_status": "OPEN",
-  "id": "01M5W5PR1VHJ700K7FDPAM49TQ"
+  "id": "01M5W5PR1VHJ700K7FDPAM49TQ",
+  "aliases": [
+    "01M5W5PR2ZNKKNB2TK22EVJ273"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PR1VHJ700K7FDPAM49TQ",
+      "source": "salons.json",
+      "index": 20,
+      "original_id": "01M5W5PR1VHJ700K7FDPAM49TQ"
+    },
+    {
+      "id": "01M5W5PR2ZNKKNB2TK22EVJ273",
+      "source": "saloons.json",
+      "index": 17,
+      "original_id": "01M5W5PR2ZNKKNB2TK22EVJ273"
+    }
+  ]
 }

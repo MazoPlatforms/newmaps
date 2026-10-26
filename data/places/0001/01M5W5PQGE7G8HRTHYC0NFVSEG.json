@@ -11,5 +11,22 @@
   "phone": "0771332515",
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQGE7G8HRTHYC0NFVSEG"
+  "id": "01M5W5PQGE7G8HRTHYC0NFVSEG",
+  "aliases": [
+    "01M5W5PQTMAH7MDYCYR35QDWJ4"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGE7G8HRTHYC0NFVSEG",
+      "source": "accommodation.json",
+      "index": 26,
+      "original_id": "01M5W5PQGE7G8HRTHYC0NFVSEG"
+    },
+    {
+      "id": "01M5W5PQTMAH7MDYCYR35QDWJ4",
+      "source": "hotels.json",
+      "index": 29,
+      "original_id": "01M5W5PQTMAH7MDYCYR35QDWJ4"
+    }
+  ]
 }

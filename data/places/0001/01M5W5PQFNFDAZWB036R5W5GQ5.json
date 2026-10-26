@@ -55,5 +55,36 @@
   ],
   "website": "https://vyaparapp.in/store/moderncosmeticsfancy",
   "business_status": "OPEN",
-  "id": "01M5W5PQFNFDAZWB036R5W5GQ5"
+  "id": "01M5W5PQFNFDAZWB036R5W5GQ5",
+  "aliases": [
+    "01M5W5PQMDDJBSZ48EC2JQ3JE1",
+    "01M5W5PQQCAJ75WHM0S8NRMFY6",
+    "01M5W5PQTADYGTAZ0AADQJRE84"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQFNFDAZWB036R5W5GQ5",
+      "source": "accessories.json",
+      "index": 24,
+      "original_id": "01M5W5PQFNFDAZWB036R5W5GQ5"
+    },
+    {
+      "id": "01M5W5PQMDDJBSZ48EC2JQ3JE1",
+      "source": "cosmetics.json",
+      "index": 0,
+      "original_id": "01M5W5PQMDDJBSZ48EC2JQ3JE1"
+    },
+    {
+      "id": "01M5W5PQQCAJ75WHM0S8NRMFY6",
+      "source": "fancy.json",
+      "index": 0,
+      "original_id": "01M5W5PQQCAJ75WHM0S8NRMFY6"
+    },
+    {
+      "id": "01M5W5PQTADYGTAZ0AADQJRE84",
+      "source": "homeware.json",
+      "index": 17,
+      "original_id": "01M5W5PQTADYGTAZ0AADQJRE84"
+    }
+  ]
 }

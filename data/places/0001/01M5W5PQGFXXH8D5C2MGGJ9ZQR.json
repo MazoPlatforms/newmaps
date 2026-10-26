@@ -12,5 +12,22 @@
   "hours": [],
   "website": "http://www.hotelfggoldenriver.lk/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGFXXH8D5C2MGGJ9ZQR"
+  "id": "01M5W5PQGFXXH8D5C2MGGJ9ZQR",
+  "aliases": [
+    "01M5W5PQTKHJVGCD65QAEA8M3E"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGFXXH8D5C2MGGJ9ZQR",
+      "source": "accommodation.json",
+      "index": 32,
+      "original_id": "01M5W5PQGFXXH8D5C2MGGJ9ZQR"
+    },
+    {
+      "id": "01M5W5PQTKHJVGCD65QAEA8M3E",
+      "source": "hotels.json",
+      "index": 26,
+      "original_id": "01M5W5PQTKHJVGCD65QAEA8M3E"
+    }
+  ]
 }

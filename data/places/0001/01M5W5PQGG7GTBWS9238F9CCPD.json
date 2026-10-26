@@ -12,5 +12,22 @@
   "hours": [],
   "website": "https://olifantguest.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQGG7GTBWS9238F9CCPD"
+  "id": "01M5W5PQGG7GTBWS9238F9CCPD",
+  "aliases": [
+    "01M5W5PQTM8XKDDSC8G56H5HN1"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQGG7GTBWS9238F9CCPD",
+      "source": "accommodation.json",
+      "index": 36,
+      "original_id": "01M5W5PQGG7GTBWS9238F9CCPD"
+    },
+    {
+      "id": "01M5W5PQTM8XKDDSC8G56H5HN1",
+      "source": "hotels.json",
+      "index": 33,
+      "original_id": "01M5W5PQTM8XKDDSC8G56H5HN1"
+    }
+  ]
 }

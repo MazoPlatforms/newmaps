@@ -55,5 +55,22 @@
   ],
   "website": "http://methodistcentralcollege.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQNPCMR9Y60RAE6QA36G"
+  "id": "01M5W5PQNPCMR9Y60RAE6QA36G",
+  "aliases": [
+    "01M5W5PR40R1W654C93KP1TKGB"
+  ],
+  "source_records": [
+    {
+      "id": "01M5W5PQNPCMR9Y60RAE6QA36G",
+      "source": "education.json",
+      "index": 132,
+      "original_id": "01M5W5PQNPCMR9Y60RAE6QA36G"
+    },
+    {
+      "id": "01M5W5PR40R1W654C93KP1TKGB",
+      "source": "schools.json",
+      "index": 61,
+      "original_id": "01M5W5PR40R1W654C93KP1TKGB"
+    }
+  ]
 }
