@@ -1,6 +1,7 @@
-import { Protocol } from 'https://mazoplatforms.github.io/maps/assets/vendor/pmtiles.mjs';
+import { Protocol, PMTiles, FetchSource } from 'https://mazoplatforms.github.io/maps/assets/vendor/pmtiles.mjs';
 const pmtilesProtocol=new Protocol();
 maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile);
+for(const name of ['base','transportation','buildings'])pmtilesProtocol.add(new PMTiles(new FetchSource('https://mazoplatforms.github.io/maps/data/sri-lanka/'+name+'.pmtiles')));
 const $=s=>document.querySelector(s);
 const styles={light:'./assets/styles/mazo-light.json',dark:'./assets/styles/mazo-dark.json'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
