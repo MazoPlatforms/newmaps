@@ -25,7 +25,9 @@ function registerIcons(){
 function poiFeatures(){return places.map((p,i)=>({type:'Feature',id:i,geometry:{type:'Point',coordinates:[+p.coordinates.longitude,+p.coordinates.latitude]},properties:{name:p.name,kind:kind(p),priority:priority(p),index:i,category:(p.categories||[]).join(' '),address:p.address||''}}))}
 function ensurePoiLayer(){
  if(!map.getStyle()?.layers?.length)return;
- if(!map.getSource(POI_SOURCE))map.addSource(POI_SOURCE,{type:'geojson',data:{type:'FeatureCollection',features:poiFeatures()}});
+ const geojson={type:'FeatureCollection',features:poiFeatures()};
+ if(!map.getSource(POI_SOURCE))map.addSource(POI_SOURCE,{type:'geojson',data:geojson});
+ else map.getSource(POI_SOURCE).setData(geojson);
  const before=(map.getStyle().layers||[]).find(l=>l.type==='symbol'&&/place|settlement|city|town/i.test(l.id))?.id;
  if(!map.getLayer('mazo-poi-dots'))map.addLayer({id:'mazo-poi-dots',type:'circle',source:POI_SOURCE,minzoom:13,
    paint:{'circle-radius':['interpolate',['linear'],['zoom'],13,2,15,4,17,5.5],'circle-color':['match',['get','kind'],'food','#cb8959','health','#b5666c','worship','#967c9c','shop','#6d81aa','hotel','#8c76a6','#638a7c'],'circle-stroke-color':theme()==='dark'?'#202b3b':'#fff','circle-stroke-width':1.5,'circle-opacity':['interpolate',['linear'],['zoom'],13,0,14,0.95]}},before);
@@ -65,7 +67,7 @@ map.on('style.load',()=>{
   cities();
   ensurePoiLayer();
 });
-(async()=>{try{const data=await Promise.all(datasets.map(async f=>{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return r.json()}));const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}refresh();ensurePoiLayer();}catch(e){$('#map-status').textContent='Dataset error: '+e.message}})();
+(async()=>{try{const data=await Promise.all(datasets.map(async f=>{const r=await fetch('./'+f);if(!r.ok)throw Error(f+' '+r.status);return r.json()}));const seen=new Set();for(const file of data)for(const p of file.results||[]){if(!p?.name||!Number.isFinite(+p.coordinates?.latitude)||!Number.isFinite(+p.coordinates?.longitude))continue;const k=p.name.trim().toLowerCase()+'|'+(+p.coordinates.latitude).toFixed(5)+'|'+(+p.coordinates.longitude).toFixed(5);if(!seen.has(k)&&inArea(p)){seen.add(k);places.push(p)}}ensurePoiLayer();refresh();}catch(e){$('#map-status').textContent='Dataset error: '+e.message}})();
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
 document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{category=b.dataset.category;document.querySelectorAll('[data-category]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));refresh()});
 $('#layers-toggle').onclick=()=>{const p=$('#layers-panel');p.hidden=!p.hidden;$('#layers-toggle').setAttribute('aria-expanded',String(!p.hidden))};
