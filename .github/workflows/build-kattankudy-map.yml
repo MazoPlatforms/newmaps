@@ -46,7 +46,7 @@ jobs:
               p=pathlib.Path('assets/styles/mazo-'+theme+'.json')
               style=json.loads(p.read_text())
               for name in ('base','transportation','buildings'):
-                  style['sources'][name]['url']='pmtiles://./data/kattankudy/'+name+'.pmtiles'
+                  style['sources'][name]['url']='pmtiles://https://mazoplatforms.github.io/newmaps/data/kattankudy/'+name+'.pmtiles'
                   style['sources'][name]['bounds']=[81.69,7.64,81.78,7.73]
               p.write_text(json.dumps(style,indent=2)+'\n')
           PY
