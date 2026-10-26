@@ -66,8 +66,11 @@ def generate():
         for field in ("name", "address", "categories", "coordinates"):
             original_field = field + "_original"
             if original_field in record:
+                note = "reversible formatting; original value stored in the record"
+                if field == "name":
+                    note += "; mechanical casing is not independent verification of a brand's preferred styling"
                 changes.append({"id": place_id, "field": field, "before": record[original_field],
-                                "after": record.get(field), "method": "reversible formatting; original value stored in the record"})
+                                "after": record.get(field), "method": note})
     integrity = validate_places_phase2.validate()
     if len(decisions) != 867 or len(changes) != 75:
         raise ValueError(f"Unexpected Phase 2 report counts: groups={len(decisions)}, field_changes={len(changes)}")

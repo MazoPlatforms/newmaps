@@ -46,7 +46,9 @@ before/after changes and a decision for each of the 867 duplicate-candidate
 groups.
 
 - 23 names received reversible ASCII case/spacing formatting. Original values
-  remain in `name_original`; language/script and spelling were not transliterated.
+  remain in `name_original`; language/script, spelling, and transliteration were
+  not changed. Mechanical title casing is not independent verification of a
+  brand's preferred styling; the original form remains available for review.
 - 50 active canonical addresses received whitespace/comma-spacing cleanup only. Existing
   postcodes, street details, plus codes, and locality descriptions were not
   inferred or replaced. Original strings remain in `address_original`.

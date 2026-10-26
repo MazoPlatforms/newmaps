@@ -70,7 +70,7 @@ def field_changes(record: dict, place_id: str) -> list[dict]:
             record.setdefault("name_original", name)
             record["name"] = after
             changes.append({"id": place_id, "field": "name", "before": name, "after": after,
-                            "method": "reversible ASCII case/whitespace formatting; source retained in name_original"})
+                            "method": "reversible ASCII case/whitespace formatting; source retained in name_original; not independent verification of brand styling"})
     address = record.get("address")
     if isinstance(address, str):
         after = format_address(address)
