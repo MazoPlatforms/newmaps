@@ -67,6 +67,15 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .search-results { margin-top: 6px; max-height: 42dvh; overflow: auto; }
 .search-results button { display: block; width: 100%; min-height: 40px; border: 0; background: transparent; padding: 9px; text-align: left; }
 .search-results button:hover { background: var(--surface-alt); }
+.search-results { padding: 5px; }
+.search-results button { border-radius: 6px; }
+.search-results button[aria-selected=true], .search-results button:focus-visible { background: var(--accent-soft); outline-color: var(--accent); }
+.search-results button strong, .search-results button span { display: block; }
+.search-results button strong { font-size: 13px; font-weight: 600; }
+.search-results button span { margin-top: 3px; color: var(--muted); font-size: 11px; line-height: 1.4; }
+.search-empty { margin: 8px; color: var(--muted); font-size: 13px; }
+.search-status { margin: 5px 0 0; padding: 7px 10px; border: 1px solid var(--line); border-radius: 7px; color: var(--muted); background: var(--surface); box-shadow: var(--shadow); font-size: 12px; line-height: 1.4; }
+.search-status.is-error { color: #cf222e; }
 .map-actions { position: absolute; z-index: 2; right: max(16px, env(safe-area-inset-right)); bottom: calc(186px + env(safe-area-inset-bottom)); display: grid; gap: 6px; }
 .maplibregl-ctrl-top-right { top: auto; bottom: calc(28px + env(safe-area-inset-bottom)); right: max(6px, env(safe-area-inset-right)); }
 .maplibregl-ctrl-group { overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); box-shadow: var(--shadow); }
@@ -121,6 +130,9 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   .search-box button, .icon-button { width: 40px; height: 40px; }
   .categories { gap: 5px; padding: 7px 0; }
   .categories button { min-height: 36px; padding: 6px 9px; }
+  .search-results { max-height: min(46dvh, 390px); }
+  .search-results button { min-height: 48px; padding: 8px 10px; }
+  .search-status { max-width: 100%; }
   .utility-controls { top: max(8px, env(safe-area-inset-top)); right: 8px; gap: 5px; }
   .utility-controls .icon-button { width: 38px; height: 38px; padding: 8px; }
   .tool-panel { top: 110px; right: 8px; width: calc(100% - 16px); max-height: calc(100dvh - 130px); }
