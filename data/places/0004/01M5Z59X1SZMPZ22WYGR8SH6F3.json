@@ -1,0 +1,66 @@
+{
+  "name": "Kee Tech",
+  "coordinates": {
+    "latitude": 7.4904972999999995,
+    "longitude": 81.7807541
+  },
+  "categories": [
+    "Cell phone store",
+    "Cell phone accessory store",
+    "Computer accessories store",
+    "Computer service",
+    "Mobile phone repair shop"
+  ],
+  "address": "Amman Kovil Road, Kurumanveli-12, களுவாஞ்சிக்குடி 20300",
+  "phone": "0755250829",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: vellavely--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59X1SZMPZ22WYGR8SH6F3"
+}

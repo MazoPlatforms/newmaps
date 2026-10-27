@@ -1,0 +1,62 @@
+{
+  "name": "Jeeva Gym Centre",
+  "coordinates": {
+    "latitude": 7.6367822,
+    "longitude": 81.75922109999999
+  },
+  "categories": [
+    "Gym"
+  ],
+  "address": "JQP5+PM9, Puthukkudiyiruppu",
+  "phone": "0752024468",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--sports-fitness, chenkaladi--sports-fitness, eravur--sports-fitness, illipaiyadichchenai--sports-fitness, karadiyanaru--sports-fitness, kiran--sports-fitness, koddaikallar--sports-fitness, kokkadichcholai--sports-fitness, kurumunveli--sports-fitness, mangalagama--sports-fitness, navatkudah-east--sports-fitness, nuwaragalathenna--sports-fitness, paddippalai--sports-fitness, pasikudah-bay--sports-fitness, periyakallar--sports-fitness, puliyanthivu-east--sports-fitness, puliyanthivu-west--sports-fitness, rukamputur--sports-fitness, trikkandimadu--sports-fitness, tumpalancholai--sports-fitness, urukamam--sports-fitness, vahaneri--sports-fitness, vakarai--sports-fitness, vellavely--sports-fitness, vettukkadu--sports-fitness. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59VDNRX53F4QF8G46RQA9"
+}

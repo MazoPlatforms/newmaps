@@ -1,0 +1,62 @@
+{
+  "name": "Manmunai Pradeshiya Sabha Office Arayampathy",
+  "coordinates": {
+    "latitude": 7.6714065,
+    "longitude": 81.7340797
+  },
+  "categories": [
+    "Government office"
+  ],
+  "address": "MPCM+HJ8",
+  "phone": "0652245894",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--government, illipaiyadichchenai--government, koddaikallar--government, kurumunveli--government, navatkudah-east--government, nuwaragalathenna--government, paddippalai--government, palameen-madu--government, rukamputur--government, trikkandimadu--government, tumpalancholai--government, urukamam--government, vahaneri--government, vellavely--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59XCH3TXA02KR5SPXH9WW"
+}

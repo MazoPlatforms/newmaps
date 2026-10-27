@@ -56,6 +56,15 @@ test('nearby mode sorts by distance, applies its radius and reports measured dis
   assert.equal(distanceMeters({ latitude: 91, longitude: 0 }, places[0].coordinates), null);
 });
 
+test('district-wide search keeps distant Batticaloa places searchable without nearby mode', () => {
+  const districtPlaces = [
+    { id: 'south', name: 'Vellavely Public Library', categories: ['Library'], coordinates: { latitude: 7.37, longitude: 81.80 } },
+    { id: 'north', name: 'Vakarai Public Library', categories: ['Library'], coordinates: { latitude: 8.12, longitude: 81.43 } },
+  ];
+  const rows = searchPlaces(districtPlaces, { query: 'public library' });
+  assert.deepEqual(new Set(rows.map((row) => row.place.id)), new Set(['south', 'north']));
+});
+
 test('search ranking prioritizes name relevance and uses distance as a modest tie-breaker', () => {
   const rows = searchPlaces([
     { ...places[0], coordinates: { latitude: 7.69, longitude: 81.74 } },

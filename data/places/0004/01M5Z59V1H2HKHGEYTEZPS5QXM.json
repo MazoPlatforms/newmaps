@@ -1,0 +1,62 @@
+{
+  "name": "PC Mobile City New",
+  "coordinates": {
+    "latitude": 7.517330899999999,
+    "longitude": 81.7834263
+  },
+  "categories": [
+    "Mobile phone repair shop"
+  ],
+  "address": "Market road, Kaluwanchikudy 30200",
+  "phone": "0753036609",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–1:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--electronics-mobile, illipaiyadichchenai--electronics-mobile, kalkudah--electronics-mobile, kaluwanchikudy--electronics-mobile, koddaikallar--electronics-mobile, kokkadichcholai--electronics-mobile, nuwaragalathenna--electronics-mobile, palameen-madu--electronics-mobile, puliyanthivu-east--electronics-mobile, unnichchai--electronics-mobile, urukamam--electronics-mobile, valaichchenai--electronics-mobile, vellavely--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59V1H2HKHGEYTEZPS5QXM"
+}

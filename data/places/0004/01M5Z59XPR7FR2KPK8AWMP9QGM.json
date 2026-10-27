@@ -1,0 +1,63 @@
+{
+  "name": "Post Office Palugamam (30234)",
+  "coordinates": {
+    "latitude": 7.5398305,
+    "longitude": 81.760905
+  },
+  "categories": [
+    "Post office"
+  ],
+  "address": "GQQ6+Q96, Main road, Palugamam, Batticaloa",
+  "phone": "0652250507",
+  "website": "https://slpost.gov.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--government, kurumunveli--government, nuwaragalathenna--government, paddippalai--government, palameen-madu--government, rukamputur--government, urukamam--government, vellavely--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59XPR7FR2KPK8AWMP9QGM"
+}

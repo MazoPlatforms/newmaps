@@ -1,0 +1,63 @@
+{
+  "name": "Mangalagama Police Station මංගලගම පාෙලිස් ස්ථානය",
+  "coordinates": {
+    "latitude": 7.5245326,
+    "longitude": 81.53962609999999
+  },
+  "categories": [
+    "Police station"
+  ],
+  "address": "GGFQ+RV6, Ampara-Uhana-Maha Oya Hwy, Mangalagama",
+  "phone": "0633733037",
+  "website": "http://www.police.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: mangalagama--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5A3V40K6RZZKTXBCPK09J"
+}

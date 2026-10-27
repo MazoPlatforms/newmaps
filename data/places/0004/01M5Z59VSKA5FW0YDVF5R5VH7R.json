@@ -1,0 +1,72 @@
+{
+  "name": "CMD Network",
+  "coordinates": {
+    "latitude": 7.517274899999999,
+    "longitude": 81.78715389999999
+  },
+  "categories": [
+    "Computer repair service",
+    "Cell phone accessory store",
+    "Computer accessories store",
+    "Computer networking service",
+    "Repair service",
+    "Computer support and services",
+    "Data recovery service",
+    "Electrical repair shop",
+    "Phone repair service",
+    "Security system installation service"
+  ],
+  "address": "Near RDB Bank & People's Bank, Main street, Kaluwanchikudy 30200",
+  "phone": "0774064857",
+  "website": "http://cmdnetwork.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--electronics-mobile, vellavely--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59VSKA5FW0YDVF5R5VH7R"
+}

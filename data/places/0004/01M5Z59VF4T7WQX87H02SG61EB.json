@@ -1,0 +1,68 @@
+{
+  "name": "MULTI FITNESS Center",
+  "coordinates": {
+    "latitude": 7.5140831,
+    "longitude": 81.7880339
+  },
+  "categories": [
+    "Gym"
+  ],
+  "address": "Main Street, Kaluwanchikudy",
+  "phone": "0755178175",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–10 AM",
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–10 AM",
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–10 AM",
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–10 AM",
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–10 AM",
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–10 AM",
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–10 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--sports-fitness, chenkaladi--sports-fitness, illipaiyadichchenai--sports-fitness, kaluwanchikudy--sports-fitness, karadiyanaru--sports-fitness, koddaikallar--sports-fitness, kokkadichcholai--sports-fitness, kurumunveli--sports-fitness, mangalagama--sports-fitness, navatkudah-east--sports-fitness, nuwaragalathenna--sports-fitness, paddippalai--sports-fitness, periyakallar--sports-fitness, rukamputur--sports-fitness, trikkandimadu--sports-fitness, urukamam--sports-fitness, vahaneri--sports-fitness, vakarai--sports-fitness, vellavely--sports-fitness. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59VF4T7WQX87H02SG61EB"
+}

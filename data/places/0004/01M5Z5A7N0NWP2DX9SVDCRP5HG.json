@@ -1,0 +1,62 @@
+{
+  "name": "Alpha CDC",
+  "coordinates": {
+    "latitude": 7.6628633,
+    "longitude": 81.49951539999999
+  },
+  "categories": [
+    "Church"
+  ],
+  "address": "Kithul weva",
+  "phone": "0770463948",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:01 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:01 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:01 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:01 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:01 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: rukamputur--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5A7N0NWP2DX9SVDCRP5HG"
+}

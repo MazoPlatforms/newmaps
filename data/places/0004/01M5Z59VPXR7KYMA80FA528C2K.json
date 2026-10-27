@@ -1,0 +1,62 @@
+{
+  "name": "Revathi Tex",
+  "coordinates": {
+    "latitude": 7.530441799999999,
+    "longitude": 81.6838941
+  },
+  "categories": [
+    "Clothing store"
+  ],
+  "address": "GMJM+6H6, Main street, Thikkodai, Mandur",
+  "phone": "0752797098",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30–8 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: illipaiyadichchenai--clothing-textiles, palameen-madu--clothing-textiles, trikkandimadu--clothing-textiles, vellavely--clothing-textiles. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59VPXR7KYMA80FA528C2K"
+}

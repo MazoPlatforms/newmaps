@@ -204,6 +204,31 @@ class MzcImportTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "500-result cap"):
                 importer.read_captures(path)
 
+    def test_query_summary_counts_retries_and_preserves_safe_coverage_metadata(self):
+        summary = importer.capture_summary([{
+            "key": "vakarai--clothing-textiles",
+            "query": "clothing shops and textile stores in Vakarai, Batticaloa District, Sri Lanka",
+            "town": "Vakarai", "category": "clothing-textiles", "country": "lk", "limit": 500,
+            "count": 3, "at_limit": False, "status": "success",
+            "attempts": [
+                {"attempt": 1, "error": "CLI invocation timed out"},
+                {"attempt": 2, "status": "success"},
+            ],
+        }, {
+            "key": "vakarai--food", "query": "restaurants in Vakarai", "town": "Vakarai",
+            "category": "food", "country": "lk", "limit": 500, "status": "failed",
+            "error": "CLI did not return valid JSON", "attempts": [{"attempt": 1, "error": "invalid JSON"}],
+        }])
+        self.assertEqual(summary["confirmed_cli_invocations_at_least"], 3)
+        self.assertFalse(summary["exact_cli_invocation_total_available"])
+        self.assertEqual(summary["successful_queries"], 1)
+        self.assertEqual(summary["failed_queries"], 1)
+        self.assertEqual(summary["failed_attempts"], 2)
+        self.assertEqual(summary["successful_retries"], 1)
+        self.assertEqual(summary["raw_candidates_returned_in_retained_json"], 3)
+        self.assertEqual(summary["queries"][0]["town"], "Vakarai")
+        self.assertEqual(summary["queries"][0]["category"], "clothing-textiles")
+
 
 if __name__ == "__main__":
     unittest.main()

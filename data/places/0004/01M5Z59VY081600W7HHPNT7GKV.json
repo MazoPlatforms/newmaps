@@ -1,0 +1,62 @@
+{
+  "name": "Master Aluminium,",
+  "coordinates": {
+    "latitude": 7.6814715,
+    "longitude": 81.7283406
+  },
+  "categories": [
+    "Aluminum supplier"
+  ],
+  "address": "Main St, Kattankudy 30150",
+  "phone": "0753322884",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--hardware-building, karadiyanaru--hardware-building, kiran--hardware-building, koddaikallar--hardware-building, mangalagama--hardware-building, navatkudah-east--hardware-building, rideethenna--hardware-building, vahaneri--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59VY081600W7HHPNT7GKV"
+}

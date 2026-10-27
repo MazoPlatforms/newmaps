@@ -262,6 +262,7 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
         self.assertIn("activeIds.has(canonicalId)", app)
         self.assertNotIn("if(!seen.has(k)", app)
         self.assertIn("createPlaceSearchIndex(places,placeAliases)", app)
+        self.assertIn("maxDistanceMeters:nearbyMode?10000:Infinity", app)
         self.assertIn("$('#place-address').textContent=p.address||'Address unavailable'", app)
 
     def test_roads_and_speed_limit_sources_match_pre_cleanup_hashes(self):
