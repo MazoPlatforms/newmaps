@@ -1,0 +1,58 @@
+{
+  "name": "Riyasa Cafe",
+  "coordinates": {
+    "latitude": 7.779328899999999,
+    "longitude": 81.609876
+  },
+  "categories": [
+    "Cafeteria",
+    "Food delivery"
+  ],
+  "address": "QJH5+PXJ, Makkah madi Road, Eravur",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30–9 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30–9 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30–9 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30–9 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–9 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30–9 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30–9 AM"
+      ]
+    }
+  ],
+  "id": "01M5ZBFPSXJQXBCQX1KGRPY9XN"
+}
