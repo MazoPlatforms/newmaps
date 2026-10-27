@@ -2,6 +2,8 @@
 
 A static MapLibre GL JS map for Kattankudy. Place records live in `data/places/<shard>/<ULID>.json`; non-place geography remains under `data/`.
 
+Community contributions use GitHub forks and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for place schema, safe JSON templates, Codespaces allocator commands, validation, and maintainer review guidance.
+
 ## Place records
 
 Every place has an immutable 26-character ULID `id`, a non-empty `name`, and `coordinates` as `{ "latitude": number, "longitude": number }` or `null` when the source has no verified location. Other source properties are retained. The JSON Schema is `data/place.schema.json`.
