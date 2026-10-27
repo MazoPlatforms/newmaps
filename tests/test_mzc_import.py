@@ -91,6 +91,21 @@ class MzcImportTests(unittest.TestCase):
         self.assertEqual(len(groups), 2)
         self.assertEqual(sorted(len(group["members"]) for group in groups), [1, 2])
 
+    def test_nearby_same_name_import_candidates_are_retained_as_conflict(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            a = mzc_record("Amma Hotel", latitude=7.7690151, longitude=81.6139273,
+                           address="QJ97+JH3, Main St, Eravur", categories=["Family restaurant"])
+            b = mzc_record("Amma Hotel", latitude=7.769067, longitude=81.6138231,
+                           address="QJ97+JGG, Trincomalee-Batticaloa Road, Eravur", categories=["Restaurant"])
+            plan = self.analyze(Path(tmp), [a, b])
+            self.assertEqual(len(plan["new_records"]), 2)
+            self.assertEqual(len(plan["internal_nearby_pairs"]), 1)
+            pair = plan["internal_nearby_pairs"][0]
+            self.assertLess(pair["distance_m"], 15)
+            self.assertIn("address", pair["differing_fields"])
+            self.assertIn("categories", pair["differing_fields"])
+            self.assertIn("Retain both", pair["decision"])
+
     def test_exact_existing_alias_is_duplicate_without_new_ulid(self):
         with tempfile.TemporaryDirectory() as tmp:
             temp = Path(tmp)

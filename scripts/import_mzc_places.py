@@ -333,6 +333,7 @@ def analyze(input_dir: Path, boundary_path: Path = BOUNDARY_PATH, root: Path = R
         "raw_rows": rows,
         "candidates": candidates,
         "new_records": new_records,
+        "internal_nearby_pairs": internal_nearby_pairs(new_records),
         "counts": counts,
         "reason_counts": reason_counts,
         "quality_signals": quality_signals,
@@ -406,6 +407,31 @@ def integrity_snapshot(root: Path, records: list[dict], aliases: dict) -> dict:
     }
 
 
+def internal_nearby_pairs(records: list[dict]) -> list[dict]:
+    by_name: dict[str, list[tuple[int, dict, tuple[float, float]]]] = defaultdict(list)
+    for index, record in enumerate(records):
+        point = coordinates(record)
+        if point and record.get("name"):
+            by_name[normalized_text(record["name"])].append((index, record, point))
+    pairs = []
+    for members in by_name.values():
+        for position, (left_index, left, left_point) in enumerate(members):
+            for right_index, right, right_point in members[position + 1:]:
+                distance = distance_m(left_point, right_point)
+                if distance > 250:
+                    continue
+                differences = {}
+                for field in ("address", "categories", "phone", "website", "business_status", "hours"):
+                    left_value, right_value = left.get(field), right.get(field)
+                    if left_value not in (None, "", []) and right_value not in (None, "", []) and _stable_value(field, left_value) != _stable_value(field, right_value):
+                        differences[field] = [left_value, right_value]
+                pairs.append({"left_record_index": left_index, "right_record_index": right_index,
+                              "name": left["name"], "distance_m": round(distance, 1),
+                              "differing_fields": differences,
+                              "decision": "Retain both records; field differences require maintainer review; no automatic merge or deletion."})
+    return pairs
+
+
 def capture_summary(query_manifest: list[dict]) -> dict:
     successful = [row for row in query_manifest if "error" not in row]
     return {
@@ -461,6 +487,7 @@ def public_report(plan: dict, region: str | None = None) -> dict:
             "candidate_data_quality_signals": dict(sorted(plan["quality_signals"].items())),
             "unresolved_candidates_are_not_listed_by_name_or_location": True,
             "new_places_in_this_change": len(import_rows),
+            "unresolved_new_nearby_duplicate_pair_count": len(plan["internal_nearby_pairs"]),
             "active_place_records_before": plan["source_records_before"],
             "active_place_records_after": plan["source_records_before"] + len(import_rows),
             "current_batch_region": region or "all",
@@ -473,6 +500,7 @@ def public_report(plan: dict, region: str | None = None) -> dict:
             "query_prompt_candidate_coverage_overlapping": {key: dict(sorted(value.items())) for key, value in sorted(plan["query_prompt_counts"].items())},
             "formatting_changes": plan["formatting_changes"],
             "normalization_changes": plan["normalization_change_rows"],
+            "unresolved_new_nearby_duplicate_pairs": plan["internal_nearby_pairs"],
             "per_record_public_eligibility_gate": "scripts/place_eligibility.py",
             "existing_active_ids_and_aliases_are_reused_for_duplicate_checks": True,
             "roads_and_speed_limits_modified": False,
@@ -506,6 +534,9 @@ def apply_import(plan: dict, report: dict, root: Path = ROOT) -> dict:
     report["processing"]["imported_ulids"] = imported_ids
     for row in report["processing"].get("normalization_changes", []):
         row["affected_ulid"] = imported_ids[row["record_index"]]
+    for pair in report["processing"].get("unresolved_new_nearby_duplicate_pairs", []):
+        pair["left_ulid"] = imported_ids[pair.pop("left_record_index")]
+        pair["right_ulid"] = imported_ids[pair.pop("right_record_index")]
     places.build()
     manifest = json.loads(places.PLACE_MANIFEST.read_text(encoding="utf-8"))
     records_after, _, _ = places.load_places()
@@ -554,6 +585,7 @@ def render_report(report: dict) -> str:
         f"- Unique candidates after normalized name and coordinate grouping: {processing['unique_candidates']:,}.",
         f"- New public place records in this change: {processing['new_places_in_this_change']:,}.",
         f"- Imported names formatted: {processing['name_format_changes']:,}; imported addresses mechanically formatted: {processing['address_format_changes']:,}.",
+        f"- Unresolved nearby same-name pairs retained for review: {processing['unresolved_new_nearby_duplicate_pair_count']:,}.",
         f"- Duplicate query rows collapsed: {processing['duplicate_query_rows_collapsed']:,}.",
         "- Candidate origin and license information is not exposed by the documented mzc CLI; maintainer review is required before attributing or redistributing the underlying data.",
         "- Place records are not independently verified and retain mzc provenance.", "",
