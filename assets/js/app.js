@@ -1,4 +1,5 @@
 import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs';
+import { createPlaceLookup, decodePlaceDetails, decodeSearchIndex } from './place-delivery.mjs';
 import { discoveryCategoryFor } from './place-categories.mjs';
 import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs';
 
@@ -12,6 +13,7 @@ const map=new maplibregl.Map({container:'map',style:styles[theme()],...CAMERA_OP
 configureNorthUpInteractions(map);
 // Minimal map chrome: touch gestures remain available without zoom buttons.
 let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false;
+let deliveryMode='mzp',placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchIndexPromise=null,placeDetailsLoaded=false,pmtilesFallbackStarted=false;
 let presentedCategory=null,presentedSelectedId=null,presentedVisibility=null;
 // Presentation-only Sri Lankan postal address cleanup. This never invents a house number.
 function displaySriLankanAddress(value){
@@ -92,7 +94,7 @@ function registerIcons(){
   map.addImage(id,ctx.getImageData(0,0,64,80),{pixelRatio:2});
  }
 }
-function poiFeatures(){return {type:'FeatureCollection',features:places.map(placeFeature)}}
+function poiFeatures(){return {type:'FeatureCollection',features:places.filter(place=>place.coordinates&&Number.isFinite(+place.coordinates.longitude)&&Number.isFinite(+place.coordinates.latitude)).map(placeFeature)}}
 function poiLayout(){return {
  'icon-image':['concat','mazo-',['get','kind']],
  'icon-anchor':'bottom',
@@ -106,7 +108,7 @@ function poiLayout(){return {
  'symbol-sort-key':['get','priority'],
 }}
 function addPoiSymbolLayer(id,tier,minzoom,opacityStops){
- map.addLayer({id,type:'symbol',source:POI_SOURCE,minzoom,filter:poiLayerFilter(tier,category),layout:poiLayout(),paint:{
+ map.addLayer({id,type:'symbol',source:POI_SOURCE,...(deliveryMode==='pmtiles'?{'source-layer':'places'}:{}),minzoom,filter:poiLayerFilter(tier,category),layout:poiLayout(),paint:{
   'icon-opacity':['interpolate',['linear'],['zoom'],...opacityStops],
   'text-opacity':['interpolate',['linear'],['zoom'],...opacityStops],
   'text-color':theme()==='dark'?'#e5e7eb':'#334155',
@@ -115,14 +117,18 @@ function addPoiSymbolLayer(id,tier,minzoom,opacityStops){
 }
 function ensurePoiLayer(){
  if(!map.getStyle()?.layers)return;
- poiFeatureCollection ||= poiFeatures();
- if(!map.getSource(POI_SOURCE))map.addSource(POI_SOURCE,{type:'geojson',data:poiFeatureCollection,promoteId:'id',buffer:64});
+ if(deliveryMode==='pmtiles'&&!window.mazoPmtilesUrl)return;
+ if(deliveryMode==='mzp')poiFeatureCollection ||= poiFeatures();
+ if(!map.getSource(POI_SOURCE)){
+  if(deliveryMode==='pmtiles')map.addSource(POI_SOURCE,{type:'vector',url:window.mazoPmtilesUrl,promoteId:{places:'id'}});
+  else map.addSource(POI_SOURCE,{type:'geojson',data:poiFeatureCollection,promoteId:'id',buffer:64});
+ }
  registerIcons();
  if(!map.getLayer('mazo-poi-major'))addPoiSymbolLayer('mazo-poi-major','major',POI_ZOOM_THRESHOLDS.major,[4.6,0,5.1,0.9,5.6,1]);
  if(!map.getLayer('mazo-poi-district'))addPoiSymbolLayer('mazo-poi-district','district',POI_ZOOM_THRESHOLDS.district,[7.2,0,7.8,0.9,8.3,1]);
  if(!map.getLayer('mazo-poi-local'))addPoiSymbolLayer('mazo-poi-local','local',POI_ZOOM_THRESHOLDS.local,[9.5,0,10.2,0.9,10.7,1]);
  if(!map.getLayer('mazo-poi-selected'))map.addLayer({
-  id:'mazo-poi-selected',type:'symbol',source:POI_SOURCE,minzoom:0,
+  id:'mazo-poi-selected',type:'symbol',source:POI_SOURCE,...(deliveryMode==='pmtiles'?{'source-layer':'places'}:{}),minzoom:0,
   filter:['==',['get','id'],''],layout:{...poiLayout(),'icon-allow-overlap':true,'text-allow-overlap':true,'icon-size':0.78,'text-size':14,'symbol-sort-key':1000},
   paint:{'icon-opacity':1,'text-opacity':1,'text-color':theme()==='dark'?'#ffffff':'#17212e','text-halo-color':theme()==='dark'?'#17212e':'#ffffff','text-halo-width':2},
  });
@@ -146,7 +152,11 @@ function updatePoiPresentation(){
   presentedVisibility=placesVisible;
  }
 }
-map.on('click',POI_LAYERS.slice(0,3),e=>{if(!routePanel.hidden)return;const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
+function selectPmtilesPlace(id){
+ const choose=()=>{const place=placeById.get(String(id));if(place&&selectedPlace?.id!==place.id)openPlace(place)};
+ if(placeById.has(String(id)))choose();else ensureSearchIndex().then(choose).catch(console.error);
+}
+map.on('click',POI_LAYERS.slice(0,3),e=>{if(!routePanel.hidden)return;const properties=e.features?.[0]?.properties||{};const place=deliveryMode==='pmtiles'?placeById.get(String(properties.id)):places[Number(properties.index)];if(place&&selectedPlace?.id!==place.id)openPlace(place);else if(!place&&deliveryMode==='pmtiles')selectPmtilesPlace(properties.id)});
 map.on('mouseenter',POI_LAYERS.slice(0,3),()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',POI_LAYERS.slice(0,3),()=>map.getCanvas().style.cursor='');
 let selectedPlace=null,sheetState='half',dragStart=null,dragDelta=0,closeTimer=null;
@@ -160,10 +170,15 @@ function openPlace(p){
  if(typeof routePanel!=='undefined'&&!routePanel.hidden)return;
  selectedPlace=p;clearTimeout(closeTimer);sheet.classList.remove('is-closing');sheet.hidden=false;setSheetState('half');
  updatePoiPresentation();
+ renderPlaceDetails(p);
+ if(deliveryMode==='pmtiles'&&!placeDetailsLoaded)loadPlaceDetails().then(details=>{for(const [id,full] of details){const place=placeById.get(id);if(place)Object.assign(place,full)}placeDetailsLoaded=true;if(selectedPlace?.id===p.id)renderPlaceDetails(p)}).catch(error=>console.warn('Optional place details unavailable:',error));
+ const c=p.coordinates;if(c&&Number.isFinite(+c.latitude)&&Number.isFinite(+c.longitude))map.easeTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16),bearing:0,pitch:0,padding:{bottom:Math.round(window.innerHeight*.25)},duration:cameraDuration(400)});
+}
+function renderPlaceDetails(p){
  $('#place-title').textContent=p.name;
  $('#place-category').textContent=(p.categories||[]).join(' · ')||'Place';
  $('#place-address').textContent=p.address||'Address unavailable';
- $('#place-coordinates').textContent=Number(p.coordinates.latitude).toFixed(6)+', '+Number(p.coordinates.longitude).toFixed(6);
+ $('#place-coordinates').textContent=p.coordinates&&Number.isFinite(+p.coordinates.latitude)&&Number.isFinite(+p.coordinates.longitude)?Number(p.coordinates.latitude).toFixed(6)+', '+Number(p.coordinates.longitude).toFixed(6):'Location unavailable';
  const phone=$('#place-phone');phone.hidden=!p.phone;phone.href=p.phone?'tel:'+String(p.phone).replace(/[^+0-9]/g,''):'#';
  const website=$('#place-website');const url=String(p.website||'');website.hidden=!/^https?:\/\//i.test(url);if(!website.hidden)website.href=url;
 
@@ -180,7 +195,6 @@ function openPlace(p){
    row.append(day,time);hours.append(row);
   }
  }else{const empty=document.createElement('p');empty.className='hours-empty';empty.textContent='Opening hours unavailable';hours.append(empty)}
- const c=p.coordinates;map.easeTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16),bearing:0,pitch:0,padding:{bottom:Math.round(window.innerHeight*.25)},duration:cameraDuration(400)});
 }
 $('#place-close').onclick=closePlace;
 
@@ -372,11 +386,14 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sheet.hidden)close
   if(!sheet.hidden||!routePanel.hidden)return;
   const layers=POI_LAYERS.filter(id=>map.getLayer(id));
   const features=map.queryRenderedFeatures([[e.point.x-14,e.point.y-14],[e.point.x+14,e.point.y+14]],{layers});
-  for(const f of features){const i=Number(f.properties?.index);if(Number.isInteger(i)&&places[i]){openPlace(places[i]);return}}
+  for(const f of features){const place=deliveryMode==='pmtiles'?placeById.get(String(f.properties?.id)):places[Number(f.properties?.index)];if(place){if(selectedPlace?.id!==place.id)openPlace(place);return}if(deliveryMode==='pmtiles'){selectPmtilesPlace(f.properties?.id);return}}
  });
 
 function refresh(){
  const q=$('#map-search').value.trim();
+ if(deliveryMode==='pmtiles'&&!placeSearchIndex&&(q||nearbyMode)){
+  const results=$('#search-results'),input=$('#map-search');results.replaceChildren();const loading=document.createElement('p');loading.className='search-empty';loading.textContent='Loading full place search…';results.append(loading);results.hidden=false;input.setAttribute('aria-expanded','true');updatePoiPresentation();ensureSearchIndex().then(refresh).catch(error=>{loading.textContent='Place search could not be loaded.';console.error('Search index:',error)});return;
+ }
  const ranked=placeSearchIndex?.search({query:q,category,origin:nearbyMode?nearbyOrigin:null,maxDistanceMeters:nearbyMode?10000:Infinity})||[];
  updatePoiPresentation();
  const results=$('#search-results'),input=$('#map-search'),status=$('#search-status');results.replaceChildren();input.removeAttribute('aria-activedescendant');
@@ -466,15 +483,77 @@ map.on('click',SPEED_LAYER,e=>{
 });
 map.on('mouseenter',SPEED_LAYER,()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',SPEED_LAYER,()=>map.getCanvas().style.cursor='');
+map.on('error',event=>{
+ if(deliveryMode==='pmtiles'&&!pmtilesFallbackStarted&&event.sourceId===POI_SOURCE){
+  pmtilesFallbackStarted=true;console.warn('PMTiles source failed; restoring the MZP GeoJSON source.',event.error);
+  ensureSearchIndex().then(()=>switchPoiSource('mzp')).catch(error=>console.error('PMTiles fallback search index:',error));
+ }
+});
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
 map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && !layer.id.startsWith('mazo-') && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
-(async()=>{const status=$('#search-status');status.hidden=false;status.textContent='Loading places…';try{const manifest=await (await fetch('./generated/manifest.json?v=batticaloa-district-phase6-1')).json();placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};const response=await fetch('./generated/'+manifest.geojson+'?v='+manifest.sha256);if(!response.ok)throw Error('MZP '+response.status);const collection=JSON.parse(await response.text());if(collection.type!=='FeatureCollection'||collection.features.length!==manifest.features)throw Error('MZP manifest mismatch');const activeIds=new Set();for(const feature of collection.features){const p={...feature.properties,id:feature.id,coordinates:{longitude:feature.geometry.coordinates[0],latitude:feature.geometry.coordinates[1]}};if(!p?.name||/^kattankudt$/i.test(p.name.trim())||!Number.isFinite(+p.coordinates.latitude)||!Number.isFinite(+p.coordinates.longitude))continue;const canonicalId=window.resolveMazoPlaceId(p.id);if(activeIds.has(canonicalId))continue;activeIds.add(canonicalId);places.push({...p,name:canonicalPlaceName(p.name),address:displaySriLankanAddress(p.address),discoveryCategory:discoveryCategoryFor(p)})}poiFeatureCollection=poiFeatures();if(map.getSource(POI_SOURCE))map.getSource(POI_SOURCE).setData(poiFeatureCollection);placeSearchIndex=createPlaceSearchIndex(places,placeAliases);renderCategoryFilters();try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){status.hidden=false;status.textContent='Places could not be loaded. Check your connection and retry.';status.classList.add('is-error');console.error('MZP data error:',e)}})();
+async function checkedJson(file,sha256){
+ const response=await fetch(file+'?v='+sha256);if(!response.ok)throw Error(file+' '+response.status);
+ const bytes=await response.arrayBuffer();
+ if(sha256&&globalThis.crypto?.subtle){const digest=Array.from(new Uint8Array(await globalThis.crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');if(digest!==sha256)throw Error(file+' checksum mismatch')}
+ return JSON.parse(new TextDecoder().decode(bytes));
+}
+function installPlaceIndex(payload){
+ const seen=new Set();
+ for(const place of decodeSearchIndex(payload)){
+  const canonicalId=window.resolveMazoPlaceId(place.id);if(seen.has(canonicalId))continue;seen.add(canonicalId);
+  const normalized={...place,name:canonicalPlaceName(place.name),address:displaySriLankanAddress(place.address)};
+  places.push(normalized);placeById.set(canonicalId,normalized);
+ }
+ placeSearchIndex=createPlaceSearchIndex(places,placeAliases);
+ placeById=createPlaceLookup(places,placeAliases);
+}
+async function ensureSearchIndex(){
+ if(placeSearchIndex)return placeSearchIndex;
+ if(!searchIndexPromise){const entry=deliveryManifest?.delivery?.search_index;if(!entry)throw Error('Search index is not in the manifest');searchIndexPromise=checkedJson('./generated/'+entry.file,entry.sha256).then(installPlaceIndex)}
+ await searchIndexPromise;return placeSearchIndex;
+}
+async function loadPlaceDetails(){
+ if(!placeDetailPromise){const entry=deliveryManifest?.delivery?.place_details;if(!entry)throw Error('Place details index is not in the manifest');placeDetailPromise=checkedJson('./generated/'+entry.file,entry.sha256).then(decodePlaceDetails)}
+ return placeDetailPromise;
+}
+function switchPoiSource(mode){
+ deliveryMode=mode;
+ for(const id of [...POI_LAYERS].reverse())if(map.getLayer(id))map.removeLayer(id);
+ if(map.getSource(POI_SOURCE))map.removeSource(POI_SOURCE);
+ poiFeatureCollection=mode==='mzp'?poiFeatures():null;
+ presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;
+ ensurePoiLayer();
+}
+async function loadPmtiles(manifest){
+ const entry=manifest.delivery?.mvt_pmtiles,index=manifest.delivery?.search_index;if(!entry||!index)throw Error('PMTiles delivery is not present in manifest');
+ const script=await new Promise((resolve,reject)=>{if(window.pmtiles)return resolve();const tag=document.createElement('script');tag.src='./assets/vendor/pmtiles-4.5.0.js';tag.onload=resolve;tag.onerror=()=>reject(Error('PMTiles protocol library could not be loaded'));document.head.append(tag)});
+ void script;if(!window.pmtiles?.Protocol||!window.pmtiles?.PMTiles)throw Error('PMTiles protocol library did not initialize');
+ const archiveUrl=new URL('./generated/'+entry.file,location.href).href+'?v='+entry.sha256;const archive=new window.pmtiles.PMTiles(archiveUrl);
+ const header=await archive.getHeader(),metadata=await archive.getMetadata();
+ if(!metadata.vector_layers?.some(layer=>layer.id==='places')||header.minZoom!==entry.min_zoom||header.maxZoom!==entry.max_zoom)throw Error('PMTiles archive metadata mismatch');
+ pmtilesProtocol=new window.pmtiles.Protocol();pmtilesProtocol.add(archive);maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile);
+ window.mazoPmtilesUrl='pmtiles://'+archiveUrl;deliveryManifest=manifest;switchPoiSource('pmtiles');
+ renderCategoryFilters();refresh();const status=$('#search-status');status.hidden=true;status.textContent='';
+}
+async function loadMZP(manifest){
+ const collection=await checkedJson('./generated/'+manifest.geojson,manifest.sha256);
+ if(collection.type!=='FeatureCollection'||collection.features.length!==manifest.features)throw Error('MZP manifest mismatch');
+ const seen=new Set();for(const feature of collection.features){const p={...feature.properties,id:feature.id,coordinates:{longitude:feature.geometry.coordinates[0],latitude:feature.geometry.coordinates[1]}};if(!p?.name||!Number.isFinite(+p.coordinates.latitude)||!Number.isFinite(+p.coordinates.longitude))continue;const id=window.resolveMazoPlaceId(p.id);if(seen.has(id))continue;seen.add(id);const normalized={...p,name:canonicalPlaceName(p.name),address:displaySriLankanAddress(p.address),discoveryCategory:discoveryCategoryFor(p)};places.push(normalized);placeById.set(id,normalized)}
+ deliveryMode='mzp';poiFeatureCollection=poiFeatures();if(map.getSource(POI_SOURCE)){if(map.getSource(POI_SOURCE).setData)map.getSource(POI_SOURCE).setData(poiFeatureCollection);else switchPoiSource('mzp')}
+ placeSearchIndex=createPlaceSearchIndex(places,placeAliases);placeById=createPlaceLookup(places,placeAliases);renderCategoryFilters();try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();
+}
+(async()=>{const status=$('#search-status');status.hidden=false;status.textContent='Loading places…';try{const response=await fetch('./generated/manifest.json',{cache:'no-cache'});if(!response.ok)throw Error('Manifest '+response.status);const manifest=await response.json();deliveryManifest=manifest;placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};
+ if(new URLSearchParams(location.search).get('delivery')==='pmtiles'){
+  try{await loadPmtiles(manifest)}catch(error){console.warn('Experimental PMTiles delivery unavailable; using MZP.',error);places=[];placeById.clear();window.mazoPmtilesUrl=null;deliveryMode='mzp';await loadMZP(manifest)}
+ }else await loadMZP(manifest);
+}catch(error){status.hidden=false;status.textContent='Places could not be loaded. Check your connection and retry.';status.classList.add('is-error');console.error('Place data error:',error)}})();
 function renderCategoryFilters(){
  const container=document.querySelector('.categories'),all=container.querySelector('[data-category="all"]');container.replaceChildren(all);
  const labels={bank:'Banks & finance',food:'Food',health:'Health',hotel:'Hotels',park:'Nature',shop:'Shopping',atm:'ATMs',fuel:'Fuel',auto:'Auto',electronics:'Electronics',government:'Government',hardware:'Hardware',landmark:'Landmarks',salon:'Salons',sports:'Sports',transport:'Transport',market:'Markets',services:'Services',gym:'Fitness',jewelry:'Jewelry',school:'Education',stationery:'Books & print',cafe:'Cafés',worship:'Worship'};
- for(const {name,count} of availableCategories(places)){const button=document.createElement('button');button.type='button';button.dataset.category=name;button.setAttribute('aria-pressed','false');button.textContent=`${labels[name]||name} · ${count}`;container.append(button)}
+ const categories=places.length?availableCategories(places):Object.entries(deliveryManifest?.delivery?.search_index?.categories||{}).map(([name,count])=>({name,count}));
+ for(const {name,count} of categories){const button=document.createElement('button');button.type='button';button.dataset.category=name;button.setAttribute('aria-pressed','false');button.textContent=`${labels[name]||name} · ${count}`;container.append(button)}
  container.querySelectorAll('[data-category]').forEach(button=>button.onclick=()=>{category=button.dataset.category;nearbyMode=Boolean(nearbyOrigin)&&nearbyMode;container.querySelectorAll('[data-category]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));refresh()});
 }
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};

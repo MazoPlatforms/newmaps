@@ -150,12 +150,18 @@ class PlaceContributionWorkflowTests(unittest.TestCase):
             self.assertNotIn("GH_TOKEN", workflow)
         self.assertIn("validate_place_contributions.py", places_workflow)
         self.assertGreaterEqual(speed_workflow.count("github.event.pull_request.head.repo.full_name == github.repository"), 3)
+        self.assertIn("python -m pip install -r requirements-map-tiles.txt", places_workflow)
+        self.assertIn("python -m pip install -r requirements-map-tiles.txt", speed_workflow)
+        self.assertIn("python scripts/build_map_delivery.py", places_workflow)
+        self.assertIn("python scripts/build_map_delivery.py", speed_workflow)
 
     def test_existing_pages_workflow_rebuilds_public_place_data_on_main_push(self):
         workflow = (ROOT / ".github/workflows/pages.yml").read_text()
         app = (ROOT / "assets/js/app.js").read_text()
         self.assertIn("branches: [main]", workflow)
         self.assertIn("python scripts/places.py build", workflow)
+        self.assertIn("python -m pip install -r requirements-map-tiles.txt", workflow)
+        self.assertIn("python scripts/build_map_delivery.py", workflow)
         self.assertIn("validate_place_contributions.py", workflow)
         self.assertIn("actions/upload-pages-artifact@v3", workflow)
         self.assertIn("generated/manifest.json", app)
