@@ -29,19 +29,24 @@ class PlaceTests(unittest.TestCase):
     def test_migrated_counts_metadata_and_geojson(self):
         records,shards,suspicious=places.load_places()
         mapping=json.loads((places.ROOT/'migration-record-map.json').read_text())
-        self.assertEqual(len(records),3694)
-        self.assertEqual(len(mapping),len(records))
-        self.assertEqual({row['id'] for row in mapping},{r['id'] for r in records})
-        self.assertEqual(shards,{'0001':999,'0002':999,'0003':999,'0004':697})
-        self.assertEqual(len(suspicious),1422)
+        aliases=places.load_aliases()
+        self.assertEqual(len(records),2655)
+        self.assertEqual(len(mapping),3694)
+        self.assertEqual({row['id'] for row in mapping},{r['id'] for r in records}|set(aliases))
+        self.assertEqual(sum(shards.values()),2655)
+        self.assertEqual(len(aliases),1039)
+        self.assertEqual(len(suspicious),383)
         no_coords=[r for r in records if r['coordinates'] is None]
         self.assertEqual(len(no_coords),2)
         self.assertEqual(sum(r['coordinates'] is not None for r in records)+len(no_coords),len(records))
         self.assertTrue(all(len(places.shard_files(s))<=999 for s in (places.PLACES).iterdir()))
         places.build()
         geo=json.loads((places.GENERATED/'kattankudy.mzp').read_text())
-        self.assertEqual(len(geo['features']),3692)
+        self.assertEqual(len(geo['features']),2653)
         self.assertTrue(all(f['id'] for f in geo['features']))
+        manifest=json.loads((places.GENERATED/'manifest.json').read_text())
+        self.assertEqual(manifest['aliases'],{key:places.resolve_place_id(key,aliases) for key in aliases})
+        self.assertEqual(len(manifest['aliases']),1039)
 
     def test_migration_refuses_to_overwrite_active_places(self):
         with self.assertRaisesRegex(ValueError,'refusing to overwrite'):
