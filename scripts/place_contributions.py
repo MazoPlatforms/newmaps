@@ -44,8 +44,7 @@ def main() -> int:
             print(places.next_shard().relative_to(ROOT))
         else:
             record = json.loads(args.template.read_text(encoding="utf-8"))
-            path = scaffold(record, args.allow_duplicate_candidate)
-            print(path.relative_to(ROOT))
+            scaffold(record, args.allow_duplicate_candidate)
     except (OSError, json.JSONDecodeError, ValueError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
