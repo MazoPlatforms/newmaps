@@ -5,7 +5,7 @@
   "source_policy": {
     "discovery_interface": "mzc documented CLI only; its implementation and collection origins were not investigated.",
     "command_syntax": "mzc -l 500 -c lk -t 30 '<query>'",
-    "ownership_and_attribution": "Owner-supplied collection; mzc provenance is retained. The CLI provides no separate license metadata, so none is asserted.",
+    "ownership_and_attribution": "Owner-supplied collection used through the documented CLI. Canonical place records contain no importer-added provenance or source metadata. The CLI provides no separate license metadata, so none is asserted.",
     "independent_verification": "No independent place verification was performed; the operational query log records discovery inputs, while canonical place records contain no discovery-tool or provider marker.",
     "district_membership": "Validated against the checked-in Batticaloa District polygon. Query wording and town label do not establish eligibility."
   },

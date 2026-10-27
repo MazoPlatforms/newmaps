@@ -8,6 +8,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -72,7 +73,15 @@ def capture(plan_path: Path, output_dir: Path) -> dict[str, int]:
         row = {**item, "key": key, "attempts": existing.get("attempts", []) if existing else []}
         payload = None
         first_attempt = len(row["attempts"]) + 1
-        for attempt_number in (first_attempt, first_attempt + 1):
+        # Bound per-query retries. A run makes at most three requests per
+        # query, with a five-attempt lifetime cap and exponential backoff.
+        # Every invocation uses the documented country-scoped 500-result CLI.
+        total_attempt_limit = 5
+        attempts_available = min(3, max(0, total_attempt_limit - len(row["attempts"])))
+        for retry_index in range(attempts_available):
+            attempt_number = first_attempt + retry_index
+            if retry_index:
+                time.sleep(min(2 ** retry_index, 8))
             started = datetime.now(timezone.utc).isoformat()
             try:
                 result = subprocess.run(
@@ -84,11 +93,8 @@ def capture(plan_path: Path, output_dir: Path) -> dict[str, int]:
                     failure = classify_cli_failure(result.returncode, result.stderr)
                     row["attempts"].append({"attempt": attempt_number, "started_at": started,
                                             "error": failure})
-                    # A rate-limit response is an explicit stop signal. Immediate
-                    # retries amplify throttling and do not improve coverage.
                     if failure == "HTTP 429 rate limited":
                         row["failure_kind"] = "rate_limited"
-                        break
                     continue
                 payload = parse_response(result.stdout)
                 row["attempts"].append({"attempt": attempt_number, "started_at": started, "status": "success"})
@@ -98,7 +104,7 @@ def capture(plan_path: Path, output_dir: Path) -> dict[str, int]:
                                         "error": str(exc) if isinstance(exc, ValueError) else type(exc).__name__})
 
         if payload is None:
-            row.update({"status": "failed", "error": "Both documented CLI attempts failed"})
+            row.update({"status": "failed", "error": "All bounded documented CLI attempts failed"})
             failed += 1
         else:
             row.update({"status": "success", "count": len(payload["results"]),

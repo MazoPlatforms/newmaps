@@ -1,0 +1,58 @@
+{
+  "name": "SP's Cakes",
+  "coordinates": {
+    "latitude": 7.6983735,
+    "longitude": 81.7144357
+  },
+  "categories": [
+    "Cake shop"
+  ],
+  "address": "32, 6 Anumar Road, Batticaloa 30000",
+  "phone": "0757460441",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M5ZAT0KQQ2TB353MGM8P75MN"
+}

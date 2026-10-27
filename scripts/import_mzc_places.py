@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Conservatively import public Batticaloa District places from captured mzc JSON.
+"""Conservatively import public Batticaloa District places from captured CLI JSON.
 
 This tool never calls mzc. Discovery uses the documented CLI separately; this
 offline importer validates captured JSON, district geometry, public eligibility,
-duplicate candidates, provenance, and shard capacity before writing anything.
+duplicate candidates, canonical place fields, and shard capacity before writing.
 """
 from __future__ import annotations
 
@@ -492,9 +492,13 @@ def public_report(plan: dict, region: str | None = None) -> dict:
             "command_syntax": "mzc -l 500 -c lk -t 30 '<documented query string>'",
             "pagination": "No pagination option is documented by mzc --help; queries reaching 500 results must be subdivided.",
             "result_origin_or_license": "Owner-supplied collection; collection methodology and origin were not investigated. The documented CLI output does not expose redistribution license metadata; no provider attribution is inferred.",
-            "independent_place_verification": "not performed; imported records remain mzc-sourced and unverified",
+            "independent_place_verification": "not performed; imported listings remain unverified",
             "capture_log_note": "Four preliminary successful administrative-area queries returned responses that were not retained, so their result counts are unknown and excluded. Two documented invocations were interrupted before capture and later retried successfully. Two query runners briefly overlapped; retained responses were reconciled by unique query, but the exact number of redundant calls cannot be reconstructed. Confirmed invocation count is therefore a lower bound.",
             **capture_summary(plan["queries"]),
+            "phase6_3_additional_gap_queries": sum(
+                row.get("category") in {"food-retail", "public-facilities", "rural-commerce"}
+                for row in plan["queries"]
+            ),
         },
         "processing": {
             "raw_candidates_analyzed": len(plan["raw_rows"]),
@@ -588,6 +592,35 @@ def apply_import(plan: dict, report: dict, root: Path = ROOT) -> dict:
     }
     report_json = Path(plan.get("report_json", REPORT_JSON))
     report_md = Path(plan.get("report_md", REPORT_MD))
+    previous = {}
+    if report_json.exists():
+        try:
+            previous = json.loads(report_json.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            previous = {}
+    previous_processing = previous.get("processing", {})
+    previous_ids = previous_processing.get("phase6_3_cumulative_imported_ulids", [])
+    current_ids = report["processing"]["imported_ulids"]
+    report["processing"]["phase6_3_cumulative_imported_ulids"] = list(previous_ids) + current_ids
+    report["processing"]["phase6_3_cumulative_imported_count"] = len(previous_ids) + len(current_ids)
+    report["discovery"]["phase6_2_failed_prompts_recovered"] = {
+        "count": report["discovery"]["successful_retries"],
+        "all_retried_prompts_succeeded": report["discovery"]["failed_queries"] == 0,
+    }
+    report["review_queue"] = {
+        "phase6_2_reported_conflicting_existing_matches_unchanged": 13,
+        "phase6_2_reported_eligibility_uncertain_candidates_unchanged": 11,
+        "current_combined_unresolved_existing_match_candidates": int(plan["counts"].get("unresolved_existing_match", 0)),
+        "current_combined_eligibility_uncertain_candidates": int(plan["counts"].get("uncertain_public_eligibility", 0)),
+        "phase6_2_named_case_decisions": [
+            {"name": "Amma Hotel", "ulids": ["01M5Z17G0C4C1Q8YM3ZR7W7HES", "01M5Z17GC75PDB0MRNFK5PN6ZE"],
+             "decision": "retained separately", "reason": "12.8 m apart with differing address and category values; no independent evidence resolves whether these are one listing or separate businesses."},
+            {"name": "Markaz Mosque, Oddamawadi", "ulids": ["01M5Z5PDD8W74TDEST9HG41RY3", "01M5Z5PJM2K9AGEBTQWXNSCGPZ"],
+             "decision": "retained separately", "reason": "Same address/category and about 10 m apart, but coordinates differ and available records do not independently establish which point should be canonical."},
+        ],
+        "uncertain_and_conflicting_candidate_details_omitted": True,
+        "no_unresolved_candidate_was_deleted_or_merged": True,
+    }
     report_json.parent.mkdir(parents=True, exist_ok=True)
     report_json.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     report_md.write_text(render_report(report), encoding="utf-8")
@@ -606,11 +639,13 @@ def render_report(report: dict) -> str:
         f"- Raw candidates in retained JSON captures: {discovery['raw_candidates_returned_in_retained_json']:,}; duplicate calls with unavailable capture counts are excluded.",
         f"- Unique candidates after normalized name and coordinate grouping: {processing['unique_candidates']:,}.",
         f"- New public place records in this change: {processing['new_places_in_this_change']:,}.",
+        f"- Cumulative Phase 6.3 imports recorded to date: {processing.get('phase6_3_cumulative_imported_count', 0):,}.",
+        f"- Phase 6.2 failed prompts recovered: {discovery.get('phase6_2_failed_prompts_recovered', {}).get('count', 0)}; additional locality/category queries: {discovery.get('phase6_3_additional_gap_queries', 0)}.",
         f"- Imported names formatted: {processing['name_format_changes']:,}; imported addresses mechanically formatted: {processing['address_format_changes']:,}.",
         f"- Unresolved nearby same-name pairs retained for review: {processing['unresolved_new_nearby_duplicate_pair_count']:,}.",
         f"- Duplicate query rows collapsed: {processing['duplicate_query_rows_collapsed']:,}.",
         "- Candidate origin and license information is not exposed by the documented mzc CLI; maintainer review is required before attributing or redistributing the underlying data.",
-        "- Place records are not independently verified and retain mzc provenance.", "",
+        "- Canonical place records contain no importer-added provenance or source metadata. Captured listings were not independently verified.", "",
         "## District and privacy checks", "",
         f"- District membership checked against the Sri Lanka NSDI Batticaloa District polygon: {report['boundary']['source_url']}.",
         "- Raw outside-district, private, uncertain, invalid, and conflicting candidates are represented only as aggregate counts; names, exact coordinates, contact data, and addresses are not listed.",
@@ -647,8 +682,16 @@ def render_report(report: dict) -> str:
                   f"- Roads: {before['road_records']:,} → {after['road_records']:,}; source checksum unchanged: {before['road_sources_sha256'] == after['road_sources_sha256']}.",
                   f"- Speed limits: {before['speed_limit_records']:,} → {after['speed_limit_records']:,}; source checksum unchanged: {before['speed_limit_sources_sha256'] == after['speed_limit_sources_sha256']}.",
                   f"- Supplementary maxspeed evidence: {before['supplementary_maxspeed_records']:,} → {after['supplementary_maxspeed_records']:,}; source checksum unchanged: {before['supplementary_source_sha256'] == after['supplementary_source_sha256']}.", ""]
+    review = report.get("review_queue", {})
+    if review:
+        lines += ["## Unresolved review cases", "",
+                  f"- Phase 6.2 cases retained unchanged: {review.get('phase6_2_reported_conflicting_existing_matches_unchanged', 0)} conflicting existing matches and {review.get('phase6_2_reported_eligibility_uncertain_candidates_unchanged', 0)} eligibility-uncertain candidates.",
+                  f"- Combined current capture analysis: {review.get('current_combined_unresolved_existing_match_candidates', 0)} unresolved existing matches and {review.get('current_combined_eligibility_uncertain_candidates', 0)} eligibility-uncertain candidates."]
+        for item in review.get("phase6_2_named_case_decisions", []):
+            lines.append(f"- {item['name']} ({', '.join(item['ulids'])}): {item['decision']}; {item['reason']}")
+        lines += ["- Other uncertain/conflicting candidate details are omitted from this public report. No unresolved candidate was deleted or merged.", ""]
     lines += ["## Limitations", "", "- No pagination mode is documented; all captured queries returned fewer than 500 candidates.",
-              "- CLI provider and license metadata were unavailable and are not inferred.",
+              "- CLI provider and separate license metadata were not exposed and are not inferred.",
               "- Place listings, category correctness, and pin placement were not independently verified; mzc output is not treated as external confirmation.",
               "- Query-area counts overlap and are not a claim that every district place has been discovered.", ""]
     return "\n".join(lines)
