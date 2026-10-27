@@ -25,6 +25,7 @@ from place_names import normalize_place_name
 REDACTED_FIELDS = {"id", "name", "coordinates", "public_eligibility", "eligibility_review_token"}
 WITHHELD_LABEL = "Location withheld pending eligibility review"
 PROVENANCE_FIELDS = {"source_name", "source_url", "checked_at", "checked_by", "notes"}
+CANONICAL_IMPORT_MARKER_FIELDS = {"source", "source_name", "import_source", "discovery_query", "provider"}
 
 
 def validate_schema(record: object, path: str = "<record>", require_id: bool = True) -> list[str]:
@@ -103,15 +104,17 @@ def _distance_meters(a: dict, b: dict) -> float:
     return radius * 2 * math.asin(min(1, math.sqrt(h)))
 
 
-def duplicate_candidates(record: dict, existing: list[dict], radius_meters: float = 30) -> list[str]:
+def duplicate_candidates(record: dict, existing: list[dict], radius_meters: float = 30,
+                         name_index: dict[str, list[dict]] | None = None) -> list[str]:
     """Return conservative same-name nearby IDs; this is a review signal only."""
     coordinates = record.get("coordinates")
     name = _normal_name(record.get("name", ""))
     if not name or not isinstance(coordinates, dict):
         return []
     matches = []
-    for other in existing:
-        if other.get("id") == record.get("id") or _normal_name(other.get("name", "")) != name:
+    possible = name_index.get(name, []) if name_index is not None else existing
+    for other in possible:
+        if other.get("id") == record.get("id") or (name_index is None and _normal_name(other.get("name", "")) != name):
             continue
         other_coordinates = other.get("coordinates")
         if isinstance(other_coordinates, dict) and _distance_meters(coordinates, other_coordinates) <= radius_meters:
@@ -175,12 +178,14 @@ def validate_tree() -> tuple[list[dict], dict, list[list[str]]]:
             continue
         record = json.loads(path.read_text(encoding="utf-8"))
         errors.extend(validate_schema(record, str(path.relative_to(ROOT))))
+        errors.extend(canonical_import_metadata_errors(record, str(path.relative_to(ROOT))))
         if not classify_place(record)["eligible_for_public_map"] and not _is_safe_withheld_placeholder(record):
             errors.append(f"{path.relative_to(ROOT)}: non-public or uncertain records must use the privacy-safe placeholder")
     aliases = places.load_aliases()
     for retired_id, entry in aliases.items():
         if "record" in entry:
             errors.extend(validate_schema(entry["record"], f"alias {retired_id}"))
+            errors.extend(canonical_import_metadata_errors(entry["record"], f"alias {retired_id}"))
             if not classify_place(entry["record"])["eligible_for_public_map"] and not _is_safe_withheld_placeholder(entry["record"]):
                 errors.append(f"alias {retired_id}: non-public or uncertain payload must use the privacy-safe placeholder")
     if errors:
@@ -188,6 +193,19 @@ def validate_tree() -> tuple[list[dict], dict, list[list[str]]]:
     if any(count > places.LIMIT for count in shard_counts.values()):
         raise ValueError("A place shard exceeds the 999 JSON record limit")
     return records, shard_counts, exact_pairs
+
+
+def canonical_import_metadata_errors(record: dict, path: str) -> list[str]:
+    """Keep discovery-tool bookkeeping out of canonical place records/aliases."""
+    errors = []
+    markers = CANONICAL_IMPORT_MARKER_FIELDS.intersection(record)
+    if markers:
+        errors.append(f"{path}: canonical place records cannot contain collection/import metadata fields: "
+                      + ", ".join(sorted(markers)))
+    provenance = record.get("provenance")
+    if isinstance(provenance, dict) and str(provenance.get("source_name", "")).strip().casefold() == "mzc":
+        errors.append(f"{path}: mzc discovery-tool metadata must remain outside canonical place records")
+    return errors
 
 
 def _is_safe_withheld_placeholder(record: dict) -> bool:
@@ -253,6 +271,11 @@ def validate_changes(base_ref: str, head_ref: str) -> dict:
     errors.extend(validate_alias_changes(base_ref, aliases, set(removed_ids)))
 
     records_by_id = {record["id"]: record for record in records}
+    records_by_normalized_name: dict[str, list[dict]] = {}
+    for record in records:
+        key = _normal_name(record.get("name", ""))
+        if key:
+            records_by_normalized_name.setdefault(key, []).append(record)
     paths_by_id = {path.stem: str(path.relative_to(ROOT))
                    for path in sorted((ROOT / "data/places").glob("*/*.json"))
                    if path.name != "aliases.json"}
@@ -261,7 +284,7 @@ def validate_changes(base_ref: str, head_ref: str) -> dict:
         record = records_by_id.get(record_id)
         if not record:
             continue
-        for other_id in duplicate_candidates(record, records):
+        for other_id in duplicate_candidates(record, records, name_index=records_by_normalized_name):
             pair = tuple(sorted((record_id, other_id)))
             duplicate_pairs.add(pair)
             warnings.append((paths_by_id.get(record_id, f"data/places/{record_id}.json"),

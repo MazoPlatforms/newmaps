@@ -47,6 +47,17 @@ class PlaceContributionSchemaTests(unittest.TestCase):
         self.assertTrue(any("with timezone" in error for error in
                             validator.validate_schema(self.record(provenance={"checked_at": "2026-01-01T00:00:00"}))))
 
+    def test_canonical_records_allow_optional_community_provenance_but_reject_import_markers(self):
+        self.assertEqual(validator.canonical_import_metadata_errors(self.record(), "record.json"), [])
+        self.assertEqual(validator.canonical_import_metadata_errors(
+            self.record(provenance={"source_name": "Official directory"}), "record.json"), [])
+        self.assertTrue(any("mzc discovery-tool metadata" in error for error in
+                            validator.canonical_import_metadata_errors(
+                                self.record(provenance={"source_name": "mzc"}), "record.json")))
+        self.assertTrue(any("import metadata fields" in error for error in
+                            validator.canonical_import_metadata_errors(
+                                self.record(import_source="mzc"), "record.json")))
+
     def test_duplicate_candidates_require_same_normalized_name_and_nearby_location(self):
         original = self.record()
         nearby = self.record(id="01BBBBBBBBBBBBBBBBBBBBBBBB", name="EXAMPLE Community-Library",
@@ -55,6 +66,9 @@ class PlaceContributionSchemaTests(unittest.TestCase):
         same_far = self.record(id="01DDDDDDDDDDDDDDDDDDDDDDDD", coordinates={"latitude": 8.0,"longitude":81.73})
         self.assertEqual(validator.duplicate_candidates(original, [nearby]), [nearby["id"]])
         self.assertEqual(validator.duplicate_candidates(original, [colocated_different, same_far]), [])
+        index = {"examplecommunitylibrary": [nearby], "examplemosque": [colocated_different]}
+        self.assertEqual(validator.duplicate_candidates(original, [nearby, colocated_different], name_index=index),
+                         [nearby["id"]])
 
     def test_uncertain_records_are_safe_only_as_minimal_redacted_placeholders(self):
         safe = {"id": "01AAAAAAAAAAAAAAAAAAAAAAAA", "name": validator.WITHHELD_LABEL,

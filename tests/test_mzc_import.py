@@ -2,13 +2,17 @@ from __future__ import annotations
 
 import hashlib
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import import_mzc_places as importer
+import plan_batticaloa_phase6_2 as phase6_2_plan
+import capture_mzc_queries as mzc_capture
 import places
 
 ULID = "01AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -94,8 +98,7 @@ class MzcImportTests(unittest.TestCase):
         self.assertEqual(item["record"]["name"], "SMR Transport")
         self.assertEqual(item["record"]["address"], "No. 12, Main Road, Batticaloa")
         self.assertEqual({row["field"] for row in item["format_changes"]}, {"name", "address"})
-        self.assertEqual(item["record"]["provenance"]["source_name"], "mzc")
-        self.assertIn("not independently verified", item["record"]["provenance"]["notes"])
+        self.assertNotIn("provenance", item["record"])
 
     def test_repeated_query_records_collapse_but_nearby_same_name_is_not_merged(self):
         rows = [
@@ -244,6 +247,54 @@ class MzcImportTests(unittest.TestCase):
         self.assertEqual(summary["raw_candidates_returned_in_retained_json"], 3)
         self.assertEqual(summary["queries"][0]["town"], "Vakarai")
         self.assertEqual(summary["queries"][0]["category"], "clothing-textiles")
+
+    def test_phase62_plan_skips_previous_queries_and_uses_required_mzc_parameters(self):
+        repeated = phase6_2_plan.normalize_query(
+            "public offices schools clinics and community facilities in Koralai Pattu, Batticaloa District, Sri Lanka"
+        )
+        plan = phase6_2_plan.build_plan({repeated})
+        self.assertTrue(plan)
+        normalized = [phase6_2_plan.normalize_query(row["query"]) for row in plan]
+        self.assertNotIn(repeated, normalized)
+        self.assertEqual(len(normalized), len(set(normalized)))
+        self.assertTrue(all(row["limit"] == 500 and row["country"] == "lk" for row in plan))
+        self.assertTrue(any(row["town"] == "Vellaveli" for row in plan))
+        self.assertTrue(any("fishing supplies" in row["query"] for row in plan))
+
+    def test_mzc_capture_rejects_invalid_json_and_result_limit_overflow(self):
+        with self.assertRaisesRegex(ValueError, "valid JSON"):
+            mzc_capture.parse_response("not json")
+        with self.assertRaisesRegex(ValueError, "500-result limit"):
+            mzc_capture.parse_response(json.dumps({"results": [{} for _ in range(501)]}))
+        self.assertEqual(mzc_capture.parse_response('{"results":[{}]}')["count"], 1)
+        self.assertEqual(mzc_capture.classify_cli_failure(1, "Error: Request failed: HTTP 429"),
+                         "HTTP 429 rate limited")
+        self.assertEqual(mzc_capture.classify_cli_failure(1, "connection reset"),
+                         "mzc exited with status 1")
+
+    def test_mzc_capture_stops_immediate_retries_on_rate_limit(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            plan_path = root / "plan.json"
+            plan_path.write_text(json.dumps([{
+                "query": "public services in Vakarai, Batticaloa District, Sri Lanka",
+                "town": "Vakarai", "category": "public-services", "limit": 500,
+                "country": "lk", "timeout": 30,
+            }]), encoding="utf-8")
+            rate_limited = subprocess.CompletedProcess(
+                args=["mzc"], returncode=1, stdout="", stderr="Error: HTTP 429"
+            )
+            with patch.object(mzc_capture.subprocess, "run", return_value=rate_limited) as run:
+                result = mzc_capture.capture(plan_path, root / "captures")
+            self.assertEqual(run.call_count, 1)
+            self.assertEqual(result["failed_queries"], 1)
+            manifest = json.loads((root / "captures/query-manifest.json").read_text(encoding="utf-8"))
+            self.assertEqual(manifest[0]["failure_kind"], "rate_limited")
+            self.assertEqual(manifest[0]["attempts"][0]["error"], "HTTP 429 rate limited")
+            self.assertEqual(run.call_args.args[0], [
+                "mzc", "-l", "500", "-c", "lk", "-t", "30",
+                "public services in Vakarai, Batticaloa District, Sri Lanka",
+            ])
 
 
 if __name__ == "__main__":
