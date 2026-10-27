@@ -120,6 +120,19 @@ Counts overlap when a candidate appears in more than one category query. Query a
 - Speed limits: 3,710 → 3,710; source checksum unchanged: True.
 - Supplementary maxspeed evidence: 462 → 462; source checksum unchanged: True.
 
+## Cumulative before/after summary
+
+- Active places: 3,428 → 4,341 (+913); geographic features: 3,392 → 4,305 (+913).
+- Name formatting changes: 263; address formatting changes: 191.
+- Permanent aliases: 1,086 → 1,086. Roads: 3,710 → 3,710; speed limits: 3,710 → 3,710; supplementary maxspeed evidence: 462 → 462. All related source checksums are unchanged.
+- Place MZP gzip size: 261,511 → 342,171 bytes (+80,660 bytes; +30.9%). The local benchmark measured 0.127 seconds to parse the final 4,305-feature MZP; this is a local Python benchmark, not browser timing.
+- Import batches: south 285; central-south 254; central-mid 118; central-north 29; north 227. Each batch retained every prior permanent ID and alias.
+- Initial full-sweep classification before imports: 913 new public candidates, 797 existing-place matches, 26 unresolved existing matches, 43 eligibility-uncertain candidates withheld, 463 out-of-district candidates excluded. Latest batch reports 27 unresolved existing matches; all remain unchanged.
+
+## Existing unresolved duplicate review
+
+- The pre-existing nearby “Amma Hotel” pair in Eravur remains unchanged: ULIDs `01M5Z17G0C4C1Q8YM3ZR7W7HES, 01M5Z17GC75PDB0MRNFK5PN6ZE`; separation 12.8 m with different address and category values. Both records were retained; maintainers should compare independent evidence before any decision.
+- One newly imported nearby same-name pair (“Markaz Mosque, Oddamavadi”, approximately 10 m apart) was retained with both ULIDs in the machine report. The contribution validator emitted two maintainer-review warnings; no automatic merge or deletion occurred.
 ## Limitations
 
 - No pagination mode is documented; all captured queries returned fewer than 500 candidates.

@@ -15945,5 +15945,90 @@
     "existing_place_ulids_preserved": true,
     "aliases_preserved": true,
     "all_shards_within_limit": true
+  },
+  "phase6_1_totals": {
+    "active_places_before": 3428,
+    "active_places_after": 4341,
+    "geographic_features_before": 3392,
+    "geographic_features_after": 4305,
+    "aliases_before": 1086,
+    "aliases_after": 1086,
+    "road_records_before": 3710,
+    "road_records_after": 3710,
+    "road_sources_sha256_unchanged": true,
+    "speed_limit_records_before": 3710,
+    "speed_limit_records_after": 3710,
+    "speed_limit_sources_sha256_unchanged": true,
+    "supplementary_maxspeed_records_before": 462,
+    "supplementary_maxspeed_records_after": 462,
+    "supplementary_source_sha256_unchanged": true,
+    "mzp_gzip_bytes_before": 261511,
+    "mzp_gzip_bytes_after": 342171,
+    "mzp_gzip_bytes_delta": 80660,
+    "new_places_imported": 913,
+    "name_format_changes": 263,
+    "address_format_changes": 191,
+    "initial_candidate_classification_before_imports": {
+      "excluded_confirmed_private": 0,
+      "existing_place_duplicate": 797,
+      "invalid_missing_coordinates": 0,
+      "invalid_missing_name": 0,
+      "mzc_source_conflict": 0,
+      "new_public_candidate": 913,
+      "out_of_district": 463,
+      "uncertain_public_eligibility": 43,
+      "unresolved_existing_match": 26
+    },
+    "geographic_batches": [
+      {
+        "latitude_band": "south",
+        "new_places": 285,
+        "name_format_changes": 76,
+        "address_format_changes": 30,
+        "active_places_after": 3713,
+        "geographic_features_after": 3677,
+        "mzp_gzip_bytes": 284620
+      },
+      {
+        "latitude_band": "central-south",
+        "new_places": 254,
+        "name_format_changes": 72,
+        "address_format_changes": 85,
+        "active_places_after": 3967,
+        "geographic_features_after": 3931,
+        "mzp_gzip_bytes": 309201
+      },
+      {
+        "latitude_band": "central-mid, central-north",
+        "new_places": 147,
+        "name_format_changes": 51,
+        "address_format_changes": 40,
+        "active_places_after": 4114,
+        "geographic_features_after": 4078,
+        "mzp_gzip_bytes": 323650
+      },
+      {
+        "latitude_band": "north",
+        "new_places": 227,
+        "name_format_changes": 64,
+        "address_format_changes": 36,
+        "active_places_after": 4341,
+        "geographic_features_after": 4305,
+        "mzp_gzip_bytes": 342171
+      }
+    ],
+    "unresolved_existing_match_count_after_latest_batch": 27,
+    "unresolved_existing_phase6_amma_hotel_pair": {
+      "status": "retained unchanged for maintainer review",
+      "name": "Amma Hotel",
+      "ulids": [
+        "01M5Z17G0C4C1Q8YM3ZR7W7HES",
+        "01M5Z17GC75PDB0MRNFK5PN6ZE"
+      ],
+      "distance_m": 12.8,
+      "different_address": true,
+      "different_categories": true,
+      "decision": "Keep both records. Compare evidence for the two nearby businesses before making any duplicate decision; no merge or deletion was performed."
+    }
   }
 }
