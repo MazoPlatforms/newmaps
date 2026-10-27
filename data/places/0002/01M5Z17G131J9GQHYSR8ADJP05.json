@@ -1,0 +1,62 @@
+{
+  "name": "புதிய லங்கா ஹேட்டல் உணவகம் New Lanka Hotel",
+  "coordinates": {
+    "latitude": 7.777159999999999,
+    "longitude": 81.6030516
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "QJG3+V67, Eravur",
+  "phone": "0774339122",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–11 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–11 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–11 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–11 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–11 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–11 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17G131J9GQHYSR8ADJP05"
+}

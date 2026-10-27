@@ -1,0 +1,65 @@
+{
+  "name": "Commercial Bank Batticaloa Second Branch",
+  "coordinates": {
+    "latitude": 7.712612999999999,
+    "longitude": 81.69710529999999
+  },
+  "categories": [
+    "Bank",
+    "ATM",
+    "Private sector bank"
+  ],
+  "address": "No. 17 Central Road, Batticaloa 30100",
+  "phone": "0652228767",
+  "website": "https://www.combank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--finance, batticaloa--finance, chenkalady--finance, eravur--finance, kallady--finance, kattankudy--finance, kiran--finance, manmunai--finance, mylambaveli--finance, oddamavadi--finance, vakarai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17MZST3CVWWSTQVXEZ1Z5"
+}

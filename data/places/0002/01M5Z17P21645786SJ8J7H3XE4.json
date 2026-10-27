@@ -1,0 +1,62 @@
+{
+  "name": "Sri Mangalarama Raja Maha Viharaya",
+  "coordinates": {
+    "latitude": 7.717284899999999,
+    "longitude": 81.69984889999999
+  },
+  "categories": [
+    "Buddhist temple"
+  ],
+  "address": "Trinco Road, Batticaloa",
+  "phone": "0652222104",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--religious, batticaloa--religious, chenkalady--religious, eravur--religious, kalkudah--religious, kallady--religious, kiran--religious, manmunai--religious, mylambaveli--religious, oddamavadi--religious, pasikudah--religious, vakarai--religious, valaichchenai--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17P21645786SJ8J7H3XE4"
+}

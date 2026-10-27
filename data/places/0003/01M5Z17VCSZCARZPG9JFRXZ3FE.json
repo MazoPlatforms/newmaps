@@ -1,0 +1,62 @@
+{
+  "name": "Tositos Restaurant",
+  "coordinates": {
+    "latitude": 7.9049141999999994,
+    "longitude": 81.5248039
+  },
+  "categories": [
+    "Family restaurant"
+  ],
+  "address": "WG3F+XWH, MPCS Road, Oddamavadi",
+  "phone": "0751345864",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: oddamavadi--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17VCSZCARZPG9JFRXZ3FE"
+}

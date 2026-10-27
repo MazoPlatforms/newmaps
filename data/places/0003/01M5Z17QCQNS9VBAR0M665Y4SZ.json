@@ -1,0 +1,63 @@
+{
+  "name": "HNB Kalladi 01",
+  "coordinates": {
+    "latitude": 7.7107636,
+    "longitude": 81.71090339999999
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "No. 204/1 New Kalmunai Road, Kallady",
+  "phone": "0112462462",
+  "website": "https://www.hnb.net/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kallady--finance, kattankudy--finance, manmunai--finance, vakarai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17QCQNS9VBAR0M665Y4SZ"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "New Lanka Hotel",
+  "coordinates": {
+    "latitude": 7.777190399999999,
+    "longitude": 81.603061
+  },
+  "categories": [
+    "Food products supplier"
+  ],
+  "address": "Main street Road, 30300",
+  "phone": "0772922217",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17QJZRZ2JH3A2K3RX8YY3"
+}

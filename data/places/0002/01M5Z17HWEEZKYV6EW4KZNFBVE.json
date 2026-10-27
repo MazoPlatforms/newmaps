@@ -1,0 +1,62 @@
+{
+  "name": "JYK Store",
+  "coordinates": {
+    "latitude": 7.7379234,
+    "longitude": 81.68057259999999
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "PMQJ+568, Batticaloa",
+  "phone": "0752816009",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--retail, eravur--retail, kattankudy--retail, kiran--retail, manmunai--retail, vakarai--retail, valaichchenai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17HWEEZKYV6EW4KZNFBVE"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Hassam Store",
+  "coordinates": {
+    "latitude": 7.7806802,
+    "longitude": 81.6093803
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "QJJ5+7QC, Makkamadi Road, Maruthamunai",
+  "phone": "0766660960",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kiran--retail, manmunai--retail, mylambaveli--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z1856E1NG63QFTX8W5G1AY"
+}

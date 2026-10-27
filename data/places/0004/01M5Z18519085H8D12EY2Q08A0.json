@@ -1,0 +1,17 @@
+{
+  "name": "Elephant Rock Beach",
+  "coordinates": {
+    "latitude": 7.942511,
+    "longitude": 81.554786
+  },
+  "categories": [
+    "Beach"
+  ],
+  "address": "Kalkudah",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: pasikudah--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z18519085H8D12EY2Q08A0"
+}

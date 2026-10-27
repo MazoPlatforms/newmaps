@@ -1,0 +1,62 @@
+{
+  "name": "Seylan Bank ATM",
+  "coordinates": {
+    "latitude": 7.716457699999999,
+    "longitude": 81.69796629999999
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "PM8X+H5P, Lloyd's Ave, Batticaloa",
+  "website": "http://www.seylan.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--finance, batticaloa--finance, chenkalady--finance, eravur--finance, kallady--finance, kaluwanchikudy--finance, kattankudy--finance, kiran--finance, manmunai--finance, mylambaveli--finance, oddamavadi--finance, vakarai--finance, valaichchenai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17MXK8B947SHRJ4YDT912"
+}

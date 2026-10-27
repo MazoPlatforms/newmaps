@@ -1,0 +1,62 @@
+{
+  "name": "Redberry Cafe",
+  "coordinates": {
+    "latitude": 7.7188288,
+    "longitude": 81.6996772
+  },
+  "categories": [
+    "Coffee shop"
+  ],
+  "address": "19c Bar Road - Batticaloa, Batticaloa",
+  "phone": "0706477297",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--food, eravur--food, mylambaveli--food, vakarai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17H8VC1CZ6V0D509W69RJ"
+}

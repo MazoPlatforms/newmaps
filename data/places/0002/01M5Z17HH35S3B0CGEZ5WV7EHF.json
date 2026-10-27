@@ -1,0 +1,63 @@
+{
+  "name": "Cargills Food City",
+  "coordinates": {
+    "latitude": 7.725822099999999,
+    "longitude": 81.68989719999999
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "PMGQ+8XC, Batticaloa",
+  "phone": "0652228819",
+  "website": "http://www.cargillsceylon.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--food, araiyampathy--retail, batticaloa--food, batticaloa--retail, chenkalady--food, chenkalady--retail, eravur--food, eravur--retail, kalkudah--retail, kallady--retail, kaluwanchikudy--retail, kattankudy--retail, kiran--food, kiran--retail, manmunai--food, manmunai--retail, mylambaveli--food, mylambaveli--retail, pasikudah--retail, vakarai--food, vakarai--retail, valaichchenai--food, valaichchenai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17HH35S3B0CGEZ5WV7EHF"
+}

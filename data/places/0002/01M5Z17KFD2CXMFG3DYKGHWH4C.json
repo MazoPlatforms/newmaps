@@ -1,0 +1,61 @@
+{
+  "name": "State Homeopathic Clinic Center - Batticaloa",
+  "coordinates": {
+    "latitude": 7.7142978,
+    "longitude": 81.69560659999999
+  },
+  "categories": [
+    "Homeopathic pharmacy"
+  ],
+  "address": "39 Munai St, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--health, batticaloa--health, chenkalady--health, eravur--health, kalkudah--health, kallady--health, kaluwanchikudy--health, kattankudy--health, kiran--health, manmunai--health, mylambaveli--health, oddamavadi--health, pasikudah--health, vakarai--health, valaichchenai--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17KFD2CXMFG3DYKGHWH4C"
+}

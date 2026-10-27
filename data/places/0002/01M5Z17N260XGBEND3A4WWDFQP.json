@@ -1,0 +1,61 @@
+{
+  "name": "Pan Asia Bank ATM",
+  "coordinates": {
+    "latitude": 7.7195253,
+    "longitude": 81.69688909999999
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "PM9W+RQ6, Trincomalee-Batticaloa Road, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--finance, batticaloa--finance, chenkalady--finance, eravur--finance, kallady--finance, kattankudy--finance, kiran--finance, manmunai--finance, mylambaveli--finance, vakarai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17N260XGBEND3A4WWDFQP"
+}

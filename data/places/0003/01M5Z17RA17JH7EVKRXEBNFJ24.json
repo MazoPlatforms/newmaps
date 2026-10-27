@@ -1,0 +1,62 @@
+{
+  "name": "Ifham Pharmacy",
+  "coordinates": {
+    "latitude": 7.773142099999999,
+    "longitude": 81.6094191
+  },
+  "categories": [
+    "Hospital"
+  ],
+  "address": "QJF5+7Q3, Eravur",
+  "phone": "0652241777",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--health, chenkalady--health, eravur--health, kalkudah--health, kaluwanchikudy--health, kiran--health, manmunai--health, mylambaveli--health, oddamavadi--health, pasikudah--health, vakarai--health, valaichchenai--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17RA17JH7EVKRXEBNFJ24"
+}

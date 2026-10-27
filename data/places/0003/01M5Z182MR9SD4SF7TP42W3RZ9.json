@@ -1,0 +1,62 @@
+{
+  "name": "Bello Beach Bar At The Calm Resort & Spa",
+  "coordinates": {
+    "latitude": 7.928839,
+    "longitude": 81.5601739
+  },
+  "categories": [
+    "Bar"
+  ],
+  "address": "The Calm Resort & Spa Coconut Cultivation Board, Road, Kalkudah 30410",
+  "phone": "0652050270",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--food, pasikudah--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z182MR9SD4SF7TP42W3RZ9"
+}

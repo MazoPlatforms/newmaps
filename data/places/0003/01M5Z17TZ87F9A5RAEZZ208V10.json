@@ -1,0 +1,64 @@
+{
+  "name": "Muhaideen Jumma Grand Mosque",
+  "coordinates": {
+    "latitude": 7.7728838,
+    "longitude": 81.60993409999999
+  },
+  "categories": [
+    "Mosque",
+    "Cell phone accessory store",
+    "Repair service"
+  ],
+  "address": "QJF5+5X3, Town, Eravur 30300",
+  "phone": "0777159960",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--religious, manmunai--religious, oddamavadi--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17TZ87F9A5RAEZZ208V10"
+}

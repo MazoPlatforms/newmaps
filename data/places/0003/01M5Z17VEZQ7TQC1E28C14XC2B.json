@@ -1,0 +1,62 @@
+{
+  "name": "Fashion Mart Shopping Centre",
+  "coordinates": {
+    "latitude": 7.909903399999999,
+    "longitude": 81.51988709999999
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "WG59+XX6, Jumma Masjid Road, Oddamavadi",
+  "phone": "0772802905",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkalady--retail, kalkudah--retail, kiran--retail, manmunai--retail, mylambaveli--retail, oddamavadi--retail, vakarai--retail, valaichchenai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17VEZQ7TQC1E28C14XC2B"
+}

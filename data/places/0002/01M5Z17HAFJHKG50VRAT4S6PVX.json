@@ -1,0 +1,18 @@
+{
+  "name": "Zestro Cafe",
+  "coordinates": {
+    "latitude": 7.7115465,
+    "longitude": 81.7107346
+  },
+  "categories": [
+    "Coffee shop"
+  ],
+  "address": "No. 200 New Kalmunai Road, Kallady",
+  "phone": "0761122919",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--food, chenkalady--food, eravur--food, kallady--food, kaluwanchikudy--food, kattankudy--food, manmunai--food, vakarai--food, valaichchenai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17HAFJHKG50VRAT4S6PVX"
+}

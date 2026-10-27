@@ -1,0 +1,62 @@
+{
+  "name": "Tharsha Shopping Center",
+  "coordinates": {
+    "latitude": 7.7386459,
+    "longitude": 81.6806912
+  },
+  "categories": [
+    "Asian grocery store"
+  ],
+  "address": "PMQJ+F74, Batticaloa",
+  "phone": "0774965281",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6–9 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17JQB54KPM3P54JDC6KBZ"
+}

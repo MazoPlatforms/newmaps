@@ -1,0 +1,63 @@
+{
+  "name": "LK Travels & Tours Sri Lanka",
+  "coordinates": {
+    "latitude": 7.9254735,
+    "longitude": 81.5383043
+  },
+  "categories": [
+    "Tour agency"
+  ],
+  "address": "In front of Kalkudah Bus Stand, Main St, Kalkudah 30410",
+  "phone": "0771802444",
+  "website": "https://lktravelandtours.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: pasikudah--transport. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z184P2P959DB40XWDC2DSV"
+}

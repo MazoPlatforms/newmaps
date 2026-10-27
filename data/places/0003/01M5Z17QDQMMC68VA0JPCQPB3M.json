@@ -1,0 +1,63 @@
+{
+  "name": "காத்தான்குடி தபாலகம் Post Office කාත්තන්කුඩි තැපැල් කාර්යාලය",
+  "coordinates": {
+    "latitude": 7.685410699999999,
+    "longitude": 81.7266887
+  },
+  "categories": [
+    "Post office"
+  ],
+  "address": "MPPG+5M8, Kattankudy",
+  "phone": "0652245499",
+  "website": "http://www.slpost.gov.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--government, kallady--government, kattankudy--government, kiran--government, manmunai--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17QDQMMC68VA0JPCQPB3M"
+}

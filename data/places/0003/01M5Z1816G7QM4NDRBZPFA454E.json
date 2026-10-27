@@ -1,0 +1,62 @@
+{
+  "name": "Shinex Auto Care",
+  "coordinates": {
+    "latitude": 7.4572423,
+    "longitude": 81.8119629
+  },
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "address": "FR46+VQW, Periyaneelavanai",
+  "phone": "0773882188",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--vehicle, kaluwanchikudy--vehicle, kiran--vehicle, pasikudah--vehicle, vakarai--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z1816G7QM4NDRBZPFA454E"
+}

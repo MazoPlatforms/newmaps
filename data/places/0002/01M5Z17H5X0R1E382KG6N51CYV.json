@@ -1,0 +1,62 @@
+{
+  "name": "Jeya Bakery & Restaurant",
+  "coordinates": {
+    "latitude": 7.7306403999999995,
+    "longitude": 81.683768
+  },
+  "categories": [
+    "Bakery"
+  ],
+  "address": "PMHM+XH2, Kali Kovil Road, Batticaloa",
+  "phone": "0766893193",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--food, batticaloa--food, chenkalady--food, eravur--food, kallady--food, kaluwanchikudy--food, kiran--food, manmunai--food, mylambaveli--food, oddamavadi--food, vakarai--food, valaichchenai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17H5X0R1E382KG6N51CYV"
+}

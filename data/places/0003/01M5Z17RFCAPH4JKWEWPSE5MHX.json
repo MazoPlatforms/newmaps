@@ -1,0 +1,62 @@
+{
+  "name": "Health Care Pharmacy @Grocery",
+  "coordinates": {
+    "latitude": 7.785564099999999,
+    "longitude": 81.6120699
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "QJP6+6RG, Eravur",
+  "phone": "0774497979",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–10 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17RFCAPH4JKWEWPSE5MHX"
+}

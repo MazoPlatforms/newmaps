@@ -1,0 +1,62 @@
+{
+  "name": "விநாயகர் வெதுப்பகம்",
+  "coordinates": {
+    "latitude": 7.7418163,
+    "longitude": 81.66863479999999
+  },
+  "categories": [
+    "Bakery"
+  ],
+  "address": "PMR9+W4J, Batticaloa",
+  "phone": "0770699541",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–10 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–10 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–10 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–10 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–10 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: mylambaveli--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z185ZK09WZHW2F0FXSZ4E5"
+}

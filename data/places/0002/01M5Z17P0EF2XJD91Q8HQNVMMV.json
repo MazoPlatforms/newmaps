@@ -1,0 +1,63 @@
+{
+  "name": "Jami Us Salam Jumma Masjid",
+  "coordinates": {
+    "latitude": 7.7125901,
+    "longitude": 81.6990687
+  },
+  "categories": [
+    "Mosque"
+  ],
+  "address": "PM7X+2JP, Fort Road, Batticaloa",
+  "phone": "0652229691",
+  "website": "http://www.batticaloamosque.org/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17P0EF2XJD91Q8HQNVMMV"
+}

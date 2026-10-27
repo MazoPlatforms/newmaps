@@ -1,0 +1,17 @@
+{
+  "name": "Asian Restaurant",
+  "coordinates": {
+    "latitude": 7.7165738,
+    "longitude": 81.6987985
+  },
+  "categories": [
+    "Asian restaurant"
+  ],
+  "address": "PM8X+JGF, Trinco Road, Batticaloa",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory, mylambaveli--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17F1SYPWCJZCFJHPSXVVK"
+}

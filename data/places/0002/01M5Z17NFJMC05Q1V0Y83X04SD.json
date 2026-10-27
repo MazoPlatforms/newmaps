@@ -1,0 +1,63 @@
+{
+  "name": "Amana Bank | Self Banking Centre | Eravur Pattu",
+  "coordinates": {
+    "latitude": 7.7767139,
+    "longitude": 81.60427039999999
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "Meerakerny Road, Michnagar, Eravur 30000",
+  "phone": "0117756756",
+  "website": "https://amanabank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--finance, eravur--finance, kallady--finance, mylambaveli--finance, oddamavadi--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17NFJMC05Q1V0Y83X04SD"
+}

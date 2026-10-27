@@ -1,0 +1,61 @@
+{
+  "name": "Lagoon Park",
+  "coordinates": {
+    "latitude": 7.723819,
+    "longitude": 81.68707599999999
+  },
+  "categories": [
+    "Park"
+  ],
+  "address": "Slaughter House Lake Road, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--recreation, batticaloa--recreation, kiran--recreation, mylambaveli--recreation, oddamavadi--recreation, vakarai--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17P7FTAPGD45PWYMP81G0"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Sri Lanka Institute Of Tourism & Hotel Management (SLITHM)",
+  "coordinates": {
+    "latitude": 7.9239837,
+    "longitude": 81.5691811
+  },
+  "categories": [
+    "Educational institution",
+    "Education center"
+  ],
+  "address": "WHF9+HMV, Road, Kalkudah",
+  "website": "http://slithm.edu.lk/network/pasikudah/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--education, pasikudah--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z183M5VFJ5ND2PSZ3DAN16"
+}

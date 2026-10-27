@@ -1,0 +1,62 @@
+{
+  "name": "Police Station Valaichchenai",
+  "coordinates": {
+    "latitude": 7.9080154,
+    "longitude": 81.5330037
+  },
+  "categories": [
+    "Police station"
+  ],
+  "address": "Trincomalee-Batticaloa Road, Oddamavadi",
+  "phone": "0652257709",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kiran--government, oddamavadi--government, valaichchenai--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17WKENP00S4R4A3BX5QM3"
+}

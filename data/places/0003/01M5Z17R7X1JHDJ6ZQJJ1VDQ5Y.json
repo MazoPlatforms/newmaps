@@ -1,0 +1,62 @@
+{
+  "name": "City Medicare Pharmacy",
+  "coordinates": {
+    "latitude": 7.7715464999999995,
+    "longitude": 81.6115799
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "231 Main St, Eravur 30300",
+  "phone": "0772247157",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--health, chenkalady--health, eravur--health, kalkudah--health, kaluwanchikudy--health, kiran--health, manmunai--health, mylambaveli--health, oddamavadi--health, pasikudah--health, vakarai--health, valaichchenai--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17R7X1JHDJ6ZQJJ1VDQ5Y"
+}

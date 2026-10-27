@@ -1,0 +1,61 @@
+{
+  "name": "Green Light Restaurant",
+  "coordinates": {
+    "latitude": 7.788091199999999,
+    "longitude": 81.6060095
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "QJQ4+6CJ, Eravur",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17FE471C03PN58F7SRV4N"
+}

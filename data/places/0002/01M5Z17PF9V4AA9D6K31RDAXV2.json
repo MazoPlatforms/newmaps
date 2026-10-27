@@ -1,0 +1,61 @@
+{
+  "name": "Batti Lagoon Park",
+  "coordinates": {
+    "latitude": 7.7447386,
+    "longitude": 81.6925536
+  },
+  "categories": [
+    "Boat tour agency"
+  ],
+  "address": "PMVV+V2V, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--recreation, chenkalady--recreation, manmunai--recreation, mylambaveli--recreation, oddamavadi--recreation, vakarai--recreation, valaichchenai--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17PF9V4AA9D6K31RDAXV2"
+}

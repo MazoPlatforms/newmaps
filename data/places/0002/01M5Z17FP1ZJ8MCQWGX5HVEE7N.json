@@ -1,0 +1,61 @@
+{
+  "name": "106 Cafe Arabian Fast Food",
+  "coordinates": {
+    "latitude": 7.729899499999999,
+    "longitude": 81.67427839999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "PMHF+XP2, Trincomalee-Batticaloa Road, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--food, district--food-exploratory, eravur--food, manmunai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17FP1ZJ8MCQWGX5HVEE7N"
+}

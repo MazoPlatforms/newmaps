@@ -1,0 +1,66 @@
+{
+  "name": "DFCC Bank - Oddamavadi",
+  "coordinates": {
+    "latitude": 7.914661,
+    "longitude": 81.52243399999999
+  },
+  "categories": [
+    "Private sector bank",
+    "ATM",
+    "Currency exchange service",
+    "Money transfer service"
+  ],
+  "address": "No. 600 Main St, Oddamavadi",
+  "phone": "0652258342",
+  "website": "http://www.dfcc.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--finance, oddamavadi--finance, pasikudah--finance, vakarai--finance, valaichchenai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17W6KDR55E2WZ2G1203H8"
+}

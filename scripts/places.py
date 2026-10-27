@@ -8,6 +8,7 @@ sys.path.insert(0, str(ROOT/'scripts'))
 from place_names import normalize_place_name
 from place_eligibility import classify_place
 PLACES=ROOT/'data'/'places'; GENERATED=ROOT/'generated'; ALIASES=PLACES/'aliases.json'; LIMIT=999
+PLACE_MZP_NAME='batticaloa-district.mzp'; PLACE_MANIFEST=GENERATED/'manifest.json'
 ULID=re.compile(r'^[0-7][0-9A-HJKMNP-TV-Z]{25}$')
 SOURCE_FILES=sorted(p for p in ROOT.glob('*.json') if p.name not in {'manifest.json','migration-record-map.json','migration-exclusions.json'})
 
@@ -101,11 +102,11 @@ def build():
     withheld=sum(not classify_place(p)['eligible_for_public_map'] for p in records)
     features=[feature(p) for p in sorted(records,key=lambda p:p['id']) if isinstance(p.get('coordinates'),dict)]
     data=json.dumps({'type':'FeatureCollection','features':features},ensure_ascii=False,separators=(',',':')).encode()
-    out=GENERATED/'kattankudy.mzp';out.write_bytes(data)
+    out=GENERATED/PLACE_MZP_NAME;out.write_bytes(data)
     digest=hashlib.sha256(data).hexdigest()
     aliases=load_aliases()
     resolved_aliases={retired:resolve_place_id(retired,aliases) for retired in aliases}
-    report={'format':'MZP/1','geojson':'kattankudy.mzp','features':len(features),'excluded_without_coordinates':excluded,'withheld_pending_public_eligibility_review':withheld,'bytes':len(data),'sha256':digest,'shards':counts,'aliases':resolved_aliases}
+    report={'format':'MZP/1','geojson':PLACE_MZP_NAME,'features':len(features),'excluded_without_coordinates':excluded,'withheld_pending_public_eligibility_review':withheld,'bytes':len(data),'sha256':digest,'shards':counts,'aliases':resolved_aliases}
     (GENERATED/'manifest.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({key:value for key,value in report.items() if key!='aliases'} |
                      {'alias_count':len(aliases),'suspicious_duplicate_pairs':len(suspicious)},indent=2))

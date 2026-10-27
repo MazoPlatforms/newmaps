@@ -1,0 +1,64 @@
+{
+  "name": "Chill HutZ",
+  "coordinates": {
+    "latitude": 7.7652695,
+    "longitude": 81.63593759999999
+  },
+  "categories": [
+    "Restaurant",
+    "Indoor playground",
+    "Swim club"
+  ],
+  "address": "Kamakchi amman kovil, Near Railway track, road, Mylambaveli 30024",
+  "phone": "0772020394",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17EK02QHSR25G3JXNKDDR"
+}

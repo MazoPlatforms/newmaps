@@ -1,0 +1,62 @@
+{
+  "name": "Bus Stand - Batticaloa | බස් නැවතුම්පොළ - මඩකලපුව | பேருந்து நிலையம் - மட்டக்களப்பு",
+  "coordinates": {
+    "latitude": 7.714626699999999,
+    "longitude": 81.69466729999999
+  },
+  "categories": [
+    "Transportation service"
+  ],
+  "address": "PM7V+VV3, Batticaloa",
+  "phone": "0652225723",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--transport, batticaloa--transport, chenkalady--transport, kallady--transport, kaluwanchikudy--transport, kattankudy--transport, kiran--transport, mylambaveli--transport, vakarai--transport. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17NM3NRD2N69BN7V7CYAZ"
+}

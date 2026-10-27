@@ -1,0 +1,63 @@
+{
+  "name": "Achievers English Academy",
+  "coordinates": {
+    "latitude": 7.775454,
+    "longitude": 81.611234
+  },
+  "categories": [
+    "English language school"
+  ],
+  "address": "1C Palliyadi Road, Eravur 30300",
+  "phone": "0779067799",
+  "website": "http://fb.me/achieversevr",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--education, mylambaveli--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17RXKM3W8S2XW7KNMBQRA"
+}

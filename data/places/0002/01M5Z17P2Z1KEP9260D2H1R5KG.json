@@ -1,0 +1,63 @@
+{
+  "name": "Zion Church - Manressa",
+  "coordinates": {
+    "latitude": 7.727021499999999,
+    "longitude": 81.67122359999999
+  },
+  "categories": [
+    "Church"
+  ],
+  "address": "No. 30/5, Manresa St, Batticaloa",
+  "phone": "0777233314",
+  "website": "https://zionchurch.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--religious, kiran--religious, mylambaveli--religious, oddamavadi--religious, valaichchenai--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17P2Z1KEP9260D2H1R5KG"
+}

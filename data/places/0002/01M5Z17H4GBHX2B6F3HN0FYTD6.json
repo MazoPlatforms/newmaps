@@ -1,0 +1,65 @@
+{
+  "name": "Mandalas Cafe",
+  "coordinates": {
+    "latitude": 7.71688,
+    "longitude": 81.6981316
+  },
+  "categories": [
+    "Cafe",
+    "Cake shop",
+    "Coffee shop",
+    "Juice shop"
+  ],
+  "address": "15 Thomas Ln, Batticaloa",
+  "phone": "0777373713",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--food, batticaloa--food, chenkalady--food, eravur--food, kalkudah--food, kallady--food, kaluwanchikudy--food, kattankudy--food, kiran--food, manmunai--food, mylambaveli--food, oddamavadi--food, pasikudah--food, vakarai--food, valaichchenai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17H4GBHX2B6F3HN0FYTD6"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Animal Clinic",
+  "coordinates": {
+    "latitude": 7.7218960999999995,
+    "longitude": 81.7007098
+  },
+  "categories": [
+    "Veterinary pharmacy"
+  ],
+  "address": "PPC2+P97, Batticaloa",
+  "phone": "0773601322",
+  "website": "http://petslifesl.company.site/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–12:30 PM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–12:30 PM",
+        "4:30–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--health, eravur--health, manmunai--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17KKSMEZJPMKA52ZAZ5P7"
+}

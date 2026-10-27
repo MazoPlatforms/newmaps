@@ -1,0 +1,62 @@
+{
+  "name": "Kathiraveli Beach",
+  "coordinates": {
+    "latitude": 8.224925299999999,
+    "longitude": 81.4120923
+  },
+  "categories": [
+    "Tourist attraction"
+  ],
+  "address": "6CF6+XR, Kathiraveli",
+  "website": "https://beach-advisor.com/category/best-hidden-beaches-in-southeast-asia/best-beaches-in-sri-lanka/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kiran--recreation, vakarai--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z182JE65K34F2J0ZCB1KRS"
+}

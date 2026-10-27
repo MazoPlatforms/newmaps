@@ -1,0 +1,63 @@
+{
+  "name": "UKAY Surprise Batticaloa",
+  "coordinates": {
+    "latitude": 7.7120057,
+    "longitude": 81.71052809999999
+  },
+  "categories": [
+    "Gift shop"
+  ],
+  "address": "clock tower, New Kalmunai road, kallady batticaloa ( Near to kallady, Batticaloa 30000",
+  "phone": "0777910009",
+  "website": "http://www.ukaysurprise.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--food, araiyampathy--retail, batticaloa--retail, chenkalady--food, chenkalady--retail, eravur--food, kallady--retail, mylambaveli--food, mylambaveli--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17K7S6X1NV9QJT6FF8JDM"
+}

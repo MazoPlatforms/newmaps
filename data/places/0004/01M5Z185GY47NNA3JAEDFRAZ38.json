@@ -1,0 +1,17 @@
+{
+  "name": "National Saving Bank ATM",
+  "coordinates": {
+    "latitude": 7.4728195,
+    "longitude": 81.8080415
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "01, Main St, Kalmunai",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kiran--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z185GY47NNA3JAEDFRAZ38"
+}

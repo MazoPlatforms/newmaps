@@ -1,0 +1,62 @@
+{
+  "name": "Cafe Crush",
+  "coordinates": {
+    "latitude": 7.7293297,
+    "longitude": 81.67902459999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 568 Trincomalee-Batticaloa Road, Batticaloa",
+  "phone": "0777333049",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--food, batticaloa--food, chenkalady--food, district--food-exploratory, eravur--food, kalkudah--food, kallady--food, kaluwanchikudy--food, kattankudy--food, kiran--food, manmunai--food, mylambaveli--food, oddamavadi--food, pasikudah--food, vakarai--food, valaichchenai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17EBS00B6SYKQZK5Q2C8T"
+}

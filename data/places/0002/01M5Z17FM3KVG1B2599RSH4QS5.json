@@ -1,0 +1,63 @@
+{
+  "name": "குளத்தூர் சுவை அருவி | Kulathoor Suvai Aruvi",
+  "coordinates": {
+    "latitude": 7.6180696999999995,
+    "longitude": 81.7610341
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "JQ96+6CF",
+  "phone": "0652059672",
+  "website": "https://www.facebook.com/KulaththurSuvaiyaruvi/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17FM3KVG1B2599RSH4QS5"
+}

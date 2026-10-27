@@ -1,0 +1,62 @@
+{
+  "name": "Sinopec C.K Gonzaga Filling Station",
+  "coordinates": {
+    "latitude": 7.7297401,
+    "longitude": 81.6734724
+  },
+  "categories": [
+    "Gas station"
+  ],
+  "address": "569a Trincomalee-Batticaloa Road, Batticaloa",
+  "phone": "0652222218",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--vehicle, kaluwanchikudy--vehicle, kattankudy--vehicle, kiran--vehicle, valaichchenai--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17NQWKA6WSG384F1889WS"
+}

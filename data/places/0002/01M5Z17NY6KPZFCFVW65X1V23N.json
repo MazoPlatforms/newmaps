@@ -1,0 +1,62 @@
+{
+  "name": "Maaran Garage",
+  "coordinates": {
+    "latitude": 7.7320524,
+    "longitude": 81.6698061
+  },
+  "categories": [
+    "Mechanic"
+  ],
+  "address": "PMJ9+RWF, Batticaloa",
+  "phone": "0713394255",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--vehicle, batticaloa--vehicle, chenkalady--vehicle, eravur--vehicle, kallady--vehicle, kiran--vehicle, manmunai--vehicle, mylambaveli--vehicle, vakarai--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17NY6KPZFCFVW65X1V23N"
+}

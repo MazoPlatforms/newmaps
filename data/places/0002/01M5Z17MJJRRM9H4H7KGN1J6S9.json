@@ -1,0 +1,62 @@
+{
+  "name": "Vivekananda Ladies College",
+  "coordinates": {
+    "latitude": 7.7062501999999995,
+    "longitude": 81.7133686
+  },
+  "categories": [
+    "Girls' high school"
+  ],
+  "address": "PP47+G85, Kallady",
+  "phone": "0652222481",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--education, batticaloa--education, eravur--education, kalkudah--education, kallady--education, kaluwanchikudy--education, kattankudy--education, kiran--education, manmunai--education, mylambaveli--education, pasikudah--education, vakarai--education, valaichchenai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17MJJRRM9H4H7KGN1J6S9"
+}

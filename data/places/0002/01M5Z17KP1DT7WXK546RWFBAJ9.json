@@ -1,0 +1,63 @@
+{
+  "name": "E-Dent Dental Hospital & Implant Centre",
+  "coordinates": {
+    "latitude": 7.719249499999999,
+    "longitude": 81.697198
+  },
+  "categories": [
+    "Dental clinic"
+  ],
+  "address": "271 Trinco Road, Batticaloa 30000",
+  "phone": "0774747790",
+  "website": "http://www.edent.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--health, batticaloa--health, eravur--health, kalkudah--health, kiran--health, mylambaveli--health, pasikudah--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17KP1DT7WXK546RWFBAJ9"
+}

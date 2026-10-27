@@ -1,0 +1,64 @@
+{
+  "name": "Cikolata",
+  "coordinates": {
+    "latitude": 7.725948499999999,
+    "longitude": 81.6891646
+  },
+  "categories": [
+    "Dessert restaurant",
+    "Coffee shop"
+  ],
+  "address": "442 Trincomalee-Batticaloa Road, Batticaloa 30000",
+  "phone": "0652226691",
+  "website": "https://cikolata.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--food, district--food-exploratory, mylambaveli--food, valaichchenai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17EH1P67Z7KT0J9P87GG1"
+}

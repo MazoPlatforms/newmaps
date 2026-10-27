@@ -1,0 +1,62 @@
+{
+  "name": "Ramakrishna Mission Pre-School",
+  "coordinates": {
+    "latitude": 7.7049636999999995,
+    "longitude": 81.7150698
+  },
+  "categories": [
+    "Preschool"
+  ],
+  "address": "PP38+X2P, Kallady",
+  "website": "https://www.rkmceylon.org/about/batticaloa/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--education, eravur--education, kallady--education, kiran--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17S8GERCQ31VRT9KZFXJK"
+}

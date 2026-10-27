@@ -1,0 +1,61 @@
+{
+  "name": "Royal Super Market",
+  "coordinates": {
+    "latitude": 7.775021199999999,
+    "longitude": 81.6061831
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "QJG4+2F3, Trincomalee-Batticaloa Road, Eravur",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--retail, chenkalady--retail, eravur--retail, kallady--retail, kaluwanchikudy--retail, kiran--retail, manmunai--retail, vakarai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17QNX21R595RQTVE9KFA1"
+}

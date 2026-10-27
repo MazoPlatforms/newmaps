@@ -1,0 +1,62 @@
+{
+  "name": "Kumaran Grocery Store",
+  "coordinates": {
+    "latitude": 7.731231299999999,
+    "longitude": 81.6960412
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "PMJW+FCV, Main Road, Batticaloa",
+  "phone": "0652227069",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--retail, batticaloa--retail, chenkalady--retail, eravur--retail, kalkudah--retail, kallady--retail, kaluwanchikudy--retail, kattankudy--retail, kiran--retail, manmunai--retail, mylambaveli--retail, oddamavadi--retail, pasikudah--retail, vakarai--retail, valaichchenai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17HHVTDFVX94S50FRGYJY"
+}

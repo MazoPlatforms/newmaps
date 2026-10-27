@@ -1,0 +1,63 @@
+{
+  "name": "Bank Of Ceylon Kallady Branch",
+  "coordinates": {
+    "latitude": 7.7139435999999995,
+    "longitude": 81.7101144
+  },
+  "categories": [
+    "Public sector bank"
+  ],
+  "address": "PP76+H2H, Colombo - Batticaloa Hwy, Kallady",
+  "phone": "0652227972",
+  "website": "http://www.boc.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kallady--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z18741WP3YK78XPP281ZYY"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "St. Mary’s Presentation Of Jesus Church - Batticaloa",
+  "coordinates": {
+    "latitude": 7.7201828,
+    "longitude": 81.69536049999999
+  },
+  "categories": [
+    "Catholic church",
+    "Place of worship"
+  ],
+  "address": "243 Trincomalee-Batticaloa Road, Batticaloa 30000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--religious, batticaloa--religious, chenkalady--religious, eravur--religious, kalkudah--religious, kallady--religious, kiran--religious, manmunai--religious, mylambaveli--religious, oddamavadi--religious, vakarai--religious, valaichchenai--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17P18XSD6MGEGRHW1MZK0"
+}

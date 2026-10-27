@@ -1,0 +1,62 @@
+{
+  "name": "New Batticaloa Medicals",
+  "coordinates": {
+    "latitude": 7.720156599999999,
+    "longitude": 81.7013037
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "PPC2+3G7, Bar Road, Batticaloa",
+  "phone": "0652224400",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–8:45 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--health, batticaloa--health, chenkalady--health, eravur--health, kalkudah--health, kallady--health, kaluwanchikudy--health, kattankudy--health, kiran--health, manmunai--health, mylambaveli--health, oddamavadi--health, pasikudah--health, vakarai--health, valaichchenai--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17KDZ722ZP15Z27Z2P26W"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Amana Bank | Self-Banking Centre | Batticaloa",
+  "coordinates": {
+    "latitude": 7.7131082,
+    "longitude": 81.69854629999999
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "111 Main Street, Batticaloa 30000",
+  "phone": "0117756756",
+  "website": "https://www.amanabank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--finance, batticaloa--finance, kalkudah--finance, kallady--finance, kattankudy--finance, manmunai--finance, mylambaveli--finance, vakarai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17MKB55XTP5TM2PC9N00C"
+}

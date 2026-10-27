@@ -1,0 +1,17 @@
+{
+  "name": "Vive Stores",
+  "coordinates": {
+    "latitude": 7.7222273999999995,
+    "longitude": 81.6935881
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "Batticaloa",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: manmunai--retail, mylambaveli--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z1866ZWTVKR5H1ZHGY2EDM"
+}

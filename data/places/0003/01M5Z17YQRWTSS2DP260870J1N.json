@@ -1,0 +1,66 @@
+{
+  "name": "Taste Of Ceylon Coral Grocer 🛒🍃",
+  "coordinates": {
+    "latitude": 7.9213398999999995,
+    "longitude": 81.5688978
+  },
+  "categories": [
+    "Supermarket",
+    "Scooter rental service",
+    "Souvenir store",
+    "Spice store",
+    "Tea store"
+  ],
+  "address": "Pasikuda Road, Kalkudah 30400",
+  "phone": "0763011511",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkalady--retail, kalkudah--retail, pasikudah--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17YQRWTSS2DP260870J1N"
+}

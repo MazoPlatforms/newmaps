@@ -1,0 +1,63 @@
+{
+  "name": "BT/PD/Paddiruppu Madya Maha Vidyalayam Kaluwanchikudy",
+  "coordinates": {
+    "latitude": 7.5172338,
+    "longitude": 81.7861348
+  },
+  "categories": [
+    "Government school",
+    "Primary school"
+  ],
+  "address": "Paddiruppu M.M.V National School, Base Hospital Road Kaluwanchikudi - Vellaveli Road, Kaluwanchikudy 038975",
+  "phone": "0652250111",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--education, kiran--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z1808QT5F6PB99MKXB11AV"
+}

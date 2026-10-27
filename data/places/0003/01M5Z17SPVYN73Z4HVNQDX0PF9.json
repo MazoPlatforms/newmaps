@@ -1,0 +1,63 @@
+{
+  "name": "Amana Bank ATM",
+  "coordinates": {
+    "latitude": 7.7787698999999995,
+    "longitude": 81.6046655
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "QJH3+GV3, Punnakuda Road, Eravur",
+  "phone": "0657756019",
+  "website": "http://www.amanabank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--finance, mylambaveli--finance, oddamavadi--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17SPVYN73Z4HVNQDX0PF9"
+}

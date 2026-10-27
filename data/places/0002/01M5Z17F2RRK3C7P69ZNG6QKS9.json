@@ -1,0 +1,63 @@
+{
+  "name": "Ana Royal Cafe & Rastaurant",
+  "coordinates": {
+    "latitude": 7.779106499999999,
+    "longitude": 81.59921179999999
+  },
+  "categories": [
+    "Fast food restaurant"
+  ],
+  "address": "QHHX+JMW, Eravur",
+  "phone": "0768989829",
+  "website": "https://www.facebook.com/profile.php?id=61563906898593&mibextid=LQQJ4d",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17F2RRK3C7P69ZNG6QKS9"
+}

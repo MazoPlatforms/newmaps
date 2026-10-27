@@ -1,0 +1,61 @@
+{
+  "name": "மட்டக்களப்பு புதூர் பெட்ரோல் ஷெட்",
+  "coordinates": {
+    "latitude": 7.6974591,
+    "longitude": 81.67698469999999
+  },
+  "categories": [
+    "Gas station"
+  ],
+  "address": "MMWG+XQQ, Veechukalmunai",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkalady--vehicle, eravur--vehicle, kallady--vehicle, kaluwanchikudy--vehicle, manmunai--vehicle, mylambaveli--vehicle, vakarai--vehicle, valaichchenai--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17TX4MR293VVYANJPD6AS"
+}

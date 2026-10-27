@@ -1,0 +1,62 @@
+{
+  "name": "Eravur Lagoon Park",
+  "coordinates": {
+    "latitude": 7.7694529999999995,
+    "longitude": 81.60590479999999
+  },
+  "categories": [
+    "Park"
+  ],
+  "address": "Munaiyavalavu Road, Eravur",
+  "phone": "0775992110",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--recreation, batticaloa--recreation, chenkalady--recreation, chenkalady--religious, eravur--recreation, eravur--religious, kalkudah--recreation, kaluwanchikudy--recreation, kattankudy--recreation, kiran--recreation, kiran--religious, manmunai--recreation, mylambaveli--recreation, mylambaveli--religious, oddamavadi--recreation, oddamavadi--religious, pasikudah--recreation, vakarai--recreation, vakarai--religious, valaichchenai--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17P942QG09A03PV4CQSKF"
+}

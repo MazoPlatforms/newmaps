@@ -1,0 +1,62 @@
+{
+  "name": "Coconut Cultural Park",
+  "coordinates": {
+    "latitude": 7.9260372,
+    "longitude": 81.56105029999999
+  },
+  "categories": [
+    "Tourist attraction"
+  ],
+  "address": "Kalkudah",
+  "phone": "0766905200",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--recreation, chenkalady--recreation, kalkudah--recreation, kiran--recreation, manmunai--recreation, mylambaveli--recreation, oddamavadi--recreation, pasikudah--recreation, vakarai--recreation, valaichchenai--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17WX5QEPEDZYY1JKR2APZ"
+}

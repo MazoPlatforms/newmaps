@@ -1,0 +1,62 @@
+{
+  "name": "SriLanka Institute Of Advanced Technological Education, Batticaloa.",
+  "coordinates": {
+    "latitude": 7.6576623999999995,
+    "longitude": 81.7410724
+  },
+  "categories": [
+    "University"
+  ],
+  "address": "MP5R+3C8",
+  "phone": "0652247519",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--education, batticaloa--education, chenkalady--education, eravur--education, kalkudah--education, kallady--education, kaluwanchikudy--education, kattankudy--education, kiran--education, manmunai--education, mylambaveli--education, pasikudah--education, vakarai--education, valaichchenai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17M2WV3828XTVQQP42RZ4"
+}

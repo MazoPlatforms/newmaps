@@ -1,0 +1,62 @@
+{
+  "name": "மக்கள் வங்கி ஸ்மார்ட் வலயம் People's Bank Smart Zone",
+  "coordinates": {
+    "latitude": 7.717562,
+    "longitude": 81.6991853
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "PM9X+2MF, Batticaloa",
+  "phone": "0652222645",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--finance, batticaloa--finance, chenkalady--finance, eravur--finance, kalkudah--finance, kallady--finance, kaluwanchikudy--finance, kattankudy--finance, kiran--finance, manmunai--finance, mylambaveli--finance, oddamavadi--finance, pasikudah--finance, vakarai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17MM0KTWG9MVVKZWDJS99"
+}

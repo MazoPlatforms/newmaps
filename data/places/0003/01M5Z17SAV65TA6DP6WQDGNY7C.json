@@ -1,0 +1,62 @@
+{
+  "name": "Al-Ameen Maha Vidiyalaya,Kattankudy.",
+  "coordinates": {
+    "latitude": 7.6825353,
+    "longitude": 81.7344718
+  },
+  "categories": [
+    "General education school"
+  ],
+  "address": "Al-Ameen Vidyalaya, 45 Al Ameen Road, Kattankudy",
+  "phone": "0652248527",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--education, eravur--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17SAV65TA6DP6WQDGNY7C"
+}

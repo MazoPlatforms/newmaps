@@ -1,0 +1,62 @@
+{
+  "name": "Nations Trust Bank (NTB) - Batticola Branch | நேஷன்ஸ் டிரஸ்ட் வங்கி - மட்டக்களப்பு கிளை",
+  "coordinates": {
+    "latitude": 7.719392699999999,
+    "longitude": 81.6999414
+  },
+  "categories": [
+    "Private sector bank"
+  ],
+  "address": "29 Bar Road, Batticaloa",
+  "phone": "0657857100",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--finance, kallady--finance, kiran--finance, manmunai--finance, mylambaveli--finance, vakarai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17NANZ7Y1WEK18QVCT1DV"
+}

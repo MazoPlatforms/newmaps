@@ -116,7 +116,7 @@ class PublicPlaceEligibilityTests(unittest.TestCase):
                     yield from strings(item)
         report_strings = set(strings(report))
         self.assertTrue(withheld_ids.isdisjoint(report_strings))
-        collection = json.loads((ROOT / "generated/kattankudy.mzp").read_text(encoding="utf-8"))
+        collection = json.loads((ROOT / "generated/batticaloa-district.mzp").read_text(encoding="utf-8"))
         self.assertTrue(all("Location withheld" not in feature["properties"].get("name", "")
                             for feature in collection["features"]))
         self.assertTrue(all(record_id not in manifest["excluded_without_coordinates"] for record_id in withheld_ids))

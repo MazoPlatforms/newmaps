@@ -1,0 +1,64 @@
+{
+  "name": "Amana Bank | Oddamavadi Branch",
+  "coordinates": {
+    "latitude": 7.91416,
+    "longitude": 81.52277819999999
+  },
+  "categories": [
+    "Private sector bank",
+    "ATM"
+  ],
+  "address": "Oddamavadi",
+  "phone": "0657756009",
+  "website": "http://www.amanabank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: oddamavadi--finance, valaichchenai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17WB5A665ZGG0Q4XDS7B8"
+}

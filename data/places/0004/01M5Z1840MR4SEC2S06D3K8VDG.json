@@ -1,0 +1,63 @@
+{
+  "name": "Seagrass Restaurant At The Calm Resort And Spa",
+  "coordinates": {
+    "latitude": 7.928969299999999,
+    "longitude": 81.5600599
+  },
+  "categories": [
+    "Buffet restaurant"
+  ],
+  "address": "Coconut Cultivation Board, Road, Kalkudah",
+  "phone": "0719745583",
+  "website": "http://www.brownshotels.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: pasikudah--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z1840MR4SEC2S06D3K8VDG"
+}

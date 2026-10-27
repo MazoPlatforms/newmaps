@@ -1,6 +1,6 @@
 # Mazo Maps
 
-A static MapLibre GL JS map for Kattankudy. Place records live in `data/places/<shard>/<ULID>.json`; non-place geography remains under `data/`.
+A static MapLibre GL JS map with district-wide place coverage for Batticaloa District. Place records live in `data/places/<shard>/<ULID>.json`; non-place geography remains under `data/`.
 
 Community contributions use GitHub forks and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for place schema, safe JSON templates, Codespaces allocator commands, validation, and maintainer review guidance.
 
@@ -14,7 +14,7 @@ Retired place ULIDs resolve through `data/places/aliases.json`; the generated pl
 
 ## MZP format
 
-`.mzp` is compact, ordinary GeoJSON `FeatureCollection` JSON. Feature IDs are ULIDs, coordinates follow GeoJSON `[longitude, latitude]`, and place fields are properties. Records without coordinates stay in the individual JSON archive and mapping but are listed in the manifest and omitted from map features. Invalid non-null coordinates fail validation. Build locally with `python scripts/places.py build`; output is `generated/kattankudy.mzp` and `generated/manifest.json`. The manifest provides feature count, byte length, shard counts, and SHA-256 for cache invalidation.
+`.mzp` is compact, ordinary GeoJSON `FeatureCollection` JSON. Feature IDs are ULIDs, coordinates follow GeoJSON `[longitude, latitude]`, and place fields are properties. Records without coordinates stay in the individual JSON archive and mapping but are listed in the manifest and omitted from map features. Invalid non-null coordinates fail validation. Build locally with `python scripts/places.py build`; output is `generated/batticaloa-district.mzp` and `generated/manifest.json`. The manifest provides feature count, byte length, shard counts, and SHA-256 for cache invalidation.
 
 ## Road records
 

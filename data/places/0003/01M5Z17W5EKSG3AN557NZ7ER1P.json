@@ -1,0 +1,62 @@
+{
+  "name": "ஓட்டமாவடி மத்திய கல்லூரி",
+  "coordinates": {
+    "latitude": 7.9132131999999995,
+    "longitude": 81.5248069
+  },
+  "categories": [
+    "Government school"
+  ],
+  "address": "WG7F+7WM, Oddamavadi",
+  "phone": "0652257243",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–2:05 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–2:05 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–2:05 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–2:05 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–2:05 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--education, kiran--education, oddamavadi--education, vakarai--education, valaichchenai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17W5EKSG3AN557NZ7ER1P"
+}

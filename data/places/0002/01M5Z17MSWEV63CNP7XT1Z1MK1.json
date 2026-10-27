@@ -1,0 +1,62 @@
+{
+  "name": "Bank Of Ceylon ATM,Batticaloa International Airport",
+  "coordinates": {
+    "latitude": 7.706514599999999,
+    "longitude": 81.6846736
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "PM4M+JV3, Unnamed Road, Batticaloa",
+  "phone": "0652227410",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--finance, batticaloa--finance, chenkalady--finance, kalkudah--finance, kallady--finance, kaluwanchikudy--finance, kattankudy--finance, kiran--finance, manmunai--finance, mylambaveli--finance, oddamavadi--finance, vakarai--finance, valaichchenai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17MSWEV63CNP7XT1Z1MK1"
+}

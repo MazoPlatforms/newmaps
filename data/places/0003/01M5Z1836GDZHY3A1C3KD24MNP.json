@@ -1,0 +1,19 @@
+{
+  "name": "Victoria Guest House",
+  "coordinates": {
+    "latitude": 7.921058299999999,
+    "longitude": 81.5543732
+  },
+  "categories": [
+    "Guest house",
+    "Hotel"
+  ],
+  "address": "Kalkudah-Valaichchenai Road, Kalkudah 30410",
+  "phone": "0779577646",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--accommodation, mylambaveli--accommodation, pasikudah--accommodation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z1836GDZHY3A1C3KD24MNP"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "BT/Kurumanvely Sivasakthi Maha Vidyalayam",
+  "coordinates": {
+    "latitude": 7.491712,
+    "longitude": 81.7783619
+  },
+  "categories": [
+    "General education school"
+  ],
+  "address": "FQRH+M8Q, Kurumanvelly Ferry Road, களுவாஞ்சிக்குடி",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:15 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:15 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:15 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:15 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:15 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kiran--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z185CYJACYWFS7K8JAYAWX"
+}

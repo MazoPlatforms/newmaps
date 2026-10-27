@@ -1,0 +1,62 @@
+{
+  "name": "Arayamapthy Post Office",
+  "coordinates": {
+    "latitude": 7.6719377,
+    "longitude": 81.7343862
+  },
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0652245628",
+  "website": "http://www.slpost.gov.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--government, mylambaveli--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z181XW36VYSKR146C6TCPH"
+}

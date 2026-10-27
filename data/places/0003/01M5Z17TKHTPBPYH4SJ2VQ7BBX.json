@@ -1,0 +1,17 @@
+{
+  "name": "Fuel Filling Station - Eravur MPCS",
+  "coordinates": {
+    "latitude": 7.772185299999999,
+    "longitude": 81.61098729999999
+  },
+  "categories": [
+    "Gas station"
+  ],
+  "address": "Town, Eravur",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--vehicle, manmunai--vehicle, mylambaveli--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17TKHTPBPYH4SJ2VQ7BBX"
+}

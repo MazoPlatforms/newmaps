@@ -1,0 +1,20 @@
+{
+  "name": "Aki Villa",
+  "coordinates": {
+    "latitude": 7.90947,
+    "longitude": 81.560075
+  },
+  "categories": [
+    "Restaurant",
+    "Hotel"
+  ],
+  "address": "Kumpurumulai Road (B184 - 4km post), Kalkhdah, Batticaloa District 30410",
+  "phone": "0652050323",
+  "website": "http://www.akivilla.com/",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory, pasikudah--accommodation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17GS5AC7ESA24DT433DFP"
+}
