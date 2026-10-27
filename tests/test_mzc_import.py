@@ -296,6 +296,34 @@ class MzcImportTests(unittest.TestCase):
                 "public services in Vakarai, Batticaloa District, Sri Lanka",
             ])
 
+    def test_mzc_capture_resume_counts_final_manifest_state_once(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            output = root / "captures"
+            output.mkdir()
+            query = "public services in Vakarai, Batticaloa District, Sri Lanka"
+            plan_path = root / "plan.json"
+            plan_path.write_text(json.dumps([{
+                "query": query, "town": "Vakarai", "category": "public-services",
+                "limit": 500, "country": "lk", "timeout": 30,
+            }]), encoding="utf-8")
+            (output / "query-manifest.json").write_text(json.dumps([{
+                "key": "vakarai--public-services--previous", "query": query,
+                "town": "Vakarai", "category": "public-services", "limit": 500,
+                "country": "lk", "status": "failed", "attempts": [{"attempt": 1, "error": "network"}],
+            }]), encoding="utf-8")
+            (output / "vakarai--public-services--previous.json").write_text(
+                json.dumps({"results": []}), encoding="utf-8")
+            response = subprocess.CompletedProcess(
+                args=["mzc"], returncode=0, stdout='{"results":[{}]}', stderr=""
+            )
+            with patch.object(mzc_capture.subprocess, "run", return_value=response):
+                result = mzc_capture.capture(plan_path, output)
+            self.assertEqual(result, {
+                "planned_queries": 1, "successful_queries": 1,
+                "failed_queries": 0, "retained_raw_rows": 1,
+            })
+
 
 if __name__ == "__main__":
     unittest.main()

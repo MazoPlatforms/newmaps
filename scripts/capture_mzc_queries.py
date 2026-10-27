@@ -114,6 +114,13 @@ def capture(plan_path: Path, output_dir: Path) -> dict[str, int]:
         if (succeeded + failed) % 10 == 0:
             print(f"completed {succeeded + failed}/{len(plan)} planned prompts; successful={succeeded}; raw rows={raw_rows}; failed={failed}", flush=True)
 
+    # A resumed run can change an entry from failed to successful (or leave it
+    # failed). Derive final totals from the manifest instead of incrementing
+    # prior-state counters a second time.
+    final_entries = list(entries.values())
+    succeeded = sum(row.get("status") == "success" for row in final_entries)
+    failed = sum(row.get("status") == "failed" for row in final_entries)
+    raw_rows = sum(int(row.get("count", 0)) for row in final_entries if row.get("status") == "success")
     return {"planned_queries": len(plan), "successful_queries": succeeded,
             "failed_queries": failed, "retained_raw_rows": raw_rows}
 
