@@ -1,0 +1,62 @@
+{
+  "name": "மக்கள் வங்கி Peoples' Bank",
+  "coordinates": {
+    "latitude": 7.8216130999999995,
+    "longitude": 81.55438149999999
+  },
+  "categories": [
+    "Public sector bank"
+  ],
+  "address": "Trincomalee-Batticaloa Road",
+  "phone": "0652050444",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkalady--finance, kalkudah--finance, oddamavadi--finance, pasikudah--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17WEPV6VP2PPD8AJE6Q2W"
+}

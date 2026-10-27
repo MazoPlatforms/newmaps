@@ -1,0 +1,63 @@
+{
+  "name": "HNB Eravur (Hatton National Bank)",
+  "coordinates": {
+    "latitude": 7.7800109,
+    "longitude": 81.59758649999999
+  },
+  "categories": [
+    "Private sector bank"
+  ],
+  "address": "No. 351, Trico Road, Eravur, Chenkaladi",
+  "phone": "0652241357",
+  "website": "http://www.hnb.net/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17SVY8PEH5D0H9DZQ893Q"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "தபால் அலுவகம் - செங்கலடி | Post Office - Chenkalady",
+  "coordinates": {
+    "latitude": 7.7838693999999995,
+    "longitude": 81.59352779999999
+  },
+  "categories": [
+    "Post office"
+  ],
+  "address": "QHMV+GCR, Trincomalee-Batticaloa Road, Chenkaladi",
+  "phone": "0652240509",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkalady--government, eravur--government, kiran--government, mylambaveli--government, valaichchenai--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17TAM8RE5839N34HWZC3Q"
+}

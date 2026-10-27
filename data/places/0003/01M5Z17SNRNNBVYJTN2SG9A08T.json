@@ -1,0 +1,62 @@
+{
+  "name": "People's Bank ATM",
+  "coordinates": {
+    "latitude": 7.7839795,
+    "longitude": 81.5927561
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "QHMV+H4R, Trincomalee-Batticaloa Road, Chenkaladi",
+  "phone": "0652240517",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--finance, kallady--finance, mylambaveli--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17SNRNNBVYJTN2SG9A08T"
+}

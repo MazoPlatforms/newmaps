@@ -1,0 +1,62 @@
+{
+  "name": "Aqua Crown",
+  "coordinates": {
+    "latitude": 7.7810291,
+    "longitude": 81.5962358
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Trincomalee-Batticaloa Road, Eravur 30000",
+  "phone": "0774761767",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17EHCZJYXP4CHK541G1DW"
+}

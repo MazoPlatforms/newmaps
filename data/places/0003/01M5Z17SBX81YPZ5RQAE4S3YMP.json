@@ -1,0 +1,62 @@
+{
+  "name": "Department Of English Language Teaching (DELT), Faculty Of Arts And Culture, Eastern University, Srilanka",
+  "coordinates": {
+    "latitude": 7.7987807,
+    "longitude": 81.5816409
+  },
+  "categories": [
+    "University"
+  ],
+  "address": "QHXJ+GM6, University, Vanthaarumoolai, Chenkaladi",
+  "phone": "0652240587",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--education, kalkudah--education, pasikudah--education, valaichchenai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17SBX81YPZ5RQAE4S3YMP"
+}
