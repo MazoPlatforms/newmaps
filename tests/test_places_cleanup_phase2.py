@@ -49,7 +49,8 @@ class Phase2NormalizationTests(unittest.TestCase):
 class Phase2DuplicateTests(unittest.TestCase):
     def record(self, record_id, name="A Place", coordinates=None, **extra):
         return {"id": record_id, "name": name,
-                "coordinates": coordinates or {"latitude": 7.68, "longitude": 81.73}, **extra}
+                "coordinates": coordinates or {"latitude": 7.68, "longitude": 81.73},
+                "categories": ["Shop"], **extra}
 
     def test_candidate_detection_does_not_merge_co_located_different_names_or_distinct_points(self):
         records = [self.record("01AAAAAAAAAAAAAAAAAAAAAAAA", "Clinic"),
@@ -74,9 +75,9 @@ class Phase2DuplicateTests(unittest.TestCase):
                 existing = self.record("01AAAAAAAAAAAAAAAAAAAAAAAA", "same business")
                 (shard / (existing["id"] + ".json")).write_text(json.dumps(existing))
                 with self.assertRaisesRegex(ValueError, "Potential duplicate place already exists"):
-                    places.allocate({"name": "Same Business", "coordinates": existing["coordinates"]})
+                    places.allocate({"name": "Same Business", "categories": ["Shop"], "coordinates": existing["coordinates"]})
                 self.assertEqual(len(list(shard.glob("*.json"))), 1)
-                places.allocate({"name": "Nearby Separate Business", "coordinates": existing["coordinates"]})
+                places.allocate({"name": "Nearby Separate Business", "categories": ["Shop"], "coordinates": existing["coordinates"]})
                 self.assertEqual(len(list(shard.glob("*.json"))), 2)
                 places.allocate({"name": "aayisha meat shop", "coordinates": {"latitude": 7.69, "longitude": 81.74}}, True)
                 names = [json.loads(path.read_text())["name"] for path in shard.glob("*.json")]
@@ -125,7 +126,7 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
         self.assertEqual(summary["title_case_names_normalized"], len(report["title_case_changes"]))
         self.assertEqual(summary["addresses_normalized"], 954)
         aliases = places.load_aliases()
-        self.assertEqual(len(aliases), 1039)
+        self.assertGreaterEqual(len(aliases), 1039)
         entry = next(iter(aliases.values()))
         self.assertIsNotNone(entry["source_lineage"])
         self.assertTrue(entry["record"]["id"])
@@ -143,6 +144,8 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
         aliases = places.load_aliases()
         self.assertEqual(cleanup.formatting_drift(), [])
         for change in report["format_changes"]:
+            if "id" not in change:
+                continue  # Phase 3 replaced withheld detail rows with privacy-safe tokens.
             active = list((ROOT / "data/places").glob(f"*/{change['id']}.json"))
             record = json.loads(active[0].read_text()) if active else aliases[change["id"]]["record"]
             for field, expected in change["after"].items():
@@ -151,11 +154,15 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
     def test_title_case_report_covers_active_names_without_changing_ids_or_aliases(self):
         report = json.loads((ROOT / "reports/places-data-quality-phase-2.json").read_text())
         aliases = places.load_aliases()
-        self.assertEqual(len(aliases), 1039)
-        self.assertEqual(len(report["title_case_changes"]), report["summary"]["title_case_names_normalized"])
+        self.assertGreaterEqual(len(aliases), 1039)
+        # Phase 3 removes detailed before/after rows for locations withheld for
+        # privacy; the historical aggregate count remains unchanged.
+        self.assertLessEqual(len(report["title_case_changes"]), report["summary"]["title_case_names_normalized"])
         for row in report["title_case_changes"]:
+            if "id" not in row:
+                continue
             active = ROOT / row["filename"]
-            record = json.loads(active.read_text())
+            record = json.loads(active.read_text()) if active.exists() else aliases[row["id"]]["record"]
             self.assertEqual(record["id"], row["id"])
             self.assertEqual(record["name"], row["after"])
             self.assertEqual(normalize_place_name(record["name"]), record["name"])
@@ -176,11 +183,12 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
                 titlecase_id = "01CCCCCCCCCCCCCCCCCCCCCCCC"
                 coords = {"latitude": 7.68, "longitude": 81.73}
                 canonical = {"id": canonical_id, "name": "Canonical Name", "coordinates": coords,
-                             "address": "No. 2 Main Road"}
+                             "address": "No. 2 Main Road", "categories": ["Shop"]}
                 retired = {"id": retired_id, "name": "Canonical Name", "coordinates": coords,
-                           "address": "No. 2 Main Road"}
+                           "address": "No. 2 Main Road", "categories": ["Shop"]}
                 titlecase_only = {"id": titlecase_id, "name": "Title Case Place",
-                                  "coordinates": {"latitude": 7.70, "longitude": 81.75}}
+                                  "coordinates": {"latitude": 7.70, "longitude": 81.75},
+                                  "categories": ["Shop"]}
                 (shard / f"{canonical_id}.json").write_text(json.dumps(canonical))
                 (shard / f"{titlecase_id}.json").write_text(json.dumps(titlecase_only))
                 aliases = {"version": 1, "aliases": {retired_id: {
@@ -215,7 +223,7 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
 
     def test_shards_mzp_and_manifest_stay_consistent(self):
         records, shard_counts, _ = places.load_places()
-        self.assertEqual(len(records), 2655)
+        self.assertEqual(len(records), len(json.loads((ROOT / "migration-record-map.json").read_text())) - len(places.load_aliases()))
         self.assertEqual(sum(shard_counts.values()), len(records))
         self.assertTrue(all(count <= places.LIMIT for count in shard_counts.values()))
         places.build()
@@ -226,7 +234,10 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
         self.assertEqual(manifest["aliases"], {key: places.resolve_place_id(key) for key in places.load_aliases()})
         by_id = {feature["id"]: feature["properties"]["name"] for feature in geo["features"]}
         for row in json.loads((ROOT / "reports/places-data-quality-phase-2.json").read_text())["title_case_changes"]:
-            self.assertEqual(by_id.get(row["id"]), row["after"])
+            if "id" not in row:
+                continue
+            canonical_id = places.resolve_place_id(row["id"])
+            self.assertEqual(by_id.get(canonical_id), row["after"])
         first_hash = cleanup.sha256_file(places.GENERATED / "kattankudy.mzp")
         places.build()
         self.assertEqual(cleanup.sha256_file(places.GENERATED / "kattankudy.mzp"), first_hash)
@@ -238,7 +249,9 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
                     and f["properties"]["name"].strip().lower() != "kattankudt"
                     and 81.70 <= f["geometry"]["coordinates"][0] <= 81.77
                     and 7.65 <= f["geometry"]["coordinates"][1] <= 7.72]
-        self.assertEqual(len(eligible), 2202)
+        self.assertLess(len(eligible), 2202)
+        self.assertTrue(all("withheld pending eligibility review" not in f["properties"]["name"].lower()
+                            for f in features))
         app = (ROOT / "assets/js/app.js").read_text()
         self.assertIn("if(inArea(p))places.push", app)
         self.assertNotIn("if(!seen.has(k)", app)

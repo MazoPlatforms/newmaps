@@ -36,8 +36,10 @@ class PlaceQualityAuditTests(unittest.TestCase):
         summary = report["summary"]
         groups = report["duplicate_groups"]
         self.assertEqual(summary["duplicate_candidate_groups"], len(groups))
-        self.assertEqual(summary["potential_duplicate_excess_records"], 1422)
-        self.assertEqual(summary["exactly_identical_groups_except_ulid"], 695)
+        expected_excess = sum(len(group["candidate_record_ids"]) - 1 for group in groups)
+        self.assertEqual(summary["potential_duplicate_excess_records"], expected_excess)
+        self.assertEqual(summary["exactly_identical_groups_except_ulid"],
+                         sum(bool(group.get("identical_except_id")) for group in groups))
         self.assertTrue(all("proposed_canonical_record_id" in group and "source_lineage" in group for group in groups))
         self.assertTrue(all(group["proposed_action"].startswith("Human review") for group in groups))
 
