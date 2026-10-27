@@ -18,7 +18,7 @@
     "independent_place_verification": "not performed; imported listings remain unverified",
     "capture_log_note": "Four preliminary successful administrative-area queries returned responses that were not retained, so their result counts are unknown and excluded. Two documented invocations were interrupted before capture and later retried successfully. Two query runners briefly overlapped; retained responses were reconciled by unique query, but the exact number of redundant calls cannot be reconstructed. Confirmed invocation count is therefore a lower bound.",
     "invocations_in_manifest": 198,
-    "confirmed_cli_invocations_at_least": 343,
+    "confirmed_cli_invocations_at_least": 345,
     "exact_cli_invocation_total_available": false,
     "overlap_repeat_invocation_count": null,
     "successful_queries": 198,
@@ -3403,7 +3403,12 @@
     "phase6_2_failed_prompts_recovered": {
       "count": 72,
       "all_retried_prompts_succeeded": true
-    }
+    },
+    "known_unmanifested_query_invocations": 2,
+    "known_unmanifested_successes": 1,
+    "known_unmanifested_failures": 1,
+    "actual_successful_query_invocations_at_least": 199,
+    "actual_failed_query_invocations_at_least": 146
   },
   "processing": {
     "raw_candidates_analyzed": 4537,
@@ -3411,11 +3416,11 @@
     "duplicate_query_rows_collapsed": 3665,
     "classification_counts": {
       "excluded_confirmed_private": 0,
-      "existing_place_duplicate": 665,
+      "existing_place_duplicate": 606,
       "invalid_missing_coordinates": 0,
       "invalid_missing_name": 0,
       "mzc_source_conflict": 0,
-      "new_public_candidate": 16,
+      "new_public_candidate": 75,
       "out_of_district": 160,
       "uncertain_public_eligibility": 16,
       "unresolved_existing_match": 15
@@ -3433,14 +3438,73 @@
       "missing_phone": 271
     },
     "unresolved_candidates_are_not_listed_by_name_or_location": true,
-    "new_places_in_this_change": 16,
+    "new_places_in_this_change": 75,
     "unresolved_new_nearby_duplicate_pair_count": 0,
-    "active_place_records_before": 4518,
+    "active_place_records_before": 4459,
     "active_place_records_after": 4534,
-    "current_batch_region": "central-north, north",
-    "name_format_changes": 6,
-    "address_format_changes": 0,
+    "current_batch_region": "all 5 geographic batches",
+    "name_format_changes": 20,
+    "address_format_changes": 21,
     "imported_ulids": [
+      "01M5ZASZ2VREA0AHXQ2C87RRHD",
+      "01M5ZASZ4WMT35VXMHZ2J7SX62",
+      "01M5ZASZ6XKDKX84YNYR5DRPC8",
+      "01M5ZASZ8X3M2KKJM9EK4SWCBD",
+      "01M5ZASZB0RKZSGPJZ7ZNV5G0G",
+      "01M5ZASZD261NK8FH8ZZ2VFC9E",
+      "01M5ZASZF66X2FBQFJCN3Q2ZPZ",
+      "01M5ZASZHAZ96EWM7DTFWV4SFK",
+      "01M5ZASZKBEJXA884SQ2AMV92R",
+      "01M5ZASZNCDBT340P33QXYWPYT",
+      "01M5ZASZQ6GPSG6CQ48MST07YD",
+      "01M5ZASZS5DE83QCX0F4Y3B3GQ",
+      "01M5ZASZV7TEHMRB625RRGD8QR",
+      "01M5ZASZX4ESEJ506FA1NERTXH",
+      "01M5ZASZZ505QJHXF44KB3AJWF",
+      "01M5ZAT013JNMJWBE6J3GVQJX1",
+      "01M5ZAT030YC2YKZ4XXQKTKKQ6",
+      "01M5ZAT052MZKX9VBYN9T6K6F9",
+      "01M5ZAT07DNQAXQY818AA1VFF6",
+      "01M5ZAT0977H7961E7WE13PN4N",
+      "01M5ZAT0BB9B2GDZ41Z2JHZ48X",
+      "01M5ZAT0DBKZ916VHG2TEH0CWK",
+      "01M5ZAT0F616A2YHTP54WSSP45",
+      "01M5ZAT0HPVQHNN0WX2BA93P92",
+      "01M5ZAT0KQQ2TB353MGM8P75MN",
+      "01M5ZAT0NJK1A1N5V2ZJVE74X0",
+      "01M5ZAT0QNNYZ3ZWDA2HDZY0HZ",
+      "01M5ZBB9NK1YESE6DWQPRJJRDW",
+      "01M5ZBB9QJ2CVXAZT92WCNTHYP",
+      "01M5ZBB9SD4WE1F58GNB2C9DB7",
+      "01M5ZBB9VHD4TWRJ1ZJ6EM67TA",
+      "01M5ZBB9XC63F7ZYXG76GG4E4G",
+      "01M5ZBB9ZCBSWPW2DJCRNP0PCK",
+      "01M5ZBBA1MWQEZ10TT4Q0KA9DP",
+      "01M5ZBBA3928JH4SDK4D7R27AX",
+      "01M5ZBBA5HG042J9GNH8AV30MB",
+      "01M5ZBBA7JPA6B87ZCP0XEN7EE",
+      "01M5ZBBA99CE18EMV4A8KMCBM6",
+      "01M5ZBBAB77Y8NH3QPGJAFX673",
+      "01M5ZBBAD2471FBZR1N49Y5BYE",
+      "01M5ZBBAF1S71375F7CHQ44Y0Q",
+      "01M5ZBBAH12JKF6GE990ERBWW8",
+      "01M5ZBBAJRX72V6N6QQFRAMTVQ",
+      "01M5ZBBANDPT9TRD67HAXSJRJ8",
+      "01M5ZBBAR6TT4HFJK4KCK76200",
+      "01M5ZBBATDR8H8A1W9VGE5SE2S",
+      "01M5ZBBAW4VA55ET4FJSRN147C",
+      "01M5ZBFPJDN8Q103RR171GZZMY",
+      "01M5ZBFPM8AGXMA5TRNQ9Q03BW",
+      "01M5ZBFPP89R9KJS7NHTPR805F",
+      "01M5ZBFPR5AC729T9TD8R9V5G9",
+      "01M5ZBFPSXJQXBCQX1KGRPY9XN",
+      "01M5ZBFPVZ3GAJX0C9RVYA0DV5",
+      "01M5ZBFPY3Q53EF2J6RY1TH7TN",
+      "01M5ZBFPZZAECBAY2NGSJ64V44",
+      "01M5ZBFQ1X2EMHAPCM65NSAXG5",
+      "01M5ZBFQ3NRHKBV20TZW9JH529",
+      "01M5ZBFQ5QKYW4B70SR0PHQ7YW",
+      "01M5ZBFQ7RRY8V30GH72GYX21V",
       "01M5ZBKTJ8YGDA9FP9M2P6RE7M",
       "01M5ZBKTM7AXW7HTE9M29P4FTN",
       "01M5ZBKTP7NY63316QPBJ2HB9Q",
@@ -3464,16 +3528,18 @@
         "unresolved_existing_match": 1
       },
       "cheddipalaiyam": {
-        "existing_place_duplicate": 157,
+        "existing_place_duplicate": 153,
+        "new_public_candidate": 4,
         "unresolved_existing_match": 2
       },
       "chenkalady": {
-        "existing_place_duplicate": 128,
-        "new_public_candidate": 1,
+        "existing_place_duplicate": 125,
+        "new_public_candidate": 4,
         "unresolved_existing_match": 2
       },
       "eravoor": {
-        "existing_place_duplicate": 160,
+        "existing_place_duplicate": 155,
+        "new_public_candidate": 5,
         "unresolved_existing_match": 1
       },
       "eravur-pattu-chenkalady": {
@@ -3481,20 +3547,21 @@
         "new_public_candidate": 1
       },
       "eravur-town": {
-        "existing_place_duplicate": 11
+        "existing_place_duplicate": 10,
+        "new_public_candidate": 1
       },
       "illipaiyadichchenai": {
         "existing_place_duplicate": 181,
         "unresolved_existing_match": 2
       },
       "kaluwanchikudi": {
-        "existing_place_duplicate": 129,
-        "new_public_candidate": 3,
+        "existing_place_duplicate": 125,
+        "new_public_candidate": 7,
         "unresolved_existing_match": 1
       },
       "kannankudah": {
-        "existing_place_duplicate": 94,
-        "new_public_candidate": 1,
+        "existing_place_duplicate": 90,
+        "new_public_candidate": 5,
         "unresolved_existing_match": 3
       },
       "karadiyanaru": {
@@ -3510,7 +3577,8 @@
         "unresolved_existing_match": 10
       },
       "kokkadichcholai": {
-        "existing_place_duplicate": 156,
+        "existing_place_duplicate": 151,
+        "new_public_candidate": 5,
         "unresolved_existing_match": 1
       },
       "kokkadicholai": {
@@ -3523,16 +3591,18 @@
         "unresolved_existing_match": 1
       },
       "kurukkalmadam": {
-        "existing_place_duplicate": 34,
+        "existing_place_duplicate": 33,
+        "new_public_candidate": 1,
         "unresolved_existing_match": 1
       },
       "mahiladithivu": {
-        "existing_place_duplicate": 67,
+        "existing_place_duplicate": 65,
+        "new_public_candidate": 2,
         "unresolved_existing_match": 3
       },
       "mandur": {
-        "existing_place_duplicate": 59,
-        "new_public_candidate": 3,
+        "existing_place_duplicate": 50,
+        "new_public_candidate": 12,
         "unresolved_existing_match": 1
       },
       "mangalagama": {
@@ -3540,7 +3610,8 @@
         "unresolved_existing_match": 2
       },
       "mankerni": {
-        "existing_place_duplicate": 41,
+        "existing_place_duplicate": 40,
+        "new_public_candidate": 1,
         "unresolved_existing_match": 1
       },
       "manmunai-north": {
@@ -3548,11 +3619,12 @@
         "unresolved_existing_match": 1
       },
       "manmunai-pattu-araiyampathy": {
-        "existing_place_duplicate": 30,
+        "existing_place_duplicate": 22,
+        "new_public_candidate": 8,
         "unresolved_existing_match": 2
       },
       "manmunai-west-vavunathivu": {
-        "existing_place_duplicate": 3
+        "new_public_candidate": 3
       },
       "nuwaragalathenna": {
         "existing_place_duplicate": 175,
@@ -3564,23 +3636,26 @@
         "unresolved_existing_match": 1
       },
       "paddippalai": {
-        "existing_place_duplicate": 139,
+        "existing_place_duplicate": 138,
+        "new_public_candidate": 1,
         "unresolved_existing_match": 2
       },
       "pankudaveli": {
-        "existing_place_duplicate": 49,
-        "new_public_candidate": 1,
+        "existing_place_duplicate": 47,
+        "new_public_candidate": 3,
         "unresolved_existing_match": 1
       },
       "porativu-pattu": {
-        "existing_place_duplicate": 15
+        "existing_place_duplicate": 14,
+        "new_public_candidate": 1
       },
       "rideethenna": {
         "existing_place_duplicate": 162,
         "unresolved_existing_match": 4
       },
       "thuraineelavanai": {
-        "existing_place_duplicate": 61,
+        "existing_place_duplicate": 55,
+        "new_public_candidate": 6,
         "unresolved_existing_match": 1
       },
       "tumpalancholai": {
@@ -3592,8 +3667,8 @@
         "unresolved_existing_match": 3
       },
       "vaakarai": {
-        "existing_place_duplicate": 165,
-        "new_public_candidate": 4,
+        "existing_place_duplicate": 164,
+        "new_public_candidate": 5,
         "unresolved_existing_match": 2
       },
       "vahaneri": {
@@ -3605,16 +3680,18 @@
         "unresolved_existing_match": 1
       },
       "valaichenai": {
-        "existing_place_duplicate": 125,
-        "new_public_candidate": 1,
+        "existing_place_duplicate": 124,
+        "new_public_candidate": 2,
         "unresolved_existing_match": 2
       },
       "vellaveli": {
-        "existing_place_duplicate": 139,
+        "existing_place_duplicate": 138,
+        "new_public_candidate": 1,
         "unresolved_existing_match": 1
       },
       "vellavely": {
-        "existing_place_duplicate": 211,
+        "existing_place_duplicate": 199,
+        "new_public_candidate": 12,
         "unresolved_existing_match": 2
       }
     },
@@ -3646,7 +3723,7 @@
         "existing_place_duplicate": 5
       },
       "Association / Organization": {
-        "existing_place_duplicate": 1
+        "new_public_candidate": 1
       },
       "Auto machine shop": {
         "existing_place_duplicate": 2
@@ -3655,7 +3732,8 @@
         "existing_place_duplicate": 3
       },
       "Auto repair shop": {
-        "existing_place_duplicate": 9
+        "existing_place_duplicate": 8,
+        "new_public_candidate": 1
       },
       "Auto tune up service": {
         "existing_place_duplicate": 1
@@ -3664,8 +3742,8 @@
         "existing_place_duplicate": 1
       },
       "Bakery": {
-        "existing_place_duplicate": 18,
-        "new_public_candidate": 5
+        "existing_place_duplicate": 13,
+        "new_public_candidate": 10
       },
       "Banquet hall": {
         "existing_place_duplicate": 3
@@ -3713,17 +3791,19 @@
         "existing_place_duplicate": 1
       },
       "Butcher shop": {
-        "existing_place_duplicate": 1
-      },
-      "Cafe": {
-        "existing_place_duplicate": 12,
         "new_public_candidate": 1
       },
+      "Cafe": {
+        "existing_place_duplicate": 10,
+        "new_public_candidate": 3
+      },
       "Cafeteria": {
-        "existing_place_duplicate": 2
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
       },
       "Cake shop": {
-        "existing_place_duplicate": 11
+        "existing_place_duplicate": 7,
+        "new_public_candidate": 4
       },
       "Car rental agency": {
         "existing_place_duplicate": 1
@@ -3765,7 +3845,8 @@
         "existing_place_duplicate": 11
       },
       "Coffee shop": {
-        "existing_place_duplicate": 19
+        "existing_place_duplicate": 17,
+        "new_public_candidate": 2
       },
       "Coffee store": {
         "existing_place_duplicate": 1
@@ -3784,7 +3865,7 @@
         "existing_place_duplicate": 1
       },
       "Concert hall": {
-        "existing_place_duplicate": 2
+        "new_public_candidate": 2
       },
       "Confectionery store": {
         "existing_place_duplicate": 1
@@ -3799,7 +3880,7 @@
         "existing_place_duplicate": 1
       },
       "Council": {
-        "existing_place_duplicate": 1
+        "new_public_candidate": 1
       },
       "Crab house": {
         "existing_place_duplicate": 1
@@ -3808,7 +3889,8 @@
         "existing_place_duplicate": 2
       },
       "Cupcake shop": {
-        "existing_place_duplicate": 2
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
       },
       "DS Automobiles dealer": {
         "existing_place_duplicate": 1
@@ -3832,7 +3914,7 @@
         "existing_place_duplicate": 1
       },
       "Dessert shop": {
-        "existing_place_duplicate": 1
+        "new_public_candidate": 1
       },
       "Diabetes center": {
         "existing_place_duplicate": 1
@@ -3862,11 +3944,13 @@
         "existing_place_duplicate": 1
       },
       "Education center": {
-        "existing_place_duplicate": 5,
+        "existing_place_duplicate": 4,
+        "new_public_candidate": 1,
         "unresolved_existing_match": 3
       },
       "Educational institution": {
-        "existing_place_duplicate": 8
+        "existing_place_duplicate": 7,
+        "new_public_candidate": 1
       },
       "Electronics store": {
         "existing_place_duplicate": 2
@@ -3891,7 +3975,7 @@
         "new_public_candidate": 1
       },
       "Food delivery": {
-        "existing_place_duplicate": 1
+        "new_public_candidate": 1
       },
       "Food products supplier": {
         "existing_place_duplicate": 2
@@ -3906,7 +3990,8 @@
         "existing_place_duplicate": 13
       },
       "General education school": {
-        "existing_place_duplicate": 3
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 1
       },
       "General store": {
         "existing_place_duplicate": 1
@@ -3925,20 +4010,21 @@
         "existing_place_duplicate": 5
       },
       "Government office": {
-        "existing_place_duplicate": 14,
-        "new_public_candidate": 1,
+        "existing_place_duplicate": 11,
+        "new_public_candidate": 4,
         "unresolved_existing_match": 1
       },
       "Government school": {
-        "existing_place_duplicate": 2,
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1,
         "unresolved_existing_match": 1
       },
       "Grocery delivery service": {
         "existing_place_duplicate": 1
       },
       "Grocery store": {
-        "existing_place_duplicate": 74,
-        "new_public_candidate": 2
+        "existing_place_duplicate": 69,
+        "new_public_candidate": 7
       },
       "Guest house": {
         "existing_place_duplicate": 2
@@ -3971,13 +4057,15 @@
         "existing_place_duplicate": 2
       },
       "Hospital": {
-        "existing_place_duplicate": 18
+        "existing_place_duplicate": 17,
+        "new_public_candidate": 1
       },
       "Hotel": {
         "existing_place_duplicate": 3
       },
       "Ice cream shop": {
-        "existing_place_duplicate": 3
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 1
       },
       "Import export company": {
         "existing_place_duplicate": 1
@@ -3992,17 +4080,20 @@
         "existing_place_duplicate": 2
       },
       "Library": {
-        "existing_place_duplicate": 17,
+        "existing_place_duplicate": 16,
+        "new_public_candidate": 1,
         "unresolved_existing_match": 2
       },
       "Lingerie store": {
         "existing_place_duplicate": 1
       },
       "Local government office": {
-        "existing_place_duplicate": 5
+        "existing_place_duplicate": 3,
+        "new_public_candidate": 2
       },
       "Market": {
-        "existing_place_duplicate": 6
+        "existing_place_duplicate": 3,
+        "new_public_candidate": 3
       },
       "Mattress store": {
         "existing_place_duplicate": 2
@@ -4038,13 +4129,16 @@
         "existing_place_duplicate": 1
       },
       "Motorcycle repair shop": {
-        "existing_place_duplicate": 29
+        "existing_place_duplicate": 26,
+        "new_public_candidate": 3
       },
       "Non-governmental organization": {
-        "existing_place_duplicate": 3
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 1
       },
       "Non-profit organization": {
-        "existing_place_duplicate": 3
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 2
       },
       "Organic food store": {
         "existing_place_duplicate": 1
@@ -4068,14 +4162,15 @@
         "existing_place_duplicate": 3
       },
       "Pharmacy": {
-        "existing_place_duplicate": 19,
-        "new_public_candidate": 1
+        "existing_place_duplicate": 18,
+        "new_public_candidate": 2
       },
       "Place of worship": {
         "existing_place_duplicate": 1
       },
       "Playground": {
-        "existing_place_duplicate": 31
+        "existing_place_duplicate": 26,
+        "new_public_candidate": 5
       },
       "Police department": {
         "existing_place_duplicate": 1
@@ -4109,10 +4204,12 @@
         "existing_place_duplicate": 2
       },
       "Public health department": {
-        "existing_place_duplicate": 3
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 1
       },
       "Public library": {
-        "existing_place_duplicate": 5
+        "existing_place_duplicate": 4,
+        "new_public_candidate": 1
       },
       "Religious school": {
         "existing_place_duplicate": 1
@@ -4127,15 +4224,16 @@
         "existing_place_duplicate": 3
       },
       "Restaurant": {
-        "existing_place_duplicate": 18,
-        "new_public_candidate": 1,
+        "existing_place_duplicate": 17,
+        "new_public_candidate": 2,
         "unresolved_existing_match": 2
       },
       "Scooter rental service": {
         "existing_place_duplicate": 1
       },
       "Seafood market": {
-        "existing_place_duplicate": 2
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
       },
       "Seafood restaurant": {
         "existing_place_duplicate": 4
@@ -4207,7 +4305,7 @@
         "existing_place_duplicate": 1
       },
       "Telecommunications service provider": {
-        "existing_place_duplicate": 1
+        "new_public_candidate": 1
       },
       "Tire shop": {
         "existing_place_duplicate": 1
@@ -4241,7 +4339,7 @@
         "existing_place_duplicate": 3
       },
       "University library": {
-        "existing_place_duplicate": 1
+        "new_public_candidate": 1
       },
       "Van rental agency": {
         "existing_place_duplicate": 1
@@ -4290,657 +4388,72 @@
       }
     },
     "category_prompt_coverage_overlapping": {
-      "administrative-facilities--0de18960": {
-        "existing_place_duplicate": 3
+      "administrative-facilities": {
+        "new_public_candidate": 15,
+        "existing_place_duplicate": 78,
+        "unresolved_existing_match": 4
       },
-      "administrative-facilities--294d92b7": {
-        "existing_place_duplicate": 5,
+      "agriculture-fisheries": {
+        "existing_place_duplicate": 85,
+        "new_public_candidate": 2
+      },
+      "community-recreation": {
+        "existing_place_duplicate": 504,
+        "new_public_candidate": 10
+      },
+      "education-local": {
+        "existing_place_duplicate": 206,
+        "unresolved_existing_match": 21,
+        "new_public_candidate": 5
+      },
+      "food-local": {
+        "existing_place_duplicate": 988,
+        "unresolved_existing_match": 27,
+        "new_public_candidate": 12
+      },
+      "food-retail": {
+        "existing_place_duplicate": 271,
+        "new_public_candidate": 22,
+        "unresolved_existing_match": 7
+      },
+      "health-public": {
+        "existing_place_duplicate": 282,
+        "new_public_candidate": 2
+      },
+      "health-specialty": {
+        "existing_place_duplicate": 127
+      },
+      "public-facilities": {
+        "existing_place_duplicate": 81,
+        "new_public_candidate": 6,
+        "unresolved_existing_match": 4
+      },
+      "public-services": {
+        "existing_place_duplicate": 86,
         "new_public_candidate": 1
       },
-      "administrative-facilities--2ff0104c": {
-        "existing_place_duplicate": 30,
-        "unresolved_existing_match": 2
+      "retail-cooperative": {
+        "existing_place_duplicate": 156
       },
-      "administrative-facilities--39bc745f": {
-        "existing_place_duplicate": 17,
-        "new_public_candidate": 1,
-        "unresolved_existing_match": 1
+      "retail-local": {
+        "existing_place_duplicate": 507,
+        "new_public_candidate": 12
       },
-      "administrative-facilities--6b6190fe": {
-        "existing_place_duplicate": 10,
-        "unresolved_existing_match": 1
-      },
-      "administrative-facilities--830be810": {
-        "existing_place_duplicate": 15
-      },
-      "administrative-facilities--d8fd167a": {
-        "existing_place_duplicate": 11
-      },
-      "agriculture-fisheries--0ee8016e": {
-        "existing_place_duplicate": 7
-      },
-      "agriculture-fisheries--14d97c8b": {
-        "existing_place_duplicate": 7
-      },
-      "agriculture-fisheries--155d9232": {
-        "existing_place_duplicate": 6
-      },
-      "agriculture-fisheries--24d470bb": {
-        "existing_place_duplicate": 6
-      },
-      "agriculture-fisheries--35ca8c2b": {
-        "existing_place_duplicate": 7
-      },
-      "agriculture-fisheries--54559c9e": {
-        "existing_place_duplicate": 6
-      },
-      "agriculture-fisheries--5eba8668": {
-        "existing_place_duplicate": 5
-      },
-      "agriculture-fisheries--7215b819": {
-        "existing_place_duplicate": 6
-      },
-      "agriculture-fisheries--7cfe04a8": {
-        "existing_place_duplicate": 6
-      },
-      "agriculture-fisheries--b8ab07b4": {
-        "existing_place_duplicate": 7
-      },
-      "agriculture-fisheries--d936875b": {
-        "existing_place_duplicate": 8
-      },
-      "agriculture-fisheries--e2f35382": {
-        "existing_place_duplicate": 5
-      },
-      "agriculture-fisheries--ee628fa2": {
-        "existing_place_duplicate": 5
-      },
-      "agriculture-fisheries--fc97ff62": {
-        "existing_place_duplicate": 6
-      },
-      "community-recreation--4022662d": {
-        "existing_place_duplicate": 32
-      },
-      "community-recreation--546d2e13": {
-        "existing_place_duplicate": 37
-      },
-      "community-recreation--57637582": {
-        "existing_place_duplicate": 35
-      },
-      "community-recreation--6449f5ed": {
-        "existing_place_duplicate": 32
-      },
-      "community-recreation--8b60c1f8": {
-        "existing_place_duplicate": 35
-      },
-      "community-recreation--929f968d": {
-        "existing_place_duplicate": 37
-      },
-      "community-recreation--ade590a0": {
-        "existing_place_duplicate": 40
-      },
-      "community-recreation--b14a37b9": {
-        "existing_place_duplicate": 38
-      },
-      "community-recreation--c6d6dbb0": {
-        "existing_place_duplicate": 23
-      },
-      "community-recreation--d12ee18c": {
-        "existing_place_duplicate": 39
-      },
-      "community-recreation--dd81777f": {
-        "existing_place_duplicate": 44
-      },
-      "community-recreation--ecc3526d": {
-        "existing_place_duplicate": 36
-      },
-      "community-recreation--f8eda498": {
-        "existing_place_duplicate": 46
-      },
-      "community-recreation--fd5d170a": {
-        "existing_place_duplicate": 40
-      },
-      "education-local--11eb3ecb": {
-        "existing_place_duplicate": 8
-      },
-      "education-local--227353d2": {
-        "existing_place_duplicate": 10,
-        "unresolved_existing_match": 1
-      },
-      "education-local--50854e25": {
-        "existing_place_duplicate": 27,
-        "unresolved_existing_match": 9
-      },
-      "education-local--6303d4c3": {
-        "existing_place_duplicate": 8
-      },
-      "education-local--6718a1a5": {
-        "existing_place_duplicate": 18,
-        "unresolved_existing_match": 1
-      },
-      "education-local--68e5da2d": {
-        "existing_place_duplicate": 12,
-        "unresolved_existing_match": 1
-      },
-      "education-local--7497e268": {
-        "existing_place_duplicate": 13,
-        "unresolved_existing_match": 3
-      },
-      "education-local--7c387fd7": {
+      "rural-commerce": {
         "existing_place_duplicate": 28,
-        "unresolved_existing_match": 2
+        "new_public_candidate": 2
       },
-      "education-local--81969d84": {
-        "existing_place_duplicate": 6
-      },
-      "education-local--870fcdf0": {
-        "existing_place_duplicate": 31,
-        "unresolved_existing_match": 1
-      },
-      "education-local--a03bc675": {
-        "existing_place_duplicate": 7
-      },
-      "education-local--ae7773b6": {
-        "existing_place_duplicate": 10,
-        "unresolved_existing_match": 1
-      },
-      "education-local--b2b5efc8": {
-        "existing_place_duplicate": 26,
-        "unresolved_existing_match": 2
-      },
-      "education-local--ccbdb115": {
-        "existing_place_duplicate": 7
-      },
-      "food-local--04372b03": {
-        "existing_place_duplicate": 30,
-        "unresolved_existing_match": 1
-      },
-      "food-local--14f31b17": {
-        "existing_place_duplicate": 43,
-        "unresolved_existing_match": 1
-      },
-      "food-local--1c7002ec": {
-        "existing_place_duplicate": 29,
-        "unresolved_existing_match": 1
-      },
-      "food-local--291f64ff": {
-        "existing_place_duplicate": 62,
-        "new_public_candidate": 4,
-        "unresolved_existing_match": 2
-      },
-      "food-local--2e3466f3": {
-        "existing_place_duplicate": 25,
-        "unresolved_existing_match": 1
-      },
-      "food-local--307749cc": {
-        "existing_place_duplicate": 42,
-        "unresolved_existing_match": 1
-      },
-      "food-local--341b0998": {
-        "existing_place_duplicate": 29,
-        "unresolved_existing_match": 1
-      },
-      "food-local--404032c8": {
-        "existing_place_duplicate": 30,
-        "unresolved_existing_match": 1
-      },
-      "food-local--4764994e": {
-        "existing_place_duplicate": 29,
-        "unresolved_existing_match": 1
-      },
-      "food-local--5242caf8": {
-        "existing_place_duplicate": 45,
-        "unresolved_existing_match": 1
-      },
-      "food-local--67d99605": {
-        "existing_place_duplicate": 25,
-        "unresolved_existing_match": 1
-      },
-      "food-local--6cd4f72f": {
+      "rural-transport": {
         "existing_place_duplicate": 72,
         "unresolved_existing_match": 1
       },
-      "food-local--97f40686": {
-        "existing_place_duplicate": 56,
-        "new_public_candidate": 1,
-        "unresolved_existing_match": 2
+      "textile-mobile": {
+        "existing_place_duplicate": 73
       },
-      "food-local--b297187a": {
-        "existing_place_duplicate": 28,
+      "vehicle-services": {
+        "existing_place_duplicate": 441,
+        "new_public_candidate": 4,
         "unresolved_existing_match": 1
-      },
-      "food-local--b8a51d0d": {
-        "existing_place_duplicate": 23,
-        "unresolved_existing_match": 1
-      },
-      "food-local--cc73c801": {
-        "existing_place_duplicate": 53,
-        "unresolved_existing_match": 1
-      },
-      "food-local--d08119f1": {
-        "existing_place_duplicate": 59,
-        "unresolved_existing_match": 2
-      },
-      "food-local--d1ff8069": {
-        "existing_place_duplicate": 24,
-        "unresolved_existing_match": 1
-      },
-      "food-local--d228617e": {
-        "existing_place_duplicate": 57,
-        "unresolved_existing_match": 1
-      },
-      "food-local--d28ad4f3": {
-        "existing_place_duplicate": 51,
-        "unresolved_existing_match": 1
-      },
-      "food-local--d8534b7f": {
-        "existing_place_duplicate": 44,
-        "unresolved_existing_match": 1
-      },
-      "food-local--eaa92088": {
-        "existing_place_duplicate": 48,
-        "unresolved_existing_match": 1
-      },
-      "food-local--f1a0829d": {
-        "existing_place_duplicate": 33,
-        "unresolved_existing_match": 1
-      },
-      "food-local--f339c4bf": {
-        "existing_place_duplicate": 58,
-        "unresolved_existing_match": 1
-      },
-      "food-retail--04935353": {
-        "existing_place_duplicate": 31,
-        "unresolved_existing_match": 1
-      },
-      "food-retail--18510cf3": {
-        "existing_place_duplicate": 34,
-        "unresolved_existing_match": 1
-      },
-      "food-retail--854e8bbd": {
-        "existing_place_duplicate": 62,
-        "new_public_candidate": 1,
-        "unresolved_existing_match": 1
-      },
-      "food-retail--8e97e94f": {
-        "existing_place_duplicate": 27,
-        "unresolved_existing_match": 1
-      },
-      "food-retail--92969930": {
-        "existing_place_duplicate": 51,
-        "new_public_candidate": 3,
-        "unresolved_existing_match": 1
-      },
-      "food-retail--984d33bd": {
-        "existing_place_duplicate": 32,
-        "unresolved_existing_match": 1
-      },
-      "food-retail--dba1eca5": {
-        "existing_place_duplicate": 52,
-        "unresolved_existing_match": 1
-      },
-      "health-public--0d6d7804": {
-        "existing_place_duplicate": 28
-      },
-      "health-public--17ef772c": {
-        "existing_place_duplicate": 24
-      },
-      "health-public--189b3d5d": {
-        "existing_place_duplicate": 20
-      },
-      "health-public--1b9ff878": {
-        "existing_place_duplicate": 37
-      },
-      "health-public--2a726d9b": {
-        "existing_place_duplicate": 34
-      },
-      "health-public--4f962443": {
-        "existing_place_duplicate": 29
-      },
-      "health-public--6e23a403": {
-        "existing_place_duplicate": 28
-      },
-      "health-public--75aa5f53": {
-        "existing_place_duplicate": 28,
-        "new_public_candidate": 1
-      },
-      "health-public--80098537": {
-        "existing_place_duplicate": 33
-      },
-      "health-public--b311c5e8": {
-        "existing_place_duplicate": 22
-      },
-      "health-specialty--05d0ef91": {
-        "existing_place_duplicate": 9
-      },
-      "health-specialty--129a96ad": {
-        "existing_place_duplicate": 6
-      },
-      "health-specialty--24d5365a": {
-        "existing_place_duplicate": 11
-      },
-      "health-specialty--2c72782e": {
-        "existing_place_duplicate": 9
-      },
-      "health-specialty--54a38981": {
-        "existing_place_duplicate": 17
-      },
-      "health-specialty--56f9ed2a": {
-        "existing_place_duplicate": 5
-      },
-      "health-specialty--6635c803": {
-        "existing_place_duplicate": 7
-      },
-      "health-specialty--72304c02": {
-        "existing_place_duplicate": 12
-      },
-      "health-specialty--8767b8d9": {
-        "existing_place_duplicate": 8
-      },
-      "health-specialty--aaeadcaa": {
-        "existing_place_duplicate": 7
-      },
-      "health-specialty--b69684ec": {
-        "existing_place_duplicate": 10
-      },
-      "health-specialty--b74eec6c": {
-        "existing_place_duplicate": 11
-      },
-      "health-specialty--da4eddb6": {
-        "existing_place_duplicate": 7
-      },
-      "health-specialty--f685b04f": {
-        "existing_place_duplicate": 8
-      },
-      "public-facilities--0b051f89": {
-        "existing_place_duplicate": 27,
-        "unresolved_existing_match": 2
-      },
-      "public-facilities--0cce0a5f": {
-        "existing_place_duplicate": 10
-      },
-      "public-facilities--1222f136": {
-        "existing_place_duplicate": 8
-      },
-      "public-facilities--16905553": {
-        "existing_place_duplicate": 7
-      },
-      "public-facilities--a801c92e": {
-        "existing_place_duplicate": 7
-      },
-      "public-facilities--cda4854c": {
-        "existing_place_duplicate": 22,
-        "unresolved_existing_match": 2
-      },
-      "public-facilities--dfaae306": {
-        "existing_place_duplicate": 6
-      },
-      "public-services--01b76716": {
-        "existing_place_duplicate": 1
-      },
-      "public-services--043de54e": {
-        "existing_place_duplicate": 8
-      },
-      "public-services--10bd888b": {
-        "existing_place_duplicate": 1
-      },
-      "public-services--25f37c02": {
-        "existing_place_duplicate": 2
-      },
-      "public-services--346a0ffc": {
-        "existing_place_duplicate": 5
-      },
-      "public-services--3e565492": {
-        "existing_place_duplicate": 10
-      },
-      "public-services--4b9b9ea2": {
-        "existing_place_duplicate": 10
-      },
-      "public-services--70c6903d": {
-        "existing_place_duplicate": 1
-      },
-      "public-services--a4a07663": {
-        "existing_place_duplicate": 4
-      },
-      "public-services--aa413c0b": {
-        "existing_place_duplicate": 10
-      },
-      "public-services--b0e96ef5": {
-        "existing_place_duplicate": 11
-      },
-      "public-services--cb97ba86": {
-        "existing_place_duplicate": 8
-      },
-      "public-services--ddb8b6cb": {
-        "existing_place_duplicate": 5
-      },
-      "public-services--fa23f93c": {
-        "existing_place_duplicate": 11
-      },
-      "retail-cooperative--0dcbff36": {
-        "existing_place_duplicate": 11
-      },
-      "retail-cooperative--106a599a": {
-        "existing_place_duplicate": 13
-      },
-      "retail-cooperative--2be7d3ea": {
-        "existing_place_duplicate": 11
-      },
-      "retail-cooperative--302393bc": {
-        "existing_place_duplicate": 18
-      },
-      "retail-cooperative--4c41c097": {
-        "existing_place_duplicate": 16
-      },
-      "retail-cooperative--517c9757": {
-        "existing_place_duplicate": 10
-      },
-      "retail-cooperative--6049aad5": {
-        "existing_place_duplicate": 13
-      },
-      "retail-cooperative--6f180bcb": {
-        "existing_place_duplicate": 10
-      },
-      "retail-cooperative--74885849": {
-        "existing_place_duplicate": 9
-      },
-      "retail-cooperative--7e45230f": {
-        "existing_place_duplicate": 10
-      },
-      "retail-cooperative--7e82b5ad": {
-        "existing_place_duplicate": 7
-      },
-      "retail-cooperative--e298bfe8": {
-        "existing_place_duplicate": 9
-      },
-      "retail-cooperative--edde49e3": {
-        "existing_place_duplicate": 11
-      },
-      "retail-cooperative--f0a681aa": {
-        "existing_place_duplicate": 8
-      },
-      "retail-local--06f7e6d5": {
-        "existing_place_duplicate": 44,
-        "new_public_candidate": 1
-      },
-      "retail-local--0751da1b": {
-        "existing_place_duplicate": 36,
-        "new_public_candidate": 1
-      },
-      "retail-local--0a631fc9": {
-        "existing_place_duplicate": 57
-      },
-      "retail-local--45081b24": {
-        "existing_place_duplicate": 46
-      },
-      "retail-local--56595742": {
-        "existing_place_duplicate": 69
-      },
-      "retail-local--6374f52f": {
-        "existing_place_duplicate": 59
-      },
-      "retail-local--835cf91e": {
-        "existing_place_duplicate": 65,
-        "new_public_candidate": 3
-      },
-      "retail-local--87ee3de3": {
-        "existing_place_duplicate": 44
-      },
-      "retail-local--ed966d6c": {
-        "existing_place_duplicate": 27
-      },
-      "retail-local--ffb25b86": {
-        "existing_place_duplicate": 67
-      },
-      "rural-commerce--64caec13": {
-        "existing_place_duplicate": 10
-      },
-      "rural-commerce--6653bd5d": {
-        "existing_place_duplicate": 1
-      },
-      "rural-commerce--aab53cee": {
-        "existing_place_duplicate": 2
-      },
-      "rural-commerce--c7629443": {
-        "existing_place_duplicate": 1
-      },
-      "rural-commerce--c858f697": {
-        "existing_place_duplicate": 6
-      },
-      "rural-commerce--daa7faeb": {
-        "existing_place_duplicate": 7,
-        "new_public_candidate": 1
-      },
-      "rural-commerce--ed3b6770": {
-        "existing_place_duplicate": 2
-      },
-      "rural-transport--00f6d7b4": {
-        "existing_place_duplicate": 6
-      },
-      "rural-transport--104495c3": {
-        "existing_place_duplicate": 1
-      },
-      "rural-transport--19358036": {
-        "existing_place_duplicate": 2
-      },
-      "rural-transport--3516c032": {
-        "existing_place_duplicate": 4
-      },
-      "rural-transport--3b2a7dd2": {
-        "existing_place_duplicate": 8
-      },
-      "rural-transport--3b408952": {
-        "existing_place_duplicate": 5
-      },
-      "rural-transport--430fb7d8": {
-        "existing_place_duplicate": 21,
-        "unresolved_existing_match": 1
-      },
-      "rural-transport--63c220b8": {
-        "existing_place_duplicate": 1
-      },
-      "rural-transport--864147bd": {
-        "existing_place_duplicate": 5
-      },
-      "rural-transport--9380f5db": {
-        "existing_place_duplicate": 2
-      },
-      "rural-transport--9dcceaa5": {
-        "existing_place_duplicate": 5
-      },
-      "rural-transport--a23ccc52": {
-        "existing_place_duplicate": 4
-      },
-      "rural-transport--acd54bb6": {
-        "existing_place_duplicate": 5
-      },
-      "rural-transport--ea40cc74": {
-        "existing_place_duplicate": 3
-      },
-      "textile-mobile--01c5d303": {
-        "existing_place_duplicate": 5
-      },
-      "textile-mobile--2b4237ad": {
-        "existing_place_duplicate": 3
-      },
-      "textile-mobile--3579db54": {
-        "existing_place_duplicate": 2
-      },
-      "textile-mobile--3d9493e1": {
-        "existing_place_duplicate": 3
-      },
-      "textile-mobile--40cb164f": {
-        "existing_place_duplicate": 5
-      },
-      "textile-mobile--75c456f1": {
-        "existing_place_duplicate": 8
-      },
-      "textile-mobile--7dd5bec0": {
-        "existing_place_duplicate": 5
-      },
-      "textile-mobile--83296f68": {
-        "existing_place_duplicate": 15
-      },
-      "textile-mobile--a11d20d8": {
-        "existing_place_duplicate": 4
-      },
-      "textile-mobile--bba3f6e4": {
-        "existing_place_duplicate": 4
-      },
-      "textile-mobile--c6616cd1": {
-        "existing_place_duplicate": 4
-      },
-      "textile-mobile--d8fd188e": {
-        "existing_place_duplicate": 4
-      },
-      "textile-mobile--ddf6fe6f": {
-        "existing_place_duplicate": 3
-      },
-      "textile-mobile--dfa76498": {
-        "existing_place_duplicate": 8
-      },
-      "vehicle-services--1017c1d7": {
-        "existing_place_duplicate": 18
-      },
-      "vehicle-services--159ce353": {
-        "existing_place_duplicate": 34
-      },
-      "vehicle-services--2ff69b2a": {
-        "existing_place_duplicate": 42
-      },
-      "vehicle-services--4022525a": {
-        "existing_place_duplicate": 27,
-        "unresolved_existing_match": 1
-      },
-      "vehicle-services--4e385d2d": {
-        "existing_place_duplicate": 44
-      },
-      "vehicle-services--4fe8a91d": {
-        "existing_place_duplicate": 33
-      },
-      "vehicle-services--51b94f70": {
-        "existing_place_duplicate": 38
-      },
-      "vehicle-services--52bc347d": {
-        "existing_place_duplicate": 49
-      },
-      "vehicle-services--a013ddd6": {
-        "existing_place_duplicate": 27
-      },
-      "vehicle-services--a8092ec7": {
-        "existing_place_duplicate": 25
-      },
-      "vehicle-services--b69bc9dd": {
-        "existing_place_duplicate": 33
-      },
-      "vehicle-services--bc57800a": {
-        "existing_place_duplicate": 18
-      },
-      "vehicle-services--cd5c2255": {
-        "existing_place_duplicate": 23
-      },
-      "vehicle-services--d7e6d0aa": {
-        "existing_place_duplicate": 34
       }
     },
     "query_prompt_candidate_coverage_overlapping": {
@@ -4958,7 +4471,8 @@
         "existing_place_duplicate": 6
       },
       "cheddipalaiyam--community-recreation--546d2e13": {
-        "existing_place_duplicate": 37
+        "existing_place_duplicate": 35,
+        "new_public_candidate": 2
       },
       "cheddipalaiyam--education-local--ae7773b6": {
         "existing_place_duplicate": 10,
@@ -4984,35 +4498,40 @@
         "existing_place_duplicate": 3
       },
       "cheddipalaiyam--vehicle-services--2ff69b2a": {
-        "existing_place_duplicate": 42
+        "existing_place_duplicate": 40,
+        "new_public_candidate": 2
       },
       "chenkalady--food-local--97f40686": {
-        "existing_place_duplicate": 56,
-        "new_public_candidate": 1,
+        "existing_place_duplicate": 54,
+        "new_public_candidate": 3,
         "unresolved_existing_match": 2
       },
       "chenkalady--health-public--6e23a403": {
         "existing_place_duplicate": 28
       },
       "chenkalady--retail-local--87ee3de3": {
-        "existing_place_duplicate": 44
+        "existing_place_duplicate": 43,
+        "new_public_candidate": 1
       },
       "eravoor--food-local--6cd4f72f": {
-        "existing_place_duplicate": 72,
+        "existing_place_duplicate": 69,
+        "new_public_candidate": 3,
         "unresolved_existing_match": 1
       },
       "eravoor--health-public--4f962443": {
         "existing_place_duplicate": 29
       },
       "eravoor--retail-local--6374f52f": {
-        "existing_place_duplicate": 59
+        "existing_place_duplicate": 57,
+        "new_public_candidate": 2
       },
       "eravur-pattu-chenkalady--administrative-facilities--294d92b7": {
         "existing_place_duplicate": 5,
         "new_public_candidate": 1
       },
       "eravur-town--administrative-facilities--d8fd167a": {
-        "existing_place_duplicate": 11
+        "existing_place_duplicate": 10,
+        "new_public_candidate": 1
       },
       "illipaiyadichchenai--agriculture-fisheries--54559c9e": {
         "existing_place_duplicate": 6
@@ -5051,15 +4570,16 @@
         "unresolved_existing_match": 1
       },
       "kaluwanchikudi--health-public--189b3d5d": {
-        "existing_place_duplicate": 20
+        "existing_place_duplicate": 19,
+        "new_public_candidate": 1
       },
       "kaluwanchikudi--retail-local--835cf91e": {
-        "existing_place_duplicate": 65,
-        "new_public_candidate": 3
+        "existing_place_duplicate": 62,
+        "new_public_candidate": 6
       },
       "kannankudah--food-retail--854e8bbd": {
-        "existing_place_duplicate": 62,
-        "new_public_candidate": 1,
+        "existing_place_duplicate": 59,
+        "new_public_candidate": 4,
         "unresolved_existing_match": 1
       },
       "kannankudah--public-facilities--cda4854c": {
@@ -5067,7 +4587,8 @@
         "unresolved_existing_match": 2
       },
       "kannankudah--rural-commerce--64caec13": {
-        "existing_place_duplicate": 10
+        "existing_place_duplicate": 9,
+        "new_public_candidate": 1
       },
       "karadiyanaru--agriculture-fisheries--e2f35382": {
         "existing_place_duplicate": 5
@@ -5146,7 +4667,8 @@
         "existing_place_duplicate": 7
       },
       "kokkadichcholai--community-recreation--fd5d170a": {
-        "existing_place_duplicate": 40
+        "existing_place_duplicate": 36,
+        "new_public_candidate": 4
       },
       "kokkadichcholai--education-local--11eb3ecb": {
         "existing_place_duplicate": 8
@@ -5159,7 +4681,8 @@
         "existing_place_duplicate": 10
       },
       "kokkadichcholai--public-services--043de54e": {
-        "existing_place_duplicate": 8
+        "existing_place_duplicate": 7,
+        "new_public_candidate": 1
       },
       "kokkadichcholai--retail-cooperative--e298bfe8": {
         "existing_place_duplicate": 9
@@ -5193,7 +4716,8 @@
         "unresolved_existing_match": 1
       },
       "kurukkalmadam--public-facilities--dfaae306": {
-        "existing_place_duplicate": 6
+        "existing_place_duplicate": 5,
+        "new_public_candidate": 1
       },
       "kurukkalmadam--rural-commerce--6653bd5d": {
         "existing_place_duplicate": 1
@@ -5203,15 +4727,16 @@
         "unresolved_existing_match": 1
       },
       "mahiladithivu--public-facilities--0b051f89": {
-        "existing_place_duplicate": 27,
+        "existing_place_duplicate": 25,
+        "new_public_candidate": 2,
         "unresolved_existing_match": 2
       },
       "mahiladithivu--rural-commerce--c858f697": {
         "existing_place_duplicate": 6
       },
       "mandur--food-retail--92969930": {
-        "existing_place_duplicate": 51,
-        "new_public_candidate": 3,
+        "existing_place_duplicate": 42,
+        "new_public_candidate": 12,
         "unresolved_existing_match": 1
       },
       "mandur--public-facilities--a801c92e": {
@@ -5253,7 +4778,8 @@
         "existing_place_duplicate": 33
       },
       "mankerni--food-retail--04935353": {
-        "existing_place_duplicate": 31,
+        "existing_place_duplicate": 30,
+        "new_public_candidate": 1,
         "unresolved_existing_match": 1
       },
       "mankerni--public-facilities--1222f136": {
@@ -5267,11 +4793,12 @@
         "unresolved_existing_match": 1
       },
       "manmunai-pattu-araiyampathy--administrative-facilities--2ff0104c": {
-        "existing_place_duplicate": 30,
+        "existing_place_duplicate": 22,
+        "new_public_candidate": 8,
         "unresolved_existing_match": 2
       },
       "manmunai-west-vavunathivu--administrative-facilities--0de18960": {
-        "existing_place_duplicate": 3
+        "new_public_candidate": 3
       },
       "nuwaragalathenna--agriculture-fisheries--0ee8016e": {
         "existing_place_duplicate": 7
@@ -5321,7 +4848,8 @@
         "existing_place_duplicate": 6
       },
       "paddippalai--community-recreation--ade590a0": {
-        "existing_place_duplicate": 40
+        "existing_place_duplicate": 39,
+        "new_public_candidate": 1
       },
       "paddippalai--education-local--68e5da2d": {
         "existing_place_duplicate": 12,
@@ -5354,14 +4882,16 @@
         "unresolved_existing_match": 1
       },
       "pankudaveli--public-facilities--0cce0a5f": {
-        "existing_place_duplicate": 10
+        "existing_place_duplicate": 8,
+        "new_public_candidate": 2
       },
       "pankudaveli--rural-commerce--daa7faeb": {
         "existing_place_duplicate": 7,
         "new_public_candidate": 1
       },
       "porativu-pattu--administrative-facilities--830be810": {
-        "existing_place_duplicate": 15
+        "existing_place_duplicate": 14,
+        "new_public_candidate": 1
       },
       "rideethenna--agriculture-fisheries--14d97c8b": {
         "existing_place_duplicate": 7
@@ -5397,11 +4927,13 @@
         "unresolved_existing_match": 1
       },
       "thuraineelavanai--food-retail--dba1eca5": {
-        "existing_place_duplicate": 52,
+        "existing_place_duplicate": 47,
+        "new_public_candidate": 5,
         "unresolved_existing_match": 1
       },
       "thuraineelavanai--public-facilities--16905553": {
-        "existing_place_duplicate": 7
+        "existing_place_duplicate": 6,
+        "new_public_candidate": 1
       },
       "thuraineelavanai--rural-commerce--ed3b6770": {
         "existing_place_duplicate": 2
@@ -5470,8 +5002,8 @@
         "existing_place_duplicate": 25
       },
       "vaakarai--food-local--291f64ff": {
-        "existing_place_duplicate": 62,
-        "new_public_candidate": 4,
+        "existing_place_duplicate": 61,
+        "new_public_candidate": 5,
         "unresolved_existing_match": 2
       },
       "vaakarai--health-public--2a726d9b": {
@@ -5544,7 +5076,8 @@
         "existing_place_duplicate": 27
       },
       "valaichenai--food-local--d08119f1": {
-        "existing_place_duplicate": 59,
+        "existing_place_duplicate": 58,
+        "new_public_candidate": 1,
         "unresolved_existing_match": 2
       },
       "valaichenai--health-public--b311c5e8": {
@@ -5562,16 +5095,20 @@
         "existing_place_duplicate": 37
       },
       "vellaveli--retail-local--0a631fc9": {
-        "existing_place_duplicate": 57
+        "existing_place_duplicate": 56,
+        "new_public_candidate": 1
       },
       "vellavely--agriculture-fisheries--d936875b": {
-        "existing_place_duplicate": 8
+        "existing_place_duplicate": 6,
+        "new_public_candidate": 2
       },
       "vellavely--community-recreation--f8eda498": {
-        "existing_place_duplicate": 46
+        "existing_place_duplicate": 43,
+        "new_public_candidate": 3
       },
       "vellavely--education-local--870fcdf0": {
-        "existing_place_duplicate": 31,
+        "existing_place_duplicate": 26,
+        "new_public_candidate": 5,
         "unresolved_existing_match": 1
       },
       "vellavely--food-local--14f31b17": {
@@ -5594,10 +5131,221 @@
         "existing_place_duplicate": 8
       },
       "vellavely--vehicle-services--4e385d2d": {
-        "existing_place_duplicate": 44
+        "existing_place_duplicate": 42,
+        "new_public_candidate": 2
       }
     },
     "formatting_changes": [
+      {
+        "field": "name",
+        "before": "Thettativu public library",
+        "after": "Thettativu Public Library",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Dinesh motors",
+        "after": "Dinesh Motors",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Police stations kokkadichole",
+        "after": "Police Stations Kokkadichole",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Tea shop",
+        "after": "Tea Shop",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "FRX3+VRF, Beach Rd, Kaluwanchikudy",
+        "after": "FRX3+VRF, Beach Road, Kaluwanchikudy",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "GQRW+JM6, Kaluthavalai Pillaiyar Kovil Rd, Kaluthavalai",
+        "after": "GQRW+JM6, Kaluthavalai Pillaiyar Kovil Road, Kaluthavalai",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Bigbazaar supermarket",
+        "after": "Bigbazaar Supermarket",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Office Of The Medical Officer of Health Kaluwanchikudy",
+        "after": "Office Of The Medical Officer Of Health Kaluwanchikudy",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "MP9P+J2P, Village Ct Rd, Araipattai",
+        "after": "MP9P+J2P, Village Ct Road, Araipattai",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Secretary of Manmunai West (Vavunathivu) Pradeshiya Sabha",
+        "after": "Secretary Of Manmunai West (Vavunathivu) Pradeshiya Sabha",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "KM cake cafe & multi shop",
+        "after": "KM Cake Cafe & Multi Shop",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Onthachimadam - Koddaikallar Rd",
+        "after": "Onthachimadam - Koddaikallar Road",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "32, 6 Anumar Rd, Batticaloa 30000",
+        "after": "32, 6 Anumar Road, Batticaloa 30000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "MEAT LANKA (PVT) LTD",
+        "after": "Meat Lanka (PVT) Ltd",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No 05, Fowsy Mawatha Telecom Road New Kattankudy 01, Batticaloa, Kattankudy 30100",
+        "after": "No. 05, Fowsy Mawatha Telecom Road New Kattankudy 01, Batticaloa, Kattankudy 30100",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Institute of blessing junior",
+        "after": "Institute Of Blessing Junior",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Saron cake cafe",
+        "after": "Saron Cake Cafe",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "PM9X+GRF, Bar Rd, Batticaloa",
+        "after": "PM9X+GRF, Bar Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "56 Thamaraikeni Rd, Batticaloa 30000",
+        "after": "56 Thamaraikeni Road, Batticaloa 30000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "136 Trinco Rd, Batticaloa 30000",
+        "after": "136 Trinco Road, Batticaloa 30000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "319 Trincomalee-Batticaloa Rd, Batticaloa 30000",
+        "after": "319 Trincomalee-Batticaloa Road, Batticaloa 30000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No362 Trinco Rd, Batticaloa",
+        "after": "No. 362 Trinco Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "PMHF+XP2, Trincomalee-Batticaloa Rd, Batticaloa",
+        "after": "PMHF+XP2, Trincomalee-Batticaloa Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "165D New Kalmunai Rd, Batticaloa",
+        "after": "165D New Kalmunai Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "san_mfm",
+        "after": "San_Mfm",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "QJF3+PM5, Kathiyar Rd, Eravur",
+        "after": "QJF3+PM5, Kathiyar Road, Eravur",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "QJ7C+7JW, Trincomalee-Batticaloa Rd, Eravur",
+        "after": "QJ7C+7JW, Trincomalee-Batticaloa Road, Eravur",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "QJH5+PXJ, Makkah madi Rd, Eravur",
+        "after": "QJH5+PXJ, Makkah madi Road, Eravur",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "MINHA SUPER MARKET",
+        "after": "Minha Super Market",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "HIMAS SUPER MART",
+        "after": "Himas Super Mart",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "QJH3+5P9, Punnakuda Rd, Eravur",
+        "after": "QJH3+5P9, Punnakuda Road, Eravur",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "PMMH+WG8, New Boundary Rd, Batticaloa",
+        "after": "PMMH+WG8, New Boundary Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "233 Bar Rd - Batticaloa, Batticaloa",
+        "after": "233 Bar Road - Batticaloa, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "QJF5+88X, Town,, Eravur",
+        "after": "QJF5+88X, Town, Eravur",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "New Boundary Rd, Batticaloa 30000",
+        "after": "New Boundary Road, Batticaloa 30000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
       {
         "field": "name",
         "before": "SHAM CAFE",
@@ -5636,6 +5384,501 @@
       }
     ],
     "normalization_changes": [
+      {
+        "record_index": 3,
+        "source_query_keys": [
+          "vellavely--education-local--870fcdf0"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Thettativu public library",
+            "after": "Thettativu Public Library",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M5ZASZ8X3M2KKJM9EK4SWCBD"
+      },
+      {
+        "record_index": 4,
+        "source_query_keys": [
+          "vellavely--vehicle-services--4e385d2d"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Dinesh motors",
+            "after": "Dinesh Motors",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M5ZASZB0RKZSGPJZ7ZNV5G0G"
+      },
+      {
+        "record_index": 6,
+        "source_query_keys": [
+          "kokkadichcholai--public-services--043de54e"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Police stations kokkadichole",
+            "after": "Police Stations Kokkadichole",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M5ZASZF66X2FBQFJCN3Q2ZPZ"
+      },
+      {
+        "record_index": 8,
+        "source_query_keys": [
+          "chenkalady--food-local--97f40686"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Tea shop",
+            "after": "Tea Shop",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M5ZASZKBEJXA884SQ2AMV92R"
+      },
+      {
+        "record_index": 9,
+        "source_query_keys": [
+          "chenkalady--food-local--97f40686"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "FRX3+VRF, Beach Rd, Kaluwanchikudy",
+            "after": "FRX3+VRF, Beach Road, Kaluwanchikudy",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZASZNCDBT340P33QXYWPYT"
+      },
+      {
+        "record_index": 10,
+        "source_query_keys": [
+          "valaichenai--food-local--d08119f1"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "GQRW+JM6, Kaluthavalai Pillaiyar Kovil Rd, Kaluthavalai",
+            "after": "GQRW+JM6, Kaluthavalai Pillaiyar Kovil Road, Kaluthavalai",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZASZQ6GPSG6CQ48MST07YD"
+      },
+      {
+        "record_index": 11,
+        "source_query_keys": [
+          "kaluwanchikudi--retail-local--835cf91e"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Bigbazaar supermarket",
+            "after": "Bigbazaar Supermarket",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M5ZASZS5DE83QCX0F4Y3B3GQ"
+      },
+      {
+        "record_index": 14,
+        "source_query_keys": [
+          "kaluwanchikudi--health-public--189b3d5d"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Office Of The Medical Officer of Health Kaluwanchikudy",
+            "after": "Office Of The Medical Officer Of Health Kaluwanchikudy",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M5ZASZZ505QJHXF44KB3AJWF"
+      },
+      {
+        "record_index": 16,
+        "source_query_keys": [
+          "manmunai-pattu-araiyampathy--administrative-facilities--2ff0104c"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "MP9P+J2P, Village Ct Rd, Araipattai",
+            "after": "MP9P+J2P, Village Ct Road, Araipattai",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZAT030YC2YKZ4XXQKTKKQ6"
+      },
+      {
+        "record_index": 21,
+        "source_query_keys": [
+          "manmunai-west-vavunathivu--administrative-facilities--0de18960"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Secretary of Manmunai West (Vavunathivu) Pradeshiya Sabha",
+            "after": "Secretary Of Manmunai West (Vavunathivu) Pradeshiya Sabha",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M5ZAT0DBKZ916VHG2TEH0CWK"
+      },
+      {
+        "record_index": 22,
+        "source_query_keys": [
+          "mandur--food-retail--92969930"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "KM cake cafe & multi shop",
+            "after": "KM Cake Cafe & Multi Shop",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M5ZAT0F616A2YHTP54WSSP45"
+      },
+      {
+        "record_index": 23,
+        "source_query_keys": [
+          "mandur--food-retail--92969930"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Onthachimadam - Koddaikallar Rd",
+            "after": "Onthachimadam - Koddaikallar Road",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZAT0HPVQHNN0WX2BA93P92"
+      },
+      {
+        "record_index": 24,
+        "source_query_keys": [
+          "kannankudah--food-retail--854e8bbd"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "32, 6 Anumar Rd, Batticaloa 30000",
+            "after": "32, 6 Anumar Road, Batticaloa 30000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZAT0KQQ2TB353MGM8P75MN"
+      },
+      {
+        "record_index": 26,
+        "source_query_keys": [
+          "kannankudah--rural-commerce--64caec13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "MEAT LANKA (PVT) LTD",
+            "after": "Meat Lanka (PVT) Ltd",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No 05, Fowsy Mawatha Telecom Road New Kattankudy 01, Batticaloa, Kattankudy 30100",
+            "after": "No. 05, Fowsy Mawatha Telecom Road New Kattankudy 01, Batticaloa, Kattankudy 30100",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZAT0QNNYZ3ZWDA2HDZY0HZ"
+      },
+      {
+        "record_index": 4,
+        "source_query_keys": [
+          "vellavely--education-local--870fcdf0"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Institute of blessing junior",
+            "after": "Institute Of Blessing Junior",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M5ZBB9XC63F7ZYXG76GG4E4G"
+      },
+      {
+        "record_index": 10,
+        "source_query_keys": [
+          "mandur--food-retail--92969930",
+          "thuraineelavanai--food-retail--dba1eca5",
+          "vaakarai--food-local--291f64ff"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Saron cake cafe",
+            "after": "Saron Cake Cafe",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "PM9X+GRF, Bar Rd, Batticaloa",
+            "after": "PM9X+GRF, Bar Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBBA99CE18EMV4A8KMCBM6"
+      },
+      {
+        "record_index": 12,
+        "source_query_keys": [
+          "manmunai-pattu-araiyampathy--administrative-facilities--2ff0104c"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "56 Thamaraikeni Rd, Batticaloa 30000",
+            "after": "56 Thamaraikeni Road, Batticaloa 30000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBBAD2471FBZR1N49Y5BYE"
+      },
+      {
+        "record_index": 15,
+        "source_query_keys": [
+          "kannankudah--food-retail--854e8bbd",
+          "mandur--food-retail--92969930",
+          "thuraineelavanai--food-retail--dba1eca5"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "136 Trinco Rd, Batticaloa 30000",
+            "after": "136 Trinco Road, Batticaloa 30000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBBAJRX72V6N6QQFRAMTVQ"
+      },
+      {
+        "record_index": 16,
+        "source_query_keys": [
+          "mandur--food-retail--92969930",
+          "mankerni--food-retail--04935353"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "319 Trincomalee-Batticaloa Rd, Batticaloa 30000",
+            "after": "319 Trincomalee-Batticaloa Road, Batticaloa 30000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBBANDPT9TRD67HAXSJRJ8"
+      },
+      {
+        "record_index": 17,
+        "source_query_keys": [
+          "mandur--food-retail--92969930"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No362 Trinco Rd, Batticaloa",
+            "after": "No. 362 Trinco Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBBAR6TT4HFJK4KCK76200"
+      },
+      {
+        "record_index": 18,
+        "source_query_keys": [
+          "thuraineelavanai--food-retail--dba1eca5"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "PMHF+XP2, Trincomalee-Batticaloa Rd, Batticaloa",
+            "after": "PMHF+XP2, Trincomalee-Batticaloa Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBBATDR8H8A1W9VGE5SE2S"
+      },
+      {
+        "record_index": 19,
+        "source_query_keys": [
+          "mahiladithivu--public-facilities--0b051f89",
+          "pankudaveli--public-facilities--0cce0a5f"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "165D New Kalmunai Rd, Batticaloa",
+            "after": "165D New Kalmunai Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBBAW4VA55ET4FJSRN147C"
+      },
+      {
+        "record_index": 2,
+        "source_query_keys": [
+          "eravoor--food-local--6cd4f72f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "san_mfm",
+            "after": "San_Mfm",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "QJF3+PM5, Kathiyar Rd, Eravur",
+            "after": "QJF3+PM5, Kathiyar Road, Eravur",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBFPP89R9KJS7NHTPR805F"
+      },
+      {
+        "record_index": 3,
+        "source_query_keys": [
+          "eravoor--food-local--6cd4f72f"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "QJ7C+7JW, Trincomalee-Batticaloa Rd, Eravur",
+            "after": "QJ7C+7JW, Trincomalee-Batticaloa Road, Eravur",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBFPR5AC729T9TD8R9V5G9"
+      },
+      {
+        "record_index": 4,
+        "source_query_keys": [
+          "eravoor--food-local--6cd4f72f"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "QJH5+PXJ, Makkah madi Rd, Eravur",
+            "after": "QJH5+PXJ, Makkah madi Road, Eravur",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBFPSXJQXBCQX1KGRPY9XN"
+      },
+      {
+        "record_index": 5,
+        "source_query_keys": [
+          "eravoor--retail-local--6374f52f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "MINHA SUPER MARKET",
+            "after": "Minha Super Market",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M5ZBFPVZ3GAJX0C9RVYA0DV5"
+      },
+      {
+        "record_index": 6,
+        "source_query_keys": [
+          "eravoor--retail-local--6374f52f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "HIMAS SUPER MART",
+            "after": "Himas Super Mart",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "QJH3+5P9, Punnakuda Rd, Eravur",
+            "after": "QJH3+5P9, Punnakuda Road, Eravur",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBFPY3Q53EF2J6RY1TH7TN"
+      },
+      {
+        "record_index": 7,
+        "source_query_keys": [
+          "manmunai-pattu-araiyampathy--administrative-facilities--2ff0104c"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "PMMH+WG8, New Boundary Rd, Batticaloa",
+            "after": "PMMH+WG8, New Boundary Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBFPZZAECBAY2NGSJ64V44"
+      },
+      {
+        "record_index": 8,
+        "source_query_keys": [
+          "manmunai-pattu-araiyampathy--administrative-facilities--2ff0104c"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "233 Bar Rd - Batticaloa, Batticaloa",
+            "after": "233 Bar Road - Batticaloa, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBFQ1X2EMHAPCM65NSAXG5"
+      },
+      {
+        "record_index": 9,
+        "source_query_keys": [
+          "eravur-town--administrative-facilities--d8fd167a"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "QJF5+88X, Town,, Eravur",
+            "after": "QJF5+88X, Town, Eravur",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBFQ3NRHKBV20TZW9JH529"
+      },
+      {
+        "record_index": 11,
+        "source_query_keys": [
+          "mandur--food-retail--92969930"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "New Boundary Rd, Batticaloa 30000",
+            "after": "New Boundary Road, Batticaloa 30000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M5ZBFQ7RRY8V30GH72GYX21V"
+      },
       {
         "record_index": 2,
         "source_query_keys": [
@@ -5811,7 +6054,7 @@
     ],
     "phase6_3_cumulative_imported_count": 75
   },
-  "phase": "Phase 6.3 — northern Batticaloa batch",
+  "phase": "Phase 6.3 — complete Batticaloa District discovery and import",
   "generated_integrity": {
     "geojson_features": 4498,
     "mzp_sha256": "128e0049e42a194eb003f1832b2d7530ffae96baa6c80803e96cd7ccd7af04a5",
@@ -5832,11 +6075,11 @@
   },
   "before_after_integrity": {
     "before": {
-      "active_place_records": 4518,
-      "public_geographic_features": 4482,
-      "place_mzp_bytes": 2161540,
-      "place_mzp_gzip_bytes": 332909,
-      "place_mzp_sha256": "27beac6fe2cb53008d599573938140dd486a04c129b163de803fd001dabc4726",
+      "active_place_records": 4459,
+      "public_geographic_features": 4423,
+      "place_mzp_bytes": 2134899,
+      "place_mzp_gzip_bytes": 328415,
+      "place_mzp_sha256": "0b6c6d0cbb2cd26685eb70ee3486e26b390e18da38abe28627a215a1125b8589",
       "alias_count": 1086,
       "road_records": 3710,
       "road_sources_sha256": "ead714c9107595f2b25e9f96f70053f55d2b314f2a22862619fe9f37aef78a9c",
@@ -5890,5 +6133,59 @@
     ],
     "uncertain_and_conflicting_candidate_details_omitted": true,
     "no_unresolved_candidate_was_deleted_or_merged": true
+  },
+  "phase6_3_batches": [
+    {
+      "region": "south",
+      "pull_request": 24,
+      "merge_commit": "6892b4833744e9a3cee989d8ac5193c7f757ebfc",
+      "new_places": 27,
+      "name_changes": 9,
+      "address_changes": 6,
+      "active_before": 4459,
+      "active_after": 4486,
+      "features_after": 4450
+    },
+    {
+      "region": "central-south",
+      "pull_request": 25,
+      "merge_commit": "b72f5b475b8054eeafbadac7cdaf65363016e063",
+      "new_places": 20,
+      "name_changes": 2,
+      "address_changes": 7,
+      "active_before": 4486,
+      "active_after": 4506,
+      "features_after": 4470
+    },
+    {
+      "region": "central",
+      "pull_request": 26,
+      "merge_commit": "bfe9669b12aecca5b1d28a73b8d83b2ba84ffc40",
+      "new_places": 12,
+      "name_changes": 3,
+      "address_changes": 8,
+      "active_before": 4506,
+      "active_after": 4518,
+      "features_after": 4482
+    },
+    {
+      "region": "north + central-north",
+      "pull_request": 27,
+      "merge_commit": "353471b094e27ec388dee54211e97303ba65336a",
+      "new_places": 16,
+      "name_changes": 6,
+      "address_changes": 0,
+      "active_before": 4459,
+      "active_after": 4534,
+      "features_after": 4498
+    }
+  ],
+  "validation_summary": {
+    "python_tests": "109 passed in the final full local suite; PR validations also passed on the merged datasets",
+    "node_search_tests": "10 passed",
+    "place_road_speed_validators": "passed",
+    "contribution_validator": "passed on each geographic PR",
+    "place_road_speed_builds": "passed",
+    "browser_device_test": "not performed in this environment"
   }
 }
