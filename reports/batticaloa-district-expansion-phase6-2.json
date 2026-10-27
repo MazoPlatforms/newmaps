@@ -2530,5 +2530,20 @@
     "place_ids_or_aliases_changed": false,
     "other_place_attributes_changed_by_metadata_cleanup": false,
     "optional_contributor_provenance_remains_supported": true
+  },
+  "validation": {
+    "full_python_test_count": 104,
+    "full_python_tests_passed": true,
+    "places_validator_passed": true,
+    "roads_validator_passed": true,
+    "speed_limit_validator_passed": true,
+    "contribution_validator_passed": true,
+    "contribution_tree_changed_place_files": 1851,
+    "generated_manifest_consistent": true,
+    "baseline_place_ulids_missing": 0,
+    "aliases_identical_to_main": true,
+    "canonical_records_with_collection_or_import_markers": 0,
+    "nearby_same_name_review_groups_reported_by_contribution_validator": 2,
+    "automatic_merges_from_review_warnings": 0
   }
 }

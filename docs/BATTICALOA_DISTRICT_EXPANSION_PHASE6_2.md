@@ -45,6 +45,11 @@ These are raw candidate rows returned by successful prompts, grouped by prompt l
 - **Vahaneri:** agriculture-fisheries 7; community-recreation 40; education-local 6; food-local 30; health-specialty 6; public-services 3; retail-cooperative 10; rural-transport 25; textile-mobile 5; vehicle-services 20
 - **Vakarai:** agriculture-fisheries 6; community-recreation 44; education-local 7; food-local 58; health-specialty 5; public-services 1; retail-cooperative 11; rural-transport 1; textile-mobile 3; vehicle-services 30
 
+## Validation
+
+- Full Python suite: 104 tests passed. Place, road, speed-limit and contribution validators passed; place, road and speed-limit MZP builds succeeded.
+- All 4,341 pre-import active ULIDs and all 1,086 aliases are preserved. The contribution validator reports two nearby same-name groups for human review (four file warnings); no records were merged or removed for those warnings.
+
 ## Remaining gaps
 
 - 72 distinct planned prompts need retry after the CLI request limit clears; stderr from the first capture was not retained, while a later retry and a separate diagnostic both confirmed HTTP 429.
