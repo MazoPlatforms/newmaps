@@ -261,6 +261,77 @@ class MzcImportTests(unittest.TestCase):
         self.assertTrue(any(row["town"] == "Vellaveli" for row in plan))
         self.assertTrue(any("fishing supplies" in row["query"] for row in plan))
 
+    def test_capture_resumes_failed_queries_with_bounded_backoff_and_preserves_successes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            output = root / "capture"
+            output.mkdir()
+            success_query = "successful saved query"
+            failed_query = "recorded failed query"
+            success_payload = {"results": [{"name": "Saved Cafe"}]}
+            (output / "saved.json").write_text(json.dumps(success_payload), encoding="utf-8")
+            (output / "query-manifest.json").write_text(json.dumps([
+                {"query": success_query, "status": "success", "count": 1, "key": "saved"},
+                {"query": failed_query, "status": "failed", "count": 0, "key": "failed",
+                 "attempts": [{"attempt": 1, "error": "HTTP 429 rate limited"}]},
+            ]), encoding="utf-8")
+            plan = root / "plan.json"
+            plan.write_text(json.dumps([
+                {"query": success_query, "limit": 500, "country": "lk", "timeout": 30},
+                {"query": failed_query, "limit": 500, "country": "lk", "timeout": 30},
+            ]), encoding="utf-8")
+            calls = []
+            def fake_run(args, **kwargs):
+                calls.append(args)
+                if len(calls) == 1:
+                    return subprocess.CompletedProcess(args, 1, "", "HTTP 429")
+                return subprocess.CompletedProcess(args, 0, json.dumps({"results": [{"name": "New Cafe"}]}), "")
+            with patch.object(mzc_capture.subprocess, "run", side_effect=fake_run), \
+                 patch.object(mzc_capture.time, "sleep") as sleep:
+                summary = mzc_capture.capture(plan, output)
+            self.assertEqual(len(calls), 2)  # The saved success was not repeated.
+            self.assertEqual(calls[0], ["mzc", "-l", "500", "-c", "lk", "-t", "30", failed_query])
+            self.assertEqual(calls[1], calls[0])
+            self.assertEqual(sleep.call_args_list, [unittest.mock.call(2)])
+            self.assertEqual(summary["successful_queries"], 2)
+            self.assertEqual(summary["failed_queries"], 0)
+            self.assertEqual(json.loads((output / "saved.json").read_text()), success_payload)
+
+    def test_capture_keeps_a_query_failed_after_three_bounded_attempts(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            plan = root / "plan.json"
+            plan.write_text(json.dumps([{"query": "still blocked", "limit": 500,
+                                         "country": "lk", "timeout": 30}]), encoding="utf-8")
+            calls = []
+            def fail(args, **kwargs):
+                calls.append(args)
+                return subprocess.CompletedProcess(args, 1, "", "HTTP 429")
+            with patch.object(mzc_capture.subprocess, "run", side_effect=fail), \
+                 patch.object(mzc_capture.time, "sleep") as sleep:
+                summary = mzc_capture.capture(plan, root / "capture")
+            self.assertEqual(len(calls), 3)
+            self.assertEqual(sleep.call_args_list, [unittest.mock.call(2), unittest.mock.call(4)])
+            self.assertEqual(summary["failed_queries"], 1)
+            row = json.loads((root / "capture/query-manifest.json").read_text())[0]
+            self.assertEqual(row["failure_kind"], "rate_limited")
+
+    def test_capture_does_not_exceed_five_total_attempts_across_resumes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            output = root / "capture"
+            output.mkdir()
+            query = "already retried five times"
+            (output / "query-manifest.json").write_text(json.dumps([{
+                "query": query, "key": "blocked", "status": "failed", "count": 0,
+                "attempts": [{"attempt": n, "error": "HTTP 429 rate limited"} for n in range(1, 6)],
+            }]), encoding="utf-8")
+            plan = root / "plan.json"
+            plan.write_text(json.dumps([{"query": query, "limit": 500, "country": "lk"}]), encoding="utf-8")
+            with patch.object(mzc_capture.subprocess, "run") as run:
+                summary = mzc_capture.capture(plan, output)
+            run.assert_not_called()
+            self.assertEqual(summary["failed_queries"], 1)
     def test_mzc_capture_rejects_invalid_json_and_result_limit_overflow(self):
         with self.assertRaisesRegex(ValueError, "valid JSON"):
             mzc_capture.parse_response("not json")
@@ -272,7 +343,7 @@ class MzcImportTests(unittest.TestCase):
         self.assertEqual(mzc_capture.classify_cli_failure(1, "connection reset"),
                          "mzc exited with status 1")
 
-    def test_mzc_capture_stops_immediate_retries_on_rate_limit(self):
+    def test_mzc_capture_uses_bounded_backoff_for_rate_limit(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             plan_path = root / "plan.json"
@@ -284,13 +355,16 @@ class MzcImportTests(unittest.TestCase):
             rate_limited = subprocess.CompletedProcess(
                 args=["mzc"], returncode=1, stdout="", stderr="Error: HTTP 429"
             )
-            with patch.object(mzc_capture.subprocess, "run", return_value=rate_limited) as run:
+            with patch.object(mzc_capture.subprocess, "run", return_value=rate_limited) as run, \
+                 patch.object(mzc_capture.time, "sleep") as sleep:
                 result = mzc_capture.capture(plan_path, root / "captures")
-            self.assertEqual(run.call_count, 1)
+            self.assertEqual(run.call_count, 3)
+            self.assertEqual(sleep.call_args_list, [unittest.mock.call(2), unittest.mock.call(4)])
             self.assertEqual(result["failed_queries"], 1)
             manifest = json.loads((root / "captures/query-manifest.json").read_text(encoding="utf-8"))
             self.assertEqual(manifest[0]["failure_kind"], "rate_limited")
-            self.assertEqual(manifest[0]["attempts"][0]["error"], "HTTP 429 rate limited")
+            self.assertEqual([x["error"] for x in manifest[0]["attempts"]],
+                             ["HTTP 429 rate limited"] * 3)
             self.assertEqual(run.call_args.args[0], [
                 "mzc", "-l", "500", "-c", "lk", "-t", "30",
                 "public services in Vakarai, Batticaloa District, Sri Lanka",

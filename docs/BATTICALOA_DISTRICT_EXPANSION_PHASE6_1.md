@@ -14,7 +14,7 @@ Scope: Batticaloa District, Eastern Province, Sri Lanka
 - Unresolved nearby same-name pairs retained for review: 1.
 - Duplicate query rows collapsed: 12,706.
 - Candidate origin and license information is not exposed by the documented mzc CLI; maintainer review is required before attributing or redistributing the underlying data.
-- Place records are not independently verified and retain mzc provenance.
+- Canonical place records contain no importer-added provenance or source metadata. Captured listings were not independently verified.
 
 ## District and privacy checks
 
