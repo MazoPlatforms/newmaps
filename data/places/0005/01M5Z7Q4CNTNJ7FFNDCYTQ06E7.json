@@ -1,0 +1,58 @@
+{
+  "name": "Al-Hilal Library",
+  "coordinates": {
+    "latitude": 7.6770469,
+    "longitude": 81.7379235
+  },
+  "categories": [
+    "Library"
+  ],
+  "address": "MPGQ+R57, Deen Road, Kattankudy",
+  "phone": "0752346511",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M5Z7Q4CNTNJ7FFNDCYTQ06E7"
+}
