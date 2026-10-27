@@ -1,0 +1,61 @@
+{
+  "name": "Sub-Post Office Amirthakali",
+  "coordinates": {
+    "latitude": 7.7443674,
+    "longitude": 81.6925215
+  },
+  "categories": [
+    "Post office"
+  ],
+  "address": "PMVV+P2R, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--government, illipaiyadichchenai--government, koddaikallar--government, navatkudah-east--government, nuwaragalathenna--government, paddippalai--government, palameen-madu--government, rukamputur--government, trikkandimadu--government, tumpalancholai--government, urukamam--government, vahaneri--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N7GGN8CTNQNGFSCS9C61"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Medi Clinic Dr Sugumar",
+  "coordinates": {
+    "latitude": 7.782853599999999,
+    "longitude": 81.591212
+  },
+  "categories": [
+    "Hospital"
+  ],
+  "address": "QHMR+4FW, Pillayar Kovil Road, Chenkaladi",
+  "phone": "0652241317",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–9 AM",
+        "1:30–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–8 AM",
+        "1:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–8 AM",
+        "1:30–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–8 AM",
+        "1:30–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–8 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kurumunveli--health, urukamam--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N8WGX5P95B1G95AK3PBT"
+}

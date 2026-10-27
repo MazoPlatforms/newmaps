@@ -1,4 +1,4 @@
-# Batticaloa District Places Expansion — Phase 6.1 — Central-south batch
+# Batticaloa District Places Expansion — Phase 6.1 — central batch
 
 Scope: Batticaloa District, Eastern Province, Sri Lanka
 
@@ -9,8 +9,8 @@ Scope: Batticaloa District, Eastern Province, Sri Lanka
 - Capture accounting: Four preliminary successful administrative-area queries returned responses that were not retained, so their result counts are unknown and excluded. Two documented invocations were interrupted before capture and later retried successfully. Two query runners briefly overlapped; retained responses were reconciled by unique query, but the exact number of redundant calls cannot be reconstructed. Confirmed invocation count is therefore a lower bound.
 - Raw candidates in retained JSON captures: 14,948; duplicate calls with unavailable capture counts are excluded.
 - Unique candidates after normalized name and coordinate grouping: 2,242.
-- New public place records in this change: 254.
-- Imported names formatted: 72; imported addresses mechanically formatted: 85.
+- New public place records in this change: 147.
+- Imported names formatted: 51; imported addresses mechanically formatted: 40.
 - Unresolved nearby same-name pairs retained for review: 0.
 - Duplicate query rows collapsed: 12,706.
 - Candidate origin and license information is not exposed by the documented mzc CLI; maintainer review is required before attributing or redistributing the underlying data.
@@ -25,11 +25,11 @@ Scope: Batticaloa District, Eastern Province, Sri Lanka
 ## Counts
 
 - Excluded confirmed private: 0
-- Existing place duplicate: 1081
+- Existing place duplicate: 1335
 - Invalid missing coordinates: 0
 - Invalid missing name: 0
 - Mzc source conflict: 0
-- New public candidate: 628
+- New public candidate: 374
 - Out of district: 463
 - Uncertain public eligibility: 43
 - Unresolved existing match: 27
@@ -44,77 +44,77 @@ Scope: Batticaloa District, Eastern Province, Sri Lanka
 
 Counts overlap when a candidate appears in more than one category query. Query area means the search prompt, not a verified town assignment.
 
-- batticaloa: existing place duplicate 78, new public candidate 51
-- cheddipalaiyam: existing place duplicate 448, new public candidate 222, unresolved existing match 6
-- chenkaladi: existing place duplicate 75, new public candidate 51
-- eravur: existing place duplicate 52, new public candidate 66
-- illipaiyadichchenai: existing place duplicate 431, new public candidate 198, unresolved existing match 7
-- kalkudah: existing place duplicate 55, new public candidate 48, unresolved existing match 1
-- kaluwanchikudy: existing place duplicate 83, new public candidate 40, unresolved existing match 1
-- karadiyanaru: existing place duplicate 388, new public candidate 109, unresolved existing match 9
-- kiran: existing place duplicate 86, new public candidate 64, unresolved existing match 4
-- koddaikallar: existing place duplicate 445, new public candidate 224, unresolved existing match 5
-- kokkadichcholai: existing place duplicate 420, new public candidate 114, unresolved existing match 8
-- kurumunveli: existing place duplicate 411, new public candidate 103, unresolved existing match 9
-- mangalagama: existing place duplicate 310, new public candidate 89, unresolved existing match 4
-- navatkudah-east: existing place duplicate 375, new public candidate 83, unresolved existing match 7
-- nuwaragalathenna: existing place duplicate 537, new public candidate 131, unresolved existing match 13
-- paddippalai: existing place duplicate 432, new public candidate 102, unresolved existing match 7
-- palameen-madu: existing place duplicate 447, new public candidate 120, unresolved existing match 13
-- pasikudah: existing place duplicate 57, new public candidate 39, unresolved existing match 1
-- pasikudah-bay: existing place duplicate 73, new public candidate 39, unresolved existing match 2
-- periyakallar: existing place duplicate 294, new public candidate 70, unresolved existing match 3
-- puliyanthivu-east: existing place duplicate 85, new public candidate 69, unresolved existing match 7
-- puliyanthivu-south: existing place duplicate 85, new public candidate 51, unresolved existing match 5
-- puliyanthivu-west: existing place duplicate 72, new public candidate 57, unresolved existing match 6
-- rideethenna: existing place duplicate 449, new public candidate 109, unresolved existing match 10
-- rukamputur: existing place duplicate 462, new public candidate 120, unresolved existing match 6
-- trikkandimadu: existing place duplicate 410, new public candidate 81, unresolved existing match 10
-- tumpalancholai: existing place duplicate 395, new public candidate 114, unresolved existing match 5
-- unnichchai: existing place duplicate 306, new public candidate 55, unresolved existing match 6
-- urukamam: existing place duplicate 470, new public candidate 133, unresolved existing match 11
-- vahaneri: existing place duplicate 390, new public candidate 137, unresolved existing match 6
-- vakarai: existing place duplicate 60, new public candidate 55, unresolved existing match 1
-- valaichchenai: existing place duplicate 54, new public candidate 56, unresolved existing match 1
-- vellavely: existing place duplicate 403, new public candidate 113, unresolved existing match 12
-- vettukkadu: existing place duplicate 346, new public candidate 157, unresolved existing match 10
+- batticaloa: existing place duplicate 119, new public candidate 10
+- cheddipalaiyam: existing place duplicate 519, new public candidate 151, unresolved existing match 6
+- chenkaladi: existing place duplicate 106, new public candidate 20
+- eravur: existing place duplicate 75, new public candidate 43
+- illipaiyadichchenai: existing place duplicate 493, new public candidate 136, unresolved existing match 7
+- kalkudah: existing place duplicate 77, new public candidate 26, unresolved existing match 1
+- kaluwanchikudy: existing place duplicate 104, new public candidate 19, unresolved existing match 1
+- karadiyanaru: existing place duplicate 447, new public candidate 50, unresolved existing match 9
+- kiran: existing place duplicate 123, new public candidate 27, unresolved existing match 4
+- koddaikallar: existing place duplicate 494, new public candidate 175, unresolved existing match 5
+- kokkadichcholai: existing place duplicate 498, new public candidate 36, unresolved existing match 8
+- kurumunveli: existing place duplicate 462, new public candidate 52, unresolved existing match 9
+- mangalagama: existing place duplicate 353, new public candidate 46, unresolved existing match 4
+- navatkudah-east: existing place duplicate 432, new public candidate 26, unresolved existing match 7
+- nuwaragalathenna: existing place duplicate 622, new public candidate 46, unresolved existing match 13
+- paddippalai: existing place duplicate 499, new public candidate 35, unresolved existing match 7
+- palameen-madu: existing place duplicate 530, new public candidate 37, unresolved existing match 13
+- pasikudah: existing place duplicate 74, new public candidate 22, unresolved existing match 1
+- pasikudah-bay: existing place duplicate 96, new public candidate 16, unresolved existing match 2
+- periyakallar: existing place duplicate 339, new public candidate 25, unresolved existing match 3
+- puliyanthivu-east: existing place duplicate 129, new public candidate 25, unresolved existing match 7
+- puliyanthivu-south: existing place duplicate 125, new public candidate 11, unresolved existing match 5
+- puliyanthivu-west: existing place duplicate 117, new public candidate 12, unresolved existing match 6
+- rideethenna: existing place duplicate 534, new public candidate 24, unresolved existing match 10
+- rukamputur: existing place duplicate 542, new public candidate 40, unresolved existing match 6
+- trikkandimadu: existing place duplicate 468, new public candidate 23, unresolved existing match 10
+- tumpalancholai: existing place duplicate 478, new public candidate 31, unresolved existing match 5
+- unnichchai: existing place duplicate 341, new public candidate 20, unresolved existing match 6
+- urukamam: existing place duplicate 551, new public candidate 52, unresolved existing match 11
+- vahaneri: existing place duplicate 463, new public candidate 64, unresolved existing match 6
+- vakarai: existing place duplicate 94, new public candidate 21, unresolved existing match 1
+- valaichchenai: existing place duplicate 82, new public candidate 28, unresolved existing match 1
+- vellavely: existing place duplicate 479, new public candidate 37, unresolved existing match 12
+- vettukkadu: existing place duplicate 442, new public candidate 61, unresolved existing match 10
 
 ## Category-prompt coverage
 
-- accommodation: existing place duplicate 476, new public candidate 57, unresolved existing match 4
-- agriculture-fisheries: existing place duplicate 72, new public candidate 77
-- clothing-textiles: existing place duplicate 140, new public candidate 226, unresolved existing match 1
-- community-library: existing place duplicate 15, new public candidate 81, unresolved existing match 3
-- education: existing place duplicate 367, new public candidate 18, unresolved existing match 55
-- electronics-mobile: existing place duplicate 217, new public candidate 168, unresolved existing match 61
-- finance: existing place duplicate 976, new public candidate 9
-- food: existing place duplicate 1141, new public candidate 118, unresolved existing match 29
-- government: existing place duplicate 495, new public candidate 329, unresolved existing match 14
-- hardware-building: existing place duplicate 209, new public candidate 467
-- health: existing place duplicate 619, new public candidate 16, unresolved existing match 1
-- printing-photo: existing place duplicate 302, new public candidate 203
-- recreation: existing place duplicate 452, new public candidate 18, unresolved existing match 2
-- religious: existing place duplicate 1058, new public candidate 792, unresolved existing match 22
+- accommodation: existing place duplicate 507, new public candidate 26, unresolved existing match 4
+- agriculture-fisheries: existing place duplicate 124, new public candidate 25
+- clothing-textiles: existing place duplicate 336, new public candidate 30, unresolved existing match 1
+- community-library: existing place duplicate 87, new public candidate 9, unresolved existing match 3
+- education: existing place duplicate 381, new public candidate 4, unresolved existing match 55
+- electronics-mobile: existing place duplicate 297, new public candidate 88, unresolved existing match 61
+- finance: existing place duplicate 985
+- food: existing place duplicate 1200, new public candidate 59, unresolved existing match 29
+- government: existing place duplicate 670, new public candidate 154, unresolved existing match 14
+- hardware-building: existing place duplicate 434, new public candidate 242
+- health: existing place duplicate 631, new public candidate 4, unresolved existing match 1
+- printing-photo: existing place duplicate 437, new public candidate 68
+- recreation: existing place duplicate 462, new public candidate 8, unresolved existing match 2
+- religious: existing place duplicate 1438, new public candidate 412, unresolved existing match 22
 - retail: existing place duplicate 775, new public candidate 24
-- salon-beauty: existing place duplicate 283, new public candidate 108
-- sports-fitness: existing place duplicate 94, new public candidate 330, unresolved existing match 3
-- tourism-attractions: existing place duplicate 951, new public candidate 95, unresolved existing match 1
+- salon-beauty: existing place duplicate 325, new public candidate 66
+- sports-fitness: existing place duplicate 312, new public candidate 112, unresolved existing match 3
+- tourism-attractions: existing place duplicate 1019, new public candidate 27, unresolved existing match 1
 - transport: existing place duplicate 149
-- vehicle: existing place duplicate 488, new public candidate 76
-- wholesale-commercial: existing place duplicate 205, new public candidate 58
+- vehicle: existing place duplicate 502, new public candidate 62
+- wholesale-commercial: existing place duplicate 236, new public candidate 27
 
 ## Generated integrity
 
-- Public geographic features: 3,931.
+- Public geographic features: 4,078.
 - Aliases: 1,086; maximum place shard: 999.
-- MZP size: 2,340,256 bytes (309,201 gzip bytes).
-- MZP SHA-256: `6884f0529e82e3aff97f9fb2dd27ea797295436a9d83b1c7328fd70d8f7b0171`.
+- MZP size: 2,454,522 bytes (323,650 gzip bytes).
+- MZP SHA-256: `1635f14325eed5ed280bab5ebbe18f30d9e2fc6d9d43a6ba6177eaf8b720d4bf`.
 - Unmodified sources: 3,710 roads; 3,710 speed-limit records; 462 supplementary maxspeed tags.
 
 ## Before/after checks
 
-- Active place records: 3,713 → 3,967; geographic features: 3,677 → 3,931.
-- Place MZP download size: 284,620 → 309,201 gzip bytes (+24,581).
+- Active place records: 3,967 → 4,114; geographic features: 3,931 → 4,078.
+- Place MZP download size: 309,201 → 323,650 gzip bytes (+14,449).
 - Previous place ULIDs retained: True; aliases retained: True (1,086).
 - Roads: 3,710 → 3,710; source checksum unchanged: True.
 - Speed limits: 3,710 → 3,710; source checksum unchanged: True.

@@ -1,0 +1,64 @@
+{
+  "name": "Word Of Power Ministries",
+  "coordinates": {
+    "latitude": 7.730685299999999,
+    "longitude": 81.6992389
+  },
+  "categories": [
+    "United Church of Christ",
+    "Christian church"
+  ],
+  "address": "118, Bar Road, Batticaloa., Srilanka, Batticaloa 30000",
+  "phone": "0652222948",
+  "website": "http://www.wopmsrilanka.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kokkadichcholai--religious, rideethenna--religious, vettukkadu--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N9MRYP6G9KGNZ2FM7RGB"
+}

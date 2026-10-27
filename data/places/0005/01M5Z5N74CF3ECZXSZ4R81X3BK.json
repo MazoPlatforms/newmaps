@@ -1,0 +1,62 @@
+{
+  "name": "Al Amin General Trading Company (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.7875545,
+    "longitude": 81.617601
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "QJQ9+22H, Meerakeny Masjid Road, Eravur",
+  "phone": "0775027768",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--retail, karadiyanaru--retail, kurumunveli--retail, mangalagama--retail, navatkudah-east--retail, paddippalai--retail, periyakallar--retail, rukamputur--retail, urukamam--retail, vahaneri--retail, vellavely--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N74CF3ECZXSZ4R81X3BK"
+}
