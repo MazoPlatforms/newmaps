@@ -1,0 +1,57 @@
+{
+  "name": "Kannankudah Public Library",
+  "coordinates": {
+    "latitude": 7.677268199999999,
+    "longitude": 81.6734767
+  },
+  "categories": [
+    "Library"
+  ],
+  "address": "MMGF+W95, manmunai, west",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M5Z7Q4GS5C1DEDB3QNX79V57"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "New Milk Bar Hotel",
+  "coordinates": {
+    "latitude": 7.7133015,
+    "longitude": 81.6990852
+  },
+  "categories": [
+    "Juice shop"
+  ],
+  "address": "PM7X+8JG, Batticaloa",
+  "phone": "0776687422",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M5Z7QE0Q4G13Q5RY6KFV4282"
+}

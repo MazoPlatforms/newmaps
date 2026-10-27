@@ -1,0 +1,57 @@
+{
+  "name": "Zebra Sports Club",
+  "coordinates": {
+    "latitude": 7.6464564,
+    "longitude": 81.73978629999999
+  },
+  "categories": [
+    "Sports club"
+  ],
+  "address": "30153, Thalankudah 30153",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    }
+  ],
+  "id": "01M5Z7Q4ZGY47S1CPMBRK4FR80"
+}

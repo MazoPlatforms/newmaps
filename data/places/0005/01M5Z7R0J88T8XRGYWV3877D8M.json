@@ -1,0 +1,58 @@
+{
+  "name": "Yamaha Motorbike Service Centre",
+  "coordinates": {
+    "latitude": 7.7853050999999995,
+    "longitude": 81.42789839999999
+  },
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "address": "Perillaveli",
+  "phone": "0773268484",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M5Z7R0J88T8XRGYWV3877D8M"
+}

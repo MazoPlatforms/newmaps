@@ -1,0 +1,58 @@
+{
+  "name": "Bombay Cream House",
+  "coordinates": {
+    "latitude": 7.7134347,
+    "longitude": 81.6978496
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "PM7X+94H, Main Street, Batticaloa",
+  "phone": "0775751076",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "id": "01M5Z7QDYRY07EY9PFPTFRS108"
+}

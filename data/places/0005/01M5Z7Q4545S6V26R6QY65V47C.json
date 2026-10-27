@@ -1,0 +1,58 @@
+{
+  "name": "Pearl Dental Surgery & Clinic",
+  "coordinates": {
+    "latitude": 7.673422599999999,
+    "longitude": 81.73323359999999
+  },
+  "categories": [
+    "Dental clinic"
+  ],
+  "address": "Main St, Batticaloa",
+  "phone": "0776464373",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    }
+  ],
+  "id": "01M5Z7Q4545S6V26R6QY65V47C"
+}

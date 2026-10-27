@@ -185,12 +185,10 @@ def group_candidates(rows: list[dict]) -> list[dict]:
                 record[field] = options[0]
         if isinstance(record.get("address"), str):
             record["address"] = normalize_address(record["address"])
+        # Discovery-query accounting belongs in the aggregate operational
+        # report. Canonical place records use the ordinary Mazo Maps schema and
+        # do not identify the owner's discovery tool as a data provider.
         queries = sorted({member["query"]["key"] for member in members})
-        record["provenance"] = {
-            "source_name": "mzc",
-            "notes": ("Discovery queries: " + ", ".join(queries) +
-                      ". CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."),
-        }
         changes = []
         if chosen_name != record["name"]:
             changes.append({"field": "name", "before": chosen_name, "after": record["name"],
