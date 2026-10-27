@@ -1,0 +1,58 @@
+{
+  "name": "Kumar Motors",
+  "coordinates": {
+    "latitude": 7.723866999999999,
+    "longitude": 81.69468909999999
+  },
+  "categories": [
+    "Motorcycle repair shop"
+  ],
+  "address": "land, Barathi Ln, Batticaloa",
+  "phone": "0771724326",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M5ZBB9QJ2CVXAZT92WCNTHYP"
+}

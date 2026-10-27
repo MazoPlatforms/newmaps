@@ -1,0 +1,57 @@
+{
+  "name": "Kallady Fish Market",
+  "coordinates": {
+    "latitude": 7.7163378,
+    "longitude": 81.7105375
+  },
+  "categories": [
+    "Market"
+  ],
+  "address": "PP86+G6M, Colombo - Batticaloa Hwy, Kallady",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "id": "01M5ZBBA1MWQEZ10TT4Q0KA9DP"
+}

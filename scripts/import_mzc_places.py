@@ -30,8 +30,8 @@ from places_cleanup_phase2 import normalize_address
 
 DEFAULT_INPUT = Path("/tmp/mazo-phase6-mzc")
 BOUNDARY_PATH = ROOT / "data/boundaries/batticaloa-district.geojson"
-REPORT_JSON = ROOT / "reports/batticaloa-district-expansion-phase6.json"
-REPORT_MD = ROOT / "docs/BATTICALOA_DISTRICT_EXPANSION_PHASE6.md"
+REPORT_JSON = ROOT / "reports/batticaloa-district-expansion-phase6-3.json"
+REPORT_MD = ROOT / "docs/BATTICALOA_DISTRICT_EXPANSION_PHASE6_3.md"
 # Latitude bands keep source-record review commits geographically bounded.
 REGIONS = {
     "south": (float("-inf"), 7.70),
