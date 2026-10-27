@@ -2,17 +2,18 @@ import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs
 import { createPlaceLookup, decodePlaceDetails, decodeSearchIndex } from './place-delivery.mjs';
 import { discoveryCategoryFor } from './place-categories.mjs';
 import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=phase9-cartography-1';
-import { applyMazoCartographicStyle, MAZO_PALETTE } from './cartographic-style.mjs?v=phase9-cartography-1';
+import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=phase9-basemap-audit-1';
 
 // Reliable OpenFreeMap fallback; optional local PMTiles are enabled only after verification.
 const $=s=>document.querySelector(s);
-const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https://tiles.openfreemap.org/styles/dark'};
+const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https://tiles.openfreemap.org/styles/liberty'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const cameraDuration=milliseconds=>reducedMotionDuration(milliseconds,window.matchMedia?.('(prefers-reduced-motion: reduce)').matches===true);
 const map=new maplibregl.Map({container:'map',style:styles[theme()],...CAMERA_OPTIONS});
 // A bounded test-only camera/inspection facade for reproducible browser scenarios.
 if(new URLSearchParams(location.search).has('map-test'))window.__MAZO_MAP_TEST__=Object.freeze({
- isStyleLoaded:()=>map.isStyleLoaded(),jumpTo:options=>map.jumpTo(options),easeTo:options=>map.easeTo(options),
+ isStyleLoaded:()=>map.isStyleLoaded(),areTilesLoaded:()=>map.areTilesLoaded(),jumpTo:options=>map.jumpTo(options),
+ jumpToWhenIdle:options=>new Promise(resolve=>{let timer;const done=()=>{clearTimeout(timer);resolve(true)};map.once('idle',done);map.jumpTo(options);timer=setTimeout(()=>{map.off('idle',done);resolve(false)},15000)}),easeTo:options=>map.easeTo(options),
  getCenter:()=>map.getCenter(),getZoom:()=>map.getZoom(),getBearing:()=>map.getBearing(),getPitch:()=>map.getPitch(),
  getMinZoom:()=>map.getMinZoom(),getMaxZoom:()=>map.getMaxZoom(),getStyle:()=>map.getStyle(),
  isDragRotateEnabled:()=>map.dragRotate.isEnabled(),isTouchZoomRotateEnabled:()=>map.touchZoomRotate.isEnabled(),
@@ -511,7 +512,7 @@ map.on('error',event=>{
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && !layer.id.startsWith('mazo-') && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
+map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
 async function checkedJson(file,sha256){
  const response=await fetch(file+'?v='+sha256);if(!response.ok)throw Error(file+' '+response.status);
  const bytes=await response.arrayBuffer();
