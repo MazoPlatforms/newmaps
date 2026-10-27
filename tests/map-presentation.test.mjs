@@ -80,4 +80,3 @@ test('rotation gestures are disabled while keyboard panning and pinch zoom remai
   assert.equal(map.bearing, 0);
   assert.equal(map.pitch, 0);
 });
-
