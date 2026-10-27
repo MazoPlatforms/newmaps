@@ -1,0 +1,57 @@
+{
+  "name": "Pharma Distributors",
+  "coordinates": {
+    "latitude": 7.7211718,
+    "longitude": 81.7035202
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "165D New Kalmunai Road, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1–10 PM"
+      ]
+    }
+  ],
+  "id": "01M5ZBBAW4VA55ET4FJSRN147C"
+}

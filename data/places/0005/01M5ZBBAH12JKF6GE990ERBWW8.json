@@ -1,0 +1,58 @@
+{
+  "name": "Vasanth Bake House & Cool Bar",
+  "coordinates": {
+    "latitude": 7.7247949,
+    "longitude": 81.6911501
+  },
+  "categories": [
+    "Bakery"
+  ],
+  "address": "PMFR+WF6, Batticaloa",
+  "phone": "0771957655",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "id": "01M5ZBBAH12JKF6GE990ERBWW8"
+}
