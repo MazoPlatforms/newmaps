@@ -167,7 +167,9 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
             self.assertEqual(record["name"], row["after"])
             self.assertEqual(normalize_place_name(record["name"]), record["name"])
         active_ids = {p.stem for p in (ROOT / "data/places").glob("*/*.json")}
-        self.assertEqual(active_ids | set(aliases), {row["id"] for row in json.loads((ROOT / "migration-record-map.json").read_text())})
+        mapped_ids = {row["id"] for row in json.loads((ROOT / "migration-record-map.json").read_text())}
+        self.assertTrue(mapped_ids <= active_ids | set(aliases))
+        self.assertEqual(active_ids & mapped_ids, mapped_ids - set(aliases))
 
     def test_rollback_restores_retired_and_normalized_records_in_isolation(self):
         old = (cleanup.ROOT, cleanup.PLACES, cleanup.ALIASES,
@@ -223,7 +225,11 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
 
     def test_shards_mzp_and_manifest_stay_consistent(self):
         records, shard_counts, _ = places.load_places()
-        self.assertEqual(len(records), len(json.loads((ROOT / "migration-record-map.json").read_text())) - len(places.load_aliases()))
+        mapped_ids = {row["id"] for row in json.loads((ROOT / "migration-record-map.json").read_text())}
+        aliases = places.load_aliases()
+        mapped_active_ids = {record["id"] for record in records} & mapped_ids
+        self.assertTrue(mapped_ids <= mapped_active_ids | set(aliases))
+        self.assertEqual(mapped_active_ids, mapped_ids - set(aliases))
         self.assertEqual(sum(shard_counts.values()), len(records))
         self.assertTrue(all(count <= places.LIMIT for count in shard_counts.values()))
         places.build()

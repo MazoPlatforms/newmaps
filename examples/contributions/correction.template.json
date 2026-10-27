@@ -1,0 +1,21 @@
+{
+  "record_id": "REPLACE_WITH_EXISTING_26_CHARACTER_ULID",
+  "changes": {
+    "name": "REPLACE ONLY WHEN THE SOURCE SUPPORTS THIS SPELLING",
+    "address": "REPLACE ONLY WITH A VERIFIED PUBLIC ADDRESS",
+    "coordinates": null,
+    "categories": [
+      "REPLACE WITH VERIFIED PUBLIC PLACE CATEGORY"
+    ]
+  },
+  "evidence": {
+    "source_name": "REPLACE WITH SOURCE NAME",
+    "source_url": "https://example.org/replace-with-source",
+    "checked_at": "2026-01-01T00:00:00Z",
+    "checked_by": "REPLACE WITH YOUR GITHUB HANDLE"
+  },
+  "privacy_confirmation": {
+    "public_place_or_public_facing_business": true,
+    "no_private_residential_details_added": true
+  }
+}

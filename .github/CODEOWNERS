@@ -1,0 +1,10 @@
+# Place records and the public-data validation path require maintainer review.
+/data/places/ @itzmzn
+/data/place.schema.json @itzmzn
+/scripts/places.py @itzmzn
+/scripts/place_contributions.py @itzmzn
+/scripts/validate_place_contributions.py @itzmzn
+/.github/workflows/validate-places.yml @itzmzn
+/.github/PULL_REQUEST_TEMPLATE/ @itzmzn
+/.github/CODEOWNERS @itzmzn
+/CONTRIBUTING.md @itzmzn

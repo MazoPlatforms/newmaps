@@ -25,7 +25,9 @@ class PlaceQualityAuditTests(unittest.TestCase):
         report = audit.audit()
         rows = report["records"]
         ids = [row["id"] for row in rows]
-        self.assertEqual(len(rows), 3694)
+        mapped_ids = {row["id"] for row in json.loads((ROOT / "migration-record-map.json").read_text())}
+        self.assertGreaterEqual(len(rows), len(mapped_ids))
+        self.assertTrue(mapped_ids <= set(ids))
         self.assertEqual(len(ids), len(set(ids)))
         self.assertTrue(all(audit.ULID.fullmatch(value) for value in ids))
         self.assertTrue(all(row["independent_lookup_links"]["openstreetmap_search"].startswith("https://www.openstreetmap.org/search?") for row in rows))

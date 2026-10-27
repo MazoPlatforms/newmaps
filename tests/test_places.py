@@ -31,9 +31,12 @@ class PlaceTests(unittest.TestCase):
         records,shards,suspicious=places.load_places()
         mapping=json.loads((places.ROOT/'migration-record-map.json').read_text())
         aliases=places.load_aliases()
-        self.assertEqual(len(records),len(mapping)-len(aliases))
         self.assertEqual(len(mapping),3694)
-        self.assertEqual({row['id'] for row in mapping},{r['id'] for r in records}|set(aliases))
+        mapped_ids={row['id'] for row in mapping}
+        mapped_active_ids={r['id'] for r in records}&mapped_ids
+        self.assertTrue(mapped_ids <= mapped_active_ids|set(aliases))
+        self.assertEqual(mapped_active_ids,mapped_ids-set(aliases))
+        self.assertGreaterEqual(len(records),len(mapped_active_ids))
         self.assertEqual(sum(shards.values()),len(records))
         self.assertGreaterEqual(len(aliases),1039)
         self.assertGreaterEqual(len(suspicious),0)
@@ -54,5 +57,19 @@ class PlaceTests(unittest.TestCase):
     def test_migration_refuses_to_overwrite_active_places(self):
         with self.assertRaisesRegex(ValueError,'refusing to overwrite'):
             places.migrate()
+
+    def test_null_coordinates_are_valid_but_invalid_non_null_ranges_always_fail(self):
+        base={"id":"01AAAAAAAAAAAAAAAAAAAAAAAA","name":"Community Library","coordinates":None,
+              "categories":["Library"]}
+        places.validate_record(base)
+        for coordinates in (
+            {"latitude":91,"longitude":0},
+            {"latitude":0,"longitude":181},
+            {"latitude":True,"longitude":0},
+            {"latitude":float("nan"),"longitude":0},
+        ):
+            with self.subTest(coordinates=coordinates):
+                with self.assertRaisesRegex(ValueError,"invalid coordinates"):
+                    places.validate_record({**base,"coordinates":coordinates},allow_invalid_coordinates=True)
 
 if __name__=='__main__':unittest.main()

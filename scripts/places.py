@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Mazo Maps place data validator, allocator, migrator and MZP builder."""
-import argparse, hashlib, json, os, re, secrets, sys, time
+import argparse, hashlib, json, math, os, re, secrets, sys, time
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -16,6 +16,11 @@ def encode_ulid(ms, randomness):
     for _ in range(26): out='0123456789ABCDEFGHJKMNPQRSTVWXYZ'[value&31]+out; value>>=5
     return out
 def new_ulid(): return encode_ulid(int(time.time()*1000),secrets.randbits(80))
+def new_unique_ulid():
+    records,_,_=load_places(); used={record['id'] for record in records}|set(load_aliases())
+    candidate=new_ulid()
+    while candidate in used:candidate=new_ulid()
+    return candidate
 def shard_files(shard): return sorted(p for p in shard.glob('*.json') if p.is_file())
 def next_shard():
     shards=sorted((p for p in PLACES.iterdir() if p.is_dir()),key=lambda p:int(p.name)) if PLACES.exists() else []
@@ -29,14 +34,16 @@ def validate_record(record, path=None, allow_invalid_coordinates=False):
     if not isinstance(record.get('id'),str) or not ULID.fullmatch(record['id']): raise ValueError(f'{path}: invalid 26-character ULID')
     if path and path.stem!=record['id']: raise ValueError(f'{path}: filename must match id')
     if not isinstance(record.get('name'),str) or not record['name'].strip(): raise ValueError(f'{path}: name is required')
-    c=record.get('coordinates');
-    if not isinstance(c,dict):
-        if allow_invalid_coordinates:return
-        raise ValueError(f'{path}: coordinates object is required')
-    lat,lon=c.get('latitude'),c.get('longitude')
-    if not isinstance(lat,(int,float)) or not isinstance(lon,(int,float)) or not (-90<=lat<=90 and -180<=lon<=180):
-        if allow_invalid_coordinates:return
-        raise ValueError(f'{path}: invalid coordinates')
+    if 'coordinates' not in record: raise ValueError(f'{path}: coordinates is required; use null when location is unverified')
+    c=record.get('coordinates')
+    if c is not None:
+        if not isinstance(c,dict): raise ValueError(f'{path}: coordinates must be an object or null')
+        lat,lon=c.get('latitude'),c.get('longitude')
+        if (isinstance(lat,bool) or isinstance(lon,bool) or
+            not isinstance(lat,(int,float)) or not isinstance(lon,(int,float)) or
+            not math.isfinite(lat) or not math.isfinite(lon) or
+            not (-90<=lat<=90 and -180<=lon<=180)):
+            raise ValueError(f'{path}: invalid coordinates')
     if 'categories' in record and (not isinstance(record['categories'],list) or not all(isinstance(x,str) and x.strip() for x in record['categories'])): raise ValueError(f'{path}: categories must be an array of non-empty strings')
 def load_places():
     records=[]; ids=set(); counts={}; suspicious=[]
@@ -69,6 +76,13 @@ def load_aliases():
     if not ALIASES.exists(): return {}
     data=json.loads(ALIASES.read_text(encoding='utf8'))
     if data.get('version')!=1 or not isinstance(data.get('aliases'),dict): raise ValueError('Invalid place aliases.json')
+    for retired_id,entry in data['aliases'].items():
+        if not isinstance(retired_id,str) or not ULID.fullmatch(retired_id): raise ValueError(f'Invalid retired place ULID: {retired_id!r}')
+        if not isinstance(entry,dict) or not isinstance(entry.get('canonical_id'),str) or not ULID.fullmatch(entry['canonical_id']):
+            raise ValueError(f'Invalid canonical target for retired place ULID: {retired_id}')
+        if entry['canonical_id']==retired_id: raise ValueError(f'Place alias points to itself: {retired_id}')
+        if 'record' in entry and (not isinstance(entry['record'],dict) or entry['record'].get('id')!=retired_id):
+            raise ValueError(f'Alias record ID does not match retired ULID: {retired_id}')
     return data['aliases']
 def resolve_place_id(record_id, aliases=None):
     aliases=load_aliases() if aliases is None else aliases
@@ -101,9 +115,12 @@ def allocate(record, allow_duplicate_candidate=False):
     eligibility=classify_place(record)
     if not eligibility['eligible_for_public_map']:
         raise ValueError('Place does not have sufficient public-map eligibility evidence; keep it out of public data pending review')
+    existing_records,_,_=load_places()
+    used_ids={p['id'] for p in existing_records}|set(load_aliases())
+    while record['id'] in used_ids: record['id']=new_ulid()
     if not allow_duplicate_candidate and isinstance(record.get('coordinates'),dict):
         incoming=(re.sub(r'[^\w]','',record['name'].casefold()),record['coordinates'].get('latitude'),record['coordinates'].get('longitude'))
-        for existing in load_places()[0]:
+        for existing in existing_records:
             c=existing.get('coordinates')
             if not isinstance(c,dict): continue
             key=(re.sub(r'[^\w]','',existing['name'].casefold()),c.get('latitude'),c.get('longitude'))
@@ -111,6 +128,7 @@ def allocate(record, allow_duplicate_candidate=False):
     shard=next_shard();shard.mkdir(parents=True,exist_ok=True);target=shard/(record['id']+'.json')
     with target.open('x',encoding='utf8') as f:json.dump(record,f,ensure_ascii=False,indent=2);f.write('\n')
     print(target.relative_to(ROOT))
+    return target
 def migrate():
     if PLACES.exists(): raise ValueError(f'{PLACES.relative_to(ROOT)} already exists; refusing to overwrite place records')
     if not SOURCE_FILES: raise ValueError('No legacy root-level place datasets found; refusing to create an empty migration')
@@ -142,7 +160,7 @@ def main():
     a=sub.add_parser('add');a.add_argument('json_file',type=Path);a.add_argument('--allow-duplicate-candidate',action='store_true')
     args=parser.parse_args()
     try:
-        if args.cmd=='ulid':print(new_ulid())
+        if args.cmd=='ulid':print(new_unique_ulid())
         elif args.cmd=='add':allocate(json.loads(args.json_file.read_text(encoding='utf8')),args.allow_duplicate_candidate)
         elif args.cmd=='migrate':migrate()
         elif args.cmd=='validate':

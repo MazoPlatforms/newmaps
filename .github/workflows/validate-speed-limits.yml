@@ -49,6 +49,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
@@ -64,13 +66,13 @@ jobs:
       - run: python scripts/speed_limits.py build
       - run: python -m unittest discover -s tests -v
       - name: Generate complete Places audit report
-        if: startsWith(github.head_ref, 'audit/places-data-quality-')
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && startsWith(github.head_ref, 'audit/places-data-quality-')
         run: python scripts/audit_places_quality.py
       - name: Validate report invariants
-        if: startsWith(github.head_ref, 'audit/places-data-quality-')
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && startsWith(github.head_ref, 'audit/places-data-quality-')
         run: python scripts/audit_places_quality.py --check
       - name: Upload per-record Places audit report
-        if: startsWith(github.head_ref, 'audit/places-data-quality-')
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && startsWith(github.head_ref, 'audit/places-data-quality-')
         uses: actions/upload-artifact@v4
         with:
           name: places-quality-audit-2026-10-27

@@ -18,7 +18,19 @@
     "phone": {"type": "string"},
     "website": {"type": "string"},
     "hours": {"type": "array"},
-    "business_status": {"type": "string"}
+    "business_status": {"type": "string"},
+    "provenance": {
+      "type": "object",
+      "description": "Optional source details for a contributor-supplied place; never include private residential information.",
+      "properties": {
+        "source_name": {"type": "string", "minLength": 1},
+        "source_url": {"type": "string", "minLength": 1},
+        "checked_at": {"type": "string", "format": "date-time"},
+        "checked_by": {"type": "string", "pattern": "^[A-Za-z0-9-]{1,39}$"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
   },
   "additionalProperties": true
 }
