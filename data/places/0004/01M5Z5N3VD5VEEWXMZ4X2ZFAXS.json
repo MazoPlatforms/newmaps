@@ -1,0 +1,63 @@
+{
+  "name": "Mary Multi Store",
+  "coordinates": {
+    "latitude": 7.7314181,
+    "longitude": 81.6817476
+  },
+  "categories": [
+    "Hardware store"
+  ],
+  "address": "86 Trincomalee-Batticaloa Road, Batticaloa",
+  "phone": "0755520321",
+  "website": "https://marymultistore.blogspot.com/?m=1",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--hardware-building, cheddipalaiyam--hardware-building, chenkaladi--hardware-building, eravur--hardware-building, illipaiyadichchenai--hardware-building, kalkudah--hardware-building, kaluwanchikudy--hardware-building, karadiyanaru--hardware-building, kiran--hardware-building, kokkadichcholai--hardware-building, kurumunveli--hardware-building, mangalagama--hardware-building, navatkudah-east--hardware-building, nuwaragalathenna--hardware-building, paddippalai--hardware-building, palameen-madu--hardware-building, periyakallar--hardware-building, rideethenna--hardware-building, rukamputur--hardware-building, trikkandimadu--hardware-building, tumpalancholai--hardware-building, unnichchai--hardware-building, urukamam--hardware-building, vahaneri--hardware-building, vakarai--hardware-building, valaichchenai--hardware-building, vellavely--hardware-building, vettukkadu--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N3VD5VEEWXMZ4X2ZFAXS"
+}

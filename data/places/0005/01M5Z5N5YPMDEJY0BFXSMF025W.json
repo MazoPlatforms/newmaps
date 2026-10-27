@@ -1,0 +1,64 @@
+{
+  "name": "Abans Chenkalady",
+  "coordinates": {
+    "latitude": 7.782017,
+    "longitude": 81.59494649999999
+  },
+  "categories": [
+    "Electronics store"
+  ],
+  "address": "Trinco Road, Trincomalee-Batticaloa Road, Chenkaladi",
+  "phone": "0769204773",
+  "website": "https://buyabans.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–8 AM",
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kiran--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N5YPMDEJY0BFXSMF025W"
+}

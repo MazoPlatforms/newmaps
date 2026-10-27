@@ -1,0 +1,62 @@
+{
+  "name": "Dawood Chutty Land",
+  "coordinates": {
+    "latitude": 7.787077399999999,
+    "longitude": 81.6293852
+  },
+  "categories": [
+    "Tourist attraction"
+  ],
+  "address": "Savukkady Beach Road, Eravur",
+  "phone": "0763724746",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--tourism-attractions, kaluwanchikudy--tourism-attractions. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N5VF5VYNV0HCDMWGSQHR"
+}

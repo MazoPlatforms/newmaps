@@ -1,0 +1,62 @@
+{
+  "name": "Leena's Cakes & Dessert",
+  "coordinates": {
+    "latitude": 7.7734346,
+    "longitude": 81.6085212
+  },
+  "categories": [
+    "Coffee shop"
+  ],
+  "address": "QJF5+9C8, Mani Street, Eravur",
+  "phone": "0761776093",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30 PM–12:30 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--food, illipaiyadichchenai--food, karadiyanaru--food, koddaikallar--food, kokkadichcholai--food, mangalagama--food, navatkudah-east--food, paddippalai--food, periyakallar--food, rukamputur--food, tumpalancholai--food, urukamam--food, vahaneri--food, vellavely--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N6ZGAXBMZKHZNJRG1E8B"
+}

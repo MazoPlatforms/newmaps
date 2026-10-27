@@ -1,0 +1,64 @@
+{
+  "name": "Brothers Civil Construction And Building Material Supply",
+  "coordinates": {
+    "latitude": 7.771772299999999,
+    "longitude": 81.611766
+  },
+  "categories": [
+    "Construction company",
+    "Construction equipment supplier"
+  ],
+  "address": "10 Mavady Street, Eravur 30300",
+  "phone": "0705396368",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkaladi--hardware-building, eravur--hardware-building, kalkudah--hardware-building, kaluwanchikudy--hardware-building, karadiyanaru--hardware-building, kiran--hardware-building, koddaikallar--hardware-building, kokkadichcholai--hardware-building, mangalagama--hardware-building, navatkudah-east--hardware-building, paddippalai--hardware-building, pasikudah--hardware-building, periyakallar--hardware-building, puliyanthivu-east--hardware-building, puliyanthivu-south--hardware-building, puliyanthivu-west--hardware-building, rideethenna--hardware-building, rukamputur--hardware-building, tumpalancholai--hardware-building, urukamam--hardware-building, vahaneri--hardware-building, vakarai--hardware-building, valaichchenai--hardware-building, vellavely--hardware-building, vettukkadu--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N4HPZNX2M942M1NEREHH"
+}

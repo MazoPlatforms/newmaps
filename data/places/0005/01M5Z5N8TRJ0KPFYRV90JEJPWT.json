@@ -1,0 +1,63 @@
+{
+  "name": "Aarokiya Medical Clinic & Laboratories ( ஆரோக்கியா)",
+  "coordinates": {
+    "latitude": 7.7379457,
+    "longitude": 81.68054479999999
+  },
+  "categories": [
+    "Medical clinic"
+  ],
+  "address": "PMQJ+568, Batticaloa",
+  "phone": "0766101066",
+  "website": "http://www.labtech.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kurumunveli--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N8TRJ0KPFYRV90JEJPWT"
+}

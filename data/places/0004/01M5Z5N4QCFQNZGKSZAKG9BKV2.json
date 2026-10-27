@@ -1,0 +1,61 @@
+{
+  "name": "Public Market- Chenkalady | பொதுச் சந்தை",
+  "coordinates": {
+    "latitude": 7.7851962,
+    "longitude": 81.5915168
+  },
+  "categories": [
+    "Market"
+  ],
+  "address": "QHPR+3JC, Trincomalee-Batticaloa Road, Chenkaladi",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–4 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkaladi--wholesale-commercial, illipaiyadichchenai--wholesale-commercial, karadiyanaru--wholesale-commercial, koddaikallar--wholesale-commercial, nuwaragalathenna--wholesale-commercial, palameen-madu--wholesale-commercial, periyakallar--wholesale-commercial, trikkandimadu--wholesale-commercial, tumpalancholai--wholesale-commercial. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N4QCFQNZGKSZAKG9BKV2"
+}

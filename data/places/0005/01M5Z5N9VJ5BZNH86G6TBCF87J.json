@@ -1,0 +1,62 @@
+{
+  "name": "இந்து காலை உணவகம்",
+  "coordinates": {
+    "latitude": 7.7416569,
+    "longitude": 81.66878059999999
+  },
+  "categories": [
+    "Coffee shop"
+  ],
+  "address": "PMR9+W4J, Batticaloa",
+  "phone": "0756259597",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–11 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–11 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–11 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–11 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–11 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6–11 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: urukamam--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N9VJ5BZNH86G6TBCF87J"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Village Gospel Church",
+  "coordinates": {
+    "latitude": 7.7397651,
+    "longitude": 81.6737327
+  },
+  "categories": [
+    "Pentecostal church",
+    "Gospel church"
+  ],
+  "address": "PMQF+WF5, Batticaloa",
+  "phone": "0777848683",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kurumunveli--religious, rideethenna--religious, vahaneri--religious, vellavely--religious, vettukkadu--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N91RGJJVS587HHYWZREF"
+}

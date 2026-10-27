@@ -1,0 +1,62 @@
+{
+  "name": "Colombo Hardware",
+  "coordinates": {
+    "latitude": 7.7309649,
+    "longitude": 81.68741639999999
+  },
+  "categories": [
+    "Hardware store"
+  ],
+  "address": "PMJP+9XM, Batticaloa",
+  "phone": "0652058336",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--hardware-building, cheddipalaiyam--hardware-building, chenkaladi--hardware-building, eravur--hardware-building, illipaiyadichchenai--hardware-building, kalkudah--hardware-building, kaluwanchikudy--hardware-building, karadiyanaru--hardware-building, koddaikallar--hardware-building, kokkadichcholai--hardware-building, kurumunveli--hardware-building, mangalagama--hardware-building, palameen-madu--hardware-building, periyakallar--hardware-building, puliyanthivu-east--hardware-building, puliyanthivu-south--hardware-building, puliyanthivu-west--hardware-building, rideethenna--hardware-building, rukamputur--hardware-building, trikkandimadu--hardware-building, tumpalancholai--hardware-building, urukamam--hardware-building, vahaneri--hardware-building, vakarai--hardware-building, valaichchenai--hardware-building, vellavely--hardware-building, vettukkadu--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N3RPPJCZEGEVKP189YWE"
+}

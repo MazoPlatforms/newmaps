@@ -1,0 +1,62 @@
+{
+  "name": "Liyaa Building Materials & Supplier",
+  "coordinates": {
+    "latitude": 7.749516,
+    "longitude": 81.6763102
+  },
+  "categories": [
+    "Hardware store"
+  ],
+  "address": "Thiraimadu, 242 Navtkerny road, Batticaloa",
+  "phone": "0770832224",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--hardware-building, cheddipalaiyam--hardware-building, chenkaladi--hardware-building, eravur--hardware-building, illipaiyadichchenai--hardware-building, karadiyanaru--hardware-building, kiran--hardware-building, koddaikallar--hardware-building, kokkadichcholai--hardware-building, kurumunveli--hardware-building, mangalagama--hardware-building, nuwaragalathenna--hardware-building, periyakallar--hardware-building, puliyanthivu-east--hardware-building, puliyanthivu-south--hardware-building, puliyanthivu-west--hardware-building, rideethenna--hardware-building, rukamputur--hardware-building, unnichchai--hardware-building, urukamam--hardware-building, vakarai--hardware-building, valaichchenai--hardware-building, vellavely--hardware-building, vettukkadu--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N3PK47N2BYNRKZWKQDGE"
+}

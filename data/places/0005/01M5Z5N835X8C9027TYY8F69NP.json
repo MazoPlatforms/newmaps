@@ -1,0 +1,61 @@
+{
+  "name": "Sri Sithi Vinyagar Temple.",
+  "coordinates": {
+    "latitude": 7.7309971,
+    "longitude": 81.6747295
+  },
+  "categories": [
+    "Hindu temple"
+  ],
+  "address": "Batticaloa 30000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--religious, vettukkadu--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N835X8C9027TYY8F69NP"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Kamal Gym Centre",
+  "coordinates": {
+    "latitude": 7.7952331,
+    "longitude": 81.58631
+  },
+  "categories": [
+    "Gym"
+  ],
+  "address": "Uma Mill Road",
+  "business_status": "CLOSED",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: mangalagama--sports-fitness. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5N68EZ8R96XY08GQC5V1J"
+}
