@@ -1,0 +1,2626 @@
+{
+  "source": "OpenStreetMap Nominatim search API",
+  "documentation_url": "https://nominatim.org/release-docs/latest/api/Search/",
+  "query_policy": "At most one request per second; bounded to the Mazo Maps area. Empty results do not indicate that a place is private, invalid, or nonexistent.",
+  "fetched_at_utc": "2026-10-27T00:55:14+00:00",
+  "unique_public_name_queries": 172,
+  "results_by_normalized_name": {
+    "aatham hotel": {
+      "query_name": "Aatham Hotel",
+      "name_variants": [
+        "Aatham Hotel"
+      ],
+      "group_ids": [
+        "DUP-AC78C85CDDC0"
+      ],
+      "query": "Aatham Hotel Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Aatham+Hotel+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:10+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "aayisha catering": {
+      "query_name": "Aayisha Catering",
+      "name_variants": [
+        "Aayisha Catering"
+      ],
+      "group_ids": [
+        "DUP-0F25963B0828"
+      ],
+      "query": "Aayisha Catering Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Aayisha+Catering+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:11+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "abans kattankudy": {
+      "query_name": "Abans Kattankudy",
+      "name_variants": [
+        "Abans Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-4A30E646A0B4"
+      ],
+      "query": "Abans Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Abans+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:12+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "agmi tex": {
+      "query_name": "Agmi Tex",
+      "name_variants": [
+        "Agmi Tex"
+      ],
+      "group_ids": [
+        "DUP-14728C8676CF"
+      ],
+      "query": "Agmi Tex Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Agmi+Tex+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:13+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "al jazeera book shop kattankudy": {
+      "query_name": "AL Jazeera Book Shop Kattankudy",
+      "name_variants": [
+        "AL Jazeera Book Shop Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-4EFC8C43BCFA"
+      ],
+      "query": "AL Jazeera Book Shop Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=AL+Jazeera+Book+Shop+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:14+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "al manar islamic college kathankudy": {
+      "query_name": "Al Manar Islamic College Kathankudy",
+      "name_variants": [
+        "Al Manar Islamic College Kathankudy"
+      ],
+      "group_ids": [
+        "DUP-352142969952"
+      ],
+      "query": "Al Manar Islamic College Kathankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Al+Manar+Islamic+College+Kathankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:15+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "al quraan square": {
+      "query_name": "Al Quraan Square",
+      "name_variants": [
+        "Al Quraan Square"
+      ],
+      "group_ids": [
+        "DUP-E1DBB0896CC4"
+      ],
+      "query": "Al Quraan Square Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Al+Quraan+Square+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:17+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "al-aqsa grand jumma masjid": {
+      "query_name": "Al-Aqsa Grand Jumma Masjid",
+      "name_variants": [
+        "Al-Aqsa Grand Jumma Masjid"
+      ],
+      "group_ids": [
+        "DUP-C551D2A2D947"
+      ],
+      "query": "Al-Aqsa Grand Jumma Masjid Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Al-Aqsa+Grand+Jumma+Masjid+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:18+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "amana bank | kattankudy branch": {
+      "query_name": "Amana Bank | Kattankudy Branch",
+      "name_variants": [
+        "Amana Bank | Kattankudy Branch"
+      ],
+      "group_ids": [
+        "DUP-C7B9BA3D6B14"
+      ],
+      "query": "Amana Bank | Kattankudy Branch Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Amana+Bank+%7C+Kattankudy+Branch+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:19+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "anowex": {
+      "query_name": "Anowex",
+      "name_variants": [
+        "Anowex"
+      ],
+      "group_ids": [
+        "DUP-2329EF0C41E1"
+      ],
+      "query": "Anowex Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Anowex+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:20+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "anver cool mess": {
+      "query_name": "Anver Cool Mess",
+      "name_variants": [
+        "Anver Cool Mess"
+      ],
+      "group_ids": [
+        "DUP-E0C169BCA668"
+      ],
+      "query": "Anver Cool Mess Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Anver+Cool+Mess+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:21+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "aqua fort restaurant": {
+      "query_name": "Aqua Fort Restaurant",
+      "name_variants": [
+        "Aqua Fort Restaurant"
+      ],
+      "group_ids": [
+        "DUP-567C5C31B06A"
+      ],
+      "query": "Aqua Fort Restaurant Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Aqua+Fort+Restaurant+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:22+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "arafa buriyany center": {
+      "query_name": "Arafa Buriyany Center",
+      "name_variants": [
+        "Arafa Buriyany Center"
+      ],
+      "group_ids": [
+        "DUP-FA6001089D30"
+      ],
+      "query": "Arafa Buriyany Center Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Arafa+Buriyany+Center+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:23+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "asian mobile": {
+      "query_name": "Asian Mobile",
+      "name_variants": [
+        "Asian Mobile"
+      ],
+      "group_ids": [
+        "DUP-D0136B83E89C"
+      ],
+      "query": "Asian Mobile Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Asian+Mobile+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:24+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "asr electronics repair shop": {
+      "query_name": "ASR Electronics Repair Shop",
+      "name_variants": [
+        "ASR Electronics Repair Shop"
+      ],
+      "group_ids": [
+        "DUP-2A10D636B8C7"
+      ],
+      "query": "ASR Electronics Repair Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=ASR+Electronics+Repair+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:26+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "assignment cafe": {
+      "query_name": "Assignment Cafe",
+      "name_variants": [
+        "Assignment Cafe"
+      ],
+      "group_ids": [
+        "DUP-7CAD689A4A13"
+      ],
+      "query": "Assignment Cafe Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Assignment+Cafe+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:27+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "ayn hot food": {
+      "query_name": "Ayn Hot Food",
+      "name_variants": [
+        "Ayn Hot Food"
+      ],
+      "group_ids": [
+        "DUP-DE0ECD033FF8"
+      ],
+      "query": "Ayn Hot Food Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Ayn+Hot+Food+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:28+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "azeem super taste": {
+      "query_name": "Azeem Super Taste",
+      "name_variants": [
+        "Azeem Super Taste"
+      ],
+      "group_ids": [
+        "DUP-AA1073983A66"
+      ],
+      "query": "Azeem Super Taste Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Azeem+Super+Taste+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:29+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "baby choice": {
+      "query_name": "Baby Choice",
+      "name_variants": [
+        "Baby Choice"
+      ],
+      "group_ids": [
+        "DUP-60BC7E22DCE1"
+      ],
+      "query": "Baby Choice Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Baby+Choice+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:30+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "baby world kattankudy": {
+      "query_name": "Baby World Kattankudy",
+      "name_variants": [
+        "Baby World Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-798262A58F4F"
+      ],
+      "query": "Baby World Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Baby+World+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:31+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "bbq hub kattankudy beach": {
+      "query_name": "BBQ HUB Kattankudy Beach",
+      "name_variants": [
+        "BBQ HUB Kattankudy Beach"
+      ],
+      "group_ids": [
+        "DUP-EB85113A37E3"
+      ],
+      "query": "BBQ HUB Kattankudy Beach Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=BBQ+HUB+Kattankudy+Beach+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:32+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "beach plaza": {
+      "query_name": "Beach Plaza",
+      "name_variants": [
+        "Beach Plaza"
+      ],
+      "group_ids": [
+        "DUP-12C9CABDC485"
+      ],
+      "query": "Beach Plaza Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Beach+Plaza+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:33+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "black moon cafe": {
+      "query_name": "Black Moon Cafe",
+      "name_variants": [
+        "Black Moon Cafe"
+      ],
+      "group_ids": [
+        "DUP-809D5C03D3F0"
+      ],
+      "query": "Black Moon Cafe Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Black+Moon+Cafe+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:35+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "bombay sweets (pvt) ltd": {
+      "query_name": "Bombay Sweets (PVT) LTD",
+      "name_variants": [
+        "Bombay Sweets (PVT) LTD"
+      ],
+      "group_ids": [
+        "DUP-66DFEA50D3FF"
+      ],
+      "query": "Bombay Sweets (PVT) LTD Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Bombay+Sweets+%28PVT%29+LTD+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:36+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "book corner, kattankudy": {
+      "query_name": "Book Corner, Kattankudy",
+      "name_variants": [
+        "Book Corner, Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-0556D8710684"
+      ],
+      "query": "Book Corner, Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Book+Corner%2C+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:37+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "boom computers and phones": {
+      "query_name": "Boom Computers And Phones",
+      "name_variants": [
+        "Boom Computers And Phones"
+      ],
+      "group_ids": [
+        "DUP-76504CBAA6EF"
+      ],
+      "query": "Boom Computers And Phones Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Boom+Computers+And+Phones+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:38+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "brilliant world direct marketing company (private) limited": {
+      "query_name": "BRILLIANT WORLD DIRECT MARKETING COMPANY (PRIVATE) Limited",
+      "name_variants": [
+        "BRILLIANT WORLD DIRECT MARKETING COMPANY (PRIVATE) Limited"
+      ],
+      "group_ids": [
+        "DUP-AD48AE8263AF"
+      ],
+      "query": "BRILLIANT WORLD DIRECT MARKETING COMPANY (PRIVATE) Limited Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=BRILLIANT+WORLD+DIRECT+MARKETING+COMPANY+%28PRIVATE%29+Limited+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:39+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "buhary hotel": {
+      "query_name": "Buhary Hotel",
+      "name_variants": [
+        "Buhary Hotel"
+      ],
+      "group_ids": [
+        "DUP-717A158D33E9"
+      ],
+      "query": "Buhary Hotel Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Buhary+Hotel+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:40+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "cafe chill": {
+      "query_name": "Cafe Chill",
+      "name_variants": [
+        "Cafe Chill"
+      ],
+      "group_ids": [
+        "DUP-C986C19F4FFE"
+      ],
+      "query": "Cafe Chill Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Cafe+Chill+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:41+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "caketalk family restaurant •indian •western •chinese": {
+      "query_name": "CakeTalk Family Restaurant •INDIAN •WESTERN •CHINESE",
+      "name_variants": [
+        "CakeTalk Family Restaurant •INDIAN •WESTERN •CHINESE"
+      ],
+      "group_ids": [
+        "DUP-ADA6B20570AD"
+      ],
+      "query": "CakeTalk Family Restaurant •INDIAN •WESTERN •CHINESE Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=CakeTalk+Family+Restaurant+%E2%80%A2INDIAN+%E2%80%A2WESTERN+%E2%80%A2CHINESE+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:42+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "chai bazaar": {
+      "query_name": "Chai Bazaar",
+      "name_variants": [
+        "Chai Bazaar"
+      ],
+      "group_ids": [
+        "DUP-2754750A5740"
+      ],
+      "query": "Chai Bazaar Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Chai+Bazaar+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:44+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "champion gym": {
+      "query_name": "Champion Gym",
+      "name_variants": [
+        "Champion Gym"
+      ],
+      "group_ids": [
+        "DUP-1D756D5850F2"
+      ],
+      "query": "Champion Gym Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Champion+Gym+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:45+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "cheap multi shop": {
+      "query_name": "Cheap Multi Shop",
+      "name_variants": [
+        "Cheap Multi Shop"
+      ],
+      "group_ids": [
+        "DUP-DA3F53AF27E9"
+      ],
+      "query": "Cheap Multi Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Cheap+Multi+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:46+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "cig - kathankudy": {
+      "query_name": "CIG - Kathankudy",
+      "name_variants": [
+        "CIG - Kathankudy"
+      ],
+      "group_ids": [
+        "DUP-CA7A9949D4E8"
+      ],
+      "query": "CIG - Kathankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=CIG+-+Kathankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:47+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "cig library": {
+      "query_name": "Cig Library",
+      "name_variants": [
+        "Cig Library"
+      ],
+      "group_ids": [
+        "DUP-CA7AF2A36300"
+      ],
+      "query": "Cig Library Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Cig+Library+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:48+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "city optical": {
+      "query_name": "City Optical",
+      "name_variants": [
+        "City Optical"
+      ],
+      "group_ids": [
+        "DUP-0497C1B0F265"
+      ],
+      "query": "City Optical Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=City+Optical+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:49+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "city walk": {
+      "query_name": "City Walk",
+      "name_variants": [
+        "City Walk"
+      ],
+      "group_ids": [
+        "DUP-F7D484CE91B3"
+      ],
+      "query": "City Walk Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=City+Walk+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:50+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "coco agency": {
+      "query_name": "Coco Agency",
+      "name_variants": [
+        "Coco Agency"
+      ],
+      "group_ids": [
+        "DUP-E8CDBE9C6276"
+      ],
+      "query": "Coco Agency Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Coco+Agency+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:51+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "commercial bank": {
+      "query_name": "Commercial Bank",
+      "name_variants": [
+        "Commercial Bank"
+      ],
+      "group_ids": [
+        "DUP-39B5209F0829"
+      ],
+      "query": "Commercial Bank Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Commercial+Bank+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:53+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "cook and best catering service": {
+      "query_name": "Cook And Best Catering Service",
+      "name_variants": [
+        "Cook And Best Catering Service"
+      ],
+      "group_ids": [
+        "DUP-89C626108662"
+      ],
+      "query": "Cook And Best Catering Service Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Cook+And+Best+Catering+Service+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:54+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "crispy hut": {
+      "query_name": "Crispy Hut",
+      "name_variants": [
+        "Crispy Hut"
+      ],
+      "group_ids": [
+        "DUP-8AFD93939153"
+      ],
+      "query": "Crispy Hut Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Crispy+Hut+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:55+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "deen road idiyappa kadai": {
+      "query_name": "Deen Road Idiyappa Kadai",
+      "name_variants": [
+        "Deen Road Idiyappa Kadai"
+      ],
+      "group_ids": [
+        "DUP-ECFCD1CE2E98"
+      ],
+      "query": "Deen Road Idiyappa Kadai Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Deen+Road+Idiyappa+Kadai+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:56+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "dfcc bank - arayampathy": {
+      "query_name": "DFCC Bank - Arayampathy",
+      "name_variants": [
+        "DFCC Bank - Arayampathy"
+      ],
+      "group_ids": [
+        "DUP-386A7EEB7E29"
+      ],
+      "query": "DFCC Bank - Arayampathy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=DFCC+Bank+-+Arayampathy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:57+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "divisional education office": {
+      "query_name": "Divisional Education Office",
+      "name_variants": [
+        "Divisional Education Office"
+      ],
+      "group_ids": [
+        "DUP-368279A5F487"
+      ],
+      "query": "Divisional Education Office Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Divisional+Education+Office+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:58+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "doha restaurant and bake house": {
+      "query_name": "Doha Restaurant And Bake House",
+      "name_variants": [
+        "Doha Restaurant And Bake House"
+      ],
+      "group_ids": [
+        "DUP-932C5C2976FA"
+      ],
+      "query": "Doha Restaurant And Bake House Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Doha+Restaurant+And+Bake+House+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:51:59+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "dot net (pvt) ltd. (travels / studio / communication)": {
+      "query_name": "Dot Net (PVT) Ltd. (Travels / Studio / Communication)",
+      "name_variants": [
+        "Dot Net (PVT) Ltd. (Travels / Studio / Communication)"
+      ],
+      "group_ids": [
+        "DUP-479A7A9D4F8D"
+      ],
+      "query": "Dot Net (PVT) Ltd. (Travels / Studio / Communication) Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Dot+Net+%28PVT%29+Ltd.+%28Travels+%2F+Studio+%2F+Communication%29+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:00+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "dr kitchen": {
+      "query_name": "Dr Kitchen",
+      "name_variants": [
+        "Dr Kitchen"
+      ],
+      "group_ids": [
+        "DUP-7F642C695D39"
+      ],
+      "query": "Dr Kitchen Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Dr+Kitchen+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:02+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "dr kitchen family restaurant": {
+      "query_name": "Dr Kitchen Family Restaurant",
+      "name_variants": [
+        "Dr Kitchen Family Restaurant"
+      ],
+      "group_ids": [
+        "DUP-8080F2D4A163"
+      ],
+      "query": "Dr Kitchen Family Restaurant Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Dr+Kitchen+Family+Restaurant+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:03+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "eastern vibes cafe": {
+      "query_name": "Eastern Vibes Cafe",
+      "name_variants": [
+        "Eastern Vibes Cafe"
+      ],
+      "group_ids": [
+        "DUP-C2EFE64A8FC6"
+      ],
+      "query": "Eastern Vibes Cafe Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Eastern+Vibes+Cafe+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:04+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "exup code": {
+      "query_name": "Exup Code",
+      "name_variants": [
+        "Exup Code"
+      ],
+      "group_ids": [
+        "DUP-8C3CB271EC47"
+      ],
+      "query": "Exup Code Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Exup+Code+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:05+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "ezi": {
+      "query_name": "Ezi",
+      "name_variants": [
+        "Ezi"
+      ],
+      "group_ids": [
+        "DUP-D298055F64FF"
+      ],
+      "query": "Ezi Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Ezi+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:06+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "falah chicken shop": {
+      "query_name": "Falah Chicken Shop",
+      "name_variants": [
+        "Falah Chicken Shop"
+      ],
+      "group_ids": [
+        "DUP-337DDF392A73"
+      ],
+      "query": "Falah Chicken Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Falah+Chicken+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:07+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "familiar baby shop": {
+      "query_name": "Familiar Baby Shop",
+      "name_variants": [
+        "Familiar Baby Shop"
+      ],
+      "group_ids": [
+        "DUP-C45C763AB41F"
+      ],
+      "query": "Familiar Baby Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Familiar+Baby+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:08+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "fareed taste shop": {
+      "query_name": "Fareed Taste Shop",
+      "name_variants": [
+        "Fareed Taste Shop"
+      ],
+      "group_ids": [
+        "DUP-962E67725EED"
+      ],
+      "query": "Fareed Taste Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Fareed+Taste+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:09+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "faslan taste shop": {
+      "query_name": "Faslan Taste Shop",
+      "name_variants": [
+        "Faslan Taste Shop"
+      ],
+      "group_ids": [
+        "DUP-40CC73D36877"
+      ],
+      "query": "Faslan Taste Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Faslan+Taste+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:11+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "fast food mafia": {
+      "query_name": "Fast Food Mafia",
+      "name_variants": [
+        "Fast Food Mafia"
+      ],
+      "group_ids": [
+        "DUP-15A5FBAD7658"
+      ],
+      "query": "Fast Food Mafia Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Fast+Food+Mafia+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:12+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "fathima masjid": {
+      "query_name": "Fathima Masjid",
+      "name_variants": [
+        "Fathima Masjid"
+      ],
+      "group_ids": [
+        "DUP-EC5551EC959C"
+      ],
+      "query": "Fathima Masjid Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Fathima+Masjid+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:13+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "first roots mart": {
+      "query_name": "First Roots Mart",
+      "name_variants": [
+        "First Roots Mart"
+      ],
+      "group_ids": [
+        "DUP-99F807FB30F8"
+      ],
+      "query": "First Roots Mart Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=First+Roots+Mart+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:14+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "fitness time kky": {
+      "query_name": "Fitness Time Kky",
+      "name_variants": [
+        "Fitness Time Kky"
+      ],
+      "group_ids": [
+        "DUP-7CCB25E6D574"
+      ],
+      "query": "Fitness Time Kky Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Fitness+Time+Kky+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:15+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "fits - fundora integrated technology solutions": {
+      "query_name": "FITS - Fundora Integrated Technology Solutions",
+      "name_variants": [
+        "FITS - Fundora Integrated Technology Solutions"
+      ],
+      "group_ids": [
+        "DUP-01B4637D280F"
+      ],
+      "query": "FITS - Fundora Integrated Technology Solutions Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=FITS+-+Fundora+Integrated+Technology+Solutions+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:16+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "g-tech kattankudy": {
+      "query_name": "G-Tech Kattankudy",
+      "name_variants": [
+        "G-Tech Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-408924FB7F9F"
+      ],
+      "query": "G-Tech Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=G-Tech+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:17+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "gadaby restaurant, kattankudy": {
+      "query_name": "Gadaby Restaurant, Kattankudy",
+      "name_variants": [
+        "Gadaby Restaurant, Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-F9D4000842CF"
+      ],
+      "query": "Gadaby Restaurant, Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Gadaby+Restaurant%2C+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:18+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "giftbee. lk": {
+      "query_name": "GiftBee. LK",
+      "name_variants": [
+        "GiftBee. LK"
+      ],
+      "group_ids": [
+        "DUP-02543F87F27C"
+      ],
+      "query": "GiftBee. LK Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=GiftBee.+LK+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:20+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "goodwin junctioni": {
+      "query_name": "Goodwin Junctioni",
+      "name_variants": [
+        "Goodwin Junctioni"
+      ],
+      "group_ids": [
+        "DUP-6A2647D5B01E"
+      ],
+      "query": "Goodwin Junctioni Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Goodwin+Junctioni+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:21+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "green chilli": {
+      "query_name": "Green Chilli",
+      "name_variants": [
+        "Green Chilli"
+      ],
+      "group_ids": [
+        "DUP-57DE8B338277"
+      ],
+      "query": "Green Chilli Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Green+Chilli+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:22+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "gulf restaurant": {
+      "query_name": "Gulf Restaurant",
+      "name_variants": [
+        "Gulf Restaurant"
+      ],
+      "group_ids": [
+        "DUP-A21DE39BCDFB"
+      ],
+      "query": "Gulf Restaurant Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Gulf+Restaurant+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:23+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "happy wings": {
+      "query_name": "Happy Wings",
+      "name_variants": [
+        "Happy Wings"
+      ],
+      "group_ids": [
+        "DUP-C8B6F845CEF0"
+      ],
+      "query": "Happy Wings Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Happy+Wings+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:24+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "hathiq toys": {
+      "query_name": "Hathiq Toys",
+      "name_variants": [
+        "Hathiq Toys"
+      ],
+      "group_ids": [
+        "DUP-7E0F44B4D500"
+      ],
+      "query": "Hathiq Toys Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Hathiq+Toys+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:25+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "henna by hana kattankudy": {
+      "query_name": "Henna By Hana Kattankudy",
+      "name_variants": [
+        "Henna By Hana Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-3E1C70560688"
+      ],
+      "query": "Henna By Hana Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Henna+By+Hana+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:26+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "heritage museum, kattankudy": {
+      "query_name": "Heritage Museum, Kattankudy",
+      "name_variants": [
+        "Heritage Museum, Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-BDCAB0430C0C"
+      ],
+      "query": "Heritage Museum, Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Heritage+Museum%2C+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:27+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "hikvision dahua cctv showroom ads cctv": {
+      "query_name": "Hikvision Dahua CCTV Showroom ADS CCTV",
+      "name_variants": [
+        "Hikvision Dahua CCTV Showroom ADS CCTV"
+      ],
+      "group_ids": [
+        "DUP-E65DF984F2D1"
+      ],
+      "query": "Hikvision Dahua CCTV Showroom ADS CCTV Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Hikvision+Dahua+CCTV+Showroom+ADS+CCTV+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:29+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "hizbullah cultural hall": {
+      "query_name": "Hizbullah Cultural Hall",
+      "name_variants": [
+        "Hizbullah Cultural Hall"
+      ],
+      "group_ids": [
+        "DUP-FFFA383CD332"
+      ],
+      "query": "Hizbullah Cultural Hall Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Hizbullah+Cultural+Hall+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:30+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "hot plate": {
+      "query_name": "Hot Plate",
+      "name_variants": [
+        "Hot Plate"
+      ],
+      "group_ids": [
+        "DUP-48C50CE164C0"
+      ],
+      "query": "Hot Plate Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Hot+Plate+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:31+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "hs dealz laptop store": {
+      "query_name": "HS DealZ Laptop Store",
+      "name_variants": [
+        "HS DealZ Laptop Store"
+      ],
+      "group_ids": [
+        "DUP-3AA0CF4E49EF"
+      ],
+      "query": "HS DealZ Laptop Store Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=HS+DealZ+Laptop+Store+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:33+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "imran chef catering": {
+      "query_name": "Imran Chef Catering",
+      "name_variants": [
+        "Imran Chef Catering"
+      ],
+      "group_ids": [
+        "DUP-E95D6026CEC6"
+      ],
+      "query": "Imran Chef Catering Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Imran+Chef+Catering+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:35+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "islamic cultural hall": {
+      "query_name": "Islamic Cultural Hall",
+      "name_variants": [
+        "Islamic Cultural Hall"
+      ],
+      "group_ids": [
+        "DUP-FD34E02ABEED"
+      ],
+      "query": "Islamic Cultural Hall Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Islamic+Cultural+Hall+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:37+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "jaffer hopper shop kattankudy": {
+      "query_name": "Jaffer Hopper Shop Kattankudy",
+      "name_variants": [
+        "Jaffer Hopper Shop Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-413BFC9F3F99"
+      ],
+      "query": "Jaffer Hopper Shop Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Jaffer+Hopper+Shop+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:38+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "jinsath home": {
+      "query_name": "Jinsath Home",
+      "name_variants": [
+        "Jinsath Home"
+      ],
+      "group_ids": [
+        "DUP-E1B224825BAB"
+      ],
+      "query": "Jinsath Home Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Jinsath+Home+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:40+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "jolly cream house": {
+      "query_name": "Jolly Cream House",
+      "name_variants": [
+        "Jolly Cream House"
+      ],
+      "group_ids": [
+        "DUP-B5E49C9D3856"
+      ],
+      "query": "Jolly Cream House Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Jolly+Cream+House+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:41+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "jr tech": {
+      "query_name": "JR Tech",
+      "name_variants": [
+        "JR Tech"
+      ],
+      "group_ids": [
+        "DUP-152F0A837F9D"
+      ],
+      "query": "JR Tech Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=JR+Tech+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:43+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "junaid tea shop": {
+      "query_name": "Junaid Tea Shop",
+      "name_variants": [
+        "Junaid Tea Shop"
+      ],
+      "group_ids": [
+        "DUP-0E3D2D64AD9B"
+      ],
+      "query": "Junaid Tea Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Junaid+Tea+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:45+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "kattankudy ds office": {
+      "query_name": "Kattankudy DS Office",
+      "name_variants": [
+        "Kattankudy DS Office"
+      ],
+      "group_ids": [
+        "DUP-C5E0D1CA039F"
+      ],
+      "query": "Kattankudy DS Office Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Kattankudy+DS+Office+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:47+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "kattankudy food court": {
+      "query_name": "Kattankudy Food Court",
+      "name_variants": [
+        "Kattankudy Food Court"
+      ],
+      "group_ids": [
+        "DUP-B03A7BD94650"
+      ],
+      "query": "Kattankudy Food Court Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Kattankudy+Food+Court+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:49+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "kattankudy square": {
+      "query_name": "Kattankudy Square",
+      "name_variants": [
+        "Kattankudy Square"
+      ],
+      "group_ids": [
+        "DUP-38A76895014B"
+      ],
+      "query": "Kattankudy Square Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Kattankudy+Square+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:50+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "kattankudy urban council model pre school": {
+      "query_name": "Kattankudy Urban Council Model Pre School",
+      "name_variants": [
+        "Kattankudy Urban Council Model Pre School"
+      ],
+      "group_ids": [
+        "DUP-0913E123EAE0"
+      ],
+      "query": "Kattankudy Urban Council Model Pre School Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Kattankudy+Urban+Council+Model+Pre+School+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:51+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "kattankudy welcome board": {
+      "query_name": "Kattankudy Welcome Board",
+      "name_variants": [
+        "Kattankudy Welcome Board"
+      ],
+      "group_ids": [
+        "DUP-3BE13D9B125F"
+      ],
+      "query": "Kattankudy Welcome Board Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Kattankudy+Welcome+Board+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:53+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "kava chai hut- restaurant - kattankudy beach": {
+      "query_name": "Kava Chai Hut- Restaurant - Kattankudy Beach",
+      "name_variants": [
+        "Kava Chai Hut- Restaurant - Kattankudy Beach"
+      ],
+      "group_ids": [
+        "DUP-0C4AA35B88ED"
+      ],
+      "query": "Kava Chai Hut- Restaurant - Kattankudy Beach Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Kava+Chai+Hut-+Restaurant+-+Kattankudy+Beach+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:55+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "kawa chai hut": {
+      "query_name": "Kawa Chai Hut",
+      "name_variants": [
+        "Kawa Chai Hut"
+      ],
+      "group_ids": [
+        "DUP-45453D1306DE"
+      ],
+      "query": "Kawa Chai Hut Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Kawa+Chai+Hut+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:56+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "kaதாn": {
+      "query_name": "KaதாN",
+      "name_variants": [
+        "KaதாN"
+      ],
+      "group_ids": [
+        "DUP-C54F9450816C"
+      ],
+      "query": "KaதாN Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Ka%E0%AE%A4%E0%AE%BEN+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:58+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "king kitchen": {
+      "query_name": "King Kitchen",
+      "name_variants": [
+        "King Kitchen"
+      ],
+      "group_ids": [
+        "DUP-A5A645118F17"
+      ],
+      "query": "King Kitchen Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=King+Kitchen+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:52:59+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "laptop store - macsarit": {
+      "query_name": "Laptop Store - MacsarIT",
+      "name_variants": [
+        "Laptop Store - MacsarIT"
+      ],
+      "group_ids": [
+        "DUP-3A2EE405ACFA"
+      ],
+      "query": "Laptop Store - MacsarIT Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Laptop+Store+-+MacsarIT+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:01+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "lia cafe & indian restaurant": {
+      "query_name": "Lia Cafe & Indian Restaurant",
+      "name_variants": [
+        "Lia Cafe & Indian Restaurant"
+      ],
+      "group_ids": [
+        "DUP-9498949B4874"
+      ],
+      "query": "Lia Cafe & Indian Restaurant Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Lia+Cafe+%26+Indian+Restaurant+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:03+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "lia shawarma hub": {
+      "query_name": "Lia Shawarma Hub",
+      "name_variants": [
+        "Lia Shawarma Hub"
+      ],
+      "group_ids": [
+        "DUP-AAD60AF9B944"
+      ],
+      "query": "Lia Shawarma Hub Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Lia+Shawarma+Hub+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:04+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "liberty baby care": {
+      "query_name": "Liberty Baby Care",
+      "name_variants": [
+        "Liberty Baby Care"
+      ],
+      "group_ids": [
+        "DUP-22CF2B5C9332"
+      ],
+      "query": "Liberty Baby Care Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Liberty+Baby+Care+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:06+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "link communication (ap. nafeel)": {
+      "query_name": "Link Communication (AP. Nafeel)",
+      "name_variants": [
+        "Link Communication (AP. Nafeel)"
+      ],
+      "group_ids": [
+        "DUP-4116417F8F12"
+      ],
+      "query": "Link Communication (AP. Nafeel) Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Link+Communication+%28AP.+Nafeel%29+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:08+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "macsar network & engineering service": {
+      "query_name": "Macsar Network & Engineering Service",
+      "name_variants": [
+        "Macsar Network & Engineering Service"
+      ],
+      "group_ids": [
+        "DUP-1089FDA10234"
+      ],
+      "query": "Macsar Network & Engineering Service Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Macsar+Network+%26+Engineering+Service+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:09+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "mansoor biryani house fareed nagar": {
+      "query_name": "Mansoor Biryani House Fareed Nagar",
+      "name_variants": [
+        "Mansoor Biryani House Fareed Nagar"
+      ],
+      "group_ids": [
+        "DUP-F75A1B3F1D58"
+      ],
+      "query": "Mansoor Biryani House Fareed Nagar Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Mansoor+Biryani+House+Fareed+Nagar+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:11+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "markaz,arabic college and mosque": {
+      "query_name": "Markaz,Arabic College And Mosque",
+      "name_variants": [
+        "Markaz,Arabic College And Mosque"
+      ],
+      "group_ids": [
+        "DUP-8AF1C5D2BF2B"
+      ],
+      "query": "Markaz,Arabic College And Mosque Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Markaz%2CArabic+College+And+Mosque+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:13+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "masjidul anwar": {
+      "query_name": "Masjidul Anwar",
+      "name_variants": [
+        "Masjidul Anwar"
+      ],
+      "group_ids": [
+        "DUP-16CAC1BCECA2"
+      ],
+      "query": "Masjidul Anwar Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Masjidul+Anwar+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:14+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "master bun": {
+      "query_name": "Master Bun",
+      "name_variants": [
+        "Master Bun"
+      ],
+      "group_ids": [
+        "DUP-BDBCD3F76E10"
+      ],
+      "query": "Master Bun Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Master+Bun+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:16+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "max creation (studio max)": {
+      "query_name": "MaX Creation (Studio MaX)",
+      "name_variants": [
+        "MaX Creation (Studio MaX)"
+      ],
+      "group_ids": [
+        "DUP-8BCAA95078C6"
+      ],
+      "query": "MaX Creation (Studio MaX) Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=MaX+Creation+%28Studio+MaX%29+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:17+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "max1 magic": {
+      "query_name": "Max1 Magic",
+      "name_variants": [
+        "Max1 Magic"
+      ],
+      "group_ids": [
+        "DUP-DB732DC1C484"
+      ],
+      "query": "Max1 Magic Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Max1+Magic+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:19+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "mcm flavours": {
+      "query_name": "Mcm Flavours",
+      "name_variants": [
+        "Mcm Flavours"
+      ],
+      "group_ids": [
+        "DUP-066C6B04AA2B"
+      ],
+      "query": "Mcm Flavours Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Mcm+Flavours+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:21+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "meat & spicy": {
+      "query_name": "Meat & Spicy",
+      "name_variants": [
+        "Meat & Spicy"
+      ],
+      "group_ids": [
+        "DUP-5370C4235A9D"
+      ],
+      "query": "Meat & Spicy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Meat+%26+Spicy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:23+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "mega computers": {
+      "query_name": "Mega Computers",
+      "name_variants": [
+        "Mega Computers"
+      ],
+      "group_ids": [
+        "DUP-33296C1D2499"
+      ],
+      "query": "Mega Computers Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Mega+Computers+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:24+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "mobile expert": {
+      "query_name": "Mobile Expert",
+      "name_variants": [
+        "Mobile Expert"
+      ],
+      "group_ids": [
+        "DUP-5FCF4F756D04"
+      ],
+      "query": "Mobile Expert Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Mobile+Expert+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:26+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "mohabbath lounge": {
+      "query_name": "Mohabbath Lounge",
+      "name_variants": [
+        "Mohabbath Lounge"
+      ],
+      "group_ids": [
+        "DUP-21D1E8A856F2"
+      ],
+      "query": "Mohabbath Lounge Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Mohabbath+Lounge+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:27+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "moon valley restaurant": {
+      "query_name": "Moon Valley Restaurant",
+      "name_variants": [
+        "Moon Valley Restaurant"
+      ],
+      "group_ids": [
+        "DUP-13916F482E6F"
+      ],
+      "query": "Moon Valley Restaurant Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Moon+Valley+Restaurant+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:29+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "moonrose cafe": {
+      "query_name": "MoonRose Cafe",
+      "name_variants": [
+        "MoonRose Cafe"
+      ],
+      "group_ids": [
+        "DUP-5B91F80DDA54"
+      ],
+      "query": "MoonRose Cafe Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=MoonRose+Cafe+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:31+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "moulana colombo cosmetics": {
+      "query_name": "Moulana Colombo Cosmetics",
+      "name_variants": [
+        "Moulana Colombo Cosmetics"
+      ],
+      "group_ids": [
+        "DUP-26CBEAE41B7A"
+      ],
+      "query": "Moulana Colombo Cosmetics Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Moulana+Colombo+Cosmetics+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:32+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "mr.cook": {
+      "query_name": "Mr.Cook",
+      "name_variants": [
+        "Mr.Cook"
+      ],
+      "group_ids": [
+        "DUP-39A98C5CDC56"
+      ],
+      "query": "Mr.Cook Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Mr.Cook+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:34+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "mr.falafel": {
+      "query_name": "Mr.Falafel",
+      "name_variants": [
+        "Mr.Falafel"
+      ],
+      "group_ids": [
+        "DUP-D69BB06AD15F"
+      ],
+      "query": "Mr.Falafel Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Mr.Falafel+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:36+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "mr.nasi": {
+      "query_name": "Mr.Nasi",
+      "name_variants": [
+        "Mr.Nasi"
+      ],
+      "group_ids": [
+        "DUP-E9E6D44D194E"
+      ],
+      "query": "Mr.Nasi Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Mr.Nasi+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:37+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "mrfcafe": {
+      "query_name": "Mrfcafe",
+      "name_variants": [
+        "Mrfcafe"
+      ],
+      "group_ids": [
+        "DUP-DADC17C9020A"
+      ],
+      "query": "Mrfcafe Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Mrfcafe+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:39+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "muath publication": {
+      "query_name": "Muath Publication",
+      "name_variants": [
+        "Muath Publication"
+      ],
+      "group_ids": [
+        "DUP-1F2EC7D49F51"
+      ],
+      "query": "Muath Publication Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Muath+Publication+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:41+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "multy cool spot": {
+      "query_name": "Multy Cool Spot",
+      "name_variants": [
+        "Multy Cool Spot"
+      ],
+      "group_ids": [
+        "DUP-FDF100A7404E"
+      ],
+      "query": "Multy Cool Spot Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Multy+Cool+Spot+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:42+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "mysoft it college": {
+      "query_name": "Mysoft IT College",
+      "name_variants": [
+        "Mysoft IT College"
+      ],
+      "group_ids": [
+        "DUP-B3EAC547B542"
+      ],
+      "query": "Mysoft IT College Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Mysoft+IT+College+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:44+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "najirath hotel": {
+      "query_name": "Najirath Hotel",
+      "name_variants": [
+        "Najirath Hotel"
+      ],
+      "group_ids": [
+        "DUP-50B1F5362A8B"
+      ],
+      "query": "Najirath Hotel Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Najirath+Hotel+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:46+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "naseela tiles (pvt) ltd": {
+      "query_name": "Naseela Tiles (PVT) Ltd",
+      "name_variants": [
+        "Naseela Tiles (PVT) Ltd"
+      ],
+      "group_ids": [
+        "DUP-450FA42E6F35"
+      ],
+      "query": "Naseela Tiles (PVT) Ltd Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Naseela+Tiles+%28PVT%29+Ltd+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:47+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "nawa tech computer&laptops": {
+      "query_name": "Nawa Tech Computer&Laptops",
+      "name_variants": [
+        "Nawa Tech Computer&Laptops"
+      ],
+      "group_ids": [
+        "DUP-C4CEB60FFFEA"
+      ],
+      "query": "Nawa Tech Computer&Laptops Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Nawa+Tech+Computer%26Laptops+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:49+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "nhk hardware & marketing": {
+      "query_name": "NHK Hardware & Marketing",
+      "name_variants": [
+        "NHK Hardware & Marketing"
+      ],
+      "group_ids": [
+        "DUP-A8E7D71AC0A1"
+      ],
+      "query": "NHK Hardware & Marketing Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=NHK+Hardware+%26+Marketing+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:50+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "noori book shop": {
+      "query_name": "Noori Book Shop",
+      "name_variants": [
+        "Noori Book Shop"
+      ],
+      "group_ids": [
+        "DUP-810A7F2952A3"
+      ],
+      "query": "Noori Book Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Noori+Book+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:52+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "paccha light palaya paattu paraatta": {
+      "query_name": "Paccha Light Palaya Paattu Paraatta",
+      "name_variants": [
+        "Paccha Light Palaya Paattu Paraatta"
+      ],
+      "group_ids": [
+        "DUP-675A9F1566FA"
+      ],
+      "query": "Paccha Light Palaya Paattu Paraatta Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Paccha+Light+Palaya+Paattu+Paraatta+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:54+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "parata plaza": {
+      "query_name": "Parata Plaza",
+      "name_variants": [
+        "Parata Plaza"
+      ],
+      "group_ids": [
+        "DUP-D295F1509483"
+      ],
+      "query": "Parata Plaza Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Parata+Plaza+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:55+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "pc town batticaloa": {
+      "query_name": "PC Town Batticaloa",
+      "name_variants": [
+        "PC Town Batticaloa"
+      ],
+      "group_ids": [
+        "DUP-06760BD7325A"
+      ],
+      "query": "PC Town Batticaloa Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=PC+Town+Batticaloa+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:57+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "pc town hikvision showroom": {
+      "query_name": "PC Town Hikvision Showroom",
+      "name_variants": [
+        "PC Town Hikvision Showroom"
+      ],
+      "group_ids": [
+        "DUP-33E88BD8AE4E"
+      ],
+      "query": "PC Town Hikvision Showroom Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=PC+Town+Hikvision+Showroom+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:53:59+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "pc village": {
+      "query_name": "PC Village",
+      "name_variants": [
+        "PC Village"
+      ],
+      "group_ids": [
+        "DUP-EFCEBDD60D0C"
+      ],
+      "query": "PC Village Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=PC+Village+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:01+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "pizzeria.kky": {
+      "query_name": "Pizzeria.kky",
+      "name_variants": [
+        "Pizzeria.kky"
+      ],
+      "group_ids": [
+        "DUP-97F84AAEAAB2"
+      ],
+      "query": "Pizzeria.kky Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Pizzeria.kky+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:02+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "poori shop": {
+      "query_name": "Poori Shop",
+      "name_variants": [
+        "Poori Shop"
+      ],
+      "group_ids": [
+        "DUP-C70BA8BF6B97"
+      ],
+      "query": "Poori Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Poori+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:04+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "prince n princess": {
+      "query_name": "Prince N Princess",
+      "name_variants": [
+        "Prince N Princess"
+      ],
+      "group_ids": [
+        "DUP-36C2097372F3"
+      ],
+      "query": "Prince N Princess Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Prince+N+Princess+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:06+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "public library kattankudy": {
+      "query_name": "Public Library Kattankudy",
+      "name_variants": [
+        "Public Library Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-BAA51A191950"
+      ],
+      "query": "Public Library Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Public+Library+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:07+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "pumpkins": {
+      "query_name": "Pumpkins",
+      "name_variants": [
+        "Pumpkins"
+      ],
+      "group_ids": [
+        "DUP-0E46A20909E4"
+      ],
+      "query": "Pumpkins Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Pumpkins+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:09+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "q kitchen express": {
+      "query_name": "Q Kitchen Express",
+      "name_variants": [
+        "Q Kitchen Express"
+      ],
+      "group_ids": [
+        "DUP-F27B9E795F0C"
+      ],
+      "query": "Q Kitchen Express Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Q+Kitchen+Express+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:11+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "rafaideen rotti shop": {
+      "query_name": "Rafaideen Rotti Shop",
+      "name_variants": [
+        "Rafaideen Rotti Shop"
+      ],
+      "group_ids": [
+        "DUP-DA2D7EAEC269"
+      ],
+      "query": "Rafaideen Rotti Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Rafaideen+Rotti+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:12+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "rahmath sweet mart": {
+      "query_name": "Rahmath Sweet Mart",
+      "name_variants": [
+        "Rahmath Sweet Mart"
+      ],
+      "group_ids": [
+        "DUP-437E33475387"
+      ],
+      "query": "Rahmath Sweet Mart Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Rahmath+Sweet+Mart+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:14+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "real juice cool bar": {
+      "query_name": "Real Juice Cool Bar",
+      "name_variants": [
+        "Real Juice Cool Bar"
+      ],
+      "group_ids": [
+        "DUP-F340B8494AB2"
+      ],
+      "query": "Real Juice Cool Bar Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Real+Juice+Cool+Bar+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:15+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "red & green light hotel": {
+      "query_name": "Red & Green Light Hotel",
+      "name_variants": [
+        "Red & Green Light Hotel"
+      ],
+      "group_ids": [
+        "DUP-EA2F3324184D"
+      ],
+      "query": "Red & Green Light Hotel Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Red+%26+Green+Light+Hotel+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:17+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "rexplex": {
+      "query_name": "Rexplex",
+      "name_variants": [
+        "Rexplex"
+      ],
+      "group_ids": [
+        "DUP-E39C82484090"
+      ],
+      "query": "Rexplex Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Rexplex+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:19+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "roti pot": {
+      "query_name": "ROTI PoT",
+      "name_variants": [
+        "ROTI PoT"
+      ],
+      "group_ids": [
+        "DUP-BDDC5E8840B5"
+      ],
+      "query": "ROTI PoT Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=ROTI+PoT+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:20+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "sahana indian food": {
+      "query_name": "Sahana Indian Food",
+      "name_variants": [
+        "Sahana Indian Food"
+      ],
+      "group_ids": [
+        "DUP-DFD0B8AACAAA"
+      ],
+      "query": "Sahana Indian Food Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Sahana+Indian+Food+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:21+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "sattar rotti kade": {
+      "query_name": "Sattar Rotti Kade",
+      "name_variants": [
+        "Sattar Rotti Kade"
+      ],
+      "group_ids": [
+        "DUP-91C69D68E200"
+      ],
+      "query": "Sattar Rotti Kade Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Sattar+Rotti+Kade+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:23+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "serendib tyre and battery city": {
+      "query_name": "Serendib Tyre And Battery City",
+      "name_variants": [
+        "Serendib Tyre And Battery City"
+      ],
+      "group_ids": [
+        "DUP-A20A819A36AA"
+      ],
+      "query": "Serendib Tyre And Battery City Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Serendib+Tyre+And+Battery+City+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:24+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "seylan bank plc - kattankudy": {
+      "query_name": "Seylan Bank PLC - Kattankudy",
+      "name_variants": [
+        "Seylan Bank PLC - Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-819D56AC1788"
+      ],
+      "query": "Seylan Bank PLC - Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Seylan+Bank+PLC+-+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:26+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "siddeeqiyya arabic college": {
+      "query_name": "Siddeeqiyya Arabic College",
+      "name_variants": [
+        "Siddeeqiyya Arabic College"
+      ],
+      "group_ids": [
+        "DUP-00E5FC6CBB2B"
+      ],
+      "query": "Siddeeqiyya Arabic College Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Siddeeqiyya+Arabic+College+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:28+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "singer kattankudy": {
+      "query_name": "Singer Kattankudy",
+      "name_variants": [
+        "Singer Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-F0F2BABA4D00"
+      ],
+      "query": "Singer Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Singer+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:29+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "sinna masjid": {
+      "query_name": "Sinna Masjid",
+      "name_variants": [
+        "Sinna Masjid"
+      ],
+      "group_ids": [
+        "DUP-CA283D48D8ED"
+      ],
+      "query": "Sinna Masjid Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Sinna+Masjid+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:31+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "siyam aluminium works & glass": {
+      "query_name": "Siyam Aluminium Works & Glass",
+      "name_variants": [
+        "Siyam Aluminium Works & Glass"
+      ],
+      "group_ids": [
+        "DUP-B57C4725A57B"
+      ],
+      "query": "Siyam Aluminium Works & Glass Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Siyam+Aluminium+Works+%26+Glass+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:32+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "smartnet communication": {
+      "query_name": "SmartNet Communication",
+      "name_variants": [
+        "SmartNet Communication"
+      ],
+      "group_ids": [
+        "DUP-2C0F1B64D0BA"
+      ],
+      "query": "SmartNet Communication Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=SmartNet+Communication+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:34+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "soull kitchen": {
+      "query_name": "Soull Kitchen",
+      "name_variants": [
+        "Soull Kitchen"
+      ],
+      "group_ids": [
+        "DUP-6B9149ED737C"
+      ],
+      "query": "Soull Kitchen Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Soull+Kitchen+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:36+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "star hotel & bakery": {
+      "query_name": "Star Hotel & Bakery",
+      "name_variants": [
+        "Star Hotel & Bakery"
+      ],
+      "group_ids": [
+        "DUP-D48D9AB2646A"
+      ],
+      "query": "Star Hotel & Bakery Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Star+Hotel+%26+Bakery+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:37+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "styling abaya": {
+      "query_name": "Styling Abaya",
+      "name_variants": [
+        "Styling Abaya"
+      ],
+      "group_ids": [
+        "DUP-03FED2F1CBCD"
+      ],
+      "query": "Styling Abaya Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Styling+Abaya+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:39+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "sundhus it": {
+      "query_name": "Sundhus IT",
+      "name_variants": [
+        "Sundhus IT"
+      ],
+      "group_ids": [
+        "DUP-B8A5B55D7AF5"
+      ],
+      "query": "Sundhus IT Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Sundhus+IT+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:41+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "taaj rest inn": {
+      "query_name": "Taaj Rest Inn",
+      "name_variants": [
+        "Taaj Rest Inn"
+      ],
+      "group_ids": [
+        "DUP-29010CD2B2CD"
+      ],
+      "query": "Taaj Rest Inn Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Taaj+Rest+Inn+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:43+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "taj hotel": {
+      "query_name": "Taj Hotel",
+      "name_variants": [
+        "Taj Hotel"
+      ],
+      "group_ids": [
+        "DUP-BC657061CD95"
+      ],
+      "query": "Taj Hotel Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Taj+Hotel+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:45+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "takkufy": {
+      "query_name": "Takkufy",
+      "name_variants": [
+        "Takkufy"
+      ],
+      "group_ids": [
+        "DUP-B83DE46B5399"
+      ],
+      "query": "Takkufy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Takkufy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:46+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "taste king - taste shop": {
+      "query_name": "Taste King - Taste Shop",
+      "name_variants": [
+        "Taste King - Taste Shop"
+      ],
+      "group_ids": [
+        "DUP-DC784AC713FA"
+      ],
+      "query": "Taste King - Taste Shop Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Taste+King+-+Taste+Shop+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:48+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "teacher's shop (hotel)": {
+      "query_name": "Teacher's Shop (Hotel)",
+      "name_variants": [
+        "Teacher's Shop (Hotel)"
+      ],
+      "group_ids": [
+        "DUP-B6F27A475AE6"
+      ],
+      "query": "Teacher's Shop (Hotel) Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Teacher%27s+Shop+%28Hotel%29+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:49+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "tech bite": {
+      "query_name": "Tech Bite",
+      "name_variants": [
+        "Tech Bite"
+      ],
+      "group_ids": [
+        "DUP-4B4960917FFE"
+      ],
+      "query": "Tech Bite Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Tech+Bite+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:51+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "thangama home food": {
+      "query_name": "Thangama Home Food",
+      "name_variants": [
+        "Thangama Home Food"
+      ],
+      "group_ids": [
+        "DUP-82049BBA1F83"
+      ],
+      "query": "Thangama Home Food Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Thangama+Home+Food+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:52+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "the babyshop kattankudy": {
+      "query_name": "The BabyShop Kattankudy",
+      "name_variants": [
+        "The BabyShop Kattankudy"
+      ],
+      "group_ids": [
+        "DUP-85422D0ECE9D"
+      ],
+      "query": "The BabyShop Kattankudy Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=The+BabyShop+Kattankudy+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:54+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "toysmart": {
+      "query_name": "ToySmart",
+      "name_variants": [
+        "ToySmart"
+      ],
+      "group_ids": [
+        "DUP-77AA458A7998"
+      ],
+      "query": "ToySmart Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=ToySmart+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:55+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "treatooo delish batticaloa": {
+      "query_name": "Treatooo Delish Batticaloa",
+      "name_variants": [
+        "Treatooo Delish Batticaloa"
+      ],
+      "group_ids": [
+        "DUP-B6B35EEE3C45"
+      ],
+      "query": "Treatooo Delish Batticaloa Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Treatooo+Delish+Batticaloa+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:57+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "ulfath bakery and hotel": {
+      "query_name": "Ulfath Bakery And Hotel",
+      "name_variants": [
+        "Ulfath Bakery And Hotel"
+      ],
+      "group_ids": [
+        "DUP-84D9E1C2AC33"
+      ],
+      "query": "Ulfath Bakery And Hotel Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Ulfath+Bakery+And+Hotel+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:54:59+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "unicom book shop & printing": {
+      "query_name": "Unicom Book Shop & Printing",
+      "name_variants": [
+        "Unicom Book Shop & Printing"
+      ],
+      "group_ids": [
+        "DUP-EB52778460BF"
+      ],
+      "query": "Unicom Book Shop & Printing Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Unicom+Book+Shop+%26+Printing+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:55:00+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "urban council": {
+      "query_name": "Urban Council",
+      "name_variants": [
+        "Urban Council"
+      ],
+      "group_ids": [
+        "DUP-CE7745A56F7C"
+      ],
+      "query": "Urban Council Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Urban+Council+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:55:02+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "vellathambi hotel": {
+      "query_name": "Vellathambi Hotel",
+      "name_variants": [
+        "Vellathambi Hotel"
+      ],
+      "group_ids": [
+        "DUP-76F5C8D6D7AB"
+      ],
+      "query": "Vellathambi Hotel Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Vellathambi+Hotel+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:55:04+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "witsberry": {
+      "query_name": "Witsberry",
+      "name_variants": [
+        "Witsberry"
+      ],
+      "group_ids": [
+        "DUP-89046072CAD0"
+      ],
+      "query": "Witsberry Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Witsberry+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:55:05+00:00",
+      "http_status": 200,
+      "status": "results_found",
+      "results": [
+        {
+          "place_id": 254488698,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 1396138828,
+          "lat": "7.6879828",
+          "lon": "81.7261451",
+          "category": "building",
+          "type": "yes",
+          "place_rank": 30,
+          "importance": 5.241245136182219e-05,
+          "addresstype": "building",
+          "name": "Witsberry (Pvt) Ltd",
+          "display_name": "Witsberry (Pvt) Ltd, 33/34, Sinna Thoana Road, Batticaloa, Manmunai North DS Division, Batticaloa District, Eastern Province, 30100, Sri Lanka",
+          "address": {
+            "building": "Witsberry (Pvt) Ltd",
+            "house_number": "33/34",
+            "road": "Sinna Thoana Road",
+            "city": "Batticaloa",
+            "county": "Manmunai North DS Division",
+            "state_district": "Batticaloa District",
+            "ISO3166-2-lvl5": "LK-51",
+            "state": "Eastern Province",
+            "ISO3166-2-lvl4": "LK-5",
+            "postcode": "30100",
+            "country": "Sri Lanka",
+            "country_code": "lk"
+          },
+          "boundingbox": [
+            "7.6879686",
+            "7.6880251",
+            "81.7261226",
+            "81.7261841"
+          ]
+        }
+      ]
+    },
+    "world baby kids": {
+      "query_name": "World Baby Kids",
+      "name_variants": [
+        "World Baby Kids"
+      ],
+      "group_ids": [
+        "DUP-9A44B2422320"
+      ],
+      "query": "World Baby Kids Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=World+Baby+Kids+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:55:06+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "yummy dish ( mummy dish )": {
+      "query_name": "Yummy Dish ( Mummy Dish )",
+      "name_variants": [
+        "Yummy Dish ( Mummy Dish )"
+      ],
+      "group_ids": [
+        "DUP-2C48B670C068"
+      ],
+      "query": "Yummy Dish ( Mummy Dish ) Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Yummy+Dish+%28+Mummy+Dish+%29+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:55:08+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "ziyad ahamed": {
+      "query_name": "Ziyad Ahamed",
+      "name_variants": [
+        "Ziyad Ahamed"
+      ],
+      "group_ids": [
+        "DUP-88F41E41ADAA"
+      ],
+      "query": "Ziyad Ahamed Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Ziyad+Ahamed+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:55:10+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    "zowjan home samayal": {
+      "query_name": "Zowjan Home Samayal",
+      "name_variants": [
+        "Zowjan Home Samayal"
+      ],
+      "group_ids": [
+        "DUP-42F82DA2FBCC"
+      ],
+      "query": "Zowjan Home Samayal Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=Zowjan+Home+Samayal+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:55:12+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    },
+    " apple care": {
+      "query_name": " Apple Care",
+      "name_variants": [
+        " Apple Care"
+      ],
+      "group_ids": [
+        "DUP-D1719A485E07"
+      ],
+      "query": " Apple Care Kattankudy Sri Lanka",
+      "query_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&viewbox=81.70%2C7.72%2C81.77%2C7.65&bounded=1&q=%EF%A3%BF+Apple+Care+Kattankudy+Sri+Lanka",
+      "checked_at_utc": "2026-10-27T00:55:13+00:00",
+      "http_status": 200,
+      "status": "no_result_returned",
+      "results": []
+    }
+  },
+  "request_failures": []
+}
