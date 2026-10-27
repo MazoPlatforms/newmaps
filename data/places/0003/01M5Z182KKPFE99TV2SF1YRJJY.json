@@ -1,0 +1,63 @@
+{
+  "name": "Nature Huts Restaurant",
+  "coordinates": {
+    "latitude": 7.919097799999999,
+    "longitude": 81.5656332
+  },
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "address": "Kalkudah Road, Kalkudah 30410",
+  "phone": "0774366226",
+  "website": "http://www.smarttaxipasikkudah.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--food, pasikudah--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z182KKPFE99TV2SF1YRJJY"
+}

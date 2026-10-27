@@ -1,0 +1,67 @@
+{
+  "name": "Umaimart",
+  "coordinates": {
+    "latitude": 7.9119896999999995,
+    "longitude": 81.5238791
+  },
+  "categories": [
+    "Market",
+    "Food machinery supplier",
+    "Grocery delivery service",
+    "Shopping mall",
+    "Supermarket"
+  ],
+  "address": "School Road oddamavadi 01, 01, Oddamavadi 30420",
+  "phone": "0768317566",
+  "website": "http://umaimart.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkalady--retail, kalkudah--retail, kiran--retail, manmunai--retail, mylambaveli--retail, oddamavadi--retail, pasikudah--retail, vakarai--retail, valaichchenai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17VJNQYZ0TBXK152GN0Z9"
+}

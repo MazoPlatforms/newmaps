@@ -1,0 +1,62 @@
+{
+  "name": "ஸ்ரீ அம்மன் பேக் கவுஸ்",
+  "coordinates": {
+    "latitude": 7.8446564,
+    "longitude": 81.5543217
+  },
+  "categories": [
+    "Bakery"
+  ],
+  "address": "Batticalo Santhively jeevapuram",
+  "phone": "0776207894",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: mylambaveli--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z185TTK9MS53ZAQVTMMBPE"
+}

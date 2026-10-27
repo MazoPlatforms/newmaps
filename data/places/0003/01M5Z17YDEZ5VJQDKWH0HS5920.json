@@ -1,0 +1,61 @@
+{
+  "name": "Nasiyanthivu Lagoon Ride",
+  "coordinates": {
+    "latitude": 7.9341083999999995,
+    "longitude": 81.5263475
+  },
+  "categories": [
+    "Tourist attraction"
+  ],
+  "address": "AB38",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: valaichchenai--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17YDEZ5VJQDKWH0HS5920"
+}

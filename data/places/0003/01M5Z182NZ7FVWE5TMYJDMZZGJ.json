@@ -1,0 +1,69 @@
+{
+  "name": "Pasikudah Cash & Carry",
+  "coordinates": {
+    "latitude": 7.9222538,
+    "longitude": 81.5684964
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "Beach Road, Kalkudah 30410",
+  "phone": "0776327842",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:15 AM–1:30 PM",
+        "2:15–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:15 AM–1:30 PM",
+        "2:15–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:15 AM–1:30 PM",
+        "2:15–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:15 AM–1:30 PM",
+        "2:15–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:15 AM–1:30 PM",
+        "2:15–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:15 AM–1:30 PM",
+        "2:15–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:15 AM–1:30 PM",
+        "2:15–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--retail, pasikudah--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z182NZ7FVWE5TMYJDMZZGJ"
+}

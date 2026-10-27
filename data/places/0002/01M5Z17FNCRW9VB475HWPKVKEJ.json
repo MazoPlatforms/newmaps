@@ -1,0 +1,62 @@
+{
+  "name": "Sri Balaji Phavan",
+  "coordinates": {
+    "latitude": 7.9067213,
+    "longitude": 81.5343784
+  },
+  "categories": [
+    "Vegetarian restaurant"
+  ],
+  "address": "WG4M+MPG, Kalkudah",
+  "phone": "0652050302",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--food, batticaloa--food, chenkalady--food, district--food-exploratory, eravur--food, kalkudah--food, kaluwanchikudy--food, kiran--food, manmunai--food, mylambaveli--food, oddamavadi--food, pasikudah--food, vakarai--food, valaichchenai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17FNCRW9VB475HWPKVKEJ"
+}

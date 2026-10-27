@@ -1,0 +1,63 @@
+{
+  "name": "Sun Coast Seafood Restaurant & Grill",
+  "coordinates": {
+    "latitude": 7.9176737,
+    "longitude": 81.5665051
+  },
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "address": "Batticaloa Road, Kalkudah",
+  "phone": "0771236754",
+  "website": "https://www.suncoastgrill.me/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17EF265S7MJF0KRYTRCJY"
+}

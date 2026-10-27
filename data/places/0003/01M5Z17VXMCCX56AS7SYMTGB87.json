@@ -1,0 +1,63 @@
+{
+  "name": "MIKKA Medicals",
+  "coordinates": {
+    "latitude": 7.9153118,
+    "longitude": 81.52086129999999
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "WG8C+48H, Oddamavadi",
+  "phone": "0652257050",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:15 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:15 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:15 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:15 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:15 AM–12 PM",
+        "3:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:15 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:15 AM–12 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: oddamavadi--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17VXMCCX56AS7SYMTGB87"
+}

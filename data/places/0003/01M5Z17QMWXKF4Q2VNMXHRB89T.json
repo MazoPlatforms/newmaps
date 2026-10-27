@@ -1,0 +1,21 @@
+{
+  "name": "Captain Seafood Restaurant",
+  "coordinates": {
+    "latitude": 7.923247,
+    "longitude": 81.5638393
+  },
+  "categories": [
+    "Seafood restaurant",
+    "Delivery service",
+    "Tour operator",
+    "Tourist information center"
+  ],
+  "address": "Coconut Cultivation Board Road, WHF7+8JJ Kalkudah Pasikuda, 30410",
+  "phone": "0771782094",
+  "business_status": "CLOSED_TEMPORARILY",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--food, kalkudah--food, pasikudah--food, pasikudah--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17QMWXKF4Q2VNMXHRB89T"
+}

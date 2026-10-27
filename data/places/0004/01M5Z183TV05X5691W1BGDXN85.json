@@ -1,0 +1,17 @@
+{
+  "name": "Kalkudah Bus Station",
+  "coordinates": {
+    "latitude": 7.9259007,
+    "longitude": 81.5381299
+  },
+  "categories": [
+    "Bus station"
+  ],
+  "address": "Kalkudah-Valaichchenai Road",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--transport. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z183TV05X5691W1BGDXN85"
+}

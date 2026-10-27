@@ -1,0 +1,63 @@
+{
+  "name": "Sampath Bank & ATM Oddamavadi",
+  "coordinates": {
+    "latitude": 7.911352399999999,
+    "longitude": 81.528834
+  },
+  "categories": [
+    "Private sector bank"
+  ],
+  "address": "Brainthuraichenai, 957 Main St, Oddamavadi 30400",
+  "phone": "0652257372",
+  "website": "https://www.sampath.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: oddamavadi--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17W9YKT62P57D1C1T07VH"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "சதாம் பல்பொருள் அங்காடி - Sadham Super Market",
+  "coordinates": {
+    "latitude": 7.922188299999999,
+    "longitude": 81.52467589999999
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "WGCF+VVF, Oddamavadi",
+  "phone": "0652257966",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--retail, chenkalady--retail, eravur--retail, kalkudah--retail, kallady--retail, kaluwanchikudy--retail, kiran--retail, manmunai--retail, oddamavadi--retail, pasikudah--retail, vakarai--retail, valaichchenai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17R3VW79NDXE1C862KM1T"
+}

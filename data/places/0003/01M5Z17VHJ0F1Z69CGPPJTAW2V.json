@@ -1,0 +1,62 @@
+{
+  "name": "Sri Super Market",
+  "coordinates": {
+    "latitude": 7.891901799999999,
+    "longitude": 81.5373084
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "18th Mile post, Kondayankerny, Valaichenai 30400",
+  "phone": "0779097814",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkalady--retail, kalkudah--retail, kaluwanchikudy--retail, kiran--retail, manmunai--retail, mylambaveli--retail, oddamavadi--retail, pasikudah--retail, vakarai--retail, valaichchenai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17VHJ0F1Z69CGPPJTAW2V"
+}

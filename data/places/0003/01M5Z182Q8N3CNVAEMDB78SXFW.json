@@ -1,0 +1,18 @@
+{
+  "name": "Hotel Krish",
+  "coordinates": {
+    "latitude": 7.9181987,
+    "longitude": 81.5672785
+  },
+  "categories": [
+    "Guest house"
+  ],
+  "address": "Kalkudha",
+  "phone": "0767571977",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--accommodation, mylambaveli--accommodation, pasikudah--accommodation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z182Q8N3CNVAEMDB78SXFW"
+}

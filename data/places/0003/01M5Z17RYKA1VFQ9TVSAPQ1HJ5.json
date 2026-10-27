@@ -1,0 +1,63 @@
+{
+  "name": "Dharus Salam Arabic College - Oddamavadi",
+  "coordinates": {
+    "latitude": 7.930814499999999,
+    "longitude": 81.51308259999999
+  },
+  "categories": [
+    "Educational institution"
+  ],
+  "address": "WGJ7+86G, Oddamavadi",
+  "phone": "0652058070",
+  "website": "http://dharussalaam.org/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--education, kalkudah--education, kiran--education, manmunai--education, mylambaveli--education, oddamavadi--education, pasikudah--education, vakarai--education, valaichchenai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17RYKA1VFQ9TVSAPQ1HJ5"
+}
