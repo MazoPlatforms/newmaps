@@ -456,7 +456,7 @@
     ]
   },
   "frame_time_comparison": {
-    "measurement": "Headless Chromium on Codespaces with SwiftShader; mobile emulation has 3–4 RAF samples in the 1.6-second scripted camera ease and desktop has 4. These samples are too sparse for representative frame-time percentiles; values are retained for transparency and are not used to claim a speedup.",
+    "measurement": "Headless Chromium on Codespaces with SwiftShader; mobile emulation has 3–4 RAF samples in the 1.6-second scripted camera ease and desktop has 4. These samples are too sparse for representative frame-time percentiles; values are retained for transparency and are not used to claim a speedup. Latest mobile smoke recorded 26 samples but software rendering was slow (p95 83.3 ms); do not infer Android performance.",
     "mobile_emulation_390x844": {
       "before": {
         "samples": 3,
@@ -496,6 +496,15 @@
         "intervals_over_16_7_ms": 3,
         "long_tasks_over_50_ms": 2
       }
+    },
+    "latest_mobile_mzp_camera_ease": {
+      "samples": 26,
+      "p50_ms": 66.6,
+      "p95_ms": 83.3,
+      "max_ms": 83.4,
+      "long_tasks_over_50_ms": 16,
+      "environment": "Chromium 141 headless, SwiftShader, 390x844 mobile emulation",
+      "interpretation": "Slow software-rendered sample; not evidence of hardware smoothness. Earlier baseline had only 3 samples and is not comparable."
     }
   },
   "production_range_check": {
