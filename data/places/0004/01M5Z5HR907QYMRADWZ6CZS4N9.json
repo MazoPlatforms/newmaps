@@ -1,0 +1,63 @@
+{
+  "name": "REGALS Fashion Super Store",
+  "coordinates": {
+    "latitude": 7.7133309,
+    "longitude": 81.6988623
+  },
+  "categories": [
+    "Clothing store"
+  ],
+  "address": "112 Bazaar St, Batticaloa",
+  "phone": "0652225950",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11:59 AM",
+        "1–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--clothing-textiles, cheddipalaiyam--clothing-textiles, chenkaladi--clothing-textiles, illipaiyadichchenai--clothing-textiles, karadiyanaru--clothing-textiles, kiran--clothing-textiles, koddaikallar--clothing-textiles, kokkadichcholai--clothing-textiles, kurumunveli--clothing-textiles, mangalagama--clothing-textiles, nuwaragalathenna--clothing-textiles, paddippalai--clothing-textiles, palameen-madu--clothing-textiles, periyakallar--clothing-textiles, rideethenna--clothing-textiles, rukamputur--clothing-textiles, trikkandimadu--clothing-textiles, tumpalancholai--clothing-textiles, unnichchai--clothing-textiles, vahaneri--clothing-textiles, vakarai--clothing-textiles, valaichchenai--clothing-textiles, vellavely--clothing-textiles, vettukkadu--clothing-textiles. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HR907QYMRADWZ6CZS4N9"
+}

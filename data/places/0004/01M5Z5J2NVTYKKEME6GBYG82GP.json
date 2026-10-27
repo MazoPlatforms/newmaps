@@ -1,0 +1,63 @@
+{
+  "name": "Mattkalappu",
+  "coordinates": {
+    "latitude": 7.7047737,
+    "longitude": 81.71086969999999
+  },
+  "categories": [
+    "Association / Organization"
+  ],
+  "address": "30 Pillaiyar Kovil Road, Kallady 30000",
+  "phone": "0766656007",
+  "website": "http://www.mattakalappu.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kokkadichcholai--religious, paddippalai--religious, palameen-madu--religious, rideethenna--religious, rukamputur--religious, tumpalancholai--religious, urukamam--religious, vellavely--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J2NVTYKKEME6GBYG82GP"
+}

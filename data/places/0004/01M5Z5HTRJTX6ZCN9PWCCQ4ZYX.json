@@ -1,0 +1,63 @@
+{
+  "name": "Samsung Customer Service",
+  "coordinates": {
+    "latitude": 7.720864199999999,
+    "longitude": 81.69529349999999
+  },
+  "categories": [
+    "Mobile phone repair shop"
+  ],
+  "address": "Trinco Road, Batticaloa",
+  "phone": "0652229086",
+  "website": "http://www.thephonecoint.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--electronics-mobile, kurumunveli--electronics-mobile, puliyanthivu-south--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HTRJTX6ZCN9PWCCQ4ZYX"
+}

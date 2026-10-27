@@ -1,0 +1,61 @@
+{
+  "name": "Kallady Pillaiyar Kovil",
+  "coordinates": {
+    "latitude": 7.7051172999999995,
+    "longitude": 81.71284159999999
+  },
+  "categories": [
+    "Hindu temple"
+  ],
+  "address": "PP47+24W, Kallady",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–9:30 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–9:30 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–9:30 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–9:30 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–9:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3–9:30 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3–9:30 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kokkadichcholai--religious, urukamam--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J4DDPK6VQ4CCEF6C4SAT"
+}

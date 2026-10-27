@@ -1,0 +1,64 @@
+{
+  "name": "Nextron",
+  "coordinates": {
+    "latitude": 7.717655199999999,
+    "longitude": 81.6989104
+  },
+  "categories": [
+    "Mobile phone repair shop",
+    "Cell phone accessory store"
+  ],
+  "address": "147 Trinco Road, Batticaloa",
+  "phone": "0775050636",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--electronics-mobile, eravur--electronics-mobile, puliyanthivu-south--electronics-mobile, puliyanthivu-west--electronics-mobile, vakarai--electronics-mobile, valaichchenai--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HRF42KY2GX752HSK0V9N"
+}

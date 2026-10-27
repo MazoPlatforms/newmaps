@@ -1,0 +1,67 @@
+{
+  "name": "Rocell - Batticaloa Showroom",
+  "coordinates": {
+    "latitude": 7.7132663,
+    "longitude": 81.6988296
+  },
+  "categories": [
+    "Tile store",
+    "Bathroom remodeler",
+    "Bathroom supply store",
+    "Ceramics wholesaler",
+    "Home goods store"
+  ],
+  "address": "124 Bazaar St, Batticaloa",
+  "phone": "0654929450",
+  "website": "http://www.rocell.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--hardware-building, chenkaladi--hardware-building, kaluwanchikudy--hardware-building, karadiyanaru--hardware-building, kiran--hardware-building, koddaikallar--hardware-building, kokkadichcholai--hardware-building, mangalagama--hardware-building, navatkudah-east--hardware-building, periyakallar--hardware-building, puliyanthivu-east--hardware-building, puliyanthivu-south--hardware-building, puliyanthivu-west--hardware-building, rideethenna--hardware-building, rukamputur--hardware-building, tumpalancholai--hardware-building, urukamam--hardware-building, vahaneri--hardware-building, vakarai--hardware-building, vettukkadu--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HS0K287E5FA1BJ6RX3MQ"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Batticaloa Seventh-Day Adventist Church",
+  "coordinates": {
+    "latitude": 7.707853999999999,
+    "longitude": 81.6955218
+  },
+  "categories": [
+    "Seventh-day Adventist church"
+  ],
+  "address": "25 Adigar Road, Batticaloa 30000",
+  "phone": "0752849755",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:45–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kokkadichcholai--religious, nuwaragalathenna--religious, paddippalai--religious, palameen-madu--religious, rideethenna--religious, rukamputur--religious, trikkandimadu--religious, tumpalancholai--religious, urukamam--religious, vahaneri--religious, vellavely--religious, vettukkadu--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J28GJM44CACP6DC6SDDJ"
+}

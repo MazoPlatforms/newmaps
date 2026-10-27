@@ -1,0 +1,62 @@
+{
+  "name": "CO-OP Centre",
+  "coordinates": {
+    "latitude": 7.720125599999999,
+    "longitude": 81.6968814
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "PMCW+3Q2, Batticaloa",
+  "phone": "0652225463",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HXCDXCRBJE5QMBW99WJP"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Pathman Motors",
+  "coordinates": {
+    "latitude": 7.7256475,
+    "longitude": 81.68916019999999
+  },
+  "categories": [
+    "Auto parts store"
+  ],
+  "address": "569-b Trinco Road, Batticaloa",
+  "phone": "0652222040",
+  "website": "https://m.facebook.com/Pathman-Motors-363017204115493/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12:45 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: paddippalai--vehicle, urukamam--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J2Z6G9SV4AG4E4GWR1FB"
+}

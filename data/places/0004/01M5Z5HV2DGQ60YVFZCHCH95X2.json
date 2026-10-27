@@ -1,0 +1,17 @@
+{
+  "name": "Mars Traders",
+  "coordinates": {
+    "latitude": 7.7139156,
+    "longitude": 81.6975178
+  },
+  "categories": [
+    "Wholesale grocer"
+  ],
+  "address": "6 Main Street, Batticaloa 30000",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kurumunveli--wholesale-commercial, nuwaragalathenna--wholesale-commercial, puliyanthivu-south--wholesale-commercial. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HV2DGQ60YVFZCHCH95X2"
+}

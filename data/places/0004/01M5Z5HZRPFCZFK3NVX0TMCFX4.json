@@ -1,0 +1,62 @@
+{
+  "name": "Capital Campus",
+  "coordinates": {
+    "latitude": 7.711931099999999,
+    "longitude": 81.7106903
+  },
+  "categories": [
+    "Educational institution"
+  ],
+  "address": "PP66+Q7G, Kallady",
+  "phone": "0653063610",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: karadiyanaru--education, koddaikallar--education, kokkadichcholai--education, trikkandimadu--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HZRPFCZFK3NVX0TMCFX4"
+}

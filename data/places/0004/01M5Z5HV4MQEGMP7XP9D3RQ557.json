@@ -1,0 +1,62 @@
+{
+  "name": "Montana",
+  "coordinates": {
+    "latitude": 7.7259514,
+    "longitude": 81.68902969999999
+  },
+  "categories": [
+    "Digital printing service"
+  ],
+  "address": "440 Trincomalee-Batticaloa Road, Batticaloa 30000",
+  "phone": "0784925533",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: mangalagama--printing-photo, palameen-madu--printing-photo, rideethenna--printing-photo, urukamam--printing-photo. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HV4MQEGMP7XP9D3RQ557"
+}
