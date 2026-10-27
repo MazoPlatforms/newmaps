@@ -1,0 +1,62 @@
+{
+  "name": "Tea Times",
+  "coordinates": {
+    "latitude": 7.778975099999999,
+    "longitude": 81.59935
+  },
+  "categories": [
+    "Fast food restaurant"
+  ],
+  "address": "210 Trincomalee-Batticaloa Road, Eravur",
+  "phone": "0752654620",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3–11 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17H3RMACDRGWX3QM16WHH"
+}

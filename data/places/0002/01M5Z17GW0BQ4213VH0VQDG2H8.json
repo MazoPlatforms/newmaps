@@ -1,0 +1,61 @@
+{
+  "name": "Siddeq Tasty Shop",
+  "coordinates": {
+    "latitude": 7.779454599999999,
+    "longitude": 81.6046349
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "QJH3+QVJ, Town, Eravur",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17GW0BQ4213VH0VQDG2H8"
+}

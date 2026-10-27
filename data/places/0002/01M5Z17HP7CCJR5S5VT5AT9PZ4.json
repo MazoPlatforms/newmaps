@@ -1,0 +1,62 @@
+{
+  "name": "Riyan Super Market",
+  "coordinates": {
+    "latitude": 7.7378475,
+    "longitude": 81.670535
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "108A Sarvothaya Road, Batticaloa 30000",
+  "phone": "0740727230",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--retail, batticaloa--retail, chenkalady--retail, eravur--retail, kalkudah--retail, kallady--retail, kaluwanchikudy--retail, kattankudy--retail, kiran--retail, manmunai--retail, mylambaveli--retail, pasikudah--retail, vakarai--retail, valaichchenai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17HP7CCJR5S5VT5AT9PZ4"
+}

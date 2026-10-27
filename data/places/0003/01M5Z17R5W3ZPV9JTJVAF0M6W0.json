@@ -1,0 +1,62 @@
+{
+  "name": "CO-OP Hospital Eravur",
+  "coordinates": {
+    "latitude": 7.7772121,
+    "longitude": 81.60283849999999
+  },
+  "categories": [
+    "Hospital"
+  ],
+  "address": "Trincomalee-Batticaloa Road, Eravur",
+  "phone": "0652240808",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--health, chenkalady--health, eravur--health, kalkudah--health, kaluwanchikudy--health, kiran--health, manmunai--health, mylambaveli--health, oddamavadi--health, pasikudah--health, vakarai--health, valaichchenai--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17R5W3ZPV9JTJVAF0M6W0"
+}

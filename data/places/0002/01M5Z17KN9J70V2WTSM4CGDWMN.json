@@ -1,0 +1,61 @@
+{
+  "name": "Divisional Hospital Palameenmadu",
+  "coordinates": {
+    "latitude": 7.755241,
+    "longitude": 81.6837094
+  },
+  "categories": [
+    "Government hospital"
+  ],
+  "address": "1996 Bar Road, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--health, batticaloa--health, chenkalady--health, eravur--health, kalkudah--health, kiran--health, manmunai--health, mylambaveli--health, pasikudah--health, vakarai--health, valaichchenai--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17KN9J70V2WTSM4CGDWMN"
+}

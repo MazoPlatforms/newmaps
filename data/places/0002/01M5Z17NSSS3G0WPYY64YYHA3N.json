@@ -1,0 +1,63 @@
+{
+  "name": "DINA Service & Motorcycle Garage",
+  "coordinates": {
+    "latitude": 7.743467,
+    "longitude": 81.6826777
+  },
+  "categories": [
+    "Car wash",
+    "Motorcycle repair shop"
+  ],
+  "address": "New Boundary Road, karuvapankeny",
+  "phone": "0769140777",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--vehicle, batticaloa--vehicle, chenkalady--vehicle, eravur--vehicle, kalkudah--vehicle, kallady--vehicle, kaluwanchikudy--vehicle, kattankudy--vehicle, kiran--vehicle, manmunai--vehicle, mylambaveli--vehicle, oddamavadi--vehicle, pasikudah--vehicle, vakarai--vehicle, valaichchenai--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17NSSS3G0WPYY64YYHA3N"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Karan Motors",
+  "coordinates": {
+    "latitude": 7.7548271,
+    "longitude": 81.6334359
+  },
+  "categories": [
+    "Auto repair shop"
+  ],
+  "address": "Main street, Mylampaveli, Thannamunai 30000",
+  "phone": "0750257573",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: mylambaveli--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z186RNDX9RCD18T9H5DN4H"
+}

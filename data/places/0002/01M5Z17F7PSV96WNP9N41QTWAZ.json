@@ -1,0 +1,62 @@
+{
+  "name": "𝐌𝐚𝐬𝐭𝐞𝐫 𝐊𝐮𝐥𝐟𝐢",
+  "coordinates": {
+    "latitude": 7.7734304,
+    "longitude": 81.60857299999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Main St, Eravur 30300",
+  "phone": "0758787187",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4 PM–4 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4 PM–4 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4 PM–4 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4 PM–4 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 PM–4 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4 PM–4 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 PM–4 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17F7PSV96WNP9N41QTWAZ"
+}

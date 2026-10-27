@@ -1,0 +1,62 @@
+{
+  "name": "BT/ St. Joseph's College, Thannamunai, Batticaloa",
+  "coordinates": {
+    "latitude": 7.7516131999999995,
+    "longitude": 81.6411119
+  },
+  "categories": [
+    "High school"
+  ],
+  "address": "QJ2V+F2, Trincomalee-Batticaloa Road, Vipulanantha Puram",
+  "phone": "0652052400",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--education, batticaloa--education, chenkalady--education, eravur--education, kalkudah--education, kallady--education, kaluwanchikudy--education, kattankudy--education, kiran--education, manmunai--education, mylambaveli--education, pasikudah--education, vakarai--education, valaichchenai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17MAC9XWSTPJT7E8JGP5V"
+}

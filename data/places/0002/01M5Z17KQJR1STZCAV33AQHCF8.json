@@ -1,0 +1,62 @@
+{
+  "name": "Ocean University Of Sri Lanka",
+  "coordinates": {
+    "latitude": 7.737341799999999,
+    "longitude": 81.7059567
+  },
+  "categories": [
+    "University"
+  ],
+  "address": "PPP4+W9P, Unnamed Road, Batticaloa",
+  "phone": "0654927344",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4:30 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–4:30 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--education, batticaloa--education, chenkalady--education, eravur--education, kalkudah--education, kallady--education, kaluwanchikudy--education, kattankudy--education, kiran--education, manmunai--education, mylambaveli--education, pasikudah--education, vakarai--education, valaichchenai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17KQJR1STZCAV33AQHCF8"
+}

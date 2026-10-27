@@ -1,0 +1,62 @@
+{
+  "name": "Eravur Barakath Hotel",
+  "coordinates": {
+    "latitude": 7.7743231999999995,
+    "longitude": 81.60711959999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Eravur",
+  "phone": "0773037827",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–11:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–11:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–11:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–11:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–11:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–11:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–11:45 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17FSBS50ENCHYM6THQFTD"
+}

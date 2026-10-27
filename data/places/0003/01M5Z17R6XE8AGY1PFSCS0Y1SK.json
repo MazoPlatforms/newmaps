@@ -1,0 +1,71 @@
+{
+  "name": "Eravur Dental Clinic & Medical Clinic",
+  "coordinates": {
+    "latitude": 7.7728125,
+    "longitude": 81.60968749999999
+  },
+  "categories": [
+    "Medical clinic",
+    "Children's hospital",
+    "Dental clinic",
+    "Dental implants provider",
+    "Diabetes center",
+    "Diagnostic center",
+    "Health consultant",
+    "Health food store",
+    "Home health care service",
+    "Hospital"
+  ],
+  "address": "MAIN STREET ERAVUR-01, INFRONT OF MUHAIDEEN JUMAH GRAND MOSQUE, QJF5+4VC, Eravur 7.772785, 81.609712, 01 MAIN ROAD, Eravur 30300",
+  "phone": "0769031711",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: eravur--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17R6XE8AGY1PFSCS0Y1SK"
+}

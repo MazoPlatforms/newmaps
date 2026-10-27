@@ -1,0 +1,67 @@
+{
+  "name": "Vivek Stores",
+  "coordinates": {
+    "latitude": 7.7562916,
+    "longitude": 81.68174859999999
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "QM4J+GM9, Bar Road - Batticaloa, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–1:30 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–1:30 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–1:30 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–1:30 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–1:30 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–1:30 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--retail, batticaloa--retail, kiran--retail, manmunai--retail, mylambaveli--retail, vakarai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17JBC6JGJFVHM8RQTVPHA"
+}

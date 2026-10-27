@@ -1,0 +1,69 @@
+{
+  "name": "K.Majeed Stores",
+  "coordinates": {
+    "latitude": 7.7725849,
+    "longitude": 81.61001999999999
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "Eravur",
+  "phone": "0773052471",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10:30 AM",
+        "7:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10:30 AM",
+        "7:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10:30 AM",
+        "7:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10:30 AM",
+        "7:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10:30 AM",
+        "7:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10:30 AM",
+        "7:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10:30 AM",
+        "7:30 PM–12 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: manmunai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z187AXRGYYVAMCVSQG1VEZ"
+}

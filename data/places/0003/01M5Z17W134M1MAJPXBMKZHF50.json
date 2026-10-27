@@ -1,0 +1,62 @@
+{
+  "name": "SK Siranjeevi Pharmacy",
+  "coordinates": {
+    "latitude": 7.7300941,
+    "longitude": 81.6747194
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "570 Trincomalee-Batticaloa Road, Batticaloa",
+  "phone": "0652224990",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkalady--health, kaluwanchikudy--health, kiran--health, oddamavadi--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17W134M1MAJPXBMKZHF50"
+}

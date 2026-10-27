@@ -1,0 +1,70 @@
+{
+  "name": "JC Catering Services Batticaloa",
+  "coordinates": {
+    "latitude": 7.7367713,
+    "longitude": 81.6873878
+  },
+  "categories": [
+    "Restaurant",
+    "Box lunch supplier",
+    "Caterer",
+    "Delivery service",
+    "Food machinery supplier",
+    "Health food restaurant",
+    "Meal delivery",
+    "Mobile caterer",
+    "Catering food and drink supplier"
+  ],
+  "address": "Karuvappenkerney, 88/95 Navalar Road, Batticaloa 30000",
+  "phone": "0771834045",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17FAW44NR6BX0KC8TW3JW"
+}

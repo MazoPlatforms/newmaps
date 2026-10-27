@@ -1,0 +1,62 @@
+{
+  "name": "Jeeva Stores",
+  "coordinates": {
+    "latitude": 7.7428769,
+    "longitude": 81.6670733
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "PMV8+5R4, Batticaloa",
+  "phone": "0781229120",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--retail, batticaloa--retail, chenkalady--retail, eravur--retail, kiran--retail, manmunai--retail, mylambaveli--retail, vakarai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17JKNYA82MH5P4N93JPE6"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Golden Beak Farm PVT LTD.",
+  "coordinates": {
+    "latitude": 7.777174499999999,
+    "longitude": 81.6029806
+  },
+  "categories": [
+    "Chicken shop"
+  ],
+  "address": "QJG3+V59, Main St, Eravur",
+  "phone": "0777272704",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17GYJRQGH8BD6GW8J4DYD"
+}

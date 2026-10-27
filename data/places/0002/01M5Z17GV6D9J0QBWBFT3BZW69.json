@@ -1,0 +1,17 @@
+{
+  "name": "Miskhath Restaurant",
+  "coordinates": {
+    "latitude": 7.7783546999999995,
+    "longitude": 81.6063131
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "602 Girls School Road, Eravur",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17GV6D9J0QBWBFT3BZW69"
+}

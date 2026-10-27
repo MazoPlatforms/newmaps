@@ -1,0 +1,62 @@
+{
+  "name": "Arabian Grilled Shawarma & Sandwich",
+  "coordinates": {
+    "latitude": 7.7736563,
+    "longitude": 81.6092901
+  },
+  "categories": [
+    "Shawarma restaurant"
+  ],
+  "address": "448 Kayar Road, Eravur",
+  "phone": "0766896800",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17FJTHYB53HFT163NV64A"
+}

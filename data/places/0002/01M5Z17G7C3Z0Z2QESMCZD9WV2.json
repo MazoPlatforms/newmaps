@@ -1,0 +1,62 @@
+{
+  "name": "Green East Hotel Eravur.",
+  "coordinates": {
+    "latitude": 7.7774149999999995,
+    "longitude": 81.60294739999999
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "QJG3+X58, Town, Eravur",
+  "phone": "0771274504",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–10 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17G7C3Z0Z2QESMCZD9WV2"
+}

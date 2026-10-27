@@ -1,0 +1,63 @@
+{
+  "name": "Batti Eat My Cake",
+  "coordinates": {
+    "latitude": 7.732445599999999,
+    "longitude": 81.67609519999999
+  },
+  "categories": [
+    "Cake shop"
+  ],
+  "address": "5th cross, Batticaloa 30000",
+  "phone": "0753803557",
+  "website": "https://www.facebook.com/profile.php?id=61563908275088&mibextid=LQQJ4d",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6:12 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--food, batticaloa--food, chenkalady--food, eravur--food, kallady--food, kaluwanchikudy--food, kattankudy--food, kiran--food, manmunai--food, mylambaveli--food, oddamavadi--food, vakarai--food, valaichchenai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17HB7AJNGGD6YH47MYT00"
+}

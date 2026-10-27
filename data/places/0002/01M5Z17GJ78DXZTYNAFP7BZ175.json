@@ -1,0 +1,62 @@
+{
+  "name": "Ceylon Fried Chicken (CFC) Eravur Lagoon Park",
+  "coordinates": {
+    "latitude": 7.7693924999999995,
+    "longitude": 81.6059409
+  },
+  "categories": [
+    "Fast food restaurant"
+  ],
+  "address": "QJ94+Q9J, LAGOON PARK, Eravur",
+  "phone": "0764711443",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "2–11 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17GJ78DXZTYNAFP7BZ175"
+}

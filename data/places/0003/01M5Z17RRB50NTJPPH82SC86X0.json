@@ -1,0 +1,62 @@
+{
+  "name": "CSEL College",
+  "coordinates": {
+    "latitude": 7.7768972,
+    "longitude": 81.6042028
+  },
+  "categories": [
+    "English language school"
+  ],
+  "address": "New Divisional Secretariat, Road, Eravur 6",
+  "phone": "0752808037",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--education, chenkalady--education, eravur--education, kalkudah--education, kallady--education, kaluwanchikudy--education, kiran--education, manmunai--education, mylambaveli--education, pasikudah--education, vakarai--education, valaichchenai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17RRB50NTJPPH82SC86X0"
+}
