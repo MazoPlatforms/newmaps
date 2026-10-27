@@ -1,0 +1,62 @@
+{
+  "name": "Cafe Nish",
+  "coordinates": {
+    "latitude": 7.7234586,
+    "longitude": 81.68728709999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "PMFP+GRG, Lagoon Park, Slaughter House Lake Road, Batticaloa",
+  "phone": "0762907846",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--food, batticaloa--food, chenkalady--food, district--food-exploratory, eravur--food, kallady--food, kaluwanchikudy--food, kattankudy--food, kiran--food, manmunai--food, mylambaveli--food, oddamavadi--food, vakarai--food, valaichchenai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17EGNTSQTP6BCD3XHQ6GD"
+}

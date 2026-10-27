@@ -1,0 +1,62 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 7.7187000999999995,
+    "longitude": 81.70010769999999
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "No. 42, Bar Road, Batticaloa",
+  "phone": "0652226403",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--finance, batticaloa--finance, chenkalady--finance, eravur--finance, kallady--finance, kattankudy--finance, kiran--finance, manmunai--finance, mylambaveli--finance, vakarai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17N3VZ8S4NEEPVFWAYAJ7"
+}

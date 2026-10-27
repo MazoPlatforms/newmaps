@@ -1,0 +1,63 @@
+{
+  "name": "The Butterfly Peace Garden, Batticaloa,Srilanka",
+  "coordinates": {
+    "latitude": 7.7241998,
+    "longitude": 81.67064049999999
+  },
+  "categories": [
+    "Park"
+  ],
+  "address": "PMFC+M7C, Manresa Street, Pillaiyaradi, Batticaloa",
+  "phone": "0775599422",
+  "website": "http://www.butterflypeacegarden.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17PGVH4BQP86VHS9XSW66"
+}

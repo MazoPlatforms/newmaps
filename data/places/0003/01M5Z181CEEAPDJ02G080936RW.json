@@ -1,0 +1,17 @@
+{
+  "name": "Kallady Beach",
+  "coordinates": {
+    "latitude": 7.7186502,
+    "longitude": 81.718903
+  },
+  "categories": [
+    "Beach"
+  ],
+  "address": "Kallady",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kallady--recreation, kaluwanchikudy--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z181CEEAPDJ02G080936RW"
+}

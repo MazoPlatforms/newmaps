@@ -1,0 +1,63 @@
+{
+  "name": "Aarush Supermarket",
+  "coordinates": {
+    "latitude": 7.7134876,
+    "longitude": 81.7100186
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "PP76+926, Kallady",
+  "phone": "0704835713",
+  "website": "https://www.facebook.com/share/1GuoLATDNm/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--retail, chenkalady--retail, kallady--retail, kaluwanchikudy--retail, kiran--retail, manmunai--retail, mylambaveli--retail, vakarai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17YTXFGQ33YMPV1BJ41CR"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Baalan Motors & Service Station",
+  "coordinates": {
+    "latitude": 7.7296188,
+    "longitude": 81.67327999999999
+  },
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "address": "609 Trinco Road, Batticaloa",
+  "phone": "0652055417",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--vehicle, batticaloa--vehicle, chenkalady--vehicle, eravur--vehicle, kalkudah--vehicle, kallady--vehicle, kaluwanchikudy--vehicle, manmunai--vehicle, mylambaveli--vehicle, oddamavadi--vehicle, vakarai--vehicle, valaichchenai--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17NQ27QJ086EBVAJE2BZJ"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Nei Barotta",
+  "coordinates": {
+    "latitude": 7.7261875,
+    "longitude": 81.688746
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "456 Trinco Road, Batticaloa 30000",
+  "phone": "0768887278",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17EFW8VZSZDABS6D97WPB"
+}

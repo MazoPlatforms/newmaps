@@ -1,0 +1,17 @@
+{
+  "name": "Lake Park",
+  "coordinates": {
+    "latitude": 7.7142846,
+    "longitude": 81.692747
+  },
+  "categories": [
+    "Park"
+  ],
+  "address": "2 Buntings Ln, Batticaloa",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17PCZFV0171954YDY242H"
+}

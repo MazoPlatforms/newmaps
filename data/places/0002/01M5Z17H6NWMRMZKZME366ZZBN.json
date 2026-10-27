@@ -1,0 +1,62 @@
+{
+  "name": "Cafe Lullaby",
+  "coordinates": {
+    "latitude": 7.7180998,
+    "longitude": 81.6940616
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "26 A Kannaki Amman Kovil Road, Batticaloa 30000",
+  "phone": "0777109594",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--food, batticaloa--food, chenkalady--food, eravur--food, kallady--food, kaluwanchikudy--food, kattankudy--food, kiran--food, manmunai--food, mylambaveli--food, oddamavadi--food, vakarai--food, valaichchenai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17H6NWMRMZKZME366ZZBN"
+}

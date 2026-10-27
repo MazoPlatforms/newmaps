@@ -1,0 +1,17 @@
+{
+  "name": "Grocery Shop",
+  "coordinates": {
+    "latitude": 7.7224005,
+    "longitude": 81.7124919
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "PPC7+W2C, 6th Cross St, Kallady",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kallady--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z186VDPGYRVJR9J1EV06B8"
+}

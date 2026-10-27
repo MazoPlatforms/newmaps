@@ -1,0 +1,62 @@
+{
+  "name": "Bank Of Ceylon ATM,Thandavanveli",
+  "coordinates": {
+    "latitude": 7.7198284,
+    "longitude": 81.6968435
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "PM9W+WPP, Arunagiri Road, Batticaloa",
+  "website": "http://www.boc.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--finance, batticaloa--finance, kallady--finance, kaluwanchikudy--finance, kattankudy--finance, manmunai--finance, mylambaveli--finance, vakarai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17MVA863WHWRTYCTZNVGZ"
+}

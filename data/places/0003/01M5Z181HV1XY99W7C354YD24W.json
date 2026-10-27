@@ -1,0 +1,63 @@
+{
+  "name": "Akshara Pharmaceutical Distributors",
+  "coordinates": {
+    "latitude": 7.7226045999999995,
+    "longitude": 81.7010306
+  },
+  "categories": [
+    "Pharmaceutical products wholesaler"
+  ],
+  "address": "No. 10 New Road, Batticaloa 30000",
+  "phone": "0774797447",
+  "website": "https://www.aksharasurgicals.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--health, vakarai--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z181HV1XY99W7C354YD24W"
+}

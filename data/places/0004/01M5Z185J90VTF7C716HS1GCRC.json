@@ -1,0 +1,62 @@
+{
+  "name": "Divisional Secretary - Manmunai North Batticaloa/மண்முனை வடக்கு பிரதேச செயலகம்",
+  "coordinates": {
+    "latitude": 7.7085772,
+    "longitude": 81.697684
+  },
+  "categories": [
+    "Government"
+  ],
+  "address": "PM5X+C3M, Batticaloa",
+  "phone": "0652228533",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kiran--government, manmunai--government, manmunai--religious, mylambaveli--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z185J90VTF7C716HS1GCRC"
+}

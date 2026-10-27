@@ -1,0 +1,63 @@
+{
+  "name": "Bank Of Ceylon - Batticaloa Super Grade Branch",
+  "coordinates": {
+    "latitude": 7.712904,
+    "longitude": 81.6940449
+  },
+  "categories": [
+    "Public sector bank"
+  ],
+  "address": "PM7V+5J7, Covington's Road, Batticaloa",
+  "phone": "0652227410",
+  "website": "http://www.boc.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--finance, chenkalady--finance, eravur--finance, kallady--finance, kattankudy--finance, kiran--finance, manmunai--finance, vakarai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17N5B20XXYR2JQJTWGH58"
+}

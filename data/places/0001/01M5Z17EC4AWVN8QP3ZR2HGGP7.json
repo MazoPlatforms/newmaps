@@ -1,0 +1,63 @@
+{
+  "name": "Shaan Food Court",
+  "coordinates": {
+    "latitude": 7.720158199999999,
+    "longitude": 81.69599319999999
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "337 Trinco Road, Batticaloa",
+  "phone": "0757365784",
+  "website": "https://www.facebook.com/profile.php?id=100093648773852&mibextid=LQQJ4d",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory, kallady--food, mylambaveli--food, vakarai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17EC4AWVN8QP3ZR2HGGP7"
+}

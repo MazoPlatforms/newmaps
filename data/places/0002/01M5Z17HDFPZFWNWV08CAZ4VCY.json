@@ -1,0 +1,65 @@
+{
+  "name": "Theraphy Cafe",
+  "coordinates": {
+    "latitude": 7.7181926999999995,
+    "longitude": 81.7180786
+  },
+  "categories": [
+    "Cafe",
+    "Cafeteria",
+    "Coffee shop",
+    "Juice shop"
+  ],
+  "address": "Road, Kallady 30000",
+  "phone": "0770298098",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--food, eravur--food, kallady--food, manmunai--food, vakarai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17HDFPZFWNWV08CAZ4VCY"
+}

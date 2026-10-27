@@ -1,0 +1,61 @@
+{
+  "name": "Town Market",
+  "coordinates": {
+    "latitude": 7.7154959,
+    "longitude": 81.6991967
+  },
+  "categories": [
+    "Market"
+  ],
+  "address": "PM8X+5MW, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:55 AM–12:01 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:56 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:55 AM–12:01 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:55 AM–12:01 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:55 AM–12:01 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:55 AM–12:01 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:56 AM–12:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17HRFFXAN6HHFAC62FH3T"
+}

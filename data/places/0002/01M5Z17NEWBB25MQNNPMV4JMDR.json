@@ -1,0 +1,63 @@
+{
+  "name": "SDB Bank - Eastern Regional Office",
+  "coordinates": {
+    "latitude": 7.7231235,
+    "longitude": 81.69983669999999
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "No. 47 Railway station cross road, Batticaloa",
+  "phone": "0652224681",
+  "website": "https://www.sdb.lk/en/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17NEWBB25MQNNPMV4JMDR"
+}

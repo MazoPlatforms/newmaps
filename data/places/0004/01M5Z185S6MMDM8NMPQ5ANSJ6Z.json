@@ -1,0 +1,63 @@
+{
+  "name": "Wood Cafe",
+  "coordinates": {
+    "latitude": 7.723522399999999,
+    "longitude": 81.6872408
+  },
+  "categories": [
+    "Ice cream shop"
+  ],
+  "address": "Lagoon Park, Slaughter House Lake Road, Batticaloa",
+  "phone": "0754289679",
+  "website": "https://www.facebook.com/profile.php?id=100094739803856&mibextid=ZbWKwL",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: mylambaveli--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z185S6MMDM8NMPQ5ANSJ6Z"
+}

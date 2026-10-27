@@ -1,0 +1,63 @@
+{
+  "name": "Union Bank Batticaloa Branch",
+  "coordinates": {
+    "latitude": 7.7202889,
+    "longitude": 81.6966245
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "3 B27, Batticaloa",
+  "phone": "0652228512",
+  "website": "https://www.unionb.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--finance, chenkalady--finance, eravur--finance, kallady--finance, kattankudy--finance, kiran--finance, manmunai--finance, mylambaveli--finance, vakarai--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17MYB5X0RE8J7KA909XZP"
+}

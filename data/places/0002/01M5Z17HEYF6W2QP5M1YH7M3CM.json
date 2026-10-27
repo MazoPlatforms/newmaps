@@ -1,0 +1,17 @@
+{
+  "name": "FCC Cafe",
+  "coordinates": {
+    "latitude": 7.7134366,
+    "longitude": 81.69707079999999
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "PM7W+9RG, Batticaloa",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--food, mylambaveli--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17HEYF6W2QP5M1YH7M3CM"
+}

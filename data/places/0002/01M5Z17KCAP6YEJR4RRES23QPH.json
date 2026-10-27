@@ -1,0 +1,62 @@
+{
+  "name": "Sukyva Pharmacy",
+  "coordinates": {
+    "latitude": 7.7201338999999995,
+    "longitude": 81.6960029
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "PMCW+3C2, Trincomalee-Batticaloa Road, Batticaloa",
+  "phone": "0766296138",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--health, batticaloa--health, chenkalady--health, eravur--health, kalkudah--health, kallady--health, kaluwanchikudy--health, kattankudy--health, kiran--health, manmunai--health, mylambaveli--health, oddamavadi--health, pasikudah--health, vakarai--health, valaichchenai--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17KCAP6YEJR4RRES23QPH"
+}

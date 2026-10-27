@@ -1,0 +1,63 @@
+{
+  "name": "Batticaloa Police Station",
+  "coordinates": {
+    "latitude": 7.7179489,
+    "longitude": 81.6992944
+  },
+  "categories": [
+    "Police station"
+  ],
+  "address": "PM9X+5PF, Old Rest House Road, Batticaloa",
+  "phone": "0652224422",
+  "website": "http://www.police.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--government, batticaloa--government, chenkalady--government, eravur--government, kallady--government, kattankudy--government, kiran--government, manmunai--government, mylambaveli--government, oddamavadi--government, pasikudah--government, vakarai--government, valaichchenai--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17NGAEY8WXR1QREHS0HAA"
+}

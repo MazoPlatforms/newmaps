@@ -1,0 +1,63 @@
+{
+  "name": "SDB Bank Batticaloa Branch",
+  "coordinates": {
+    "latitude": 7.7190294999999995,
+    "longitude": 81.70042839999999
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "197 Trincomalee-Batticaloa Road, Batticaloa",
+  "phone": "0652226611",
+  "website": "http://www.sdb.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17N736T01TQCM83660S2H"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Velmurugan Stores (Unilever Distributors)",
+  "coordinates": {
+    "latitude": 7.727823399999999,
+    "longitude": 81.6973678
+  },
+  "categories": [
+    "Distribution service",
+    "Distributors"
+  ],
+  "address": "96 Boundary Road, Batticaloa",
+  "phone": "0654929239",
+  "website": "https://www.unilever.com.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--retail, kaluwanchikudy--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17J9XYAN24Q96HZQB8E5H"
+}

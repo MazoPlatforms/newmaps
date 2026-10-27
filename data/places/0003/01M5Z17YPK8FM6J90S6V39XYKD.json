@@ -1,0 +1,65 @@
+{
+  "name": "Candy Land Batticaloa",
+  "coordinates": {
+    "latitude": 7.729653399999999,
+    "longitude": 81.6866816
+  },
+  "categories": [
+    "Cake shop",
+    "Cupcake shop",
+    "Wedding bakery"
+  ],
+  "address": "No. 60/9 5th Cross, Selvanayagam Road, Batticaloa 30000",
+  "phone": "0771010641",
+  "website": "https://candyland.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkalady--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17YPK8FM6J90S6V39XYKD"
+}

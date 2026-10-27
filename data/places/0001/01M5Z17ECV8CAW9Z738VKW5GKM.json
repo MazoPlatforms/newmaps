@@ -1,0 +1,62 @@
+{
+  "name": "Paadu Meen Parotta Plaza Kallady Bridge 🌉",
+  "coordinates": {
+    "latitude": 7.718013,
+    "longitude": 81.7088203
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "Singing fish park kallady, batticaloa 30000",
+  "phone": "0772929994",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4 PM–3 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4 PM–3 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4 PM–3 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4 PM–3 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 PM–3 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4 PM–3 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 PM–3 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory, kallady--food, vakarai--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17ECV8CAW9Z738VKW5GKM"
+}

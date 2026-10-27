@@ -1,0 +1,22 @@
+{
+  "name": "Hotel Sunriver, Kallady Batticaloa",
+  "coordinates": {
+    "latitude": 7.7128003,
+    "longitude": 81.7080548
+  },
+  "categories": [
+    "Hotel",
+    "Guest house",
+    "Holiday apartment rental",
+    "Resort hotel",
+    "Wedding venue"
+  ],
+  "address": "42/6B Krishnan Kovil Road, Kallady 30000",
+  "phone": "0762894602",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kallady--accommodation, mylambaveli--accommodation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z186CM87TR54FH1E2G4SN3"
+}
