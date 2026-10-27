@@ -95,6 +95,9 @@ class PublicPlaceEligibilityTests(unittest.TestCase):
                 self.assertEqual(set(record), expected_keys)
                 self.assertIsNone(record["coordinates"])
                 self.assertTrue(places.resolve_place_id(retired_id, aliases))
+        # Generated output is ignored and may not exist in a clean CI checkout.
+        # Build it here so this privacy assertion is independent of workflow order.
+        places.build()
         manifest = json.loads((ROOT / "generated/manifest.json").read_text(encoding="utf-8"))
         self.assertEqual(len(withheld_ids), manifest["withheld_pending_public_eligibility_review"] + 7)
         self.assertTrue(withheld_ids.isdisjoint(manifest["aliases"].keys()) is False)
