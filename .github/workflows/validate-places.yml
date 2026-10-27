@@ -1,7 +1,7 @@
 name: Validate Mazo Places
 on:
   pull_request:
-    paths: ['data/places/**', 'data/boundaries/**', 'data/roads/**', 'data/speed-limits/**', 'data/speed-limit.schema.json', '*.json', 'scripts/**', 'tests/**', 'data/place.schema.json', 'data/road.schema.json', 'assets/js/**', '.github/workflows/**']
+    paths: ['data/places/**', 'data/boundaries/**', 'data/roads/**', 'data/speed-limits/**', 'data/speed-limit.schema.json', '*.json', 'scripts/**', 'tests/**', 'data/place.schema.json', 'data/road.schema.json', 'assets/js/**', 'assets/vendor/**', 'requirements-map-tiles.txt', '.github/workflows/**']
   push:
     branches: [main]
 permissions:
@@ -19,6 +19,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: {node-version: '22'}
       - run: python -m pip install 'shapely>=2,<3'
+      - run: python -m pip install -r requirements-map-tiles.txt
       - run: python scripts/places.py validate
       - name: Validate place contributions against the pull request base
         env:
@@ -26,6 +27,7 @@ jobs:
           PR_HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
         run: python scripts/validate_place_contributions.py --base-ref "$PR_BASE_SHA" --head-ref "$PR_HEAD_SHA"
       - run: python scripts/places.py build
+      - run: python scripts/build_map_delivery.py
       - run: python scripts/roads.py validate
       - run: python scripts/roads.py build
       - run: python scripts/speed_limits.py validate

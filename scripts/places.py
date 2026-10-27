@@ -104,9 +104,23 @@ def build():
     data=json.dumps({'type':'FeatureCollection','features':features},ensure_ascii=False,separators=(',',':')).encode()
     out=GENERATED/PLACE_MZP_NAME;out.write_bytes(data)
     digest=hashlib.sha256(data).hexdigest()
+    previous={}
+    if PLACE_MANIFEST.exists():
+        try: previous=json.loads(PLACE_MANIFEST.read_text(encoding='utf8'))
+        except (OSError,ValueError): previous={}
     aliases=load_aliases()
     resolved_aliases={retired:resolve_place_id(retired,aliases) for retired in aliases}
     report={'format':'MZP/1','geojson':PLACE_MZP_NAME,'features':len(features),'excluded_without_coordinates':excluded,'withheld_pending_public_eligibility_review':withheld,'bytes':len(data),'sha256':digest,'shards':counts,'aliases':resolved_aliases}
+    # Preserve delivery metadata across idempotent MZP rebuilds performed by
+    # validators/tests; discard it automatically when canonical MZP bytes change.
+    if previous.get('sha256')==digest and isinstance(previous.get('delivery'),dict):
+        delivery=previous['delivery']; valid=True
+        for key in ('mvt_pmtiles','search_index','place_details'):
+            entry=delivery.get(key,{})
+            target=GENERATED/str(entry.get('file',''))
+            if not target.is_file() or hashlib.sha256(target.read_bytes()).hexdigest()!=entry.get('sha256'):
+                valid=False;break
+        if valid:report['delivery']=delivery
     (GENERATED/'manifest.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({key:value for key,value in report.items() if key!='aliases'} |
                      {'alias_count':len(aliases),'suspicious_duplicate_pairs':len(suspicious)},indent=2))

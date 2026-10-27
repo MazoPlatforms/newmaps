@@ -22,12 +22,14 @@ jobs:
         with:
           python-version: '3.x'
       - run: python -m pip install 'shapely>=2,<3'
+      - run: python -m pip install -r requirements-map-tiles.txt
       - run: python scripts/places.py validate
       - name: Recheck public eligibility and generated place manifest
         env:
           COMMIT_SHA: ${{ github.sha }}
         run: python scripts/validate_place_contributions.py --base-ref "$COMMIT_SHA" --head-ref "$COMMIT_SHA"
       - run: python scripts/places.py build
+      - run: python scripts/build_map_delivery.py
       - run: python scripts/enrich_roads.py --check
       - run: python scripts/roads.py validate
       - run: python scripts/roads.py build

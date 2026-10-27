@@ -1,0 +1,21 @@
+{
+  "source": "current canonical places and generated MZP before PMTiles frontend integration",
+  "records": 4534,
+  "geographic_features": 4498,
+  "permanent_aliases": 1086,
+  "individual_json_bytes": 3021745,
+  "individual_json_gzip_bytes": 355680,
+  "mzp_bytes": 2168230,
+  "mzp_gzip_bytes": 334173,
+  "mzp_json_parse_seconds_python_3_14": 0.04405443300129264,
+  "live_pages_range_test": {
+    "url": "https://mazoplatforms.github.io/newmaps/generated/batticaloa-district.mzp",
+    "get_status": 206,
+    "range": "bytes 0-99",
+    "returned_bytes": 100,
+    "content_range_total_bytes": 2168230,
+    "accept_ranges": "bytes",
+    "note": "Verified by GET with Range; PMTiles archive is not yet deployed."
+  },
+  "browser_and_device_measurements": "Unavailable: no browser automation or Android device in this Codespace."
+}

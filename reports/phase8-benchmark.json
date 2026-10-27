@@ -1,0 +1,152 @@
+{
+  "benchmark": "Mazo Maps Phase 8 local data-delivery comparison",
+  "method": "Python local artifact sizes and PMTiles tile payload reads; no browser timing claims.",
+  "baseline": {
+    "source": "current canonical places and generated MZP before PMTiles frontend integration",
+    "records": 4534,
+    "geographic_features": 4498,
+    "permanent_aliases": 1086,
+    "individual_json_bytes": 3021745,
+    "individual_json_gzip_bytes": 355680,
+    "mzp_bytes": 2168230,
+    "mzp_gzip_bytes": 334173,
+    "mzp_json_parse_seconds_python_3_14": 0.04405443300129264,
+    "live_pages_range_test": {
+      "url": "https://mazoplatforms.github.io/newmaps/generated/batticaloa-district.mzp",
+      "get_status": 206,
+      "range": "bytes 0-99",
+      "returned_bytes": 100,
+      "content_range_total_bytes": 2168230,
+      "accept_ranges": "bytes",
+      "note": "Verified by GET with Range; PMTiles archive is not yet deployed."
+    },
+    "browser_and_device_measurements": "Unavailable: no browser automation or Android device in this Codespace."
+  },
+  "candidate": {
+    "archive_bytes": 1681457,
+    "archive_sha256": "61db5cc278f3d60a6ae98d777a5d06439239a420d611765b5be90b2aa2af7e6c",
+    "search_index_bytes": 688972,
+    "search_index_gzip_bytes": 231251,
+    "details_index_bytes": 1490542,
+    "details_index_gzip_bytes": 271979,
+    "archive_plus_search_gzip_if_fully_downloaded_bytes": 1912708,
+    "tiles": 1223,
+    "viewport_estimates": {
+      "world": {
+        "center": [
+          0.0,
+          0.0
+        ],
+        "zoom": 2,
+        "viewport_px": [
+          1280,
+          800
+        ],
+        "candidate_tiles": 16,
+        "tiles_with_data": 0,
+        "tile_payload_bytes": 0,
+        "directory_and_header_bytes": "excluded; require browser Range instrumentation"
+      },
+      "sri_lanka": {
+        "center": [
+          80.7,
+          7.8
+        ],
+        "zoom": 7,
+        "viewport_px": [
+          1280,
+          800
+        ],
+        "candidate_tiles": 24,
+        "tiles_with_data": 2,
+        "tile_payload_bytes": 73558,
+        "directory_and_header_bytes": "excluded; require browser Range instrumentation"
+      },
+      "initial_service_area": {
+        "center": [
+          81.5569,
+          7.8381
+        ],
+        "zoom": 9,
+        "viewport_px": [
+          1280,
+          800
+        ],
+        "candidate_tiles": 24,
+        "tiles_with_data": 4,
+        "tile_payload_bytes": 77708,
+        "directory_and_header_bytes": "excluded; require browser Range instrumentation"
+      },
+      "batticaloa_district": {
+        "center": [
+          81.7,
+          7.7
+        ],
+        "zoom": 10,
+        "viewport_px": [
+          1280,
+          800
+        ],
+        "candidate_tiles": 24,
+        "tiles_with_data": 7,
+        "tile_payload_bytes": 166124,
+        "directory_and_header_bytes": "excluded; require browser Range instrumentation"
+      },
+      "kattankudy_neighborhood": {
+        "center": [
+          81.73,
+          7.68
+        ],
+        "zoom": 13,
+        "viewport_px": [
+          1280,
+          800
+        ],
+        "candidate_tiles": 24,
+        "tiles_with_data": 15,
+        "tile_payload_bytes": 131943,
+        "directory_and_header_bytes": "excluded; require browser Range instrumentation"
+      },
+      "street_level": {
+        "center": [
+          81.73,
+          7.68
+        ],
+        "zoom": 16,
+        "viewport_px": [
+          1280,
+          800
+        ],
+        "candidate_tiles": 24,
+        "tiles_with_data": 18,
+        "tile_payload_bytes": 71559,
+        "directory_and_header_bytes": "excluded; require browser Range instrumentation"
+      }
+    },
+    "search_startup": "Search index is independent of the viewport; browser startup timings are not available.",
+    "details_policy": "Place detail payload is fetched lazily on a selected result; archive full download is not required by PMTiles."
+  },
+  "node_search_cpu_benchmark": {
+    "runtime": "Node v24.21.0; CPU-only, not a browser benchmark",
+    "trials": 7,
+    "mzp_geojson": {
+      "gzip_bytes": 332479,
+      "json_parse_ms": {"median": 17.87, "p95": 39.468},
+      "decode_and_index_ms": {"median": 37.502, "p95": 56.505},
+      "one_hundred_searches_ms": {"median": 3711.673, "p95": 5184.463}
+    },
+    "compact_search_index": {
+      "gzip_bytes": 230218,
+      "json_parse_ms": {"median": 3.524, "p95": 5.21},
+      "decode_and_index_ms": {"median": 34.2, "p95": 39.526},
+      "one_hundred_searches_ms": {"median": 3429.341, "p95": 3551.018}
+    },
+    "method_note": "These numbers measure Node JSON/search work only. They do not measure MapLibre rendering, transfer latency, browser memory, or mobile interactions."
+  },
+  "decision": "MZP remains production default pending deployed PMTiles Range verification and browser/mobile benchmark.",
+  "limitations": [
+    "Tile payload byte totals omit PMTiles header, directory, metadata, HTTP headers, retries, and cache behavior.",
+    "No cold/warm browser cache, throttled network, frame-time, memory, or Android measurements were possible.",
+    "The Pages Range result currently applies to the deployed MZP only, not this branch's un-deployed PMTiles archive."
+  ]
+}
