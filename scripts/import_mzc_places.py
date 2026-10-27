@@ -227,7 +227,8 @@ def _has_shared_identity_evidence(candidate: dict, existing: dict) -> bool:
     return False
 
 
-def analyze(input_dir: Path, boundary_path: Path = BOUNDARY_PATH, root: Path = ROOT, region: str | None = None) -> dict:
+def analyze(input_dir: Path, boundary_path: Path = BOUNDARY_PATH, root: Path = ROOT,
+            region: str | set[str] | None = None) -> dict:
     query_manifest, rows = read_captures(input_dir)
     boundary = load_boundary(boundary_path)
     records, _, _ = places.load_places() if root == ROOT else load_records(root)
@@ -311,7 +312,8 @@ def analyze(input_dir: Path, boundary_path: Path = BOUNDARY_PATH, root: Path = R
         else:
             counts["new_public_candidate"] += 1
             classification = "new_public_candidate"
-            if region is None or region_for(record) == region:
+            selected_regions = region if isinstance(region, set) else {region} if region else set()
+            if not selected_regions or region_for(record) in selected_regions:
                 record_index = len(new_records)
                 new_records.append(record)
                 formatting_changes.extend(item["format_changes"])
@@ -508,7 +510,7 @@ def public_report(plan: dict, region: str | None = None) -> dict:
             "unresolved_new_nearby_duplicate_pair_count": len(plan["internal_nearby_pairs"]),
             "active_place_records_before": plan["source_records_before"],
             "active_place_records_after": plan["source_records_before"] + len(import_rows),
-            "current_batch_region": region or "all",
+            "current_batch_region": ", ".join(sorted(region)) if isinstance(region, set) else region or "all",
             "name_format_changes": sum(change["field"] == "name" for change in plan["formatting_changes"]),
             "address_format_changes": sum(change["field"] == "address" for change in plan["formatting_changes"]),
             "imported_ulids": [],
@@ -658,13 +660,15 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input-dir", type=Path, default=DEFAULT_INPUT, help="directory of JSON outputs from documented mzc queries")
     parser.add_argument("--boundary", type=Path, default=BOUNDARY_PATH)
-    parser.add_argument("--region", choices=[*REGIONS, "all"], default="all", help="import a manageable geographic latitude band, or analyze/import all candidates")
+    parser.add_argument("--region", default="all", help="comma-separated latitude bands to import (or 'all'); e.g. central-mid,central-north")
     parser.add_argument("--report-json", type=Path, default=REPORT_JSON, help="write the machine-readable quality report to this path")
     parser.add_argument("--report-md", type=Path, default=REPORT_MD, help="write the human-readable quality report to this path")
     parser.add_argument("--phase", default="Phase 6", help="phase label for the report title")
     parser.add_argument("--apply", action="store_true", help="write accepted new records, rebuild MZP, and write reports")
     args = parser.parse_args()
-    region = None if args.region == "all" else args.region
+    region = None if args.region == "all" else set(args.region.split(","))
+    if region is not None and (not region or not region.issubset(REGIONS)):
+        parser.error(f"--region must be 'all' or a comma-separated subset of: {', '.join(REGIONS)}")
     try:
         plan = analyze(args.input_dir, args.boundary, ROOT, region)
         report = public_report(plan, region)

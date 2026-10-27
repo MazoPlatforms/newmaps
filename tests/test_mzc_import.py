@@ -70,6 +70,22 @@ class MzcImportTests(unittest.TestCase):
         self.assertEqual(importer.region_for(mzc_record("Cafe", latitude=7.80)), "central-north")
         self.assertEqual(importer.region_for(mzc_record("Cafe", latitude=7.90)), "north")
 
+    def test_multi_band_batch_selection_is_geographic_and_does_not_change_all_counts(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp)
+            input_dir = path / "capture"
+            capture(input_dir, [
+                mzc_record("South Cafe", latitude=7.68),
+                mzc_record("Central Cafe", latitude=7.75),
+                mzc_record("North Cafe", latitude=7.80, longitude=81.60),
+            ])
+            root = path / "repo"
+            write_tree(root, [])
+            plan = importer.analyze(input_dir, importer.BOUNDARY_PATH, root,
+                                    region={"central-mid", "central-north"})
+            self.assertEqual({row["name"] for row in plan["new_records"]}, {"Central Cafe", "North Cafe"})
+            self.assertEqual(plan["counts"]["new_public_candidate"], 3)
+
     def test_normalization_preserves_known_acronym_and_address_content(self):
         item = importer.group_candidates([{
             "query": {"key": "batticaloa--food"},
