@@ -1,0 +1,236 @@
+{
+  "browser": "Chromium 141.0.7390.37",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "mobileEmulation": true
+  },
+  "results": [
+    {
+      "mode": "mzp",
+      "startupMs": 6624,
+      "sourceType": "geojson",
+      "startupTransferBytes": 4657307,
+      "startupHeapBytes": 44700000,
+      "interactiveTransferBytes": 4657307,
+      "animation": {
+        "samples": 16,
+        "p50Ms": 66.70000000000437,
+        "p95Ms": 183.29999999999563,
+        "p99Ms": 183.29999999999563,
+        "maxMs": 233.3000000000029,
+        "longTasksOver50Ms": 13
+      },
+      "initialCamera": {
+        "zoom": 8.6,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "interactionOptions": {
+        "dragRotate": false,
+        "touchZoomRotate": true,
+        "minimumZoom": 0
+      },
+      "attemptedRotationBearing": 0,
+      "beforeWheelZoom": 14,
+      "afterWheelZoom": 14.33401951912169,
+      "theme": "dark",
+      "opacities": [
+        [
+          "mazo-poi-major",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-district",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-local",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-selected",
+          1,
+          1
+        ]
+      ],
+      "category": "electronics",
+      "searchResult": "Noor Accessories Showroom",
+      "selectedPlace": "Noor Accessories Showroom",
+      "worldCamera": {
+        "zoom": 0.7210991682491942,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "rangeResponses": [],
+      "errors": []
+    },
+    {
+      "mode": "pmtiles",
+      "startupMs": 4592,
+      "sourceType": "vector",
+      "startupTransferBytes": 2601219,
+      "startupHeapBytes": 26000000,
+      "interactiveTransferBytes": 5095671,
+      "animation": null,
+      "initialCamera": {
+        "zoom": 8.6,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "interactionOptions": {
+        "dragRotate": false,
+        "touchZoomRotate": true,
+        "minimumZoom": 0
+      },
+      "attemptedRotationBearing": 0,
+      "beforeWheelZoom": 8.6,
+      "afterWheelZoom": 8.934019519121689,
+      "theme": "dark",
+      "opacities": [
+        [
+          "mazo-poi-major",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-district",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-local",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-selected",
+          1,
+          1
+        ]
+      ],
+      "category": "electronics",
+      "searchResult": "Noor Accessories Showroom",
+      "selectedPlace": "Noor Accessories Showroom",
+      "worldCamera": {
+        "zoom": 0.7210991682491942,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "rangeResponses": [
+        {
+          "status": 206,
+          "contentRange": "bytes 0-16383/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 2740-2974/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 144645-158802/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 84709-144644/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 144645-158802/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 84709-144644/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 327949-381955/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 236968-327948/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 858454-884474/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 778215-845649/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1266110-1270224/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1205183-1234350/1681457"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "mode": "pmtiles-fallback",
+      "startupMs": 22210,
+      "sourceType": "geojson",
+      "startupTransferBytes": 4678161,
+      "startupHeapBytes": 42100000,
+      "interactiveTransferBytes": 4678161,
+      "animation": null,
+      "initialCamera": {
+        "zoom": 8.6,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "interactionOptions": {
+        "dragRotate": false,
+        "touchZoomRotate": true,
+        "minimumZoom": 0
+      },
+      "attemptedRotationBearing": 0,
+      "beforeWheelZoom": 8.6,
+      "afterWheelZoom": 8.934019519121689,
+      "theme": "dark",
+      "opacities": [
+        [
+          "mazo-poi-major",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-district",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-local",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-selected",
+          1,
+          1
+        ]
+      ],
+      "category": "electronics",
+      "searchResult": "Noor Accessories Showroom",
+      "selectedPlace": "Noor Accessories Showroom",
+      "worldCamera": {
+        "zoom": 0.7210991682491942,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "rangeResponses": [
+        {
+          "status": 503,
+          "contentRange": null
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
