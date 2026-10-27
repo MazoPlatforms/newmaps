@@ -106,3 +106,54 @@ This phase does not change tile generation, canonical storage, or data delivery 
 - Browser emulation is not physical Android testing. Map appearance and timing depend on the external OpenFreeMap service, its tile update cadence, glyph availability, and network conditions.
 - MapLibre exposes symbol candidates through rendered feature queries, but not a stable per-label collision count API. Screenshot review is used for visual label density; numeric POI counts are explicitly symbol-feature counts.
 - The external independent site is a clone and Google-data wrapper, not an independent reference provider. Google's dark styling could not be compared in this public web session.
+
+## Follow-up browser and basemap audit (2026-10-27)
+
+### Active OpenFreeMap style and the boundary defect
+
+The current light style and the new dark palette both use the OpenFreeMap Liberty v8 style at `https://tiles.openfreemap.org/styles/liberty`. Its `openmaptiles` vector source points to the Planet TileJSON. The source schema exposes `boundary`, `landcover`, `landuse`, `park`, `building`, `transportation`, `transportation_name`, `water`, `waterway`, `place`, `poi`, and related label layers. The style also uses the existing `ne2_shaded` Natural Earth raster source, which the old Dark style declared but never rendered as a raster layer.
+
+The gray country outlines came from OpenMapTiles `boundary` **line** features where `admin_level` is 2 and `maritime` is 1. In the previous Dark style, `boundary_country_z0-4` filtered for admin level 2 and absence of `claimed_by`, and `boundary_country_z5-` filtered only for admin level 2. Neither filter excluded maritime lines. Liberty's `boundary_2` and `boundary_3` filters already exclude `maritime == 1`; the client now applies the same `maritime != 1` exclusion defensively to any boundary line layer that lacks it. The independent `water` polygons and `waterway` lines are not modified. Browser feature queries returned zero rendered maritime boundary lines in every captured scene.
+
+A second root cause was the cartographic helper assigning the **water** palette to the style's global `background` layer. At zooms where the tile has no landcover or landuse polygon beneath a road or building, the otherwise unclassified land therefore looked like water. The helper now colors that background with the land palette; the actual vector `water` source layer paints the ocean and inland waters. No geographic geometry is created or removed.
+
+### Geographic detail and visibility scale
+
+The Liberty vector style has substantially richer source geometry than the former Dark style: parks and outlines, residential/school/hospital/cemetery/pitch land use, wood/grass/ice/wetland/sand landcover, water and waterways, and building footprints. The code recolors those existing layers, clears the decorative wood pattern where it obscured the class color, and extends the existing Natural Earth relief layer's client-side display range through zoom 9 while fading it out. It does not create a forest, building, road, or terrain feature that is absent from the provider tiles.
+
+Road line layers keep the provider geometry and use these client minimum-zoom bands: motorways 4.5, trunk/primary 5.5, secondary/tertiary 7.5, minor/service/track/street 10.5, and paths/pedestrian ways 13.5. Major road names begin at 8.5; route shields begin at 9.5 to reduce repeated shield labels in provincial views. Widths interpolate continuously with zoom. The existing business-POI suppression was also too broad: a regular expression over layer IDs hid settlement and airport labels. It now hides only symbol layers sourced from `poi` or `poi_label`, leaving `place`, aerodrome, water, and other geographic labels in the provider style. Mazo POIs remain in GPU-backed symbol layers, use collision placement and stable priorities, stay fully opaque, and remain independently searchable.
+
+The follow-up palette uses land/water values `#ebe8df` / `#a9d3e2` in light mode and `#202d32` / `#102b3a` in dark mode. Existing provider road/building geometry is colored using separate road hierarchy, building fill/outline, park, grass, wetland, sand, and built-area palette entries. Low-zoom natural relief and geography remain visible, local road layers wait until city/neighborhood zoom, and building footprints become visible at street zoom where the source contains them.
+
+### Matched browser captures
+
+The Playwright Chromium capture suite uses a 390×844 mobile-emulated viewport and waits for MapLibre's `idle` event after each camera jump. It captures world, Sri Lanka, Eastern Province, Batticaloa District, coast, Kattankudy surroundings, Kattankudy street network, and Victory Ground / Deen Road in both themes. Coordinates for the final two scenes come from existing public-place points in the repository, so the capture stays over mapped land. The machine-readable capture records per-scene Mazo symbols, settlement labels, roads, buildings, landcover, landuse, water, boundary features, and whether tiles reached idle.
+
+- [Follow-up light-mode zoom captures](phase9/screenshots/followup-zoom-suite-light.jpg)
+- [Follow-up dark-mode zoom captures](phase9/screenshots/followup-zoom-suite-dark.jpg)
+- [Browser smoke and per-scene feature counts](../reports/phase9-browser-smoke.json)
+- [Three-run production baseline profile](../reports/phase9-delivery-baseline.json)
+- [Three-run follow-up candidate profile](../reports/phase9-delivery-candidate-local.json)
+
+The current screen captures show the land background and vector water separating correctly, Natural Earth relief at country/regional scale, green vegetation and park areas, settlement labels, a quieter low-zoom road network, and visible source buildings with a local road hierarchy at Victory Ground street zoom. The existing Phase 9 desktop comparison sheet remains the before reference. POI numbers in the report are MapLibre rendered features, not Google Maps feature counts; Google does not expose a stable count from its canvas. The comparison is visual and uses the same approximate coordinate/zoom cases, not pixel equality.
+
+### Delivery and measured performance
+
+The working tree contained nine current generated outputs after rebuilding: `manifest.json`, `batticaloa-district.mzp`, `places.pmtiles`, `search-index.json`, `place-details.json`, the road MZP and road manifest, and the speed-limit MZP and speed-limit manifest. A stale ignored local `kattankudy.mzp` was not referenced by app code or build scripts and already returned 404 from Pages; it was removed from the local generated directory. No tracked generated file, canonical source record, ULID, alias, road, speed-limit, or supplementary maxspeed record was removed. The MZP place source remains production default and its generated GeoJSON remains the fallback; PMTiles is still opt-in. Both manifests/search/detail indexes and road/speed files remain required by the app or by the documented fallback path.
+
+The delivery profile runs three alternating MZP/PMTiles repetitions on desktop and 390×844 mobile emulation, using fresh contexts for cold browser caches and same-context reloads for warm cache, 60 ms RTT / 5 Mbit/s down / 1 Mbit/s up, and the same search, category, detail, and camera journey. It records forced-GC JavaScript heap, encoded transferred bytes, readiness, camera frame intervals, long tasks, and actual PMTiles response ranges. The follow-up local static server gzip-compresses generated MZP/JSON files and serves PMTiles ranges to match GitHub Pages behavior; OpenFreeMap styles/tiles/glyphs are requested live. These are browser measurements from Codespaces headless Chromium with SwiftShader, not hardware-GPU or Android-device timings.
+
+| Profile and mode | Cold map ready / full-journey bytes | Warm map ready / full-journey bytes | Forced-GC JS heap (cold) | Camera frame p95 (cold) |
+| --- | ---: | ---: | ---: | ---: |
+| Desktop MZP, production baseline | 7,041 ms / 1.67 MB | 5,639 ms / 283 B | 18.6 MB | 200 ms |
+| Desktop PMTiles, production baseline | 5,788 ms / 2.06 MB | 5,047 ms / 147.5 KB | 16.7 MB | 216.7 ms |
+| Mobile emulation MZP, production baseline | 5,542 ms / 1.67 MB | 4,632 ms / 278 B | 18.4 MB | 83.4 ms |
+| Mobile emulation PMTiles, production baseline | 4,949 ms / 2.04 MB | 4,344 ms / 261 KB | 18.2 MB | 100.1 ms |
+| Desktop MZP, follow-up local candidate | 7,261 ms / 1.79 MB | 5,785 ms / 33.1 KB | 18.6 MB | 216.5 ms |
+| Desktop PMTiles, follow-up local candidate | 6,671 ms / 2.20 MB | 6,122 ms / 196.7 KB | 16.8 MB | 166.8 ms |
+| Mobile emulation MZP, follow-up local candidate | 5,485 ms / 1.79 MB | 4,771 ms / 33.1 KB | 18.4 MB | 100 ms |
+| Mobile emulation PMTiles, follow-up local candidate | 5,382 ms / 2.18 MB | 4,681 ms / 297.1 KB | 16.6 MB | 100.1 ms |
+
+Each row is a median of three runs. The follow-up candidate was served from a local static server that mirrors GitHub Pages' 600-second generated-file cache and gzip behavior; its OpenFreeMap requests still went to the same external service. This differs from the production baseline's Pages origin, so small cross-build timing/byte differences include origin/CDN variation. In the candidate runs, PMTiles reduced place-geometry range bytes during the initial map load, but total cold journey transfer was about 0.41 MB higher on desktop and 0.39 MB higher on mobile emulation than MZP. Warm total transfer was about 0.16 MB higher on desktop and 0.26 MB higher on mobile emulation. Cold map readiness was 0.59 seconds faster on desktop and 0.10 seconds faster on mobile emulation; warm readiness was slower by 0.34 and 0.09 seconds respectively. The candidate's forced-GC JS heap was about 1.8 MB lower with PMTiles. Desktop cold camera p95 favored PMTiles, while mobile-emulated cold p95 was effectively tied. This mixed tradeoff does not establish a clear overall win for PMTiles for this dataset; MZP remains the production default and PMTiles remains a verified opt-in experiment.
+
+The earlier 588 MB sample was not a post-GC retained-heap measurement. The controlled reports distinguish the before-GC heap from the heap after CDP `HeapProfiler.collectGarbage`; they do not measure total Chromium process/GPU RSS. A physical Android device is not attached to this Codespace (`adb` is unavailable), so no real-device result is claimed.

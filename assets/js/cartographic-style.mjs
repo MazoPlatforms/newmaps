@@ -1,43 +1,21 @@
 export const MAZO_PALETTE = Object.freeze({
   light: Object.freeze({
-    land: '#f4f2eb',
-    water: '#b9dce7',
-    waterLine: '#80b8c9',
-    vegetation: '#d5e5d4',
-    vegetationDark: '#c4dbc6',
-    built: '#e7e6df',
-    building: '#e5ddce',
-    buildingOutline: '#c7bcaa',
-    roadCase: '#d2cec4',
-    roadMajor: '#e4b66e',
-    roadSecondary: '#d8c5a4',
-    roadLocal: '#fffefa',
-    path: '#b2aa93',
-    label: '#354751',
-    roadLabel: '#4c5c63',
-    waterLabel: '#32768a',
-    halo: '#f7f5ef',
-    boundary: '#9aa7a3',
+    land: '#ebe8df', water: '#a9d3e2', waterLine: '#5b9fb5',
+    vegetation: '#d1e1c8', vegetationDark: '#a9c69e', grass: '#dce8d0', wetland: '#c7dccd',
+    farmland: '#e4e7cf', sand: '#e8ddb9', built: '#e5e2d9', urban: '#deddd4',
+    park: '#c4ddb9', parkOutline: '#9fbd91', building: '#e0d8c9', buildingOutline: '#b9ad99',
+    roadCase: '#c9c7c0', roadMajor: '#d0a45e', roadSecondary: '#e0cba9', roadLocal: '#faf9f5',
+    path: '#b1a98f', label: '#344751', roadLabel: '#56666b', waterLabel: '#32788e',
+    halo: '#f7f5ef', boundary: '#8e9a98',
   }),
   dark: Object.freeze({
-    land: '#1b2a31',
-    water: '#102a38',
-    waterLine: '#326277',
-    vegetation: '#244337',
-    vegetationDark: '#2b4e3d',
-    built: '#25343a',
-    building: '#52656c',
-    buildingOutline: '#73868a',
-    roadCase: '#101c23',
-    roadMajor: '#d9ae70',
-    roadSecondary: '#9dafad',
-    roadLocal: '#70858a',
-    path: '#78847f',
-    label: '#e0e9e9',
-    roadLabel: '#c5d1d2',
-    waterLabel: '#79bfd0',
-    halo: '#18262d',
-    boundary: '#62767c',
+    land: '#202d32', water: '#102b3a', waterLine: '#36748a',
+    vegetation: '#2b4938', vegetationDark: '#315a3d', grass: '#304b38', wetland: '#29484a',
+    farmland: '#41483b', sand: '#655c43', built: '#29363b', urban: '#303e43',
+    park: '#2b5138', parkOutline: '#477254', building: '#52636a', buildingOutline: '#70858a',
+    roadCase: '#14232a', roadMajor: '#c9944c', roadSecondary: '#88999a', roadLocal: '#647980',
+    path: '#77877f', label: '#e4ebeb', roadLabel: '#c5d1d2', waterLabel: '#82c6d5',
+    halo: '#19272e', boundary: '#77898a',
   }),
 });
 
@@ -48,13 +26,33 @@ const ROAD_LOCAL = /minor|service|track|link|street|path|pedestrian|residential/
 function roadWidth(layerId) {
   const group = ROAD_MAJOR.test(layerId) ? 'major' : ROAD_SECONDARY.test(layerId) ? 'secondary' : 'local';
   const stops = group === 'major'
-    ? [5, 0.55, 8, 0.9, 11, 1.5, 14, 2.7, 16, 4, 18, 5.7, 20, 7.5]
+    ? [4, 0.1, 5, 0.38, 8, 0.9, 11, 1.5, 14, 2.7, 16, 4, 18, 5.7, 20, 7.5]
     : group === 'secondary'
       ? [6, 0.4, 9, 0.8, 12, 1.55, 14, 2.35, 16, 3.2, 18, 4.5, 20, 5.8]
       : [11, 0.6, 13, 1.05, 14, 1.5, 16, 2.25, 18, 3.3, 20, 4.5];
   const offset = /casing/i.test(layerId) ? 1.15 : 0;
   const widths = stops.map((value, index) => index % 2 ? value + offset : value);
   return ['interpolate', ['exponential', 1.2], ['zoom'], ...widths];
+}
+
+function roadMinimumZoom(id) {
+  if (/motorway/i.test(id)) return 4.5;
+  if (/trunk|primary/i.test(id)) return 5.5;
+  if (/secondary|tertiary/i.test(id)) return 7.5;
+  if (/minor|service|track|street/i.test(id)) return 10.5;
+  if (/path|pedestrian/i.test(id)) return 13.5;
+  return null;
+}
+
+function containsMaritimeExclusion(value) {
+  if (!Array.isArray(value)) return false;
+  if (value[0] === '!=' && Array.isArray(value[1]) && value[1][0] === 'get'
+    && value[1][1] === 'maritime' && value[2] === 1) return true;
+  return value.some(containsMaritimeExclusion);
+}
+
+export function isBasemapPlacePoiLayer(layer) {
+  return layer?.type === 'symbol' && ['poi', 'poi_label'].includes(layer['source-layer']);
 }
 
 export function applyMazoCartographicStyle(map, theme = 'light') {
@@ -68,11 +66,27 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
     const paint = (property, value) => map.setPaintProperty(layer.id, property, value);
 
     if (layer.type === 'background') {
-      paint('background-color', palette.water);
-      applied.water++;
+      // Background is unclassified land at local zooms. Oceans and lakes are
+      // covered by the dedicated OpenMapTiles `water` source layer below.
+      paint('background-color', palette.land);
+      applied.land++;
+    }
+    if (layer.type === 'raster' && (id === 'natural_earth' || layer.source === 'ne2_shaded')) {
+      paint('raster-opacity', ['interpolate', ['linear'], ['zoom'], 0, 0.42, 4, 0.5, 6, 0.52, 7, 0.44, 8, 0.22, 9, 0]);
+      paint('raster-saturation', theme === 'dark' ? -0.72 : -0.12);
+      paint('raster-contrast', theme === 'dark' ? 0.18 : 0.04);
+      if (theme === 'dark') {
+        paint('raster-brightness-min', 0.04);
+        paint('raster-brightness-max', 0.58);
+      } else {
+        paint('raster-brightness-min', 0);
+        paint('raster-brightness-max', 1);
+      }
+      if ((layer.maxzoom ?? 0) < 9) map.setLayerZoomRange(layer.id, layer.minzoom || 0, 9);
     }
     if (layer.type === 'fill' && (sourceLayer === 'water' || /water[_-]fill|ocean/i.test(id))) {
       paint('fill-color', palette.water);
+      paint('fill-antialias', true);
       if (layer.paint?.['fill-opacity'] !== undefined) paint('fill-opacity', 1);
       applied.water++;
     }
@@ -84,15 +98,36 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
       if (layer.paint?.['fill-opacity'] !== undefined) paint('fill-opacity', 1);
       applied.land++;
     }
-    if (layer.type === 'fill' && (sourceLayer === 'landcover' || sourceLayer === 'park' || /landcover|landuse_(park|forest)|^park$/i.test(id))) {
-      const nature = /wood|forest|tree|park|grass|wetland|nature|garden/i.test(id + sourceLayer);
-      const denseVegetation = /wood|forest|tree/i.test(id + sourceLayer);
-      paint('fill-color', denseVegetation ? palette.vegetationDark : nature ? palette.vegetation : palette.built);
+    if (layer.type === 'fill' && sourceLayer === 'landcover') {
+      const featureClass = /ice|glacier|shelf/i.test(id) ? 'ice'
+        : /wetland|marsh/i.test(id) ? 'wetland'
+          : /sand|beach|dune/i.test(id) ? 'sand'
+            : /grass|meadow/i.test(id) ? 'grass'
+              : /farm|orchard|crop/i.test(id) ? 'farmland'
+                : /wood|forest|tree|scrub/i.test(id) ? 'vegetationDark' : 'vegetation';
+      paint('fill-color', featureClass === 'ice' ? palette.land : palette[featureClass]);
+      if (layer.paint?.['fill-pattern'] !== undefined) paint('fill-pattern', null);
+      if (layer.paint?.['fill-opacity'] !== undefined) paint('fill-opacity', featureClass === 'vegetationDark' ? 0.76 : 0.68);
       applied.vegetation++;
     }
     if (layer.type === 'fill' && sourceLayer === 'landuse') {
-      const built = /residential|commercial|industrial/i.test(id);
-      paint('fill-color', built ? palette.built : palette.vegetation);
+      const className = id.replace(/^landuse[_-]?/, '');
+      const fill = /residential|commercial|industrial|retail|parking|garages/i.test(className) ? palette.built
+        : /school|hospital|university|college/i.test(className) ? palette.urban
+          : /cemetery|park|garden|grass|pitch|orchard|farmland|farm|wood|forest/i.test(className) ? palette.vegetation
+            : /quarry|sand|beach/i.test(className) ? palette.sand
+              : palette.urban;
+      paint('fill-color', fill);
+      if (layer.paint?.['fill-pattern'] !== undefined) paint('fill-pattern', null);
+    }
+    if (layer.type === 'fill' && sourceLayer === 'park') {
+      paint('fill-color', palette.park);
+      if (layer.paint?.['fill-pattern'] !== undefined) paint('fill-pattern', null);
+      if (layer.paint?.['fill-opacity'] !== undefined) paint('fill-opacity', 0.88);
+    }
+    if (layer.type === 'line' && sourceLayer === 'park') {
+      paint('line-color', palette.parkOutline);
+      paint('line-width', ['interpolate', ['linear'], ['zoom'], 8, 0.25, 12, 0.7, 18, 1.2]);
     }
     if ((layer.type === 'fill' || layer.type === 'fill-extrusion') && sourceLayer === 'building') {
       if (layer.type === 'fill') {
@@ -113,10 +148,19 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
       paint('line-color', color);
       paint('line-width', roadWidth(id));
       if (/casing/i.test(id) && layer.paint?.['line-opacity'] !== undefined) paint('line-opacity', 1);
+      const minimumZoom = roadMinimumZoom(id);
+      if (minimumZoom !== null) map.setLayerZoomRange(layer.id, Math.max(layer.minzoom || 0, minimumZoom), layer.maxzoom ?? 24);
       applied.roads++;
+    }
+    if (layer.type === 'symbol' && sourceLayer === 'transportation_name' && /highway-name-major/i.test(id)) {
+      map.setLayerZoomRange(layer.id, Math.max(layer.minzoom || 0, 8.5), layer.maxzoom ?? 24);
+    }
+    if (layer.type === 'symbol' && sourceLayer === 'transportation_name' && /highway-shield-non-us/i.test(id)) {
+      map.setLayerZoomRange(layer.id, Math.max(layer.minzoom || 0, 9.5), layer.maxzoom ?? 24);
     }
     if (layer.type === 'line' && sourceLayer === 'boundary') {
       paint('line-color', palette.boundary);
+      if (!containsMaritimeExclusion(layer.filter)) map.setFilter(layer.id, ['all', layer.filter || ['all'], ['!=', ['get', 'maritime'], 1]]);
       applied.boundaries++;
     }
     if (layer.type === 'symbol') {

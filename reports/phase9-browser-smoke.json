@@ -8,18 +8,18 @@
   "results": [
     {
       "mode": "mzp",
-      "startupMs": 7141,
+      "startupMs": 7437,
       "sourceType": "geojson",
-      "startupTransferBytes": 4657307,
-      "startupHeapBytes": 47400000,
-      "interactiveTransferBytes": 4657307,
+      "startupTransferBytes": 4661163,
+      "startupHeapBytes": 42100000,
+      "interactiveTransferBytes": 4661163,
       "animation": {
-        "samples": 26,
-        "p50Ms": 66.60000000000218,
-        "p95Ms": 83.29999999999927,
-        "p99Ms": 83.30000000000291,
-        "maxMs": 83.39999999999782,
-        "longTasksOver50Ms": 16
+        "samples": 12,
+        "p50Ms": 100,
+        "p95Ms": 300,
+        "p99Ms": 300,
+        "maxMs": 399.90000000000873,
+        "longTasksOver50Ms": 11
       },
       "initialCamera": {
         "zoom": 8.6,
@@ -70,11 +70,11 @@
     },
     {
       "mode": "pmtiles",
-      "startupMs": 4477,
+      "startupMs": 5364,
       "sourceType": "vector",
-      "startupTransferBytes": 2601219,
-      "startupHeapBytes": 26000000,
-      "interactiveTransferBytes": 5062787,
+      "startupTransferBytes": 2605075,
+      "startupHeapBytes": 35100000,
+      "interactiveTransferBytes": 4984540,
       "animation": null,
       "initialCamera": {
         "zoom": 8.6,
@@ -147,23 +147,15 @@
         },
         {
           "status": 206,
-          "contentRange": "bytes 327949-381955/1681457"
+          "contentRange": "bytes 673169-714076/1681457"
         },
         {
           "status": 206,
-          "contentRange": "bytes 383949-400293/1681457"
+          "contentRange": "bytes 589587-661613/1681457"
         },
         {
           "status": 206,
-          "contentRange": "bytes 236968-327948/1681457"
-        },
-        {
-          "status": 206,
-          "contentRange": "bytes 400294-403249/1681457"
-        },
-        {
-          "status": 206,
-          "contentRange": "bytes 1061641-1085884/1681457"
+          "contentRange": "bytes 1036795-1046442/1681457"
         },
         {
           "status": 206,
@@ -171,22 +163,30 @@
         },
         {
           "status": 206,
-          "contentRange": "bytes 1031490-1036794/1681457"
+          "contentRange": "bytes 1205183-1234350/1681457"
         },
         {
           "status": 206,
-          "contentRange": "bytes 1036795-1046442/1681457"
+          "contentRange": "bytes 1266110-1270224/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1270682-1274583/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1270533-1270681/1681457"
         }
       ],
       "errors": []
     },
     {
       "mode": "pmtiles-fallback",
-      "startupMs": 7825,
+      "startupMs": 7372,
       "sourceType": "geojson",
-      "startupTransferBytes": 4678161,
+      "startupTransferBytes": 4682017,
       "startupHeapBytes": 50400000,
-      "interactiveTransferBytes": 4678161,
+      "interactiveTransferBytes": 4682017,
       "animation": null,
       "initialCamera": {
         "zoom": 8.6,
@@ -239,6 +239,168 @@
         }
       ],
       "errors": []
+    }
+  ],
+  "cartographicViews": [
+    {
+      "name": "world",
+      "theme": "light",
+      "tilesReady": true,
+      "zoom": 0.7210991682491943,
+      "mazoPoiFeatures": 0,
+      "geographicPlaceLabels": 14,
+      "roadFeatures": 0,
+      "buildingFeatures": 0,
+      "landcoverFeatures": 7,
+      "landuseFeatures": 0,
+      "waterFeatures": 10,
+      "boundaryFeatures": 0
+    },
+    {
+      "name": "sri-lanka",
+      "theme": "light",
+      "tilesReady": true,
+      "zoom": 6.3,
+      "mazoPoiFeatures": 1,
+      "geographicPlaceLabels": 9,
+      "roadFeatures": 8,
+      "buildingFeatures": 0,
+      "landcoverFeatures": 0,
+      "landuseFeatures": 2,
+      "waterFeatures": 26,
+      "boundaryFeatures": 0
+    },
+    {
+      "name": "eastern-province",
+      "theme": "light",
+      "tilesReady": true,
+      "zoom": 8,
+      "mazoPoiFeatures": 4,
+      "geographicPlaceLabels": 14,
+      "roadFeatures": 26,
+      "buildingFeatures": 0,
+      "landcoverFeatures": 61,
+      "landuseFeatures": 4,
+      "waterFeatures": 100,
+      "boundaryFeatures": 0
+    },
+    {
+      "name": "batticaloa-district",
+      "theme": "light",
+      "tilesReady": true,
+      "zoom": 9,
+      "mazoPoiFeatures": 12,
+      "geographicPlaceLabels": 10,
+      "roadFeatures": 39,
+      "buildingFeatures": 0,
+      "landcoverFeatures": 65,
+      "landuseFeatures": 3,
+      "waterFeatures": 68,
+      "boundaryFeatures": 0
+    },
+    {
+      "name": "batticaloa-coast",
+      "theme": "light",
+      "tilesReady": true,
+      "zoom": 10.5,
+      "mazoPoiFeatures": 15,
+      "geographicPlaceLabels": 0,
+      "roadFeatures": 20,
+      "buildingFeatures": 0,
+      "landcoverFeatures": 13,
+      "landuseFeatures": 2,
+      "waterFeatures": 22,
+      "boundaryFeatures": 0
+    },
+    {
+      "name": "kattankudy-surroundings",
+      "theme": "light",
+      "tilesReady": true,
+      "zoom": 11.5,
+      "mazoPoiFeatures": 20,
+      "geographicPlaceLabels": 2,
+      "roadFeatures": 36,
+      "buildingFeatures": 0,
+      "landcoverFeatures": 5,
+      "landuseFeatures": 4,
+      "waterFeatures": 26,
+      "boundaryFeatures": 0
+    },
+    {
+      "name": "kattankudy-street-network",
+      "theme": "light",
+      "tilesReady": true,
+      "zoom": 15,
+      "mazoPoiFeatures": 29,
+      "geographicPlaceLabels": 0,
+      "roadFeatures": 42,
+      "buildingFeatures": 9,
+      "landcoverFeatures": 2,
+      "landuseFeatures": 8,
+      "waterFeatures": 1,
+      "boundaryFeatures": 0
+    },
+    {
+      "name": "victory-ground-deen-road",
+      "theme": "light",
+      "tilesReady": true,
+      "zoom": 16,
+      "mazoPoiFeatures": 6,
+      "geographicPlaceLabels": 0,
+      "roadFeatures": 24,
+      "buildingFeatures": 2,
+      "landcoverFeatures": 0,
+      "landuseFeatures": 1,
+      "waterFeatures": 2,
+      "boundaryFeatures": 0
+    },
+    {
+      "name": "world",
+      "theme": "dark",
+      "tilesReady": true,
+      "zoom": 0.55
+    },
+    {
+      "name": "sri-lanka",
+      "theme": "dark",
+      "tilesReady": true,
+      "zoom": 6.3
+    },
+    {
+      "name": "eastern-province",
+      "theme": "dark",
+      "tilesReady": true,
+      "zoom": 8
+    },
+    {
+      "name": "batticaloa-district",
+      "theme": "dark",
+      "tilesReady": true,
+      "zoom": 9
+    },
+    {
+      "name": "batticaloa-coast",
+      "theme": "dark",
+      "tilesReady": true,
+      "zoom": 10.5
+    },
+    {
+      "name": "kattankudy-surroundings",
+      "theme": "dark",
+      "tilesReady": true,
+      "zoom": 11.5
+    },
+    {
+      "name": "kattankudy-street-network",
+      "theme": "dark",
+      "tilesReady": true,
+      "zoom": 15
+    },
+    {
+      "name": "victory-ground-deen-road",
+      "theme": "dark",
+      "tilesReady": true,
+      "zoom": 16
     }
   ]
 }
