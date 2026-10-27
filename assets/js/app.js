@@ -1,14 +1,13 @@
 import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs';
+import { discoveryCategoryFor } from './place-categories.mjs';
 
 // Reliable OpenFreeMap fallback; optional local PMTiles are enabled only after verification.
 const $=s=>document.querySelector(s);
 const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https://tiles.openfreemap.org/styles/dark'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
-const map=new maplibregl.Map({container:'map',style:styles[theme()],center:[81.729,7.685],zoom:14,minZoom:12,maxBounds:[[81.685,7.635],[81.785,7.735]]});
+const map=new maplibregl.Map({container:'map',style:styles[theme()],center:[81.5569,7.8381],zoom:8.6,minZoom:8});
 // Minimal map chrome: touch gestures remain available without zoom buttons.
 let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false;
-const KATTANKUDY=[81.70,7.65,81.77,7.72];
-const inArea=p=>+p.coordinates.longitude>=KATTANKUDY[0]&&+p.coordinates.longitude<=KATTANKUDY[2]&&+p.coordinates.latitude>=KATTANKUDY[1]&&+p.coordinates.latitude<=KATTANKUDY[3];
 // Presentation-only Sri Lankan postal address cleanup. This never invents a house number.
 function displaySriLankanAddress(value){
  if(typeof value!=='string'||!value.trim())return '';
@@ -53,15 +52,15 @@ function canonicalPlaceName(raw){
  });
 }
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function kind(p){const c=(p.categories||[]).join(' ').toLowerCase();if(/atm|cash machine/.test(c))return 'atm';if(/fuel|gas station|petrol/.test(c))return 'fuel';if(/mechanic|automotive|car repair|vehicle repair/.test(c))return 'auto';if(/electronics|mobile phone|computer|electrical/.test(c))return 'electronics';if(/government|municipal|public office/.test(c))return 'government';if(/hardware|tool shop|building material/.test(c))return 'hardware';if(/landmark|historical|monument/.test(c))return 'landmark';if(/salon|saloon|barber|beauty/.test(c))return 'salon';if(/sport|stadium|playground/.test(c))return 'sports';if(/transport|bus station|taxi/.test(c))return 'transport';if(/grocery|market|supermarket/.test(c))return 'market';if(/repair|service center|service centre/.test(c))return 'services';if(/gym|fitness/.test(c))return 'gym';if(/jewel|goldsmith/.test(c))return 'jewelry';if(/school|education|college|tuition|learning/.test(c))return 'school';if(/stationery|print shop|bookstore/.test(c))return 'stationery';if(/cafe|coffee|ice cream|tea shop/.test(c))return 'cafe';if(/bakery|restaurant|food|hotel & bakery/.test(c))return 'food';if(/hotel|lodg|hall|banquet/.test(c))return 'hotel';if(/mosque|worship|masjid/.test(c))return 'worship';if(/hospital|clinic|pharmacy|medical/.test(c))return 'health';if(/park|nature/.test(c))return 'park';return 'shop'}
-const artwork={food:['#b87353','M7 3v7m3-7v7M5 7h7v3a3 3 0 0 1-3 3v8m9-18v18m0-18c-4 3-4 8 0 8'],health:['#b5666c','M10 4h4v6h6v4h-6v6h-4v-6H4v-4h6Z'],shop:['#6d81aa','M5 8h14l1 12H4ZM9 8V6a3 3 0 0 1 6 0v2'],hotel:['#8c76a6','M3 19V6m0 9h18v4m-12-8h9a3 3 0 0 1 3 3v1M6 9h3v4H6Z'],park:['#628c6e','M12 3L5 12h4l-5 5h16l-5-5h4ZM12 17v4'],atm:['#558b76',''],fuel:['#b98451',''],auto:['#617b91',''],electronics:['#6478b4',''],government:['#728a9b',''],hardware:['#907b61',''],landmark:['#8c7597',''],salon:['#b87e99',''],sports:['#588e87',''],transport:['#647fa0',''],market:['#6c8c70',''],services:['#7d8c9d',''],gym:['#538a8c',''],jewelry:['#a67b41',''],school:['#4e7fba',''],stationery:['#6e8791',''],cafe:['#b87353',''],worship:['#967c9c','M4 20h16M6 20V9l6-5 6 5v11M10 20v-6h4v6m-2-16V1']};
+
+const artwork={food:['#b87353','M7 3v7m3-7v7M5 7h7v3a3 3 0 0 1-3 3v8m9-18v18m0-18c-4 3-4 8 0 8'],health:['#b5666c','M10 4h4v6h6v4h-6v6h-4v-6H4v-4h6Z'],shop:['#6d81aa','M5 8h14l1 12H4ZM9 8V6a3 3 0 0 1 6 0v2'],hotel:['#8c76a6','M3 19V6m0 9h18v4m-12-8h9a3 3 0 0 1 3 3v1M6 9h3v4H6Z'],park:['#628c6e','M12 3L5 12h4l-5 5h16l-5-5h4ZM12 17v4'],atm:['#558b76',''],bank:['#607e9a',''],fuel:['#b98451',''],auto:['#617b91',''],electronics:['#6478b4',''],government:['#728a9b',''],hardware:['#907b61',''],landmark:['#8c7597',''],salon:['#b87e99',''],sports:['#588e87',''],transport:['#647fa0',''],market:['#6c8c70',''],services:['#7d8c9d',''],gym:['#538a8c',''],jewelry:['#a67b41',''],school:['#4e7fba',''],stationery:['#6e8791',''],cafe:['#b87353',''],worship:['#967c9c','M4 20h16M6 20V9l6-5 6 5v11M10 20v-6h4v6m-2-16V1']};
 const POI_SOURCE='mazo-pois';
 const POI_LAYER='mazo-poi-symbols';
-function priority(p){const k=kind(p);return ({health:1,worship:2,shop:3,food:4,hotel:5,park:6})[k]||7}
+function priority(p){const k=discoveryCategoryFor(p);return ({health:1,worship:2,shop:3,food:4,hotel:5,park:6})[k]||7}
 function iconFor(k){return 'mazo-'+k}
 function registerIcons(){
  const paths={
- atm:'M20 19h16v25H20zM24 26h8M24 32h8M24 38h5',fuel:'M18 19h15v25H18zM21 23h9v9h-9M33 26h5v14q0 4-5 4',auto:'M19 31l4-9h13l4 9M17 31h25v10H17zM22 41v4m15-4v4',electronics:'M18 19h20v18H18zM23 42h10M28 37v5',government:'M14 25l14-8 14 8M17 28h22M20 28v13m8-13v13m8-13v13M15 43h26',hardware:'M19 21l5 5-7 7 5 5 7-7 5 5 8-8-5-5-8 8-5-5z',landmark:'M17 43V25l11-8 11 8v18M15 43h26M24 43V31h8v12',salon:'M20 19l16 24M36 19L20 43M18 20a3 3 0 1 0 6 0M32 20a3 3 0 1 0 6 0',sports:'M28 17a11 11 0 1 0 0 22a11 11 0 1 0 0-22M19 24l18 9M28 17v22',transport:'M18 20h20v22H18zM18 35h20M22 42v4m12-4v4M23 26h10',market:'M17 25h22l-3 18H20zM21 25l7-8 7 8',services:'M20 19l7 7-7 7 5 5 7-7 6 6M20 19l-4 4 4 4',
+ atm:'M20 19h16v25H20zM24 26h8M24 32h8M24 38h5',bank:'M14 25l14-8 14 8M17 28h22M20 28v13m8-13v13m8-13v13M15 43h26',fuel:'M18 19h15v25H18zM21 23h9v9h-9M33 26h5v14q0 4-5 4',auto:'M19 31l4-9h13l4 9M17 31h25v10H17zM22 41v4m15-4v4',electronics:'M18 19h20v18H18zM23 42h10M28 37v5',government:'M14 25l14-8 14 8M17 28h22M20 28v13m8-13v13m8-13v13M15 43h26',hardware:'M19 21l5 5-7 7 5 5 7-7 5 5 8-8-5-5-8 8-5-5z',landmark:'M17 43V25l11-8 11 8v18M15 43h26M24 43V31h8v12',salon:'M20 19l16 24M36 19L20 43M18 20a3 3 0 1 0 6 0M32 20a3 3 0 1 0 6 0',sports:'M28 17a11 11 0 1 0 0 22a11 11 0 1 0 0-22M19 24l18 9M28 17v22',transport:'M18 20h20v22H18zM18 35h20M22 42v4m12-4v4M23 26h10',market:'M17 25h22l-3 18H20zM21 25l7-8 7 8',services:'M20 19l7 7-7 7 5 5 7-7 6 6M20 19l-4 4 4 4',
  food:'M23 21v18m-6-18v10m6-10v10m-6 0h6m13-10v18m0-18c-7 5-7 11 0 11',
  cafe:'M16 24h19v9a9 9 0 0 1-18 0v-9m18 2h4a4 4 0 0 1-4 8M16 40h20',
  health:'M24 20h8v8h8v8h-8v8h-8v-8h-8v-8h8z',
@@ -87,7 +86,7 @@ function registerIcons(){
   map.addImage(id,ctx.getImageData(0,0,64,80),{pixelRatio:2});
  }
 }
-function poiFeatures(){return places.map((p,i)=>({type:'Feature',id:i,geometry:{type:'Point',coordinates:[+p.coordinates.longitude,+p.coordinates.latitude]},properties:{name:p.name,kind:kind(p),priority:priority(p),index:i,category:(p.categories||[]).join(' '),address:p.address||''}}))}
+function poiFeatures(){return places.map((p,i)=>({type:'Feature',id:i,geometry:{type:'Point',coordinates:[+p.coordinates.longitude,+p.coordinates.latitude]},properties:{name:p.name,kind:discoveryCategoryFor(p),priority:priority(p),index:i,category:(p.categories||[]).join(' '),address:p.address||''}}))}
 function ensurePoiLayer(){
  if(!map.getStyle()?.layers)return;
  const data={type:'FeatureCollection',features:poiFeatures()};
@@ -95,13 +94,13 @@ function ensurePoiLayer(){
  else map.getSource(POI_SOURCE).setData(data);
  registerIcons();
  if(!map.getLayer(POI_LAYER))map.addLayer({
-  id:POI_LAYER,type:'symbol',source:POI_SOURCE,minzoom:12,
+  id:POI_LAYER,type:'symbol',source:POI_SOURCE,minzoom:9,
   layout:{
    'icon-image':['concat','mazo-',['get','kind']],
-   'icon-anchor':'bottom','icon-size':['interpolate',['linear'],['zoom'],12,0.48,15,0.62,18,0.82],
+   'icon-anchor':'bottom','icon-size':['interpolate',['linear'],['zoom'],9,0.28,12,0.48,15,0.62,18,0.82],
    'icon-allow-overlap':false,'icon-padding':4,
    'text-field':['get','name'],'text-font':['Noto Sans Regular'],
-   'text-size':['interpolate',['linear'],['zoom'],14,10,17,13],
+   'text-size':['interpolate',['linear'],['zoom'],9,7,12,9,14,10,17,13],
    'text-offset':[0,0.7],'text-anchor':'top','text-max-width':12,
    'text-optional':true,'text-allow-overlap':false,'text-padding':4
   },
@@ -255,7 +254,7 @@ async function routeOpen(place){
  routeStatus('Requesting your location…');routeMarkers();
  try{
   const coords=await routeLocation();if(routePanel.hidden)return;
-  if(!map.getMaxBounds()?.contains(coords)){routeStatus('Your location is outside the current map boundary. Choose a pickup within Kattankudy.');$('#route-pickup').value='Choose pickup on map';return}
+  const bounds=map.getMaxBounds();if(bounds&&!bounds.contains(coords)){routeStatus('Your location is outside the available map bounds. Choose a pickup on the map.');$('#route-pickup').value='Choose pickup on map';return}
   routePickup=coords;$('#route-pickup').value='My location';await routeCalculate();
  }catch(e){routeStatus(e.message);$('#route-pickup').value='Choose pickup on map'}
 }
@@ -290,7 +289,7 @@ function routeStartWatch(){
 $('#route-close').onclick=()=>{document.querySelector('.search-dock').style.removeProperty('display');routePanel.hidden=true;pickingPickup=false;routeClear()};
 $('#route-use-location').onclick=async()=>{
  pickingPickup=false;routeStatus('Requesting your location…');
- try{const c=await routeLocation();if(!map.getMaxBounds()?.contains(c))throw Error('Outside Kattankudy map bounds. Choose a pickup on the map.');routePickup=c;$('#route-pickup').value='My location';await routeCalculate()}catch(e){routeStatus(e.message)}
+ try{const c=await routeLocation();const bounds=map.getMaxBounds();if(bounds&&!bounds.contains(c))throw Error('Your location is outside the available map bounds. Choose a pickup on the map.');routePickup=c;$('#route-pickup').value='My location';await routeCalculate()}catch(e){routeStatus(e.message)}
 };
 
 
@@ -437,10 +436,10 @@ map.on('mouseleave',SPEED_LAYER,()=>map.getCanvas().style.cursor='');
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
 map.on('style.load',()=>{try{for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && !layer.id.startsWith('mazo-') && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
-(async()=>{const status=$('#search-status');status.hidden=false;status.textContent='Loading places…';try{const manifest=await (await fetch('./generated/manifest.json?v=places-search-phase5-1')).json();placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};const response=await fetch('./generated/'+manifest.geojson+'?v='+manifest.sha256);if(!response.ok)throw Error('MZP '+response.status);const collection=JSON.parse(await response.text());if(collection.type!=='FeatureCollection'||collection.features.length!==manifest.features)throw Error('MZP manifest mismatch');const activeIds=new Set();for(const feature of collection.features){const p={...feature.properties,id:feature.id,coordinates:{longitude:feature.geometry.coordinates[0],latitude:feature.geometry.coordinates[1]}};if(!p?.name||/^kattankudt$/i.test(p.name.trim())||!Number.isFinite(+p.coordinates.latitude)||!Number.isFinite(+p.coordinates.longitude))continue;if(!inArea(p))continue;const canonicalId=window.resolveMazoPlaceId(p.id);if(activeIds.has(canonicalId))continue;activeIds.add(canonicalId);places.push({...p,name:canonicalPlaceName(p.name),address:displaySriLankanAddress(p.address),discoveryCategory:kind(p)})}placeSearchIndex=createPlaceSearchIndex(places,placeAliases);renderCategoryFilters();try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){status.hidden=false;status.textContent='Places could not be loaded. Check your connection and retry.';status.classList.add('is-error');console.error('MZP data error:',e)}})();
+(async()=>{const status=$('#search-status');status.hidden=false;status.textContent='Loading places…';try{const manifest=await (await fetch('./generated/manifest.json?v=batticaloa-district-phase6-1')).json();placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};const response=await fetch('./generated/'+manifest.geojson+'?v='+manifest.sha256);if(!response.ok)throw Error('MZP '+response.status);const collection=JSON.parse(await response.text());if(collection.type!=='FeatureCollection'||collection.features.length!==manifest.features)throw Error('MZP manifest mismatch');const activeIds=new Set();for(const feature of collection.features){const p={...feature.properties,id:feature.id,coordinates:{longitude:feature.geometry.coordinates[0],latitude:feature.geometry.coordinates[1]}};if(!p?.name||/^kattankudt$/i.test(p.name.trim())||!Number.isFinite(+p.coordinates.latitude)||!Number.isFinite(+p.coordinates.longitude))continue;const canonicalId=window.resolveMazoPlaceId(p.id);if(activeIds.has(canonicalId))continue;activeIds.add(canonicalId);places.push({...p,name:canonicalPlaceName(p.name),address:displaySriLankanAddress(p.address),discoveryCategory:discoveryCategoryFor(p)})}placeSearchIndex=createPlaceSearchIndex(places,placeAliases);renderCategoryFilters();try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){status.hidden=false;status.textContent='Places could not be loaded. Check your connection and retry.';status.classList.add('is-error');console.error('MZP data error:',e)}})();
 function renderCategoryFilters(){
  const container=document.querySelector('.categories'),all=container.querySelector('[data-category="all"]');container.replaceChildren(all);
- const labels={food:'Food',health:'Health',hotel:'Hotels',park:'Nature',shop:'Shopping',atm:'ATMs',fuel:'Fuel',auto:'Auto',electronics:'Electronics',government:'Government',hardware:'Hardware',landmark:'Landmarks',salon:'Salons',sports:'Sports',transport:'Transport',market:'Markets',services:'Services',gym:'Fitness',jewelry:'Jewelry',school:'Education',stationery:'Books & print',cafe:'Cafés',worship:'Worship'};
+ const labels={bank:'Banks & finance',food:'Food',health:'Health',hotel:'Hotels',park:'Nature',shop:'Shopping',atm:'ATMs',fuel:'Fuel',auto:'Auto',electronics:'Electronics',government:'Government',hardware:'Hardware',landmark:'Landmarks',salon:'Salons',sports:'Sports',transport:'Transport',market:'Markets',services:'Services',gym:'Fitness',jewelry:'Jewelry',school:'Education',stationery:'Books & print',cafe:'Cafés',worship:'Worship'};
  for(const {name,count} of availableCategories(places)){const button=document.createElement('button');button.type='button';button.dataset.category=name;button.setAttribute('aria-pressed','false');button.textContent=`${labels[name]||name} · ${count}`;container.append(button)}
  container.querySelectorAll('[data-category]').forEach(button=>button.onclick=()=>{category=button.dataset.category;nearbyMode=Boolean(nearbyOrigin)&&nearbyMode;container.querySelectorAll('[data-category]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));refresh()});
 }
@@ -463,7 +462,7 @@ locateButton.onclick=()=>{
   locationMarker=new maplibregl.Marker({element:dot,anchor:'center'}).setLngLat(coords).addTo(map);
   refresh();
   const bounds=map.getMaxBounds();
-  if(bounds&&!bounds.contains(coords)){status.hidden=false;status.textContent='Map data currently covers Kattankudy only. Any matching places within 10 km are listed by distance.';return}
+  if(bounds&&!bounds.contains(coords)){status.hidden=false;status.textContent='Your location is outside the available map data. Nearby results are limited to mapped Batticaloa District places within 10 km.';return}
   status.hidden=false;status.textContent='Showing public places within 10 km, sorted by distance.';
   map.flyTo({center:coords,zoom:Math.max(map.getZoom(),16),duration:750});
  },error=>{

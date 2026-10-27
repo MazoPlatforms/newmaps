@@ -273,8 +273,8 @@ def validate_changes(base_ref: str, head_ref: str) -> dict:
     # Build and check the exact public output. Existing withheld records remain in
     # source storage with null coordinates and can never enter this feature list.
     places.build()
-    collection = json.loads((places.GENERATED / "kattankudy.mzp").read_text(encoding="utf-8"))
-    mzp_bytes = (places.GENERATED / "kattankudy.mzp").read_bytes()
+    collection = json.loads((places.GENERATED / "batticaloa-district.mzp").read_text(encoding="utf-8"))
+    mzp_bytes = (places.GENERATED / "batticaloa-district.mzp").read_bytes()
     manifest = json.loads((places.GENERATED / "manifest.json").read_text(encoding="utf-8"))
     expected_ids = {r["id"] for r in records if r.get("coordinates") is not None
                     and classify_place(r)["eligible_for_public_map"]}

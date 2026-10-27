@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { availableCategories, createPlaceSearchIndex, distanceMeters, normalizeSearchText, searchPlaces } from '../assets/js/search-engine.mjs';
+import { discoveryCategoryFor } from '../assets/js/place-categories.mjs';
 
 const places = [
   { id: 'canonical-a', name: 'Aayisha Meat Shop', address: 'Main Street', categories: ['Grocery store'], discoveryCategory: 'market', coordinates: { latitude: 7.686, longitude: 81.737 } },
@@ -32,6 +33,19 @@ test('filters using categories present in the loaded data', () => {
   assert.deepEqual(searchPlaces(places, { category: 'health' }).map((row) => row.place.id), ['canonical-b']);
   assert.deepEqual(availableCategories(places).map((row) => row.name), ['health', 'market', 'school', 'transport']);
   assert.deepEqual(searchPlaces(places, { category: 'unsupported-category' }), []);
+});
+
+test('maps expanded Sri Lankan source categories to supported discovery filters', () => {
+  assert.equal(discoveryCategoryFor({ categories: ['Private sector bank'] }), 'bank');
+  assert.equal(discoveryCategoryFor({ categories: ['Hindu temple'] }), 'worship');
+  assert.equal(discoveryCategoryFor({ categories: ['University'] }), 'school');
+  assert.equal(discoveryCategoryFor({ categories: ['Beach'] }), 'park');
+  const supported = new Set(['atm', 'bank', 'fuel', 'auto', 'electronics', 'government', 'hardware',
+    'landmark', 'salon', 'sports', 'transport', 'market', 'services', 'gym', 'jewelry', 'school',
+    'stationery', 'cafe', 'food', 'hotel', 'worship', 'health', 'park', 'shop']);
+  for (const categories of [['Bank'], ['Church'], ['University'], ['Bus stop'], ['Beach']]) {
+    assert.ok(supported.has(discoveryCategoryFor({ categories })));
+  }
 });
 
 test('nearby mode sorts by distance, applies its radius and reports measured distances', () => {

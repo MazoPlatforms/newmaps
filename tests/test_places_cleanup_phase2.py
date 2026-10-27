@@ -217,7 +217,7 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
                                     for r in restored if r["id"] != titlecase_id))
                 restored_title = next(r for r in restored if r["id"] == titlecase_id)
                 self.assertEqual(restored_title["name"], "title case place")
-                geo = json.loads((places.GENERATED / "kattankudy.mzp").read_text())
+                geo = json.loads((places.GENERATED / "batticaloa-district.mzp").read_text())
                 self.assertEqual(len(geo["features"]), 3)
         finally:
             (cleanup.ROOT, cleanup.PLACES, cleanup.ALIASES,
@@ -233,7 +233,7 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
         self.assertEqual(sum(shard_counts.values()), len(records))
         self.assertTrue(all(count <= places.LIMIT for count in shard_counts.values()))
         places.build()
-        geo = json.loads((places.GENERATED / "kattankudy.mzp").read_text())
+        geo = json.loads((places.GENERATED / "batticaloa-district.mzp").read_text())
         manifest = json.loads((places.GENERATED / "manifest.json").read_text())
         self.assertEqual(len(geo["features"]), manifest["features"])
         self.assertEqual(manifest["shards"], shard_counts)
@@ -244,22 +244,20 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
                 continue
             canonical_id = places.resolve_place_id(row["id"])
             self.assertEqual(by_id.get(canonical_id), row["after"])
-        first_hash = cleanup.sha256_file(places.GENERATED / "kattankudy.mzp")
+        first_hash = cleanup.sha256_file(places.GENERATED / "batticaloa-district.mzp")
         places.build()
-        self.assertEqual(cleanup.sha256_file(places.GENERATED / "kattankudy.mzp"), first_hash)
+        self.assertEqual(cleanup.sha256_file(places.GENERATED / "batticaloa-district.mzp"), first_hash)
 
-    def test_map_loader_keeps_every_in_area_feature_searchable(self):
-        geo = json.loads((places.GENERATED / "kattankudy.mzp").read_text())
+    def test_map_loader_has_district_wide_coverage_without_kattankudy_clipping(self):
+        geo = json.loads((places.GENERATED / "batticaloa-district.mzp").read_text())
         features = geo["features"]
-        eligible = [f for f in features if f.get("properties", {}).get("name")
-                    and f["properties"]["name"].strip().lower() != "kattankudt"
-                    and 81.70 <= f["geometry"]["coordinates"][0] <= 81.77
-                    and 7.65 <= f["geometry"]["coordinates"][1] <= 7.72]
-        self.assertLess(len(eligible), 2202)
         self.assertTrue(all("withheld pending eligibility review" not in f["properties"]["name"].lower()
                             for f in features))
         app = (ROOT / "assets/js/app.js").read_text()
-        self.assertIn("if(!inArea(p))continue", app)
+        self.assertNotIn("if(!inArea(p))continue", app)
+        self.assertNotIn("KATTANKUDY=[", app)
+        self.assertIn("center:[81.5569,7.8381],zoom:8.6,minZoom:8", app)
+        self.assertIn("minzoom:9", app)
         self.assertIn("places.push({...p,name:canonicalPlaceName", app)
         self.assertIn("activeIds.has(canonicalId)", app)
         self.assertNotIn("if(!seen.has(k)", app)

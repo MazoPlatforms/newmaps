@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "name": "Batticaloa District",
+  "source": "Sri Lanka National Spatial Data Infrastructure (NSDI)",
+  "service": "Srilanka/Boundaries MapServer",
+  "layer_id": 3,
+  "layer_name": "District Boundary",
+  "service_url": "https://gisapps.nsdi.gov.lk/server/rest/services/Srilanka/Boundaries/MapServer/3",
+  "query_url": "https://gisapps.nsdi.gov.lk/server/rest/services/Srilanka/Boundaries/MapServer/3/query",
+  "retrieved_at": "2026-10-27",
+  "license": "No license statement was present in the service metadata inspected at retrieval; confirm terms with NSDI before redistribution beyond this repository.",
+  "geometry_file": "batticaloa-district.geojson",
+  "geometry_sha256": "9e1efb3dc66882279af04a5d0abb63a2797663120739276cbca222f6c9bde5ce",
+  "district_code": 51,
+  "province_name": "Eastern",
+  "province_code": 5,
+  "coordinate_reference_system": "EPSG:4326"
+}
