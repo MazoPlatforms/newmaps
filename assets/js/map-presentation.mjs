@@ -1,7 +1,7 @@
 import { discoveryCategoryFor } from './place-categories.mjs';
 
 export const INITIAL_CAMERA = Object.freeze({ center: [81.5569, 7.8381], zoom: 8.6 });
-export const POI_ZOOM_THRESHOLDS = Object.freeze({ major: 4.6, district: 7.2, local: 9.5 });
+export const POI_ZOOM_THRESHOLDS = Object.freeze({ major: 6.2, district: 8.6, category: 9.4, local: 12.4 });
 
 export const CAMERA_OPTIONS = Object.freeze({
   ...INITIAL_CAMERA,
@@ -17,7 +17,8 @@ export const CAMERA_OPTIONS = Object.freeze({
   // this enabled preserves native pinch zoom on touch devices.
   touchZoomRotate: true,
   renderWorldCopies: true,
-  fadeDuration: 250,
+  // Only brief collision transitions remain; POI symbol opacity itself is 1.
+  fadeDuration: 100,
 });
 
 // Only landmarks receive a country/regional tier. Other institutions become
@@ -77,6 +78,7 @@ export function poiLayerFilter(tier, category = 'all') {
 
 export function visiblePoiTiers(zoom) {
   return Object.entries(POI_ZOOM_THRESHOLDS)
+    .filter(([tier]) => tier !== 'category')
     .filter(([, minimum]) => Number.isFinite(zoom) && zoom >= minimum)
     .map(([tier]) => tier);
 }

@@ -1,7 +1,8 @@
 import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs';
 import { createPlaceLookup, decodePlaceDetails, decodeSearchIndex } from './place-delivery.mjs';
 import { discoveryCategoryFor } from './place-categories.mjs';
-import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs';
+import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=phase9-cartography-1';
+import { applyMazoCartographicStyle, MAZO_PALETTE } from './cartographic-style.mjs?v=phase9-cartography-1';
 
 // Reliable OpenFreeMap fallback; optional local PMTiles are enabled only after verification.
 const $=s=>document.querySelector(s);
@@ -9,10 +10,21 @@ const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https:/
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const cameraDuration=milliseconds=>reducedMotionDuration(milliseconds,window.matchMedia?.('(prefers-reduced-motion: reduce)').matches===true);
 const map=new maplibregl.Map({container:'map',style:styles[theme()],...CAMERA_OPTIONS});
+// A bounded test-only camera/inspection facade for reproducible browser scenarios.
+if(new URLSearchParams(location.search).has('map-test'))window.__MAZO_MAP_TEST__=Object.freeze({
+ isStyleLoaded:()=>map.isStyleLoaded(),jumpTo:options=>map.jumpTo(options),easeTo:options=>map.easeTo(options),
+ getCenter:()=>map.getCenter(),getZoom:()=>map.getZoom(),getBearing:()=>map.getBearing(),getPitch:()=>map.getPitch(),
+ getMinZoom:()=>map.getMinZoom(),getMaxZoom:()=>map.getMaxZoom(),getStyle:()=>map.getStyle(),
+ isDragRotateEnabled:()=>map.dragRotate.isEnabled(),isTouchZoomRotateEnabled:()=>map.touchZoomRotate.isEnabled(),
+ getSource:id=>{const source=map.getSource(id);return source?{type:source.type}:null;},
+ getLayer:id=>{const layer=map.getLayer(id);return layer?{id:layer.id,type:layer.type}:null;},
+ getPaintProperty:(id,property)=>map.getPaintProperty(id,property),
+ queryRenderedFeatures:(...args)=>map.queryRenderedFeatures(...args),
+});
 // Preserve pinch zoom and keyboard panning while removing all rotation/pitch controls.
 configureNorthUpInteractions(map);
 // Minimal map chrome: touch gestures remain available without zoom buttons.
-let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false;
+let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false,pmtilesProtocol=null;
 let deliveryMode='mzp',placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchIndexPromise=null,placeDetailsLoaded=false,pmtilesFallbackStarted=false;
 let presentedCategory=null,presentedSelectedId=null,presentedVisibility=null;
 // Presentation-only Sri Lankan postal address cleanup. This never invents a house number.
@@ -60,8 +72,9 @@ function canonicalPlaceName(raw){
 }
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-const artwork={food:['#b87353','M7 3v7m3-7v7M5 7h7v3a3 3 0 0 1-3 3v8m9-18v18m0-18c-4 3-4 8 0 8'],health:['#b5666c','M10 4h4v6h6v4h-6v6h-4v-6H4v-4h6Z'],shop:['#6d81aa','M5 8h14l1 12H4ZM9 8V6a3 3 0 0 1 6 0v2'],hotel:['#8c76a6','M3 19V6m0 9h18v4m-12-8h9a3 3 0 0 1 3 3v1M6 9h3v4H6Z'],park:['#628c6e','M12 3L5 12h4l-5 5h16l-5-5h4ZM12 17v4'],atm:['#558b76',''],bank:['#607e9a',''],fuel:['#b98451',''],auto:['#617b91',''],electronics:['#6478b4',''],government:['#728a9b',''],hardware:['#907b61',''],landmark:['#8c7597',''],salon:['#b87e99',''],sports:['#588e87',''],transport:['#647fa0',''],market:['#6c8c70',''],services:['#7d8c9d',''],gym:['#538a8c',''],jewelry:['#a67b41',''],school:['#4e7fba',''],stationery:['#6e8791',''],cafe:['#b87353',''],worship:['#967c9c','M4 20h16M6 20V9l6-5 6 5v11M10 20v-6h4v6m-2-16V1']};
+const artwork={food:['#b75e37','M7 3v7m3-7v7M5 7h7v3a3 3 0 0 1-3 3v8m9-18v18m0-18c-4 3-4 8 0 8'],health:['#b64452','M10 4h4v6h6v4h-6v6h-4v-6H4v-4h6Z'],shop:['#4268a9','M5 8h14l1 12H4ZM9 8V6a3 3 0 0 1 6 0v2'],hotel:['#72539f','M3 19V6m0 9h18v4m-12-8h9a3 3 0 0 1 3 3v1M6 9h3v4H6Z'],park:['#40774f','M12 3L5 12h4l-5 5h16l-5-5h4ZM12 17v4'],atm:['#137b70',''],bank:['#4e627e',''],fuel:['#a65f20',''],auto:['#45637b',''],electronics:['#4f5fc0',''],government:['#456a7f',''],hardware:['#785538',''],landmark:['#755881',''],salon:['#a7537d',''],sports:['#147a77',''],transport:['#3e64a0',''],market:['#397347',''],services:['#5e6978',''],gym:['#147579',''],jewelry:['#876215',''],school:['#205b9b',''],stationery:['#526d72',''],cafe:['#ad5931',''],worship:['#74587c','']};
 const POI_SOURCE='mazo-pois';
+const SELECTED_POI_SOURCE='mazo-selected-place';
 const POI_LAYERS=['mazo-poi-major','mazo-poi-district','mazo-poi-local','mazo-poi-selected'];
 let poiFeatureCollection=null;
 function priority(p){return placePriority(p)}
@@ -83,37 +96,42 @@ function registerIcons(){
  };
  for(const [kind,[color]] of Object.entries(artwork)){
   const id=iconFor(kind);if(map.hasImage(id))continue;
-  const canvas=document.createElement('canvas');canvas.width=64;canvas.height=80;
+  const canvas=document.createElement('canvas');canvas.width=64;canvas.height=64;
   const ctx=canvas.getContext('2d');
-  ctx.beginPath();ctx.moveTo(32,77);ctx.bezierCurveTo(25,65,9,49,9,31);
-  ctx.arc(32,31,23,Math.PI,0);ctx.bezierCurveTo(55,49,39,65,32,77);ctx.closePath();
-  ctx.fillStyle=color;ctx.fill();ctx.lineWidth=4;ctx.strokeStyle='#fff';ctx.stroke();
-  ctx.save();ctx.translate(32,31);ctx.scale(0.86,0.86);ctx.translate(-28,-31);
-  ctx.strokeStyle='#fff';ctx.lineWidth=3;ctx.lineJoin='round';ctx.lineCap='round';
+  ctx.beginPath();ctx.arc(32,32,26,0,Math.PI*2);ctx.fillStyle=color;ctx.fill();
+  ctx.lineWidth=4;ctx.strokeStyle='#fff';ctx.stroke();
+  ctx.beginPath();ctx.arc(32,32,29,0,Math.PI*2);ctx.lineWidth=1.5;ctx.strokeStyle=theme()==='dark'?'#101c23':'#34434a';ctx.stroke();
+  ctx.save();ctx.translate(32,32);ctx.scale(0.72,0.72);ctx.translate(-28,-31);
+  ctx.strokeStyle='#fff';ctx.lineWidth=3.4;ctx.lineJoin='round';ctx.lineCap='round';
   ctx.stroke(new Path2D(paths[kind]||paths.shop));ctx.restore();
-  map.addImage(id,ctx.getImageData(0,0,64,80),{pixelRatio:2});
+  map.addImage(id,ctx.getImageData(0,0,64,64),{pixelRatio:2});
  }
 }
 function poiFeatures(){return {type:'FeatureCollection',features:places.filter(place=>place.coordinates&&Number.isFinite(+place.coordinates.longitude)&&Number.isFinite(+place.coordinates.latitude)).map(placeFeature)}}
+function selectedPoiFeatures(){return {type:'FeatureCollection',features:selectedPlace?.coordinates&&Number.isFinite(+selectedPlace.coordinates.longitude)&&Number.isFinite(+selectedPlace.coordinates.latitude)?[placeFeature(selectedPlace,-1)]:[]}}
 function poiLayout(){return {
  'icon-image':['concat','mazo-',['get','kind']],
- 'icon-anchor':'bottom',
- 'icon-size':['interpolate',['linear'],['zoom'],4,0.25,8,0.38,12,0.5,16,0.64,20,0.72],
- 'icon-allow-overlap':false,'icon-padding':5,
+ 'icon-anchor':'center',
+ 'icon-size':['interpolate',['linear'],['zoom'],6,0.48,9,0.56,12,0.64,15,0.74,18,0.82,20,0.9],
+ 'icon-allow-overlap':false,'icon-padding':['interpolate',['linear'],['zoom'],6,16,9,18,12,19,15,26,18,22,20,18],
  'text-field':['get','name'],'text-font':['Noto Sans Regular'],
- 'text-size':['interpolate',['linear'],['zoom'],4,9,8,10,12,11,17,13],
- 'text-offset':[0,0.72],'text-anchor':'top','text-max-width':12,
- 'text-optional':true,'text-allow-overlap':false,'text-padding':5,
+ 'text-size':['interpolate',['linear'],['zoom'],6,9,9,10,12,11,16,12,20,13],
+ 'text-offset':[0,0.8],'text-anchor':'top','text-max-width':11,
+ 'text-optional':true,'text-allow-overlap':false,'text-padding':['interpolate',['linear'],['zoom'],6,9,12,8,16,6],
+ 'symbol-z-order':'auto',
  // MapLibre places lower sort keys first when resolving symbol collisions.
  'symbol-sort-key':['get','priority'],
 }}
-function addPoiSymbolLayer(id,tier,minzoom,opacityStops){
+function addPoiSymbolLayer(id,tier,minzoom){
  map.addLayer({id,type:'symbol',source:POI_SOURCE,...(deliveryMode==='pmtiles'?{'source-layer':'places'}:{}),minzoom,filter:poiLayerFilter(tier,category),layout:poiLayout(),paint:{
-  'icon-opacity':['interpolate',['linear'],['zoom'],...opacityStops],
-  'text-opacity':['interpolate',['linear'],['zoom'],...opacityStops],
-  'text-color':theme()==='dark'?'#e5e7eb':'#334155',
-  'text-halo-color':theme()==='dark'?'#17212e':'#ffffff','text-halo-width':1.5,
+  'icon-opacity':1,'text-opacity':1,
+  'text-color':MAZO_PALETTE[theme()].label,
+  'text-halo-color':MAZO_PALETTE[theme()].halo,'text-halo-width':1.6,
  }});
+}
+function visiblePoiFilter(tier){
+ const filter=poiLayerFilter(tier,category);
+ return selectedPlace?.id?['all',filter,['!=',['get','id'],selectedPlace.id]]:filter;
 }
 function ensurePoiLayer(){
  if(!map.getStyle()?.layers)return;
@@ -123,28 +141,29 @@ function ensurePoiLayer(){
   if(deliveryMode==='pmtiles')map.addSource(POI_SOURCE,{type:'vector',url:window.mazoPmtilesUrl,promoteId:{places:'id'}});
   else map.addSource(POI_SOURCE,{type:'geojson',data:poiFeatureCollection,promoteId:'id',buffer:64});
  }
+ if(!map.getSource(SELECTED_POI_SOURCE))map.addSource(SELECTED_POI_SOURCE,{type:'geojson',data:selectedPoiFeatures(),promoteId:'id'});
  registerIcons();
- if(!map.getLayer('mazo-poi-major'))addPoiSymbolLayer('mazo-poi-major','major',POI_ZOOM_THRESHOLDS.major,[4.6,0,5.1,0.9,5.6,1]);
- if(!map.getLayer('mazo-poi-district'))addPoiSymbolLayer('mazo-poi-district','district',POI_ZOOM_THRESHOLDS.district,[7.2,0,7.8,0.9,8.3,1]);
- if(!map.getLayer('mazo-poi-local'))addPoiSymbolLayer('mazo-poi-local','local',POI_ZOOM_THRESHOLDS.local,[9.5,0,10.2,0.9,10.7,1]);
+ if(!map.getLayer('mazo-poi-major'))addPoiSymbolLayer('mazo-poi-major','major',POI_ZOOM_THRESHOLDS.major);
+ if(!map.getLayer('mazo-poi-district'))addPoiSymbolLayer('mazo-poi-district','district',POI_ZOOM_THRESHOLDS.district);
+ if(!map.getLayer('mazo-poi-local'))addPoiSymbolLayer('mazo-poi-local','local',POI_ZOOM_THRESHOLDS.local);
  if(!map.getLayer('mazo-poi-selected'))map.addLayer({
-  id:'mazo-poi-selected',type:'symbol',source:POI_SOURCE,...(deliveryMode==='pmtiles'?{'source-layer':'places'}:{}),minzoom:0,
-  filter:['==',['get','id'],''],layout:{...poiLayout(),'icon-allow-overlap':true,'text-allow-overlap':true,'icon-size':0.78,'text-size':14,'symbol-sort-key':1000},
-  paint:{'icon-opacity':1,'text-opacity':1,'text-color':theme()==='dark'?'#ffffff':'#17212e','text-halo-color':theme()==='dark'?'#17212e':'#ffffff','text-halo-width':2},
+  id:'mazo-poi-selected',type:'symbol',source:SELECTED_POI_SOURCE,minzoom:0,
+  layout:{...poiLayout(),'icon-allow-overlap':true,'text-allow-overlap':true,'icon-size':1.25,'text-size':14,'symbol-sort-key':1000},
+  paint:{'icon-opacity':1,'text-opacity':1,'text-color':MAZO_PALETTE[theme()].label,'text-halo-color':MAZO_PALETTE[theme()].halo,'text-halo-width':2.2},
  });
  updatePoiPresentation();
  refresh();
 }
 function updatePoiPresentation(){
- if(presentedCategory!==category){
-  for(const [id,tier] of [['mazo-poi-major','major'],['mazo-poi-district','district'],['mazo-poi-local','local']]){
-   if(map.getLayer(id))map.setFilter(id,poiLayerFilter(tier,category));
-  }
-  presentedCategory=category;
- }
  const selectedId=selectedPlace?.id||null;
- if(presentedSelectedId!==selectedId&&map.getLayer('mazo-poi-selected')){
-  map.setFilter('mazo-poi-selected',selectedId?['==',['get','id'],selectedId]:['==',['get','id'],'']);
+ const categoryChanged=presentedCategory!==category;
+ if(categoryChanged||presentedSelectedId!==selectedId){
+  for(const [id,tier] of [['mazo-poi-major','major'],['mazo-poi-district','district'],['mazo-poi-local','local']]){
+   if(map.getLayer(id))map.setFilter(id,visiblePoiFilter(tier));
+  }
+  if(categoryChanged&&map.getLayer('mazo-poi-local'))map.setLayerZoomRange('mazo-poi-local',category==='all'?POI_ZOOM_THRESHOLDS.local:POI_ZOOM_THRESHOLDS.category,Math.min(24,map.getMaxZoom()+1));
+  presentedCategory=category;
+  if(presentedSelectedId!==selectedId&&map.getSource(SELECTED_POI_SOURCE)?.setData)map.getSource(SELECTED_POI_SOURCE).setData(selectedPoiFeatures());
   presentedSelectedId=selectedId;
  }
  if(presentedVisibility!==placesVisible){
@@ -492,7 +511,7 @@ map.on('error',event=>{
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && !layer.id.startsWith('mazo-') && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
+map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && !layer.id.startsWith('mazo-') && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
 async function checkedJson(file,sha256){
  const response=await fetch(file+'?v='+sha256);if(!response.ok)throw Error(file+' '+response.status);
  const bytes=await response.arrayBuffer();
@@ -559,7 +578,7 @@ function renderCategoryFilters(){
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
 const searchInput=$('#map-search');
 searchInput.addEventListener('keydown',event=>{const results=$('#search-results'),items=[...results.querySelectorAll('[role="option"]')];if(event.key==='Escape'){results.hidden=true;searchInput.setAttribute('aria-expanded','false');searchInput.removeAttribute('aria-activedescendant');return}if(results.hidden||!items.length)return;let active=items.findIndex(item=>item.id===searchInput.getAttribute('aria-activedescendant'));if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();active=(active+(event.key==='ArrowDown'?1:-1)+items.length)%items.length;items.forEach((item,index)=>item.setAttribute('aria-selected',String(index===active)));searchInput.setAttribute('aria-activedescendant',items[active].id);items[active].scrollIntoView({block:'nearest'})}else if(event.key==='Enter'&&active>=0){event.preventDefault();items[active].click()}});
-$('#theme-toggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';$('#theme-toggle').setAttribute('aria-pressed',String(dark));try{localStorage.setItem('mazo-maps-theme',dark?'dark':'light')}catch{};map.setStyle(styles[dark?'dark':'light']);};
+$('#theme-toggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';$('#theme-toggle').setAttribute('aria-pressed',String(dark));try{localStorage.setItem('mazo-maps-theme',dark?'dark':'light')}catch{};map.setStyle(styles[dark?'dark':'light'],{diff:false});};
 const locateButton=$('#map-locate');
 let locationMarker=null;
 locateButton.onclick=()=>{
