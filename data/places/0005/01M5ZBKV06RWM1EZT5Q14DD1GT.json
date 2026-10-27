@@ -1,0 +1,58 @@
+{
+  "name": "Health Pharmacy",
+  "coordinates": {
+    "latitude": 7.9169823,
+    "longitude": 81.5275216
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "Azhar School Road Brainthuraichenai, 198 Main St, 30400",
+  "phone": "0758886366",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M5ZBKV06RWM1EZT5Q14DD1GT"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Downtown Stores",
+  "coordinates": {
+    "latitude": 7.9141043,
+    "longitude": 81.523433
+  },
+  "categories": [
+    "Grocery store",
+    "Stationery store"
+  ],
+  "address": "Main St, Oddamavadi 30420",
+  "phone": "0758080400",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    }
+  ],
+  "id": "01M5ZBKV24QQ58RQ97DD2G6SMA"
+}

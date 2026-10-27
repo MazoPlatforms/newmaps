@@ -1,0 +1,58 @@
+{
+  "name": "Rifaya Bake House",
+  "coordinates": {
+    "latitude": 7.9091486,
+    "longitude": 81.5321803
+  },
+  "categories": [
+    "Bakery"
+  ],
+  "address": "WG5J+MV3, Mavadichenai",
+  "phone": "0766525111",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–5 PM"
+      ]
+    }
+  ],
+  "id": "01M5ZBKVDSNH8C4DQBEZ7AB3ZG"
+}
