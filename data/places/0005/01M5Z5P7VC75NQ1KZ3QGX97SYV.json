@@ -1,0 +1,62 @@
+{
+  "name": "Ans Timer Shop",
+  "coordinates": {
+    "latitude": 7.911422,
+    "longitude": 81.528105
+  },
+  "categories": [
+    "Woodworking supply store"
+  ],
+  "address": "Oddamavadi",
+  "phone": "0652257812",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--hardware-building, kiran--hardware-building, koddaikallar--hardware-building, kokkadichcholai--hardware-building, mangalagama--hardware-building, vahaneri--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5P7VC75NQ1KZ3QGX97SYV"
+}

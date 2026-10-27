@@ -1,0 +1,65 @@
+{
+  "name": "KT Tours Pasikudah",
+  "coordinates": {
+    "latitude": 7.895890499999999,
+    "longitude": 81.5364573
+  },
+  "categories": [
+    "Travel agency",
+    "Tour operator",
+    "Tourist information center"
+  ],
+  "address": "Karuwakerny, Main St, 30400",
+  "phone": "0774622953",
+  "website": "https://www.facebook.com/share/1L5ae18Asv/?mibextid=wwXIfr",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: puliyanthivu-south--tourism-attractions. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5P8GNNMZMQK5GB2CPFM7N"
+}

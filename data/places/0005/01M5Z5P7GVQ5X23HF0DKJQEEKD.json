@@ -1,0 +1,63 @@
+{
+  "name": "East Lanka Polysack (PVT) Ltd.",
+  "coordinates": {
+    "latitude": 7.932734,
+    "longitude": 81.53356869999999
+  },
+  "categories": [
+    "Manufacturer"
+  ],
+  "address": "Main Road Nasivantheevu, 30400",
+  "phone": "0114540020",
+  "website": "http://www.eastpolysack.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: illipaiyadichchenai--wholesale-commercial, kiran--wholesale-commercial, kokkadichcholai--wholesale-commercial, unnichchai--wholesale-commercial. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5P7GVQ5X23HF0DKJQEEKD"
+}

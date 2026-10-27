@@ -1,0 +1,59 @@
+{
+  "name": "Nawsath Hotel & Restaurant",
+  "coordinates": {
+    "latitude": 7.9211075,
+    "longitude": 81.5308556
+  },
+  "address": "72/A Main St, 30400",
+  "phone": "0761250485",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–2 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--accommodation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5P92CCYNH228JHZAR2N28"
+}

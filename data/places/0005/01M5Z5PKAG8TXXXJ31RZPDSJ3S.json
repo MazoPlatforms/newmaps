@@ -1,0 +1,63 @@
+{
+  "name": "IHS Vocational Centre",
+  "coordinates": {
+    "latitude": 7.9041283,
+    "longitude": 81.5249554
+  },
+  "categories": [
+    "Educational institution"
+  ],
+  "address": "MPCS Road, Oddamavadi 30000",
+  "phone": "0773839990",
+  "website": "http://www.ihsvcentre.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kurumunveli--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5PKAG8TXXXJ31RZPDSJ3S"
+}

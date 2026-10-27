@@ -1,0 +1,68 @@
+{
+  "name": "Masjidul Abrar",
+  "coordinates": {
+    "latitude": 7.910779,
+    "longitude": 81.52501
+  },
+  "categories": [
+    "Mosque"
+  ],
+  "address": "WG6G+826, MPCS Road, Oddamavadi",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–9 AM",
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–9 AM",
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–9 AM",
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–9 AM",
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–9 AM",
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–9 AM",
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–9 AM",
+        "10:30 AM–12 AM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: illipaiyadichchenai--religious, koddaikallar--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5PGK6KGMN3RAM01WS5F9Y"
+}

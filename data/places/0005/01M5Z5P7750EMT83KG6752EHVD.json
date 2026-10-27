@@ -1,0 +1,63 @@
+{
+  "name": "Global Building Materials",
+  "coordinates": {
+    "latitude": 7.903107599999999,
+    "longitude": 81.52398459999999
+  },
+  "categories": [
+    "Hardware store",
+    "Business banking service"
+  ],
+  "address": "Oddamavadi",
+  "phone": "0753956204",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkaladi--hardware-building, eravur--hardware-building, kalkudah--hardware-building, kaluwanchikudy--hardware-building, karadiyanaru--hardware-building, kiran--hardware-building, koddaikallar--hardware-building, kokkadichcholai--hardware-building, mangalagama--hardware-building, navatkudah-east--hardware-building, paddippalai--hardware-building, pasikudah--hardware-building, periyakallar--hardware-building, puliyanthivu-east--hardware-building, rideethenna--hardware-building, rukamputur--hardware-building, tumpalancholai--hardware-building, urukamam--hardware-building, vahaneri--hardware-building, vakarai--hardware-building, valaichchenai--hardware-building, vellavely--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5P7750EMT83KG6752EHVD"
+}

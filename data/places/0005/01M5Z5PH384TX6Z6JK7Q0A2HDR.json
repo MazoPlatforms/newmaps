@@ -1,0 +1,62 @@
+{
+  "name": "Al-Madeena Hotel",
+  "coordinates": {
+    "latitude": 7.9140768999999995,
+    "longitude": 81.52349009999999
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "WG7F+J9Q, Trincomalee-Batticaloa Road, Oddamavadi",
+  "phone": "0774934714",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: koddaikallar--accommodation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5PH384TX6Z6JK7Q0A2HDR"
+}

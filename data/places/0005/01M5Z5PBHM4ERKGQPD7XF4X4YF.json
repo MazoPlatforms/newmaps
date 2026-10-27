@@ -1,0 +1,62 @@
+{
+  "name": "Oddamavadi Jumma Mosque",
+  "coordinates": {
+    "latitude": 7.9130139999999995,
+    "longitude": 81.5204778
+  },
+  "categories": [
+    "Mosque"
+  ],
+  "address": "WG7C+655, Oddamavadi",
+  "phone": "0652257600",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--religious, illipaiyadichchenai--religious, koddaikallar--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5PBHM4ERKGQPD7XF4X4YF"
+}
