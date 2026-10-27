@@ -1,0 +1,57 @@
+{
+  "name": "Kumar Service",
+  "coordinates": {
+    "latitude": 7.584868299999999,
+    "longitude": 81.7831368
+  },
+  "categories": [
+    "Motorcycle repair shop"
+  ],
+  "phone": "0754907618",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    }
+  ],
+  "id": "01M5ZASZ2VREA0AHXQ2C87RRHD"
+}

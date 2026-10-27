@@ -1,0 +1,58 @@
+{
+  "name": "Bigbazaar Supermarket",
+  "coordinates": {
+    "latitude": 7.499854,
+    "longitude": 81.8043907
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "FRX3+WQR, Kaluwanchikudy",
+  "phone": "0778684961",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M5ZASZS5DE83QCX0F4Y3B3GQ"
+}

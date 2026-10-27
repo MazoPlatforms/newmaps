@@ -1,0 +1,58 @@
+{
+  "name": "Siva Bakery And Stores",
+  "coordinates": {
+    "latitude": 7.495585299999999,
+    "longitude": 81.7991828
+  },
+  "categories": [
+    "Bakery"
+  ],
+  "address": "Onthachimadam - Koddaikallar Road",
+  "phone": "0713458440",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    }
+  ],
+  "id": "01M5ZAT0HPVQHNN0WX2BA93P92"
+}

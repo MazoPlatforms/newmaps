@@ -1,0 +1,57 @@
+{
+  "name": "OSUKI Supermarket",
+  "coordinates": {
+    "latitude": 7.501643,
+    "longitude": 81.790015
+  },
+  "categories": [
+    "Market"
+  ],
+  "address": "GQ2Q+PXV, Kaluwanchikudy",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "id": "01M5ZASZV7TEHMRB625RRGD8QR"
+}
