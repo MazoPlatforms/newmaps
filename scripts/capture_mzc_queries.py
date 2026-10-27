@@ -73,11 +73,11 @@ def capture(plan_path: Path, output_dir: Path) -> dict[str, int]:
         row = {**item, "key": key, "attempts": existing.get("attempts", []) if existing else []}
         payload = None
         first_attempt = len(row["attempts"]) + 1
-        # Bound per-query retries. A request gets at most two retries per run,
-        # with a five-attempt lifetime cap and exponential backoff. Every
-        # invocation still uses the documented country-scoped 500-result CLI.
+        # Bound per-query retries. A run makes at most three requests per
+        # query, with a five-attempt lifetime cap and exponential backoff.
+        # Every invocation uses the documented country-scoped 500-result CLI.
         total_attempt_limit = 5
-        attempts_available = max(0, total_attempt_limit - len(row["attempts"]))
+        attempts_available = min(3, max(0, total_attempt_limit - len(row["attempts"])))
         for retry_index in range(attempts_available):
             attempt_number = first_attempt + retry_index
             if retry_index:
