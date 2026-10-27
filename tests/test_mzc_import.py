@@ -248,6 +248,24 @@ class MzcImportTests(unittest.TestCase):
         self.assertEqual(summary["queries"][0]["town"], "Vakarai")
         self.assertEqual(summary["queries"][0]["category"], "clothing-textiles")
 
+    def test_category_coverage_uses_family_name_without_query_hash(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            input_dir = root / "capture"
+            capture(input_dir, [mzc_record("Community Hall")])
+            manifest_path = input_dir / "query-manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest[0]["key"] = "batticaloa--community-recreation--a1b2c3d4"
+            manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+            (input_dir / "batticaloa--community-recreation--a1b2c3d4.json").write_text(
+                json.dumps({"results": [mzc_record("Community Hall")]}), encoding="utf-8")
+            (input_dir / "batticaloa--food.json").unlink()
+            repo = root / "repo"
+            write_tree(repo, [])
+            result = importer.analyze(input_dir, importer.BOUNDARY_PATH, repo)
+            self.assertEqual(result["query_category_counts"]["community-recreation"]["new_public_candidate"], 1)
+            self.assertNotIn("community-recreation--a1b2c3d4", result["query_category_counts"])
+
     def test_phase62_plan_skips_previous_queries_and_uses_required_mzc_parameters(self):
         repeated = phase6_2_plan.normalize_query(
             "public offices schools clinics and community facilities in Koralai Pattu, Batticaloa District, Sri Lanka"

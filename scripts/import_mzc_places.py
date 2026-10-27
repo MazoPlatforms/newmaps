@@ -320,7 +320,9 @@ def analyze(input_dir: Path, boundary_path: Path = BOUNDARY_PATH, root: Path = R
                                                       "source_query_keys": item["queries"],
                                                       "changes": item["format_changes"]})
         for query_key in item["queries"]:
-            area, _, category = query_key.partition("--")
+            parts = query_key.split("--")
+            area = parts[0]
+            category = parts[-2] if len(parts) >= 3 else (parts[-1] if len(parts) == 2 else "unknown")
             town_counts[area][classification] += 1
             query_category_counts[category][classification] += 1
         for category_name in record.get("categories", []):
@@ -634,7 +636,7 @@ def render_report(report: dict) -> str:
         f"Scope: {report['scope']}", "",
         "## Discovery", "",
         f"- Confirmed CLI invocations: at least {discovery['confirmed_cli_invocations_at_least']} across {discovery['unique_query_strings']} successful unique query strings; exact total unavailable because two capture batches briefly overlapped and repeated-call count was not retained.",
-        f"- Retained JSON rows: {discovery['raw_candidates_returned_in_retained_json']:,}; four earlier successful exploratory queries had uncaptured response counts. Failed query attempts: {discovery['failed_attempts']}; successful retries: {discovery['successful_retries']}; at-limit queries: {discovery['queries_at_500_result_limit']}.",
+        f"- Retained JSON rows: {discovery['raw_candidates_returned_in_retained_json']:,}; four earlier successful exploratory queries had uncaptured response counts. Captured failed attempts: {discovery['failed_attempts']}; known failed diagnostic calls: {discovery.get('known_unmanifested_failures', 0)}; successful retries: {discovery['successful_retries']}; unique queries still failed: {discovery['failed_queries']}; at-limit queries: {discovery['queries_at_500_result_limit']}.",
         f"- Capture accounting: {discovery['capture_log_note']}",
         f"- Raw candidates in retained JSON captures: {discovery['raw_candidates_returned_in_retained_json']:,}; duplicate calls with unavailable capture counts are excluded.",
         f"- Unique candidates after normalized name and coordinate grouping: {processing['unique_candidates']:,}.",
@@ -690,6 +692,15 @@ def render_report(report: dict) -> str:
         for item in review.get("phase6_2_named_case_decisions", []):
             lines.append(f"- {item['name']} ({', '.join(item['ulids'])}): {item['decision']}; {item['reason']}")
         lines += ["- Other uncertain/conflicting candidate details are omitted from this public report. No unresolved candidate was deleted or merged.", ""]
+    if report.get("phase6_3_batches"):
+        lines += ["## Geographic batch merge history", ""]
+        for batch in report["phase6_3_batches"]:
+            lines.append(f"- {batch['region']}: {batch['new_places']} places; {batch['name_changes']} name and {batch['address_changes']} address formatting changes; PR [#{batch['pull_request']}](https://github.com/MazoPlatforms/newmaps/pull/{batch['pull_request']}) merged as `{batch['merge_commit']}`.")
+        lines.append("")
+    if report.get("validation_summary"):
+        lines += ["## Final verification", ""]
+        lines.extend(f"- {key.replace('_', ' ').capitalize()}: {value}." for key, value in report["validation_summary"].items())
+        lines.append("")
     lines += ["## Limitations", "", "- No pagination mode is documented; all captured queries returned fewer than 500 candidates.",
               "- CLI provider and separate license metadata were not exposed and are not inferred.",
               "- Place listings, category correctness, and pin placement were not independently verified; mzc output is not treated as external confirmation.",
