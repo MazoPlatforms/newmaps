@@ -55,4 +55,18 @@ class PlaceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'refusing to overwrite'):
             places.migrate()
 
+    def test_null_coordinates_are_valid_but_invalid_non_null_ranges_always_fail(self):
+        base={"id":"01AAAAAAAAAAAAAAAAAAAAAAAA","name":"Community Library","coordinates":None,
+              "categories":["Library"]}
+        places.validate_record(base)
+        for coordinates in (
+            {"latitude":91,"longitude":0},
+            {"latitude":0,"longitude":181},
+            {"latitude":True,"longitude":0},
+            {"latitude":float("nan"),"longitude":0},
+        ):
+            with self.subTest(coordinates=coordinates):
+                with self.assertRaisesRegex(ValueError,"invalid coordinates"):
+                    places.validate_record({**base,"coordinates":coordinates},allow_invalid_coordinates=True)
+
 if __name__=='__main__':unittest.main()
