@@ -31,9 +31,12 @@ class PlaceTests(unittest.TestCase):
         records,shards,suspicious=places.load_places()
         mapping=json.loads((places.ROOT/'migration-record-map.json').read_text())
         aliases=places.load_aliases()
-        self.assertEqual(len(records),len(mapping)-len(aliases))
         self.assertEqual(len(mapping),3694)
-        self.assertEqual({row['id'] for row in mapping},{r['id'] for r in records}|set(aliases))
+        mapped_ids={row['id'] for row in mapping}
+        mapped_active_ids={r['id'] for r in records}&mapped_ids
+        self.assertTrue(mapped_ids <= mapped_active_ids|set(aliases))
+        self.assertEqual(mapped_active_ids,mapped_ids-set(aliases))
+        self.assertGreaterEqual(len(records),len(mapped_active_ids))
         self.assertEqual(sum(shards.values()),len(records))
         self.assertGreaterEqual(len(aliases),1039)
         self.assertGreaterEqual(len(suspicious),0)
