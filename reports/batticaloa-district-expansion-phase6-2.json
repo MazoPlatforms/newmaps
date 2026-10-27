@@ -14,12 +14,12 @@
     "unique_query_strings_attempted": 177,
     "successful_queries": 105,
     "failed_query_prompts": 72,
-    "documented_cli_query_invocations": 249,
+    "documented_cli_query_invocations": 250,
     "additional_diagnostic_invocations_not_in_plan": 1,
     "raw_candidate_rows_from_successful_responses": 1840,
     "queries_at_500_result_limit": 0,
     "pagination_available": false,
-    "rate_limit_note": "72 prompts returned non-zero status in the first capture log without captured stderr. A later diagnostic invocation using a failed prompt returned HTTP 429; this confirms rate limiting at diagnostic time but does not prove each earlier failure had that cause. Failed prompts remain unprocessed.",
+    "rate_limit_note": "72 distinct query prompts remain unsuccessful. The first capture version made two immediate attempts for those prompts but did not retain stderr. A later retry of one failed prompt and a separate diagnostic query both returned HTTP 429. No more retries were issued after rate limiting was confirmed; the unsuccessful prompts are queued for a later run.",
     "queries": [
       {
         "town_query_label": "Illipaiyadichchenai",
@@ -1290,8 +1290,8 @@
         "timeout_seconds": 30,
         "status": "failed",
         "raw_candidates_returned": null,
-        "attempt_count": 2,
-        "failure_note": "CLI returned non-zero status; stderr was not retained by the first capture version."
+        "attempt_count": 3,
+        "failure_note": "HTTP 429 rate limited on the later retry; initial stderr was not retained."
       },
       {
         "town_query_label": "Paddippalai",

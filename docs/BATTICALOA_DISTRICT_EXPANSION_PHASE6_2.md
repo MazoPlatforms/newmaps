@@ -3,7 +3,7 @@
 ## Discovery and capture
 
 - Documented command: `mzc -l 500 -c lk -t 30 '<query>'`.
-- 177 unique planned query prompts were attempted; 105 succeeded and 72 returned non-zero status. The capture runner recorded 249 CLI query invocations (including retries); one additional diagnostic invocation returned HTTP 429.
+- 177 unique planned query prompts were attempted; 105 succeeded and 72 returned non-zero status. The capture runner recorded 250 planned-query CLI invocations (including retries); one additional diagnostic invocation also returned HTTP 429; 251 mzc query invocations occurred in total, including that diagnostic.
 - Successful responses contained 1,840 candidate rows. None reached the requested 500-result limit. The CLI documents no pagination option.
 - 488 unique candidate groups remained after collapsing 1,352 repeated query rows. Coverage counts below overlap across prompts.
 - The failed prompts and exact coverage-by-query log are in the machine-readable report. Their first-run stderr was not retained; a diagnostic response later returned HTTP 429, but this does not establish the cause of every earlier failure.
@@ -47,7 +47,7 @@ These are raw candidate rows returned by successful prompts, grouped by prompt l
 
 ## Remaining gaps
 
-- 72 planned prompts need retry after the CLI request limit clears.
+- 72 distinct planned prompts need retry after the CLI request limit clears; stderr from the first capture was not retained, while a later retry and a separate diagnostic both confirmed HTTP 429.
 - 11 eligibility-uncertain candidates and 13 conflicting same-name candidates remain withheld for manual review.
 - No independent public-source verification was performed. The search matrix was targeted; district-wide coverage is not exhaustive.
 - The documented CLI output did not provide separate license metadata; none is asserted.
