@@ -1,0 +1,575 @@
+{
+  "phase": "9",
+  "created_utc_date": "2026-10-27",
+  "base_commit": "15edec3d5880e2f8db2a256444b4acefa4c99b63",
+  "browser_setup": {
+    "browser": "Chromium 141.0.7390.37",
+    "viewport_css_px": [
+      1280,
+      800
+    ],
+    "device_scale_factor": 1,
+    "color_scheme": "dark",
+    "headless": true,
+    "renderer": "SwiftShader software WebGL",
+    "network_throttling": "none"
+  },
+  "comparison_method": "Mazo Maps before and after captures use the same seven centers, zoom levels, browser, viewport, color scheme and capture script. Each count is MapLibre queryRenderedFeatures over the Mazo POI symbol layers at the captured frame; it counts rendered symbols, not a separate guaranteed visible text-label count. Geographic label counts are rendered candidate features for the listed source layers and may vary with tile/glyph readiness and collision.",
+  "website_research": {
+    "google_maps": {
+      "url": "https://www.google.com/maps",
+      "accessed": true,
+      "scenario_urls": {
+        "sri-lanka": "https://www.google.com/maps/@7.87,80.77,7.1z?hl=en",
+        "eastern-province": "https://www.google.com/maps/@7.45,81.75,8.2z?hl=en",
+        "batticaloa-district": "https://www.google.com/maps/@7.72,81.7,9.3z?hl=en",
+        "batticaloa-coast": "https://www.google.com/maps/@7.72,81.69,10.5z?hl=en",
+        "kattankudy-surrounds": "https://www.google.com/maps/@7.68,81.73,12z?hl=en",
+        "kattankudy-streets": "https://www.google.com/maps/@7.68,81.73,14z?hl=en",
+        "victory-ground-deen-road": "https://www.google.com/maps/@7.68,81.73,16z?hl=en"
+      },
+      "theme": "light; no reliable public dark-mode switch found in this session",
+      "poi_counts": "Not reliably measurable: rendered map is a canvas and exposes no stable feature-count interface; qualitative visual comparison only."
+    },
+    "independent_reference": {
+      "url": "https://gmap.liupurnomo.com/",
+      "accessed": true,
+      "observed_title": "Google Maps Clone",
+      "observed_data_label": "Map data ©2026 Google",
+      "initial_view": "Jakarta",
+      "assessment": "Google Maps UI/data wrapper, not an independent basemap/style reference."
+    }
+  },
+  "mazo_style_sources": {
+    "light": "https://tiles.openfreemap.org/styles/liberty",
+    "dark": "https://tiles.openfreemap.org/styles/dark",
+    "vector_tiles": "https://tiles.openfreemap.org/planet",
+    "low_zoom_raster": "https://tiles.openfreemap.org/natural_earth/ne2sr/{z}/{x}/{y}.png",
+    "attribution": "MapLibre | OpenFreeMap © OpenMapTiles Data from OpenStreetMap"
+  },
+  "scenario_comparison": [
+    {
+      "name": "sri-lanka",
+      "label": "Entire Sri Lanka",
+      "center": [
+        80.77,
+        7.87
+      ],
+      "zoom": 7.1,
+      "google_screenshot_viewport": "1280x800 browser window; Google UI overlay reduces map canvas; light style",
+      "mazo_symbol_features_before": 4,
+      "mazo_symbol_features_after": 2,
+      "delta": -2,
+      "geographic_label_features_before": 32,
+      "geographic_label_features_after": 33,
+      "bearing_after": 0,
+      "icon_opacity_after": 1,
+      "text_opacity_after": 1,
+      "mazo_label_features_after": 2
+    },
+    {
+      "name": "eastern-province",
+      "label": "Eastern Province",
+      "center": [
+        81.75,
+        7.45
+      ],
+      "zoom": 8.2,
+      "google_screenshot_viewport": "1280x800 browser window; Google UI overlay reduces map canvas; light style",
+      "mazo_symbol_features_before": 19,
+      "mazo_symbol_features_after": 4,
+      "delta": -15,
+      "geographic_label_features_before": 24,
+      "geographic_label_features_after": 25,
+      "bearing_after": 0,
+      "icon_opacity_after": 1,
+      "text_opacity_after": 1,
+      "mazo_label_features_after": 4
+    },
+    {
+      "name": "batticaloa-district",
+      "label": "Batticaloa District",
+      "center": [
+        81.7,
+        7.72
+      ],
+      "zoom": 9.3,
+      "google_screenshot_viewport": "1280x800 browser window; Google UI overlay reduces map canvas; light style",
+      "mazo_symbol_features_before": 37,
+      "mazo_symbol_features_after": 21,
+      "delta": -16,
+      "geographic_label_features_before": 6,
+      "geographic_label_features_after": 6,
+      "bearing_after": 0,
+      "icon_opacity_after": 1,
+      "text_opacity_after": 1,
+      "mazo_label_features_after": 21
+    },
+    {
+      "name": "batticaloa-coast",
+      "label": "Batticaloa coastal region",
+      "center": [
+        81.69,
+        7.72
+      ],
+      "zoom": 10.5,
+      "google_screenshot_viewport": "1280x800 browser window; Google UI overlay reduces map canvas; light style",
+      "mazo_symbol_features_before": 83,
+      "mazo_symbol_features_after": 17,
+      "delta": -66,
+      "geographic_label_features_before": 1,
+      "geographic_label_features_after": 26,
+      "bearing_after": 0,
+      "icon_opacity_after": 1,
+      "text_opacity_after": 1,
+      "mazo_label_features_after": 17
+    },
+    {
+      "name": "kattankudy-surrounds",
+      "label": "Kattankudy surroundings",
+      "center": [
+        81.73,
+        7.68
+      ],
+      "zoom": 12,
+      "google_screenshot_viewport": "1280x800 browser window; Google UI overlay reduces map canvas; light style",
+      "mazo_symbol_features_before": 69,
+      "mazo_symbol_features_after": 35,
+      "delta": -34,
+      "geographic_label_features_before": 0,
+      "geographic_label_features_after": 0,
+      "bearing_after": 0,
+      "icon_opacity_after": 1,
+      "text_opacity_after": 1,
+      "mazo_label_features_after": 35
+    },
+    {
+      "name": "kattankudy-streets",
+      "label": "Kattankudy street network",
+      "center": [
+        81.73,
+        7.68
+      ],
+      "zoom": 14,
+      "google_screenshot_viewport": "1280x800 browser window; Google UI overlay reduces map canvas; light style",
+      "mazo_symbol_features_before": 110,
+      "mazo_symbol_features_after": 50,
+      "delta": -60,
+      "geographic_label_features_before": 0,
+      "geographic_label_features_after": 0,
+      "bearing_after": 0,
+      "icon_opacity_after": 1,
+      "text_opacity_after": 1,
+      "mazo_label_features_after": 50
+    },
+    {
+      "name": "victory-ground-deen-road",
+      "label": "Victory Ground / Deen Road area",
+      "center": [
+        81.73,
+        7.68
+      ],
+      "zoom": 16,
+      "google_screenshot_viewport": "1280x800 browser window; Google UI overlay reduces map canvas; light style",
+      "mazo_symbol_features_before": 144,
+      "mazo_symbol_features_after": 81,
+      "delta": -63,
+      "geographic_label_features_before": 0,
+      "geographic_label_features_after": 0,
+      "bearing_after": 0,
+      "icon_opacity_after": 1,
+      "text_opacity_after": 1,
+      "mazo_label_features_after": 81
+    }
+  ],
+  "desktop_mzp_browser_profile": {
+    "browser": "Chromium 141.0.7390.37",
+    "viewport_css_px": [
+      1280,
+      800
+    ],
+    "color_scheme": "dark",
+    "before": {
+      "map_ready_ms": 5758,
+      "js_heap_bytes_after_seven_camera_views": 157000000,
+      "resource_entries": 34,
+      "resource_transfer_bytes_after_seven_camera_views": 4649389
+    },
+    "after": {
+      "map_ready_ms": 5739,
+      "js_heap_bytes_after_seven_camera_views": 123000000,
+      "resource_entries": 35,
+      "resource_transfer_bytes_after_seven_camera_views": 4655874,
+      "browser_errors": []
+    }
+  },
+  "mobile_delivery_smoke": {
+    "browser": "Chromium 141.0.7390.37",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "mobileEmulation": true
+    },
+    "results": [
+      {
+        "mode": "mzp",
+        "startupMs": 7307,
+        "sourceType": "geojson",
+        "startupTransferBytes": 4657192,
+        "startupHeapBytes": 50400000,
+        "interactiveTransferBytes": 4657192,
+        "animation": {
+          "samples": 22,
+          "p50Ms": 49.900000000001455,
+          "p95Ms": 150,
+          "p99Ms": 216.60000000000582,
+          "maxMs": 233.29999999999563,
+          "longTasksOver50Ms": 9
+        },
+        "initialCamera": {
+          "zoom": 8.6,
+          "bearing": 0,
+          "pitch": 0
+        },
+        "theme": "dark",
+        "opacities": [
+          [
+            "mazo-poi-major",
+            1,
+            1
+          ],
+          [
+            "mazo-poi-district",
+            1,
+            1
+          ],
+          [
+            "mazo-poi-local",
+            1,
+            1
+          ],
+          [
+            "mazo-poi-selected",
+            1,
+            1
+          ]
+        ],
+        "category": "electronics",
+        "searchResult": "Noor Accessories Showroom",
+        "selectedPlace": "Noor Accessories Showroom",
+        "worldCamera": {
+          "zoom": 0.7210991682491942,
+          "bearing": 0,
+          "pitch": 0
+        },
+        "rangeResponses": [],
+        "errors": []
+      },
+      {
+        "mode": "pmtiles",
+        "startupMs": 4691,
+        "sourceType": "vector",
+        "startupTransferBytes": 2601104,
+        "startupHeapBytes": 27600000,
+        "interactiveTransferBytes": 5115457,
+        "animation": null,
+        "initialCamera": {
+          "zoom": 8.6,
+          "bearing": 0,
+          "pitch": 0
+        },
+        "theme": "dark",
+        "opacities": [
+          [
+            "mazo-poi-major",
+            1,
+            1
+          ],
+          [
+            "mazo-poi-district",
+            1,
+            1
+          ],
+          [
+            "mazo-poi-local",
+            1,
+            1
+          ],
+          [
+            "mazo-poi-selected",
+            1,
+            1
+          ]
+        ],
+        "category": "electronics",
+        "searchResult": "Noor Accessories Showroom",
+        "selectedPlace": "Noor Accessories Showroom",
+        "worldCamera": {
+          "zoom": 0.7210991682491942,
+          "bearing": 0,
+          "pitch": 0
+        },
+        "rangeResponses": [
+          {
+            "status": 206,
+            "contentRange": "bytes 0-16383/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 2740-2974/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 144645-158802/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 84709-144644/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 144645-158802/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 84709-144644/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 327949-381955/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 236968-327948/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 383949-400293/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 400294-403249/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 778215-845649/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 858454-884474/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 1266110-1270224/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 1205183-1234350/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 1270682-1274583/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 1270533-1270681/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 1459312-1463195/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 1526223-1528528/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 1523109-1525318/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 1526072-1526222/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 1454178-1459311/1681457"
+          },
+          {
+            "status": 206,
+            "contentRange": "bytes 1528682-1530525/1681457"
+          }
+        ],
+        "errors": []
+      },
+      {
+        "mode": "pmtiles-fallback",
+        "startupMs": 6363,
+        "sourceType": "geojson",
+        "startupTransferBytes": 4678046,
+        "startupHeapBytes": 39600000,
+        "interactiveTransferBytes": 4678046,
+        "animation": null,
+        "initialCamera": {
+          "zoom": 8.6,
+          "bearing": 0,
+          "pitch": 0
+        },
+        "theme": "dark",
+        "opacities": [
+          [
+            "mazo-poi-major",
+            1,
+            1
+          ],
+          [
+            "mazo-poi-district",
+            1,
+            1
+          ],
+          [
+            "mazo-poi-local",
+            1,
+            1
+          ],
+          [
+            "mazo-poi-selected",
+            1,
+            1
+          ]
+        ],
+        "category": "electronics",
+        "searchResult": "Noor Accessories Showroom",
+        "selectedPlace": "Noor Accessories Showroom",
+        "worldCamera": {
+          "zoom": 0.7210991682491942,
+          "bearing": 0,
+          "pitch": 0
+        },
+        "rangeResponses": [
+          {
+            "status": 503,
+            "contentRange": null
+          }
+        ],
+        "errors": []
+      }
+    ]
+  },
+  "frame_time_comparison": {
+    "measurement": "Headless Chromium on Codespaces with SwiftShader; mobile emulation has 3–4 RAF samples in the 1.6-second scripted camera ease and desktop has 4. These samples are too sparse for representative frame-time percentiles; values are retained for transparency and are not used to claim a speedup. Latest mobile smoke recorded 26 samples but software rendering was slow (p95 83.3 ms); do not infer Android performance.",
+    "mobile_emulation_390x844": {
+      "before": {
+        "samples": 3,
+        "p50_ms": 833.3,
+        "p95_ms": 833.3,
+        "p99_ms": 833.3,
+        "max_ms": 966.6,
+        "intervals_over_16_7_ms": 2,
+        "long_tasks_over_50_ms": 2
+      },
+      "after": {
+        "samples": 4,
+        "p50_ms": 700.1,
+        "p95_ms": 883.2,
+        "p99_ms": 883.2,
+        "max_ms": 950,
+        "intervals_over_16_7_ms": 3,
+        "long_tasks_over_50_ms": 3
+      }
+    },
+    "desktop_1280x800": {
+      "before": {
+        "samples": 4,
+        "p50_ms": 483.2,
+        "p95_ms": 666.7,
+        "p99_ms": 666.7,
+        "max_ms": 866.8,
+        "intervals_over_16_7_ms": 3,
+        "long_tasks_over_50_ms": 2
+      },
+      "after": {
+        "samples": 4,
+        "p50_ms": 433.4,
+        "p95_ms": 499.9,
+        "p99_ms": 499.9,
+        "max_ms": 833.3,
+        "intervals_over_16_7_ms": 3,
+        "long_tasks_over_50_ms": 2
+      }
+    },
+    "latest_mobile_mzp_camera_ease": {
+      "samples": 26,
+      "p50_ms": 66.6,
+      "p95_ms": 83.3,
+      "max_ms": 83.4,
+      "long_tasks_over_50_ms": 16,
+      "environment": "Chromium 141 headless, SwiftShader, 390x844 mobile emulation",
+      "interpretation": "Slow software-rendered sample; not evidence of hardware smoothness. Earlier baseline had only 3 samples and is not comparable."
+    }
+  },
+  "production_range_check": {
+    "url": "https://mazoplatforms.github.io/newmaps/generated/places.pmtiles",
+    "request": "GET Range: bytes=0-16383",
+    "status": 206,
+    "content_range": "bytes 0-16383/1681457",
+    "accept_ranges": "bytes",
+    "received_bytes": 16384,
+    "checked_utc_date": "2026-10-27"
+  },
+  "limitations": [
+    "Google map canvas does not expose reliable POI counts; no Google counts are claimed.",
+    "Google public session was light-themed; dark-on-dark comparison was unavailable.",
+    "Chromium was headless and software-rendered; no physical Android device was available.",
+    "The RAF sample counts were too low for credible frame-time conclusions.",
+    "No network throttling or warmed browser/CDN cache run was performed.",
+    "OpenFreeMap styles, fonts and vector tiles are external services and can change independently."
+  ],
+  "desktop_capture_after": {
+    "ready_ms": 6324,
+    "heap_bytes_after_seven_views": 588000000,
+    "resource_count": 35,
+    "transfer_bytes": 4657307,
+    "measurement_note": "Headless Chromium 141, SwiftShader, 1280×800, unthrottled; JS heap read after seven rendered-feature queries and screenshots, without forced GC. Treat as a noisy upper-bound observation, not equivalent to app RSS."
+  },
+  "node_search_benchmark": {
+    "runtime": "Node v24.21.0; CPU benchmark only, not a browser benchmark",
+    "mzp": {
+      "name": "MZP GeoJSON",
+      "bytes": 2168230,
+      "gzipBytes": 332479,
+      "records": 4498,
+      "trials": 7,
+      "jsonParseMs": {
+        "median": 16.809,
+        "p95": 24.608
+      },
+      "decodeAndIndexMs": {
+        "median": 36.504,
+        "p95": 64.985
+      },
+      "oneHundredSearchesMs": {
+        "median": 4058.26,
+        "p95": 4865.748
+      }
+    },
+    "compact": {
+      "name": "PMTiles independent search index",
+      "bytes": 688972,
+      "gzipBytes": 230218,
+      "records": 4500,
+      "trials": 7,
+      "jsonParseMs": {
+        "median": 4.977,
+        "p95": 6.607
+      },
+      "decodeAndIndexMs": {
+        "median": 40.279,
+        "p95": 44.47
+      },
+      "oneHundredSearchesMs": {
+        "median": 3626.669,
+        "p95": 5146.857
+      }
+    }
+  }
+}
