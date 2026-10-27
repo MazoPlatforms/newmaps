@@ -1,0 +1,63 @@
+{
+  "name": "Alumex Batticaloa Warehouse",
+  "coordinates": {
+    "latitude": 7.512052799999999,
+    "longitude": 81.78348679999999
+  },
+  "categories": [
+    "Aluminum supplier"
+  ],
+  "address": "GQ6M+R9H, Alumex Batticaloa Warehouse, Main Road, Kaluwanchikudy",
+  "phone": "0776497534",
+  "website": "http://www.alumexgroup.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkaladi--hardware-building, kaluwanchikudy--hardware-building, kiran--hardware-building, koddaikallar--hardware-building, kokkadichcholai--hardware-building, mangalagama--hardware-building, periyakallar--hardware-building, rideethenna--hardware-building, tumpalancholai--hardware-building, urukamam--hardware-building, vahaneri--hardware-building, vakarai--hardware-building, vellavely--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59VKWBB38R44K6SV01545"
+}

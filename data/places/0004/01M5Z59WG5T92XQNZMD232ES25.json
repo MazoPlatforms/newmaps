@@ -1,0 +1,17 @@
+{
+  "name": "Public Library",
+  "coordinates": {
+    "latitude": 7.5250810999999995,
+    "longitude": 81.758405
+  },
+  "categories": [
+    "Library"
+  ],
+  "address": "Munaithivu Road",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: mangalagama--community-library, puliyanthivu-east--community-library. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59WG5T92XQNZMD232ES25"
+}

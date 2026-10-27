@@ -1,0 +1,63 @@
+{
+  "name": "Suyampulinga Pillayar Temple Kaluthavalai",
+  "coordinates": {
+    "latitude": 7.5483097,
+    "longitude": 81.7804724
+  },
+  "categories": [
+    "Hindu temple"
+  ],
+  "address": "Kaluthavalai, Batticaloa, East Province",
+  "phone": "0652250625",
+  "website": "http://www.kaluthavalaipillaiyar.net/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59XYXNFEWKEM4YKJG01MC"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Worldwide Missionary Movement",
+  "coordinates": {
+    "latitude": 7.6605054,
+    "longitude": 81.4979446
+  },
+  "categories": [
+    "Church"
+  ],
+  "address": "MF6X+654, Rukamputur",
+  "phone": "0773743214",
+  "website": "http://www.mmm.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: rukamputur--religious, urukamam--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5A7GDSQ26QQNN0RTVR3N5"
+}

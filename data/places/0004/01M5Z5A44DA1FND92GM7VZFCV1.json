@@ -1,0 +1,62 @@
+{
+  "name": "Sub Post Office Kannankudah",
+  "coordinates": {
+    "latitude": 7.678588599999999,
+    "longitude": 81.6724085
+  },
+  "categories": [
+    "Post office"
+  ],
+  "address": "MMHC+CXM, Kannankudah, Batticaloa",
+  "phone": "0653641084",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: navatkudah-east--government, nuwaragalathenna--government, palameen-madu--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5A44DA1FND92GM7VZFCV1"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Manchanthoduwai Sub Post Office",
+  "coordinates": {
+    "latitude": 7.6897872,
+    "longitude": 81.7214441
+  },
+  "categories": [
+    "Post office"
+  ],
+  "address": "MPQC+WH8, Main St, Kallady",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--government, koddaikallar--government, navatkudah-east--government, nuwaragalathenna--government, paddippalai--government, palameen-madu--government, rukamputur--government, trikkandimadu--government, tumpalancholai--government, urukamam--government, vahaneri--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59XJC3W4054RVT65VXGBV"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Sri Abhinawaramaya, Pansalgala, Keviliya Maduwa, Mangalagama",
+  "coordinates": {
+    "latitude": 7.523851499999999,
+    "longitude": 81.6014383
+  },
+  "categories": [
+    "Buddhist temple"
+  ],
+  "address": "Ampara-Uhana-Maha Oya Hwy",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: mangalagama--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5A3ZY2Z6EKSR26RVF4XZ9"
+}

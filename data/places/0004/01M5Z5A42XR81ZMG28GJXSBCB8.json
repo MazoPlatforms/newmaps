@@ -1,0 +1,17 @@
+{
+  "name": "Fuel Station",
+  "coordinates": {
+    "latitude": 7.524261,
+    "longitude": 81.5272762
+  },
+  "categories": [
+    "Fuel supplier"
+  ],
+  "address": "GGFG+PW, Mangalagama",
+  "business_status": "OPEN",
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: mangalagama--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5A42XR81ZMG28GJXSBCB8"
+}

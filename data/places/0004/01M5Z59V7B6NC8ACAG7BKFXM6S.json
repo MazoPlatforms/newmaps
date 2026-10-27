@@ -1,0 +1,62 @@
+{
+  "name": "Rj Group & Seafood Office",
+  "coordinates": {
+    "latitude": 7.6668465999999995,
+    "longitude": 81.497857
+  },
+  "categories": [
+    "Seafood wholesaler"
+  ],
+  "address": "Kiththul wewa karadiyanaru, batticaloa 30354",
+  "phone": "0772305119",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--agriculture-fisheries, eravur--agriculture-fisheries, karadiyanaru--agriculture-fisheries, koddaikallar--agriculture-fisheries, kurumunveli--agriculture-fisheries, nuwaragalathenna--agriculture-fisheries, periyakallar--agriculture-fisheries, rukamputur--agriculture-fisheries, trikkandimadu--agriculture-fisheries, tumpalancholai--agriculture-fisheries, urukamam--agriculture-fisheries, vakarai--agriculture-fisheries, vettukkadu--agriculture-fisheries. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59V7B6NC8ACAG7BKFXM6S"
+}

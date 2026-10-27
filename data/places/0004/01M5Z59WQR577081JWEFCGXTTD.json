@@ -1,0 +1,63 @@
+{
+  "name": "Periyakallar Badminton Court",
+  "coordinates": {
+    "latitude": 7.4676941999999995,
+    "longitude": 81.814238
+  },
+  "categories": [
+    "Badminton club",
+    "Badminton court"
+  ],
+  "address": "Periyakallar",
+  "website": "https://www.facebook.com/periyakallar.badminton",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: pasikudah-bay--sports-fitness. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59WQR577081JWEFCGXTTD"
+}

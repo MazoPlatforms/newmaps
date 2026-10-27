@@ -1,0 +1,62 @@
+{
+  "name": "Rajan & Brothers - Electronics Repairing Shop",
+  "coordinates": {
+    "latitude": 7.635880299999999,
+    "longitude": 81.7593917
+  },
+  "categories": [
+    "Electronics repair shop"
+  ],
+  "address": "JQP5+8P, Thalankudah",
+  "phone": "0772210982",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: urukamam--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z59WWC9Y31MNV46HNS3S8C"
+}

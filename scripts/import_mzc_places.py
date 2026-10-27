@@ -433,22 +433,39 @@ def internal_nearby_pairs(records: list[dict]) -> list[dict]:
 
 
 def capture_summary(query_manifest: list[dict]) -> dict:
-    successful = [row for row in query_manifest if "error" not in row]
+    successful = [row for row in query_manifest if row.get("status", "success" if "error" not in row else "failed") == "success"]
+    successful_queries = [row for row in query_manifest if row.get("status") == "success" or row.get("query_succeeded") is True]
+    invocation_count = sum((len(row.get("attempts", [])) or 1) + int(row.get("extra_invocations", 0)) +
+                           int(row.get("prior_interrupted_attempts", 0)) for row in query_manifest)
+    failed_attempts = sum(1 for row in query_manifest for attempt in row.get("attempts", []) if attempt.get("error"))
+    successful_retries = sum(1 for row in query_manifest for attempt in row.get("attempts", [])
+                             if attempt.get("status") == "success" and attempt.get("attempt", 1) > 1)
+    failed_queries = sum(row.get("status") == "failed" for row in query_manifest)
     return {
         "invocations_in_manifest": len(query_manifest),
-        "actual_cli_invocations_including_retries_and_repeat": len(query_manifest) + sum(int(row.get("extra_invocations", 0)) for row in query_manifest),
+        "confirmed_cli_invocations_at_least": invocation_count,
+        "exact_cli_invocation_total_available": False,
+        "overlap_repeat_invocation_count": None,
         "successful_queries": len(successful),
-        "failed_queries": sum("error" in row for row in query_manifest) + sum(int(row.get("failed_attempts", 0)) for row in successful),
-        "successful_retries": sum(int(row.get("successful_retries", 0)) for row in successful),
-        "unique_query_strings": len({row["query"] for row in successful}),
+        "uncaptured_successful_queries": sum(row.get("query_succeeded") is True and row.get("status") != "success" for row in query_manifest),
+        "uncaptured_successful_query_rows_unknown": sum(bool(row.get("count_unknown")) for row in query_manifest),
+        "failed_queries": failed_queries,
+        "failed_attempts": failed_attempts + sum(int(row.get("failed_attempts", 0)) for row in query_manifest),
+        "successful_retries": successful_retries + sum(int(row.get("successful_retries", 0)) for row in successful),
+        "unique_query_strings": len({row["query"] for row in successful_queries}),
         "raw_candidates_returned_in_retained_json": sum(int(row.get("count", 0)) for row in successful),
-        "raw_candidates_returned_across_all_successful_invocations": sum(int(row.get("count", 0)) for row in successful) + sum(int(row.get("unretained_successful_rows", 0)) for row in successful),
+        "raw_candidates_returned_from_retained_successful_responses": sum(int(row.get("count", 0)) for row in successful),
         "queries_at_500_result_limit": sum(bool(row.get("at_limit")) for row in successful),
-        "queries": [{"key": row["key"], "query": row["query"], "country": row.get("country"),
+        "queries": [{"key": row["key"], "query": row["query"], "town": row.get("town"),
+                     "category": row.get("category"), "status": row.get("status", "success" if "error" not in row else "failed"),
+                     "country": row.get("country"),
                      "limit": int(row.get("limit", 0)), "count": int(row.get("count", 0)),
                      "at_limit": bool(row.get("at_limit")), "exploratory": bool(row.get("exploratory")),
                      "extra_invocations": int(row.get("extra_invocations", 0)),
-                     "unretained_successful_rows": int(row.get("unretained_successful_rows", 0))}
+                     "unretained_successful_rows": int(row.get("unretained_successful_rows", 0)),
+                     "attempts": len(row.get("attempts", [])) or 1,
+                     "prior_interrupted_attempts": int(row.get("prior_interrupted_attempts", 0)),
+                     "count_unknown": bool(row.get("count_unknown"))}
                     for row in query_manifest],
     }
 
@@ -472,10 +489,11 @@ def public_report(plan: dict, region: str | None = None) -> dict:
         },
         "discovery": {
             "interface": "mzc CLI only",
-            "command_syntax": "mzc -l 500 -c lk '<documented query string>'",
-            "pagination": "No pagination option is documented by mzc --help; no query reached 500 results.",
-            "result_origin_or_license": "Not exposed by the documented CLI help or result payload; flagged for repository-owner review. No provider attribution is inferred.",
+            "command_syntax": "mzc -l 500 -c lk -t 30 '<documented query string>'",
+            "pagination": "No pagination option is documented by mzc --help; queries reaching 500 results must be subdivided.",
+            "result_origin_or_license": "Owner-supplied collection; collection methodology and origin were not investigated. The documented CLI output does not expose redistribution license metadata; no provider attribution is inferred.",
             "independent_place_verification": "not performed; imported records remain mzc-sourced and unverified",
+            "capture_log_note": "Four preliminary successful administrative-area queries returned responses that were not retained, so their result counts are unknown and excluded. Two documented invocations were interrupted before capture and later retried successfully. Two query runners briefly overlapped; retained responses were reconciled by unique query, but the exact number of redundant calls cannot be reconstructed. Confirmed invocation count is therefore a lower bound.",
             **capture_summary(plan["queries"]),
         },
         "processing": {
@@ -568,20 +586,24 @@ def apply_import(plan: dict, report: dict, root: Path = ROOT) -> dict:
         "aliases_preserved": True,
         "all_shards_within_limit": max(manifest["shards"].values(), default=0) <= places.LIMIT,
     }
-    REPORT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    REPORT_MD.write_text(render_report(report), encoding="utf-8")
+    report_json = Path(plan.get("report_json", REPORT_JSON))
+    report_md = Path(plan.get("report_md", REPORT_MD))
+    report_json.parent.mkdir(parents=True, exist_ok=True)
+    report_json.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    report_md.write_text(render_report(report), encoding="utf-8")
     return report
 
 
 def render_report(report: dict) -> str:
     discovery, processing = report["discovery"], report["processing"]
     lines = [
-        "# Batticaloa District Places Expansion — Phase 6", "",
+        f"# Batticaloa District Places Expansion — {report.get('phase', 'Phase 6')}", "",
         f"Scope: {report['scope']}", "",
         "## Discovery", "",
-        f"- CLI invocations: {discovery['actual_cli_invocations_including_retries_and_repeat']} total ({discovery['unique_query_strings']} unique query strings); {discovery['failed_queries']} failed attempt, {discovery['successful_retries']} successful retry; {discovery['queries_at_500_result_limit']} queries at the 500-result cap.",
-        f"- Raw candidates in retained JSON captures: {discovery['raw_candidates_returned_in_retained_json']:,}; successful rows across all invocations including unretained repeat results: {discovery['raw_candidates_returned_across_all_successful_invocations']:,}.",
+        f"- Confirmed CLI invocations: at least {discovery['confirmed_cli_invocations_at_least']} across {discovery['unique_query_strings']} successful unique query strings; exact total unavailable because two capture batches briefly overlapped and repeated-call count was not retained.",
+        f"- Retained JSON rows: {discovery['raw_candidates_returned_in_retained_json']:,}; four earlier successful exploratory queries had uncaptured response counts. Failed query attempts: {discovery['failed_attempts']}; successful retries: {discovery['successful_retries']}; at-limit queries: {discovery['queries_at_500_result_limit']}.",
+        f"- Capture accounting: {discovery['capture_log_note']}",
+        f"- Raw candidates in retained JSON captures: {discovery['raw_candidates_returned_in_retained_json']:,}; duplicate calls with unavailable capture counts are excluded.",
         f"- Unique candidates after normalized name and coordinate grouping: {processing['unique_candidates']:,}.",
         f"- New public place records in this change: {processing['new_places_in_this_change']:,}.",
         f"- Imported names formatted: {processing['name_format_changes']:,}; imported addresses mechanically formatted: {processing['address_format_changes']:,}.",
@@ -637,12 +659,18 @@ def main() -> int:
     parser.add_argument("--input-dir", type=Path, default=DEFAULT_INPUT, help="directory of JSON outputs from documented mzc queries")
     parser.add_argument("--boundary", type=Path, default=BOUNDARY_PATH)
     parser.add_argument("--region", choices=[*REGIONS, "all"], default="all", help="import a manageable geographic latitude band, or analyze/import all candidates")
+    parser.add_argument("--report-json", type=Path, default=REPORT_JSON, help="write the machine-readable quality report to this path")
+    parser.add_argument("--report-md", type=Path, default=REPORT_MD, help="write the human-readable quality report to this path")
+    parser.add_argument("--phase", default="Phase 6", help="phase label for the report title")
     parser.add_argument("--apply", action="store_true", help="write accepted new records, rebuild MZP, and write reports")
     args = parser.parse_args()
     region = None if args.region == "all" else args.region
     try:
         plan = analyze(args.input_dir, args.boundary, ROOT, region)
         report = public_report(plan, region)
+        report["phase"] = args.phase
+        plan["report_json"] = args.report_json
+        plan["report_md"] = args.report_md
         if args.apply:
             report = apply_import(plan, report)
             print(json.dumps({"applied": report["processing"]["new_places_in_this_change"],

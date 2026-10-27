@@ -1,0 +1,62 @@
+{
+  "name": "Sri Vadapathirakaali Ampal Temple",
+  "coordinates": {
+    "latitude": 7.506601099999999,
+    "longitude": 81.8059813
+  },
+  "categories": [
+    "Hindu temple"
+  ],
+  "address": "GR44+J9X, Kaluwanchikudy 30000",
+  "phone": "0652251415",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–6 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: koddaikallar--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5A0Y244MPCD6GNSSEKZ43"
+}
