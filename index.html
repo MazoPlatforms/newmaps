@@ -46,18 +46,14 @@
         <div class="search-dock">
           <form id="search-form" class="search-box" role="search">
             <a class="brand" href="./" aria-label="Mazo Maps home"><img src="./assets/mazo-mark.svg" width="32" height="32" alt=""/><strong>Mazo Maps</strong></a>
-            <label class="sr-only" for="map-search">Search Kattankudy</label>
-            <input id="map-search" type="search" placeholder="Search Kattankudy" autocomplete="off" aria-controls="search-results" />
+            <label class="sr-only" for="map-search">Search places in Kattankudy</label>
+            <input id="map-search" type="search" placeholder="Search places" autocomplete="off" aria-controls="search-results" aria-autocomplete="list" aria-expanded="false" />
             <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></button>
           </form>
-          <div id="search-results" class="panel search-results" aria-label="Search results" hidden></div>
+          <div id="search-results" class="panel search-results" role="listbox" aria-label="Search results" hidden></div>
+          <p id="search-status" class="search-status" role="status" aria-live="polite" hidden>Loading places…</p>
           <div class="categories" role="group" aria-label="Place categories">
             <button data-category="all" aria-pressed="true">Explore</button>
-            <button data-category="food" aria-pressed="false">Food</button>
-            <button data-category="hotel" aria-pressed="false">Hotels</button>
-            <button data-category="park" aria-pressed="false">Nature</button>
-            <button data-category="health" aria-pressed="false">Health</button>
-            <button data-category="shop" aria-pressed="false">Shopping</button>
           </div>
         </div>
         <div class="utility-controls" aria-label="Map tools">
@@ -66,7 +62,7 @@
 
         <div class="map-actions">
           
-          <button class="icon-button" id="map-locate" aria-label="Find my location" aria-busy="false" title="My location"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
+          <button class="icon-button" id="map-locate" aria-label="Find nearby places using my location" aria-busy="false" title="Find nearby places"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
 
         </div>
 <div id="route-turn-card" class="route-turn-card" hidden><span id="route-turn-icon">↱</span><div><strong id="route-turn-title">Depart</strong><small id="route-turn-distance"></small></div></div>

@@ -259,10 +259,11 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
         self.assertTrue(all("withheld pending eligibility review" not in f["properties"]["name"].lower()
                             for f in features))
         app = (ROOT / "assets/js/app.js").read_text()
-        self.assertIn("if(inArea(p))places.push", app)
+        self.assertIn("if(!inArea(p))continue", app)
+        self.assertIn("places.push({...p,name:canonicalPlaceName", app)
+        self.assertIn("activeIds.has(canonicalId)", app)
         self.assertNotIn("if(!seen.has(k)", app)
-        self.assertIn("const hits=places.filter", app)
-        self.assertIn("[p.name,p.address,...(p.categories||[])].join(' ').toLowerCase().includes(q)", app)
+        self.assertIn("createPlaceSearchIndex(places,placeAliases)", app)
         self.assertIn("$('#place-address').textContent=p.address||'Address unavailable'", app)
 
     def test_roads_and_speed_limit_sources_match_pre_cleanup_hashes(self):

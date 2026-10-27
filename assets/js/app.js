@@ -1,10 +1,12 @@
+import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs';
+
 // Reliable OpenFreeMap fallback; optional local PMTiles are enabled only after verification.
 const $=s=>document.querySelector(s);
 const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https://tiles.openfreemap.org/styles/dark'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const map=new maplibregl.Map({container:'map',style:styles[theme()],center:[81.729,7.685],zoom:14,minZoom:12,maxBounds:[[81.685,7.635],[81.785,7.735]]});
 // Minimal map chrome: touch gestures remain available without zoom buttons.
-let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null;
+let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false;
 const KATTANKUDY=[81.70,7.65,81.77,7.72];
 const inArea=p=>+p.coordinates.longitude>=KATTANKUDY[0]&&+p.coordinates.longitude<=KATTANKUDY[2]&&+p.coordinates.latitude>=KATTANKUDY[1]&&+p.coordinates.latitude<=KATTANKUDY[3];
 // Presentation-only Sri Lankan postal address cleanup. This never invents a house number.
@@ -336,13 +338,24 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sheet.hidden)close
  });
 
 function refresh(){
- const q=$('#map-search').value.trim().toLowerCase();
- const hits=places.filter(p=>(category==='all'||kind(p)===category)&&[p.name,p.address,...(p.categories||[])].join(' ').toLowerCase().includes(q));
- for(const id of [POI_LAYER])if(map.getLayer(id)){map.setLayoutProperty(id,'visibility',placesVisible?'visible':'none');map.setFilter(id,['in',['get','index'],['literal',hits.map(p=>places.indexOf(p))]])}
- const results=$('#search-results');results.replaceChildren();
- if(q){results.hidden=false;for(const p of hits.slice(0,30)){const b=document.createElement('button');b.type='button';b.textContent=p.name+' · '+(p.address||'');b.style.cssText='display:block;width:100%;padding:10px;text-align:left;border:0;background:transparent;cursor:pointer';b.onclick=()=>{openPlace(p);results.hidden=true};results.append(b)}}else results.hidden=true;
- // Search results remain available; no persistent place-count overlay.
-
+ const q=$('#map-search').value.trim();
+ const ranked=placeSearchIndex?.search({query:q,category,origin:nearbyMode?nearbyOrigin:null,maxDistanceMeters:nearbyMode?10000:Infinity})||[];
+ const matched=new Set(ranked.map(row=>row.place));
+ const visible=places.filter(p=>(category==='all'||p.discoveryCategory===category)&&(!q||matched.has(p))&&(!nearbyMode||matched.has(p)));
+ for(const id of [POI_LAYER])if(map.getLayer(id)){map.setLayoutProperty(id,'visibility',placesVisible?'visible':'none');map.setFilter(id,['in',['get','index'],['literal',visible.map(p=>places.indexOf(p))]])}
+ const results=$('#search-results'),input=$('#map-search'),status=$('#search-status');results.replaceChildren();input.removeAttribute('aria-activedescendant');
+ const showResults=Boolean(q||nearbyMode);
+ results.hidden=!showResults;input.setAttribute('aria-expanded',String(showResults));
+ if(showResults){
+  if(!ranked.length){const empty=document.createElement('p');empty.className='search-empty';empty.textContent=nearbyMode?'No public places found within 10 km.':'No matching places found.';results.append(empty)}
+  for(const [index,row] of ranked.entries()){
+   const p=row.place,b=document.createElement('button');b.type='button';b.id=`search-result-${index}`;b.setAttribute('role','option');b.setAttribute('aria-selected','false');
+   const title=document.createElement('strong');title.textContent=p.name;
+   const detail=document.createElement('span');detail.textContent=[p.categories?.[0],p.address,row.distanceMeters===null?null:`${row.distanceMeters<1000?Math.round(row.distanceMeters)+' m':(row.distanceMeters/1000).toFixed(1)+' km'}`].filter(Boolean).join(' · ');
+   b.append(title,detail);b.onclick=()=>{openPlace(p);results.hidden=true;input.setAttribute('aria-expanded','false');input.removeAttribute('aria-activedescendant');input.focus()};results.append(b);
+  }
+ }
+ if(places.length){status.hidden=true;status.textContent=''}
 }
 map.on('click',POI_LAYER,e=>{const i=Number(e.features?.[0]?.properties?.index);if(Number.isInteger(i)&&places[i])openPlace(places[i])});
 map.on('mouseenter',POI_LAYER,()=>map.getCanvas().style.cursor='pointer');
@@ -424,29 +437,38 @@ map.on('mouseleave',SPEED_LAYER,()=>map.getCanvas().style.cursor='');
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
 map.on('style.load',()=>{try{for(const layer of map.getStyle().layers||[]){if(layer.type==='symbol' && !layer.id.startsWith('mazo-') && /poi|place|shop|restaurant|hospital|school|transit|airport|park/i.test(layer.id) && !/road|street|city|town|village|country|state|water|marine/i.test(layer.id))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
-(async()=>{try{const manifest=await (await fetch('./generated/manifest.json?v=places-titlecase-phase2-2')).json();const aliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(aliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=aliases[id]}return id};const response=await fetch('./generated/'+manifest.geojson+'?v='+manifest.sha256);if(!response.ok)throw Error('MZP '+response.status);const collection=JSON.parse(await response.text());if(collection.type!=='FeatureCollection'||collection.features.length!==manifest.features)throw Error('MZP manifest mismatch');for(const feature of collection.features){const p={...feature.properties,id:feature.id,coordinates:{longitude:feature.geometry.coordinates[0],latitude:feature.geometry.coordinates[1]}};if(!p?.name||/^kattankudt$/i.test(p.name.trim())||!Number.isFinite(+p.coordinates.latitude)||!Number.isFinite(+p.coordinates.longitude))continue;if(inArea(p))places.push({...p,name:canonicalPlaceName(p.name),address:displaySriLankanAddress(p.address)})}try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){console.error('MZP data error:',e)}})();
+(async()=>{const status=$('#search-status');status.hidden=false;status.textContent='Loading places…';try{const manifest=await (await fetch('./generated/manifest.json?v=places-search-phase5-1')).json();placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};const response=await fetch('./generated/'+manifest.geojson+'?v='+manifest.sha256);if(!response.ok)throw Error('MZP '+response.status);const collection=JSON.parse(await response.text());if(collection.type!=='FeatureCollection'||collection.features.length!==manifest.features)throw Error('MZP manifest mismatch');const activeIds=new Set();for(const feature of collection.features){const p={...feature.properties,id:feature.id,coordinates:{longitude:feature.geometry.coordinates[0],latitude:feature.geometry.coordinates[1]}};if(!p?.name||/^kattankudt$/i.test(p.name.trim())||!Number.isFinite(+p.coordinates.latitude)||!Number.isFinite(+p.coordinates.longitude))continue;if(!inArea(p))continue;const canonicalId=window.resolveMazoPlaceId(p.id);if(activeIds.has(canonicalId))continue;activeIds.add(canonicalId);places.push({...p,name:canonicalPlaceName(p.name),address:displaySriLankanAddress(p.address),discoveryCategory:kind(p)})}placeSearchIndex=createPlaceSearchIndex(places,placeAliases);renderCategoryFilters();try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();}catch(e){status.hidden=false;status.textContent='Places could not be loaded. Check your connection and retry.';status.classList.add('is-error');console.error('MZP data error:',e)}})();
+function renderCategoryFilters(){
+ const container=document.querySelector('.categories'),all=container.querySelector('[data-category="all"]');container.replaceChildren(all);
+ const labels={food:'Food',health:'Health',hotel:'Hotels',park:'Nature',shop:'Shopping',atm:'ATMs',fuel:'Fuel',auto:'Auto',electronics:'Electronics',government:'Government',hardware:'Hardware',landmark:'Landmarks',salon:'Salons',sports:'Sports',transport:'Transport',market:'Markets',services:'Services',gym:'Fitness',jewelry:'Jewelry',school:'Education',stationery:'Books & print',cafe:'Cafés',worship:'Worship'};
+ for(const {name,count} of availableCategories(places)){const button=document.createElement('button');button.type='button';button.dataset.category=name;button.setAttribute('aria-pressed','false');button.textContent=`${labels[name]||name} · ${count}`;container.append(button)}
+ container.querySelectorAll('[data-category]').forEach(button=>button.onclick=()=>{category=button.dataset.category;nearbyMode=Boolean(nearbyOrigin)&&nearbyMode;container.querySelectorAll('[data-category]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));refresh()});
+}
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
-document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{category=b.dataset.category;document.querySelectorAll('[data-category]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));refresh()});
+const searchInput=$('#map-search');
+searchInput.addEventListener('keydown',event=>{const results=$('#search-results'),items=[...results.querySelectorAll('[role="option"]')];if(event.key==='Escape'){results.hidden=true;searchInput.setAttribute('aria-expanded','false');searchInput.removeAttribute('aria-activedescendant');return}if(results.hidden||!items.length)return;let active=items.findIndex(item=>item.id===searchInput.getAttribute('aria-activedescendant'));if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();active=(active+(event.key==='ArrowDown'?1:-1)+items.length)%items.length;items.forEach((item,index)=>item.setAttribute('aria-selected',String(index===active)));searchInput.setAttribute('aria-activedescendant',items[active].id);items[active].scrollIntoView({block:'nearest'})}else if(event.key==='Enter'&&active>=0){event.preventDefault();items[active].click()}});
 $('#theme-toggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';$('#theme-toggle').setAttribute('aria-pressed',String(dark));try{localStorage.setItem('mazo-maps-theme',dark?'dark':'light')}catch{};map.setStyle(styles[dark?'dark':'light']);};
 const locateButton=$('#map-locate');
 let locationMarker=null;
 locateButton.onclick=()=>{
- if(!navigator.geolocation){alert('Location is not supported by this browser.');return}
+ const status=$('#search-status');
+ if(!navigator.geolocation){status.hidden=false;status.textContent='Location is unavailable in this browser. Search or filter places instead.';return}
  locateButton.disabled=true;locateButton.setAttribute('aria-busy','true');
  navigator.geolocation.getCurrentPosition(position=>{
   locateButton.disabled=false;locateButton.setAttribute('aria-busy','false');
   const coords=[position.coords.longitude,position.coords.latitude];
+  nearbyOrigin={latitude:position.coords.latitude,longitude:position.coords.longitude};nearbyMode=true;
   if(locationMarker)locationMarker.remove();
   const dot=document.createElement('div');dot.className='user-location-dot';dot.setAttribute('aria-label','Your current location');
   locationMarker=new maplibregl.Marker({element:dot,anchor:'center'}).setLngLat(coords).addTo(map);
-  // The map is intentionally Kattankudy-only. Outside it, report the actual position rather than silently clamping.
+  refresh();
   const bounds=map.getMaxBounds();
-  if(bounds&&!bounds.contains(coords)){alert('Your location is outside the current Kattankudy map boundary.');return}
+  if(bounds&&!bounds.contains(coords)){status.hidden=false;status.textContent='Map data currently covers Kattankudy only. Any matching places within 10 km are listed by distance.';return}
+  status.hidden=false;status.textContent='Showing public places within 10 km, sorted by distance.';
   map.flyTo({center:coords,zoom:Math.max(map.getZoom(),16),duration:750});
  },error=>{
   locateButton.disabled=false;locateButton.setAttribute('aria-busy','false');
-  const reason=error.code===1?'Location permission denied. Enable location access for this site.':error.code===2?'Unable to determine your location. Check GPS and connectivity.':'Location request timed out. Please try again.';
-  alert(reason);
+  nearbyMode=false;nearbyOrigin=null;refresh();status.hidden=false;status.textContent=error.code===1?'Location permission denied. You can continue using search and category filters.':error.code===2?'GPS location is unavailable. Check your device settings or continue using search.':'Location request timed out. You can continue using search.';
  },{enableHighAccuracy:true,timeout:12000,maximumAge:10000});
 };
 async function cities(){try{const r=await fetch('./data/cities.json');if(!r.ok)return;const d=await r.json();const features=(d.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)).map(c=>({type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:c.name||'',level:c.level||'city'}}));if(map.getSource('mazo-cities'))return;map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-city-labels',type:'symbol',source:'mazo-cities',layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],5,11,13,17],'text-allow-overlap':false},paint:{'text-color':theme()==='dark'?'#e8edf4':'#27313b','text-halo-color':theme()==='dark'?'#161b22':'#fff','text-halo-width':2}})}catch(e){console.warn('City labels:',e)}}
