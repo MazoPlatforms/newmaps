@@ -1,0 +1,63 @@
+{
+  "name": "VTA VTC Kaluwanchikudy",
+  "coordinates": {
+    "latitude": 7.5103557,
+    "longitude": 81.79344259999999
+  },
+  "categories": [
+    "Vocational school"
+  ],
+  "address": "GQ6V+49W, Kaluwanchikudy",
+  "phone": "0652053573",
+  "website": "http://www.vtasl.gov.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--education, kiran--education, vakarai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z1807G5VEYJTD05PPQEYV2"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Manmunai Bridge | மண்முனை பாலம்",
+  "coordinates": {
+    "latitude": 7.6379953,
+    "longitude": 81.73059409999999
+  },
+  "categories": [
+    "Bridge"
+  ],
+  "address": "JPQJ+56X, Manmunai Bridge, Thalankudah",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: manmunai--recreation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z187F1CVD9HB4AJZVG7HZQ"
+}

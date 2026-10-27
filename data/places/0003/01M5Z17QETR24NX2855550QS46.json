@@ -1,0 +1,63 @@
+{
+  "name": "Kattankudy Police Station காத்தான்குடி பொலிஸ் நிலையம் කාත්තන්කුඩි පොලිස් ස්ථානය",
+  "coordinates": {
+    "latitude": 7.683914199999999,
+    "longitude": 81.73798819999999
+  },
+  "categories": [
+    "State police"
+  ],
+  "address": "MPMQ+H59, Colombo - Batticaloa Hwy, New Kalmuni Road, Kallady",
+  "phone": "0652246595",
+  "website": "http://www.police.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--government, kallady--government, kattankudy--government, kiran--government. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17QETR24NX2855550QS46"
+}

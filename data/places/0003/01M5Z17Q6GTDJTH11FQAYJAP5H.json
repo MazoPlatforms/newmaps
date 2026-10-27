@@ -1,0 +1,63 @@
+{
+  "name": "BT/Kattankudy Central College",
+  "coordinates": {
+    "latitude": 7.6827609,
+    "longitude": 81.7366519
+  },
+  "categories": [
+    "Boys' high school"
+  ],
+  "address": "MPMP+4M2, Kattankudy",
+  "phone": "0652245726",
+  "website": "https://m.facebook.com/kky.kcc/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--education, eravur--education, kallady--education, kaluwanchikudy--education, kattankudy--education, kiran--education, manmunai--education, pasikudah--education, vakarai--education, valaichchenai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17Q6GTDJTH11FQAYJAP5H"
+}

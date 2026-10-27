@@ -1,0 +1,62 @@
+{
+  "name": "Jafeer . Stores",
+  "coordinates": {
+    "latitude": 7.6891669,
+    "longitude": 81.7315615
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "MPQJ+MJ7, Kattankudy",
+  "phone": "0773125706",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kattankudy--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17PZ0E4REDES78XABK786"
+}

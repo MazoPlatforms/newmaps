@@ -1,0 +1,61 @@
+{
+  "name": "Gayathri Grocery",
+  "coordinates": {
+    "latitude": 7.523808099999999,
+    "longitude": 81.7880461
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "GQFQ+G6F, Beach Road, Kaluwanchikudy",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17ZPT3NF2PC43YHNGJ8KD"
+}

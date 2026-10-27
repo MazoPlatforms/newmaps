@@ -1,0 +1,63 @@
+{
+  "name": "Sampath Bank & ATM Kaluwanchikudy",
+  "coordinates": {
+    "latitude": 7.5176327,
+    "longitude": 81.7868788
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "Hospital Road, Kaluwanchikudy",
+  "phone": "0652251177",
+  "website": "http://www.sampath.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z180JEQ6CFPTKQDM7AY3E6"
+}

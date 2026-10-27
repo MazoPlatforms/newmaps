@@ -1,0 +1,61 @@
+{
+  "name": "Heritage Museum, Kattankudy | කාත්තන්කුඩි කෞතුකාගාරය | நூதனசாலை",
+  "coordinates": {
+    "latitude": 7.6771139999999995,
+    "longitude": 81.7306668
+  },
+  "categories": [
+    "Museum"
+  ],
+  "address": "243 Main St, Kattankudy",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kalkudah--religious, kattankudy--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17QFVGEV62ZXCYT27Y70F"
+}

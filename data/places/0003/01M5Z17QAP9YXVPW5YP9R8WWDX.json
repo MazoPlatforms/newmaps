@@ -1,0 +1,66 @@
+{
+  "name": "Vivekananda College Of Technology",
+  "coordinates": {
+    "latitude": 7.6185,
+    "longitude": 81.7617473
+  },
+  "categories": [
+    "Educational institution",
+    "Career guidance service",
+    "Training center",
+    "Event technology service",
+    "Technical university"
+  ],
+  "address": "Main Road, Puthukkudiyiruppu",
+  "website": "http://www.vcot.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--education, eravur--education, kalkudah--education, kallady--education, kaluwanchikudy--education, kattankudy--education, kiran--education, manmunai--education, mylambaveli--education, pasikudah--education, vakarai--education, valaichchenai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17QAP9YXVPW5YP9R8WWDX"
+}

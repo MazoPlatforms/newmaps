@@ -1,0 +1,61 @@
+{
+  "name": "Roshani Baby Care & Mini Super Market",
+  "coordinates": {
+    "latitude": 7.5243338,
+    "longitude": 81.7657432
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "GQF8+Q82, Kaluthavalai",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--retail, vakarai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17ZR06C8A1BYY4ZHDVXYP"
+}

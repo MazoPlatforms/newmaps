@@ -1,0 +1,62 @@
+{
+  "name": "Lovely Restaurant",
+  "coordinates": {
+    "latitude": 7.5765201,
+    "longitude": 81.784151
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "HQGM+JM2, Colombo - Batticaloa Hwy, Kaluwanchikudy",
+  "phone": "0756403120",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: district--food-exploratory. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17FCQWPHYH50Q3B0GDKHB"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Alliance Finance",
+  "coordinates": {
+    "latitude": 7.5176129,
+    "longitude": 81.78704929999999
+  },
+  "categories": [
+    "Financial institution"
+  ],
+  "address": "Main Street, Kaluwanchikudy 30200",
+  "phone": "0652250240",
+  "website": "https://www.alliancefinance.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z180R7ZR3PCYZ0TQXRTG4B"
+}

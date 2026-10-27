@@ -1,0 +1,61 @@
+{
+  "name": "Sivakrishna Stores",
+  "coordinates": {
+    "latitude": 7.5797916999999995,
+    "longitude": 81.7837125
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "HQHM+WF8, Kaluwanchikudy",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17ZS4NTHGBMSQ92G1M1BF"
+}

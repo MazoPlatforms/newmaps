@@ -1,0 +1,63 @@
+{
+  "name": "LB Finance PLC Kaluwanchikudy",
+  "coordinates": {
+    "latitude": 7.517635899999999,
+    "longitude": 81.7855714
+  },
+  "categories": [
+    "Financial institution"
+  ],
+  "address": "Hospital Road, Kaluwanchikudy 30200",
+  "phone": "0652251626",
+  "website": "https://www.lbfinance.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z180Q25BCZF65N6QHZSZSP"
+}

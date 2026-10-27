@@ -1,0 +1,61 @@
+{
+  "name": "National Serving Bank - Arayampathy Branch",
+  "coordinates": {
+    "latitude": 7.6706482,
+    "longitude": 81.7352064
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "MPCP+734",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z181WJZ7H1VGYHZSNHV839"
+}

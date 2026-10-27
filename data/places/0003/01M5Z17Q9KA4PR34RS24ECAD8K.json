@@ -1,0 +1,62 @@
+{
+  "name": "Al-Hira Maha Vidyalayam",
+  "coordinates": {
+    "latitude": 7.674623899999999,
+    "longitude": 81.7253312
+  },
+  "categories": [
+    "Government school",
+    "Graduate school"
+  ],
+  "address": "MPFG+R4W, Kattankudy",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--education, eravur--education, kattankudy--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17Q9KA4PR34RS24ECAD8K"
+}

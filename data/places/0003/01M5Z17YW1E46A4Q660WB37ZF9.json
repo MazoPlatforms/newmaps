@@ -1,0 +1,61 @@
+{
+  "name": "Mano Multi Stores | மனோ",
+  "coordinates": {
+    "latitude": 7.4926207,
+    "longitude": 81.8060338
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "Colombo - Batticaloa Hwy",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:45 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: araiyampathy--retail, chenkalady--retail, kallady--retail, kiran--retail, manmunai--retail, mylambaveli--retail, vakarai--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17YW1E46A4Q660WB37ZF9"
+}

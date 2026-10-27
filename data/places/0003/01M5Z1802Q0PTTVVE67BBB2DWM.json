@@ -1,0 +1,62 @@
+{
+  "name": "Medical Officer Of Health, Kaluwanchikudy",
+  "coordinates": {
+    "latitude": 7.509379399999999,
+    "longitude": 81.7923881
+  },
+  "categories": [
+    "Public health department"
+  ],
+  "address": "GQ5R+QX2, Colombo - Batticaloa Hwy, Kaluwanchikudy",
+  "phone": "0652250065",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kaluwanchikudy--health. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z1802Q0PTTVVE67BBB2DWM"
+}

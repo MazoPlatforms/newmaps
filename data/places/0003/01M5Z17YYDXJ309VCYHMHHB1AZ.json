@@ -1,0 +1,61 @@
+{
+  "name": "TJ Yathira Stores",
+  "coordinates": {
+    "latitude": 7.616667,
+    "longitude": 81.7205941
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "JP8C+M69",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkalady--retail. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z17YYDXJ309VCYHMHHB1AZ"
+}

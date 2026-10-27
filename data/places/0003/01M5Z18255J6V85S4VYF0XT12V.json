@@ -1,0 +1,62 @@
+{
+  "name": "BT/PD/Periyakallar Central College",
+  "coordinates": {
+    "latitude": 7.4700416999999995,
+    "longitude": 81.8109109
+  },
+  "categories": [
+    "Educational institution"
+  ],
+  "address": "FRC6+297, Village Road, Periyakallar",
+  "phone": "0672229846",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kiran--education, vakarai--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z18255J6V85S4VYF0XT12V"
+}
