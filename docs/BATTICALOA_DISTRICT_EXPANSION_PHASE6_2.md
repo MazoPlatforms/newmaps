@@ -47,7 +47,7 @@ These are raw candidate rows returned by successful prompts, grouped by prompt l
 
 ## Validation
 
-- Full Python suite: 104 tests passed. Place, road, speed-limit and contribution validators passed; place, road and speed-limit MZP builds succeeded.
+- Full Python suite: 105 tests passed. Place, road, speed-limit and contribution validators passed; place, road and speed-limit MZP builds succeeded.
 - All 4,341 pre-import active ULIDs and all 1,086 aliases are preserved. The contribution validator reports two nearby same-name groups for human review (four file warnings); no records were merged or removed for those warnings.
 
 ## Remaining gaps
