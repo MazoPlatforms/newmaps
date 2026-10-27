@@ -49,4 +49,5 @@ jobs:
       - run: python scripts/places.py validate
       - run: python scripts/places.py build
       - run: python scripts/build_map_delivery.py
+      - run: python scripts/speed_limits.py build
       - run: npm run test:browser

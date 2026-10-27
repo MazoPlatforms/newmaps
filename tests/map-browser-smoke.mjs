@@ -70,6 +70,9 @@ try {
     });
     page.on('response', (response) => {
       if (response.url().includes('/generated/places.pmtiles')) ranges.push({ status: response.status(), contentRange: response.headers()['content-range'] || null });
+      if (response.status() >= 400 && !(mode === 'pmtiles-fallback' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))) {
+        errors.push(`HTTP ${response.status()} ${response.url()}`);
+      }
     });
     if (mode === 'pmtiles-fallback') {
       await page.route('**/generated/places.pmtiles*', (route) => route.fulfill({ status: 503, body: 'intentional fallback test' }));
