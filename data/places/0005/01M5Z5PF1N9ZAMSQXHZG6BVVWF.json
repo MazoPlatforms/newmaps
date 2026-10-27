@@ -1,0 +1,62 @@
+{
+  "name": "MKA Ahamed Mohideen Filling Station",
+  "coordinates": {
+    "latitude": 7.912505299999999,
+    "longitude": 81.52632679999999
+  },
+  "categories": [
+    "Gas station"
+  ],
+  "address": "WG7G+2G4, Batticaloa-Thirukkondiadimadu-Trincomalee Highway, Oddamavadi",
+  "phone": "0652257148",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--vehicle, illipaiyadichchenai--vehicle, karadiyanaru--vehicle, koddaikallar--vehicle, kokkadichcholai--vehicle, kurumunveli--vehicle, mangalagama--vehicle, nuwaragalathenna--vehicle, paddippalai--vehicle, rideethenna--vehicle, trikkandimadu--vehicle, tumpalancholai--vehicle, unnichchai--vehicle, vahaneri--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5PF1N9ZAMSQXHZG6BVVWF"
+}

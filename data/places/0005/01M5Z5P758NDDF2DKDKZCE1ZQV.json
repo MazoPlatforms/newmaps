@@ -1,0 +1,63 @@
+{
+  "name": "Sln Traders (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.9221002,
+    "longitude": 81.5238395
+  },
+  "categories": [
+    "Wholesaler",
+    "Hardware store"
+  ],
+  "address": "Hiarath Road, Batticaloa 30400",
+  "phone": "0771503898",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: chenkaladi--hardware-building, eravur--hardware-building, kalkudah--hardware-building, kaluwanchikudy--hardware-building, karadiyanaru--hardware-building, kiran--hardware-building, koddaikallar--hardware-building, kokkadichcholai--hardware-building, mangalagama--hardware-building, navatkudah-east--hardware-building, paddippalai--hardware-building, pasikudah--hardware-building, periyakallar--hardware-building, puliyanthivu-east--hardware-building, rideethenna--hardware-building, rukamputur--hardware-building, tumpalancholai--hardware-building, urukamam--hardware-building, vahaneri--hardware-building, vakarai--hardware-building, valaichchenai--hardware-building, vellavely--hardware-building, vettukkadu--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5P758NDDF2DKDKZCE1ZQV"
+}

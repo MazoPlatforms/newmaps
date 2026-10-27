@@ -1,0 +1,62 @@
+{
+  "name": "Revival Christian Church Kalmadu",
+  "coordinates": {
+    "latitude": 7.9063041,
+    "longitude": 81.5556862
+  },
+  "categories": [
+    "Church"
+  ],
+  "address": "WH44+G7F, GTZ Road, Kalkudah",
+  "phone": "0773019162",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--religious, illipaiyadichchenai--religious, karadiyanaru--religious, kurumunveli--religious, mangalagama--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5PA3C6CJBA5ZF0NNP7XQQ"
+}

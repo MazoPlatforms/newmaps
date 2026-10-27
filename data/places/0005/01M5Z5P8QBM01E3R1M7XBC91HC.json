@@ -1,0 +1,65 @@
+{
+  "name": "MicroTech",
+  "coordinates": {
+    "latitude": 7.9001661,
+    "longitude": 81.5196435
+  },
+  "categories": [
+    "Computer support and services",
+    "Store",
+    "Mobile network operator"
+  ],
+  "address": "Kinniyadi Road, Bathuriya Nagar, 04, Oddamavadi 30426",
+  "phone": "0754849952",
+  "website": "http://microtechsl.blogspot.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: vellavely--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5P8QBM01E3R1M7XBC91HC"
+}

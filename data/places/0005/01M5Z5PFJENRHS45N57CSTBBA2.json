@@ -1,0 +1,62 @@
+{
+  "name": "The Savlation Army Valaichenai Church",
+  "coordinates": {
+    "latitude": 7.9248047999999995,
+    "longitude": 81.5398464
+  },
+  "categories": [
+    "Church"
+  ],
+  "address": "The Savlation Army Church, Vibuladha Road, Valaichenai",
+  "phone": "0652258050",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: illipaiyadichchenai--religious, karadiyanaru--religious, koddaikallar--religious, kurumunveli--religious, mangalagama--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5PFJENRHS45N57CSTBBA2"
+}

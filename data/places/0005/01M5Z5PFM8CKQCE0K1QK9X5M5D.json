@@ -1,0 +1,62 @@
+{
+  "name": "Ceylon Pentecostal Mission - Valachchenai",
+  "coordinates": {
+    "latitude": 7.904743099999999,
+    "longitude": 81.5346915
+  },
+  "categories": [
+    "Pentecostal church"
+  ],
+  "address": "WG3M+VVW, Trincomalee-Batticaloa Road, Oddamavadi",
+  "phone": "0652257009",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: illipaiyadichchenai--religious, koddaikallar--religious, kurumunveli--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5PFM8CKQCE0K1QK9X5M5D"
+}
