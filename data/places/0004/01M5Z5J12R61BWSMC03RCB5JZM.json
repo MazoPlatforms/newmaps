@@ -1,0 +1,61 @@
+{
+  "name": "Nagathampiran Temple",
+  "coordinates": {
+    "latitude": 7.7071667999999995,
+    "longitude": 81.7216024
+  },
+  "categories": [
+    "Hindu temple"
+  ],
+  "address": "PP4C+VJ9, Kallady",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kokkadichcholai--religious, navatkudah-east--religious, paddippalai--religious, palameen-madu--religious, rideethenna--religious, rukamputur--religious, tumpalancholai--religious, urukamam--religious, vellavely--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J12R61BWSMC03RCB5JZM"
+}

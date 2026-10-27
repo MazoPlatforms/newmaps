@@ -1,0 +1,61 @@
+{
+  "name": "UthayaSooriyan Sports Club Ground, Eachchantheevu (ஈச்சந்தீவு உதயசூரியன் விளையாட்டுகழகம்)",
+  "coordinates": {
+    "latitude": 7.711352799999999,
+    "longitude": 81.6455348
+  },
+  "categories": [
+    "Sports club"
+  ],
+  "address": "PJ6W+G6, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: puliyanthivu-east--sports-fitness, puliyanthivu-west--sports-fitness. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HW3CZ6G6G9E8EAW49SQ4"
+}

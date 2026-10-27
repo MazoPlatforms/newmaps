@@ -1,0 +1,62 @@
+{
+  "name": "Glaciate",
+  "coordinates": {
+    "latitude": 7.7269939,
+    "longitude": 81.6862149
+  },
+  "categories": [
+    "Coffee shop"
+  ],
+  "address": "532c Trincomalee-Batticaloa Road, Batticaloa",
+  "phone": "0768918010",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–12 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--food, karadiyanaru--food, koddaikallar--food, kokkadichcholai--food, mangalagama--food, navatkudah-east--food, paddippalai--food, periyakallar--food, rukamputur--food, tumpalancholai--food, urukamam--food, vahaneri--food, vellavely--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HX2N5SAYSA8MY5E1HDK2"
+}

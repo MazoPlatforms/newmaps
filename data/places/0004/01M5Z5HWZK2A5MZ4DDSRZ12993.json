@@ -1,0 +1,64 @@
+{
+  "name": "Mpowerr",
+  "coordinates": {
+    "latitude": 7.7206395,
+    "longitude": 81.6963715
+  },
+  "categories": [
+    "Software company",
+    "Software training institute"
+  ],
+  "address": "11, 5 B27, Batticaloa 30000",
+  "phone": "0760001043",
+  "website": "https://mpowerr.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: vellavely--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HWZK2A5MZ4DDSRZ12993"
+}

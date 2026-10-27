@@ -1,0 +1,62 @@
+{
+  "name": "William Ault Community Centre",
+  "coordinates": {
+    "latitude": 7.710689299999999,
+    "longitude": 81.69808259999999
+  },
+  "categories": [
+    "Wedding venue"
+  ],
+  "address": "Chapel St, Batticaloa",
+  "phone": "0652057750",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: puliyanthivu-south--community-library, vellavely--community-library. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HWCY9N8KW630GDZRHMNW"
+}

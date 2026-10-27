@@ -1,0 +1,62 @@
+{
+  "name": "Marine Aquarium",
+  "coordinates": {
+    "latitude": 7.721006699999999,
+    "longitude": 81.7023943
+  },
+  "categories": [
+    "Aquarium shop"
+  ],
+  "address": "34 Baily Road, Batticaloa",
+  "phone": "0756831220",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--agriculture-fisheries, chenkaladi--agriculture-fisheries, eravur--agriculture-fisheries, kalkudah--agriculture-fisheries, karadiyanaru--agriculture-fisheries, mangalagama--agriculture-fisheries, navatkudah-east--agriculture-fisheries, paddippalai--agriculture-fisheries, pasikudah--agriculture-fisheries, periyakallar--agriculture-fisheries, puliyanthivu-east--agriculture-fisheries, puliyanthivu-south--agriculture-fisheries, tumpalancholai--agriculture-fisheries, vahaneri--agriculture-fisheries, vakarai--agriculture-fisheries, valaichchenai--agriculture-fisheries, vellavely--agriculture-fisheries, vettukkadu--agriculture-fisheries. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HS5JGWBHPJ3ADRWBG6YN"
+}

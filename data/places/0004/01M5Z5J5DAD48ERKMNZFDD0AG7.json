@@ -1,0 +1,63 @@
+{
+  "name": "World Vision Lanka, Zonal Office-EAST",
+  "coordinates": {
+    "latitude": 7.7298538,
+    "longitude": 81.6976814
+  },
+  "categories": [
+    "Non-governmental organization"
+  ],
+  "address": "PMHX+W3V, Boundary Road S, Batticaloa",
+  "phone": "0652227242",
+  "website": "http://www.wvi.org/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: vettukkadu--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J5DAD48ERKMNZFDD0AG7"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Kemamaliga",
+  "coordinates": {
+    "latitude": 7.7137483,
+    "longitude": 81.6696164
+  },
+  "categories": [
+    "Park"
+  ],
+  "address": "PM79+FR, Batticaloa",
+  "phone": "0703622333",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–12 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: urukamam--tourism-attractions. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HWTXF8KKGZ78BA56NCR1"
+}

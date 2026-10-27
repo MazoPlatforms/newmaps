@@ -1,0 +1,62 @@
+{
+  "name": "Sri Maha Mariyamman Temple",
+  "coordinates": {
+    "latitude": 7.7107857,
+    "longitude": 81.575823
+  },
+  "categories": [
+    "Hindu temple"
+  ],
+  "address": "PH6G+888, sri maha mariyamman temple, mahilavaddavan ayiththiyamalai, Batticaloa",
+  "phone": "0769382856",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: karadiyanaru--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J0B930XXNV3971RHZVMM"
+}

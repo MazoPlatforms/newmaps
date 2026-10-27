@@ -1,0 +1,62 @@
+{
+  "name": "எரிபொருள் நிரப்பு நிலையம் Lanka Filling Station",
+  "coordinates": {
+    "latitude": 7.718463099999999,
+    "longitude": 81.69968159999999
+  },
+  "categories": [
+    "Gas station"
+  ],
+  "address": "PM9X+9VM, Bar Road, Batticaloa",
+  "phone": "0652227284",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: illipaiyadichchenai--vehicle, karadiyanaru--vehicle, koddaikallar--vehicle, kurumunveli--vehicle, nuwaragalathenna--vehicle, periyakallar--vehicle, rideethenna--vehicle, unnichchai--vehicle, urukamam--vehicle, vellavely--vehicle, vettukkadu--vehicle. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HZH9N649BQKSZF267XRX"
+}

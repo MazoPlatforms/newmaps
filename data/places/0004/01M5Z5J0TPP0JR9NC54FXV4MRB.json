@@ -1,0 +1,62 @@
+{
+  "name": "House Of Prayer Ministries International",
+  "coordinates": {
+    "latitude": 7.7185596,
+    "longitude": 81.69464789999999
+  },
+  "categories": [
+    "Church of Christ"
+  ],
+  "address": "No. 20 Boundary Road S, Batticaloa",
+  "phone": "0652224543",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–12:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kurumunveli--religious, vettukkadu--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J0TPP0JR9NC54FXV4MRB"
+}

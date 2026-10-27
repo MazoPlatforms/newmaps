@@ -1,0 +1,62 @@
+{
+  "name": "Multi Shoe Palace",
+  "coordinates": {
+    "latitude": 7.7175666,
+    "longitude": 81.6989421
+  },
+  "categories": [
+    "Shoe store"
+  ],
+  "address": "No. 123, TRINCO ROAD, BATTICALOA. T.P No. 0652224249",
+  "phone": "0652224249",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--clothing-textiles, paddippalai--clothing-textiles, palameen-madu--clothing-textiles, rukamputur--clothing-textiles, tumpalancholai--clothing-textiles, unnichchai--clothing-textiles. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HT6V8MPD01820PH2ZTQQ"
+}

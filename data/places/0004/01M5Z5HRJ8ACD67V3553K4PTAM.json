@@ -1,0 +1,62 @@
+{
+  "name": "SHACHAAN Building Materials Supplier",
+  "coordinates": {
+    "latitude": 7.7245588,
+    "longitude": 81.70261789999999
+  },
+  "categories": [
+    "Building materials store"
+  ],
+  "address": "20/13 Bailey cross road, Sinna Uppodai Road, Batticaloa 30000",
+  "phone": "0777078310",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--hardware-building, valaichchenai--hardware-building. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HRJ8ACD67V3553K4PTAM"
+}

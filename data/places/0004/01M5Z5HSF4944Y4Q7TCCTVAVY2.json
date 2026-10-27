@@ -1,0 +1,63 @@
+{
+  "name": "Public Library - Batticaloa",
+  "coordinates": {
+    "latitude": 7.7092882,
+    "longitude": 81.6995173
+  },
+  "categories": [
+    "Library"
+  ],
+  "address": "Braiyan Dr, Batticaloa",
+  "phone": "0652222484",
+  "website": "https://battilibrary.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: batticaloa--community-library, cheddipalaiyam--community-library, chenkaladi--community-library, eravur--community-library, illipaiyadichchenai--community-library, kalkudah--community-library, karadiyanaru--community-library, kiran--community-library, koddaikallar--community-library, kokkadichcholai--community-library, kurumunveli--community-library, mangalagama--community-library, navatkudah-east--community-library, nuwaragalathenna--community-library, paddippalai--community-library, palameen-madu--community-library, pasikudah--community-library, pasikudah-bay--community-library, periyakallar--community-library, puliyanthivu-east--community-library, puliyanthivu-south--community-library, puliyanthivu-west--community-library, rideethenna--community-library, rukamputur--community-library, trikkandimadu--community-library, tumpalancholai--community-library, unnichchai--community-library, urukamam--community-library, vahaneri--community-library, vakarai--community-library, valaichchenai--community-library, vellavely--community-library, vettukkadu--community-library. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HSF4944Y4Q7TCCTVAVY2"
+}

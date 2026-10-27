@@ -1,0 +1,63 @@
+{
+  "name": "Rohini Beauty Care",
+  "coordinates": {
+    "latitude": 7.7299335,
+    "longitude": 81.6814101
+  },
+  "categories": [
+    "Beauty salon"
+  ],
+  "address": "88 Selvanayagam Road, Batticaloa",
+  "phone": "0774138066",
+  "website": "http://www.facebook.com/rohiniBeautyCare",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12 AM–8 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--salon-beauty, chenkaladi--salon-beauty, karadiyanaru--salon-beauty, kiran--salon-beauty, kokkadichcholai--salon-beauty, nuwaragalathenna--salon-beauty, palameen-madu--salon-beauty, rideethenna--salon-beauty, trikkandimadu--salon-beauty, unnichchai--salon-beauty, vahaneri--salon-beauty, vakarai--salon-beauty. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HTBN77W2MM34JEBH1RSJ"
+}

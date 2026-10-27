@@ -1,0 +1,62 @@
+{
+  "name": "Learn & Study Tuition Center",
+  "coordinates": {
+    "latitude": 7.7214338,
+    "longitude": 81.70051219999999
+  },
+  "categories": [
+    "Educational institution"
+  ],
+  "address": "PPC2+H6C, Batticaloa",
+  "phone": "0776152535",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: rideethenna--education. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J3QGKSJ3YE7H0ETGAHJE"
+}

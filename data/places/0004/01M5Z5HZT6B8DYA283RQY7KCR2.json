@@ -1,0 +1,63 @@
+{
+  "name": "National Savings Bank & ATM",
+  "coordinates": {
+    "latitude": 7.713181,
+    "longitude": 81.6992412
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "PM7X+7MH, Batticaloa",
+  "phone": "0652224478",
+  "website": "http://www.nsb.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: karadiyanaru--finance, mangalagama--finance, navatkudah-east--finance, nuwaragalathenna--finance, rideethenna--finance, tumpalancholai--finance, urukamam--finance, vahaneri--finance, vellavely--finance. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HZT6B8DYA283RQY7KCR2"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Mr Cool",
+  "coordinates": {
+    "latitude": 7.717476,
+    "longitude": 81.7179099
+  },
+  "categories": [
+    "Ice cream shop"
+  ],
+  "address": "PP89+X5V, Beach road, Kallady",
+  "phone": "0778480176",
+  "website": "https://www.instagram.com/mr.cool_official_0025?igsh=eWg2ZGs2OXNmYWRl",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--food, illipaiyadichchenai--food, karadiyanaru--food, koddaikallar--food, kokkadichcholai--food, mangalagama--food, navatkudah-east--food, paddippalai--food, periyakallar--food, tumpalancholai--food, urukamam--food, vahaneri--food, vellavely--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HXB04PKNFWP3K6A0P42C"
+}

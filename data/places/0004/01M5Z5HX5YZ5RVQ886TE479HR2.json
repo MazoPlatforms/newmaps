@@ -1,0 +1,61 @@
+{
+  "name": "VT Cakes",
+  "coordinates": {
+    "latitude": 7.718153699999999,
+    "longitude": 81.6943252
+  },
+  "categories": [
+    "Cupcake shop"
+  ],
+  "address": "22 Kannaki Amman Kovil Road, Batticaloa 30000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: cheddipalaiyam--food, illipaiyadichchenai--food, karadiyanaru--food, koddaikallar--food, kokkadichcholai--food, mangalagama--food, navatkudah-east--food, paddippalai--food, periyakallar--food, rukamputur--food, tumpalancholai--food, urukamam--food, vahaneri--food, vellavely--food. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HX5YZ5RVQ886TE479HR2"
+}

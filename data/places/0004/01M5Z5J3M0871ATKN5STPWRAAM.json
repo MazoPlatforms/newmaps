@@ -1,0 +1,61 @@
+{
+  "name": "Saraswati Kovil",
+  "coordinates": {
+    "latitude": 7.7056284999999995,
+    "longitude": 81.71427949999999
+  },
+  "categories": [
+    "Hindu temple"
+  ],
+  "address": "PP47+7P2, New Kalmunai Road, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kokkadichcholai--religious, palameen-madu--religious, rideethenna--religious, rukamputur--religious, tumpalancholai--religious, urukamam--religious. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J3M0871ATKN5STPWRAAM"
+}

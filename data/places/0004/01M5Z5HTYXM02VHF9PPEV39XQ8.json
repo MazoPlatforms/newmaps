@@ -1,0 +1,65 @@
+{
+  "name": "Singer Batticaloa A",
+  "coordinates": {
+    "latitude": 7.7199208,
+    "longitude": 81.69632829999999
+  },
+  "categories": [
+    "Electronics store",
+    "Cell phone store",
+    "Mattress store"
+  ],
+  "address": "319 Trincomalee-Batticaloa Road, Batticaloa 30000",
+  "phone": "0771148211",
+  "website": "http://singer.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kiran--electronics-mobile, puliyanthivu-east--electronics-mobile, puliyanthivu-south--electronics-mobile, puliyanthivu-west--electronics-mobile, vellavely--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HTYXM02VHF9PPEV39XQ8"
+}

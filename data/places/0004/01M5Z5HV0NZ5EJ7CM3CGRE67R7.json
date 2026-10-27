@@ -1,0 +1,62 @@
+{
+  "name": "Retna Products",
+  "coordinates": {
+    "latitude": 7.7277261,
+    "longitude": 81.6995372
+  },
+  "categories": [
+    "Manufacturer"
+  ],
+  "address": "179 Bar Road - Batticaloa, Batticaloa",
+  "phone": "0776605446",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: kiran--wholesale-commercial, rideethenna--wholesale-commercial. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HV0NZ5EJ7CM3CGRE67R7"
+}

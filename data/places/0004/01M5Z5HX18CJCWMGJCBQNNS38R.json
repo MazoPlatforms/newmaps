@@ -1,0 +1,63 @@
+{
+  "name": "ABI Travel & Tourism",
+  "coordinates": {
+    "latitude": 7.7161482999999995,
+    "longitude": 81.6977792
+  },
+  "categories": [
+    "Tourist attraction"
+  ],
+  "address": "Batticaloa 30000",
+  "phone": "0753419844",
+  "website": "https://www.instagram.com/abi_travel_and_tourism?igsi=MW4yN3Q0cXAwZW1keg==",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: vellavely--tourism-attractions. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HX18CJCWMGJCBQNNS38R"
+}

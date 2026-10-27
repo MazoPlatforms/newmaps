@@ -1,0 +1,62 @@
+{
+  "name": "சரவணா சைவ உணவகம் Hotel Saravana",
+  "coordinates": {
+    "latitude": 7.7142227,
+    "longitude": 81.6972622
+  },
+  "categories": [
+    "Vegetarian restaurant"
+  ],
+  "address": "PM7W+MWJ, Batticaloa",
+  "phone": "0655683660",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: nuwaragalathenna--accommodation. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5J1AZ8PZAJHT3K5EQ1ZFG"
+}

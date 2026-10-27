@@ -1,0 +1,62 @@
+{
+  "name": "ARS Phone Shop",
+  "coordinates": {
+    "latitude": 7.7171695,
+    "longitude": 81.6989332
+  },
+  "categories": [
+    "Cell phone store"
+  ],
+  "address": "123D Trinco Road, Batticaloa 30000",
+  "phone": "0760403727",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "provenance": {
+    "source_name": "mzc",
+    "notes": "Discovery queries: puliyanthivu-south--electronics-mobile, puliyanthivu-west--electronics-mobile, vakarai--electronics-mobile, vellavely--electronics-mobile. CLI result; not independently verified. The documented CLI output does not expose provider attribution or license metadata."
+  },
+  "id": "01M5Z5HW8D33ZE37H6MZPDDWXK"
+}
