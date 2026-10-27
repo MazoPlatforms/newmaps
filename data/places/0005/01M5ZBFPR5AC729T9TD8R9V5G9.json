@@ -1,0 +1,57 @@
+{
+  "name": "Coconut Juice Bar",
+  "coordinates": {
+    "latitude": 7.7632343,
+    "longitude": 81.6215911
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "QJ7C+7JW, Trincomalee-Batticaloa Road, Eravur",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    }
+  ],
+  "id": "01M5ZBFPR5AC729T9TD8R9V5G9"
+}

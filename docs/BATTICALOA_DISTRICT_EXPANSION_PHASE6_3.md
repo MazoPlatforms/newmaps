@@ -1,4 +1,4 @@
-# Batticaloa District Places Expansion — Phase 6.3 — central-south batch
+# Batticaloa District Places Expansion — Phase 6.3 — central batch
 
 Scope: Batticaloa District, Eastern Province, Sri Lanka
 
@@ -9,10 +9,10 @@ Scope: Batticaloa District, Eastern Province, Sri Lanka
 - Capture accounting: Four preliminary successful administrative-area queries returned responses that were not retained, so their result counts are unknown and excluded. Two documented invocations were interrupted before capture and later retried successfully. Two query runners briefly overlapped; retained responses were reconciled by unique query, but the exact number of redundant calls cannot be reconstructed. Confirmed invocation count is therefore a lower bound.
 - Raw candidates in retained JSON captures: 4,537; duplicate calls with unavailable capture counts are excluded.
 - Unique candidates after normalized name and coordinate grouping: 872.
-- New public place records in this change: 20.
-- Cumulative Phase 6.3 imports recorded to date: 47.
+- New public place records in this change: 12.
+- Cumulative Phase 6.3 imports recorded to date: 59.
 - Phase 6.2 failed prompts recovered: 72; additional locality/category queries: 21.
-- Imported names formatted: 2; imported addresses mechanically formatted: 7.
+- Imported names formatted: 3; imported addresses mechanically formatted: 8.
 - Unresolved nearby same-name pairs retained for review: 0.
 - Duplicate query rows collapsed: 3,665.
 - Candidate origin and license information is not exposed by the documented mzc CLI; maintainer review is required before attributing or redistributing the underlying data.
@@ -27,11 +27,11 @@ Scope: Batticaloa District, Eastern Province, Sri Lanka
 ## Counts
 
 - Excluded confirmed private: 0
-- Existing place duplicate: 633
+- Existing place duplicate: 653
 - Invalid missing coordinates: 0
 - Invalid missing name: 0
 - Mzc source conflict: 0
-- New public candidate: 48
+- New public candidate: 28
 - Out of district: 160
 - Uncertain public eligibility: 16
 - Unresolved existing match: 15
@@ -47,49 +47,49 @@ Scope: Batticaloa District, Eastern Province, Sri Lanka
 Counts overlap when a candidate appears in more than one category query. Query area means the search prompt, not a verified town assignment.
 
 - batticaloa-city: existing place duplicate 139, unresolved existing match 1
-- cheddipalaiyam: existing place duplicate 155, new public candidate 2, unresolved existing match 2
+- cheddipalaiyam: existing place duplicate 157, unresolved existing match 2
 - chenkalady: existing place duplicate 127, new public candidate 2, unresolved existing match 2
 - eravoor: existing place duplicate 155, new public candidate 5, unresolved existing match 1
 - eravur-pattu-chenkalady: existing place duplicate 5, new public candidate 1
 - eravur-town: existing place duplicate 10, new public candidate 1
 - illipaiyadichchenai: existing place duplicate 181, unresolved existing match 2
 - kaluwanchikudi: existing place duplicate 129, new public candidate 3, unresolved existing match 1
-- kannankudah: existing place duplicate 93, new public candidate 2, unresolved existing match 3
+- kannankudah: existing place duplicate 94, new public candidate 1, unresolved existing match 3
 - karadiyanaru: existing place duplicate 175, unresolved existing match 1
 - kiraan: existing place duplicate 118, unresolved existing match 1
 - kiran: existing place duplicate 199, unresolved existing match 10
-- kokkadichcholai: existing place duplicate 153, new public candidate 3, unresolved existing match 1
+- kokkadichcholai: existing place duplicate 156, unresolved existing match 1
 - kokkadicholai: existing place duplicate 116, unresolved existing match 1
 - koralai-pattu: existing place duplicate 17, new public candidate 1, unresolved existing match 1
 - kurukkalmadam: existing place duplicate 33, new public candidate 1, unresolved existing match 1
-- mahiladithivu: existing place duplicate 65, new public candidate 2, unresolved existing match 3
-- mandur: existing place duplicate 52, new public candidate 10, unresolved existing match 1
+- mahiladithivu: existing place duplicate 66, new public candidate 1, unresolved existing match 3
+- mandur: existing place duplicate 58, new public candidate 4, unresolved existing match 1
 - mangalagama: existing place duplicate 127, unresolved existing match 2
-- mankerni: existing place duplicate 40, new public candidate 1, unresolved existing match 1
+- mankerni: existing place duplicate 41, unresolved existing match 1
 - manmunai-north: existing place duplicate 10, unresolved existing match 1
-- manmunai-pattu-araiyampathy: existing place duplicate 26, new public candidate 4, unresolved existing match 2
+- manmunai-pattu-araiyampathy: existing place duplicate 28, new public candidate 2, unresolved existing match 2
 - manmunai-west-vavunathivu: existing place duplicate 3
 - nuwaragalathenna: existing place duplicate 175, unresolved existing match 4
 - oddamawadi: existing place duplicate 97, new public candidate 2, unresolved existing match 1
-- paddippalai: existing place duplicate 138, new public candidate 1, unresolved existing match 2
-- pankudaveli: existing place duplicate 47, new public candidate 3, unresolved existing match 1
+- paddippalai: existing place duplicate 139, unresolved existing match 2
+- pankudaveli: existing place duplicate 48, new public candidate 2, unresolved existing match 1
 - porativu-pattu: existing place duplicate 14, new public candidate 1
 - rideethenna: existing place duplicate 162, unresolved existing match 4
-- thuraineelavanai: existing place duplicate 55, new public candidate 6, unresolved existing match 1
+- thuraineelavanai: existing place duplicate 60, new public candidate 1, unresolved existing match 1
 - tumpalancholai: existing place duplicate 114, unresolved existing match 1
 - unnichchai: existing place duplicate 163, unresolved existing match 3
-- vaakarai: existing place duplicate 164, new public candidate 5, unresolved existing match 2
+- vaakarai: existing place duplicate 165, new public candidate 4, unresolved existing match 2
 - vahaneri: existing place duplicate 138, unresolved existing match 2
 - vakarai: existing place duplicate 151, unresolved existing match 1
 - valaichenai: existing place duplicate 125, new public candidate 1, unresolved existing match 2
 - vellaveli: existing place duplicate 138, new public candidate 1, unresolved existing match 1
-- vellavely: existing place duplicate 203, new public candidate 8, unresolved existing match 2
+- vellavely: existing place duplicate 210, new public candidate 1, unresolved existing match 2
 
 ## Category-prompt coverage
 
 - administrative-facilities--0de18960: existing place duplicate 3
 - administrative-facilities--294d92b7: existing place duplicate 5, new public candidate 1
-- administrative-facilities--2ff0104c: existing place duplicate 26, new public candidate 4, unresolved existing match 2
+- administrative-facilities--2ff0104c: existing place duplicate 28, new public candidate 2, unresolved existing match 2
 - administrative-facilities--39bc745f: existing place duplicate 17, new public candidate 1, unresolved existing match 1
 - administrative-facilities--6b6190fe: existing place duplicate 10, unresolved existing match 1
 - administrative-facilities--830be810: existing place duplicate 14, new public candidate 1
@@ -104,24 +104,24 @@ Counts overlap when a candidate appears in more than one category query. Query a
 - agriculture-fisheries--7215b819: existing place duplicate 6
 - agriculture-fisheries--7cfe04a8: existing place duplicate 6
 - agriculture-fisheries--b8ab07b4: existing place duplicate 7
-- agriculture-fisheries--d936875b: existing place duplicate 6, new public candidate 2
+- agriculture-fisheries--d936875b: existing place duplicate 7, new public candidate 1
 - agriculture-fisheries--e2f35382: existing place duplicate 5
 - agriculture-fisheries--ee628fa2: existing place duplicate 5
 - agriculture-fisheries--fc97ff62: existing place duplicate 6
 - community-recreation--4022662d: existing place duplicate 32
-- community-recreation--546d2e13: existing place duplicate 36, new public candidate 1
+- community-recreation--546d2e13: existing place duplicate 37
 - community-recreation--57637582: existing place duplicate 35
 - community-recreation--6449f5ed: existing place duplicate 32
 - community-recreation--8b60c1f8: existing place duplicate 35
 - community-recreation--929f968d: existing place duplicate 37
-- community-recreation--ade590a0: existing place duplicate 39, new public candidate 1
+- community-recreation--ade590a0: existing place duplicate 40
 - community-recreation--b14a37b9: existing place duplicate 38
 - community-recreation--c6d6dbb0: existing place duplicate 23
 - community-recreation--d12ee18c: existing place duplicate 39
 - community-recreation--dd81777f: existing place duplicate 44
 - community-recreation--ecc3526d: existing place duplicate 36
-- community-recreation--f8eda498: existing place duplicate 43, new public candidate 3
-- community-recreation--fd5d170a: existing place duplicate 37, new public candidate 3
+- community-recreation--f8eda498: existing place duplicate 46
+- community-recreation--fd5d170a: existing place duplicate 40
 - education-local--11eb3ecb: existing place duplicate 8
 - education-local--227353d2: existing place duplicate 10, unresolved existing match 1
 - education-local--50854e25: existing place duplicate 27, unresolved existing match 9
@@ -131,7 +131,7 @@ Counts overlap when a candidate appears in more than one category query. Query a
 - education-local--7497e268: existing place duplicate 13, unresolved existing match 3
 - education-local--7c387fd7: existing place duplicate 28, unresolved existing match 2
 - education-local--81969d84: existing place duplicate 6
-- education-local--870fcdf0: existing place duplicate 28, new public candidate 3, unresolved existing match 1
+- education-local--870fcdf0: existing place duplicate 31, unresolved existing match 1
 - education-local--a03bc675: existing place duplicate 7
 - education-local--ae7773b6: existing place duplicate 10, unresolved existing match 1
 - education-local--b2b5efc8: existing place duplicate 26, unresolved existing match 2
@@ -139,7 +139,7 @@ Counts overlap when a candidate appears in more than one category query. Query a
 - food-local--04372b03: existing place duplicate 30, unresolved existing match 1
 - food-local--14f31b17: existing place duplicate 43, unresolved existing match 1
 - food-local--1c7002ec: existing place duplicate 29, unresolved existing match 1
-- food-local--291f64ff: existing place duplicate 61, new public candidate 5, unresolved existing match 2
+- food-local--291f64ff: existing place duplicate 62, new public candidate 4, unresolved existing match 2
 - food-local--2e3466f3: existing place duplicate 25, unresolved existing match 1
 - food-local--307749cc: existing place duplicate 42, unresolved existing match 1
 - food-local--341b0998: existing place duplicate 29, unresolved existing match 1
@@ -160,13 +160,13 @@ Counts overlap when a candidate appears in more than one category query. Query a
 - food-local--eaa92088: existing place duplicate 48, unresolved existing match 1
 - food-local--f1a0829d: existing place duplicate 33, unresolved existing match 1
 - food-local--f339c4bf: existing place duplicate 58, unresolved existing match 1
-- food-retail--04935353: existing place duplicate 30, new public candidate 1, unresolved existing match 1
+- food-retail--04935353: existing place duplicate 31, unresolved existing match 1
 - food-retail--18510cf3: existing place duplicate 34, unresolved existing match 1
-- food-retail--854e8bbd: existing place duplicate 61, new public candidate 2, unresolved existing match 1
+- food-retail--854e8bbd: existing place duplicate 62, new public candidate 1, unresolved existing match 1
 - food-retail--8e97e94f: existing place duplicate 27, unresolved existing match 1
-- food-retail--92969930: existing place duplicate 44, new public candidate 10, unresolved existing match 1
+- food-retail--92969930: existing place duplicate 50, new public candidate 4, unresolved existing match 1
 - food-retail--984d33bd: existing place duplicate 32, unresolved existing match 1
-- food-retail--dba1eca5: existing place duplicate 47, new public candidate 5, unresolved existing match 1
+- food-retail--dba1eca5: existing place duplicate 52, unresolved existing match 1
 - health-public--0d6d7804: existing place duplicate 28
 - health-public--17ef772c: existing place duplicate 24
 - health-public--189b3d5d: existing place duplicate 20
@@ -191,8 +191,8 @@ Counts overlap when a candidate appears in more than one category query. Query a
 - health-specialty--b74eec6c: existing place duplicate 11
 - health-specialty--da4eddb6: existing place duplicate 7
 - health-specialty--f685b04f: existing place duplicate 8
-- public-facilities--0b051f89: existing place duplicate 25, new public candidate 2, unresolved existing match 2
-- public-facilities--0cce0a5f: existing place duplicate 8, new public candidate 2
+- public-facilities--0b051f89: existing place duplicate 26, new public candidate 1, unresolved existing match 2
+- public-facilities--0cce0a5f: existing place duplicate 9, new public candidate 1
 - public-facilities--1222f136: existing place duplicate 8
 - public-facilities--16905553: existing place duplicate 6, new public candidate 1
 - public-facilities--a801c92e: existing place duplicate 7
@@ -273,7 +273,7 @@ Counts overlap when a candidate appears in more than one category query. Query a
 - textile-mobile--dfa76498: existing place duplicate 8
 - vehicle-services--1017c1d7: existing place duplicate 18
 - vehicle-services--159ce353: existing place duplicate 34
-- vehicle-services--2ff69b2a: existing place duplicate 41, new public candidate 1
+- vehicle-services--2ff69b2a: existing place duplicate 42
 - vehicle-services--4022525a: existing place duplicate 27, unresolved existing match 1
 - vehicle-services--4e385d2d: existing place duplicate 44
 - vehicle-services--4fe8a91d: existing place duplicate 33
@@ -288,16 +288,16 @@ Counts overlap when a candidate appears in more than one category query. Query a
 
 ## Generated integrity
 
-- Public geographic features: 4,470.
+- Public geographic features: 4,482.
 - Aliases: 1,086; maximum place shard: 999.
-- MZP size: 2,156,201 bytes (331,977 gzip bytes).
-- MZP SHA-256: `a78f7b14b6303d12cdda85162a11f5a0655db8b288801dcc337bdfb0a40ced2f`.
+- MZP size: 2,161,540 bytes (332,909 gzip bytes).
+- MZP SHA-256: `27beac6fe2cb53008d599573938140dd486a04c129b163de803fd001dabc4726`.
 - Unmodified sources: 3,710 roads; 3,710 speed-limit records; 462 supplementary maxspeed tags.
 
 ## Before/after checks
 
-- Active place records: 4,486 → 4,506; geographic features: 4,450 → 4,470.
-- Place MZP download size: 330,581 → 331,977 gzip bytes (+1,396).
+- Active place records: 4,506 → 4,518; geographic features: 4,470 → 4,482.
+- Place MZP download size: 331,977 → 332,909 gzip bytes (+932).
 - Previous place ULIDs retained: True; aliases retained: True (1,086).
 - Roads: 3,710 → 3,710; source checksum unchanged: True.
 - Speed limits: 3,710 → 3,710; source checksum unchanged: True.

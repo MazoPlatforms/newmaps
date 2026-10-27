@@ -1,0 +1,57 @@
+{
+  "name": "Provincial Health Training Centre",
+  "coordinates": {
+    "latitude": 7.7499582,
+    "longitude": 81.6682689
+  },
+  "categories": [
+    "Public health department"
+  ],
+  "address": "PMX9+X8J, kokuvil, Batticaloa",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M5ZBFQ5QKYW4B70SR0PHQ7YW"
+}
