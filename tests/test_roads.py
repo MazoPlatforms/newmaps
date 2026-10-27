@@ -195,8 +195,10 @@ class RoadTests(unittest.TestCase):
         app = (roads.ROOT / "assets/js/app.js").read_text(encoding="utf-8")
         self.assertIn("generated/kattankudy-roads-manifest.json", app)
         self.assertNotIn("./data/roads/kattankudy.json", app)
-        self.assertIn("manifest.geojson+'?v='+manifest.sha256", app)
-        self.assertIn("generated/manifest.json?v=batticaloa-district-phase6-1", app)
+        self.assertIn("checkedJson('./generated/'+manifest.geojson,manifest.sha256)", app)
+        self.assertIn("fetch('./generated/manifest.json',{cache:'no-cache'})", app)
+        self.assertIn("get('delivery')==='pmtiles'", app)
+        self.assertIn("switchPoiSource('pmtiles')", app)
 
 
 if __name__ == "__main__":
