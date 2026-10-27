@@ -45,7 +45,7 @@ on:
 permissions:
   contents: read
 jobs:
-  validate:
+  validate-speed-limits:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
