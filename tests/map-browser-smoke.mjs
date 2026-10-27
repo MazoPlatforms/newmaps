@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { createReadStream, readFileSync, statSync, writeFileSync } from 'node:fs';
+import { createReadStream, mkdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -55,6 +55,7 @@ const address = server.address();
 const origin = `http://127.0.0.1:${address.port}`;
 const browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--enable-unsafe-swiftshader'] });
 const results = [];
+const cartographicViews = [];
 try {
   for (const mode of (process.env.PHASE9_MODES?.split(',') || ['mzp', 'pmtiles', 'pmtiles-fallback'])) {
     const context = await browser.newContext({
@@ -105,9 +106,43 @@ try {
     assert.equal(interactionOptions.touchZoomRotate, true);
     assert.equal(interactionOptions.minimumZoom, 0);
     if (mode === 'mzp' && process.env.PHASE9_SCREENSHOTS_DIR) {
-      await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.73, 7.68], zoom: 14, bearing: 0, pitch: 0 }));
-      await page.waitForTimeout(1000);
-      await page.screenshot({ path: `${process.env.PHASE9_SCREENSHOTS_DIR}/mobile-light-kattankudy.jpg`, type: 'jpeg', quality: 82 });
+      mkdirSync(process.env.PHASE9_SCREENSHOTS_DIR, { recursive: true });
+      const scenes = [
+        ['world', [0, 0], 0.55], ['sri-lanka', [80.7, 7.8], 6.3],
+        ['eastern-province', [81.5, 7.7], 8], ['batticaloa-district', [81.7, 7.7], 9],
+        ['batticaloa-coast', [81.75, 7.7], 10.5], ['kattankudy-surroundings', [81.73, 7.68], 11.5],
+        ['kattankudy-street-network', [81.7337, 7.6831], 15], ['victory-ground-deen-road', [81.7389, 7.6766], 16],
+      ];
+      for (const [name, center, zoom] of scenes) {
+        const tilesReady = await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
+        await page.waitForTimeout(250);
+        const visible = await page.evaluate(() => {
+          const map = window.__MAZO_MAP_TEST__;
+          const style = map.getStyle();
+          const layersFor = (sourceLayer, type = null) => style.layers.filter((layer) => (!type || layer.type === type) && layer['source-layer'] === sourceLayer).map((layer) => layer.id);
+          const count = (layers) => layers.reduce((sum, id) => sum + map.queryRenderedFeatures(undefined, { layers: [id] }).length, 0);
+          const placeLayers = layersFor('place', 'symbol');
+          const boundaryLayers = style.layers.filter((layer) => layer.type === 'line' && layer['source-layer'] === 'boundary').map((layer) => layer.id);
+          return {
+            zoom: map.getZoom(),
+            mazoPoiFeatures: map.queryRenderedFeatures(undefined, { layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'] }).length,
+            geographicPlaceLabels: count(placeLayers),
+            roadFeatures: count(layersFor('transportation', 'line')),
+            buildingFeatures: count(layersFor('building')),
+            landcoverFeatures: count(layersFor('landcover', 'fill')),
+            landuseFeatures: count(layersFor('landuse', 'fill')),
+            waterFeatures: count(layersFor('water', 'fill')),
+            boundaryFeatures: map.queryRenderedFeatures(undefined, { layers: boundaryLayers }).filter((feature) => feature.properties.maritime === 1).length,
+          };
+        });
+        if (name === 'kattankudy-street-network' || name === 'victory-ground-deen-road') {
+          assert.ok(visible.roadFeatures > 0, `${name} should expose road geometry at street zoom`);
+          assert.ok(visible.buildingFeatures > 0, `${name} should expose building footprints at street zoom`);
+        }
+        await page.screenshot({ path: `${process.env.PHASE9_SCREENSHOTS_DIR}/${name}-light.png` });
+        cartographicViews.push({ name, theme: 'light', tilesReady, ...visible });
+      }
+      await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     }
     await page.locator('#map canvas').focus();
     await page.keyboard.press('Shift+ArrowRight');
@@ -128,8 +163,9 @@ try {
     await wait(page, () => document.documentElement.dataset.theme === 'dark'
       && window.__MAZO_MAP_TEST__?.isStyleLoaded()
       && window.__MAZO_MAP_TEST__?.getLayer('mazo-poi-selected')
-      && window.__MAZO_MAP_TEST__?.getSource('mazo-selected-place')?.type === 'geojson'
-      && ['#102a38', 'rgb(16,42,56)', 'rgba(16,42,56,1)'].includes(String(window.__MAZO_MAP_TEST__?.getPaintProperty('background', 'background-color')).replace(/\s/g, '').toLowerCase()), 60_000);
+      && window.__MAZO_MAP_TEST__?.getSource('mazo-selected-place')?.type === 'geojson', 60_000);
+    const themedLand = await page.evaluate(() => window.__MAZO_MAP_TEST__.getPaintProperty('background', 'background-color'));
+    assert.ok(String(themedLand).replace(/\s/g, '').toLowerCase().includes('#202d32') || String(themedLand).replace(/\s/g, '').toLowerCase().includes('32,45,50'), `dark background should use Mazo land palette, received ${JSON.stringify(themedLand)}`);
     const opacities = await page.evaluate(() => ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local', 'mazo-poi-selected']
       .map((id) => [id, window.__MAZO_MAP_TEST__.getPaintProperty(id, 'icon-opacity'), window.__MAZO_MAP_TEST__.getPaintProperty(id, 'text-opacity')]));
     for (const [id, iconOpacity, textOpacity] of opacities) {
@@ -138,6 +174,21 @@ try {
     }
     const theme = await page.evaluate(() => document.documentElement.dataset.theme);
     assert.equal(theme, 'dark');
+    if (mode === 'mzp' && process.env.PHASE9_SCREENSHOTS_DIR) {
+      const darkScenes = [
+        ['world', [0, 0], 0.55], ['sri-lanka', [80.7, 7.8], 6.3],
+        ['eastern-province', [81.5, 7.7], 8], ['batticaloa-district', [81.7, 7.7], 9],
+        ['batticaloa-coast', [81.75, 7.7], 10.5], ['kattankudy-surroundings', [81.73, 7.68], 11.5],
+        ['kattankudy-street-network', [81.7337, 7.6831], 15], ['victory-ground-deen-road', [81.7389, 7.6766], 16],
+      ];
+      for (const [name, center, zoom] of darkScenes) {
+        const tilesReady = await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
+        await page.waitForTimeout(250);
+        await page.screenshot({ path: `${process.env.PHASE9_SCREENSHOTS_DIR}/${name}-dark.png` });
+        cartographicViews.push({ name, theme: 'dark', tilesReady, zoom });
+      }
+      await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
+    }
 
     const categoryButton = page.locator('.categories button').filter({ hasText: /Electronics/ }).first();
     await categoryButton.click();
@@ -216,4 +267,4 @@ try {
   server.close();
 }
 const reportPath = resolve(root, 'reports/phase9-browser-smoke.json');
-writeFileSync(reportPath, `${JSON.stringify({ browser: `Chromium ${browser.version()}`, viewport: { width: 390, height: 844, mobileEmulation: true }, results }, null, 2)}\n`);
+writeFileSync(reportPath, `${JSON.stringify({ browser: `Chromium ${browser.version()}`, viewport: { width: 390, height: 844, mobileEmulation: true }, results, cartographicViews }, null, 2)}\n`);
