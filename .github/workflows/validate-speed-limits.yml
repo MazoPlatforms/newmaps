@@ -80,3 +80,5 @@ jobs:
           if-no-files-found: error
           retention-days: 30
       - run: node --check assets/js/app.js
+
+# Temporary check-context verification marker; no execution changes.
