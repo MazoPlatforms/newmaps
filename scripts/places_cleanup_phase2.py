@@ -324,10 +324,10 @@ def formatting_drift() -> list[str]:
     for item in data.get("phase2_titlecase_backup", []):
         record_id = item["id"]
         active_path = next(iter(PLACES.glob(f"*/{record_id}.json")), None)
-        if not active_path:
+        record = json.loads(active_path.read_text(encoding="utf-8")) if active_path else aliases.get(record_id, {}).get("record")
+        if record is None:
             drift.append(record_id)
             continue
-        record = json.loads(active_path.read_text(encoding="utf-8"))
         expected = normalize_place_name(item["before"]["name"])
         if record.get("name") != expected:
             drift.append(record_id)

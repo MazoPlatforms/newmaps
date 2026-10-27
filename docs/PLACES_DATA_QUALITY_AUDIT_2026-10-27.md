@@ -5,14 +5,14 @@
 **Records inspected:** 3,694 across shards `0001`–`0004`  
 **Record edits, merges, and deletions:** none
 
-The `Validate speed-limit data` PR workflow generates a downloadable `places-quality-audit-2026-10-27.json` artifact for this audit branch. It contains an entry for every ULID, its current record hash, source filename/index, review score and explanations, proposed formatting-only edits, duplicate-group membership, and per-record discovery links for OSM, Google, Bing, and IDB business listings.
+The original `places-quality-audit-2026-10-27.json` Actions artifact contains per-record identifiers, source indexes, scores, and lookup links. Phase 3 requested deletion because it is not privacy-safe for unresolved residential eligibility cases; the configured GitHub integration returned HTTP 403 for artifact deletion, so a repository administrator must remove it. Do not republish or regenerate the detailed artifact.
 
 ## Findings
 
 | Check | Result | Interpretation |
 |---|---:|---|
 | Place records / shards | 3,694 / 999, 999, 999, 697 | All records were loaded and audited. |
-| Missing coordinates | 2 | `Digital Tutors LK (PVT) Ltd.` and `Women Safe Home`; retain records and request a source location. |
+| Missing coordinates | 2 | Retain records and request source locations. Per-record names are omitted from this public summary. |
 | Invalid numeric/range coordinates | 0 | No invalid coordinate values found. |
 | Missing address | 79 | Incomplete record; do not infer an address from the pin. |
 | Missing categories | 35 | Review category; no classification inferred. |

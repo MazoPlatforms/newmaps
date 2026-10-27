@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'scripts'))
 from place_names import normalize_place_name
+from place_eligibility import classify_place
 PLACES=ROOT/'data'/'places'; GENERATED=ROOT/'generated'; ALIASES=PLACES/'aliases.json'; LIMIT=999
 ULID=re.compile(r'^[0-7][0-9A-HJKMNP-TV-Z]{25}$')
 SOURCE_FILES=sorted(p for p in ROOT.glob('*.json') if p.name not in {'manifest.json','migration-record-map.json','migration-exclusions.json'})
@@ -46,6 +47,9 @@ def load_places():
         if len(files)>LIMIT: raise ValueError(f'{shard} contains {len(files)} files; maximum is {LIMIT}')
         for path in files:
             p=json.loads(path.read_text(encoding='utf8')); validate_record(p,path,allow_invalid_coordinates=True)
+            eligibility=classify_place(p)
+            if not eligibility['eligible_for_public_map'] and isinstance(p.get('coordinates'),dict):
+                raise ValueError(f'{path}: ineligible or uncertain place must not publish coordinates in the public map')
             if p['id'] in ids: raise ValueError(f'Duplicate ID: {p["id"]}')
             ids.add(p['id']); records.append(p)
     aliases=load_aliases()
@@ -74,22 +78,29 @@ def resolve_place_id(record_id, aliases=None):
         seen.add(record_id);record_id=aliases[record_id]['canonical_id']
     return record_id
 def feature(p):
+    if not classify_place(p)['eligible_for_public_map']:
+        raise ValueError(f'{p["id"]}: refusing to publish an ineligible or unreviewed place')
     return {'type':'Feature','id':p['id'],'geometry':{'type':'Point','coordinates':[p['coordinates']['longitude'],p['coordinates']['latitude']]},'properties':{k:v for k,v in p.items() if k not in {'id','coordinates'}}}
 def build():
     records,counts,suspicious=load_places(); GENERATED.mkdir(exist_ok=True)
-    excluded=[p['id'] for p in records if p.get('coordinates') is None]
+    excluded=[p['id'] for p in records if p.get('coordinates') is None and classify_place(p)['eligible_for_public_map']]
+    withheld=sum(not classify_place(p)['eligible_for_public_map'] for p in records)
     features=[feature(p) for p in sorted(records,key=lambda p:p['id']) if isinstance(p.get('coordinates'),dict)]
     data=json.dumps({'type':'FeatureCollection','features':features},ensure_ascii=False,separators=(',',':')).encode()
     out=GENERATED/'kattankudy.mzp';out.write_bytes(data)
     digest=hashlib.sha256(data).hexdigest()
     aliases=load_aliases()
     resolved_aliases={retired:resolve_place_id(retired,aliases) for retired in aliases}
-    report={'format':'MZP/1','geojson':'kattankudy.mzp','features':len(features),'excluded_without_coordinates':excluded,'bytes':len(data),'sha256':digest,'shards':counts,'aliases':resolved_aliases}
+    report={'format':'MZP/1','geojson':'kattankudy.mzp','features':len(features),'excluded_without_coordinates':excluded,'withheld_pending_public_eligibility_review':withheld,'bytes':len(data),'sha256':digest,'shards':counts,'aliases':resolved_aliases}
     (GENERATED/'manifest.json').write_text(json.dumps(report,indent=2)+'\n')
-    print(json.dumps({**report,'suspicious_duplicate_pairs':len(suspicious)},indent=2))
+    print(json.dumps({key:value for key,value in report.items() if key!='aliases'} |
+                     {'alias_count':len(aliases),'suspicious_duplicate_pairs':len(suspicious)},indent=2))
 def allocate(record, allow_duplicate_candidate=False):
     if 'id' in record: raise ValueError('New places must not supply an existing id')
     record={**record,'name':normalize_place_name(record.get('name','')),'id':new_ulid()};validate_record(record)
+    eligibility=classify_place(record)
+    if not eligibility['eligible_for_public_map']:
+        raise ValueError('Place does not have sufficient public-map eligibility evidence; keep it out of public data pending review')
     if not allow_duplicate_candidate and isinstance(record.get('coordinates'),dict):
         incoming=(re.sub(r'[^\w]','',record['name'].casefold()),record['coordinates'].get('latitude'),record['coordinates'].get('longitude'))
         for existing in load_places()[0]:
@@ -135,7 +146,7 @@ def main():
         elif args.cmd=='add':allocate(json.loads(args.json_file.read_text(encoding='utf8')),args.allow_duplicate_candidate)
         elif args.cmd=='migrate':migrate()
         elif args.cmd=='validate':
-            r,c,d=load_places();print(json.dumps({'records':len(r),'shards':c,'suspicious_duplicate_pairs':d},indent=2))
+            r,c,d=load_places();print(json.dumps({'records':len(r),'shards':c,'suspicious_duplicate_pairs':len(d)},indent=2))
         else:build()
     except Exception as e:print(f'ERROR: {e}',file=sys.stderr);return 1
     return 0

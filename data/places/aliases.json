@@ -9530,25 +9530,19 @@
       "canonical_id": "01M5W5PQYT1XRRX79888HVETHN",
       "original_path": "data/places/0004/01M5W5PR77HJHBRJENC3CVPAFQ.json",
       "record": {
-        "name": "Kattankudy",
-        "coordinates": {
-          "latitude": 7.6817541,
-          "longitude": 81.7289729
-        },
-        "address": "MPJH+JFH, 66 Main St, Kattankudy",
-        "categories": [
-          "Housing complex"
-        ],
-        "hours": [],
-        "business_status": "OPEN",
-        "id": "01M5W5PR77HJHBRJENC3CVPAFQ"
+        "id": "01M5W5PR77HJHBRJENC3CVPAFQ",
+        "name": "Location withheld pending eligibility review",
+        "coordinates": null,
+        "public_eligibility": "uncertain",
+        "eligibility_review_token": "ELIG-2A902798D419471B"
       },
       "source_lineage": {
         "source": "services.json",
         "index": 87,
         "id": "01M5W5PR77HJHBRJENC3CVPAFQ"
       },
-      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID."
+      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID.",
+      "eligibility_review_token": "ELIG-2A902798D419471B"
     },
     "01M5W5PQMVPPWK53QKADAT4138": {
       "canonical_id": "01M5W5PQFN9PZFYB13QEN4AG2X",
@@ -39494,67 +39488,55 @@
       "canonical_id": "01M5W5PQGH75GZ83SY6XS6WTYC",
       "original_path": "data/places/0001/01M5W5PQJ00AH3CGCTE9XN7S2M.json",
       "record": {
-        "name": "Kattankudy",
-        "coordinates": {
-          "latitude": 7.6803317,
-          "longitude": 81.7289785
-        },
-        "address": "",
-        "categories": [],
-        "hours": [],
-        "business_status": "OPEN",
-        "id": "01M5W5PQJ00AH3CGCTE9XN7S2M"
+        "id": "01M5W5PQJ00AH3CGCTE9XN7S2M",
+        "name": "Location withheld pending eligibility review",
+        "coordinates": null,
+        "public_eligibility": "uncertain",
+        "eligibility_review_token": "ELIG-0015819D1E714DD5"
       },
       "source_lineage": {
         "source": "boundaries.json",
         "index": 0,
         "id": "01M5W5PQJ00AH3CGCTE9XN7S2M"
       },
-      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID."
+      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID.",
+      "eligibility_review_token": "ELIG-0015819D1E714DD5"
     },
     "01M5W5PQJ1KJE7Y2HGR0HB1N6A": {
       "canonical_id": "01M5W5PQGH75GZ83SY6XS6WTYC",
       "original_path": "data/places/0001/01M5W5PQJ1KJE7Y2HGR0HB1N6A.json",
       "record": {
-        "name": "Kattankudy",
-        "coordinates": {
-          "latitude": 7.6803317,
-          "longitude": 81.7289785
-        },
-        "address": "",
-        "categories": [],
-        "hours": [],
-        "business_status": "OPEN",
-        "id": "01M5W5PQJ1KJE7Y2HGR0HB1N6A"
+        "id": "01M5W5PQJ1KJE7Y2HGR0HB1N6A",
+        "name": "Location withheld pending eligibility review",
+        "coordinates": null,
+        "public_eligibility": "uncertain",
+        "eligibility_review_token": "ELIG-136CE97A1A1E48A7"
       },
       "source_lineage": {
         "source": "boundary.json",
         "index": 0,
         "id": "01M5W5PQJ1KJE7Y2HGR0HB1N6A"
       },
-      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID."
+      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID.",
+      "eligibility_review_token": "ELIG-136CE97A1A1E48A7"
     },
     "01M5W5PQNYDXP61PVM8DQB4FM1": {
       "canonical_id": "01M5W5PQGH75GZ83SY6XS6WTYC",
       "original_path": "data/places/0002/01M5W5PQNYDXP61PVM8DQB4FM1.json",
       "record": {
-        "name": "Kattankudy",
-        "coordinates": {
-          "latitude": 7.6803317,
-          "longitude": 81.7289785
-        },
-        "address": "",
-        "categories": [],
-        "hours": [],
-        "business_status": "OPEN",
-        "id": "01M5W5PQNYDXP61PVM8DQB4FM1"
+        "id": "01M5W5PQNYDXP61PVM8DQB4FM1",
+        "name": "Location withheld pending eligibility review",
+        "coordinates": null,
+        "public_eligibility": "uncertain",
+        "eligibility_review_token": "ELIG-540859D0826247CE"
       },
       "source_lineage": {
         "source": "education.json",
         "index": 169,
         "id": "01M5W5PQNYDXP61PVM8DQB4FM1"
       },
-      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID."
+      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID.",
+      "eligibility_review_token": "ELIG-540859D0826247CE"
     },
     "01M5W5PR17GK017B8TK7AV79FY": {
       "canonical_id": "01M5W5PQX606Y2R9CDPWA9ZVVE",
@@ -43759,25 +43741,19 @@
       "canonical_id": "01M5W5PQGEDAH7K7APKKSEGAAS",
       "original_path": "data/places/0002/01M5W5PQTPF0TFK7YZ41A66CWP.json",
       "record": {
-        "name": "SS Rooms Villa",
-        "coordinates": {
-          "latitude": 7.6940621,
-          "longitude": 81.734156
-        },
-        "address": "240 Elders Home Road, Kattankudy 30100",
-        "categories": [
-          "Villa"
-        ],
-        "hours": [],
-        "business_status": "OPEN",
-        "id": "01M5W5PQTPF0TFK7YZ41A66CWP"
+        "id": "01M5W5PQTPF0TFK7YZ41A66CWP",
+        "name": "Location withheld pending eligibility review",
+        "coordinates": null,
+        "public_eligibility": "uncertain",
+        "eligibility_review_token": "ELIG-C9681EEA46AA4F72"
       },
       "source_lineage": {
         "source": "hotels.json",
         "index": 48,
         "id": "01M5W5PQTPF0TFK7YZ41A66CWP"
       },
-      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID."
+      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID.",
+      "eligibility_review_token": "ELIG-C9681EEA46AA4F72"
     },
     "01M5W5PR0XCQRPQTM9D27WFRY7": {
       "canonical_id": "01M5W5PQWTV247ZMV7AEY5GK8X",
@@ -45047,25 +45023,19 @@
       "canonical_id": "01M5W5PQJ09BYDHW5YWPT0PGXX",
       "original_path": "data/places/0001/01M5W5PQJ1GWA0W5TE5PK1QG38.json",
       "record": {
-        "name": "Sivapathi Anbu Illam",
-        "coordinates": {
-          "latitude": 7.6739172,
-          "longitude": 81.7284863
-        },
-        "address": "MPFH+H99, Arayampathy Boundary Road, Kattankudy",
-        "categories": [
-          "Housing complex"
-        ],
-        "hours": [],
-        "business_status": "OPEN",
-        "id": "01M5W5PQJ1GWA0W5TE5PK1QG38"
+        "id": "01M5W5PQJ1GWA0W5TE5PK1QG38",
+        "name": "Location withheld pending eligibility review",
+        "coordinates": null,
+        "public_eligibility": "uncertain",
+        "eligibility_review_token": "ELIG-18BC71A5959F4623"
       },
       "source_lineage": {
         "source": "boundary.json",
         "index": 2,
         "id": "01M5W5PQJ1GWA0W5TE5PK1QG38"
       },
-      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID."
+      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID.",
+      "eligibility_review_token": "ELIG-18BC71A5959F4623"
     },
     "01M5W5PQT53KS1HQ3AAVA05BFV": {
       "canonical_id": "01M5W5PQG8X14NK60BZGEXT06D",
@@ -46378,25 +46348,19 @@
       "canonical_id": "01M5W5PQZ0Z8EDAQ9WH07XP5Y3",
       "original_path": "data/places/0004/01M5W5PR7B66RRKX8G8Y6N2BPA.json",
       "record": {
-        "name": "Anas Sir Lane Fc Road Kattankudy-2",
-        "coordinates": {
-          "latitude": 7.684009499999999,
-          "longitude": 81.7289121
-        },
-        "address": "MPMH+HHQ, Fisheries Road, Kattankudy",
-        "categories": [
-          "Housing complex"
-        ],
-        "hours": [],
-        "business_status": "OPEN",
-        "id": "01M5W5PR7B66RRKX8G8Y6N2BPA"
+        "id": "01M5W5PR7B66RRKX8G8Y6N2BPA",
+        "name": "Location withheld pending eligibility review",
+        "coordinates": null,
+        "public_eligibility": "uncertain",
+        "eligibility_review_token": "ELIG-A23EFE4A0E544B33"
       },
       "source_lineage": {
         "source": "services.json",
         "index": 104,
         "id": "01M5W5PR7B66RRKX8G8Y6N2BPA"
       },
-      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID."
+      "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID.",
+      "eligibility_review_token": "ELIG-A23EFE4A0E544B33"
     },
     "01M5W5PRCE82A5A7YKSX1NWJ3D": {
       "canonical_id": "01M5W5PQRAPB2AN58XDYNVFP24",
@@ -57792,6 +57756,3282 @@
         "id": "01M5W5PRG579Q024H6RFTSMX9Q"
       },
       "reason": "All fields including exact coordinates and name match the canonical record except permanent ULID."
+    },
+    "01M5W5PQQVWGNBBGMNZ9MVSVEN": {
+      "canonical_id": "01M5W5PQK5DWWEWM9ENKFTTE12",
+      "original_path": "data/places/0002/01M5W5PQQVWGNBBGMNZ9MVSVEN.json",
+      "record": {
+        "name": "Agmi Tex",
+        "coordinates": {
+          "latitude": 7.677153499999999,
+          "longitude": 81.7374498
+        },
+        "address": "159 Deen Road, Kattankudy",
+        "categories": [
+          "Clothing store"
+        ],
+        "phone": "0772220526",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQQVWGNBBGMNZ9MVSVEN"
+      },
+      "source_lineage": {
+        "source_file": "fashion.json",
+        "source_index": 39
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PRCS52B4AAZ6WHY9J7XW": {
+      "canonical_id": "01M5W5PQK5DWWEWM9ENKFTTE12",
+      "original_path": "data/places/0004/01M5W5PRCS52B4AAZ6WHY9J7XW.json",
+      "record": {
+        "name": "Agmi Tex",
+        "coordinates": {
+          "latitude": 7.677153499999999,
+          "longitude": 81.7374498
+        },
+        "address": "159 Deen Road, Kattankudy",
+        "categories": [
+          "Clothing store"
+        ],
+        "phone": "0772220526",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "10 AM–2:30 PM",
+              "4:30–9:30 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PRCS52B4AAZ6WHY9J7XW"
+      },
+      "source_lineage": {
+        "source_file": "textiles.json",
+        "source_index": 6
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQMDBNVAWMV4CSMPYFS1": {
+      "canonical_id": "01M5W5PQJZAD644ZKFR54ZFZQV",
+      "original_path": "data/places/0002/01M5W5PQMDBNVAWMV4CSMPYFS1.json",
+      "record": {
+        "name": "Moulana Colombo Cosmetics",
+        "coordinates": {
+          "latitude": 7.683349199999999,
+          "longitude": 81.7270747
+        },
+        "address": "MPMG+8RP, Main Street, Colombo - Batticaloa Hwy, Kattankudy 30100",
+        "categories": [
+          "Beauty product supplier"
+        ],
+        "phone": "0762024291",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9:30 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9:30 AM–9 PM"
+            ]
+          }
+        ],
+        "website": "https://colombocosmetics.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQMDBNVAWMV4CSMPYFS1"
+      },
+      "source_lineage": {
+        "source_file": "cosmetics.json",
+        "source_index": 1
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQQWF69XGHEH9FBAC851": {
+      "canonical_id": "01M5W5PQK2GBJ52RKR2H2XD5K4",
+      "original_path": "data/places/0002/01M5W5PQQWF69XGHEH9FBAC851.json",
+      "record": {
+        "name": "Prince N Princess",
+        "coordinates": {
+          "latitude": 7.687482299999999,
+          "longitude": 81.724841
+        },
+        "address": "456 Main St, Kattankudy",
+        "categories": [
+          "Clothing store"
+        ],
+        "phone": "0755757560",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          }
+        ],
+        "website": "https://www.facebook.com/profile.php?id=61556331432203&mibextid=ZbWKwL",
+        "business_status": "OPEN",
+        "id": "01M5W5PQQWF69XGHEH9FBAC851"
+      },
+      "source_lineage": {
+        "source_file": "fashion.json",
+        "source_index": 45
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR8214QDTM62MBC1KZF3": {
+      "canonical_id": "01M5W5PQK2GBJ52RKR2H2XD5K4",
+      "original_path": "data/places/0004/01M5W5PR8214QDTM62MBC1KZF3.json",
+      "record": {
+        "name": "Prince N Princess",
+        "coordinates": {
+          "latitude": 7.687482299999999,
+          "longitude": 81.724841
+        },
+        "address": "456 Main St, Kattankudy",
+        "categories": [
+          "Clothing store"
+        ],
+        "phone": "0755757560",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          }
+        ],
+        "website": "https://www.facebook.com/profile.php?id=61556331432203&mibextid=ZbWKwL",
+        "business_status": "OPEN",
+        "id": "01M5W5PR8214QDTM62MBC1KZF3"
+      },
+      "source_lineage": {
+        "source_file": "services.json",
+        "source_index": 174
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PRDAERHREQVPCVD08MPZ": {
+      "canonical_id": "01M5W5PQK2GBJ52RKR2H2XD5K4",
+      "original_path": "data/places/0004/01M5W5PRDAERHREQVPCVD08MPZ.json",
+      "record": {
+        "name": "Prince N Princess",
+        "coordinates": {
+          "latitude": 7.687482299999999,
+          "longitude": 81.724841
+        },
+        "address": "456 Main St, Kattankudy",
+        "categories": [
+          "Clothing store"
+        ],
+        "phone": "0755757560",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          }
+        ],
+        "website": "https://www.facebook.com/profile.php?id=61556331432203&mibextid=ZbWKwL",
+        "business_status": "OPEN",
+        "id": "01M5W5PRDAERHREQVPCVD08MPZ"
+      },
+      "source_lineage": {
+        "source_file": "textiles.json",
+        "source_index": 45
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR7TFQYFZZPKEAFKR2XB": {
+      "canonical_id": "01M5W5PQNRH34KN6ZYPNHABVJE",
+      "original_path": "data/places/0004/01M5W5PR7TFQYFZZPKEAFKR2XB.json",
+      "record": {
+        "name": "Henna By Hana Kattankudy",
+        "coordinates": {
+          "latitude": 7.6765314,
+          "longitude": 81.723866
+        },
+        "address": "22A, Old road Kattankudy 04, 30100",
+        "categories": [
+          "Mehndi designer"
+        ],
+        "phone": "0759171358",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–10 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PR7TFQYFZZPKEAFKR2XB"
+      },
+      "source_lineage": {
+        "source_file": "services.json",
+        "source_index": 162
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR0JH5T38M0JMGXBJ4WG": {
+      "canonical_id": "01M5W5PQJWPEASBQDAY85CABX1",
+      "original_path": "data/places/0003/01M5W5PR0JH5T38M0JMGXBJ4WG.json",
+      "record": {
+        "name": "Link Communication (AP. Nafeel)",
+        "coordinates": {
+          "latitude": 7.6808942,
+          "longitude": 81.72850629999999
+        },
+        "address": "MAIN ROAD, Kattankudy 03",
+        "categories": [
+          "Internet cafe"
+        ],
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–5 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–5 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–5 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–5 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9 AM–5 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–5 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–5 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PR0JH5T38M0JMGXBJ4WG"
+      },
+      "source_lineage": {
+        "source_file": "recreation.json",
+        "source_index": 167
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQPHT6QE8JY5R6104F46": {
+      "canonical_id": "01M5W5PQJVR6Z957DF3ZZFDZ37",
+      "original_path": "data/places/0002/01M5W5PQPHT6QE8JY5R6104F46.json",
+      "record": {
+        "name": "Dot Net (PVT) Ltd. (Travels / Studio / Communication)",
+        "coordinates": {
+          "latitude": 7.6840512,
+          "longitude": 81.7264733
+        },
+        "address": "As Shaheed Ahamed, Lebbe Road, Kattankudy",
+        "categories": [
+          "Photo shop",
+          "Airline ticket agency",
+          "Bus ticket agency",
+          "Gift shop",
+          "Passport agent",
+          "Passport photo processor",
+          "Photographer",
+          "Resume service",
+          "Travel agency"
+        ],
+        "phone": "0759188888",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQPHT6QE8JY5R6104F46"
+      },
+      "source_lineage": {
+        "source_file": "electronics.json",
+        "source_index": 57
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQWP43CRJYWD4HBVBKPN": {
+      "canonical_id": "01M5W5PQJVR6Z957DF3ZZFDZ37",
+      "original_path": "data/places/0003/01M5W5PQWP43CRJYWD4HBVBKPN.json",
+      "record": {
+        "name": "Dot Net (PVT) Ltd. (Travels / Studio / Communication)",
+        "coordinates": {
+          "latitude": 7.6840512,
+          "longitude": 81.7264733
+        },
+        "address": "As Shaheed Ahamed, Lebbe Road, Kattankudy",
+        "categories": [
+          "Photo shop",
+          "Airline ticket agency",
+          "Bus ticket agency",
+          "Gift shop",
+          "Passport agent",
+          "Passport photo processor",
+          "Photographer",
+          "Resume service",
+          "Travel agency"
+        ],
+        "phone": "0759188888",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQWP43CRJYWD4HBVBKPN"
+      },
+      "source_lineage": {
+        "source_file": "mobile.json",
+        "source_index": 82
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR0021NPJND9ASNTGGMP": {
+      "canonical_id": "01M5W5PQJVR6Z957DF3ZZFDZ37",
+      "original_path": "data/places/0003/01M5W5PR0021NPJND9ASNTGGMP.json",
+      "record": {
+        "name": "Dot Net (PVT) Ltd. (Travels / Studio / Communication)",
+        "coordinates": {
+          "latitude": 7.6840512,
+          "longitude": 81.7264733
+        },
+        "address": "As Shaheed Ahamed, Lebbe Road, Kattankudy",
+        "categories": [
+          "Photo shop",
+          "Airline ticket agency",
+          "Bus ticket agency",
+          "Gift shop",
+          "Passport agent",
+          "Passport photo processor",
+          "Photographer",
+          "Resume service",
+          "Travel agency"
+        ],
+        "phone": "0759188888",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PR0021NPJND9ASNTGGMP"
+      },
+      "source_lineage": {
+        "source_file": "recreation.json",
+        "source_index": 90
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR8KG9W95VXZ5W30SNKS": {
+      "canonical_id": "01M5W5PQJVR6Z957DF3ZZFDZ37",
+      "original_path": "data/places/0004/01M5W5PR8KG9W95VXZ5W30SNKS.json",
+      "record": {
+        "name": "Dot Net (PVT) Ltd. (Travels / Studio / Communication)",
+        "coordinates": {
+          "latitude": 7.6840512,
+          "longitude": 81.7264733
+        },
+        "address": "As Shaheed Ahamed, Lebbe Road, Kattankudy",
+        "categories": [
+          "Photo shop",
+          "Airline ticket agency",
+          "Bus ticket agency",
+          "Gift shop",
+          "Passport agent",
+          "Passport photo processor",
+          "Photographer",
+          "Resume service",
+          "Travel agency"
+        ],
+        "phone": "0759188888",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PR8KG9W95VXZ5W30SNKS"
+      },
+      "source_lineage": {
+        "source_file": "studio.json",
+        "source_index": 4
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PRFQ57BN26EX5A1Z6XW8": {
+      "canonical_id": "01M5W5PQJVR6Z957DF3ZZFDZ37",
+      "original_path": "data/places/0004/01M5W5PRFQ57BN26EX5A1Z6XW8.json",
+      "record": {
+        "name": "Dot Net (PVT) Ltd. (Travels / Studio / Communication)",
+        "coordinates": {
+          "latitude": 7.6840512,
+          "longitude": 81.7264733
+        },
+        "address": "As Shaheed Ahamed, Lebbe Road, Kattankudy",
+        "categories": [
+          "Photo shop",
+          "Airline ticket agency",
+          "Bus ticket agency",
+          "Gift shop",
+          "Passport agent",
+          "Passport photo processor",
+          "Photographer",
+          "Resume service",
+          "Travel agency"
+        ],
+        "phone": "0759188888",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PRFQ57BN26EX5A1Z6XW8"
+      },
+      "source_lineage": {
+        "source_file": "transport.json",
+        "source_index": 44
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PRG2XNY3ZZARRGWB6ZT1": {
+      "canonical_id": "01M5W5PQJVR6Z957DF3ZZFDZ37",
+      "original_path": "data/places/0004/01M5W5PRG2XNY3ZZARRGWB6ZT1.json",
+      "record": {
+        "name": "Dot Net (PVT) Ltd. (Travels / Studio / Communication)",
+        "coordinates": {
+          "latitude": 7.6840512,
+          "longitude": 81.7264733
+        },
+        "address": "As Shaheed Ahamed, Lebbe Road, Kattankudy",
+        "categories": [
+          "Photo shop",
+          "Airline ticket agency",
+          "Bus ticket agency",
+          "Gift shop",
+          "Passport agent",
+          "Passport photo processor",
+          "Photographer",
+          "Resume service",
+          "Travel agency"
+        ],
+        "phone": "0759188888",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PRG2XNY3ZZARRGWB6ZT1"
+      },
+      "source_lineage": {
+        "source_file": "utilities.json",
+        "source_index": 11
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQH3KTFZ5HH8N8H5W5JK": {
+      "canonical_id": "01M5W5PQGHDP0B9ZZHH4NYV137",
+      "original_path": "data/places/0001/01M5W5PQH3KTFZ5HH8N8H5W5JK.json",
+      "record": {
+        "name": "Seylan Bank PLC - Kattankudy",
+        "coordinates": {
+          "latitude": 7.6876961999999995,
+          "longitude": 81.7244553
+        },
+        "address": "No. 500B, 500C New Kalmunai Road Manchanthoduwai, 30100",
+        "categories": [
+          "Public sector bank"
+        ],
+        "phone": "0652246625",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Closed"
+            ]
+          }
+        ],
+        "website": "https://www.seylan.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQH3KTFZ5HH8N8H5W5JK"
+      },
+      "source_lineage": {
+        "source_file": "atms.json",
+        "source_index": 12
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQHYHDEACRBGCBMXB421": {
+      "canonical_id": "01M5W5PQGHDP0B9ZZHH4NYV137",
+      "original_path": "data/places/0001/01M5W5PQHYHDEACRBGCBMXB421.json",
+      "record": {
+        "name": "Seylan Bank PLC - Kattankudy",
+        "coordinates": {
+          "latitude": 7.6876961999999995,
+          "longitude": 81.7244553
+        },
+        "address": "No. 500B, 500C New Kalmunai Road Manchanthoduwai, 30100",
+        "categories": [
+          "Public sector bank"
+        ],
+        "phone": "0652246625",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Closed"
+            ]
+          }
+        ],
+        "website": "https://www.seylan.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQHYHDEACRBGCBMXB421"
+      },
+      "source_lineage": {
+        "source_file": "banks.json",
+        "source_index": 1
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQNVPK3WV1QANT44MTCR": {
+      "canonical_id": "01M5W5PQGHDP0B9ZZHH4NYV137",
+      "original_path": "data/places/0002/01M5W5PQNVPK3WV1QANT44MTCR.json",
+      "record": {
+        "name": "Seylan Bank PLC - Kattankudy",
+        "coordinates": {
+          "latitude": 7.6876961999999995,
+          "longitude": 81.7244553
+        },
+        "address": "No. 500B, 500C New Kalmunai Road Manchanthoduwai, 30100",
+        "categories": [
+          "Public sector bank"
+        ],
+        "phone": "0652246625",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Closed"
+            ]
+          }
+        ],
+        "website": "https://www.seylan.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQNVPK3WV1QANT44MTCR"
+      },
+      "source_lineage": {
+        "source_file": "education.json",
+        "source_index": 158
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQRQ6P8Y91HCZP8TQGAH": {
+      "canonical_id": "01M5W5PQGHDP0B9ZZHH4NYV137",
+      "original_path": "data/places/0002/01M5W5PQRQ6P8Y91HCZP8TQGAH.json",
+      "record": {
+        "name": "Seylan Bank PLC - Kattankudy",
+        "coordinates": {
+          "latitude": 7.6876961999999995,
+          "longitude": 81.7244553
+        },
+        "address": "No. 500B, 500C New Kalmunai Road Manchanthoduwai, 30100",
+        "categories": [
+          "Public sector bank"
+        ],
+        "phone": "0652246625",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Closed"
+            ]
+          }
+        ],
+        "website": "https://www.seylan.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQRQ6P8Y91HCZP8TQGAH"
+      },
+      "source_lineage": {
+        "source_file": "finance.json",
+        "source_index": 5
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQYVEM4M9AWVWG5JRVXQ": {
+      "canonical_id": "01M5W5PQGHDP0B9ZZHH4NYV137",
+      "original_path": "data/places/0003/01M5W5PQYVEM4M9AWVWG5JRVXQ.json",
+      "record": {
+        "name": "Seylan Bank PLC - Kattankudy",
+        "coordinates": {
+          "latitude": 7.6876961999999995,
+          "longitude": 81.7244553
+        },
+        "address": "No. 500B, 500C New Kalmunai Road Manchanthoduwai, 30100",
+        "categories": [
+          "Public sector bank"
+        ],
+        "phone": "0652246625",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Closed"
+            ]
+          }
+        ],
+        "website": "https://www.seylan.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQYVEM4M9AWVWG5JRVXQ"
+      },
+      "source_lineage": {
+        "source_file": "public-utilities.json",
+        "source_index": 38
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR7M0HMED479RFYKKRZ2": {
+      "canonical_id": "01M5W5PQGHDP0B9ZZHH4NYV137",
+      "original_path": "data/places/0004/01M5W5PR7M0HMED479RFYKKRZ2.json",
+      "record": {
+        "name": "Seylan Bank PLC - Kattankudy",
+        "coordinates": {
+          "latitude": 7.6876961999999995,
+          "longitude": 81.7244553
+        },
+        "address": "No. 500B, 500C New Kalmunai Road Manchanthoduwai, 30100",
+        "categories": [
+          "Public sector bank"
+        ],
+        "phone": "0652246625",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9 AM–3 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Closed"
+            ]
+          }
+        ],
+        "website": "https://www.seylan.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PR7M0HMED479RFYKKRZ2"
+      },
+      "source_lineage": {
+        "source_file": "services.json",
+        "source_index": 134
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQXP4DMYGRKETDAMGTHA": {
+      "canonical_id": "01M5W5PQJ70CRTVRW1MCG2W5YW",
+      "original_path": "data/places/0003/01M5W5PQXP4DMYGRKETDAMGTHA.json",
+      "record": {
+        "name": "Pizzeria.kky",
+        "coordinates": {
+          "latitude": 7.6839870999999995,
+          "longitude": 81.7261573
+        },
+        "address": "No. 14, Shaheed Ahamed Lebbe Road, 01, Kattankudy 30100",
+        "categories": [
+          "Pizza restaurant"
+        ],
+        "phone": "0779121871",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          }
+        ],
+        "website": "https://kky.app/pizzeria",
+        "business_status": "OPEN",
+        "id": "01M5W5PQXP4DMYGRKETDAMGTHA"
+      },
+      "source_lineage": {
+        "source_file": "places.json",
+        "source_index": 5
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR7V2F5JHHWBS2HRE7EH": {
+      "canonical_id": "01M5W5PQJ70CRTVRW1MCG2W5YW",
+      "original_path": "data/places/0004/01M5W5PR7V2F5JHHWBS2HRE7EH.json",
+      "record": {
+        "name": "Pizzeria.kky",
+        "coordinates": {
+          "latitude": 7.6839870999999995,
+          "longitude": 81.7261573
+        },
+        "address": "No. 14, Shaheed Ahamed Lebbe Road, 01, Kattankudy 30100",
+        "categories": [
+          "Pizza restaurant"
+        ],
+        "phone": "0779121871",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "6 PM–12 AM"
+            ]
+          }
+        ],
+        "website": "https://kky.app/pizzeria",
+        "business_status": "OPEN",
+        "id": "01M5W5PR7V2F5JHHWBS2HRE7EH"
+      },
+      "source_lineage": {
+        "source_file": "services.json",
+        "source_index": 167
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQT0WD9B64GWHH739JW3": {
+      "canonical_id": "01M5W5PQJZF7F624V3NA58V7Q0",
+      "original_path": "data/places/0002/01M5W5PQT0WD9B64GWHH739JW3.json",
+      "record": {
+        "name": "NHK Hardware & Marketing",
+        "coordinates": {
+          "latitude": 7.6769545,
+          "longitude": 81.7298857
+        },
+        "address": "23, 06 A.J.A. Road, Kattankudy 30100",
+        "categories": [
+          "Hardware store"
+        ],
+        "phone": "0778686165",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQT0WD9B64GWHH739JW3"
+      },
+      "source_lineage": {
+        "source_file": "hardware.json",
+        "source_index": 13
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR7HB72X96GTDV8JF0FY": {
+      "canonical_id": "01M5W5PQJZF7F624V3NA58V7Q0",
+      "original_path": "data/places/0004/01M5W5PR7HB72X96GTDV8JF0FY.json",
+      "record": {
+        "name": "NHK Hardware & Marketing",
+        "coordinates": {
+          "latitude": 7.6769545,
+          "longitude": 81.7298857
+        },
+        "address": "23, 06 A.J.A. Road, Kattankudy 30100",
+        "categories": [
+          "Hardware store"
+        ],
+        "phone": "0778686165",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "8:30 AM–8 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PR7HB72X96GTDV8JF0FY"
+      },
+      "source_lineage": {
+        "source_file": "services.json",
+        "source_index": 128
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQPGK12QNVPFH0E1A99W": {
+      "canonical_id": "01M5W5PQK4MWX38YBZ9EJ82EEZ",
+      "original_path": "data/places/0002/01M5W5PQPGK12QNVPFH0E1A99W.json",
+      "record": {
+        "name": "Hikvision Dahua CCTV Showroom ADS CCTV",
+        "coordinates": {
+          "latitude": 7.683144599999999,
+          "longitude": 81.727426
+        },
+        "address": "MPMG+7X3, Colombo - Ratnapura - Wellawaya - Batticaloa Road, Kattankudy",
+        "categories": [
+          "Electronics store"
+        ],
+        "phone": "0777342993",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–2:30 PM",
+              "4–7:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–2:30 PM",
+              "4–7:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–2:30 PM",
+              "4–7:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–2:30 PM",
+              "4–7:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9:30 AM–2:30 PM",
+              "4–7:30 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9:30 AM–2:30 PM",
+              "4–7:30 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQPGK12QNVPFH0E1A99W"
+      },
+      "source_lineage": {
+        "source_file": "electronics.json",
+        "source_index": 56
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQM7646HA2BVSAHZ2340": {
+      "canonical_id": "01M5W5PQJWK67NWSDC1XP09BVD",
+      "original_path": "data/places/0002/01M5W5PQM7646HA2BVSAHZ2340.json",
+      "record": {
+        "name": "Coco Agency",
+        "coordinates": {
+          "latitude": 7.6756408,
+          "longitude": 81.72947049999999
+        },
+        "address": "64/7 Jamiullafreen Road, Kattankudy-06, Kattankudy 30100",
+        "categories": [
+          "Internet marketing service"
+        ],
+        "phone": "0706684772",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Open 24 hours"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQM7646HA2BVSAHZ2340"
+      },
+      "source_lineage": {
+        "source_file": "computer.json",
+        "source_index": 36
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQPYT3YX407HR8894EA6": {
+      "canonical_id": "01M5W5PQJWK67NWSDC1XP09BVD",
+      "original_path": "data/places/0002/01M5W5PQPYT3YX407HR8894EA6.json",
+      "record": {
+        "name": "Coco Agency",
+        "coordinates": {
+          "latitude": 7.6756408,
+          "longitude": 81.72947049999999
+        },
+        "address": "64/7 Jamiullafreen Road, Kattankudy-06, Kattankudy 30100",
+        "categories": [
+          "Internet marketing service"
+        ],
+        "phone": "0706684772",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Open 24 hours"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQPYT3YX407HR8894EA6"
+      },
+      "source_lineage": {
+        "source_file": "electronics.json",
+        "source_index": 101
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQWNTDJ1ENHK48MJGE40": {
+      "canonical_id": "01M5W5PQJWK67NWSDC1XP09BVD",
+      "original_path": "data/places/0003/01M5W5PQWNTDJ1ENHK48MJGE40.json",
+      "record": {
+        "name": "Coco Agency",
+        "coordinates": {
+          "latitude": 7.6756408,
+          "longitude": 81.72947049999999
+        },
+        "address": "64/7 Jamiullafreen Road, Kattankudy-06, Kattankudy 30100",
+        "categories": [
+          "Internet marketing service"
+        ],
+        "phone": "0706684772",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Open 24 hours"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQWNTDJ1ENHK48MJGE40"
+      },
+      "source_lineage": {
+        "source_file": "mobile.json",
+        "source_index": 75
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQYS7VV2KRGDDW2VYK87": {
+      "canonical_id": "01M5W5PQJWK67NWSDC1XP09BVD",
+      "original_path": "data/places/0003/01M5W5PQYS7VV2KRGDDW2VYK87.json",
+      "record": {
+        "name": "Coco Agency",
+        "coordinates": {
+          "latitude": 7.6756408,
+          "longitude": 81.72947049999999
+        },
+        "address": "64/7 Jamiullafreen Road, Kattankudy-06, Kattankudy 30100",
+        "categories": [
+          "Internet marketing service"
+        ],
+        "phone": "0706684772",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Open 24 hours"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQYS7VV2KRGDDW2VYK87"
+      },
+      "source_lineage": {
+        "source_file": "public-utilities.json",
+        "source_index": 31
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR6QZR89SXKBN8C96FMD": {
+      "canonical_id": "01M5W5PQJWK67NWSDC1XP09BVD",
+      "original_path": "data/places/0004/01M5W5PR6QZR89SXKBN8C96FMD.json",
+      "record": {
+        "name": "Coco Agency",
+        "coordinates": {
+          "latitude": 7.6756408,
+          "longitude": 81.72947049999999
+        },
+        "address": "64/7 Jamiullafreen Road, Kattankudy-06, Kattankudy 30100",
+        "categories": [
+          "Internet marketing service"
+        ],
+        "phone": "0706684772",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "Open 24 hours"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Open 24 hours"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PR6QZR89SXKBN8C96FMD"
+      },
+      "source_lineage": {
+        "source_file": "services.json",
+        "source_index": 45
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQHM3H3Z33YR71ZWQSGP": {
+      "canonical_id": "01M5W5PQFN1N344HD0MBGRN10B",
+      "original_path": "data/places/0001/01M5W5PQHM3H3Z33YR71ZWQSGP.json",
+      "record": {
+        "name": "Book Corner, Kattankudy",
+        "coordinates": {
+          "latitude": 7.6751311,
+          "longitude": 81.7252142
+        },
+        "address": "Old Road, Kattankudy 30100",
+        "categories": [
+          "Book store",
+          "Book publisher",
+          "Books wholesaler"
+        ],
+        "phone": "0759097784",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "website": "https://bookcorner.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQHM3H3Z33YR71ZWQSGP"
+      },
+      "source_lineage": {
+        "source_file": "bags.json",
+        "source_index": 9
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQMQP4TSY9E97ABX9Y85": {
+      "canonical_id": "01M5W5PQFN1N344HD0MBGRN10B",
+      "original_path": "data/places/0002/01M5W5PQMQP4TSY9E97ABX9Y85.json",
+      "record": {
+        "name": "Book Corner, Kattankudy",
+        "coordinates": {
+          "latitude": 7.6751311,
+          "longitude": 81.7252142
+        },
+        "address": "Old Road, Kattankudy 30100",
+        "categories": [
+          "Book store",
+          "Book publisher",
+          "Books wholesaler"
+        ],
+        "phone": "0759097784",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "website": "https://bookcorner.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQMQP4TSY9E97ABX9Y85"
+      },
+      "source_lineage": {
+        "source_file": "couriers.json",
+        "source_index": 14
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQN8BBGX3FWE82RNQ0VP": {
+      "canonical_id": "01M5W5PQFN1N344HD0MBGRN10B",
+      "original_path": "data/places/0002/01M5W5PQN8BBGX3FWE82RNQ0VP.json",
+      "record": {
+        "name": "Book Corner, Kattankudy",
+        "coordinates": {
+          "latitude": 7.6751311,
+          "longitude": 81.7252142
+        },
+        "address": "Old Road, Kattankudy 30100",
+        "categories": [
+          "Book store",
+          "Book publisher",
+          "Books wholesaler"
+        ],
+        "phone": "0759097784",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "website": "https://bookcorner.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQN8BBGX3FWE82RNQ0VP"
+      },
+      "source_lineage": {
+        "source_file": "education.json",
+        "source_index": 58
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQYZBE8VYZS2FZN48JB4": {
+      "canonical_id": "01M5W5PQFN1N344HD0MBGRN10B",
+      "original_path": "data/places/0003/01M5W5PQYZBE8VYZS2FZN48JB4.json",
+      "record": {
+        "name": "Book Corner, Kattankudy",
+        "coordinates": {
+          "latitude": 7.6751311,
+          "longitude": 81.7252142
+        },
+        "address": "Old Road, Kattankudy 30100",
+        "categories": [
+          "Book store",
+          "Book publisher",
+          "Books wholesaler"
+        ],
+        "phone": "0759097784",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "website": "https://bookcorner.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQYZBE8VYZS2FZN48JB4"
+      },
+      "source_lineage": {
+        "source_file": "public-utilities.json",
+        "source_index": 56
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR7FFV0ZNVXA7AX6Y7T2": {
+      "canonical_id": "01M5W5PQFN1N344HD0MBGRN10B",
+      "original_path": "data/places/0004/01M5W5PR7FFV0ZNVXA7AX6Y7T2.json",
+      "record": {
+        "name": "Book Corner, Kattankudy",
+        "coordinates": {
+          "latitude": 7.6751311,
+          "longitude": 81.7252142
+        },
+        "address": "Old Road, Kattankudy 30100",
+        "categories": [
+          "Book store",
+          "Book publisher",
+          "Books wholesaler"
+        ],
+        "phone": "0759097784",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "website": "https://bookcorner.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PR7FFV0ZNVXA7AX6Y7T2"
+      },
+      "source_lineage": {
+        "source_file": "services.json",
+        "source_index": 114
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR8DVW3HECTNP4YG59K8": {
+      "canonical_id": "01M5W5PQFN1N344HD0MBGRN10B",
+      "original_path": "data/places/0004/01M5W5PR8DVW3HECTNP4YG59K8.json",
+      "record": {
+        "name": "Book Corner, Kattankudy",
+        "coordinates": {
+          "latitude": 7.6751311,
+          "longitude": 81.7252142
+        },
+        "address": "Old Road, Kattankudy 30100",
+        "categories": [
+          "Book store",
+          "Book publisher",
+          "Books wholesaler"
+        ],
+        "phone": "0759097784",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–9:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9 AM–9 PM"
+            ]
+          }
+        ],
+        "website": "https://bookcorner.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PR8DVW3HECTNP4YG59K8"
+      },
+      "source_lineage": {
+        "source_file": "stationery.json",
+        "source_index": 2
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQXYCK2NASD3Z4YRTQHH": {
+      "canonical_id": "01M5W5PQJJ11SHXGHE617YK8CK",
+      "original_path": "data/places/0003/01M5W5PQXYCK2NASD3Z4YRTQHH.json",
+      "record": {
+        "name": "Mcm Flavours",
+        "coordinates": {
+          "latitude": 7.685642799999999,
+          "longitude": 81.7338627
+        },
+        "address": "New, 7, 4th Cross Lane, Central Road, Kattankudy 3",
+        "categories": [
+          "Restaurant"
+        ],
+        "hours": [],
+        "business_status": "OPEN",
+        "id": "01M5W5PQXYCK2NASD3Z4YRTQHH"
+      },
+      "source_lineage": {
+        "source_file": "places.json",
+        "source_index": 57
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQJ52BG76W3BNWHWHYCH": {
+      "canonical_id": "01M5W5PQHRFFPM1DJRGBEGQT38",
+      "original_path": "data/places/0001/01M5W5PQJ52BG76W3BNWHWHYCH.json",
+      "record": {
+        "name": "MoonRose Cafe",
+        "coordinates": {
+          "latitude": 7.6767908,
+          "longitude": 81.73507239999999
+        },
+        "address": "124A Deen Road, Kattankudy 30100",
+        "categories": [
+          "Cafe",
+          "Fast food restaurant"
+        ],
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQJ52BG76W3BNWHWHYCH"
+      },
+      "source_lineage": {
+        "source_file": "cafe.json",
+        "source_index": 3
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQXQW35AQ48P4PZXAKPC": {
+      "canonical_id": "01M5W5PQHRFFPM1DJRGBEGQT38",
+      "original_path": "data/places/0003/01M5W5PQXQW35AQ48P4PZXAKPC.json",
+      "record": {
+        "name": "MoonRose Cafe",
+        "coordinates": {
+          "latitude": 7.6767908,
+          "longitude": 81.73507239999999
+        },
+        "address": "124A Deen Road, Kattankudy 30100",
+        "categories": [
+          "Cafe",
+          "Fast food restaurant"
+        ],
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "4:30–11:30 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQXQW35AQ48P4PZXAKPC"
+      },
+      "source_lineage": {
+        "source_file": "places.json",
+        "source_index": 13
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQXZ4VJJA5ZK2B305SCV": {
+      "canonical_id": "01M5W5PQJEYPT68ZD75VTG9ZVZ",
+      "original_path": "data/places/0003/01M5W5PQXZ4VJJA5ZK2B305SCV.json",
+      "record": {
+        "name": "Soull Kitchen",
+        "coordinates": {
+          "latitude": 7.717529799999999,
+          "longitude": 81.7185422
+        },
+        "address": "Saravana Road, Batticaloa",
+        "categories": [
+          "Sri Lankan restaurant"
+        ],
+        "phone": "0652054235",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "11 AM–2 PM",
+              "6–10:45 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "11 AM–2 PM",
+              "6–10:45 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "11 AM–2 PM",
+              "6–10:45 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "11 AM–2 PM",
+              "6–10:45 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "11 AM–2 PM",
+              "6–10:45 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "11 AM–2 PM",
+              "6–10:45 PM"
+            ]
+          }
+        ],
+        "website": "https://m.facebook.com/Soullkitchen.lk/",
+        "business_status": "OPEN",
+        "id": "01M5W5PQXZ4VJJA5ZK2B305SCV"
+      },
+      "source_lineage": {
+        "source_file": "places.json",
+        "source_index": 64
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQJ884TZGANFGJHJGDB8": {
+      "canonical_id": "01M5W5PQHPTG3S94Y5BN2APCX2",
+      "original_path": "data/places/0001/01M5W5PQJ884TZGANFGJHJGDB8.json",
+      "record": {
+        "name": "CakeTalk Family Restaurant •INDIAN •WESTERN •CHINESE",
+        "coordinates": {
+          "latitude": 7.6854043,
+          "longitude": 81.7263098
+        },
+        "address": "Junction, Telecom Road, Kattankudy 30100",
+        "categories": [
+          "Eclectic restaurant",
+          "Cake shop",
+          "Children's cafe",
+          "Chocolate cafe",
+          "Coffee store",
+          "Confectionery store",
+          "Family restaurant",
+          "Food court"
+        ],
+        "phone": "0776015584",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQJ884TZGANFGJHJGDB8"
+      },
+      "source_lineage": {
+        "source_file": "cafe.json",
+        "source_index": 21
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQXWQBVN1VE1EAE7B0GV": {
+      "canonical_id": "01M5W5PQHPTG3S94Y5BN2APCX2",
+      "original_path": "data/places/0003/01M5W5PQXWQBVN1VE1EAE7B0GV.json",
+      "record": {
+        "name": "CakeTalk Family Restaurant •INDIAN •WESTERN •CHINESE",
+        "coordinates": {
+          "latitude": 7.6854043,
+          "longitude": 81.7263098
+        },
+        "address": "Junction, Telecom Road, Kattankudy 30100",
+        "categories": [
+          "Eclectic restaurant",
+          "Cake shop",
+          "Children's cafe",
+          "Chocolate cafe",
+          "Coffee store",
+          "Confectionery store",
+          "Family restaurant",
+          "Food court"
+        ],
+        "phone": "0776015584",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQXWQBVN1VE1EAE7B0GV"
+      },
+      "source_lineage": {
+        "source_file": "places.json",
+        "source_index": 46
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PR7GMC9R8AQKDVBS99GG": {
+      "canonical_id": "01M5W5PQHPTG3S94Y5BN2APCX2",
+      "original_path": "data/places/0004/01M5W5PR7GMC9R8AQKDVBS99GG.json",
+      "record": {
+        "name": "CakeTalk Family Restaurant •INDIAN •WESTERN •CHINESE",
+        "coordinates": {
+          "latitude": 7.6854043,
+          "longitude": 81.7263098
+        },
+        "address": "Junction, Telecom Road, Kattankudy 30100",
+        "categories": [
+          "Eclectic restaurant",
+          "Cake shop",
+          "Children's cafe",
+          "Chocolate cafe",
+          "Coffee store",
+          "Confectionery store",
+          "Family restaurant",
+          "Food court"
+        ],
+        "phone": "0776015584",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PR7GMC9R8AQKDVBS99GG"
+      },
+      "source_lineage": {
+        "source_file": "services.json",
+        "source_index": 120
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQY5GP2PP3QDP6VRX8M7": {
+      "canonical_id": "01M5W5PQJN0SKT7H0CZ46FMHCP",
+      "original_path": "data/places/0003/01M5W5PQY5GP2PP3QDP6VRX8M7.json",
+      "record": {
+        "name": "Treatooo Delish Batticaloa",
+        "coordinates": {
+          "latitude": 7.7146348,
+          "longitude": 81.7102077
+        },
+        "address": "New Kalmunai Road, Batticaloa 30000",
+        "categories": [
+          "Sri Lankan restaurant"
+        ],
+        "phone": "0760064599",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "10 AM–10 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQY5GP2PP3QDP6VRX8M7"
+      },
+      "source_lineage": {
+        "source_file": "places.json",
+        "source_index": 98
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQYA09GA6S5D89VWB690": {
+      "canonical_id": "01M5W5PQJ95BGDXKPTKWP9A34Y",
+      "original_path": "data/places/0003/01M5W5PQYA09GA6S5D89VWB690.json",
+      "record": {
+        "name": "Cafe Chill",
+        "coordinates": {
+          "latitude": 7.715495,
+          "longitude": 81.7019419
+        },
+        "address": "Pioneer Road, Batticaloa 30000",
+        "categories": [
+          "Cafe"
+        ],
+        "phone": "0777779598",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "10 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "10 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "10 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "10 AM–8 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "10 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "10:30 AM–9 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "Closed"
+            ]
+          }
+        ],
+        "website": "http://www.facebook.com/pages/Cafe-Chill/215055691855290",
+        "business_status": "OPEN",
+        "id": "01M5W5PQYA09GA6S5D89VWB690"
+      },
+      "source_lineage": {
+        "source_file": "places.json",
+        "source_index": 121
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQXWG7K3C3BPDPR7BZB6": {
+      "canonical_id": "01M5W5PQJKYY3X3Q2VABCW3WC6",
+      "original_path": "data/places/0003/01M5W5PQXWG7K3C3BPDPR7BZB6.json",
+      "record": {
+        "name": "Imran Chef Catering",
+        "coordinates": {
+          "latitude": 7.6894374999999995,
+          "longitude": 81.73187779999999
+        },
+        "address": "Telecom Road, Kattankudy 30100",
+        "categories": [
+          "Biryani restaurant"
+        ],
+        "phone": "0740499314",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "10 AM–4 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "10 AM–4 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "Closed"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "10 AM–4 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "10 AM–4 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "10 AM–4 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "10 AM–4 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQXWG7K3C3BPDPR7BZB6"
+      },
+      "source_lineage": {
+        "source_file": "places.json",
+        "source_index": 44
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
+    },
+    "01M5W5PQY1F3HRCBS69M3RFSCY": {
+      "canonical_id": "01M5W5PQJFRET1N2547AA161KC",
+      "original_path": "data/places/0003/01M5W5PQY1F3HRCBS69M3RFSCY.json",
+      "record": {
+        "name": "Real Juice Cool Bar",
+        "coordinates": {
+          "latitude": 7.690277099999999,
+          "longitude": 81.7330455
+        },
+        "address": "New, 188 A Telecom Road, Kattankudy 00200",
+        "categories": [
+          "Restaurant"
+        ],
+        "phone": "0777400326",
+        "hours": [
+          {
+            "day": "Monday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Friday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "times": [
+              "9:30 AM–11:30 PM"
+            ]
+          }
+        ],
+        "business_status": "OPEN",
+        "id": "01M5W5PQY1F3HRCBS69M3RFSCY"
+      },
+      "source_lineage": {
+        "source_file": "places.json",
+        "source_index": 82
+      },
+      "reason": "Every current non-ID field (name, coordinates, address, categories, contacts, hours, status and other properties) exactly matches the canonical record after Phase 2 normalization.",
+      "phase": 3
     }
   },
   "phase2_formatting_backup": [
@@ -58125,13 +61365,6 @@
       }
     },
     {
-      "id": "01M5W5PQGEDAH7K7APKKSEGAAS",
-      "filename": "data/places/0001/01M5W5PQGEDAH7K7APKKSEGAAS.json",
-      "before": {
-        "address": "240 Elders Home Rd, Kattankudy 30100"
-      }
-    },
-    {
       "id": "01M5W5PQGEGWS95WJJYBZKHX57",
       "filename": "data/places/0001/01M5W5PQGEGWS95WJJYBZKHX57.json",
       "before": {
@@ -58318,13 +61551,6 @@
       "filename": "data/places/0001/01M5W5PQGR36AD7BCRKADTJEEJ.json",
       "before": {
         "address": "No 60/14, vokkady Lane, old kalmunai Road, Kallady 30000"
-      }
-    },
-    {
-      "id": "01M5W5PQGR63FED5GBG1YAN09H",
-      "filename": "data/places/0001/01M5W5PQGR63FED5GBG1YAN09H.json",
-      "before": {
-        "address": "PMGW+P73, Kalliyankadu, Cemetery Rd, Batticaloa"
       }
     },
     {
@@ -59154,13 +62380,6 @@
       }
     },
     {
-      "id": "01M5W5PQJ09BYDHW5YWPT0PGXX",
-      "filename": "data/places/0001/01M5W5PQJ09BYDHW5YWPT0PGXX.json",
-      "before": {
-        "address": "MPFH+H99, Arayampathy Boundary Rd, Kattankudy"
-      }
-    },
-    {
       "id": "01M5W5PQJ0ANSR6PY2F8X5R5ZV",
       "filename": "data/places/0001/01M5W5PQJ0ANSR6PY2F8X5R5ZV.json",
       "before": {
@@ -59186,13 +62405,6 @@
       "filename": "data/places/0001/01M5W5PQJ1ET63YKSBMWDYG3C7.json",
       "before": {
         "address": "MPRF+2J8, Boundary Rd S, Kattankudy"
-      }
-    },
-    {
-      "id": "01M5W5PQJ1GWA0W5TE5PK1QG38",
-      "filename": "data/places/0001/01M5W5PQJ1GWA0W5TE5PK1QG38.json",
-      "before": {
-        "address": "MPFH+H99, Arayampathy Boundary Rd, Kattankudy"
       }
     },
     {
@@ -59749,13 +62961,6 @@
       }
     },
     {
-      "id": "01M5W5PQK0TBTFBTM4J7WKAZQB",
-      "filename": "data/places/0001/01M5W5PQK0TBTFBTM4J7WKAZQB.json",
-      "before": {
-        "address": "PPC2+9XR, Baily Rd, Batticaloa"
-      }
-    },
-    {
       "id": "01M5W5PQK0VNBX9XM91686JEHN",
       "filename": "data/places/0001/01M5W5PQK0VNBX9XM91686JEHN.json",
       "before": {
@@ -59767,13 +62972,6 @@
       "filename": "data/places/0001/01M5W5PQK1C1FYMN9SZMK5VS8W.json",
       "before": {
         "address": "7a Saravana Rd, Kallady"
-      }
-    },
-    {
-      "id": "01M5W5PQK2QJQ8YF2ZACXSC24K",
-      "filename": "data/places/0001/01M5W5PQK2QJQ8YF2ZACXSC24K.json",
-      "before": {
-        "address": "PPC2+6GM, Baily Rd, Batticaloa"
       }
     },
     {
@@ -59879,13 +63077,6 @@
       "filename": "data/places/0001/01M5W5PQK6RVKR0R746B6FT2NP.json",
       "before": {
         "address": "73/1 New Boundary Rd, Batticaloa 30000"
-      }
-    },
-    {
-      "id": "01M5W5PQK72TN7TBEFNYRMADRT",
-      "filename": "data/places/0001/01M5W5PQK72TN7TBEFNYRMADRT.json",
-      "before": {
-        "address": "PMHP+VQP, Irathapuram East Rd, Batticaloa"
       }
     },
     {
@@ -61646,13 +64837,6 @@
       }
     },
     {
-      "id": "01M5W5PQTPF0TFK7YZ41A66CWP",
-      "filename": "data/places/0002/01M5W5PQTPF0TFK7YZ41A66CWP.json",
-      "before": {
-        "address": "240 Elders Home Rd, Kattankudy 30100"
-      }
-    },
-    {
       "id": "01M5W5PQTPN51T6GRHXKRY6FX5",
       "filename": "data/places/0002/01M5W5PQTPN51T6GRHXKRY6FX5.json",
       "before": {
@@ -61909,13 +65093,6 @@
       "filename": "data/places/0003/01M5W5PQWHGAWEY4F4KX44MSZJ.json",
       "before": {
         "address": "197/A/10, Beach Road , Kattankudi 06, 30100"
-      }
-    },
-    {
-      "id": "01M5W5PQWHMAF9NZ1B0MM439T4",
-      "filename": "data/places/0003/01M5W5PQWHMAF9NZ1B0MM439T4.json",
-      "before": {
-        "address": "MPFJ+PX4, Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Kattankudy"
       }
     },
     {
@@ -62304,38 +65481,10 @@
       }
     },
     {
-      "id": "01M5W5PQZ0Z8EDAQ9WH07XP5Y3",
-      "filename": "data/places/0003/01M5W5PQZ0Z8EDAQ9WH07XP5Y3.json",
-      "before": {
-        "address": "MPMH+HHQ, Fisheries Rd, Kattankudy"
-      }
-    },
-    {
-      "id": "01M5W5PQZ4DQFM55XHKDPHMB4T",
-      "filename": "data/places/0003/01M5W5PQZ4DQFM55XHKDPHMB4T.json",
-      "before": {
-        "address": "No.25 Irumputhaika Road, Kattankudy 06"
-      }
-    },
-    {
       "id": "01M5W5PQZ79ZPEDXMD1V1KSX2K",
       "filename": "data/places/0003/01M5W5PQZ79ZPEDXMD1V1KSX2K.json",
       "before": {
         "address": "197/A/10, Beach Road , Kattankudi 06, 30100"
-      }
-    },
-    {
-      "id": "01M5W5PQZ7E7PWBQ6E6R5HBJ1D",
-      "filename": "data/places/0003/01M5W5PQZ7E7PWBQ6E6R5HBJ1D.json",
-      "before": {
-        "address": "No.25 irumputhaika Road, Kattankudy 06"
-      }
-    },
-    {
-      "id": "01M5W5PQZ8F2DKX6ZSV9QEB13G",
-      "filename": "data/places/0003/01M5W5PQZ8F2DKX6ZSV9QEB13G.json",
-      "before": {
-        "address": "405/A ,4th lane, kaburati road, Kattankudy 1"
       }
     },
     {
@@ -63337,13 +66486,6 @@
       "filename": "data/places/0004/01M5W5PR7ABKFWPWY41HJWYJET.json",
       "before": {
         "address": "MPRC+JG2, Church Rd, Kattankudy"
-      }
-    },
-    {
-      "id": "01M5W5PR7B66RRKX8G8Y6N2BPA",
-      "filename": "data/places/0004/01M5W5PR7B66RRKX8G8Y6N2BPA.json",
-      "before": {
-        "address": "MPMH+HHQ, Fisheries Rd, Kattankudy"
       }
     },
     {
@@ -67866,38 +71008,6 @@
       "after": "Kattankudy Signal"
     },
     {
-      "id": "01M5W5PQYYS19TM3MVSQ4H2SKC",
-      "filename": "data/places/0003/01M5W5PQYYS19TM3MVSQ4H2SKC.json",
-      "before": {
-        "name": "Aathil sana"
-      },
-      "after": "Aathil Sana"
-    },
-    {
-      "id": "01M5W5PQZ20047VDKSFAWHZ8NH",
-      "filename": "data/places/0003/01M5W5PQZ20047VDKSFAWHZ8NH.json",
-      "before": {
-        "name": "Sanoordeen place"
-      },
-      "after": "Sanoordeen Place"
-    },
-    {
-      "id": "01M5W5PQZ4DQFM55XHKDPHMB4T",
-      "filename": "data/places/0003/01M5W5PQZ4DQFM55XHKDPHMB4T.json",
-      "before": {
-        "name": "Riyas home"
-      },
-      "after": "Riyas Home"
-    },
-    {
-      "id": "01M5W5PQZ7E7PWBQ6E6R5HBJ1D",
-      "filename": "data/places/0003/01M5W5PQZ7E7PWBQ6E6R5HBJ1D.json",
-      "before": {
-        "name": "Riyas's home"
-      },
-      "after": "Riyas's Home"
-    },
-    {
       "id": "01M5W5PQZEV6HSX4H4ZA10KF0S",
       "filename": "data/places/0003/01M5W5PQZEV6HSX4H4ZA10KF0S.json",
       "before": {
@@ -68945,5 +72055,78 @@
       },
       "after": "Garbage Dumping And Recycling - Batticaloa"
     }
-  ]
+  ],
+  "phase3_change_manifest": {
+    "new_alias_ids": [
+      "01M5W5PQH3KTFZ5HH8N8H5W5JK",
+      "01M5W5PQHM3H3Z33YR71ZWQSGP",
+      "01M5W5PQHYHDEACRBGCBMXB421",
+      "01M5W5PQJ52BG76W3BNWHWHYCH",
+      "01M5W5PQJ884TZGANFGJHJGDB8",
+      "01M5W5PQM7646HA2BVSAHZ2340",
+      "01M5W5PQMDBNVAWMV4CSMPYFS1",
+      "01M5W5PQMQP4TSY9E97ABX9Y85",
+      "01M5W5PQN8BBGX3FWE82RNQ0VP",
+      "01M5W5PQNVPK3WV1QANT44MTCR",
+      "01M5W5PQPGK12QNVPFH0E1A99W",
+      "01M5W5PQPHT6QE8JY5R6104F46",
+      "01M5W5PQPYT3YX407HR8894EA6",
+      "01M5W5PQQVWGNBBGMNZ9MVSVEN",
+      "01M5W5PQQWF69XGHEH9FBAC851",
+      "01M5W5PQRQ6P8Y91HCZP8TQGAH",
+      "01M5W5PQT0WD9B64GWHH739JW3",
+      "01M5W5PQWNTDJ1ENHK48MJGE40",
+      "01M5W5PQWP43CRJYWD4HBVBKPN",
+      "01M5W5PQXP4DMYGRKETDAMGTHA",
+      "01M5W5PQXQW35AQ48P4PZXAKPC",
+      "01M5W5PQXWG7K3C3BPDPR7BZB6",
+      "01M5W5PQXWQBVN1VE1EAE7B0GV",
+      "01M5W5PQXYCK2NASD3Z4YRTQHH",
+      "01M5W5PQXZ4VJJA5ZK2B305SCV",
+      "01M5W5PQY1F3HRCBS69M3RFSCY",
+      "01M5W5PQY5GP2PP3QDP6VRX8M7",
+      "01M5W5PQYA09GA6S5D89VWB690",
+      "01M5W5PQYS7VV2KRGDDW2VYK87",
+      "01M5W5PQYVEM4M9AWVWG5JRVXQ",
+      "01M5W5PQYZBE8VYZS2FZN48JB4",
+      "01M5W5PR0021NPJND9ASNTGGMP",
+      "01M5W5PR0JH5T38M0JMGXBJ4WG",
+      "01M5W5PR6QZR89SXKBN8C96FMD",
+      "01M5W5PR7FFV0ZNVXA7AX6Y7T2",
+      "01M5W5PR7GMC9R8AQKDVBS99GG",
+      "01M5W5PR7HB72X96GTDV8JF0FY",
+      "01M5W5PR7M0HMED479RFYKKRZ2",
+      "01M5W5PR7TFQYFZZPKEAFKR2XB",
+      "01M5W5PR7V2F5JHHWBS2HRE7EH",
+      "01M5W5PR8214QDTM62MBC1KZF3",
+      "01M5W5PR8DVW3HECTNP4YG59K8",
+      "01M5W5PR8KG9W95VXZ5W30SNKS",
+      "01M5W5PRCS52B4AAZ6WHY9J7XW",
+      "01M5W5PRDAERHREQVPCVD08MPZ",
+      "01M5W5PRFQ57BN26EX5A1Z6XW8",
+      "01M5W5PRG2XNY3ZZARRGWB6ZT1"
+    ],
+    "confirmed_groups": [
+      "DUP-14728C8676CF",
+      "DUP-26CBEAE41B7A",
+      "DUP-36C2097372F3",
+      "DUP-3E1C70560688",
+      "DUP-4116417F8F12",
+      "DUP-479A7A9D4F8D",
+      "DUP-819D56AC1788",
+      "DUP-97F84AAEAAB2",
+      "DUP-A8E7D71AC0A1",
+      "DUP-E65DF984F2D1",
+      "DUP-E8CDBE9C6276",
+      "DUP-0556D8710684",
+      "DUP-066C6B04AA2B",
+      "DUP-5B91F80DDA54",
+      "DUP-6B9149ED737C",
+      "DUP-ADA6B20570AD",
+      "DUP-B6B35EEE3C45",
+      "DUP-C986C19F4FFE",
+      "DUP-E95D6026CEC6",
+      "DUP-F340B8494AB2"
+    ]
+  }
 }

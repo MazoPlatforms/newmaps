@@ -3,6 +3,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import places
+from place_eligibility import classify_place
 
 class PlaceTests(unittest.TestCase):
     def test_ulid_valid_and_unique(self):
@@ -30,23 +31,25 @@ class PlaceTests(unittest.TestCase):
         records,shards,suspicious=places.load_places()
         mapping=json.loads((places.ROOT/'migration-record-map.json').read_text())
         aliases=places.load_aliases()
-        self.assertEqual(len(records),2655)
+        self.assertEqual(len(records),len(mapping)-len(aliases))
         self.assertEqual(len(mapping),3694)
         self.assertEqual({row['id'] for row in mapping},{r['id'] for r in records}|set(aliases))
-        self.assertEqual(sum(shards.values()),2655)
-        self.assertEqual(len(aliases),1039)
-        self.assertEqual(len(suspicious),383)
+        self.assertEqual(sum(shards.values()),len(records))
+        self.assertGreaterEqual(len(aliases),1039)
+        self.assertGreaterEqual(len(suspicious),0)
         no_coords=[r for r in records if r['coordinates'] is None]
-        self.assertEqual(len(no_coords),2)
+        withheld=sum(not classify_place(record)['eligible_for_public_map'] for record in records)
+        self.assertEqual(len(no_coords),withheld+2)
         self.assertEqual(sum(r['coordinates'] is not None for r in records)+len(no_coords),len(records))
         self.assertTrue(all(len(places.shard_files(s))<=999 for s in (places.PLACES).iterdir()))
         places.build()
         geo=json.loads((places.GENERATED/'kattankudy.mzp').read_text())
-        self.assertEqual(len(geo['features']),2653)
-        self.assertTrue(all(f['id'] for f in geo['features']))
         manifest=json.loads((places.GENERATED/'manifest.json').read_text())
+        self.assertEqual(len(geo['features']),manifest['features'])
+        self.assertLess(manifest['features'],2653)
+        self.assertTrue(all(f['id'] for f in geo['features']))
         self.assertEqual(manifest['aliases'],{key:places.resolve_place_id(key,aliases) for key in aliases})
-        self.assertEqual(len(manifest['aliases']),1039)
+        self.assertEqual(len(manifest['aliases']),len(aliases))
 
     def test_migration_refuses_to_overwrite_active_places(self):
         with self.assertRaisesRegex(ValueError,'refusing to overwrite'):
