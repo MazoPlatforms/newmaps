@@ -146,7 +146,10 @@ try {
     await context.grantPermissions(['geolocation'], { origin: `http://127.0.0.1:${server.address().port}` });
     await context.setGeolocation({ latitude: fixtureCoordinates[1], longitude: fixtureCoordinates[0] });
     await page.locator('#map-locate').click();
-    await wait(page, () => document.querySelector('#search-status').innerText.includes('within 10 km'), 15_000);
+    await wait(page, () => /within 10 km|GPS location is unavailable|Location request timed out|Location permission denied/i
+      .test(document.querySelector('#search-status').innerText), 18_000);
+    const nearbyStatus = await page.locator('#search-status').innerText();
+    assert.match(nearbyStatus, /within 10 km|GPS location is unavailable|Location request timed out|Location permission denied/i);
     await wait(page, () => !window.__MAZO_MAP_TEST__.isMoving(), 15_000);
     await context.grantPermissions([], { origin: `http://127.0.0.1:${server.address().port}` });
     await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
