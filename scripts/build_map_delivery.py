@@ -14,6 +14,7 @@ import sys
 import warnings
 from collections import Counter, defaultdict
 from pathlib import Path
+from types import SimpleNamespace
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -21,6 +22,8 @@ import places  # noqa: E402
 
 try:
     import mapbox_vector_tile
+    import pmtiles.tile as pmtiles_tile
+    import pmtiles.writer as pmtiles_writer
     from pmtiles.tile import Compression, TileType, zxy_to_tileid
     from pmtiles.writer import write as write_pmtiles
     from shapely.geometry import Point
@@ -28,6 +31,24 @@ except ImportError as error:  # pragma: no cover - exercised by CLI error path
     raise SystemExit(
         "Map delivery dependencies are missing; install requirements-map-tiles.txt"
     ) from error
+
+
+def deterministic_pmtiles_gzip(data, compresslevel=9, *, mtime=None):
+    """Pin PMTiles directory/metadata gzip regardless of Python defaults."""
+    return gzip.compress(data, compresslevel=9, mtime=0 if mtime is None else mtime)
+
+
+# pmtiles 3.x calls gzip.compress without an explicit compression level for
+# archive directories and metadata. Python runtime defaults can change across
+# the Codespace and GitHub Actions toolchains, producing different archive
+# checksums despite identical tiles. Scope an explicit deterministic wrapper
+# to the writer modules; tile payloads already pass level=9 and mtime=0.
+_PMTILES_GZIP = SimpleNamespace(
+    compress=deterministic_pmtiles_gzip,
+    decompress=gzip.decompress,
+)
+pmtiles_tile.gzip = _PMTILES_GZIP
+pmtiles_writer.gzip = _PMTILES_GZIP
 
 GENERATED = ROOT / "generated"
 MANIFEST = GENERATED / "manifest.json"
