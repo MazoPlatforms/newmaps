@@ -17,6 +17,7 @@ on:
       - 'scripts/roads.py'
       - 'scripts/places.py'
       - 'scripts/build_map_delivery.py'
+      - 'scripts/build_routing_graph.py'
       - 'scripts/validate_map_delivery.py'
       - 'requirements-map-tiles.txt'
       - 'assets/vendor/**'
@@ -49,6 +50,7 @@ on:
       - 'scripts/roads.py'
       - 'scripts/places.py'
       - 'scripts/build_map_delivery.py'
+      - 'scripts/build_routing_graph.py'
       - 'scripts/validate_map_delivery.py'
       - 'requirements-map-tiles.txt'
       - 'assets/vendor/**'
@@ -84,6 +86,7 @@ jobs:
       - run: python scripts/places.py validate
       - run: python scripts/places.py build
       - run: python scripts/build_map_delivery.py
+      - run: python scripts/build_routing_graph.py
       - run: python scripts/roads.py validate
       - run: python scripts/enrich_roads.py --check
       - run: python scripts/speed_limits.py validate
