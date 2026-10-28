@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://mazoplatforms.github.io" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     
     
@@ -47,11 +48,13 @@
           <form id="search-form" class="search-box" role="search">
             <a class="brand" href="./" aria-label="Mazo Maps home"><img src="./assets/mazo-mark.svg" width="32" height="32" alt=""/><strong>Mazo Maps</strong></a>
             <label class="sr-only" for="map-search">Search places in Batticaloa District</label>
-            <input id="map-search" type="search" placeholder="Search places" autocomplete="off" aria-controls="search-results" aria-autocomplete="list" aria-expanded="false" />
+            <input id="map-search" type="search" role="combobox" placeholder="Search places" autocomplete="off" aria-controls="search-results" aria-autocomplete="list" aria-expanded="false" />
             <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></button>
           </form>
           <div id="search-results" class="panel search-results" role="listbox" aria-label="Search results" hidden></div>
           <p id="search-status" class="search-status" role="status" aria-live="polite" hidden>Loading places…</p>
+          <button id="places-retry" class="places-retry" type="button" hidden>Retry loading places</button>
+          <p id="network-status" class="search-status" role="status" aria-live="polite" hidden></p>
           <div class="categories" role="group" aria-label="Place categories">
             <button data-category="all" aria-pressed="true">Explore</button>
           </div>
@@ -69,7 +72,7 @@
 <section id="route-panel" class="route-panel" aria-label="Directions" hidden>
  <div class="route-head"><strong>Directions</strong><button type="button" id="route-close" aria-label="Close directions">×</button></div>
  <div class="route-details" id="route-details" hidden><label for="route-pickup">Pickup</label>
- <div class="route-field"><input id="route-pickup" value="My location" aria-label="Pickup location" readonly/><button type="button" id="route-use-location">My location</button></div>
+ <div class="route-field"><input id="route-pickup" value="My location" aria-label="Pickup location" readonly/><button type="button" id="route-use-location">My location</button><button type="button" id="route-pick-on-map" aria-pressed="false">Choose on map</button></div>
  <label for="route-destination">Destination</label><input id="route-destination" readonly aria-label="Destination"/>
  </div><div class="route-modes"><button type="button" data-route-mode="driving" aria-pressed="true">Drive</button><button type="button" data-route-mode="walking" aria-pressed="false">Walk</button><button type="button" data-route-mode="cycling" aria-pressed="false">Cycle</button></div>
  <p id="route-status" role="status" aria-live="polite"></p><div id="route-summary"></div><ol id="route-steps" hidden></ol>
@@ -86,7 +89,7 @@
   <a id="place-phone" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7l.6 3a2 2 0 0 1-.6 1.8L7.2 10a16 16 0 0 0 6.8 6.8l1.5-1.9a2 2 0 0 1 1.8-.6l3 .6a2 2 0 0 1 1.7 1.8Z"/></svg><span>Call</span></a>
   <a id="place-website" target="_blank" rel="noopener noreferrer" hidden><span>Website</span></a>
  </div>
- <div class="place-sheet-content">
+ <div class="place-sheet-content" role="region" aria-label="Place information" tabindex="0">
   <p id="place-address"></p><p class="place-coordinates" id="place-coordinates"></p>
   <h3 class="hours-heading"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Opening hours</span></h3><div id="place-hours" class="hours-list"></div>
  </div>

@@ -101,7 +101,10 @@ class SpeedLimitTests(unittest.TestCase):
 
     def test_frontend_loads_one_mzp_and_keeps_existing_speed_ui(self):
         source = (ROOT / "assets" / "js" / "app.js").read_text(encoding="utf-8")
-        self.assertIn("./generated/kattankudy-speed-limits.mzp", source)
+        self.assertIn("./generated/kattankudy-speed-limits-manifest.json", source)
+        self.assertIn("checkedJson('./generated/'+manifest.geojson,manifest.sha256)", source)
+        self.assertIn("map.on('zoomend',maybeLoadSpeedReviews)", source)
+        self.assertNotIn("loadSpeedReviews();\nmap.on('load'", source)
         self.assertIn("Legal default candidate — unverified", source)
         self.assertIn("70 km/h · Legal default candidate", source)
         self.assertNotIn("fetch('./data/speed-limits/kattankudy.json')", source)

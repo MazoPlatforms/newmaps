@@ -44,7 +44,7 @@ export function placeDisplayTier(placeOrKind) {
   return priority === 1 ? 'major' : priority === 2 ? 'district' : 'local';
 }
 
-export function placeFeature(place, index) {
+export function placeFeature(place) {
   const kind = discoveryCategoryFor(place);
   return {
     type: 'Feature',
@@ -58,9 +58,6 @@ export function placeFeature(place, index) {
       name: place.name,
       kind,
       priority: placePriority(kind),
-      index,
-      category: (place.categories || []).join(' '),
-      address: place.address || '',
     },
   };
 }
