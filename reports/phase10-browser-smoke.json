@@ -1,0 +1,364 @@
+{
+  "browser": "Chromium 141.0.7390.37",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "mobileEmulation": true
+  },
+  "results": [
+    {
+      "mode": "mzp",
+      "startupMs": 4714,
+      "sourceType": "geojson",
+      "startupTransferBytes": 477980,
+      "startupHeapBytes": 39600000,
+      "postGcHeapBytes": 22729892,
+      "interactiveTransferBytes": 854405,
+      "animation": {
+        "samples": 35,
+        "p50Ms": 33.30000000000291,
+        "p95Ms": 83.40000000000146,
+        "p99Ms": 116.59999999999854,
+        "maxMs": 283.29999999999563,
+        "longTasksOver50Ms": 4
+      },
+      "initialCamera": {
+        "zoom": 8.6,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "interactionOptions": {
+        "dragRotate": false,
+        "touchZoomRotate": true,
+        "minimumZoom": 0
+      },
+      "attemptedRotationBearing": 0,
+      "beforeWheelZoom": 8.6,
+      "afterWheelZoom": 8.934019519121689,
+      "theme": "dark",
+      "opacities": [
+        [
+          "mazo-poi-major",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-district",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-local",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-selected",
+          1,
+          1
+        ]
+      ],
+      "category": "electronics",
+      "searchResult": "Noor Accessories Showroom",
+      "selectedPlace": "Noor Accessories Showroom",
+      "worldCamera": {
+        "zoom": 0.7210991682491942,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "rangeResponses": [],
+      "speedRequests": [
+        "http://127.0.0.1:42321/generated/kattankudy-speed-limits-manifest.json",
+        "http://127.0.0.1:42321/generated/kattankudy-speed-limits.mzp?v=2757482d537a9be910748bde6082bb5bbee240cc93e0607be5007ed56711ff16"
+      ],
+      "accessibility": [],
+      "errors": []
+    },
+    {
+      "mode": "pmtiles",
+      "startupMs": 4945,
+      "sourceType": "vector",
+      "startupTransferBytes": 248724,
+      "startupHeapBytes": 26000000,
+      "postGcHeapBytes": 20108344,
+      "interactiveTransferBytes": 1416720,
+      "animation": null,
+      "initialCamera": {
+        "zoom": 8.6,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "interactionOptions": {
+        "dragRotate": false,
+        "touchZoomRotate": true,
+        "minimumZoom": 0
+      },
+      "attemptedRotationBearing": 0,
+      "beforeWheelZoom": 8.6,
+      "afterWheelZoom": 8.934019519121689,
+      "theme": "dark",
+      "opacities": [
+        [
+          "mazo-poi-major",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-district",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-local",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-selected",
+          1,
+          1
+        ]
+      ],
+      "category": "electronics",
+      "searchResult": "Noor Accessories Showroom",
+      "selectedPlace": "Noor Accessories Showroom",
+      "worldCamera": {
+        "zoom": 0.7210991682491942,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "rangeResponses": [
+        {
+          "status": 206,
+          "contentRange": "bytes 0-16383/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 2740-2974/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 144645-158802/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 84709-144644/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1459312-1463195/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1526223-1528528/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1523109-1525318/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1526072-1526222/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1454178-1459311/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1528682-1530525/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 858454-884474/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 778215-845649/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1459312-1463195/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1526223-1528528/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1523109-1525318/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1526072-1526222/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1454178-1459311/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 1528682-1530525/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 84709-144644/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 144645-158802/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 778215-845649/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 775412-778214/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 845650-850791/1681457"
+        },
+        {
+          "status": 206,
+          "contentRange": "bytes 850792-854268/1681457"
+        }
+      ],
+      "speedRequests": [
+        "http://127.0.0.1:42321/generated/kattankudy-speed-limits-manifest.json",
+        "http://127.0.0.1:42321/generated/kattankudy-speed-limits.mzp?v=2757482d537a9be910748bde6082bb5bbee240cc93e0607be5007ed56711ff16"
+      ],
+      "accessibility": [],
+      "errors": []
+    },
+    {
+      "mode": "pmtiles-fallback",
+      "startupMs": 5454,
+      "sourceType": "geojson",
+      "startupTransferBytes": 498834,
+      "startupHeapBytes": 42100000,
+      "postGcHeapBytes": 21721512,
+      "interactiveTransferBytes": 875259,
+      "animation": null,
+      "initialCamera": {
+        "zoom": 8.6,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "interactionOptions": {
+        "dragRotate": false,
+        "touchZoomRotate": true,
+        "minimumZoom": 0
+      },
+      "attemptedRotationBearing": 0,
+      "beforeWheelZoom": 8.6,
+      "afterWheelZoom": 8.934019519121689,
+      "theme": "dark",
+      "opacities": [
+        [
+          "mazo-poi-major",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-district",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-local",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-selected",
+          1,
+          1
+        ]
+      ],
+      "category": "electronics",
+      "searchResult": "Noor Accessories Showroom",
+      "selectedPlace": "Noor Accessories Showroom",
+      "worldCamera": {
+        "zoom": 0.7210991682491942,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "rangeResponses": [
+        {
+          "status": 503,
+          "contentRange": null
+        }
+      ],
+      "speedRequests": [
+        "http://127.0.0.1:42321/generated/kattankudy-speed-limits-manifest.json",
+        "http://127.0.0.1:42321/generated/kattankudy-speed-limits.mzp?v=2757482d537a9be910748bde6082bb5bbee240cc93e0607be5007ed56711ff16"
+      ],
+      "accessibility": [],
+      "errors": []
+    },
+    {
+      "mode": "mzp-retry",
+      "startupMs": 5821,
+      "sourceType": "geojson",
+      "startupTransferBytes": 478306,
+      "startupHeapBytes": 39600000,
+      "postGcHeapBytes": 21238280,
+      "interactiveTransferBytes": 854731,
+      "animation": null,
+      "initialCamera": {
+        "zoom": 8.6,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "interactionOptions": {
+        "dragRotate": false,
+        "touchZoomRotate": true,
+        "minimumZoom": 0
+      },
+      "attemptedRotationBearing": 0,
+      "beforeWheelZoom": 8.6,
+      "afterWheelZoom": 8.934019519121689,
+      "theme": "dark",
+      "opacities": [
+        [
+          "mazo-poi-major",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-district",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-local",
+          1,
+          1
+        ],
+        [
+          "mazo-poi-selected",
+          1,
+          1
+        ]
+      ],
+      "category": "electronics",
+      "searchResult": "Noor Accessories Showroom",
+      "selectedPlace": "Noor Accessories Showroom",
+      "worldCamera": {
+        "zoom": 0.7210991682491942,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "rangeResponses": [],
+      "speedRequests": [
+        "http://127.0.0.1:42321/generated/kattankudy-speed-limits-manifest.json",
+        "http://127.0.0.1:42321/generated/kattankudy-speed-limits.mzp?v=2757482d537a9be910748bde6082bb5bbee240cc93e0607be5007ed56711ff16"
+      ],
+      "accessibility": [],
+      "errors": []
+    }
+  ],
+  "cartographicViews": []
+}

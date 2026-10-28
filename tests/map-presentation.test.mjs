@@ -39,10 +39,10 @@ test('category filters constrain map display without changing searchable feature
   assert.deepEqual(poiLayerFilter('major', 'all'), ['==', ['get', 'priority'], 1]);
   assert.deepEqual(poiLayerFilter('local', 'food'), ['all', ['==', ['get', 'priority'], 3], ['==', ['get', 'kind'], 'food']]);
   const place = { id: '01ARZ3NDEKTSV4RRFFQ69G5FAV', name: 'Example Bakery', categories: ['Bakery'], coordinates: { longitude: 81.7, latitude: 7.7 } };
-  const feature = placeFeature(place, 12);
+  const feature = placeFeature(place);
   assert.equal(feature.id, place.id);
   assert.equal(feature.properties.id, place.id);
-  assert.equal(feature.properties.index, 12);
+  assert.deepEqual(Object.keys(feature.properties).sort(), ['id', 'kind', 'name', 'priority']);
   assert.equal(feature.properties.kind, 'food');
   assert.deepEqual(feature.geometry.coordinates, [81.7, 7.7]);
 });

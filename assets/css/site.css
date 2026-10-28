@@ -21,7 +21,7 @@
   --ink: #e6edf3;
   --muted: #8b949e;
   --line: #30363d;
-  --accent: #4493f8;
+  --accent: #1f5da8;
   --accent-soft: #1f3552;
   --accent-ink: #79c0ff;
   --shadow: 0 1px 3px #0003, 0 8px 24px #0005;
@@ -76,6 +76,8 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .search-empty { margin: 8px; color: var(--muted); font-size: 13px; }
 .search-status { margin: 5px 0 0; padding: 7px 10px; border: 1px solid var(--line); border-radius: 7px; color: var(--muted); background: var(--surface); box-shadow: var(--shadow); font-size: 12px; line-height: 1.4; }
 .search-status.is-error { color: #cf222e; }
+.places-retry { margin-top: 6px; min-height: 40px; padding: 7px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); font: inherit; cursor: pointer; }
+.places-retry[hidden] { display: none; }
 .map-actions { position: absolute; z-index: 2; right: max(16px, env(safe-area-inset-right)); bottom: calc(186px + env(safe-area-inset-bottom)); display: grid; gap: 6px; }
 .maplibregl-ctrl-top-right { top: auto; bottom: calc(28px + env(safe-area-inset-bottom)); right: max(6px, env(safe-area-inset-right)); }
 .maplibregl-ctrl-group { overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); box-shadow: var(--shadow); }
