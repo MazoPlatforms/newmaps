@@ -56,6 +56,13 @@ test('canonical and retired ULIDs resolve to the same selected place', () => {
 
 test('generated category identifiers match frontend category and filter rules for every searchable place', () => {
   const manifest = JSON.parse(readFileSync('generated/manifest.json', 'utf8'));
+  assert.equal(manifest.production_default, 'pmtiles');
+  assert.equal(manifest.format, 'PMTiles/1');
+  assert.equal('geojson' in manifest, false);
+  assert.equal('sha256' in manifest, false);
+  assert.equal(readFileSync('generated/kattankudy-roads.mzp').length > 0, true);
+  assert.equal(readFileSync('generated/kattankudy-speed-limits.mzp').length > 0, true);
+  assert.throws(() => readFileSync('generated/batticaloa-district.mzp'));
   const entry = manifest.delivery.search_index;
   const payload = JSON.parse(readFileSync(`generated/${entry.file}`, 'utf8'));
   const places = decodeSearchIndex(payload);

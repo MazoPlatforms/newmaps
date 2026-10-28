@@ -48,7 +48,7 @@ Mazo Maps accepts contributions through GitHub's normal **fork → edit JSON →
    git push -u origin places/add-public-place
    ```
 
-7. Open a pull request from your fork's branch to `MazoPlatforms/newmaps:main`. Choose the relevant template under **Preview → choose a template**, complete its checklist, and link public evidence. GitHub Actions validates the PR and the `main` Pages workflow rebuilds MZP and search data after an approved merge.
+7. Open a pull request from your fork's branch to `MazoPlatforms/newmaps:main`. Choose the relevant template under **Preview → choose a template**, complete its checklist, and link public evidence. GitHub Actions validates the PR and the `main` Pages workflow rebuilds place PMTiles, search, and details data after an approved merge.
 
 ## Editing through GitHub's web interface
 
@@ -80,7 +80,7 @@ Optional `provenance` may record `source_name`, `source_url`, `checked_at` (ISO-
 
 Mazo Maps is a map of public-facing businesses, institutions, and publicly relevant facilities. Do not submit private homes, personal locations, or private family addresses. Do not infer that a place is private just because its name contains a person's name or “Home”; home-based businesses, care homes, and public institutions can be eligible when the category and evidence support them.
 
-The automated eligibility gate is conservative. Clearly private residential records fail validation. Uncertain records must use the repository's minimal redacted placeholder and remain outside MZP/search until a maintainer resolves eligibility. If your evidence itself contains a private address or coordinate, do not paste it into a public issue, PR, test fixture, or artifact; provide only the record ULID and ask a maintainer for a private review channel.
+The automated eligibility gate is conservative. Clearly private residential records fail validation. Uncertain records must use the repository's minimal redacted placeholder and remain outside PMTiles/search until a maintainer resolves eligibility. If your evidence itself contains a private address or coordinate, do not paste it into a public issue, PR, test fixture, or artifact; provide only the record ULID and ask a maintainer for a private review channel.
 
 ## Aliases, duplicates, and removals
 
@@ -90,6 +90,6 @@ Do not delete a source record to request removal. Use the removal template and p
 
 ## Maintainer review and merge
 
-Maintainers should review the source diff and linked evidence, confirm the place is public, check address/coordinate changes against evidence, review duplicate warnings without automatic consolidation, and ensure removed IDs remain active or resolve through aliases. Check Actions results for `Validate Mazo Places` and `Validate speed-limit data`; review the generated MZP/manifest checks and the complete diff before merging. After merge, `Deploy Mazo Maps to GitHub Pages` runs the production validators/builders and publishes fresh MZP, manifest, and map search data.
+Maintainers should review the source diff and linked evidence, confirm the place is public, check address/coordinate changes against evidence, review duplicate warnings without automatic consolidation, and ensure removed IDs remain active or resolve through aliases. Check Actions results for `Validate Mazo Places` and `Validate speed-limit data`; review the generated PMTiles, search-index, details-index, and manifest checks and the complete diff before merging. After merge, `Deploy Mazo Maps to GitHub Pages` runs the production validators/builders and publishes a fresh places PMTiles archive, manifest, search index, and place-details index.
 
 Repository settings cannot be changed by a PR. A repository administrator should protect `main` with pull requests, require the validation checks, require CODEOWNERS review for place data/schema/workflow changes, dismiss stale approvals after new commits, and restrict bypasses. `.github/CODEOWNERS` routes these files to the verified repository admin reviewer.

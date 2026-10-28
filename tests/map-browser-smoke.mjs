@@ -69,7 +69,7 @@ const browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '
 const results = [];
 const cartographicViews = [];
 try {
-  for (const mode of (process.env.PHASE9_MODES?.split(',') || ['mzp', 'pmtiles', 'pmtiles-fallback', 'mzp-retry'])) {
+  for (const mode of ['pmtiles', 'pmtiles-retry']) {
     const context = await browser.newContext({
       viewport: { width: 390, height: 844 }, deviceScaleFactor: 1,
       isMobile: true, hasTouch: true, colorScheme: 'light',
@@ -83,13 +83,11 @@ try {
     page.on('pageerror', (error) => errors.push(error.message));
     page.on('console', (message) => {
       if (message.type() === 'error'
-        && !(mode === 'pmtiles-fallback' && message.text().includes('503'))
-        && !(mode === 'mzp-retry' && message.text().includes('503'))) errors.push(message.text());
+        && !(mode === 'pmtiles-retry' && message.text().includes('503'))) errors.push(message.text());
     });
     page.on('response', (response) => {
       if (response.url().includes('/generated/places.pmtiles')) ranges.push({ status: response.status(), contentRange: response.headers()['content-range'] || null });
-      if (response.status() >= 400 && !(mode === 'pmtiles-fallback' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))
-        && !(mode === 'mzp-retry' && response.status() === 503 && response.url().includes('/generated/manifest.json'))) {
+      if (response.status() >= 400 && !(mode === 'pmtiles-retry' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))) {
         errors.push(`HTTP ${response.status()} ${response.url()}`);
       }
     });
@@ -97,33 +95,32 @@ try {
       if (request.url().includes('speed-limits')) speedRequests.push(request.url());
       if (request.url().includes('/styles/liberty')) styleRequests.push(request.url());
     });
-    if (mode === 'pmtiles-fallback') {
-      await page.route('**/generated/places.pmtiles*', (route) => route.fulfill({ status: 503, body: 'intentional fallback test' }));
-    }
-    if (mode === 'mzp-retry') {
-      let firstManifestRequest = true;
-      await page.route('**/generated/manifest.json', (route) => {
-        if (firstManifestRequest) { firstManifestRequest = false; return route.fulfill({ status: 503, body: 'temporary offline response' }); }
+    if (mode === 'pmtiles-retry') {
+      let firstArchiveRequest = true;
+      await page.route('**/generated/places.pmtiles*', (route) => {
+        if (firstArchiveRequest) { firstArchiveRequest = false; return route.fulfill({ status: 503, body: 'temporary archive error' }); }
         return route.continue();
       });
     }
     const started = Date.now();
-    const deliveryQuery = mode === 'pmtiles' || mode === 'pmtiles-fallback' ? '?delivery=pmtiles' : '';
-    await page.goto(`${origin}/${deliveryQuery}${deliveryQuery ? '&' : '?'}map-test=1`, { waitUntil: 'domcontentloaded' });
-    if (mode === 'mzp-retry') {
+    await page.goto(`${origin}/?map-test=1`, { waitUntil: 'domcontentloaded' });
+    if (mode === 'pmtiles-retry') {
       await wait(page, () => !document.querySelector('#places-retry').hidden);
+      assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getSource('mazo-pois')), null,
+        'failed PMTiles must not silently fall back to GeoJSON/MZP');
       await page.locator('#places-retry').click();
     }
     await wait(page, () => window.__MAZO_MAP_TEST__?.isStyleLoaded() && document.querySelector('#map-frame')?.dataset.state === 'ready');
     await wait(page, () => document.querySelectorAll('.categories button').length > 2 && document.querySelector('#search-status').hidden, 90_000);
     const sourceType = await page.evaluate(() => window.__MAZO_MAP_TEST__.getSource('mazo-pois')?.type);
-    assert.equal(sourceType, mode === 'pmtiles' ? 'vector' : 'geojson', `${mode} selected the expected POI source`);
+    assert.equal(sourceType, 'vector', 'production places render from PMTiles vector tiles');
+    assert.equal(await page.evaluate(() => new URL(location.href).searchParams.has('delivery')), false, 'production does not require a format flag');
+    assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some((entry) => entry.name.includes('batticaloa-district.mzp'))), false,
+      'production never requests a place MZP archive');
     assert.equal(speedRequests.length, 0, 'speed review data is deferred until street zoom');
-    if (mode === 'pmtiles') {
-      await wait(page, () => window.mazoPmtilesUrl !== null && window.mazoPmtilesUrl !== undefined);
-      await wait(page, () => performance.getEntriesByType('resource').some((entry) => entry.name.includes('places.pmtiles')));
-      assert.ok(ranges.some((entry) => entry.status === 206 && /^bytes \d+-\d+\/\d+$/.test(entry.contentRange || '')), 'PMTiles must use byte-range requests');
-    }
+    await wait(page, () => window.mazoPmtilesUrl !== null && window.mazoPmtilesUrl !== undefined);
+    await wait(page, () => performance.getEntriesByType('resource').some((entry) => entry.name.includes('places.pmtiles')));
+    assert.ok(ranges.some((entry) => entry.status === 206 && /^bytes \d+-\d+\/\d+$/.test(entry.contentRange || '')), 'PMTiles must use byte-range requests');
     const startupMs = Date.now() - started;
     const startupTransferBytes = await page.evaluate(() => performance.getEntriesByType('resource').reduce((total, entry) => total + (entry.transferSize || 0), 0));
     const startupHeapBytes = await page.evaluate(() => performance.memory?.usedJSHeapSize ?? null);
@@ -146,14 +143,15 @@ try {
     await context.grantPermissions(['geolocation'], { origin: `http://127.0.0.1:${server.address().port}` });
     await context.setGeolocation({ latitude: fixtureCoordinates[1], longitude: fixtureCoordinates[0] });
     await page.locator('#map-locate').click();
-    await wait(page, () => /within 10 km|GPS location is unavailable|Location request timed out|Location permission denied/i
-      .test(document.querySelector('#search-status').innerText), 18_000);
+    await wait(page, () => document.querySelector('.user-location-dot'), 18_000);
     const nearbyStatus = await page.locator('#search-status').innerText();
-    assert.match(nearbyStatus, /within 10 km|GPS location is unavailable|Location request timed out|Location permission denied/i);
+    const nearbyResults = await page.locator('#search-results [role="option"]').count();
+    assert.ok(/within 10 km/i.test(nearbyStatus) || nearbyResults > 0,
+      'permitted geolocation should activate nearby place discovery');
     await wait(page, () => !window.__MAZO_MAP_TEST__.isMoving(), 15_000);
     await context.grantPermissions([], { origin: `http://127.0.0.1:${server.address().port}` });
     await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
-    if (mode === 'mzp' && screenshotDir) {
+    if (mode === 'pmtiles' && screenshotDir) {
       mkdirSync(screenshotDir, { recursive: true });
       const scenes = [
         ['world', [0, 0], 0.55], ['sri-lanka', [80.7, 7.8], 6.3],
@@ -225,7 +223,7 @@ try {
     }
     const theme = await page.evaluate(() => document.documentElement.dataset.theme);
     assert.equal(theme, 'dark');
-    if (mode === 'mzp' && screenshotDir) {
+    if (mode === 'pmtiles' && screenshotDir) {
       const darkScenes = [
         ['world', [0, 0], 0.55], ['sri-lanka', [80.7, 7.8], 6.3],
         ['eastern-province', [81.5, 7.7], 8], ['batticaloa-district', [81.7, 7.7], 9],
@@ -278,7 +276,7 @@ try {
     const duplicateSelectionFeatures = await page.evaluate(() => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'] }).map((feature) => feature.properties.id));
     assert.ok(!duplicateSelectionFeatures.includes(expectedPlaceId), 'selected place is suppressed from ordinary POI tiers to avoid duplicate symbols');
 
-    const animation = mode === 'mzp' ? await page.evaluate(() => new Promise((resolveAnimation) => {
+    const animation = await page.evaluate(() => new Promise((resolveAnimation) => {
       const intervals = [];
       const longTasks = [];
       let previous = performance.now();
@@ -301,7 +299,7 @@ try {
         }
       };
       requestAnimationFrame(sample);
-    })) : null;
+    }));
     await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [0, 0], zoom: 0, bearing: 0, pitch: 0 }));
     const worldCamera = await page.evaluate(() => ({ zoom: window.__MAZO_MAP_TEST__.getZoom(), bearing: window.__MAZO_MAP_TEST__.getBearing(), pitch: window.__MAZO_MAP_TEST__.getPitch() }));
     assert.ok(worldCamera.zoom < 1, 'world-level zoom-out must be available');
@@ -345,7 +343,7 @@ try {
 
     assert.deepEqual(errors, [], `${mode} browser errors`);
 
-    if (mode === 'mzp' && screenshotDir) {
+    if (mode === 'pmtiles' && screenshotDir) {
       await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.73, 7.68], zoom: 14, bearing: 0, pitch: 0 }));
       await page.waitForTimeout(1000);
       await page.screenshot({ path: `${screenshotDir}/mobile-dark-kattankudy.jpg`, type: 'jpeg', quality: 82 });
@@ -354,11 +352,9 @@ try {
     await cdp.send('HeapProfiler.collectGarbage');
     const postGcHeap = await cdp.send('Runtime.getHeapUsage');
     await cdp.detach();
-    if (mode === 'mzp') {
-      await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.73, 7.68], zoom: 16, bearing: 0, pitch: 0 }));
-      await wait(page, (count) => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-speed-review') > 0, 30_000);
-      assert.equal(speedRequests.filter((url) => url.includes('speed-limits.mzp')).length, 1);
-    }
+    await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.73, 7.68], zoom: 16, bearing: 0, pitch: 0 }));
+    await wait(page, (count) => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-speed-review') > 0, 30_000);
+    assert.equal(speedRequests.filter((url) => url.includes('speed-limits.mzp')).length, 1);
     const result = {
       mode, startupMs, sourceType, startupTransferBytes, startupHeapBytes,
       postGcHeapBytes: postGcHeap.usedSize,

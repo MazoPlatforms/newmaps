@@ -65,6 +65,17 @@ class MapDeliveryTests(unittest.TestCase):
                  (delivery.TILE_ARCHIVE, delivery.SEARCH_INDEX, delivery.DETAIL_INDEX)]
         self.assertEqual(before, after)
 
+    def test_pmtiles_is_the_only_place_delivery_and_road_speed_mzp_are_retained(self):
+        manifest = json.loads(delivery.MANIFEST.read_text(encoding="utf-8"))
+        self.assertEqual(manifest["format"], "PMTiles/1")
+        self.assertEqual(manifest["production_default"], "pmtiles")
+        self.assertNotIn("geojson", manifest)
+        self.assertNotIn("sha256", manifest)
+        self.assertFalse((delivery.GENERATED / "batticaloa-district.mzp").exists())
+        self.assertTrue((delivery.GENERATED / "kattankudy-roads.mzp").is_file())
+        self.assertTrue((delivery.GENERATED / "kattankudy-speed-limits.mzp").is_file())
+        self.assertEqual(len(delivery.read_features()), manifest["features"])
+
 
 if __name__ == "__main__":
     unittest.main()

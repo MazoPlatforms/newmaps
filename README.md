@@ -12,9 +12,11 @@ Use `python scripts/places.py add record.json` to create a place. The allocator 
 
 Retired place ULIDs resolve through `data/places/aliases.json`; the generated place manifest includes the flattened alias-to-canonical mapping, and the browser exposes `window.resolveMazoPlaceId(id)`. The allocator blocks a new exact name/coordinate duplicate candidate; a verified separate branch can be added with `--allow-duplicate-candidate` and its reason should be documented in the PR. Phase 2 source backups and the per-record review report are in `data/places/aliases.json` and `reports/places-data-quality-phase-2.json`.
 
-## MZP format
+## Place map delivery
 
-`.mzp` is compact, ordinary GeoJSON `FeatureCollection` JSON. Feature IDs are ULIDs, coordinates follow GeoJSON `[longitude, latitude]`, and place fields are properties. Records without coordinates stay in the individual JSON archive and mapping but are listed in the manifest and omitted from map features. Invalid non-null coordinates fail validation. Build locally with `python scripts/places.py build`; output is `generated/batticaloa-district.mzp` and `generated/manifest.json`. The manifest provides feature count, byte length, shard counts, and SHA-256 for cache invalidation.
+Canonical place JSON remains authoritative. The map receives eligible, geocoded place features as MVT inside `generated/places.pmtiles`, fetched by MapLibre using HTTP byte ranges. `generated/manifest.json` contains archive checksums and zoom metadata, alias resolution, and references to independent search and place-details indexes. Search covers eligible records even when they have no coordinates or are not currently rendered as map symbols.
+
+Run `python scripts/places.py build` followed by `python scripts/build_map_delivery.py` to build place metadata, PMTiles, search, and detail assets. The place builder does not generate a GeoJSON/MZP fallback. Road and speed-limit review datasets are separate and continue to use their existing `.mzp` GeoJSON outputs.
 
 ## Road records
 
@@ -22,13 +24,13 @@ Road segments live in `data/roads/<shard>/<ULID>.json`, with no more than 999 re
 
 ## Validation and deployment
 
-`python scripts/places.py validate` and `python scripts/roads.py validate` check IDs, filenames, source IDs, JSON, geometry, duplicate IDs, and shard limits. `python -m unittest discover -s tests -v` runs allocator, migration integrity, roads, and shard tests. GitHub Actions validates pull requests and the Pages workflow builds both MZP files before uploading the site artifact. Set Pages source to GitHub Actions.
+`python scripts/places.py validate`, `python scripts/validate_map_delivery.py`, and `python scripts/roads.py validate` check IDs, filenames, source IDs, JSON, geometry, duplicate IDs, generated PMTiles/search/detail consistency, and shard limits. `python -m unittest discover -s tests -v` runs the full regression suite. GitHub Actions validates pull requests and the Pages workflow builds place PMTiles/search/detail assets plus the separate road and speed-limit MZP files before uploading the site artifact. Set Pages source to GitHub Actions.
 
-Migration artifacts `migration-record-map.json` and `migration-exclusions.json` map every original file/index to its new ID and document records without coordinates. The original 61 category datasets are preserved on the [`archive/pre-ulid-migration`](https://github.com/MazoPlatforms/newmaps/tree/archive/pre-ulid-migration) branch. The live app loads the generated MZP instead of requesting individual place JSON files.
+Migration artifacts `migration-record-map.json` and `migration-exclusions.json` map every original file/index to its new ID and document records without coordinates. The original 61 category datasets are preserved on the [`archive/pre-ulid-migration`](https://github.com/MazoPlatforms/newmaps/tree/archive/pre-ulid-migration) branch. The live app loads the generated PMTiles archive instead of requesting individual place JSON files.
 
 ## Rollback
 
-Revert the migration pull request to restore the prior app and data layout, then allow the Pages workflow to deploy the reverted tree. Generated MZP files are build artifacts and do not need commits.
+Revert the relevant pull request, then allow the Pages workflow to rebuild and deploy generated assets. Place PMTiles, indexes, and road/speed MZP files are build artifacts and do not need commits.
 
 
 ## Speed-limit records

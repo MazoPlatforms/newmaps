@@ -27,7 +27,7 @@ class PlaceTests(unittest.TestCase):
                 self.assertEqual(sum(len(places.shard_files(s)) for s in places.PLACES.iterdir()),1998)
                 self.assertTrue(all(len(places.shard_files(s))<=999 for s in places.PLACES.iterdir()))
         finally: places.PLACES=old
-    def test_migrated_counts_metadata_and_geojson(self):
+    def test_migrated_counts_metadata_and_canonical_place_features(self):
         records,shards,suspicious=places.load_places()
         mapping=json.loads((places.ROOT/'migration-record-map.json').read_text())
         aliases=places.load_aliases()
@@ -46,7 +46,7 @@ class PlaceTests(unittest.TestCase):
         self.assertEqual(sum(r['coordinates'] is not None for r in records)+len(no_coords),len(records))
         self.assertTrue(all(len(places.shard_files(s))<=999 for s in (places.PLACES).iterdir()))
         places.build()
-        geo=json.loads((places.GENERATED/'batticaloa-district.mzp').read_text())
+        geo={'type':'FeatureCollection','features':places.public_features()}
         manifest=json.loads((places.GENERATED/'manifest.json').read_text())
         self.assertEqual(len(geo['features']),manifest['features'])
         expected_features=sum(isinstance(r.get('coordinates'),dict) and classify_place(r)['eligible_for_public_map'] for r in records)

@@ -16,6 +16,15 @@ def validate():
     if not build.TILE_ARCHIVE.is_file() or not build.SEARCH_INDEX.is_file():
         raise ValueError("PMTiles archive or search index is missing; run scripts/build_map_delivery.py")
     manifest = json.loads(build.MANIFEST.read_text(encoding="utf-8"))
+    if manifest.get("production_default") != "pmtiles":
+        raise ValueError("Manifest does not select PMTiles as the sole place delivery")
+    if any(key in manifest for key in ("geojson", "bytes", "sha256")):
+        raise ValueError("Legacy MZP place delivery metadata remains in the manifest")
+    source_records, _, _ = build.places.load_places()
+    if manifest.get("source_sha256") != build.places.source_digest(source_records):
+        raise ValueError("Place manifest does not match current canonical records")
+    if (build.GENERATED / "batticaloa-district.mzp").exists():
+        raise ValueError("Obsolete place MZP archive remains in generated output")
     delivery = manifest.get("delivery", {})
     tile_entry = delivery.get("mvt_pmtiles", {})
     search_entry = delivery.get("search_index", {})
@@ -29,22 +38,22 @@ def validate():
         raise ValueError("Search index checksum does not match generated manifest")
     if hashlib.sha256(details_data).hexdigest() != details_entry.get("sha256"):
         raise ValueError("Place details checksum does not match generated manifest")
-    collection = json.loads(build.MZP.read_text(encoding="utf-8"))
-    expected = {feature["id"]: feature for feature in collection["features"]}
-    if len(expected) != len(collection["features"]):
-        raise ValueError("MZP has duplicate feature IDs")
+    expected_features = build.read_features()
+    expected = {feature["id"]: feature for feature in expected_features}
+    if len(expected) != len(expected_features):
+        raise ValueError("Canonical place source has duplicate feature IDs")
     search = json.loads(search_data)
     if search.get("version") != 1 or not isinstance(search.get("fields"), list):
         raise ValueError("Unsupported compact search index format")
     search_rows = [dict(zip(search["fields"], row)) for row in search.get("records", [])]
     search_ids = [row.get("id") for row in search_rows]
-    canonical_records, _, _ = build.places.load_places()
+    canonical_records = source_records
     public_records = {record["id"]: record for record in canonical_records
                       if build.places.classify_place(record)["eligible_for_public_map"]}
     if len(search_ids) != len(set(search_ids)) or set(search_ids) != set(public_records):
         raise ValueError("Search index does not exactly cover all eligible canonical places")
     if len(expected) != tile_entry.get("features") or len(search_ids) != search_entry.get("records"):
-        raise ValueError("Delivery record counts disagree with the MZP source")
+        raise ValueError("Delivery record counts disagree with the canonical place source")
     expected_search_fields = {"id", "name", "coordinates", "categories", "discoveryCategory"}
     if not expected_search_fields.issubset(search["fields"]):
         raise ValueError("Search index omits required place discovery fields")

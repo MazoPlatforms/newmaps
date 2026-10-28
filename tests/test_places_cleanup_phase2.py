@@ -217,13 +217,13 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
                                     for r in restored if r["id"] != titlecase_id))
                 restored_title = next(r for r in restored if r["id"] == titlecase_id)
                 self.assertEqual(restored_title["name"], "title case place")
-                geo = json.loads((places.GENERATED / "batticaloa-district.mzp").read_text())
+                geo = {"type":"FeatureCollection","features":places.public_features()}
                 self.assertEqual(len(geo["features"]), 3)
         finally:
             (cleanup.ROOT, cleanup.PLACES, cleanup.ALIASES,
              places.ROOT, places.PLACES, places.ALIASES, places.GENERATED) = old
 
-    def test_shards_mzp_and_manifest_stay_consistent(self):
+    def test_shards_and_pmtiles_source_manifest_stay_consistent(self):
         records, shard_counts, _ = places.load_places()
         mapped_ids = {row["id"] for row in json.loads((ROOT / "migration-record-map.json").read_text())}
         aliases = places.load_aliases()
@@ -233,7 +233,7 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
         self.assertEqual(sum(shard_counts.values()), len(records))
         self.assertTrue(all(count <= places.LIMIT for count in shard_counts.values()))
         places.build()
-        geo = json.loads((places.GENERATED / "batticaloa-district.mzp").read_text())
+        geo = {"type":"FeatureCollection","features":places.public_features()}
         manifest = json.loads((places.GENERATED / "manifest.json").read_text())
         self.assertEqual(len(geo["features"]), manifest["features"])
         self.assertEqual(manifest["shards"], shard_counts)
@@ -244,12 +244,11 @@ class Phase2RepositoryIntegrityTests(unittest.TestCase):
                 continue
             canonical_id = places.resolve_place_id(row["id"])
             self.assertEqual(by_id.get(canonical_id), row["after"])
-        first_hash = cleanup.sha256_file(places.GENERATED / "batticaloa-district.mzp")
         places.build()
-        self.assertEqual(cleanup.sha256_file(places.GENERATED / "batticaloa-district.mzp"), first_hash)
+        self.assertFalse((places.GENERATED / "batticaloa-district.mzp").exists())
 
     def test_map_loader_has_district_wide_coverage_without_kattankudy_clipping(self):
-        geo = json.loads((places.GENERATED / "batticaloa-district.mzp").read_text())
+        geo = {"type":"FeatureCollection","features":places.public_features()}
         features = geo["features"]
         self.assertTrue(all("withheld pending eligibility review" not in f["properties"]["name"].lower()
                             for f in features))
