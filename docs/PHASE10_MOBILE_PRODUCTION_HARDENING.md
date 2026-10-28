@@ -33,11 +33,30 @@ The previously recorded live baseline was:
 | Android emulation cold | 5,543 ms | 1,738,278 | 18.3 MB | 83 ms | 5,326 ms | 2,077,058 | 16.8 MB | 133 ms |
 | Android emulation warm | 5,039 ms | 281 | 18.8 MB | 83 ms | 4,271 ms | 282,761 | 16.6 MB | 100 ms |
 
-The baseline showed mixed results: PMTiles initialized somewhat faster and used less retained JS heap, while its first journey transferred more bytes and its emulated mobile frame p95 was worse. Actual HTTP 206 responses with valid `Content-Range` headers were observed for PMTiles. This is not a clear overall production advantage, so PMTiles remains experimental. MZP and PMTiles are compared with the same browser script and journeys; Codespaces uses software WebGL and mobile emulation, not a physical Android device. Renderer/GPU process RSS is not equivalent to JavaScript heap and was not measured in the baseline.
+The baseline showed mixed results: PMTiles initialized somewhat faster and used less retained JS heap, while its first journey transferred more bytes and its emulated mobile frame p95 was worse. Actual HTTP 206 responses with valid `Content-Range` headers were observed for PMTiles. This was not a clear overall production advantage, so PMTiles remains experimental. MZP and PMTiles are compared with the same browser script and journeys; Codespaces uses software WebGL and mobile emulation, not a physical Android device. Renderer/GPU process RSS is not equivalent to JavaScript heap and was not measured in the baseline.
 
-The [`before`](phase10/screenshots/before/) and [`after`](phase10/screenshots/after/) folders contain matched 390 × 844 Chromium captures for world, Sri Lanka, Eastern Province, Batticaloa District/coast, Kattankudy, neighborhood, and street views, in light and dark themes. The before images were captured from the live baseline; after images were captured from the Phase 10 branch against the same active remote basemap style.
+### Post-deployment comparison
 
-The post-change report will be captured from the same deployed target and settings after the protected merge/deployment. Local browser results are recorded separately from deployed comparisons.
+The same protocol was repeated against the deployed `b1b0e2da` site after Pages finished publishing: three cold and three warm runs per device/delivery pair. Each table cell is the median of its three repetitions. Encoded bytes and request counts cover the complete tested journey (startup, search/filter, details, and camera animation). Post-GC heap is JavaScript heap, not process/GPU RSS.
+
+| Emulated device/cache | Delivery | Ready ms | Journey bytes | Requests | Post-GC heap MB | Frame p95 ms | Verified PMTiles range bytes |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Desktop cold | MZP | 7,186 | 1,741,165 | 43 | 18.0 | 233 | — |
+| Desktop cold | PMTiles | 7,065 | 2,117,172 | 59 | 16.8 | 233 | 198,921 |
+| Desktop warm | MZP | 6,430 | 287 | 43 | 18.1 | 183 | — |
+| Desktop warm | PMTiles | 6,100 | 91,439 | 47 | 16.9 | 200 | 90,713 |
+| Android emulation cold | MZP | 5,848 | 1,741,135 | 43 | 17.9 | 100 | — |
+| Android emulation cold | PMTiles | 5,235 | 2,101,523 | 67 | 16.7 | 100 | 216,350 |
+| Android emulation warm | MZP | 4,349 | 266 | 43 | 17.9 | 117 | — |
+| Android emulation warm | PMTiles | 4,697 | 246,884 | 59 | 16.5 | 100 | 260,239 |
+
+This production run confirms PMTiles use: the application chose a MapLibre vector source, the benchmark observed repeated archive ranges, and GitHub Pages directly returned `206 Partial Content`, `Accept-Ranges: bytes`, and `Content-Range: bytes 0-63/1681465` for a live archive request. PMTiles has lower retained JS heap and faster cold readiness in this sample, but transfers about 360–377 KB more on cold journeys and issues more requests. Its warm transfer remains substantially larger than MZP; frame p95 is mixed. These results do not establish a clear overall production advantage, so MZP remains the default and PMTiles remains opt-in.
+
+Compared with the earlier live baseline, the optimized MZP path reduced desktop cold readiness from 8,400 to 7,186 ms and Android-emulation warm readiness from 5,039 to 4,349 ms, while other readiness/frame cells were mixed or regressed. The MZP journey bytes and request count remain effectively unchanged, so this is not a broad network-transfer reduction. Frame p95 values of 100–233 ms and 8–25 long tasks over 50 ms show that smoothness on the software renderer is still limited; no constant-frame-rate claim is made. The full raw post-deployment runs, including resource timing, network requests, long-task counts and heap samples, are in [`../reports/phase10-delivery-after.json`](../reports/phase10-delivery-after.json).
+
+The [`before`](phase10/screenshots/before/) and [`after`](phase10/screenshots/after/) folders contain matched 390 × 844 Chromium captures for world, Sri Lanka, Eastern Province, Batticaloa District/coast, Kattankudy, neighborhood, and street views, in light and dark themes. The before images were captured from the live baseline; branch after images use the same active remote basemap style. The [`production`](phase10/screenshots/production/) folder additionally contains 16 light/dark captures of those eight camera scenarios loaded directly from the deployed post-merge Pages site. They are Android-sized browser emulation, not physical-device captures.
+
+The post-change report was captured from the deployed target and settings after the protected merge/deployment. Local browser smoke results are recorded separately in [`../reports/phase10-browser-smoke.json`](../reports/phase10-browser-smoke.json) and are not mixed into the deployed comparison.
 
 ## Reproducible compression
 
