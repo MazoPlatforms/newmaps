@@ -56,7 +56,7 @@ Compared with the earlier live baseline, the optimized MZP path reduced desktop 
 
 The [`before`](phase10/screenshots/before/) and [`after`](phase10/screenshots/after/) folders contain matched 390 × 844 Chromium captures for world, Sri Lanka, Eastern Province, Batticaloa District/coast, Kattankudy, neighborhood, and street views, in light and dark themes. The before images were captured from the live baseline; branch after images use the same active remote basemap style. The [`production`](phase10/screenshots/production/) folder additionally contains 16 light/dark captures of those eight camera scenarios loaded directly from the deployed post-merge Pages site. They are Android-sized browser emulation, not physical-device captures.
 
-The post-change report is captured from the deployed target and settings after the protected merge/deployment. Local browser smoke results are recorded separately in [`../reports/phase10-browser-smoke.json`](../reports/phase10-browser-smoke.json) and are not mixed into the deployed comparison.
+The post-change report was captured from the deployed target and settings after the protected merge/deployment. Local browser smoke results are recorded separately in [`../reports/phase10-browser-smoke.json`](../reports/phase10-browser-smoke.json) and are not mixed into the deployed comparison.
 
 ## Reproducible compression
 

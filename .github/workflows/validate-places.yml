@@ -1,7 +1,7 @@
 name: Validate Mazo Places
 on:
   pull_request:
-    paths: ['data/places/**', 'data/boundaries/**', 'data/roads/**', 'data/speed-limits/**', 'data/speed-limit.schema.json', '*.json', 'scripts/**', 'tests/**', 'data/place.schema.json', 'data/road.schema.json', 'assets/js/**', 'assets/vendor/**', 'requirements-map-tiles.txt', '.github/workflows/**']
+    paths: ['data/places/**', 'data/boundaries/**', 'data/roads/**', 'data/speed-limits/**', 'data/speed-limit.schema.json', '*.json', 'scripts/**', 'tests/**', 'data/place.schema.json', 'data/road.schema.json', 'assets/js/**', 'assets/vendor/**', 'requirements-map-tiles.txt', 'docs/PHASE10_MOBILE_PRODUCTION_HARDENING.md', 'docs/phase10/**', 'reports/phase10-*.json', '.github/workflows/**']
   push:
     branches: [main]
 permissions:
