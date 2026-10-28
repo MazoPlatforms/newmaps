@@ -1,0 +1,3023 @@
+{
+  "generated_at": "2026-10-28T11:09:44.631Z",
+  "target": "https://mazoplatforms.github.io/newmaps/",
+  "browser": "Chromium 141.0.7390.37",
+  "renderer": "Headless Chromium / SwiftShader software WebGL in Codespaces",
+  "network_profile": {
+    "label": "emulated throttled network: 60 ms RTT and 5 Mbit/s down / 1 Mbit/s up",
+    "latencyMs": 60,
+    "downloadBps": 655360,
+    "uploadBps": 131072
+  },
+  "repetitions": 3,
+  "cold_cache_definition": "A fresh browser context for each cold journey. The CDN may be warm; repository responses record cache headers and edge age/cache status.",
+  "warm_cache_definition": "Same browser context reload after the identical journey with HTTP cache enabled; GitHub Pages reports max-age=600 for generated assets.",
+  "device_profiles": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "isMobile": false,
+      "hasTouch": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "name": "android-chrome-emulation",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "isMobile": true,
+      "hasTouch": true,
+      "deviceScaleFactor": 1
+    }
+  ],
+  "journeys": [
+    "startup",
+    "search and category filtering",
+    "place details",
+    "directions using deterministic mocked route response",
+    "world, Sri Lanka, Batticaloa District, Kattankudy neighborhood and street views",
+    "mouse/touch pan and zoom",
+    "offline search after index load",
+    "reconnect and manifest fetch"
+  ],
+  "results": [
+    {
+      "profile": "desktop",
+      "mode": "mzp",
+      "repetition": 1,
+      "cacheState": "cold",
+      "readyMs": 7371,
+      "searchAndFilterMs": 2903,
+      "detailsMs": 1052,
+      "directionsMs": 5483,
+      "panGestureMs": 8180,
+      "offlineSearchMs": 35,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 397,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 97,
+      "transferredEncodedBytes": 4384242,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20680668,
+        "jsHeapUsedBytesAfterForcedGc": 17181904,
+        "jsHeapTotalBytes": 18948096,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 29381704,
+        "jsHeapUsedBytesAfterForcedGc": 23568748,
+        "jsHeapTotalBytes": 24977408,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 24632260,
+        "jsHeapUsedBytesAfterForcedGc": 23196872,
+        "jsHeapTotalBytes": 24190976,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 14,
+        "p50Ms": 100,
+        "p95Ms": 216.70000000000437,
+        "maxMs": 450,
+        "longTasksOver50Ms": 13
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350848
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 3,
+          "encodedBytes": 389406
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 41,
+          "encodedBytes": 2616843
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 12,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26813
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "mzp",
+      "repetition": 1,
+      "cacheState": "warm",
+      "readyMs": 7157,
+      "searchAndFilterMs": 2775,
+      "detailsMs": 988,
+      "directionsMs": 3503,
+      "panGestureMs": 8416,
+      "offlineSearchMs": 35,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 371,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 95,
+      "transferredEncodedBytes": 5245318,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22286912,
+        "jsHeapUsedBytesAfterForcedGc": 17212224,
+        "jsHeapTotalBytes": 18685952,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 29045216,
+        "jsHeapUsedBytesAfterForcedGc": 24122924,
+        "jsHeapTotalBytes": 25501696,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 24660564,
+        "jsHeapUsedBytesAfterForcedGc": 23343724,
+        "jsHeapTotalBytes": 24190976,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 47400000,
+          "totalJSHeapSize": 72200000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 14,
+        "p50Ms": 100,
+        "p95Ms": 250,
+        "maxMs": 516.7000000000044,
+        "longTasksOver50Ms": 12
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350360
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 3,
+          "encodedBytes": 389424
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 41,
+          "encodedBytes": 3478396
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 10,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26806
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "pmtiles",
+      "repetition": 1,
+      "cacheState": "cold",
+      "readyMs": 6583,
+      "searchAndFilterMs": 2904,
+      "detailsMs": 1162,
+      "directionsMs": 4811,
+      "panGestureMs": 8131,
+      "offlineSearchMs": 33,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 396,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 144,
+      "transferredEncodedBytes": 5038393,
+      "pmtilesRangeCount": 47,
+      "pmtilesRangeBytes": 468652,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 14947152,
+        "jsHeapUsedBytesAfterForcedGc": 13060944,
+        "jsHeapTotalBytes": 14229504,
+        "domNodes": 477,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 32854504,
+        "jsHeapUsedBytesAfterForcedGc": 21799780,
+        "jsHeapTotalBytes": 23142400,
+        "domNodes": 335,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22993844,
+        "jsHeapUsedBytesAfterForcedGc": 21713800,
+        "jsHeapTotalBytes": 22618112,
+        "domNodes": 487,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 13,
+        "p50Ms": 133.29999999999563,
+        "p95Ms": 233.40000000000146,
+        "maxMs": 383.29999999999563,
+        "longTasksOver50Ms": 12
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1096237
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236716
+        },
+        "details": {
+          "requestCount": 7,
+          "encodedBytes": 712619
+        },
+        "directions": {
+          "requestCount": 11,
+          "encodedBytes": 80754
+        },
+        "rendering": {
+          "requestCount": 67,
+          "encodedBytes": 2880416
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 11,
+          "encodedBytes": 388
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 4,
+          "encodedBytes": 31263
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "pmtiles",
+      "repetition": 1,
+      "cacheState": "warm",
+      "readyMs": 7929,
+      "searchAndFilterMs": 2479,
+      "detailsMs": 1432,
+      "directionsMs": 5426,
+      "panGestureMs": 8351,
+      "offlineSearchMs": 29,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 381,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 146,
+      "transferredEncodedBytes": 5896363,
+      "pmtilesRangeCount": 47,
+      "pmtilesRangeBytes": 465330,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 21851084,
+        "jsHeapUsedBytesAfterForcedGc": 13158540,
+        "jsHeapTotalBytes": 13967360,
+        "domNodes": 477,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 28386452,
+        "jsHeapUsedBytesAfterForcedGc": 21797408,
+        "jsHeapTotalBytes": 22880256,
+        "domNodes": 369,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 23801036,
+        "jsHeapUsedBytesAfterForcedGc": 22154600,
+        "jsHeapTotalBytes": 23142400,
+        "domNodes": 521,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 33100000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 14,
+        "p50Ms": 99.90000000000146,
+        "p95Ms": 250,
+        "maxMs": 383.40000000000146,
+        "longTasksOver50Ms": 13
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1095985
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236591
+        },
+        "details": {
+          "requestCount": 7,
+          "encodedBytes": 712700
+        },
+        "directions": {
+          "requestCount": 14,
+          "encodedBytes": 85167
+        },
+        "rendering": {
+          "requestCount": 66,
+          "encodedBytes": 3738016
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 14,
+          "encodedBytes": 1121
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26783
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "pmtiles",
+      "repetition": 2,
+      "cacheState": "cold",
+      "readyMs": 7197,
+      "searchAndFilterMs": 2502,
+      "detailsMs": 1124,
+      "directionsMs": 5239,
+      "panGestureMs": 7420,
+      "offlineSearchMs": 26,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 459,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 142,
+      "transferredEncodedBytes": 5031371,
+      "pmtilesRangeCount": 47,
+      "pmtilesRangeBytes": 464974,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20917032,
+        "jsHeapUsedBytesAfterForcedGc": 15986964,
+        "jsHeapTotalBytes": 17113088,
+        "domNodes": 511,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 25268112,
+        "jsHeapUsedBytesAfterForcedGc": 21808296,
+        "jsHeapTotalBytes": 22880256,
+        "domNodes": 369,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22573620,
+        "jsHeapUsedBytesAfterForcedGc": 21776572,
+        "jsHeapTotalBytes": 22618112,
+        "domNodes": 521,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 13,
+        "p50Ms": 116.60000000000582,
+        "p95Ms": 283.40000000000146,
+        "maxMs": 366.59999999999854,
+        "longTasksOver50Ms": 12
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1096201
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236690
+        },
+        "details": {
+          "requestCount": 7,
+          "encodedBytes": 712503
+        },
+        "directions": {
+          "requestCount": 14,
+          "encodedBytes": 85211
+        },
+        "rendering": {
+          "requestCount": 66,
+          "encodedBytes": 2873750
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 10,
+          "encodedBytes": 287
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26729
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "pmtiles",
+      "repetition": 2,
+      "cacheState": "warm",
+      "readyMs": 7391,
+      "searchAndFilterMs": 2411,
+      "detailsMs": 1127,
+      "directionsMs": 5142,
+      "panGestureMs": 8022,
+      "offlineSearchMs": 40,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 981,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 152,
+      "transferredEncodedBytes": 5894569,
+      "pmtilesRangeCount": 55,
+      "pmtilesRangeBytes": 504370,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 14361888,
+        "jsHeapUsedBytesAfterForcedGc": 16018456,
+        "jsHeapTotalBytes": 16850944,
+        "domNodes": 511,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 26544648,
+        "jsHeapUsedBytesAfterForcedGc": 22652404,
+        "jsHeapTotalBytes": 24190976,
+        "domNodes": 369,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 23936944,
+        "jsHeapUsedBytesAfterForcedGc": 21816500,
+        "jsHeapTotalBytes": 22618112,
+        "domNodes": 521,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 31200000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 14,
+        "p50Ms": 100,
+        "p95Ms": 233.3000000000029,
+        "maxMs": 366.6999999999971,
+        "longTasksOver50Ms": 13
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1096063
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236714
+        },
+        "details": {
+          "requestCount": 17,
+          "encodedBytes": 754287
+        },
+        "directions": {
+          "requestCount": 14,
+          "encodedBytes": 42864
+        },
+        "rendering": {
+          "requestCount": 66,
+          "encodedBytes": 3737846
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 10,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26795
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "mzp",
+      "repetition": 2,
+      "cacheState": "cold",
+      "readyMs": 6443,
+      "searchAndFilterMs": 2505,
+      "detailsMs": 1123,
+      "directionsMs": 3898,
+      "panGestureMs": 6987,
+      "offlineSearchMs": 26,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 412,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 93,
+      "transferredEncodedBytes": 4384030,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22660444,
+        "jsHeapUsedBytesAfterForcedGc": 17068776,
+        "jsHeapTotalBytes": 18423808,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 25963140,
+        "jsHeapUsedBytesAfterForcedGc": 23205308,
+        "jsHeapTotalBytes": 23928832,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 24048932,
+        "jsHeapUsedBytesAfterForcedGc": 24073056,
+        "jsHeapTotalBytes": 24977408,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 14,
+        "p50Ms": 100,
+        "p95Ms": 250,
+        "maxMs": 400,
+        "longTasksOver50Ms": 13
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350777
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 3,
+          "encodedBytes": 389465
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 41,
+          "encodedBytes": 2616678
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 8,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26778
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "mzp",
+      "repetition": 2,
+      "cacheState": "warm",
+      "readyMs": 7562,
+      "searchAndFilterMs": 2007,
+      "detailsMs": 1473,
+      "directionsMs": 5013,
+      "panGestureMs": 8462,
+      "offlineSearchMs": 43,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 418,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 95,
+      "transferredEncodedBytes": 5245344,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 23013596,
+        "jsHeapUsedBytesAfterForcedGc": 17431148,
+        "jsHeapTotalBytes": 18948096,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 30723256,
+        "jsHeapUsedBytesAfterForcedGc": 24282064,
+        "jsHeapTotalBytes": 25763840,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 25884352,
+        "jsHeapUsedBytesAfterForcedGc": 23812524,
+        "jsHeapTotalBytes": 24977408,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 14,
+        "p50Ms": 100,
+        "p95Ms": 233.29999999999563,
+        "maxMs": 616.6999999999971,
+        "longTasksOver50Ms": 13
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350622
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 3,
+          "encodedBytes": 389438
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 41,
+          "encodedBytes": 3478149
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 10,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26803
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "mzp",
+      "repetition": 3,
+      "cacheState": "cold",
+      "readyMs": 7634,
+      "searchAndFilterMs": 2337,
+      "detailsMs": 711,
+      "directionsMs": 5254,
+      "panGestureMs": 8238,
+      "offlineSearchMs": 34,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 410,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 95,
+      "transferredEncodedBytes": 4384238,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22644908,
+        "jsHeapUsedBytesAfterForcedGc": 17148108,
+        "jsHeapTotalBytes": 18161664,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 26086012,
+        "jsHeapUsedBytesAfterForcedGc": 23203388,
+        "jsHeapTotalBytes": 24977408,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 24422292,
+        "jsHeapUsedBytesAfterForcedGc": 23268060,
+        "jsHeapTotalBytes": 24453120,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 14,
+        "p50Ms": 100,
+        "p95Ms": 249.90000000000146,
+        "maxMs": 366.59999999999854,
+        "longTasksOver50Ms": 13
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350861
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 3,
+          "encodedBytes": 389417
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 41,
+          "encodedBytes": 2616815
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 10,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26813
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "mzp",
+      "repetition": 3,
+      "cacheState": "warm",
+      "readyMs": 8557,
+      "searchAndFilterMs": 2683,
+      "detailsMs": 1101,
+      "directionsMs": 5164,
+      "panGestureMs": 8224,
+      "offlineSearchMs": 71,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 399,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 96,
+      "transferredEncodedBytes": 5257047,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20795836,
+        "jsHeapUsedBytesAfterForcedGc": 17269292,
+        "jsHeapTotalBytes": 18423808,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 27671136,
+        "jsHeapUsedBytesAfterForcedGc": 23403336,
+        "jsHeapTotalBytes": 24715264,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 25733244,
+        "jsHeapUsedBytesAfterForcedGc": 23435884,
+        "jsHeapTotalBytes": 24190976,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 44700000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 14,
+        "p50Ms": 100.09999999999854,
+        "p95Ms": 250,
+        "maxMs": 399.90000000000146,
+        "longTasksOver50Ms": 12
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350390
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 3,
+          "encodedBytes": 389438
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 41,
+          "encodedBytes": 3478430
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 11,
+          "encodedBytes": 11668
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26789
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "pmtiles",
+      "repetition": 3,
+      "cacheState": "cold",
+      "readyMs": 6897,
+      "searchAndFilterMs": 2638,
+      "detailsMs": 907,
+      "directionsMs": 5453,
+      "panGestureMs": 8519,
+      "offlineSearchMs": 21,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 407,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 142,
+      "transferredEncodedBytes": 5038423,
+      "pmtilesRangeCount": 45,
+      "pmtilesRangeBytes": 464626,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20285076,
+        "jsHeapUsedBytesAfterForcedGc": 13097548,
+        "jsHeapTotalBytes": 14229504,
+        "domNodes": 477,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 29529760,
+        "jsHeapUsedBytesAfterForcedGc": 21730700,
+        "jsHeapTotalBytes": 23142400,
+        "domNodes": 335,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 23760760,
+        "jsHeapUsedBytesAfterForcedGc": 21811348,
+        "jsHeapTotalBytes": 23142400,
+        "domNodes": 487,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 13,
+        "p50Ms": 100,
+        "p95Ms": 233.39999999999418,
+        "maxMs": 366.59999999999854,
+        "longTasksOver50Ms": 11
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1096128
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236728
+        },
+        "details": {
+          "requestCount": 7,
+          "encodedBytes": 712602
+        },
+        "directions": {
+          "requestCount": 14,
+          "encodedBytes": 85135
+        },
+        "rendering": {
+          "requestCount": 66,
+          "encodedBytes": 2876110
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 10,
+          "encodedBytes": 4897
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26823
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "mode": "pmtiles",
+      "repetition": 3,
+      "cacheState": "warm",
+      "readyMs": 7960,
+      "searchAndFilterMs": 2812,
+      "detailsMs": 1285,
+      "directionsMs": 5381,
+      "panGestureMs": 6701,
+      "offlineSearchMs": 32,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 390,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 151,
+      "transferredEncodedBytes": 5899118,
+      "pmtilesRangeCount": 52,
+      "pmtilesRangeBytes": 467175,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20330920,
+        "jsHeapUsedBytesAfterForcedGc": 13153180,
+        "jsHeapTotalBytes": 13967360,
+        "domNodes": 477,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 27884540,
+        "jsHeapUsedBytesAfterForcedGc": 21829400,
+        "jsHeapTotalBytes": 23142400,
+        "domNodes": 335,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22812200,
+        "jsHeapUsedBytesAfterForcedGc": 21808504,
+        "jsHeapTotalBytes": 22618112,
+        "domNodes": 487,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 26000000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 14,
+        "p50Ms": 100.09999999999854,
+        "p95Ms": 233.29999999999563,
+        "maxMs": 366.6999999999971,
+        "longTasksOver50Ms": 13
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1096165
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236578
+        },
+        "details": {
+          "requestCount": 13,
+          "encodedBytes": 716134
+        },
+        "directions": {
+          "requestCount": 11,
+          "encodedBytes": 80751
+        },
+        "rendering": {
+          "requestCount": 66,
+          "encodedBytes": 3737848
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 13,
+          "encodedBytes": 435
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 4,
+          "encodedBytes": 31207
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "mzp",
+      "repetition": 1,
+      "cacheState": "cold",
+      "readyMs": 5389,
+      "searchAndFilterMs": 2298,
+      "detailsMs": 520,
+      "directionsMs": 3607,
+      "panGestureMs": 5108,
+      "offlineSearchMs": 502,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 259,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 79,
+      "transferredEncodedBytes": 3096712,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22527572,
+        "jsHeapUsedBytesAfterForcedGc": 17400184,
+        "jsHeapTotalBytes": 18685952,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 23996268,
+        "jsHeapUsedBytesAfterForcedGc": 20485112,
+        "jsHeapTotalBytes": 22618112,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 23142580,
+        "jsHeapUsedBytesAfterForcedGc": 20608128,
+        "jsHeapTotalBytes": 22093824,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 34,
+        "p50Ms": 33.400000000001455,
+        "p95Ms": 100,
+        "maxMs": 216.70000000000073,
+        "longTasksOver50Ms": 8
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350945
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 2,
+          "encodedBytes": 388670
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 18,
+          "encodedBytes": 1329984
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 18,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26781
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "mzp",
+      "repetition": 1,
+      "cacheState": "warm",
+      "readyMs": 6404,
+      "searchAndFilterMs": 1573,
+      "detailsMs": 448,
+      "directionsMs": 2885,
+      "panGestureMs": 4910,
+      "offlineSearchMs": 30,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 264,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 79,
+      "transferredEncodedBytes": 3096161,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22857676,
+        "jsHeapUsedBytesAfterForcedGc": 17203948,
+        "jsHeapTotalBytes": 18423808,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 27666596,
+        "jsHeapUsedBytesAfterForcedGc": 21101112,
+        "jsHeapTotalBytes": 22355968,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 21461356,
+        "jsHeapUsedBytesAfterForcedGc": 21128468,
+        "jsHeapTotalBytes": 22093824,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 50400000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 28,
+        "p50Ms": 50,
+        "p95Ms": 100.10000000000218,
+        "maxMs": 266.7000000000007,
+        "longTasksOver50Ms": 11
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350364
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 2,
+          "encodedBytes": 388683
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 18,
+          "encodedBytes": 1330006
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 18,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26776
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "pmtiles",
+      "repetition": 1,
+      "cacheState": "cold",
+      "readyMs": 4631,
+      "searchAndFilterMs": 1941,
+      "detailsMs": 567,
+      "directionsMs": 3715,
+      "panGestureMs": 5294,
+      "offlineSearchMs": 29,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 262,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 134,
+      "transferredEncodedBytes": 3698853,
+      "pmtilesRangeCount": 40,
+      "pmtilesRangeBytes": 515646,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 19943012,
+        "jsHeapUsedBytesAfterForcedGc": 12835456,
+        "jsHeapTotalBytes": 13967360,
+        "domNodes": 477,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 29594264,
+        "jsHeapUsedBytesAfterForcedGc": 19755856,
+        "jsHeapTotalBytes": 20783104,
+        "domNodes": 335,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 21304708,
+        "jsHeapUsedBytesAfterForcedGc": 19653392,
+        "jsHeapTotalBytes": 20783104,
+        "domNodes": 487,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 33,
+        "p50Ms": 33.400000000001455,
+        "p95Ms": 100,
+        "maxMs": 283.2999999999993,
+        "longTasksOver50Ms": 9
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1096057
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236738
+        },
+        "details": {
+          "requestCount": 13,
+          "encodedBytes": 695466
+        },
+        "directions": {
+          "requestCount": 5,
+          "encodedBytes": 38392
+        },
+        "rendering": {
+          "requestCount": 34,
+          "encodedBytes": 1535293
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 33,
+          "encodedBytes": 42225
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 3,
+          "encodedBytes": 29575
+        },
+        "idle": {
+          "requestCount": 2,
+          "encodedBytes": 25107
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "pmtiles",
+      "repetition": 1,
+      "cacheState": "warm",
+      "readyMs": 5800,
+      "searchAndFilterMs": 1894,
+      "detailsMs": 883,
+      "directionsMs": 3354,
+      "panGestureMs": 4069,
+      "offlineSearchMs": 26,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 293,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 123,
+      "transferredEncodedBytes": 3681705,
+      "pmtilesRangeCount": 39,
+      "pmtilesRangeBytes": 498368,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 19814100,
+        "jsHeapUsedBytesAfterForcedGc": 13173376,
+        "jsHeapTotalBytes": 13967360,
+        "domNodes": 477,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 21333288,
+        "jsHeapUsedBytesAfterForcedGc": 20301412,
+        "jsHeapTotalBytes": 21569536,
+        "domNodes": 335,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20039064,
+        "jsHeapUsedBytesAfterForcedGc": 19717688,
+        "jsHeapTotalBytes": 20520960,
+        "domNodes": 487,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 33,
+        "p50Ms": 33.400000000001455,
+        "p95Ms": 100,
+        "maxMs": 233.39999999999782,
+        "longTasksOver50Ms": 8
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1095955
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236668
+        },
+        "details": {
+          "requestCount": 15,
+          "encodedBytes": 695418
+        },
+        "directions": {
+          "requestCount": 11,
+          "encodedBytes": 91452
+        },
+        "rendering": {
+          "requestCount": 34,
+          "encodedBytes": 1535350
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 18,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26862
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "pmtiles",
+      "repetition": 2,
+      "cacheState": "cold",
+      "readyMs": 5860,
+      "searchAndFilterMs": 1382,
+      "detailsMs": 654,
+      "directionsMs": 2252,
+      "panGestureMs": 5136,
+      "offlineSearchMs": 232,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 248,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 122,
+      "transferredEncodedBytes": 3649628,
+      "pmtilesRangeCount": 34,
+      "pmtilesRangeBytes": 372895,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 18402056,
+        "jsHeapUsedBytesAfterForcedGc": 12844408,
+        "jsHeapTotalBytes": 14229504,
+        "domNodes": 477,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 23312120,
+        "jsHeapUsedBytesAfterForcedGc": 19842324,
+        "jsHeapTotalBytes": 21307392,
+        "domNodes": 335,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 21306140,
+        "jsHeapUsedBytesAfterForcedGc": 19655172,
+        "jsHeapTotalBytes": 20783104,
+        "domNodes": 487,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 34,
+        "p50Ms": 33.400000000001455,
+        "p95Ms": 100,
+        "maxMs": 250,
+        "longTasksOver50Ms": 9
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1096070
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236642
+        },
+        "details": {
+          "requestCount": 13,
+          "encodedBytes": 691235
+        },
+        "directions": {
+          "requestCount": 7,
+          "encodedBytes": 63554
+        },
+        "rendering": {
+          "requestCount": 34,
+          "encodedBytes": 1532507
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 21,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 3,
+          "encodedBytes": 29620
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "pmtiles",
+      "repetition": 2,
+      "cacheState": "warm",
+      "readyMs": 5472,
+      "searchAndFilterMs": 1690,
+      "detailsMs": 644,
+      "directionsMs": 3795,
+      "panGestureMs": 4888,
+      "offlineSearchMs": 33,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 239,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 129,
+      "transferredEncodedBytes": 3673619,
+      "pmtilesRangeCount": 35,
+      "pmtilesRangeBytes": 435186,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20538584,
+        "jsHeapUsedBytesAfterForcedGc": 13022208,
+        "jsHeapTotalBytes": 13705216,
+        "domNodes": 477,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 26667672,
+        "jsHeapUsedBytesAfterForcedGc": 19609596,
+        "jsHeapTotalBytes": 20783104,
+        "domNodes": 335,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20776080,
+        "jsHeapUsedBytesAfterForcedGc": 19639596,
+        "jsHeapTotalBytes": 20520960,
+        "domNodes": 487,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 24500000,
+          "totalJSHeapSize": 44700000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 32,
+        "p50Ms": 33.5,
+        "p95Ms": 99.90000000000146,
+        "maxMs": 216.59999999999854,
+        "longTasksOver50Ms": 8
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1095969
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236595
+        },
+        "details": {
+          "requestCount": 13,
+          "encodedBytes": 712656
+        },
+        "directions": {
+          "requestCount": 11,
+          "encodedBytes": 66218
+        },
+        "rendering": {
+          "requestCount": 34,
+          "encodedBytes": 1535369
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 26,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26812
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "mzp",
+      "repetition": 2,
+      "cacheState": "cold",
+      "readyMs": 5241,
+      "searchAndFilterMs": 1547,
+      "detailsMs": 462,
+      "directionsMs": 2388,
+      "panGestureMs": 5212,
+      "offlineSearchMs": 50,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 231,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 85,
+      "transferredEncodedBytes": 3096648,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 21643036,
+        "jsHeapUsedBytesAfterForcedGc": 17104864,
+        "jsHeapTotalBytes": 18161664,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 31214488,
+        "jsHeapUsedBytesAfterForcedGc": 21178512,
+        "jsHeapTotalBytes": 23142400,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 23831224,
+        "jsHeapUsedBytesAfterForcedGc": 21014464,
+        "jsHeapTotalBytes": 21569536,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 34,
+        "p50Ms": 33.39999999999782,
+        "p95Ms": 100,
+        "maxMs": 250,
+        "longTasksOver50Ms": 8
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350875
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 2,
+          "encodedBytes": 388649
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 18,
+          "encodedBytes": 1330013
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 24,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26779
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "mzp",
+      "repetition": 2,
+      "cacheState": "warm",
+      "readyMs": 5585,
+      "searchAndFilterMs": 1434,
+      "detailsMs": 538,
+      "directionsMs": 3151,
+      "panGestureMs": 4631,
+      "offlineSearchMs": 28,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 223,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 81,
+      "transferredEncodedBytes": 3096347,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22173864,
+        "jsHeapUsedBytesAfterForcedGc": 17092748,
+        "jsHeapTotalBytes": 18423808,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 30894632,
+        "jsHeapUsedBytesAfterForcedGc": 21268432,
+        "jsHeapTotalBytes": 22618112,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 21778496,
+        "jsHeapUsedBytesAfterForcedGc": 20988220,
+        "jsHeapTotalBytes": 22093824,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 64000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 31,
+        "p50Ms": 50,
+        "p95Ms": 100,
+        "maxMs": 349.90000000000146,
+        "longTasksOver50Ms": 11
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350552
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 4,
+          "encodedBytes": 390236
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 16,
+          "encodedBytes": 1328423
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 20,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26804
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "mzp",
+      "repetition": 3,
+      "cacheState": "cold",
+      "readyMs": 5395,
+      "searchAndFilterMs": 1511,
+      "detailsMs": 491,
+      "directionsMs": 3396,
+      "panGestureMs": 5209,
+      "offlineSearchMs": 33,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 248,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 83,
+      "transferredEncodedBytes": 3096787,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22619564,
+        "jsHeapUsedBytesAfterForcedGc": 17199416,
+        "jsHeapTotalBytes": 18161664,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 25292532,
+        "jsHeapUsedBytesAfterForcedGc": 20721472,
+        "jsHeapTotalBytes": 22093824,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 22549136,
+        "jsHeapUsedBytesAfterForcedGc": 20733712,
+        "jsHeapTotalBytes": 21831680,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 33,
+        "p50Ms": 33.400000000001455,
+        "p95Ms": 100,
+        "maxMs": 266.6000000000022,
+        "longTasksOver50Ms": 8
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350919
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 3,
+          "encodedBytes": 389484
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 17,
+          "encodedBytes": 1329272
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 22,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26780
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "mzp",
+      "repetition": 3,
+      "cacheState": "warm",
+      "readyMs": 5545,
+      "searchAndFilterMs": 1635,
+      "detailsMs": 427,
+      "directionsMs": 2627,
+      "panGestureMs": 4769,
+      "offlineSearchMs": 25,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 260,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 87,
+      "transferredEncodedBytes": 3096609,
+      "pmtilesRangeCount": 0,
+      "pmtilesRangeBytes": 0,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 19647268,
+        "jsHeapUsedBytesAfterForcedGc": 17516564,
+        "jsHeapTotalBytes": 18161664,
+        "domNodes": 510,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 30383072,
+        "jsHeapUsedBytesAfterForcedGc": 21112604,
+        "jsHeapTotalBytes": 22355968,
+        "domNodes": 368,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 21637120,
+        "jsHeapUsedBytesAfterForcedGc": 21152292,
+        "jsHeapTotalBytes": 21831680,
+        "domNodes": 520,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 42100000,
+          "totalJSHeapSize": 68000000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 33,
+        "p50Ms": 33.400000000001455,
+        "p95Ms": 100,
+        "maxMs": 383.40000000000146,
+        "longTasksOver50Ms": 8
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 39,
+          "encodedBytes": 1350450
+        },
+        "search": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "details": {
+          "requestCount": 4,
+          "encodedBytes": 390263
+        },
+        "directions": {
+          "requestCount": 1,
+          "encodedBytes": 332
+        },
+        "rendering": {
+          "requestCount": 16,
+          "encodedBytes": 1328807
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 26,
+          "encodedBytes": 0
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26757
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "pmtiles",
+      "repetition": 3,
+      "cacheState": "cold",
+      "readyMs": 5382,
+      "searchAndFilterMs": 1507,
+      "detailsMs": 812,
+      "directionsMs": 2940,
+      "panGestureMs": 5333,
+      "offlineSearchMs": 32,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 239,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 141,
+      "transferredEncodedBytes": 3669232,
+      "pmtilesRangeCount": 40,
+      "pmtilesRangeBytes": 496990,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20154396,
+        "jsHeapUsedBytesAfterForcedGc": 13306864,
+        "jsHeapTotalBytes": 14491648,
+        "domNodes": 477,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 24093744,
+        "jsHeapUsedBytesAfterForcedGc": 19670748,
+        "jsHeapTotalBytes": 20783104,
+        "domNodes": 335,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 21125480,
+        "jsHeapUsedBytesAfterForcedGc": 19689160,
+        "jsHeapTotalBytes": 20783104,
+        "domNodes": 487,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 32,
+        "p50Ms": 33.400000000001455,
+        "p95Ms": 83.40000000000146,
+        "maxMs": 266.59999999999854,
+        "longTasksOver50Ms": 9
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1096030
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236651
+        },
+        "details": {
+          "requestCount": 19,
+          "encodedBytes": 699641
+        },
+        "directions": {
+          "requestCount": 5,
+          "encodedBytes": 38378
+        },
+        "rendering": {
+          "requestCount": 34,
+          "encodedBytes": 1532421
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 34,
+          "encodedBytes": 19813
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 3,
+          "encodedBytes": 29605
+        },
+        "idle": {
+          "requestCount": 2,
+          "encodedBytes": 16693
+        }
+      },
+      "errors": []
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "mode": "pmtiles",
+      "repetition": 3,
+      "cacheState": "warm",
+      "readyMs": 5650,
+      "searchAndFilterMs": 1744,
+      "detailsMs": 559,
+      "directionsMs": 3258,
+      "panGestureMs": 4563,
+      "offlineSearchMs": 25,
+      "offlineVisiblePlaces": 3,
+      "reconnectMs": 226,
+      "reconnectResponse": {
+        "status": 200,
+        "ok": true
+      },
+      "requestCount": 136,
+      "transferredEncodedBytes": 3656988,
+      "pmtilesRangeCount": 41,
+      "pmtilesRangeBytes": 444132,
+      "journeyGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20257856,
+        "jsHeapUsedBytesAfterForcedGc": 12943920,
+        "jsHeapTotalBytes": 13967360,
+        "domNodes": 477,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postAnimationGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 26973032,
+        "jsHeapUsedBytesAfterForcedGc": 20094276,
+        "jsHeapTotalBytes": 21569536,
+        "domNodes": 335,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "postReconnectGcHeap": {
+        "jsHeapUsedBytesBeforeGc": 20557668,
+        "jsHeapUsedBytesAfterForcedGc": 19719816,
+        "jsHeapTotalBytes": 21045248,
+        "domNodes": 487,
+        "documents": 3,
+        "memoryApiBeforeGc": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000
+        },
+        "memoryApi": {
+          "usedJSHeapSize": 27600000,
+          "totalJSHeapSize": 47400000,
+          "jsHeapSizeLimit": 2330000000
+        }
+      },
+      "frameTiming": {
+        "samples": 33,
+        "p50Ms": 33.400000000001455,
+        "p95Ms": 100,
+        "maxMs": 233.40000000000146,
+        "longTasksOver50Ms": 10
+      },
+      "stageTotals": {
+        "startup": {
+          "requestCount": 43,
+          "encodedBytes": 1095869
+        },
+        "search": {
+          "requestCount": 1,
+          "encodedBytes": 236653
+        },
+        "details": {
+          "requestCount": 17,
+          "encodedBytes": 691242
+        },
+        "directions": {
+          "requestCount": 11,
+          "encodedBytes": 28366
+        },
+        "rendering": {
+          "requestCount": 33,
+          "encodedBytes": 1529922
+        },
+        "pan": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "camera": {
+          "requestCount": 30,
+          "encodedBytes": 48158
+        },
+        "offline": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        },
+        "reconnect": {
+          "requestCount": 1,
+          "encodedBytes": 26778
+        },
+        "idle": {
+          "requestCount": 0,
+          "encodedBytes": 0
+        }
+      },
+      "errors": []
+    }
+  ],
+  "summary": {
+    "desktop": {
+      "mzp": {
+        "cold": {
+          "runs": 3,
+          "readyMsMedian": 7371,
+          "encodedBytesMedian": 4384238,
+          "forcedGcHeapBytesMedian": 23205308,
+          "animationFrameP95MsMedian": 249.90000000000146,
+          "animationLongTasksOver50MsMedian": 13,
+          "pmtilesRangeBytesMedian": 0
+        },
+        "warm": {
+          "runs": 3,
+          "readyMsMedian": 7562,
+          "encodedBytesMedian": 5245344,
+          "forcedGcHeapBytesMedian": 24122924,
+          "animationFrameP95MsMedian": 250,
+          "animationLongTasksOver50MsMedian": 12,
+          "pmtilesRangeBytesMedian": 0
+        }
+      },
+      "pmtiles": {
+        "cold": {
+          "runs": 3,
+          "readyMsMedian": 6897,
+          "encodedBytesMedian": 5038393,
+          "forcedGcHeapBytesMedian": 21799780,
+          "animationFrameP95MsMedian": 233.40000000000146,
+          "animationLongTasksOver50MsMedian": 12,
+          "pmtilesRangeBytesMedian": 464974
+        },
+        "warm": {
+          "runs": 3,
+          "readyMsMedian": 7929,
+          "encodedBytesMedian": 5896363,
+          "forcedGcHeapBytesMedian": 21829400,
+          "animationFrameP95MsMedian": 233.3000000000029,
+          "animationLongTasksOver50MsMedian": 13,
+          "pmtilesRangeBytesMedian": 467175
+        }
+      }
+    },
+    "android-chrome-emulation": {
+      "mzp": {
+        "cold": {
+          "runs": 3,
+          "readyMsMedian": 5389,
+          "encodedBytesMedian": 3096712,
+          "forcedGcHeapBytesMedian": 20721472,
+          "animationFrameP95MsMedian": 100,
+          "animationLongTasksOver50MsMedian": 8,
+          "pmtilesRangeBytesMedian": 0
+        },
+        "warm": {
+          "runs": 3,
+          "readyMsMedian": 5585,
+          "encodedBytesMedian": 3096347,
+          "forcedGcHeapBytesMedian": 21112604,
+          "animationFrameP95MsMedian": 100,
+          "animationLongTasksOver50MsMedian": 11,
+          "pmtilesRangeBytesMedian": 0
+        }
+      },
+      "pmtiles": {
+        "cold": {
+          "runs": 3,
+          "readyMsMedian": 5382,
+          "encodedBytesMedian": 3669232,
+          "forcedGcHeapBytesMedian": 19755856,
+          "animationFrameP95MsMedian": 100,
+          "animationLongTasksOver50MsMedian": 9,
+          "pmtilesRangeBytesMedian": 496990
+        },
+        "warm": {
+          "runs": 3,
+          "readyMsMedian": 5650,
+          "encodedBytesMedian": 3673619,
+          "forcedGcHeapBytesMedian": 20094276,
+          "animationFrameP95MsMedian": 100,
+          "animationLongTasksOver50MsMedian": 8,
+          "pmtilesRangeBytesMedian": 444132
+        }
+      }
+    }
+  },
+  "errors": [],
+  "physical_android_testing": "Unavailable: no adb executable or attached Android device was found in this Codespace.",
+  "notes": [
+    "Only encoded transfer sizes measured by Chromium are reported; PMTiles range bytes are separately summed from archive responses.",
+    "The CDN could already have warm edge cache despite new browser contexts; cold means browser HTTP cache cleared/fresh context.",
+    "Offline check was session continuity after place search data had loaded; cold offline startup and external basemap availability are not claimed.",
+    "Directions used the same deterministic mocked OSRM response for both modes; route service network differences were excluded."
+  ]
+}
