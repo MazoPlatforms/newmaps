@@ -1,4 +1,5 @@
 import hashlib
+import gzip
 import json
 import sys
 import unittest
@@ -64,6 +65,12 @@ class MapDeliveryTests(unittest.TestCase):
         after = [delivery.digest(path.read_bytes()) for path in
                  (delivery.TILE_ARCHIVE, delivery.SEARCH_INDEX, delivery.DETAIL_INDEX)]
         self.assertEqual(before, after)
+
+    def test_pmtiles_directory_and_metadata_gzip_settings_are_explicit(self):
+        payload = b"deterministic PMTiles directory payload"
+        expected = gzip.compress(payload, compresslevel=9, mtime=0)
+        self.assertEqual(delivery.pmtiles_tile.gzip.compress(payload), expected)
+        self.assertEqual(delivery.pmtiles_writer.gzip.compress(payload), expected)
 
     def test_pmtiles_is_the_only_place_delivery_and_road_speed_mzp_are_retained(self):
         manifest = json.loads(delivery.MANIFEST.read_text(encoding="utf-8"))

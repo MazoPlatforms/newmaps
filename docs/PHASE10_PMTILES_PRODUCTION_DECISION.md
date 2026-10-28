@@ -41,7 +41,9 @@ PMTiles reduced post-GC JS heap by about 6–10% in these samples and was faster
 
 ## Integrity and build repeatability
 
-The rebuilt manifest reports 4,498 place map features, 4,500 searchable eligible places, 1,086 aliases, and 1,223 PMTiles tiles at zoom 4–16. All source shard limits remain at or below 999. Local repeated builds produced the same PMTiles SHA-256 (`61db5cc278f3d60a6ae98d777a5d06439239a420d611765b5be90b2aa2af7e6c`) and size (1,681,457 bytes). Tile gzip uses level 9 and `mtime=0`; the MVT, PMTiles, and Shapely package versions are pinned, and GitHub Actions pins Python 3.15.1. This verifies repeatability within the current local toolchain; cross-runtime byte identity is not claimed because the Codespace uses Python 3.14.2 and a different system zlib than Actions. The previous 203-byte local/CI difference should be checked against the next CI build artifact before claiming cross-runtime determinism.
+The rebuilt manifest reports 4,498 place map features, 4,500 searchable eligible places, 1,086 aliases, and 1,223 PMTiles tiles at zoom 4–16. All source shard limits remain at or below 999. Local repeated builds produced the same PMTiles SHA-256 (`61db5cc278f3d60a6ae98d777a5d06439239a420d611765b5be90b2aa2af7e6c`) and size (1,681,457 bytes). Tile gzip uses level 9 and `mtime=0`; the MVT, PMTiles, and Shapely package versions are pinned, and GitHub Actions pins Python 3.15.1.
+
+Post-merge live verification found an 8-byte local/CI archive difference in the compressed root directory (the decompressed directory and every tile payload matched). The PMTiles library had relied on Python's default gzip compression level for directories and metadata. The follow-up pins those library calls to gzip level 9 and `mtime=0`, with a regression test. Cross-runtime byte identity remains pending until the follow-up CI deployment's archive checksum is compared with a fresh local build.
 
 The canonical place JSON, ULIDs, aliases, place eligibility state, roads, speed limits, and supplementary maxspeed source data were not edited by this change.
 
