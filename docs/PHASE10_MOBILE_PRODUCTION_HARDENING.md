@@ -1,3 +1,5 @@
+> **Superseded status:** This earlier report records the pre-migration MZP-default decision. Phase 10 later promoted PMTiles after a complete controlled browser comparison and removed the place MZP fallback. See [the final production decision](PHASE10_PMTILES_PRODUCTION_DECISION.md). Historical measurements below are retained as a record of earlier runs.
+
 # Phase 10 — Mobile performance and production hardening
 
 ## Scope and preserved behavior

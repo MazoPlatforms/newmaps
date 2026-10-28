@@ -1,6 +1,5 @@
 import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs';
 import { createPlaceLookup, decodePlaceDetails, decodeSearchIndex } from './place-delivery.mjs';
-import { discoveryCategoryFor } from './place-categories.mjs';
 import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=phase9-cartography-1';
 import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=phase9-basemap-audit-1';
 
@@ -30,7 +29,7 @@ if(new URLSearchParams(location.search).has('map-test'))window.__MAZO_MAP_TEST__
 configureNorthUpInteractions(map);
 // Minimal map chrome: touch gestures remain available without zoom buttons.
 let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false,pmtilesProtocol=null;
-let deliveryMode='mzp',placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchIndexPromise=null,placeDetailsLoaded=false,pmtilesFallbackStarted=false;
+let placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchIndexPromise=null,placeDetailsLoaded=false;
 let presentedCategory=null,presentedSelectedId=null,presentedVisibility=null;
 // Presentation-only Sri Lankan postal address cleanup. This never invents a house number.
 function displaySriLankanAddress(value){
@@ -81,7 +80,6 @@ const artwork={food:['#b75e37','M7 3v7m3-7v7M5 7h7v3a3 3 0 0 1-3 3v8m9-18v18m0-1
 const POI_SOURCE='mazo-pois';
 const SELECTED_POI_SOURCE='mazo-selected-place';
 const POI_LAYERS=['mazo-poi-major','mazo-poi-district','mazo-poi-local','mazo-poi-selected'];
-let poiFeatureCollection=null;
 function priority(p){return placePriority(p)}
 function iconFor(k){return 'mazo-'+k}
 function registerIcons(){
@@ -112,7 +110,6 @@ function registerIcons(){
   map.addImage(id,ctx.getImageData(0,0,64,64),{pixelRatio:2});
  }
 }
-function poiFeatures(){return {type:'FeatureCollection',features:places.filter(place=>place.coordinates&&Number.isFinite(+place.coordinates.longitude)&&Number.isFinite(+place.coordinates.latitude)).map(placeFeature)}}
 function selectedPoiFeatures(){return {type:'FeatureCollection',features:selectedPlace?.coordinates&&Number.isFinite(+selectedPlace.coordinates.longitude)&&Number.isFinite(+selectedPlace.coordinates.latitude)?[placeFeature(selectedPlace)]:[]}}
 function poiLayout(){return {
  'icon-image':['concat','mazo-',['get','kind']],
@@ -128,7 +125,7 @@ function poiLayout(){return {
  'symbol-sort-key':['get','priority'],
 }}
 function addPoiSymbolLayer(id,tier,minzoom){
- map.addLayer({id,type:'symbol',source:POI_SOURCE,...(deliveryMode==='pmtiles'?{'source-layer':'places'}:{}),minzoom,filter:poiLayerFilter(tier,category),layout:poiLayout(),paint:{
+ map.addLayer({id,type:'symbol',source:POI_SOURCE,'source-layer':'places',minzoom,filter:poiLayerFilter(tier,category),layout:poiLayout(),paint:{
   'icon-opacity':1,'text-opacity':1,
   'text-color':MAZO_PALETTE[theme()].label,
   'text-halo-color':MAZO_PALETTE[theme()].halo,'text-halo-width':1.6,
@@ -140,11 +137,9 @@ function visiblePoiFilter(tier){
 }
 function ensurePoiLayer(){
  if(!map.getStyle()?.layers)return;
- if(deliveryMode==='pmtiles'&&!window.mazoPmtilesUrl)return;
- if(deliveryMode==='mzp')poiFeatureCollection ||= poiFeatures();
+ if(!window.mazoPmtilesUrl)return;
  if(!map.getSource(POI_SOURCE)){
-  if(deliveryMode==='pmtiles')map.addSource(POI_SOURCE,{type:'vector',url:window.mazoPmtilesUrl,promoteId:{places:'id'}});
-  else map.addSource(POI_SOURCE,{type:'geojson',data:poiFeatureCollection,promoteId:'id',buffer:64});
+  map.addSource(POI_SOURCE,{type:'vector',url:window.mazoPmtilesUrl,promoteId:{places:'id'}});
  }
  if(!map.getSource(SELECTED_POI_SOURCE))map.addSource(SELECTED_POI_SOURCE,{type:'geojson',data:selectedPoiFeatures(),promoteId:'id'});
  registerIcons();
@@ -176,11 +171,11 @@ function updatePoiPresentation(){
   presentedVisibility=placesVisible;
  }
 }
-function selectPmtilesPlace(id){
+function selectVectorPlace(id){
  const choose=()=>{const place=placeById.get(String(id));if(place&&selectedPlace?.id!==place.id)openPlace(place)};
  if(placeById.has(String(id)))choose();else ensureSearchIndex().then(choose).catch(console.error);
 }
-map.on('click',POI_LAYERS.slice(0,3),e=>{if(!routePanel.hidden)return;const properties=e.features?.[0]?.properties||{};const place=placeById.get(String(properties.id));if(place&&selectedPlace?.id!==place.id)openPlace(place);else if(!place&&deliveryMode==='pmtiles')selectPmtilesPlace(properties.id)});
+map.on('click',POI_LAYERS.slice(0,3),e=>{if(!routePanel.hidden)return;const properties=e.features?.[0]?.properties||{};const place=placeById.get(String(properties.id));if(place&&selectedPlace?.id!==place.id)openPlace(place);else if(!place)selectVectorPlace(properties.id)});
 map.on('mouseenter',POI_LAYERS.slice(0,3),()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',POI_LAYERS.slice(0,3),()=>map.getCanvas().style.cursor='');
 let selectedPlace=null,sheetState='half',dragStart=null,dragDelta=0,closeTimer=null;
@@ -207,7 +202,7 @@ function openPlace(p,{preserveHistory=false}={}){
  selectedPlace=p;clearTimeout(closeTimer);sheet.classList.remove('is-closing');sheet.hidden=false;setSheetState('half');
  updatePoiPresentation();
  renderPlaceDetails(p);
- if(deliveryMode==='pmtiles'&&!placeDetailsLoaded)loadPlaceDetails().then(details=>{for(const [id,full] of details){const place=placeById.get(id);if(place)Object.assign(place,full)}placeDetailsLoaded=true;if(selectedPlace?.id===p.id)renderPlaceDetails(p)}).catch(error=>console.warn('Optional place details unavailable:',error));
+ if(!placeDetailsLoaded)loadPlaceDetails().then(details=>{for(const [id,full] of details){const place=placeById.get(id);if(place)Object.assign(place,full)}placeDetailsLoaded=true;if(selectedPlace?.id===p.id)renderPlaceDetails(p)}).catch(error=>console.warn('Optional place details unavailable:',error));
  const c=p.coordinates;if(c&&Number.isFinite(+c.latitude)&&Number.isFinite(+c.longitude))map.easeTo({center:[+c.longitude,+c.latitude],zoom:Math.max(map.getZoom(),16),bearing:0,pitch:0,padding:{bottom:Math.round(window.innerHeight*.25)},duration:cameraDuration(400)});
 }
 window.addEventListener('popstate',event=>{
@@ -437,12 +432,12 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sheet.hidden)close
   if(!sheet.hidden||!routePanel.hidden)return;
   const layers=POI_LAYERS.filter(id=>map.getLayer(id));
   const features=map.queryRenderedFeatures([[e.point.x-14,e.point.y-14],[e.point.x+14,e.point.y+14]],{layers});
-  for(const f of features){const place=placeById.get(String(f.properties?.id));if(place){if(selectedPlace?.id!==place.id)openPlace(place);return}if(deliveryMode==='pmtiles'){selectPmtilesPlace(f.properties?.id);return}}
+  for(const f of features){const place=placeById.get(String(f.properties?.id));if(place){if(selectedPlace?.id!==place.id)openPlace(place);return}selectVectorPlace(f.properties?.id);return}
  });
 
 function refresh(){
  const q=$('#map-search').value.trim();
- if(deliveryMode==='pmtiles'&&!placeSearchIndex&&(q||nearbyMode)){
+ if(!placeSearchIndex&&(q||nearbyMode)){
   const results=$('#search-results'),input=$('#map-search');results.replaceChildren();const loading=document.createElement('p');loading.className='search-empty';loading.textContent='Loading full place search…';results.append(loading);results.hidden=false;input.setAttribute('aria-expanded','true');updatePoiPresentation();ensureSearchIndex().then(refresh).catch(error=>{loading.textContent='Place search could not be loaded.';console.error('Search index:',error)});return;
  }
  const ranked=placeSearchIndex?.search({query:q,category,origin:nearbyMode?nearbyOrigin:null,maxDistanceMeters:nearbyMode?10000:Infinity})||[];
@@ -542,9 +537,10 @@ map.on('click',SPEED_LAYER,e=>{
 map.on('mouseenter',SPEED_LAYER,()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',SPEED_LAYER,()=>map.getCanvas().style.cursor='');
 map.on('error',event=>{
- if(deliveryMode==='pmtiles'&&!pmtilesFallbackStarted&&event.sourceId===POI_SOURCE){
-  pmtilesFallbackStarted=true;console.warn('PMTiles source failed; restoring the MZP GeoJSON source.',event.error);
-  ensureSearchIndex().then(()=>switchPoiSource('mzp')).catch(error=>console.error('PMTiles fallback search index:',error));
+ if(event.sourceId===POI_SOURCE){
+  const status=$('#search-status'),retry=$('#places-retry');
+  status.hidden=false;status.classList.add('is-error');status.textContent='Place map tiles could not be loaded. Search may still work; check your connection and retry.';
+  retry.hidden=false;console.error('PMTiles place source error:',event.error);
  }
 });
 
@@ -576,14 +572,6 @@ async function loadPlaceDetails(){
  if(!placeDetailPromise){const entry=deliveryManifest?.delivery?.place_details;if(!entry)throw Error('Place details index is not in the manifest');placeDetailPromise=checkedJson('./generated/'+entry.file,entry.sha256).then(decodePlaceDetails)}
  return placeDetailPromise;
 }
-function switchPoiSource(mode){
- deliveryMode=mode;
- for(const id of [...POI_LAYERS].reverse())if(map.getLayer(id))map.removeLayer(id);
- if(map.getSource(POI_SOURCE))map.removeSource(POI_SOURCE);
- poiFeatureCollection=mode==='mzp'?poiFeatures():null;
- presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;
- ensurePoiLayer();
-}
 async function loadPmtiles(manifest){
  const entry=manifest.delivery?.mvt_pmtiles,index=manifest.delivery?.search_index;if(!entry||!index)throw Error('PMTiles delivery is not present in manifest');
  const script=await new Promise((resolve,reject)=>{if(window.pmtiles)return resolve();const tag=document.createElement('script');tag.src='./assets/vendor/pmtiles-4.5.0.js';tag.onload=resolve;tag.onerror=()=>reject(Error('PMTiles protocol library could not be loaded'));document.head.append(tag)});
@@ -591,23 +579,18 @@ async function loadPmtiles(manifest){
  const archiveUrl=new URL('./generated/'+entry.file,location.href).href+'?v='+entry.sha256;const archive=new window.pmtiles.PMTiles(archiveUrl);
  const header=await archive.getHeader(),metadata=await archive.getMetadata();
  if(!metadata.vector_layers?.some(layer=>layer.id==='places')||header.minZoom!==entry.min_zoom||header.maxZoom!==entry.max_zoom)throw Error('PMTiles archive metadata mismatch');
- pmtilesProtocol=new window.pmtiles.Protocol();pmtilesProtocol.add(archive);maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile);
- window.mazoPmtilesUrl='pmtiles://'+archiveUrl;deliveryManifest=manifest;switchPoiSource('pmtiles');
+ if(!pmtilesProtocol){pmtilesProtocol=new window.pmtiles.Protocol();maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile)}
+ pmtilesProtocol.add(archive);
+ window.mazoPmtilesUrl='pmtiles://'+archiveUrl;deliveryManifest=manifest;
+ for(const id of [...POI_LAYERS].reverse())if(map.getLayer(id))map.removeLayer(id);
+ if(map.getSource(POI_SOURCE))map.removeSource(POI_SOURCE);
+ presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;ensurePoiLayer();
  renderCategoryFilters();refresh();const status=$('#search-status');status.hidden=true;status.textContent='';
 }
-async function loadMZP(manifest){
- const collection=await checkedJson('./generated/'+manifest.geojson,manifest.sha256);
- if(collection.type!=='FeatureCollection'||collection.features.length!==manifest.features)throw Error('MZP manifest mismatch');
- const seen=new Set();for(const feature of collection.features){const p={...feature.properties,id:feature.id,coordinates:{longitude:feature.geometry.coordinates[0],latitude:feature.geometry.coordinates[1]}};if(!p?.name||!Number.isFinite(+p.coordinates.latitude)||!Number.isFinite(+p.coordinates.longitude))continue;const id=window.resolveMazoPlaceId(p.id);if(seen.has(id))continue;seen.add(id);const normalized={...p,name:canonicalPlaceName(p.name),address:displaySriLankanAddress(p.address),discoveryCategory:discoveryCategoryFor(p)};places.push(normalized);placeById.set(id,normalized)}
- deliveryMode='mzp';poiFeatureCollection=poiFeatures();if(map.getSource(POI_SOURCE)){if(map.getSource(POI_SOURCE).setData)map.getSource(POI_SOURCE).setData(poiFeatureCollection);else switchPoiSource('mzp')}
- placeSearchIndex=createPlaceSearchIndex(places,placeAliases);placeById=createPlaceLookup(places,placeAliases);renderCategoryFilters();try{ensurePoiLayer()}catch(error){console.warn('Native POI initialization:',error)}refresh();
-}
-async function loadPlaceData(){const status=$('#search-status'),retry=$('#places-retry');retry.hidden=true;status.hidden=false;status.classList.remove('is-error');status.textContent='Loading places…';places=[];placeById.clear();placeSearchIndex=null;poiFeatureCollection=null;try{const response=await fetch('./generated/manifest.json',{cache:'no-cache'});if(!response.ok)throw Error('Manifest '+response.status);const manifest=await response.json();deliveryManifest=manifest;placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};
- if(new URLSearchParams(location.search).get('delivery')==='pmtiles'){
-  try{await loadPmtiles(manifest)}catch(error){console.warn('Experimental PMTiles delivery unavailable; using MZP.',error);places=[];placeById.clear();window.mazoPmtilesUrl=null;deliveryMode='mzp';await loadMZP(manifest)}
- }else await loadMZP(manifest);
+async function loadPlaceData(){const status=$('#search-status'),retry=$('#places-retry');retry.hidden=true;status.hidden=false;status.classList.remove('is-error');status.textContent='Loading places…';places=[];placeById.clear();placeSearchIndex=null;searchIndexPromise=null;placeDetailsLoaded=false;placeDetailPromise=null;try{const response=await fetch('./generated/manifest.json',{cache:'no-cache'});if(!response.ok)throw Error('Manifest '+response.status);const manifest=await response.json();if(manifest.production_default!=='pmtiles'||manifest.format!=='PMTiles/1')throw Error('The place manifest does not declare PMTiles as its sole delivery format');deliveryManifest=manifest;placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};
+ await loadPmtiles(manifest);
  status.hidden=true;status.textContent='';status.classList.remove('is-error');retry.hidden=true;
-}catch(error){status.hidden=false;status.textContent='Places could not be loaded. Check your connection, then retry.';status.classList.add('is-error');retry.hidden=false;console.error('Place data error:',error)}}
+}catch(error){status.hidden=false;status.textContent='Place map tiles could not be loaded. Search may still work; check your connection and retry.';status.classList.add('is-error');retry.hidden=false;console.error('Place data error:',error);if(deliveryManifest)void ensureSearchIndex().catch(indexError=>console.warn('Place search index unavailable:',indexError))}}
 $('#places-retry').onclick=()=>void loadPlaceData();
 void loadPlaceData();
 window.addEventListener('offline',()=>{const message=$('#network-status');message.textContent='You are offline. The basemap may stop updating; already loaded places remain available.';message.hidden=false});

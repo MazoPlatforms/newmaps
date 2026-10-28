@@ -1,3 +1,5 @@
+> **Historical snapshot:** This report describes the Phase 9 deployment before the Phase 10 sole-format migration. Current production place delivery is PMTiles only; the current measured decision is documented in [Phase 10 PMTiles production decision](PHASE10_PMTILES_PRODUCTION_DECISION.md).
+
 # Phase 9 — Cartographic redesign and intelligent POI rendering
 
 ## Scope and result

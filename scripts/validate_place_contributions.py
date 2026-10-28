@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate contributed place records, aliases, duplicate flags, and MZP output.
+"""Validate contributed place records, aliases, duplicate flags, and PMTiles output.
 
 This script is intentionally offline. Run it in a read-only pull-request job with
 no secrets; it validates the checked-out tree and emits review warnings only.
@@ -8,7 +8,6 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
-import hashlib
 import json
 import math
 import re
@@ -19,6 +18,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import places
+import build_map_delivery
+import validate_map_delivery
 from place_eligibility import classify_place
 from place_names import normalize_place_name
 
@@ -294,21 +295,21 @@ def validate_changes(base_ref: str, head_ref: str) -> dict:
         raise ValueError("\n".join(errors))
 
     # Build and check the exact public output. Existing withheld records remain in
-    # source storage with null coordinates and can never enter this feature list.
+    # source storage with null coordinates and can never enter the PMTiles archive.
     places.build()
-    collection = json.loads((places.GENERATED / "batticaloa-district.mzp").read_text(encoding="utf-8"))
-    mzp_bytes = (places.GENERATED / "batticaloa-district.mzp").read_bytes()
+    build_map_delivery.build()
+    delivery_result = validate_map_delivery.validate()
     manifest = json.loads((places.GENERATED / "manifest.json").read_text(encoding="utf-8"))
     expected_ids = {r["id"] for r in records if r.get("coordinates") is not None
                     and classify_place(r)["eligible_for_public_map"]}
-    actual_ids = {f.get("id") for f in collection.get("features", [])}
-    if collection.get("type") != "FeatureCollection" or actual_ids != expected_ids or len(actual_ids) != len(collection.get("features", [])):
-        raise ValueError("Generated MZP features do not match eligible, geocoded source records")
-    if (manifest.get("features") != len(actual_ids) or manifest.get("sha256") != hashlib.sha256(mzp_bytes).hexdigest()
-            or manifest.get("bytes") != len(mzp_bytes) or manifest.get("aliases") != {
+    actual_ids = {f.get("id") for f in build_map_delivery.read_features()}
+    if actual_ids != expected_ids:
+        raise ValueError("Generated PMTiles source features do not match eligible, geocoded source records")
+    if (manifest.get("features") != len(actual_ids) or manifest.get("production_default") != "pmtiles"
+            or manifest.get("aliases") != {
         key: places.resolve_place_id(key, aliases) for key in aliases
     }):
-        raise ValueError("Generated place manifest does not match the source records and aliases")
+        raise ValueError("Generated PMTiles place manifest does not match source records and aliases")
     withheld_count = sum(not classify_place(r)["eligible_for_public_map"] for r in records)
     if manifest.get("withheld_pending_public_eligibility_review") != withheld_count:
         raise ValueError("Generated manifest eligibility count does not match source records")
@@ -325,7 +326,7 @@ def validate_changes(base_ref: str, head_ref: str) -> dict:
         "duplicate_candidate_pairs_reviewed": len(duplicate_pairs),
         "review_warnings": len(warnings),
         "withheld_records": withheld_count,
-        "generated_mzp_features": len(actual_ids),
+        "generated_pmtiles_features": delivery_result["features"],
         "manifest_consistent": True,
     }
 

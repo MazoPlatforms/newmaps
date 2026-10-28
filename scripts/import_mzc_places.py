@@ -8,7 +8,6 @@ duplicate candidates, canonical place fields, and shard capacity before writing.
 from __future__ import annotations
 
 import argparse
-import gzip
 import hashlib
 import json
 import math
@@ -380,25 +379,14 @@ def tree_sha256(root: Path, pattern: str) -> str:
     return digest.hexdigest()
 
 
-def generated_place_bytes(records: list[dict]) -> bytes:
-    features = [places.feature(record) for record in sorted(records, key=lambda item: item["id"])
-                if isinstance(record.get("coordinates"), dict)]
-    return json.dumps({"type": "FeatureCollection", "features": features}, ensure_ascii=False,
-                      separators=(",", ":")).encode("utf-8")
-
-
 def integrity_snapshot(root: Path, records: list[dict], aliases: dict) -> dict:
     if root != ROOT:
         return {}
-    place_bytes = generated_place_bytes(records)
     speed_audit_path = root / "data/roads/supplementary-road-audit.json"
     speed_audit = json.loads(speed_audit_path.read_text(encoding="utf-8"))
     return {
         "active_place_records": len(records),
-        "public_geographic_features": sum(isinstance(record.get("coordinates"), dict) for record in records),
-        "place_mzp_bytes": len(place_bytes),
-        "place_mzp_gzip_bytes": len(gzip.compress(place_bytes, mtime=0)),
-        "place_mzp_sha256": hashlib.sha256(place_bytes).hexdigest(),
+        "public_geographic_features": len(places.public_features(records)),
         "alias_count": len(aliases),
         "road_records": len(list((root / "data/roads").glob("[0-9]*/*.json"))),
         "road_sources_sha256": tree_sha256(root, "data/roads/[0-9]*/*.json"),
@@ -562,6 +550,8 @@ def apply_import(plan: dict, report: dict, root: Path = ROOT) -> dict:
         pair["left_ulid"] = imported_ids[pair.pop("left_record_index")]
         pair["right_ulid"] = imported_ids[pair.pop("right_record_index")]
     places.build()
+    import build_map_delivery
+    build_map_delivery.build()
     manifest = json.loads(places.PLACE_MANIFEST.read_text(encoding="utf-8"))
     records_after, _, _ = places.load_places()
     aliases_after = places.load_aliases()
@@ -574,16 +564,15 @@ def apply_import(plan: dict, report: dict, root: Path = ROOT) -> dict:
     if not set(plan["existing_ids"]).issubset({record["id"] for record in records_after}):
         raise ValueError("Import unexpectedly removed or reassigned an existing permanent place ULID")
     report["generated_integrity"] = {
-        "geojson_features": manifest["features"],
-        "mzp_sha256": manifest["sha256"],
+        "pmtiles_features": manifest["delivery"]["mvt_pmtiles"]["features"],
+        "pmtiles_sha256": manifest["delivery"]["mvt_pmtiles"]["sha256"],
         "alias_count": len(manifest["aliases"]),
         "shards": manifest["shards"],
         "maximum_shard_size": max(manifest["shards"].values(), default=0),
         "roads_source_records": 3710,
         "speed_limit_source_records": 3710,
         "supplementary_maxspeed_source_tags": 462,
-        "mzp_bytes": manifest["bytes"],
-        "mzp_gzip_bytes": len(gzip.compress((places.GENERATED / manifest["geojson"]).read_bytes(), mtime=0)),
+        "pmtiles_bytes": manifest["delivery"]["mvt_pmtiles"]["bytes"],
     }
     report["before_after_integrity"] = {
         "before": integrity_before,
@@ -669,17 +658,17 @@ def render_report(report: dict) -> str:
     if "generated_integrity" in report:
         integrity = report["generated_integrity"]
         lines += ["", "## Generated integrity", "",
-                  f"- Public geographic features: {integrity['geojson_features']:,}.",
+                  f"- Public geographic features: {integrity['pmtiles_features']:,}.",
                   f"- Aliases: {integrity['alias_count']:,}; maximum place shard: {integrity['maximum_shard_size']}.",
-                  f"- MZP size: {integrity['mzp_bytes']:,} bytes ({integrity['mzp_gzip_bytes']:,} gzip bytes).",
-                  f"- MZP SHA-256: `{integrity['mzp_sha256']}`.",
+                  f"- PMTiles size: {integrity['pmtiles_bytes']:,} bytes.",
+                  f"- PMTiles SHA-256: `{integrity['pmtiles_sha256']}`.",
                   f"- Unmodified sources: {integrity['roads_source_records']:,} roads; {integrity['speed_limit_source_records']:,} speed-limit records; {integrity['supplementary_maxspeed_source_tags']} supplementary maxspeed tags.", ""]
     if "before_after_integrity" in report:
         before = report["before_after_integrity"]["before"]
         after = report["before_after_integrity"]["after"]
         lines += ["## Before/after checks", "",
                   f"- Active place records: {before['active_place_records']:,} → {after['active_place_records']:,}; geographic features: {before['public_geographic_features']:,} → {after['public_geographic_features']:,}.",
-                  f"- Place MZP download size: {before['place_mzp_gzip_bytes']:,} → {after['place_mzp_gzip_bytes']:,} gzip bytes ({after['place_mzp_gzip_bytes'] - before['place_mzp_gzip_bytes']:+,}).",
+                  f"- Public geographic features: {before['public_geographic_features']:,} → {after['public_geographic_features']:,}.",
                   f"- Previous place ULIDs retained: {report['before_after_integrity']['existing_place_ulids_preserved']}; aliases retained: {report['before_after_integrity']['aliases_preserved']} ({after['alias_count']:,}).",
                   f"- Roads: {before['road_records']:,} → {after['road_records']:,}; source checksum unchanged: {before['road_sources_sha256'] == after['road_sources_sha256']}.",
                   f"- Speed limits: {before['speed_limit_records']:,} → {after['speed_limit_records']:,}; source checksum unchanged: {before['speed_limit_sources_sha256'] == after['speed_limit_sources_sha256']}.",

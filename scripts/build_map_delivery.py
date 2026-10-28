@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build a compact search index and an experimental MVT/PMTiles places archive.
+"""Build the production MVT/PMTiles archive and compact place search indexes.
 
-Canonical place JSON remains authoritative. This consumes the existing MZP build
-output, so public-eligibility rules and aliases continue to come from places.py.
+Canonical place JSON remains authoritative. No intermediate GeoJSON/MZP
+place archive is generated or consumed.
 """
 import argparse
 import hashlib
@@ -30,7 +30,6 @@ except ImportError as error:  # pragma: no cover - exercised by CLI error path
     ) from error
 
 GENERATED = ROOT / "generated"
-MZP = GENERATED / places.PLACE_MZP_NAME
 MANIFEST = GENERATED / "manifest.json"
 TILE_ARCHIVE = GENERATED / "places.pmtiles"
 SEARCH_INDEX = GENERATED / "search-index.json"
@@ -112,10 +111,7 @@ def visible_from_zoom(feature_priority, zoom):
 
 
 def read_features():
-    collection = json.loads(MZP.read_text(encoding="utf-8"))
-    if collection.get("type") != "FeatureCollection":
-        raise ValueError("MZP source must be a GeoJSON FeatureCollection")
-    return collection["features"]
+    return places.public_features()
 
 
 def build_search_index(features):
@@ -159,7 +155,7 @@ def build_tiles(features):
     for feature in features:
         feature_id = feature["id"]
         if feature_id in canonical_ids:
-            raise ValueError(f"Duplicate MZP feature ID: {feature_id}")
+            raise ValueError(f"Duplicate canonical place feature ID: {feature_id}")
         canonical_ids.add(feature_id)
         lon, lat = feature["geometry"]["coordinates"]
         props = feature["properties"]
@@ -229,13 +225,16 @@ def build_tiles(features):
 
 
 def build():
-    if not MZP.exists() or not MANIFEST.exists():
-        raise ValueError("Build MZP first with: python scripts/places.py build")
+    # Rebuild base metadata every time so stale legacy place-MZP fields cannot
+    # survive regardless of which documented build command is invoked first.
+    places.build()
     features = read_features()
     search_data, detail_data, categories, eligible_records = build_search_index(features)
     tile_count, ids, header, metadata = build_tiles(features)
     archive_data = TILE_ARCHIVE.read_bytes()
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    manifest["format"] = "PMTiles/1"
+    manifest["production_default"] = "pmtiles"
     manifest["delivery"] = {
         "mvt_pmtiles": {
             "file": TILE_ARCHIVE.name, "sha256": digest(archive_data), "bytes": len(archive_data),
@@ -252,7 +251,7 @@ def build():
             "file": DETAIL_INDEX.name, "sha256": digest(detail_data), "bytes": len(detail_data),
             "gzip_bytes": len(gzip.compress(detail_data, compresslevel=9, mtime=0)), "records": eligible_records,
         },
-        "production_default": "mzp",
+        "production_default": "pmtiles",
     }
     MANIFEST.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({

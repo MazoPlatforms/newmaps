@@ -191,14 +191,16 @@ class RoadTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "exclusions report"):
                 roads.validate(root)
 
-    def test_map_uses_road_mzp_and_keeps_places_source(self):
+    def test_map_uses_road_mzp_and_pmtiles_as_sole_place_source(self):
         app = (roads.ROOT / "assets/js/app.js").read_text(encoding="utf-8")
         self.assertIn("generated/kattankudy-roads-manifest.json", app)
         self.assertNotIn("./data/roads/kattankudy.json", app)
         self.assertIn("checkedJson('./generated/'+manifest.geojson,manifest.sha256)", app)
         self.assertIn("fetch('./generated/manifest.json',{cache:'no-cache'})", app)
-        self.assertIn("get('delivery')==='pmtiles'", app)
-        self.assertIn("switchPoiSource('pmtiles')", app)
+        self.assertIn("'source-layer':'places'", app)
+        self.assertNotIn("loadMZP", app)
+        self.assertNotIn("delivery')==='pmtiles", app)
+        self.assertNotIn("using MZP", app)
 
 
 if __name__ == "__main__":

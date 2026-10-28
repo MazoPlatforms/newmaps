@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mazo Maps place data validator, allocator, migrator and MZP builder."""
+"""Mazo Maps place data validator, allocator, migrator and delivery metadata builder."""
 import argparse, hashlib, json, math, os, re, secrets, sys, time
 from pathlib import Path
 
@@ -8,7 +8,7 @@ sys.path.insert(0, str(ROOT/'scripts'))
 from place_names import normalize_place_name
 from place_eligibility import classify_place
 PLACES=ROOT/'data'/'places'; GENERATED=ROOT/'generated'; ALIASES=PLACES/'aliases.json'; LIMIT=999
-PLACE_MZP_NAME='batticaloa-district.mzp'; PLACE_MANIFEST=GENERATED/'manifest.json'
+PLACE_MANIFEST=GENERATED/'manifest.json'
 ULID=re.compile(r'^[0-7][0-9A-HJKMNP-TV-Z]{25}$')
 SOURCE_FILES=sorted(p for p in ROOT.glob('*.json') if p.name not in {'manifest.json','migration-record-map.json','migration-exclusions.json'})
 
@@ -96,31 +96,41 @@ def feature(p):
     if not classify_place(p)['eligible_for_public_map']:
         raise ValueError(f'{p["id"]}: refusing to publish an ineligible or unreviewed place')
     return {'type':'Feature','id':p['id'],'geometry':{'type':'Point','coordinates':[p['coordinates']['longitude'],p['coordinates']['latitude']]},'properties':{k:v for k,v in p.items() if k not in {'id','coordinates'}}}
+def public_features(records=None):
+    records = load_places()[0] if records is None else records
+    return [feature(p) for p in sorted(records,key=lambda p:p['id'])
+            if isinstance(p.get('coordinates'),dict) and classify_place(p)['eligible_for_public_map']]
+def source_digest(records):
+    content=json.dumps(records,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf8')
+    return hashlib.sha256(content).hexdigest()
 def build():
     records,counts,suspicious=load_places(); GENERATED.mkdir(exist_ok=True)
     excluded=[p['id'] for p in records if p.get('coordinates') is None and classify_place(p)['eligible_for_public_map']]
     withheld=sum(not classify_place(p)['eligible_for_public_map'] for p in records)
-    features=[feature(p) for p in sorted(records,key=lambda p:p['id']) if isinstance(p.get('coordinates'),dict)]
-    data=json.dumps({'type':'FeatureCollection','features':features},ensure_ascii=False,separators=(',',':')).encode()
-    out=GENERATED/PLACE_MZP_NAME;out.write_bytes(data)
-    digest=hashlib.sha256(data).hexdigest()
+    features=public_features(records)
+    # Places are delivered exclusively through MVT/PMTiles. Remove only the
+    # obsolete place archive; road and speed-limit MZP files remain intact.
+    (GENERATED/'batticaloa-district.mzp').unlink(missing_ok=True)
     previous={}
     if PLACE_MANIFEST.exists():
         try: previous=json.loads(PLACE_MANIFEST.read_text(encoding='utf8'))
         except (OSError,ValueError): previous={}
     aliases=load_aliases()
     resolved_aliases={retired:resolve_place_id(retired,aliases) for retired in aliases}
-    report={'format':'MZP/1','geojson':PLACE_MZP_NAME,'features':len(features),'excluded_without_coordinates':excluded,'withheld_pending_public_eligibility_review':withheld,'bytes':len(data),'sha256':digest,'shards':counts,'aliases':resolved_aliases}
-    # Preserve delivery metadata across idempotent MZP rebuilds performed by
-    # validators/tests; discard it automatically when canonical MZP bytes change.
-    if previous.get('sha256')==digest and isinstance(previous.get('delivery'),dict):
-        delivery=previous['delivery']; valid=True
+    source_sha256=source_digest(records)
+    report={'format':'PMTiles/1','features':len(features),'excluded_without_coordinates':excluded,'withheld_pending_public_eligibility_review':withheld,'shards':counts,'aliases':resolved_aliases,'source_sha256':source_sha256}
+    delivery=previous.get('delivery')
+    if (isinstance(delivery,dict) and previous.get('production_default')=='pmtiles'
+            and previous.get('source_sha256')==source_sha256):
+        valid=True
         for key in ('mvt_pmtiles','search_index','place_details'):
             entry=delivery.get(key,{})
             target=GENERATED/str(entry.get('file',''))
             if not target.is_file() or hashlib.sha256(target.read_bytes()).hexdigest()!=entry.get('sha256'):
-                valid=False;break
-        if valid:report['delivery']=delivery
+                valid=False
+                break
+        if valid and delivery.get('mvt_pmtiles',{}).get('features')==len(features):
+            report.update(format='PMTiles/1',production_default='pmtiles',delivery=delivery)
     (GENERATED/'manifest.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({key:value for key,value in report.items() if key!='aliases'} |
                      {'alias_count':len(aliases),'suspicious_duplicate_pairs':len(suspicious)},indent=2))
