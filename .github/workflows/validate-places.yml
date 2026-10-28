@@ -28,6 +28,7 @@ jobs:
         run: python scripts/validate_place_contributions.py --base-ref "$PR_BASE_SHA" --head-ref "$PR_HEAD_SHA"
       - run: python scripts/places.py build
       - run: python scripts/build_map_delivery.py
+      - run: python scripts/build_routing_graph.py
       - run: python scripts/roads.py validate
       - run: python scripts/roads.py build
       - run: python scripts/speed_limits.py validate

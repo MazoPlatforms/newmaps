@@ -2,6 +2,8 @@ import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs
 import { createPlaceLookup, decodePlaceDetails, decodeSearchIndex } from './place-delivery.mjs';
 import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=phase9-cartography-1';
 import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=phase9-basemap-audit-1';
+import { closestRouteProgress, findLocalRoutes, validateRoutingGraph } from './routing-graph.mjs';
+import { downloadOfflinePack, removeOfflinePack, offlinePackResources } from './offline-pack.mjs';
 
 // Reliable OpenFreeMap fallback; optional local PMTiles are enabled only after verification.
 const $=s=>document.querySelector(s);
@@ -28,7 +30,7 @@ if(new URLSearchParams(location.search).has('map-test'))window.__MAZO_MAP_TEST__
 // Preserve pinch zoom and keyboard panning while removing all rotation/pitch controls.
 configureNorthUpInteractions(map);
 // Minimal map chrome: touch gestures remain available without zoom buttons.
-let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false,pmtilesProtocol=null;
+let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false,pmtilesProtocol=null,offlineBaseStyle=false;
 let placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchIndexPromise=null,placeDetailsLoaded=false;
 let presentedCategory=null,presentedSelectedId=null,presentedVisibility=null;
 // Presentation-only Sri Lankan postal address cleanup. This never invents a house number.
@@ -273,13 +275,13 @@ function routeLayout(){
  turn.style.setProperty('z-index','12','important');
 }
 window.addEventListener('resize',()=>{if(!routePanel.hidden)routeLayout()});
-let routeSteps=[],routeWatch=null,routeCurrent=null;
-let routeDestination=null,routePickup=null,routeMode='driving',routeAbort=null,routeLine=null,routePickupMarker=null,routeDestinationMarker=null,pickingPickup=false,routeSequence=0;
+let routeSteps=[],routeWatch=null,routeCurrent=null,routeProgressGeometry=[],routingGraphPromise=null,routeOffRouteCount=0,lastRouteRecalculation=0;
+let routeDestination=null,routePickup=null,routeMode='driving',routeAbort=null,routeLine=null,routePickupMarker=null,routeDestinationMarker=null,pickingPickup=false,routeSequence=0,routeSource='online',routeCandidates=[];
 const routeStatus=message=>{$('#route-status').textContent=message};
 const routeCoord=c=>c.map(x=>Number(x).toFixed(6)).join(',');
 function routeClear(){
  if(routeWatch!==null){navigator.geolocation.clearWatch(routeWatch);routeWatch=null}
- routeSteps=[];routeCurrent=null;$('#route-turn-card').hidden=true;
+ routeSteps=[];routeCurrent=null;routeProgressGeometry=[];routeOffRouteCount=0;routeCandidates=[];$('#route-turn-card').hidden=true;$('#route-alternatives').replaceChildren();$('#route-alternatives').hidden=true;
  if(routeAbort)routeAbort.abort();routeAbort=null;routeSequence++;
  for(const id of ['mazo-route-line'])if(map.getLayer(id))map.removeLayer(id);
  if(map.getSource('mazo-route'))map.removeSource('mazo-route');
@@ -299,6 +301,25 @@ function routeMarkers(){
  if(routePickup)routePickupMarker=new maplibregl.Marker({color:'#16a34a'}).setLngLat(routePickup).addTo(map);
  if(routeDestination)routeDestinationMarker=new maplibregl.Marker({color:'#dc2626'}).setLngLat(routeDestination).addTo(map);
 }
+function routeRender(geometry,start,end){
+ routeLine={type:'FeatureCollection',features:[{type:'Feature',properties:{},geometry}]};routeProgressGeometry=geometry.coordinates;routeDraw();
+ routePickupMarker?.remove();routeDestinationMarker?.remove();
+ routePickupMarker=new maplibregl.Marker({color:'#16a34a'}).setLngLat(start).addTo(map);
+ routeDestinationMarker=new maplibregl.Marker({color:'#dc2626'}).setLngLat(end).addTo(map);
+}
+function routeFit(coordinates){const bounds=new maplibregl.LngLatBounds();for(const c of coordinates)bounds.extend(c);map.fitBounds(bounds,{padding:{top:95,bottom:230,left:35,right:35},maxZoom:17,bearing:0,pitch:0,duration:cameraDuration(550)})}
+async function findLocalRoute(start,end,mode){
+ if(!routingGraphPromise)routingGraphPromise=checkedJson('./generated/kattankudy-routing-manifest.json').then(manifest=>checkedJson('./generated/'+manifest.graph_file,manifest.graph_sha256)).then(validateRoutingGraph);
+ const graph=await routingGraphPromise;const result=findLocalRoutes(graph,start,end,mode,{alternatives:2});
+ if(result.routes?.length)return result;
+ if(result.error==='snap_too_far')return null;
+ return null;
+}
+function routeRenderInstructions(rows){
+ const list=$('#route-steps');list.replaceChildren();routeSteps=rows.map((row,index)=>({...row,progressMeters:Number.isFinite(row.progressMeters)?row.progressMeters:null,index}));
+ let progress=0;for(const row of routeSteps){if(row.progressMeters===null){progress+=Number(row.distance)||0;row.progressMeters=progress}}
+ for(const step of routeSteps){const li=document.createElement('li');const action=(step.modifier?step.modifier+' ':'')+(step.type||'Continue').replace(/_/g,' ');li.textContent=action+' '+(step.name?'onto '+step.name:'')+(step.distance?` · ${Math.round(step.distance)} m`:'');list.append(li)}
+}
 function routeLocation(){
  return new Promise((resolve,reject)=>{
   if(!navigator.geolocation){reject(Error('Location is unavailable in this browser. Choose pickup on the map.'));return}
@@ -310,30 +331,38 @@ async function routeCalculate(){
  if(routeAbort)routeAbort.abort();const controller=new AbortController();routeAbort=controller;const sequence=++routeSequence;
  routeStatus('Calculating '+routeMode+' route…');$('#route-summary').textContent='';$('#route-steps').replaceChildren();
  const profile=routeMode==='walking'?'foot':routeMode==='cycling'?'bike':'driving';
+ try{
+  const local=await findLocalRoute(routePickup,routeDestination,routeMode);
+  if(sequence!==routeSequence)return;
+  if(local){
+   routeCandidates=local.routes.map(route=>({...route,source:'local',startCoordinate:route.geometry.coordinates[0],endCoordinate:route.geometry.coordinates.at(-1)}));
+   routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();return;
+  }
+ }catch(error){console.warn('Local routing unavailable:',error)}
  // Distinct public OSRM profiles; walking/cycling do not silently fall back to driving.
  const base=profile==='driving'?'https://router.project-osrm.org/route/v1/driving/':profile==='foot'?'https://routing.openstreetmap.de/routed-foot/route/v1/driving/':'https://routing.openstreetmap.de/routed-bike/route/v1/driving/';
- const url=base+routeCoord(routePickup)+';'+routeCoord(routeDestination)+'?overview=full&geometries=geojson&steps=true';
+  const url=base+routeCoord(routePickup)+';'+routeCoord(routeDestination)+'?overview=full&geometries=geojson&steps=true&alternatives=2';
  try{
   const res=await fetch(url,{signal:controller.signal});
   if(!res.ok)throw Error('Routing service returned '+res.status);
   const data=await res.json();if(sequence!==routeSequence)return;
-  const route=data.routes?.[0];if(data.code!=='Ok'||!route?.geometry?.coordinates?.length)throw Error('No connected route found.');
-  routeLine={type:'FeatureCollection',features:[{type:'Feature',properties:{},geometry:route.geometry}]};routeDraw();routeMarkers();
-  const km=(route.distance/1000).toFixed(route.distance<1000?2:1);
-  const mins=Math.max(1,Math.round(route.duration/60));
-  $('#route-summary').textContent=km+' km · about '+mins+' min · '+routeMode;
-  routeStatus('Route ready');
-  const list=$('#route-steps');routeSteps=[];
-  for(const leg of route.legs||[])for(const step of leg.steps||[]){
-   const li=document.createElement('li');const m=step.maneuver||{};
-   if(Array.isArray(m.location))routeSteps.push({location:m.location,type:m.type||'continue',modifier:m.modifier||'',name:step.name||''});
-   const action=(m.modifier?m.modifier+' ':'')+(m.type||'Continue').replace(/_/g,' ');
-   li.textContent=action+' '+(step.name?'onto '+step.name:'')+' · '+Math.round(step.distance)+' m';list.append(li);
-  }
-  routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();
-  const b=new maplibregl.LngLatBounds();for(const c of route.geometry.coordinates)b.extend(c);
-  map.fitBounds(b,{padding:{top:95,bottom:230,left:35,right:35},maxZoom:17,bearing:0,pitch:0,duration:cameraDuration(550)});
+  const routes=data.routes||[];const route=routes[0];if(data.code!=='Ok'||!route?.geometry?.coordinates?.length)throw Error('No connected route found.');
+  const snappedStart=data.waypoints?.[0]?.location||routePickup,snappedEnd=data.waypoints?.at(-1)?.location||routeDestination;
+  routeCandidates=routes.map(candidate=>{
+   let progress=0;const instructions=[];
+   for(const leg of candidate.legs||[])for(const step of leg.steps||[]){const maneuver=step.maneuver||{};if(Array.isArray(maneuver.location))instructions.push({location:maneuver.location,type:maneuver.type||'continue',modifier:maneuver.modifier||'',name:step.name||'',distance:step.distance,progressMeters:progress});progress+=Number(step.distance)||0}
+   return {...candidate,source:'online',startCoordinate:snappedStart,endCoordinate:snappedEnd,instructions};
+  });routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();
  }catch(e){if(e.name==='AbortError'||sequence!==routeSequence)return;routeStatus('Unable to calculate route: '+e.message+' Try again or select another pickup.');routeLine=null;routeDraw();routePickupMarker?.remove();routeDestinationMarker?.remove();routePickupMarker=routeDestinationMarker=null}
+}
+function routeShowCandidate(index){
+ const route=routeCandidates[index];if(!route)return;routeSource=route.source;routeRender(route.geometry,route.startCoordinate,route.endCoordinate);routeProgressGeometry=route.geometry.coordinates;
+ const km=(route.distance/1000).toFixed(route.distance<1000?2:1),mins=Math.max(1,Math.round(route.duration/60));
+ $('#route-summary').textContent=km+' km · about '+mins+' min · '+routeMode+(route.source==='local'?' · local road graph':' · online routing service');
+ routeStatus(route.source==='local'?`Local route ready. Start/end snapped ${Math.round(route.startSnapMeters)} m / ${Math.round(route.endSnapMeters)} m. ETA uses average road-class speeds, not verified speed limits.`:`Online route ready. Coordinates are sent to the selected public routing service; start/end snap ${Math.round(route.startSnapMeters||0)} m / ${Math.round(route.endSnapMeters||0)} m.`);
+ routeRenderInstructions(route.instructions||[]);routeUpdateTurn();routeFit(route.geometry.coordinates);
+ const choices=$('#route-alternatives');choices.replaceChildren();choices.hidden=routeCandidates.length<2;
+ routeCandidates.forEach((candidate,choice)=>{const button=document.createElement('button');button.type='button';button.setAttribute('aria-pressed',String(choice===index));button.textContent=`Route ${choice+1} · ${(candidate.distance/1000).toFixed(1)} km`;button.onclick=()=>routeShowCandidate(choice);choices.append(button)});
 }
 async function routeOpen(place){
  closePlace();routePanel.hidden=false;pickingPickup=false;document.querySelector('.search-dock').style.display='none';setRouteSheetState('compact');
@@ -354,16 +383,14 @@ function routeMeters(a,b){
 }
 function routeUpdateTurn(){
  if(!routeSteps.length||!routeCurrent)return;
- // Choose nearest maneuver ahead by proximity to maneuver points; approximate,
- // not map-matched navigation or authoritative lane guidance.
- let nearest=0,best=Infinity;
- routeSteps.forEach((step,i)=>{const d=routeMeters(routeCurrent,step.location);if(d<best){best=d;nearest=i}});
- const step=routeSteps[Math.min(routeSteps.length-1,nearest+(best<25?1:0))];
+ const progress=closestRouteProgress(routeProgressGeometry,routeCurrent);
+ const along=progress?.progressMeters??0;
+ const step=routeSteps.find((item,index)=>index>0&&item.progressMeters>along+12)||routeSteps.at(-1);
  const d=routeMeters(routeCurrent,step.location);
  const action=step.type==='depart'?'Depart':step.type==='arrive'?'Arrive at destination':step.type==='turn'?'Turn '+(step.modifier||''):step.type==='roundabout'?'Enter roundabout':step.type==='new name'?'Continue':step.type.replace(/_/g,' ');
  $('#route-turn-icon').textContent=/left/i.test(action)?'↰':/right/i.test(action)?'↱':step.type==='arrive'?'●':'↑';
  $('#route-turn-title').textContent=action+(step.name?' · '+step.name:'');
- $('#route-turn-distance').textContent=(d<1000?Math.round(d)+' m':(d/1000).toFixed(1)+' km')+' to maneuver · approximate GPS guidance';
+ $('#route-turn-distance').textContent=(d<1000?Math.round(d)+' m':(d/1000).toFixed(1)+' km')+' to maneuver · approximate GPS guidance'+(progress&&progress.distanceMeters>40?' · off-route?':'');
  $('#route-turn-card').hidden=false;routeLayout();
 }
 function routeStartWatch(){
@@ -372,7 +399,9 @@ function routeStartWatch(){
  routeWatch=navigator.geolocation.watchPosition(p=>{
   if(routePanel.hidden)return;
   const c=[p.coords.longitude,p.coords.latitude];if(p.coords.accuracy>100)return;
-  routeCurrent=c;routeUpdateTurn();
+  routeCurrent=c;const progress=closestRouteProgress(routeProgressGeometry,c);routeUpdateTurn();
+  if(progress&&progress.distanceMeters>70)routeOffRouteCount++;else routeOffRouteCount=0;
+  if(routeOffRouteCount>=3&&Date.now()-lastRouteRecalculation>30000&&routeDestination){routeOffRouteCount=0;lastRouteRecalculation=Date.now();routePickup=c;$('#route-pickup').value='My location';routeStatus('You appear to be off route. Recalculating…');void routeCalculate()}
  },()=>{}, {enableHighAccuracy:true,maximumAge:2000,timeout:15000});
 }
 $('#route-close').onclick=()=>{document.querySelector('.search-dock').style.removeProperty('display');routePanel.hidden=true;pickingPickup=false;routeClear()};
@@ -593,6 +622,27 @@ async function loadPlaceData(){const status=$('#search-status'),retry=$('#places
 }catch(error){status.hidden=false;status.textContent='Place map tiles could not be loaded. Search may still work; check your connection and retry.';status.classList.add('is-error');retry.hidden=false;console.error('Place data error:',error);if(deliveryManifest)void ensureSearchIndex().catch(indexError=>console.warn('Place search index unavailable:',indexError))}}
 $('#places-retry').onclick=()=>void loadPlaceData();
 void loadPlaceData();
+const offlineStatus=$('#offline-status'),offlineButton=$('#offline-download');
+if('serviceWorker' in navigator)navigator.serviceWorker.register('./service-worker.js').catch(error=>console.warn('Offline cache worker unavailable:',error));
+async function updateOfflineStatus(){
+ try{const keys=await caches.keys();const packs=keys.filter(key=>key.startsWith('mazo-offline-pack-'));offlineStatus.hidden=false;offlineStatus.textContent=packs.length?'Offline place search, details, local roads and limited Kattankudy routing are downloaded. Basemap, live directions outside that area, and online updates still require internet.':'Offline data is not downloaded. Basemap tiles are online-only.';offlineButton.title=packs.length?'Remove downloaded offline place data':'Download offline place data';offlineButton.setAttribute('aria-label',offlineButton.title)}catch{offlineStatus.hidden=false;offlineStatus.textContent='Offline storage is unavailable in this browser.'}
+}
+offlineButton.onclick=async()=>{
+ offlineButton.disabled=true;offlineStatus.hidden=false;
+ try{
+  const keys=await caches.keys(),existing=keys.filter(key=>key.startsWith('mazo-offline-pack-'));
+  if(existing.length&&!navigator.onLine){await removeOfflinePack();offlineStatus.textContent='Downloaded place data removed. The basemap was never stored offline.'}
+  else{
+   offlineStatus.textContent='Checking for offline data updates…';
+   const [places,roads,routing]=await Promise.all(['./generated/manifest.json','./generated/kattankudy-roads-manifest.json','./generated/kattankudy-routing-manifest.json'].map(async url=>{const response=await fetch(url,{cache:'no-cache'});if(!response.ok)throw Error(`Manifest unavailable (${response.status})`);return response.json()}));
+   const pack=offlinePackResources(places,roads,routing),target='mazo-offline-pack-'+pack.version;
+   if(existing.includes(target)){await removeOfflinePack();offlineStatus.textContent='Downloaded place data removed. The basemap was never stored offline.'}
+   else{const total=pack.resources.reduce((sum,row)=>sum+(Number(row.bytes)||0),0);offlineStatus.textContent=`Downloading ${pack.resources.length} files (${(total/1048576).toFixed(1)} MB)…`;await downloadOfflinePack({manifest:places,roadsManifest:roads,routingManifest:routing});offlineStatus.textContent=`Offline place, search, detail and Kattankudy routing data saved or updated (${(total/1048576).toFixed(1)} MB). Basemap remains online-only.`}
+  }
+ }catch(error){offlineStatus.textContent=`Offline data operation failed: ${error.message}`}
+ finally{offlineButton.disabled=false;await updateOfflineStatus()}
+};
+window.addEventListener('online',updateOfflineStatus);window.addEventListener('offline',updateOfflineStatus);void updateOfflineStatus();
 window.addEventListener('offline',()=>{const message=$('#network-status');message.textContent='You are offline. The basemap may stop updating; already loaded places remain available.';message.hidden=false});
 window.addEventListener('online',()=>{$('#network-status').hidden=true});
 function renderCategoryFilters(){
@@ -649,3 +699,10 @@ const maybeLoadSpeedReviews=()=>{if(map.getZoom()>=15.5)void loadSpeedReviews()}
 map.on('zoomend',maybeLoadSpeedReviews);
 map.on('moveend',maybeLoadSpeedReviews);
 map.on('error',event=>console.error('MapLibre:',event.error));
+map.on('error',event=>{
+ if(navigator.onLine||offlineBaseStyle)return;
+ offlineBaseStyle=true;
+ const background=theme()==='dark'?'#202d32':'#ebe8df';
+ map.setStyle({version:8,sources:{},layers:[{id:'offline-background',type:'background',paint:{'background-color':background}}]});
+ const status=document.querySelector('#offline-status');if(status){status.hidden=false;status.textContent='Offline mode: saved places and Kattankudy road routing can work from the downloaded pack. Basemap tiles and remote routes are unavailable.'}
+});

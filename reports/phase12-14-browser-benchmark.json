@@ -1,0 +1,362 @@
+{
+  "generatedAt": "2026-10-28T13:06:41.275Z",
+  "browser": "Chromium 141.0.7390.37",
+  "renderer": "Headless Chromium with SwiftShader; not a physical device",
+  "network": {
+    "latencyMs": 60,
+    "downloadBps": 655360,
+    "uploadBps": 131072
+  },
+  "cold": "Fresh browser context; CDN may have a warm edge cache.",
+  "warm": "Same context, second page navigation; browser HTTP cache retained.",
+  "journeys": [
+    "map readiness",
+    "viewport pan/zoom",
+    "category filtering",
+    "name search",
+    "place details",
+    "directions",
+    "forced-GC heap",
+    "frame interval sampling"
+  ],
+  "summary": {
+    "desktop": {
+      "cold": {
+        "runs": 3,
+        "startupMsMedian": 8660,
+        "searchAndDetailsMsMedian": 13648,
+        "directionsMsMedian": 7527,
+        "transferBytesMedian": 346763,
+        "postGcHeapBytesMedian": 22778240,
+        "requestCountMedian": 118,
+        "pmtilesRangeNetworkTransferBytesMedian": 16684,
+        "frameP95MsMedian": 399.90000000000146
+      },
+      "warm": {
+        "runs": 3,
+        "startupMsMedian": 7485,
+        "searchAndDetailsMsMedian": 12669,
+        "directionsMsMedian": 7745,
+        "transferBytesMedian": 300,
+        "postGcHeapBytesMedian": 22184888,
+        "requestCountMedian": 107,
+        "pmtilesRangeNetworkTransferBytesMedian": 0,
+        "frameP95MsMedian": 366.7000000000007
+      }
+    },
+    "android-chrome-emulation": {
+      "cold": {
+        "runs": 3,
+        "startupMsMedian": 6703,
+        "searchAndDetailsMsMedian": 8171,
+        "directionsMsMedian": 1402,
+        "transferBytesMedian": 346763,
+        "postGcHeapBytesMedian": 21554448,
+        "requestCountMedian": 96,
+        "pmtilesRangeNetworkTransferBytesMedian": 16684,
+        "frameP95MsMedian": 133.39999999999782
+      },
+      "warm": {
+        "runs": 3,
+        "startupMsMedian": 5751,
+        "searchAndDetailsMsMedian": 9283,
+        "directionsMsMedian": 1644,
+        "transferBytesMedian": 300,
+        "postGcHeapBytesMedian": 22681300,
+        "requestCountMedian": 99,
+        "pmtilesRangeNetworkTransferBytesMedian": 0,
+        "frameP95MsMedian": 166.60000000000218
+      }
+    }
+  },
+  "results": [
+    {
+      "profile": "desktop",
+      "run": 0,
+      "journey": "cold",
+      "startupMs": 7663,
+      "searchAndDetailsMs": 12784,
+      "directionsMs": 7830,
+      "transferBytes": 346763,
+      "cachedResourceCount": 25,
+      "pmtilesRangeNetworkTransferBytes": 16684,
+      "postGcHeapBytes": 22658632,
+      "frameIntervalsMs": {
+        "p50": 100,
+        "p95": 399.90000000000146,
+        "max": 399.90000000000146,
+        "samples": 8
+      },
+      "requests": 112,
+      "pmtilesRangeResponses": 30,
+      "pmtilesRangeResponseBodyBytes": 330485,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "desktop",
+      "run": 0,
+      "journey": "warm",
+      "startupMs": 7795,
+      "searchAndDetailsMs": 12588,
+      "directionsMs": 7745,
+      "transferBytes": 300,
+      "cachedResourceCount": 39,
+      "pmtilesRangeNetworkTransferBytes": 0,
+      "postGcHeapBytes": 22184888,
+      "frameIntervalsMs": {
+        "p50": 99.90000000000146,
+        "p95": 366.7000000000007,
+        "max": 366.7000000000007,
+        "samples": 9
+      },
+      "requests": 118,
+      "pmtilesRangeResponses": 30,
+      "pmtilesRangeResponseBodyBytes": 344638,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "desktop",
+      "run": 1,
+      "journey": "cold",
+      "startupMs": 8660,
+      "searchAndDetailsMs": 13648,
+      "directionsMs": 7527,
+      "transferBytes": 346763,
+      "cachedResourceCount": 25,
+      "pmtilesRangeNetworkTransferBytes": 16684,
+      "postGcHeapBytes": 22778240,
+      "frameIntervalsMs": {
+        "p50": 150,
+        "p95": 400,
+        "max": 400,
+        "samples": 6
+      },
+      "requests": 118,
+      "pmtilesRangeResponses": 30,
+      "pmtilesRangeResponseBodyBytes": 330485,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "desktop",
+      "run": 1,
+      "journey": "warm",
+      "startupMs": 7280,
+      "searchAndDetailsMs": 12669,
+      "directionsMs": 9323,
+      "transferBytes": 300,
+      "cachedResourceCount": 39,
+      "pmtilesRangeNetworkTransferBytes": 0,
+      "postGcHeapBytes": 22669064,
+      "frameIntervalsMs": {
+        "p50": 100,
+        "p95": 400,
+        "max": 400,
+        "samples": 9
+      },
+      "requests": 104,
+      "pmtilesRangeResponses": 28,
+      "pmtilesRangeResponseBodyBytes": 315089,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "desktop",
+      "run": 2,
+      "journey": "cold",
+      "startupMs": 8844,
+      "searchAndDetailsMs": 14337,
+      "directionsMs": 5980,
+      "transferBytes": 346763,
+      "cachedResourceCount": 25,
+      "pmtilesRangeNetworkTransferBytes": 16684,
+      "postGcHeapBytes": 23481376,
+      "frameIntervalsMs": {
+        "p50": 133.3000000000029,
+        "p95": 383.3000000000029,
+        "max": 383.3000000000029,
+        "samples": 7
+      },
+      "requests": 120,
+      "pmtilesRangeResponses": 33,
+      "pmtilesRangeResponseBodyBytes": 362288,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "desktop",
+      "run": 2,
+      "journey": "warm",
+      "startupMs": 7485,
+      "searchAndDetailsMs": 13345,
+      "directionsMs": 2230,
+      "transferBytes": 300,
+      "cachedResourceCount": 39,
+      "pmtilesRangeNetworkTransferBytes": 0,
+      "postGcHeapBytes": 21486956,
+      "frameIntervalsMs": {
+        "p50": 200,
+        "p95": 250,
+        "max": 250,
+        "samples": 7
+      },
+      "requests": 107,
+      "pmtilesRangeResponses": 28,
+      "pmtilesRangeResponseBodyBytes": 317826,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "run": 0,
+      "journey": "cold",
+      "startupMs": 6446,
+      "searchAndDetailsMs": 8171,
+      "directionsMs": 1104,
+      "transferBytes": 347298,
+      "cachedResourceCount": 24,
+      "pmtilesRangeNetworkTransferBytes": 17219,
+      "postGcHeapBytes": 21554448,
+      "frameIntervalsMs": {
+        "p50": 83.29999999999927,
+        "p95": 100,
+        "max": 100,
+        "samples": 14
+      },
+      "requests": 82,
+      "pmtilesRangeResponses": 15,
+      "pmtilesRangeResponseBodyBytes": 269663,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "run": 0,
+      "journey": "warm",
+      "startupMs": 5751,
+      "searchAndDetailsMs": 9283,
+      "directionsMs": 1659,
+      "transferBytes": 300,
+      "cachedResourceCount": 39,
+      "pmtilesRangeNetworkTransferBytes": 0,
+      "postGcHeapBytes": 22899032,
+      "frameIntervalsMs": {
+        "p50": 33.400000000001455,
+        "p95": 333.2999999999993,
+        "max": 333.2999999999993,
+        "samples": 18
+      },
+      "requests": 97,
+      "pmtilesRangeResponses": 23,
+      "pmtilesRangeResponseBodyBytes": 315069,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "run": 1,
+      "journey": "cold",
+      "startupMs": 6703,
+      "searchAndDetailsMs": 9768,
+      "directionsMs": 5384,
+      "transferBytes": 346763,
+      "cachedResourceCount": 25,
+      "pmtilesRangeNetworkTransferBytes": 16684,
+      "postGcHeapBytes": 21960520,
+      "frameIntervalsMs": {
+        "p50": 33.400000000001455,
+        "p95": 266.7000000000007,
+        "max": 266.7000000000007,
+        "samples": 20
+      },
+      "requests": 103,
+      "pmtilesRangeResponses": 27,
+      "pmtilesRangeResponseBodyBytes": 325424,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "run": 1,
+      "journey": "warm",
+      "startupMs": 6025,
+      "searchAndDetailsMs": 7825,
+      "directionsMs": 1639,
+      "transferBytes": 300,
+      "cachedResourceCount": 39,
+      "pmtilesRangeNetworkTransferBytes": 0,
+      "postGcHeapBytes": 22218684,
+      "frameIntervalsMs": {
+        "p50": 99.89999999999782,
+        "p95": 166.60000000000218,
+        "max": 166.60000000000218,
+        "samples": 12
+      },
+      "requests": 99,
+      "pmtilesRangeResponses": 25,
+      "pmtilesRangeResponseBodyBytes": 327400,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "run": 2,
+      "journey": "cold",
+      "startupMs": 6929,
+      "searchAndDetailsMs": 8116,
+      "directionsMs": 1402,
+      "transferBytes": 330079,
+      "cachedResourceCount": 26,
+      "pmtilesRangeNetworkTransferBytes": 0,
+      "postGcHeapBytes": 21369496,
+      "frameIntervalsMs": {
+        "p50": 99.89999999999782,
+        "p95": 133.39999999999782,
+        "max": 133.39999999999782,
+        "samples": 11
+      },
+      "requests": 96,
+      "pmtilesRangeResponses": 21,
+      "pmtilesRangeResponseBodyBytes": 309895,
+      "pmtilesStatuses": [
+        206
+      ]
+    },
+    {
+      "profile": "android-chrome-emulation",
+      "run": 2,
+      "journey": "warm",
+      "startupMs": 5438,
+      "searchAndDetailsMs": 10377,
+      "directionsMs": 1644,
+      "transferBytes": 300,
+      "cachedResourceCount": 39,
+      "pmtilesRangeNetworkTransferBytes": 0,
+      "postGcHeapBytes": 22681300,
+      "frameIntervalsMs": {
+        "p50": 100,
+        "p95": 149.90000000000146,
+        "max": 149.90000000000146,
+        "samples": 11
+      },
+      "requests": 99,
+      "pmtilesRangeResponses": 25,
+      "pmtilesRangeResponseBodyBytes": 319234,
+      "pmtilesStatuses": [
+        206
+      ]
+    }
+  ]
+}
