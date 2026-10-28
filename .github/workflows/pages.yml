@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.15.1'
       - run: python -m pip install 'shapely>=2,<3'
       - run: python -m pip install -r requirements-map-tiles.txt
       - run: python scripts/places.py validate

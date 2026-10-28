@@ -223,7 +223,7 @@ def build_tiles(features):
                     [{"name": "places", "features": tile_features}],
                     default_options={"quantize_bounds": (west, south, east, north), "extents": EXTENT},
                 )
-            writer.write_tile(zxy_to_tileid(zoom, x, y), gzip.compress(encoded, mtime=0))
+            writer.write_tile(zxy_to_tileid(zoom, x, y), gzip.compress(encoded, compresslevel=9, mtime=0))
         writer.finalize(header, metadata)
     return len(tiles), canonical_ids, header, metadata
 
@@ -245,12 +245,12 @@ def build():
         },
         "search_index": {
             "file": SEARCH_INDEX.name, "sha256": digest(search_data), "bytes": len(search_data),
-            "gzip_bytes": len(gzip.compress(search_data, mtime=0)), "records": eligible_records,
+            "gzip_bytes": len(gzip.compress(search_data, compresslevel=9, mtime=0)), "records": eligible_records,
             "fields": list(SEARCH_FIELDS), "categories": dict(sorted(categories.items())),
         },
         "place_details": {
             "file": DETAIL_INDEX.name, "sha256": digest(detail_data), "bytes": len(detail_data),
-            "gzip_bytes": len(gzip.compress(detail_data, mtime=0)), "records": eligible_records,
+            "gzip_bytes": len(gzip.compress(detail_data, compresslevel=9, mtime=0)), "records": eligible_records,
         },
         "production_default": "mzp",
     }
@@ -258,8 +258,8 @@ def build():
     print(json.dumps({
         "features": len(features), "pmtiles_bytes": len(archive_data), "pmtiles_sha256": digest(archive_data),
         "tile_count": tile_count, "search_index_bytes": len(search_data),
-        "search_index_gzip_bytes": len(gzip.compress(search_data, mtime=0)), "category_counts": dict(sorted(categories.items())),
-        "detail_index_bytes": len(detail_data), "detail_index_gzip_bytes": len(gzip.compress(detail_data, mtime=0)),
+        "search_index_gzip_bytes": len(gzip.compress(search_data, compresslevel=9, mtime=0)), "category_counts": dict(sorted(categories.items())),
+        "detail_index_bytes": len(detail_data), "detail_index_gzip_bytes": len(gzip.compress(detail_data, compresslevel=9, mtime=0)),
         "search_records": eligible_records,
     }, indent=2))
 
