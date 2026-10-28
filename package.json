@@ -2,7 +2,9 @@
   "name": "mazo-maps-tests",
   "private": true,
   "scripts": {
-    "test:browser": "node tests/map-browser-smoke.mjs"
+    "test:unit": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/map-browser-smoke.mjs",
+    "benchmark:map": "node tests/phase12-14-benchmark.mjs"
   },
   "devDependencies": {
     "axe-core": "4.14.0",

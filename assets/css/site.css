@@ -376,3 +376,7 @@ body,.place-sheet,.place-sheet button,.place-sheet a{font-family:Inter,-apple-sy
  .utility-controls{right:14px;top:max(8px,env(safe-area-inset-top))}
  .utility-controls .icon-button{height:48px;width:48px}
 }
+.route-panel #route-alternatives{display:flex;flex-wrap:wrap;gap:6px;margin:2px 0}
+.route-panel #route-alternatives[hidden]{display:none}
+.route-panel #route-alternatives button{border:1px solid #aab6bd;border-radius:999px;background:transparent;color:inherit;padding:7px 10px;font:inherit;font-size:.82rem}
+.route-panel #route-alternatives button[aria-pressed="true"]{background:#1d5f8a;color:#fff;border-color:#1d5f8a}

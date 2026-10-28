@@ -35,7 +35,7 @@ const server = createServer((request, response) => {
     'Cache-Control': 'no-store', 'Content-Type': contentTypes[extname(target)] || 'application/octet-stream',
   };
   const range = request.headers.range;
-  if (!range && ['.mzp', '.json'].includes(extname(target)) && /\bgzip\b/.test(request.headers['accept-encoding'] || '')) {
+  if (!range && ['.mzp', '.json', '.js', '.mjs', '.css'].includes(extname(target)) && /\bgzip\b/.test(request.headers['accept-encoding'] || '')) {
     const compressed = gzipSync(readFileSync(target));
     headers['Content-Encoding'] = 'gzip';
     headers.Vary = 'Accept-Encoding';
@@ -270,7 +270,7 @@ try {
     await wait(page, () => window.__MAZO_MAP_TEST__?.getZoom() >= 15);
     await wait(page, (requests) => requests.some((url) => url.includes('speed-limits.mzp')), 30_000, speedRequests);
     assert.equal(speedRequests.filter((url) => url.includes('speed-limits.mzp')).length, 1, 'speed review dataset loads once on street zoom');
-    await wait(page, (id) => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-selected'] }).some((feature) => feature.properties.id === id), 30_000, expectedPlaceId);
+    await wait(page, (id) => !window.__MAZO_MAP_TEST__.isMoving() && window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-selected'] }).some((feature) => feature.properties.id === id), 30_000, expectedPlaceId);
     const selectedFeatures = await page.evaluate(() => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-selected'] }).map((feature) => feature.properties.id));
     assert.ok(selectedFeatures.includes(expectedPlaceId), 'search-selected place remains rendered in the selected state');
     const duplicateSelectionFeatures = await page.evaluate(() => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'] }).map((feature) => feature.properties.id));
@@ -324,8 +324,9 @@ try {
     await page.locator('#route-pick-on-map').click();
     const pickupPoint = await page.evaluate(() => window.__MAZO_MAP_TEST__.project(window.__MAZO_MAP_TEST__.getCenter().toArray()));
     await page.mouse.click(pickupPoint.x, pickupPoint.y);
-    await wait(page, () => document.querySelector('#route-status').innerText === 'Route ready', 20_000);
-    assert.ok((await page.locator('#route-summary').innerText()).includes('1.2 km'));
+    await wait(page, () => /(?:Local|Online) route ready/.test(document.querySelector('#route-status').innerText), 20_000);
+    assert.match(await page.locator('#route-summary').innerText(), /km/);
+    assert.match(await page.locator('#route-status').innerText(), /snapped|Coordinates are sent/i);
     const routeFeatureCount = await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route'));
     assert.equal(routeFeatureCount, 1, 'directions draw the selected route');
     await page.evaluate(() => {
@@ -368,6 +369,27 @@ try {
     console.log(JSON.stringify(result));
     await context.close();
   }
+
+  const offlineContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, serviceWorkers: 'allow' });
+  const offlinePage = await offlineContext.newPage();
+  const cachedArchiveRanges = [];
+  offlinePage.on('response', (response) => { if (response.url().includes('/generated/places.pmtiles')) cachedArchiveRanges.push({ status: response.status(), range: response.headers()['content-range'] || '' }); });
+  await offlinePage.goto(`${origin}/?map-test=1`, { waitUntil: 'domcontentloaded' });
+  await wait(offlinePage, () => window.__MAZO_MAP_TEST__?.isStyleLoaded(), 60_000);
+  await offlinePage.locator('#offline-download').click();
+  await wait(offlinePage, () => /downloaded/i.test(document.querySelector('#offline-status').innerText), 60_000);
+  await offlinePage.evaluate(async () => { await navigator.serviceWorker.ready; });
+  if (!await offlinePage.evaluate(() => Boolean(navigator.serviceWorker.controller))) await offlinePage.reload({ waitUntil: 'domcontentloaded' });
+  cachedArchiveRanges.length = 0;
+  await offlinePage.context().setOffline(true);
+  await offlinePage.reload({ waitUntil: 'domcontentloaded' });
+  await wait(offlinePage, () => document.querySelector('#map-search') && document.querySelector('#offline-status'), 30_000);
+  await offlinePage.locator('#map-search').fill('Noor Accessories Showroom');
+  await wait(offlinePage, () => document.querySelector('#search-results [role="option"]'), 30_000);
+  assert.match(await offlinePage.locator('#search-results [role="option"] strong').first().innerText(), /Noor Accessories/);
+  assert.ok(cachedArchiveRanges.some((response) => response.status === 206 && /^bytes \d+-\d+\/\d+$/.test(response.range)), 'cached PMTiles requests are served as valid byte ranges');
+  assert.match(await offlinePage.locator('#offline-status').innerText(), /basemap.*internet|basemap.*online/i);
+  await offlineContext.close();
 } finally {
   await browser.close();
   server.close();

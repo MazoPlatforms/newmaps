@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { availableCategories, createPlaceSearchIndex, distanceMeters, normalizeSearchText, searchPlaces } from '../assets/js/search-engine.mjs';
+import { availableCategories, createPlaceSearchIndex, distanceMeters, normalizeSearchText, searchPlaces, transliterateSearchText } from '../assets/js/search-engine.mjs';
 import { discoveryCategoryFor } from '../assets/js/place-categories.mjs';
 
 const places = [
@@ -14,6 +14,19 @@ test('normalizes case, accents, punctuation and whitespace for matching only', (
   assert.equal(normalizeSearchText('  CAFÉ—Road  '), 'cafe road');
   assert.equal(places[2].name, 'SMR Transport');
   assert.equal(normalizeSearchText(places[3].name), 'தமிழ் பள்ளி');
+});
+
+test('matches approximate Tamil and Sinhala romanizations without mutating canonical Unicode names', () => {
+  const local = [
+    { id: 'tamil-shop', name: 'கடை', address: '', categories: ['Shop'], discoveryCategory: 'shop', coordinates: { latitude: 7.7, longitude: 81.7 } },
+    { id: 'sinhala-shop', name: 'කඩේ', address: '', categories: ['Shop'], discoveryCategory: 'shop', coordinates: { latitude: 7.7, longitude: 81.7 } },
+  ];
+  assert.equal(transliterateSearchText('கடை'), 'katai');
+  assert.equal(transliterateSearchText('කඩේ'), 'kadee');
+  const index = createPlaceSearchIndex(local);
+  assert.equal(index.search({ query: 'katai' })[0].place.id, 'tamil-shop');
+  assert.equal(index.search({ query: 'kade' })[0].place.id, 'sinhala-shop');
+  assert.equal(local[0].name, 'கடை');
 });
 
 test('matches partial names without changing or inventing place names', () => {

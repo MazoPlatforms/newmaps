@@ -8,6 +8,41 @@ export function normalizeSearchText(value) {
     .replace(/\s+/g, " ");
 }
 
+const ROMANIZATION = {
+  tamil: {
+    consonants: 'கஙசஞடணதநபமயரலவழளறனஜஷஸஹ', values: ['k','ng','ch','nj','t','n','th','n','p','m','y','r','l','v','zh','l','r','n','j','sh','s','h'],
+    vowels: new Map(Object.entries({ 'அ':'a','ஆ':'aa','இ':'i','ஈ':'ii','உ':'u','ஊ':'uu','எ':'e','ஏ':'ee','ஐ':'ai','ஒ':'o','ஓ':'oo','ஔ':'au' })),
+    signs: new Map(Object.entries({ 'ா':'aa','ி':'i','ீ':'ii','ு':'u','ூ':'uu','ெ':'e','ே':'ee','ை':'ai','ொ':'o','ோ':'oo','ௌ':'au' })), halant: '்',
+  },
+  sinhala: {
+    consonants: 'කඛගඝඟචඡජඣඤටඨඩඪණතථදධනපඵබභමයරලවශෂසහළෆ', values: ['k','kh','g','gh','ng','ch','chh','j','jh','ny','t','th','d','dh','n','th','th','d','dh','n','p','ph','b','bh','m','y','r','l','w','sh','sh','s','h','l','f'],
+    vowels: new Map(Object.entries({ 'අ':'a','ආ':'aa','ඇ':'ae','ඈ':'aae','ඉ':'i','ඊ':'ii','උ':'u','ඌ':'uu','එ':'e','ඒ':'ee','ඓ':'ai','ඔ':'o','ඕ':'oo','ඖ':'au' })),
+    signs: new Map(Object.entries({ 'ා':'aa','ැ':'ae','ෑ':'aae','ි':'i','ී':'ii','ු':'u','ූ':'uu','ෙ':'e','ේ':'ee','ෛ':'ai','ො':'o','ෝ':'oo','ෞ':'au' })), halant: '්',
+  },
+};
+const HAS_INDIC_TEXT = /[\u0B80-\u0BFF\u0D80-\u0DFF]/u;
+
+// A search-only, reversible-ish romanization aid. Canonical names are never changed;
+// spellings are intentionally approximate and the original Unicode match remains.
+export function transliterateSearchText(value) {
+  const input = String(value ?? '').normalize('NFC');
+  let output = '';
+  for (const char of input) {
+    const table = /[\u0B80-\u0BFF]/u.test(char) ? ROMANIZATION.tamil
+      : /[\u0D80-\u0DFF]/u.test(char) ? ROMANIZATION.sinhala : null;
+    if (!table) { output += char; continue; }
+    if (table.vowels.has(char)) { output += table.vowels.get(char); continue; }
+    const consonantIndex = [...table.consonants].indexOf(char);
+    if (consonantIndex >= 0) { output += table.values[consonantIndex] + 'a'; continue; }
+    if (char === table.halant) { output = output.replace(/a$/, ''); continue; }
+    const sign = table.signs.get(char);
+    if (sign) { output = output.replace(/a$/, sign); continue; }
+    if (/\p{M}/u.test(char)) continue;
+    output += char;
+  }
+  return normalizeSearchText(output);
+}
+
 function resolveAlias(id, aliases = {}) {
   const seen = new Set();
   while (Object.hasOwn(aliases, id)) {
@@ -87,7 +122,9 @@ export function createPlaceSearchIndex(places, aliases = {}) {
     const address = normalizeSearchText(place.address);
     indexed.push({
       place, canonicalId, categories, name, nameWords: name ? name.split(" ") : [],
+      romanizedName: HAS_INDIC_TEXT.test(place.name) ? transliterateSearchText(place.name) : name,
       address, addressWords: address ? address.split(" ") : [],
+      romanizedAddress: HAS_INDIC_TEXT.test(String(place.address ?? '')) ? transliterateSearchText(place.address) : address,
       discoveryCategory: normalizeSearchText(place.discoveryCategory ?? ""),
     });
   }
@@ -96,6 +133,7 @@ export function createPlaceSearchIndex(places, aliases = {}) {
     size: indexed.length,
     search({ query = "", category = "all", origin = null, limit = 30, maxDistanceMeters = Infinity } = {}) {
       const normalizedQuery = normalizeSearchText(query);
+      const romanizedQuery = HAS_INDIC_TEXT.test(String(query)) ? transliterateSearchText(query) : normalizedQuery;
       const tokens = normalizedQuery ? normalizedQuery.split(" ") : [];
       const normalizedCategory = normalizeSearchText(category);
       const results = [];
@@ -109,8 +147,10 @@ export function createPlaceSearchIndex(places, aliases = {}) {
         const score = normalizedQuery
           ? Math.max(
               fieldScore(normalizedQuery, tokens, entry.name, entry.nameWords, 700),
+              entry.romanizedName === entry.name ? 0 : fieldScore(romanizedQuery, romanizedQuery.split(" "), entry.romanizedName, entry.romanizedName.split(" "), 680),
               ...categories.map((item) => fieldScore(normalizedQuery, tokens, item.text, item.words, 250)),
               fieldScore(normalizedQuery, tokens, entry.address, entry.addressWords, 150),
+              entry.romanizedAddress === entry.address ? 0 : fieldScore(romanizedQuery, romanizedQuery.split(" "), entry.romanizedAddress, entry.romanizedAddress.split(" "), 140),
             )
           : 0;
         if (normalizedQuery && score === 0) continue;
