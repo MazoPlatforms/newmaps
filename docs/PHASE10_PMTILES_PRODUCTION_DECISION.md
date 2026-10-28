@@ -53,7 +53,7 @@ The canonical place JSON, ULIDs, aliases, place eligibility state, roads, speed 
 - Offline testing covered search after the search index had been loaded, followed by reconnect and a successful manifest request. Cold offline startup is not supported or claimed: application assets, glyphs, basemap tiles, and other resources are network-hosted.
 - Directions were tested using an identical mocked route response. The external routing service was not benchmarked.
 - Android was emulated in Chromium; no physical Android device was available in the Codespace.
-- A local production-browser E2E run is not a substitute for production deployment verification. The merged Pages deployment must be checked for its manifest, archive range behavior, and live map behavior.
+- Live Playwright verification after the compression fix ran against the deployed app at commit `7959c4f42de1269f848fc317af7b654fbe0d96df`: the app initialized its PMTiles vector source, rendered 11 POI features at its initial camera, returned 11 successful archive range responses, found a place through search, and opened its details; there were no failed requests or place-MZP requests. The final documentation-only deployment at `0995d8535aca2c533b0b5f8b2b0a3981d5d86082` also completed successfully and serves the same verified archive. Physical Android testing remains unavailable; Android measurements are Chromium emulation.
 
 ## Historical comparison document
 
