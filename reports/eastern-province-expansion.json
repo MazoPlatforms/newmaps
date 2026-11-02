@@ -1,0 +1,478 @@
+{
+  "report_version": 1,
+  "scope": "Batticaloa, Ampara and Trincomalee districts, Eastern Province",
+  "boundary_source": "Sri Lanka NSDI Srilanka/Boundaries MapServer; see data/boundaries/eastern-province-coverage.json",
+  "boundary_license_note": "NSDI metadata exposed no redistribution license; the polygons are used only for internal eligibility checks.",
+  "discovery": {
+    "interface": "documented mzc CLI only",
+    "command_template": "mzc -l 500 -c lk -t 30 '<query>'",
+    "pagination": "No pagination arguments are documented; responses at 500 require query subdivision.",
+    "planned_unique_queries": 131,
+    "captured_successful_queries": 1,
+    "captured_failed_queries": 2,
+    "query_prompts_attempted_or_interrupted": 4,
+    "planned_prompts_not_attempted": 127,
+    "mzc_invocations_with_limit_500": 14,
+    "successful_invocations_with_limit_500": 1,
+    "failed_invocations_with_limit_500": 12,
+    "interrupted_invocations_with_limit_500": 1,
+    "preliminary_invocations_with_limit_1": 2,
+    "total_documented_place_query_invocations": 16,
+    "unique_query_prompts_attempted": 10,
+    "additional_diagnostic_queries": 6,
+    "additional_diagnostic_successes": 0,
+    "additional_diagnostic_failures": 6,
+    "additional_diagnostic_failure": "One district and one locality query per district timed out after 30 seconds.",
+    "successes": [
+      {
+        "district": "Ampara",
+        "area": "Ampara",
+        "category": "all-public",
+        "count": 46
+      }
+    ],
+    "failures": [
+      {
+        "district": "Batticaloa",
+        "area": "Batticaloa",
+        "category": "all-public",
+        "attempts": 3
+      },
+      {
+        "district": "Batticaloa",
+        "area": "Batticaloa",
+        "category": "food",
+        "attempts": 3
+      }
+    ],
+    "exhaustive_inventory": false,
+    "pagination_exhausted": false
+  },
+  "processing": {
+    "raw_candidates": 46,
+    "unique_name_coordinate_candidates": 46,
+    "classification_counts": {
+      "boundary_uncertain": 2,
+      "existing_place_duplicates": 2,
+      "new_eligible_candidates": 35,
+      "out_of_district": 1,
+      "uncertain_public_eligibility": 6,
+      "excluded_confirmed_private": 0,
+      "invalid_or_missing_coordinates": 0,
+      "invalid_missing_name": 0,
+      "conflicting_candidate_fields": 0,
+      "missing_category_withheld": 0,
+      "unresolved_existing_matches": 0,
+      "unresolved_internal_nearby_candidates": 0
+    },
+    "newly_imported_places": 35,
+    "updated_existing_places": 0,
+    "district_candidate_counts": {
+      "Ampara": 41,
+      "Batticaloa": 2
+    },
+    "category_candidate_counts_overlapping": {
+      "Airport": 1,
+      "Archaeological site": 1,
+      "Buddhist temple": 5,
+      "Bus ticket agency": 1,
+      "City government office": 1,
+      "City or town hall": 1,
+      "City park": 1,
+      "Conference center": 1,
+      "Educational institution": 1,
+      "Event venue": 1,
+      "Garden": 1,
+      "Government hospital": 1,
+      "Gym": 1,
+      "Historical landmark": 3,
+      "Hotel": 4,
+      "Library": 1,
+      "Market": 1,
+      "National park": 2,
+      "Non-governmental organization": 1,
+      "Park": 2,
+      "Playground": 1,
+      "Police department": 1,
+      "Public bathroom": 1,
+      "Public beach": 1,
+      "Public services": 1,
+      "Restaurant": 1,
+      "Road cycling": 1,
+      "Swimming pool": 2,
+      "Taxi service": 1,
+      "Tourist attraction": 9,
+      "Villa": 1,
+      "Wildlife and safari park": 1
+    },
+    "unresolved_internal_nearby_pair_count": 0,
+    "private_or_uncertain_details_published": false,
+    "canonical_records_have_mzc_metadata": false,
+    "roads_and_speed_limits_modified": false,
+    "imports": [
+      {
+        "id": "01M6EW97Q2ZWG2A9045B5AG21R",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW989V0HPQBK4T2PSBK5ZS",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW98WSN0P0ENTH7NWV6SCM",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW99FKQKX3XX2E4B9SSFP9",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9A2KFKZREMDZ64TWB6MB",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9AMW7KJ2KVEXPW3B3H0F",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9B8MWEJW8CSRQ8J7S0YF",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9BV2QRTWFX2CP5Q3H2Z8",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9CE3WD1T8ZYAJ2GZWX51",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9D0Q4C49C18Z999EKGVM",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9DKB1AG0DHC8X4YM0Y86",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9E63V7ADD9AWAT54D494",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9EX9TWT0DSKWXKKZNTW3",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9FFNK5S681KRNJS3FGD8",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9G1J323XGCYX7G504QT6",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9GKS5KVSBMXTV642F9VS",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9H7Q91R96GYHNSWW8YKX",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9HT7E7Y9C444222N0CVD",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9JCE6FB7S38TW1AG2HQV",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9JZ3QK8BPCBPVWX0W2NB",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9KH1F7GJKNFK2XN2DD09",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9M3HDA4WQW4RGPQB9V4F",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9MNEM3BPJ70JCJ5QR4F6",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9N7HVRQTRXNNEV091548",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9NT613F9BC9ZMNGE7N1W",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9PE8TW14VVRCJ5GXPBRK",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9Q0KE6Z0DDRF8YVMZYJN",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9QJH8AYWA6YN3WXQJQ3X",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9R3VMYFS52BT3PCHXRW1",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9RTDYQTQN4AGM0QKKD50",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9SBTFTBX2B4PJCRPDM63",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9SYW0QWZSVW9W28PEE16",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9TGVS0FWRKM546V65QZW",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9V4Q0HD4YF28XEGT59CC",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      },
+      {
+        "id": "01M6EW9VQ0XF2EGCAPYDV558Z3",
+        "district": "Ampara",
+        "query_keys": [
+          "ampara--all-public--7039329e"
+        ]
+      }
+    ],
+    "normalized_imported_names": 5,
+    "normalized_imported_addresses": 5
+  },
+  "kattankudy_retention": {
+    "before": {
+      "inside_kattankudy_ds_polygon": 1703,
+      "address_mentions_kattankudy": 1871,
+      "unique_union": 1908
+    },
+    "membership_rule": "Union of coordinates covered by the Kattankudy DS polygon and an address containing Kattankudy/Kattankudi; aggregate counts only.",
+    "after": {
+      "inside_kattankudy_ds_polygon": 1703,
+      "address_mentions_kattankudy": 1871,
+      "unique_union": 1908
+    },
+    "all_kattankudy_records_retained": true
+  },
+  "coverage_gaps": [
+    "Batticaloa and Trincomalee district and locality discovery is blocked by mzc read timeouts.",
+    "Ampara currently has only one successful broad 46-result capture; category/division searches and pagination could not be completed.",
+    "No exhaustive inventory or pagination is documented; complete Eastern Province coverage cannot be claimed."
+  ],
+  "before_after_integrity": {
+    "before": {
+      "active_place_records": 4534,
+      "public_geographic_features": 4498,
+      "alias_count": 1086,
+      "road_records": 3710,
+      "road_sources_sha256": "ead714c9107595f2b25e9f96f70053f55d2b314f2a22862619fe9f37aef78a9c",
+      "speed_limit_records": 3710,
+      "speed_limit_sources_sha256": "5886d082050d3e8c8142bd10d873aa5d2173cbc0e611126e4e219b1b9eba26a1",
+      "supplementary_maxspeed_records": 462,
+      "supplementary_source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+      "shard_counts": {
+        "0001": 999,
+        "0002": 999,
+        "0003": 999,
+        "0004": 999,
+        "0005": 538
+      }
+    },
+    "after": {
+      "active_place_records": 4569,
+      "public_geographic_features": 4533,
+      "alias_count": 1086,
+      "road_records": 3710,
+      "road_sources_sha256": "ead714c9107595f2b25e9f96f70053f55d2b314f2a22862619fe9f37aef78a9c",
+      "speed_limit_records": 3710,
+      "speed_limit_sources_sha256": "5886d082050d3e8c8142bd10d873aa5d2173cbc0e611126e4e219b1b9eba26a1",
+      "supplementary_maxspeed_records": 462,
+      "supplementary_source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+      "shard_counts": {
+        "0001": 999,
+        "0002": 999,
+        "0003": 999,
+        "0004": 999,
+        "0005": 573
+      }
+    },
+    "all_existing_place_ids_retained": true,
+    "aliases_retained": true,
+    "existing_place_json_modified": 0,
+    "shards_within_999_limit": true,
+    "alias_file_sha256_before": "661503b3c0a0eb6078d875ebf1682e0ea4305f91102fd29eb40626f299365696",
+    "alias_file_sha256_after": "661503b3c0a0eb6078d875ebf1682e0ea4305f91102fd29eb40626f299365696"
+  },
+  "generated_delivery": {
+    "active_place_records": 4569,
+    "geographic_features": 4533,
+    "aliases": 1086,
+    "shards": {
+      "0001": 999,
+      "0002": 999,
+      "0003": 999,
+      "0004": 999,
+      "0005": 573
+    },
+    "pmtiles_bytes": 1711569,
+    "pmtiles_sha256": "94d5f469930149d9ad505df315921d5399a65591fe60284758ff89fb7b530b1d"
+  },
+  "verification": {
+    "python_tests": 132,
+    "node_tests": 39,
+    "browser_version": "Chromium 141.0.7390.37",
+    "browser_mode": "headless Chromium with mobile viewport/touch emulation; no physical Android device used",
+    "light_dark_view_count": 20,
+    "all_view_tile_loads_succeeded": true,
+    "accessibility_violations": 0,
+    "ampara_import_search_and_details": "passed",
+    "local_pmtiles_http_206": "passed using the local range-capable test server",
+    "live_pages_search_and_range": "not yet verified; requires deployed commit",
+    "browser_runs": [
+      {
+        "mode": "pmtiles",
+        "startup_ms": 5082,
+        "startup_transfer_bytes": 355603,
+        "interactive_transfer_bytes": 356645,
+        "post_gc_heap_bytes": 25868608,
+        "frame_p50_ms": 66.7,
+        "frame_p95_ms": 283.4,
+        "frame_p99_ms": 283.4,
+        "frame_max_ms": 400,
+        "long_tasks_over_50ms": 13
+      },
+      {
+        "mode": "pmtiles-retry",
+        "startup_ms": 6870,
+        "startup_transfer_bytes": 572856,
+        "interactive_transfer_bytes": 573898,
+        "post_gc_heap_bytes": 22186776,
+        "frame_p50_ms": 33.4,
+        "frame_p95_ms": 50.1,
+        "frame_p99_ms": 100,
+        "frame_max_ms": 400,
+        "long_tasks_over_50ms": 2
+      }
+    ],
+    "performance_note": "Single cold-context and retry-path observations; not repeated medians or a controlled before/after performance claim."
+  }
+}

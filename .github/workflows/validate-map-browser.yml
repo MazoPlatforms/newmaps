@@ -37,7 +37,9 @@ permissions:
   contents: read
 jobs:
   map-browser-smoke:
-    runs-on: ubuntu-latest
+    # Playwright 1.56.1 has no Chromium dependencies for Ubuntu 26.04 yet.
+    # Keep the browser job on the supported 24.04 GitHub-hosted image.
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4

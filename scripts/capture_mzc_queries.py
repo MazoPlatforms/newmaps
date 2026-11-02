@@ -48,7 +48,7 @@ def atomic_json(path: Path, value: Any) -> None:
     temporary.replace(path)
 
 
-def capture(plan_path: Path, output_dir: Path) -> dict[str, int]:
+def capture(plan_path: Path, output_dir: Path, minimum_interval: float = 0.0) -> dict[str, int]:
     plan = json.loads(plan_path.read_text(encoding="utf-8"))
     if not isinstance(plan, list):
         raise ValueError("Query plan must be a JSON array")
@@ -60,6 +60,7 @@ def capture(plan_path: Path, output_dir: Path) -> dict[str, int]:
     raw_rows = sum(int(row.get("count", 0)) for row in manifest if row.get("status") == "success")
     failed = sum(row.get("status") == "failed" for row in manifest)
 
+    last_invocation = None
     for item in plan:
         query = item.get("query")
         if not isinstance(query, str) or not query.strip():
@@ -80,10 +81,15 @@ def capture(plan_path: Path, output_dir: Path) -> dict[str, int]:
         attempts_available = min(3, max(0, total_attempt_limit - len(row["attempts"])))
         for retry_index in range(attempts_available):
             attempt_number = first_attempt + retry_index
+            if last_invocation is not None and minimum_interval > 0:
+                elapsed = time.monotonic() - last_invocation
+                if elapsed < minimum_interval:
+                    time.sleep(minimum_interval - elapsed)
             if retry_index:
                 time.sleep(min(2 ** retry_index, 8))
             started = datetime.now(timezone.utc).isoformat()
             try:
+                last_invocation = time.monotonic()
                 result = subprocess.run(
                     ["mzc", "-l", "500", "-c", "lk", "-t", str(item.get("timeout", 30)), query],
                     capture_output=True, text=True, timeout=int(item.get("timeout", 30)) + 15,
@@ -135,9 +141,13 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--plan", required=True, type=Path)
     parser.add_argument("--output-dir", required=True, type=Path)
+    parser.add_argument("--minimum-interval", type=float, default=0.0,
+                        help="minimum seconds between mzc process starts (use to respect service rate limits)")
     args = parser.parse_args()
     try:
-        print(json.dumps(capture(args.plan, args.output_dir), indent=2))
+        if args.minimum_interval < 0:
+            raise ValueError("--minimum-interval must be non-negative")
+        print(json.dumps(capture(args.plan, args.output_dir, args.minimum_interval), indent=2))
     except (OSError, json.JSONDecodeError, ValueError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
