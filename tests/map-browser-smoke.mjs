@@ -21,6 +21,11 @@ const coordinatesColumn = searchFixture.fields.indexOf('coordinates');
 const searchFixturePlace = searchFixture.records.find((record) => record[nameColumn] === 'Noor Accessories Showroom');
 assert.ok(searchFixturePlace, 'synthetic workflow fixture must be present in the generated search index');
 const expectedPlaceId = searchFixturePlace[idColumn];
+const easternExpansion = JSON.parse(readFileSync(resolve(root, 'reports/eastern-province-expansion.json'), 'utf8'));
+const importedPlaceId = easternExpansion.processing.imports?.[0]?.id;
+const importedPlace = searchFixture.records.find((record) => record[idColumn] === importedPlaceId);
+assert.ok(importedPlace, 'first Eastern Province import must be searchable in the compact index');
+const importedPlaceName = importedPlace[nameColumn];
 const server = createServer((request, response) => {
   const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
   const target = resolve(root, `.${pathname === '/' ? '/index.html' : pathname}`);
@@ -155,6 +160,7 @@ try {
       mkdirSync(screenshotDir, { recursive: true });
       const scenes = [
         ['world', [0, 0], 0.55], ['sri-lanka', [80.7, 7.8], 6.3],
+        ['ampara-district', [81.67, 7.3], 9], ['trincomalee-district', [81.23, 8.57], 9],
         ['eastern-province', [81.5, 7.7], 8], ['batticaloa-district', [81.7, 7.7], 9],
         ['batticaloa-coast', [81.75, 7.7], 10.5], ['kattankudy-surroundings', [81.73, 7.68], 11.5],
         ['kattankudy-street-network', [81.7337, 7.6831], 15], ['victory-ground-deen-road', [81.7389, 7.6766], 16],
@@ -226,6 +232,7 @@ try {
     if (mode === 'pmtiles' && screenshotDir) {
       const darkScenes = [
         ['world', [0, 0], 0.55], ['sri-lanka', [80.7, 7.8], 6.3],
+        ['ampara-district', [81.67, 7.3], 9], ['trincomalee-district', [81.23, 8.57], 9],
         ['eastern-province', [81.5, 7.7], 8], ['batticaloa-district', [81.7, 7.7], 9],
         ['batticaloa-coast', [81.75, 7.7], 10.5], ['kattankudy-surroundings', [81.73, 7.68], 11.5],
         ['kattankudy-street-network', [81.7337, 7.6831], 15], ['victory-ground-deen-road', [81.7389, 7.6766], 16],
@@ -243,6 +250,28 @@ try {
     await categoryButton.click();
     assert.equal(await categoryButton.getAttribute('aria-pressed'), 'true');
     const search = page.locator('#map-search');
+    await page.locator('.categories [data-category="all"]').click();
+    const importedCoordinates = importedPlace[coordinatesColumn];
+    await context.grantPermissions(['geolocation'], { origin: 'http://127.0.0.1:' + server.address().port });
+    await context.setGeolocation({ latitude: importedCoordinates[1], longitude: importedCoordinates[0] });
+    await page.locator('#map-locate').click();
+    await wait(page, () => /Showing public places within 10 km/i.test(document.querySelector('#search-status').textContent), 15_000);
+    await search.fill(importedPlaceName);
+    await wait(page, (name) => [...document.querySelectorAll('#search-results [role="option"] strong')].some((node) => node.textContent === name), 30_000, importedPlaceName);
+    const importedOption = page.locator('#search-results [role="option"]').filter({ hasText: importedPlaceName }).first();
+    assert.ok(await importedOption.count(), 'an imported Ampara place is selectable through the ordinary place search index');
+    await importedOption.click();
+    await wait(page, () => !document.querySelector('#place-sheet').hidden);
+    assert.equal(await page.locator('#place-title').innerText(), importedPlaceName);
+    await page.goBack();
+    await wait(page, () => document.querySelector('#place-sheet').hidden, 10_000);
+    await categoryButton.click();
+    await page.evaluate(() => Object.defineProperty(navigator, 'geolocation', {
+      configurable: true,
+      value: { getCurrentPosition(_success, failure) { failure({ code: 1 }); }, watchPosition() { return 1; }, clearWatch() {} },
+    }));
+    await page.locator('#map-locate').click();
+    await wait(page, () => /Location permission denied/i.test(document.querySelector('#search-status').textContent), 15_000);
     await search.fill('Noor Accessories Showroom');
     await wait(page, () => document.querySelector('#search-results [role="option"]'));
     const firstName = await page.locator('#search-results [role="option"] strong').first().innerText();
