@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { spawn } from 'node:child_process';
+import { execFileSync, spawn } from 'node:child_process';
 import { createHash, randomBytes } from 'node:crypto';
 import { createServer } from 'node:net';
 import { mkdtemp, readFile, rm, unlink, writeFile } from 'node:fs/promises';
@@ -96,6 +96,11 @@ try {
   });
   assert.equal(rideRoute.status, 200, 'versioned RideNow routing uses the current published Kattankudy graph');
   assert.equal((await rideRoute.json()).profile, 'driving');
+  const productionApiSmoke = JSON.parse(execFileSync(process.execPath,
+    [join(root, 'scripts/cloudflare-live-api-smoke.mjs')], {
+      cwd: root, encoding: 'utf8', env: { ...process.env, MAZO_WORKERS_URL: baseUrl },
+    }));
+  assert.equal(productionApiSmoke.status, 'PASS');
   const unauthorized = await fetch(new URL('api/admin/plan', baseUrl), { method: 'POST', body: '{}' });
   assert.equal(unauthorized.status, 401, 'unsigned synchronization requests are rejected');
   const replayBody = new TextEncoder().encode(JSON.stringify({ manifest: first.manifest }));

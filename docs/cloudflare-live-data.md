@@ -50,6 +50,25 @@ Unknown paths return `404`; invalid parameters return `400`; unavailable synchro
 Use OkHttp/Ktor on an IO dispatcher, parse coordinates as longitude then latitude, and keep the API base URL in build configuration. Do not ship an API key. Render the vector map with MapLibre Native for Android and use the manifest's PMTiles URL plus `Range` support through a PMTiles-aware tile source/protocol adapter; the web-only `pmtiles://` MapLibre plugin cannot be reused directly in Android. Keep API requests cancellable from Compose, debounce search input (250–350 ms), respect `429 Retry-After`, and show the documented local-route coverage before falling back to an external routing provider. Never upload precise GPS coordinates unless the user selects a remote-routing feature and consents.
 
 ```kotlin
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.Json
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.HttpUrl.Companion.toHttpUrl
+
+@Serializable data class PlaceSearchResponse(
+    val api_version: String, val revision: String, val query: String, val results: List<PlaceResult>,
+)
+@Serializable data class PlaceResult(
+    val id: String, val name: String, val address: String? = null,
+    val coordinates: List<Double>? = null, val discoveryCategory: String? = null,
+    val canonical_id: String? = null, val score: Int = 0,
+)
+class RateLimited(val retryAfterSeconds: Long) : Exception("Retry after $retryAfterSeconds seconds")
+private val json = Json { ignoreUnknownKeys = true }
+
 suspend fun searchPlaces(client: OkHttpClient, query: String): PlaceSearchResponse {
     val url = "https://maps.mazo.workers.dev/api/v1/places/search".toHttpUrl()
         .newBuilder().addQueryParameter("q", query).addQueryParameter("limit", "10").build()
