@@ -30,6 +30,40 @@ Uploads retry transient failures with bounded backoff and four concurrent transf
 
 The Worker does not call GitHub on client requests. GitHub API rate limits therefore do not affect map traffic. The source sync workflow currently reads the checked-out repository rather than using the GitHub API. Durable Object version reads are strongly consistent and serialized through one named object; this is a single coordination point, so observe its request/CPU usage as audience grows. Every visible tab makes one lightweight version request per 15 seconds while open. Cloudflare plan quotas and account-specific limits vary; review current Workers, Durable Objects, and R2 dashboard usage before broad rollout. On a free plan, a large continuously active audience can exhaust daily Worker/DO request limits even though file downloads use R2.
 
+## Stable RideNow API v1
+
+Base URL: `https://maps.mazo.workers.dev/api/v1`. These are public, read-only endpoints; no API key is required and no user credentials or personal data are accepted. TLS is required. CORS allows `*` because responses contain public map records only; CORS is a browser policy, not authentication. The sync/admin API is separate and requires a short-lived HMAC-SHA256 signature and one-use nonce. Never embed that HMAC key in RideNow or another client.
+
+The Cloudflare `API_RATE_LIMITER` binding allows 60 requests per client IP per minute. A `429` includes `Retry-After: 60`; clients should use bounded exponential backoff. Responses include `X-Mazo-API-Version: v1` and `X-Mazo-Data-Revision`, use JSON/GeoJSON and `Cache-Control: no-store`, and allow GET/POST/OPTIONS (POST is used only for routing so coordinates do not appear in URL logs). API search uses a precomputed compact case/diacritic-insensitive substring index; the browser app retains its richer fuzzy and Tamil/Sinhala romanization matching.
+
+| Endpoint | Contract |
+| --- | --- |
+| `GET /manifest` | `{ api_version, revision, manifest }`, including versioned PMTiles, search, place-detail, road and routing artifact metadata. |
+| `GET /places/search?q=<text>&limit=10` | Ranked canonical place records with ID, coordinates where available, category, match score and optional distance. `limit` is clamped to 1–25; query is required and at most 160 characters. |
+| `GET /geocode?q=<text>&limit=10` | GeoJSON `FeatureCollection` of matching geocoded places; geometry is `[longitude, latitude]`. |
+| `POST /route` with JSON `{ start_lon, start_lat, end_lon, end_lat, profile }` | Local route alternatives with geometry, distance, ETA and snap distances. Coordinates are kept out of URL query strings. `profile` is `driving`, `walking`, or `cycling`. Local routing coverage is the Kattankudy-area graph only; outside coverage returns `422` with `snap_too_far`. |
+
+Unknown paths return `404`; invalid parameters return `400`; unavailable synchronized data returns `503`. The client should read `/manifest` first, track `revision`, and refresh its cached search/route data when that value changes. The existing app still uses its own client-side search and routing logic, preserving GitHub Pages and offline behavior.
+
+### Kotlin / Jetpack Compose integration outline
+
+Use OkHttp/Ktor on an IO dispatcher, parse coordinates as longitude then latitude, and keep the API base URL in build configuration. Do not ship an API key. Render the vector map with MapLibre Native for Android and use the manifest's PMTiles URL plus `Range` support through a PMTiles-aware tile source/protocol adapter; the web-only `pmtiles://` MapLibre plugin cannot be reused directly in Android. Keep API requests cancellable from Compose, debounce search input (250–350 ms), respect `429 Retry-After`, and show the documented local-route coverage before falling back to an external routing provider. Never upload precise GPS coordinates unless the user selects a remote-routing feature and consents.
+
+```kotlin
+suspend fun searchPlaces(client: OkHttpClient, query: String): PlaceSearchResponse {
+    val url = "https://maps.mazo.workers.dev/api/v1/places/search".toHttpUrl()
+        .newBuilder().addQueryParameter("q", query).addQueryParameter("limit", "10").build()
+    val request = Request.Builder().url(url).header("Accept", "application/json").get().build()
+    return withContext(Dispatchers.IO) {
+        client.newCall(request).execute().use { response ->
+            if (response.code == 429) throw RateLimited(response.header("Retry-After")?.toLongOrNull() ?: 60)
+            check(response.isSuccessful) { "Mazo Maps API returned ${response.code}" }
+            json.decodeFromString(requireNotNull(response.body).string())
+        }
+    }
+}
+```
+
 ## Validation and benchmarks
 
 Run `npm run test:unit`, `npm run test:live-data:e2e`, `npm run test:browser`, `python -m unittest discover -s tests -v`, `npm run build:cloudflare`, and `npx wrangler deploy --dry-run --config wrangler.jsonc`. The E2E script starts Wrangler locally with its SQLite Durable Object and local R2 emulation, signs real sync requests, verifies one-use HMAC nonces, tests changed/deleted files, archive SHA-256 and ranges, conditional polls, hash-addressed cache behavior, rollback without re-uploading retained objects, open-tab reload, vector-POI point clicks, stale service-worker cache bypass and axe accessibility. The existing browser suite covers map startup, search, routing/GPS, touch directions controls, offline behavior and PMTiles delivery.

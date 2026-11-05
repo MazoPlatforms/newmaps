@@ -78,6 +78,24 @@ try {
   assert.equal(first.result.deleted.length, 0);
   const published1 = await readJson('api/version');
   assert.equal(published1.revision, 'a'.repeat(40));
+  const rideSearch = await fetch(new URL('api/v1/places/search?q=Noor%20Accessories%20Showroom&limit=2', baseUrl));
+  assert.equal(rideSearch.status, 200, 'versioned RideNow place search is available after initial sync');
+  assert.equal(rideSearch.headers.get('access-control-allow-origin'), '*');
+  assert.equal(rideSearch.headers.get('x-mazo-api-version'), 'v1');
+  assert.equal((await rideSearch.json()).results[0].name, 'Noor Accessories Showroom');
+  const rideGeocode = await fetch(new URL('api/v1/geocode?q=Noor%20Accessories%20Showroom', baseUrl));
+  assert.equal(rideGeocode.status, 200);
+  assert.equal((await rideGeocode.json()).features[0].geometry.type, 'Point');
+  const routeGraph = JSON.parse(await readFile(join(dist, 'generated/kattankudy-routing.json'), 'utf8'));
+  const firstSegment = routeGraph.segments.find((row) => (row[3] | row[4]) & 1);
+  const start = routeGraph.nodes[firstSegment[0]];
+  const finish = routeGraph.nodes[firstSegment[1]];
+  const rideRoute = await fetch(new URL('api/v1/route', baseUrl), {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ start_lon: start[0], start_lat: start[1], end_lon: finish[0], end_lat: finish[1], profile: 'driving' }),
+  });
+  assert.equal(rideRoute.status, 200, 'versioned RideNow routing uses the current published Kattankudy graph');
+  assert.equal((await rideRoute.json()).profile, 'driving');
   const unauthorized = await fetch(new URL('api/admin/plan', baseUrl), { method: 'POST', body: '{}' });
   assert.equal(unauthorized.status, 401, 'unsigned synchronization requests are rejected');
   const replayBody = new TextEncoder().encode(JSON.stringify({ manifest: first.manifest }));
@@ -242,6 +260,7 @@ try {
     pmtiles_sha256: archiveEntry.sha256,
     range_responses: rangeResponses.length,
     conditional_poll: etagVersion.status,
+    ridenow_api: { search: rideSearch.status, geocode: rideGeocode.status, route: rideRoute.status },
     unsigned_admin_request: unauthorized.status,
     replayed_admin_request: rejectedReplay.status,
     private_chunk: privateChunk.status,

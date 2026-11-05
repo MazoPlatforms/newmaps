@@ -6,6 +6,7 @@ import json
 import hashlib
 import mimetypes
 import shutil
+import unicodedata
 import sys
 from pathlib import Path, PurePosixPath
 
@@ -45,6 +46,28 @@ def split_pmtiles_archive(source: Path, destination: Path, chunk_size: int) -> i
             (destination / f"{count:05d}.bin").write_bytes(chunk)
             count += 1
     return count
+
+
+def build_api_search_index(source: Path, destination: Path) -> None:
+    payload = json.loads(source.read_text(encoding="utf-8"))
+    indexes = {field: position for position, field in enumerate(payload.get("fields", []))}
+    required = {"id", "name", "coordinates", "categories", "discoveryCategory", "address"}
+    if not required.issubset(indexes):
+        raise ValueError("Place search index is missing fields required by the RideNow API")
+    fields = ["id", "name", "address", "coordinates", "discoveryCategory", "searchText"]
+    rows = []
+    for row in payload.get("records", []):
+        name = row[indexes["name"]] or ""
+        address = row[indexes["address"]] or ""
+        categories = row[indexes["categories"]] or []
+        searchable = " ".join([str(name), str(address), *(str(value) for value in categories)])
+        searchable = unicodedata.normalize("NFKD", searchable).casefold()
+        searchable = " ".join("".join(char if char.isalnum() or unicodedata.category(char).startswith("M") else " "
+                                      for char in searchable).split())
+        rows.append([row[indexes["id"]], name, address, row[indexes["coordinates"]],
+                     row[indexes["discoveryCategory"]], searchable])
+    destination.write_text(json.dumps({"version": 1, "fields": fields, "records": rows},
+                                      ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
 
 def build_bootstrap_live_manifest() -> dict:
@@ -131,6 +154,9 @@ def build() -> dict:
 
     for name in sorted(set(files)):
         copy_file(GENERATED / name, DIST / "generated" / name)
+
+    build_api_search_index(DIST / "generated" / "search-index.json", DIST / "generated" / "api-search-index.json")
+    files.append("api-search-index.json")
 
     written_chunks = split_pmtiles_archive(
         pmtiles_source,

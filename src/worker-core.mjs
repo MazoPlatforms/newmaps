@@ -1,5 +1,6 @@
 import { verifySignedRequest } from './live-data-auth.mjs';
 import { liveDataObjectKey } from './live-data-registry.mjs';
+import { handleRideApi } from './ride-api.mjs';
 
 const PMTILES_PATH = '/generated/places.pmtiles';
 const PMTILES_RANGE_MANIFEST_PATH = '/generated/places-pmtiles-range.json';
@@ -369,6 +370,8 @@ export async function servePmtilesRange(request, assets, chunkSize = 65_536) {
 export default {
   async fetch(request, env) {
     const pathname = new URL(request.url).pathname;
+    const rideApiResponse = await handleRideApi(request, env);
+    if (rideApiResponse) return rideApiResponse;
     if (pathname.startsWith(LIVE_API_PREFIX)) return serveLiveApi(request, env);
     if (pathname.startsWith(`${PMTILES_CHUNK_DIRECTORY}/`)) return noStoreNotFound();
     if (pathname !== PMTILES_PATH) return env.ASSETS.fetch(request);

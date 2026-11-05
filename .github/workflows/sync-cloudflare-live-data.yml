@@ -3,6 +3,10 @@ name: Sync Mazo Maps data to Workers
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: [Deploy Mazo Maps to Cloudflare Workers]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -14,7 +18,7 @@ concurrency:
 
 jobs:
   validate-and-sync:
-    if: github.ref == 'refs/heads/main'
+    if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-24.04
     timeout-minutes: 45
     steps:
@@ -70,3 +74,8 @@ jobs:
           MAZO_LIVE_DATA_HMAC_SECRET: ${{ secrets.MAZO_LIVE_DATA_HMAC_SECRET }}
           MAZO_LIVE_SYNC_URL: https://maps.mazo.workers.dev/
         run: node scripts/cloudflare-live-data-sync.mjs
+
+      - name: Smoke-test deployed RideNow v1 APIs after synchronization
+        env:
+          MAZO_WORKERS_URL: https://maps.mazo.workers.dev/
+        run: node scripts/cloudflare-live-api-smoke.mjs
