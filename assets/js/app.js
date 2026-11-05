@@ -103,15 +103,10 @@ function registerIcons(){
   const id=iconFor(kind);if(map.hasImage(id))continue;
   const canvas=document.createElement('canvas');canvas.width=64;canvas.height=64;
   const ctx=canvas.getContext('2d');
-  // Teardrop map pin: its tip is the exact place coordinate.
-  ctx.beginPath();ctx.moveTo(32,61);
-  ctx.bezierCurveTo(25,50,10,39,10,27);
-  ctx.arc(32,27,22,Math.PI,0);
-  ctx.bezierCurveTo(54,39,39,50,32,61);
-  ctx.closePath();ctx.fillStyle=color;ctx.fill();
-  ctx.lineWidth=3.5;ctx.strokeStyle='#fff';ctx.stroke();
-  ctx.beginPath();ctx.arc(32,27,19,0,Math.PI*2);ctx.lineWidth=1;ctx.strokeStyle=theme()==='dark'?'#101c23':'#34434a';ctx.stroke();
-  ctx.save();ctx.translate(32,27);ctx.scale(0.62,0.62);ctx.translate(-28,-31);
+  ctx.beginPath();ctx.arc(32,32,26,0,Math.PI*2);ctx.fillStyle=color;ctx.fill();
+  ctx.lineWidth=4;ctx.strokeStyle='#fff';ctx.stroke();
+  ctx.beginPath();ctx.arc(32,32,29,0,Math.PI*2);ctx.lineWidth=1.5;ctx.strokeStyle=theme()==='dark'?'#101c23':'#34434a';ctx.stroke();
+  ctx.save();ctx.translate(32,32);ctx.scale(0.72,0.72);ctx.translate(-28,-31);
   ctx.strokeStyle='#fff';ctx.lineWidth=3.4;ctx.lineJoin='round';ctx.lineCap='round';
   ctx.stroke(new Path2D(paths[kind]||paths.shop));ctx.restore();
   map.addImage(id,ctx.getImageData(0,0,64,64),{pixelRatio:2});
@@ -120,7 +115,7 @@ function registerIcons(){
 function selectedPoiFeatures(){return {type:'FeatureCollection',features:selectedPlace?.coordinates&&Number.isFinite(+selectedPlace.coordinates.longitude)&&Number.isFinite(+selectedPlace.coordinates.latitude)?[placeFeature(selectedPlace)]:[]}}
 function poiLayout(){return {
  'icon-image':['concat','mazo-',['get','kind']],
- 'icon-anchor':'bottom',
+ 'icon-anchor':'center',
  'icon-size':['interpolate',['linear'],['zoom'],6,0.48,9,0.56,12,0.64,15,0.74,18,0.82,20,0.9],
  'icon-allow-overlap':false,'icon-padding':['interpolate',['linear'],['zoom'],6,16,9,18,12,19,15,26,18,22,20,18],
  'text-field':['get','name'],'text-font':['Noto Sans Regular'],
