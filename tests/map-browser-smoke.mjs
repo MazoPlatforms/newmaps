@@ -389,7 +389,10 @@ try {
   await wait(offlinePage, () => window.__MAZO_MAP_TEST__?.isStyleLoaded(), 60_000);
   await offlinePage.locator('#offline-download').click();
   try {
-    await wait(offlinePage, () => /Offline place search, details, local roads and limited Kattankudy routing are downloaded/i.test(document.querySelector('#offline-status').innerText), 90_000);
+    await wait(offlinePage, () => /(?:Offline place search, details, local roads and limited Kattankudy routing are downloaded|Offline data operation failed:)/i.test(document.querySelector('#offline-status').innerText), 90_000);
+    const offlinePackStatus = await offlinePage.locator('#offline-status').innerText();
+    assert.match(offlinePackStatus, /Offline place search, details, local roads and limited Kattankudy routing are downloaded/i,
+      `offline pack download failed: ${offlinePackStatus}`);
   } catch (error) {
     console.error(`Offline browser pack status: ${await offlinePage.locator('#offline-status').innerText()}`);
     throw error;

@@ -668,7 +668,7 @@ async function updateOfflineStatus(){
  try{const keys=await caches.keys();const packs=keys.filter(key=>key.startsWith('mazo-offline-pack-'));offlineStatus.hidden=false;offlineStatus.textContent=packs.length?'Offline place search, details, local roads and limited Kattankudy routing are downloaded. Basemap, live directions outside that area, and online updates still require internet.':'Offline data is not downloaded. Basemap tiles are online-only.';offlineButton.title=packs.length?'Remove downloaded offline place data':'Download offline place data';offlineButton.setAttribute('aria-label',offlineButton.title)}catch{offlineStatus.hidden=false;offlineStatus.textContent='Offline storage is unavailable in this browser.'}
 }
 offlineButton.onclick=async()=>{
- offlineButton.disabled=true;offlineStatus.hidden=false;
+ offlineButton.disabled=true;offlineStatus.hidden=false;let operationFailed=false;
  try{
   const keys=await caches.keys(),existing=keys.filter(key=>key.startsWith('mazo-offline-pack-'));
   if(existing.length&&!navigator.onLine){await removeOfflinePack();offlineStatus.textContent='Downloaded place data removed. The basemap was never stored offline.'}
@@ -681,8 +681,8 @@ offlineButton.onclick=async()=>{
    if(existing.includes(target)){await removeOfflinePack();offlineStatus.textContent='Downloaded place data removed. The basemap was never stored offline.'}
    else{const total=pack.resources.reduce((sum,row)=>sum+(Number(row.bytes)||0),0);offlineStatus.textContent=`Downloading ${pack.resources.length} files (${(total/1048576).toFixed(1)} MB)…`;await downloadOfflinePack({manifest:places,roadsManifest:roads,routingManifest:routing,resolveResource});offlineStatus.textContent=`Offline place, search, detail and Kattankudy routing data saved or updated (${(total/1048576).toFixed(1)} MB). Basemap remains online-only.`}
   }
- }catch(error){offlineStatus.textContent=`Offline data operation failed: ${error.message}`}
- finally{offlineButton.disabled=false;await updateOfflineStatus()}
+ }catch(error){operationFailed=true;offlineStatus.textContent=`Offline data operation failed: ${error.message}`}
+ finally{offlineButton.disabled=false;if(!operationFailed)await updateOfflineStatus()}
 };
 window.addEventListener('online',updateOfflineStatus);window.addEventListener('offline',updateOfflineStatus);void updateOfflineStatus();
 window.addEventListener('offline',()=>{const message=$('#network-status');message.textContent='You are offline. The basemap may stop updating; already loaded places remain available.';message.hidden=false});
