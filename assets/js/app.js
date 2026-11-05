@@ -258,7 +258,11 @@ routePanel.addEventListener('pointerdown',e=>{
  if(e.target.closest('#route-close'))return;
  setRouteSheetState('half');
 });
-routePanel.addEventListener('focusin',()=>setRouteSheetState('half'));
+routePanel.addEventListener('focusin',e=>{
+ // Focusing the close button must not resize the sheet between touchstart and click.
+ if(e.target.closest('#route-close'))return;
+ setRouteSheetState('half');
+});
 map.getCanvas().addEventListener('pointerdown',()=>{if(!routePanel.hidden)setRouteSheetState('compact')});
 map.getCanvas().addEventListener('wheel',()=>{if(!routePanel.hidden)setRouteSheetState('compact')},{passive:true});
 map.on('movestart',()=>{if(!routePanel.hidden)setRouteSheetState('compact')});

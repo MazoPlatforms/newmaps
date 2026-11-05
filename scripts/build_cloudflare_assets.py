@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import shutil
 import sys
 from pathlib import Path, PurePosixPath
@@ -10,6 +11,7 @@ from pathlib import Path, PurePosixPath
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 GENERATED = ROOT / "generated"
+WRANGLER_CONFIG = ROOT / "wrangler.jsonc"
 
 
 def copy_file(source: Path, destination: Path) -> None:
@@ -34,6 +36,16 @@ def referenced_manifest_file(manifest: dict, field: str) -> str:
     return name
 
 
+def split_pmtiles_archive(source: Path, destination: Path, chunk_size: int) -> int:
+    destination.mkdir(parents=True, exist_ok=True)
+    count = 0
+    with source.open("rb") as archive:
+        while chunk := archive.read(chunk_size):
+            (destination / f"{count:05d}.bin").write_bytes(chunk)
+            count += 1
+    return count
+
+
 def build() -> dict:
     if not (ROOT / "index.html").is_file():
         raise FileNotFoundError("Run this script from a complete Mazo Maps checkout")
@@ -55,6 +67,26 @@ def build() -> dict:
         generated_entry(place_manifest, "place_details"),
     ]
 
+    wrangler_config = json.loads(WRANGLER_CONFIG.read_text(encoding="utf-8"))
+    chunk_size = int(wrangler_config.get("vars", {}).get("PMTILES_CHUNK_SIZE", 0))
+    if chunk_size <= 0:
+        raise ValueError("Wrangler PMTILES_CHUNK_SIZE must be a positive integer")
+    pmtiles_file = generated_entry(place_manifest, "mvt_pmtiles")
+    pmtiles_source = GENERATED / pmtiles_file
+    pmtiles_entry = place_manifest["delivery"]["mvt_pmtiles"]
+    pmtiles_bytes = pmtiles_source.stat().st_size
+    if pmtiles_bytes != pmtiles_entry.get("bytes"):
+        raise ValueError("PMTiles archive size does not match its delivery manifest")
+    chunk_count = (pmtiles_bytes + chunk_size - 1) // chunk_size
+    if chunk_count > 47:
+        raise ValueError(
+            "PMTiles must use at most 47 range chunks so metadata, HEAD, and a full archive Range "
+            "stays within the Workers Free per-request subrequest budget"
+        )
+    digest = hashlib.sha256(pmtiles_source.read_bytes()).hexdigest()
+    if digest != pmtiles_entry.get("sha256"):
+        raise ValueError("PMTiles archive checksum does not match its delivery manifest")
+
     for manifest_name, data_field in (
         ("kattankudy-roads-manifest.json", "geojson"),
         ("kattankudy-speed-limits-manifest.json", "geojson"),
@@ -66,11 +98,33 @@ def build() -> dict:
     for name in sorted(set(files)):
         copy_file(GENERATED / name, DIST / "generated" / name)
 
+    written_chunks = split_pmtiles_archive(
+        pmtiles_source,
+        DIST / "generated" / "places-pmtiles-chunks",
+        chunk_size,
+    )
+    if written_chunks != chunk_count:
+        raise ValueError("Generated PMTiles chunk count does not match the archive size")
+    range_manifest = {
+        "format": "MazoPMTilesRange/1",
+        "file": pmtiles_file,
+        "sha256": digest,
+        "bytes": pmtiles_bytes,
+        "chunk_size": chunk_size,
+        "chunk_count": written_chunks,
+    }
+    (DIST / "generated" / "places-pmtiles-range.json").write_text(
+        json.dumps(range_manifest, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
     return {
         "output": str(DIST.relative_to(ROOT)),
         "files": sum(1 for path in DIST.rglob("*") if path.is_file()),
         "bytes": sum(path.stat().st_size for path in DIST.rglob("*") if path.is_file()),
-        "generated": sorted(set(files)),
+        "generated": sorted({*files, "places-pmtiles-range.json"}),
+        "pmtiles_range_chunks": written_chunks,
+        "pmtiles_chunk_size": chunk_size,
     }
 
 

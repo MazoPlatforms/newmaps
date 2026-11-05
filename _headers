@@ -7,10 +7,16 @@
 /generated/manifest.json
   Cache-Control: no-cache
 
+/generated/places-pmtiles-range.json
+  Cache-Control: no-cache
+
 /generated/*-manifest.json
   Cache-Control: no-cache
 
 /generated/places.pmtiles
+  Cache-Control: public, max-age=31536000, immutable
+
+/generated/places-pmtiles-chunks/*
   Cache-Control: public, max-age=31536000, immutable
 
 /generated/search-index.json

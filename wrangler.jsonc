@@ -4,10 +4,16 @@
   "main": "src/worker.mjs",
   "compatibility_date": "2026-11-05",
   "workers_dev": true,
+  "vars": {
+    "PMTILES_CHUNK_SIZE": "65536"
+  },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
-    "run_worker_first": ["/generated/places.pmtiles"]
+    "run_worker_first": [
+      "/generated/places.pmtiles",
+      "/generated/places-pmtiles-chunks/*"
+    ]
   }
 }

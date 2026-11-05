@@ -342,7 +342,15 @@ try {
     assert.equal(await page.locator('[data-route-mode="cycling"]').getAttribute('aria-pressed'), 'true');
     await wait(page, () => document.querySelector('#route-status').innerText.includes('Unable to calculate route'), 10_000);
     assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route')), 0, 'failed route refresh clears stale route geometry');
-    await page.locator('#route-close').click();
+    if (mode === 'pmtiles') {
+      const closeButton = page.locator('#route-close');
+      const bounds = await closeButton.boundingBox();
+      assert.ok(bounds, 'mobile directions close button should be visible');
+      await page.touchscreen.tap(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
+    } else {
+      await page.locator('#route-close').click();
+    }
+    await wait(page, () => document.querySelector('#route-panel').hidden, 5_000);
     const interactiveTransferBytes = await page.evaluate(() => performance.getEntriesByType('resource').reduce((total, entry) => total + (entry.transferSize || 0), 0));
 
     assert.deepEqual(errors, [], `${mode} browser errors`);
@@ -380,7 +388,7 @@ try {
   await offlinePage.goto(`${origin}/?map-test=1`, { waitUntil: 'domcontentloaded' });
   await wait(offlinePage, () => window.__MAZO_MAP_TEST__?.isStyleLoaded(), 60_000);
   await offlinePage.locator('#offline-download').click();
-  await wait(offlinePage, () => /downloaded/i.test(document.querySelector('#offline-status').innerText), 60_000);
+  await wait(offlinePage, () => /Offline place search, details, local roads and limited Kattankudy routing are downloaded/i.test(document.querySelector('#offline-status').innerText), 90_000);
   await offlinePage.evaluate(async () => { await navigator.serviceWorker.ready; });
   if (!await offlinePage.evaluate(() => Boolean(navigator.serviceWorker.controller))) await offlinePage.reload({ waitUntil: 'domcontentloaded' });
   cachedArchiveRanges.length = 0;

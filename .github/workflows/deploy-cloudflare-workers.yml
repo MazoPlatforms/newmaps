@@ -83,3 +83,8 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: npm run deploy:cloudflare
+
+      - name: Smoke-test deployed Worker routes and PMTiles Range
+        env:
+          MAZO_WORKERS_URL: https://maps.mazo.workers.dev/
+        run: node scripts/cloudflare-production-smoke.mjs
