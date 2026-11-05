@@ -53,6 +53,8 @@ jobs:
         run: |
           npm run build:cloudflare
           npx wrangler deploy --dry-run --config wrangler.jsonc
+      - name: Install Chromium for browser E2E
+        run: npx playwright install --with-deps chromium
       - name: Run real local Worker, R2, Durable Object, sync, browser and accessibility E2E
         run: npm run test:live-data:e2e
       - name: Run existing GitHub Pages browser regression suite
