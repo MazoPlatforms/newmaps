@@ -1,6 +1,6 @@
 # Cloudflare Workers deployment
 
-Mazo Maps runs as a Cloudflare Worker with Static Assets and `/api/*`, while preserving the existing GitHub Pages deployment. Production code changes on `main` run the repository validators, Python and Node regression suites, Chromium browser smoke tests, a static asset build, Wrangler validation, deployment, and production smoke checks. Data-only changes use the separate R2 sync workflow without redeploying the Worker.
+Cloudflare Workers is the sole production host for Mazo Maps: Static Assets serves the web app and `src/worker-core.mjs` handles `/api/*`; R2 stores versioned live datasets and a Durable Object publishes the active manifest atomically. GitHub is the source of truth and GitHub Actions validates/deploys application changes and synchronizes data changes. Production code changes on `main` run the repository validators, Python and Node regression suites, Chromium browser checks, a static asset build, Wrangler validation, deployment, and production smoke checks. Data-only changes use the separate R2 sync workflow without redeploying the Worker. GitHub Pages deployment has been retired.
 
 ## Required GitHub Actions secrets
 
@@ -33,7 +33,7 @@ npm run build:cloudflare
 npx wrangler deploy --dry-run --config wrangler.jsonc
 ```
 
-The build stages only app assets, city labels, and generated files referenced by the delivery manifests in `dist/`. It rewrites the Workers copy of the HTML shell's relative `/assets/` links to root-relative URLs so nested SPA fallbacks load CSS, MapLibre, the logo, and JavaScript from the correct paths; the source `index.html` stays relative for GitHub Pages under its repository subpath. The app-shell cache version advances with that build so installed service workers discard stale shell assets. Canonical place, road, and speed-limit source records are not published as separate files. The Pages workflow continues to build and deploy from the repository root as before.
+The build stages only app assets, city labels, and generated files referenced by the delivery manifests in `dist/`. It rewrites the Workers copy of the HTML shell's relative `/assets/` links to root-relative URLs so nested SPA fallbacks load CSS, MapLibre, the logo, and JavaScript from the correct paths; the source `index.html` retains relative links for local static previews. The app-shell cache version advances with that build so installed service workers discard stale shell assets. Canonical place, road, and speed-limit source records are not published as separate files.
 
 Workers Static Assets does not return `206 Partial Content` for a static asset Range request. `scripts/build_cloudflare_assets.py` splits the PMTiles archive into internal 64 KiB static chunks. `src/worker.mjs` reads the archive headers with `HEAD`, fetches only the chunks intersecting a requested byte range, and returns the original cache validators with `206`, `Content-Range`, and `Accept-Ranges`. Chunk URLs are versioned from the archive ETag and hidden from direct requests by `run_worker_first`. The full archive remains in `dist/generated/places.pmtiles` for downloads and offline packs; the service worker continues to synthesize cached byte ranges from that full archive.
 

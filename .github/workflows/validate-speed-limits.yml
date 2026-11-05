@@ -33,7 +33,6 @@ on:
       - 'reports/phase10-*.json'
       - '.gitignore'
       - '.github/workflows/validate-speed-limits.yml'
-      - '.github/workflows/pages.yml'
   push:
     branches: [main]
     paths:
@@ -67,7 +66,6 @@ on:
       - 'reports/phase10-*.json'
       - '.gitignore'
       - '.github/workflows/validate-speed-limits.yml'
-      - '.github/workflows/pages.yml'
 permissions:
   contents: read
 jobs:

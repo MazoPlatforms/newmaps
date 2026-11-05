@@ -26,8 +26,8 @@ def copy_file(source: Path, destination: Path) -> None:
 def cloudflare_index_html(source: str) -> str:
     """Make the SPA shell's static asset links valid on nested Workers routes.
 
-    GitHub Pages serves this project's source index under a repository
-    subpath, so leave index.html untouched there. Workers serves from `/`.
+    Apply root URLs only to the Workers output, where the site is mounted at
+    `/`; preserve the source shell's relative URLs for local static previews.
     """
     return (source.replace("<head>", '<head>\n    <base href="/">', 1)
             .replace('href="./assets/', 'href="/assets/')

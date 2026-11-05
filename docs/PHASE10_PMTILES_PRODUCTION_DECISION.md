@@ -1,5 +1,7 @@
 # Phase 10 — Place delivery decision and production migration
 
+> **Historical hosting note:** The PMTiles range and performance measurements below were collected while GitHub Pages hosted production. Cloudflare Workers is now the sole production host; see [Cloudflare Workers deployment](CLOUDFLARE_WORKERS.md) for the current architecture.
+
 ## Decision
 
 PMTiles is now the sole production delivery format for place map features. Canonical per-place JSON remains authoritative. The dedicated compact search index, complete place-details index, and permanent alias table remain separate generated assets. Roads and speed-limit review data continue using their existing MZP files; this migration concerns the place map dataset only.

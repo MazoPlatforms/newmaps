@@ -155,16 +155,16 @@ class PlaceContributionWorkflowTests(unittest.TestCase):
         self.assertIn("python scripts/build_map_delivery.py", places_workflow)
         self.assertIn("python scripts/build_map_delivery.py", speed_workflow)
 
-    def test_existing_pages_workflow_rebuilds_public_place_data_on_main_push(self):
-        workflow = (ROOT / ".github/workflows/pages.yml").read_text()
-        app = (ROOT / "assets/js/app.js").read_text()
+    def test_main_data_changes_build_and_sync_live_worker_data(self):
+        workflow = (ROOT / ".github/workflows/sync-cloudflare-live-data.yml").read_text()
         self.assertIn("branches: [main]", workflow)
         self.assertIn("python scripts/places.py build", workflow)
         self.assertIn("python -m pip install -r requirements-map-tiles.txt", workflow)
         self.assertIn("python scripts/build_map_delivery.py", workflow)
-        self.assertIn("validate_place_contributions.py", workflow)
-        self.assertIn("actions/upload-pages-artifact@v3", workflow)
-        self.assertIn("generated/manifest.json", app)
+        self.assertIn("scripts/cloudflare-live-data-sync.mjs", workflow)
+        self.assertIn("scripts/cloudflare-live-api-smoke.mjs", workflow)
+        self.assertIn("secrets.MAZO_LIVE_DATA_HMAC_SECRET", workflow)
+        self.assertNotIn("pages.yml", workflow)
 
 
 if __name__ == "__main__":

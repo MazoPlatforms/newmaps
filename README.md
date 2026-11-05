@@ -24,17 +24,17 @@ Road segments live in `data/roads/<shard>/<ULID>.json`, with no more than 999 re
 
 ## Validation and deployment
 
-`python scripts/places.py validate`, `python scripts/validate_map_delivery.py`, and `python scripts/roads.py validate` check IDs, filenames, source IDs, JSON, geometry, duplicate IDs, generated PMTiles/search/detail consistency, and shard limits. `python -m unittest discover -s tests -v` runs the full regression suite. GitHub Actions validates pull requests and the Pages workflow builds place PMTiles/search/detail assets plus the separate road and speed-limit MZP files before uploading the site artifact. Set Pages source to GitHub Actions.
+`python scripts/places.py validate`, `python scripts/validate_map_delivery.py`, and `python scripts/roads.py validate` check IDs, filenames, source IDs, JSON, geometry, duplicate IDs, generated PMTiles/search/detail consistency, and shard limits. `python -m unittest discover -s tests -v` runs the full regression suite. GitHub Actions validates pull requests, builds the Worker assets, deploys Mazo Maps to Cloudflare Workers, and synchronizes changed map data to R2.
 
 Migration artifacts `migration-record-map.json` and `migration-exclusions.json` map every original file/index to its new ID and document records without coordinates. The original 61 category datasets are preserved on the [`archive/pre-ulid-migration`](https://github.com/MazoPlatforms/newmaps/tree/archive/pre-ulid-migration) branch. The live app loads the generated PMTiles archive instead of requesting individual place JSON files.
 
 ## Cloudflare Workers
 
-The `deploy/cloudflare-workers` branch includes an independent Workers Static Assets build and deployment workflow. It uses the same production-generated PMTiles, search, road, speed-limit, routing, and offline assets while leaving this GitHub Pages workflow unchanged. Wrangler staging, PMTiles byte-range handling, required GitHub secrets, and deployment steps are documented in [Cloudflare Workers deployment](docs/CLOUDFLARE_WORKERS.md).
+Cloudflare Workers with Static Assets and the `/api/*` Worker are the production host. GitHub is the source of truth for map records and source datasets; GitHub Actions publishes changed objects to R2 and atomically advances the live manifest. Wrangler bindings, PMTiles byte-range handling, required GitHub secrets, API contracts, and RideNow integration are documented in [Cloudflare Workers deployment](docs/CLOUDFLARE_WORKERS.md) and [Cloudflare live data](docs/cloudflare-live-data.md).
 
 ## Rollback
 
-Revert the relevant pull request, then allow the Pages workflow to rebuild and deploy generated assets. Place PMTiles, indexes, and road/speed MZP files are build artifacts and do not need commits.
+Revert the relevant pull request. The Cloudflare deployment workflow restores the Worker build, and the live-data sync workflow republishes the reverted GitHub source data to R2. Place PMTiles, indexes, and road/speed MZP files are build artifacts and do not need commits.
 
 
 ## Speed-limit records

@@ -410,7 +410,7 @@ def build_review_report(osm_data: dict | None = None) -> dict:
         "history_remediation_plan": [
             "Repository admin: delete the Phase 1 full-record GitHub Actions artifact (the current integration returned HTTP 403) and remove any remaining detailed residential candidates from public workflow artifacts.",
             "If confirmed private details are found in existing public commits, coordinate a repository-wide filter-repo rewrite of main and active refs, then force-push with collaborator coordination.",
-            "Request GitHub cache/PR-diff cleanup where rewritten sensitive blobs remain accessible; re-run Pages deployment after approved remediation.",
+            "Request GitHub cache/PR-diff cleanup where rewritten sensitive blobs remain accessible; re-run the Cloudflare deployment after approved remediation.",
         ],
         "limitations": [
             "Absence from OpenStreetMap or another public listing is not a negative eligibility finding.",

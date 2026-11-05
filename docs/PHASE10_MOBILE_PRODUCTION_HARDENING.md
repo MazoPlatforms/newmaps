@@ -2,6 +2,8 @@
 
 # Phase 10 — Mobile performance and production hardening
 
+> **Historical hosting note:** The production verification documented here predates the migration to Cloudflare Workers. GitHub Pages has since been retired; these measurements remain as historical evidence and do not describe the current hosting origin.
+
 ## Scope and preserved behavior
 
 This change keeps MZP as the production default and leaves the opt-in `?delivery=pmtiles` path in place. Canonical records, ULIDs, aliases, roads, speed-limit data, and all generated delivery formats remain unchanged. The road and speed-review datasets are still available; speed-review data now loads on demand when the camera reaches zoom 15.5, just before its layer becomes visible at zoom 16.
