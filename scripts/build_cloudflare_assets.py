@@ -23,6 +23,21 @@ def copy_file(source: Path, destination: Path) -> None:
     shutil.copy2(source, destination)
 
 
+def cloudflare_index_html(source: str) -> str:
+    """Make the SPA shell's static asset links valid on nested Workers routes.
+
+    GitHub Pages serves this project's source index under a repository
+    subpath, so leave index.html untouched there. Workers serves from `/`.
+    """
+    return (source.replace("<head>", '<head>\n    <base href="/">', 1)
+            .replace('href="./assets/', 'href="/assets/')
+            .replace("href='./assets/", "href='/assets/")
+            .replace('src="./assets/', 'src="/assets/')
+            .replace("src='./assets/", "src='/assets/")
+            .replace('href="./"', 'href="/"')
+            .replace("href='./'", "href='/'"))
+
+
 def generated_entry(manifest: dict, section: str, field: str = "file") -> str:
     entry = manifest.get("delivery", {}).get(section)
     name = entry.get(field) if isinstance(entry, dict) else None
@@ -109,8 +124,12 @@ def build() -> dict:
     shutil.rmtree(DIST, ignore_errors=True)
     DIST.mkdir(parents=True)
 
-    for relative in ("index.html", "service-worker.js", "_headers"):
+    for relative in ("service-worker.js", "_headers"):
         copy_file(ROOT / relative, DIST / relative)
+    (DIST / "index.html").write_text(
+        cloudflare_index_html((ROOT / "index.html").read_text(encoding="utf-8")),
+        encoding="utf-8",
+    )
     shutil.copytree(ROOT / "assets", DIST / "assets")
     copy_file(ROOT / "data/cities.json", DIST / "data/cities.json")
 
