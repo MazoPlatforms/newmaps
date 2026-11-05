@@ -73,6 +73,9 @@ try {
     const context = await browser.newContext({
       viewport: { width: 390, height: 844 }, deviceScaleFactor: 1,
       isMobile: true, hasTouch: true, colorScheme: 'light',
+      // Let Playwright deterministically intercept the single injected failure;
+      // offline service-worker behavior is covered in its own context below.
+      serviceWorkers: mode === 'pmtiles-retry' ? 'block' : 'allow',
     });
     await context.grantPermissions([], { origin: `http://127.0.0.1:${server.address().port}` });
     const page = await context.newPage();

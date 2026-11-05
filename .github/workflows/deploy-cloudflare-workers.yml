@@ -1,0 +1,85 @@
+name: Deploy Mazo Maps to Cloudflare Workers
+
+on:
+  push:
+    branches: [deploy/cloudflare-workers]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mazo-maps-cloudflare-production
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    if: github.ref == 'refs/heads/deploy/cloudflare-workers'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: python -m pip install 'shapely>=2,<3'
+      - run: python -m pip install -r requirements-map-tiles.txt
+      - run: npm ci
+
+      - name: Validate canonical records and contribution changes
+        run: |
+          python scripts/places.py validate
+          python scripts/validate_place_contributions.py --base-ref origin/main --head-ref HEAD
+
+      - name: Build and validate production datasets
+        run: |
+          python scripts/places.py build
+          python scripts/build_map_delivery.py
+          python scripts/validate_map_delivery.py
+          python scripts/build_routing_graph.py
+          python scripts/enrich_roads.py --check
+          python scripts/roads.py validate
+          python scripts/roads.py build
+          python scripts/speed_limits.py validate
+          python scripts/speed_limits.py build
+
+      - name: Run repository regression tests
+        run: |
+          python -m unittest discover -s tests -v
+          node --check assets/js/app.js
+          npm run test:unit
+
+      - name: Run browser smoke tests
+        run: |
+          npx playwright install --with-deps chromium
+          npm run test:browser
+
+      - name: Assemble production static assets
+        run: npm run build:cloudflare
+
+      - name: Validate Wrangler production bundle
+        run: npx wrangler deploy --dry-run --config wrangler.jsonc
+
+      - name: Require Cloudflare deployment secrets
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing repository secret: CLOUDFLARE_API_TOKEN' >&2; exit 1; }
+          test -n "$CLOUDFLARE_ACCOUNT_ID" || { echo 'Missing repository secret: CLOUDFLARE_ACCOUNT_ID' >&2; exit 1; }
+
+      - name: Deploy production Worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npm run deploy:cloudflare
