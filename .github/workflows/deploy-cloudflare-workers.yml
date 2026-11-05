@@ -65,7 +65,7 @@ jobs:
 
       - name: Run browser smoke tests
         run: |
-          npx playwright install --with-deps chromium
+          npx playwright install chromium
           npm run test:browser
 
       - name: Assemble production static assets
