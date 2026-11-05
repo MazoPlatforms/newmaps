@@ -11,9 +11,9 @@ Add these repository secrets in **Settings → Secrets and variables → Actions
 | `CLOUDFLARE_ACCOUNT_ID` | The Cloudflare account ID that owns the Worker. |
 | `CLOUDFLARE_API_TOKEN` | An account-scoped API token used by Wrangler in CI. Never commit the token or put it in a workflow file. |
 
-For the first deployment, the token must be allowed to create the `mazo-maps` Worker (Workers Admin at the selected account scope). After the Worker exists, the token can be narrowed to Workers Editor for that Worker. No zone permissions are needed unless a custom domain or zone route is later configured.
+For the first deployment, the token must be allowed to create the `maps` Worker (Workers Admin at the selected account scope). After the Worker exists, the token can be narrowed to Workers Editor for that Worker. No zone permissions are needed unless a custom domain or zone route is later configured.
 
-Enable the account's `workers.dev` subdomain before the first deployment if it is not already enabled. The workflow deploys to the default `workers.dev` address and does not configure a custom domain.
+The current account `workers.dev` subdomain is `mazo`, so the configured Worker name `maps` will be served at `https://maps.mazo.workers.dev/`. No custom domain or account subdomain change is required.
 
 ## Build and local checks
 

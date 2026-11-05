@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "mazo-maps",
+  "name": "maps",
   "main": "src/worker.mjs",
   "compatibility_date": "2026-11-05",
   "workers_dev": true,
