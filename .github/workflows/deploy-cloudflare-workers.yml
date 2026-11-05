@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   build-and-deploy:
-    if: github.ref == 'refs/heads/deploy/cloudflare-workers'
+    if: github.ref == 'refs/heads/deploy/cloudflare-workers' || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/fix/cloudflare-production-hardening')
     runs-on: ubuntu-24.04
     timeout-minutes: 35
     steps:
