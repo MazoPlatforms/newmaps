@@ -4,6 +4,7 @@ import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDur
 import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=phase9-basemap-audit-1';
 import { closestRouteProgress, findLocalRoutes, validateRoutingGraph } from './routing-graph.mjs';
 import { downloadOfflinePack, removeOfflinePack, offlinePackResources } from './offline-pack.mjs';
+import { discoverLiveData, liveDataResourceUrl, startLiveDataPolling } from './live-data-client.mjs';
 
 // Reliable OpenFreeMap fallback; optional local PMTiles are enabled only after verification.
 const $=s=>document.querySelector(s);
@@ -32,7 +33,34 @@ configureNorthUpInteractions(map);
 // Minimal map chrome: touch gestures remain available without zoom buttons.
 let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false,pmtilesProtocol=null,offlineBaseStyle=false;
 let placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchIndexPromise=null,placeDetailsLoaded=false;
+let liveDataPromise=null,liveDataRuntime=null,stopLiveDataPolling=null;
 let presentedCategory=null,presentedSelectedId=null,presentedVisibility=null;
+async function getLiveDataRuntime(){
+ if(!location.hostname.endsWith('.workers.dev'))return null;
+ if(!liveDataPromise){liveDataPromise=discoverLiveData().then(live=>{
+  liveDataRuntime=live;
+  if(live){
+   window.__MAZO_LIVE_DATA_VERSION__=live.version;
+   stopLiveDataPolling=startLiveDataPolling({initialRevision:live.version.revision,onUpdate:async version=>{
+    try{sessionStorage.setItem('mazo-live-last-update',version.revision)}catch{}
+    window.dispatchEvent(new CustomEvent('mazodataupdate',{detail:version}));
+    location.reload();
+   }});
+  }
+  return live;
+ })}
+ return liveDataPromise;
+}
+async function appDataUrl(relative,sha256=''){
+ const live=await getLiveDataRuntime();
+ return liveDataResourceUrl(relative,live,sha256);
+}
+function offlineResourceUrl(relative,live){
+ const [path,query='']=String(relative).split('?');
+ const clean=path.startsWith('/api/data/')?path.slice('/api/data/'.length):path.replace(/^\.\//,'').replace(/^\//,'');
+ const hash=new URLSearchParams(query).get('v')||'';
+ return liveDataResourceUrl(clean,live,hash);
+}
 // Presentation-only Sri Lankan postal address cleanup. This never invents a house number.
 function displaySriLankanAddress(value){
  if(typeof value!=='string'||!value.trim())return '';
@@ -496,8 +524,8 @@ function refresh(){
 }
 function loadRoadGeoJSON(){
  if(!roadGeoJSONPromise)roadGeoJSONPromise=(async()=>{
-  const mr=await fetch('./generated/kattankudy-roads-manifest.json');if(!mr.ok)throw Error('Road manifest '+mr.status);
-  const manifest=await mr.json(),r=await fetch('./generated/'+manifest.geojson+'?v='+manifest.sha256);if(!r.ok)throw Error('Road MZP '+r.status);
+  const mr=await fetch(await appDataUrl('generated/kattankudy-roads-manifest.json'));if(!mr.ok)throw Error('Road manifest '+mr.status);
+  const manifest=await mr.json(),r=await fetch(await appDataUrl('generated/'+manifest.geojson,manifest.sha256));if(!r.ok)throw Error('Road MZP '+r.status);
   const data=JSON.parse(await r.text());if(data.type!=='FeatureCollection'||data.features.length!==manifest.valid_geographic_features)throw Error('Road MZP manifest mismatch');
   return data;
  })();
@@ -533,7 +561,7 @@ async function loadSpeedReviews(){
  if(speedReviewPromise)return speedReviewPromise;
  speedReviewPromise=(async()=>{
   try{
-   const response=await fetch('./generated/kattankudy-speed-limits-manifest.json');
+   const response=await fetch(await appDataUrl('generated/kattankudy-speed-limits-manifest.json'));
    if(!response.ok)throw Error('Speed review manifest '+response.status);
    const manifest=await response.json();
    const speedData=await checkedJson('./generated/'+manifest.geojson,manifest.sha256);
@@ -586,7 +614,7 @@ map.on('error',event=>{
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
 map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
 async function checkedJson(file,sha256){
- const response=await fetch(file+'?v='+sha256);if(!response.ok)throw Error(file+' '+response.status);
+ const response=await fetch(await appDataUrl(file,sha256));if(!response.ok)throw Error(file+' '+response.status);
  const bytes=await response.arrayBuffer();
  if(sha256&&globalThis.crypto?.subtle){const digest=Array.from(new Uint8Array(await globalThis.crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');if(digest!==sha256)throw Error(file+' checksum mismatch')}
  return JSON.parse(new TextDecoder().decode(bytes));
@@ -603,18 +631,18 @@ function installPlaceIndex(payload){
 }
 async function ensureSearchIndex(){
  if(placeSearchIndex)return placeSearchIndex;
- if(!searchIndexPromise){const entry=deliveryManifest?.delivery?.search_index;if(!entry)throw Error('Search index is not in the manifest');searchIndexPromise=checkedJson('./generated/'+entry.file,entry.sha256).then(installPlaceIndex)}
+ if(!searchIndexPromise){const entry=deliveryManifest?.delivery?.search_index;if(!entry)throw Error('Search index is not in the manifest');searchIndexPromise=checkedJson('generated/'+entry.file,entry.sha256).then(installPlaceIndex)}
  await searchIndexPromise;return placeSearchIndex;
 }
 async function loadPlaceDetails(){
- if(!placeDetailPromise){const entry=deliveryManifest?.delivery?.place_details;if(!entry)throw Error('Place details index is not in the manifest');placeDetailPromise=checkedJson('./generated/'+entry.file,entry.sha256).then(decodePlaceDetails)}
+ if(!placeDetailPromise){const entry=deliveryManifest?.delivery?.place_details;if(!entry)throw Error('Place details index is not in the manifest');placeDetailPromise=checkedJson('generated/'+entry.file,entry.sha256).then(decodePlaceDetails)}
  return placeDetailPromise;
 }
 async function loadPmtiles(manifest){
  const entry=manifest.delivery?.mvt_pmtiles,index=manifest.delivery?.search_index;if(!entry||!index)throw Error('PMTiles delivery is not present in manifest');
  const script=await new Promise((resolve,reject)=>{if(window.pmtiles)return resolve();const tag=document.createElement('script');tag.src='./assets/vendor/pmtiles-4.5.0.js';tag.onload=resolve;tag.onerror=()=>reject(Error('PMTiles protocol library could not be loaded'));document.head.append(tag)});
  void script;if(!window.pmtiles?.Protocol||!window.pmtiles?.PMTiles)throw Error('PMTiles protocol library did not initialize');
- const archiveUrl=new URL('./generated/'+entry.file,location.href).href+'?v='+entry.sha256;const archive=new window.pmtiles.PMTiles(archiveUrl);
+ const archiveUrl=await appDataUrl('generated/'+entry.file,entry.sha256);const archive=new window.pmtiles.PMTiles(archiveUrl);
  const header=await archive.getHeader(),metadata=await archive.getMetadata();
  if(!metadata.vector_layers?.some(layer=>layer.id==='places')||header.minZoom!==entry.min_zoom||header.maxZoom!==entry.max_zoom)throw Error('PMTiles archive metadata mismatch');
  if(!pmtilesProtocol){pmtilesProtocol=new window.pmtiles.Protocol();maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile)}
@@ -625,7 +653,7 @@ async function loadPmtiles(manifest){
  presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;ensurePoiLayer();
  renderCategoryFilters();refresh();const status=$('#search-status');status.hidden=true;status.textContent='';
 }
-async function loadPlaceData(){const status=$('#search-status'),retry=$('#places-retry');retry.hidden=true;status.hidden=false;status.classList.remove('is-error');status.textContent='Loading places…';places=[];placeById.clear();placeSearchIndex=null;searchIndexPromise=null;placeDetailsLoaded=false;placeDetailPromise=null;try{const response=await fetch('./generated/manifest.json',{cache:'no-cache'});if(!response.ok)throw Error('Manifest '+response.status);const manifest=await response.json();if(manifest.production_default!=='pmtiles'||manifest.format!=='PMTiles/1')throw Error('The place manifest does not declare PMTiles as its sole delivery format');deliveryManifest=manifest;placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};
+async function loadPlaceData(){const status=$('#search-status'),retry=$('#places-retry');retry.hidden=true;status.hidden=false;status.classList.remove('is-error');status.textContent='Loading places…';places=[];placeById.clear();placeSearchIndex=null;searchIndexPromise=null;placeDetailsLoaded=false;placeDetailPromise=null;try{const response=await fetch(await appDataUrl('generated/manifest.json'),{cache:'no-store'});if(!response.ok)throw Error('Manifest '+response.status);const manifest=await response.json();if(manifest.production_default!=='pmtiles'||manifest.format!=='PMTiles/1')throw Error('The place manifest does not declare PMTiles as its sole delivery format');deliveryManifest=manifest;placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};
  await loadPmtiles(manifest);
  status.hidden=true;status.textContent='';status.classList.remove('is-error');retry.hidden=true;
 }catch(error){status.hidden=false;status.textContent='Place map tiles could not be loaded. Search may still work; check your connection and retry.';status.classList.add('is-error');retry.hidden=false;console.error('Place data error:',error);if(deliveryManifest)void ensureSearchIndex().catch(indexError=>console.warn('Place search index unavailable:',indexError))}}
@@ -643,10 +671,12 @@ offlineButton.onclick=async()=>{
   if(existing.length&&!navigator.onLine){await removeOfflinePack();offlineStatus.textContent='Downloaded place data removed. The basemap was never stored offline.'}
   else{
    offlineStatus.textContent='Checking for offline data updates…';
-   const [places,roads,routing]=await Promise.all(['./generated/manifest.json','./generated/kattankudy-roads-manifest.json','./generated/kattankudy-routing-manifest.json'].map(async url=>{const response=await fetch(url,{cache:'no-cache'});if(!response.ok)throw Error(`Manifest unavailable (${response.status})`);return response.json()}));
-   const pack=offlinePackResources(places,roads,routing),target='mazo-offline-pack-'+pack.version;
+   const live=await getLiveDataRuntime();
+   const [places,roads,routing]=await Promise.all(['generated/manifest.json','generated/kattankudy-roads-manifest.json','generated/kattankudy-routing-manifest.json'].map(async path=>{const response=await fetch(liveDataResourceUrl(path,live),{cache:'no-store'});if(!response.ok)throw Error(`Manifest unavailable (${response.status})`);return response.json()}));
+   const resolveResource=url=>offlineResourceUrl(url,live);
+   const pack=offlinePackResources(places,roads,routing,resolveResource),target='mazo-offline-pack-'+pack.version;
    if(existing.includes(target)){await removeOfflinePack();offlineStatus.textContent='Downloaded place data removed. The basemap was never stored offline.'}
-   else{const total=pack.resources.reduce((sum,row)=>sum+(Number(row.bytes)||0),0);offlineStatus.textContent=`Downloading ${pack.resources.length} files (${(total/1048576).toFixed(1)} MB)…`;await downloadOfflinePack({manifest:places,roadsManifest:roads,routingManifest:routing});offlineStatus.textContent=`Offline place, search, detail and Kattankudy routing data saved or updated (${(total/1048576).toFixed(1)} MB). Basemap remains online-only.`}
+   else{const total=pack.resources.reduce((sum,row)=>sum+(Number(row.bytes)||0),0);offlineStatus.textContent=`Downloading ${pack.resources.length} files (${(total/1048576).toFixed(1)} MB)…`;await downloadOfflinePack({manifest:places,roadsManifest:roads,routingManifest:routing,resolveResource});offlineStatus.textContent=`Offline place, search, detail and Kattankudy routing data saved or updated (${(total/1048576).toFixed(1)} MB). Basemap remains online-only.`}
   }
  }catch(error){offlineStatus.textContent=`Offline data operation failed: ${error.message}`}
  finally{offlineButton.disabled=false;await updateOfflineStatus()}
@@ -701,7 +731,7 @@ locateButton.onclick=()=>{
   nearbyMode=false;nearbyOrigin=null;refresh();status.hidden=false;status.textContent=error.code===1?'Location permission denied. You can continue using search and category filters.':error.code===2?'GPS location is unavailable. Check your device settings or continue using search.':'Location request timed out. You can continue using search.';
  },{enableHighAccuracy:true,timeout:12000,maximumAge:10000});
 };
-async function cities(){try{const r=await fetch('./data/cities.json');if(!r.ok)return;const d=await r.json();const features=(d.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)).map(c=>({type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:c.name||'',level:c.level||'city'}}));if(map.getSource('mazo-cities'))return;map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-city-labels',type:'symbol',source:'mazo-cities',layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],5,11,13,17],'text-allow-overlap':false},paint:{'text-color':theme()==='dark'?'#e8edf4':'#27313b','text-halo-color':theme()==='dark'?'#161b22':'#fff','text-halo-width':2}})}catch(e){console.warn('City labels:',e)}}
+async function cities(){try{const r=await fetch(await appDataUrl('data/cities.json'));if(!r.ok)return;const d=await r.json();const features=(d.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)).map(c=>({type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:c.name||'',level:c.level||'city'}}));if(map.getSource('mazo-cities'))return;map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-city-labels',type:'symbol',source:'mazo-cities',layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],5,11,13,17],'text-allow-overlap':false},paint:{'text-color':theme()==='dark'?'#e8edf4':'#27313b','text-halo-color':theme()==='dark'?'#161b22':'#fff','text-halo-width':2}})}catch(e){console.warn('City labels:',e)}}
 
 map.on('load',()=>{$('#map-frame').dataset.state='ready';try{ensurePoiLayer()}catch(e){console.warn('POI on load:',e)}if(map.getZoom()>=15.5)void loadSpeedReviews()});
 const maybeLoadSpeedReviews=()=>{if(map.getZoom()>=15.5)void loadSpeedReviews()};

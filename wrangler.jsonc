@@ -7,11 +7,37 @@
   "vars": {
     "PMTILES_CHUNK_SIZE": "65536"
   },
+  "r2_buckets": [
+    {
+      "binding": "DATA_BUCKET",
+      "bucket_name": "mazo-maps-live-data"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "LIVE_DATA_REGISTRY",
+        "class_name": "LiveDataRegistry"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "live-data-v1",
+      "new_sqlite_classes": ["LiveDataRegistry"]
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "logs": { "enabled": true, "head_sampling_rate": 1 },
+    "traces": { "enabled": true, "head_sampling_rate": 0.01 }
+  },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
     "run_worker_first": [
+      "/api/*",
       "/generated/places.pmtiles",
       "/generated/places-pmtiles-chunks/*"
     ]

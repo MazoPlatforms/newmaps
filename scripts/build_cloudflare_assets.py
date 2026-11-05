@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import hashlib
+import mimetypes
 import shutil
 import sys
 from pathlib import Path, PurePosixPath
@@ -44,6 +45,39 @@ def split_pmtiles_archive(source: Path, destination: Path, chunk_size: int) -> i
             (destination / f"{count:05d}.bin").write_bytes(chunk)
             count += 1
     return count
+
+
+def build_bootstrap_live_manifest() -> dict:
+    managed = []
+    for root in (DIST / "generated", DIST / "data"):
+        if not root.exists():
+            continue
+        for path in sorted(root.rglob("*")):
+            if not path.is_file():
+                continue
+            relative = path.relative_to(DIST).as_posix()
+            if relative == "generated/live-data-manifest.json" or relative.startswith("generated/places-pmtiles-chunks/"):
+                continue
+            raw = path.read_bytes()
+            content_type = mimetypes.guess_type(relative)[0] or "application/octet-stream"
+            if relative.endswith(".pmtiles"):
+                content_type = "application/vnd.pmtiles"
+            elif relative.endswith(".mzp"):
+                content_type = "application/geo+json"
+            managed.append((relative, {
+                "sha256": hashlib.sha256(raw).hexdigest(),
+                "bytes": len(raw),
+                "content_type": content_type,
+            }))
+    if not managed:
+        raise ValueError("No generated or data files were found for the live-data bootstrap manifest")
+    return {
+        "format": "MazoLiveData/1",
+        "revision": "bootstrap",
+        "run_number": 0,
+        "updated_at": None,
+        "files": dict(managed),
+    }
 
 
 def build() -> dict:
@@ -117,12 +151,18 @@ def build() -> dict:
         json.dumps(range_manifest, indent=2) + "\n",
         encoding="utf-8",
     )
+    bootstrap_manifest = build_bootstrap_live_manifest()
+    (DIST / "generated" / "live-data-manifest.json").write_text(
+        json.dumps(bootstrap_manifest, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
     return {
         "output": str(DIST.relative_to(ROOT)),
         "files": sum(1 for path in DIST.rglob("*") if path.is_file()),
         "bytes": sum(path.stat().st_size for path in DIST.rglob("*") if path.is_file()),
-        "generated": sorted({*files, "places-pmtiles-range.json"}),
+        "generated": sorted({*files, "places-pmtiles-range.json", "live-data-manifest.json"}),
+        "live_data_files": len(bootstrap_manifest["files"]),
         "pmtiles_range_chunks": written_chunks,
         "pmtiles_chunk_size": chunk_size,
     }
