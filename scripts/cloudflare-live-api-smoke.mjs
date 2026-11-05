@@ -24,6 +24,12 @@ const version = await fetch(new URL('api/version', base), { cache: 'no-store' })
 assert.equal(version.status, 200);
 const liveVersion = await version.json();
 assert.match(liveVersion.revision, /^[a-f0-9]{40}$/);
+const versionEtag = version.headers.get('etag');
+assert.ok(versionEtag, 'version polling response should provide an ETag');
+const unchangedVersion = await fetch(new URL('api/version', base), {
+  cache: 'no-store', headers: { 'If-None-Match': versionEtag },
+});
+assert.equal(unchangedVersion.status, 304, 'unchanged live manifests should respond to conditional polls with 304');
 const { body: catalog } = await get('manifest');
 assert.equal(catalog.revision, liveVersion.revision);
 const archive = catalog.manifest.files['generated/places.pmtiles'];
@@ -68,6 +74,7 @@ assert.equal(route.profile, 'driving');
 assert.ok(route.routes.length > 0);
 
 console.log(JSON.stringify({ status: 'PASS', revision: liveVersion.revision,
+  polling: { version: 200, conditional: unchangedVersion.status, etag: versionEtag },
   endpoints: { manifest: 200, search: 200, geocode: 200, route: 200 }, pmtiles: { byteRange: 206,
     contentRange: range.headers.get('content-range'), suffixRange: 206, fullSha256: archive.sha256, privateChunk: 404 },
   cors: 'public-read-only',

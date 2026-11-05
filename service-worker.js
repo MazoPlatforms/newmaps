@@ -1,4 +1,4 @@
-const APP_CACHE = 'mazo-app-shell-v4';
+const APP_CACHE = 'mazo-app-shell-v5';
 const SHELL = ['./', './index.html', './assets/css/site.css?v=phase12-14-1', './assets/js/app.js?v=phase12-14-workers-vector-live-2', './assets/js/live-data-client.mjs', './assets/js/search-engine.mjs', './assets/js/place-delivery.mjs', './assets/js/map-presentation.mjs?v=phase9-cartography-1', './assets/js/cartographic-style.mjs?v=phase9-basemap-audit-1', './assets/js/routing-graph.mjs', './assets/js/offline-pack.mjs', './assets/vendor/pmtiles-4.5.0.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css'];
 
 self.addEventListener('install', (event) => {

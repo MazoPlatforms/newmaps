@@ -18,7 +18,53 @@ assert.match(html, /Mazo Maps/i, 'Worker homepage should contain the map app she
 const spa = await get(`audit/spa-smoke-${Date.now()}`);
 assert.equal(spa.status, 200, 'unknown client route should use the SPA index fallback');
 assert.match(spa.headers.get('content-type') || '', /text\/html/i);
-assert.match(await spa.text(), /Mazo Maps/i);
+const spaHtml = await spa.text();
+assert.match(spaHtml, /Mazo Maps/i);
+const baseHref = spaHtml.match(/<base\s+href=["']([^"']+)["']/i)?.[1];
+assert.equal(new URL(baseHref || '', spa.url).pathname, '/',
+  'nested SPA shells should use the Workers root as their document base');
+const assetPaths = [...new Set([...spaHtml.matchAll(/\b(?:src|href)=["']([^"']*\/assets\/[^"']+)["']/g)]
+  .map((match) => match[1]))];
+assert.ok(assetPaths.some((path) => path.includes('/assets/css/site.css')),
+  'SPA shell should reference its stylesheet from the Workers root');
+assert.ok(assetPaths.some((path) => path.includes('/assets/js/app.js')),
+  'SPA shell should reference its app module from the Workers root');
+for (const required of [
+  '/assets/mazo-mark.svg',
+  '/assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css',
+  '/assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js',
+]) {
+  assert.ok(assetPaths.some((path) => new URL(path, spa.url).pathname === required),
+    `SPA shell should reference required production asset ${required}`);
+}
+for (const path of assetPaths) {
+  const assetUrl = new URL(path, spa.url);
+  const asset = await fetch(assetUrl);
+  assert.equal(asset.status, 200, `SPA asset ${path} should resolve from a nested route`);
+  const contentType = asset.headers.get('content-type') || '';
+  if (assetUrl.pathname.endsWith('.css')) assert.match(contentType, /text\/css/i, `${path} should be CSS, not SPA HTML`);
+  if (/\.(?:js|mjs)$/.test(assetUrl.pathname)) assert.match(contentType, /javascript/i, `${path} should be JavaScript, not SPA HTML`);
+  if (assetUrl.pathname.endsWith('.svg')) assert.match(contentType, /image\/svg\+xml/i, `${path} should be an SVG image`);
+}
+const liveDataClient = await fetch(new URL('/assets/js/live-data-client.mjs', spa.url));
+assert.equal(liveDataClient.status, 200, 'live-data client module should be published as a static asset');
+assert.match(liveDataClient.headers.get('content-type') || '', /javascript/i,
+  'live-data client module should not be served as the SPA HTML fallback');
+const serviceWorker = await fetch(new URL('/service-worker.js', spa.url));
+assert.equal(serviceWorker.status, 200, 'SPA routes should resolve the root-scoped service worker');
+assert.match(serviceWorker.headers.get('content-type') || '', /javascript/i,
+  'service worker should not be served as the SPA HTML fallback');
+
+const apiManifest = await get('api/v1/manifest', { headers: { Accept: 'application/json' } });
+assert.equal(apiManifest.status, 200, 'versioned map API manifest should return HTTP 200');
+assert.match(apiManifest.headers.get('content-type') || '', /application\/json/i,
+  'versioned API manifest must not be the SPA HTML fallback');
+const apiContract = await apiManifest.json();
+assert.equal(apiContract.api_version, 'v1');
+assert.ok(apiContract.map_manifest?.delivery?.mvt_pmtiles,
+  'versioned API manifest should describe the PMTiles vector map');
+assert.ok(apiContract.resources?.pmtiles?.url,
+  'versioned API manifest should expose the immutable PMTiles resource URL');
 
 const manifestResponse = await get('generated/manifest.json', { headers: { 'Cache-Control': 'no-cache' } });
 assert.equal(manifestResponse.status, 200, 'place manifest should return HTTP 200');
