@@ -57,7 +57,7 @@ jobs:
         run: npx playwright install --with-deps chromium
       - name: Run real local Worker, R2, Durable Object, sync, browser and accessibility E2E
         run: npm run test:live-data:e2e
-      - name: Run existing GitHub Pages browser regression suite
+      - name: Run browser regression suite against local static hosting
         run: npm run test:browser
       - name: Compare native R2 ranges with static PMTiles chunk reads
         run: npm run benchmark:live-data

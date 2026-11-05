@@ -147,7 +147,7 @@ class RoadTests(unittest.TestCase):
             self.assertEqual(feature["geometry"]["coordinates"], record["coordinates"])
             self.assertEqual(feature["properties"]["source_id"], record["source_id"])
 
-    def test_mzp_and_manifest_are_deterministic_and_pages_ready(self):
+    def test_mzp_and_manifest_are_deterministic_and_delivery_ready(self):
         with contextlib.redirect_stdout(io.StringIO()):
             manifest = roads.build()
         mzp = (roads.GENERATED / "kattankudy-roads.mzp").read_bytes()

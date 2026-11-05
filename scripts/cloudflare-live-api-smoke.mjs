@@ -32,7 +32,10 @@ async function readVersion() {
 
 let { body: liveVersion, etag: versionEtag } = await readVersion();
 let unchangedVersion;
-for (let attempt = 0; attempt < 3; attempt += 1) {
+// A deploy and the push/workflow_run sync pair can briefly overlap at the edge.
+// Let all routes settle on the newest manifest before requiring an unchanged
+// poll to return 304; keep this bounded so genuine cache/ETag regressions fail.
+for (let attempt = 0; attempt < 30; attempt += 1) {
   unchangedVersion = await fetch(new URL('api/version', base), {
     cache: 'no-store', headers: { 'If-None-Match': versionEtag },
   });
@@ -43,14 +46,16 @@ for (let attempt = 0; attempt < 3; attempt += 1) {
   assert.match(liveVersion.revision, /^[a-f0-9]{40}$/);
   versionEtag = unchangedVersion.headers.get('etag');
   assert.ok(versionEtag, 'newer version responses should provide an ETag');
+  await new Promise((resolve) => setTimeout(resolve, 1000));
 }
 assert.equal(unchangedVersion.status, 304,
   'version polling should return 304 after observing the latest concurrent update');
 
 let catalogResult = await get('manifest');
-for (let attempt = 0; catalogResult.body.revision !== liveVersion.revision && attempt < 3; attempt += 1) {
+for (let attempt = 0; catalogResult.body.revision !== liveVersion.revision && attempt < 30; attempt += 1) {
   ({ body: liveVersion, etag: versionEtag } = await readVersion());
   catalogResult = await get('manifest');
+  if (catalogResult.body.revision !== liveVersion.revision) await new Promise((resolve) => setTimeout(resolve, 1000));
 }
 const { body: catalog } = catalogResult;
 assert.equal(catalog.revision, liveVersion.revision,
