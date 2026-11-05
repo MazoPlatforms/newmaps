@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import { performance } from 'node:perf_hooks';
 import { fileURLToPath } from 'node:url';
-import worker, { servePmtilesRange } from '../src/worker.mjs';
+import worker, { servePmtilesRange } from '../src/worker-core.mjs';
 
 const root = fileURLToPath(new URL('../dist/generated/', import.meta.url));
 const archive = new Uint8Array(await readFile(`${root}places.pmtiles`));

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createSignedHeaders, verifySignedRequest } from '../src/live-data-auth.mjs';
 import { LiveDataRegistry, liveDataObjectKey } from '../src/live-data-registry.mjs';
-import worker from '../src/worker.mjs';
+import worker from '../src/worker-core.mjs';
 import { discoverLiveData, liveDataResourceUrl, startLiveDataPolling } from '../assets/js/live-data-client.mjs';
 
 const enc = new TextEncoder();
@@ -27,6 +27,10 @@ test('signed admin requests validate digest, method, path, timestamp and nonce',
 
   const tampered = new Request(`https://maps.mazo.workers.dev${pathname}`, { method: 'POST', headers, body: enc.encode('{}') });
   assert.equal(await verifySignedRequest(tampered, secret), null);
+  const expiredHeaders = await createSignedHeaders({ secret, method: 'POST', pathname, body,
+    now: Date.now() - 10 * 60_000, nonce: 'abcdef0123456789abcdef0123456789' });
+  const expired = new Request(`https://maps.mazo.workers.dev${pathname}`, { method: 'POST', headers: expiredHeaders, body });
+  assert.equal(await verifySignedRequest(expired, secret), null, 'replayed stale signed requests expire');
 });
 
 test('registry plans changed/deleted objects and publishes atomically with stale-run protection', async () => {
@@ -40,25 +44,51 @@ test('registry plans changed/deleted objects and publishes atomically with stale
   const registry = new LiveDataRegistry({ storage }, env);
   const manifest1 = makeManifest();
   const key1 = liveDataObjectKey('data/example.json', sha);
-  objects.set(key1, { size: 4, customMetadata: { sha256: sha, path: 'data/example.json' } });
 
   let response = await registry.fetch(new Request('https://registry/plan', { method: 'POST', body: JSON.stringify({ manifest: manifest1 }) }));
   let plan = await response.json();
   assert.deepEqual(plan.changed.map((entry) => entry.path), ['data/example.json']);
+  assert.deepEqual(plan.upload.map((entry) => entry.path), ['data/example.json']);
   assert.equal(plan.expected_revision, null);
+  objects.set(key1, { size: 4, customMetadata: { sha256: sha, path: 'data/example.json' } });
   response = await registry.fetch(new Request('https://registry/publish', { method: 'POST', body: JSON.stringify({ manifest: manifest1, expected_revision: null }) }));
   assert.equal(response.status, 200);
   assert.equal((await response.json()).published, true);
+  response = await registry.fetch(new Request('https://registry/version', { headers: { 'If-None-Match': `"${commit}"` } }));
+  assert.equal(response.status, 304, 'the registry answers unchanged revision polls without a response body');
 
   const manifest2 = makeManifest('c'.repeat(40), 2, { 'data/new.json': { sha256: 'd'.repeat(64), bytes: 2, content_type: 'application/json' } });
-  objects.set(liveDataObjectKey('data/new.json', 'd'.repeat(64)), { size: 2, customMetadata: { sha256: 'd'.repeat(64), path: 'data/new.json' } });
   response = await registry.fetch(new Request('https://registry/plan', { method: 'POST', body: JSON.stringify({ manifest: manifest2 }) }));
   plan = await response.json();
   assert.deepEqual(plan.deleted, ['data/example.json']);
+  assert.deepEqual(plan.upload.map((entry) => entry.path), ['data/new.json']);
+  objects.set(liveDataObjectKey('data/new.json', 'd'.repeat(64)), { size: 2, customMetadata: { sha256: 'd'.repeat(64), path: 'data/new.json' } });
   response = await registry.fetch(new Request('https://registry/publish', { method: 'POST', body: JSON.stringify({ manifest: manifest2, expected_revision: commit }) }));
   assert.equal(response.status, 200);
   response = await registry.fetch(new Request('https://registry/publish', { method: 'POST', body: JSON.stringify({ manifest: manifest1, expected_revision: 'c'.repeat(40) }) }));
   assert.equal(response.status, 409);
+});
+
+test('concurrent manifest publishers commit exactly one compare-and-swap winner', async () => {
+  const records = new Map();
+  const storage = { kv: { get: (key) => records.get(key), put: (key, value) => records.set(key, value) }, transactionSync: (fn) => fn() };
+  const hashes = ['1'.repeat(64), '2'.repeat(64)];
+  const manifests = hashes.map((contentHash, index) => makeManifest(String(index + 1).repeat(40), index + 1, {
+    [`data/version-${index}.json`]: { sha256: contentHash, bytes: 2, content_type: 'application/json' },
+  }));
+  const objectSet = new Map(manifests.map((manifest) => {
+    const [path, entry] = Object.entries(manifest.files)[0];
+    return [liveDataObjectKey(path, entry.sha256), { size: entry.bytes, customMetadata: { path, sha256: entry.sha256 } }];
+  }));
+  const registry = new LiveDataRegistry({ storage }, { DATA_BUCKET: { head: async (key) => objectSet.get(key) || null } });
+  const results = await Promise.all(manifests.map((manifest) => registry.fetch(new Request('https://registry/publish', {
+    method: 'POST', body: JSON.stringify({ manifest, expected_revision: null }),
+  }))));
+  assert.deepEqual(results.map((response) => response.status).sort(), [200, 409]);
+  const current = await registry.fetch(new Request('https://registry/manifest'));
+  const active = await current.json();
+  assert.ok(manifests.some((manifest) => manifest.revision === active.revision));
+  assert.equal(records.size, 1, 'one atomic manifest record is active after the race');
 });
 
 test('Worker serves R2 byte and suffix ranges without buffering an entire data object', async () => {
@@ -104,18 +134,28 @@ test('open sessions discover new versions and offline startup uses saved validat
     const live = await discoverLiveData(async (url) => url.endsWith('version')
       ? Response.json(version) : Response.json(manifest));
     assert.equal(live.version.revision, commit);
-    assert.match(liveDataResourceUrl('data/example.json', live), new RegExp(`v=${sha}`));
+    const originalUrl = liveDataResourceUrl('data/example.json', live);
+    assert.match(originalUrl, new RegExp(`v=${sha}`));
+    const changedLive = { ...live, manifest: { ...manifest, files: { ...manifest.files,
+      'data/example.json': { ...manifest.files['data/example.json'], sha256: 'f'.repeat(64) } } } };
+    assert.notEqual(liveDataResourceUrl('data/example.json', changedLive), originalUrl,
+      'changed content gets a distinct immutable URL, so stale caches cannot mask the update');
     const offline = await discoverLiveData(async () => { throw new Error('offline'); });
     assert.equal(offline.manifest.revision, commit);
 
     let callback;
     let cancelled = false;
     let updated = false;
-    startLiveDataPolling({ initialRevision: commit, intervalMs: 1, fetcher: async () => Response.json({ format: 'MazoLiveData/1', revision: 'c'.repeat(40) }),
+    let pollRequest;
+    startLiveDataPolling({ initialRevision: commit, intervalMs: 1, fetcher: async (_url, options) => {
+      pollRequest = options;
+      return Response.json({ format: 'MazoLiveData/1', revision: 'c'.repeat(40) });
+    },
       schedule: (fn) => { callback = fn; return 1; }, cancel: () => { cancelled = true; }, onUpdate: async () => { updated = true; } });
     await callback();
     assert.equal(updated, true);
     assert.equal(cancelled, true);
+    assert.equal(pollRequest.headers['If-None-Match'], `"${commit}"`);
   } finally {
     if (originalStorage === undefined) delete globalThis.localStorage;
     else Object.defineProperty(globalThis, 'localStorage', { configurable: true, value: originalStorage });

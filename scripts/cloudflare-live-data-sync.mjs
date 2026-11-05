@@ -101,17 +101,21 @@ export async function syncLiveData({ root, manifest, baseUrl, secret, fetcher = 
   }
   const options = { baseUrl: base, secret, fetcher };
   let plan = await retryTransient(() => postJson(options, '/api/admin/plan', { manifest }));
-  await uploadChanged(root, options, plan.changed || []);
+  let upload = plan.upload || plan.changed || [];
+  await uploadChanged(root, options, upload);
   try {
     const published = await postJson(options, '/api/admin/publish', { manifest, expected_revision: plan.expected_revision ?? null });
-    return { ...published, changed: (plan.changed || []).map(({ path }) => path), deleted: plan.deleted || [], unchanged: plan.unchanged || 0 };
+    return { ...published, changed: (plan.changed || []).map(({ path }) => path),
+      uploaded: upload.map(({ path }) => path), deleted: plan.deleted || [], unchanged: plan.unchanged || 0 };
   } catch (error) {
     if (error.status !== 409) throw error;
     // Re-plan once if another protected-branch run published while uploads were in flight.
     plan = await retryTransient(() => postJson(options, '/api/admin/plan', { manifest }));
-    await uploadChanged(root, options, plan.changed || []);
+    upload = plan.upload || plan.changed || [];
+    await uploadChanged(root, options, upload);
     const published = await postJson(options, '/api/admin/publish', { manifest, expected_revision: plan.expected_revision ?? null });
-    return { ...published, changed: (plan.changed || []).map(({ path }) => path), deleted: plan.deleted || [], unchanged: plan.unchanged || 0 };
+    return { ...published, changed: (plan.changed || []).map(({ path }) => path),
+      uploaded: upload.map(({ path }) => path), deleted: plan.deleted || [], unchanged: plan.unchanged || 0 };
   }
 }
 
@@ -126,7 +130,8 @@ async function main() {
     secret: process.env.MAZO_LIVE_DATA_HMAC_SECRET });
   console.log(JSON.stringify({ revision: result.revision, file_count: result.file_count,
     changed_count: result.changed.length, deleted_count: result.deleted.length,
-    unchanged_count: result.unchanged, bytes_uploaded: result.changed.reduce((sum, path) => sum + manifest.files[path].bytes, 0) }, null, 2));
+    uploaded_count: result.uploaded.length, unchanged_count: result.unchanged,
+    bytes_uploaded: result.uploaded.reduce((sum, path) => sum + manifest.files[path].bytes, 0) }, null, 2));
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {

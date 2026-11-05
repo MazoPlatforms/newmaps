@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import worker, { servePmtilesRange } from '../src/worker.mjs';
+import worker, { servePmtilesRange } from '../src/worker-core.mjs';
 
 const payload = new TextEncoder().encode('0123456789');
 const chunkSize = 4;

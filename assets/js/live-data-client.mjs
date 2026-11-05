@@ -49,10 +49,10 @@ export function startLiveDataPolling({ initialRevision, fetcher = fetch, interva
   let stopped = false;
   let pending = false;
   const timer = schedule(async () => {
-    if (stopped || pending) return;
+    if (stopped || pending || globalThis.document?.hidden) return;
     pending = true;
     try {
-      const response = await fetcher('./api/version', { cache: 'no-store' });
+      const response = await fetcher('./api/version', { cache: 'no-store', headers: { 'If-None-Match': `"${initialRevision}"` } });
       if (!response.ok) return;
       const version = await response.json();
       if (version?.format === 'MazoLiveData/1' && version.revision && version.revision !== initialRevision) {

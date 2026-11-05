@@ -43,6 +43,21 @@ function currentRecord(storage) {
   return storage.kv.get('live-data-current') || null;
 }
 
+function claimNonce(storage, nonce, expiresAt, now) {
+  if (!/^[a-f0-9-]{16,64}$/i.test(nonce || '') || !Number.isSafeInteger(expiresAt)
+    || expiresAt <= now || expiresAt > now + 10 * 60_000) return false;
+  return storage.transactionSync(() => {
+    const active = storage.kv.get('live-data-sync-nonces') || {};
+    for (const [usedNonce, deadline] of Object.entries(active)) {
+      if (!Number.isSafeInteger(deadline) || deadline <= now) delete active[usedNonce];
+    }
+    if (Object.hasOwn(active, nonce) || Object.keys(active).length >= 20_000) return false;
+    active[nonce] = expiresAt;
+    storage.kv.put('live-data-sync-nonces', active);
+    return true;
+  });
+}
+
 export class LiveDataRegistry {
   constructor(ctx, env) {
     this.ctx = ctx;
@@ -51,11 +66,22 @@ export class LiveDataRegistry {
 
   async fetch(request) {
     const url = new URL(request.url);
+    if (request.method === 'POST' && url.pathname === '/claim-nonce') {
+      let payload;
+      try { payload = await request.json(); } catch { return json({ error: 'Invalid nonce claim.' }, 400); }
+      const claimed = claimNonce(this.ctx.storage, payload.nonce, payload.expires_at, payload.now);
+      return json({ claimed });
+    }
     if (request.method === 'GET' && url.pathname === '/version') {
       const record = currentRecord(this.ctx.storage);
       if (!record) return json({ error: 'Live data has not been synchronized.' }, 404);
-      return json({ format: 'MazoLiveData/1', revision: record.manifest.revision, run_number: record.run_number,
-        updated_at: record.manifest.updated_at, file_count: Object.keys(record.manifest.files).length });
+      const etag = `"${record.manifest.revision}"`;
+      if (request.headers.get('if-none-match') === etag) {
+        return new Response(null, { status: 304, headers: { ETag: etag, 'Cache-Control': 'no-store' } });
+      }
+      return Response.json({ format: 'MazoLiveData/1', revision: record.manifest.revision, run_number: record.run_number,
+        updated_at: record.manifest.updated_at, file_count: Object.keys(record.manifest.files).length },
+      { headers: { ETag: etag, 'Cache-Control': 'no-store' } });
     }
     if (request.method === 'GET' && url.pathname === '/manifest') {
       const record = currentRecord(this.ctx.storage);
@@ -76,7 +102,14 @@ export class LiveDataRegistry {
         .filter(([path, entry]) => previous[path]?.sha256 !== entry.sha256 || previous[path]?.bytes !== entry.bytes)
         .map(([path, entry]) => ({ path, ...entry }));
       const deleted = Object.keys(previous).filter((path) => !Object.hasOwn(candidate.files, path)).sort();
-      return json({ expected_revision: record?.manifest.revision || null, changed, deleted,
+      const upload = [];
+      if (!this.env.DATA_BUCKET) return json({ error: 'Live data storage is not configured.' }, 503);
+      for (const entry of changed) {
+        const object = await this.env.DATA_BUCKET.head(liveDataObjectKey(entry.path, entry.sha256));
+        if (!object || object.size !== entry.bytes || object.customMetadata?.sha256 !== entry.sha256
+          || object.customMetadata?.path !== entry.path) upload.push(entry);
+      }
+      return json({ expected_revision: record?.manifest.revision || null, changed, upload, deleted,
         unchanged: Object.keys(candidate.files).length - changed.length });
     }
 

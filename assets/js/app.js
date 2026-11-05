@@ -36,12 +36,15 @@ let placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchInde
 let liveDataPromise=null,liveDataRuntime=null,stopLiveDataPolling=null;
 let presentedCategory=null,presentedSelectedId=null,presentedVisibility=null;
 async function getLiveDataRuntime(){
- if(!location.hostname.endsWith('.workers.dev'))return null;
+ const localWorkerTest=new URLSearchParams(location.search).get('live-data-test')==='1';
+ if(!location.hostname.endsWith('.workers.dev')&&!localWorkerTest)return null;
  if(!liveDataPromise){liveDataPromise=discoverLiveData().then(live=>{
   liveDataRuntime=live;
   if(live){
    window.__MAZO_LIVE_DATA_VERSION__=live.version;
-   stopLiveDataPolling=startLiveDataPolling({initialRevision:live.version.revision,onUpdate:async version=>{
+   stopLiveDataPolling=startLiveDataPolling({initialRevision:live.version.revision,
+    intervalMs:Number.isSafeInteger(globalThis.__MAZO_LIVE_DATA_TEST_POLL_MS)?globalThis.__MAZO_LIVE_DATA_TEST_POLL_MS:15_000,
+    onUpdate:async version=>{
     try{sessionStorage.setItem('mazo-live-last-update',version.revision)}catch{}
     window.dispatchEvent(new CustomEvent('mazodataupdate',{detail:version}));
     location.reload();
