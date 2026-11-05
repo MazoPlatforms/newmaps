@@ -1,3 +1,5 @@
+import { ifNoneMatchMatches } from './http-validators.mjs';
+
 const COMMIT_SHA = /^[a-f0-9]{40}$/;
 const CONTENT_SHA = /^[a-f0-9]{64}$/;
 const ALLOWED_PATH = /^(?:generated|data)\/[A-Za-z0-9._/-]+$/;
@@ -76,7 +78,7 @@ export class LiveDataRegistry {
       const record = currentRecord(this.ctx.storage);
       if (!record) return json({ error: 'Live data has not been synchronized.' }, 404);
       const etag = `"${record.manifest.revision}"`;
-      if (request.headers.get('if-none-match') === etag) {
+      if (ifNoneMatchMatches(request.headers.get('if-none-match'), etag)) {
         return new Response(null, { status: 304, headers: { ETag: etag, 'Cache-Control': 'no-store' } });
       }
       return Response.json({ format: 'MazoLiveData/1', revision: record.manifest.revision, run_number: record.run_number,

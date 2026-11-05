@@ -1,6 +1,7 @@
 import { verifySignedRequest } from './live-data-auth.mjs';
 import { liveDataObjectKey } from './live-data-registry.mjs';
 import { handleRideApi } from './ride-api.mjs';
+import { ifNoneMatchMatches } from './http-validators.mjs';
 
 const PMTILES_PATH = '/generated/places.pmtiles';
 const PMTILES_RANGE_MANIFEST_PATH = '/generated/places-pmtiles-range.json';
@@ -154,7 +155,7 @@ async function serveLiveData(request, env) {
   let objectKey;
   try { objectKey = liveDataObjectKey(path, sha256); } catch { return apiJson({ error: 'Invalid data path.' }, 400); }
   const headers = safeVersionedDataHeaders(path, sha256, expectedBytes, '');
-  if (request.headers.get('if-none-match') === headers.get('etag')) return new Response(null, { status: 304, headers });
+  if (ifNoneMatchMatches(request.headers.get('if-none-match'), headers.get('etag'))) return new Response(null, { status: 304, headers });
   const ifRange = request.headers.get('if-range');
   const useRange = Boolean(range) && (!ifRange || ifRange === headers.get('etag'));
   if (request.method === 'HEAD') {
@@ -253,7 +254,7 @@ async function serveLiveApi(request, env) {
     const manifest = await manifestResponse.json();
     const revision = manifest.revision || 'bootstrap';
     const etag = `"${revision}"`;
-    if (request.headers.get('if-none-match') === etag) return new Response(null, { status: 304,
+    if (ifNoneMatchMatches(request.headers.get('if-none-match'), etag)) return new Response(null, { status: 304,
       headers: { ETag: etag, 'Cache-Control': 'no-store' } });
     return new Response(JSON.stringify({ format: 'MazoLiveData/1', revision,
       run_number: manifest.run_number || 0, updated_at: manifest.updated_at || null,
