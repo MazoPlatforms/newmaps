@@ -388,7 +388,12 @@ try {
   await offlinePage.goto(`${origin}/?map-test=1`, { waitUntil: 'domcontentloaded' });
   await wait(offlinePage, () => window.__MAZO_MAP_TEST__?.isStyleLoaded(), 60_000);
   await offlinePage.locator('#offline-download').click();
-  await wait(offlinePage, () => /Offline place search, details, local roads and limited Kattankudy routing are downloaded/i.test(document.querySelector('#offline-status').innerText), 90_000);
+  try {
+    await wait(offlinePage, () => /Offline place search, details, local roads and limited Kattankudy routing are downloaded/i.test(document.querySelector('#offline-status').innerText), 90_000);
+  } catch (error) {
+    console.error(`Offline browser pack status: ${await offlinePage.locator('#offline-status').innerText()}`);
+    throw error;
+  }
   await offlinePage.evaluate(async () => { await navigator.serviceWorker.ready; });
   if (!await offlinePage.evaluate(() => Boolean(navigator.serviceWorker.controller))) await offlinePage.reload({ waitUntil: 'domcontentloaded' });
   cachedArchiveRanges.length = 0;
