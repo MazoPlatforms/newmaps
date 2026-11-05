@@ -4,11 +4,21 @@ import { createSignedHeaders, verifySignedRequest } from '../src/live-data-auth.
 import { LiveDataRegistry, liveDataObjectKey } from '../src/live-data-registry.mjs';
 import worker from '../src/worker-core.mjs';
 import { discoverLiveData, liveDataResourceUrl, startLiveDataPolling } from '../assets/js/live-data-client.mjs';
+import { ifNoneMatchMatches } from '../src/http-validators.mjs';
 
 const enc = new TextEncoder();
 const secret = 'test-only-secret-that-is-long-enough-32';
 const sha = 'a'.repeat(64);
 const commit = 'b'.repeat(40);
+
+test('If-None-Match uses weak entity-tag comparison for conditional GETs', () => {
+  const etag = '"' + commit + '"';
+  assert.equal(ifNoneMatchMatches('W/' + etag, etag), true, 'weak tags match equivalent strong tags');
+  assert.equal(ifNoneMatchMatches('"other", W/' + etag, etag), true, 'tag lists are supported');
+  assert.equal(ifNoneMatchMatches('*', etag), true, 'wildcard matches any existing representation');
+  assert.equal(ifNoneMatchMatches('"' + 'c'.repeat(40) + '"', etag), false);
+  assert.equal(ifNoneMatchMatches(null, etag), false);
+});
 
 function makeManifest(revision = commit, run_number = 1, files = { 'data/example.json': {
   sha256: sha, bytes: 4, content_type: 'application/json',
@@ -56,6 +66,8 @@ test('registry plans changed/deleted objects and publishes atomically with stale
   assert.equal((await response.json()).published, true);
   response = await registry.fetch(new Request('https://registry/version', { headers: { 'If-None-Match': `"${commit}"` } }));
   assert.equal(response.status, 304, 'the registry answers unchanged revision polls without a response body');
+  response = await registry.fetch(new Request('https://registry/version', { headers: { 'If-None-Match': `W/"${commit}"` } }));
+  assert.equal(response.status, 304, 'the registry follows HTTP weak comparison for unchanged revision polls');
 
   const manifest2 = makeManifest('c'.repeat(40), 2, { 'data/new.json': { sha256: 'd'.repeat(64), bytes: 2, content_type: 'application/json' } });
   response = await registry.fetch(new Request('https://registry/plan', { method: 'POST', body: JSON.stringify({ manifest: manifest2 }) }));
@@ -208,6 +220,10 @@ test('end-to-end signed sync publishes only changed objects and exposes the new 
 
   response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/version'), env);
   assert.equal((await response.json()).revision, nextRevision);
+  response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/version', {
+    headers: { 'If-None-Match': `W/"${nextRevision}"` },
+  }), env);
+  assert.equal(response.status, 304, 'the Worker version endpoint accepts weak If-None-Match tags');
   response = await worker.fetch(new Request(`https://maps.mazo.workers.dev/api/data/data/places.json?v=${contentHash}&bytes=${content.byteLength}`, { headers: { Range: 'bytes=1-4' } }), env);
   assert.equal(response.status, 206);
   assert.equal(await response.text(), 'ew d');
