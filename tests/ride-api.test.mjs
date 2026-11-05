@@ -5,6 +5,11 @@ import { liveDataObjectKey } from '../src/live-data-registry.mjs';
 
 const revision = 'a'.repeat(40);
 const payloads = {
+  'generated/manifest.json': { format: 'PMTiles/1', delivery: { mvt_pmtiles: { file: 'places.pmtiles', min_zoom: 4, max_zoom: 16 } } },
+  'generated/places.pmtiles': 'pmtiles-fixture',
+  'generated/search-index.json': { version: 1 },
+  'generated/place-details.json': { version: 1 },
+  'generated/kattankudy-roads.mzp': 'roads-fixture',
   'generated/api-search-index.json': { version: 1, fields: ['id', 'name', 'address', 'coordinates', 'discoveryCategory', 'searchText'], records: [
     ['01TESTPLACE0000000000000000', 'Harbor Clinic', 'Main Street', [79.91, 7.72], 'health', 'harbor clinic main street health clinic'],
   ] },
@@ -46,11 +51,16 @@ test('RideNow v1 place search and geocoding are versioned, CORS-readable and rat
   assert.equal(search.headers.get('x-mazo-api-version'), 'v1');
   assert.equal(search.headers.get('x-mazo-data-revision'), revision);
   assert.equal((await search.json()).results[0].name, 'Harbor Clinic');
+  const manifest = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/manifest'), fixture.env);
+  const contract = await manifest.json();
+  assert.equal(contract.map_manifest.format, 'PMTiles/1');
+  assert.equal(contract.resources.pmtiles.path, 'generated/places.pmtiles');
+  assert.match(contract.resources.pmtiles.url, /\/api\/data\/generated\/places\.pmtiles\?v=/);
   const geocode = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/geocode?q=Harbor'), fixture.env);
   const feature = (await geocode.json()).features[0];
   assert.equal(feature.geometry.type, 'Point');
   assert.deepEqual(feature.geometry.coordinates, [79.91, 7.72]);
-  assert.equal(fixture.count(), 2);
+  assert.equal(fixture.count(), 3);
 });
 
 test('RideNow v1 routing returns local routes and preflight exposes only documented CORS methods', async () => {

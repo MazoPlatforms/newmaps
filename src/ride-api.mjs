@@ -77,6 +77,13 @@ function boundedLimit(value, fallback = 10, max = 25) {
   return Number.isInteger(parsed) ? Math.max(1, Math.min(max, parsed)) : fallback;
 }
 
+function resourceUrl(manifest, path) {
+  const entry = manifest.files?.[path];
+  if (!entry) return null;
+  return { path, url: `/api/data/${path}?v=${entry.sha256}&bytes=${entry.bytes}`,
+    sha256: entry.sha256, bytes: entry.bytes, content_type: entry.content_type };
+}
+
 export async function handleRideApi(request, env) {
   const url = new URL(request.url);
   const pathname = url.pathname;
@@ -101,7 +108,14 @@ export async function handleRideApi(request, env) {
     const revision = manifest.revision || 'bootstrap';
     const headers = { 'X-Mazo-API-Version': 'v1', 'X-Mazo-Data-Revision': revision };
     if (pathname === `${API_ROOT}/manifest`) {
-      return response({ api_version: 'v1', revision, manifest }, 200, headers);
+      const mapManifest = await jsonDataset(env, manifest, 'generated/manifest.json');
+      if (!mapManifest) return response({ error: 'map_manifest_unavailable' }, 503, headers);
+      const resources = Object.fromEntries([
+        ['pmtiles', 'generated/places.pmtiles'], ['search_index', 'generated/search-index.json'],
+        ['place_details', 'generated/place-details.json'], ['roads', 'generated/kattankudy-roads.mzp'],
+        ['routing_graph', `generated/${mapManifest.routing?.file || 'kattankudy-routing.json'}`],
+      ].map(([name, path]) => [name, resourceUrl(manifest, path)]));
+      return response({ api_version: 'v1', revision, manifest, map_manifest: mapManifest, resources }, 200, headers);
     }
 
     if (pathname === `${API_ROOT}/places/search` || pathname === `${API_ROOT}/geocode`) {

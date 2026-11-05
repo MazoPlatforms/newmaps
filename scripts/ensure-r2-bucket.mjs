@@ -23,7 +23,11 @@ async function api(path, options = {}) {
 }
 
 const endpoint = `/accounts/${encodeURIComponent(accountId)}/r2/buckets`;
-const buckets = await api(endpoint);
+const result = await api(endpoint);
+const buckets = Array.isArray(result) ? result : result?.buckets;
+if (!Array.isArray(buckets)) {
+  throw new Error('Cloudflare R2 provisioning returned an unexpected bucket list response.');
+}
 if (buckets.some((bucket) => bucket.name === bucketName)) {
   console.log('Live-data R2 bucket is ready.');
 } else {

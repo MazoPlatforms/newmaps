@@ -38,8 +38,8 @@ The Cloudflare `API_RATE_LIMITER` binding allows 60 requests per client IP per m
 
 | Endpoint | Contract |
 | --- | --- |
-| `GET /manifest` | `{ api_version, revision, manifest }`, including versioned PMTiles, search, place-detail, road and routing artifact metadata. |
-| `GET /places/search?q=<text>&limit=10` | Ranked canonical place records with ID, coordinates where available, category, match score and optional distance. `limit` is clamped to 1–25; query is required and at most 160 characters. |
+| `GET /manifest` | `{ api_version, revision, manifest, map_manifest, resources }`. The map manifest contains PMTiles zoom/feature metadata; each resource provides its immutable `/api/data/...` URL, SHA-256 and byte count. |
+| `GET /places/search?q=<text>&limit=10` | Ranked canonical place records with ID, coordinates where available, category and match score. `limit` is clamped to 1–25; query is required and at most 120 characters. |
 | `GET /geocode?q=<text>&limit=10` | GeoJSON `FeatureCollection` of matching geocoded places; geometry is `[longitude, latitude]`. |
 | `POST /route` with JSON `{ start_lon, start_lat, end_lon, end_lat, profile }` | Local route alternatives with geometry, distance, ETA and snap distances. Coordinates are kept out of URL query strings. `profile` is `driving`, `walking`, or `cycling`. Local routing coverage is the Kattankudy-area graph only; outside coverage returns `422` with `snap_too_far`. |
 
