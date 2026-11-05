@@ -196,7 +196,7 @@ class RoadTests(unittest.TestCase):
         self.assertIn("generated/kattankudy-roads-manifest.json", app)
         self.assertNotIn("./data/roads/kattankudy.json", app)
         self.assertIn("checkedJson('./generated/'+manifest.geojson,manifest.sha256)", app)
-        self.assertIn("fetch('./generated/manifest.json',{cache:'no-cache'})", app)
+        self.assertIn("appDataUrl('generated/manifest.json')", app)
         self.assertIn("'source-layer':'places'", app)
         self.assertNotIn("loadMZP", app)
         self.assertNotIn("delivery')==='pmtiles", app)
