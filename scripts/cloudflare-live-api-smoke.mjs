@@ -20,18 +20,41 @@ async function get(path) {
   return { response, body: await response.json() };
 }
 
-const version = await fetch(new URL('api/version', base), { cache: 'no-store' });
-assert.equal(version.status, 200);
-const liveVersion = await version.json();
-assert.match(liveVersion.revision, /^[a-f0-9]{40}$/);
-const versionEtag = version.headers.get('etag');
-assert.ok(versionEtag, 'version polling response should provide an ETag');
-const unchangedVersion = await fetch(new URL('api/version', base), {
-  cache: 'no-store', headers: { 'If-None-Match': versionEtag },
-});
-assert.equal(unchangedVersion.status, 304, 'unchanged live manifests should respond to conditional polls with 304');
-const { body: catalog } = await get('manifest');
-assert.equal(catalog.revision, liveVersion.revision);
+async function readVersion() {
+  const response = await fetch(new URL('api/version', base), { cache: 'no-store' });
+  assert.equal(response.status, 200);
+  const body = await response.json();
+  assert.match(body.revision, /^[a-f0-9]{40}$/);
+  const etag = response.headers.get('etag');
+  assert.ok(etag, 'version polling response should provide an ETag');
+  return { body, etag };
+}
+
+let { body: liveVersion, etag: versionEtag } = await readVersion();
+let unchangedVersion;
+for (let attempt = 0; attempt < 3; attempt += 1) {
+  unchangedVersion = await fetch(new URL('api/version', base), {
+    cache: 'no-store', headers: { 'If-None-Match': versionEtag },
+  });
+  if (unchangedVersion.status === 304) break;
+  assert.equal(unchangedVersion.status, 200,
+    'a concurrent publication may return the newer version before an unchanged poll returns 304');
+  liveVersion = await unchangedVersion.json();
+  assert.match(liveVersion.revision, /^[a-f0-9]{40}$/);
+  versionEtag = unchangedVersion.headers.get('etag');
+  assert.ok(versionEtag, 'newer version responses should provide an ETag');
+}
+assert.equal(unchangedVersion.status, 304,
+  'version polling should return 304 after observing the latest concurrent update');
+
+let catalogResult = await get('manifest');
+for (let attempt = 0; catalogResult.body.revision !== liveVersion.revision && attempt < 3; attempt += 1) {
+  ({ body: liveVersion, etag: versionEtag } = await readVersion());
+  catalogResult = await get('manifest');
+}
+const { body: catalog } = catalogResult;
+assert.equal(catalog.revision, liveVersion.revision,
+  'manifest and version polling should settle on the same published revision');
 const archive = catalog.manifest.files['generated/places.pmtiles'];
 assert.ok(archive && /^[a-f0-9]{64}$/.test(archive.sha256));
 const archiveUrl = new URL('api/data/generated/places.pmtiles', base);
