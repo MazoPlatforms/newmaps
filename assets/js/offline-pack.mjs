@@ -1,6 +1,6 @@
 export const OFFLINE_CACHE_PREFIX = 'mazo-offline-pack-';
 
-export function offlinePackResources(manifest, roadsManifest, routingManifest) {
+export function offlinePackResources(manifest, roadsManifest, routingManifest, resolveResource = (url) => url) {
   const delivery = manifest?.delivery ?? {};
   const values = [delivery.mvt_pmtiles, delivery.search_index, delivery.place_details];
   if (!/^[a-f0-9]{64}$/.test(manifest?.source_sha256 || '') || values.some((entry) => !entry?.file || !/^[a-f0-9]{64}$/.test(entry?.sha256 || ''))) throw new Error('Place manifest is incomplete');
@@ -15,11 +15,13 @@ export function offlinePackResources(manifest, roadsManifest, routingManifest) {
     { url: `./generated/${roadsManifest.geojson}?v=${roadsManifest.sha256}`, bytes: roadsManifest.bytes ?? null },
     { url: `./generated/${routingManifest.graph_file}?v=${routingManifest.graph_sha256}`, bytes: routingManifest.graph_bytes ?? null },
   ];
-  return { version: [manifest.source_sha256, delivery.mvt_pmtiles.sha256, delivery.search_index.sha256, delivery.place_details.sha256, roadsManifest.sha256, routingManifest.graph_sha256].join('-'), resources };
+  return { version: [manifest.source_sha256, delivery.mvt_pmtiles.sha256, delivery.search_index.sha256, delivery.place_details.sha256, roadsManifest.sha256, routingManifest.graph_sha256].join('-'),
+    resources: resources.map((resource) => ({ ...resource, url: resolveResource(resource.url) })) };
 }
 
-export async function downloadOfflinePack({ manifest, roadsManifest, routingManifest, cacheStorage = caches, fetcher = fetch, estimate = navigator.storage?.estimate?.bind(navigator.storage) }) {
-  const pack = offlinePackResources(manifest, roadsManifest, routingManifest);
+export async function downloadOfflinePack({ manifest, roadsManifest, routingManifest, resolveResource = (url) => url,
+  cacheStorage = caches, fetcher = fetch, estimate = navigator.storage?.estimate?.bind(navigator.storage) }) {
+  const pack = offlinePackResources(manifest, roadsManifest, routingManifest, resolveResource);
   const cacheName = OFFLINE_CACHE_PREFIX + pack.version;
   const previousNames = (await cacheStorage.keys()).filter((name) => name.startsWith(OFFLINE_CACHE_PREFIX));
   const cacheAlreadyExisted = previousNames.includes(cacheName);

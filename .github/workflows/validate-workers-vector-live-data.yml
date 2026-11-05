@@ -1,0 +1,63 @@
+name: Validate Workers live data and vector POIs
+
+on:
+  push:
+    branches: [feature/workers-poi-vector-live-data]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: workers-vector-live-data-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: python -m pip install 'shapely>=2,<3'
+      - run: python -m pip install -r requirements-map-tiles.txt
+      - run: npm ci
+      - name: Validate and build source datasets
+        run: |
+          python scripts/places.py validate
+          python scripts/places.py build
+          python scripts/build_map_delivery.py
+          python scripts/validate_map_delivery.py
+          python scripts/build_routing_graph.py
+          python scripts/enrich_roads.py --check
+          python scripts/roads.py validate
+          python scripts/roads.py build
+          python scripts/speed_limits.py validate
+          python scripts/speed_limits.py build
+      - name: Run Python and JavaScript unit tests
+        run: |
+          python -m unittest discover -s tests -v
+          node --check assets/js/app.js
+          node --check src/worker.mjs
+          npm run test:unit
+      - name: Build Static Assets and validate Wrangler bindings
+        run: |
+          npm run build:cloudflare
+          npx wrangler deploy --dry-run --config wrangler.jsonc
+      - name: Install Chromium for browser E2E
+        run: npx playwright install --with-deps chromium
+      - name: Run real local Worker, R2, Durable Object, sync, browser and accessibility E2E
+        run: npm run test:live-data:e2e
+      - name: Run existing GitHub Pages browser regression suite
+        run: npm run test:browser
+      - name: Compare native R2 ranges with static PMTiles chunk reads
+        run: npm run benchmark:live-data

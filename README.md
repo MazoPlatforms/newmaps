@@ -28,6 +28,10 @@ Road segments live in `data/roads/<shard>/<ULID>.json`, with no more than 999 re
 
 Migration artifacts `migration-record-map.json` and `migration-exclusions.json` map every original file/index to its new ID and document records without coordinates. The original 61 category datasets are preserved on the [`archive/pre-ulid-migration`](https://github.com/MazoPlatforms/newmaps/tree/archive/pre-ulid-migration) branch. The live app loads the generated PMTiles archive instead of requesting individual place JSON files.
 
+## Cloudflare Workers
+
+The `deploy/cloudflare-workers` branch includes an independent Workers Static Assets build and deployment workflow. It uses the same production-generated PMTiles, search, road, speed-limit, routing, and offline assets while leaving this GitHub Pages workflow unchanged. Wrangler staging, PMTiles byte-range handling, required GitHub secrets, and deployment steps are documented in [Cloudflare Workers deployment](docs/CLOUDFLARE_WORKERS.md).
+
 ## Rollback
 
 Revert the relevant pull request, then allow the Pages workflow to rebuild and deploy generated assets. Place PMTiles, indexes, and road/speed MZP files are build artifacts and do not need commits.

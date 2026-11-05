@@ -1,5 +1,5 @@
-const APP_CACHE = 'mazo-app-shell-v2';
-const SHELL = ['./', './index.html', './assets/css/site.css?v=phase12-14-1', './assets/js/app.js?v=phase12-14-navigation-offline-1', './assets/js/search-engine.mjs', './assets/js/place-delivery.mjs', './assets/js/map-presentation.mjs?v=phase9-cartography-1', './assets/js/cartographic-style.mjs?v=phase9-basemap-audit-1', './assets/js/routing-graph.mjs', './assets/js/offline-pack.mjs', './assets/vendor/pmtiles-4.5.0.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css'];
+const APP_CACHE = 'mazo-app-shell-v4';
+const SHELL = ['./', './index.html', './assets/css/site.css?v=phase12-14-1', './assets/js/app.js?v=phase12-14-workers-vector-live-2', './assets/js/live-data-client.mjs', './assets/js/search-engine.mjs', './assets/js/place-delivery.mjs', './assets/js/map-presentation.mjs?v=phase9-cartography-1', './assets/js/cartographic-style.mjs?v=phase9-basemap-audit-1', './assets/js/routing-graph.mjs', './assets/js/offline-pack.mjs', './assets/vendor/pmtiles-4.5.0.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -22,6 +22,10 @@ self.addEventListener('fetch', (event) => {
   const request = event.request;
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
+  if (url.origin === self.location.origin && ['/api/version', '/api/manifest'].includes(url.pathname)) {
+    event.respondWith(fetch(new Request(request, { cache: 'no-store' })));
+    return;
+  }
   if (request.headers.has('range') && url.origin === self.location.origin) {
     event.respondWith((async () => {
       for (const name of await caches.keys()) {
