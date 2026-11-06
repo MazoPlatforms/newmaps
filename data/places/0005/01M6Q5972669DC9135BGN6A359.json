@@ -1,0 +1,58 @@
+{
+  "name": "Base Hospital Mahaoya",
+  "coordinates": {
+    "latitude": 7.5311305,
+    "longitude": 81.3552471
+  },
+  "categories": [
+    "Hospital"
+  ],
+  "address": "G9J4+F35, Maha Oya",
+  "phone": "0632244061",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q5972669DC9135BGN6A359"
+}
