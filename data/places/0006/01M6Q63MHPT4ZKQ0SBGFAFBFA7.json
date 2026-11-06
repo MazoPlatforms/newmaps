@@ -1,0 +1,59 @@
+{
+  "name": "Jaga Food",
+  "coordinates": {
+    "latitude": 7.9642823,
+    "longitude": 80.9777652
+  },
+  "categories": [
+    "Sri Lankan restaurant",
+    "Vegetarian restaurant"
+  ],
+  "address": "XX7H+P39, A11, Polonnaruwa",
+  "phone": "0777421042",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–4:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63MHPT4ZKQ0SBGFAFBFA7"
+}
