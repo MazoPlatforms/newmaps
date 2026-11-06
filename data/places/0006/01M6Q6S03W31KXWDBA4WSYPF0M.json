@@ -1,0 +1,58 @@
+{
+  "name": "Venus Pharmacy",
+  "coordinates": {
+    "latitude": 7.2874409,
+    "longitude": 80.6231602
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "7JPF+X7F, Kandy",
+  "phone": "0812204310",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S03W31KXWDBA4WSYPF0M"
+}
