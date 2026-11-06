@@ -1,0 +1,61 @@
+{
+  "name": "Mangos Indian",
+  "coordinates": {
+    "latitude": 9.6587661,
+    "longitude": 80.0220267
+  },
+  "categories": [
+    "Restaurant",
+    "Indian restaurant",
+    "Vegetarian restaurant"
+  ],
+  "address": "129 Main street, Jaffna 40000",
+  "phone": "0777661083",
+  "website": "http://www.mangos.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62VBKFZ3M7233HN7F4DVH"
+}
