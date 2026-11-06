@@ -1,0 +1,58 @@
+{
+  "name": "SPAR Supermarket - Wattala",
+  "coordinates": {
+    "latitude": 6.9841698999999995,
+    "longitude": 79.8890286
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "120 Negombo - Colombo Main Road, Wattala 11300",
+  "phone": "0742760805",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RS07K9MW658V13M06VPQ"
+}
