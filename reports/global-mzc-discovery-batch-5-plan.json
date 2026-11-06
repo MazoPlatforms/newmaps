@@ -1,0 +1,14 @@
+[
+  {"query": "all public places and businesses in Sri Lanka", "town": "Sri Lanka", "category": "broad-national", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "banks ATMs insurance offices and financial services in Sri Lanka", "town": "Sri Lanka", "category": "financial", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "medical centers clinics pharmacies and hospitals in Sri Lanka", "town": "Sri Lanka", "category": "health", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "schools colleges tuition centers libraries and universities in Sri Lanka", "town": "Sri Lanka", "category": "education", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "mosques churches temples and religious institutions in Sri Lanka", "town": "Sri Lanka", "category": "worship", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "fuel stations garages vehicle repairs and car services in Sri Lanka", "town": "Sri Lanka", "category": "vehicle-services", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "markets supermarkets groceries hardware electronics and mobile shops in Sri Lanka", "town": "Sri Lanka", "category": "retail", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "parks beaches sports grounds attractions and recreation facilities in Sri Lanka", "town": "Sri Lanka", "category": "recreation", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "bus stations railway stations airports transport terminals and public transport in Sri Lanka", "town": "Sri Lanka", "category": "transport", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "government offices police stations post offices courts and public services in Sri Lanka", "town": "Sri Lanka", "category": "government", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "hotels guest houses resorts and accommodation in Sri Lanka", "town": "Sri Lanka", "category": "accommodation", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "restaurants cafes bakeries tea shops and food outlets in Sri Lanka", "town": "Sri Lanka", "category": "food", "limit": 500, "country": "lk", "timeout": 30}
+]
