@@ -1,0 +1,18 @@
+[
+  {"query": "restaurants cafes bakeries and food shops in Batticaloa, Sri Lanka", "town": "Batticaloa", "category": "food", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "restaurants cafes bakeries and food shops in Kalmunai, Sri Lanka", "town": "Kalmunai", "category": "food", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "restaurants cafes bakeries and food shops in Trincomalee, Sri Lanka", "town": "Trincomalee", "category": "food", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "shops supermarkets pharmacies and vehicle services in Colombo, Sri Lanka", "town": "Colombo", "category": "retail-services", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "shops supermarkets pharmacies and vehicle services in Kandy, Sri Lanka", "town": "Kandy", "category": "retail-services", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "shops supermarkets pharmacies and vehicle services in Galle, Sri Lanka", "town": "Galle", "category": "retail-services", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "shops supermarkets pharmacies and vehicle services in Jaffna, Sri Lanka", "town": "Jaffna", "category": "retail-services", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "shops supermarkets pharmacies and vehicle services in Kurunegala, Sri Lanka", "town": "Kurunegala", "category": "retail-services", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "schools hospitals government offices and public facilities in Ampara, Sri Lanka", "town": "Ampara", "category": "public-facilities", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "schools hospitals government offices and public facilities in Trincomalee, Sri Lanka", "town": "Trincomalee", "category": "public-facilities", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "schools hospitals government offices and public facilities in Kandy, Sri Lanka", "town": "Kandy", "category": "public-facilities", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "schools hospitals government offices and public facilities in Jaffna, Sri Lanka", "town": "Jaffna", "category": "public-facilities", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "hotels guest houses parks beaches and attractions in Arugam Bay, Sri Lanka", "town": "Arugam Bay", "category": "tourism", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "hotels guest houses parks beaches and attractions in Pasikuda, Sri Lanka", "town": "Pasikuda", "category": "tourism", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "hotels guest houses parks beaches and attractions in Nilaveli, Sri Lanka", "town": "Nilaveli", "category": "tourism", "limit": 500, "country": "lk", "timeout": 30},
+  {"query": "hotels guest houses parks beaches and attractions in Ella, Sri Lanka", "town": "Ella", "category": "tourism", "limit": 500, "country": "lk", "timeout": 30}
+]
