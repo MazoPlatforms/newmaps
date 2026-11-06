@@ -1,0 +1,58 @@
+{
+  "name": "New Western Pharmacy",
+  "coordinates": {
+    "latitude": 7.4887052999999995,
+    "longitude": 80.3636471
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "39 Maliyadeva St, Kurunegala",
+  "phone": "0372223364",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S77853HF23X3TSZT7BT3"
+}
