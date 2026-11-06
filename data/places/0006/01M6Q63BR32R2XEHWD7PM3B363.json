@@ -1,0 +1,60 @@
+{
+  "name": "Prego Italian Restaurant",
+  "coordinates": {
+    "latitude": 7.2356492999999995,
+    "longitude": 79.84149529999999
+  },
+  "categories": [
+    "Italian restaurant",
+    "Restaurant"
+  ],
+  "address": "2, E, Porutota Road, Negombo",
+  "phone": "0312225655",
+  "website": "http://pregonegombo.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63BR32R2XEHWD7PM3B363"
+}
