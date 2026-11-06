@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City Express",
+  "coordinates": {
+    "latitude": 6.9114533,
+    "longitude": 79.86498999999999
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "75 Dr CWW Kannangara Mawatha, Colombo 00700",
+  "phone": "0112686595",
+  "website": "http://www.cargillsceylon.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q6RKFN4J9QEFHV0KHQBQ07"
+}
