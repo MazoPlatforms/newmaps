@@ -1,0 +1,58 @@
+{
+  "name": "Cargills Food City - Norris Canal",
+  "coordinates": {
+    "latitude": 6.9223969,
+    "longitude": 79.8659984
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "25 Norris Canal Road, Colombo 01000",
+  "phone": "0112694267",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RPVGQDA2PDZN0V7X0NVD"
+}
