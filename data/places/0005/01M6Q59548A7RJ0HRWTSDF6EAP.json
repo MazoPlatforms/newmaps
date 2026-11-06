@@ -1,0 +1,59 @@
+{
+  "name": "Bay Vista Restaurant",
+  "coordinates": {
+    "latitude": 6.8417907,
+    "longitude": 81.8325287
+  },
+  "categories": [
+    "Eclectic restaurant"
+  ],
+  "address": "227 Main Street, Arugam Bay 32500",
+  "phone": "0771850328",
+  "website": "https://www.bayvistahotel.com/restaurant/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59548A7RJ0HRWTSDF6EAP"
+}
