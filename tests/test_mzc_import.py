@@ -187,6 +187,20 @@ class MzcImportTests(unittest.TestCase):
             self.assertEqual(plan["counts"]["uncertain_public_eligibility"], 1)
             self.assertEqual(plan["new_records"], [])
 
+    def test_explicit_global_mode_retains_public_candidate_outside_boundary(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            input_dir = Path(tmp) / "capture"
+            record = mzc_record("Public Library", latitude=6.90, longitude=80.10,
+                                categories=["Public library"])
+            capture(input_dir, [record])
+            root = Path(tmp) / "repo"
+            write_tree(root, [])
+            plan = importer.analyze(input_dir, importer.BOUNDARY_PATH, root,
+                                    enforce_boundary=False)
+            self.assertEqual(plan["counts"]["new_public_candidate"], 1)
+            self.assertEqual(len(plan["new_records"]), 1)
+            self.assertFalse(plan["enforce_boundary"])
+
     def test_private_residential_candidate_is_excluded_and_report_is_privacy_safe(self):
         with tempfile.TemporaryDirectory() as tmp:
             private = mzc_record("M. Perera's Home", categories=["Private residence"], address="No. 9, Private Lane")
