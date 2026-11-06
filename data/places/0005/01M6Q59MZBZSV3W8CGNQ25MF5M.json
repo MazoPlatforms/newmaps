@@ -1,0 +1,58 @@
+{
+  "name": "Asian Pharmacy",
+  "coordinates": {
+    "latitude": 8.5791556,
+    "longitude": 81.230147
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "199 Main St, Trincomalee 31000",
+  "phone": "0773618867",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59MZBZSV3W8CGNQ25MF5M"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Almaas Indian Family Restaurant",
+  "coordinates": {
+    "latitude": 6.7270769999999995,
+    "longitude": 79.9042018
+  },
+  "categories": [
+    "Indian restaurant",
+    "Chinese restaurant",
+    "Pakistani restaurant",
+    "Sri Lankan restaurant"
+  ],
+  "address": "Panadura",
+  "phone": "0384334344",
+  "website": "http://www.almaas.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63ZD28DC5AJM8AV60YSEX"
+}

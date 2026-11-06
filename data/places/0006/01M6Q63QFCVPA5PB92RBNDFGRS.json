@@ -1,0 +1,58 @@
+{
+  "name": "Laya's Place ( Food & Beverage )",
+  "coordinates": {
+    "latitude": 6.901171199999999,
+    "longitude": 81.340597
+  },
+  "categories": [
+    "Eclectic restaurant"
+  ],
+  "address": "Laya's place, Monaragala",
+  "phone": "0714052446",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63QFCVPA5PB92RBNDFGRS"
+}

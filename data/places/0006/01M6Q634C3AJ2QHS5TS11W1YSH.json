@@ -1,0 +1,59 @@
+{
+  "name": "Fryzo",
+  "coordinates": {
+    "latitude": 6.9848273999999995,
+    "longitude": 81.0710685
+  },
+  "categories": [
+    "Restaurant",
+    "Fast food restaurant"
+  ],
+  "address": "No. 31, passara road Hindagoda, Badulla 90000",
+  "phone": "0764993923",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q634C3AJ2QHS5TS11W1YSH"
+}

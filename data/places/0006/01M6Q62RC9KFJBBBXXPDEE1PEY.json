@@ -1,0 +1,66 @@
+{
+  "name": "The Empire Cafe",
+  "coordinates": {
+    "latitude": 7.293629999999999,
+    "longitude": 80.63885189999999
+  },
+  "categories": [
+    "Restaurant",
+    "American restaurant",
+    "Cafe",
+    "Chinese noodle restaurant",
+    "Coffee shop",
+    "European restaurant",
+    "Indian restaurant",
+    "Sri Lankan restaurant"
+  ],
+  "address": "Temple St, Kandy",
+  "phone": "0812239870",
+  "website": "https://www.facebook.com/profile.php?id=100089956452149",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q62RC9KFJBBBXXPDEE1PEY"
+}

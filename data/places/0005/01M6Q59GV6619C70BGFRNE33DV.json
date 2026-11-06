@@ -1,0 +1,58 @@
+{
+  "name": "TUK TUK Food City",
+  "coordinates": {
+    "latitude": 8.6102347,
+    "longitude": 81.21620399999999
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "363 Nilaveli Road, Alasgarden 31000",
+  "phone": "0762223344",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59GV6619C70BGFRNE33DV"
+}

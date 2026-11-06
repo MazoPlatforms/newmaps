@@ -1,0 +1,59 @@
+{
+  "name": "Café Drizzle",
+  "coordinates": {
+    "latitude": 6.9761522,
+    "longitude": 80.764268
+  },
+  "categories": [
+    "Eclectic restaurant",
+    "Cafe"
+  ],
+  "address": "10, chandanalal karunawatha mw, Nuwara Eliya",
+  "phone": "0718753450",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q639HEK1WP70A6MRBSPFMD"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Silver Line Restaurant",
+  "coordinates": {
+    "latitude": 7.958169799999999,
+    "longitude": 80.99845189999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "03, 26 Polonnaruwa-Hingurakgoda Road, Polonnaruwa 51000",
+  "phone": "0764343980",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–6 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63MB3R74779FC9SDVFKYA"
+}

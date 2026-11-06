@@ -1,0 +1,59 @@
+{
+  "name": "National Savings Bank",
+  "coordinates": {
+    "latitude": 6.6652258,
+    "longitude": 79.9296724
+  },
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "address": "MW8H+3VV, A2, Wadduwa",
+  "phone": "0382295295",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TZMD98RSJK02XERYNP8A"
+}

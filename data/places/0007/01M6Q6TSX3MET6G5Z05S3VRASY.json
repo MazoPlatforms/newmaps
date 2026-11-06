@@ -1,0 +1,59 @@
+{
+  "name": "Sri Lanka Insurance",
+  "coordinates": {
+    "latitude": 6.9238944,
+    "longitude": 79.8537528
+  },
+  "categories": [
+    "Insurance company"
+  ],
+  "address": "Rakshana Mandiraya, 21 Vauxhall St, Strxz 00200",
+  "phone": "0112357357",
+  "website": "https://www.srilankainsurance.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TSX3MET6G5Z05S3VRASY"
+}

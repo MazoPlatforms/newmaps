@@ -1,0 +1,58 @@
+{
+  "name": "Medical Center",
+  "coordinates": {
+    "latitude": 8.631600599999999,
+    "longitude": 81.204405
+  },
+  "categories": [
+    "Medical Center"
+  ],
+  "address": "J6J3+JQ, Trincomalee",
+  "phone": "0740010195",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59MCK49ZT66G54TB5QRP9"
+}

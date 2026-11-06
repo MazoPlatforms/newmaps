@@ -1,0 +1,58 @@
+{
+  "name": "Genuine Pharmacy",
+  "coordinates": {
+    "latitude": 7.2885016,
+    "longitude": 80.6322843
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "43/B William Gopallawa Mawatha, Kandy 20000",
+  "phone": "0812223623",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–9:30 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RY7DKYXJHYT1PPK75VCD"
+}

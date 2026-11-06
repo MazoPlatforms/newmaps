@@ -1,0 +1,69 @@
+{
+  "name": "Ashoka Bake House & Rest",
+  "coordinates": {
+    "latitude": 8.5790762,
+    "longitude": 81.2306095
+  },
+  "categories": [
+    "Restaurant",
+    "Cake shop",
+    "Takeout restaurant",
+    "Bakery"
+  ],
+  "address": "168 Main St, Trincomalee",
+  "phone": "0262222010",
+  "website": "https://www.facebook.com/Ashoka-Bake-House-Rest-1015490511814140/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30 AM–1 PM",
+        "3–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30 AM–1 PM",
+        "3–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30 AM–1 PM",
+        "3–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30 AM–1 PM",
+        "3–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30 AM–1 PM",
+        "3–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30 AM–1 PM",
+        "3–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30 AM–1 PM",
+        "3–7:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59FZ9SZVHXVND9D70XR0H"
+}

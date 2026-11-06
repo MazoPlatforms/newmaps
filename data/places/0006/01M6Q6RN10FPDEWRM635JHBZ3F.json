@@ -1,0 +1,59 @@
+{
+  "name": "Keells - Union Place",
+  "coordinates": {
+    "latitude": 6.921714,
+    "longitude": 79.85612429999999
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "199 Union Pl, Colombo 00200",
+  "phone": "0112303111",
+  "website": "http://www.keellssuper.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RN10FPDEWRM635JHBZ3F"
+}

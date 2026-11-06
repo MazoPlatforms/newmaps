@@ -1,0 +1,66 @@
+{
+  "name": "Cafe Secret Alley",
+  "coordinates": {
+    "latitude": 7.2934623,
+    "longitude": 80.6373411
+  },
+  "categories": [
+    "Restaurant",
+    "Cafe"
+  ],
+  "address": "10/1/1/1, E L Senanayake Veediya, Kandy 20000",
+  "phone": "0817474933",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5 PM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5 PM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5 PM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5 PM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–5 PM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–5 PM",
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–5 PM",
+        "5:30–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62PYTGQ7TT2JAXSHNZJQV"
+}

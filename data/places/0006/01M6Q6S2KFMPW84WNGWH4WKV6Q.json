@@ -1,0 +1,58 @@
+{
+  "name": "Sea Fair Food City",
+  "coordinates": {
+    "latitude": 6.0339146999999995,
+    "longitude": 80.23733589999999
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "16 A2, Galle 80000",
+  "phone": "0912248300",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S2KFMPW84WNGWH4WKV6Q"
+}

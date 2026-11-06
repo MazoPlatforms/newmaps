@@ -1,0 +1,58 @@
+{
+  "name": "New Lee Medical",
+  "coordinates": {
+    "latitude": 7.2934510999999995,
+    "longitude": 80.6343921
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "No. 100 Sri Dalada Veediya, Kandy 20000",
+  "phone": "0812229168",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RZ27R0NCJXN866KD8397"
+}

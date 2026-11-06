@@ -1,0 +1,59 @@
+{
+  "name": "Jollybeez",
+  "coordinates": {
+    "latitude": 8.0368909,
+    "longitude": 79.8315367
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "86 Nedumkulam Road, Puttalam 61300",
+  "phone": "0324361461",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1–2:30 PM",
+        "5:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63SAQG3C4A7JR2W675A1G"
+}

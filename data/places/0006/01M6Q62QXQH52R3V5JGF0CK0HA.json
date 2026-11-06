@@ -1,0 +1,60 @@
+{
+  "name": "Cafe Banana Chill",
+  "coordinates": {
+    "latitude": 7.2933755,
+    "longitude": 80.6483488
+  },
+  "categories": [
+    "Vegetarian restaurant",
+    "Cafe"
+  ],
+  "address": "129/8b Anagarika Dharmapala Mawatha, Kandy 20000",
+  "phone": "0775882041",
+  "website": "http://www.bananachill.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62QXQH52R3V5JGF0CK0HA"
+}

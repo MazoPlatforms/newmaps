@@ -1,0 +1,68 @@
+{
+  "name": "Queenswood Restaurant",
+  "coordinates": {
+    "latitude": 6.964425599999999,
+    "longitude": 80.7665631
+  },
+  "categories": [
+    "Eclectic restaurant",
+    "Arab restaurant",
+    "Asian restaurant",
+    "Buffet restaurant",
+    "Chinese restaurant",
+    "Coffee shop",
+    "European restaurant",
+    "Indian restaurant",
+    "Italian restaurant",
+    "Pizza restaurant"
+  ],
+  "address": "124, 1 Badulla Road, Nuwara Eliya 22200",
+  "phone": "0522222000",
+  "website": "https://www.queenswoodcottage.com/resturant.php",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q638833WCG8BA0ZH7THGTX"
+}

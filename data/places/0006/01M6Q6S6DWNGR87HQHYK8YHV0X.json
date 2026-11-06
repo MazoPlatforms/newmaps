@@ -1,0 +1,57 @@
+{
+  "name": "The Pharmacy And Grocery",
+  "coordinates": {
+    "latitude": 7.4819976,
+    "longitude": 80.3601778
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "No. 11 Bauddhaloka Road, Kurunegala",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S6DWNGR87HQHYK8YHV0X"
+}

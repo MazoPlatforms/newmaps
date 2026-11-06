@@ -1,0 +1,59 @@
+{
+  "name": "The Port Beach Seafood Restaurant",
+  "coordinates": {
+    "latitude": 7.2310172999999995,
+    "longitude": 79.8400004
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "285/6 Lewis Pl, Negombo 11500",
+  "phone": "0743317808",
+  "website": "https://theportbeach.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63B8V99JTPK166FAS9Z3S"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Dine Home Restaurant",
+  "coordinates": {
+    "latitude": 7.9123152999999995,
+    "longitude": 81.0055695
+  },
+  "categories": [
+    "Family restaurant"
+  ],
+  "address": "Wasundara Mawatha, Polonnaruwa",
+  "phone": "0717352024",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10 AM",
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5963MH29R2ANVQ7485KEX"
+}

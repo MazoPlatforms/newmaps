@@ -1,0 +1,59 @@
+{
+  "name": "Amana Bank | Main Branch",
+  "coordinates": {
+    "latitude": 6.9047851,
+    "longitude": 79.8521169
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "365 Galle Road, Colombo",
+  "phone": "0117756756",
+  "website": "http://www.amanabank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TTG4RG2QDWFECA6DD9XQ"
+}

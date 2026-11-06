@@ -1,0 +1,59 @@
+{
+  "name": "Pizza Hut - Nuwara Eliya",
+  "coordinates": {
+    "latitude": 6.9607138,
+    "longitude": 80.7679088
+  },
+  "categories": [
+    "Pizza restaurant"
+  ],
+  "address": "158 Kandy Road, Nuwara Eliya 22200",
+  "phone": "0117729729",
+  "website": "https://restaurants.pizzahut.co.in/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q638TWSS0HP9E4605TGF5A"
+}

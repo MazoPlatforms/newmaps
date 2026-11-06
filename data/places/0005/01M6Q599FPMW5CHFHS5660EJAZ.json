@@ -1,0 +1,59 @@
+{
+  "name": "Cafe On The 18Th",
+  "coordinates": {
+    "latitude": 8.613698,
+    "longitude": 81.21831379999999
+  },
+  "categories": [
+    "Restaurant",
+    "Cafe"
+  ],
+  "address": "Fernando’s Beach Market, Trincomalee 31000",
+  "phone": "0779788814",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q599FPMW5CHFHS5660EJAZ"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Pizza Hut - Polonnaruwa",
+  "coordinates": {
+    "latitude": 7.9424909999999995,
+    "longitude": 81.01243699999999
+  },
+  "categories": [
+    "Pizza restaurant",
+    "Fast food restaurant",
+    "Pizza delivery",
+    "Pizza takeaway"
+  ],
+  "address": "W2R6+RRQ, Maradankadawala-Habarana-Thirukkondaiadimadu Hwy, Polonnaruwa",
+  "phone": "0112729729",
+  "website": "https://www.pizzahut.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63NHJ9RM4KKRS5G3J9XPK"
+}

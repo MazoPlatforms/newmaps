@@ -1,0 +1,59 @@
+{
+  "name": "Mindila Restaurant",
+  "coordinates": {
+    "latitude": 6.8743275,
+    "longitude": 81.34962089999999
+  },
+  "categories": [
+    "Eclectic restaurant"
+  ],
+  "address": "No. 74 Potuvil Road, Monaragala 91000",
+  "phone": "0777254449",
+  "website": "http://mindilarestaurant.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q63QWJZY75QRB32982GKNN"
+}

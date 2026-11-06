@@ -1,0 +1,57 @@
+{
+  "name": "Sealook Beach",
+  "coordinates": {
+    "latitude": 7.2308359,
+    "longitude": 79.8398808
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "269 Lewis Pl, Negombo",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63BT4G6SG7JAMNMDEF1J6"
+}

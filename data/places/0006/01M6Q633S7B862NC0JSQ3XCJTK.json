@@ -1,0 +1,58 @@
+{
+  "name": "River View Restaurant",
+  "coordinates": {
+    "latitude": 6.9875614,
+    "longitude": 81.0559414
+  },
+  "categories": [
+    "Non vegetarian restaurant"
+  ],
+  "address": "10 Clinic Road, Badulla",
+  "phone": "0552222046",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q633S7B862NC0JSQ3XCJTK"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Mellona Chocolate Cafe",
+  "coordinates": {
+    "latitude": 6.7118562,
+    "longitude": 80.37986289999999
+  },
+  "categories": [
+    "Coffee shop"
+  ],
+  "address": "New town, 226A, New town shopping Complex, Ratnapura 70000",
+  "phone": "0452222363",
+  "website": "http://www.mellonachocolatecafe.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q631TB56Y9X6CR7TQX8PDW"
+}

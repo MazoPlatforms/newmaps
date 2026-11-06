@@ -1,0 +1,61 @@
+{
+  "name": "Sthree - A Women's Initiative",
+  "coordinates": {
+    "latitude": 7.2873377999999995,
+    "longitude": 80.6279677
+  },
+  "categories": [
+    "Store",
+    "Cafe",
+    "Diner",
+    "Juice shop"
+  ],
+  "address": "327 Peradeniya Road, Kandy 20000",
+  "phone": "0814933593",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q62S53EK4VNNHJEHK88Y0R"
+}

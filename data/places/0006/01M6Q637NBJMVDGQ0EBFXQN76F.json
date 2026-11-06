@@ -1,0 +1,59 @@
+{
+  "name": "Reeds Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 6.973095,
+    "longitude": 80.7667278
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "A/2 Building, New Bazaar Road, Nuwara Eliya 22200",
+  "phone": "0522220000",
+  "website": "https://reedscafe.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q637NBJMVDGQ0EBFXQN76F"
+}

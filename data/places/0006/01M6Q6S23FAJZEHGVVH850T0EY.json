@@ -1,0 +1,63 @@
+{
+  "name": "Ceylon City Mart (Hidayath Hypermarket )",
+  "coordinates": {
+    "latitude": 6.0467043,
+    "longitude": 80.2249947
+  },
+  "categories": [
+    "Pharmacy",
+    "Banquet hall",
+    "Department store",
+    "Hypermarket",
+    "Shopping mall"
+  ],
+  "address": "83 Morris Road, Galle 80000",
+  "phone": "0912234931",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1:45–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S23FAJZEHGVVH850T0EY"
+}

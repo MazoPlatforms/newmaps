@@ -1,0 +1,61 @@
+{
+  "name": "New City Food Cabin",
+  "coordinates": {
+    "latitude": 7.2913429,
+    "longitude": 81.6728984
+  },
+  "categories": [
+    "Restaurant",
+    "Pharmacy",
+    "Bakery"
+  ],
+  "address": "No. 03 D. S. Senanayke Road, Ampara",
+  "phone": "0632222493",
+  "website": "http://www.facebook.com/ncfc64",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q593XG5S88AWW7GTSAJHWJ"
+}

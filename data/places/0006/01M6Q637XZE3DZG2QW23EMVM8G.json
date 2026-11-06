@@ -1,0 +1,59 @@
+{
+  "name": "The Taste Lab",
+  "coordinates": {
+    "latitude": 6.9760846,
+    "longitude": 80.76457429999999
+  },
+  "categories": [
+    "Asian fusion restaurant",
+    "Lunch restaurant"
+  ],
+  "address": "03 1, 1 Cross St, Nuwara Eliya 22200",
+  "phone": "0705592637",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q637XZE3DZG2QW23EMVM8G"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "The Fern",
+  "coordinates": {
+    "latitude": 6.905576099999999,
+    "longitude": 80.7905997
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Nuwara Eliya",
+  "phone": "0713371087",
+  "website": "http://www.theplainsgreen.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q639PF7FSZA16QJMJJPB98"
+}

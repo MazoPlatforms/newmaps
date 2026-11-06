@@ -1,0 +1,60 @@
+{
+  "name": "King Of The Mambo",
+  "coordinates": {
+    "latitude": 6.920324099999999,
+    "longitude": 79.84561099999999
+  },
+  "categories": [
+    "Cuban restaurant",
+    "Restaurant"
+  ],
+  "address": "Galle Road, Colombo 00300",
+  "phone": "0772227389",
+  "website": "http://www.kingofthemambo.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q62N8JVJYEVE8BXQ2PR1FD"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Apple Restaurant",
+  "coordinates": {
+    "latitude": 8.5896207,
+    "longitude": 81.2240518
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "N Coast Road, Trincomalee",
+  "phone": "0771754565",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RJTEN1PWQVM0S7Q6H039"
+}

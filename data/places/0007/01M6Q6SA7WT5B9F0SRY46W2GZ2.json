@@ -1,0 +1,59 @@
+{
+  "name": "Dental Hospital (Teaching ) University Of Peradniya",
+  "coordinates": {
+    "latitude": 7.2665432999999995,
+    "longitude": 80.5993637
+  },
+  "categories": [
+    "Dental school"
+  ],
+  "address": "7H8X+RJV, A1, Getambe",
+  "phone": "0812387500",
+  "website": "http://dental.pdn.ac.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6SA7WT5B9F0SRY46W2GZ2"
+}

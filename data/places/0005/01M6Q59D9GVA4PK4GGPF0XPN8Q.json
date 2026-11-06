@@ -1,0 +1,58 @@
+{
+  "name": "Delico Restaurant",
+  "coordinates": {
+    "latitude": 8.5902092,
+    "longitude": 81.2059324
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "422 Ambal St, Trincomalee 31000",
+  "phone": "0769920892",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59D9GVA4PK4GGPF0XPN8Q"
+}

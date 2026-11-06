@@ -1,0 +1,58 @@
+{
+  "name": "Monty Restaurant",
+  "coordinates": {
+    "latitude": 8.5991544,
+    "longitude": 81.1933469
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "H5XV+M8, Trincomalee",
+  "phone": "0729006002",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q5984DH2TQRZW4S88YS0SM"
+}

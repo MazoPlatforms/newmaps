@@ -1,0 +1,58 @@
+{
+  "name": "My Food Family Restaurant",
+  "coordinates": {
+    "latitude": 6.761284,
+    "longitude": 80.8836309
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Badulla Road, Haldummulla 90180",
+  "phone": "0713442215",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q636KX1VY0ZT51DJNM1QYQ"
+}

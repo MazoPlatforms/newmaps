@@ -1,0 +1,59 @@
+{
+  "name": "Cafe W1",
+  "coordinates": {
+    "latitude": 8.5793366,
+    "longitude": 81.23105389999999
+  },
+  "categories": [
+    "Cafe",
+    "Coffee shop"
+  ],
+  "address": "Irfan Aluminum, 1st Floor, 245 Central Road, Trincomalee 31000",
+  "phone": "0766815828",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6RGQ4C0P37DN702XFNVE0"
+}

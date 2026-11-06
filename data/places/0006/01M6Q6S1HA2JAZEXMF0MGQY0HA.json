@@ -1,0 +1,60 @@
+{
+  "name": "Keells - Galle",
+  "coordinates": {
+    "latitude": 6.0351517,
+    "longitude": 80.2109432
+  },
+  "categories": [
+    "Supermarket",
+    "Bakery"
+  ],
+  "address": "46 Colombo Main Road, Galle 80000",
+  "phone": "0912227860",
+  "website": "https://www.keellssuper.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S1HA2JAZEXMF0MGQY0HA"
+}

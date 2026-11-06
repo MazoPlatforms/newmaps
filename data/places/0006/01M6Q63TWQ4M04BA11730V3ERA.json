@@ -1,0 +1,59 @@
+{
+  "name": "Pizza Hut - Kegalle",
+  "coordinates": {
+    "latitude": 7.251021499999999,
+    "longitude": 80.33399659999999
+  },
+  "categories": [
+    "Pizza restaurant"
+  ],
+  "address": "782M+CJ2, No. 311 Kandy - Colombo Road, Kegalle",
+  "phone": "0112729729",
+  "website": "https://www.pizzahut.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63TWQ4M04BA11730V3ERA"
+}

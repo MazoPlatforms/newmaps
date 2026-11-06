@@ -1,0 +1,58 @@
+{
+  "name": "Bubble Fusion Cafe (Bubble Tea & Coffee)",
+  "coordinates": {
+    "latitude": 8.5795101,
+    "longitude": 81.23107259999999
+  },
+  "categories": [
+    "Coffee shop"
+  ],
+  "address": "244 Central Road, Trincomalee",
+  "phone": "0262221121",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59EQJ2NAZX0B24R1T0R9V"
+}

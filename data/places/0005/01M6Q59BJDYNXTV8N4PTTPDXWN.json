@@ -1,0 +1,58 @@
+{
+  "name": "Upawansha Restaurant",
+  "coordinates": {
+    "latitude": 8.5868253,
+    "longitude": 81.2117277
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "H6P6+PMQ, Trincomalee",
+  "phone": "0262225009",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59BJDYNXTV8N4PTTPDXWN"
+}

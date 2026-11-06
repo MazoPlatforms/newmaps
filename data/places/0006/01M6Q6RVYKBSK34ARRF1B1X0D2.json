@@ -1,0 +1,61 @@
+{
+  "name": "Union Chemists Pharmacy - Wattala",
+  "coordinates": {
+    "latitude": 6.9871491,
+    "longitude": 79.890418
+  },
+  "categories": [
+    "Pharmacy",
+    "Health and beauty shop",
+    "Medical equipment supplier"
+  ],
+  "address": "352 Negombo Main Road, Wattala 11300",
+  "phone": "0112935305",
+  "website": "https://www.unionchemistspharmacy.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RVYKBSK34ARRF1B1X0D2"
+}

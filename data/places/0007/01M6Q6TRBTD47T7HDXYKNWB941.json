@@ -1,0 +1,60 @@
+{
+  "name": "HSBC Premier Centre",
+  "coordinates": {
+    "latitude": 6.9096126,
+    "longitude": 79.8575515
+  },
+  "categories": [
+    "ATM",
+    "Private sector bank"
+  ],
+  "address": "No. 31 Sir Ernest de Silva Mawatha, Colombo 00700",
+  "phone": "0114472272",
+  "website": "http://www.hsbcpremier.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TRBTD47T7HDXYKNWB941"
+}

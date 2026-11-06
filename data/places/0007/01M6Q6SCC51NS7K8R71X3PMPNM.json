@@ -1,0 +1,59 @@
+{
+  "name": "University Of Jaffna",
+  "coordinates": {
+    "latitude": 9.683893699999999,
+    "longitude": 80.0230567
+  },
+  "categories": [
+    "University"
+  ],
+  "address": "M2MF+H63, Ramanathan Road, Jaffna",
+  "phone": "0212218101",
+  "website": "http://www.jfn.ac.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6SCC51NS7K8R71X3PMPNM"
+}

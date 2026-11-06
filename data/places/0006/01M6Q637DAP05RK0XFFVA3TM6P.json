@@ -1,0 +1,59 @@
+{
+  "name": "District General Hospital Nuwara Eliya",
+  "coordinates": {
+    "latitude": 6.9741029999999995,
+    "longitude": 80.7801506
+  },
+  "categories": [
+    "Government hospital",
+    "Hospital"
+  ],
+  "address": "Nuwara Eliya-Uda Pussellawa Road, Nuwara Eliya 22200",
+  "phone": "0522222261",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q637DAP05RK0XFFVA3TM6P"
+}

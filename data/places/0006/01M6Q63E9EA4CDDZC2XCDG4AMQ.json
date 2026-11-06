@@ -1,0 +1,58 @@
+{
+  "name": "Roti Hut",
+  "coordinates": {
+    "latitude": 7.0781719999999995,
+    "longitude": 79.9895524
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "37 Orutota Road, Gampaha",
+  "phone": "0332227827",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63E9EA4CDDZC2XCDG4AMQ"
+}

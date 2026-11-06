@@ -1,0 +1,58 @@
+{
+  "name": "Asylum Restaurant Negombo",
+  "coordinates": {
+    "latitude": 7.2486104,
+    "longitude": 79.8423687
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "192 Porutota Road, Negombo",
+  "phone": "0776686681",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63B2SQGT6WRXFVBAXN6T0"
+}

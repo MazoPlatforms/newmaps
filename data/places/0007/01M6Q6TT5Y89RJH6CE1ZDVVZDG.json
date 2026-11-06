@@ -1,0 +1,59 @@
+{
+  "name": "Union Bank Of Colombo PLC",
+  "coordinates": {
+    "latitude": 6.918430099999999,
+    "longitude": 79.84698569999999
+  },
+  "categories": [
+    "Private sector bank",
+    "ATM"
+  ],
+  "address": "64 Galle Road, Colombo 00300",
+  "phone": "0112374100",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TT5Y89RJH6CE1ZDVVZDG"
+}

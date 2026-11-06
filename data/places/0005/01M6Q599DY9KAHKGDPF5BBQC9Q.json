@@ -1,0 +1,57 @@
+{
+  "name": "Mr Soup & Hoppers",
+  "coordinates": {
+    "latitude": 8.615189299999999,
+    "longitude": 81.2158875
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "Allesgarden, 49, Trincomalee 31000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q599DY9KAHKGDPF5BBQC9Q"
+}

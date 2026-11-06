@@ -1,0 +1,57 @@
+{
+  "name": "Rice Research Station",
+  "coordinates": {
+    "latitude": 7.3550995,
+    "longitude": 81.7772828
+  },
+  "categories": [
+    "Research institute"
+  ],
+  "address": "9Q4G+2WM, Sammanthurai-Malkampiddi-Deeghavapi Road, Sammanthurai",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q5KMKYN5DQ0WB6PEQQHN5A"
+}

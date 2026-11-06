@@ -1,0 +1,59 @@
+{
+  "name": "Cafe Hideaway",
+  "coordinates": {
+    "latitude": 7.0246673,
+    "longitude": 81.0556292
+  },
+  "categories": [
+    "Sri Lankan restaurant",
+    "Cafe"
+  ],
+  "address": "Kandy road, Dunhinda Road, Badulla 90000",
+  "phone": "0758283460",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q635WZ8FA8F4JSAXQEMTJR"
+}

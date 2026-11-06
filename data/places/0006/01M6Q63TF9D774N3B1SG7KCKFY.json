@@ -1,0 +1,58 @@
+{
+  "name": "Athukorala Bakery & Restaurant",
+  "coordinates": {
+    "latitude": 7.2532999,
+    "longitude": 80.34399189999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 69 Main Street, Kegalle",
+  "phone": "0721031037",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63TF9D774N3B1SG7KCKFY"
+}

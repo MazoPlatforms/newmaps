@@ -1,0 +1,58 @@
+{
+  "name": "Thenu Super Mart",
+  "coordinates": {
+    "latitude": 9.6836118,
+    "longitude": 80.04297249999999
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "3rd Mile Post, Jaffna-Point Pedro Road, Kalviyankadu 40000",
+  "phone": "0777110075",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S5M7JN3VJP883SQ9ZWKZ"
+}

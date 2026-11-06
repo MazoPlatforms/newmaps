@@ -1,0 +1,59 @@
+{
+  "name": "Raj Medical (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.2927357,
+    "longitude": 80.6323087
+  },
+  "categories": [
+    "Pharmacy",
+    "Pharmaceutical company"
+  ],
+  "address": "No. 46 Peradeniya Road, Kandy 20000",
+  "phone": "0772346023",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RY533QZG90QBSXB8FC96"
+}

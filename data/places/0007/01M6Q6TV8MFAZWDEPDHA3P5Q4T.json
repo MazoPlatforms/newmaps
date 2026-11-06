@@ -1,0 +1,61 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 6.8860874999999995,
+    "longitude": 79.9019663
+  },
+  "categories": [
+    "Bank",
+    "ATM",
+    "Private sector bank"
+  ],
+  "address": "539 Kotte Road, Sri Jayawardenepura Kotte 10100",
+  "phone": "0112864164",
+  "website": "https://www.combank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TV8MFAZWDEPDHA3P5Q4T"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City (Express)",
+  "coordinates": {
+    "latitude": 6.0357804999999995,
+    "longitude": 80.2195461
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "No. 487, new Galle Road Moratuwella, 80000",
+  "phone": "0112642250",
+  "website": "https://www.cargillsceylon.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S3AKPMJHYJB1QZ5D5BX0"
+}

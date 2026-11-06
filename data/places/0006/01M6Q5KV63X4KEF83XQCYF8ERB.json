@@ -1,0 +1,60 @@
+{
+  "name": "Fruit Hub Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 8.3619548,
+    "longitude": 81.0046947
+  },
+  "categories": [
+    "Family restaurant",
+    "Restaurant"
+  ],
+  "address": "73 Main street, Kantale",
+  "phone": "0775104591",
+  "website": "http://fruithubcafe.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5KV63X4KEF83XQCYF8ERB"
+}

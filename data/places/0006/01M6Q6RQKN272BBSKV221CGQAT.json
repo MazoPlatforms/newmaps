@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City - Colombo",
+  "coordinates": {
+    "latitude": 6.9108046,
+    "longitude": 79.89090379999999
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "139 Dr.N.M.Perera Mawatha, Colombo 10290",
+  "phone": "0112746494",
+  "website": "http://www.cargillsceylon.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RQKN272BBSKV221CGQAT"
+}

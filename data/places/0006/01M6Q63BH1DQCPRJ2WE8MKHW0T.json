@@ -1,0 +1,59 @@
+{
+  "name": "Fish&Chips By Oasis",
+  "coordinates": {
+    "latitude": 7.2428501999999995,
+    "longitude": 79.842209
+  },
+  "categories": [
+    "Restaurant",
+    "Bar"
+  ],
+  "address": "Fish&Chips By Oasis, 120/A Porutota Road, Negombo 11500",
+  "phone": "0312277494",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63BH1DQCPRJ2WE8MKHW0T"
+}

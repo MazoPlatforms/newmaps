@@ -1,0 +1,66 @@
+{
+  "name": "Ibson's Choice Cafe",
+  "coordinates": {
+    "latitude": 6.8876057,
+    "longitude": 79.8853905
+  },
+  "categories": [
+    "Restaurant",
+    "Cafe",
+    "Chocolate cafe",
+    "Lunch restaurant",
+    "Takeout restaurant",
+    "Pizza restaurant",
+    "Pizza takeaway",
+    "Coffee shop"
+  ],
+  "address": "51 Narahenpita - Nawala Road, Sri Jayawardenepura Kotte 11222",
+  "phone": "0112186756",
+  "website": "https://ibsonschoicecafe.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62N4P20XVBV64QGX8Y72Q"
+}

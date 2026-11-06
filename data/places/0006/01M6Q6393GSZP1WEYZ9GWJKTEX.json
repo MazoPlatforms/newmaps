@@ -1,0 +1,59 @@
+{
+  "name": "Salmiya Italian Restaurant",
+  "coordinates": {
+    "latitude": 6.958197299999999,
+    "longitude": 80.77290289999999
+  },
+  "categories": [
+    "Italian restaurant",
+    "Restaurant"
+  ],
+  "address": "122 PBC Hwy, Nuwara Eliya 22200",
+  "phone": "0779135263",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:15 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6393GSZP1WEYZ9GWJKTEX"
+}

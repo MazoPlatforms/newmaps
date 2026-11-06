@@ -1,0 +1,61 @@
+{
+  "name": "Cafe Olu",
+  "coordinates": {
+    "latitude": 7.4774758,
+    "longitude": 80.37597769999999
+  },
+  "categories": [
+    "Restaurant",
+    "Juice shop",
+    "Pizza restaurant"
+  ],
+  "address": "255 Kandy Road, Kurunegala",
+  "phone": "0372228181",
+  "website": "https://www.facebook.com/share/1F1nVJpo7z/?mibextid=wwXIfr",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q62XCR1SXJTH6RY60QR8R9"
+}

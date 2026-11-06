@@ -1,0 +1,59 @@
+{
+  "name": "Lemon Cafe And Restaurant",
+  "coordinates": {
+    "latitude": 5.9468108,
+    "longitude": 80.53135929999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "368 Anagarika Dharmapala Mawatha, Matara",
+  "phone": "0714399399",
+  "website": "https://www.facebook.com/Lemon-Cafe-Restaurant-102681967785035/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6330KCBF1TYT05M6T45FB"
+}

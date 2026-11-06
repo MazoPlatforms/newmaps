@@ -1,0 +1,58 @@
+{
+  "name": "Asiri Cake",
+  "coordinates": {
+    "latitude": 7.2916134999999995,
+    "longitude": 81.67541729999999
+  },
+  "categories": [
+    "Bakery"
+  ],
+  "address": "Area Engineers Office, Ceylon Electricity Board, D. S. Senanayke Road, Ampara",
+  "phone": "0703147505",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q596HT48JTMS5TD2BHG6CQ"
+}

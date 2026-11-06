@@ -1,0 +1,58 @@
+{
+  "name": "Annas Bake House",
+  "coordinates": {
+    "latitude": 8.5674311,
+    "longitude": 81.23429519999999
+  },
+  "categories": [
+    "Bakery"
+  ],
+  "address": "H68M+XPF, Trincomalee",
+  "phone": "0754105227",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RHTCAN5TKDX10JPS8RP0"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "K Town's Restaurant",
+  "coordinates": {
+    "latitude": 9.38327,
+    "longitude": 80.39850849999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "99MX+8C, Kilinochchi",
+  "phone": "0774620020",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63VQ0JHZ07X9A9Q5SJJDM"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Food Carnival Restaurant",
+  "coordinates": {
+    "latitude": 9.0045738,
+    "longitude": 79.8878221
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "2V3Q+R4G, Medawachchiya-Talaimannar Hwy, Mannar",
+  "phone": "0775756664",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63K7ER1FKQW7EXNHCVE03"
+}

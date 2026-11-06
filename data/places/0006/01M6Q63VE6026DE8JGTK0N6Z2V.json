@@ -1,0 +1,59 @@
+{
+  "name": "White Stone Restaurant",
+  "coordinates": {
+    "latitude": 9.405415999999999,
+    "longitude": 80.408514
+  },
+  "categories": [
+    "Restaurant",
+    "Bakery"
+  ],
+  "address": "530 A9, Kilinochchi",
+  "phone": "0770666262",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63VE6026DE8JGTK0N6Z2V"
+}

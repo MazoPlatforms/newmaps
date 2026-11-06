@@ -1,0 +1,60 @@
+{
+  "name": "Cargills Food City - Katugastota 2",
+  "coordinates": {
+    "latitude": 7.3212616,
+    "longitude": 80.6275089
+  },
+  "categories": [
+    "Pharmacy",
+    "Supermarket"
+  ],
+  "address": "452 Katugastota Road, Katugastota 20000",
+  "phone": "0812212544",
+  "website": "https://www.cargillsceylon.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S0N4DVGPSRC6DAGYR564"
+}

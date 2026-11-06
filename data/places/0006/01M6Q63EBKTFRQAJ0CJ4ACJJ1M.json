@@ -1,0 +1,58 @@
+{
+  "name": "Hot Wok Restaurant And Pub",
+  "coordinates": {
+    "latitude": 7.0876391,
+    "longitude": 80.0350581
+  },
+  "categories": [
+    "Eclectic restaurant"
+  ],
+  "address": "57 A1, Yakkala",
+  "phone": "0332227171",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63EBKTFRQAJ0CJ4ACJJ1M"
+}

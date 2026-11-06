@@ -1,0 +1,58 @@
+{
+  "name": "Bro Restaurant",
+  "coordinates": {
+    "latitude": 8.319027,
+    "longitude": 80.40563949999999
+  },
+  "categories": [
+    "Family restaurant"
+  ],
+  "address": "364 Agbo 16th, Anuradhapura",
+  "phone": "0773494750",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62Y3712SGCJSM38X8WCW6"
+}

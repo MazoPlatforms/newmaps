@@ -1,0 +1,58 @@
+{
+  "name": "Vasantham Pharmacy",
+  "coordinates": {
+    "latitude": 9.6659644,
+    "longitude": 80.0125965
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "456 Hospital Road, Jaffna 40000",
+  "phone": "0765887252",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S4B5SB88R8T1QXNQE7WR"
+}

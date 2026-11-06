@@ -1,0 +1,58 @@
+{
+  "name": "WOW Cafe Kegalle",
+  "coordinates": {
+    "latitude": 7.2528714,
+    "longitude": 80.3419256
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Main Street, Kegalle 71000",
+  "phone": "0777078925",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63TRFZPDM711NVNRMTHYC"
+}

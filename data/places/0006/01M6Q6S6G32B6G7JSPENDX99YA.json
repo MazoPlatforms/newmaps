@@ -1,0 +1,59 @@
+{
+  "name": "Saragama Pharmacy & Super Market",
+  "coordinates": {
+    "latitude": 7.5072743,
+    "longitude": 80.3429573
+  },
+  "categories": [
+    "Pharmacy",
+    "Supermarket"
+  ],
+  "address": "G84V+J77, Puttalam Road Udadigana, Kurunegala - Puttalam Road, Kurunegala",
+  "phone": "0372234401",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S6G32B6G7JSPENDX99YA"
+}

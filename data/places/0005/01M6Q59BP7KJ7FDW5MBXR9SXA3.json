@@ -1,0 +1,58 @@
+{
+  "name": "Funboom Cafe & Bar",
+  "coordinates": {
+    "latitude": 8.677985,
+    "longitude": 81.20327739999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 1 veloor, Nilaveli 31010",
+  "phone": "0763474864",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q59BP7KJ7FDW5MBXR9SXA3"
+}

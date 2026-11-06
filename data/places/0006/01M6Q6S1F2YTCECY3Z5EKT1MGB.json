@@ -1,0 +1,59 @@
+{
+  "name": "Senith Pharmacy",
+  "coordinates": {
+    "latitude": 6.0669273,
+    "longitude": 80.22708949999999
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "Maitipe 1st Ln, Galle 80000",
+  "phone": "0912233738",
+  "website": "https://www.facebook.com/Senith.pharmacyKarapitiya?mibextid=LQQJ4d",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11:01 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11:59 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S1F2YTCECY3Z5EKT1MGB"
+}

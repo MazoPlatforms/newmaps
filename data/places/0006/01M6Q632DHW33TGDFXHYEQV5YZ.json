@@ -1,0 +1,58 @@
+{
+  "name": "Kumudu Restaurant",
+  "coordinates": {
+    "latitude": 5.939185999999999,
+    "longitude": 80.52299
+  },
+  "categories": [
+    "Family restaurant"
+  ],
+  "address": "14 Madiha Road, Matara 81000",
+  "phone": "0707019780",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q632DHW33TGDFXHYEQV5YZ"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Pizza Hut - Yakkala",
+  "coordinates": {
+    "latitude": 7.0835987,
+    "longitude": 80.03065819999999
+  },
+  "categories": [
+    "Pizza restaurant",
+    "Fast food restaurant",
+    "Pizza delivery",
+    "Pizza takeaway"
+  ],
+  "address": "114 Kandy Road, Yakkala",
+  "phone": "0117729729",
+  "website": "https://www.pizzahut.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63EH1Q3YRMQBG1BD3CEAD"
+}

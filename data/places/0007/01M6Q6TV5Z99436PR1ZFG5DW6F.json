@@ -1,0 +1,59 @@
+{
+  "name": "NDB Bank PLC",
+  "coordinates": {
+    "latitude": 6.8302045,
+    "longitude": 80.992218
+  },
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "address": "No. 317, Main Street, Bandarawela",
+  "phone": "0577448000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TV5Z99436PR1ZFG5DW6F"
+}

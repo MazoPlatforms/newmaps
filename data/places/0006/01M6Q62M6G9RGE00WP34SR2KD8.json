@@ -1,0 +1,65 @@
+{
+  "name": "Culture Colombo",
+  "coordinates": {
+    "latitude": 6.8820863,
+    "longitude": 79.86119959999999
+  },
+  "categories": [
+    "Restaurant",
+    "Sri Lankan restaurant"
+  ],
+  "address": "25 Kensington Garden, Colombo 00400",
+  "phone": "0774422448",
+  "website": "https://culturecolombo.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62M6G9RGE00WP34SR2KD8"
+}

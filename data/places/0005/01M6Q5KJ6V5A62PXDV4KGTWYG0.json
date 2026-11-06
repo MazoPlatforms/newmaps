@@ -1,0 +1,57 @@
+{
+  "name": "The Beach House",
+  "coordinates": {
+    "latitude": 7.407711699999999,
+    "longitude": 81.8402387
+  },
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "address": "Beach Road, Kalmunai 32300",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 PM–1:30 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 PM–1 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q5KJ6V5A62PXDV4KGTWYG0"
+}

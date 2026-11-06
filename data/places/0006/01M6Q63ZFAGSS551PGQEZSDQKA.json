@@ -1,0 +1,58 @@
+{
+  "name": "Lemonjo Family Restaurant",
+  "coordinates": {
+    "latitude": 6.7070196,
+    "longitude": 79.9560549
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "347 Horana Road, Panadura 12524",
+  "phone": "0777104072",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63ZFAGSS551PGQEZSDQKA"
+}

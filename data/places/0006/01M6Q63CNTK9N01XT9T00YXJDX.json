@@ -1,0 +1,59 @@
+{
+  "name": "Celestia Restaurant",
+  "coordinates": {
+    "latitude": 7.2260452,
+    "longitude": 79.8399342
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Regal Réseau Hotel & Spa, 6 Carron Pl, Negombo 11500",
+  "phone": "0312281111",
+  "website": "https://www.regalreseau.com/dinning",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63CNTK9N01XT9T00YXJDX"
+}

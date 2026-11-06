@@ -1,0 +1,60 @@
+{
+  "name": "Sinath Travels And Tours",
+  "coordinates": {
+    "latitude": 7.226339899999999,
+    "longitude": 81.8505619
+  },
+  "categories": [
+    "Travel agency",
+    "Airline ticket agency"
+  ],
+  "address": "Main Street, Akkaraipattu",
+  "phone": "0117794128",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:30 AM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5KK4Z5V5DFYX2WYC58ZT6"
+}

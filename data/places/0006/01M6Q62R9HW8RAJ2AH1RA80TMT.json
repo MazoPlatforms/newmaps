@@ -1,0 +1,58 @@
+{
+  "name": "Indian Summer Restaurant Kandy",
+  "coordinates": {
+    "latitude": 7.2963425,
+    "longitude": 80.63658699999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 2 Kumara Veediya, Kandy 20000",
+  "phone": "0812235030",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62R9HW8RAJ2AH1RA80TMT"
+}

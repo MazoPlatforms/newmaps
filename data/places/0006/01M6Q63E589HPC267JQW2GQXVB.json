@@ -1,0 +1,67 @@
+{
+  "name": "Letona Cafe",
+  "coordinates": {
+    "latitude": 7.0868281,
+    "longitude": 80.0339777
+  },
+  "categories": [
+    "Pan-Asian restaurant",
+    "Cafe",
+    "Chinese restaurant",
+    "Indian restaurant",
+    "Meal delivery",
+    "Takeout restaurant",
+    "Pub",
+    "Sri Lankan restaurant",
+    "Western restaurant"
+  ],
+  "address": "252/4 Kandy Road, Yakkala",
+  "phone": "0722229800",
+  "website": "http://www.letona.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63E589HPC267JQW2GQXVB"
+}

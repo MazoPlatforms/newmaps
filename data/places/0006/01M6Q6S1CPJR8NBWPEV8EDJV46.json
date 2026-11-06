@@ -1,0 +1,58 @@
+{
+  "name": "New Loyed Pharmacy",
+  "coordinates": {
+    "latitude": 6.0369398,
+    "longitude": 80.216189
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "Wackwella Road, Galle 80000",
+  "phone": "0760958142",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "1:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S1CPJR8NBWPEV8EDJV46"
+}

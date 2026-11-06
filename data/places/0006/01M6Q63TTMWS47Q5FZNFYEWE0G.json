@@ -1,0 +1,61 @@
+{
+  "name": "Iceberg Cafe",
+  "coordinates": {
+    "latitude": 7.2530996,
+    "longitude": 80.3458993
+  },
+  "categories": [
+    "Restaurant",
+    "Coffee shop",
+    "Ice cream shop",
+    "Cafe"
+  ],
+  "address": "No. 130/4/5, Main street, Kegalle",
+  "phone": "0701747070",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63TTMWS47Q5FZNFYEWE0G"
+}

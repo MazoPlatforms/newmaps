@@ -1,0 +1,58 @@
+{
+  "name": "Dhanuli Pharmacy",
+  "coordinates": {
+    "latitude": 6.0404275,
+    "longitude": 80.23457669999999
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "No. 11 Galle - Udugama Road, Galle 80000",
+  "phone": "0912222136",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S41E5800P272044ZFTPM"
+}
