@@ -1,0 +1,59 @@
+{
+  "name": "Nuwara Eliya Estate Dispensary",
+  "coordinates": {
+    "latitude": 7.0026853,
+    "longitude": 80.7367782
+  },
+  "categories": [
+    "Hospital",
+    "Medical clinic"
+  ],
+  "address": "Nuwara Eliya, Nuwara-Eliya Sri Lanka 32350",
+  "phone": "0522236167",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q639WY37NPG3RM47HEJW5V"
+}
