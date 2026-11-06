@@ -1,0 +1,59 @@
+{
+  "name": "Cafe Divine Street",
+  "coordinates": {
+    "latitude": 7.2942114,
+    "longitude": 80.6364988
+  },
+  "categories": [
+    "Fast food restaurant"
+  ],
+  "address": "139 Colombo St, Kandy 20000",
+  "phone": "0776992799",
+  "website": "https://cafedivinestreet.appigo.co/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62PS0FP725AEN3AY4K3JJ"
+}
