@@ -1,0 +1,58 @@
+{
+  "name": "The Cafe One Shaya Cafe",
+  "coordinates": {
+    "latitude": 7.2920938,
+    "longitude": 81.6725429
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 02 Pandukabaya Mawatha, Ampara",
+  "phone": "0713073021",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q593QZHY9NSV815TA6KGE2"
+}
