@@ -1,0 +1,59 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 7.3040021,
+    "longitude": 80.7394509
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "No. 76 & 76/1, Kandy Road, Teldeniya 20900",
+  "phone": "0812071926",
+  "website": "https://www.combank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TX35VC8RTB2H6G42BQG7"
+}
