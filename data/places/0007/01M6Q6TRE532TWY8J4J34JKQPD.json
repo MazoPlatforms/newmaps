@@ -1,0 +1,60 @@
+{
+  "name": "HNB ATM & CDM (Cash Deposit Machine)",
+  "coordinates": {
+    "latitude": 6.829843299999999,
+    "longitude": 80.9920726
+  },
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "address": "Bus Stand, HNB, Bandarawela 90100",
+  "phone": "0112462462",
+  "website": "https://www.hnb.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q6TRE532TWY8J4J34JKQPD"
+}
