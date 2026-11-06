@@ -1,0 +1,66 @@
+{
+  "name": "La Bāshi Restaurant And Cafe",
+  "coordinates": {
+    "latitude": 8.6073571,
+    "longitude": 81.2181446
+  },
+  "categories": [
+    "Restaurant",
+    "Breakfast restaurant",
+    "Brunch restaurant",
+    "Cafe",
+    "Coffee shop",
+    "Lunch restaurant",
+    "Seafood restaurant",
+    "Sri Lankan restaurant",
+    "Vegan restaurant"
+  ],
+  "address": "132/112 A, Anandavinayagarvidi, alles Garden, Trincomalee",
+  "phone": "0716226034",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q598DEBT76Z9FS50ACT4DC"
+}
