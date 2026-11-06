@@ -1,0 +1,58 @@
+{
+  "name": "Cafe The Vibe",
+  "coordinates": {
+    "latitude": 7.299415799999999,
+    "longitude": 80.6369333
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "258/4/1 A9, Kandy 20000",
+  "phone": "0770425291",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62PWXP45X0Z0T3B2ZZ120"
+}
