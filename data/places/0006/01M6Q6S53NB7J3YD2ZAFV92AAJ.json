@@ -1,0 +1,58 @@
+{
+  "name": "Royal Medical Centre",
+  "coordinates": {
+    "latitude": 9.665977,
+    "longitude": 80.0128514
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "M287+94X, Hospital Road, Jaffna",
+  "phone": "0213202300",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:15 AM–8:45 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S53NB7J3YD2ZAFV92AAJ"
+}
