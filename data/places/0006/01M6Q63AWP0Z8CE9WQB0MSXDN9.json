@@ -1,0 +1,58 @@
+{
+  "name": "Salt Restaurant",
+  "coordinates": {
+    "latitude": 7.2375758999999995,
+    "longitude": 79.8429577
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "11/A, St. Jude Lane, Ettukala Road, Negombo 11500",
+  "phone": "0314939467",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63AWP0Z8CE9WQB0MSXDN9"
+}
