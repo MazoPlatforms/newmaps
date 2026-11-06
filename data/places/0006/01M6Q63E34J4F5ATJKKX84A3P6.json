@@ -1,0 +1,58 @@
+{
+  "name": "Kaze Restaurant & Pub",
+  "coordinates": {
+    "latitude": 7.0768651,
+    "longitude": 80.01353639999999
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "136, 4 Minuwangoda-Gampaha-Miriswatta Road, Gampaha",
+  "phone": "0332222221",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q63E34J4F5ATJKKX84A3P6"
+}
