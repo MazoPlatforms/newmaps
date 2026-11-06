@@ -1,0 +1,58 @@
+{
+  "name": "Amigo's Cafe",
+  "coordinates": {
+    "latitude": 8.580828499999999,
+    "longitude": 81.2279949
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "280 Main St, Trincomalee 31000",
+  "phone": "0778382367",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59B62KSWBWD273Y12V6TX"
+}
