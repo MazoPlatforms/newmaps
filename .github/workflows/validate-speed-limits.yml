@@ -34,6 +34,7 @@ on:
       - '.gitignore'
       - '.github/workflows/validate-speed-limits.yml'
       - '.github/workflows/deploy-cloudflare-workers.yml'
+      - '.github/workflows/sync-cloudflare-live-data.yml'
   push:
     branches: [main]
     paths:
@@ -68,6 +69,7 @@ on:
       - '.gitignore'
       - '.github/workflows/validate-speed-limits.yml'
       - '.github/workflows/deploy-cloudflare-workers.yml'
+      - '.github/workflows/sync-cloudflare-live-data.yml'
 permissions:
   contents: read
 jobs:
