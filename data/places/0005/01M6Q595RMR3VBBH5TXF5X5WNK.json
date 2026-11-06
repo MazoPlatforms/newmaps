@@ -1,0 +1,60 @@
+{
+  "name": "Liya's Kitchen",
+  "coordinates": {
+    "latitude": 6.8786678,
+    "longitude": 81.7244625
+  },
+  "categories": [
+    "Sri Lankan restaurant",
+    "Family restaurant"
+  ],
+  "address": "Pottuvil Road, Lahugala 32512",
+  "phone": "0715587178",
+  "website": "https://liyaskitchen.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q595RMR3VBBH5TXF5X5WNK"
+}
