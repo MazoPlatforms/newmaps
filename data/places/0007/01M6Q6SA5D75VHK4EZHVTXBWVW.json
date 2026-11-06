@@ -1,0 +1,61 @@
+{
+  "name": "St.Sylvester's College",
+  "coordinates": {
+    "latitude": 7.297447699999999,
+    "longitude": 80.6358954
+  },
+  "categories": [
+    "Combined primary and secondary school",
+    "College",
+    "Government school",
+    "Public educational institution"
+  ],
+  "address": "Yatinuwara St, Kandy",
+  "phone": "0812223917",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–1:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–1:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–1:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–1:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–1:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6SA5D75VHK4EZHVTXBWVW"
+}
