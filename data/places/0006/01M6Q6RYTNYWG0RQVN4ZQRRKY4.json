@@ -1,0 +1,58 @@
+{
+  "name": "Harcourt's Pharmacy (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.2950995999999995,
+    "longitude": 80.6371673
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "No. 47 Raja Veediya, Kandy 20000",
+  "phone": "0812225355",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RYTNYWG0RQVN4ZQRRKY4"
+}
