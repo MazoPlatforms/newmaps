@@ -1,0 +1,59 @@
+{
+  "name": "WorldSpice - KCC",
+  "coordinates": {
+    "latitude": 7.2923729999999995,
+    "longitude": 80.63705259999999
+  },
+  "categories": [
+    "Food court"
+  ],
+  "address": "No. 5 Sri Dalada Veediya, Kandy 20000",
+  "phone": "0716555555",
+  "website": "https://dining.kandycitycentre.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62QB9KCQH7G2KS9F92EFB"
+}
