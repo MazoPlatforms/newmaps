@@ -1,0 +1,58 @@
+{
+  "name": "New Nawala Chemist",
+  "coordinates": {
+    "latitude": 6.901540799999999,
+    "longitude": 79.89390209999999
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "565 Nawala Road, Sri Jayawardenepura Kotte 11222",
+  "phone": "0112865259",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RNVN07RAH3HS42SJGYZ1"
+}
