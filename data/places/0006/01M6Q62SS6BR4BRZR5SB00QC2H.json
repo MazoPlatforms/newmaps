@@ -1,0 +1,59 @@
+{
+  "name": "Elita Restaurant",
+  "coordinates": {
+    "latitude": 6.0282754999999995,
+    "longitude": 80.2157027
+  },
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "address": "34 Middle St, Galle 80000",
+  "phone": "0772423442",
+  "website": "https://m.facebook.com/elita.restaurant/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62SS6BR4BRZR5SB00QC2H"
+}
