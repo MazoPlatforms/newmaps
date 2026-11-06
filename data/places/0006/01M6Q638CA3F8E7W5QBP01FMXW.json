@@ -1,0 +1,67 @@
+{
+  "name": "Grand Indian",
+  "coordinates": {
+    "latitude": 6.9677203,
+    "longitude": 80.7656634
+  },
+  "categories": [
+    "Indian restaurant",
+    "Restaurant"
+  ],
+  "address": "Grand Hotel Road, Nuwara 22200",
+  "phone": "0522222881",
+  "website": "https://thegrandhotelnuwaraeliya.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–3:30 PM",
+        "6:30–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q638CA3F8E7W5QBP01FMXW"
+}
