@@ -1,0 +1,58 @@
+{
+  "name": "Silva Seafood Restaurant",
+  "coordinates": {
+    "latitude": 6.703441,
+    "longitude": 79.9065397
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "30 Samudra Mawatha, Panadura",
+  "phone": "0773054905",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q63ZAVYT15PS8AFP3DKWY7"
+}
