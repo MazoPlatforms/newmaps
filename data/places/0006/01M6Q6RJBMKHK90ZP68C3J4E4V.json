@@ -1,0 +1,58 @@
+{
+  "name": "Cafe And Restaurant",
+  "coordinates": {
+    "latitude": 8.6070572,
+    "longitude": 81.21650749999999
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "361 nalavali road, Trincomalee 31000",
+  "phone": "0777313362",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q6RJBMKHK90ZP68C3J4E4V"
+}
