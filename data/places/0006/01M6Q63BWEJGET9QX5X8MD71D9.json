@@ -1,0 +1,58 @@
+{
+  "name": "Coconut Beach Restaurant",
+  "coordinates": {
+    "latitude": 7.2281527,
+    "longitude": 79.8397366
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "205a Lewis Pl, Negombo",
+  "phone": "0773080930",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63BWEJGET9QX5X8MD71D9"
+}
