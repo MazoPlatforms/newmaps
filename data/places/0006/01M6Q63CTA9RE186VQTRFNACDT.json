@@ -1,0 +1,58 @@
+{
+  "name": "Black Coral Restaurant",
+  "coordinates": {
+    "latitude": 7.243974799999999,
+    "longitude": 79.8420089
+  },
+  "categories": [
+    "Indian restaurant"
+  ],
+  "address": "Jetwing Beach, Negombo 22100",
+  "phone": "0707443087",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 PM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q63CTA9RE186VQTRFNACDT"
+}
