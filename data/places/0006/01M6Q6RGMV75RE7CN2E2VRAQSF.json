@@ -1,0 +1,58 @@
+{
+  "name": "Taste Of Trinco",
+  "coordinates": {
+    "latitude": 8.5642844,
+    "longitude": 81.2363613
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "Near Cambridge & Greenwich International Schools, 101 Dockyard Road, Trincomalee 31000",
+  "phone": "0762223027",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6RGMV75RE7CN2E2VRAQSF"
+}
