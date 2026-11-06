@@ -1,0 +1,58 @@
+{
+  "name": "Jegan Pharmacy",
+  "coordinates": {
+    "latitude": 9.6659545,
+    "longitude": 80.0126406
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "462/B Hospital Road, Jaffna 40000",
+  "phone": "0212223191",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S5PJXA3G6Y4MKFPSV6H0"
+}
