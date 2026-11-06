@@ -1,0 +1,59 @@
+{
+  "name": "Lions' Bay Polhena Beach Restaurant",
+  "coordinates": {
+    "latitude": 5.9370633,
+    "longitude": 80.5278895
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Polhena Road, Matara 81000",
+  "phone": "0710581004",
+  "website": "http://www.lionsbaypolhena.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6334V78YMKPV8DSQB6D47"
+}
