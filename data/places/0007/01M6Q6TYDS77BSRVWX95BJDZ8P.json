@@ -1,0 +1,58 @@
+{
+  "name": "People's Bank-Kotahena",
+  "coordinates": {
+    "latitude": 6.9477632,
+    "longitude": 79.861935
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "185 George R De Silva Mawatha, Colombo 01300",
+  "phone": "0114613568",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TYDS77BSRVWX95BJDZ8P"
+}
