@@ -1,0 +1,58 @@
+{
+  "name": "Pillawoos Hotel",
+  "coordinates": {
+    "latitude": 6.934262299999999,
+    "longitude": 79.8444736
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "100 Chatham St, Colombo",
+  "phone": "0112399980",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62MASPRA1WN22KNK6GYM6"
+}
