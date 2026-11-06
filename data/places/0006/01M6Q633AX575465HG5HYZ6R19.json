@@ -1,0 +1,60 @@
+{
+  "name": "Cafe Casa Tharin",
+  "coordinates": {
+    "latitude": 5.9375786,
+    "longitude": 80.51246549999999
+  },
+  "categories": [
+    "Restaurant",
+    "Cafe"
+  ],
+  "address": "Sri Sudharmarama Road, Matara",
+  "phone": "0764878528",
+  "website": "http://casatharin.com/cafe/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q633AX575465HG5HYZ6R19"
+}
