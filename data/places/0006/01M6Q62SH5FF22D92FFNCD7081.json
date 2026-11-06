@@ -1,0 +1,59 @@
+{
+  "name": "Coffee Brunch Galle Fort",
+  "coordinates": {
+    "latitude": 6.02591,
+    "longitude": 80.21661499999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "63 Pedlar St, Galle 80000",
+  "phone": "0776747052",
+  "website": "http://www.coffeebrunch.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62SH5FF22D92FFNCD7081"
+}
