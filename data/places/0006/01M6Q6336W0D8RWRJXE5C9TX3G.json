@@ -1,0 +1,58 @@
+{
+  "name": "Breeze Sea Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 5.9429095,
+    "longitude": 80.5536484
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "31 Beach Road, Matara 81000",
+  "phone": "0412244000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6336W0D8RWRJXE5C9TX3G"
+}
