@@ -1,0 +1,59 @@
+{
+  "name": "Mag City Colombo",
+  "coordinates": {
+    "latitude": 6.923704,
+    "longitude": 79.86182529999999
+  },
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "address": "320A T. B. Jayah Mawatha, Colombo 01000",
+  "phone": "0114734020",
+  "website": "http://www.magcity.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6RV67H28AAG9G050SC8TY"
+}
