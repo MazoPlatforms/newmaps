@@ -1,0 +1,58 @@
+{
+  "name": "Mummy’s Biryani Restaurant",
+  "coordinates": {
+    "latitude": 8.7557593,
+    "longitude": 80.4912495
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 81 Station Road, Vavuniya 43000",
+  "phone": "0778899645",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–8 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63FR3FG4SF2CN0Z8HYH8R"
+}
