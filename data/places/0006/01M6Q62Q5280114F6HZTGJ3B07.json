@@ -1,0 +1,65 @@
+{
+  "name": "Cafe 1886",
+  "coordinates": {
+    "latitude": 7.294842399999999,
+    "longitude": 80.6369936
+  },
+  "categories": [
+    "Sri Lankan restaurant",
+    "Cafe",
+    "Crab house",
+    "Fine dining restaurant",
+    "Restaurant",
+    "Sandwich shop",
+    "Seafood restaurant"
+  ],
+  "address": "First Floor, 68 E L Senanayake Veediya, Kandy 20000",
+  "phone": "0702585756",
+  "website": "http://fb.me/cafe1886",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62Q5280114F6HZTGJ3B07"
+}
