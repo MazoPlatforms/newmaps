@@ -1,6 +1,9 @@
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
+import { gunzipSync } from 'node:zlib';
+import { VectorTile } from '@mapbox/vector-tile';
+import Pbf from 'pbf';
 
 const base = new URL(process.env.MAZO_WORKERS_URL || 'https://maps.mazo.workers.dev/');
 const api = new URL('api/v1/', base);
@@ -85,25 +88,61 @@ const { body: geocode } = await get(`geocode?q=${encodeURIComponent(query)}&limi
 assert.equal(geocode.type, 'FeatureCollection');
 assert.ok(geocode.features.some((feature) => feature.properties.name === query));
 
+const styleResponse = await fetch(new URL('style.json', api));
+assert.equal(styleResponse.status, 200);
+const style = await styleResponse.json();
+assert.equal(style.sources.mazo.type, 'vector');
+const tilejsonResponse = await fetch(new URL('tiles.json', api));
+assert.equal(tilejsonResponse.status, 200);
+const tilejson = await tilejsonResponse.json();
+assert.equal(tilejson.scheme, 'xyz');
+assert.equal(tilejson.vector_layers[0].id, 'places');
+const nativeTile = await fetch(new URL('tiles/10/744/489.pbf', api));
+assert.equal(nativeTile.status, 200);
+assert.match(nativeTile.headers.get('content-type') || '', /application\/vnd\.mapbox-vector-tile/);
+const encodedTile = new Uint8Array(await nativeTile.arrayBuffer());
+const decodedTile = new VectorTile(new Pbf(nativeTile.headers.get('content-encoding') === 'gzip' ? gunzipSync(encodedTile) : encodedTile));
+assert.ok(decodedTile.layers.places?.length, 'synchronized PMTiles must serve decodable XYZ places');
+const glyphUrl = new URL(style.glyphs.replace('{fontstack}', 'Mazo%20Maps%20Sans%20Regular').replace('{range}', '0-255'));
+assert.equal((await fetch(glyphUrl)).status, 200, 'glyph resources should be published to R2 with the live data manifest');
+assert.equal((await fetch(new URL('sprite.json', api))).status, 200);
+assert.equal((await fetch(new URL('sprite.png', api))).status, 200);
+
 const graph = JSON.parse(await readFile('dist/generated/kattankudy-routing.json', 'utf8'));
-const segment = graph.segments.find((row) => (row[3] | row[4]) & 1);
-assert.ok(segment, 'production routing graph should include a driving segment');
+const segment = graph.segments.find((row) => (row[3] | row[4]) === 7);
+assert.ok(segment, 'production routing graph should include a segment supporting driving, walking and cycling');
 const from = graph.nodes[segment[0]];
 const to = graph.nodes[segment[1]];
-const routeResponse = await fetch(new URL('route', api), {
-  method: 'POST', headers: { Accept: 'application/json', 'Content-Type': 'application/json', Origin: 'https://ridenow.example' },
-  body: JSON.stringify({ start_lon: from[0], start_lat: from[1], end_lon: to[0], end_lat: to[1], profile: 'driving' }),
+const routes = {};
+for (const profile of ['driving', 'walking', 'cycling']) {
+  const routeResponse = await fetch(new URL('route', api), {
+    method: 'POST', headers: { Accept: 'application/json', 'Content-Type': 'application/json', Origin: 'https://ridenow.example' },
+    body: JSON.stringify({ start_lon: from[0], start_lat: from[1], end_lon: to[0], end_lat: to[1], profile }),
+  });
+  assert.ok(routeResponse.ok, `${profile} route must return a successful response (HTTP ${routeResponse.status})`);
+  assert.equal(routeResponse.headers.get('access-control-allow-origin'), '*');
+  assert.equal(routeResponse.headers.get('x-mazo-api-version'), 'v1');
+  const route = await routeResponse.json();
+  assert.equal(route.profile, profile);
+  assert.ok(route.routes.length > 0, `${profile} response should include a route`);
+  assert.equal(route.routes[0].geometry.type, 'LineString');
+  assert.ok(route.routes[0].geometry.coordinates.length >= 2);
+  assert.ok(route.routes[0].distance > 0 && route.routes[0].duration > 0);
+  assert.ok(route.routes[0].startSnapMeters <= 80 && route.routes[0].endSnapMeters <= 80);
+  routes[profile] = { alternatives: route.routes.length, distance: route.routes[0].distance,
+    duration: route.routes[0].duration, coordinateCount: route.routes[0].geometry.coordinates.length };
+}
+const outsideCoverage = await fetch(new URL('route', api), {
+  method: 'POST', headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
+  body: JSON.stringify({ start_lon: 79.9, start_lat: 7.7, end_lon: 79.91, end_lat: 7.7, profile: 'driving' }),
 });
-assert.ok(routeResponse.ok, `route must return a successful response (HTTP ${routeResponse.status})`);
-assert.equal(routeResponse.headers.get('access-control-allow-origin'), '*');
-assert.equal(routeResponse.headers.get('x-mazo-api-version'), 'v1');
-const route = await routeResponse.json();
-assert.equal(route.profile, 'driving');
-assert.ok(route.routes.length > 0);
+assert.equal(outsideCoverage.status, 422, 'routing outside the local road graph should fail with a coverage/snap error');
+assert.equal((await outsideCoverage.json()).error, 'snap_too_far');
 
 console.log(JSON.stringify({ status: 'PASS', revision: liveVersion.revision,
   polling: { version: 200, conditional: unchangedVersion.status, etag: versionEtag },
   endpoints: { manifest: 200, search: 200, geocode: 200, route: 200 }, pmtiles: { byteRange: 206,
     contentRange: range.headers.get('content-range'), suffixRange: 206, fullSha256: archive.sha256, privateChunk: 404 },
+  nativeMapLibre: { style: 200, tilejson: 200, tile: 200, decodedPlaceFeatures: decodedTile.layers.places.length, glyphs: 200, sprites: 200 },
   cors: 'public-read-only',
-  searchQuery: query, routeCoverage: route.coverage }, null, 2));
+  searchQuery: query, routes, routeCoverage: 'Kattankudy-area local road graph; outside coordinates return 422' }, null, 2));

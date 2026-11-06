@@ -30,7 +30,7 @@ The Worker does not call GitHub on client requests. GitHub API rate limits there
 
 Base URL: `https://maps.mazo.workers.dev/api/v1`. These are public, read-only endpoints; no API key is required and no user credentials or personal data are accepted. TLS is required. CORS allows `*` because responses contain public map records only; CORS is a browser policy, not authentication. The sync/admin API is separate and requires a short-lived HMAC-SHA256 signature and one-use nonce. Never embed that HMAC key in RideNow or another client.
 
-The Cloudflare `API_RATE_LIMITER` binding allows 60 requests per client IP per minute. A `429` includes `Retry-After: 60`; clients should use bounded exponential backoff. Responses include `X-Mazo-API-Version: v1` and `X-Mazo-Data-Revision`, use JSON/GeoJSON and `Cache-Control: no-store`, and allow GET/POST/OPTIONS (POST is used only for routing so coordinates do not appear in URL logs). API search uses a precomputed compact case/diacritic-insensitive substring index; the browser app retains its richer fuzzy and Tamil/Sinhala romanization matching.
+The Cloudflare `API_RATE_LIMITER` binding allows 60 search/geocode/route/manifest requests per client IP per minute. A separate `VECTOR_TILE_RATE_LIMITER` allows 1,200 PBF tile requests per IP per minute. A `429` includes `Retry-After: 60`; clients should use bounded exponential backoff. JSON/GeoJSON responses include `X-Mazo-API-Version: v1` and `X-Mazo-Data-Revision`. API search uses a precomputed compact case/diacritic-insensitive substring index; the browser app retains its richer fuzzy and Tamil/Sinhala romanization matching.
 
 | Endpoint | Contract |
 | --- | --- |
@@ -39,11 +39,17 @@ The Cloudflare `API_RATE_LIMITER` binding allows 60 requests per client IP per m
 | `GET /geocode?q=<text>&limit=10` | GeoJSON `FeatureCollection` of matching geocoded places; geometry is `[longitude, latitude]`. |
 | `POST /route` with JSON `{ start_lon, start_lat, end_lon, end_lat, profile }` | Local route alternatives with geometry, distance, ETA and snap distances. Coordinates are kept out of URL query strings. `profile` is `driving`, `walking`, or `cycling`. Local routing coverage is the Kattankudy-area graph only; outside coverage returns `422` with `snap_too_far`. |
 
+### Native MapLibre Android API
+
+`GET /style.json` and `/style/dark.json` provide MapLibre Native-compatible version-8 style JSON. `/tiles.json` is TileJSON 3.0 with XYZ scheme, `places` vector-layer metadata, zoom range and bounds. `/tiles/{z}/{x}/{y}.pbf` returns the gzip-compressed MVT payload selected from the versioned R2 PMTiles archive using only header/directory/tile range reads. The endpoint sends PBF MIME type, `Content-Encoding: gzip`, ETag, immutable caching for revision-pinned URLs, and public CORS. A valid tile with no features returns `204`; invalid coordinates return `400`; an old explicit revision returns `409`. Glyph range assets are built from the bundled OFL font, published alongside generated data, and served under `/fonts/{fontstack}/{range}.pbf`; sprite JSON/PNG assets are served from `/sprite` resources. Place icons remain collision-aware native symbol layers; no HTML markers are required for POIs.
+
+**Current basemap limitation:** inspection of the actual archive metadata confirms `places.pmtiles` has only the `places` layer. The repository has no basemap MVT archive or legally-cleared pipeline for roads, water, buildings, or land use. The native API's style therefore uses a neutral background and renders the real place vectors. Old style JSONs referenced GitHub Pages PMTiles that currently return 404; Android clients must use the live API style URLs. Full basemap readiness requires licensing and ingesting a pinned authoritative open dataset first. Do not describe the current place archive as a complete or nationwide basemap.
+
 Unknown paths return `404`; invalid parameters return `400`; unavailable synchronized data returns `503`. Clients should read `/manifest` first, track `revision`, and refresh cached search/route data when that value changes. The web app also retains client-side search and routing data for responsive interaction and offline behavior.
 
-### Kotlin / Jetpack Compose integration outline
+### Kotlin / Jetpack Compose integration
 
-Use OkHttp/Ktor on an IO dispatcher, parse coordinates as longitude then latitude, and keep the API base URL in build configuration. Do not ship an API key. Render the vector map with MapLibre Native for Android and use the manifest's PMTiles URL plus `Range` support through a PMTiles-aware tile source/protocol adapter; the web-only `pmtiles://` MapLibre plugin cannot be reused directly in Android. Keep API requests cancellable from Compose, debounce search input (250–350 ms), respect `429 Retry-After`, and show the documented local-route coverage before falling back to an external routing provider. Never upload precise GPS coordinates unless the user selects a remote-routing feature and consents.
+Use OkHttp/Ktor on an IO dispatcher and parse coordinates as longitude then latitude. No API key is required. MapLibre Native loads `/api/v1/style.json` directly and fetches ordinary XYZ PBF tiles; it does not need the browser PMTiles protocol. Keep API requests cancellable, debounce search (250–350 ms), respect `429 Retry-After`, and display local routing coverage/errors. See [RideNow Android MapLibre integration](RIDENOW_ANDROID_MAPLIBRE.md) and the standalone [Compose example](../android-example/).
 
 ```kotlin
 import kotlinx.coroutines.Dispatchers

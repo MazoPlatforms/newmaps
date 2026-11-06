@@ -81,6 +81,30 @@ test('RideNow v1 routing returns local routes and preflight exposes only documen
   assert.match(preflight.headers.get('access-control-allow-methods'), /POST/);
 });
 
+test('RideNow route API returns real geometry for all supported profiles and rejects out-of-coverage routes', async () => {
+  const fixture = rideApiEnv();
+  for (const profile of ['driving', 'walking', 'cycling']) {
+    const response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/route', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ start_lon: 79.91, start_lat: 7.72, end_lon: 79.911, end_lat: 7.72, profile }),
+    }), fixture.env);
+    const result = await response.json();
+    assert.equal(response.status, 200);
+    assert.equal(result.profile, profile);
+    assert.equal(result.routes[0].geometry.type, 'LineString');
+    assert.ok(result.routes[0].geometry.coordinates.length >= 2);
+    assert.ok(result.routes[0].distance > 0);
+    assert.ok(result.routes[0].duration > 0);
+    assert.equal(result.routes.length, 1);
+  }
+  const outside = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/route', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ start_lon: 80, start_lat: 8, end_lon: 80.001, end_lat: 8, profile: 'driving' }),
+  }), fixture.env);
+  assert.equal(outside.status, 422);
+  assert.equal((await outside.json()).error, 'snap_too_far');
+});
+
 test('RideNow v1 limits malformed or excessive traffic and marks throttle responses', async () => {
   const fixture = rideApiEnv({ allowed: false });
   const response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/geocode?q=x'), fixture.env);

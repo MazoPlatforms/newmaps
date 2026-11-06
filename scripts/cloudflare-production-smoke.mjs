@@ -1,5 +1,8 @@
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
+import { gunzipSync } from 'node:zlib';
+import { VectorTile } from '@mapbox/vector-tile';
+import Pbf from 'pbf';
 
 const configuredUrl = process.env.MAZO_WORKERS_URL || 'http://127.0.0.1:8787/';
 const base = new URL(configuredUrl);
@@ -66,6 +69,37 @@ assert.ok(apiContract.map_manifest?.delivery?.mvt_pmtiles,
 assert.ok(apiContract.resources?.pmtiles?.url,
   'versioned API manifest should expose the immutable PMTiles resource URL');
 
+const mapStyle = await get('api/v1/style.json');
+assert.equal(mapStyle.status, 200, 'Native MapLibre style should be available as JSON');
+const style = await mapStyle.json();
+assert.equal(style.version, 8);
+assert.equal(style.sources.mazo.type, 'vector');
+assert.match(style.glyphs, /\/api\/v1\/fonts\/\{fontstack\}\/\{range\}\.pbf\?revision=/);
+const darkStyle = await get('api/v1/style/dark.json');
+assert.equal(darkStyle.status, 200);
+const nativeTileJSON = await get('api/v1/tiles.json');
+assert.equal(nativeTileJSON.status, 200);
+const tileJSON = await nativeTileJSON.json();
+assert.equal(tileJSON.tilejson, '3.0.0');
+assert.equal(tileJSON.scheme, 'xyz');
+assert.equal(tileJSON.vector_layers[0].id, 'places');
+const nativeTile = await get('api/v1/tiles/10/744/489.pbf');
+assert.equal(nativeTile.status, 200, 'known Kattankudy XYZ tile should be served');
+assert.match(nativeTile.headers.get('content-type') || '', /application\/vnd\.mapbox-vector-tile/);
+assert.equal(nativeTile.headers.get('content-encoding'), 'gzip');
+const nativeTileBytes = new Uint8Array(await nativeTile.arrayBuffer());
+const decodedTileBytes = nativeTile.headers.get('content-encoding') === 'gzip' ? gunzipSync(nativeTileBytes) : nativeTileBytes;
+const decodedTile = new VectorTile(new Pbf(decodedTileBytes));
+assert.ok(decodedTile.layers.places?.length, 'known vector tile should decode to place features');
+const font = await fetch(new URL(new URL(style.glyphs.replace('{fontstack}', 'Mazo%20Maps%20Sans%20Regular')
+  .replace('{range}', '0-255'), base)));
+assert.equal(font.status, 200, 'style glyph template should return a MapLibre glyph PBF');
+assert.match(font.headers.get('content-type') || '', /application\/x-protobuf/);
+const spriteJson = await get('api/v1/sprite.json');
+assert.equal(spriteJson.status, 200, 'style sprite descriptor should resolve');
+const spritePng = await get('api/v1/sprite.png');
+assert.equal(spritePng.status, 200, 'style sprite atlas should resolve');
+
 const manifestResponse = await get('generated/manifest.json', { headers: { 'Cache-Control': 'no-cache' } });
 assert.equal(manifestResponse.status, 200, 'place manifest should return HTTP 200');
 const manifest = await manifestResponse.json();
@@ -105,6 +139,12 @@ console.log(JSON.stringify({
   homepage: home.status,
   spa: spa.status,
   manifest: manifestResponse.status,
+  nativeStyle: mapStyle.status,
+  nativeTileJSON: nativeTileJSON.status,
+  nativePbf: nativeTile.status,
+  decodedPlaceFeatures: decodedTile.layers.places.length,
+  glyphs: font.status,
+  sprite: [spriteJson.status, spritePng.status],
   pmtilesRange: range.status,
   contentRange: range.headers.get('content-range'),
   suffixRange: suffix.status,

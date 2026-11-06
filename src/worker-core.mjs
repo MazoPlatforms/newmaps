@@ -2,6 +2,7 @@ import { verifySignedRequest } from './live-data-auth.mjs';
 import { liveDataObjectKey } from './live-data-registry.mjs';
 import { handleRideApi } from './ride-api.mjs';
 import { ifNoneMatchMatches } from './http-validators.mjs';
+import { handleVectorApi } from './vector-tiles.mjs';
 
 const PMTILES_PATH = '/generated/places.pmtiles';
 const PMTILES_RANGE_MANIFEST_PATH = '/generated/places-pmtiles-range.json';
@@ -371,6 +372,13 @@ export async function servePmtilesRange(request, assets, chunkSize = 65_536) {
 export default {
   async fetch(request, env) {
     const pathname = new URL(request.url).pathname;
+    const vectorApiResponse = await handleVectorApi(request, env, async (tileRequest) => {
+      if (!env.VECTOR_TILE_RATE_LIMITER) return true;
+      const ip = tileRequest.headers.get('cf-connecting-ip') || 'unknown-client';
+      const limit = await env.VECTOR_TILE_RATE_LIMITER.limit({ key: ip });
+      return limit.success;
+    });
+    if (vectorApiResponse) return vectorApiResponse;
     const rideApiResponse = await handleRideApi(request, env);
     if (rideApiResponse) return rideApiResponse;
     if (pathname.startsWith(LIVE_API_PREFIX)) return serveLiveApi(request, env);

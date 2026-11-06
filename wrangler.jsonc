@@ -12,6 +12,11 @@
       "name": "API_RATE_LIMITER",
       "namespace_id": "1010",
       "simple": { "limit": 60, "period": 60 }
+    },
+    {
+      "name": "VECTOR_TILE_RATE_LIMITER",
+      "namespace_id": "1011",
+      "simple": { "limit": 1200, "period": 60 }
     }
   ],
   "r2_buckets": [
