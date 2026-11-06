@@ -1,0 +1,58 @@
+{
+  "name": "Thai Dragon Restaurant",
+  "coordinates": {
+    "latitude": 6.9626736,
+    "longitude": 80.7658581
+  },
+  "categories": [
+    "Thai restaurant"
+  ],
+  "address": "04 Haddon Hill Road, Nuwara Eliya 22200",
+  "phone": "0760500256",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q638PPZBDK8K4M66VGQ5E4"
+}
