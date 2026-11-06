@@ -1,0 +1,62 @@
+{
+  "name": "Premasiri Supermarket & Wine Stores",
+  "coordinates": {
+    "latitude": 6.9106463,
+    "longitude": 79.8520415
+  },
+  "categories": [
+    "Supermarket",
+    "Alcoholic beverage wholesaler",
+    "Grocery delivery service",
+    "Household goods wholesaler",
+    "Wine store"
+  ],
+  "address": "253A R. A. De Mel Mawatha, Colombo 00300",
+  "phone": "0777543735",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RMAXDHF5BY9A4GCV9N3T"
+}
