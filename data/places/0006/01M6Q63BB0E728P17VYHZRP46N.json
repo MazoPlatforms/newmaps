@@ -1,0 +1,58 @@
+{
+  "name": "SeaJoy Restaurant",
+  "coordinates": {
+    "latitude": 7.2273863,
+    "longitude": 79.8408946
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "124 Lewis Pl, Negombo 11150",
+  "phone": "0312221659",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63BB0E728P17VYHZRP46N"
+}
