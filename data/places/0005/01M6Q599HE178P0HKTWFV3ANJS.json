@@ -1,0 +1,61 @@
+{
+  "name": "Chef's Restaurant & Chef's Mozzarella",
+  "coordinates": {
+    "latitude": 8.6142523,
+    "longitude": 81.2174234
+  },
+  "categories": [
+    "Restaurant",
+    "Cooking class",
+    "Restaurant supply store"
+  ],
+  "address": "19 Beach road, Trincomalee",
+  "phone": "0777257062",
+  "website": "https://chefsrestaurant.lovable.app/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q599HE178P0HKTWFV3ANJS"
+}
