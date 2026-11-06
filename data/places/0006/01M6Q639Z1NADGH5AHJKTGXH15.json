@@ -1,0 +1,58 @@
+{
+  "name": "Restaurant Two",
+  "coordinates": {
+    "latitude": 6.9626499,
+    "longitude": 80.77225949999999
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "Race Course Road, Hatton 22000",
+  "phone": "0710846000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q639Z1NADGH5AHJKTGXH15"
+}
