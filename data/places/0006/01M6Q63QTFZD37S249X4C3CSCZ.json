@@ -1,0 +1,58 @@
+{
+  "name": "Queen's Inn & Restaurant",
+  "coordinates": {
+    "latitude": 6.9252872,
+    "longitude": 81.3535023
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "W9G3+4C6, Monaragala",
+  "phone": "0775404219",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63QTFZD37S249X4C3CSCZ"
+}
