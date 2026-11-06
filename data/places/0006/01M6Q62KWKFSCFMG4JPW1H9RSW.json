@@ -1,0 +1,72 @@
+{
+  "name": "Quizine",
+  "coordinates": {
+    "latitude": 6.9251235,
+    "longitude": 79.8484904
+  },
+  "categories": [
+    "Buffet restaurant"
+  ],
+  "address": "2 Glennie St, Colombo 00200",
+  "phone": "0112110000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–10:30 AM",
+        "12–3 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–10:30 AM",
+        "12–3 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–10:30 AM",
+        "12–3 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–10:30 AM",
+        "12–3 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–10:30 AM",
+        "12–3 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–10:30 AM",
+        "12–3 PM",
+        "6:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–10:30 AM",
+        "12–3 PM",
+        "6:30–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62KWKFSCFMG4JPW1H9RSW"
+}
