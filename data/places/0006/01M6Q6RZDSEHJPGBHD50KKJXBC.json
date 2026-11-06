@@ -1,0 +1,58 @@
+{
+  "name": "Kandy Raj Pharmacy",
+  "coordinates": {
+    "latitude": 7.2738599,
+    "longitude": 80.6103298
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "921 Peradeniya Road, Kandy 20000",
+  "phone": "0740074361",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RZDSEHJPGBHD50KKJXBC"
+}
