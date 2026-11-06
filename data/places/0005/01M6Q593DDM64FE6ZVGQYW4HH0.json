@@ -1,0 +1,58 @@
+{
+  "name": "Samurai Family Restaurant",
+  "coordinates": {
+    "latitude": 7.291268199999999,
+    "longitude": 81.6731356
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "D.S. Senanayake Road, Ampara 32000",
+  "phone": "0778592988",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q593DDM64FE6ZVGQYW4HH0"
+}
