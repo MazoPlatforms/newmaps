@@ -1,0 +1,65 @@
+{
+  "name": "Abdul Hameed Hotel",
+  "coordinates": {
+    "latitude": 7.409522399999999,
+    "longitude": 81.8360613
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "CR5P+QCW, KKP Road, Kalmunai 32300",
+  "phone": "0779245464",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–12 PM",
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–12 PM",
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–12 PM",
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–12 PM",
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–11 AM",
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–12 PM",
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–12 PM",
+        "5:30–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RG3NC70NSXN9GF8939GZ"
+}
