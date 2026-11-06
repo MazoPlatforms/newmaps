@@ -1,0 +1,58 @@
+{
+  "name": "POSTO Family Restaurant",
+  "coordinates": {
+    "latitude": 7.2487838,
+    "longitude": 79.8421389
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "198 Palangathure, Negombo",
+  "phone": "0777840821",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q63CFDFP25M64BW3CT0C0K"
+}
