@@ -1,0 +1,61 @@
+{
+  "name": "OVIA Cafe",
+  "coordinates": {
+    "latitude": 8.6715206,
+    "longitude": 81.2019167
+  },
+  "categories": [
+    "Restaurant",
+    "Breakfast restaurant",
+    "Coffee shop",
+    "Cafe"
+  ],
+  "address": "8th Mile Post, Nilaveli, Trincomalee 31000",
+  "phone": "0779275772",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59AQMZXJ5ACQ5DN026FG4"
+}
