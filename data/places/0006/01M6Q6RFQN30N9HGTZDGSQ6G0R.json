@@ -1,0 +1,58 @@
+{
+  "name": "Restaurant",
+  "coordinates": {
+    "latitude": 7.416243199999999,
+    "longitude": 81.81136219999999
+  },
+  "categories": [
+    "Breakfast restaurant"
+  ],
+  "address": "CR86+FGX, Kalmunai-Chavalakadai Road, Kalmunai",
+  "phone": "0772755534",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RFQN30N9HGTZDGSQ6G0R"
+}
