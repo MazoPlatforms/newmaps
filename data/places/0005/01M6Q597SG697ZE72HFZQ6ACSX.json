@@ -1,0 +1,58 @@
+{
+  "name": "Wickrama Pharmacy",
+  "coordinates": {
+    "latitude": 7.2907546,
+    "longitude": 81.6726929
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "7MRF+834, Near the bus stand, Dudli Senanayake Street, Ampara",
+  "phone": "0778084867",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q597SG697ZE72HFZQ6ACSX"
+}
