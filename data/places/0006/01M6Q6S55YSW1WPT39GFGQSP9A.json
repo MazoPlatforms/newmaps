@@ -1,0 +1,58 @@
+{
+  "name": "JD Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 9.6853952,
+    "longitude": 80.0189738
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "No:-293 Brown Road, Jaffna 40000",
+  "phone": "0773877072",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S55YSW1WPT39GFGQSP9A"
+}
