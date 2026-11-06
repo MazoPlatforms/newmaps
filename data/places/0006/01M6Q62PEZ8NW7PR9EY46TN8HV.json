@@ -1,0 +1,59 @@
+{
+  "name": "Uncle's Bar, Colombo",
+  "coordinates": {
+    "latitude": 6.9165189,
+    "longitude": 79.85858139999999
+  },
+  "categories": [
+    "Bar"
+  ],
+  "address": "48c Park St, Colombo 00200",
+  "phone": "0114294984",
+  "website": "http://www.unclescolombo.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q62PEZ8NW7PR9EY46TN8HV"
+}
