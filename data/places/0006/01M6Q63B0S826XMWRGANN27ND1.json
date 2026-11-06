@@ -1,0 +1,58 @@
+{
+  "name": "Sea View Restaurant",
+  "coordinates": {
+    "latitude": 7.2325819,
+    "longitude": 79.8410043
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "319 Lewis Pl, Negombo",
+  "phone": "0312233762",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63B0S826XMWRGANN27ND1"
+}
