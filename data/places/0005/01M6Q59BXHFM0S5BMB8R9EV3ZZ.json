@@ -1,0 +1,58 @@
+{
+  "name": "Joy Sea Food Restaurant",
+  "coordinates": {
+    "latitude": 8.6136269,
+    "longitude": 81.2155418
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "J678+F63, Sarvodaya Road, Trincomalee",
+  "phone": "0778240099",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59BXHFM0S5BMB8R9EV3ZZ"
+}
