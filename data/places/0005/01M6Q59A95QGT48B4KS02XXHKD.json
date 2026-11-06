@@ -1,0 +1,58 @@
+{
+  "name": "Mr.chef",
+  "coordinates": {
+    "latitude": 8.578233899999999,
+    "longitude": 81.2315153
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "122 Main St, Trincomalee 31000",
+  "phone": "0764184411",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59A95QGT48B4KS02XXHKD"
+}
