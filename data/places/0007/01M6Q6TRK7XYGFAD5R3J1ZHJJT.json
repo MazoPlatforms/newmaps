@@ -1,0 +1,59 @@
+{
+  "name": "Sampath Bank ATM",
+  "coordinates": {
+    "latitude": 6.8302097999999996,
+    "longitude": 80.9926788
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "No. 253, 255, Main Street, Bandarawela",
+  "phone": "0572223720",
+  "website": "http://www.sampath.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q6TRK7XYGFAD5R3J1ZHJJT"
+}
