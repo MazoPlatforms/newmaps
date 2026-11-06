@@ -1,0 +1,59 @@
+{
+  "name": "Tharany Supermarket",
+  "coordinates": {
+    "latitude": 9.6810707,
+    "longitude": 80.0129091
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "758 Jaffna-Kankesanturai Road, Jaffna 40000",
+  "phone": "0771997206",
+  "website": "http://tharanysupermarket.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q6S48NTXV4H52P755CY757"
+}
