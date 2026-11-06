@@ -1,0 +1,59 @@
+{
+  "name": "CARS Body Shop Kandy",
+  "coordinates": {
+    "latitude": 7.2892377999999995,
+    "longitude": 80.63256799999999
+  },
+  "categories": [
+    "Auto body shop"
+  ],
+  "address": "04 William Gopallawa Mawatha, Kandy 20000",
+  "phone": "0715853092",
+  "website": "http://carsbodyshop.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S079P4MBAE0T736TYNEH"
+}
