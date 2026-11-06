@@ -625,8 +625,31 @@ def apply_import(plan: dict, report: dict, root: Path = ROOT) -> dict:
 
 def render_report(report: dict) -> str:
     discovery, processing = report["discovery"], report["processing"]
+    boundary = report["boundary"]
+    geographic_checks = [
+        "## District and privacy checks" if boundary.get("enforced", True) else "## Geographic and privacy checks",
+        "",
+    ]
+    if boundary.get("enforced", True):
+        geographic_checks.append(
+            f"- District membership checked against the Sri Lanka NSDI Batticaloa District polygon: {boundary['source_url']}."
+        )
+        geographic_checks.append(
+            "- Raw outside-district, private, uncertain, invalid, and conflicting candidates are represented only as aggregate counts; names, exact coordinates, contact data, and addresses are not listed."
+        )
+    else:
+        geographic_checks.append(
+            "- This explicitly global import does not exclude a public candidate by district-boundary membership. Location is retained only as supplied by the documented CLI output."
+        )
+        geographic_checks.append(
+            "- Private, uncertain, invalid, and conflicting candidates are represented only as aggregate counts; names, exact coordinates, contact data, and addresses are not listed."
+        )
+    geographic_checks.extend([
+        "- Existing place aliases are checked for represented places; no road or speed-limit source records are changed.",
+        "",
+    ])
     lines = [
-        f"# Batticaloa District Places Expansion — {report.get('phase', 'Phase 6')}", "",
+        f"# {'Batticaloa District Places Expansion' if boundary.get('enforced', True) else 'Global Places Expansion'} — {report.get('phase', 'Phase 6')}", "",
         f"Scope: {report['scope']}", "",
         "## Discovery", "",
         f"- Confirmed CLI invocations: at least {discovery['confirmed_cli_invocations_at_least']} across {discovery['unique_query_strings']} successful unique query strings; exact total unavailable because two capture batches briefly overlapped and repeated-call count was not retained.",
@@ -642,10 +665,7 @@ def render_report(report: dict) -> str:
         f"- Duplicate query rows collapsed: {processing['duplicate_query_rows_collapsed']:,}.",
         "- Candidate origin and license information is not exposed by the documented mzc CLI; maintainer review is required before attributing or redistributing the underlying data.",
         "- Canonical place records contain no importer-added provenance or source metadata. Captured listings were not independently verified.", "",
-        "## District and privacy checks", "",
-        f"- District membership checked against the Sri Lanka NSDI Batticaloa District polygon: {report['boundary']['source_url']}.",
-        "- Raw outside-district, private, uncertain, invalid, and conflicting candidates are represented only as aggregate counts; names, exact coordinates, contact data, and addresses are not listed.",
-        "- Existing place aliases are checked for represented places; no road or speed-limit source records are changed.", "",
+        *geographic_checks,
         "## Counts", "",
     ]
     lines.extend(f"- {key.replace('_', ' ').capitalize()}: {value}" for key, value in sorted(processing["classification_counts"].items()))
