@@ -1,0 +1,59 @@
+{
+  "name": "Seafood Club",
+  "coordinates": {
+    "latitude": 7.1852056,
+    "longitude": 79.85831019999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Hotel Lagoon View Road, Negombo",
+  "phone": "0702735395",
+  "website": "https://www.grandeeza.com/sea-food-club/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12 PM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q63C2PQ5A49C3AEFDANY7K"
+}
