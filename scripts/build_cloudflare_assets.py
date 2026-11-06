@@ -6,6 +6,7 @@ import json
 import hashlib
 import mimetypes
 import shutil
+import subprocess
 import unicodedata
 import sys
 from pathlib import Path, PurePosixPath
@@ -177,6 +178,10 @@ def build() -> dict:
     build_api_search_index(DIST / "generated" / "search-index.json", DIST / "generated" / "api-search-index.json")
     files.append("api-search-index.json")
 
+    # Native MapLibre glyphs are built locally from the bundled, OFL-licensed
+    # Mazo Sans font; Android never needs a web PMTiles protocol or font CDN.
+    subprocess.run(["node", str(ROOT / "scripts" / "build_vector_assets.mjs")], cwd=ROOT, check=True)
+
     written_chunks = split_pmtiles_archive(
         pmtiles_source,
         DIST / "generated" / "places-pmtiles-chunks",
@@ -206,7 +211,9 @@ def build() -> dict:
         "output": str(DIST.relative_to(ROOT)),
         "files": sum(1 for path in DIST.rglob("*") if path.is_file()),
         "bytes": sum(path.stat().st_size for path in DIST.rglob("*") if path.is_file()),
-        "generated": sorted({*files, "places-pmtiles-range.json", "live-data-manifest.json"}),
+        "generated": sorted({*files, "places-pmtiles-range.json", "live-data-manifest.json",
+                              *[path.relative_to(DIST / "generated").as_posix()
+                                for path in (DIST / "generated" / "fonts").rglob("*.pbf")]}),
         "live_data_files": len(bootstrap_manifest["files"]),
         "pmtiles_range_chunks": written_chunks,
         "pmtiles_chunk_size": chunk_size,

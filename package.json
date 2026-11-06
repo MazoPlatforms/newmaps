@@ -3,15 +3,20 @@
   "private": true,
   "scripts": {
     "build:cloudflare": "python3 scripts/build_cloudflare_assets.py",
+    "build:vector-assets": "node scripts/build_vector_assets.mjs",
     "deploy:cloudflare": "wrangler deploy --config wrangler.jsonc",
     "test:unit": "node --test tests/*.test.mjs",
     "test:browser": "node tests/map-browser-smoke.mjs",
     "benchmark:map": "node tests/phase12-14-benchmark.mjs",
+    "benchmark:vector-tiles": "node scripts/benchmark_vector_tiles.mjs",
     "benchmark:live-data": "node scripts/benchmark_live_data.mjs",
     "test:live-data:e2e": "npm run build:cloudflare && node scripts/cloudflare-live-data-e2e.mjs"
   },
   "devDependencies": {
+    "@mapbox/vector-tile": "^2.0.4",
     "axe-core": "4.14.0",
+    "fontnik": "^0.7.7",
+    "pbf": "^4.0.1",
     "playwright": "1.56.1",
     "wrangler": "4.158.0"
   }
