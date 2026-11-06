@@ -1,0 +1,58 @@
+{
+  "name": "New Xplore Mini Mart",
+  "coordinates": {
+    "latitude": 7.6733388,
+    "longitude": 81.7329924
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "Main St, Kattankudy 30150",
+  "phone": "0751809178",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6QSXE85PKBM30Z0TWXHS4FD"
+}

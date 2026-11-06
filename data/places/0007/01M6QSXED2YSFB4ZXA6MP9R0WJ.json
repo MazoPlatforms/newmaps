@@ -1,0 +1,59 @@
+{
+  "name": "Siddeek Vegetable Store",
+  "coordinates": {
+    "latitude": 7.6855176,
+    "longitude": 81.7260348
+  },
+  "categories": [
+    "Grocery store",
+    "Fruit and vegetable store"
+  ],
+  "address": "MPPG+6C3, Colombo - Batticaloa Hwy, Kattankudy",
+  "phone": "0774123668",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6QSXED2YSFB4ZXA6MP9R0WJ"
+}

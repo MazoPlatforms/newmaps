@@ -1,0 +1,58 @@
+{
+  "name": "Gayathri Clinic",
+  "coordinates": {
+    "latitude": 7.726582,
+    "longitude": 81.6867171
+  },
+  "categories": [
+    "Hospital"
+  ],
+  "address": "PMGP+JMP, Batticaloa",
+  "phone": "0657913811",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6QSXJTYGYN228TEAQ49508S"
+}

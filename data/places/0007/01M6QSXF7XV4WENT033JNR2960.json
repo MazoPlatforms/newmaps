@@ -1,0 +1,58 @@
+{
+  "name": "Thaya Stores",
+  "coordinates": {
+    "latitude": 7.7218168,
+    "longitude": 81.69401169999999
+  },
+  "categories": [
+    "Store"
+  ],
+  "address": "PMCV+PJC, Trinco Road, Batticaloa",
+  "phone": "0652222030",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6QSXF7XV4WENT033JNR2960"
+}

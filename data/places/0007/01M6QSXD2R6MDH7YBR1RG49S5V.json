@@ -1,0 +1,58 @@
+{
+  "name": "Selvam Stores",
+  "coordinates": {
+    "latitude": 7.715694699999999,
+    "longitude": 81.6989533
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "50 Trinco Road, Batticaloa 30000",
+  "phone": "0653120105",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6QSXD2R6MDH7YBR1RG49S5V"
+}

@@ -1,0 +1,2597 @@
+{
+  "report_version": 1,
+  "scope": "Batticaloa District, Eastern Province, Sri Lanka",
+  "boundary": {
+    "file": "data/boundaries/batticaloa-district.geojson",
+    "source": "Sri Lanka National Spatial Data Infrastructure (NSDI), Srilanka/Boundaries MapServer, District Boundary layer 3",
+    "source_url": "https://gisapps.nsdi.gov.lk/server/rest/services/Srilanka/Boundaries/MapServer/3",
+    "query_url": "https://gisapps.nsdi.gov.lk/server/rest/services/Srilanka/Boundaries/MapServer/3/query",
+    "retrieved_at": "2026-10-27",
+    "geometry_sha256": "9e1efb3dc66882279af04a5d0abb63a2797663120739276cbca222f6c9bde5ce",
+    "membership_rule": "The supplied coordinate must be covered by the district polygon; addresses or query wording alone do not establish district membership."
+  },
+  "discovery": {
+    "interface": "mzc CLI only",
+    "command_syntax": "mzc -l 500 -c lk -t 30 '<documented query string>'",
+    "pagination": "No pagination option is documented by mzc --help; queries reaching 500 results must be subdivided.",
+    "result_origin_or_license": "Owner-supplied collection; collection methodology and origin were not investigated. The documented CLI output does not expose redistribution license metadata; no provider attribution is inferred.",
+    "independent_place_verification": "not performed; imported listings remain unverified",
+    "capture_log_note": "Four preliminary successful administrative-area queries returned responses that were not retained, so their result counts are unknown and excluded. Two documented invocations were interrupted before capture and later retried successfully. Two query runners briefly overlapped; retained responses were reconciled by unique query, but the exact number of redundant calls cannot be reconstructed. Confirmed invocation count is therefore a lower bound.",
+    "invocations_in_manifest": 20,
+    "confirmed_cli_invocations_at_least": 20,
+    "exact_cli_invocation_total_available": false,
+    "overlap_repeat_invocation_count": null,
+    "successful_queries": 20,
+    "uncaptured_successful_queries": 0,
+    "uncaptured_successful_query_rows_unknown": 0,
+    "failed_queries": 0,
+    "failed_attempts": 0,
+    "successful_retries": 0,
+    "unique_query_strings": 20,
+    "raw_candidates_returned_in_retained_json": 1629,
+    "raw_candidates_returned_from_retained_successful_responses": 1629,
+    "queries_at_500_result_limit": 0,
+    "queries": [
+      {
+        "key": "batticaloa-district--food--a17fa501",
+        "query": "restaurants cafes bakeries and food outlets in Batticaloa District, Sri Lanka",
+        "town": "Batticaloa District",
+        "category": "food",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 131,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "batticaloa-district--retail--82ba4016",
+        "query": "shops supermarkets groceries and retail stores in Batticaloa District, Sri Lanka",
+        "town": "Batticaloa District",
+        "category": "retail",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 206,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "batticaloa-district--education--5e653dee",
+        "query": "schools colleges tuition centers and libraries in Batticaloa District, Sri Lanka",
+        "town": "Batticaloa District",
+        "category": "education",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 41,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "batticaloa-district--health--19c2ac06",
+        "query": "hospitals clinics pharmacies and medical centers in Batticaloa District, Sri Lanka",
+        "town": "Batticaloa District",
+        "category": "health",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 66,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "batticaloa-district--public-services--5e9538a8",
+        "query": "government offices banks ATMs transport and public services in Batticaloa District, Sri Lanka",
+        "town": "Batticaloa District",
+        "category": "public-services",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 42,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "batticaloa-district--tourism--2c31340d",
+        "query": "hotels guest houses beaches parks and attractions in Batticaloa District, Sri Lanka",
+        "town": "Batticaloa District",
+        "category": "tourism",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 39,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "ampara-district--all-public-places--4d94e1ae",
+        "query": "public places and businesses in Ampara District, Sri Lanka",
+        "town": "Ampara District",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 40,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "ampara-district--food--c6710311",
+        "query": "restaurants cafes bakeries and food outlets in Ampara District, Sri Lanka",
+        "town": "Ampara District",
+        "category": "food",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 100,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "ampara-district--retail--8888e067",
+        "query": "shops supermarkets groceries and retail stores in Ampara District, Sri Lanka",
+        "town": "Ampara District",
+        "category": "retail",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 146,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "ampara-district--education--2058ea9a",
+        "query": "schools colleges tuition centers and libraries in Ampara District, Sri Lanka",
+        "town": "Ampara District",
+        "category": "education",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 40,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "ampara-district--health--550d824f",
+        "query": "hospitals clinics pharmacies and medical centers in Ampara District, Sri Lanka",
+        "town": "Ampara District",
+        "category": "health",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 79,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "ampara-district--public-services--7ee57fd6",
+        "query": "government offices banks ATMs transport and public services in Ampara District, Sri Lanka",
+        "town": "Ampara District",
+        "category": "public-services",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 6,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "ampara-district--tourism--7ede3706",
+        "query": "hotels guest houses beaches parks and attractions in Ampara District, Sri Lanka",
+        "town": "Ampara District",
+        "category": "tourism",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 31,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee-district--all-public-places--7381a55c",
+        "query": "public places and businesses in Trincomalee District, Sri Lanka",
+        "town": "Trincomalee District",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 126,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee-district--food--f896959e",
+        "query": "restaurants cafes bakeries and food outlets in Trincomalee District, Sri Lanka",
+        "town": "Trincomalee District",
+        "category": "food",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 94,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee-district--retail--ee7ca649",
+        "query": "shops supermarkets groceries and retail stores in Trincomalee District, Sri Lanka",
+        "town": "Trincomalee District",
+        "category": "retail",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 191,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee-district--education--19e22b02",
+        "query": "schools colleges tuition centers and libraries in Trincomalee District, Sri Lanka",
+        "town": "Trincomalee District",
+        "category": "education",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 49,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee-district--health--3b7507c2",
+        "query": "hospitals clinics pharmacies and medical centers in Trincomalee District, Sri Lanka",
+        "town": "Trincomalee District",
+        "category": "health",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 53,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee-district--public-services--66b3cc7c",
+        "query": "government offices banks ATMs transport and public services in Trincomalee District, Sri Lanka",
+        "town": "Trincomalee District",
+        "category": "public-services",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 25,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee-district--tourism--267fb94b",
+        "query": "hotels guest houses beaches parks and attractions in Trincomalee District, Sri Lanka",
+        "town": "Trincomalee District",
+        "category": "tourism",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 124,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      }
+    ],
+    "phase6_3_additional_gap_queries": 0,
+    "phase6_2_failed_prompts_recovered": {
+      "count": 0,
+      "all_retried_prompts_succeeded": true
+    }
+  },
+  "processing": {
+    "raw_candidates_analyzed": 1629,
+    "unique_candidates": 1440,
+    "duplicate_query_rows_collapsed": 189,
+    "classification_counts": {
+      "excluded_confirmed_private": 0,
+      "existing_place_duplicate": 386,
+      "invalid_missing_coordinates": 0,
+      "invalid_missing_name": 0,
+      "mzc_source_conflict": 0,
+      "new_public_candidate": 100,
+      "out_of_district": 939,
+      "uncertain_public_eligibility": 1,
+      "unresolved_existing_match": 14
+    },
+    "unresolved_reason_counts": {
+      "existing_conflict_address": 9,
+      "existing_conflict_business_status": 2,
+      "existing_conflict_hours": 1,
+      "existing_conflict_website": 3,
+      "missing_specific_public_place_category_or_context": 1
+    },
+    "candidate_data_quality_signals": {
+      "missing_address": 3,
+      "missing_categories": 3,
+      "missing_phone": 173
+    },
+    "unresolved_candidates_are_not_listed_by_name_or_location": true,
+    "new_places_in_this_change": 100,
+    "unresolved_new_nearby_duplicate_pair_count": 0,
+    "active_place_records_before": 6393,
+    "active_place_records_after": 6493,
+    "current_batch_region": "all",
+    "name_format_changes": 36,
+    "address_format_changes": 32,
+    "imported_ulids": [
+      "01M6QSXCHPXF13K90QG6E9T3QK",
+      "01M6QSXCM38AWHAT6W8JYRRYN3",
+      "01M6QSXCPG5TD3K96KAQ31AYA8",
+      "01M6QSXCS77Z3VT7HEE5YC04P5",
+      "01M6QSXCVK63KYM8WXP7YRZ0MX",
+      "01M6QSXCXZWEMSGTDN3RKNBCH3",
+      "01M6QSXD0E5PX21P9WMRBKT3NS",
+      "01M6QSXD2R6MDH7YBR1RG49S5V",
+      "01M6QSXD4Z8PQD4XPYMVSENHQY",
+      "01M6QSXD7A4DF4SNBPHJZY2K7B",
+      "01M6QSXD9PRX0TY2VQTHCA0BQT",
+      "01M6QSXDC9H6H4TPP39V901KMY",
+      "01M6QSXDEST1Z8QQMFGB2MZA5V",
+      "01M6QSXDH5AZPBBM8KH54QNFX2",
+      "01M6QSXDKN2ZJXW8VWZ0NTDHZZ",
+      "01M6QSXDP1WN9D86NMHDCSPB4Q",
+      "01M6QSXDRRCT5GMBXY9C2PDHBA",
+      "01M6QSXDVFN06D0G4ZF37Z81KR",
+      "01M6QSXDXWNQ3G6QA07SFRHHRJ",
+      "01M6QSXE0D28M1GW3Z51AGWGP2",
+      "01M6QSXE35M52STHN41PV9CEKZ",
+      "01M6QSXE5N8PFNES8W9YC2N2VS",
+      "01M6QSXE85PKBM30Z0TWXHS4FD",
+      "01M6QSXEAJPQW42KEZ0S210H9K",
+      "01M6QSXED2YSFB4ZXA6MP9R0WJ",
+      "01M6QSXEFF75VKDR4FVDKX6ENR",
+      "01M6QSXEHWCMBA7WTGN93VTV6N",
+      "01M6QSXEM5RYYNQ3ZRBW1WNN0D",
+      "01M6QSXEPHQ0FV39Q32YD5GHJN",
+      "01M6QSXES9ADW624PE5MMBERNJ",
+      "01M6QSXEVP8772YANKQNEAC395",
+      "01M6QSXEY0K4HYC7GA8WF80ZPN",
+      "01M6QSXF0K3NKP5DJKYN2ZSV3R",
+      "01M6QSXF30E77JTZG7W7Y636NZ",
+      "01M6QSXF5AJ3MF3BH0REJ5MGEY",
+      "01M6QSXF7XV4WENT033JNR2960",
+      "01M6QSXFA7ECFJ9N8GAYGK38J6",
+      "01M6QSXFCWYJERGVX8MWRZYDZE",
+      "01M6QSXFFPMS9X2R3G81GYPFTG",
+      "01M6QSXFJ579ZGM70YDY0DM4RQ",
+      "01M6QSXFMM5M9DYNQSGDEEXHDE",
+      "01M6QSXFQ1Q6X6TZ51661FCCBG",
+      "01M6QSXFSVRTG6QNYP6JV7RKKR",
+      "01M6QSXFW75R40GTAWQ161MCNZ",
+      "01M6QSXFYG2YX72Y9C1S60Q35T",
+      "01M6QSXG0V7JMK9N9NJZPF40SA",
+      "01M6QSXG38PJSEFRH7C9J22HK9",
+      "01M6QSXG5NT5M4NJRY9JZGMP59",
+      "01M6QSXG7ZEZ0QSSRZDFMRNG5A",
+      "01M6QSXGA80KZQ1BFVGAD37T4A",
+      "01M6QSXGCFBPS32ZRDT84M8DKA",
+      "01M6QSXGER467ZGCTB7DEKFPPP",
+      "01M6QSXGH1KXVV146MKQ8D6W3E",
+      "01M6QSXGKB1H83WY77M84YVT58",
+      "01M6QSXGNQG3NWD04GDAER0B0F",
+      "01M6QSXGRGKEPN7SXDWDVXDNH6",
+      "01M6QSXGV1PBHC9RWXAYKT6BG7",
+      "01M6QSXGXD1YZ6M5AY9XFVV04B",
+      "01M6QSXGZS41DWYTAYV8Q2B96B",
+      "01M6QSXH22JV9TGXPE1HD90E7P",
+      "01M6QSXH4C9EEG0WC5KD7TD936",
+      "01M6QSXH6V9EYZQ09R8EYZJDDF",
+      "01M6QSXH96TZWN7BN0ZK0N9E74",
+      "01M6QSXHD0NKJCJ05ZWWVTEJEM",
+      "01M6QSXHJ3H836GFWRT77CFKSG",
+      "01M6QSXHMM67AC94TYK6BGKJG5",
+      "01M6QSXHQ45F0Y9W1N35V8HRVG",
+      "01M6QSXHSMX2AJ91Y7P75F3RK8",
+      "01M6QSXHW0WAYQ2JFHG43NB18S",
+      "01M6QSXHY8J305ZJHW3Q0F59WM",
+      "01M6QSXJ0ZG6DBG16KVKGWPJ68",
+      "01M6QSXJ3AG3E9D5FQ660FHS2R",
+      "01M6QSXJ5T2460AW4W65215FQ8",
+      "01M6QSXJ8AF6K9P06SP4DBZ9S9",
+      "01M6QSXJAMAFPQ68Z1AM7W52MA",
+      "01M6QSXJCZJ7XV3RV7E3XH5VE9",
+      "01M6QSXJGJ56R0R8WAAKPEC0HD",
+      "01M6QSXJMSY5V3JE69K819TZST",
+      "01M6QSXJQZER0EVYR1X9Y7K5G7",
+      "01M6QSXJTYGYN228TEAQ49508S",
+      "01M6QSXJXBW3Z72N36ETWBY5RF",
+      "01M6QSXJZXQHG47PS68CK2E9TQ",
+      "01M6QSXK2GTMYYQRHYAF24QKWG",
+      "01M6QSXK4WMPYQRSS07VJ8YXBT",
+      "01M6QSXK7BRXRSM18K2K9MH1N3",
+      "01M6QSXK9KQ0S1YFG269GNQ0KQ",
+      "01M6QSXKBX0KWKWJT7ZYJS970T",
+      "01M6QSXKE6YBAENWZNQAAE1W0R",
+      "01M6QSXKGE8SJ3PF6ETPN8P99C",
+      "01M6QSXKJQWE2RNRDPCK5GTSAR",
+      "01M6QSXKN30C5MEACBCPKE98GE",
+      "01M6QSXKQVVMCCBKQDM186DDNS",
+      "01M6QSXKT50E3YYM8FAKNN3JPR",
+      "01M6QSXKWCG3ZX72SDJCEEZN18",
+      "01M6QSXKYYR7QTFQECN4K6ZATK",
+      "01M6QSXM187G4GYE3YEBFMMSZM",
+      "01M6QSXM3RSHWVD3KYVKNHAP9R",
+      "01M6QSXM63RQDKA15ZMZBNK768",
+      "01M6QSXM8DQRYESS461ZCGVPJZ",
+      "01M6QSXMATKHDZD0KBXMBSR33J"
+    ],
+    "town_query_coverage_overlapping": {
+      "ampara-district": {
+        "existing_place_duplicate": 86,
+        "new_public_candidate": 13,
+        "unresolved_existing_match": 2
+      },
+      "batticaloa-district": {
+        "existing_place_duplicate": 376,
+        "new_public_candidate": 95,
+        "unresolved_existing_match": 14
+      },
+      "trincomalee-district": {
+        "existing_place_duplicate": 6,
+        "new_public_candidate": 3
+      }
+    },
+    "candidate_category_coverage_overlapping": {
+      "ATM": {
+        "existing_place_duplicate": 30,
+        "unresolved_existing_match": 3
+      },
+      "Academic department": {
+        "new_public_candidate": 2
+      },
+      "Afghan restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Amusement park": {
+        "existing_place_duplicate": 1
+      },
+      "Animal hospital": {
+        "existing_place_duplicate": 1
+      },
+      "Asian grocery store": {
+        "existing_place_duplicate": 19,
+        "new_public_candidate": 6
+      },
+      "Asian restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Bakery": {
+        "existing_place_duplicate": 14,
+        "new_public_candidate": 2,
+        "unresolved_existing_match": 1
+      },
+      "Bank": {
+        "existing_place_duplicate": 6
+      },
+      "Banquet hall": {
+        "existing_place_duplicate": 2
+      },
+      "Bar": {
+        "existing_place_duplicate": 3
+      },
+      "Beach": {
+        "existing_place_duplicate": 2
+      },
+      "Bed & breakfast": {
+        "existing_place_duplicate": 1
+      },
+      "Biryani restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Book store": {
+        "new_public_candidate": 1
+      },
+      "Breakfast restaurant": {
+        "existing_place_duplicate": 2
+      },
+      "Cafe": {
+        "existing_place_duplicate": 10
+      },
+      "Cafeteria": {
+        "existing_place_duplicate": 1
+      },
+      "Cake shop": {
+        "existing_place_duplicate": 5,
+        "unresolved_existing_match": 1
+      },
+      "Catering food and drink supplier": {
+        "existing_place_duplicate": 1
+      },
+      "Chicken restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Children Policlinic": {
+        "existing_place_duplicate": 1
+      },
+      "Children's cafe": {
+        "existing_place_duplicate": 1
+      },
+      "Chinese restaurant": {
+        "existing_place_duplicate": 2
+      },
+      "Chinese takeaway": {
+        "existing_place_duplicate": 1
+      },
+      "Chocolate cafe": {
+        "existing_place_duplicate": 1
+      },
+      "Clothing store": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 2
+      },
+      "Coffee shop": {
+        "existing_place_duplicate": 10,
+        "unresolved_existing_match": 1
+      },
+      "Coffee store": {
+        "existing_place_duplicate": 1
+      },
+      "College": {
+        "existing_place_duplicate": 4
+      },
+      "Community health center": {
+        "existing_place_duplicate": 1
+      },
+      "Computer training school": {
+        "existing_place_duplicate": 1
+      },
+      "Confectionery store": {
+        "existing_place_duplicate": 1
+      },
+      "Conference center": {
+        "existing_place_duplicate": 1
+      },
+      "Convenience store": {
+        "existing_place_duplicate": 5
+      },
+      "Corporate office": {
+        "existing_place_duplicate": 1
+      },
+      "Cosmetics store": {
+        "existing_place_duplicate": 1
+      },
+      "Crab house": {
+        "existing_place_duplicate": 1
+      },
+      "Cupcake shop": {
+        "existing_place_duplicate": 2,
+        "unresolved_existing_match": 1
+      },
+      "Currency exchange service": {
+        "existing_place_duplicate": 2
+      },
+      "Dental clinic": {
+        "existing_place_duplicate": 1
+      },
+      "Department store": {
+        "existing_place_duplicate": 1
+      },
+      "Dessert restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Discount supermarket": {
+        "new_public_candidate": 1
+      },
+      "District office": {
+        "existing_place_duplicate": 1
+      },
+      "Dive shop": {
+        "existing_place_duplicate": 1
+      },
+      "Doctor": {
+        "new_public_candidate": 1
+      },
+      "Donations center": {
+        "existing_place_duplicate": 1
+      },
+      "Drug store": {
+        "new_public_candidate": 1
+      },
+      "E-commerce service": {
+        "existing_place_duplicate": 1
+      },
+      "Eclectic restaurant": {
+        "existing_place_duplicate": 4
+      },
+      "Education center": {
+        "existing_place_duplicate": 2
+      },
+      "Educational institution": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 1
+      },
+      "Electronics store": {
+        "existing_place_duplicate": 1
+      },
+      "Elementary school": {
+        "existing_place_duplicate": 1
+      },
+      "Event venue": {
+        "existing_place_duplicate": 1
+      },
+      "Family restaurant": {
+        "existing_place_duplicate": 5,
+        "unresolved_existing_match": 1
+      },
+      "Fast food restaurant": {
+        "existing_place_duplicate": 4
+      },
+      "Food court": {
+        "existing_place_duplicate": 2
+      },
+      "Fortress": {
+        "existing_place_duplicate": 1
+      },
+      "Frozen food store": {
+        "existing_place_duplicate": 1
+      },
+      "Fruit and vegetable store": {
+        "new_public_candidate": 1
+      },
+      "Furniture store": {
+        "existing_place_duplicate": 1
+      },
+      "General store": {
+        "new_public_candidate": 1
+      },
+      "Gift shop": {
+        "existing_place_duplicate": 1
+      },
+      "Girls' high school": {
+        "unresolved_existing_match": 1
+      },
+      "Government": {
+        "existing_place_duplicate": 1
+      },
+      "Government hospital": {
+        "existing_place_duplicate": 4
+      },
+      "Government office": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 2,
+        "unresolved_existing_match": 1
+      },
+      "Grocery delivery service": {
+        "existing_place_duplicate": 1
+      },
+      "Grocery store": {
+        "existing_place_duplicate": 81,
+        "new_public_candidate": 46
+      },
+      "Guest house": {
+        "existing_place_duplicate": 13
+      },
+      "Hamburger restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Health food restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Higher secondary school": {
+        "existing_place_duplicate": 1
+      },
+      "Holiday apartment rental": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 1
+      },
+      "Home goods store": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Home help": {
+        "existing_place_duplicate": 1
+      },
+      "Home help service agency": {
+        "existing_place_duplicate": 1
+      },
+      "Homeopathic pharmacy": {
+        "existing_place_duplicate": 1
+      },
+      "Homestay": {
+        "existing_place_duplicate": 2
+      },
+      "Hospital": {
+        "existing_place_duplicate": 14,
+        "new_public_candidate": 6
+      },
+      "Hotel": {
+        "existing_place_duplicate": 14
+      },
+      "Ice cream shop": {
+        "existing_place_duplicate": 2
+      },
+      "Indian grocery store": {
+        "new_public_candidate": 2
+      },
+      "Indian restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "International school": {
+        "existing_place_duplicate": 1
+      },
+      "Juice shop": {
+        "existing_place_duplicate": 2
+      },
+      "Korean grocery store": {
+        "new_public_candidate": 1
+      },
+      "Library": {
+        "existing_place_duplicate": 12,
+        "unresolved_existing_match": 2
+      },
+      "Local government office": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Lodging": {
+        "existing_place_duplicate": 4
+      },
+      "Market": {
+        "existing_place_duplicate": 2
+      },
+      "Meal delivery": {
+        "existing_place_duplicate": 1
+      },
+      "Media company": {
+        "existing_place_duplicate": 1
+      },
+      "Medical Center": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 2
+      },
+      "Medical clinic": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 2
+      },
+      "Monastery": {
+        "existing_place_duplicate": 1
+      },
+      "Money transfer service": {
+        "existing_place_duplicate": 3
+      },
+      "Motel": {
+        "existing_place_duplicate": 1
+      },
+      "Organic food store": {
+        "existing_place_duplicate": 1
+      },
+      "Park": {
+        "existing_place_duplicate": 1
+      },
+      "Pharmaceutical products wholesaler": {
+        "existing_place_duplicate": 2
+      },
+      "Pharmacy": {
+        "existing_place_duplicate": 14,
+        "new_public_candidate": 3
+      },
+      "Pizza delivery": {
+        "existing_place_duplicate": 1
+      },
+      "Pizza takeaway": {
+        "existing_place_duplicate": 2
+      },
+      "Post office": {
+        "existing_place_duplicate": 1
+      },
+      "Private hospital": {
+        "existing_place_duplicate": 5
+      },
+      "Private sector bank": {
+        "existing_place_duplicate": 6
+      },
+      "Private university": {
+        "existing_place_duplicate": 1
+      },
+      "Public defender's office": {
+        "existing_place_duplicate": 1
+      },
+      "Public health department": {
+        "existing_place_duplicate": 1
+      },
+      "Public library": {
+        "existing_place_duplicate": 1
+      },
+      "Public sector bank": {
+        "existing_place_duplicate": 1
+      },
+      "Resort hotel": {
+        "existing_place_duplicate": 4
+      },
+      "Restaurant": {
+        "existing_place_duplicate": 14,
+        "new_public_candidate": 3,
+        "unresolved_existing_match": 3
+      },
+      "SCUBA tour agency": {
+        "existing_place_duplicate": 1
+      },
+      "School": {
+        "existing_place_duplicate": 1
+      },
+      "Scooter rental service": {
+        "existing_place_duplicate": 1
+      },
+      "Seafood restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Serviced apartment": {
+        "existing_place_duplicate": 1
+      },
+      "Shawarma restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Shopping mall": {
+        "existing_place_duplicate": 3,
+        "new_public_candidate": 1
+      },
+      "South Asian restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Souvenir store": {
+        "existing_place_duplicate": 1
+      },
+      "Spice store": {
+        "existing_place_duplicate": 1
+      },
+      "Sri Lankan restaurant": {
+        "existing_place_duplicate": 13
+      },
+      "Store": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 4
+      },
+      "Supermarket": {
+        "existing_place_duplicate": 26,
+        "new_public_candidate": 7
+      },
+      "Swimming pool": {
+        "existing_place_duplicate": 2
+      },
+      "Tea store": {
+        "existing_place_duplicate": 1
+      },
+      "Tourist attraction": {
+        "existing_place_duplicate": 1
+      },
+      "Tutoring service": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "University": {
+        "existing_place_duplicate": 5,
+        "new_public_candidate": 1
+      },
+      "University library": {
+        "existing_place_duplicate": 1
+      },
+      "Vegetarian restaurant": {
+        "existing_place_duplicate": 2
+      },
+      "Veterinarian": {
+        "existing_place_duplicate": 1
+      },
+      "Veterinary pharmacy": {
+        "existing_place_duplicate": 2
+      },
+      "Villa": {
+        "existing_place_duplicate": 1
+      },
+      "Wedding bakery": {
+        "unresolved_existing_match": 1
+      },
+      "Wedding venue": {
+        "existing_place_duplicate": 1
+      },
+      "Wellness center": {
+        "existing_place_duplicate": 1
+      },
+      "Western restaurant": {
+        "existing_place_duplicate": 2
+      },
+      "Wholesale grocer": {
+        "existing_place_duplicate": 2
+      }
+    },
+    "category_prompt_coverage_overlapping": {
+      "all-public-places": {
+        "existing_place_duplicate": 5,
+        "new_public_candidate": 1
+      },
+      "education": {
+        "existing_place_duplicate": 33,
+        "new_public_candidate": 4,
+        "unresolved_existing_match": 4
+      },
+      "food": {
+        "existing_place_duplicate": 110,
+        "new_public_candidate": 5,
+        "unresolved_existing_match": 8
+      },
+      "health": {
+        "existing_place_duplicate": 59,
+        "new_public_candidate": 16
+      },
+      "public-services": {
+        "existing_place_duplicate": 37,
+        "new_public_candidate": 2,
+        "unresolved_existing_match": 4
+      },
+      "retail": {
+        "existing_place_duplicate": 186,
+        "new_public_candidate": 82
+      },
+      "tourism": {
+        "existing_place_duplicate": 38,
+        "new_public_candidate": 1
+      }
+    },
+    "query_prompt_candidate_coverage_overlapping": {
+      "ampara-district--all-public-places--4d94e1ae": {
+        "existing_place_duplicate": 3
+      },
+      "ampara-district--education--2058ea9a": {
+        "existing_place_duplicate": 1
+      },
+      "ampara-district--food--c6710311": {
+        "existing_place_duplicate": 19,
+        "unresolved_existing_match": 1
+      },
+      "ampara-district--health--550d824f": {
+        "existing_place_duplicate": 13
+      },
+      "ampara-district--public-services--7ee57fd6": {
+        "unresolved_existing_match": 1
+      },
+      "ampara-district--retail--8888e067": {
+        "existing_place_duplicate": 50,
+        "new_public_candidate": 13
+      },
+      "batticaloa-district--education--5e653dee": {
+        "existing_place_duplicate": 32,
+        "new_public_candidate": 4,
+        "unresolved_existing_match": 4
+      },
+      "batticaloa-district--food--a17fa501": {
+        "existing_place_duplicate": 87,
+        "new_public_candidate": 5,
+        "unresolved_existing_match": 7
+      },
+      "batticaloa-district--health--19c2ac06": {
+        "existing_place_duplicate": 46,
+        "new_public_candidate": 15
+      },
+      "batticaloa-district--public-services--5e9538a8": {
+        "existing_place_duplicate": 37,
+        "new_public_candidate": 2,
+        "unresolved_existing_match": 3
+      },
+      "batticaloa-district--retail--82ba4016": {
+        "existing_place_duplicate": 136,
+        "new_public_candidate": 68
+      },
+      "batticaloa-district--tourism--2c31340d": {
+        "existing_place_duplicate": 38,
+        "new_public_candidate": 1
+      },
+      "trincomalee-district--all-public-places--7381a55c": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 1
+      },
+      "trincomalee-district--food--f896959e": {
+        "existing_place_duplicate": 4
+      },
+      "trincomalee-district--health--3b7507c2": {
+        "new_public_candidate": 1
+      },
+      "trincomalee-district--retail--ee7ca649": {
+        "new_public_candidate": 1
+      }
+    },
+    "formatting_changes": [
+      {
+        "field": "name",
+        "before": "Dream cafe",
+        "after": "Dream Cafe",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "PP82+P25, Pansala Rd, Batticaloa",
+        "after": "PP82+P25, Pansala Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Fouzar Hotel and Restaurant",
+        "after": "Fouzar Hotel And Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "MQ53+C39, Main Rd, palamunai",
+        "after": "MQ53+C39, Main Road, palamunai",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Mohamed Hotel & bakery",
+        "after": "Mohamed Hotel & Bakery",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Oddamavadi - Vahaneri Rd",
+        "after": "Oddamavadi - Vahaneri Road",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "ST Multy service",
+        "after": "ST Multy Service",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "AMS MULTY SHOP",
+        "after": "Ams Multy Shop",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "50 Trinco Rd, Batticaloa 30000",
+        "after": "50 Trinco Road, Batticaloa 30000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "MPFM+78Q, New Kalmunai Rd, Batticaloa",
+        "after": "MPFM+78Q, New Kalmunai Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "8 Cemetery Rd, Batticaloa",
+        "after": "8 Cemetery Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "MPX8+VXV, New Kalmunai Rd, Kallady",
+        "after": "MPX8+VXV, New Kalmunai Road, Kallady",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Deva's Multi center",
+        "after": "Deva's Multi Center",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "3DR shop",
+        "after": "3DR Shop",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "PP98+897, Navalady Rd, Kallady",
+        "after": "PP98+897, Navalady Road, Kallady",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "SAN MULTY SHOP",
+        "after": "San Multy Shop",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "MPX9+RJQ, Tharisanam Rd, Kallady",
+        "after": "MPX9+RJQ, Tharisanam Road, Kallady",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "MPPH+XJC, Telecom Rd, Kattankudy",
+        "after": "MPPH+XJC, Telecom Road, Kattankudy",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "New Xplore Mini mart",
+        "after": "New Xplore Mini Mart",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "MPJR+4M2, Abrar Rd, Kattankudy",
+        "after": "MPJR+4M2, Abrar Road, Kattankudy",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "PM7C+2J5, Urani Rd, Batticaloa",
+        "after": "PM7C+2J5, Urani Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "HIFARI STORE",
+        "after": "Hifari Store",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Mithunas grocery shop",
+        "after": "Mithunas Grocery Shop",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Mini mart",
+        "after": "Mini Mart",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "PP2H+2CF, Poonochimunai Rd, Kallady",
+        "after": "PP2H+2CF, Poonochimunai Road, Kallady",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "NR SWEETS&PRODUCT",
+        "after": "Nr Sweets&Product",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "MPGQ+V88, Deen Rd, Kattankudy",
+        "after": "MPGQ+V88, Deen Road, Kattankudy",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "MPCJ+QQM, Mariamman Kovil Rd, North",
+        "after": "MPCJ+QQM, Mariamman Kovil Road, North",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "PMCV+PJC, Trinco Rd, Batticaloa",
+        "after": "PMCV+PJC, Trinco Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "RESEITAR STORES",
+        "after": "Reseitar Stores",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Noorzar grocery shop",
+        "after": "Noorzar Grocery Shop",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "141 Deen Rd, Kattankudy",
+        "after": "141 Deen Road, Kattankudy",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "140 A Deen Rd, Kattankudy",
+        "after": "140 A Deen Road, Kattankudy",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "அம்மா மசாலா Home made Products",
+        "after": "அம்மா மசாலா Home Made Products",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "MPJR+2CP, Abrar Rd, Kattankudy",
+        "after": "MPJR+2CP, Abrar Road, Kattankudy",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "PM5Q+7W6, Hospital Rd, Batticaloa",
+        "after": "PM5Q+7W6, Hospital Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "NEW ASLAM TRADERS",
+        "after": "New Aslam Traders",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "GO FRESH GROCERY 👍",
+        "after": "Go Fresh Grocery 👍",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Suwashthik store 🏬",
+        "after": "Suwashthik Store 🏬",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "MPJF+M5W, Shareef Proctor Rd, Kattankudy",
+        "after": "MPJF+M5W, Shareef Proctor Road, Kattankudy",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Take It Easy",
+        "after": "Take IT Easy",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "30 Saravana Rd, Kallady",
+        "after": "30 Saravana Road, Kallady",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "SAFEER FRESH FRUITS",
+        "after": "Safeer Fresh Fruits",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "KKY STORE",
+        "after": "Kky Store",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "47 Pillaiyar Kovil Rd, Kallady",
+        "after": "47 Pillaiyar Kovil Road, Kallady",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "PMJ9+WGC, Trincomalee-Batticaloa Rd, Batticaloa",
+        "after": "PMJ9+WGC, Trincomalee-Batticaloa Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "St anthonys distribution KKD",
+        "after": "St Anthonys Distribution KKD",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "MIM DISTRIBUTOR",
+        "after": "Mim Distributor",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Thaya store",
+        "after": "Thaya Store",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "179 Old Rd, Kallady",
+        "after": "179 Old Road, Kallady",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "airoos Fruits Shop",
+        "after": "Airoos Fruits Shop",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Hikma stores",
+        "after": "Hikma Stores",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "11 Palamunai Rd, Kattankudy",
+        "after": "11 Palamunai Road, Kattankudy",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Yogeetha house",
+        "after": "Yogeetha House",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Science college",
+        "after": "Science College",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "PM5R+CMV, Mathew's Rd, Batticaloa",
+        "after": "PM5R+CMV, Mathew's Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "176 Hospital Rd, Batticaloa 30000",
+        "after": "176 Hospital Road, Batticaloa 30000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Well care pharmacy",
+        "after": "Well Care Pharmacy",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No87c, New Boundary Rd, Batticaloa 30000",
+        "after": "No. 87c, New Boundary Road, Batticaloa 30000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "VITHUS CLINIC",
+        "after": "Vithus Clinic",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "stella clinic",
+        "after": "Stella Clinic",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Medical supplies division, T.H.Batticaloa",
+        "after": "Medical Supplies Division, T.H.Batticaloa",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "14 Baily Rd, Batticaloa",
+        "after": "14 Baily Road, Batticaloa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Department of Buildings",
+        "after": "Department Of Buildings",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Pearl beach house",
+        "after": "Pearl Beach House",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "SUVEA FOODCITY KATHIRAVELI",
+        "after": "Suvea Foodcity Kathiraveli",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Trincomalee-Batticaloa Rd",
+        "after": "Trincomalee-Batticaloa Road",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Trincomalee-Batticaloa Rd",
+        "after": "Trincomalee-Batticaloa Road",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      }
+    ],
+    "normalization_changes": [
+      {
+        "record_index": 0,
+        "source_query_keys": [
+          "batticaloa-district--food--a17fa501"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Dream cafe",
+            "after": "Dream Cafe",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "PP82+P25, Pansala Rd, Batticaloa",
+            "after": "PP82+P25, Pansala Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXCHPXF13K90QG6E9T3QK"
+      },
+      {
+        "record_index": 2,
+        "source_query_keys": [
+          "batticaloa-district--food--a17fa501"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Fouzar Hotel and Restaurant",
+            "after": "Fouzar Hotel And Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "MQ53+C39, Main Rd, palamunai",
+            "after": "MQ53+C39, Main Road, palamunai",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXCPG5TD3K96KAQ31AYA8"
+      },
+      {
+        "record_index": 4,
+        "source_query_keys": [
+          "batticaloa-district--food--a17fa501"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Mohamed Hotel & bakery",
+            "after": "Mohamed Hotel & Bakery",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Oddamavadi - Vahaneri Rd",
+            "after": "Oddamavadi - Vahaneri Road",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXCVK63KYM8WXP7YRZ0MX"
+      },
+      {
+        "record_index": 5,
+        "source_query_keys": [
+          "ampara-district--retail--8888e067",
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "ST Multy service",
+            "after": "ST Multy Service",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXCXZWEMSGTDN3RKNBCH3"
+      },
+      {
+        "record_index": 6,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "AMS MULTY SHOP",
+            "after": "Ams Multy Shop",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXD0E5PX21P9WMRBKT3NS"
+      },
+      {
+        "record_index": 7,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "50 Trinco Rd, Batticaloa 30000",
+            "after": "50 Trinco Road, Batticaloa 30000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXD2R6MDH7YBR1RG49S5V"
+      },
+      {
+        "record_index": 8,
+        "source_query_keys": [
+          "ampara-district--retail--8888e067",
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "MPFM+78Q, New Kalmunai Rd, Batticaloa",
+            "after": "MPFM+78Q, New Kalmunai Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXD4Z8PQD4XPYMVSENHQY"
+      },
+      {
+        "record_index": 12,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "8 Cemetery Rd, Batticaloa",
+            "after": "8 Cemetery Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXDEST1Z8QQMFGB2MZA5V"
+      },
+      {
+        "record_index": 13,
+        "source_query_keys": [
+          "ampara-district--retail--8888e067",
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "MPX8+VXV, New Kalmunai Rd, Kallady",
+            "after": "MPX8+VXV, New Kalmunai Road, Kallady",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXDH5AZPBBM8KH54QNFX2"
+      },
+      {
+        "record_index": 14,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Deva's Multi center",
+            "after": "Deva's Multi Center",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXDKN2ZJXW8VWZ0NTDHZZ"
+      },
+      {
+        "record_index": 15,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "3DR shop",
+            "after": "3DR Shop",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "PP98+897, Navalady Rd, Kallady",
+            "after": "PP98+897, Navalady Road, Kallady",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXDP1WN9D86NMHDCSPB4Q"
+      },
+      {
+        "record_index": 18,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "SAN MULTY SHOP",
+            "after": "San Multy Shop",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "MPX9+RJQ, Tharisanam Rd, Kallady",
+            "after": "MPX9+RJQ, Tharisanam Road, Kallady",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXDXWNQ3G6QA07SFRHHRJ"
+      },
+      {
+        "record_index": 21,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "MPPH+XJC, Telecom Rd, Kattankudy",
+            "after": "MPPH+XJC, Telecom Road, Kattankudy",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXE5N8PFNES8W9YC2N2VS"
+      },
+      {
+        "record_index": 22,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "New Xplore Mini mart",
+            "after": "New Xplore Mini Mart",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXE85PKBM30Z0TWXHS4FD"
+      },
+      {
+        "record_index": 23,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "MPJR+4M2, Abrar Rd, Kattankudy",
+            "after": "MPJR+4M2, Abrar Road, Kattankudy",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXEAJPQW42KEZ0S210H9K"
+      },
+      {
+        "record_index": 26,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "PM7C+2J5, Urani Rd, Batticaloa",
+            "after": "PM7C+2J5, Urani Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXEHWCMBA7WTGN93VTV6N"
+      },
+      {
+        "record_index": 28,
+        "source_query_keys": [
+          "ampara-district--retail--8888e067",
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "HIFARI STORE",
+            "after": "Hifari Store",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXEPHQ0FV39Q32YD5GHJN"
+      },
+      {
+        "record_index": 29,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Mithunas grocery shop",
+            "after": "Mithunas Grocery Shop",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXES9ADW624PE5MMBERNJ"
+      },
+      {
+        "record_index": 30,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Mini mart",
+            "after": "Mini Mart",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "PP2H+2CF, Poonochimunai Rd, Kallady",
+            "after": "PP2H+2CF, Poonochimunai Road, Kallady",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXEVP8772YANKQNEAC395"
+      },
+      {
+        "record_index": 31,
+        "source_query_keys": [
+          "ampara-district--retail--8888e067",
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "NR SWEETS&PRODUCT",
+            "after": "Nr Sweets&Product",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "MPGQ+V88, Deen Rd, Kattankudy",
+            "after": "MPGQ+V88, Deen Road, Kattankudy",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXEY0K4HYC7GA8WF80ZPN"
+      },
+      {
+        "record_index": 33,
+        "source_query_keys": [
+          "ampara-district--retail--8888e067",
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "MPCJ+QQM, Mariamman Kovil Rd, North",
+            "after": "MPCJ+QQM, Mariamman Kovil Road, North",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXF30E77JTZG7W7Y636NZ"
+      },
+      {
+        "record_index": 35,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "PMCV+PJC, Trinco Rd, Batticaloa",
+            "after": "PMCV+PJC, Trinco Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXF7XV4WENT033JNR2960"
+      },
+      {
+        "record_index": 36,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "RESEITAR STORES",
+            "after": "Reseitar Stores",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXFA7ECFJ9N8GAYGK38J6"
+      },
+      {
+        "record_index": 37,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Noorzar grocery shop",
+            "after": "Noorzar Grocery Shop",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "141 Deen Rd, Kattankudy",
+            "after": "141 Deen Road, Kattankudy",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXFCWYJERGVX8MWRZYDZE"
+      },
+      {
+        "record_index": 38,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "140 A Deen Rd, Kattankudy",
+            "after": "140 A Deen Road, Kattankudy",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXFFPMS9X2R3G81GYPFTG"
+      },
+      {
+        "record_index": 39,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "அம்மா மசாலா Home made Products",
+            "after": "அம்மா மசாலா Home Made Products",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXFJ579ZGM70YDY0DM4RQ"
+      },
+      {
+        "record_index": 42,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "MPJR+2CP, Abrar Rd, Kattankudy",
+            "after": "MPJR+2CP, Abrar Road, Kattankudy",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXFSVRTG6QNYP6JV7RKKR"
+      },
+      {
+        "record_index": 45,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "PM5Q+7W6, Hospital Rd, Batticaloa",
+            "after": "PM5Q+7W6, Hospital Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXG0V7JMK9N9NJZPF40SA"
+      },
+      {
+        "record_index": 47,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "NEW ASLAM TRADERS",
+            "after": "New Aslam Traders",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXG5NT5M4NJRY9JZGMP59"
+      },
+      {
+        "record_index": 48,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "GO FRESH GROCERY 👍",
+            "after": "Go Fresh Grocery 👍",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXG7ZEZ0QSSRZDFMRNG5A"
+      },
+      {
+        "record_index": 51,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Suwashthik store 🏬",
+            "after": "Suwashthik Store 🏬",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXGER467ZGCTB7DEKFPPP"
+      },
+      {
+        "record_index": 53,
+        "source_query_keys": [
+          "ampara-district--retail--8888e067",
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "MPJF+M5W, Shareef Proctor Rd, Kattankudy",
+            "after": "MPJF+M5W, Shareef Proctor Road, Kattankudy",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXGKB1H83WY77M84YVT58"
+      },
+      {
+        "record_index": 56,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Take It Easy",
+            "after": "Take IT Easy",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "30 Saravana Rd, Kallady",
+            "after": "30 Saravana Road, Kallady",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXGV1PBHC9RWXAYKT6BG7"
+      },
+      {
+        "record_index": 57,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "SAFEER FRESH FRUITS",
+            "after": "Safeer Fresh Fruits",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXGXD1YZ6M5AY9XFVV04B"
+      },
+      {
+        "record_index": 58,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "KKY STORE",
+            "after": "Kky Store",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "47 Pillaiyar Kovil Rd, Kallady",
+            "after": "47 Pillaiyar Kovil Road, Kallady",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXGZS41DWYTAYV8Q2B96B"
+      },
+      {
+        "record_index": 59,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "PMJ9+WGC, Trincomalee-Batticaloa Rd, Batticaloa",
+            "after": "PMJ9+WGC, Trincomalee-Batticaloa Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXH22JV9TGXPE1HD90E7P"
+      },
+      {
+        "record_index": 60,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "St anthonys distribution KKD",
+            "after": "St Anthonys Distribution KKD",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXH4C9EEG0WC5KD7TD936"
+      },
+      {
+        "record_index": 61,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "MIM DISTRIBUTOR",
+            "after": "Mim Distributor",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXH6V9EYZQ09R8EYZJDDF"
+      },
+      {
+        "record_index": 64,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Thaya store",
+            "after": "Thaya Store",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXHJ3H836GFWRT77CFKSG"
+      },
+      {
+        "record_index": 66,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "179 Old Rd, Kallady",
+            "after": "179 Old Road, Kallady",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXHQ45F0Y9W1N35V8HRVG"
+      },
+      {
+        "record_index": 70,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "airoos Fruits Shop",
+            "after": "Airoos Fruits Shop",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXJ0ZG6DBG16KVKGWPJ68"
+      },
+      {
+        "record_index": 71,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Hikma stores",
+            "after": "Hikma Stores",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "11 Palamunai Rd, Kattankudy",
+            "after": "11 Palamunai Road, Kattankudy",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXJ3AG3E9D5FQ660FHS2R"
+      },
+      {
+        "record_index": 72,
+        "source_query_keys": [
+          "batticaloa-district--retail--82ba4016"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Yogeetha house",
+            "after": "Yogeetha House",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXJ5T2460AW4W65215FQ8"
+      },
+      {
+        "record_index": 73,
+        "source_query_keys": [
+          "batticaloa-district--education--5e653dee"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Science college",
+            "after": "Science College",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXJ8AF6K9P06SP4DBZ9S9"
+      },
+      {
+        "record_index": 77,
+        "source_query_keys": [
+          "batticaloa-district--health--19c2ac06"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "PM5R+CMV, Mathew's Rd, Batticaloa",
+            "after": "PM5R+CMV, Mathew's Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXJMSY5V3JE69K819TZST"
+      },
+      {
+        "record_index": 78,
+        "source_query_keys": [
+          "batticaloa-district--health--19c2ac06"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "176 Hospital Rd, Batticaloa 30000",
+            "after": "176 Hospital Road, Batticaloa 30000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXJQZER0EVYR1X9Y7K5G7"
+      },
+      {
+        "record_index": 83,
+        "source_query_keys": [
+          "batticaloa-district--health--19c2ac06"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Well care pharmacy",
+            "after": "Well Care Pharmacy",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No87c, New Boundary Rd, Batticaloa 30000",
+            "after": "No. 87c, New Boundary Road, Batticaloa 30000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXK4WMPYQRSS07VJ8YXBT"
+      },
+      {
+        "record_index": 85,
+        "source_query_keys": [
+          "batticaloa-district--health--19c2ac06"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "VITHUS CLINIC",
+            "after": "Vithus Clinic",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXK9KQ0S1YFG269GNQ0KQ"
+      },
+      {
+        "record_index": 87,
+        "source_query_keys": [
+          "batticaloa-district--health--19c2ac06"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "stella clinic",
+            "after": "Stella Clinic",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXKE6YBAENWZNQAAE1W0R"
+      },
+      {
+        "record_index": 88,
+        "source_query_keys": [
+          "batticaloa-district--health--19c2ac06"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Medical supplies division, T.H.Batticaloa",
+            "after": "Medical Supplies Division, T.H.Batticaloa",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXKGE8SJ3PF6ETPN8P99C"
+      },
+      {
+        "record_index": 91,
+        "source_query_keys": [
+          "batticaloa-district--health--19c2ac06"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "14 Baily Rd, Batticaloa",
+            "after": "14 Baily Road, Batticaloa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXKQVVMCCBKQDM186DDNS"
+      },
+      {
+        "record_index": 93,
+        "source_query_keys": [
+          "batticaloa-district--public-services--5e9538a8"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Department of Buildings",
+            "after": "Department Of Buildings",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXKWCG3ZX72SDJCEEZN18"
+      },
+      {
+        "record_index": 94,
+        "source_query_keys": [
+          "batticaloa-district--tourism--2c31340d"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Pearl beach house",
+            "after": "Pearl Beach House",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6QSXKYYR7QTFQECN4K6ZATK"
+      },
+      {
+        "record_index": 98,
+        "source_query_keys": [
+          "trincomalee-district--retail--ee7ca649"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "SUVEA FOODCITY KATHIRAVELI",
+            "after": "Suvea Foodcity Kathiraveli",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Trincomalee-Batticaloa Rd",
+            "after": "Trincomalee-Batticaloa Road",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXM8DQRYESS461ZCGVPJZ"
+      },
+      {
+        "record_index": 99,
+        "source_query_keys": [
+          "trincomalee-district--health--3b7507c2"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Trincomalee-Batticaloa Rd",
+            "after": "Trincomalee-Batticaloa Road",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6QSXMATKHDZD0KBXMBSR33J"
+      }
+    ],
+    "unresolved_new_nearby_duplicate_pairs": [],
+    "per_record_public_eligibility_gate": "scripts/place_eligibility.py",
+    "existing_active_ids_and_aliases_are_reused_for_duplicate_checks": true,
+    "roads_and_speed_limits_modified": false,
+    "phase6_3_cumulative_imported_ulids": [
+      "01M6QSXCHPXF13K90QG6E9T3QK",
+      "01M6QSXCM38AWHAT6W8JYRRYN3",
+      "01M6QSXCPG5TD3K96KAQ31AYA8",
+      "01M6QSXCS77Z3VT7HEE5YC04P5",
+      "01M6QSXCVK63KYM8WXP7YRZ0MX",
+      "01M6QSXCXZWEMSGTDN3RKNBCH3",
+      "01M6QSXD0E5PX21P9WMRBKT3NS",
+      "01M6QSXD2R6MDH7YBR1RG49S5V",
+      "01M6QSXD4Z8PQD4XPYMVSENHQY",
+      "01M6QSXD7A4DF4SNBPHJZY2K7B",
+      "01M6QSXD9PRX0TY2VQTHCA0BQT",
+      "01M6QSXDC9H6H4TPP39V901KMY",
+      "01M6QSXDEST1Z8QQMFGB2MZA5V",
+      "01M6QSXDH5AZPBBM8KH54QNFX2",
+      "01M6QSXDKN2ZJXW8VWZ0NTDHZZ",
+      "01M6QSXDP1WN9D86NMHDCSPB4Q",
+      "01M6QSXDRRCT5GMBXY9C2PDHBA",
+      "01M6QSXDVFN06D0G4ZF37Z81KR",
+      "01M6QSXDXWNQ3G6QA07SFRHHRJ",
+      "01M6QSXE0D28M1GW3Z51AGWGP2",
+      "01M6QSXE35M52STHN41PV9CEKZ",
+      "01M6QSXE5N8PFNES8W9YC2N2VS",
+      "01M6QSXE85PKBM30Z0TWXHS4FD",
+      "01M6QSXEAJPQW42KEZ0S210H9K",
+      "01M6QSXED2YSFB4ZXA6MP9R0WJ",
+      "01M6QSXEFF75VKDR4FVDKX6ENR",
+      "01M6QSXEHWCMBA7WTGN93VTV6N",
+      "01M6QSXEM5RYYNQ3ZRBW1WNN0D",
+      "01M6QSXEPHQ0FV39Q32YD5GHJN",
+      "01M6QSXES9ADW624PE5MMBERNJ",
+      "01M6QSXEVP8772YANKQNEAC395",
+      "01M6QSXEY0K4HYC7GA8WF80ZPN",
+      "01M6QSXF0K3NKP5DJKYN2ZSV3R",
+      "01M6QSXF30E77JTZG7W7Y636NZ",
+      "01M6QSXF5AJ3MF3BH0REJ5MGEY",
+      "01M6QSXF7XV4WENT033JNR2960",
+      "01M6QSXFA7ECFJ9N8GAYGK38J6",
+      "01M6QSXFCWYJERGVX8MWRZYDZE",
+      "01M6QSXFFPMS9X2R3G81GYPFTG",
+      "01M6QSXFJ579ZGM70YDY0DM4RQ",
+      "01M6QSXFMM5M9DYNQSGDEEXHDE",
+      "01M6QSXFQ1Q6X6TZ51661FCCBG",
+      "01M6QSXFSVRTG6QNYP6JV7RKKR",
+      "01M6QSXFW75R40GTAWQ161MCNZ",
+      "01M6QSXFYG2YX72Y9C1S60Q35T",
+      "01M6QSXG0V7JMK9N9NJZPF40SA",
+      "01M6QSXG38PJSEFRH7C9J22HK9",
+      "01M6QSXG5NT5M4NJRY9JZGMP59",
+      "01M6QSXG7ZEZ0QSSRZDFMRNG5A",
+      "01M6QSXGA80KZQ1BFVGAD37T4A",
+      "01M6QSXGCFBPS32ZRDT84M8DKA",
+      "01M6QSXGER467ZGCTB7DEKFPPP",
+      "01M6QSXGH1KXVV146MKQ8D6W3E",
+      "01M6QSXGKB1H83WY77M84YVT58",
+      "01M6QSXGNQG3NWD04GDAER0B0F",
+      "01M6QSXGRGKEPN7SXDWDVXDNH6",
+      "01M6QSXGV1PBHC9RWXAYKT6BG7",
+      "01M6QSXGXD1YZ6M5AY9XFVV04B",
+      "01M6QSXGZS41DWYTAYV8Q2B96B",
+      "01M6QSXH22JV9TGXPE1HD90E7P",
+      "01M6QSXH4C9EEG0WC5KD7TD936",
+      "01M6QSXH6V9EYZQ09R8EYZJDDF",
+      "01M6QSXH96TZWN7BN0ZK0N9E74",
+      "01M6QSXHD0NKJCJ05ZWWVTEJEM",
+      "01M6QSXHJ3H836GFWRT77CFKSG",
+      "01M6QSXHMM67AC94TYK6BGKJG5",
+      "01M6QSXHQ45F0Y9W1N35V8HRVG",
+      "01M6QSXHSMX2AJ91Y7P75F3RK8",
+      "01M6QSXHW0WAYQ2JFHG43NB18S",
+      "01M6QSXHY8J305ZJHW3Q0F59WM",
+      "01M6QSXJ0ZG6DBG16KVKGWPJ68",
+      "01M6QSXJ3AG3E9D5FQ660FHS2R",
+      "01M6QSXJ5T2460AW4W65215FQ8",
+      "01M6QSXJ8AF6K9P06SP4DBZ9S9",
+      "01M6QSXJAMAFPQ68Z1AM7W52MA",
+      "01M6QSXJCZJ7XV3RV7E3XH5VE9",
+      "01M6QSXJGJ56R0R8WAAKPEC0HD",
+      "01M6QSXJMSY5V3JE69K819TZST",
+      "01M6QSXJQZER0EVYR1X9Y7K5G7",
+      "01M6QSXJTYGYN228TEAQ49508S",
+      "01M6QSXJXBW3Z72N36ETWBY5RF",
+      "01M6QSXJZXQHG47PS68CK2E9TQ",
+      "01M6QSXK2GTMYYQRHYAF24QKWG",
+      "01M6QSXK4WMPYQRSS07VJ8YXBT",
+      "01M6QSXK7BRXRSM18K2K9MH1N3",
+      "01M6QSXK9KQ0S1YFG269GNQ0KQ",
+      "01M6QSXKBX0KWKWJT7ZYJS970T",
+      "01M6QSXKE6YBAENWZNQAAE1W0R",
+      "01M6QSXKGE8SJ3PF6ETPN8P99C",
+      "01M6QSXKJQWE2RNRDPCK5GTSAR",
+      "01M6QSXKN30C5MEACBCPKE98GE",
+      "01M6QSXKQVVMCCBKQDM186DDNS",
+      "01M6QSXKT50E3YYM8FAKNN3JPR",
+      "01M6QSXKWCG3ZX72SDJCEEZN18",
+      "01M6QSXKYYR7QTFQECN4K6ZATK",
+      "01M6QSXM187G4GYE3YEBFMMSZM",
+      "01M6QSXM3RSHWVD3KYVKNHAP9R",
+      "01M6QSXM63RQDKA15ZMZBNK768",
+      "01M6QSXM8DQRYESS461ZCGVPJZ",
+      "01M6QSXMATKHDZD0KBXMBSR33J"
+    ],
+    "phase6_3_cumulative_imported_count": 100
+  },
+  "phase": "Eastern Province further coverage batch 2",
+  "generated_integrity": {
+    "pmtiles_features": 6457,
+    "pmtiles_sha256": "67429c8723d3e3f64e51406fad358714cdb85aa50aa2ee830f296d23014b260d",
+    "alias_count": 1086,
+    "shards": {
+      "0001": 999,
+      "0002": 999,
+      "0003": 999,
+      "0004": 999,
+      "0005": 999,
+      "0006": 999,
+      "0007": 499
+    },
+    "maximum_shard_size": 999,
+    "roads_source_records": 3710,
+    "speed_limit_source_records": 3710,
+    "supplementary_maxspeed_source_tags": 462,
+    "pmtiles_bytes": 2688565
+  },
+  "before_after_integrity": {
+    "before": {
+      "active_place_records": 6393,
+      "public_geographic_features": 6357,
+      "alias_count": 1086,
+      "road_records": 3710,
+      "road_sources_sha256": "ead714c9107595f2b25e9f96f70053f55d2b314f2a22862619fe9f37aef78a9c",
+      "speed_limit_records": 3710,
+      "speed_limit_sources_sha256": "5886d082050d3e8c8142bd10d873aa5d2173cbc0e611126e4e219b1b9eba26a1",
+      "supplementary_maxspeed_records": 462,
+      "supplementary_source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872"
+    },
+    "after": {
+      "active_place_records": 6493,
+      "public_geographic_features": 6457,
+      "alias_count": 1086,
+      "road_records": 3710,
+      "road_sources_sha256": "ead714c9107595f2b25e9f96f70053f55d2b314f2a22862619fe9f37aef78a9c",
+      "speed_limit_records": 3710,
+      "speed_limit_sources_sha256": "5886d082050d3e8c8142bd10d873aa5d2173cbc0e611126e4e219b1b9eba26a1",
+      "supplementary_maxspeed_records": 462,
+      "supplementary_source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872"
+    },
+    "existing_place_ulids_preserved": true,
+    "aliases_preserved": true,
+    "all_shards_within_limit": true
+  },
+  "review_queue": {
+    "phase6_2_reported_conflicting_existing_matches_unchanged": 13,
+    "phase6_2_reported_eligibility_uncertain_candidates_unchanged": 11,
+    "current_combined_unresolved_existing_match_candidates": 14,
+    "current_combined_eligibility_uncertain_candidates": 1,
+    "phase6_2_named_case_decisions": [
+      {
+        "name": "Amma Hotel",
+        "ulids": [
+          "01M5Z17G0C4C1Q8YM3ZR7W7HES",
+          "01M5Z17GC75PDB0MRNFK5PN6ZE"
+        ],
+        "decision": "retained separately",
+        "reason": "12.8 m apart with differing address and category values; no independent evidence resolves whether these are one listing or separate businesses."
+      },
+      {
+        "name": "Markaz Mosque, Oddamawadi",
+        "ulids": [
+          "01M5Z5PDD8W74TDEST9HG41RY3",
+          "01M5Z5PJM2K9AGEBTQWXNSCGPZ"
+        ],
+        "decision": "retained separately",
+        "reason": "Same address/category and about 10 m apart, but coordinates differ and available records do not independently establish which point should be canonical."
+      }
+    ],
+    "uncertain_and_conflicting_candidate_details_omitted": true,
+    "no_unresolved_candidate_was_deleted_or_merged": true
+  }
+}

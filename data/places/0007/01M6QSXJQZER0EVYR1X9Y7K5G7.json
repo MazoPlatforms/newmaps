@@ -1,0 +1,59 @@
+{
+  "name": "New Maruthy Medicals",
+  "coordinates": {
+    "latitude": 7.708145,
+    "longitude": 81.6896853
+  },
+  "categories": [
+    "Pharmacy",
+    "Drug store"
+  ],
+  "address": "176 Hospital Road, Batticaloa 30000",
+  "phone": "0752323191",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6QSXJQZER0EVYR1X9Y7K5G7"
+}

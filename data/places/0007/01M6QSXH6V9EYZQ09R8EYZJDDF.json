@@ -1,0 +1,64 @@
+{
+  "name": "Mim Distributor",
+  "coordinates": {
+    "latitude": 7.681566999999999,
+    "longitude": 81.736437
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "MPJP+MMW, Kattankudy",
+  "phone": "0777279459",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–2 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–2 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM",
+        "5–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6QSXH6V9EYZQ09R8EYZJDDF"
+}

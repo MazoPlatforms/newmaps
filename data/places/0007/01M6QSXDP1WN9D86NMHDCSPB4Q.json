@@ -1,0 +1,58 @@
+{
+  "name": "3DR Shop",
+  "coordinates": {
+    "latitude": 7.7182787,
+    "longitude": 81.7159274
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "PP98+897, Navalady Road, Kallady",
+  "phone": "0756324208",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6QSXDP1WN9D86NMHDCSPB4Q"
+}

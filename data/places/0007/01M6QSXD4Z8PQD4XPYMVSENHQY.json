@@ -1,0 +1,58 @@
+{
+  "name": "Aanantha Stores",
+  "coordinates": {
+    "latitude": 7.6732131,
+    "longitude": 81.7333684
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "MPFM+78Q, New Kalmunai Road, Batticaloa",
+  "phone": "0773426047",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "id": "01M6QSXD4Z8PQD4XPYMVSENHQY"
+}

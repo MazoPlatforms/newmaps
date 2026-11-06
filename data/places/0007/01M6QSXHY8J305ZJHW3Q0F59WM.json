@@ -1,0 +1,58 @@
+{
+  "name": "Ayesha Maryam Store",
+  "coordinates": {
+    "latitude": 7.6779589999999995,
+    "longitude": 81.7370518
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "MPHP+5RM, Kattankudy",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11:30 AM",
+        "3:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6QSXHY8J305ZJHW3Q0F59WM"
+}
