@@ -1,0 +1,5429 @@
+{
+  "report_version": 1,
+  "scope": "Sri Lanka and any documented mzc discovery result that passes public-place and duplicate checks",
+  "boundary": {
+    "enforced": false,
+    "membership_rule": "Boundary membership was intentionally not used as an exclusion criterion for this opt-in global discovery import; location is retained only as supplied by the CLI."
+  },
+  "discovery": {
+    "interface": "mzc CLI only",
+    "command_syntax": "mzc -l 500 -c lk -t 30 '<documented query string>'",
+    "pagination": "No pagination option is documented by mzc --help; queries reaching 500 results must be subdivided.",
+    "result_origin_or_license": "Owner-supplied collection; collection methodology and origin were not investigated. The documented CLI output does not expose redistribution license metadata; no provider attribution is inferred.",
+    "independent_place_verification": "not performed; imported listings remain unverified",
+    "capture_log_note": "Four preliminary successful administrative-area queries returned responses that were not retained, so their result counts are unknown and excluded. Two documented invocations were interrupted before capture and later retried successfully. Two query runners briefly overlapped; retained responses were reconciled by unique query, but the exact number of redundant calls cannot be reconstructed. Confirmed invocation count is therefore a lower bound.",
+    "invocations_in_manifest": 7,
+    "confirmed_cli_invocations_at_least": 7,
+    "exact_cli_invocation_total_available": false,
+    "overlap_repeat_invocation_count": null,
+    "successful_queries": 7,
+    "uncaptured_successful_queries": 0,
+    "uncaptured_successful_query_rows_unknown": 0,
+    "failed_queries": 0,
+    "failed_attempts": 0,
+    "successful_retries": 0,
+    "unique_query_strings": 7,
+    "raw_candidates_returned_in_retained_json": 408,
+    "raw_candidates_returned_from_retained_successful_responses": 408,
+    "queries_at_500_result_limit": 0,
+    "queries": [
+      {
+        "key": "eastern-province-broad",
+        "query": "public places in Eastern Province, Sri Lanka",
+        "town": "eastern-province",
+        "category": "public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 79,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "ampara-food",
+        "query": "restaurants and food businesses in Ampara District, Eastern Province, Sri Lanka",
+        "town": "ampara",
+        "category": "food",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 65,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "ampara-public",
+        "query": "government offices schools hospitals banks public services in Ampara District, Eastern Province, Sri Lanka",
+        "town": "ampara",
+        "category": "public-services",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 16,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "ampara-retail",
+        "query": "shops supermarkets pharmacies vehicle services in Ampara District, Eastern Province, Sri Lanka",
+        "town": "ampara",
+        "category": "retail",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 8,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee-food",
+        "query": "restaurants and food businesses in Trincomalee District, Eastern Province, Sri Lanka",
+        "town": "trincomalee",
+        "category": "food",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 207,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee-public",
+        "query": "government offices schools hospitals banks public services in Trincomalee District, Eastern Province, Sri Lanka",
+        "town": "trincomalee",
+        "category": "public-services",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 23,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee-retail",
+        "query": "shops supermarkets pharmacies vehicle services in Trincomalee District, Eastern Province, Sri Lanka",
+        "town": "trincomalee",
+        "category": "retail",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 10,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      }
+    ],
+    "phase6_3_additional_gap_queries": 0,
+    "phase6_2_failed_prompts_recovered": {
+      "count": 0,
+      "all_retried_prompts_succeeded": true
+    }
+  },
+  "processing": {
+    "raw_candidates_analyzed": 408,
+    "unique_candidates": 405,
+    "duplicate_query_rows_collapsed": 3,
+    "classification_counts": {
+      "excluded_confirmed_private": 0,
+      "existing_place_duplicate": 28,
+      "invalid_missing_coordinates": 0,
+      "invalid_missing_name": 0,
+      "mzc_source_conflict": 0,
+      "new_public_candidate": 353,
+      "uncertain_public_eligibility": 23,
+      "unresolved_existing_match": 1
+    },
+    "unresolved_reason_counts": {
+      "existing_same_name_nearby": 1,
+      "missing_specific_public_place_category_or_context": 23,
+      "residential_context_without_public_place_evidence": 5
+    },
+    "candidate_data_quality_signals": {
+      "missing_address": 11,
+      "missing_categories": 3,
+      "missing_phone": 79
+    },
+    "unresolved_candidates_are_not_listed_by_name_or_location": true,
+    "new_places_in_this_change": 353,
+    "unresolved_new_nearby_duplicate_pair_count": 0,
+    "active_place_records_before": 4534,
+    "active_place_records_after": 4887,
+    "current_batch_region": "all",
+    "name_format_changes": 76,
+    "address_format_changes": 124,
+    "imported_ulids": [
+      "01M6Q590W3EGJPBB2X50NZZZHY",
+      "01M6Q590Y170QDZR37GG58W8KN",
+      "01M6Q590ZWNS98NN6WK81V2EV1",
+      "01M6Q5911J0H813YWCSBW1AFT9",
+      "01M6Q59139KRHTKRPSGSZG9BGA",
+      "01M6Q59151VC9AEHSZPN60FWWV",
+      "01M6Q5916QP4Z0AMTH6RYTWK5E",
+      "01M6Q5918GG9EMNVMVZZKV6XDQ",
+      "01M6Q591A6ZYWAHS6RET2733VZ",
+      "01M6Q591BY1MPY0YBQ3GCANX6X",
+      "01M6Q591DRSEF55NEN4MQZXQMG",
+      "01M6Q591FFWFWPEK2CRMR0N1K7",
+      "01M6Q591HAZQKPM5FHTMCZ1DV8",
+      "01M6Q591K2K5WRG37DM48NJ85M",
+      "01M6Q591MQ5FHVCT391TRTVG5N",
+      "01M6Q591PG1BVMQVASQAM0BVXA",
+      "01M6Q591R601Y3NZJHMW1GE55S",
+      "01M6Q591SY5S5EHCSZCQ5HKM5M",
+      "01M6Q591VPD4GZ50K2WYBGYXFH",
+      "01M6Q591XQB3JKYE5VTDHD8AFW",
+      "01M6Q591ZFSBQ72NSEMFCB0PF2",
+      "01M6Q59219GZJRECV4AVCSZ91X",
+      "01M6Q592366AB16022YQ86XP3T",
+      "01M6Q5924VSQFRZ4C0DDNWV1EF",
+      "01M6Q5926KNMKHB2AZWJDGZQE7",
+      "01M6Q592885MX4689VTR80PBJH",
+      "01M6Q592A0BKT6MMJP1KPPRJ7K",
+      "01M6Q592BRV3HZVC5B3R522GDW",
+      "01M6Q592DF9CYWY5CDFSJZKMS7",
+      "01M6Q592F7S5EXRY801VV1WK92",
+      "01M6Q592H0G7KXW9F2XSYE1NRZ",
+      "01M6Q592JRTNMTAQ4XSJVQZRCR",
+      "01M6Q592MGHBQMEQGEH44HR29C",
+      "01M6Q592PA2JCFVN7PNC82YYVH",
+      "01M6Q592R0SVMX501G1A3SV9QH",
+      "01M6Q592T1XTZ0RP6QFSTAQTH3",
+      "01M6Q592VP2VSST4MR9HY2S9PA",
+      "01M6Q592XPVW3AX04P73VWY7RS",
+      "01M6Q592ZE90CMDCEMQAC30515",
+      "01M6Q59312HXTMJYW25A52DZBH",
+      "01M6Q5932WYNP26BN4FXVYXTSY",
+      "01M6Q5934JXNSN75EQQGY02VAZ",
+      "01M6Q5936AW96WF1C8PCAMJ371",
+      "01M6Q593832X00F2BHP9CVF0T3",
+      "01M6Q5939WAMCHJM4ABVF5V6HB",
+      "01M6Q593BM6PZE9TR3XX8JQBAX",
+      "01M6Q593DDM64FE6ZVGQYW4HH0",
+      "01M6Q593F3P6FAFKC2B1D2W42W",
+      "01M6Q593GW0XRE2TE7QPVVECGD",
+      "01M6Q593JMXDDS2DHQPQE6RGP3",
+      "01M6Q593MB35YMMTAB0ZH6052X",
+      "01M6Q593P73H3A05P0GRGNA1JG",
+      "01M6Q593QZHY9NSV815TA6KGE2",
+      "01M6Q593SM3JYHB8TNJ71TES5F",
+      "01M6Q593VJE6NDNXC9138M2TW9",
+      "01M6Q593XG5S88AWW7GTSAJHWJ",
+      "01M6Q593Z8A0297GMECW5QS8M6",
+      "01M6Q59410QZM3P7WDDHFMYG3Y",
+      "01M6Q5942PMR1PH7ZGPX6AQVH2",
+      "01M6Q5944ENM8R037DH7MN0EST",
+      "01M6Q5946568WNX79X16D5384Q",
+      "01M6Q5947V9MFSG58AHD5S20TA",
+      "01M6Q5949NB466QXF00N22SW4V",
+      "01M6Q594BCA1TBQWRBG83GMXAG",
+      "01M6Q594D3KDHQT87D1P1SSRY5",
+      "01M6Q594F01YJG57XD9N7518ER",
+      "01M6Q594GPQ1E96DB0CMDWXVCJ",
+      "01M6Q594JGMWKG58WJQS8SCXQD",
+      "01M6Q594M5K1SZDXGPYY6Z12D5",
+      "01M6Q594NY2TW7DXVWEQ47Y458",
+      "01M6Q594QQ4YYXG0BKRXCR2T0D",
+      "01M6Q594SCRG0C351ZPT59DMGS",
+      "01M6Q594V49S5V6THAQ4FH507A",
+      "01M6Q594X5CCNZD2T2960MBT0P",
+      "01M6Q594YVHXJKP74TVESR1TGH",
+      "01M6Q5950MVBA5HTDGNEQ7EMHC",
+      "01M6Q5952HDSWM4ME5EHG81XTG",
+      "01M6Q59548A7RJ0HRWTSDF6EAP",
+      "01M6Q5957Z83F055R0JH927WA0",
+      "01M6Q595BHYMPTFYZA01BDDTSX",
+      "01M6Q595DRH1PSGTNCAZKDN65W",
+      "01M6Q595FHYYWXYQP1CV54B9M3",
+      "01M6Q595H886FVC1QQFCPETE99",
+      "01M6Q595KPBEF11MB6TQQ24MN9",
+      "01M6Q595PKZ8F6KF9QCYG88RMD",
+      "01M6Q595RMR3VBBH5TXF5X5WNK",
+      "01M6Q595TCHQBKV9MBY9SFHRPD",
+      "01M6Q595WK0RNX2TG79XG6DBJ0",
+      "01M6Q595YB94XC9MG4WFNQDD2D",
+      "01M6Q59605B4HW15CFWVE8K21W",
+      "01M6Q5961VW4YMPKM9GGAMB1M0",
+      "01M6Q5963MH29R2ANVQ7485KEX",
+      "01M6Q5965DKD3V7SD12GJBKKDQ",
+      "01M6Q59673S1JFGBXQST955CGY",
+      "01M6Q5968XN56TXJ7RVARQPQCA",
+      "01M6Q596AKN053DM2Q0X3CREK9",
+      "01M6Q596CCSD6TNY08S07HDNQY",
+      "01M6Q596EAX3MAKM0M8E1Q2NDA",
+      "01M6Q596G34HKJH2AR97P5QMPZ",
+      "01M6Q596HT48JTMS5TD2BHG6CQ",
+      "01M6Q596KP2Q68E8V74AEXA2JD",
+      "01M6Q596NDBG6F5513RTY7PM09",
+      "01M6Q596Q6HME5HHSTKC09P105",
+      "01M6Q596S0WCYQ6KY60Q3PANJC",
+      "01M6Q596TRRG6M2MEH0J23SN77",
+      "01M6Q596WSWM5EYK93KKG5C6VD",
+      "01M6Q596YJVHA8N16GKT07K0B5",
+      "01M6Q59709W0E1PD8NBGMY1XSM",
+      "01M6Q5972669DC9135BGN6A359",
+      "01M6Q5973ZWPHMZCSTPNYPMRZA",
+      "01M6Q5975NZ1QTRVB98YH7015D",
+      "01M6Q5977EB81XJEEKPVYJ3FXN",
+      "01M6Q59798ZGGHW48B4Z05M1S6",
+      "01M6Q597AYVBWJZYCA2RKBCZMJ",
+      "01M6Q597CTWSJAKG0EDS8Y61C2",
+      "01M6Q597EMF6HEGBV80NDNYADW",
+      "01M6Q597GCAPTPHCP3FD35VSXM",
+      "01M6Q597J6GZ2NWRE8CSZE5K2A",
+      "01M6Q597M0AJ6HGVDAG5BZF2KM",
+      "01M6Q597NXW09ZWB1MC3M0W3XX",
+      "01M6Q597QPWKAKPS947V16YMJ5",
+      "01M6Q597SG697ZE72HFZQ6ACSX",
+      "01M6Q597VETX84TCPNZHM6A1E0",
+      "01M6Q597X9827GVNSENC1A7RZW",
+      "01M6Q597Z1S2Q3KV8H7FNSPBQA",
+      "01M6Q5980R12FH8S3V4YT3XFHP",
+      "01M6Q5982JSGHTF9P1918878FS",
+      "01M6Q5984DH2TQRZW4S88YS0SM",
+      "01M6Q59864QKSNDWDQEPMK2VMX",
+      "01M6Q598805GQ0GQTTQR1R8H7Q",
+      "01M6Q5989RVBEQ5M37BY1YVRP2",
+      "01M6Q598BEVPCJR5P1YN3KVNJ3",
+      "01M6Q598DEBT76Z9FS50ACT4DC",
+      "01M6Q598F8XSBG6EAETZGPQQ5M",
+      "01M6Q598GY22CNG31DW7JRSVKQ",
+      "01M6Q598JWJ147ZVJNE4NNSB2W",
+      "01M6Q598MPESCNNAQBG7SRR39P",
+      "01M6Q598PEZ5P6TFCAKWP07SK8",
+      "01M6Q598RBW8VQ2A2YD34HJBVR",
+      "01M6Q598T5XSAF4BFV904XM468",
+      "01M6Q598W2PE2TRQ0MY90HJ8J2",
+      "01M6Q598XTTMZ3WZJBFBSE3FKN",
+      "01M6Q598ZJVH17NXPVPXQKZFZS",
+      "01M6Q599184DCRVHM0CNJWJ14W",
+      "01M6Q59933T17BEAS9FC0099DC",
+      "01M6Q5994XY1R332W94F0PC26J",
+      "01M6Q5996R6SQKY19HHSV9RN1A",
+      "01M6Q5998HH9FV46HFC793ZV0V",
+      "01M6Q599ACFKQM0G4EGEP66384",
+      "01M6Q599C42W8EPS5RPXK9QX98",
+      "01M6Q599DY9KAHKGDPF5BBQC9Q",
+      "01M6Q599FPMW5CHFHS5660EJAZ",
+      "01M6Q599HE178P0HKTWFV3ANJS",
+      "01M6Q599K895Q79EN2EMD5Y1NM",
+      "01M6Q599N36MA0638NH1RK0G8B",
+      "01M6Q599PZTNZAW7T0M79W51S6",
+      "01M6Q599RSW8X2VW8RM151QTT4",
+      "01M6Q599TSQ30JTR7S5735TTR7",
+      "01M6Q599WEW4CTKC18T6C4BC5X",
+      "01M6Q599Y9CT4F77GHM8N66PP5",
+      "01M6Q59A01MQ59RNBJCY0Y4BJV",
+      "01M6Q59A1T92HQ806TK2H6SVZB",
+      "01M6Q59A3MP755E3YV94AE8PY7",
+      "01M6Q59A5G8YA3S4G0GK0DE1G7",
+      "01M6Q59A7CDVJPXPYPDV0H0NYY",
+      "01M6Q59A95QGT48B4KS02XXHKD",
+      "01M6Q59AB0877CFPF3S0W11XRD",
+      "01M6Q59ACRWFH51XM95CX1B6EA",
+      "01M6Q59AEH2GQ14KG4RQN1MEK6",
+      "01M6Q59AGD8Y8SRHVZZC661BWK",
+      "01M6Q59AJ5AN0P65316NC5MS3G",
+      "01M6Q59AKZJBBNY1RASGCD9524",
+      "01M6Q59ANWP48XPJ4ACMT27QW4",
+      "01M6Q59AQMZXJ5ACQ5DN026FG4",
+      "01M6Q59ASCQTMF1XEFQZ0TPPES",
+      "01M6Q59AVC52FZP33GPCHSD95P",
+      "01M6Q59AX3YFF1PJVG8FC4WGT2",
+      "01M6Q59AYTHQ3MZRJ0EXHV91YJ",
+      "01M6Q59B0M4BB2TSDKWZ0KYA4X",
+      "01M6Q59B2B3GHN2TCQPHYE2FW4",
+      "01M6Q59B45H60KFGDBZG1ETQKN",
+      "01M6Q59B62KSWBWD273Y12V6TX",
+      "01M6Q59B7R0DVERKJ1PVJJDJ26",
+      "01M6Q59B9K0BXW0KFPZ26CJD6M",
+      "01M6Q59BBC5B787VEG8CJR7SM2",
+      "01M6Q59BD2KMFNDFKYYAJZ5AKN",
+      "01M6Q59BEVFFA7E6SHEBCZXFDF",
+      "01M6Q59BGP1D12FSDMD47TN066",
+      "01M6Q59BJDYNXTV8N4PTTPDXWN",
+      "01M6Q59BMBM89GS7PTNZVHFQG5",
+      "01M6Q59BP7KJ7FDW5MBXR9SXA3",
+      "01M6Q59BR1Z9GENACV3XJHN39H",
+      "01M6Q59BSZ1BAWBTNMRD51YJQF",
+      "01M6Q59BVRNW8QJKK9JHGX4KP3",
+      "01M6Q59BXHFM0S5BMB8R9EV3ZZ",
+      "01M6Q59BZB7Z74BP673MYTP6V7",
+      "01M6Q59C16SH966C709HCVHP8Q",
+      "01M6Q59C318E40J7C54CZW0PR7",
+      "01M6Q59C4VNC7663Z48KWJYSMM",
+      "01M6Q59C6ME5QZ799B76ZV8F9S",
+      "01M6Q59C8DKGSAHZN8DQWH7693",
+      "01M6Q59CA5QZ3TE2A3THE1PXK1",
+      "01M6Q59CBY5CS94FDWBQB7NG93",
+      "01M6Q59CDQY3JYTH7NRMDF24E8",
+      "01M6Q59CFHCDZPJY6HFT9KRTZR",
+      "01M6Q59CHA25XEW0T29EZMQFZ2",
+      "01M6Q59CKHDWSGAWD79M4YWMCY",
+      "01M6Q59CNE539WAKTZD7DNB944",
+      "01M6Q59CQ7M40PNW30FJ4HB13N",
+      "01M6Q59CS1TA8SS20GEEYD90X0",
+      "01M6Q59CV23EDKGVJ11ED6T3W5",
+      "01M6Q59CWTVX5JNCY5NRGEW065",
+      "01M6Q59CYKCJSZG8JMBR42W5ZB",
+      "01M6Q59D0D9X8CR5C4T9T3NPBT",
+      "01M6Q59D2A218ZEKJB7F1CQQ8Z",
+      "01M6Q59D45A9NYN553GPH84RNM",
+      "01M6Q59D5YY57FH1HH65T0F2NH",
+      "01M6Q59D7QRS1WA1NBB5W7TZC7",
+      "01M6Q59D9GVA4PK4GGPF0XPN8Q",
+      "01M6Q59DB9XFAA8P1BP8J11292",
+      "01M6Q59DD34CJZ6X5D72Q6CE3D",
+      "01M6Q59DEWDPG0TY61R79G0TJ8",
+      "01M6Q59DGPSBRG4GS7YGGZE4FM",
+      "01M6Q59DJGDR0CFXTRZ18YM140",
+      "01M6Q59DME4C83RCAZ07Q4WCDS",
+      "01M6Q59DP65D8MK43KNB4RZADJ",
+      "01M6Q59DR1RPMKGMVPH7VDQWGB",
+      "01M6Q59DT1REHQDWEAPGE5X5F4",
+      "01M6Q59DVRBGCPF4CAF8TBD3AH",
+      "01M6Q59DXMG666JVFVZJ61B1Z2",
+      "01M6Q59DZED50TFQQ64CZSTKDD",
+      "01M6Q59E16CPM6JYE6S242P7RJ",
+      "01M6Q59E34FAZTD5YGXP26J0T8",
+      "01M6Q59E4ZFZAK7SJR264095TC",
+      "01M6Q59E6TMGR0NMC4ACA2X4FG",
+      "01M6Q59E8JY0Y2V5731HE1TJXP",
+      "01M6Q59EACHJBPGY26W1H9SRCZ",
+      "01M6Q59EC665S75QMEXJJQVF75",
+      "01M6Q59EDZWEAHVYW080MFJF91",
+      "01M6Q59EFVX2D0GGDDCXCVACXZ",
+      "01M6Q59EHQ5SGHMQP5E054PFDF",
+      "01M6Q59EKN5641GCMN3NNFTV9K",
+      "01M6Q59ENT9VYZVGD7ES4MS1FD",
+      "01M6Q59EQJ2NAZX0B24R1T0R9V",
+      "01M6Q59ESJS6EASJT5R16W27QZ",
+      "01M6Q59EVECM33WDBMJQ6CQNKV",
+      "01M6Q59EX9D3VY8Q3HZBRC6S4K",
+      "01M6Q59EZ2PZ5NH6MEVYE5Z25Z",
+      "01M6Q59F0ZKHX2WDYWRGDB8FG8",
+      "01M6Q59F2V661927TNWQ8HWKSH",
+      "01M6Q59F4SNJS1SP82X7FGRTDZ",
+      "01M6Q59F8BK300WAM4Z15HYXRQ",
+      "01M6Q59FBWK6ZD1RMTRMY7A8C7",
+      "01M6Q59FE9ZRVT15MYZ43TA878",
+      "01M6Q59FGWDW1AEJSEKFS9QRSB",
+      "01M6Q59FKVP115X9M6ZW1CS1JD",
+      "01M6Q59FNXBZ6EGFB4KXS3VPTG",
+      "01M6Q59FQNHW3STT3XB1VFVVDX",
+      "01M6Q59FSWBPMEFTQZ3BZDKDNN",
+      "01M6Q59FVNBR6PQY2TPBY3ZSXR",
+      "01M6Q59FXF7ZPDGXSYF5EKF716",
+      "01M6Q59FZ9SZVHXVND9D70XR0H",
+      "01M6Q59G11336QHPN69ADTV58N",
+      "01M6Q59G2X44M1P578G20Y8DST",
+      "01M6Q59G4SR6726XNYQVQ1634H",
+      "01M6Q59G6J0CP8Z2Q3DRZDK5QY",
+      "01M6Q59G8HA3DGHP5ABBQ4XMZ6",
+      "01M6Q59GAG16EE7S2P963FY5S5",
+      "01M6Q59GCD5N3CS10ZVVD3MBT2",
+      "01M6Q59GE6DJDT21HDC8X07Z2V",
+      "01M6Q59GFZ9XD3NRTRVAT4WGA1",
+      "01M6Q59GHSR5BNSYA2RTWF5BFP",
+      "01M6Q59GKMEXXF316PMZ4TE0A5",
+      "01M6Q59GNF71W8CQ122S1QWHBZ",
+      "01M6Q59GQ94GPY0FJHJTFB0KXG",
+      "01M6Q59GSDG58T921PAZEWHGH0",
+      "01M6Q59GV6619C70BGFRNE33DV",
+      "01M6Q59GWZ8SWCNQ9DC0FVAW94",
+      "01M6Q59GYSY9GCJ2DMGH65RHY6",
+      "01M6Q59H0GNNNWD8JG8K4A6NYM",
+      "01M6Q59H2BNK26VW13ZHNQSTJ2",
+      "01M6Q59H461CR4R8DHENEZC9DX",
+      "01M6Q59H5Y165Q1JHQJARCP3Z5",
+      "01M6Q59H7V0QM0ETHMQ4M2J3FN",
+      "01M6Q59H9SS60F4KN2NZYC7B52",
+      "01M6Q59HBQ6E874AGGQQ2DK8NF",
+      "01M6Q59HDFHMW2TQA485MW7Q0J",
+      "01M6Q59HF9XRTJFSM9KGMZA4CP",
+      "01M6Q59HH3EFCB4ZHMHM9R1NC1",
+      "01M6Q59HJZMJ76GHM77B351WTN",
+      "01M6Q59HMS9JJHB0Z007KEHTR4",
+      "01M6Q59HPNKS6R9F83EMS5PPXF",
+      "01M6Q59HRP258VHJPZ8FQPB7SY",
+      "01M6Q59HTP1Y3JB44TARX291A4",
+      "01M6Q59HWECBMZM4NHT8GS3TB6",
+      "01M6Q59HY7VYN2RS0QD3YPP3P9",
+      "01M6Q59J00VCQ4K7H9FJYBB9DE",
+      "01M6Q59J1TPTHB6J93SGNEMM4D",
+      "01M6Q59J3MXEPN8YKXWD2C8MET",
+      "01M6Q59J5KDTT1JSVHZXYR2C5X",
+      "01M6Q59J7FX0NEQFZD80ZFEHJK",
+      "01M6Q59J9CAG4WX37JFBAFRPSG",
+      "01M6Q59JB8E83SBW3DBKH0HGCG",
+      "01M6Q59JD4W3NK2KK92R7HMTR3",
+      "01M6Q59JEY0WFY75K2J0FSZE0V",
+      "01M6Q59JGRWCE6CB4HA0T9WH4J",
+      "01M6Q59JJMYRH0SHV9AJE4NFMV",
+      "01M6Q59JMFWT50TQTCM22T1QFJ",
+      "01M6Q59JP8Y25NFAF5X31EJ4E0",
+      "01M6Q59JRB7ESR4XPHDGASN6MK",
+      "01M6Q59JTADW76N80DCAZPRKR2",
+      "01M6Q59JW12KGPJGQEYT15RBAV",
+      "01M6Q59JXXWDFEM7GAHPT9Y3V5",
+      "01M6Q59JZSPAEKCNQ4R5X0GKC0",
+      "01M6Q59K1G4JESM1QMEHZN0FN2",
+      "01M6Q59K3BZPNEVJNDYA96JA0S",
+      "01M6Q59K56NSFRDF42NBZ60KTZ",
+      "01M6Q59K720EVJFTKTV52Y0RBW",
+      "01M6Q59K90CZMZSFXH8VKKDD3R",
+      "01M6Q59KAWP37RNGAF2KGYS4RW",
+      "01M6Q59KCQ7Q4JMH1TE9QM0JNY",
+      "01M6Q59KEF3NQ1Q0ED8ZD63AY3",
+      "01M6Q59KGBSSCNZ05WYKDBBHGE",
+      "01M6Q59KJ560M2A36EYKSKPJGP",
+      "01M6Q59KM36Z8NCYYCCNYSFMBT",
+      "01M6Q59KNW8RZCP3ZGEJ8J2RCC",
+      "01M6Q59KQYJRREDWBHH4CKMXV5",
+      "01M6Q59KSZYP52DCF7VZBAJRX2",
+      "01M6Q59KVT6X8H7HMRY6W6VBYT",
+      "01M6Q59KXKDW45H3W2CNYJN3D9",
+      "01M6Q59KZHVJN67MR3KDB2H9F1",
+      "01M6Q59M1BWP5P0R7S7ZM2RAWF",
+      "01M6Q59M37X6GQ1PDD3H1EM63H",
+      "01M6Q59M52EY6ER066V5Y2Z4AF",
+      "01M6Q59M6X0BDF4DXDES5YSRRE",
+      "01M6Q59M8Q7YC37C01FSJ39Z4F",
+      "01M6Q59MAQ0XQK0AMG32025836",
+      "01M6Q59MCK49ZT66G54TB5QRP9",
+      "01M6Q59MEG5MKP1Z3Z55RGMFAX",
+      "01M6Q59MGB25MK2BE8Z15G5H2V",
+      "01M6Q59MJ5P5KHEN2RNKWRQA6G",
+      "01M6Q59MM2YE683BGY9A9PX86D",
+      "01M6Q59MNVFAN8MR2XKH2WEWW4",
+      "01M6Q59MQXTSW4NY96SB74HSEY",
+      "01M6Q59MSWCC1MAMSP1Q2F4K8G",
+      "01M6Q59MVR7D49C9HM4ZBXKQVF",
+      "01M6Q59MXHYJVP0Z8DPBEX62NT",
+      "01M6Q59MZBZSV3W8CGNQ25MF5M",
+      "01M6Q59N181VX235DM9T6VKPDK",
+      "01M6Q59N31SAQR3SNFSG5N3VZF",
+      "01M6Q59N4YB1W1VK2YAY4M8TQ8",
+      "01M6Q59N6TN3CZPPP44D1T2ERP",
+      "01M6Q59N8RY5GSFQN2JGE12TYA"
+    ],
+    "town_query_coverage_overlapping": {
+      "ampara-food": {
+        "existing_place_duplicate": 4,
+        "new_public_candidate": 61
+      },
+      "ampara-public": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 15
+      },
+      "ampara-retail": {
+        "new_public_candidate": 8
+      },
+      "eastern-province-broad": {
+        "existing_place_duplicate": 22,
+        "new_public_candidate": 41,
+        "unresolved_existing_match": 1
+      },
+      "trincomalee-food": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 199
+      },
+      "trincomalee-public": {
+        "new_public_candidate": 21
+      },
+      "trincomalee-retail": {
+        "new_public_candidate": 10
+      }
+    },
+    "candidate_category_coverage_overlapping": {
+      "Agricultural product wholesaler": {
+        "new_public_candidate": 1
+      },
+      "Asian restaurant": {
+        "new_public_candidate": 12
+      },
+      "Bakery": {
+        "new_public_candidate": 4
+      },
+      "Banquet hall": {
+        "new_public_candidate": 2
+      },
+      "Bar": {
+        "new_public_candidate": 10
+      },
+      "Bar & grill": {
+        "new_public_candidate": 4
+      },
+      "Barbecue area": {
+        "new_public_candidate": 1
+      },
+      "Beach": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 3,
+        "unresolved_existing_match": 1
+      },
+      "Beach club": {
+        "new_public_candidate": 2
+      },
+      "Beach volleyball court": {
+        "new_public_candidate": 1
+      },
+      "Beauty product supplier": {
+        "new_public_candidate": 1
+      },
+      "Beauty supply store": {
+        "new_public_candidate": 1
+      },
+      "Biryani restaurant": {
+        "new_public_candidate": 1
+      },
+      "Boat rental service": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Boat tour agency": {
+        "new_public_candidate": 2
+      },
+      "Breakfast restaurant": {
+        "new_public_candidate": 3
+      },
+      "Bridge": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Brunch restaurant": {
+        "new_public_candidate": 2
+      },
+      "Buddhist temple": {
+        "new_public_candidate": 7
+      },
+      "Buffet restaurant": {
+        "new_public_candidate": 1
+      },
+      "Butcher shop": {
+        "new_public_candidate": 2
+      },
+      "Cabin rental agency": {
+        "new_public_candidate": 1
+      },
+      "Cafe": {
+        "new_public_candidate": 13
+      },
+      "Cake shop": {
+        "new_public_candidate": 5
+      },
+      "Car leasing service": {
+        "new_public_candidate": 3
+      },
+      "Chicken restaurant": {
+        "new_public_candidate": 1
+      },
+      "Chicken shop": {
+        "new_public_candidate": 1
+      },
+      "City government office": {
+        "new_public_candidate": 1
+      },
+      "Cocktail bar": {
+        "new_public_candidate": 2
+      },
+      "Coffee shop": {
+        "new_public_candidate": 5
+      },
+      "Community center": {
+        "new_public_candidate": 1
+      },
+      "Computer store": {
+        "new_public_candidate": 2
+      },
+      "Conference center": {
+        "new_public_candidate": 1
+      },
+      "Cooking class": {
+        "new_public_candidate": 2
+      },
+      "Cooking school": {
+        "new_public_candidate": 1
+      },
+      "Creperie": {
+        "new_public_candidate": 1
+      },
+      "Cupcake shop": {
+        "new_public_candidate": 1
+      },
+      "Day spa": {
+        "new_public_candidate": 1
+      },
+      "Diner": {
+        "new_public_candidate": 2
+      },
+      "Dive club": {
+        "new_public_candidate": 1
+      },
+      "Dive shop": {
+        "new_public_candidate": 1
+      },
+      "Diving center": {
+        "new_public_candidate": 3
+      },
+      "Eclectic restaurant": {
+        "new_public_candidate": 2
+      },
+      "Electronics store": {
+        "new_public_candidate": 1
+      },
+      "European restaurant": {
+        "new_public_candidate": 1
+      },
+      "Event venue": {
+        "new_public_candidate": 3
+      },
+      "Family restaurant": {
+        "new_public_candidate": 17
+      },
+      "Fast food restaurant": {
+        "new_public_candidate": 4
+      },
+      "Fine dining restaurant": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Fish processing": {
+        "new_public_candidate": 1
+      },
+      "Fitness equipment wholesaler": {
+        "new_public_candidate": 1
+      },
+      "Food manufacturer": {
+        "new_public_candidate": 1
+      },
+      "Food manufacturing supply": {
+        "new_public_candidate": 2
+      },
+      "Food products supplier": {
+        "new_public_candidate": 1
+      },
+      "Fortress": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 2
+      },
+      "Furniture store": {
+        "new_public_candidate": 1
+      },
+      "Furniture wholesaler": {
+        "new_public_candidate": 1
+      },
+      "Government": {
+        "new_public_candidate": 2
+      },
+      "Government hospital": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 6
+      },
+      "Government office": {
+        "new_public_candidate": 19
+      },
+      "Grill": {
+        "new_public_candidate": 1
+      },
+      "Grocery store": {
+        "new_public_candidate": 2
+      },
+      "Guest house": {
+        "new_public_candidate": 10
+      },
+      "Gym": {
+        "new_public_candidate": 3
+      },
+      "Hamburger restaurant": {
+        "new_public_candidate": 1
+      },
+      "Health": {
+        "new_public_candidate": 1
+      },
+      "Hindu temple": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Historical landmark": {
+        "existing_place_duplicate": 3,
+        "new_public_candidate": 6
+      },
+      "Holiday home": {
+        "new_public_candidate": 2
+      },
+      "Homestay": {
+        "new_public_candidate": 1
+      },
+      "Hospital": {
+        "new_public_candidate": 8
+      },
+      "Hostel": {
+        "new_public_candidate": 2
+      },
+      "Hot dog restaurant": {
+        "new_public_candidate": 1
+      },
+      "Hotel": {
+        "existing_place_duplicate": 3,
+        "new_public_candidate": 53
+      },
+      "Hotel supply store": {
+        "new_public_candidate": 1
+      },
+      "Hydroelectric power plant": {
+        "new_public_candidate": 1
+      },
+      "Ice cream shop": {
+        "new_public_candidate": 3
+      },
+      "Indian restaurant": {
+        "new_public_candidate": 2
+      },
+      "Inn": {
+        "new_public_candidate": 2
+      },
+      "Italian restaurant": {
+        "new_public_candidate": 2
+      },
+      "Juice shop": {
+        "new_public_candidate": 2
+      },
+      "Lodging": {
+        "new_public_candidate": 1
+      },
+      "Lounge bar": {
+        "new_public_candidate": 1
+      },
+      "Lunch restaurant": {
+        "new_public_candidate": 1
+      },
+      "Market": {
+        "existing_place_duplicate": 2
+      },
+      "Massage spa": {
+        "new_public_candidate": 1
+      },
+      "Medical Center": {
+        "new_public_candidate": 1
+      },
+      "Milk delivery service": {
+        "new_public_candidate": 1
+      },
+      "Motorcycle dealer": {
+        "new_public_candidate": 1
+      },
+      "Motorcycle rental agency": {
+        "new_public_candidate": 3
+      },
+      "Municipal administration office": {
+        "new_public_candidate": 1
+      },
+      "Museum": {
+        "new_public_candidate": 1
+      },
+      "National park": {
+        "new_public_candidate": 7
+      },
+      "Pan-Asian restaurant": {
+        "new_public_candidate": 1
+      },
+      "Park": {
+        "existing_place_duplicate": 6,
+        "new_public_candidate": 3
+      },
+      "Pharmaceutical products wholesaler": {
+        "new_public_candidate": 1
+      },
+      "Pharmacy": {
+        "new_public_candidate": 11
+      },
+      "Photographer": {
+        "new_public_candidate": 1
+      },
+      "Pizza delivery": {
+        "new_public_candidate": 2
+      },
+      "Pizza restaurant": {
+        "new_public_candidate": 3
+      },
+      "Pizza takeaway": {
+        "new_public_candidate": 1
+      },
+      "Playground": {
+        "new_public_candidate": 2
+      },
+      "Post office": {
+        "new_public_candidate": 1
+      },
+      "Pub": {
+        "new_public_candidate": 2
+      },
+      "Public bath": {
+        "existing_place_duplicate": 1
+      },
+      "Public health department": {
+        "new_public_candidate": 1
+      },
+      "Public parking space": {
+        "new_public_candidate": 1
+      },
+      "Rainwater tank supplier": {
+        "new_public_candidate": 1
+      },
+      "Resort hotel": {
+        "existing_place_duplicate": 3,
+        "new_public_candidate": 17
+      },
+      "Restaurant": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 112
+      },
+      "Restaurant supply store": {
+        "new_public_candidate": 2
+      },
+      "SCUBA instructor": {
+        "new_public_candidate": 1
+      },
+      "SCUBA tour agency": {
+        "new_public_candidate": 2
+      },
+      "Scooter rental service": {
+        "new_public_candidate": 1
+      },
+      "Seafood market": {
+        "new_public_candidate": 1
+      },
+      "Seafood restaurant": {
+        "existing_place_duplicate": 3,
+        "new_public_candidate": 19
+      },
+      "Seafood wholesaler": {
+        "new_public_candidate": 1
+      },
+      "Sewing machine store": {
+        "new_public_candidate": 1
+      },
+      "Shopping mall": {
+        "new_public_candidate": 2
+      },
+      "Short term apartment rental agency": {
+        "new_public_candidate": 1
+      },
+      "Solar energy system service": {
+        "new_public_candidate": 1
+      },
+      "South Asian restaurant": {
+        "new_public_candidate": 1
+      },
+      "South Indian restaurant": {
+        "new_public_candidate": 1
+      },
+      "Spa": {
+        "new_public_candidate": 4
+      },
+      "Sport tour agency": {
+        "new_public_candidate": 1
+      },
+      "Sri Lankan restaurant": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 21
+      },
+      "Store": {
+        "new_public_candidate": 1
+      },
+      "Supermarket": {
+        "new_public_candidate": 5
+      },
+      "Swimming lake": {
+        "new_public_candidate": 1
+      },
+      "Swimming pool": {
+        "new_public_candidate": 7
+      },
+      "Takeout restaurant": {
+        "new_public_candidate": 3
+      },
+      "Taxi service": {
+        "new_public_candidate": 1
+      },
+      "Tea store": {
+        "new_public_candidate": 1
+      },
+      "Tennis court": {
+        "new_public_candidate": 1
+      },
+      "Tour operator": {
+        "new_public_candidate": 2
+      },
+      "Tourist attraction": {
+        "existing_place_duplicate": 7,
+        "new_public_candidate": 20
+      },
+      "Tractor dealer": {
+        "new_public_candidate": 1
+      },
+      "Travel agency": {
+        "new_public_candidate": 2
+      },
+      "University": {
+        "existing_place_duplicate": 1
+      },
+      "Vegan restaurant": {
+        "new_public_candidate": 2
+      },
+      "Vegetarian restaurant": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Veterinary pharmacy": {
+        "new_public_candidate": 1
+      },
+      "Villa": {
+        "new_public_candidate": 8
+      },
+      "Wildlife park": {
+        "new_public_candidate": 1
+      },
+      "Yoga studio": {
+        "new_public_candidate": 1
+      }
+    },
+    "category_prompt_coverage_overlapping": {
+      "unknown": {
+        "existing_place_duplicate": 29,
+        "new_public_candidate": 355,
+        "unresolved_existing_match": 1
+      }
+    },
+    "query_prompt_candidate_coverage_overlapping": {
+      "ampara-food": {
+        "existing_place_duplicate": 4,
+        "new_public_candidate": 61
+      },
+      "ampara-public": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 15
+      },
+      "ampara-retail": {
+        "new_public_candidate": 8
+      },
+      "eastern-province-broad": {
+        "existing_place_duplicate": 22,
+        "new_public_candidate": 41,
+        "unresolved_existing_match": 1
+      },
+      "trincomalee-food": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 199
+      },
+      "trincomalee-public": {
+        "new_public_candidate": 21
+      },
+      "trincomalee-retail": {
+        "new_public_candidate": 10
+      }
+    },
+    "formatting_changes": [
+      {
+        "field": "address",
+        "before": "Manampitiya-Aralaganwila-Maduru Oya Rd",
+        "after": "Manampitiya-Aralaganwila-Maduru Oya Road",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "passikudah boat ride",
+        "after": "Passikudah Boat Ride",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Q2J8+766, Dambethenna Estate, Lipton Seat Rd, Haputale",
+        "after": "Q2J8+766, Dambethenna Estate, Lipton Seat Road, Haputale",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Passikudha Corals view",
+        "after": "Passikudha Corals View",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "WHM6+VQ5, Rd, Kalkudah",
+        "after": "WHM6+VQ5, Road, Kalkudah",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "VC Public Ground - Koralaipattu Pradeshiya sabha Valaichenai",
+        "after": "VC Public Ground - Koralaipattu Pradeshiya Sabha Valaichenai",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Three wheel Park",
+        "after": "Three Wheel Park",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Medagama, Dewagala, Manampitiya-Aralaganwila-Maduru Oya Rd",
+        "after": "Medagama, Dewagala, Manampitiya-Aralaganwila-Maduru Oya Road",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No 04 Hospital Road, Ampara",
+        "after": "No. 04 Hospital Road, Ampara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "eat me",
+        "after": "Eat Me",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "L/165, L/165 Kachcheri Rd, Ampara",
+        "after": "L/165, L/165 Kachcheri Road, Ampara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Galley kitchen",
+        "after": "Galley Kitchen",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No.02 Pandukabaya Mawatha, Ampara",
+        "after": "No. 02 Pandukabaya Mawatha, Ampara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No. 03 D. S. Senanayke Rd, Ampara",
+        "after": "No. 03 D. S. Senanayke Road, Ampara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Nimnadee food cabin",
+        "after": "Nimnadee Food Cabin",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Momo cafe and restaurant",
+        "after": "Momo Cafe And Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "8M7G+65W, Ampara - Uhana Rd, Ampara",
+        "after": "8M7G+65W, Ampara - Uhana Road, Ampara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Matara Hotel and Family Restaurant",
+        "after": "Matara Hotel And Family Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "7MXG+FJG, Kachcheri Rd, Ampara",
+        "after": "7MXG+FJG, Kachcheri Road, Ampara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "7MVF+JFG, Dutugemunu Rd, Ampara",
+        "after": "7MVF+JFG, Dutugemunu Road, Ampara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Family samosa restaurant",
+        "after": "Family Samosa Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "SALIYA INN",
+        "after": "Saliya Inn",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "334,saliya inn ,uhana, A27",
+        "after": "334, saliya inn, uhana, A27",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Leader Ashraff Road,Oluvil-4 Leader Ashraff road, 4, Oluvil",
+        "after": "Leader Ashraff Road, Oluvil-4 Leader Ashraff road, 4, Oluvil",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Beach Rd, Sainthamaruthu 32280",
+        "after": "Beach Road, Sainthamaruthu 32280",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Rajawewa Resort & Hotel in Ampara",
+        "after": "Rajawewa Resort & Hotel In Ampara",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "LUXURY FOOD AND BEVERAGES (PVT) LTD",
+        "after": "Luxury Food And Beverages (PVT) Ltd",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Dream View Hotel and Restaurant",
+        "after": "Dream View Hotel And Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "FC (FOOD CHAMP) ADDALAICHENAI",
+        "after": "Fc (Food Champ) Addalaichenai",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Addalaichenai",
+        "after": "Colombo - Ratnapura - Wellawaya - Batticaloa Road, Addalaichenai",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No,1597 bendiwewa, Polonnaruwa",
+        "after": "No, 1597 bendiwewa, Polonnaruwa",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Kanthan's Lighthouse AC Cabanas and Restaurant",
+        "after": "Kanthan's Lighthouse AC Cabanas And Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Area Engineers Office, Ceylon Electricity Board, D. S. Senanayke Rd, Ampara",
+        "after": "Area Engineers Office, Ceylon Electricity Board, D. S. Senanayke Road, Ampara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Office of the Regional Director of Health Services",
+        "after": "Office Of The Regional Director Of Health Services",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "8M2H+22C, Kachcheri Rd, Ampara",
+        "after": "8M2H+22C, Kachcheri Road, Ampara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Ampara - Uhana Rd, Ampara 32000",
+        "after": "Ampara - Uhana Road, Ampara 32000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "7MWG+CGX, Kachcheri Rd, Ampara",
+        "after": "7MWG+CGX, Kachcheri Road, Ampara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "7MVG+934, Reegal Cinama Nidahas Mawatha, Cinema Rd, Ampara 32000",
+        "after": "7MVG+934, Reegal Cinama Nidahas Mawatha, Cinema Road, Ampara 32000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Prabhodha Hospital Pvt Ltd",
+        "after": "Prabhodha Hospital PVT Ltd",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No.21 Pandukabaya Mawatha, Ampara 32000",
+        "after": "No. 21 Pandukabaya Mawatha, Ampara 32000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Ocean oasis restaurant",
+        "after": "Ocean Oasis Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Kochi restaurant",
+        "after": "Kochi Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Ales Garden, 190/22 Nilaveli Rd, Trincomalee",
+        "after": "Ales Garden, 190/22 Nilaveli Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Alesgarden, Sarvodaya Rd, Trincomalee 31000",
+        "after": "Alesgarden, Sarvodaya Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "37 Sarvodaya Rd, Trincomalee",
+        "after": "37 Sarvodaya Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Dark waves restaurant",
+        "after": "Dark Waves Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "La Bāshi Restaurant and Cafe",
+        "after": "La Bāshi Restaurant And Cafe",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "132/112 A, Anandavinayagarvidi ,alles Garden, Trincomalee",
+        "after": "132/112 A, Anandavinayagarvidi, alles Garden, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "J678+F74, Sarvodaya Rd, Trincomalee",
+        "after": "J678+F74, Sarvodaya Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "TRINCORINI",
+        "after": "Trincorini",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No 32, Alas Garden Road. Lane, 1, Trincomalee 31000",
+        "after": "No. 32, Alas Garden Road. Lane, 1, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Mom's kitchen",
+        "after": "Mom's Kitchen",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No 12 Alass Garden, Trincomalee 31000",
+        "after": "No. 12 Alass Garden, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No:810/8 Moon Shine Garden,3rd Mile Post Valarmadhi Lane, Trincomalee",
+        "after": "No. 810/8 Moon Shine Garden, 3rd Mile Post Valarmadhi Lane, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Vegan Cafeteria pure vegetarian restaurant",
+        "after": "Vegan Cafeteria Pure Vegetarian Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "DIVINE DELIGHTS RESTAURANT AND COOLBAR",
+        "after": "Divine Delights Restaurant And Coolbar",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "76 Beach road,alesgarden, Trincomalee 31000",
+        "after": "76 Beach road, alesgarden, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "300 Nilaveli Rd, Trincomalee",
+        "after": "300 Nilaveli Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "283 Dockyard Rd, Trincomalee 31000",
+        "after": "283 Dockyard Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Lisens juicery",
+        "after": "Lisens Juicery",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "300 Nilaveli Rd, Trincomalee 31000",
+        "after": "300 Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Cafe on the 18th",
+        "after": "Cafe On The 18Th",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Chef's restaurant & chef's mozzarella",
+        "after": "Chef's Restaurant & Chef's Mozzarella",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Orr's Hill Centre Rd, Trincomalee",
+        "after": "Orr's Hill Centre Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Allesgarden, No: 01, Beach road, Trincomalee",
+        "after": "Allesgarden, No. 01, Beach road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Jk food Cafe",
+        "after": "Jk Food Cafe",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Yummy capital",
+        "after": "Yummy Capital",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "junction, 184, Main street, Sea View Rd, Trincomalee",
+        "after": "junction, 184, Main street, Sea View Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "105/1 Kandy Rd, Trincomalee 31000",
+        "after": "105/1 Kandy Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "79 Vidyalayam Rd, Trincomalee 31000",
+        "after": "79 Vidyalayam Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Preni restaurants",
+        "after": "Preni Restaurants",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Rice 'n' Curry Restaurant",
+        "after": "Rice 'N' Curry Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No.77 Nagammal Road, Trincomalee",
+        "after": "No. 77 Nagammal Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "84/D Power House Rd, Trincomalee",
+        "after": "84/D Power House Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Dhuwana restaurant",
+        "after": "Dhuwana Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "21 Fort Fredrick Rd, Trincomalee",
+        "after": "21 Fort Fredrick Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "281 Nilaveli Rd, Trincomalee",
+        "after": "281 Nilaveli Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "319 Court Rd, Trincomalee",
+        "after": "319 Court Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "no 65 Uppuveli Road, Trincomalee",
+        "after": "No. 65 Uppuveli Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Sarvodaya Rd, Trincomalee",
+        "after": "Sarvodaya Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Alas Garden, 300 Nilaveli Rd, Trincomalee",
+        "after": "Alas Garden, 300 Nilaveli Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "1 Lower Rd, Trincomalee",
+        "after": "1 Lower Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Food world",
+        "after": "Food World",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "J678+C6H, Sarvodaya Rd, Trincomalee 31000",
+        "after": "J678+C6H, Sarvodaya Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "88 Inner Harbour Rd, Trincomalee 31000",
+        "after": "88 Inner Harbour Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No 220 Alesgarden, Trincomalee 31000",
+        "after": "No. 220 Alesgarden, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "MAMA rice & curry Restaurant",
+        "after": "MAMA Rice & Curry Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No 96 Main St, Trincomalee",
+        "after": "No. 96 Main St, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "218 Nilaveli Road,pulliyangullam, 218 nilavali road, pulliyangulam 31000",
+        "after": "218 Nilaveli Road, pulliyangullam, 218 nilavali road, pulliyangulam 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No 1 veloor, Nilaveli 31010",
+        "after": "No. 1 veloor, Nilaveli 31010",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "300 Nilaveli Rd, Trincomalee",
+        "after": "300 Nilaveli Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "J678+F63, Sarvodaya Rd, Trincomalee",
+        "after": "J678+F63, Sarvodaya Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Nilaveli Beach Rd, Nilaveli 31010",
+        "after": "Nilaveli Beach Road, Nilaveli 31010",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Howdy Ya'll",
+        "after": "Howdy Ya'Ll",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Alles Garden, 31000, 24 Sarvodaya Rd, Trincomalee",
+        "after": "Alles Garden, 31000, 24 Sarvodaya Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Trinco Blu by Cinnamon",
+        "after": "Trinco Blu By Cinnamon",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "8.619344, J699+75H, Sampalthivu Post Uppuveli, 81.218409 Sarvodaya Rd, Trincomalee 83408",
+        "after": "8.619344, J699+75H, Sampalthivu Post Uppuveli, 81.218409 Sarvodaya Road, Trincomalee 83408",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Nilaveli sun rice and curry",
+        "after": "Nilaveli Sun Rice And Curry",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "M5QQ+J3P, Public, Nilaveli Beach Rd, Nilaveli",
+        "after": "M5QQ+J3P, Public, Nilaveli Beach Road, Nilaveli",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Vihara Rd, Trincomalee 31000",
+        "after": "Vihara Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Summer guest house and seafood restaurant",
+        "after": "Summer Guest House And Seafood Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No,20 allesgarden, Trincomalee 31000",
+        "after": "No, 20 allesgarden, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Elena Garden Resort and Restaurant",
+        "after": "Elena Garden Resort And Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "107, Ales garden, 31 Nilaveli Rd, Trincomalee 31000",
+        "after": "107, Ales garden, 31 Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Blue Sand Beach Resort and Restaurant",
+        "after": "Blue Sand Beach Resort And Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No. 178/32, Alles Garden, Nilaveli Rd, Trincomalee 31000",
+        "after": "No. 178/32, Alles Garden, Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Your choice No 1",
+        "after": "Your Choice No 1",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No.28,Allesdarden, Sarvodaya Rd",
+        "after": "No. 28, Allesdarden, Sarvodaya Road",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Nilaveli Jana juice bar coffee restaurant",
+        "after": "Nilaveli Jana Juice Bar Coffee Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Shahira Hotel Road,Gopalapuram, Nilaveli",
+        "after": "Shahira Hotel Road, Gopalapuram, Nilaveli",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "529 , Nilaveli Road, Varothayanagar, Trincomalee 31000",
+        "after": "529, Nilaveli Road, Varothayanagar, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Fernandos beach market",
+        "after": "Fernandos Beach Market",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "220 Sarvodaya Rd, Trincomalee",
+        "after": "220 Sarvodaya Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Ward no 01, Nilaveli 31010",
+        "after": "Ward No. 01, Nilaveli 31010",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Shajana restaurant and rooms",
+        "after": "Shajana Restaurant And Rooms",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Hostel canteen",
+        "after": "Hostel Canteen",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "NILAVELI ARASY SEAFOOD RESTAURANT &ROOMS",
+        "after": "Nilaveli Arasy Seafood Restaurant &Rooms",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "LUXMI RESORT TRINCOMALEE",
+        "after": "Luxmi Resort Trincomalee",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "lobster inn",
+        "after": "Lobster Inn",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Sarvodaya Rd, Trincomalee",
+        "after": "Sarvodaya Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "NO. 686/11 N Coast Rd, Trincomalee 31000",
+        "after": "No. 686/11 N Coast Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "24 Sarvodaya Rd, Trincomalee",
+        "after": "24 Sarvodaya Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "155A Power House Rd, Trincomalee 31000",
+        "after": "155A Power House Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Uppuveli Beach, Uppuveli, No.662/9 Nilaveli Rd, Trincomalee 31000",
+        "after": "Uppuveli Beach, Uppuveli, No. 662/9 Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "21 Konesapurum Rd, Trincomalee",
+        "after": "21 Konesapurum Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "RH3C+9FX, Trincomalee-Batticaloa Rd, vantharumoolai",
+        "after": "RH3C+9FX, Trincomalee-Batticaloa Road, vantharumoolai",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "742, Murugapuri 10, Ehamparam Rd, Trincomalee 31000",
+        "after": "742, Murugapuri 10, Ehamparam Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "TRINCO DAIRY OUTLET - Cups and Hearts",
+        "after": "TRINCO DAIRY OUTLET - Cups And Hearts",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "22/2 Farm Rd, Trincomalee 31000",
+        "after": "22/2 Farm Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "NO: 81/9 Alles Garden, Trincomalee",
+        "after": "No. 81/9 Alles Garden, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "244 Central Rd, Trincomalee",
+        "after": "244 Central Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "182, Lower road, Orr's hill, 164 Lower Rd, Trincomalee",
+        "after": "182, Lower road, Orr's hill, 164 Lower Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No 2 Kandy Rd, Trincomalee 31000",
+        "after": "No. 2 Kandy Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Thamarakulam Rd, Nilaveli 31010",
+        "after": "Thamarakulam Road, Nilaveli 31010",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "J668+P7R, No 01 Beach Road Alesgarden, Trincomalee 31000",
+        "after": "J668+P7R, No. 01 Beach Road Alesgarden, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No 7 Main Street Alesgarden, Trincomalee 31000",
+        "after": "No. 7 Main Street Alesgarden, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Eastmax Group (Pvt) Ltd",
+        "after": "Eastmax Group (PVT) Ltd",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Power House Rd, Trincomalee",
+        "after": "Power House Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "ward 2, near the hospital, Mill Rd, Nilaveli",
+        "after": "ward 2, near the hospital, Mill Road, Nilaveli",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Kandy Rd, Trincomalee 31000",
+        "after": "Kandy Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Ceylon Antheia Beach Resort and Cabanas",
+        "after": "Ceylon Antheia Beach Resort And Cabanas",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "NO 01 Thamarakulam Rd, Nilaveli 31010",
+        "after": "No. 01 Thamarakulam Road, Nilaveli 31010",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Isle of Gelato",
+        "after": "Isle Of Gelato",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "729 Ehamparam Rd, Trincomalee 31000",
+        "after": "729 Ehamparam Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Block No 18 Trincomalee Industrial Park, Kappalthurai",
+        "after": "Block No. 18 Trincomalee Industrial Park, Kappalthurai",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Yoga foods center",
+        "after": "Yoga Foods Center",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No 93,Love Lane, Nilaveli Rd, Trincomalee 31000",
+        "after": "No. 93, Love Lane, Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "58/13, Lane -XIV, Kanniya Rd, Trincomalee 31000",
+        "after": "58/13, Lane -XIV, Kanniya Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Uppuveli Beach by DSK",
+        "after": "Uppuveli Beach By DSK",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "294 Inner Harbour Rd, Trincomalee",
+        "after": "294 Inner Harbour Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "66, Orr's Hill Centre Rd, Trincomalee 31000",
+        "after": "66, Orr's Hill Centre Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "blue wings hotel",
+        "after": "Blue Wings Hotel",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "363 Nilaveli Rd, Alasgarden 31000",
+        "after": "363 Nilaveli Road, Alasgarden 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Alasgarden, 395 Nilaveli Rd, Trincomalee 31000",
+        "after": "Alasgarden, 395 Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "707 N Coast Rd, Trincomalee 31000",
+        "after": "707 N Coast Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Nilaveli Rd, Trincomalee 31000",
+        "after": "Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "22 Lower Rd, Trincomalee 31000",
+        "after": "22 Lower Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "White villa",
+        "after": "White Villa",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Alles garden, Nilaveli Rd, Trincomalee 31000",
+        "after": "Alles garden, Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "410/1, Nugasewana Mawatha,5th Mile Post, Kandy Rd, Trincomalee",
+        "after": "410/1, Nugasewana Mawatha, 5th Mile Post, Kandy Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "DIVERS LAND HOSTEL",
+        "after": "Divers Land Hostel",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No: 114 love lane, Trincomalee",
+        "after": "No. 114 love lane, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Swiss kiss beach resort",
+        "after": "Swiss Kiss Beach Resort",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No,178/15 ,Ales Garden, Nilaveli Rd, Trincomalee 31000",
+        "after": "No, 178/15, Ales Garden, Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "1042 Anuradha Pura Junction, Kandy Rd, Trincomalee 31000",
+        "after": "1042 Anuradha Pura Junction, Kandy Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "178/11 Nilaveli Rd, Alesgarden 31000",
+        "after": "178/11 Nilaveli Road, Alesgarden 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "nilaveli,Gopalapuram, Nilaveli Rd, Trincomalee 31000",
+        "after": "nilaveli, Gopalapuram, Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No.5 Kuthirai Kundu Road, Solaiyadi, Trincomalee",
+        "after": "No. 5 Kuthirai Kundu Road, Solaiyadi, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "HILTON COTTAGE",
+        "after": "Hilton Cottage",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No.7A beach road,alesgarden,trincomalee srilanka, Eastern, Trincomalee 31000",
+        "after": "No. 7A beach road, alesgarden, trincomalee srilanka, Eastern, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Karma restaurant",
+        "after": "Karma Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Kurumba cafe",
+        "after": "Kurumba Cafe",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "alex garden ,uppaveli, Kurumba cafe, Trincomalee 31000",
+        "after": "alex garden, uppaveli, Kurumba cafe, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "cinnamon blue, No.95 road, alesgarden 31000",
+        "after": "cinnamon blue, No. 95 road, alesgarden 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "AARA HERITAGE KITCHEN",
+        "after": "Aara Heritage Kitchen",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No 7 Kotiwa Road, Trincomalee",
+        "after": "No. 7 Kotiwa Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Ward no 01, Nilaveli 31010",
+        "after": "Ward No. 01, Nilaveli 31010",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "EDDI'S PLACE",
+        "after": "Eddi's Place",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Nilaveli Beach Rd, Nilaveli 30001",
+        "after": "Nilaveli Beach Road, Nilaveli 30001",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Pool Bar and Restaurant",
+        "after": "Pool Bar And Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Taste and fast cafe",
+        "after": "Taste And Fast Cafe",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "https://foursquare.com/v/4f9a6eb3e4b0445039657497, 12 Nilaveli Rd, Alessgarden 31000",
+        "after": "https://foursquare.com/v/4f9a6eb3e4b0445039657497, 12 Nilaveli Road, Alessgarden 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Reggae Bar Restaurant & party spot Nilavelle",
+        "after": "Reggae Bar Restaurant & Party Spot Nilavelle",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Provincial director of health services office | மாகாண சுகாதார சேவைகள் பணிப்பாளர் அலுவலகம்",
+        "after": "Provincial Director Of Health Services Office | மாகாண சுகாதார சேவைகள் பணிப்பாளர் அலுவலகம்",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "197 Court Rd, Trincomalee 75010",
+        "after": "197 Court Road, Trincomalee 75010",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Regional Director of Health Services - Trincomalee",
+        "after": "Regional Director Of Health Services - Trincomalee",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Provincial Department of Education மாகாண கல்வி திணைக்களம்-கிழக்கு",
+        "after": "Provincial Department Of Education மாகாண கல்வி திணைக்களம்-கிழக்கு",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "H6MC+RG3, Kandy Rd, Trincomalee 31000",
+        "after": "H6MC+RG3, Kandy Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Governor's Secretariat of Eastern Province - Trincomalee | கிழக்கு மாகாண ஆளுநர் அலுவலகம் - திருகோணமலை",
+        "after": "Governor's Secretariat Of Eastern Province - Trincomalee | கிழக்கு மாகாண ஆளுநர் அலுவலகம் - திருகோணமலை",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "H5XW+5G8, Inner Harbour Rd, Trincomalee",
+        "after": "H5XW+5G8, Inner Harbour Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Medical center",
+        "after": "Medical Center",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "H6CP+GV3, Dockyard Rd, Trincomalee",
+        "after": "H6CP+GV3, Dockyard Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Chief Minister’s office",
+        "after": "Chief Minister’s Office",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "192 Inner Harbour Rd, Trincomalee",
+        "after": "192 Inner Harbour Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "H69M+CFR, 108 Post Office Rd, Trincomalee 31000",
+        "after": "H69M+CFR, 108 Post Office Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Sri sai medicals",
+        "after": "Sri Sai Medicals",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "J629+47V, N Coast Rd, Trincomalee",
+        "after": "J629+47V, N Coast Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Allesh Graden, No-124 Nilaveli Rd, Trincomalee 31000",
+        "after": "Allesh Graden, No. 124 Nilaveli Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "MR PHARMACY",
+        "after": "Mr Pharmacy",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "99 Sea View Rd, Trincomalee 31000",
+        "after": "99 Sea View Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      }
+    ],
+    "normalization_changes": [
+      {
+        "record_index": 4,
+        "source_query_keys": [
+          "eastern-province-broad"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Manampitiya-Aralaganwila-Maduru Oya Rd",
+            "after": "Manampitiya-Aralaganwila-Maduru Oya Road",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59139KRHTKRPSGSZG9BGA"
+      },
+      {
+        "record_index": 19,
+        "source_query_keys": [
+          "eastern-province-broad"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "passikudah boat ride",
+            "after": "Passikudah Boat Ride",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q591XQB3JKYE5VTDHD8AFW"
+      },
+      {
+        "record_index": 28,
+        "source_query_keys": [
+          "eastern-province-broad"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Q2J8+766, Dambethenna Estate, Lipton Seat Rd, Haputale",
+            "after": "Q2J8+766, Dambethenna Estate, Lipton Seat Road, Haputale",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q592DF9CYWY5CDFSJZKMS7"
+      },
+      {
+        "record_index": 29,
+        "source_query_keys": [
+          "eastern-province-broad"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Passikudha Corals view",
+            "after": "Passikudha Corals View",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "WHM6+VQ5, Rd, Kalkudah",
+            "after": "WHM6+VQ5, Road, Kalkudah",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q592F7S5EXRY801VV1WK92"
+      },
+      {
+        "record_index": 30,
+        "source_query_keys": [
+          "eastern-province-broad"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "VC Public Ground - Koralaipattu Pradeshiya sabha Valaichenai",
+            "after": "VC Public Ground - Koralaipattu Pradeshiya Sabha Valaichenai",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q592H0G7KXW9F2XSYE1NRZ"
+      },
+      {
+        "record_index": 37,
+        "source_query_keys": [
+          "eastern-province-broad"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Three wheel Park",
+            "after": "Three Wheel Park",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q592XPVW3AX04P73VWY7RS"
+      },
+      {
+        "record_index": 40,
+        "source_query_keys": [
+          "eastern-province-broad"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Medagama, Dewagala, Manampitiya-Aralaganwila-Maduru Oya Rd",
+            "after": "Medagama, Dewagala, Manampitiya-Aralaganwila-Maduru Oya Road",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5932WYNP26BN4FXVYXTSY"
+      },
+      {
+        "record_index": 43,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No 04 Hospital Road, Ampara",
+            "after": "No. 04 Hospital Road, Ampara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q593832X00F2BHP9CVF0T3"
+      },
+      {
+        "record_index": 44,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "eat me",
+            "after": "Eat Me",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5939WAMCHJM4ABVF5V6HB"
+      },
+      {
+        "record_index": 49,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "L/165, L/165 Kachcheri Rd, Ampara",
+            "after": "L/165, L/165 Kachcheri Road, Ampara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q593JMXDDS2DHQPQE6RGP3"
+      },
+      {
+        "record_index": 50,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Galley kitchen",
+            "after": "Galley Kitchen",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q593MB35YMMTAB0ZH6052X"
+      },
+      {
+        "record_index": 52,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No.02 Pandukabaya Mawatha, Ampara",
+            "after": "No. 02 Pandukabaya Mawatha, Ampara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q593QZHY9NSV815TA6KGE2"
+      },
+      {
+        "record_index": 55,
+        "source_query_keys": [
+          "ampara-food",
+          "ampara-retail"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No. 03 D. S. Senanayke Rd, Ampara",
+            "after": "No. 03 D. S. Senanayke Road, Ampara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q593XG5S88AWW7GTSAJHWJ"
+      },
+      {
+        "record_index": 57,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Nimnadee food cabin",
+            "after": "Nimnadee Food Cabin",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59410QZM3P7WDDHFMYG3Y"
+      },
+      {
+        "record_index": 61,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Momo cafe and restaurant",
+            "after": "Momo Cafe And Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5947V9MFSG58AHD5S20TA"
+      },
+      {
+        "record_index": 62,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "8M7G+65W, Ampara - Uhana Rd, Ampara",
+            "after": "8M7G+65W, Ampara - Uhana Road, Ampara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5949NB466QXF00N22SW4V"
+      },
+      {
+        "record_index": 65,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Matara Hotel and Family Restaurant",
+            "after": "Matara Hotel And Family Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q594F01YJG57XD9N7518ER"
+      },
+      {
+        "record_index": 66,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "7MXG+FJG, Kachcheri Rd, Ampara",
+            "after": "7MXG+FJG, Kachcheri Road, Ampara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q594GPQ1E96DB0CMDWXVCJ"
+      },
+      {
+        "record_index": 67,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "7MVF+JFG, Dutugemunu Rd, Ampara",
+            "after": "7MVF+JFG, Dutugemunu Road, Ampara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q594JGMWKG58WJQS8SCXQD"
+      },
+      {
+        "record_index": 74,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Family samosa restaurant",
+            "after": "Family Samosa Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q594YVHXJKP74TVESR1TGH"
+      },
+      {
+        "record_index": 75,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "SALIYA INN",
+            "after": "Saliya Inn",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "334,saliya inn ,uhana, A27",
+            "after": "334, saliya inn, uhana, A27",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5950MVBA5HTDGNEQ7EMHC"
+      },
+      {
+        "record_index": 78,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Leader Ashraff Road,Oluvil-4 Leader Ashraff road, 4, Oluvil",
+            "after": "Leader Ashraff Road, Oluvil-4 Leader Ashraff road, 4, Oluvil",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5957Z83F055R0JH927WA0"
+      },
+      {
+        "record_index": 86,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Beach Rd, Sainthamaruthu 32280",
+            "after": "Beach Road, Sainthamaruthu 32280",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q595TCHQBKV9MBY9SFHRPD"
+      },
+      {
+        "record_index": 87,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Rajawewa Resort & Hotel in Ampara",
+            "after": "Rajawewa Resort & Hotel In Ampara",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q595WK0RNX2TG79XG6DBJ0"
+      },
+      {
+        "record_index": 89,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "LUXURY FOOD AND BEVERAGES (PVT) LTD",
+            "after": "Luxury Food And Beverages (PVT) Ltd",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59605B4HW15CFWVE8K21W"
+      },
+      {
+        "record_index": 92,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Dream View Hotel and Restaurant",
+            "after": "Dream View Hotel And Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5965DKD3V7SD12GJBKKDQ"
+      },
+      {
+        "record_index": 94,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "FC (FOOD CHAMP) ADDALAICHENAI",
+            "after": "Fc (Food Champ) Addalaichenai",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Addalaichenai",
+            "after": "Colombo - Ratnapura - Wellawaya - Batticaloa Road, Addalaichenai",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5968XN56TXJ7RVARQPQCA"
+      },
+      {
+        "record_index": 96,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No,1597 bendiwewa, Polonnaruwa",
+            "after": "No, 1597 bendiwewa, Polonnaruwa",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q596CCSD6TNY08S07HDNQY"
+      },
+      {
+        "record_index": 97,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Kanthan's Lighthouse AC Cabanas and Restaurant",
+            "after": "Kanthan's Lighthouse AC Cabanas And Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q596EAX3MAKM0M8E1Q2NDA"
+      },
+      {
+        "record_index": 99,
+        "source_query_keys": [
+          "ampara-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Area Engineers Office, Ceylon Electricity Board, D. S. Senanayke Rd, Ampara",
+            "after": "Area Engineers Office, Ceylon Electricity Board, D. S. Senanayke Road, Ampara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q596HT48JTMS5TD2BHG6CQ"
+      },
+      {
+        "record_index": 103,
+        "source_query_keys": [
+          "ampara-public"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Office of the Regional Director of Health Services",
+            "after": "Office Of The Regional Director Of Health Services",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q596S0WCYQ6KY60Q3PANJC"
+      },
+      {
+        "record_index": 104,
+        "source_query_keys": [
+          "ampara-public"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "8M2H+22C, Kachcheri Rd, Ampara",
+            "after": "8M2H+22C, Kachcheri Road, Ampara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q596TRRG6M2MEH0J23SN77"
+      },
+      {
+        "record_index": 105,
+        "source_query_keys": [
+          "ampara-public"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Ampara - Uhana Rd, Ampara 32000",
+            "after": "Ampara - Uhana Road, Ampara 32000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q596WSWM5EYK93KKG5C6VD"
+      },
+      {
+        "record_index": 115,
+        "source_query_keys": [
+          "ampara-public"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "7MWG+CGX, Kachcheri Rd, Ampara",
+            "after": "7MWG+CGX, Kachcheri Road, Ampara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q597EMF6HEGBV80NDNYADW"
+      },
+      {
+        "record_index": 117,
+        "source_query_keys": [
+          "ampara-retail"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "7MVG+934, Reegal Cinama Nidahas Mawatha, Cinema Rd, Ampara 32000",
+            "after": "7MVG+934, Reegal Cinama Nidahas Mawatha, Cinema Road, Ampara 32000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q597J6GZ2NWRE8CSZE5K2A"
+      },
+      {
+        "record_index": 123,
+        "source_query_keys": [
+          "ampara-retail"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Prabhodha Hospital Pvt Ltd",
+            "after": "Prabhodha Hospital PVT Ltd",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No.21 Pandukabaya Mawatha, Ampara 32000",
+            "after": "No. 21 Pandukabaya Mawatha, Ampara 32000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q597X9827GVNSENC1A7RZW"
+      },
+      {
+        "record_index": 125,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Ocean oasis restaurant",
+            "after": "Ocean Oasis Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5980R12FH8S3V4YT3XFHP"
+      },
+      {
+        "record_index": 126,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Kochi restaurant",
+            "after": "Kochi Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5982JSGHTF9P1918878FS"
+      },
+      {
+        "record_index": 128,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Ales Garden, 190/22 Nilaveli Rd, Trincomalee",
+            "after": "Ales Garden, 190/22 Nilaveli Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59864QKSNDWDQEPMK2VMX"
+      },
+      {
+        "record_index": 129,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Alesgarden, Sarvodaya Rd, Trincomalee 31000",
+            "after": "Alesgarden, Sarvodaya Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q598805GQ0GQTTQR1R8H7Q"
+      },
+      {
+        "record_index": 130,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "37 Sarvodaya Rd, Trincomalee",
+            "after": "37 Sarvodaya Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5989RVBEQ5M37BY1YVRP2"
+      },
+      {
+        "record_index": 131,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Dark waves restaurant",
+            "after": "Dark Waves Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q598BEVPCJR5P1YN3KVNJ3"
+      },
+      {
+        "record_index": 132,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "La Bāshi Restaurant and Cafe",
+            "after": "La Bāshi Restaurant And Cafe",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "132/112 A, Anandavinayagarvidi ,alles Garden, Trincomalee",
+            "after": "132/112 A, Anandavinayagarvidi, alles Garden, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q598DEBT76Z9FS50ACT4DC"
+      },
+      {
+        "record_index": 137,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "J678+F74, Sarvodaya Rd, Trincomalee",
+            "after": "J678+F74, Sarvodaya Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q598PEZ5P6TFCAKWP07SK8"
+      },
+      {
+        "record_index": 139,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "TRINCORINI",
+            "after": "Trincorini",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No 32, Alas Garden Road. Lane, 1, Trincomalee 31000",
+            "after": "No. 32, Alas Garden Road. Lane, 1, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q598T5XSAF4BFV904XM468"
+      },
+      {
+        "record_index": 141,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Mom's kitchen",
+            "after": "Mom's Kitchen",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No 12 Alass Garden, Trincomalee 31000",
+            "after": "No. 12 Alass Garden, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q598XTTMZ3WZJBFBSE3FKN"
+      },
+      {
+        "record_index": 142,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No:810/8 Moon Shine Garden,3rd Mile Post Valarmadhi Lane, Trincomalee",
+            "after": "No. 810/8 Moon Shine Garden, 3rd Mile Post Valarmadhi Lane, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q598ZJVH17NXPVPXQKZFZS"
+      },
+      {
+        "record_index": 144,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Vegan Cafeteria pure vegetarian restaurant",
+            "after": "Vegan Cafeteria Pure Vegetarian Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59933T17BEAS9FC0099DC"
+      },
+      {
+        "record_index": 145,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "DIVINE DELIGHTS RESTAURANT AND COOLBAR",
+            "after": "Divine Delights Restaurant And Coolbar",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5994XY1R332W94F0PC26J"
+      },
+      {
+        "record_index": 146,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "76 Beach road,alesgarden, Trincomalee 31000",
+            "after": "76 Beach road, alesgarden, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5996R6SQKY19HHSV9RN1A"
+      },
+      {
+        "record_index": 147,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "300 Nilaveli Rd, Trincomalee",
+            "after": "300 Nilaveli Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5998HH9FV46HFC793ZV0V"
+      },
+      {
+        "record_index": 148,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "283 Dockyard Rd, Trincomalee 31000",
+            "after": "283 Dockyard Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q599ACFKQM0G4EGEP66384"
+      },
+      {
+        "record_index": 149,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Lisens juicery",
+            "after": "Lisens Juicery",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "300 Nilaveli Rd, Trincomalee 31000",
+            "after": "300 Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q599C42W8EPS5RPXK9QX98"
+      },
+      {
+        "record_index": 151,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Cafe on the 18th",
+            "after": "Cafe On The 18Th",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q599FPMW5CHFHS5660EJAZ"
+      },
+      {
+        "record_index": 152,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Chef's restaurant & chef's mozzarella",
+            "after": "Chef's Restaurant & Chef's Mozzarella",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q599HE178P0HKTWFV3ANJS"
+      },
+      {
+        "record_index": 154,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Orr's Hill Centre Rd, Trincomalee",
+            "after": "Orr's Hill Centre Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q599N36MA0638NH1RK0G8B"
+      },
+      {
+        "record_index": 155,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Allesgarden, No: 01, Beach road, Trincomalee",
+            "after": "Allesgarden, No. 01, Beach road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q599PZTNZAW7T0M79W51S6"
+      },
+      {
+        "record_index": 158,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Jk food Cafe",
+            "after": "Jk Food Cafe",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q599WEW4CTKC18T6C4BC5X"
+      },
+      {
+        "record_index": 159,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Yummy capital",
+            "after": "Yummy Capital",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q599Y9CT4F77GHM8N66PP5"
+      },
+      {
+        "record_index": 162,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "junction, 184, Main street, Sea View Rd, Trincomalee",
+            "after": "junction, 184, Main street, Sea View Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59A3MP755E3YV94AE8PY7"
+      },
+      {
+        "record_index": 163,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "105/1 Kandy Rd, Trincomalee 31000",
+            "after": "105/1 Kandy Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59A5G8YA3S4G0GK0DE1G7"
+      },
+      {
+        "record_index": 164,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "79 Vidyalayam Rd, Trincomalee 31000",
+            "after": "79 Vidyalayam Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59A7CDVJPXPYPDV0H0NYY"
+      },
+      {
+        "record_index": 166,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Preni restaurants",
+            "after": "Preni Restaurants",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59AB0877CFPF3S0W11XRD"
+      },
+      {
+        "record_index": 167,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Rice 'n' Curry Restaurant",
+            "after": "Rice 'N' Curry Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No.77 Nagammal Road, Trincomalee",
+            "after": "No. 77 Nagammal Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59ACRWFH51XM95CX1B6EA"
+      },
+      {
+        "record_index": 168,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "84/D Power House Rd, Trincomalee",
+            "after": "84/D Power House Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59AEH2GQ14KG4RQN1MEK6"
+      },
+      {
+        "record_index": 169,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Dhuwana restaurant",
+            "after": "Dhuwana Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "21 Fort Fredrick Rd, Trincomalee",
+            "after": "21 Fort Fredrick Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59AGD8Y8SRHVZZC661BWK"
+      },
+      {
+        "record_index": 172,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "281 Nilaveli Rd, Trincomalee",
+            "after": "281 Nilaveli Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59ANWP48XPJ4ACMT27QW4"
+      },
+      {
+        "record_index": 175,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "319 Court Rd, Trincomalee",
+            "after": "319 Court Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59AVC52FZP33GPCHSD95P"
+      },
+      {
+        "record_index": 176,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "no 65 Uppuveli Road, Trincomalee",
+            "after": "No. 65 Uppuveli Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59AX3YFF1PJVG8FC4WGT2"
+      },
+      {
+        "record_index": 177,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Sarvodaya Rd, Trincomalee",
+            "after": "Sarvodaya Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59AYTHQ3MZRJ0EXHV91YJ"
+      },
+      {
+        "record_index": 180,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Alas Garden, 300 Nilaveli Rd, Trincomalee",
+            "after": "Alas Garden, 300 Nilaveli Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59B45H60KFGDBZG1ETQKN"
+      },
+      {
+        "record_index": 182,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "1 Lower Rd, Trincomalee",
+            "after": "1 Lower Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59B7R0DVERKJ1PVJJDJ26"
+      },
+      {
+        "record_index": 183,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Food world",
+            "after": "Food World",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "J678+C6H, Sarvodaya Rd, Trincomalee 31000",
+            "after": "J678+C6H, Sarvodaya Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59B9K0BXW0KFPZ26CJD6M"
+      },
+      {
+        "record_index": 184,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "88 Inner Harbour Rd, Trincomalee 31000",
+            "after": "88 Inner Harbour Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59BBC5B787VEG8CJR7SM2"
+      },
+      {
+        "record_index": 185,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No 220 Alesgarden, Trincomalee 31000",
+            "after": "No. 220 Alesgarden, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59BD2KMFNDFKYYAJZ5AKN"
+      },
+      {
+        "record_index": 186,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "MAMA rice & curry Restaurant",
+            "after": "MAMA Rice & Curry Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59BEVFFA7E6SHEBCZXFDF"
+      },
+      {
+        "record_index": 187,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No 96 Main St, Trincomalee",
+            "after": "No. 96 Main St, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59BGP1D12FSDMD47TN066"
+      },
+      {
+        "record_index": 189,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "218 Nilaveli Road,pulliyangullam, 218 nilavali road, pulliyangulam 31000",
+            "after": "218 Nilaveli Road, pulliyangullam, 218 nilavali road, pulliyangulam 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59BMBM89GS7PTNZVHFQG5"
+      },
+      {
+        "record_index": 190,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No 1 veloor, Nilaveli 31010",
+            "after": "No. 1 veloor, Nilaveli 31010",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59BP7KJ7FDW5MBXR9SXA3"
+      },
+      {
+        "record_index": 192,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "300 Nilaveli Rd, Trincomalee",
+            "after": "300 Nilaveli Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59BSZ1BAWBTNMRD51YJQF"
+      },
+      {
+        "record_index": 194,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "J678+F63, Sarvodaya Rd, Trincomalee",
+            "after": "J678+F63, Sarvodaya Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59BXHFM0S5BMB8R9EV3ZZ"
+      },
+      {
+        "record_index": 195,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Nilaveli Beach Rd, Nilaveli 31010",
+            "after": "Nilaveli Beach Road, Nilaveli 31010",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59BZB7Z74BP673MYTP6V7"
+      },
+      {
+        "record_index": 196,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Howdy Ya'll",
+            "after": "Howdy Ya'Ll",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Alles Garden, 31000, 24 Sarvodaya Rd, Trincomalee",
+            "after": "Alles Garden, 31000, 24 Sarvodaya Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59C16SH966C709HCVHP8Q"
+      },
+      {
+        "record_index": 198,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Trinco Blu by Cinnamon",
+            "after": "Trinco Blu By Cinnamon",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "8.619344, J699+75H, Sampalthivu Post Uppuveli, 81.218409 Sarvodaya Rd, Trincomalee 83408",
+            "after": "8.619344, J699+75H, Sampalthivu Post Uppuveli, 81.218409 Sarvodaya Road, Trincomalee 83408",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59C4VNC7663Z48KWJYSMM"
+      },
+      {
+        "record_index": 200,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Nilaveli sun rice and curry",
+            "after": "Nilaveli Sun Rice And Curry",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "M5QQ+J3P, Public, Nilaveli Beach Rd, Nilaveli",
+            "after": "M5QQ+J3P, Public, Nilaveli Beach Road, Nilaveli",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59C8DKGSAHZN8DQWH7693"
+      },
+      {
+        "record_index": 204,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Vihara Rd, Trincomalee 31000",
+            "after": "Vihara Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59CFHCDZPJY6HFT9KRTZR"
+      },
+      {
+        "record_index": 205,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Summer guest house and seafood restaurant",
+            "after": "Summer Guest House And Seafood Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No,20 allesgarden, Trincomalee 31000",
+            "after": "No, 20 allesgarden, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59CHA25XEW0T29EZMQFZ2"
+      },
+      {
+        "record_index": 207,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Elena Garden Resort and Restaurant",
+            "after": "Elena Garden Resort And Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "107, Ales garden, 31 Nilaveli Rd, Trincomalee 31000",
+            "after": "107, Ales garden, 31 Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59CNE539WAKTZD7DNB944"
+      },
+      {
+        "record_index": 208,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Blue Sand Beach Resort and Restaurant",
+            "after": "Blue Sand Beach Resort And Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No. 178/32, Alles Garden, Nilaveli Rd, Trincomalee 31000",
+            "after": "No. 178/32, Alles Garden, Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59CQ7M40PNW30FJ4HB13N"
+      },
+      {
+        "record_index": 209,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Your choice No 1",
+            "after": "Your Choice No 1",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No.28,Allesdarden, Sarvodaya Rd",
+            "after": "No. 28, Allesdarden, Sarvodaya Road",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59CS1TA8SS20GEEYD90X0"
+      },
+      {
+        "record_index": 210,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Nilaveli Jana juice bar coffee restaurant",
+            "after": "Nilaveli Jana Juice Bar Coffee Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59CV23EDKGVJ11ED6T3W5"
+      },
+      {
+        "record_index": 211,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Shahira Hotel Road,Gopalapuram, Nilaveli",
+            "after": "Shahira Hotel Road, Gopalapuram, Nilaveli",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59CWTVX5JNCY5NRGEW065"
+      },
+      {
+        "record_index": 214,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "529 , Nilaveli Road, Varothayanagar, Trincomalee 31000",
+            "after": "529, Nilaveli Road, Varothayanagar, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59D2A218ZEKJB7F1CQQ8Z"
+      },
+      {
+        "record_index": 215,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Fernandos beach market",
+            "after": "Fernandos Beach Market",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59D45A9NYN553GPH84RNM"
+      },
+      {
+        "record_index": 217,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "220 Sarvodaya Rd, Trincomalee",
+            "after": "220 Sarvodaya Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59D7QRS1WA1NBB5W7TZC7"
+      },
+      {
+        "record_index": 221,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Ward no 01, Nilaveli 31010",
+            "after": "Ward No. 01, Nilaveli 31010",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59DEWDPG0TY61R79G0TJ8"
+      },
+      {
+        "record_index": 222,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Shajana restaurant and rooms",
+            "after": "Shajana Restaurant And Rooms",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59DGPSBRG4GS7YGGZE4FM"
+      },
+      {
+        "record_index": 225,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Hostel canteen",
+            "after": "Hostel Canteen",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59DP65D8MK43KNB4RZADJ"
+      },
+      {
+        "record_index": 226,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "NILAVELI ARASY SEAFOOD RESTAURANT &ROOMS",
+            "after": "Nilaveli Arasy Seafood Restaurant &Rooms",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59DR1RPMKGMVPH7VDQWGB"
+      },
+      {
+        "record_index": 228,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "LUXMI RESORT TRINCOMALEE",
+            "after": "Luxmi Resort Trincomalee",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59DVRBGCPF4CAF8TBD3AH"
+      },
+      {
+        "record_index": 230,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "lobster inn",
+            "after": "Lobster Inn",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Sarvodaya Rd, Trincomalee",
+            "after": "Sarvodaya Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59DZED50TFQQ64CZSTKDD"
+      },
+      {
+        "record_index": 231,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "NO. 686/11 N Coast Rd, Trincomalee 31000",
+            "after": "No. 686/11 N Coast Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59E16CPM6JYE6S242P7RJ"
+      },
+      {
+        "record_index": 232,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "24 Sarvodaya Rd, Trincomalee",
+            "after": "24 Sarvodaya Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59E34FAZTD5YGXP26J0T8"
+      },
+      {
+        "record_index": 234,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "155A Power House Rd, Trincomalee 31000",
+            "after": "155A Power House Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59E6TMGR0NMC4ACA2X4FG"
+      },
+      {
+        "record_index": 237,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Uppuveli Beach, Uppuveli, No.662/9 Nilaveli Rd, Trincomalee 31000",
+            "after": "Uppuveli Beach, Uppuveli, No. 662/9 Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59EC665S75QMEXJJQVF75"
+      },
+      {
+        "record_index": 238,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "21 Konesapurum Rd, Trincomalee",
+            "after": "21 Konesapurum Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59EDZWEAHVYW080MFJF91"
+      },
+      {
+        "record_index": 239,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "RH3C+9FX, Trincomalee-Batticaloa Rd, vantharumoolai",
+            "after": "RH3C+9FX, Trincomalee-Batticaloa Road, vantharumoolai",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59EFVX2D0GGDDCXCVACXZ"
+      },
+      {
+        "record_index": 240,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "742, Murugapuri 10, Ehamparam Rd, Trincomalee 31000",
+            "after": "742, Murugapuri 10, Ehamparam Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59EHQ5SGHMQP5E054PFDF"
+      },
+      {
+        "record_index": 241,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "TRINCO DAIRY OUTLET - Cups and Hearts",
+            "after": "TRINCO DAIRY OUTLET - Cups And Hearts",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "22/2 Farm Rd, Trincomalee 31000",
+            "after": "22/2 Farm Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59EKN5641GCMN3NNFTV9K"
+      },
+      {
+        "record_index": 242,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "NO: 81/9 Alles Garden, Trincomalee",
+            "after": "No. 81/9 Alles Garden, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59ENT9VYZVGD7ES4MS1FD"
+      },
+      {
+        "record_index": 243,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "244 Central Rd, Trincomalee",
+            "after": "244 Central Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59EQJ2NAZX0B24R1T0R9V"
+      },
+      {
+        "record_index": 244,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "182, Lower road, Orr's hill, 164 Lower Rd, Trincomalee",
+            "after": "182, Lower road, Orr's hill, 164 Lower Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59ESJS6EASJT5R16W27QZ"
+      },
+      {
+        "record_index": 245,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No 2 Kandy Rd, Trincomalee 31000",
+            "after": "No. 2 Kandy Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59EVECM33WDBMJQ6CQNKV"
+      },
+      {
+        "record_index": 247,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Thamarakulam Rd, Nilaveli 31010",
+            "after": "Thamarakulam Road, Nilaveli 31010",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59EZ2PZ5NH6MEVYE5Z25Z"
+      },
+      {
+        "record_index": 248,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "J668+P7R, No 01 Beach Road Alesgarden, Trincomalee 31000",
+            "after": "J668+P7R, No. 01 Beach Road Alesgarden, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59F0ZKHX2WDYWRGDB8FG8"
+      },
+      {
+        "record_index": 250,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No 7 Main Street Alesgarden, Trincomalee 31000",
+            "after": "No. 7 Main Street Alesgarden, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59F4SNJS1SP82X7FGRTDZ"
+      },
+      {
+        "record_index": 253,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Eastmax Group (Pvt) Ltd",
+            "after": "Eastmax Group (PVT) Ltd",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Power House Rd, Trincomalee",
+            "after": "Power House Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59FE9ZRVT15MYZ43TA878"
+      },
+      {
+        "record_index": 256,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "ward 2, near the hospital, Mill Rd, Nilaveli",
+            "after": "ward 2, near the hospital, Mill Road, Nilaveli",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59FNXBZ6EGFB4KXS3VPTG"
+      },
+      {
+        "record_index": 257,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Kandy Rd, Trincomalee 31000",
+            "after": "Kandy Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59FQNHW3STT3XB1VFVVDX"
+      },
+      {
+        "record_index": 258,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Ceylon Antheia Beach Resort and Cabanas",
+            "after": "Ceylon Antheia Beach Resort And Cabanas",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "NO 01 Thamarakulam Rd, Nilaveli 31010",
+            "after": "No. 01 Thamarakulam Road, Nilaveli 31010",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59FSWBPMEFTQZ3BZDKDNN"
+      },
+      {
+        "record_index": 259,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Isle of Gelato",
+            "after": "Isle Of Gelato",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59FVNBR6PQY2TPBY3ZSXR"
+      },
+      {
+        "record_index": 263,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "729 Ehamparam Rd, Trincomalee 31000",
+            "after": "729 Ehamparam Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59G2X44M1P578G20Y8DST"
+      },
+      {
+        "record_index": 264,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Block No 18 Trincomalee Industrial Park, Kappalthurai",
+            "after": "Block No. 18 Trincomalee Industrial Park, Kappalthurai",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59G4SR6726XNYQVQ1634H"
+      },
+      {
+        "record_index": 265,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Yoga foods center",
+            "after": "Yoga Foods Center",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59G6J0CP8Z2Q3DRZDK5QY"
+      },
+      {
+        "record_index": 266,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No 93,Love Lane, Nilaveli Rd, Trincomalee 31000",
+            "after": "No. 93, Love Lane, Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59G8HA3DGHP5ABBQ4XMZ6"
+      },
+      {
+        "record_index": 267,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "58/13, Lane -XIV, Kanniya Rd, Trincomalee 31000",
+            "after": "58/13, Lane -XIV, Kanniya Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59GAG16EE7S2P963FY5S5"
+      },
+      {
+        "record_index": 268,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Uppuveli Beach by DSK",
+            "after": "Uppuveli Beach By DSK",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59GCD5N3CS10ZVVD3MBT2"
+      },
+      {
+        "record_index": 272,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "294 Inner Harbour Rd, Trincomalee",
+            "after": "294 Inner Harbour Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59GKMEXXF316PMZ4TE0A5"
+      },
+      {
+        "record_index": 273,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "66, Orr's Hill Centre Rd, Trincomalee 31000",
+            "after": "66, Orr's Hill Centre Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59GNF71W8CQ122S1QWHBZ"
+      },
+      {
+        "record_index": 275,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "blue wings hotel",
+            "after": "Blue Wings Hotel",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59GSDG58T921PAZEWHGH0"
+      },
+      {
+        "record_index": 276,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "363 Nilaveli Rd, Alasgarden 31000",
+            "after": "363 Nilaveli Road, Alasgarden 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59GV6619C70BGFRNE33DV"
+      },
+      {
+        "record_index": 279,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Alasgarden, 395 Nilaveli Rd, Trincomalee 31000",
+            "after": "Alasgarden, 395 Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59H0GNNNWD8JG8K4A6NYM"
+      },
+      {
+        "record_index": 280,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "707 N Coast Rd, Trincomalee 31000",
+            "after": "707 N Coast Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59H2BNK26VW13ZHNQSTJ2"
+      },
+      {
+        "record_index": 283,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Nilaveli Rd, Trincomalee 31000",
+            "after": "Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59H7V0QM0ETHMQ4M2J3FN"
+      },
+      {
+        "record_index": 284,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "22 Lower Rd, Trincomalee 31000",
+            "after": "22 Lower Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59H9SS60F4KN2NZYC7B52"
+      },
+      {
+        "record_index": 285,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "White villa",
+            "after": "White Villa",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Alles garden, Nilaveli Rd, Trincomalee 31000",
+            "after": "Alles garden, Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59HBQ6E874AGGQQ2DK8NF"
+      },
+      {
+        "record_index": 288,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "410/1, Nugasewana Mawatha,5th Mile Post, Kandy Rd, Trincomalee",
+            "after": "410/1, Nugasewana Mawatha, 5th Mile Post, Kandy Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59HH3EFCB4ZHMHM9R1NC1"
+      },
+      {
+        "record_index": 292,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "DIVERS LAND HOSTEL",
+            "after": "Divers Land Hostel",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59HRP258VHJPZ8FQPB7SY"
+      },
+      {
+        "record_index": 293,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No: 114 love lane, Trincomalee",
+            "after": "No. 114 love lane, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59HTP1Y3JB44TARX291A4"
+      },
+      {
+        "record_index": 294,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Swiss kiss beach resort",
+            "after": "Swiss Kiss Beach Resort",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No,178/15 ,Ales Garden, Nilaveli Rd, Trincomalee 31000",
+            "after": "No, 178/15, Ales Garden, Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59HWECBMZM4NHT8GS3TB6"
+      },
+      {
+        "record_index": 296,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "1042 Anuradha Pura Junction, Kandy Rd, Trincomalee 31000",
+            "after": "1042 Anuradha Pura Junction, Kandy Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59J00VCQ4K7H9FJYBB9DE"
+      },
+      {
+        "record_index": 298,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "178/11 Nilaveli Rd, Alesgarden 31000",
+            "after": "178/11 Nilaveli Road, Alesgarden 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59J3MXEPN8YKXWD2C8MET"
+      },
+      {
+        "record_index": 299,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "nilaveli,Gopalapuram, Nilaveli Rd, Trincomalee 31000",
+            "after": "nilaveli, Gopalapuram, Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59J5KDTT1JSVHZXYR2C5X"
+      },
+      {
+        "record_index": 302,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No.5 Kuthirai Kundu Road, Solaiyadi, Trincomalee",
+            "after": "No. 5 Kuthirai Kundu Road, Solaiyadi, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59JB8E83SBW3DBKH0HGCG"
+      },
+      {
+        "record_index": 303,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "HILTON COTTAGE",
+            "after": "Hilton Cottage",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No.7A beach road,alesgarden,trincomalee srilanka, Eastern, Trincomalee 31000",
+            "after": "No. 7A beach road, alesgarden, trincomalee srilanka, Eastern, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59JD4W3NK2KK92R7HMTR3"
+      },
+      {
+        "record_index": 304,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Karma restaurant",
+            "after": "Karma Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59JEY0WFY75K2J0FSZE0V"
+      },
+      {
+        "record_index": 306,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Kurumba cafe",
+            "after": "Kurumba Cafe",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "alex garden ,uppaveli, Kurumba cafe, Trincomalee 31000",
+            "after": "alex garden, uppaveli, Kurumba cafe, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59JJMYRH0SHV9AJE4NFMV"
+      },
+      {
+        "record_index": 307,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "cinnamon blue, No.95 road, alesgarden 31000",
+            "after": "cinnamon blue, No. 95 road, alesgarden 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59JMFWT50TQTCM22T1QFJ"
+      },
+      {
+        "record_index": 308,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "AARA HERITAGE KITCHEN",
+            "after": "Aara Heritage Kitchen",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59JP8Y25NFAF5X31EJ4E0"
+      },
+      {
+        "record_index": 310,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No 7 Kotiwa Road, Trincomalee",
+            "after": "No. 7 Kotiwa Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59JTADW76N80DCAZPRKR2"
+      },
+      {
+        "record_index": 311,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Ward no 01, Nilaveli 31010",
+            "after": "Ward No. 01, Nilaveli 31010",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59JW12KGPJGQEYT15RBAV"
+      },
+      {
+        "record_index": 314,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "EDDI'S PLACE",
+            "after": "Eddi's Place",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59K1G4JESM1QMEHZN0FN2"
+      },
+      {
+        "record_index": 315,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Nilaveli Beach Rd, Nilaveli 30001",
+            "after": "Nilaveli Beach Road, Nilaveli 30001",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59K3BZPNEVJNDYA96JA0S"
+      },
+      {
+        "record_index": 317,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Pool Bar and Restaurant",
+            "after": "Pool Bar And Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59K720EVJFTKTV52Y0RBW"
+      },
+      {
+        "record_index": 318,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Taste and fast cafe",
+            "after": "Taste And Fast Cafe",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "https://foursquare.com/v/4f9a6eb3e4b0445039657497, 12 Nilaveli Rd, Alessgarden 31000",
+            "after": "https://foursquare.com/v/4f9a6eb3e4b0445039657497, 12 Nilaveli Road, Alessgarden 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59K90CZMZSFXH8VKKDD3R"
+      },
+      {
+        "record_index": 320,
+        "source_query_keys": [
+          "trincomalee-food"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Reggae Bar Restaurant & party spot Nilavelle",
+            "after": "Reggae Bar Restaurant & Party Spot Nilavelle",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59KCQ7Q4JMH1TE9QM0JNY"
+      },
+      {
+        "record_index": 323,
+        "source_query_keys": [
+          "trincomalee-public"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Provincial director of health services office | மாகாண சுகாதார சேவைகள் பணிப்பாளர் அலுவலகம்",
+            "after": "Provincial Director Of Health Services Office | மாகாண சுகாதார சேவைகள் பணிப்பாளர் அலுவலகம்",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "197 Court Rd, Trincomalee 75010",
+            "after": "197 Court Road, Trincomalee 75010",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59KJ560M2A36EYKSKPJGP"
+      },
+      {
+        "record_index": 324,
+        "source_query_keys": [
+          "trincomalee-public"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Regional Director of Health Services - Trincomalee",
+            "after": "Regional Director Of Health Services - Trincomalee",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59KM36Z8NCYYCCNYSFMBT"
+      },
+      {
+        "record_index": 328,
+        "source_query_keys": [
+          "trincomalee-public"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Provincial Department of Education மாகாண கல்வி திணைக்களம்-கிழக்கு",
+            "after": "Provincial Department Of Education மாகாண கல்வி திணைக்களம்-கிழக்கு",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59KVT6X8H7HMRY6W6VBYT"
+      },
+      {
+        "record_index": 330,
+        "source_query_keys": [
+          "trincomalee-public"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "H6MC+RG3, Kandy Rd, Trincomalee 31000",
+            "after": "H6MC+RG3, Kandy Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59KZHVJN67MR3KDB2H9F1"
+      },
+      {
+        "record_index": 331,
+        "source_query_keys": [
+          "trincomalee-public"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Governor's Secretariat of Eastern Province - Trincomalee | கிழக்கு மாகாண ஆளுநர் அலுவலகம் - திருகோணமலை",
+            "after": "Governor's Secretariat Of Eastern Province - Trincomalee | கிழக்கு மாகாண ஆளுநர் அலுவலகம் - திருகோணமலை",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59M1BWP5P0R7S7ZM2RAWF"
+      },
+      {
+        "record_index": 334,
+        "source_query_keys": [
+          "trincomalee-public"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "H5XW+5G8, Inner Harbour Rd, Trincomalee",
+            "after": "H5XW+5G8, Inner Harbour Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59M6X0BDF4DXDES5YSRRE"
+      },
+      {
+        "record_index": 337,
+        "source_query_keys": [
+          "trincomalee-public"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Medical center",
+            "after": "Medical Center",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59MCK49ZT66G54TB5QRP9"
+      },
+      {
+        "record_index": 340,
+        "source_query_keys": [
+          "trincomalee-public"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "H6CP+GV3, Dockyard Rd, Trincomalee",
+            "after": "H6CP+GV3, Dockyard Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59MJ5P5KHEN2RNKWRQA6G"
+      },
+      {
+        "record_index": 341,
+        "source_query_keys": [
+          "trincomalee-public"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Chief Minister’s office",
+            "after": "Chief Minister’s Office",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "192 Inner Harbour Rd, Trincomalee",
+            "after": "192 Inner Harbour Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59MM2YE683BGY9A9PX86D"
+      },
+      {
+        "record_index": 343,
+        "source_query_keys": [
+          "trincomalee-retail"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "H69M+CFR, 108 Post Office Rd, Trincomalee 31000",
+            "after": "H69M+CFR, 108 Post Office Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59MQXTSW4NY96SB74HSEY"
+      },
+      {
+        "record_index": 345,
+        "source_query_keys": [
+          "trincomalee-retail"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Sri sai medicals",
+            "after": "Sri Sai Medicals",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "J629+47V, N Coast Rd, Trincomalee",
+            "after": "J629+47V, N Coast Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59MVR7D49C9HM4ZBXKQVF"
+      },
+      {
+        "record_index": 348,
+        "source_query_keys": [
+          "trincomalee-retail"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Allesh Graden, No-124 Nilaveli Rd, Trincomalee 31000",
+            "after": "Allesh Graden, No. 124 Nilaveli Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59N181VX235DM9T6VKPDK"
+      },
+      {
+        "record_index": 349,
+        "source_query_keys": [
+          "trincomalee-retail"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "MR PHARMACY",
+            "after": "Mr Pharmacy",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q59N31SAQR3SNFSG5N3VZF"
+      },
+      {
+        "record_index": 350,
+        "source_query_keys": [
+          "trincomalee-retail"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "99 Sea View Rd, Trincomalee 31000",
+            "after": "99 Sea View Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q59N4YB1W1VK2YAY4M8TQ8"
+      }
+    ],
+    "unresolved_new_nearby_duplicate_pairs": [],
+    "per_record_public_eligibility_gate": "scripts/place_eligibility.py",
+    "existing_active_ids_and_aliases_are_reused_for_duplicate_checks": true,
+    "roads_and_speed_limits_modified": false,
+    "phase6_3_cumulative_imported_ulids": [
+      "01M6Q590W3EGJPBB2X50NZZZHY",
+      "01M6Q590Y170QDZR37GG58W8KN",
+      "01M6Q590ZWNS98NN6WK81V2EV1",
+      "01M6Q5911J0H813YWCSBW1AFT9",
+      "01M6Q59139KRHTKRPSGSZG9BGA",
+      "01M6Q59151VC9AEHSZPN60FWWV",
+      "01M6Q5916QP4Z0AMTH6RYTWK5E",
+      "01M6Q5918GG9EMNVMVZZKV6XDQ",
+      "01M6Q591A6ZYWAHS6RET2733VZ",
+      "01M6Q591BY1MPY0YBQ3GCANX6X",
+      "01M6Q591DRSEF55NEN4MQZXQMG",
+      "01M6Q591FFWFWPEK2CRMR0N1K7",
+      "01M6Q591HAZQKPM5FHTMCZ1DV8",
+      "01M6Q591K2K5WRG37DM48NJ85M",
+      "01M6Q591MQ5FHVCT391TRTVG5N",
+      "01M6Q591PG1BVMQVASQAM0BVXA",
+      "01M6Q591R601Y3NZJHMW1GE55S",
+      "01M6Q591SY5S5EHCSZCQ5HKM5M",
+      "01M6Q591VPD4GZ50K2WYBGYXFH",
+      "01M6Q591XQB3JKYE5VTDHD8AFW",
+      "01M6Q591ZFSBQ72NSEMFCB0PF2",
+      "01M6Q59219GZJRECV4AVCSZ91X",
+      "01M6Q592366AB16022YQ86XP3T",
+      "01M6Q5924VSQFRZ4C0DDNWV1EF",
+      "01M6Q5926KNMKHB2AZWJDGZQE7",
+      "01M6Q592885MX4689VTR80PBJH",
+      "01M6Q592A0BKT6MMJP1KPPRJ7K",
+      "01M6Q592BRV3HZVC5B3R522GDW",
+      "01M6Q592DF9CYWY5CDFSJZKMS7",
+      "01M6Q592F7S5EXRY801VV1WK92",
+      "01M6Q592H0G7KXW9F2XSYE1NRZ",
+      "01M6Q592JRTNMTAQ4XSJVQZRCR",
+      "01M6Q592MGHBQMEQGEH44HR29C",
+      "01M6Q592PA2JCFVN7PNC82YYVH",
+      "01M6Q592R0SVMX501G1A3SV9QH",
+      "01M6Q592T1XTZ0RP6QFSTAQTH3",
+      "01M6Q592VP2VSST4MR9HY2S9PA",
+      "01M6Q592XPVW3AX04P73VWY7RS",
+      "01M6Q592ZE90CMDCEMQAC30515",
+      "01M6Q59312HXTMJYW25A52DZBH",
+      "01M6Q5932WYNP26BN4FXVYXTSY",
+      "01M6Q5934JXNSN75EQQGY02VAZ",
+      "01M6Q5936AW96WF1C8PCAMJ371",
+      "01M6Q593832X00F2BHP9CVF0T3",
+      "01M6Q5939WAMCHJM4ABVF5V6HB",
+      "01M6Q593BM6PZE9TR3XX8JQBAX",
+      "01M6Q593DDM64FE6ZVGQYW4HH0",
+      "01M6Q593F3P6FAFKC2B1D2W42W",
+      "01M6Q593GW0XRE2TE7QPVVECGD",
+      "01M6Q593JMXDDS2DHQPQE6RGP3",
+      "01M6Q593MB35YMMTAB0ZH6052X",
+      "01M6Q593P73H3A05P0GRGNA1JG",
+      "01M6Q593QZHY9NSV815TA6KGE2",
+      "01M6Q593SM3JYHB8TNJ71TES5F",
+      "01M6Q593VJE6NDNXC9138M2TW9",
+      "01M6Q593XG5S88AWW7GTSAJHWJ",
+      "01M6Q593Z8A0297GMECW5QS8M6",
+      "01M6Q59410QZM3P7WDDHFMYG3Y",
+      "01M6Q5942PMR1PH7ZGPX6AQVH2",
+      "01M6Q5944ENM8R037DH7MN0EST",
+      "01M6Q5946568WNX79X16D5384Q",
+      "01M6Q5947V9MFSG58AHD5S20TA",
+      "01M6Q5949NB466QXF00N22SW4V",
+      "01M6Q594BCA1TBQWRBG83GMXAG",
+      "01M6Q594D3KDHQT87D1P1SSRY5",
+      "01M6Q594F01YJG57XD9N7518ER",
+      "01M6Q594GPQ1E96DB0CMDWXVCJ",
+      "01M6Q594JGMWKG58WJQS8SCXQD",
+      "01M6Q594M5K1SZDXGPYY6Z12D5",
+      "01M6Q594NY2TW7DXVWEQ47Y458",
+      "01M6Q594QQ4YYXG0BKRXCR2T0D",
+      "01M6Q594SCRG0C351ZPT59DMGS",
+      "01M6Q594V49S5V6THAQ4FH507A",
+      "01M6Q594X5CCNZD2T2960MBT0P",
+      "01M6Q594YVHXJKP74TVESR1TGH",
+      "01M6Q5950MVBA5HTDGNEQ7EMHC",
+      "01M6Q5952HDSWM4ME5EHG81XTG",
+      "01M6Q59548A7RJ0HRWTSDF6EAP",
+      "01M6Q5957Z83F055R0JH927WA0",
+      "01M6Q595BHYMPTFYZA01BDDTSX",
+      "01M6Q595DRH1PSGTNCAZKDN65W",
+      "01M6Q595FHYYWXYQP1CV54B9M3",
+      "01M6Q595H886FVC1QQFCPETE99",
+      "01M6Q595KPBEF11MB6TQQ24MN9",
+      "01M6Q595PKZ8F6KF9QCYG88RMD",
+      "01M6Q595RMR3VBBH5TXF5X5WNK",
+      "01M6Q595TCHQBKV9MBY9SFHRPD",
+      "01M6Q595WK0RNX2TG79XG6DBJ0",
+      "01M6Q595YB94XC9MG4WFNQDD2D",
+      "01M6Q59605B4HW15CFWVE8K21W",
+      "01M6Q5961VW4YMPKM9GGAMB1M0",
+      "01M6Q5963MH29R2ANVQ7485KEX",
+      "01M6Q5965DKD3V7SD12GJBKKDQ",
+      "01M6Q59673S1JFGBXQST955CGY",
+      "01M6Q5968XN56TXJ7RVARQPQCA",
+      "01M6Q596AKN053DM2Q0X3CREK9",
+      "01M6Q596CCSD6TNY08S07HDNQY",
+      "01M6Q596EAX3MAKM0M8E1Q2NDA",
+      "01M6Q596G34HKJH2AR97P5QMPZ",
+      "01M6Q596HT48JTMS5TD2BHG6CQ",
+      "01M6Q596KP2Q68E8V74AEXA2JD",
+      "01M6Q596NDBG6F5513RTY7PM09",
+      "01M6Q596Q6HME5HHSTKC09P105",
+      "01M6Q596S0WCYQ6KY60Q3PANJC",
+      "01M6Q596TRRG6M2MEH0J23SN77",
+      "01M6Q596WSWM5EYK93KKG5C6VD",
+      "01M6Q596YJVHA8N16GKT07K0B5",
+      "01M6Q59709W0E1PD8NBGMY1XSM",
+      "01M6Q5972669DC9135BGN6A359",
+      "01M6Q5973ZWPHMZCSTPNYPMRZA",
+      "01M6Q5975NZ1QTRVB98YH7015D",
+      "01M6Q5977EB81XJEEKPVYJ3FXN",
+      "01M6Q59798ZGGHW48B4Z05M1S6",
+      "01M6Q597AYVBWJZYCA2RKBCZMJ",
+      "01M6Q597CTWSJAKG0EDS8Y61C2",
+      "01M6Q597EMF6HEGBV80NDNYADW",
+      "01M6Q597GCAPTPHCP3FD35VSXM",
+      "01M6Q597J6GZ2NWRE8CSZE5K2A",
+      "01M6Q597M0AJ6HGVDAG5BZF2KM",
+      "01M6Q597NXW09ZWB1MC3M0W3XX",
+      "01M6Q597QPWKAKPS947V16YMJ5",
+      "01M6Q597SG697ZE72HFZQ6ACSX",
+      "01M6Q597VETX84TCPNZHM6A1E0",
+      "01M6Q597X9827GVNSENC1A7RZW",
+      "01M6Q597Z1S2Q3KV8H7FNSPBQA",
+      "01M6Q5980R12FH8S3V4YT3XFHP",
+      "01M6Q5982JSGHTF9P1918878FS",
+      "01M6Q5984DH2TQRZW4S88YS0SM",
+      "01M6Q59864QKSNDWDQEPMK2VMX",
+      "01M6Q598805GQ0GQTTQR1R8H7Q",
+      "01M6Q5989RVBEQ5M37BY1YVRP2",
+      "01M6Q598BEVPCJR5P1YN3KVNJ3",
+      "01M6Q598DEBT76Z9FS50ACT4DC",
+      "01M6Q598F8XSBG6EAETZGPQQ5M",
+      "01M6Q598GY22CNG31DW7JRSVKQ",
+      "01M6Q598JWJ147ZVJNE4NNSB2W",
+      "01M6Q598MPESCNNAQBG7SRR39P",
+      "01M6Q598PEZ5P6TFCAKWP07SK8",
+      "01M6Q598RBW8VQ2A2YD34HJBVR",
+      "01M6Q598T5XSAF4BFV904XM468",
+      "01M6Q598W2PE2TRQ0MY90HJ8J2",
+      "01M6Q598XTTMZ3WZJBFBSE3FKN",
+      "01M6Q598ZJVH17NXPVPXQKZFZS",
+      "01M6Q599184DCRVHM0CNJWJ14W",
+      "01M6Q59933T17BEAS9FC0099DC",
+      "01M6Q5994XY1R332W94F0PC26J",
+      "01M6Q5996R6SQKY19HHSV9RN1A",
+      "01M6Q5998HH9FV46HFC793ZV0V",
+      "01M6Q599ACFKQM0G4EGEP66384",
+      "01M6Q599C42W8EPS5RPXK9QX98",
+      "01M6Q599DY9KAHKGDPF5BBQC9Q",
+      "01M6Q599FPMW5CHFHS5660EJAZ",
+      "01M6Q599HE178P0HKTWFV3ANJS",
+      "01M6Q599K895Q79EN2EMD5Y1NM",
+      "01M6Q599N36MA0638NH1RK0G8B",
+      "01M6Q599PZTNZAW7T0M79W51S6",
+      "01M6Q599RSW8X2VW8RM151QTT4",
+      "01M6Q599TSQ30JTR7S5735TTR7",
+      "01M6Q599WEW4CTKC18T6C4BC5X",
+      "01M6Q599Y9CT4F77GHM8N66PP5",
+      "01M6Q59A01MQ59RNBJCY0Y4BJV",
+      "01M6Q59A1T92HQ806TK2H6SVZB",
+      "01M6Q59A3MP755E3YV94AE8PY7",
+      "01M6Q59A5G8YA3S4G0GK0DE1G7",
+      "01M6Q59A7CDVJPXPYPDV0H0NYY",
+      "01M6Q59A95QGT48B4KS02XXHKD",
+      "01M6Q59AB0877CFPF3S0W11XRD",
+      "01M6Q59ACRWFH51XM95CX1B6EA",
+      "01M6Q59AEH2GQ14KG4RQN1MEK6",
+      "01M6Q59AGD8Y8SRHVZZC661BWK",
+      "01M6Q59AJ5AN0P65316NC5MS3G",
+      "01M6Q59AKZJBBNY1RASGCD9524",
+      "01M6Q59ANWP48XPJ4ACMT27QW4",
+      "01M6Q59AQMZXJ5ACQ5DN026FG4",
+      "01M6Q59ASCQTMF1XEFQZ0TPPES",
+      "01M6Q59AVC52FZP33GPCHSD95P",
+      "01M6Q59AX3YFF1PJVG8FC4WGT2",
+      "01M6Q59AYTHQ3MZRJ0EXHV91YJ",
+      "01M6Q59B0M4BB2TSDKWZ0KYA4X",
+      "01M6Q59B2B3GHN2TCQPHYE2FW4",
+      "01M6Q59B45H60KFGDBZG1ETQKN",
+      "01M6Q59B62KSWBWD273Y12V6TX",
+      "01M6Q59B7R0DVERKJ1PVJJDJ26",
+      "01M6Q59B9K0BXW0KFPZ26CJD6M",
+      "01M6Q59BBC5B787VEG8CJR7SM2",
+      "01M6Q59BD2KMFNDFKYYAJZ5AKN",
+      "01M6Q59BEVFFA7E6SHEBCZXFDF",
+      "01M6Q59BGP1D12FSDMD47TN066",
+      "01M6Q59BJDYNXTV8N4PTTPDXWN",
+      "01M6Q59BMBM89GS7PTNZVHFQG5",
+      "01M6Q59BP7KJ7FDW5MBXR9SXA3",
+      "01M6Q59BR1Z9GENACV3XJHN39H",
+      "01M6Q59BSZ1BAWBTNMRD51YJQF",
+      "01M6Q59BVRNW8QJKK9JHGX4KP3",
+      "01M6Q59BXHFM0S5BMB8R9EV3ZZ",
+      "01M6Q59BZB7Z74BP673MYTP6V7",
+      "01M6Q59C16SH966C709HCVHP8Q",
+      "01M6Q59C318E40J7C54CZW0PR7",
+      "01M6Q59C4VNC7663Z48KWJYSMM",
+      "01M6Q59C6ME5QZ799B76ZV8F9S",
+      "01M6Q59C8DKGSAHZN8DQWH7693",
+      "01M6Q59CA5QZ3TE2A3THE1PXK1",
+      "01M6Q59CBY5CS94FDWBQB7NG93",
+      "01M6Q59CDQY3JYTH7NRMDF24E8",
+      "01M6Q59CFHCDZPJY6HFT9KRTZR",
+      "01M6Q59CHA25XEW0T29EZMQFZ2",
+      "01M6Q59CKHDWSGAWD79M4YWMCY",
+      "01M6Q59CNE539WAKTZD7DNB944",
+      "01M6Q59CQ7M40PNW30FJ4HB13N",
+      "01M6Q59CS1TA8SS20GEEYD90X0",
+      "01M6Q59CV23EDKGVJ11ED6T3W5",
+      "01M6Q59CWTVX5JNCY5NRGEW065",
+      "01M6Q59CYKCJSZG8JMBR42W5ZB",
+      "01M6Q59D0D9X8CR5C4T9T3NPBT",
+      "01M6Q59D2A218ZEKJB7F1CQQ8Z",
+      "01M6Q59D45A9NYN553GPH84RNM",
+      "01M6Q59D5YY57FH1HH65T0F2NH",
+      "01M6Q59D7QRS1WA1NBB5W7TZC7",
+      "01M6Q59D9GVA4PK4GGPF0XPN8Q",
+      "01M6Q59DB9XFAA8P1BP8J11292",
+      "01M6Q59DD34CJZ6X5D72Q6CE3D",
+      "01M6Q59DEWDPG0TY61R79G0TJ8",
+      "01M6Q59DGPSBRG4GS7YGGZE4FM",
+      "01M6Q59DJGDR0CFXTRZ18YM140",
+      "01M6Q59DME4C83RCAZ07Q4WCDS",
+      "01M6Q59DP65D8MK43KNB4RZADJ",
+      "01M6Q59DR1RPMKGMVPH7VDQWGB",
+      "01M6Q59DT1REHQDWEAPGE5X5F4",
+      "01M6Q59DVRBGCPF4CAF8TBD3AH",
+      "01M6Q59DXMG666JVFVZJ61B1Z2",
+      "01M6Q59DZED50TFQQ64CZSTKDD",
+      "01M6Q59E16CPM6JYE6S242P7RJ",
+      "01M6Q59E34FAZTD5YGXP26J0T8",
+      "01M6Q59E4ZFZAK7SJR264095TC",
+      "01M6Q59E6TMGR0NMC4ACA2X4FG",
+      "01M6Q59E8JY0Y2V5731HE1TJXP",
+      "01M6Q59EACHJBPGY26W1H9SRCZ",
+      "01M6Q59EC665S75QMEXJJQVF75",
+      "01M6Q59EDZWEAHVYW080MFJF91",
+      "01M6Q59EFVX2D0GGDDCXCVACXZ",
+      "01M6Q59EHQ5SGHMQP5E054PFDF",
+      "01M6Q59EKN5641GCMN3NNFTV9K",
+      "01M6Q59ENT9VYZVGD7ES4MS1FD",
+      "01M6Q59EQJ2NAZX0B24R1T0R9V",
+      "01M6Q59ESJS6EASJT5R16W27QZ",
+      "01M6Q59EVECM33WDBMJQ6CQNKV",
+      "01M6Q59EX9D3VY8Q3HZBRC6S4K",
+      "01M6Q59EZ2PZ5NH6MEVYE5Z25Z",
+      "01M6Q59F0ZKHX2WDYWRGDB8FG8",
+      "01M6Q59F2V661927TNWQ8HWKSH",
+      "01M6Q59F4SNJS1SP82X7FGRTDZ",
+      "01M6Q59F8BK300WAM4Z15HYXRQ",
+      "01M6Q59FBWK6ZD1RMTRMY7A8C7",
+      "01M6Q59FE9ZRVT15MYZ43TA878",
+      "01M6Q59FGWDW1AEJSEKFS9QRSB",
+      "01M6Q59FKVP115X9M6ZW1CS1JD",
+      "01M6Q59FNXBZ6EGFB4KXS3VPTG",
+      "01M6Q59FQNHW3STT3XB1VFVVDX",
+      "01M6Q59FSWBPMEFTQZ3BZDKDNN",
+      "01M6Q59FVNBR6PQY2TPBY3ZSXR",
+      "01M6Q59FXF7ZPDGXSYF5EKF716",
+      "01M6Q59FZ9SZVHXVND9D70XR0H",
+      "01M6Q59G11336QHPN69ADTV58N",
+      "01M6Q59G2X44M1P578G20Y8DST",
+      "01M6Q59G4SR6726XNYQVQ1634H",
+      "01M6Q59G6J0CP8Z2Q3DRZDK5QY",
+      "01M6Q59G8HA3DGHP5ABBQ4XMZ6",
+      "01M6Q59GAG16EE7S2P963FY5S5",
+      "01M6Q59GCD5N3CS10ZVVD3MBT2",
+      "01M6Q59GE6DJDT21HDC8X07Z2V",
+      "01M6Q59GFZ9XD3NRTRVAT4WGA1",
+      "01M6Q59GHSR5BNSYA2RTWF5BFP",
+      "01M6Q59GKMEXXF316PMZ4TE0A5",
+      "01M6Q59GNF71W8CQ122S1QWHBZ",
+      "01M6Q59GQ94GPY0FJHJTFB0KXG",
+      "01M6Q59GSDG58T921PAZEWHGH0",
+      "01M6Q59GV6619C70BGFRNE33DV",
+      "01M6Q59GWZ8SWCNQ9DC0FVAW94",
+      "01M6Q59GYSY9GCJ2DMGH65RHY6",
+      "01M6Q59H0GNNNWD8JG8K4A6NYM",
+      "01M6Q59H2BNK26VW13ZHNQSTJ2",
+      "01M6Q59H461CR4R8DHENEZC9DX",
+      "01M6Q59H5Y165Q1JHQJARCP3Z5",
+      "01M6Q59H7V0QM0ETHMQ4M2J3FN",
+      "01M6Q59H9SS60F4KN2NZYC7B52",
+      "01M6Q59HBQ6E874AGGQQ2DK8NF",
+      "01M6Q59HDFHMW2TQA485MW7Q0J",
+      "01M6Q59HF9XRTJFSM9KGMZA4CP",
+      "01M6Q59HH3EFCB4ZHMHM9R1NC1",
+      "01M6Q59HJZMJ76GHM77B351WTN",
+      "01M6Q59HMS9JJHB0Z007KEHTR4",
+      "01M6Q59HPNKS6R9F83EMS5PPXF",
+      "01M6Q59HRP258VHJPZ8FQPB7SY",
+      "01M6Q59HTP1Y3JB44TARX291A4",
+      "01M6Q59HWECBMZM4NHT8GS3TB6",
+      "01M6Q59HY7VYN2RS0QD3YPP3P9",
+      "01M6Q59J00VCQ4K7H9FJYBB9DE",
+      "01M6Q59J1TPTHB6J93SGNEMM4D",
+      "01M6Q59J3MXEPN8YKXWD2C8MET",
+      "01M6Q59J5KDTT1JSVHZXYR2C5X",
+      "01M6Q59J7FX0NEQFZD80ZFEHJK",
+      "01M6Q59J9CAG4WX37JFBAFRPSG",
+      "01M6Q59JB8E83SBW3DBKH0HGCG",
+      "01M6Q59JD4W3NK2KK92R7HMTR3",
+      "01M6Q59JEY0WFY75K2J0FSZE0V",
+      "01M6Q59JGRWCE6CB4HA0T9WH4J",
+      "01M6Q59JJMYRH0SHV9AJE4NFMV",
+      "01M6Q59JMFWT50TQTCM22T1QFJ",
+      "01M6Q59JP8Y25NFAF5X31EJ4E0",
+      "01M6Q59JRB7ESR4XPHDGASN6MK",
+      "01M6Q59JTADW76N80DCAZPRKR2",
+      "01M6Q59JW12KGPJGQEYT15RBAV",
+      "01M6Q59JXXWDFEM7GAHPT9Y3V5",
+      "01M6Q59JZSPAEKCNQ4R5X0GKC0",
+      "01M6Q59K1G4JESM1QMEHZN0FN2",
+      "01M6Q59K3BZPNEVJNDYA96JA0S",
+      "01M6Q59K56NSFRDF42NBZ60KTZ",
+      "01M6Q59K720EVJFTKTV52Y0RBW",
+      "01M6Q59K90CZMZSFXH8VKKDD3R",
+      "01M6Q59KAWP37RNGAF2KGYS4RW",
+      "01M6Q59KCQ7Q4JMH1TE9QM0JNY",
+      "01M6Q59KEF3NQ1Q0ED8ZD63AY3",
+      "01M6Q59KGBSSCNZ05WYKDBBHGE",
+      "01M6Q59KJ560M2A36EYKSKPJGP",
+      "01M6Q59KM36Z8NCYYCCNYSFMBT",
+      "01M6Q59KNW8RZCP3ZGEJ8J2RCC",
+      "01M6Q59KQYJRREDWBHH4CKMXV5",
+      "01M6Q59KSZYP52DCF7VZBAJRX2",
+      "01M6Q59KVT6X8H7HMRY6W6VBYT",
+      "01M6Q59KXKDW45H3W2CNYJN3D9",
+      "01M6Q59KZHVJN67MR3KDB2H9F1",
+      "01M6Q59M1BWP5P0R7S7ZM2RAWF",
+      "01M6Q59M37X6GQ1PDD3H1EM63H",
+      "01M6Q59M52EY6ER066V5Y2Z4AF",
+      "01M6Q59M6X0BDF4DXDES5YSRRE",
+      "01M6Q59M8Q7YC37C01FSJ39Z4F",
+      "01M6Q59MAQ0XQK0AMG32025836",
+      "01M6Q59MCK49ZT66G54TB5QRP9",
+      "01M6Q59MEG5MKP1Z3Z55RGMFAX",
+      "01M6Q59MGB25MK2BE8Z15G5H2V",
+      "01M6Q59MJ5P5KHEN2RNKWRQA6G",
+      "01M6Q59MM2YE683BGY9A9PX86D",
+      "01M6Q59MNVFAN8MR2XKH2WEWW4",
+      "01M6Q59MQXTSW4NY96SB74HSEY",
+      "01M6Q59MSWCC1MAMSP1Q2F4K8G",
+      "01M6Q59MVR7D49C9HM4ZBXKQVF",
+      "01M6Q59MXHYJVP0Z8DPBEX62NT",
+      "01M6Q59MZBZSV3W8CGNQ25MF5M",
+      "01M6Q59N181VX235DM9T6VKPDK",
+      "01M6Q59N31SAQR3SNFSG5N3VZF",
+      "01M6Q59N4YB1W1VK2YAY4M8TQ8",
+      "01M6Q59N6TN3CZPPP44D1T2ERP",
+      "01M6Q59N8RY5GSFQN2JGE12TYA"
+    ],
+    "phase6_3_cumulative_imported_count": 353
+  },
+  "phase": "Global mzc discovery batch 1",
+  "generated_integrity": {
+    "pmtiles_features": 4851,
+    "pmtiles_sha256": "1c884d02811306a2498b9a4d39b38f9c66dca34849a5d96e42afe453b100d4c1",
+    "alias_count": 1086,
+    "shards": {
+      "0001": 999,
+      "0002": 999,
+      "0003": 999,
+      "0004": 999,
+      "0005": 891
+    },
+    "maximum_shard_size": 999,
+    "roads_source_records": 3710,
+    "speed_limit_source_records": 3710,
+    "supplementary_maxspeed_source_tags": 462,
+    "pmtiles_bytes": 1873888
+  },
+  "before_after_integrity": {
+    "before": {
+      "active_place_records": 4534,
+      "public_geographic_features": 4498,
+      "alias_count": 1086,
+      "road_records": 3710,
+      "road_sources_sha256": "ead714c9107595f2b25e9f96f70053f55d2b314f2a22862619fe9f37aef78a9c",
+      "speed_limit_records": 3710,
+      "speed_limit_sources_sha256": "5886d082050d3e8c8142bd10d873aa5d2173cbc0e611126e4e219b1b9eba26a1",
+      "supplementary_maxspeed_records": 462,
+      "supplementary_source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872"
+    },
+    "after": {
+      "active_place_records": 4887,
+      "public_geographic_features": 4851,
+      "alias_count": 1086,
+      "road_records": 3710,
+      "road_sources_sha256": "ead714c9107595f2b25e9f96f70053f55d2b314f2a22862619fe9f37aef78a9c",
+      "speed_limit_records": 3710,
+      "speed_limit_sources_sha256": "5886d082050d3e8c8142bd10d873aa5d2173cbc0e611126e4e219b1b9eba26a1",
+      "supplementary_maxspeed_records": 462,
+      "supplementary_source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872"
+    },
+    "existing_place_ulids_preserved": true,
+    "aliases_preserved": true,
+    "all_shards_within_limit": true
+  },
+  "review_queue": {
+    "phase6_2_reported_conflicting_existing_matches_unchanged": 13,
+    "phase6_2_reported_eligibility_uncertain_candidates_unchanged": 11,
+    "current_combined_unresolved_existing_match_candidates": 1,
+    "current_combined_eligibility_uncertain_candidates": 23,
+    "phase6_2_named_case_decisions": [
+      {
+        "name": "Amma Hotel",
+        "ulids": [
+          "01M5Z17G0C4C1Q8YM3ZR7W7HES",
+          "01M5Z17GC75PDB0MRNFK5PN6ZE"
+        ],
+        "decision": "retained separately",
+        "reason": "12.8 m apart with differing address and category values; no independent evidence resolves whether these are one listing or separate businesses."
+      },
+      {
+        "name": "Markaz Mosque, Oddamawadi",
+        "ulids": [
+          "01M5Z5PDD8W74TDEST9HG41RY3",
+          "01M5Z5PJM2K9AGEBTQWXNSCGPZ"
+        ],
+        "decision": "retained separately",
+        "reason": "Same address/category and about 10 m apart, but coordinates differ and available records do not independently establish which point should be canonical."
+      }
+    ],
+    "uncertain_and_conflicting_candidate_details_omitted": true,
+    "no_unresolved_candidate_was_deleted_or_merged": true
+  }
+}
