@@ -1,0 +1,58 @@
+{
+  "name": "KK Pharmacy",
+  "coordinates": {
+    "latitude": 6.0330429,
+    "longitude": 80.21621669999999
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "KLH Building, 06 Gamini Mawatha, Galle 80000",
+  "phone": "0912231136",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S3KSC3MDSFR2RT0P7R08"
+}
