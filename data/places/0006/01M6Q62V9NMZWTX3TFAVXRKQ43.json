@@ -1,0 +1,58 @@
+{
+  "name": "Hotel New Selva",
+  "coordinates": {
+    "latitude": 9.690634,
+    "longitude": 80.0136819
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "1048 Jaffna-Kankesanturai Road, Jaffna",
+  "phone": "0776995009",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q62V9NMZWTX3TFAVXRKQ43"
+}
