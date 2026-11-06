@@ -1,0 +1,59 @@
+{
+  "name": "Delicious Cafe",
+  "coordinates": {
+    "latitude": 6.886800999999999,
+    "longitude": 81.0406144
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "Helahalpe, Badulla-Bandarawela Main Road, 90122",
+  "phone": "0572228568",
+  "website": "https://deliciouscafeella.blogspot.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6363994WFWD14MN526TM2"
+}
