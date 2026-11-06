@@ -1,0 +1,58 @@
+{
+  "name": "Eastern Lanka Seafood Restaurant",
+  "coordinates": {
+    "latitude": 8.6094463,
+    "longitude": 81.2163837
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "300 Nilaveli Road, Trincomalee",
+  "phone": "0755498001",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1:30–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5998HH9FV46HFC793ZV0V"
+}
