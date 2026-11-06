@@ -1,0 +1,60 @@
+{
+  "name": "Gemi Gedara",
+  "coordinates": {
+    "latitude": 7.9668034,
+    "longitude": 80.9851686
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "1608 Bendiwewa, Polonnaruwa",
+  "phone": "0712940474",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6 AM",
+        "11 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 AM",
+        "11 AM–6 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63MR5FHWEAW85V35FGYXH"
+}
