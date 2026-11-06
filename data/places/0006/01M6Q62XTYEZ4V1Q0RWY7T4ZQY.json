@@ -1,0 +1,58 @@
+{
+  "name": "Real Super Restaurant",
+  "coordinates": {
+    "latitude": 7.479160299999999,
+    "longitude": 80.3540695
+  },
+  "categories": [
+    "Non vegetarian restaurant"
+  ],
+  "address": "18A, Pubudu Mawatha, Colombo, Road, Kurunegala 60000",
+  "phone": "0716807560",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62XTYEZ4V1Q0RWY7T4ZQY"
+}
