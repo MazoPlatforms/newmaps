@@ -1,0 +1,60 @@
+{
+  "name": "The Dutchman's Street",
+  "coordinates": {
+    "latitude": 5.9439708,
+    "longitude": 80.5459418
+  },
+  "categories": [
+    "Restaurant",
+    "Cafe",
+    "Coffee shop"
+  ],
+  "address": "09, Court Road, Dutch, Matara 81000",
+  "phone": "0412236555",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6327F0N6QB0DZE1Y3NXZY"
+}
