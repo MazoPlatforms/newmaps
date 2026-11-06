@@ -1,0 +1,59 @@
+{
+  "name": "Rimax Auto",
+  "coordinates": {
+    "latitude": 7.3267351,
+    "longitude": 80.6539272
+  },
+  "categories": [
+    "Auto repair shop"
+  ],
+  "address": "150/2 Polgolla, Kandy 150/2 Polgolla, Kandy 20250",
+  "phone": "0718807872",
+  "website": "http://rimaxauto.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S12TG3377A35V06P28WC"
+}
