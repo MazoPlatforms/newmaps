@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City - Colombo 05",
+  "coordinates": {
+    "latitude": 6.8878131,
+    "longitude": 79.8729997
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "213 Park Road, Colombo 00500",
+  "phone": "0112555568",
+  "website": "http://www.cargillsceylon.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RMKQ12SQ3MGQ9RG93SH1"
+}
