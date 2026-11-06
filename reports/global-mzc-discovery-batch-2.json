@@ -1,0 +1,2953 @@
+{
+  "report_version": 1,
+  "scope": "Sri Lanka and any documented mzc discovery result that passes public-place and duplicate checks",
+  "boundary": {
+    "enforced": false,
+    "membership_rule": "Boundary membership was intentionally not used as an exclusion criterion for this opt-in global discovery import; location is retained only as supplied by the CLI."
+  },
+  "discovery": {
+    "interface": "mzc CLI only",
+    "command_syntax": "mzc -l 500 -c lk -t 30 '<documented query string>'",
+    "pagination": "No pagination option is documented by mzc --help; queries reaching 500 results must be subdivided.",
+    "result_origin_or_license": "Owner-supplied collection; collection methodology and origin were not investigated. The documented CLI output does not expose redistribution license metadata; no provider attribution is inferred.",
+    "independent_place_verification": "not performed; imported listings remain unverified",
+    "capture_log_note": "Four preliminary successful administrative-area queries returned responses that were not retained, so their result counts are unknown and excluded. Two documented invocations were interrupted before capture and later retried successfully. Two query runners briefly overlapped; retained responses were reconciled by unique query, but the exact number of redundant calls cannot be reconstructed. Confirmed invocation count is therefore a lower bound.",
+    "invocations_in_manifest": 12,
+    "confirmed_cli_invocations_at_least": 12,
+    "exact_cli_invocation_total_available": false,
+    "overlap_repeat_invocation_count": null,
+    "successful_queries": 12,
+    "uncaptured_successful_queries": 0,
+    "uncaptured_successful_query_rows_unknown": 0,
+    "failed_queries": 0,
+    "failed_attempts": 0,
+    "successful_retries": 0,
+    "unique_query_strings": 12,
+    "raw_candidates_returned_in_retained_json": 207,
+    "raw_candidates_returned_from_retained_successful_responses": 207,
+    "queries_at_500_result_limit": 0,
+    "queries": [
+      {
+        "key": "ampara--all-public-places--60ce45b1",
+        "query": "public places and businesses in Ampara, Sri Lanka",
+        "town": "Ampara",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 15,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "kalmunai--all-public-places--0cabe38b",
+        "query": "public places and businesses in Kalmunai, Sri Lanka",
+        "town": "Kalmunai",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 15,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "akkaraipattu--all-public-places--e39cabd7",
+        "query": "public places and businesses in Akkaraipattu, Sri Lanka",
+        "town": "Akkaraipattu",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 22,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "sammanthurai--all-public-places--11c842e7",
+        "query": "public places and businesses in Sammanthurai, Sri Lanka",
+        "town": "Sammanthurai",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 19,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "pottuvil--all-public-places--4d5ddd0f",
+        "query": "public places and businesses in Pottuvil, Sri Lanka",
+        "town": "Pottuvil",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 33,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "maha-oya--all-public-places--a891849a",
+        "query": "public places and businesses in Maha Oya, Sri Lanka",
+        "town": "Maha Oya",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 8,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "dehiattakandiya--all-public-places--93201411",
+        "query": "public places and businesses in Dehiattakandiya, Sri Lanka",
+        "town": "Dehiattakandiya",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 2,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "trincomalee--all-public-places--c628fc13",
+        "query": "public places and businesses in Trincomalee, Sri Lanka",
+        "town": "Trincomalee",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 68,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "kinniya--all-public-places--15686aa7",
+        "query": "public places and businesses in Kinniya, Sri Lanka",
+        "town": "Kinniya",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 9,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "kantale--all-public-places--2b8fb3fd",
+        "query": "public places and businesses in Kantale, Sri Lanka",
+        "town": "Kantale",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 11,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "muttur--all-public-places--15e4db59",
+        "query": "public places and businesses in Muttur, Sri Lanka",
+        "town": "Muttur",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 1,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      },
+      {
+        "key": "seruwila--all-public-places--8460a367",
+        "query": "public places and businesses in Seruwila, Sri Lanka",
+        "town": "Seruwila",
+        "category": "all-public-places",
+        "status": "success",
+        "country": "lk",
+        "limit": 500,
+        "count": 4,
+        "at_limit": false,
+        "exploratory": false,
+        "extra_invocations": 0,
+        "unretained_successful_rows": 0,
+        "attempts": 1,
+        "prior_interrupted_attempts": 0,
+        "count_unknown": false
+      }
+    ],
+    "phase6_3_additional_gap_queries": 0,
+    "phase6_2_failed_prompts_recovered": {
+      "count": 0,
+      "all_retried_prompts_succeeded": true
+    }
+  },
+  "processing": {
+    "raw_candidates_analyzed": 207,
+    "unique_candidates": 202,
+    "duplicate_query_rows_collapsed": 5,
+    "classification_counts": {
+      "excluded_confirmed_private": 0,
+      "existing_place_duplicate": 42,
+      "invalid_missing_coordinates": 0,
+      "invalid_missing_name": 0,
+      "mzc_source_conflict": 0,
+      "new_public_candidate": 155,
+      "uncertain_public_eligibility": 5
+    },
+    "unresolved_reason_counts": {
+      "missing_specific_public_place_category_or_context": 5,
+      "residential_context_without_public_place_evidence": 1
+    },
+    "candidate_data_quality_signals": {
+      "missing_address": 2,
+      "missing_categories": 1,
+      "missing_phone": 51
+    },
+    "unresolved_candidates_are_not_listed_by_name_or_location": true,
+    "new_places_in_this_change": 155,
+    "unresolved_new_nearby_duplicate_pair_count": 0,
+    "active_place_records_before": 4887,
+    "active_place_records_after": 5042,
+    "current_batch_region": "all",
+    "name_format_changes": 43,
+    "address_format_changes": 43,
+    "imported_ulids": [
+      "01M6Q5KHDX57Z3C0QKHQNX3A2C",
+      "01M6Q5KHG1TZDF4W0MBTRD1B3X",
+      "01M6Q5KHJ4N43S5DANJB56F8AD",
+      "01M6Q5KHM50Q7PMSMSQFM4Z9Z3",
+      "01M6Q5KHP7Y01HNBG4J3R09ZNQ",
+      "01M6Q5KHRDZM5NVQNSDT1Y308A",
+      "01M6Q5KHTF4GWPJSKVXDBKRJPP",
+      "01M6Q5KHWF0Y12T71A9X254FXJ",
+      "01M6Q5KHYHG4JGE8EYN204350D",
+      "01M6Q5KJ0NZHFP0VKVF661MSJP",
+      "01M6Q5KJ2P80X826YB5Q5M0QG9",
+      "01M6Q5KJ4QQW04DMR8WY22QKN9",
+      "01M6Q5KJ6V5A62PXDV4KGTWYG0",
+      "01M6Q5KJ8XQDZF432SBZ05SE7D",
+      "01M6Q5KJB893QV366MGHY3CECW",
+      "01M6Q5KJDBT18WW7CKTGK9Q5C8",
+      "01M6Q5KJFK0P86VXFAYZAB71VP",
+      "01M6Q5KJHR6RS6CAPQ2X6R9RPN",
+      "01M6Q5KJM0QTT82CXSR6XKMV4E",
+      "01M6Q5KJNZF9D846C5BJR5K1RP",
+      "01M6Q5KJR3GBFPW17KBE6RE3HF",
+      "01M6Q5KJT3TKED2WGGEGYDYWR0",
+      "01M6Q5KJWDK78PGVG2QEBMD1QF",
+      "01M6Q5KJYGH3QDR2MNWASPTG1C",
+      "01M6Q5KK0P07K44B63PR18C0VK",
+      "01M6Q5KK2VCZXFRM61SGXBBB8T",
+      "01M6Q5KK4Z5V5DFYX2WYC58ZT6",
+      "01M6Q5KK70F5D9DBENSTRKNJRC",
+      "01M6Q5KK935V8RTX67GC26DCYZ",
+      "01M6Q5KKBB72820MHT5E7YS5VH",
+      "01M6Q5KKDBFEKZ2S91HAJZXW5T",
+      "01M6Q5KKFNK1MG333Q22WJE2TM",
+      "01M6Q5KKHN1TXQ9GS9026KGR93",
+      "01M6Q5KKKWYN793Z71K1CKYKH7",
+      "01M6Q5KKP3JFJRXB278EP81TTJ",
+      "01M6Q5KKR5MKDGAXRD44H6G7PE",
+      "01M6Q5KKT83YBJKW1JAEM7K2T7",
+      "01M6Q5KKWBGCDZNJ6SSDM0SGJT",
+      "01M6Q5KKYT4DFYVKZ6TS3ATJTD",
+      "01M6Q5KM0TDWPJ93EQVW5SAJBA",
+      "01M6Q5KM32T3A35J9FNCAHY1MX",
+      "01M6Q5KM57F2VZM2HZ8BN9PAA7",
+      "01M6Q5KM7FQZR7SVMAPHC25SS8",
+      "01M6Q5KMASBXH47WS78JH418S2",
+      "01M6Q5KMDCFBECJ4MHXZW8N104",
+      "01M6Q5KMFMYTJT244YCD96AED2",
+      "01M6Q5KMHVGMNJ6Q56N6PB12AJ",
+      "01M6Q5KMKYN5DQ0WB6PEQQHN5A",
+      "01M6Q5KMP23AKHT1VA1GQR3P0G",
+      "01M6Q5KMR97Y77MG0VSQM054CE",
+      "01M6Q5KMTF78ARP4W7ZMBETNHM",
+      "01M6Q5KMWKGJWW2W0JVMSZ4GQ5",
+      "01M6Q5KMYNR53F12D5HWKMQXDS",
+      "01M6Q5KN0TZKZYM80CFMJJE7TY",
+      "01M6Q5KN2V747Z0XBQP7QSVG1W",
+      "01M6Q5KN4TVWB7GCJ971ZWV3J0",
+      "01M6Q5KN70KT0CGM04XM7X64GP",
+      "01M6Q5KN91KPGS1NRCS78YA0DR",
+      "01M6Q5KNBFJX5Z9D8BFT7J488Q",
+      "01M6Q5KNDHSFC105PANH3QTDSF",
+      "01M6Q5KNFJBANXWWSR66X61E6C",
+      "01M6Q5KNK397NZCRQTNC94QNS0",
+      "01M6Q5KNNMJZHCY17P5BYBYT8M",
+      "01M6Q5KNQMMFG5ERQ2WSTTGE7X",
+      "01M6Q5KNSS8X2TXEG65HN45N84",
+      "01M6Q5KNVZX5XNMDEHSB9B8DDF",
+      "01M6Q5KNY4YK5516S4X4RKSHCG",
+      "01M6Q5KP06CV2VCQ61DHSS3NG0",
+      "01M6Q5KP2AABGAYAVJAA0BQGB1",
+      "01M6Q5KP4EDBY78RXX9RCNHW93",
+      "01M6Q5KP6B353B3E5VCNYBSP9M",
+      "01M6Q5KP86DTRQXZH5YA7294G8",
+      "01M6Q5KPAHVDEHRP59DYGDH9V4",
+      "01M6Q5KPD64V2DP3MF7E46B3M8",
+      "01M6Q5KPFDF3SCN1R4ME14ESV1",
+      "01M6Q5KPHC5VZMXN5VADPXSR5Q",
+      "01M6Q5KPKGFSZ52SG002HD4WTA",
+      "01M6Q5KPNQQ1H1GRVW8153MTVZ",
+      "01M6Q5KPQTCKD8VRQGD1ET0PBE",
+      "01M6Q5KPSXY64J5DAA7ZDX3WG1",
+      "01M6Q5KPW147HYMZT8W38H0W9A",
+      "01M6Q5KPY4YV1H203PDCPA30KJ",
+      "01M6Q5KQ081K6VNX9AMAAEVF0S",
+      "01M6Q5KQ2E056YNBQ2N5ZEG9YW",
+      "01M6Q5KQ4JV1NWAPNBJ5TA3NQ2",
+      "01M6Q5KQ6QJGQK4828TH4BKSJ9",
+      "01M6Q5KQ8T6PAQ031W9937CQWT",
+      "01M6Q5KQAZSBAY2ETK67TCY1S6",
+      "01M6Q5KQD9BFNN21TT0XSDVX0N",
+      "01M6Q5KQFQK09BZZ760YHGV162",
+      "01M6Q5KQHVXH6PTPN263G6TJ52",
+      "01M6Q5KQM773HRE9VMW90X73QK",
+      "01M6Q5KQP6XRSQ24NKTFGV5PJ6",
+      "01M6Q5KQR051F9EQ7Q02CSBSX8",
+      "01M6Q5KQT2ZFRZQZAFB4BT9VK4",
+      "01M6Q5KQW6KCW6NTR7XBW868F5",
+      "01M6Q5KQXZZ8ANDVGCXA41AA10",
+      "01M6Q5KR0B07FGSMKKK606X73T",
+      "01M6Q5KR29ZD5C7GAZFXWNKVB8",
+      "01M6Q5KR42X4FPW8MZTC2VVS8P",
+      "01M6Q5KR5SJ2FRR8DB2H3PEV69",
+      "01M6Q5KR7YFQ4N3P1ZFYNQJXDD",
+      "01M6Q5KR9P8357Q0X53Q4X2BHM",
+      "01M6Q5KRBPM0T8BCC8JJXBJW3X",
+      "01M6Q5KRE575H1B6NRS1SY6K3X",
+      "01M6Q5KRG0KZE441AQS10GTJW4",
+      "01M6Q5KRKGNXCAR578JFABESJT",
+      "01M6Q5KRQPHQSJWMKYN92VREP4",
+      "01M6Q5KRT62G09W1J55V9MKVE2",
+      "01M6Q5KRW45SGFJ3HGFZ383E2E",
+      "01M6Q5KRY2NEKQZZ1T3VWWXWT9",
+      "01M6Q5KRZWVZ5J9NX1EN522APF",
+      "01M6Q5KS24XJ1S5S1TYVGPWQ5P",
+      "01M6Q5KS48JX6FQYEVS5HBEC95",
+      "01M6Q5KS66E24CX45ECNHYQ9H5",
+      "01M6Q5KS7Y1KXRVNY5NBPGED7M",
+      "01M6Q5KS9PTC5HR3MD80C2BSVM",
+      "01M6Q5KSBXJK1RAN36X7N3QPXW",
+      "01M6Q5KSDTH2DDB5CRKHVZ8672",
+      "01M6Q5KSFSNTSNCJWVAPHGK985",
+      "01M6Q5KSHSG0CCH13S7BZ0PX2A",
+      "01M6Q5KSKPREMYRW5PA7Y355AR",
+      "01M6Q5KSNPGT4BNZEDTK6D8S7Q",
+      "01M6Q5KSQK55SBRSVVTN9AHZ7R",
+      "01M6Q5KSSM08JR43CQ23Z030R4",
+      "01M6Q5KSVMX6T1BMJHH67V21QM",
+      "01M6Q5KSXGE04HWJ2HVAMR4BSQ",
+      "01M6Q5KSZKWQ1K2A72RZD21K35",
+      "01M6Q5KT1NN84Y61RR4CBR8VJY",
+      "01M6Q5KT4BWB0WPYZYNBBEJYV5",
+      "01M6Q5KT6EPSC3CB9HP7R7P558",
+      "01M6Q5KT8DSE0C5FPMJJQDQ7XQ",
+      "01M6Q5KTAG8BEARTQSBDQMRVH5",
+      "01M6Q5KTCDWQS4B3SBNHF53G5D",
+      "01M6Q5KTEE17GPCJFD1NC6M15S",
+      "01M6Q5KTGBC6EF7M9PR77XNSB7",
+      "01M6Q5KTJ8WTEN5VD8CQQRDW3Z",
+      "01M6Q5KTM782YDAWBHN629FZGS",
+      "01M6Q5KTPCZG8J1093ZYXHG1T2",
+      "01M6Q5KTRBEPGY9YDVMBC705QC",
+      "01M6Q5KTT5FNQWEGC4GPNK8VDZ",
+      "01M6Q5KTW26YT7ZYR1G98HMTPJ",
+      "01M6Q5KTY3G1FDA74CND7D6VCQ",
+      "01M6Q5KV03NWCZR11XD8GHV5JQ",
+      "01M6Q5KV21508GADJQBS1M9WXH",
+      "01M6Q5KV4270R34W39Z3T1HTEX",
+      "01M6Q5KV63X4KEF83XQCYF8ERB",
+      "01M6Q5KV82777DH4FHHD7KFB9B",
+      "01M6Q5KVA46WMKJ86YG27V0TT2",
+      "01M6Q5KVC3Y8CSW4BF67VSEHS0",
+      "01M6Q5KVE2JR3WT33VBZD33Y20",
+      "01M6Q5KVG2K1DYB9H9J0WW6J3X",
+      "01M6Q5KVJ0RSTHKBZVATTM5Z8G",
+      "01M6Q5KVKZ5VRT2YCKZ7NJJCQH",
+      "01M6Q5KVP3Q0GTNX0PFNHS44J4"
+    ],
+    "town_query_coverage_overlapping": {
+      "akkaraipattu": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 20
+      },
+      "ampara": {
+        "existing_place_duplicate": 7,
+        "new_public_candidate": 8
+      },
+      "dehiattakandiya": {
+        "new_public_candidate": 2
+      },
+      "kalmunai": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 14
+      },
+      "kantale": {
+        "new_public_candidate": 11
+      },
+      "kinniya": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 7
+      },
+      "maha-oya": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 5
+      },
+      "muttur": {
+        "new_public_candidate": 1
+      },
+      "pottuvil": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 31
+      },
+      "sammanthurai": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 18
+      },
+      "seruwila": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 3
+      },
+      "trincomalee": {
+        "existing_place_duplicate": 27,
+        "new_public_candidate": 39
+      }
+    },
+    "candidate_category_coverage_overlapping": {
+      "Advertising agency": {
+        "new_public_candidate": 1
+      },
+      "Airline ticket agency": {
+        "new_public_candidate": 1
+      },
+      "Airport shuttle service": {
+        "new_public_candidate": 3
+      },
+      "Apartment building": {
+        "new_public_candidate": 1
+      },
+      "Asian restaurant": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 2
+      },
+      "Auto parts store": {
+        "new_public_candidate": 1
+      },
+      "BPO company": {
+        "new_public_candidate": 1
+      },
+      "Bar": {
+        "existing_place_duplicate": 4,
+        "new_public_candidate": 1
+      },
+      "Bar & grill": {
+        "existing_place_duplicate": 1
+      },
+      "Barbecue area": {
+        "existing_place_duplicate": 1
+      },
+      "Beach": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 3
+      },
+      "Beach club": {
+        "existing_place_duplicate": 1
+      },
+      "Biryani restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Boat tour agency": {
+        "new_public_candidate": 3
+      },
+      "Bridge": {
+        "new_public_candidate": 1
+      },
+      "Buddhist temple": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 2
+      },
+      "Buffet restaurant": {
+        "new_public_candidate": 1
+      },
+      "Bus charter": {
+        "new_public_candidate": 1
+      },
+      "Bus depot": {
+        "new_public_candidate": 1
+      },
+      "Bus ticket agency": {
+        "new_public_candidate": 2
+      },
+      "Cafe": {
+        "existing_place_duplicate": 3,
+        "new_public_candidate": 2
+      },
+      "Car leasing service": {
+        "new_public_candidate": 3
+      },
+      "Car rental agency": {
+        "new_public_candidate": 1
+      },
+      "Chauffeur service": {
+        "new_public_candidate": 1
+      },
+      "Children Policlinic": {
+        "existing_place_duplicate": 1
+      },
+      "Clothing store": {
+        "new_public_candidate": 3
+      },
+      "Cocktail bar": {
+        "existing_place_duplicate": 1
+      },
+      "Coffee shop": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Computer networking service": {
+        "new_public_candidate": 1
+      },
+      "Computer store": {
+        "new_public_candidate": 1
+      },
+      "Computer support and services": {
+        "new_public_candidate": 2
+      },
+      "Conference center": {
+        "existing_place_duplicate": 1
+      },
+      "Corporate office": {
+        "new_public_candidate": 2
+      },
+      "Creperie": {
+        "existing_place_duplicate": 1
+      },
+      "Digital printer": {
+        "new_public_candidate": 1
+      },
+      "Digital printing service": {
+        "new_public_candidate": 1
+      },
+      "Diner": {
+        "existing_place_duplicate": 1
+      },
+      "Diving center": {
+        "new_public_candidate": 1
+      },
+      "Donations center": {
+        "existing_place_duplicate": 1
+      },
+      "Eclectic restaurant": {
+        "new_public_candidate": 1
+      },
+      "Education center": {
+        "new_public_candidate": 1
+      },
+      "Educational consultant": {
+        "new_public_candidate": 1
+      },
+      "Electric utility company": {
+        "new_public_candidate": 1
+      },
+      "Event venue": {
+        "existing_place_duplicate": 2
+      },
+      "Family restaurant": {
+        "existing_place_duplicate": 4,
+        "new_public_candidate": 5
+      },
+      "Fine dining restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Fortress": {
+        "existing_place_duplicate": 1
+      },
+      "Fresh food market": {
+        "new_public_candidate": 1
+      },
+      "Furniture store": {
+        "new_public_candidate": 1
+      },
+      "Gas station": {
+        "new_public_candidate": 1
+      },
+      "Government hospital": {
+        "existing_place_duplicate": 1
+      },
+      "Government office": {
+        "new_public_candidate": 5
+      },
+      "Graphic designer": {
+        "new_public_candidate": 1
+      },
+      "Grill": {
+        "existing_place_duplicate": 1
+      },
+      "Grocery store": {
+        "existing_place_duplicate": 1
+      },
+      "Guest house": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 2
+      },
+      "Hardware store": {
+        "new_public_candidate": 1
+      },
+      "Hindu temple": {
+        "existing_place_duplicate": 1
+      },
+      "Historical landmark": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Historical place": {
+        "new_public_candidate": 1
+      },
+      "Historical place museum": {
+        "new_public_candidate": 1
+      },
+      "Holiday home": {
+        "existing_place_duplicate": 1
+      },
+      "Home goods store": {
+        "new_public_candidate": 1
+      },
+      "Home help": {
+        "existing_place_duplicate": 1
+      },
+      "Home help service agency": {
+        "existing_place_duplicate": 1
+      },
+      "Hospital": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Hotel": {
+        "existing_place_duplicate": 12,
+        "new_public_candidate": 17
+      },
+      "Ice cream shop": {
+        "existing_place_duplicate": 1
+      },
+      "Immigration & naturalization service": {
+        "new_public_candidate": 1
+      },
+      "Immigration attorney": {
+        "new_public_candidate": 1
+      },
+      "Indian restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Indoor lodging": {
+        "new_public_candidate": 1
+      },
+      "Inn": {
+        "existing_place_duplicate": 1
+      },
+      "Insurance company": {
+        "new_public_candidate": 1
+      },
+      "Juice shop": {
+        "existing_place_duplicate": 1
+      },
+      "Library": {
+        "new_public_candidate": 8
+      },
+      "Local government office": {
+        "new_public_candidate": 3
+      },
+      "Lodging": {
+        "new_public_candidate": 1
+      },
+      "Lounge bar": {
+        "existing_place_duplicate": 1
+      },
+      "Manufacturer": {
+        "new_public_candidate": 1
+      },
+      "Market": {
+        "new_public_candidate": 1
+      },
+      "Massage spa": {
+        "new_public_candidate": 1
+      },
+      "Media company": {
+        "existing_place_duplicate": 1
+      },
+      "Monastery": {
+        "existing_place_duplicate": 1
+      },
+      "Money transfer service": {
+        "existing_place_duplicate": 1
+      },
+      "Motorcycle rental agency": {
+        "new_public_candidate": 1
+      },
+      "Museum": {
+        "new_public_candidate": 1
+      },
+      "National park": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Natural rock climbing area": {
+        "new_public_candidate": 1
+      },
+      "Non-governmental organization": {
+        "new_public_candidate": 1
+      },
+      "Non-profit organization": {
+        "new_public_candidate": 1
+      },
+      "Park": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 2
+      },
+      "Photography service": {
+        "new_public_candidate": 1
+      },
+      "Pizza delivery": {
+        "existing_place_duplicate": 1
+      },
+      "Place of worship": {
+        "new_public_candidate": 1
+      },
+      "Police": {
+        "new_public_candidate": 1
+      },
+      "Police station": {
+        "new_public_candidate": 1
+      },
+      "Post office": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 9
+      },
+      "Print shop": {
+        "new_public_candidate": 1
+      },
+      "Public beach": {
+        "new_public_candidate": 1
+      },
+      "Public defender's office": {
+        "existing_place_duplicate": 1
+      },
+      "Public library": {
+        "new_public_candidate": 5
+      },
+      "Research institute": {
+        "new_public_candidate": 1
+      },
+      "Resort hotel": {
+        "existing_place_duplicate": 3,
+        "new_public_candidate": 3
+      },
+      "Restaurant": {
+        "existing_place_duplicate": 9,
+        "new_public_candidate": 13
+      },
+      "River port": {
+        "new_public_candidate": 1
+      },
+      "Rubber stamp store": {
+        "new_public_candidate": 1
+      },
+      "Scooter rental service": {
+        "new_public_candidate": 2
+      },
+      "Seafood restaurant": {
+        "existing_place_duplicate": 5,
+        "new_public_candidate": 1
+      },
+      "Service establishment": {
+        "new_public_candidate": 1
+      },
+      "Serviced apartment": {
+        "existing_place_duplicate": 1
+      },
+      "Sightseeing tour agency": {
+        "new_public_candidate": 3
+      },
+      "Software company": {
+        "new_public_candidate": 1
+      },
+      "South Indian restaurant": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Spa": {
+        "existing_place_duplicate": 1
+      },
+      "Sri Lankan restaurant": {
+        "existing_place_duplicate": 4,
+        "new_public_candidate": 2
+      },
+      "Student career counseling office": {
+        "new_public_candidate": 1
+      },
+      "Summer camp organizer": {
+        "new_public_candidate": 1
+      },
+      "Supermarket": {
+        "new_public_candidate": 1
+      },
+      "Surf school": {
+        "new_public_candidate": 3
+      },
+      "Surf shop": {
+        "new_public_candidate": 2
+      },
+      "Swimming pool": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 1
+      },
+      "Takeout restaurant": {
+        "existing_place_duplicate": 2
+      },
+      "Taxi service": {
+        "new_public_candidate": 23
+      },
+      "Taxi stand": {
+        "new_public_candidate": 1
+      },
+      "Taxidermist": {
+        "new_public_candidate": 1
+      },
+      "Technology park": {
+        "new_public_candidate": 1
+      },
+      "Telecommunications": {
+        "new_public_candidate": 1
+      },
+      "Telecommunications service provider": {
+        "new_public_candidate": 1
+      },
+      "Textile merchant": {
+        "new_public_candidate": 1
+      },
+      "Tour agency": {
+        "new_public_candidate": 5
+      },
+      "Tour operator": {
+        "new_public_candidate": 7
+      },
+      "Tourist attraction": {
+        "existing_place_duplicate": 7,
+        "new_public_candidate": 13
+      },
+      "Tourist information center": {
+        "new_public_candidate": 4
+      },
+      "Transportation service": {
+        "new_public_candidate": 9
+      },
+      "Travel agency": {
+        "new_public_candidate": 6
+      },
+      "Typing service": {
+        "new_public_candidate": 1
+      },
+      "Van rental agency": {
+        "new_public_candidate": 1
+      },
+      "Vegan restaurant": {
+        "existing_place_duplicate": 1
+      },
+      "Visa consulting service": {
+        "new_public_candidate": 1
+      },
+      "Water treatment plant": {
+        "new_public_candidate": 1
+      },
+      "Wedding venue": {
+        "new_public_candidate": 1
+      },
+      "Whale watching tour agency": {
+        "new_public_candidate": 2
+      },
+      "Wildlife and safari park": {
+        "new_public_candidate": 4
+      },
+      "Wildlife park": {
+        "new_public_candidate": 1
+      },
+      "Yoga retreat center": {
+        "new_public_candidate": 1
+      },
+      "Yoga studio": {
+        "new_public_candidate": 1
+      }
+    },
+    "category_prompt_coverage_overlapping": {
+      "all-public-places": {
+        "existing_place_duplicate": 42,
+        "new_public_candidate": 159
+      }
+    },
+    "query_prompt_candidate_coverage_overlapping": {
+      "akkaraipattu--all-public-places--e39cabd7": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 20
+      },
+      "ampara--all-public-places--60ce45b1": {
+        "existing_place_duplicate": 7,
+        "new_public_candidate": 8
+      },
+      "dehiattakandiya--all-public-places--93201411": {
+        "new_public_candidate": 2
+      },
+      "kalmunai--all-public-places--0cabe38b": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 14
+      },
+      "kantale--all-public-places--2b8fb3fd": {
+        "new_public_candidate": 11
+      },
+      "kinniya--all-public-places--15686aa7": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 7
+      },
+      "maha-oya--all-public-places--a891849a": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 5
+      },
+      "muttur--all-public-places--15e4db59": {
+        "new_public_candidate": 1
+      },
+      "pottuvil--all-public-places--4d5ddd0f": {
+        "existing_place_duplicate": 2,
+        "new_public_candidate": 31
+      },
+      "sammanthurai--all-public-places--11c842e7": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 18
+      },
+      "seruwila--all-public-places--8460a367": {
+        "existing_place_duplicate": 1,
+        "new_public_candidate": 3
+      },
+      "trincomalee--all-public-places--c628fc13": {
+        "existing_place_duplicate": 27,
+        "new_public_candidate": 39
+      }
+    },
+    "formatting_changes": [
+      {
+        "field": "name",
+        "before": "Ampara Town - Threewheel park",
+        "after": "Ampara Town - Threewheel Park",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Believion (Pvt) ltd.",
+        "after": "Believion (PVT) Ltd.",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Beach Rd, Kalmunai 32300",
+        "after": "Beach Road, Kalmunai 32300",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "153B Akbar Rd, Maruthamunai 01",
+        "after": "153B Akbar Road, Maruthamunai 01",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Beach cafe",
+        "after": "Beach Cafe",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "CRFJ+GH7, Kalmunai Sea View Rd, Kalmunai 32300",
+        "after": "CRFJ+GH7, Kalmunai Sea View Road, Kalmunai 32300",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "9RRV+HWF, Al Hilal Rd, Sainthamaruthu 32300",
+        "after": "9RRV+HWF, Al Hilal Road, Sainthamaruthu 32300",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Beach Rd, Kalmunai 32300",
+        "after": "Beach Road, Kalmunai 32300",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "CR4R+P6P, Beach Rd, Kalmunai 32300",
+        "after": "CR4R+P6P, Beach Road, Kalmunai 32300",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Mylas Cafe Restaurant and Cafeteria",
+        "after": "Mylas Cafe Restaurant And Cafeteria",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Beach, Mosque Rd, Kalmunai 32300",
+        "after": "Beach, Mosque Road, Kalmunai 32300",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "TEQ2O Technologies (Pvt) Ltd",
+        "after": "TEQ2O Technologies (PVT) Ltd",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No.174, Batticaloa Road Pandiruppu, Kalmunai 32300",
+        "after": "No. 174, Batticaloa Road Pandiruppu, Kalmunai 32300",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "VS RESIDENCY HOTEL",
+        "after": "Vs Residency Hotel",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "23, i Carmel Fatima College Rd, Kalmunai 32300",
+        "after": "23, i Carmel Fatima College Road, Kalmunai 32300",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Thaika Rd, Kalmunai 32300",
+        "after": "Thaika Road, Kalmunai 32300",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "MASS TRAVELS",
+        "after": "Mass Travels",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Sinath Travels and Tours",
+        "after": "Sinath Travels And Tours",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Akkaraipattu - Kalmunai Rd, Akkaraipattu",
+        "after": "Akkaraipattu - Kalmunai Road, Akkaraipattu",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "KINGS",
+        "after": "Kings",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Pottuvil Road, Highway, Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Akkaraipattu 32400",
+        "after": "Pottuvil Road, Highway, Colombo - Ratnapura - Wellawaya - Batticaloa Road, Akkaraipattu 32400",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "SWOAD",
+        "after": "Swoad",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "ELENS Trade (Pvt) Ltd",
+        "after": "ELENS Trade (PVT) Ltd",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Sangamankanda point",
+        "after": "Sangamankanda Point",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Careem Rd, Akkaraipattu 32400",
+        "after": "Careem Road, Akkaraipattu 32400",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Amir Ali public Library",
+        "after": "Amir Ali Public Library",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Divisional Irrigation engineer's Office - Irrigation department",
+        "after": "Divisional Irrigation Engineer's Office - Irrigation Department",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "9Q4G+2WM, Sammanthurai-Malkampiddi-Deeghavapi Rd, Sammanthurai",
+        "after": "9Q4G+2WM, Sammanthurai-Malkampiddi-Deeghavapi Road, Sammanthurai",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Weaving center",
+        "after": "Weaving Center",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "car",
+        "after": "Car",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Gal-Oya Plantations (Pvt) Limited",
+        "after": "Gal-Oya Plantations (PVT) Limited",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Pottuvil point",
+        "after": "Pottuvil Point",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Tsunami Hotel Rd, Arugam Bay 32500",
+        "after": "Tsunami Hotel Road, Arugam Bay 32500",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Rotta kulam",
+        "after": "Rotta Kulam",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "VRFG+J6C, Al Kalam Rd, Pottuvil",
+        "after": "VRFG+J6C, Al Kalam Road, Pottuvil",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "RR9F+R8W, Panama Rd, Arugam Bay",
+        "after": "RR9F+R8W, Panama Road, Arugam Bay",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Beach Thaayar Rd, Pottuvil 32500",
+        "after": "Beach Thaayar Road, Pottuvil 32500",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No-02 Main street, Arugam Bay 32500",
+        "after": "No. 02 Main street, Arugam Bay 32500",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "BAYLINE TOURS (PVT) LTD",
+        "after": "Bayline Tours (PVT) Ltd",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Public library, arugambay",
+        "after": "Public Library, Arugambay",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Eco tourism center - Lagoon safari urani whiskey point",
+        "after": "Eco Tourism Center - Lagoon Safari Urani Whiskey Point",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Panama Rd, Arugam Bay",
+        "after": "Panama Road, Arugam Bay",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Surf and Sand Hotel Restaurant",
+        "after": "Surf And Sand Hotel Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "MR.MD arugambay tuk tuk Transportation & Tourism Services",
+        "after": "MR.MD Arugambay Tuk Tuk Transportation & Tourism Services",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Panama Rd, Arugam Bay 32500",
+        "after": "Panama Road, Arugam Bay 32500",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Food wave",
+        "after": "Food Wave",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Maha oya",
+        "after": "Maha Oya",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Maha Oya Walk way and bath area",
+        "after": "Maha Oya Walk Way And Bath Area",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No. 13 Maithreegama Rd, Dehiattakandiya",
+        "after": "No. 13 Maithreegama Road, Dehiattakandiya",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No 72 Chandangama, Dehiattakandiya",
+        "after": "No. 72 Chandangama, Dehiattakandiya",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Hiring service trincomalee",
+        "after": "Hiring Service Trincomalee",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No129/1 road, Trincomalee 31000",
+        "after": "No. 129/1 road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Sayura travels trincomalee",
+        "after": "Sayura Travels Trincomalee",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Beach trinco",
+        "after": "Beach Trinco",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "159/D, Singhepura, Kandy Rd, Trincomalee 31000",
+        "after": "159/D, Singhepura, Kandy Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Inner Harbour Rd, Trincomalee",
+        "after": "Inner Harbour Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Tharushika taxi service Trincomale",
+        "after": "Tharushika Taxi Service Trincomale",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "No85 Abayarama mawatha, 31000",
+        "after": "No. 85 Abayarama mawatha, 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "202/9D Lower Rd, Trincomalee 31000",
+        "after": "202/9D Lower Road, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "205 Ehamparam Rd, Trincomalee",
+        "after": "205 Ehamparam Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "77 Sandy Bay Rd, Trincomalee",
+        "after": "77 Sandy Bay Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "Ward No.3, Sampalthivu, Nilaveli Road, Trincomalee 31006",
+        "after": "Ward No. 3, Sampalthivu, Nilaveli Road, Trincomalee 31006",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "CEB DGM East office",
+        "after": "CEB DGM East Office",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "China Bay, B39,garman house , 5th Mile Post ,sumedhankarapura, Trincomalee 31000",
+        "after": "China Bay, B39, garman house, 5th Mile Post, sumedhankarapura, Trincomalee 31000",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "H6P5+JC5, Kandy Rd, Trincomalee",
+        "after": "H6P5+JC5, Kandy Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Shan Tours (Pvt) Ltd",
+        "after": "Shan Tours (PVT) Ltd",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Bublic library",
+        "after": "Bublic Library",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "95 Post Office Rd, Trincomalee",
+        "after": "95 Post Office Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No 3 Kandy Rd, Trincomalee",
+        "after": "No. 3 Kandy Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "M5HX+C8P, Nilaveli Rd, Trincomalee",
+        "after": "M5HX+C8P, Nilaveli Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "No.25, Allesgarden Road, Lane 01, Trincomalee",
+        "after": "No. 25, Allesgarden Road, Lane 01, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "4kanuwa Handiya",
+        "after": "4Kanuwa Handiya",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Taxi service Nilaveli",
+        "after": "Taxi Service Nilaveli",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "I.M RENT A SCOOTER & TUK TUK RENT TRINCOMALEE NILAVELI",
+        "after": "I.M Rent A Scooter & Tuk Tuk Rent Trincomalee Nilaveli",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Ward no-01, Nilaveli 31010",
+        "after": "Ward No. 01, Nilaveli 31010",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Nilaveli happy cabs",
+        "after": "Nilaveli Happy Cabs",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Nilaveli taxi services",
+        "after": "Nilaveli Taxi Services",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "M5CW+8QG, Nilaveli Rd, Trincomalee",
+        "after": "M5CW+8QG, Nilaveli Road, Trincomalee",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Alass Ga for pets lovers",
+        "after": "Alass Ga For Pets Lovers",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Trincomalee-Batticaloa Rd, 31100",
+        "after": "Trincomalee-Batticaloa Road, 31100",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "name",
+        "before": "Kinniya Beach children park | சிறுவர் பூங்கா",
+        "after": "Kinniya Beach Children Park | சிறுவர் பூங்கா",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Fruit Hub cafe & Restaurant",
+        "after": "Fruit Hub Cafe & Restaurant",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "name",
+        "before": "Wale kade Restaurant & Coffee Shop",
+        "after": "Wale Kade Restaurant & Coffee Shop",
+        "reason": "Existing conservative place-name capitalization and whitespace normalization."
+      },
+      {
+        "field": "address",
+        "before": "Seruvila Divisional Secretariat, Trincomalee-Batticaloa Rd, Serunuwara",
+        "after": "Seruvila Divisional Secretariat, Trincomalee-Batticaloa Road, Serunuwara",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "9889+4MG, Seruwawila Rajamaha Viharaya, Palatoppu-Seruwawila Rd, Seruwawila,, Seruwawila",
+        "after": "9889+4MG, Seruwawila Rajamaha Viharaya, Palatoppu-Seruwawila Road, Seruwawila, Seruwawila",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      },
+      {
+        "field": "address",
+        "before": "98F9+FV8, Palatoppu-Seruwawila Rd, Seruwawila",
+        "after": "98F9+FV8, Palatoppu-Seruwawila Road, Seruwawila",
+        "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+      }
+    ],
+    "normalization_changes": [
+      {
+        "record_index": 2,
+        "source_query_keys": [
+          "ampara--all-public-places--60ce45b1"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Ampara Town - Threewheel park",
+            "after": "Ampara Town - Threewheel Park",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KHJ4N43S5DANJB56F8AD"
+      },
+      {
+        "record_index": 7,
+        "source_query_keys": [
+          "akkaraipattu--all-public-places--e39cabd7",
+          "ampara--all-public-places--60ce45b1",
+          "kalmunai--all-public-places--0cabe38b",
+          "sammanthurai--all-public-places--11c842e7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Believion (Pvt) ltd.",
+            "after": "Believion (PVT) Ltd.",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KHWF0Y12T71A9X254FXJ"
+      },
+      {
+        "record_index": 8,
+        "source_query_keys": [
+          "kalmunai--all-public-places--0cabe38b"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Beach Rd, Kalmunai 32300",
+            "after": "Beach Road, Kalmunai 32300",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KHYHG4JGE8EYN204350D"
+      },
+      {
+        "record_index": 9,
+        "source_query_keys": [
+          "kalmunai--all-public-places--0cabe38b"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "153B Akbar Rd, Maruthamunai 01",
+            "after": "153B Akbar Road, Maruthamunai 01",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KJ0NZHFP0VKVF661MSJP"
+      },
+      {
+        "record_index": 10,
+        "source_query_keys": [
+          "kalmunai--all-public-places--0cabe38b"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Beach cafe",
+            "after": "Beach Cafe",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "CRFJ+GH7, Kalmunai Sea View Rd, Kalmunai 32300",
+            "after": "CRFJ+GH7, Kalmunai Sea View Road, Kalmunai 32300",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KJ2P80X826YB5Q5M0QG9"
+      },
+      {
+        "record_index": 11,
+        "source_query_keys": [
+          "kalmunai--all-public-places--0cabe38b",
+          "sammanthurai--all-public-places--11c842e7"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "9RRV+HWF, Al Hilal Rd, Sainthamaruthu 32300",
+            "after": "9RRV+HWF, Al Hilal Road, Sainthamaruthu 32300",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KJ4QQW04DMR8WY22QKN9"
+      },
+      {
+        "record_index": 12,
+        "source_query_keys": [
+          "kalmunai--all-public-places--0cabe38b"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Beach Rd, Kalmunai 32300",
+            "after": "Beach Road, Kalmunai 32300",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KJ6V5A62PXDV4KGTWYG0"
+      },
+      {
+        "record_index": 15,
+        "source_query_keys": [
+          "kalmunai--all-public-places--0cabe38b"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "CR4R+P6P, Beach Rd, Kalmunai 32300",
+            "after": "CR4R+P6P, Beach Road, Kalmunai 32300",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KJDBT18WW7CKTGK9Q5C8"
+      },
+      {
+        "record_index": 16,
+        "source_query_keys": [
+          "kalmunai--all-public-places--0cabe38b"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Mylas Cafe Restaurant and Cafeteria",
+            "after": "Mylas Cafe Restaurant And Cafeteria",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Beach, Mosque Rd, Kalmunai 32300",
+            "after": "Beach, Mosque Road, Kalmunai 32300",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KJFK0P86VXFAYZAB71VP"
+      },
+      {
+        "record_index": 17,
+        "source_query_keys": [
+          "kalmunai--all-public-places--0cabe38b"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "TEQ2O Technologies (Pvt) Ltd",
+            "after": "TEQ2O Technologies (PVT) Ltd",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No.174, Batticaloa Road Pandiruppu, Kalmunai 32300",
+            "after": "No. 174, Batticaloa Road Pandiruppu, Kalmunai 32300",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KJHR6RS6CAPQ2X6R9RPN"
+      },
+      {
+        "record_index": 19,
+        "source_query_keys": [
+          "kalmunai--all-public-places--0cabe38b"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "VS RESIDENCY HOTEL",
+            "after": "Vs Residency Hotel",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "23, i Carmel Fatima College Rd, Kalmunai 32300",
+            "after": "23, i Carmel Fatima College Road, Kalmunai 32300",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KJNZF9D846C5BJR5K1RP"
+      },
+      {
+        "record_index": 20,
+        "source_query_keys": [
+          "kalmunai--all-public-places--0cabe38b"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Thaika Rd, Kalmunai 32300",
+            "after": "Thaika Road, Kalmunai 32300",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KJR3GBFPW17KBE6RE3HF"
+      },
+      {
+        "record_index": 24,
+        "source_query_keys": [
+          "akkaraipattu--all-public-places--e39cabd7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "MASS TRAVELS",
+            "after": "Mass Travels",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KK0P07K44B63PR18C0VK"
+      },
+      {
+        "record_index": 26,
+        "source_query_keys": [
+          "akkaraipattu--all-public-places--e39cabd7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Sinath Travels and Tours",
+            "after": "Sinath Travels And Tours",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KK4Z5V5DFYX2WYC58ZT6"
+      },
+      {
+        "record_index": 28,
+        "source_query_keys": [
+          "akkaraipattu--all-public-places--e39cabd7"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Akkaraipattu - Kalmunai Rd, Akkaraipattu",
+            "after": "Akkaraipattu - Kalmunai Road, Akkaraipattu",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KK935V8RTX67GC26DCYZ"
+      },
+      {
+        "record_index": 32,
+        "source_query_keys": [
+          "akkaraipattu--all-public-places--e39cabd7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "KINGS",
+            "after": "Kings",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Pottuvil Road, Highway, Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Akkaraipattu 32400",
+            "after": "Pottuvil Road, Highway, Colombo - Ratnapura - Wellawaya - Batticaloa Road, Akkaraipattu 32400",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KKHN1TXQ9GS9026KGR93"
+      },
+      {
+        "record_index": 34,
+        "source_query_keys": [
+          "akkaraipattu--all-public-places--e39cabd7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "SWOAD",
+            "after": "Swoad",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KKP3JFJRXB278EP81TTJ"
+      },
+      {
+        "record_index": 35,
+        "source_query_keys": [
+          "akkaraipattu--all-public-places--e39cabd7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "ELENS Trade (Pvt) Ltd",
+            "after": "ELENS Trade (PVT) Ltd",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KKR5MKDGAXRD44H6G7PE"
+      },
+      {
+        "record_index": 38,
+        "source_query_keys": [
+          "akkaraipattu--all-public-places--e39cabd7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Sangamankanda point",
+            "after": "Sangamankanda Point",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KKYT4DFYVKZ6TS3ATJTD"
+      },
+      {
+        "record_index": 39,
+        "source_query_keys": [
+          "akkaraipattu--all-public-places--e39cabd7"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Careem Rd, Akkaraipattu 32400",
+            "after": "Careem Road, Akkaraipattu 32400",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KM0TDWPJ93EQVW5SAJBA"
+      },
+      {
+        "record_index": 43,
+        "source_query_keys": [
+          "sammanthurai--all-public-places--11c842e7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Amir Ali public Library",
+            "after": "Amir Ali Public Library",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KMASBXH47WS78JH418S2"
+      },
+      {
+        "record_index": 45,
+        "source_query_keys": [
+          "sammanthurai--all-public-places--11c842e7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Divisional Irrigation engineer's Office - Irrigation department",
+            "after": "Divisional Irrigation Engineer's Office - Irrigation Department",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KMFMYTJT244YCD96AED2"
+      },
+      {
+        "record_index": 47,
+        "source_query_keys": [
+          "sammanthurai--all-public-places--11c842e7"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "9Q4G+2WM, Sammanthurai-Malkampiddi-Deeghavapi Rd, Sammanthurai",
+            "after": "9Q4G+2WM, Sammanthurai-Malkampiddi-Deeghavapi Road, Sammanthurai",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KMKYN5DQ0WB6PEQQHN5A"
+      },
+      {
+        "record_index": 49,
+        "source_query_keys": [
+          "sammanthurai--all-public-places--11c842e7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Weaving center",
+            "after": "Weaving Center",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KMR97Y77MG0VSQM054CE"
+      },
+      {
+        "record_index": 50,
+        "source_query_keys": [
+          "sammanthurai--all-public-places--11c842e7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "car",
+            "after": "Car",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KMTF78ARP4W7ZMBETNHM"
+      },
+      {
+        "record_index": 53,
+        "source_query_keys": [
+          "sammanthurai--all-public-places--11c842e7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Gal-Oya Plantations (Pvt) Limited",
+            "after": "Gal-Oya Plantations (PVT) Limited",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KN0TZKZYM80CFMJJE7TY"
+      },
+      {
+        "record_index": 57,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Pottuvil point",
+            "after": "Pottuvil Point",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KN91KPGS1NRCS78YA0DR"
+      },
+      {
+        "record_index": 60,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Tsunami Hotel Rd, Arugam Bay 32500",
+            "after": "Tsunami Hotel Road, Arugam Bay 32500",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KNFJBANXWWSR66X61E6C"
+      },
+      {
+        "record_index": 63,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Rotta kulam",
+            "after": "Rotta Kulam",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KNQMMFG5ERQ2WSTTGE7X"
+      },
+      {
+        "record_index": 64,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "VRFG+J6C, Al Kalam Rd, Pottuvil",
+            "after": "VRFG+J6C, Al Kalam Road, Pottuvil",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KNSS8X2TXEG65HN45N84"
+      },
+      {
+        "record_index": 66,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "RR9F+R8W, Panama Rd, Arugam Bay",
+            "after": "RR9F+R8W, Panama Road, Arugam Bay",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KNY4YK5516S4X4RKSHCG"
+      },
+      {
+        "record_index": 70,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Beach Thaayar Rd, Pottuvil 32500",
+            "after": "Beach Thaayar Road, Pottuvil 32500",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KP6B353B3E5VCNYBSP9M"
+      },
+      {
+        "record_index": 72,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No-02 Main street, Arugam Bay 32500",
+            "after": "No. 02 Main street, Arugam Bay 32500",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KPAHVDEHRP59DYGDH9V4"
+      },
+      {
+        "record_index": 76,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "BAYLINE TOURS (PVT) LTD",
+            "after": "Bayline Tours (PVT) Ltd",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KPKGFSZ52SG002HD4WTA"
+      },
+      {
+        "record_index": 77,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Public library, arugambay",
+            "after": "Public Library, Arugambay",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KPNQQ1H1GRVW8153MTVZ"
+      },
+      {
+        "record_index": 78,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Eco tourism center - Lagoon safari urani whiskey point",
+            "after": "Eco Tourism Center - Lagoon Safari Urani Whiskey Point",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KPQTCKD8VRQGD1ET0PBE"
+      },
+      {
+        "record_index": 80,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Panama Rd, Arugam Bay",
+            "after": "Panama Road, Arugam Bay",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KPW147HYMZT8W38H0W9A"
+      },
+      {
+        "record_index": 82,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Surf and Sand Hotel Restaurant",
+            "after": "Surf And Sand Hotel Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KQ081K6VNX9AMAAEVF0S"
+      },
+      {
+        "record_index": 84,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "MR.MD arugambay tuk tuk Transportation & Tourism Services",
+            "after": "MR.MD Arugambay Tuk Tuk Transportation & Tourism Services",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Panama Rd, Arugam Bay 32500",
+            "after": "Panama Road, Arugam Bay 32500",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KQ4JV1NWAPNBJ5TA3NQ2"
+      },
+      {
+        "record_index": 85,
+        "source_query_keys": [
+          "pottuvil--all-public-places--4d5ddd0f"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Food wave",
+            "after": "Food Wave",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KQ6QJGQK4828TH4BKSJ9"
+      },
+      {
+        "record_index": 88,
+        "source_query_keys": [
+          "maha-oya--all-public-places--a891849a"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Maha oya",
+            "after": "Maha Oya",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KQD9BFNN21TT0XSDVX0N"
+      },
+      {
+        "record_index": 90,
+        "source_query_keys": [
+          "maha-oya--all-public-places--a891849a"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Maha Oya Walk way and bath area",
+            "after": "Maha Oya Walk Way And Bath Area",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KQHVXH6PTPN263G6TJ52"
+      },
+      {
+        "record_index": 92,
+        "source_query_keys": [
+          "dehiattakandiya--all-public-places--93201411"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No. 13 Maithreegama Rd, Dehiattakandiya",
+            "after": "No. 13 Maithreegama Road, Dehiattakandiya",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KQP6XRSQ24NKTFGV5PJ6"
+      },
+      {
+        "record_index": 93,
+        "source_query_keys": [
+          "dehiattakandiya--all-public-places--93201411"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No 72 Chandangama, Dehiattakandiya",
+            "after": "No. 72 Chandangama, Dehiattakandiya",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KQR051F9EQ7Q02CSBSX8"
+      },
+      {
+        "record_index": 95,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Hiring service trincomalee",
+            "after": "Hiring Service Trincomalee",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No129/1 road, Trincomalee 31000",
+            "after": "No. 129/1 road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KQW6KCW6NTR7XBW868F5"
+      },
+      {
+        "record_index": 97,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Sayura travels trincomalee",
+            "after": "Sayura Travels Trincomalee",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KR0B07FGSMKKK606X73T"
+      },
+      {
+        "record_index": 98,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Beach trinco",
+            "after": "Beach Trinco",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KR29ZD5C7GAZFXWNKVB8"
+      },
+      {
+        "record_index": 100,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "159/D, Singhepura, Kandy Rd, Trincomalee 31000",
+            "after": "159/D, Singhepura, Kandy Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KR5SJ2FRR8DB2H3PEV69"
+      },
+      {
+        "record_index": 101,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Inner Harbour Rd, Trincomalee",
+            "after": "Inner Harbour Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KR7YFQ4N3P1ZFYNQJXDD"
+      },
+      {
+        "record_index": 103,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Tharushika taxi service Trincomale",
+            "after": "Tharushika Taxi Service Trincomale",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "No85 Abayarama mawatha, 31000",
+            "after": "No. 85 Abayarama mawatha, 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KRBPM0T8BCC8JJXBJW3X"
+      },
+      {
+        "record_index": 105,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "202/9D Lower Rd, Trincomalee 31000",
+            "after": "202/9D Lower Road, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KRG0KZE441AQS10GTJW4"
+      },
+      {
+        "record_index": 106,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "205 Ehamparam Rd, Trincomalee",
+            "after": "205 Ehamparam Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KRKGNXCAR578JFABESJT"
+      },
+      {
+        "record_index": 107,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "77 Sandy Bay Rd, Trincomalee",
+            "after": "77 Sandy Bay Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KRQPHQSJWMKYN92VREP4"
+      },
+      {
+        "record_index": 108,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Ward No.3, Sampalthivu, Nilaveli Road, Trincomalee 31006",
+            "after": "Ward No. 3, Sampalthivu, Nilaveli Road, Trincomalee 31006",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KRT62G09W1J55V9MKVE2"
+      },
+      {
+        "record_index": 109,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "CEB DGM East office",
+            "after": "CEB DGM East Office",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KRW45SGFJ3HGFZ383E2E"
+      },
+      {
+        "record_index": 110,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "China Bay, B39,garman house , 5th Mile Post ,sumedhankarapura, Trincomalee 31000",
+            "after": "China Bay, B39, garman house, 5th Mile Post, sumedhankarapura, Trincomalee 31000",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KRY2NEKQZZ1T3VWWXWT9"
+      },
+      {
+        "record_index": 111,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "H6P5+JC5, Kandy Rd, Trincomalee",
+            "after": "H6P5+JC5, Kandy Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KRZWVZ5J9NX1EN522APF"
+      },
+      {
+        "record_index": 112,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Shan Tours (Pvt) Ltd",
+            "after": "Shan Tours (PVT) Ltd",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KS24XJ1S5S1TYVGPWQ5P"
+      },
+      {
+        "record_index": 113,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Bublic library",
+            "after": "Bublic Library",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KS48JX6FQYEVS5HBEC95"
+      },
+      {
+        "record_index": 116,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "95 Post Office Rd, Trincomalee",
+            "after": "95 Post Office Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KS9PTC5HR3MD80C2BSVM"
+      },
+      {
+        "record_index": 122,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No 3 Kandy Rd, Trincomalee",
+            "after": "No. 3 Kandy Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KSNPGT4BNZEDTK6D8S7Q"
+      },
+      {
+        "record_index": 123,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "M5HX+C8P, Nilaveli Rd, Trincomalee",
+            "after": "M5HX+C8P, Nilaveli Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KSQK55SBRSVVTN9AHZ7R"
+      },
+      {
+        "record_index": 124,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "No.25, Allesgarden Road, Lane 01, Trincomalee",
+            "after": "No. 25, Allesgarden Road, Lane 01, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KSSM08JR43CQ23Z030R4"
+      },
+      {
+        "record_index": 125,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "4kanuwa Handiya",
+            "after": "4Kanuwa Handiya",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KSVMX6T1BMJHH67V21QM"
+      },
+      {
+        "record_index": 126,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Taxi service Nilaveli",
+            "after": "Taxi Service Nilaveli",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KSXGE04HWJ2HVAMR4BSQ"
+      },
+      {
+        "record_index": 127,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "I.M RENT A SCOOTER & TUK TUK RENT TRINCOMALEE NILAVELI",
+            "after": "I.M Rent A Scooter & Tuk Tuk Rent Trincomalee Nilaveli",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "Ward no-01, Nilaveli 31010",
+            "after": "Ward No. 01, Nilaveli 31010",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KSZKWQ1K2A72RZD21K35"
+      },
+      {
+        "record_index": 129,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Nilaveli happy cabs",
+            "after": "Nilaveli Happy Cabs",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KT4BWB0WPYZYNBBEJYV5"
+      },
+      {
+        "record_index": 130,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Nilaveli taxi services",
+            "after": "Nilaveli Taxi Services",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          },
+          {
+            "field": "address",
+            "before": "M5CW+8QG, Nilaveli Rd, Trincomalee",
+            "after": "M5CW+8QG, Nilaveli Road, Trincomalee",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KT6EPSC3CB9HP7R7P558"
+      },
+      {
+        "record_index": 131,
+        "source_query_keys": [
+          "trincomalee--all-public-places--c628fc13"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Alass Ga for pets lovers",
+            "after": "Alass Ga For Pets Lovers",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KT8DSE0C5FPMJJQDQ7XQ"
+      },
+      {
+        "record_index": 133,
+        "source_query_keys": [
+          "kinniya--all-public-places--15686aa7"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Trincomalee-Batticaloa Rd, 31100",
+            "after": "Trincomalee-Batticaloa Road, 31100",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KTCDWQS4B3SBNHF53G5D"
+      },
+      {
+        "record_index": 137,
+        "source_query_keys": [
+          "kinniya--all-public-places--15686aa7"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Kinniya Beach children park | சிறுவர் பூங்கா",
+            "after": "Kinniya Beach Children Park | சிறுவர் பூங்கா",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KTM782YDAWBHN629FZGS"
+      },
+      {
+        "record_index": 146,
+        "source_query_keys": [
+          "kantale--all-public-places--2b8fb3fd"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Fruit Hub cafe & Restaurant",
+            "after": "Fruit Hub Cafe & Restaurant",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KV63X4KEF83XQCYF8ERB"
+      },
+      {
+        "record_index": 148,
+        "source_query_keys": [
+          "kantale--all-public-places--2b8fb3fd"
+        ],
+        "changes": [
+          {
+            "field": "name",
+            "before": "Wale kade Restaurant & Coffee Shop",
+            "after": "Wale Kade Restaurant & Coffee Shop",
+            "reason": "Existing conservative place-name capitalization and whitespace normalization."
+          }
+        ],
+        "affected_ulid": "01M6Q5KVA46WMKJ86YG27V0TT2"
+      },
+      {
+        "record_index": 152,
+        "source_query_keys": [
+          "seruwila--all-public-places--8460a367"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "Seruvila Divisional Secretariat, Trincomalee-Batticaloa Rd, Serunuwara",
+            "after": "Seruvila Divisional Secretariat, Trincomalee-Batticaloa Road, Serunuwara",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KVJ0RSTHKBZVATTM5Z8G"
+      },
+      {
+        "record_index": 153,
+        "source_query_keys": [
+          "seruwila--all-public-places--8460a367"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "9889+4MG, Seruwawila Rajamaha Viharaya, Palatoppu-Seruwawila Rd, Seruwawila,, Seruwawila",
+            "after": "9889+4MG, Seruwawila Rajamaha Viharaya, Palatoppu-Seruwawila Road, Seruwawila, Seruwawila",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KVKZ5VRT2YCKZ7NJJCQH"
+      },
+      {
+        "record_index": 154,
+        "source_query_keys": [
+          "seruwila--all-public-places--8460a367"
+        ],
+        "changes": [
+          {
+            "field": "address",
+            "before": "98F9+FV8, Palatoppu-Seruwawila Rd, Seruwawila",
+            "after": "98F9+FV8, Palatoppu-Seruwawila Road, Seruwawila",
+            "reason": "Existing mechanical Sri Lankan address punctuation and recognized abbreviation formatting."
+          }
+        ],
+        "affected_ulid": "01M6Q5KVP3Q0GTNX0PFNHS44J4"
+      }
+    ],
+    "unresolved_new_nearby_duplicate_pairs": [],
+    "per_record_public_eligibility_gate": "scripts/place_eligibility.py",
+    "existing_active_ids_and_aliases_are_reused_for_duplicate_checks": true,
+    "roads_and_speed_limits_modified": false,
+    "phase6_3_cumulative_imported_ulids": [
+      "01M6Q5KHDX57Z3C0QKHQNX3A2C",
+      "01M6Q5KHG1TZDF4W0MBTRD1B3X",
+      "01M6Q5KHJ4N43S5DANJB56F8AD",
+      "01M6Q5KHM50Q7PMSMSQFM4Z9Z3",
+      "01M6Q5KHP7Y01HNBG4J3R09ZNQ",
+      "01M6Q5KHRDZM5NVQNSDT1Y308A",
+      "01M6Q5KHTF4GWPJSKVXDBKRJPP",
+      "01M6Q5KHWF0Y12T71A9X254FXJ",
+      "01M6Q5KHYHG4JGE8EYN204350D",
+      "01M6Q5KJ0NZHFP0VKVF661MSJP",
+      "01M6Q5KJ2P80X826YB5Q5M0QG9",
+      "01M6Q5KJ4QQW04DMR8WY22QKN9",
+      "01M6Q5KJ6V5A62PXDV4KGTWYG0",
+      "01M6Q5KJ8XQDZF432SBZ05SE7D",
+      "01M6Q5KJB893QV366MGHY3CECW",
+      "01M6Q5KJDBT18WW7CKTGK9Q5C8",
+      "01M6Q5KJFK0P86VXFAYZAB71VP",
+      "01M6Q5KJHR6RS6CAPQ2X6R9RPN",
+      "01M6Q5KJM0QTT82CXSR6XKMV4E",
+      "01M6Q5KJNZF9D846C5BJR5K1RP",
+      "01M6Q5KJR3GBFPW17KBE6RE3HF",
+      "01M6Q5KJT3TKED2WGGEGYDYWR0",
+      "01M6Q5KJWDK78PGVG2QEBMD1QF",
+      "01M6Q5KJYGH3QDR2MNWASPTG1C",
+      "01M6Q5KK0P07K44B63PR18C0VK",
+      "01M6Q5KK2VCZXFRM61SGXBBB8T",
+      "01M6Q5KK4Z5V5DFYX2WYC58ZT6",
+      "01M6Q5KK70F5D9DBENSTRKNJRC",
+      "01M6Q5KK935V8RTX67GC26DCYZ",
+      "01M6Q5KKBB72820MHT5E7YS5VH",
+      "01M6Q5KKDBFEKZ2S91HAJZXW5T",
+      "01M6Q5KKFNK1MG333Q22WJE2TM",
+      "01M6Q5KKHN1TXQ9GS9026KGR93",
+      "01M6Q5KKKWYN793Z71K1CKYKH7",
+      "01M6Q5KKP3JFJRXB278EP81TTJ",
+      "01M6Q5KKR5MKDGAXRD44H6G7PE",
+      "01M6Q5KKT83YBJKW1JAEM7K2T7",
+      "01M6Q5KKWBGCDZNJ6SSDM0SGJT",
+      "01M6Q5KKYT4DFYVKZ6TS3ATJTD",
+      "01M6Q5KM0TDWPJ93EQVW5SAJBA",
+      "01M6Q5KM32T3A35J9FNCAHY1MX",
+      "01M6Q5KM57F2VZM2HZ8BN9PAA7",
+      "01M6Q5KM7FQZR7SVMAPHC25SS8",
+      "01M6Q5KMASBXH47WS78JH418S2",
+      "01M6Q5KMDCFBECJ4MHXZW8N104",
+      "01M6Q5KMFMYTJT244YCD96AED2",
+      "01M6Q5KMHVGMNJ6Q56N6PB12AJ",
+      "01M6Q5KMKYN5DQ0WB6PEQQHN5A",
+      "01M6Q5KMP23AKHT1VA1GQR3P0G",
+      "01M6Q5KMR97Y77MG0VSQM054CE",
+      "01M6Q5KMTF78ARP4W7ZMBETNHM",
+      "01M6Q5KMWKGJWW2W0JVMSZ4GQ5",
+      "01M6Q5KMYNR53F12D5HWKMQXDS",
+      "01M6Q5KN0TZKZYM80CFMJJE7TY",
+      "01M6Q5KN2V747Z0XBQP7QSVG1W",
+      "01M6Q5KN4TVWB7GCJ971ZWV3J0",
+      "01M6Q5KN70KT0CGM04XM7X64GP",
+      "01M6Q5KN91KPGS1NRCS78YA0DR",
+      "01M6Q5KNBFJX5Z9D8BFT7J488Q",
+      "01M6Q5KNDHSFC105PANH3QTDSF",
+      "01M6Q5KNFJBANXWWSR66X61E6C",
+      "01M6Q5KNK397NZCRQTNC94QNS0",
+      "01M6Q5KNNMJZHCY17P5BYBYT8M",
+      "01M6Q5KNQMMFG5ERQ2WSTTGE7X",
+      "01M6Q5KNSS8X2TXEG65HN45N84",
+      "01M6Q5KNVZX5XNMDEHSB9B8DDF",
+      "01M6Q5KNY4YK5516S4X4RKSHCG",
+      "01M6Q5KP06CV2VCQ61DHSS3NG0",
+      "01M6Q5KP2AABGAYAVJAA0BQGB1",
+      "01M6Q5KP4EDBY78RXX9RCNHW93",
+      "01M6Q5KP6B353B3E5VCNYBSP9M",
+      "01M6Q5KP86DTRQXZH5YA7294G8",
+      "01M6Q5KPAHVDEHRP59DYGDH9V4",
+      "01M6Q5KPD64V2DP3MF7E46B3M8",
+      "01M6Q5KPFDF3SCN1R4ME14ESV1",
+      "01M6Q5KPHC5VZMXN5VADPXSR5Q",
+      "01M6Q5KPKGFSZ52SG002HD4WTA",
+      "01M6Q5KPNQQ1H1GRVW8153MTVZ",
+      "01M6Q5KPQTCKD8VRQGD1ET0PBE",
+      "01M6Q5KPSXY64J5DAA7ZDX3WG1",
+      "01M6Q5KPW147HYMZT8W38H0W9A",
+      "01M6Q5KPY4YV1H203PDCPA30KJ",
+      "01M6Q5KQ081K6VNX9AMAAEVF0S",
+      "01M6Q5KQ2E056YNBQ2N5ZEG9YW",
+      "01M6Q5KQ4JV1NWAPNBJ5TA3NQ2",
+      "01M6Q5KQ6QJGQK4828TH4BKSJ9",
+      "01M6Q5KQ8T6PAQ031W9937CQWT",
+      "01M6Q5KQAZSBAY2ETK67TCY1S6",
+      "01M6Q5KQD9BFNN21TT0XSDVX0N",
+      "01M6Q5KQFQK09BZZ760YHGV162",
+      "01M6Q5KQHVXH6PTPN263G6TJ52",
+      "01M6Q5KQM773HRE9VMW90X73QK",
+      "01M6Q5KQP6XRSQ24NKTFGV5PJ6",
+      "01M6Q5KQR051F9EQ7Q02CSBSX8",
+      "01M6Q5KQT2ZFRZQZAFB4BT9VK4",
+      "01M6Q5KQW6KCW6NTR7XBW868F5",
+      "01M6Q5KQXZZ8ANDVGCXA41AA10",
+      "01M6Q5KR0B07FGSMKKK606X73T",
+      "01M6Q5KR29ZD5C7GAZFXWNKVB8",
+      "01M6Q5KR42X4FPW8MZTC2VVS8P",
+      "01M6Q5KR5SJ2FRR8DB2H3PEV69",
+      "01M6Q5KR7YFQ4N3P1ZFYNQJXDD",
+      "01M6Q5KR9P8357Q0X53Q4X2BHM",
+      "01M6Q5KRBPM0T8BCC8JJXBJW3X",
+      "01M6Q5KRE575H1B6NRS1SY6K3X",
+      "01M6Q5KRG0KZE441AQS10GTJW4",
+      "01M6Q5KRKGNXCAR578JFABESJT",
+      "01M6Q5KRQPHQSJWMKYN92VREP4",
+      "01M6Q5KRT62G09W1J55V9MKVE2",
+      "01M6Q5KRW45SGFJ3HGFZ383E2E",
+      "01M6Q5KRY2NEKQZZ1T3VWWXWT9",
+      "01M6Q5KRZWVZ5J9NX1EN522APF",
+      "01M6Q5KS24XJ1S5S1TYVGPWQ5P",
+      "01M6Q5KS48JX6FQYEVS5HBEC95",
+      "01M6Q5KS66E24CX45ECNHYQ9H5",
+      "01M6Q5KS7Y1KXRVNY5NBPGED7M",
+      "01M6Q5KS9PTC5HR3MD80C2BSVM",
+      "01M6Q5KSBXJK1RAN36X7N3QPXW",
+      "01M6Q5KSDTH2DDB5CRKHVZ8672",
+      "01M6Q5KSFSNTSNCJWVAPHGK985",
+      "01M6Q5KSHSG0CCH13S7BZ0PX2A",
+      "01M6Q5KSKPREMYRW5PA7Y355AR",
+      "01M6Q5KSNPGT4BNZEDTK6D8S7Q",
+      "01M6Q5KSQK55SBRSVVTN9AHZ7R",
+      "01M6Q5KSSM08JR43CQ23Z030R4",
+      "01M6Q5KSVMX6T1BMJHH67V21QM",
+      "01M6Q5KSXGE04HWJ2HVAMR4BSQ",
+      "01M6Q5KSZKWQ1K2A72RZD21K35",
+      "01M6Q5KT1NN84Y61RR4CBR8VJY",
+      "01M6Q5KT4BWB0WPYZYNBBEJYV5",
+      "01M6Q5KT6EPSC3CB9HP7R7P558",
+      "01M6Q5KT8DSE0C5FPMJJQDQ7XQ",
+      "01M6Q5KTAG8BEARTQSBDQMRVH5",
+      "01M6Q5KTCDWQS4B3SBNHF53G5D",
+      "01M6Q5KTEE17GPCJFD1NC6M15S",
+      "01M6Q5KTGBC6EF7M9PR77XNSB7",
+      "01M6Q5KTJ8WTEN5VD8CQQRDW3Z",
+      "01M6Q5KTM782YDAWBHN629FZGS",
+      "01M6Q5KTPCZG8J1093ZYXHG1T2",
+      "01M6Q5KTRBEPGY9YDVMBC705QC",
+      "01M6Q5KTT5FNQWEGC4GPNK8VDZ",
+      "01M6Q5KTW26YT7ZYR1G98HMTPJ",
+      "01M6Q5KTY3G1FDA74CND7D6VCQ",
+      "01M6Q5KV03NWCZR11XD8GHV5JQ",
+      "01M6Q5KV21508GADJQBS1M9WXH",
+      "01M6Q5KV4270R34W39Z3T1HTEX",
+      "01M6Q5KV63X4KEF83XQCYF8ERB",
+      "01M6Q5KV82777DH4FHHD7KFB9B",
+      "01M6Q5KVA46WMKJ86YG27V0TT2",
+      "01M6Q5KVC3Y8CSW4BF67VSEHS0",
+      "01M6Q5KVE2JR3WT33VBZD33Y20",
+      "01M6Q5KVG2K1DYB9H9J0WW6J3X",
+      "01M6Q5KVJ0RSTHKBZVATTM5Z8G",
+      "01M6Q5KVKZ5VRT2YCKZ7NJJCQH",
+      "01M6Q5KVP3Q0GTNX0PFNHS44J4"
+    ],
+    "phase6_3_cumulative_imported_count": 155
+  },
+  "phase": "Global mzc discovery batch 2",
+  "generated_integrity": {
+    "pmtiles_features": 5006,
+    "pmtiles_sha256": "c5bed1a55d424eb77df85a6d1c6c421734a0d40acf4eddf9d0a0737094fd5f39",
+    "alias_count": 1086,
+    "shards": {
+      "0001": 999,
+      "0002": 999,
+      "0003": 999,
+      "0004": 999,
+      "0005": 999,
+      "0006": 47
+    },
+    "maximum_shard_size": 999,
+    "roads_source_records": 3710,
+    "speed_limit_source_records": 3710,
+    "supplementary_maxspeed_source_tags": 462,
+    "pmtiles_bytes": 1968071
+  },
+  "before_after_integrity": {
+    "before": {
+      "active_place_records": 4887,
+      "public_geographic_features": 4851,
+      "alias_count": 1086,
+      "road_records": 3710,
+      "road_sources_sha256": "ead714c9107595f2b25e9f96f70053f55d2b314f2a22862619fe9f37aef78a9c",
+      "speed_limit_records": 3710,
+      "speed_limit_sources_sha256": "5886d082050d3e8c8142bd10d873aa5d2173cbc0e611126e4e219b1b9eba26a1",
+      "supplementary_maxspeed_records": 462,
+      "supplementary_source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872"
+    },
+    "after": {
+      "active_place_records": 5042,
+      "public_geographic_features": 5006,
+      "alias_count": 1086,
+      "road_records": 3710,
+      "road_sources_sha256": "ead714c9107595f2b25e9f96f70053f55d2b314f2a22862619fe9f37aef78a9c",
+      "speed_limit_records": 3710,
+      "speed_limit_sources_sha256": "5886d082050d3e8c8142bd10d873aa5d2173cbc0e611126e4e219b1b9eba26a1",
+      "supplementary_maxspeed_records": 462,
+      "supplementary_source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872"
+    },
+    "existing_place_ulids_preserved": true,
+    "aliases_preserved": true,
+    "all_shards_within_limit": true
+  },
+  "review_queue": {
+    "phase6_2_reported_conflicting_existing_matches_unchanged": 13,
+    "phase6_2_reported_eligibility_uncertain_candidates_unchanged": 11,
+    "current_combined_unresolved_existing_match_candidates": 0,
+    "current_combined_eligibility_uncertain_candidates": 5,
+    "phase6_2_named_case_decisions": [
+      {
+        "name": "Amma Hotel",
+        "ulids": [
+          "01M5Z17G0C4C1Q8YM3ZR7W7HES",
+          "01M5Z17GC75PDB0MRNFK5PN6ZE"
+        ],
+        "decision": "retained separately",
+        "reason": "12.8 m apart with differing address and category values; no independent evidence resolves whether these are one listing or separate businesses."
+      },
+      {
+        "name": "Markaz Mosque, Oddamawadi",
+        "ulids": [
+          "01M5Z5PDD8W74TDEST9HG41RY3",
+          "01M5Z5PJM2K9AGEBTQWXNSCGPZ"
+        ],
+        "decision": "retained separately",
+        "reason": "Same address/category and about 10 m apart, but coordinates differ and available records do not independently establish which point should be canonical."
+      }
+    ],
+    "uncertain_and_conflicting_candidate_details_omitted": true,
+    "no_unresolved_candidate_was_deleted_or_merged": true
+  }
+}
