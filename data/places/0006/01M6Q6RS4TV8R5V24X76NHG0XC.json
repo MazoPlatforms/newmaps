@@ -1,0 +1,59 @@
+{
+  "name": "SPAR Supermarket - Kalubowila",
+  "coordinates": {
+    "latitude": 6.8668337,
+    "longitude": 79.8777589
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "5A S. De S. Jayasinghe Mawatha, Dehiwala-Mount Lavinia",
+  "phone": "0115007800",
+  "website": "http://www.spar.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RS4TV8R5V24X76NHG0XC"
+}
