@@ -1,0 +1,59 @@
+{
+  "name": "Jade Green Restaurant",
+  "coordinates": {
+    "latitude": 6.1356177999999995,
+    "longitude": 81.13095849999999
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "Lewaya Road, Hambantota 82000",
+  "phone": "0472220692",
+  "website": "https://www.jadegreen.lk/restaurant",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63Q03J3D46ZP3TF0SEKJA"
+}
