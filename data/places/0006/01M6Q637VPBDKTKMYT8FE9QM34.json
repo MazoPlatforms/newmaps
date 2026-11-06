@@ -1,0 +1,58 @@
+{
+  "name": "City Food Centre",
+  "coordinates": {
+    "latitude": 6.9773536,
+    "longitude": 80.7640406
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "9 St Andrew's Road, Nuwara Eliya 22200",
+  "phone": "0522220184",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q637VPBDKTKMYT8FE9QM34"
+}
