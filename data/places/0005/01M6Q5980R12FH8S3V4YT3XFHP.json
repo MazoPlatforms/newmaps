@@ -1,0 +1,58 @@
+{
+  "name": "Ocean Oasis Restaurant",
+  "coordinates": {
+    "latitude": 8.6143587,
+    "longitude": 81.21721819999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "allesgarden, 15 Beach road, Trincomalee 31000",
+  "phone": "0769416608",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5980R12FH8S3V4YT3XFHP"
+}
