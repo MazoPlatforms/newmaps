@@ -1,0 +1,60 @@
+{
+  "name": "Wesco Supermart",
+  "coordinates": {
+    "latitude": 9.665884499999999,
+    "longitude": 80.0126878
+  },
+  "categories": [
+    "Pharmacy",
+    "Grocery store"
+  ],
+  "address": "470 Hospital Road, Jaffna 40000",
+  "phone": "0212223188",
+  "website": "https://www.facebook.com/wescoSupermart/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S4E8NT0QSAYYP12657WZ"
+}
