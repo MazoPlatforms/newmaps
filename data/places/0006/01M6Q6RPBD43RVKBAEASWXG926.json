@@ -1,0 +1,60 @@
+{
+  "name": "Cargills Food City - Cotta Road",
+  "coordinates": {
+    "latitude": 6.9113888999999995,
+    "longitude": 79.88666669999999
+  },
+  "categories": [
+    "Pharmacy",
+    "Supermarket"
+  ],
+  "address": "260 Dr NM Perera Mawatha Road, Colombo",
+  "phone": "0112693284",
+  "website": "http://www.cargillsceylon.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RPBD43RVKBAEASWXG926"
+}
