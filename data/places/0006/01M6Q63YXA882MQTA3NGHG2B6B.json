@@ -1,0 +1,60 @@
+{
+  "name": "Sanka Seafood Restaurant",
+  "coordinates": {
+    "latitude": 6.6751416,
+    "longitude": 79.9247575
+  },
+  "categories": [
+    "Seafood restaurant",
+    "Family restaurant",
+    "Takeout restaurant"
+  ],
+  "address": "Daladawatta Maha Vihara Road, Wadduwa",
+  "phone": "0382295488",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63YXA882MQTA3NGHG2B6B"
+}

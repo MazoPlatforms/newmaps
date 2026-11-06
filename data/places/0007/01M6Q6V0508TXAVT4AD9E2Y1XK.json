@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank Alawwa Branch",
+  "coordinates": {
+    "latitude": 7.2945195,
+    "longitude": 80.2413528
+  },
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "address": "No. 61B Kurunegala Road, Alawwa 60280",
+  "phone": "0372279361",
+  "website": "https://www.combank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6V0508TXAVT4AD9E2Y1XK"
+}

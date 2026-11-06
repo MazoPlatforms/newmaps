@@ -1,0 +1,59 @@
+{
+  "name": "Cafe Nilaveli",
+  "coordinates": {
+    "latitude": 8.6914308,
+    "longitude": 81.1927813
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "LK Nilaveli First lane gopalapuram",
+  "phone": "0716632902",
+  "website": "https://cafenilaveli.hotelonia.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59FBWK6ZD1RMTRMY7A8C7"
+}

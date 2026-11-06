@@ -1,0 +1,58 @@
+{
+  "name": "Nethram Food City",
+  "coordinates": {
+    "latitude": 8.5978257,
+    "longitude": 81.2197006
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "707 N Coast Road, Trincomalee 31000",
+  "phone": "0262053772",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:15 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59H2BNK26VW13ZHNQSTJ2"
+}

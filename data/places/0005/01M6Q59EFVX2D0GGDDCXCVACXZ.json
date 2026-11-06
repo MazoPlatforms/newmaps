@@ -1,0 +1,58 @@
+{
+  "name": "Sriram Restaurant",
+  "coordinates": {
+    "latitude": 7.8034908,
+    "longitude": 81.57124879999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "RH3C+9FX, Trincomalee-Batticaloa Road, vantharumoolai",
+  "phone": "0773587125",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59EFVX2D0GGDDCXCVACXZ"
+}

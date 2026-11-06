@@ -1,0 +1,60 @@
+{
+  "name": "Sapid Rich Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 6.8756493999999995,
+    "longitude": 81.3488723
+  },
+  "categories": [
+    "Sri Lankan restaurant",
+    "Cafe",
+    "Fast food restaurant"
+  ],
+  "address": "89 Pothuvil Road, Monaragala 91000",
+  "phone": "0776715905",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63RZXSJ3NJEKX60V78SB4"
+}

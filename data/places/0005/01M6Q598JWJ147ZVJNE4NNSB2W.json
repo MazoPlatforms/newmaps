@@ -1,0 +1,58 @@
+{
+  "name": "Meal Zone Restaurant",
+  "coordinates": {
+    "latitude": 8.615538599999999,
+    "longitude": 81.2161395
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Trincomalee",
+  "phone": "0704471223",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q598JWJ147ZVJNE4NNSB2W"
+}

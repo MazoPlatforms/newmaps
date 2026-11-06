@@ -1,0 +1,62 @@
+{
+  "name": "Cafe Natural Coffee",
+  "coordinates": {
+    "latitude": 7.2954840999999995,
+    "longitude": 80.63802609999999
+  },
+  "categories": [
+    "Cafe",
+    "Coffee shop",
+    "Japanese restaurant",
+    "Noodle shop"
+  ],
+  "address": "84 DS Senanayake Veediya, Kandy 20000",
+  "phone": "0812205734",
+  "website": "http://www.naturalcoffee.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62S0XPNYN92TYN72A5X1D"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Cafe Amakie",
+  "coordinates": {
+    "latitude": 7.4980462999999995,
+    "longitude": 80.38483579999999
+  },
+  "categories": [
+    "Coffee shop"
+  ],
+  "address": "84, Dambulla Road, Kurunegala",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62X6RTGEEC1Y6ZBXDFG54"
+}

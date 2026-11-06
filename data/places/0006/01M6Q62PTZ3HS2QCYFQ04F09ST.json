@@ -1,0 +1,58 @@
+{
+  "name": "Global Kitchen",
+  "coordinates": {
+    "latitude": 7.2962715,
+    "longitude": 80.6366159
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "2 Kumara Veediya, Kandy 20000",
+  "phone": "0812235060",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62PTZ3HS2QCYFQ04F09ST"
+}

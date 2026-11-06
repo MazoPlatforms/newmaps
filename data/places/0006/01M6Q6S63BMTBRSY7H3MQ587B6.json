@@ -1,0 +1,58 @@
+{
+  "name": "North Star Pharmaceutical Distributor",
+  "coordinates": {
+    "latitude": 9.6836674,
+    "longitude": 80.0093006
+  },
+  "categories": [
+    "Pharmaceutical products wholesaler"
+  ],
+  "address": "M2M5+FP7, Jaffna",
+  "phone": "0212225300",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S63BMTBRSY7H3MQ587B6"
+}

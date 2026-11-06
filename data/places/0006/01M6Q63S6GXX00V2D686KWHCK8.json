@@ -1,0 +1,59 @@
+{
+  "name": "Golden Spoon Restaurant",
+  "coordinates": {
+    "latitude": 7.994864799999999,
+    "longitude": 79.8369055
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 123 Rathmalaya, Palavi, Puttalam 61000",
+  "phone": "0772643757",
+  "website": "https://goldenspoon.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q63S6GXX00V2D686KWHCK8"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Capital Bar & Grill",
+  "coordinates": {
+    "latitude": 6.9284323,
+    "longitude": 79.8443178
+  },
+  "categories": [
+    "Bar & grill"
+  ],
+  "address": "2/F, Shangri-la Hotel, Colombo 00200, 00200",
+  "phone": "0117888288",
+  "website": "http://www.shangri-la.com/mobile/colombo/shangrila/dining/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q62NEVRWM26877ZZE6GE5A"
+}

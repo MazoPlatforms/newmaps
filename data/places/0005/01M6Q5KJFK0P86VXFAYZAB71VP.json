@@ -1,0 +1,58 @@
+{
+  "name": "Mylas Cafe Restaurant And Cafeteria",
+  "coordinates": {
+    "latitude": 7.4102809,
+    "longitude": 81.8370923
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "Beach, Mosque Road, Kalmunai 32300",
+  "phone": "0768656073",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q5KJFK0P86VXFAYZAB71VP"
+}

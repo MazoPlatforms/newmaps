@@ -1,0 +1,60 @@
+{
+  "name": "Ayla Cafe",
+  "coordinates": {
+    "latitude": 7.0899088,
+    "longitude": 79.9915058
+  },
+  "categories": [
+    "Restaurant",
+    "Coffee shop"
+  ],
+  "address": "04 Nandana Road, Gampaha",
+  "phone": "0744108044",
+  "website": "http://www.aylacafe.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63DWK9F7EWZD385SFDSW4"
+}

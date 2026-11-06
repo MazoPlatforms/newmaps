@@ -1,0 +1,59 @@
+{
+  "name": "Moju Restaurant",
+  "coordinates": {
+    "latitude": 8.7517174,
+    "longitude": 80.4999847
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 73C 2nd Cross St, Vavuniya",
+  "phone": "0242227575",
+  "website": "https://www.uplist.lk/listing/moju-restaurant/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63F1H1DV7XM8D6BE0FW0D"
+}

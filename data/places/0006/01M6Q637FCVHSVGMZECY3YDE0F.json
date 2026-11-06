@@ -1,0 +1,60 @@
+{
+  "name": "Araliya Food Court",
+  "coordinates": {
+    "latitude": 6.9674312,
+    "longitude": 80.7671446
+  },
+  "categories": [
+    "Restaurant",
+    "Food court"
+  ],
+  "address": "No. 01 Grand Hotel Road, Nuwara Eliya 22200",
+  "phone": "0522225000",
+  "website": "http://www.araliyafoodcourt.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q637FCVHSVGMZECY3YDE0F"
+}

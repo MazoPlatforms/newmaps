@@ -1,0 +1,58 @@
+{
+  "name": "Food Passport Panadura",
+  "coordinates": {
+    "latitude": 6.7317995999999996,
+    "longitude": 79.9111666
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "94 A 2, Panadura 12500",
+  "phone": "0742664427",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q63XQF9AT99J5BY1WZM0P2"
+}

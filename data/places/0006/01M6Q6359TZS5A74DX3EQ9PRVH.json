@@ -1,0 +1,59 @@
+{
+  "name": "National Savings Bank - Badulla",
+  "coordinates": {
+    "latitude": 6.9856167,
+    "longitude": 81.0578316
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "11 Lower King Street, Badulla",
+  "phone": "0552222425",
+  "website": "http://www.nsb.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6359TZS5A74DX3EQ9PRVH"
+}

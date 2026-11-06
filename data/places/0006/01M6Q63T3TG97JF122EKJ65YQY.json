@@ -1,0 +1,57 @@
+{
+  "name": "Hot Fire Coffee Shop Restaurant",
+  "coordinates": {
+    "latitude": 8.025315299999999,
+    "longitude": 79.8310127
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "2RGJ+4CC, A3, Puttalam",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "1 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "1 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "1 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "1 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1 PM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q63T3TG97JF122EKJ65YQY"
+}

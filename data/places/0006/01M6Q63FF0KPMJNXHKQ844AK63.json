@@ -1,0 +1,58 @@
+{
+  "name": "New Madras Namaste",
+  "coordinates": {
+    "latitude": 8.7528671,
+    "longitude": 80.4975007
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Kandy Road, Vavuniya 43000",
+  "phone": "0768819702",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63FF0KPMJNXHKQ844AK63"
+}

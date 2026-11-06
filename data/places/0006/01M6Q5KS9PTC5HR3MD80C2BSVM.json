@@ -1,0 +1,59 @@
+{
+  "name": "Trincomalee Post Office",
+  "coordinates": {
+    "latitude": 8.5683595,
+    "longitude": 81.23346769999999
+  },
+  "categories": [
+    "Post office"
+  ],
+  "address": "95 Post Office Road, Trincomalee",
+  "phone": "0262222250",
+  "website": "http://www.slpost.gov.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q5KS9PTC5HR3MD80C2BSVM"
+}

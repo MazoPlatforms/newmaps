@@ -1,0 +1,63 @@
+{
+  "name": "Kayal Restaurant",
+  "coordinates": {
+    "latitude": 9.3150107,
+    "longitude": 80.409911
+  },
+  "categories": [
+    "Family restaurant",
+    "Chinese restaurant",
+    "Indian restaurant",
+    "Sri Lankan restaurant",
+    "Thai restaurant",
+    "Vegetarian restaurant"
+  ],
+  "address": "NEAR University of Jaffna, A9 ROAD MURUKANDY, Kilinochchi 44000",
+  "phone": "0777799985",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63VMVP0VHXT8MV3CCWQPN"
+}

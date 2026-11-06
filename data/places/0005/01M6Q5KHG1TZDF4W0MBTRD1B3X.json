@@ -1,0 +1,57 @@
+{
+  "name": "Public Library",
+  "coordinates": {
+    "latitude": 7.2933262999999995,
+    "longitude": 81.6726778
+  },
+  "categories": [
+    "Library"
+  ],
+  "address": "Ampara-Uhana-Maha Oya Hwy, Ampara 32000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q5KHG1TZDF4W0MBTRD1B3X"
+}

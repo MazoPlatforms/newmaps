@@ -1,0 +1,62 @@
+{
+  "name": "Garland Café",
+  "coordinates": {
+    "latitude": 6.7156664,
+    "longitude": 80.38444059999999
+  },
+  "categories": [
+    "Cafe",
+    "Cake shop",
+    "Family restaurant",
+    "Pastry shop"
+  ],
+  "address": "Ratnapura",
+  "phone": "0452228300",
+  "website": "http://facebook.com/garlandcaffe",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q630V88CERS362YC9QCSY5"
+}

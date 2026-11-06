@@ -1,0 +1,60 @@
+{
+  "name": "Cafe Chill",
+  "coordinates": {
+    "latitude": 6.8742547,
+    "longitude": 81.0486873
+  },
+  "categories": [
+    "Eclectic restaurant",
+    "Sri Lankan restaurant"
+  ],
+  "address": "A23, Ella 90090",
+  "phone": "0771804020",
+  "website": "http://www.cafechill.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q636HSQC35CHC0GQ81JT3T"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Thimedwin Pharmacy",
+  "coordinates": {
+    "latitude": 6.066859,
+    "longitude": 80.2271026
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "132 Maitipe 1st Ln, Galle 80000",
+  "phone": "0776051734",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S207DYRYXQT2XQGT91BK"
+}

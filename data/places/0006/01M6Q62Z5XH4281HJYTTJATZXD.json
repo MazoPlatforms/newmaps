@@ -1,0 +1,58 @@
+{
+  "name": "Kafe",
+  "coordinates": {
+    "latitude": 8.3247754,
+    "longitude": 80.4045687
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Maithripala Senanayake Mawatha, Anuradhapura 50000",
+  "phone": "0743868128",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62Z5XH4281HJYTTJATZXD"
+}

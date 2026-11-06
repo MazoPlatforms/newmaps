@@ -1,0 +1,57 @@
+{
+  "name": "--",
+  "coordinates": {
+    "latitude": 6.9906748,
+    "longitude": 81.0547674
+  },
+  "categories": [
+    "Business center"
+  ],
+  "address": "No. 122, Badulla",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–8:30 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6376X89GQSMZQA11MKVKS"
+}

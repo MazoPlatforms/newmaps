@@ -1,0 +1,62 @@
+{
+  "name": "COCOBA Restaurant",
+  "coordinates": {
+    "latitude": 7.2925358,
+    "longitude": 80.6478637
+  },
+  "categories": [
+    "Asian restaurant",
+    "Cocktail bar",
+    "Hookah bar",
+    "Pub"
+  ],
+  "address": "117/3 Anagarika Dharmapala Mawatha, Kandy 20000",
+  "phone": "0767548684",
+  "website": "https://cocoba.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62RPTFF554F734AZ9FK3H"
+}

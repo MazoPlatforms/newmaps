@@ -1,0 +1,58 @@
+{
+  "name": "Marquee Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 8.6117787,
+    "longitude": 81.2157876
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "300 Nilaveli Road, Trincomalee",
+  "phone": "0770212652",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59BSZ1BAWBTNMRD51YJQF"
+}

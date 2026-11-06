@@ -1,0 +1,59 @@
+{
+  "name": "Post Office",
+  "coordinates": {
+    "latitude": 8.5822295,
+    "longitude": 81.1894284
+  },
+  "categories": [
+    "Post office"
+  ],
+  "address": "H5JQ+VQV, Trincomalee",
+  "phone": "0262222250",
+  "website": "https://slpost.gov.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q5KS7Y1KXRVNY5NBPGED7M"
+}

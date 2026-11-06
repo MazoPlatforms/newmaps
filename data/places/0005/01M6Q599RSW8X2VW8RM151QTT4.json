@@ -1,0 +1,58 @@
+{
+  "name": "Oriental Cuisine Restaurant",
+  "coordinates": {
+    "latitude": 8.6137479,
+    "longitude": 81.2181111
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Fernando’s Beach Market, Beach road, Trincomalee 31000",
+  "phone": "0763230052",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q599RSW8X2VW8RM151QTT4"
+}

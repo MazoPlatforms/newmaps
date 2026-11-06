@@ -1,0 +1,58 @@
+{
+  "name": "My Burger Restaurant Kurunegala",
+  "coordinates": {
+    "latitude": 7.495840299999999,
+    "longitude": 80.3798808
+  },
+  "categories": [
+    "Family restaurant"
+  ],
+  "address": "Pahala Gettuwana Road, Kurunegala",
+  "phone": "0764615000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62XERCYHZ4XV35J72W94T"
+}

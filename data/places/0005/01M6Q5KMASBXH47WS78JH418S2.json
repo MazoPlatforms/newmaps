@@ -1,0 +1,58 @@
+{
+  "name": "Amir Ali Public Library",
+  "coordinates": {
+    "latitude": 7.370904299999999,
+    "longitude": 81.80934909999999
+  },
+  "categories": [
+    "Public library"
+  ],
+  "address": "Ameer Ali Public Library, Sammanthurai",
+  "phone": "0672260853",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q5KMASBXH47WS78JH418S2"
+}

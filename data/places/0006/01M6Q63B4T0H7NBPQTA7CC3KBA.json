@@ -1,0 +1,61 @@
+{
+  "name": "Zen Cafe",
+  "coordinates": {
+    "latitude": 7.2288160999999995,
+    "longitude": 79.8410152
+  },
+  "categories": [
+    "Restaurant",
+    "Cafe",
+    "Cat cafe"
+  ],
+  "address": "164 Lewis Pl, Negombo",
+  "phone": "0770781114",
+  "website": "https://skinnysuddha.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63B4T0H7NBPQTA7CC3KBA"
+}

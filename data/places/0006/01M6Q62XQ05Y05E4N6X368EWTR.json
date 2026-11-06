@@ -1,0 +1,59 @@
+{
+  "name": "Barista Kurunegala",
+  "coordinates": {
+    "latitude": 7.4820046,
+    "longitude": 80.3568786
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "1st floor, 61 Bauddhaloka Mawatha, Kurunegala 60000",
+  "phone": "0372200970",
+  "website": "https://www.barista.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62XQ05Y05E4N6X368EWTR"
+}

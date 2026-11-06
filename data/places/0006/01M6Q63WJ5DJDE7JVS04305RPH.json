@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Plus",
+  "coordinates": {
+    "latitude": 6.954674,
+    "longitude": 80.20616009999999
+  },
+  "categories": [
+    "Coffee shop"
+  ],
+  "address": "91 Colombo - Batticaloa Hwy, Avissawella 10700",
+  "phone": "0362230615",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63WJ5DJDE7JVS04305RPH"
+}

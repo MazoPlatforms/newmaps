@@ -1,0 +1,60 @@
+{
+  "name": "The Grand Café",
+  "coordinates": {
+    "latitude": 6.9677494,
+    "longitude": 80.76561339999999
+  },
+  "categories": [
+    "Bakery",
+    "Coffee shop"
+  ],
+  "address": "5 Grand Hotel Road, Nuwara Eliya 22200",
+  "phone": "0522222881",
+  "website": "https://thegrandhotelnuwaraeliya.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q638Z95Y1THDB83PDEJ10Z"
+}

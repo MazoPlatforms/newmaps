@@ -1,0 +1,57 @@
+{
+  "name": "Lovers Leap",
+  "coordinates": {
+    "latitude": 8.5833821,
+    "longitude": 81.2456098
+  },
+  "categories": [
+    "Tourist attraction"
+  ],
+  "address": "H6MW+965, Trincomalee",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q591A6ZYWAHS6RET2733VZ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Star Beach Restaurant & Cafe",
+  "coordinates": {
+    "latitude": 6.698760399999999,
+    "longitude": 79.9084489
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "MWX5+G94, Panadura 12500",
+  "phone": "0712772372",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63YV4YBAA9P5Q9E3VP74Q"
+}

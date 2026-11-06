@@ -1,0 +1,59 @@
+{
+  "name": "State Pharmaceutical Corporation",
+  "coordinates": {
+    "latitude": 7.2927455,
+    "longitude": 80.6333976
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "Osuhala, 14 Lamagaraya Road, Kandy 20000",
+  "phone": "0812225175",
+  "website": "http://www.spc.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6RYBW1R8PV718C4B8D4W0"
+}

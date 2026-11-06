@@ -1,0 +1,58 @@
+{
+  "name": "La Roma Cafe Restaurant",
+  "coordinates": {
+    "latitude": 7.494158799999999,
+    "longitude": 80.3733915
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "253 Kurunegala - Dambulla Road, Kurunegala 60000",
+  "phone": "0705157201",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62XMW2EHRCZQ36GDY135Q"
+}

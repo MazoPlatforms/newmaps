@@ -1,0 +1,59 @@
+{
+  "name": "Show Room Razpaas",
+  "coordinates": {
+    "latitude": 7.2192349,
+    "longitude": 81.85122729999999
+  },
+  "categories": [
+    "Furniture store"
+  ],
+  "address": "Careem Road, Akkaraipattu 32400",
+  "phone": "0754207199",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–7 AM",
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5KM0TDWPJ93EQVW5SAJBA"
+}

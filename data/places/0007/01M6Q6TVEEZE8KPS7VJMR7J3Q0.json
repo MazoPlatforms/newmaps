@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 7.292301999999999,
+    "longitude": 80.63686229999999
+  },
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "address": "Level 1, L, 1-2, No. 30 Sri Dalada Veediya, Kandy 20000",
+  "phone": "0812235733",
+  "website": "https://www.combank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6TVEEZE8KPS7VJMR7J3Q0"
+}

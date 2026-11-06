@@ -1,0 +1,58 @@
+{
+  "name": "Wasana Bakers",
+  "coordinates": {
+    "latitude": 7.4104933,
+    "longitude": 81.82847389999999
+  },
+  "categories": [
+    "Bakery"
+  ],
+  "address": "CR6H+59H, Colombo - Batticaloa Hwy, Kalmunai 32300",
+  "phone": "0754331034",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RFKFHE11C6EGY55JGV47"
+}

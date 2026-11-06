@@ -1,0 +1,59 @@
+{
+  "name": "Bank Of Ceylon",
+  "coordinates": {
+    "latitude": 7.2509904999999995,
+    "longitude": 81.8545206
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "No. 1 A, Main Street, Addalaichchenai 11",
+  "phone": "0672279303",
+  "website": "http://www.boc.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TWJ3GX8XHAGW3S4MB1BA"
+}

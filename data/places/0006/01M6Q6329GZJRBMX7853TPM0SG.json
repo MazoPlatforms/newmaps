@@ -1,0 +1,58 @@
+{
+  "name": "Sea View Food Court",
+  "coordinates": {
+    "latitude": 5.9358115,
+    "longitude": 80.5219642
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "129 Polhena Road, Matara 81000",
+  "phone": "0773288668",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6329GZJRBMX7853TPM0SG"
+}

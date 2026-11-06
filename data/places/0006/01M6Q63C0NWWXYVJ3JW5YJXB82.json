@@ -1,0 +1,61 @@
+{
+  "name": "Rodeo Pub & Restaurant",
+  "coordinates": {
+    "latitude": 7.2400161,
+    "longitude": 79.841662
+  },
+  "categories": [
+    "Restaurant",
+    "Breakfast restaurant",
+    "Dance restaurant",
+    "Pub"
+  ],
+  "address": "35 Poruthota Road, Negombo 11500",
+  "phone": "0312274713",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q63C0NWWXYVJ3JW5YJXB82"
+}

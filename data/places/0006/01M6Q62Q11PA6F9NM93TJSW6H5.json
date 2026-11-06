@@ -1,0 +1,59 @@
+{
+  "name": "Cafe Nuwara",
+  "coordinates": {
+    "latitude": 7.2964845,
+    "longitude": 80.6377073
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 146 DS Senanayake Veediya, Kandy 20000",
+  "phone": "0760221222",
+  "website": "http://www.nuwara.cafe/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62Q11PA6F9NM93TJSW6H5"
+}

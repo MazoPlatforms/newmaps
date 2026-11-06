@@ -1,0 +1,59 @@
+{
+  "name": "Seedevi Family Restaurant",
+  "coordinates": {
+    "latitude": 8.3248529,
+    "longitude": 80.39837729999999
+  },
+  "categories": [
+    "Family restaurant"
+  ],
+  "address": "Jayanthi Mawatha, Anuradhapura 50000",
+  "phone": "0777390306",
+  "website": "http://www.seedevirestaurant.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62Y56PDXAPSM66B00YYQ9"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "The Lemon Tree, Pure Vegetarian Restaurant",
+  "coordinates": {
+    "latitude": 9.6744164,
+    "longitude": 80.027109
+  },
+  "categories": [
+    "Vegetarian restaurant"
+  ],
+  "address": "Jaffna-Point Pedro Road, Jaffna",
+  "phone": "0212223022",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62WA3YZQ6JMXFBQAKNMFX"
+}

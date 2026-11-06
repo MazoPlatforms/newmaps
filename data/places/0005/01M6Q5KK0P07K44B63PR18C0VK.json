@@ -1,0 +1,59 @@
+{
+  "name": "Mass Travels",
+  "coordinates": {
+    "latitude": 7.2224647,
+    "longitude": 81.8501532
+  },
+  "categories": [
+    "Travel agency"
+  ],
+  "address": "77, Main Street, T/D-2, Akkaraipattu",
+  "phone": "0770650084",
+  "website": "http://www.massairtravels.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q5KK0P07K44B63PR18C0VK"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Vanni Restaurant",
+  "coordinates": {
+    "latitude": 8.757861,
+    "longitude": 80.47965169999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "QF5H+4VR, Vavuniya",
+  "phone": "0762693205",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q63FNP5VZWX53AQW7JQGT1"
+}

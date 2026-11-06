@@ -1,0 +1,73 @@
+{
+  "name": "The Dining Room",
+  "coordinates": {
+    "latitude": 6.929264099999999,
+    "longitude": 79.8493666
+  },
+  "categories": [
+    "Buffet restaurant"
+  ],
+  "address": "117 Colombo - Batticaloa Hwy, Colombo",
+  "phone": "0112491930",
+  "website": "http://www.cinnamonhotels.com/cinnamonlakesidecolombo/dining/the-dining-room.html",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–10:30 AM",
+        "12–3 PM",
+        "7–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–10:30 AM",
+        "12–3 PM",
+        "7–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–10:30 AM",
+        "12–3 PM",
+        "7–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–10:30 AM",
+        "12–3 PM",
+        "7–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–10:30 AM",
+        "12–3 PM",
+        "7–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–10:30 AM",
+        "12–3 PM",
+        "7–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6–10:30 AM",
+        "12–3 PM",
+        "7–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62KPT8PCB2NAPS8MVVGC4"
+}

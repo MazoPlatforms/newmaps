@@ -1,0 +1,59 @@
+{
+  "name": "Divine Delights Restaurant And Coolbar",
+  "coordinates": {
+    "latitude": 8.6047093,
+    "longitude": 81.2109237
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "824 school road, Trincomalee",
+  "phone": "0772008267",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–3 PM",
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q5994XY1R332W94F0PC26J"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Choice Restaurant",
+  "coordinates": {
+    "latitude": 8.9767082,
+    "longitude": 79.91299339999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "XWG7+M5Q, Centre Bazaar Road, Mannar",
+  "phone": "0232223261",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63JDQXPNRX97A572SAZBP"
+}

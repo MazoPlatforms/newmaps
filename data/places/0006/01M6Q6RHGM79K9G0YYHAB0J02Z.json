@@ -1,0 +1,59 @@
+{
+  "name": "Sun Catch Restaurant",
+  "coordinates": {
+    "latitude": 8.5943,
+    "longitude": 81.2176255
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "H6V9+P3M, Uppuveli Road, Trincomalee",
+  "phone": "0701257700",
+  "website": "http://www.suncatch.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RHGM79K9G0YYHAB0J02Z"
+}

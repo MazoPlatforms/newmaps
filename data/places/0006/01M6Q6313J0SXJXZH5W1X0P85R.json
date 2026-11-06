@@ -1,0 +1,58 @@
+{
+  "name": "Dine Out Indian Restaurant, Ratnapura",
+  "coordinates": {
+    "latitude": 6.6798284,
+    "longitude": 80.4142246
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Ratnapura",
+  "phone": "0777909468",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6313J0SXJXZH5W1X0P85R"
+}

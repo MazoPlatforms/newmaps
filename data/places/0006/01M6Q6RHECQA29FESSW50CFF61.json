@@ -1,0 +1,57 @@
+{
+  "name": "Uppuveli Cafe",
+  "coordinates": {
+    "latitude": 8.603739,
+    "longitude": 81.2170481
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "82, Nilaveli Road, 3rd Mile Post, Trincomalee 31000",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RHECQA29FESSW50CFF61"
+}

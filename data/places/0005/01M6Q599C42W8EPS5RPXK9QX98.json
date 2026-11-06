@@ -1,0 +1,58 @@
+{
+  "name": "Lisens Juicery",
+  "coordinates": {
+    "latitude": 8.6113272,
+    "longitude": 81.215634
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "300 Nilaveli Road, Trincomalee 31000",
+  "phone": "0760620909",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q599C42W8EPS5RPXK9QX98"
+}

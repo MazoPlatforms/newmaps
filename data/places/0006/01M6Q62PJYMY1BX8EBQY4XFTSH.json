@@ -1,0 +1,58 @@
+{
+  "name": "Mayura Hotel",
+  "coordinates": {
+    "latitude": 6.9407195999999995,
+    "longitude": 79.8544478
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "Sri Kathiresan St, Colombo 01300",
+  "phone": "0112335109",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–3:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–3:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–3:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–3:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–3:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–3:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62PJYMY1BX8EBQY4XFTSH"
+}

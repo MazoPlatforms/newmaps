@@ -1,0 +1,58 @@
+{
+  "name": "The Indian Chef",
+  "coordinates": {
+    "latitude": 6.1228001,
+    "longitude": 81.02741019999999
+  },
+  "categories": [
+    "Indian restaurant"
+  ],
+  "address": "The Indian chef, Tissa road, Ambalantota 82100",
+  "phone": "0472223983",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63PSMYP0F0R7DYVXC9YFY"
+}

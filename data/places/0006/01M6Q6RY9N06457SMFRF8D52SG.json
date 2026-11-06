@@ -1,0 +1,58 @@
+{
+  "name": "Sri Lanka Pharmacy (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.2945777,
+    "longitude": 80.6380854
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "39 DS Senanayake Veediya, Kandy 20000",
+  "phone": "0812223606",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RY9N06457SMFRF8D52SG"
+}

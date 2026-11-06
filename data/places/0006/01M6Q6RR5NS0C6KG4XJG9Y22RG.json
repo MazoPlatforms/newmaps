@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City - Majestic City",
+  "coordinates": {
+    "latitude": 6.8940731,
+    "longitude": 79.8546195
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "Majestic City, 10 Station Road, Colombo 00400",
+  "phone": "0112501022",
+  "website": "https://www.cargillsceylon.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RR5NS0C6KG4XJG9Y22RG"
+}

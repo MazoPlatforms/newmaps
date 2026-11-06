@@ -1,0 +1,58 @@
+{
+  "name": "Nethun Pharmacy",
+  "coordinates": {
+    "latitude": 7.2760188999999995,
+    "longitude": 80.6135637
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "656 Peradeniya Road, Kandy 20000",
+  "phone": "0772346025",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RZVKHP4066Y2FE068K4D"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "No1 Liquor Restaurant",
+  "coordinates": {
+    "latitude": 8.7626518,
+    "longitude": 80.46668079999999
+  },
+  "categories": [
+    "Restaurant",
+    "Wine store"
+  ],
+  "address": "89 Vavuniya-Parayanalankulam Hwy, Vavuniya 43000",
+  "phone": "0765687846",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–2 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–2 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–2 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–2 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–2 PM",
+        "5–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63GMYRXD4MVATP7HZS206"
+}

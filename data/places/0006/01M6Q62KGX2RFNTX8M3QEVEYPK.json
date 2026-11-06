@@ -1,0 +1,59 @@
+{
+  "name": "Harbour Court",
+  "coordinates": {
+    "latitude": 6.932924,
+    "longitude": 79.841809
+  },
+  "categories": [
+    "Buffet restaurant"
+  ],
+  "address": "Lobby level, Harbor View, 48 Janadhipathi Mawatha, Colombo 00100",
+  "phone": "0771087720",
+  "website": "https://www.thekingsburyhotel.com/dining/harbour-court",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62KGX2RFNTX8M3QEVEYPK"
+}

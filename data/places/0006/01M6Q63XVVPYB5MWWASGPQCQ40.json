@@ -1,0 +1,60 @@
+{
+  "name": "KFC - Panadura",
+  "coordinates": {
+    "latitude": 6.7240237,
+    "longitude": 79.9067359
+  },
+  "categories": [
+    "Fast food restaurant",
+    "Restaurant"
+  ],
+  "address": "248b Galle Road, Panadura",
+  "phone": "0115532532",
+  "website": "https://www.kfc.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63XVVPYB5MWWASGPQCQ40"
+}

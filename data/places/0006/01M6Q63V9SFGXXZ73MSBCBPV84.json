@@ -1,0 +1,64 @@
+{
+  "name": "Vanniyan Restaurant",
+  "coordinates": {
+    "latitude": 9.383035,
+    "longitude": 80.398003
+  },
+  "categories": [
+    "Restaurant",
+    "Banquet hall",
+    "Event venue",
+    "Family restaurant",
+    "Seafood restaurant",
+    "Sri Lankan restaurant"
+  ],
+  "address": "99MX+734, Kilinochchi",
+  "phone": "0212286624",
+  "website": "https://vanniyanrestaurant.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63V9SFGXXZ73MSBCBPV84"
+}

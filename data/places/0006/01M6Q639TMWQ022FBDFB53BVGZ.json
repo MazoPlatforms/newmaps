@@ -1,0 +1,66 @@
+{
+  "name": "Grand Thai",
+  "coordinates": {
+    "latitude": 6.968663899999999,
+    "longitude": 80.76504229999999
+  },
+  "categories": [
+    "Thai restaurant"
+  ],
+  "address": "Grand Hotel Road, Nuwara Eliya 22200",
+  "phone": "0522222881",
+  "website": "https://thegrandhotelnuwaraeliya.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–3:30 PM",
+        "7–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–3:30 PM",
+        "7–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–3:30 PM",
+        "7–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–3:30 PM",
+        "7–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–3:30 PM",
+        "7–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–3:30 PM",
+        "7–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–3:30 PM",
+        "7–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q639TMWQ022FBDFB53BVGZ"
+}

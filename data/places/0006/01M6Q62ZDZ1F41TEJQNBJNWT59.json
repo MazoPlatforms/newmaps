@@ -1,0 +1,59 @@
+{
+  "name": "Table 9 Restaurant",
+  "coordinates": {
+    "latitude": 8.3186792,
+    "longitude": 80.4101714
+  },
+  "categories": [
+    "Sri Lankan restaurant",
+    "Chinese restaurant"
+  ],
+  "address": "No. 808 Bulankulama disa Mawatha, Anuradhapura 50000",
+  "phone": "0711999088",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62ZDZ1F41TEJQNBJNWT59"
+}

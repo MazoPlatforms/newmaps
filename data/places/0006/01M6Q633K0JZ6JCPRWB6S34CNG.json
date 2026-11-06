@@ -1,0 +1,59 @@
+{
+  "name": "Dulsara Restaurant",
+  "coordinates": {
+    "latitude": 6.9853312,
+    "longitude": 81.05863599999999
+  },
+  "categories": [
+    "Non vegetarian restaurant"
+  ],
+  "address": "28 Cocowatte Road, Badulla",
+  "phone": "0552228215",
+  "website": "https://www.dulsararestaurant.com/menu",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q633K0JZ6JCPRWB6S34CNG"
+}

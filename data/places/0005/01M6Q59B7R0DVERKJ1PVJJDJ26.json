@@ -1,0 +1,58 @@
+{
+  "name": "Seoul Cafe",
+  "coordinates": {
+    "latitude": 8.5772896,
+    "longitude": 81.2181386
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "1 Lower Road, Trincomalee",
+  "phone": "0771912330",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59B7R0DVERKJ1PVJJDJ26"
+}

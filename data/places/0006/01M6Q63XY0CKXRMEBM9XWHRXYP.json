@@ -1,0 +1,58 @@
+{
+  "name": "Boxy Kitchen",
+  "coordinates": {
+    "latitude": 6.7237029999999995,
+    "longitude": 79.9072425
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "197 Galle - Colombo Road, Panadura 12500",
+  "phone": "0705032031",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63XY0CKXRMEBM9XWHRXYP"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "SR Medicals Pharmacy And Mini Mart Supermarket",
+  "coordinates": {
+    "latitude": 8.568967599999999,
+    "longitude": 81.23391409999999
+  },
+  "categories": [
+    "Pharmacy",
+    "Beauty product supplier",
+    "Beauty supply store",
+    "Supermarket"
+  ],
+  "address": "H69M+CFR, 108 Post Office Road, Trincomalee 31000",
+  "phone": "0262227588",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59MQXTSW4NY96SB74HSEY"
+}

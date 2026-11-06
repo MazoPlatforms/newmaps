@@ -1,0 +1,59 @@
+{
+  "name": "Vadiya Cafe-වාඩිය Cafe",
+  "coordinates": {
+    "latitude": 6.6800117,
+    "longitude": 80.4063536
+  },
+  "categories": [
+    "Asian restaurant"
+  ],
+  "address": "213 Main St, Ratnapura",
+  "phone": "0767605705",
+  "website": "https://vadiyacafe.blogspot.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q630ZECSDKJT5GZN5MPJKT"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Café UFO Ella",
+  "coordinates": {
+    "latitude": 6.8743644999999995,
+    "longitude": 81.0481492
+  },
+  "categories": [
+    "Eclectic restaurant",
+    "Bar",
+    "Cocktail bar",
+    "Pizza restaurant",
+    "Sri Lankan restaurant",
+    "Western restaurant"
+  ],
+  "address": "57 Wellawaya-Ella-Kumbalwela Hwy, Ella 90090",
+  "phone": "0777748168",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q636R6Y7DQADMQPVGZAT4G"
+}

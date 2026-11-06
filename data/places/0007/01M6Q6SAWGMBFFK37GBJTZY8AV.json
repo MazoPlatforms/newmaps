@@ -1,0 +1,60 @@
+{
+  "name": "Chest Clinic - Bogambara",
+  "coordinates": {
+    "latitude": 7.2871033,
+    "longitude": 80.6357123
+  },
+  "categories": [
+    "Doctor",
+    "Medical clinic"
+  ],
+  "address": "Ehelepola Kumarihami Mawatha, Kandy",
+  "phone": "0812222071",
+  "website": "http://www.nptccd.health.gov.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6SAWGMBFFK37GBJTZY8AV"
+}

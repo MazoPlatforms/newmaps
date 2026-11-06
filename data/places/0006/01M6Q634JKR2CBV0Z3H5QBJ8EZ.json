@@ -1,0 +1,58 @@
+{
+  "name": "Pizza Connection",
+  "coordinates": {
+    "latitude": 6.989370999999999,
+    "longitude": 81.0492335
+  },
+  "categories": [
+    "Pizza restaurant"
+  ],
+  "address": "12 Keppetipola Road, Badulla 90000",
+  "phone": "0776269279",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q634JKR2CBV0Z3H5QBJ8EZ"
+}

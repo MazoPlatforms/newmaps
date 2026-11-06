@@ -1,0 +1,58 @@
+{
+  "name": "Leem’s Cafe",
+  "coordinates": {
+    "latitude": 8.0328704,
+    "longitude": 79.8277768
+  },
+  "categories": [
+    "Non vegetarian restaurant"
+  ],
+  "address": "70 Mannar Road, Puttalam 61300",
+  "phone": "0717343577",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–1 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q63SKDC5YCGVJD0R5Y20C0"
+}

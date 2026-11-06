@@ -1,0 +1,58 @@
+{
+  "name": "Ratnam Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 9.666508199999999,
+    "longitude": 80.0111153
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "384 Hospital Road, Jaffna 40000",
+  "phone": "0212222667",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S4PQWCPQXAAYMWRKE63B"
+}

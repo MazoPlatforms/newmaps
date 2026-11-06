@@ -1,0 +1,59 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 7.296634,
+    "longitude": 80.6366963
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "120 E L Senanayake Veediya, Kandy 20000",
+  "phone": "0812223217",
+  "website": "http://www.combank.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TTNKRDXNPZ4C0092GX6E"
+}

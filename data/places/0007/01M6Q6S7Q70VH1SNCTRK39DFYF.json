@@ -1,0 +1,58 @@
+{
+  "name": "The New Pharmacy",
+  "coordinates": {
+    "latitude": 7.4888087,
+    "longitude": 80.36164959999999
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "N0: 04, Negombo Road, Kurunegala 60000",
+  "phone": "0372226091",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6S7Q70VH1SNCTRK39DFYF"
+}

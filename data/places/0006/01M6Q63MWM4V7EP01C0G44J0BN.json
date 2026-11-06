@@ -1,0 +1,60 @@
+{
+  "name": "NS Tomatoes Restaurant",
+  "coordinates": {
+    "latitude": 7.9426391,
+    "longitude": 81.0126669
+  },
+  "categories": [
+    "Family restaurant",
+    "Bar",
+    "Restaurant"
+  ],
+  "address": "W2V7+33V, Good Market, Hospital Junction, G11 Good Market, Polonnaruwa",
+  "phone": "0272052276",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63MWM4V7EP01C0G44J0BN"
+}

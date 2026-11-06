@@ -1,0 +1,58 @@
+{
+  "name": "SPAR Supermarket - Kelaniya",
+  "coordinates": {
+    "latitude": 6.9733335,
+    "longitude": 79.9189657
+  },
+  "categories": [
+    "Grocery store"
+  ],
+  "address": "No. 30 Kandy Road, Kelaniya 11300",
+  "phone": "0115007510",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RQH8XD1YT3RVDTFAYYKY"
+}

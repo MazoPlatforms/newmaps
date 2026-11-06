@@ -1,0 +1,58 @@
+{
+  "name": "Sunny's Restaurant",
+  "coordinates": {
+    "latitude": 7.247594299999999,
+    "longitude": 79.8423012
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "98/1, Negombo 11540",
+  "phone": "0776544095",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63CKQ1EGDB2T87HMZD30P"
+}

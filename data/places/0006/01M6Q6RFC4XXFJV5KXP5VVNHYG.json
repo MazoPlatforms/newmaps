@@ -1,0 +1,65 @@
+{
+  "name": "Meridien Cafe Kalmunai",
+  "coordinates": {
+    "latitude": 7.415792,
+    "longitude": 81.82534919999999
+  },
+  "categories": [
+    "Fast food restaurant"
+  ],
+  "address": "CR8G+849, Colombo - Ratnapura - Wellawaya - Batticaloa Road, Kalmunai 32300",
+  "phone": "0779119797",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12 AM–12 PM",
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12 AM–12 PM",
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12 AM–12 PM",
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12 AM–12 PM",
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12 AM–12 PM",
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12 AM–12 PM",
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12 AM–12 PM",
+        "4 PM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RFC4XXFJV5KXP5VVNHYG"
+}

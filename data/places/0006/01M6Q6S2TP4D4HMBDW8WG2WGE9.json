@@ -1,0 +1,58 @@
+{
+  "name": "Oxford Pharmacy",
+  "coordinates": {
+    "latitude": 6.0452129,
+    "longitude": 80.2232394
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "26WF+37Q, Morris Road, Galle 80000",
+  "phone": "0912227950",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S2TP4D4HMBDW8WG2WGE9"
+}

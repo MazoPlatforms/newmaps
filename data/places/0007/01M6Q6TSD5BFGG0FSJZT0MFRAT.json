@@ -1,0 +1,58 @@
+{
+  "name": "BOC ATM",
+  "coordinates": {
+    "latitude": 6.8604543,
+    "longitude": 81.0957739
+  },
+  "categories": [
+    "ATM"
+  ],
+  "address": "V36W+58J, Balleketuwa",
+  "website": "http://www.boc.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q6TSD5BFGG0FSJZT0MFRAT"
+}

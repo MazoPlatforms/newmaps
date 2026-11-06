@@ -1,0 +1,59 @@
+{
+  "name": "MKM Catering Service",
+  "coordinates": {
+    "latitude": 8.5769025,
+    "longitude": 81.21992709999999
+  },
+  "categories": [
+    "Restaurant",
+    "Restaurant supply store"
+  ],
+  "address": "21 Konesapurum Road, Trincomalee",
+  "phone": "0773019209",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12:30–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12:30–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12:30–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12:30–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12:30–2 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12:30–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12:30–2 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59EDZWEAHVYW080MFJF91"
+}

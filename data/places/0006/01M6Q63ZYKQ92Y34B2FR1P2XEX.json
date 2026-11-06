@@ -1,0 +1,59 @@
+{
+  "name": "Gimana Foods",
+  "coordinates": {
+    "latitude": 6.8329680999999995,
+    "longitude": 80.9856716
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 62/2, Bandarawela 90100",
+  "phone": "0706195350",
+  "website": "http://gimanafoods.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63ZYKQ92Y34B2FR1P2XEX"
+}

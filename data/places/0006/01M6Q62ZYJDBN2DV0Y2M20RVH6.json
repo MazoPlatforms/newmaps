@@ -1,0 +1,58 @@
+{
+  "name": "Myburger Family Restaurant",
+  "coordinates": {
+    "latitude": 8.327925,
+    "longitude": 80.3996461
+  },
+  "categories": [
+    "Family restaurant"
+  ],
+  "address": "519, 10 Jayanthi Mawatha, Anuradhapura 50000",
+  "phone": "0778774747",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62ZYJDBN2DV0Y2M20RVH6"
+}

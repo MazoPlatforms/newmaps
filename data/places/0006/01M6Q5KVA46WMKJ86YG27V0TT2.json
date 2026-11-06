@@ -1,0 +1,58 @@
+{
+  "name": "Wale Kade Restaurant & Coffee Shop",
+  "coordinates": {
+    "latitude": 8.400437,
+    "longitude": 81.0237008
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "Tricomalee, Road, Kantale 31300",
+  "phone": "0775143372",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "1–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5KVA46WMKJ86YG27V0TT2"
+}

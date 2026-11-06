@@ -1,0 +1,58 @@
+{
+  "name": "Twin Bird's Cafe",
+  "coordinates": {
+    "latitude": 8.598728,
+    "longitude": 81.21896079999999
+  },
+  "categories": [
+    "Family restaurant"
+  ],
+  "address": "Ehamparam Road, Trincomalee 30001",
+  "phone": "0765634110",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RGGT0RBY60J26M7R4FY7"
+}

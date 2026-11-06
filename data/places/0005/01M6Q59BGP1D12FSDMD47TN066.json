@@ -1,0 +1,64 @@
+{
+  "name": "New Parrot Restaurant",
+  "coordinates": {
+    "latitude": 8.577793,
+    "longitude": 81.2319704
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "No. 96 Main St, Trincomalee",
+  "phone": "0716605819",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–2:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–2:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–2:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–2:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–2:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–2:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q59BGP1D12FSDMD47TN066"
+}

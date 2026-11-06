@@ -1,0 +1,59 @@
+{
+  "name": "Meetup Cafe And Restaurant",
+  "coordinates": {
+    "latitude": 7.3211933,
+    "longitude": 80.6269568
+  },
+  "categories": [
+    "Fast food restaurant"
+  ],
+  "address": "No. 459/D/1, 1 Katugastota Road, Kandy",
+  "phone": "0785505567",
+  "website": "https://www.facebook.com/share/1A1oxuJYwD/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62RYP3BJRSVPJR14BGNBG"
+}

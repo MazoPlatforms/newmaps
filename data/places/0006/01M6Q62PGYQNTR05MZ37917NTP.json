@@ -1,0 +1,59 @@
+{
+  "name": "Butter Boutique",
+  "coordinates": {
+    "latitude": 6.914498099999999,
+    "longitude": 79.870058
+  },
+  "categories": [
+    "Cake shop"
+  ],
+  "address": "70 Rosmead Pl, Colombo 00700",
+  "phone": "0112690028",
+  "website": "https://www.instagram.com/butter_boutique/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q62PGYQNTR05MZ37917NTP"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kaffi",
+  "coordinates": {
+    "latitude": 6.8412413,
+    "longitude": 81.8323219
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "Main Street, Arugam Bay, Pottuvil 32500",
+  "phone": "0742508376",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5KPHC5VZMXN5VADPXSR5Q"
+}

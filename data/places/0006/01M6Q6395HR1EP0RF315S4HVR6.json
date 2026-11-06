@@ -1,0 +1,58 @@
+{
+  "name": "Restaurant GURU",
+  "coordinates": {
+    "latitude": 6.9792792,
+    "longitude": 80.7625651
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "King Fern Cottage, 203/1A St Andrew's Road, Nuwara Eliya 22200",
+  "phone": "0773586284",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6395HR1EP0RF315S4HVR6"
+}

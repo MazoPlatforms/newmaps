@@ -1,0 +1,58 @@
+{
+  "name": "Ampara Hotel",
+  "coordinates": {
+    "latitude": 7.3334715,
+    "longitude": 80.9933465
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "8XMV+98Q, Mahiyanganaya",
+  "phone": "0552257511",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5952HDSWM4ME5EHG81XTG"
+}

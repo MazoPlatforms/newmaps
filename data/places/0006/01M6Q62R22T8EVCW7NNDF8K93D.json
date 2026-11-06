@@ -1,0 +1,59 @@
+{
+  "name": "KFC - Peradeniya Rd",
+  "coordinates": {
+    "latitude": 7.2845103,
+    "longitude": 80.6240933
+  },
+  "categories": [
+    "Fast food restaurant"
+  ],
+  "address": "7JMF+RJ4, Peradeniya Road, Kandy 20000",
+  "phone": "0812229888",
+  "website": "http://www.kfc.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62R22T8EVCW7NNDF8K93D"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Maharaja Restaurant",
+  "coordinates": {
+    "latitude": 8.7545571,
+    "longitude": 80.5005528
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "47 Mill Road, Vavuniya 43000",
+  "phone": "0766666333",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63FCWRF311RR4M009K54N"
+}

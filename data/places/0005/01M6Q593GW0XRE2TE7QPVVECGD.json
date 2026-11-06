@@ -1,0 +1,58 @@
+{
+  "name": "Tharuka Hotel",
+  "coordinates": {
+    "latitude": 7.2876708,
+    "longitude": 81.69051019999999
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "7MQR+366, A25, Ampara",
+  "phone": "0770262684",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q593GW0XRE2TE7QPVVECGD"
+}

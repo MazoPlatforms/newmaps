@@ -1,0 +1,58 @@
+{
+  "name": "Annapoorna Restaurant",
+  "coordinates": {
+    "latitude": 6.8295571,
+    "longitude": 80.9936408
+  },
+  "categories": [
+    "Indian restaurant"
+  ],
+  "address": "Bandarawela By Pass Road, Bandarawela 90100",
+  "phone": "0770748260",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63ZWCPZW7AS3KAY5G73RD"
+}

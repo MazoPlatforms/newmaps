@@ -1,0 +1,58 @@
+{
+  "name": "Jayalanka Pharmacy",
+  "coordinates": {
+    "latitude": 7.2882969,
+    "longitude": 80.6325815
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "STD Unit, 80 Keppetipola Road, Kandy 20000",
+  "phone": "0812233255",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RYE8GKRBRHMVY26FFWJQ"
+}

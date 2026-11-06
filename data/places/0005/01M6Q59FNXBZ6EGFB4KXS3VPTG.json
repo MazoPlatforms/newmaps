@@ -1,0 +1,59 @@
+{
+  "name": "Memo's Café & Restaurant",
+  "coordinates": {
+    "latitude": 8.683809799999999,
+    "longitude": 81.19930339999999
+  },
+  "categories": [
+    "Italian restaurant"
+  ],
+  "address": "ward 2, near the hospital, Mill Road, Nilaveli",
+  "phone": "0772559249",
+  "website": "http://www.memosbeachnilaveli.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59FNXBZ6EGFB4KXS3VPTG"
+}
