@@ -1,0 +1,58 @@
+{
+  "name": "Public Library, Arugambay",
+  "coordinates": {
+    "latitude": 6.8490813,
+    "longitude": 81.8301329
+  },
+  "categories": [
+    "Library"
+  ],
+  "address": "Saleems Building, Pottuvil 18, Main Street, Arugambay",
+  "phone": "0779005903",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5KPNQQ1H1GRVW8153MTVZ"
+}
