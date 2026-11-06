@@ -1,0 +1,58 @@
+{
+  "name": "Nugegoda Supermarket",
+  "coordinates": {
+    "latitude": 6.8727778,
+    "longitude": 79.8913889
+  },
+  "categories": [
+    "Supermarket",
+    "Grocery store"
+  ],
+  "address": "Super Market, Nugegoda",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RSJFW32HK23T71BM5FKN"
+}
