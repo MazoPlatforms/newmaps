@@ -1,0 +1,58 @@
+{
+  "name": "Babo Cafe",
+  "coordinates": {
+    "latitude": 8.608718099999999,
+    "longitude": 81.2164336
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "281 Nilaveli Road, Trincomalee",
+  "phone": "0263131313",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59ANWP48XPJ4ACMT27QW4"
+}
