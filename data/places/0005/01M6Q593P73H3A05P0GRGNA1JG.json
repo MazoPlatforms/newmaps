@@ -1,0 +1,58 @@
+{
+  "name": "Cafe La Royal Ampara",
+  "coordinates": {
+    "latitude": 7.2909641,
+    "longitude": 81.68373989999999
+  },
+  "categories": [
+    "Hot dog restaurant"
+  ],
+  "address": "7MRM+7CW, Ampara",
+  "phone": "0757641158",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q593P73H3A05P0GRGNA1JG"
+}
