@@ -1,0 +1,60 @@
+{
+  "name": "Royal Super Food Mart",
+  "coordinates": {
+    "latitude": 6.937213,
+    "longitude": 79.86312199999999
+  },
+  "categories": [
+    "Pharmacy",
+    "Supermarket"
+  ],
+  "address": "No. 129 Meeraniya St, Colombo 01200",
+  "phone": "0112325326",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12 AM–12 PM",
+        "1:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q6RKHWH7YH066GXWJS9MKB"
+}
