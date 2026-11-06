@@ -1,0 +1,59 @@
+{
+  "name": "Baba’s Place",
+  "coordinates": {
+    "latitude": 5.941370699999999,
+    "longitude": 80.5120737
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "759/B Galle Road, Matara 81000",
+  "phone": "0701529529",
+  "website": "https://babazplace.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    }
+  ],
+  "id": "01M6Q632W4NMBM5RXZY396C1A5"
+}
