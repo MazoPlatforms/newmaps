@@ -1,0 +1,62 @@
+{
+  "name": "TukTuk Wine & Dine - Negombo",
+  "coordinates": {
+    "latitude": 7.2405943,
+    "longitude": 79.8448422
+  },
+  "categories": [
+    "Restaurant",
+    "Bar",
+    "Cocktail bar",
+    "Pizza restaurant"
+  ],
+  "address": "52 St Joseph Mawatha, Negombo 11500",
+  "phone": "0778157070",
+  "website": "http://tuktuknegombo.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63BD5GM4VSPV7JYD8E6HT"
+}
