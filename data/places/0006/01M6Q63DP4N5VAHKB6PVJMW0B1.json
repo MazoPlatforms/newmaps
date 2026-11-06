@@ -1,0 +1,58 @@
+{
+  "name": "Evergreen Restaurant",
+  "coordinates": {
+    "latitude": 7.0931188999999994,
+    "longitude": 79.9869049
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "3XVP+6QR, Gampaha",
+  "phone": "0332221666",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63DP4N5VAHKB6PVJMW0B1"
+}
