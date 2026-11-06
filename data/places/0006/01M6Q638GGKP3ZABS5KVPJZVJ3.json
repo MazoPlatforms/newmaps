@@ -1,0 +1,65 @@
+{
+  "name": "Restaurant Country House Nuwara Eliya",
+  "coordinates": {
+    "latitude": 6.9703263,
+    "longitude": 80.7693728
+  },
+  "categories": [
+    "Eclectic restaurant",
+    "Breakfast restaurant",
+    "Diner",
+    "Indian restaurant",
+    "Lunch restaurant",
+    "Takeout restaurant",
+    "Pizza restaurant",
+    "Rice restaurant"
+  ],
+  "address": "17 Park Road, Nuwara Eliya 22200",
+  "phone": "0787407460",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q638GGKP3ZABS5KVPJZVJ3"
+}
