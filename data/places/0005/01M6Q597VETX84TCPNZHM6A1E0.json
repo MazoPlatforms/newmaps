@@ -1,0 +1,58 @@
+{
+  "name": "Lanka Pharmacy",
+  "coordinates": {
+    "latitude": 7.2990406,
+    "longitude": 81.68777759999999
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "7MXQ+J46, Ampara",
+  "phone": "0774530544",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q597VETX84TCPNZHM6A1E0"
+}
