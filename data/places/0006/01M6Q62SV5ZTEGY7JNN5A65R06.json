@@ -1,0 +1,59 @@
+{
+  "name": "A Minute By Tuk Tuk Restaurant",
+  "coordinates": {
+    "latitude": 6.0269179,
+    "longitude": 80.2196668
+  },
+  "categories": [
+    "Asian fusion restaurant"
+  ],
+  "address": "Shop # U-12, Old Dutch Hospita, Hospital St, Galle",
+  "phone": "0914945000",
+  "website": "https://aminutebytuktuk.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62SV5ZTEGY7JNN5A65R06"
+}
