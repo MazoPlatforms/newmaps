@@ -1,0 +1,58 @@
+{
+  "name": "Luxmy Cafe",
+  "coordinates": {
+    "latitude": 8.5881402,
+    "longitude": 81.2249551
+  },
+  "categories": [
+    "Cafe"
+  ],
+  "address": "743c, N Coast Road, Trincomalee",
+  "phone": "0776569649",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6RJ50S65MM4MYJKGE69SE"
+}
