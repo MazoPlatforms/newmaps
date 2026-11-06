@@ -1,0 +1,60 @@
+{
+  "name": "The Last Drop Restaurant",
+  "coordinates": {
+    "latitude": 7.2938832,
+    "longitude": 80.6358185
+  },
+  "categories": [
+    "Restaurant",
+    "Pub"
+  ],
+  "address": "37 Yatinuwara St, Kandy 20000",
+  "phone": "0812220002",
+  "website": "https://www.facebook.com/LastDropKandy",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62RTN8HFBBDDF4VZEZEW9"
+}
