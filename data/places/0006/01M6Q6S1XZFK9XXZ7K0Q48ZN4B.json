@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City - Galle 2",
+  "coordinates": {
+    "latitude": 6.035213,
+    "longitude": 80.2171656
+  },
+  "categories": [
+    "Supermarket"
+  ],
+  "address": "10/8 Wakwella Road, Galle 80000",
+  "phone": "0912234995",
+  "website": "https://www.cargillsceylon.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q6S1XZFK9XXZ7K0Q48ZN4B"
+}
