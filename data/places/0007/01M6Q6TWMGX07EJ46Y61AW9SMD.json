@@ -1,0 +1,59 @@
+{
+  "name": "NDB Bank - Head Office",
+  "coordinates": {
+    "latitude": 6.9188313,
+    "longitude": 79.8507779
+  },
+  "categories": [
+    "Bank"
+  ],
+  "address": "No. 40 Nawam Mawatha, Colombo 00200",
+  "phone": "0117448448",
+  "website": "https://www.ndbbank.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q6TWMGX07EJ46Y61AW9SMD"
+}
