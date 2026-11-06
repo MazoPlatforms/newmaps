@@ -1,0 +1,58 @@
+{
+  "name": "Dream Hotel",
+  "coordinates": {
+    "latitude": 7.3131238,
+    "longitude": 81.6754587
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "8M7G+65W, Ampara - Uhana Road, Ampara",
+  "phone": "0753177777",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "id": "01M6Q5949NB466QXF00N22SW4V"
+}
