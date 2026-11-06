@@ -1,0 +1,61 @@
+{
+  "name": "Pedlar's Inn Cafe And Restaurant",
+  "coordinates": {
+    "latitude": 6.0261059999999995,
+    "longitude": 80.2164153
+  },
+  "categories": [
+    "Seafood restaurant",
+    "Restaurant"
+  ],
+  "address": "92 Pedlar's Street, Galle 80000",
+  "phone": "0912225333",
+  "website": "http://pedlarsinncafe.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "1:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62SK6098V231QBJGGA93W"
+}
