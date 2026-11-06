@@ -225,9 +225,9 @@ def _has_shared_identity_evidence(candidate: dict, existing: dict) -> bool:
 
 
 def analyze(input_dir: Path, boundary_path: Path = BOUNDARY_PATH, root: Path = ROOT,
-            region: str | set[str] | None = None) -> dict:
+            region: str | set[str] | None = None, enforce_boundary: bool = True) -> dict:
     query_manifest, rows = read_captures(input_dir)
-    boundary = load_boundary(boundary_path)
+    boundary = load_boundary(boundary_path) if enforce_boundary else None
     records, _, _ = places.load_places() if root == ROOT else load_records(root)
     aliases = places.load_aliases() if root == ROOT else load_aliases(root)
     existing = list(records)
@@ -264,7 +264,7 @@ def analyze(input_dir: Path, boundary_path: Path = BOUNDARY_PATH, root: Path = R
         if point is None:
             counts["invalid_missing_coordinates"] += 1
             continue
-        if not boundary.covers(Point(point[1], point[0])):
+        if boundary is not None and not boundary.covers(Point(point[1], point[0])):
             counts["out_of_district"] += 1
             continue
         if not record.get("address"):
@@ -350,6 +350,7 @@ def analyze(input_dir: Path, boundary_path: Path = BOUNDARY_PATH, root: Path = R
         "existing_ids": {record["id"] for record in records},
         "alias_ids": set(aliases),
         "region": region,
+        "enforce_boundary": enforce_boundary,
     }
 
 
@@ -465,18 +466,22 @@ def public_report(plan: dict, region: str | None = None) -> dict:
     for key in ("invalid_missing_name", "invalid_missing_coordinates", "excluded_confirmed_private", "mzc_source_conflict"):
         counts.setdefault(key, 0)
     import_rows = plan["new_records"]
+    boundary = {
+        "file": "data/boundaries/batticaloa-district.geojson",
+        "source": "Sri Lanka National Spatial Data Infrastructure (NSDI), Srilanka/Boundaries MapServer, District Boundary layer 3",
+        "source_url": "https://gisapps.nsdi.gov.lk/server/rest/services/Srilanka/Boundaries/MapServer/3",
+        "query_url": "https://gisapps.nsdi.gov.lk/server/rest/services/Srilanka/Boundaries/MapServer/3/query",
+        "retrieved_at": "2026-10-27",
+        "geometry_sha256": hashlib.sha256(BOUNDARY_PATH.read_bytes()).hexdigest() if BOUNDARY_PATH.exists() else None,
+        "membership_rule": "The supplied coordinate must be covered by the district polygon; addresses or query wording alone do not establish district membership.",
+    } if plan["enforce_boundary"] else {
+        "enforced": False,
+        "membership_rule": "Boundary membership was intentionally not used as an exclusion criterion for this opt-in global discovery import; location is retained only as supplied by the CLI.",
+    }
     return {
         "report_version": 1,
-        "scope": "Batticaloa District, Eastern Province, Sri Lanka",
-        "boundary": {
-            "file": "data/boundaries/batticaloa-district.geojson",
-            "source": "Sri Lanka National Spatial Data Infrastructure (NSDI), Srilanka/Boundaries MapServer, District Boundary layer 3",
-            "source_url": "https://gisapps.nsdi.gov.lk/server/rest/services/Srilanka/Boundaries/MapServer/3",
-            "query_url": "https://gisapps.nsdi.gov.lk/server/rest/services/Srilanka/Boundaries/MapServer/3/query",
-            "retrieved_at": "2026-10-27",
-            "geometry_sha256": hashlib.sha256(BOUNDARY_PATH.read_bytes()).hexdigest() if BOUNDARY_PATH.exists() else None,
-            "membership_rule": "The supplied coordinate must be covered by the district polygon; addresses or query wording alone do not establish district membership.",
-        },
+        "scope": "Batticaloa District, Eastern Province, Sri Lanka" if plan["enforce_boundary"] else "Sri Lanka and any documented mzc discovery result that passes public-place and duplicate checks",
+        "boundary": boundary,
         "discovery": {
             "interface": "mzc CLI only",
             "command_syntax": "mzc -l 500 -c lk -t 30 '<documented query string>'",
@@ -705,13 +710,16 @@ def main() -> int:
     parser.add_argument("--report-json", type=Path, default=REPORT_JSON, help="write the machine-readable quality report to this path")
     parser.add_argument("--report-md", type=Path, default=REPORT_MD, help="write the human-readable quality report to this path")
     parser.add_argument("--phase", default="Phase 6", help="phase label for the report title")
+    parser.add_argument("--include-outside-boundary", action="store_true",
+                        help="retain public candidates outside the selected district boundary; intended for explicitly global discovery runs")
     parser.add_argument("--apply", action="store_true", help="write accepted new records, rebuild MZP, and write reports")
     args = parser.parse_args()
     region = None if args.region == "all" else set(args.region.split(","))
     if region is not None and (not region or not region.issubset(REGIONS)):
         parser.error(f"--region must be 'all' or a comma-separated subset of: {', '.join(REGIONS)}")
     try:
-        plan = analyze(args.input_dir, args.boundary, ROOT, region)
+        plan = analyze(args.input_dir, args.boundary, ROOT, region,
+                       enforce_boundary=not args.include_outside_boundary)
         report = public_report(plan, region)
         report["phase"] = args.phase
         plan["report_json"] = args.report_json
