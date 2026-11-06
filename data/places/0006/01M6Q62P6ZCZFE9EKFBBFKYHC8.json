@@ -1,0 +1,59 @@
+{
+  "name": "The Joint Pub And Grill",
+  "coordinates": {
+    "latitude": 6.9344291,
+    "longitude": 79.8437364
+  },
+  "categories": [
+    "Pub",
+    "Bar & grill"
+  ],
+  "address": "No. 62 Chatham St, Colombo 00100",
+  "phone": "0706870800",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–1:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "2:30 PM–1:30 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "id": "01M6Q62P6ZCZFE9EKFBBFKYHC8"
+}
