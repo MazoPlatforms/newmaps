@@ -1,0 +1,58 @@
+{
+  "name": "Super Food Corner",
+  "coordinates": {
+    "latitude": 8.759376699999999,
+    "longitude": 80.492029
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "18 Vairavarkovil Road, Vavuniya 43000",
+  "phone": "0776372323",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63GGDAA1Y9EKWZXHEY1WE"
+}
