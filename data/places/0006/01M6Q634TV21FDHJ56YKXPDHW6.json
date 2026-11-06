@@ -1,0 +1,59 @@
+{
+  "name": "Golden Hut",
+  "coordinates": {
+    "latitude": 6.991171,
+    "longitude": 81.0594876
+  },
+  "categories": [
+    "Indian restaurant"
+  ],
+  "address": "67 Badulupitiya Road, Badulla",
+  "phone": "0754050509",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–12 PM",
+        "1–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q634TV21FDHJ56YKXPDHW6"
+}
