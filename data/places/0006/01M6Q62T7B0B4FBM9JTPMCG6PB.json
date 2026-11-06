@@ -1,0 +1,60 @@
+{
+  "name": "Royal Dutch Cafe",
+  "coordinates": {
+    "latitude": 6.0252821999999995,
+    "longitude": 80.218865
+  },
+  "categories": [
+    "Halal restaurant",
+    "Cafe",
+    "Tea house"
+  ],
+  "address": "72 Leyn Baan St, Galle 80000",
+  "phone": "0771774949",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62T7B0B4FBM9JTPMCG6PB"
+}
