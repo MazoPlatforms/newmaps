@@ -1,0 +1,64 @@
+{
+  "name": "Themparadu",
+  "coordinates": {
+    "latitude": 6.9664456,
+    "longitude": 80.7723307
+  },
+  "categories": [
+    "Restaurant",
+    "Bar",
+    "Brunch restaurant",
+    "Cafe",
+    "Pub",
+    "Sri Lankan restaurant"
+  ],
+  "address": "Upper Lake Road, Nuwara Eliya 22200",
+  "phone": "0720222263",
+  "website": "https://themparadu.com/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q638A8KF9SCVDK0XNGA2RD"
+}
