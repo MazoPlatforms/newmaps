@@ -1,0 +1,58 @@
+{
+  "name": "Honey Pot Restaurant",
+  "coordinates": {
+    "latitude": 7.2764361,
+    "longitude": 80.6063348
+  },
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "address": "7JG4+HGG, Kandy",
+  "phone": "0812384082",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12 AM–9 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q62QSH6NDJHD1GQP88SKW8"
+}
