@@ -1,0 +1,61 @@
+{
+  "name": "Rams Café & Library",
+  "coordinates": {
+    "latitude": 6.8406784,
+    "longitude": 81.8309144
+  },
+  "categories": [
+    "Cafe",
+    "Coffee shop",
+    "Library",
+    "Restaurant"
+  ],
+  "address": "Mafaza road, Arugam Bay",
+  "phone": "0767016888",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q5KPSXY64J5DAA7ZDX3WG1"
+}
