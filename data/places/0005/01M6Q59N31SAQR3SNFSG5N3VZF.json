@@ -1,0 +1,58 @@
+{
+  "name": "Mr Pharmacy",
+  "coordinates": {
+    "latitude": 8.6728142,
+    "longitude": 81.1992532
+  },
+  "categories": [
+    "Pharmacy"
+  ],
+  "address": "Ward No. 01, Main Street, Nilaveli, Trincomalee",
+  "phone": "0772090466",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q59N31SAQR3SNFSG5N3VZF"
+}
