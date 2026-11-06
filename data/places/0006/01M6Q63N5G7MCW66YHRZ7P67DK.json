@@ -1,0 +1,62 @@
+{
+  "name": "Zomoto Restaurant",
+  "coordinates": {
+    "latitude": 7.935196299999999,
+    "longitude": 81.0295998
+  },
+  "categories": [
+    "Eclectic restaurant",
+    "Family restaurant",
+    "Fine dining restaurant"
+  ],
+  "address": "421/4 Main Street, Polonnaruwa 51000",
+  "phone": "0272225872",
+  "website": "http://www.zomoto.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–12 PM",
+        "1–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63N5G7MCW66YHRZ7P67DK"
+}
