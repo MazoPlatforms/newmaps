@@ -1,0 +1,62 @@
+{
+  "name": "Pizza Hut - Badulla",
+  "coordinates": {
+    "latitude": 6.9918325999999995,
+    "longitude": 81.0543345
+  },
+  "categories": [
+    "Pizza restaurant",
+    "Fast food restaurant",
+    "Pizza delivery",
+    "Pizza takeaway"
+  ],
+  "address": "Keppetipola Road, Badulla",
+  "phone": "0112729729",
+  "website": "http://www.pizzahut.lk/",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q634ZEVY3FPJDMY5F7HEKP"
+}
