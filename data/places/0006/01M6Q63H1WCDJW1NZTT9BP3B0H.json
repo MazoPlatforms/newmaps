@@ -1,0 +1,58 @@
+{
+  "name": "One Restaurant",
+  "coordinates": {
+    "latitude": 8.7925957,
+    "longitude": 80.4728049
+  },
+  "categories": [
+    "Restaurant"
+  ],
+  "address": "marakarampalai, Vavuniya 43000",
+  "phone": "0740769369",
+  "business_status": "OPEN",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "id": "01M6Q63H1WCDJW1NZTT9BP3B0H"
+}
