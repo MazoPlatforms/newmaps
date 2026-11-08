@@ -1,7 +1,7 @@
 name: Verify self-hosted Mazo basemap uptime
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/15 * * * *'\n    - cron: '17 2 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -28,6 +28,8 @@ jobs:
       - name: Verify native Android and web styles, full R2 basemap, glyphs, sprites and local tiles
         run: node scripts/verify-ridenow-basemap.mjs https://maps.mazo.workers.dev
   real-browser:
+    # Full Chromium is more expensive: once daily or on a manual/push run.
+    if: github.event_name != 'schedule' || github.event.schedule == '17 2 * * *'
     needs: resource-graph
     runs-on: ubuntu-24.04
     timeout-minutes: 12
