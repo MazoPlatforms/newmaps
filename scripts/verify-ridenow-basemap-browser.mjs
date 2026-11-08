@@ -2,9 +2,18 @@
 /** Production browser audit: no third-party network is permitted. */
 import assert from 'node:assert/strict';
 import { chromium } from 'playwright';
+import Pbf from 'pbf';
+import { VectorTile } from '@mapbox/vector-tile';
 
 const origin = new URL(process.argv[2] || 'https://maps.mazo.workers.dev').origin;
 assert.equal(new URL(origin).protocol, 'https:');
+// Verify HTTP transport returns decoded Mapbox vector tile bytes, not double-gzip.
+const sampleTile = new URL('/api/v1/basemap/tiles/13/5955/3920.pbf',origin);
+const tileResponse = await fetch(sampleTile, { signal:AbortSignal.timeout(20000) });
+assert.equal(tileResponse.status,200,'Sample Kattankudy tile must be published');
+const tileBytes = new Uint8Array(await tileResponse.arrayBuffer());
+const decodedTile = new VectorTile(new Pbf(tileBytes));
+assert.ok(decodedTile.layers.streets, 'The HTTP-decoded tile must be a valid PBF with streets');
 const browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--enable-unsafe-swiftshader'] });
 const external = [], failed = [], requests = [], networkFailures = [], httpFailures = [], mapErrors = [];
 try {
