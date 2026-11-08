@@ -56,6 +56,7 @@ export function styleFor(origin, m, dark = false) {
     },
     layers:[
       {id:'mazo-background',type:'background',paint:{'background-color':p.bg}},
+      layer('mazo-land','fill','land',{'fill-color':p.bg}),
       layer('mazo-ocean','fill','ocean',{'fill-color':p.ocean}),
       layer('mazo-inland-water','fill','water_polygons',{'fill-color':p.water}),
       layer('mazo-landcover','fill','landcover',{'fill-color':p.park,'fill-opacity':0.5}),
