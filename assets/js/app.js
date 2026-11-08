@@ -663,7 +663,29 @@ async function loadPmtiles(manifest){
  const archive=new window.pmtiles.PMTiles(archiveSource);
  const header=await archive.getHeader(),metadata=await archive.getMetadata();
  if(!metadata.vector_layers?.some(layer=>layer.id==='places')||header.minZoom!==entry.min_zoom||header.maxZoom!==entry.max_zoom)throw Error('PMTiles archive metadata mismatch');
- if(!pmtilesProtocol){pmtilesProtocol=new window.pmtiles.Protocol();maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile)}
+ if(!pmtilesProtocol){
+  pmtilesProtocol=new window.pmtiles.Protocol();
+  const originalTileHandler=pmtilesProtocol.tile;
+  const recordTile=(params,error,data)=>{
+   if(!window.__MAZO_MAP_TEST__)return;
+   const bytes=data?.data instanceof Uint8Array?data.data:data instanceof Uint8Array?data:null;
+   (window.__MAZO_PROTOCOL_EVENTS__ ??=[]).push({
+    type:params?.type||null,url:String(params?.url||'').slice(0,250),
+    error:error?String(error.message||error):null,
+    length:bytes?.byteLength??null,
+    firstBytes:bytes?Array.from(bytes.slice(0,16)):null
+   });
+  };
+  maplibregl.addProtocol('pmtiles',(params,second)=>{
+   if(typeof second==='function')return originalTileHandler(params,(error,data,...rest)=>{
+    recordTile(params,error,data);second(error,data,...rest);
+   });
+   const result=originalTileHandler(params,second);
+   return result?.then?result.then(data=>{recordTile(params,null,data);return data;},error=>{
+    recordTile(params,error,null);throw error;
+   }):result;
+  });
+ }
  pmtilesProtocol.add(archive);
  window.mazoPmtilesUrl='pmtiles://'+protocolKey;deliveryManifest=manifest;
  for(const id of [...POI_LAYERS].reverse())if(map.getLayer(id))map.removeLayer(id);
