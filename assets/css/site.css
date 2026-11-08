@@ -1,4 +1,4 @@
-/* Inter is loaded from Google Fonts in index.html. */
+/* Font stack uses installed Inter when available, otherwise system fonts; no external font requests. */
 :root {
   color-scheme: light;
   --page: #f6f8fa;
