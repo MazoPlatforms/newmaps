@@ -40,7 +40,7 @@ async function json(path, kind) {
 function sameHost(value, kind, parent) {
   if (typeof value !== 'string') return null;
   const sample = value.replaceAll('{z}', '13').replaceAll('{x}', '5955')
-    .replaceAll('{y}', '3843').replaceAll('{fontstack}', 'Mazo%20Maps%20Sans%20Regular')
+    .replaceAll('{y}', '3912').replaceAll('{fontstack}', 'Mazo%20Maps%20Sans%20Regular')
     .replaceAll('{range}', '0-255').replaceAll('{ratio}', '');
   let url;
   try { url = new URL(sample, parent); }
@@ -62,7 +62,7 @@ for (const theme of ['light', 'dark']) {
   if (style.version !== 8 || !Array.isArray(style.layers) || !style.sources)
     errors.push(`${theme}: invalid MapLibre style`);
   const ids = new Set(Object.values(style.layers || {}).map(l => l['source-layer']).filter(Boolean));
-  for (const name of ['transportation', 'water', 'building']) {
+  for (const name of ['streets', 'buildings', 'ocean']) {
     if (![...ids].some(s => s === name || s.startsWith(name)))
       errors.push(`${theme}: missing required basemap layer family ${name}`);
   }
@@ -76,14 +76,14 @@ for (const theme of ['light', 'dark']) {
             errors.push(`${theme} source ${name}: missing tile URLs`);
           for (const tile of tilejson.tiles || []) {
             const sample = sameHost(tile, `${theme} tile ${name}`, origin);
-            if (sample) await fetchLocal(sample.href, `${theme} tile ${name}`, [200,204]);
+            if (sample) await fetchLocal(sample.href, `${theme} tile ${name}`, name === 'basemap' ? [200] : [200,204]);
           }
         }
       }
     }
     for (const tile of source.tiles || []) {
       const sample = sameHost(tile, `${theme} inline tile ${name}`, origin);
-      if (sample) await fetchLocal(sample.href, `${theme} inline tile ${name}`, [200,204]);
+      if (sample) await fetchLocal(sample.href, `${theme} inline tile ${name}`, name === 'basemap' ? [200] : [200,204]);
     }
   }
   if (style.glyphs) {
