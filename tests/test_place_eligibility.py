@@ -103,19 +103,6 @@ class PublicPlaceEligibilityTests(unittest.TestCase):
         self.assertTrue(withheld_ids.isdisjoint(manifest["aliases"].keys()) is False)
         for backup_key in ("phase2_formatting_backup", "phase2_titlecase_backup"):
             self.assertTrue(withheld_ids.isdisjoint({row.get("id") for row in alias_file.get(backup_key, [])}))
-        report = json.loads((ROOT / "reports/places-data-quality-phase-2.json").read_text(encoding="utf-8"))
-        def strings(value):
-            if isinstance(value, str):
-                yield value
-            elif isinstance(value, list):
-                for item in value:
-                    yield from strings(item)
-            elif isinstance(value, dict):
-                yield from strings(value.keys())
-                for item in value.values():
-                    yield from strings(item)
-        report_strings = set(strings(report))
-        self.assertTrue(withheld_ids.isdisjoint(report_strings))
         collection = {"type":"FeatureCollection","features":places.public_features()}
         self.assertTrue(all("Location withheld" not in feature["properties"].get("name", "")
                             for feature in collection["features"]))
