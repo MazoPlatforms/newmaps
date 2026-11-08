@@ -87,7 +87,8 @@ export function styleFor(origin, m, dark = false) {
         layout:{'text-field':['get','name'],'text-font':['Mazo Maps Sans Regular'],
           'text-size':12,'text-offset':[0,1.2],'text-anchor':'top'},
         paint:{'text-color':p.text,'text-halo-color':p.halo,'text-halo-width':1.2}}
-    ]
+    ].filter(row => row.source !== 'basemap' ||
+      m.vector_layers.some(source => source.id === row['source-layer']))
   };
 }
 
@@ -221,7 +222,10 @@ export async function handleBasemapApi(request,env) {
       'Cache-Control':'public,max-age=31536000,immutable','ETag':tag};
     if(s.tileCompression===2)headers['Content-Encoding']='gzip';
     if(request.headers.get('If-None-Match')===tag)return new Response(null,{status:304,headers});
-    return new Response(request.method==='HEAD'?null:await read(env,m,offset,entry.length),{status:200,headers});
+    // PMTiles bytes are already gzip compressed. Cloudflare Workers otherwise
+    // applies automatic compression again when Content-Encoding is present.
+    return new Response(request.method==='HEAD'?null:await read(env,m,offset,entry.length),
+      {status:200,headers,encodeBody:'manual'});
   }catch(error){
     console.error(JSON.stringify({event:'self_hosted_basemap_error',message:String(error.message||error)}));
     return standard?null:json({error:'basemap_temporarily_unavailable'},503);
