@@ -1,7 +1,8 @@
 name: Verify self-hosted Mazo basemap uptime
 on:
   schedule:
-    - cron: '*/15 * * * *'\n    - cron: '17 2 * * *'
+    - cron: '*/15 * * * *'
+    - cron: '17 2 * * *'
   workflow_dispatch:
   push:
     branches: [main]
