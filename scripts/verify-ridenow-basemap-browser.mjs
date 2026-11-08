@@ -6,7 +6,7 @@ import { chromium } from 'playwright';
 const origin = new URL(process.argv[2] || 'https://maps.mazo.workers.dev').origin;
 assert.equal(new URL(origin).protocol, 'https:');
 const browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--enable-unsafe-swiftshader'] });
-const external = [], failed = [], requests = [];
+const external = [], failed = [], requests = [], networkFailures = [], httpFailures = [], mapErrors = [];
 try {
   const context = await browser.newContext({
     viewport: { width: 390, height: 844 }, deviceScaleFactor: 1,
@@ -22,7 +22,9 @@ try {
     requests.push(url); return route.continue();
   });
   page.on('pageerror', e => failed.push('script: ' + e.message));
+  page.on('requestfailed', r => networkFailures.push({url:r.url(),failure:r.failure()}));
   page.on('response', r => {
+    if (r.status() >= 400) httpFailures.push({status:r.status(),url:r.url()});
     if (r.status() >= 500) failed.push('HTTP ' + r.status() + ' ' + r.url());
   });
   await page.goto(origin + '/?map-test=1', { waitUntil: 'domcontentloaded', timeout: 30000 });
@@ -42,11 +44,32 @@ try {
   await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({
     center: [81.727, 7.703], zoom: 15, bearing: 0, pitch: 0
   }));
-  await page.waitForFunction(() => {
-    const m = window.__MAZO_MAP_TEST__;
-    return m.getLayer('mazo-minor-roads') &&
-      m.queryRenderedFeatures(undefined, { layers: ['mazo-minor-roads'] }).length > 0;
-  }, undefined, { timeout: 60000 });
+  try {
+    await page.waitForFunction(() => {
+      const m = window.__MAZO_MAP_TEST__;
+      return m.getLayer('mazo-minor-roads') &&
+        m.queryRenderedFeatures(undefined, { layers: ['mazo-minor-roads'] }).length > 0;
+    }, undefined, { timeout: 45000 });
+  } catch (error) {
+    const diagnostic = await page.evaluate(() => {
+      const m=window.__MAZO_MAP_TEST__;
+      const style=m?.getStyle();
+      return {
+        styleLoaded:m?.isStyleLoaded(),zoom:m?.getZoom(),
+        center:m?.getCenter()?.toArray(),
+        canvas: m?.getCanvas() ? {width:m.getCanvas().width,height:m.getCanvas().height} : null,
+        sourceLoaded:m?.isSourceLoaded('basemap'),
+        layers:(style?.layers||[]).filter(l=>l.source==='basemap').map(l=>({id:l.id,sourceLayer:l['source-layer'],minzoom:l.minzoom,visibility:l.layout?.visibility})),
+        rendered:m ? m.queryRenderedFeatures().slice(0,10).map(f=>({layer:f.layer?.id,source:f.source,type:f.type})) : [],
+        styleErrors:window.__MAZO_MAP_ERRORS__||[],
+      };
+    }).catch(e=>({error:String(e)}));
+    console.error('Production rendered-roads diagnostic:',JSON.stringify({
+      diagnostic,external,failed,networkFailures:networkFailures.slice(-30),
+      httpFailures:httpFailures.slice(-30),recentRequests:requests.slice(-50)
+    }));
+    throw error;
+  }
   const roadCount = await page.evaluate(() => window.__MAZO_MAP_TEST__
     .queryRenderedFeatures(undefined, { layers: ['mazo-minor-roads'] }).length);
   await page.locator('#theme-toggle').click();
