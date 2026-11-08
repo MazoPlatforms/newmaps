@@ -56,6 +56,22 @@ if (manifest) {
   if (!manifest.revision || !manifest.attribution || !manifest.license)
     errors.push('Manifest must include revision, attribution and license');
 }
+// Rider Android uses this legacy style URL; ensure it is the full R2 basemap.
+const native = await json('/api/v1/style.json', 'RideNow native style');
+if (native) {
+  if (!native.sources?.basemap || !native.layers?.some(l => l['source-layer'] === 'streets'))
+    errors.push('RideNow native style is not the full self-hosted basemap');
+}
+const website = await fetchLocal('/assets/js/app.js', 'website map entrypoint');
+if (website) {
+  const script = await website.text();
+  for (const forbidden of ['tiles.openfreemap.org', 'router.project-osrm.org',
+    'routing.openstreetmap.de', 'unpkg.com']) {
+    if (script.includes(forbidden)) errors.push('Website still embeds third-party map runtime: ' + forbidden);
+  }
+  if (!script.includes("/api/v1/style.json"))
+    errors.push('Website must consume the same-origin native style');
+}
 for (const theme of ['light', 'dark']) {
   const style = await json(`/api/v1/basemap/style/${theme}.json`, `${theme} style`);
   if (!style) continue;
