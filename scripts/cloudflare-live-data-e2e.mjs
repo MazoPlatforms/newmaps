@@ -151,6 +151,15 @@ try {
   page.on('pageerror', (error) => browserErrors.push(error.message));
   page.on('console', (message) => { if (message.type() === 'error') browserErrors.push(message.text()); });
   const rangeResponses = [];
+  const httpErrors = [], failedRequests = [];
+  page.on('requestfailed', request => failedRequests.push({
+    url:request.url(), failure:request.failure()
+  }));
+  page.on('response', response => {
+    if(response.status() >= 400) httpErrors.push({
+      status:response.status(),url:response.url()
+    });
+  });
   page.on('response', (response) => {
     if (response.url().includes('/api/data/generated/places.pmtiles')) rangeResponses.push({ status: response.status(), contentRange: response.headers()['content-range'] });
   });
@@ -170,9 +179,10 @@ try {
       styleName: window.__MAZO_MAP_TEST__?.getStyle()?.name,
       sourceNames: Object.keys(window.__MAZO_MAP_TEST__?.getStyle()?.sources || {}),
       pmtilesUrl: window.mazoPmtilesUrl,
+      mapErrors: window.__MAZO_MAP_ERRORS__?.slice(-20),
     })).catch(e => ({ diagnosticError: String(e) }));
     console.error('Map integration readiness diagnostic:', JSON.stringify({
-      state, browserErrors: browserErrors.slice(-30), workerLogs: workerLogs.join('').slice(-3000)
+      state, browserErrors: browserErrors.slice(-30), httpErrors: httpErrors.slice(-30), failedRequests: failedRequests.slice(-30), workerLogs: workerLogs.join('').slice(-3000)
     }));
     throw error;
   }
