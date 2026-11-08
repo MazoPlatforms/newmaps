@@ -273,7 +273,7 @@ function renderPlaceDetails(p){
 $('#place-close').onclick=closePlace;
 
 /* In-map directions: pickup defaults to device location; map-click override.
-   Public OSRM endpoints are best-effort and need a managed backend for production SLA. */
+   Routes are strictly local graph / Mazo API; never send coordinates to public OSRM. */
 const routePanel=$('#route-panel');
 let routeSheetState='compact';
 function setRouteSheetState(state){
@@ -379,21 +379,28 @@ async function routeCalculate(){
    routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();return;
   }
  }catch(error){console.warn('Local routing unavailable:',error)}
- // Distinct public OSRM profiles; walking/cycling do not silently fall back to driving.
- const base=profile==='driving'?'https://router.project-osrm.org/route/v1/driving/':profile==='foot'?'https://routing.openstreetmap.de/routed-foot/route/v1/driving/':'https://routing.openstreetmap.de/routed-bike/route/v1/driving/';
-  const url=base+routeCoord(routePickup)+';'+routeCoord(routeDestination)+'?overview=full&geometries=geojson&steps=true&alternatives=2';
+ // No third-party routing fallback. Use Mazo Maps' own, coverage-limited API only.
  try{
-  const res=await fetch(url,{signal:controller.signal});
-  if(!res.ok)throw Error('Routing service returned '+res.status);
-  const data=await res.json();if(sequence!==routeSequence)return;
-  const routes=data.routes||[];const route=routes[0];if(data.code!=='Ok'||!route?.geometry?.coordinates?.length)throw Error('No connected route found.');
-  const snappedStart=data.waypoints?.[0]?.location||routePickup,snappedEnd=data.waypoints?.at(-1)?.location||routeDestination;
-  routeCandidates=routes.map(candidate=>{
-   let progress=0;const instructions=[];
-   for(const leg of candidate.legs||[])for(const step of leg.steps||[]){const maneuver=step.maneuver||{};if(Array.isArray(maneuver.location))instructions.push({location:maneuver.location,type:maneuver.type||'continue',modifier:maneuver.modifier||'',name:step.name||'',distance:step.distance,progressMeters:progress});progress+=Number(step.distance)||0}
-   return {...candidate,source:'online',startCoordinate:snappedStart,endCoordinate:snappedEnd,instructions};
-  });routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();
- }catch(e){if(e.name==='AbortError'||sequence!==routeSequence)return;routeStatus('Unable to calculate route: '+e.message+' Try again or select another pickup.');routeLine=null;routeDraw();routePickupMarker?.remove();routeDestinationMarker?.remove();routePickupMarker=routeDestinationMarker=null}
+  const api=new URL('/api/v1/route',location.origin);
+  const res=await fetch(api,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+   body:JSON.stringify({start_lon:routePickup[0],start_lat:routePickup[1],
+    end_lon:routeDestination[0],end_lat:routeDestination[1],profile:routeMode}),signal:controller.signal});
+  const data=await res.json().catch(()=>({}));
+  if(sequence!==routeSequence)return;
+  if(res.status===422)throw Error('Outside Kattankudy local routing coverage or disconnected road network.');
+  if(!res.ok)throw Error('Mazo routing unavailable (HTTP '+res.status+').');
+  const routes=data.routes||[];
+  if(!routes.length||!routes[0].geometry?.coordinates?.length)throw Error('No connected local route found.');
+  routeCandidates=routes.map(candidate=>({...candidate,source:'local',
+   startCoordinate:candidate.geometry.coordinates[0],
+   endCoordinate:candidate.geometry.coordinates.at(-1)}));
+  routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();
+ }catch(e){
+  if(e.name==='AbortError'||sequence!==routeSequence)return;
+  routeStatus('Unable to calculate local route: '+e.message);
+  routeLine=null;routeDraw();routePickupMarker?.remove();routeDestinationMarker?.remove();
+  routePickupMarker=routeDestinationMarker=null;
+ }
 }
 function routeShowCandidate(index){
  const route=routeCandidates[index];if(!route)return;routeSource=route.source;routeRender(route.geometry,route.startCoordinate,route.endCoordinate);routeProgressGeometry=route.geometry.coordinates;
