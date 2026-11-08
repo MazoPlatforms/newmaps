@@ -162,3 +162,20 @@ test('PBF rate limiting is independent from the lower-volume RideNow JSON limite
   assert.equal(response.headers.get('retry-after'), '60');
   assert.equal(tileLimitKey, '192.0.2.18');
 });
+
+test('all zoom-8 tiles used at initial camera decode every place feature', async () => {
+  for (const [x, y] of [[185,121],[185,122],[186,121],[186,122]]) {
+    const response = await worker.fetch(new Request(`https://maps.mazo.workers.dev/api/v1/tiles/8/${x}/${y}.pbf`), fx.env);
+    assert.ok([200,204].includes(response.status), `z8 ${x}/${y} has expected HTTP status`);
+    if (response.status === 204) continue;
+    const bytes = new Uint8Array(await response.arrayBuffer());
+    const tile = new VectorTile(new Pbf(gunzipSync(bytes)));
+    const layer = tile.layers.places;
+    assert.ok(layer, `z8 ${x}/${y} places layer exists`);
+    for (let index = 0; index < layer.length; index++) {
+      const feature = layer.feature(index);
+      assert.ok(feature.geometry !== null, `z8 ${x}/${y} feature ${index} geometry`);
+      assert.ok(feature.toGeoJSON(x,y,8).geometry, `z8 ${x}/${y} feature ${index} geometry decodes`);
+    }
+  }
+});
