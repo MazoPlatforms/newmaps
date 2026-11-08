@@ -74,7 +74,7 @@ assert.equal(mapStyle.status, 200, 'Native MapLibre style should be available as
 const style = await mapStyle.json();
 assert.equal(style.version, 8);
 assert.equal(style.sources.mazo.type, 'vector');
-assert.match(style.glyphs, /\/api\/v1\/fonts\/\{fontstack\}\/\{range\}\.pbf(?:\?revision=|$)/);
+assert.match(style.glyphs, /\/api\/v1\/fonts\/\{fontstack\}\/\{range\}\.pbf\?revision=/);
 const darkStyle = await get('api/v1/style/dark.json');
 assert.equal(darkStyle.status, 200);
 const nativeTileJSON = await get('api/v1/tiles.json');

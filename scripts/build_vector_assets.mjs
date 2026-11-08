@@ -11,10 +11,7 @@ const fontPath = join(root, 'assets', 'fonts', 'MazoMapsSans-Regular.ttf');
 const search = JSON.parse(await readFile(join(root, 'dist/generated/api-search-index.json'), 'utf8'));
 const nameIndex = search.fields.indexOf('name');
 const addressIndex = search.fields.indexOf('address');
-// Map glyph requests also originate from imported OSM roads/cities, not just the
-// local place-search index. Publish every BMP glyph range so unsupported ranges
-// return an empty valid fontnik PBF rather than an HTML SPA fallback.
-const ranges = new Set(Array.from({length: 256}, (_, i) => i * 256));
+const ranges = new Set([0]);
 for (const row of search.records) {
   for (const value of [row[nameIndex], row[addressIndex]]) {
     for (const character of String(value || '')) {
@@ -26,16 +23,13 @@ for (const row of search.records) {
 await mkdir(fontOutput, { recursive: true });
 await mkdir(output, { recursive: true });
 const font = await readFile(fontPath);
-const sortedRanges = [...ranges].sort((a, b) => a - b);
-for (let i = 0; i < sortedRanges.length; i += 8) {
-  await Promise.all(sortedRanges.slice(i, i + 8).map(async start => {
-    const end = Math.min(start + 255, 65535);
-    const data = await new Promise((resolveRange, reject) => fontnik.range({ font, start, end }, (error, bytes) => {
-      if (error) reject(error); else resolveRange(bytes);
-    }));
-    await writeFile(join(fontOutput, `${start}-${end}.pbf`), data);
+await Promise.all([...ranges].sort((a, b) => a - b).map(async start => {
+  const end = Math.min(start + 255, 65535);
+  const data = await new Promise((resolveRange, reject) => fontnik.range({ font, start, end }, (error, bytes) => {
+    if (error) reject(error); else resolveRange(bytes);
   }));
-}
+  await writeFile(join(fontOutput, `${start}-${end}.pbf`), data);
+}));
 
 function crc32(buffer) {
   let crc = 0xffffffff;
