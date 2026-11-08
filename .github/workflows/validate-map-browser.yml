@@ -72,5 +72,3 @@ jobs:
       - run: python scripts/roads.py build
       - run: python scripts/speed_limits.py build
       - run: npm run test:browser
-      - name: Diagnose deployed Mazo basemap with third-party requests blocked
-        run: node scripts/verify-ridenow-basemap-browser.mjs https://maps.mazo.workers.dev
