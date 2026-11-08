@@ -84,13 +84,13 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
       }
       if ((layer.maxzoom ?? 0) < 9) map.setLayerZoomRange(layer.id, layer.minzoom || 0, 9);
     }
-    if (layer.type === 'fill' && (sourceLayer === 'water' || /water[_-]fill|ocean/i.test(id))) {
+    if (layer.type === 'fill' && (['water', 'water_polygons', 'ocean'].includes(sourceLayer) || /water[_-]fill|ocean/i.test(id))) {
       paint('fill-color', palette.water);
       paint('fill-antialias', true);
       if (layer.paint?.['fill-opacity'] !== undefined) paint('fill-opacity', 1);
       applied.water++;
     }
-    if (layer.type === 'line' && (sourceLayer === 'waterway' || sourceLayer === 'water')) {
+    if (layer.type === 'line' && (['waterway', 'water', 'water_lines'].includes(sourceLayer))) {
       paint('line-color', palette.waterLine);
     }
     if (layer.type === 'fill' && (sourceLayer === 'land' || id === 'land' || /land[_-]?background/i.test(id))) {
@@ -129,7 +129,7 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
       paint('line-color', palette.parkOutline);
       paint('line-width', ['interpolate', ['linear'], ['zoom'], 8, 0.25, 12, 0.7, 18, 1.2]);
     }
-    if ((layer.type === 'fill' || layer.type === 'fill-extrusion') && sourceLayer === 'building') {
+    if ((layer.type === 'fill' || layer.type === 'fill-extrusion') && ['building', 'buildings'].includes(sourceLayer)) {
       if (layer.type === 'fill') {
         paint('fill-color', palette.building);
         if (layer.paint?.['fill-outline-color'] !== undefined) paint('fill-outline-color', palette.buildingOutline);
@@ -139,7 +139,7 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
       }
       applied.buildings++;
     }
-    if (layer.type === 'line' && sourceLayer === 'transportation' && /road|highway|transportation/i.test(id)) {
+    if (layer.type === 'line' && ['transportation', 'streets'].includes(sourceLayer) && /road|highway|transportation/i.test(id)) {
       const color = /path|pedestrian/i.test(id) ? palette.path
         : /casing/i.test(id) ? palette.roadCase
           : ROAD_MAJOR.test(id) ? palette.roadMajor
