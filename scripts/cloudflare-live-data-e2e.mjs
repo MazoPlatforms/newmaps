@@ -186,6 +186,9 @@ try {
     }));
     throw error;
   }
+  const virtualPmtilesUrl = await page.evaluate(() => window.mazoPmtilesUrl);
+  assert.match(virtualPmtilesUrl, /^pmtiles:\/\/https?:\/\/[^/]+\/api\/v1\/pmtiles\/virtual\/[a-f0-9]{64}\.pmtiles$/,
+    'PMTiles tile template must use a same-origin query-free revision-pinned protocol key');
   await page.waitForFunction(() => navigator.serviceWorker?.controller, null, { timeout: 30_000 });
   const cacheRead = await page.evaluate(async () => {
     const stale = await caches.open('mazo-offline-pack-stale-fixture');
