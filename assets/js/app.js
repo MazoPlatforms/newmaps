@@ -6,9 +6,9 @@ import { closestRouteProgress, findLocalRoutes, validateRoutingGraph } from './r
 import { downloadOfflinePack, removeOfflinePack, offlinePackResources } from './offline-pack.mjs';
 import { discoverLiveData, liveDataResourceUrl, startLiveDataPolling } from './live-data-client.mjs';
 
-// Reliable OpenFreeMap fallback; optional local PMTiles are enabled only after verification.
+// Production basemap is served entirely by this Worker/R2 origin; do not add a third-party fallback.
 const $=s=>document.querySelector(s);
-const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https://tiles.openfreemap.org/styles/liberty'};
+const styles={light:new URL('/api/v1/style.json',location.origin).href,dark:new URL('/api/v1/style/dark.json',location.origin).href};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const cameraDuration=milliseconds=>reducedMotionDuration(milliseconds,window.matchMedia?.('(prefers-reduced-motion: reduce)').matches===true);
 const map=new maplibregl.Map({container:'map',style:styles[theme()],...CAMERA_OPTIONS});
