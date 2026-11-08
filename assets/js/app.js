@@ -652,12 +652,20 @@ async function loadPmtiles(manifest){
  const entry=manifest.delivery?.mvt_pmtiles,index=manifest.delivery?.search_index;if(!entry||!index)throw Error('PMTiles delivery is not present in manifest');
  const script=await new Promise((resolve,reject)=>{if(window.pmtiles)return resolve();const tag=document.createElement('script');tag.src='./assets/vendor/pmtiles-4.5.0.js';tag.onload=resolve;tag.onerror=()=>reject(Error('PMTiles protocol library could not be loaded'));document.head.append(tag)});
  void script;if(!window.pmtiles?.Protocol||!window.pmtiles?.PMTiles)throw Error('PMTiles protocol library did not initialize');
- const archiveUrl=await appDataUrl('generated/'+entry.file,entry.sha256);const archive=new window.pmtiles.PMTiles(archiveUrl);
+ const archiveUrl=await appDataUrl('generated/'+entry.file,entry.sha256);
+ // The versioned live-data URL carries query parameters. A MapLibre PMTiles
+ // TileJSON template appends /{z}/{x}/{y}; avoid mixing that path with queries.
+ // This same-origin virtual key is resolved solely by PMTiles.Protocol and
+ // never fetched as a network resource. FetchSource retains R2 integrity URL.
+ const protocolKey=new URL('/api/v1/pmtiles/virtual/'+entry.sha256+'.pmtiles',location.origin).href;
+ const archiveSource=new window.pmtiles.FetchSource(archiveUrl);
+ archiveSource.getKey=()=>protocolKey;
+ const archive=new window.pmtiles.PMTiles(archiveSource);
  const header=await archive.getHeader(),metadata=await archive.getMetadata();
  if(!metadata.vector_layers?.some(layer=>layer.id==='places')||header.minZoom!==entry.min_zoom||header.maxZoom!==entry.max_zoom)throw Error('PMTiles archive metadata mismatch');
  if(!pmtilesProtocol){pmtilesProtocol=new window.pmtiles.Protocol();maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile)}
  pmtilesProtocol.add(archive);
- window.mazoPmtilesUrl='pmtiles://'+archiveUrl;deliveryManifest=manifest;
+ window.mazoPmtilesUrl='pmtiles://'+protocolKey;deliveryManifest=manifest;
  for(const id of [...POI_LAYERS].reverse())if(map.getLayer(id))map.removeLayer(id);
  if(map.getSource(POI_SOURCE))map.removeSource(POI_SOURCE);
  presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;ensurePoiLayer();
