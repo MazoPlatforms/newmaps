@@ -41,7 +41,7 @@ const server = createServer(async (request, response) => {
       'Access-Control-Allow-Origin': '*', 'Cache-Control': 'no-store' });
     response.end(JSON.stringify(style)); return;
   }
-  const fontMatch = /^\\/api\\/v1\\/fonts\\/[^/]+\\/(\\d+)-(\\d+)\\.pbf$/.exec(pathname);
+  const fontMatch = pathname.startsWith('/api/v1/fonts/') ? pathname.match(/([0-9]+)-([0-9]+)[.]pbf$/) : null;
   if (fontMatch) {
     const start = Number(fontMatch[1]), end = Number(fontMatch[2]);
     if (end - start !== 255 || start < 0 || end > 65535) {
