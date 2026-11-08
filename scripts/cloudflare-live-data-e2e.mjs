@@ -156,9 +156,26 @@ try {
   });
   await page.goto(`${baseUrl}?map-test=1&live-data-test=1`, { waitUntil: 'domcontentloaded' });
   await page.waitForFunction((revision) => window.__MAZO_LIVE_DATA_VERSION__?.revision === revision, 'a'.repeat(40), { timeout: 120_000 });
-  await page.waitForFunction(() => window.__MAZO_MAP_TEST__?.isStyleLoaded()
-    && window.__MAZO_MAP_TEST__?.getSource('mazo-pois')?.type === 'vector'
-    && document.querySelector('#search-status')?.hidden, null, { timeout: 120_000 });
+  try {
+    await page.waitForFunction(() => window.__MAZO_MAP_TEST__?.isStyleLoaded()
+      && window.__MAZO_MAP_TEST__?.getSource('mazo-pois')?.type === 'vector'
+      && document.querySelector('#search-status')?.hidden, null, { timeout: 120_000 });
+  } catch (error) {
+    const state = await page.evaluate(() => ({
+      styleLoaded: window.__MAZO_MAP_TEST__?.isStyleLoaded(),
+      poiSource: window.__MAZO_MAP_TEST__?.getSource('mazo-pois'),
+      searchStatus: document.querySelector('#search-status')?.textContent,
+      searchHidden: document.querySelector('#search-status')?.hidden,
+      retryHidden: document.querySelector('#places-retry')?.hidden,
+      styleName: window.__MAZO_MAP_TEST__?.getStyle()?.name,
+      sourceNames: Object.keys(window.__MAZO_MAP_TEST__?.getStyle()?.sources || {}),
+      pmtilesUrl: window.mazoPmtilesUrl,
+    })).catch(e => ({ diagnosticError: String(e) }));
+    console.error('Map integration readiness diagnostic:', JSON.stringify({
+      state, browserErrors: browserErrors.slice(-30), workerLogs: workerLogs.join('').slice(-3000)
+    }));
+    throw error;
+  }
   await page.waitForFunction(() => navigator.serviceWorker?.controller, null, { timeout: 30_000 });
   const cacheRead = await page.evaluate(async () => {
     const stale = await caches.open('mazo-offline-pack-stale-fixture');
