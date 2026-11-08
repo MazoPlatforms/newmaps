@@ -24,7 +24,7 @@ const ROAD_SECONDARY = /secondary|tertiary|highway_(secondary|tertiary)/i;
 const ROAD_LOCAL = /minor|service|track|link|street|path|pedestrian|residential/i;
 
 function roadWidth(layerId) {
-  const group = ROAD_MAJOR.test(layerId) ? 'major' : ROAD_SECONDARY.test(layerId) ? 'secondary' : 'local';
+  const group = (ROAD_MAJOR.test(layerId) || /major-roads/i.test(layerId)) ? 'major' : ROAD_SECONDARY.test(layerId) ? 'secondary' : 'local';
   const stops = group === 'major'
     ? [4, 0.1, 5, 0.38, 8, 0.9, 11, 1.5, 14, 2.7, 16, 4, 18, 5.7, 20, 7.5]
     : group === 'secondary'
@@ -142,7 +142,7 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
     if (layer.type === 'line' && ['transportation', 'streets'].includes(sourceLayer) && /road|highway|transportation/i.test(id)) {
       const color = /path|pedestrian/i.test(id) ? palette.path
         : /casing/i.test(id) ? palette.roadCase
-          : ROAD_MAJOR.test(id) ? palette.roadMajor
+          : (ROAD_MAJOR.test(id) || (sourceLayer === 'streets' && /major/i.test(id))) ? palette.roadMajor
             : ROAD_SECONDARY.test(id) ? palette.roadSecondary
               : palette.roadLocal;
       paint('line-color', color);
