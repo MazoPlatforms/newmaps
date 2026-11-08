@@ -300,6 +300,9 @@ try {
     await page.goForward();
     await wait(page, () => !document.querySelector('#place-sheet').hidden, 10_000);
     assert.match(await page.locator('#place-title').innerText(), /Noor Accessories/);
+    // Allow the mobile half-sheet/map-action position animation to settle before
+    // inspecting touch-target sizes; mid-transition geometry is not the final UI.
+    await page.waitForTimeout(500);
     const axeSource = readFileSync(resolve(root, 'node_modules/axe-core/axe.min.js'), 'utf8');
     await page.addScriptTag({ content: axeSource });
     const accessibility = await page.evaluate(async () => {
