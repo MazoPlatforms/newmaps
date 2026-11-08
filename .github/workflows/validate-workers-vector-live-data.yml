@@ -59,4 +59,3 @@ jobs:
         run: npm run test:live-data:e2e
       - name: Run browser regression suite against local static hosting
         run: npm run test:browser
-      - name: Compare native R2 ranges with static PMTiles chunk reads
