@@ -26,6 +26,8 @@ test('full styles use only Mazo Maps HTTPS resources',()=>{
       assert.equal(new URL(url).origin,origin,url);
       assert.equal(new URL(url).protocol,'https:');
     }
+    assert.ok(!style.layers.some(l => l.source === 'basemap' && ['landcover','landuse'].includes(l['source-layer'])),
+      'Do not reference optional layers omitted from Shortbread manifest');
     for (const layer of ['streets','buildings','ocean']) {
       assert.ok(style.layers.some(l=>l['source-layer']===layer),layer);
     }
