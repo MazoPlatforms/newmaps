@@ -168,7 +168,7 @@ try {
   try {
     await page.waitForFunction(() => window.__MAZO_MAP_TEST__?.isStyleLoaded()
       && window.__MAZO_MAP_TEST__?.getSource('mazo-pois')?.type === 'vector'
-      && document.querySelector('#search-status')?.hidden, null, { timeout: 120_000 });
+      && document.querySelector('#search-status')?.hidden, null, { timeout: 45_000 });
   } catch (error) {
     const state = await page.evaluate(() => ({
       styleLoaded: window.__MAZO_MAP_TEST__?.isStyleLoaded(),
@@ -180,6 +180,7 @@ try {
       sourceNames: Object.keys(window.__MAZO_MAP_TEST__?.getStyle()?.sources || {}),
       pmtilesUrl: window.mazoPmtilesUrl,
       mapErrors: window.__MAZO_MAP_ERRORS__?.slice(-20),
+      protocolEvents: window.__MAZO_PROTOCOL_EVENTS__?.slice(-20),
     })).catch(e => ({ diagnosticError: String(e) }));
     console.error('Map integration readiness diagnostic:', JSON.stringify({
       state, browserErrors: browserErrors.slice(-30), httpErrors: httpErrors.slice(-30), failedRequests: failedRequests.slice(-30), workerLogs: workerLogs.join('').slice(-3000)
