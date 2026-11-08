@@ -40,7 +40,7 @@ async function json(path, kind) {
 function sameHost(value, kind, parent) {
   if (typeof value !== 'string') return null;
   const sample = value.replaceAll('{z}', '13').replaceAll('{x}', '5955')
-    .replaceAll('{y}', '3912').replaceAll('{fontstack}', 'Mazo%20Maps%20Sans%20Regular')
+    .replaceAll('{y}', '3920').replaceAll('{fontstack}', 'Mazo%20Maps%20Sans%20Regular')
     .replaceAll('{range}', '0-255').replaceAll('{ratio}', '');
   let url;
   try { url = new URL(sample, parent); }
