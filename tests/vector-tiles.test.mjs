@@ -106,6 +106,18 @@ test('font glyph ranges and sprite atlas resources are served as assets with pub
   assert.deepEqual([...new Uint8Array(await spritePng.arrayBuffer()).slice(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
 });
 
+test('missing map glyph ranges cannot return the SPA HTML fallback as protobuf', async () => {
+  const fx = fixture();
+  fx.env.ASSETS.fetch = async () => new Response('<!DOCTYPE html><html>not a glyph</html>', {
+    status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8' },
+  });
+  const url = 'https://maps.mazo.workers.dev/api/v1/fonts/Mazo%20Maps%20Sans%20Regular/512-767.pbf?revision=vector-fixture-revision';
+  const response = await worker.fetch(new Request(url), fx.env);
+  assert.equal(response.status, 404, 'missing glyph must not be served as HTML with a fake PBF MIME type');
+  const finalRange = await readFile(new URL('../dist/generated/fonts/MazoMapsSansRegular/65280-65535.pbf', import.meta.url));
+  assert.ok(finalRange.length > 0, 'build must generate all BMP glyph ranges, even if some contain no glyphs');
+});
+
 test('XYZ tile response decodes the PMTiles payload by range without buffering the archive', async () => {
   const fx = fixture();
   const response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/tiles/10/744/489.pbf'), fx.env);
