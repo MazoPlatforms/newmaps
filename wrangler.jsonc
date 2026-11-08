@@ -23,6 +23,10 @@
     {
       "binding": "DATA_BUCKET",
       "bucket_name": "mazo-maps-live-data"
+    },
+    {
+      "binding": "BASEMAP_BUCKET",
+      "bucket_name": "mazo-maps"
     }
   ],
   "durable_objects": {

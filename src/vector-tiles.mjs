@@ -293,7 +293,10 @@ export async function handleVectorApi(request, env, rateLimitTile) {
         // atomically and switches clients to the immutable R2 URL revision.
         const assetUrl = new URL(`/${fullPath}`, url.origin);
         const asset = await env.ASSETS.fetch(new Request(assetUrl, { method: request.method }));
-        if (!asset.ok) return new Response(null, { status: 404, headers: corsHeaders({ 'Cache-Control': 'public, max-age=300' }) });
+        // ASSETS is an SPA: a missing .pbf can otherwise return index.html
+        // with HTTP 200. Never pass HTML to MapLibre's protobuf decoder.
+        if (!asset.ok || /text\/html|application\/json/i.test(asset.headers.get('content-type') || ''))
+          return new Response(null, { status: 404, headers: corsHeaders({ 'Cache-Control': 'public, max-age=300' }) });
         return new Response(request.method === 'HEAD' ? null : asset.body, { status: 200, headers: corsHeaders({
           'Content-Type': 'application/x-protobuf', 'Cache-Control': 'public, max-age=300',
           ETag: asset.headers.get('etag') || '', 'X-Mazo-Data-Revision': revision,
@@ -309,7 +312,8 @@ export async function handleVectorApi(request, env, rateLimitTile) {
           || object.customMetadata?.path !== fullPath) return new Response(null, { status: 404, headers: corsHeaders() });
         asset = new Response(request.method === 'HEAD' ? null : object.body, { status: 200 });
       }
-      if (!asset.ok) return new Response(null, { status: 404, headers: corsHeaders() });
+      if (!asset.ok || /text\/html|application\/json/i.test(asset.headers.get('content-type') || ''))
+        return new Response(null, { status: 404, headers: corsHeaders() });
       const etag = `"${entry.sha256}"`;
       const headers = corsHeaders({ 'Content-Type': 'application/x-protobuf', 'Cache-Control': 'public, max-age=31536000, immutable',
         ETag: etag, 'X-Mazo-Data-Revision': revision, 'X-Content-Type-Options': 'nosniff' });
