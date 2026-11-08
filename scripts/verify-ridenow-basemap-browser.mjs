@@ -28,8 +28,26 @@ try {
     if (r.status() >= 500) failed.push('HTTP ' + r.status() + ' ' + r.url());
   });
   await page.goto(origin + '/?map-test=1', { waitUntil: 'domcontentloaded', timeout: 30000 });
-  await page.waitForFunction(() => window.__MAZO_MAP_TEST__?.isStyleLoaded()
-    && document.querySelector('#map-frame')?.dataset.state === 'ready', undefined, { timeout: 90000 });
+  try {
+    await page.waitForFunction(() => window.__MAZO_MAP_TEST__?.isStyleLoaded()
+      && document.querySelector('#map-frame')?.dataset.state === 'ready', undefined, { timeout: 45000 });
+  } catch (error) {
+    const state=await page.evaluate(() => ({
+      frameState:document.querySelector('#map-frame')?.dataset.state,
+      mapPresent:Boolean(window.__MAZO_MAP_TEST__),
+      styleLoaded:window.__MAZO_MAP_TEST__?.isStyleLoaded(),
+      styleName:window.__MAZO_MAP_TEST__?.getStyle()?.name,
+      sources:Object.keys(window.__MAZO_MAP_TEST__?.getStyle()?.sources||{}),
+      searchStatus:document.querySelector('#search-status')?.textContent,
+      mapErrors:window.__MAZO_MAP_ERRORS__?.slice(-20)||[]
+    })).catch(e=>({diagnosticError:String(e)}));
+    console.error('Production initial-style diagnostic:', JSON.stringify({
+      state, external:external.slice(-20), failed:failed.slice(-20),
+      networkFailures:networkFailures.slice(-20),httpFailures:httpFailures.slice(-20),
+      recentRequests:requests.slice(-40)
+    }));
+    throw error;
+  }
   const first = await page.evaluate(() => {
     const m = window.__MAZO_MAP_TEST__;
     const style = m.getStyle();
