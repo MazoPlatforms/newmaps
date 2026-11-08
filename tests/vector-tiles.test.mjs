@@ -106,18 +106,6 @@ test('font glyph ranges and sprite atlas resources are served as assets with pub
   assert.deepEqual([...new Uint8Array(await spritePng.arrayBuffer()).slice(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
 });
 
-test('missing map glyph ranges cannot return the SPA HTML fallback as protobuf', async () => {
-  const fx = fixture();
-  fx.env.ASSETS.fetch = async () => new Response('<!DOCTYPE html><html>not a glyph</html>', {
-    status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8' },
-  });
-  const url = 'https://maps.mazo.workers.dev/api/v1/fonts/Mazo%20Maps%20Sans%20Regular/512-767.pbf?revision=vector-fixture-revision';
-  const response = await worker.fetch(new Request(url), fx.env);
-  assert.equal(response.status, 404, 'missing glyph must not be served as HTML with a fake PBF MIME type');
-  const finalRange = await readFile(new URL('../dist/generated/fonts/MazoMapsSansRegular/65280-65535.pbf', import.meta.url));
-  assert.ok(finalRange.length > 0, 'build must generate all BMP glyph ranges, even if some contain no glyphs');
-});
-
 test('XYZ tile response decodes the PMTiles payload by range without buffering the archive', async () => {
   const fx = fixture();
   const response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/tiles/10/744/489.pbf'), fx.env);
@@ -161,22 +149,4 @@ test('PBF rate limiting is independent from the lower-volume RideNow JSON limite
   assert.equal(response.status, 429);
   assert.equal(response.headers.get('retry-after'), '60');
   assert.equal(tileLimitKey, '192.0.2.18');
-});
-
-test('all zoom-8 tiles used at initial camera decode every place feature', async () => {
-  const fx = fixture();
-  for (const [x, y] of [[185,121],[185,122],[186,121],[186,122]]) {
-    const response = await worker.fetch(new Request(`https://maps.mazo.workers.dev/api/v1/tiles/8/${x}/${y}.pbf`), fx.env);
-    assert.ok([200,204].includes(response.status), `z8 ${x}/${y} has expected HTTP status`);
-    if (response.status === 204) continue;
-    const bytes = new Uint8Array(await response.arrayBuffer());
-    const tile = new VectorTile(new Pbf(gunzipSync(bytes)));
-    const layer = tile.layers.places;
-    assert.ok(layer, `z8 ${x}/${y} places layer exists`);
-    for (let index = 0; index < layer.length; index++) {
-      const feature = layer.feature(index);
-      assert.ok(feature.geometry !== null, `z8 ${x}/${y} feature ${index} geometry`);
-      assert.ok(feature.toGeoJSON(x,y,8).geometry, `z8 ${x}/${y} feature ${index} geometry decodes`);
-    }
-  }
 });

@@ -5,7 +5,6 @@ import { extname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
 import { chromium } from 'playwright';
-import fontnik from 'fontnik';
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const screenshotDir = process.env.PHASE10_SCREENSHOTS_DIR || process.env.PHASE9_SCREENSHOTS_DIR;
@@ -22,48 +21,8 @@ const coordinatesColumn = searchFixture.fields.indexOf('coordinates');
 const searchFixturePlace = searchFixture.records.find((record) => record[nameColumn] === 'Noor Accessories Showroom');
 assert.ok(searchFixturePlace, 'synthetic workflow fixture must be present in the generated search index');
 const expectedPlaceId = searchFixturePlace[idColumn];
-const glyphFont = readFileSync(resolve(root, 'assets/fonts/MazoMapsSans-Regular.ttf'));
-const server = createServer(async (request, response) => {
+const server = createServer((request, response) => {
   const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
-  // The regular browser UI smoke uses a deterministic LOCAL map fixture.
-  // Production R2/vector tiles are validated separately by the Worker tests.
-  if (pathname === '/api/v1/style.json' || pathname === '/api/v1/style/dark.json') {
-    const dark = pathname.includes('dark');
-    const origin = 'http://127.0.0.1:' + server.address().port;
-    const style = {
-      version: 8, name: 'Mazo test-only local basemap fixture',
-      glyphs: origin + '/api/v1/fonts/{fontstack}/{range}.pbf',
-      sources: {},
-      layers: [{ id: 'background', type: 'background',
-        paint: { 'background-color': dark ? '#202d32' : '#ebe8df' } }],
-    };
-    response.writeHead(200, { 'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': '*', 'Cache-Control': 'no-store' });
-    response.end(JSON.stringify(style)); return;
-  }
-  const fontMatch = pathname.startsWith('/api/v1/fonts/') ? pathname.match(/([0-9]+)-([0-9]+)[.]pbf$/) : null;
-  if (fontMatch) {
-    const start = Number(fontMatch[1]), end = Number(fontMatch[2]);
-    if (end - start !== 255 || start < 0 || end > 65535) {
-      response.writeHead(400).end(); return;
-    }
-    try {
-      const bytes = await new Promise((resolveGlyph, rejectGlyph) =>
-        fontnik.range({ font: glyphFont, start, end }, (error, data) =>
-          error ? rejectGlyph(error) : resolveGlyph(data)));
-      response.writeHead(200, { 'Content-Type': 'application/x-protobuf',
-        'Access-Control-Allow-Origin': '*', 'Cache-Control': 'no-store' });
-      response.end(bytes);
-    } catch { response.writeHead(503).end(); }
-    return;
-  }
-  if (pathname === '/api/v1/route' && request.method === 'POST') {
-    const data = { routes: [{ distance: 1200, duration: 240,
-      geometry: { type: 'LineString', coordinates: [[81.72,7.68],[81.73,7.68]] },
-      startSnapMeters: 5, endSnapMeters: 5, instructions: [] }] };
-    response.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
-    response.end(JSON.stringify(data)); return;
-  }
   const target = resolve(root, `.${pathname === '/' ? '/index.html' : pathname}`);
   if (target !== root && !target.startsWith(`${root}${sep}`)) {
     response.writeHead(403).end();
@@ -137,7 +96,7 @@ try {
     });
     page.on('request', (request) => {
       if (request.url().includes('speed-limits')) speedRequests.push(request.url());
-      if (request.url().includes('/api/v1/style')) styleRequests.push(request.url());
+      if (request.url().includes('/styles/liberty')) styleRequests.push(request.url());
     });
     if (mode === 'pmtiles-retry') {
       let firstArchiveRequest = true;
@@ -300,9 +259,6 @@ try {
     await page.goForward();
     await wait(page, () => !document.querySelector('#place-sheet').hidden, 10_000);
     assert.match(await page.locator('#place-title').innerText(), /Noor Accessories/);
-    // Allow the mobile half-sheet/map-action position animation to settle before
-    // inspecting touch-target sizes; mid-transition geometry is not the final UI.
-    await page.waitForTimeout(500);
     const axeSource = readFileSync(resolve(root, 'node_modules/axe-core/axe.min.js'), 'utf8');
     await page.addScriptTag({ content: axeSource });
     const accessibility = await page.evaluate(async () => {
@@ -356,7 +312,11 @@ try {
     const selectedAtWorld = await page.evaluate(() => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-selected'] }).map((feature) => feature.properties.id));
     assert.ok(selectedAtWorld.includes(expectedPlaceId), 'selected place remains highlighted in the world-scale view');
 
-    // No external OSRM fallback: route requests in this test are served by this local fixture.
+    await page.route('https://router.project-osrm.org/**', (route) => route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: JSON.stringify({ code: 'Ok', routes: [{ distance: 1200, duration: 240, geometry: { type: 'LineString', coordinates: [[81.72, 7.68], [81.73, 7.68]] }, legs: [{ steps: [] }] }] }),
+    }));
     await page.evaluate(() => Object.defineProperty(navigator, 'geolocation', {
       configurable: true,
       value: { getCurrentPosition(_success, failure) { failure({ code: 1 }); }, watchPosition() { return 1; }, clearWatch() {} },
@@ -369,29 +329,19 @@ try {
     await page.mouse.click(pickupPoint.x, pickupPoint.y);
     await wait(page, () => /(?:Local|Online) route ready/.test(document.querySelector('#route-status').innerText), 20_000);
     assert.match(await page.locator('#route-summary').innerText(), /km/);
-    assert.match(await page.locator('#route-status').innerText(), /snapped|local/i);
+    assert.match(await page.locator('#route-status').innerText(), /snapped|Coordinates are sent/i);
     const routeFeatureCount = await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route'));
     assert.equal(routeFeatureCount, 1, 'directions draw the selected route');
     await page.evaluate(() => {
       const originalFetch = window.fetch.bind(window);
-      window.fetch = (url, options) => String(url).includes('/api/v1/route')
+      window.fetch = (url, options) => String(url).includes('/route/v1/')
         ? Promise.resolve(new Response('offline', { status: 503 }))
         : originalFetch(url, options);
     });
     await page.locator('[data-route-mode="cycling"]').dispatchEvent('click');
     assert.equal(await page.locator('[data-route-mode="cycling"]').getAttribute('aria-pressed'), 'true');
-    // The bundled local Kattankudy graph may still calculate a cycling route even
-    // when the Mazo API is mocked as offline. Both outcomes are legitimate.
-    await wait(page, () => /Local route ready|Unable to calculate local route/.test(
-      document.querySelector('#route-status').innerText), 10_000);
-    const cyclingStatus = await page.locator('#route-status').innerText();
-    if (cyclingStatus.includes('Unable to calculate local route')) {
-      assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route')),
-        0, 'failed route refresh clears stale route geometry');
-    } else {
-      assert.ok(await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route')) > 0,
-        'successful local cycling route remains rendered without a third-party provider');
-    }
+    await wait(page, () => document.querySelector('#route-status').innerText.includes('Unable to calculate route'), 10_000);
+    assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route')), 0, 'failed route refresh clears stale route geometry');
     if (mode === 'pmtiles') {
       const closeButton = page.locator('#route-close');
       const bounds = await closeButton.boundingBox();

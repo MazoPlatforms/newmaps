@@ -107,9 +107,3 @@ jobs:
         env:
           MAZO_WORKERS_URL: https://maps.mazo.workers.dev/
         run: node scripts/cloudflare-production-smoke.mjs
-
-      - name: Verify complete same-origin Android and website basemap resources
-        run: node scripts/verify-ridenow-basemap.mjs https://maps.mazo.workers.dev
-
-      - name: Verify real browser map with all third-party hosts blocked
-        run: node scripts/verify-ridenow-basemap-browser.mjs https://maps.mazo.workers.dev

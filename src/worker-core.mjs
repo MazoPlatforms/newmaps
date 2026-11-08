@@ -3,7 +3,6 @@ import { liveDataObjectKey } from './live-data-registry.mjs';
 import { handleRideApi } from './ride-api.mjs';
 import { ifNoneMatchMatches } from './http-validators.mjs';
 import { handleVectorApi } from './vector-tiles.mjs';
-import { handleBasemapApi } from './ridenow-basemap.mjs';
 
 const PMTILES_PATH = '/generated/places.pmtiles';
 const PMTILES_RANGE_MANIFEST_PATH = '/generated/places-pmtiles-range.json';
@@ -373,9 +372,6 @@ export async function servePmtilesRange(request, assets, chunkSize = 65_536) {
 export default {
   async fetch(request, env) {
     const pathname = new URL(request.url).pathname;
-    // R2-only basemap takes precedence when an approved archive is published.
-    const basemapResponse = await handleBasemapApi(request, env);
-    if (basemapResponse) return basemapResponse;
     const vectorApiResponse = await handleVectorApi(request, env, async (tileRequest) => {
       if (!env.VECTOR_TILE_RATE_LIMITER) return true;
       const ip = tileRequest.headers.get('cf-connecting-ip') || 'unknown-client';

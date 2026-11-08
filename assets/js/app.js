@@ -6,9 +6,9 @@ import { closestRouteProgress, findLocalRoutes, validateRoutingGraph } from './r
 import { downloadOfflinePack, removeOfflinePack, offlinePackResources } from './offline-pack.mjs';
 import { discoverLiveData, liveDataResourceUrl, startLiveDataPolling } from './live-data-client.mjs';
 
-// Production basemap is served entirely by this Worker/R2 origin; do not add a third-party fallback.
+// Reliable OpenFreeMap fallback; optional local PMTiles are enabled only after verification.
 const $=s=>document.querySelector(s);
-const styles={light:new URL('/api/v1/style.json',location.origin).href,dark:new URL('/api/v1/style/dark.json',location.origin).href};
+const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https://tiles.openfreemap.org/styles/liberty'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const cameraDuration=milliseconds=>reducedMotionDuration(milliseconds,window.matchMedia?.('(prefers-reduced-motion: reduce)').matches===true);
 const map=new maplibregl.Map({container:'map',style:styles[theme()],...CAMERA_OPTIONS});
@@ -154,7 +154,7 @@ function poiLayout(){return {
  'icon-anchor':'bottom',
  'icon-size':['interpolate',['linear'],['zoom'],6,0.48,9,0.56,12,0.64,15,0.74,18,0.82,20,0.9],
  'icon-allow-overlap':false,'icon-padding':['interpolate',['linear'],['zoom'],6,16,9,18,12,19,15,26,18,22,20,18],
- 'text-field':['get','name'],'text-font':['Mazo Maps Sans Regular'],
+ 'text-field':['get','name'],'text-font':['Noto Sans Regular'],
  'text-size':['interpolate',['linear'],['zoom'],6,9,9,10,12,11,16,12,20,13],
  'text-offset':[0,0.8],'text-anchor':'top','text-max-width':11,
  'text-optional':true,'text-allow-overlap':false,'text-padding':['interpolate',['linear'],['zoom'],6,9,12,8,16,6],
@@ -273,7 +273,7 @@ function renderPlaceDetails(p){
 $('#place-close').onclick=closePlace;
 
 /* In-map directions: pickup defaults to device location; map-click override.
-   Routes are strictly local graph / Mazo API; never send coordinates to public OSRM. */
+   Public OSRM endpoints are best-effort and need a managed backend for production SLA. */
 const routePanel=$('#route-panel');
 let routeSheetState='compact';
 function setRouteSheetState(state){
@@ -379,28 +379,21 @@ async function routeCalculate(){
    routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();return;
   }
  }catch(error){console.warn('Local routing unavailable:',error)}
- // No third-party routing fallback. Use Mazo Maps' own, coverage-limited API only.
+ // Distinct public OSRM profiles; walking/cycling do not silently fall back to driving.
+ const base=profile==='driving'?'https://router.project-osrm.org/route/v1/driving/':profile==='foot'?'https://routing.openstreetmap.de/routed-foot/route/v1/driving/':'https://routing.openstreetmap.de/routed-bike/route/v1/driving/';
+  const url=base+routeCoord(routePickup)+';'+routeCoord(routeDestination)+'?overview=full&geometries=geojson&steps=true&alternatives=2';
  try{
-  const api=new URL('/api/v1/route',location.origin);
-  const res=await fetch(api,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
-   body:JSON.stringify({start_lon:routePickup[0],start_lat:routePickup[1],
-    end_lon:routeDestination[0],end_lat:routeDestination[1],profile:routeMode}),signal:controller.signal});
-  const data=await res.json().catch(()=>({}));
-  if(sequence!==routeSequence)return;
-  if(res.status===422)throw Error('Outside Kattankudy local routing coverage or disconnected road network.');
-  if(!res.ok)throw Error('Mazo routing unavailable (HTTP '+res.status+').');
-  const routes=data.routes||[];
-  if(!routes.length||!routes[0].geometry?.coordinates?.length)throw Error('No connected local route found.');
-  routeCandidates=routes.map(candidate=>({...candidate,source:'local',
-   startCoordinate:candidate.geometry.coordinates[0],
-   endCoordinate:candidate.geometry.coordinates.at(-1)}));
-  routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();
- }catch(e){
-  if(e.name==='AbortError'||sequence!==routeSequence)return;
-  routeStatus('Unable to calculate local route: '+e.message);
-  routeLine=null;routeDraw();routePickupMarker?.remove();routeDestinationMarker?.remove();
-  routePickupMarker=routeDestinationMarker=null;
- }
+  const res=await fetch(url,{signal:controller.signal});
+  if(!res.ok)throw Error('Routing service returned '+res.status);
+  const data=await res.json();if(sequence!==routeSequence)return;
+  const routes=data.routes||[];const route=routes[0];if(data.code!=='Ok'||!route?.geometry?.coordinates?.length)throw Error('No connected route found.');
+  const snappedStart=data.waypoints?.[0]?.location||routePickup,snappedEnd=data.waypoints?.at(-1)?.location||routeDestination;
+  routeCandidates=routes.map(candidate=>{
+   let progress=0;const instructions=[];
+   for(const leg of candidate.legs||[])for(const step of leg.steps||[]){const maneuver=step.maneuver||{};if(Array.isArray(maneuver.location))instructions.push({location:maneuver.location,type:maneuver.type||'continue',modifier:maneuver.modifier||'',name:step.name||'',distance:step.distance,progressMeters:progress});progress+=Number(step.distance)||0}
+   return {...candidate,source:'online',startCoordinate:snappedStart,endCoordinate:snappedEnd,instructions};
+  });routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();
+ }catch(e){if(e.name==='AbortError'||sequence!==routeSequence)return;routeStatus('Unable to calculate route: '+e.message+' Try again or select another pickup.');routeLine=null;routeDraw();routePickupMarker?.remove();routeDestinationMarker?.remove();routePickupMarker=routeDestinationMarker=null}
 }
 function routeShowCandidate(index){
  const route=routeCandidates[index];if(!route)return;routeSource=route.source;routeRender(route.geometry,route.startCoordinate,route.endCoordinate);routeProgressGeometry=route.geometry.coordinates;
@@ -622,7 +615,7 @@ map.on('error',event=>{
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(['places-halo','places-dot','places-label','mazo-poi-dot','mazo-poi-label'].includes(layer.id)||(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer)))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
+map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
 async function checkedJson(file,sha256){
  const response=await fetch(await appDataUrl(file,sha256));if(!response.ok)throw Error(file+' '+response.status);
  const bytes=await response.arrayBuffer();
@@ -652,42 +645,12 @@ async function loadPmtiles(manifest){
  const entry=manifest.delivery?.mvt_pmtiles,index=manifest.delivery?.search_index;if(!entry||!index)throw Error('PMTiles delivery is not present in manifest');
  const script=await new Promise((resolve,reject)=>{if(window.pmtiles)return resolve();const tag=document.createElement('script');tag.src='./assets/vendor/pmtiles-4.5.0.js';tag.onload=resolve;tag.onerror=()=>reject(Error('PMTiles protocol library could not be loaded'));document.head.append(tag)});
  void script;if(!window.pmtiles?.Protocol||!window.pmtiles?.PMTiles)throw Error('PMTiles protocol library did not initialize');
- const archiveUrl=await appDataUrl('generated/'+entry.file,entry.sha256);
- // The versioned live-data URL carries query parameters. A MapLibre PMTiles
- // TileJSON template appends /{z}/{x}/{y}; avoid mixing that path with queries.
- // This same-origin virtual key is resolved solely by PMTiles.Protocol and
- // never fetched as a network resource. FetchSource retains R2 integrity URL.
- const protocolKey=new URL('/api/v1/pmtiles/virtual/'+entry.sha256+'.pmtiles',location.origin).href;
- const archiveSource=new window.pmtiles.FetchSource(archiveUrl);
- archiveSource.getKey=()=>protocolKey;
- const archive=new window.pmtiles.PMTiles(archiveSource);
+ const archiveUrl=await appDataUrl('generated/'+entry.file,entry.sha256);const archive=new window.pmtiles.PMTiles(archiveUrl);
  const header=await archive.getHeader(),metadata=await archive.getMetadata();
  if(!metadata.vector_layers?.some(layer=>layer.id==='places')||header.minZoom!==entry.min_zoom||header.maxZoom!==entry.max_zoom)throw Error('PMTiles archive metadata mismatch');
- if(!pmtilesProtocol){
-  pmtilesProtocol=new window.pmtiles.Protocol();
-  const originalTileHandler=pmtilesProtocol.tile;
-  const recordTile=(params,error,data)=>{
-   if(!window.__MAZO_MAP_TEST__)return;
-   const bytes=data?.data instanceof Uint8Array?data.data:data instanceof Uint8Array?data:null;
-   (window.__MAZO_PROTOCOL_EVENTS__ ??=[]).push({
-    type:params?.type||null,url:String(params?.url||'').slice(0,250),
-    error:error?String(error.message||error):null,
-    length:bytes?.byteLength??null,
-    firstBytes:bytes?Array.from(bytes.slice(0,16)):null
-   });
-  };
-  maplibregl.addProtocol('pmtiles',(params,second)=>{
-   if(typeof second==='function')return originalTileHandler(params,(error,data,...rest)=>{
-    recordTile(params,error,data);second(error,data,...rest);
-   });
-   const result=originalTileHandler(params,second);
-   return result?.then?result.then(data=>{recordTile(params,null,data);return data;},error=>{
-    recordTile(params,error,null);throw error;
-   }):result;
-  });
- }
+ if(!pmtilesProtocol){pmtilesProtocol=new window.pmtiles.Protocol();maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile)}
  pmtilesProtocol.add(archive);
- window.mazoPmtilesUrl='pmtiles://'+protocolKey;deliveryManifest=manifest;
+ window.mazoPmtilesUrl='pmtiles://'+archiveUrl;deliveryManifest=manifest;
  for(const id of [...POI_LAYERS].reverse())if(map.getLayer(id))map.removeLayer(id);
  if(map.getSource(POI_SOURCE))map.removeSource(POI_SOURCE);
  presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;ensurePoiLayer();
@@ -771,23 +734,13 @@ locateButton.onclick=()=>{
   nearbyMode=false;nearbyOrigin=null;refresh();status.hidden=false;status.textContent=error.code===1?'Location permission denied. You can continue using search and category filters.':error.code===2?'GPS location is unavailable. Check your device settings or continue using search.':'Location request timed out. You can continue using search.';
  },{enableHighAccuracy:true,timeout:12000,maximumAge:10000});
 };
-async function cities(){try{const r=await fetch(await appDataUrl('data/cities.json'));if(!r.ok)return;const d=await r.json();const features=(d.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)).map(c=>({type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:c.name||'',level:c.level||'city'}}));if(map.getSource('mazo-cities'))return;map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-city-labels',type:'symbol',source:'mazo-cities',layout:{'text-field':['get','name'],'text-font':['Mazo Maps Sans Regular'],'text-size':['interpolate',['linear'],['zoom'],5,11,13,17],'text-allow-overlap':false},paint:{'text-color':theme()==='dark'?'#e8edf4':'#27313b','text-halo-color':theme()==='dark'?'#161b22':'#fff','text-halo-width':2}})}catch(e){console.warn('City labels:',e)}}
+async function cities(){try{const r=await fetch(await appDataUrl('data/cities.json'));if(!r.ok)return;const d=await r.json();const features=(d.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)).map(c=>({type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:c.name||'',level:c.level||'city'}}));if(map.getSource('mazo-cities'))return;map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-city-labels',type:'symbol',source:'mazo-cities',layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],5,11,13,17],'text-allow-overlap':false},paint:{'text-color':theme()==='dark'?'#e8edf4':'#27313b','text-halo-color':theme()==='dark'?'#161b22':'#fff','text-halo-width':2}})}catch(e){console.warn('City labels:',e)}}
 
 map.on('load',()=>{$('#map-frame').dataset.state='ready';try{ensurePoiLayer()}catch(e){console.warn('POI on load:',e)}if(map.getZoom()>=15.5)void loadSpeedReviews()});
 const maybeLoadSpeedReviews=()=>{if(map.getZoom()>=15.5)void loadSpeedReviews()};
 map.on('zoomend',maybeLoadSpeedReviews);
 map.on('moveend',maybeLoadSpeedReviews);
-map.on('error',event=>{
-  if(window.__MAZO_MAP_TEST__){
-    const e=event.error;
-    (window.__MAZO_MAP_ERRORS__ ??=[]).push({
-      source:event.sourceId||null, message:String(e?.message||e),
-      stack:String(e?.stack||''), code:String(e?.code||''),
-      properties:e?Object.getOwnPropertyNames(e):[]
-    });
-  }
-  console.error('MapLibre:',event.error?.message||event.error);
-});
+map.on('error',event=>console.error('MapLibre:',event.error));
 map.on('error',event=>{
  if(navigator.onLine||offlineBaseStyle)return;
  offlineBaseStyle=true;
