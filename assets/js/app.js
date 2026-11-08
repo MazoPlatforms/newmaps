@@ -747,7 +747,17 @@ map.on('load',()=>{$('#map-frame').dataset.state='ready';try{ensurePoiLayer()}ca
 const maybeLoadSpeedReviews=()=>{if(map.getZoom()>=15.5)void loadSpeedReviews()};
 map.on('zoomend',maybeLoadSpeedReviews);
 map.on('moveend',maybeLoadSpeedReviews);
-map.on('error',event=>console.error('MapLibre:',event.error));
+map.on('error',event=>{
+  if(window.__MAZO_MAP_TEST__){
+    const e=event.error;
+    (window.__MAZO_MAP_ERRORS__ ??=[]).push({
+      source:event.sourceId||null, message:String(e?.message||e),
+      stack:String(e?.stack||''), code:String(e?.code||''),
+      properties:e?Object.getOwnPropertyNames(e):[]
+    });
+  }
+  console.error('MapLibre:',event.error?.message||event.error);
+});
 map.on('error',event=>{
  if(navigator.onLine||offlineBaseStyle)return;
  offlineBaseStyle=true;
