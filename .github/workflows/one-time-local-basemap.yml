@@ -38,6 +38,9 @@ concurrency:
 env:
   OSM_URL: https://download.geofabrik.de/asia/sri-lanka-latest.osm.pbf
   PLANETILER_URL: https://github.com/onthegomap/planetiler/releases/latest/download/planetiler.jar
+  NATURAL_EARTH_URL: https://naciscdn.org/naturalearth/packages/natural_earth_vector.sqlite.zip
+  WATER_POLYGONS_URL: https://osmdata.openstreetmap.de/download/water-polygons-split-3857.zip
+  LAKE_CENTERLINE_URL: https://github.com/acalcutt/osm-lakelines/releases/download/v12/lake_centerline.shp.zip
   ISLAND_MAXZOOM: ${{ inputs.island_maxzoom || '12' }}
   DETAIL_MINZOOM: ${{ inputs.detail_minzoom || '13' }}
   DETAIL_MAXZOOM: ${{ inputs.detail_maxzoom || '14' }}
@@ -73,24 +76,32 @@ jobs:
         if: steps.guard.outputs.skip != 'true'
         with:
           python-version: '3.12'
-      - name: Download tools and OSM extract (build time only)
+      - name: Download tools and all source data (build time only, with retries)
         if: steps.guard.outputs.skip != 'true'
         run: |
+          # Planetiler's own downloader has a 30 s size-check timeout that flaked on GitHub's release CDN,
+          # so every source file is fetched here with generous retries. Planetiler then finds them on disk.
           mkdir -p work/data/sources out
-          curl -fsSL --retry 3 -o work/planetiler.jar "$PLANETILER_URL"
-          curl -fsSL --retry 3 -o work/data/sources/sri-lanka.osm.pbf "$OSM_URL"
-          sha256sum work/planetiler.jar work/data/sources/sri-lanka.osm.pbf
+          fetch() { curl -fsSL --retry 8 --retry-delay 10 --retry-all-errors --connect-timeout 60 --max-time 1800 -o "$1" "$2"; }
+          fetch work/planetiler.jar "$PLANETILER_URL"
+          fetch work/data/sources/sri-lanka.osm.pbf "$OSM_URL"
+          fetch work/data/sources/natural_earth_vector.sqlite.zip "$NATURAL_EARTH_URL"
+          fetch work/data/sources/water-polygons-split-3857.zip "$WATER_POLYGONS_URL"
+          fetch work/data/sources/lake_centerline.shp.zip "$LAKE_CENTERLINE_URL"
+          sha256sum work/planetiler.jar work/data/sources/*
       - name: Build whole-island tiles
         if: steps.guard.outputs.skip != 'true'
         run: |
           cd work
           java -Xmx8g -jar planetiler.jar --osm-path=data/sources/sri-lanka.osm.pbf --download \
+            --http_timeout=300s --http_retries=8 --http_retry_wait=15s \
             --output=../out/island.pmtiles --minzoom=0 --maxzoom="$ISLAND_MAXZOOM" --languages=en,ta,si --force
       - name: Build Batticaloa detail tiles
         if: steps.guard.outputs.skip != 'true'
         run: |
           cd work
           java -Xmx8g -jar planetiler.jar --osm-path=data/sources/sri-lanka.osm.pbf --download \
+            --http_timeout=300s --http_retries=8 --http_retry_wait=15s \
             --output=../out/detail.pmtiles --minzoom="$DETAIL_MINZOOM" --maxzoom="$DETAIL_MAXZOOM" \
             --bounds="$DETAIL_BBOX" --languages=en,ta,si --force
       - name: Install archives and write manifest (enforces 24 MiB limit)
