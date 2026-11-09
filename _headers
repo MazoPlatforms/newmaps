@@ -33,3 +33,15 @@
 
 /generated/kattankudy-routing-graph.json
   Cache-Control: public, max-age=31536000, immutable
+
+/assets/basemap/manifest.json
+  Cache-Control: no-cache
+
+/assets/basemap/*.pmtiles
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/basemap/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable

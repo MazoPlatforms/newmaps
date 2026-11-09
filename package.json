@@ -4,6 +4,7 @@
   "scripts": {
     "build:cloudflare": "python3 scripts/build_cloudflare_assets.py",
     "build:vector-assets": "node scripts/build_vector_assets.mjs",
+    "build:basemap-glyphs": "node scripts/build_local_basemap_assets.mjs",
     "deploy:cloudflare": "wrangler deploy --config wrangler.jsonc",
     "test:unit": "node --test tests/*.test.mjs",
     "test:browser": "node tests/map-browser-smoke.mjs",

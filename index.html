@@ -18,12 +18,6 @@
     />
     <title>Mazo Maps — A closer look at Sri Lanka</title>
     <link rel="icon" type="image/svg+xml" href="./assets/mazo-mark.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    
-    
     <script>
       try {
         const t = localStorage.getItem('mazo-maps-theme');
@@ -35,8 +29,11 @@
       } catch {}
     </script>
     <link rel="stylesheet" href="./assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css?v=local-basemap-1" />
     <link rel="stylesheet" href="./assets/css/site.css?v=phase12-14-1" />
-    <script src="./assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=phase12-14-workers-vector-live-2"></script>
+    <script src="./assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js" defer></script>
+    <script src="./assets/vendor/pmtiles-4.5.0.js" defer></script>
+    <script type="module" src="./assets/js/app.js?v=local-basemap-1"></script>
   </head>
   <body>
     <a class="skip-link" href="#map">Skip to map</a>
@@ -76,7 +73,7 @@
  <label for="route-destination">Destination</label><input id="route-destination" readonly aria-label="Destination"/>
  </div><div class="route-modes"><button type="button" data-route-mode="driving" aria-pressed="true">Drive</button><button type="button" data-route-mode="walking" aria-pressed="false">Walk</button><button type="button" data-route-mode="cycling" aria-pressed="false">Cycle</button></div>
  <p id="route-status" role="status" aria-live="polite"></p><div id="route-summary"></div><div id="route-alternatives" role="group" aria-label="Route alternatives" hidden></div><ol id="route-steps" hidden></ol>
- <small>Routes use saved Kattankudy road data where both points snap to a connected route. Else, start and destination coordinates are sent to a public routing service. Local ETAs are estimates; follow road signs and conditions.</small>
+ <small>Routes are calculated on this device from saved Kattankudy road data and work where both points snap to a connected route. No coordinates are sent to any routing service. Local ETAs are estimates; follow road signs and conditions.</small>
 </section>
 <section id="place-sheet" class="place-sheet" data-state="half" aria-label="Selected place details" hidden>
  <div class="place-sheet-top">
