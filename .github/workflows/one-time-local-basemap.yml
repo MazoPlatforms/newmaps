@@ -1,0 +1,128 @@
+name: One-time self-hosted basemap build
+# Heavy, run-once job. Downloads the OSM extract of Sri Lanka and the build tools, then produces
+# every map asset (vector tiles, glyphs, Inter font) and opens a PR that commits them to the repo.
+# After that PR is merged the app needs NO third-party server at runtime.
+on:
+  workflow_dispatch:
+    inputs:
+      island_maxzoom:
+        description: Whole-island archive max zoom
+        default: '12'
+      detail_minzoom:
+        description: Detail archive min zoom
+        default: '13'
+      detail_maxzoom:
+        description: Detail archive max zoom
+        default: '14'
+      detail_bbox:
+        description: Detail area west,south,east,north (Batticaloa District)
+        default: '81.10,7.20,81.95,8.30'
+      force:
+        description: Rebuild even if assets/basemap/manifest.json exists
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: one-time-local-basemap
+  cancel-in-progress: false
+env:
+  OSM_URL: https://download.geofabrik.de/asia/sri-lanka-latest.osm.pbf
+  PLANETILER_URL: https://github.com/onthegomap/planetiler/releases/latest/download/planetiler.jar
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - name: Skip when the basemap already exists
+        id: guard
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          if [ -f assets/basemap/manifest.json ] && [ "$FORCE" != "true" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::assets/basemap/manifest.json exists; run again with force=true to rebuild."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-java@v4
+        if: steps.guard.outputs.skip != 'true'
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: actions/setup-node@v4
+        if: steps.guard.outputs.skip != 'true'
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
+        with:
+          python-version: '3.12'
+      - name: Download tools and OSM extract (build time only)
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          mkdir -p work/data/sources out
+          curl -fsSL --retry 3 -o work/planetiler.jar "$PLANETILER_URL"
+          curl -fsSL --retry 3 -o work/data/sources/sri-lanka.osm.pbf "$OSM_URL"
+          sha256sum work/planetiler.jar work/data/sources/sri-lanka.osm.pbf
+      - name: Build whole-island tiles
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          ISLAND_MAXZOOM: ${{ inputs.island_maxzoom }}
+        run: |
+          cd work
+          java -Xmx8g -jar planetiler.jar --osm-path=data/sources/sri-lanka.osm.pbf --download \
+            --output=../out/island.pmtiles --minzoom=0 --maxzoom="$ISLAND_MAXZOOM" --languages=en,ta,si --force
+      - name: Build Batticaloa detail tiles
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          DETAIL_MINZOOM: ${{ inputs.detail_minzoom }}
+          DETAIL_MAXZOOM: ${{ inputs.detail_maxzoom }}
+          DETAIL_BBOX: ${{ inputs.detail_bbox }}
+        run: |
+          cd work
+          java -Xmx8g -jar planetiler.jar --osm-path=data/sources/sri-lanka.osm.pbf --download \
+            --output=../out/detail.pmtiles --minzoom="$DETAIL_MINZOOM" --maxzoom="$DETAIL_MAXZOOM" \
+            --bounds="$DETAIL_BBOX" --languages=en,ta,si --force
+      - name: Install archives and write manifest (enforces 24 MiB limit)
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          mkdir -p assets/basemap
+          cp out/island.pmtiles out/detail.pmtiles assets/basemap/
+          python scripts/write_basemap_manifest.py --archive island=assets/basemap/island.pmtiles \
+            --archive detail=assets/basemap/detail.pmtiles --output assets/basemap/manifest.json \
+            --osm-url "$OSM_URL" --osm-sha256 "$(sha256sum work/data/sources/sri-lanka.osm.pbf | cut -d' ' -f1)"
+          printf 'Map data (c) OpenStreetMap contributors, ODbL 1.0 (Geofabrik extract).\nTile schema (c) OpenMapTiles, CC-BY 4.0. Natural Earth: public domain. Built with Planetiler (Apache-2.0).\n' > assets/basemap/ATTRIBUTION.txt
+      - name: Build glyphs for every label
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          npm ci
+          node scripts/build_local_basemap_assets.mjs
+      - name: Self-host the Inter font
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          mkdir -p assets/fonts/inter work/inter
+          cd work/inter
+          npm pack @fontsource-variable/inter@5 --silent
+          tar -xzf fontsource-variable-inter-*.tgz
+          cp package/files/inter-latin-wght-normal.woff2 package/files/inter-latin-ext-wght-normal.woff2 ../../assets/fonts/inter/
+          cp package/LICENSE ../../assets/fonts/inter/OFL.txt
+      - name: Open a pull request with the assets
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          BRANCH="chore/local-basemap-${GITHUB_RUN_ID}"
+          git checkout -b "$BRANCH"
+          git add assets/basemap assets/fonts/inter
+          git commit -m 'data: add self-hosted OSM basemap, glyphs and Inter font'
+          git push origin "$BRANCH"
+          gh pr create --base "$DEFAULT_BRANCH" --head "$BRANCH" --title 'data: self-hosted basemap assets' \
+            --body 'Generated by the one-time basemap workflow. Review sizes, merge, then the app runs without third-party map servers.' \
+            || echo "::warning::Branch $BRANCH pushed; open the PR manually (Actions PR creation may be disabled)."
