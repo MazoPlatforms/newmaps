@@ -83,7 +83,7 @@ jobs:
           python-version: '3.12'
 
       - uses: actions/setup-node@v4
-        if: steps.sync-plan.outputs.run == 'true'
+        if: steps.sync-plan.outputs.run == 'true' || github.event_name == 'workflow_run'
         with:
           node-version: '22'
           cache: npm
@@ -93,7 +93,7 @@ jobs:
       - run: python -m pip install -r requirements-map-tiles.txt
         if: steps.sync-plan.outputs.run == 'true'
       - run: npm ci
-        if: steps.sync-plan.outputs.run == 'true'
+        if: steps.sync-plan.outputs.run == 'true' || github.event_name == 'workflow_run'
 
       - name: Validate and rebuild GitHub source datasets
         if: steps.sync-plan.outputs.run == 'true'
@@ -144,7 +144,7 @@ jobs:
         run: node scripts/cloudflare-live-api-smoke.mjs
 
       - name: Smoke-test complete production map delivery after deployment
-        if: steps.sync-plan.outputs.run == 'true' && github.event_name == 'workflow_run'
+        if: github.event_name == 'workflow_run'
         env:
           MAZO_WORKERS_URL: https://maps.mazo.workers.dev/
         run: node scripts/cloudflare-production-smoke.mjs
