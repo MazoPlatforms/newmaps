@@ -164,6 +164,9 @@ try {
     });
     await context.grantPermissions([], { origin: `http://127.0.0.1:${server.address().port}` });
     const page = await context.newPage();
+    // Each scenario must start from the same theme even if Chromium reuses a
+    // profile or a prior run left a preference in storage.
+    await page.addInitScript(() => localStorage.setItem('mazo-maps-theme', 'light'));
     const errors = [];
     const ranges = [];
     const speedRequests = [];
@@ -312,12 +315,24 @@ try {
     await wait(page, (zoom) => window.__MAZO_MAP_TEST__.getZoom() > zoom + 0.1, 10_000, beforeWheelZoom);
     const afterWheelZoom = await page.evaluate(() => window.__MAZO_MAP_TEST__.getZoom());
 
+    assert.equal(await page.evaluate(() => document.documentElement.dataset.theme), 'light', 'theme smoke starts from light in every browser scenario');
     await page.locator('#theme-toggle').click();
-    await wait(page, () => document.documentElement.dataset.theme === 'dark'
-      && window.__MAZO_MAP_TEST__?.isStyleLoaded()
-      && (() => { const color = String(window.__MAZO_MAP_TEST__?.getPaintProperty('background', 'background-color')).replace(/\s/g, '').toLowerCase(); return color.includes('#102b3a') || color.includes('16,43,58'); })()
-      && window.__MAZO_MAP_TEST__?.getLayer('mazo-poi-selected')
-      && window.__MAZO_MAP_TEST__?.getSource('mazo-selected-place')?.type === 'geojson', 60_000);
+    try {
+      await wait(page, () => document.documentElement.dataset.theme === 'dark'
+        && window.__MAZO_MAP_TEST__?.isStyleLoaded()
+        && (() => { const color = String(window.__MAZO_MAP_TEST__?.getPaintProperty('background', 'background-color')).replace(/\s/g, '').toLowerCase(); return color.includes('#102b3a') || color.includes('16,43,58'); })()
+        && window.__MAZO_MAP_TEST__?.getLayer('mazo-poi-selected')
+        && window.__MAZO_MAP_TEST__?.getSource('mazo-selected-place')?.type === 'geojson', 60_000);
+    } catch (error) {
+      console.error(`Theme switch failed (${mode}); browser state: ${JSON.stringify(await page.evaluate(() => ({
+        theme: document.documentElement.dataset.theme,
+        styleLoaded: window.__MAZO_MAP_TEST__?.isStyleLoaded(),
+        background: window.__MAZO_MAP_TEST__?.getPaintProperty('background', 'background-color'),
+        selectedLayer: Boolean(window.__MAZO_MAP_TEST__?.getLayer('mazo-poi-selected')),
+        selectedSource: window.__MAZO_MAP_TEST__?.getSource('mazo-selected-place')?.type || null,
+      })))} `);
+      throw error;
+    }
     assert.equal(styleRequests.length, 1, 'theme switching changes basemap paint without reloading the style');
     assert.deepEqual(thirdPartyMapRequests, [], 'map cartography, glyphs, sprites, tiles, and routing avoid third-party runtime requests');
     const themedColors = await page.evaluate(() => ({
