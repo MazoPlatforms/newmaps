@@ -50,8 +50,14 @@ const server = createServer(async (request, response) => {
       // style, TileJSON, sprite, and glyph URLs; otherwise those URLs point at a
       // different localhost origin and the browser cannot reach this harness.
       const workerOrigin = `http://${request.headers.host || 'localhost'}`;
+      let body;
+      if (!['GET', 'HEAD'].includes(request.method)) {
+        const chunks = [];
+        for await (const chunk of request) chunks.push(chunk);
+        body = Buffer.concat(chunks);
+      }
       const result = await worker.fetch(new Request(new URL(request.url, workerOrigin), {
-        method: request.method, headers: request.headers,
+        method: request.method, headers: request.headers, body,
       }), env);
       response.writeHead(result.status, Object.fromEntries(result.headers.entries()));
       response.end(request.method === 'HEAD' ? undefined : Buffer.from(await result.arrayBuffer()));
