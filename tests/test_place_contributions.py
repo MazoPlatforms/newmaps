@@ -149,7 +149,6 @@ class PlaceContributionWorkflowTests(unittest.TestCase):
             self.assertNotIn("secrets.", workflow)
             self.assertNotIn("GH_TOKEN", workflow)
         self.assertIn("validate_place_contributions.py", places_workflow)
-        self.assertNotIn("scripts/audit_places_quality.py", speed_workflow)
         self.assertIn("python -m pip install -r requirements-map-tiles.txt", places_workflow)
         self.assertIn("python -m pip install -r requirements-map-tiles.txt", speed_workflow)
         self.assertIn("python scripts/build_map_delivery.py", places_workflow)

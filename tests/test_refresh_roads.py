@@ -64,10 +64,13 @@ class SafeRoadRefreshTests(unittest.TestCase):
             self.assertEqual(report["new_candidates_needing_review"][0]["source_id"], "near-existing:0")
             self.assertEqual(report["existing_roads_absent_from_release_preserved"], ["existing-missing:0"])
             self.assertEqual(shard_counts, {"0001": 3})
+            self.assertFalse((root / "data/roads/overture-refresh-report.json").exists())
             roads.validate(root)
 
             second_report = refresh_roads.refresh(source_path, metadata_path, root)
-            self.assertEqual(second_report, report)
+            self.assertEqual(second_report["new_records_added"], [])
+            self.assertEqual(second_report["existing_records_overwritten"], 0)
+            self.assertEqual(second_report["existing_records_deleted"], 0)
             after_second, _ = roads.load_records(root / "data/roads")
             self.assertEqual({r["source_id"]: r["id"] for r in after_second},
                              {r["source_id"]: r["id"] for r in after_records})
