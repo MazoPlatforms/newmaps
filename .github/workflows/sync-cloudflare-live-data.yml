@@ -68,7 +68,7 @@ jobs:
             run=true
             while IFS= read -r path; do
               case "$path" in
-              data/*) ;;
+              data/*|generated/*|kattankudy-all-roads.json) ;;
                 *) run=false ;;
               esac
             done <<< "$changed"
