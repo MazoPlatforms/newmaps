@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+  "graph_sha256": "8279754e58bd919d3f142d9a85a9e8c0a86f64ceee7cadc7f44b23a573f04586",
+  "graph_file": "kattankudy-routing.json",
+  "graph_bytes": 526535,
+  "road_records": 2102,
+  "routable_ways": 2099,
+  "nodes": 7990,
+  "directed_segments": 18178,
+  "segments": 9089,
+  "raw_speed_tag_ways_excluded_from_eta": 708,
+  "skipped": {
+    "no_public_routing_mode": 3
+  },
+  "bounds": [
+    81.6973617,
+    7.5101429,
+    81.7912717,
+    7.7249628
+  ],
+  "connectivity": {
+    "driving": {
+      "weak_components": 14,
+      "largest_component_nodes": 6635
+    },
+    "walking": {
+      "weak_components": 22,
+      "largest_component_nodes": 7518
+    },
+    "cycling": {
+      "weak_components": 16,
+      "largest_component_nodes": 7353
+    }
+  },
+  "limitations": [
+    "Local routing only covers the measured road geometry in the bundled Kattankudy-area collection.",
+    "Turn-restriction relations and lane guidance are not present in the source.",
+    "Raw maxspeed values are unverified; local ETA uses clearly labeled average-speed assumptions.",
+    "Walking/cycling access follows available way tags and ordinary highway conventions; conditions may be incomplete."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "format": "MZP/1",
+  "geojson": "kattankudy-roads.mzp",
+  "source_file": "kattankudy.json",
+  "source_sha256": "6a7cada357c8cfe55c6618a6df76579deeceaec40caa6acb962424db07eec060",
+  "total_source_roads": 3710,
+  "total_migrated_records": 3710,
+  "valid_geographic_features": 3710,
+  "excluded_records": [],
+  "shards": {
+    "0001": 999,
+    "0002": 999,
+    "0003": 999,
+    "0004": 713
+  },
+  "bytes": 1336690,
+  "sha256": "be248774c75fb7a98aafce914508a35cbcbddf8d7632ee2d833db36784bba625",
+  "supplementary_roads": {
+    "source_file": "data/roads/kattankudy-all-roads.json",
+    "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
+    "source_records": 2102,
+    "source_records_with_maxspeed": 711,
+    "matched_roads": 1665,
+    "tagged_matches": 462,
+    "new_roads_added": 0,
+    "audit": "data/roads/supplementary-road-audit.json"
+  }
+}
