@@ -265,7 +265,9 @@ try {
     assert.equal(layer.source, 'mazo-pois');
     assert.equal(layer['source-layer'], 'places');
     assert.equal(layer.layout['icon-anchor'], 'bottom', 'the map-pin tip anchors to its tile point');
-    assert.equal(layer.layout['icon-allow-overlap'], false, 'pins participate in collision placement');
+    assert.equal(layer.layout['icon-allow-overlap'], true, 'place pins remain visible when labels collide');
+    assert.equal(layer.layout['icon-ignore-placement'], true, 'place pins do not disappear behind other symbols');
+    assert.equal(layer.layout['text-optional'], true, 'labels yield before their corresponding pins');
     assert.equal(layer.layout['text-allow-overlap'], false, 'labels participate in collision placement');
     assert.deepEqual(layer.layout['symbol-sort-key'], ['get', 'priority'], 'important MVT POIs receive collision priority');
     assert.equal(layer.layout['symbol-z-order'], 'auto');
