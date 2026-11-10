@@ -14,6 +14,7 @@ const styles={light:MAP_API+'/style.json',dark:MAP_API+'/style/dark.json'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const cameraDuration=milliseconds=>reducedMotionDuration(milliseconds,window.matchMedia?.('(prefers-reduced-motion: reduce)').matches===true);
 const map=new maplibregl.Map({container:'map',style:styles[theme()],...CAMERA_OPTIONS});
+let mapStyleReady=false;
 // A bounded test-only camera/inspection facade for reproducible browser scenarios.
 if(new URLSearchParams(location.search).has('map-test'))window.__MAZO_MAP_TEST__=Object.freeze({
  isStyleLoaded:()=>map.isStyleLoaded(),areTilesLoaded:()=>map.areTilesLoaded(),jumpTo:options=>map.jumpTo(options),
@@ -625,7 +626,7 @@ map.on('sourcedata',event=>{
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();retireBootstrapPoiAfterArchiveLoads();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
+map.on('style.load',()=>{mapStyleReady=true;try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();retireBootstrapPoiAfterArchiveLoads();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
 async function checkedJson(file,sha256){
  const url=await appDataUrl(file,sha256);
  return retryTransientData(async()=>{
@@ -719,7 +720,7 @@ $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=
 const searchInput=$('#map-search');
 searchInput.addEventListener('keydown',event=>{const results=$('#search-results'),items=[...results.querySelectorAll('[role="option"]')];if(event.key==='Escape'){results.hidden=true;searchInput.setAttribute('aria-expanded','false');searchInput.removeAttribute('aria-activedescendant');return}if(results.hidden||!items.length)return;let active=items.findIndex(item=>item.id===searchInput.getAttribute('aria-activedescendant'));if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();active=(active+(event.key==='ArrowDown'?1:-1)+items.length)%items.length;items.forEach((item,index)=>item.setAttribute('aria-selected',String(index===active)));searchInput.setAttribute('aria-activedescendant',items[active].id);items[active].scrollIntoView({block:'nearest'})}else if(event.key==='Enter'&&active>=0){event.preventDefault();items[active].click()}});
 function applyThemeToMap(){
- if(!map.isStyleLoaded()){map.once('style.load',applyThemeToMap);return}
+ if(!mapStyleReady){map.once('style.load',applyThemeToMap);return}
  const selected=theme(),palette=MAZO_PALETTE[selected];
  applyMazoCartographicStyle(map,selected);
  for(const id of Object.keys(artwork).map(iconFor))if(map.hasImage(id))map.removeImage(id);
