@@ -67,7 +67,7 @@ jobs:
 
           Release: \`$release\`
 
-          This refresh is additive-only. Existing road ULIDs, geometries, source metadata, speed-limit references, and supplementary maxspeed evidence are retained. Roads absent from this release are not deleted. Existing-source changes and near-geometry candidates are documented in \`data/roads/overture-refresh-report.json\` for review; ambiguous candidates are not added.
+          This refresh is additive-only. Existing road ULIDs, geometries, source metadata, speed-limit references, and supplementary maxspeed evidence are retained. Roads absent from this release are not deleted. Existing-source changes and near-geometry candidates are available in the workflow log; ambiguous candidates are not added.
 
           The PR workflow dispatches the full validation suite against this branch and waits for its result.
           EOF

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Apply only conservative, additive Overture road refresh changes.
 
-Existing records are immutable in refresh runs. Source changes are written to a
-review report, source omissions never delete records, and new IDs are added only
-when no existing road geometry lies within the conservative review radius.
+Existing records are immutable in refresh runs, source omissions never delete
+records, and new IDs are added only when no existing road geometry lies within
+the conservative review radius.
 """
 import argparse
 import hashlib
@@ -17,7 +17,6 @@ from shapely.strtree import STRtree
 
 import roads
 
-REPORT_NAME = "overture-refresh-report.json"
 REVIEW_RADIUS_METERS = 8.0
 
 
@@ -97,25 +96,17 @@ def refresh(source_path, metadata_path, repository_root=roads.ROOT):
     ambiguous_candidates = []
     added = []
     invalid_candidates = []
-    prior_path = root / "data/roads" / REPORT_NAME
-    prior = json.loads(prior_path.read_text(encoding="utf-8")) if prior_path.is_file() else {}
-    same_snapshot = prior.get("release") == metadata.get("release") and prior.get("source_sha256") == hashlib.sha256(raw).hexdigest()
-    previous_added = {row["source_id"]: row for row in prior.get("new_records_added", [])} if same_snapshot else {}
-
     for row in source_roads:
         source_id = row["id"]
         old = by_source.get(source_id)
         if old:
-            prior_add = previous_added.get(source_id)
-            if prior_add:
-                added.append(prior_add)
             fields = {key: (old.get(key), row.get(key)) for key in ("name", "type", "coordinates")
                       if canonical(old.get(key)) != canonical(row.get(key))}
             if fields:
                 changed_existing.append({"source_id": source_id, "ulid": old["id"], "changed_fields": sorted(fields),
                                          "existing_values": {key: values[0] for key, values in fields.items()},
                                          "overture_values": {key: values[1] for key, values in fields.items()}})
-            elif not prior_add:
+            else:
                 unchanged += 1
             continue
 
@@ -157,7 +148,7 @@ def refresh(source_path, metadata_path, repository_root=roads.ROOT):
         "source_sha256": hashlib.sha256(raw).hexdigest(),
         "download_sha256": metadata.get("sha256"),
         "source_records": len(source_roads),
-        "existing_records": prior.get("existing_records", len(existing) - len(previous_added)) if same_snapshot else len(existing),
+        "existing_records": len(existing),
         "unchanged_existing_records": unchanged,
         "existing_records_with_source_changes": changed_existing,
         "new_records_added": added,
@@ -167,10 +158,9 @@ def refresh(source_path, metadata_path, repository_root=roads.ROOT):
         "existing_records_overwritten": 0,
         "existing_records_deleted": 0,
         "shards_after_refresh": roads.load_records(root / "data/roads")[1],
-        "previous_shards": prior.get("previous_shards", shards) if same_snapshot else shards,
+        "previous_shards": shards,
         "review_radius_meters": REVIEW_RADIUS_METERS,
     }
-    roads.atomic_json(prior_path, report)
     return report
 
 

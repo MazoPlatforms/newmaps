@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Mazo Maps place data validator, allocator, migrator and delivery metadata builder."""
-import argparse, hashlib, json, math, os, re, secrets, sys, time
+"""Mazo Maps canonical place validator, allocator and delivery metadata builder."""
+import argparse, hashlib, json, math, re, secrets, sys, time
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -10,7 +10,6 @@ from place_eligibility import classify_place
 PLACES=ROOT/'data'/'places'; GENERATED=ROOT/'generated'; ALIASES=PLACES/'aliases.json'; LIMIT=999
 PLACE_MANIFEST=GENERATED/'manifest.json'
 ULID=re.compile(r'^[0-7][0-9A-HJKMNP-TV-Z]{25}$')
-SOURCE_FILES=sorted(p for p in ROOT.glob('*.json') if p.name not in {'manifest.json','migration-record-map.json','migration-exclusions.json'})
 
 def encode_ulid(ms, randomness):
     value=(ms<<80)|randomness; out=''
@@ -154,40 +153,14 @@ def allocate(record, allow_duplicate_candidate=False):
     with target.open('x',encoding='utf8') as f:json.dump(record,f,ensure_ascii=False,indent=2);f.write('\n')
     print(target.relative_to(ROOT))
     return target
-def migrate():
-    if PLACES.exists(): raise ValueError(f'{PLACES.relative_to(ROOT)} already exists; refusing to overwrite place records')
-    if not SOURCE_FILES: raise ValueError('No legacy root-level place datasets found; refusing to create an empty migration')
-    map_path=ROOT/'migration-record-map.json'
-    old_mapping=json.loads(map_path.read_text()) if map_path.exists() else []
-    stable_ids={(row['source'],row['index']):row['id'] for row in old_mapping}
-    PLACES.mkdir(parents=True);mapping=[];records=[];excluded=[]
-    shard=next_shard();shard.mkdir(parents=True,exist_ok=True);used=len(shard_files(shard))
-    for source in SOURCE_FILES:
-        payload=json.loads(source.read_text(encoding='utf8')); items=payload.get('results',payload if isinstance(payload,list) else [])
-        if not isinstance(items,list): raise ValueError(f'{source}: expected results array')
-        for index,old in enumerate(items):
-            if not isinstance(old,dict): raise ValueError(f'{source}[{index}]: expected object')
-            record=dict(old);record['id']=stable_ids.get((source.name,index),new_ulid())
-            c=record.get('coordinates')
-            if not isinstance(c,dict) or not isinstance(c.get('latitude'),(int,float)) or not isinstance(c.get('longitude'),(int,float)) or not (-90<=c['latitude']<=90 and -180<=c['longitude']<=180):
-                record['coordinates']=None;excluded.append({'source':source.name,'index':index,'name':record.get('name'),'reason':'missing or invalid coordinates'})
-            validate_record(record,allow_invalid_coordinates=True)
-            if used>=LIMIT: shard=next_shard();shard.mkdir(parents=True,exist_ok=True);used=len(shard_files(shard))
-            target=shard/(record['id']+'.json')
-            with target.open('x',encoding='utf8') as f:json.dump(record,f,ensure_ascii=False,indent=2);f.write('\n')
-            used+=1;records.append(record);mapping.append({'source':source.name,'index':index,'id':record['id']})
-    (ROOT/'migration-record-map.json').write_text(json.dumps(mapping,separators=(',',':'))+'\n')
-    (ROOT/'migration-exclusions.json').write_text(json.dumps(excluded,ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps({'source_files':len(SOURCE_FILES),'source_records':len(records),'migrated':len(records),'without_coordinates':len(excluded),'mapping':'migration-record-map.json','exclusions':'migration-exclusions.json'},indent=2))
 def main():
     parser=argparse.ArgumentParser(); sub=parser.add_subparsers(dest='cmd',required=True)
-    sub.add_parser('ulid'); sub.add_parser('validate'); sub.add_parser('build'); sub.add_parser('migrate')
+    sub.add_parser('ulid'); sub.add_parser('validate'); sub.add_parser('build')
     a=sub.add_parser('add');a.add_argument('json_file',type=Path);a.add_argument('--allow-duplicate-candidate',action='store_true')
     args=parser.parse_args()
     try:
         if args.cmd=='ulid':print(new_unique_ulid())
         elif args.cmd=='add':allocate(json.loads(args.json_file.read_text(encoding='utf8')),args.allow_duplicate_candidate)
-        elif args.cmd=='migrate':migrate()
         elif args.cmd=='validate':
             r,c,d=load_places();print(json.dumps({'records':len(r),'shards':c,'suspicious_duplicate_pairs':len(d)},indent=2))
         else:build()
