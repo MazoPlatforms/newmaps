@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { execFileSync, spawn } from 'node:child_process';
+import { spawn } from 'node:child_process';
 import { createHash, randomBytes } from 'node:crypto';
 import { createServer } from 'node:net';
 import { createServer as createHttpServer } from 'node:http';
@@ -56,6 +56,29 @@ let originalCities;
 let fixtureCreated = false;
 
 function hash(bytes) { return createHash('sha256').update(bytes).digest('hex'); }
+
+function runProductionApiSmoke() {
+  return new Promise((resolveSmoke, rejectSmoke) => {
+    const smoke = spawn(process.execPath, [join(root, 'scripts/cloudflare-live-api-smoke.mjs')], {
+      cwd: root,
+      env: { ...process.env, MAZO_WORKERS_URL: baseUrl },
+      stdio: ['ignore', 'pipe', 'pipe'],
+    });
+    const stdout = [];
+    const stderr = [];
+    smoke.stdout.on('data', (chunk) => stdout.push(chunk));
+    smoke.stderr.on('data', (chunk) => stderr.push(chunk));
+    smoke.once('error', rejectSmoke);
+    smoke.once('close', (code) => {
+      if (code !== 0) {
+        rejectSmoke(new Error(`Local API smoke failed (${code}): ${Buffer.concat(stderr).toString().slice(-4000)}`));
+        return;
+      }
+      try { resolveSmoke(JSON.parse(Buffer.concat(stdout).toString())); }
+      catch (error) { rejectSmoke(new Error(`Local API smoke returned invalid JSON: ${error.message}`)); }
+    });
+  });
+}
 
 async function waitForWorker() {
   const deadline = Date.now() + 90_000;
@@ -115,10 +138,7 @@ try {
   });
   assert.equal(rideRoute.status, 200, 'versioned RideNow routing uses the current published Kattankudy graph');
   assert.equal((await rideRoute.json()).profile, 'driving');
-  const productionApiSmoke = JSON.parse(execFileSync(process.execPath,
-    [join(root, 'scripts/cloudflare-live-api-smoke.mjs')], {
-      cwd: root, encoding: 'utf8', env: { ...process.env, MAZO_WORKERS_URL: baseUrl },
-    }));
+  const productionApiSmoke = await runProductionApiSmoke();
   assert.equal(productionApiSmoke.status, 'PASS');
   const unauthorized = await fetch(new URL('api/admin/plan', baseUrl), { method: 'POST', body: '{}' });
   assert.equal(unauthorized.status, 401, 'unsigned synchronization requests are rejected');
