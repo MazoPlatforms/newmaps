@@ -1,0 +1,58 @@
+{
+  "name": "VIP Care Point & Collision Repair Centre",
+  "coordinates": {
+    "latitude": 8.301554,
+    "longitude": 80.44353749999999
+  },
+  "address": "Anuradhapura",
+  "categories": [
+    "Auto body shop"
+  ],
+  "phone": "0252227115",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQT9P8P90DC2PGQ9M3WSS"
+}

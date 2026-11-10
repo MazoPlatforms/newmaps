@@ -1,0 +1,60 @@
+{
+  "address": "No.11 Sri Dalada Veediya, Kandy 20000",
+  "name": "Devon Restaurant",
+  "coordinates": {
+    "latitude": 7.2928973,
+    "longitude": 80.63666049999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0812224537",
+  "categories": [
+    "Asian restaurant",
+    "Breakfast restaurant",
+    "Snack bar"
+  ],
+  "id": "01M72AA6KG6RT0KFZ2QMT5D22H"
+}

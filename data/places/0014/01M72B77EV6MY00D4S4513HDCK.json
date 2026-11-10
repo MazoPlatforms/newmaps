@@ -1,0 +1,58 @@
+{
+  "name": "Sunrise Restaurant",
+  "coordinates": {
+    "latitude": 6.1285843,
+    "longitude": 80.1050913
+  },
+  "address": "140/B Chanda Mali, Wewala, Hikkaduwa 80240",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0752751401",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77EV6MY00D4S4513HDCK"
+}

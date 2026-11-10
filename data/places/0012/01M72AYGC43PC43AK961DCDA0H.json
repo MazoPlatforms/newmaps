@@ -1,0 +1,59 @@
+{
+  "name": "St. Anne’s Medical Centre",
+  "coordinates": {
+    "latitude": 7.06682,
+    "longitude": 79.9610613
+  },
+  "address": "370 Kadawatha - Ganemulla Rd, Ganemulla",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0332262011",
+  "website": "http://stannmedicenter.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGC43PC43AK961DCDA0H"
+}

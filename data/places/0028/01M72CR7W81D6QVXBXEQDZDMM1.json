@@ -1,0 +1,58 @@
+{
+  "name": "Microtec Technology",
+  "coordinates": {
+    "latitude": 6.0680442999999995,
+    "longitude": 80.2357196
+  },
+  "address": "326A Badi Road, Galle 80000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0779056622",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7W81D6QVXBXEQDZDMM1"
+}

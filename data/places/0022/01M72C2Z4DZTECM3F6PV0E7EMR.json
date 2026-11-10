@@ -1,0 +1,60 @@
+{
+  "name": "Hameed Bookshop",
+  "coordinates": {
+    "latitude": 8.5757093,
+    "longitude": 81.23457619999999
+  },
+  "address": "447 Dockyard Rd, Trincomalee 31000",
+  "categories": [
+    "Book store",
+    "Newspaper distribution service",
+    "Print shop"
+  ],
+  "phone": "0262222962",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z4DZTECM3F6PV0E7EMR"
+}

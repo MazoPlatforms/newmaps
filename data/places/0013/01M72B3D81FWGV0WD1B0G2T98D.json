@@ -1,0 +1,63 @@
+{
+  "name": "Gram Crumble",
+  "coordinates": {
+    "latitude": 7.4565174,
+    "longitude": 80.6246858
+  },
+  "address": "122 MC Rd, Matale 21000",
+  "categories": [
+    "Bakery",
+    "Dessert shop",
+    "Cake shop",
+    "Cookie shop",
+    "Health food store"
+  ],
+  "phone": "0763164956",
+  "website": "http://www.gramcrumble.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "1–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D81FWGV0WD1B0G2T98D"
+}

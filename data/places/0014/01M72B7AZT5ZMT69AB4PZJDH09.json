@@ -1,0 +1,60 @@
+{
+  "name": "Kv Book Shop",
+  "coordinates": {
+    "latitude": 6.1290071,
+    "longitude": 80.1118012
+  },
+  "address": "narigama, Hikkaduwa 80240",
+  "categories": [
+    "Book store",
+    "Bakery",
+    "Grocery delivery service"
+  ],
+  "phone": "0771675200",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7AZT5ZMT69AB4PZJDH09"
+}

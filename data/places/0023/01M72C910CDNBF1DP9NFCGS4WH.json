@@ -1,0 +1,62 @@
+{
+  "name": "Lloyd's Steel",
+  "coordinates": {
+    "latitude": 6.9397658,
+    "longitude": 79.8638198
+  },
+  "address": "147, 147A Srimath Bandaranayake Mawatha, Colombo 00120",
+  "categories": [
+    "Metal supplier",
+    "Aluminum supplier",
+    "Building materials store",
+    "Copper supplier"
+  ],
+  "phone": "0112328203",
+  "website": "http://www.lloydssteel.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910CDNBF1DP9NFCGS4WH"
+}

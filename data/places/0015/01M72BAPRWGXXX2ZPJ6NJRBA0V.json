@@ -1,0 +1,58 @@
+{
+  "name": "Nono’s Coffee & Bread",
+  "coordinates": {
+    "latitude": 5.9730272,
+    "longitude": 80.4333454
+  },
+  "address": "28 1 Jankalapuwaththa, Weligama 81700",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0760472828",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPRWGXXX2ZPJ6NJRBA0V"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Dark Table - Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 6.8773025,
+    "longitude": 79.9256087
+  },
+  "address": "481 Pitakotte - Talawatugoda Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0112808503",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGBS16YEMAJESZHTKC6"
+}

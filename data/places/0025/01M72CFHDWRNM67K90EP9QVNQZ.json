@@ -1,0 +1,64 @@
+{
+  "name": "Julia's Closet",
+  "coordinates": {
+    "latitude": 7.1921374,
+    "longitude": 79.8570142
+  },
+  "address": "No. 608, Colombo Road, Kurana, Negombo",
+  "categories": [
+    "Beauty salon",
+    "Facial spa",
+    "Hair removal service",
+    "Nail salon",
+    "Hairdresser",
+    "Waxing hair removal service"
+  ],
+  "phone": "0312224447",
+  "website": "http://www.juliascloset.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHDWRNM67K90EP9QVNQZ"
+}

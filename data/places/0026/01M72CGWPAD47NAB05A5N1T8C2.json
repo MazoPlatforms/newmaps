@@ -1,0 +1,58 @@
+{
+  "name": "Nuwan Studio",
+  "coordinates": {
+    "latitude": 7.0880734,
+    "longitude": 80.03497829999999
+  },
+  "address": "91 Kandy Rd, Yakkala",
+  "categories": [
+    "Photography studio"
+  ],
+  "phone": "0779137641",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGWPAD47NAB05A5N1T8C2"
+}

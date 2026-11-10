@@ -1,0 +1,58 @@
+{
+  "name": "Ecofoods",
+  "coordinates": {
+    "latitude": 6.708708,
+    "longitude": 80.3766212
+  },
+  "address": "52 B1 Nanda Ellawala Road, Ethoya Rd, Ratnapura",
+  "categories": [
+    "Produce market"
+  ],
+  "phone": "0775430700",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BH4V22H6W8TR75TJRCJ3Q"
+}

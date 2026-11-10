@@ -1,0 +1,58 @@
+{
+  "name": "Ruwan Pharmacy",
+  "coordinates": {
+    "latitude": 6.8762199,
+    "longitude": 79.9199263
+  },
+  "address": "VWG9+FXM, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0112799249",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9E8XDNMZ97WFZWCCBG7"
+}

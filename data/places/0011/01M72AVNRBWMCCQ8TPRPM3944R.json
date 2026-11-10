@@ -1,0 +1,58 @@
+{
+  "name": "Guardian Medical Centre",
+  "coordinates": {
+    "latitude": 6.9111422,
+    "longitude": 79.8929967
+  },
+  "address": "11 Rajagiriya Rd, Sri Jayawardenepura Kotte 11",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0778387394",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVNRBWMCCQ8TPRPM3944R"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "108/A Lewis Pl, Negombo 11500",
+  "name": "Pick N'Mix Restaurant",
+  "coordinates": {
+    "latitude": 7.2267177,
+    "longitude": 79.8408915
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777300077",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72ADZ44M1YVP3M19WT6K5AB"
+}

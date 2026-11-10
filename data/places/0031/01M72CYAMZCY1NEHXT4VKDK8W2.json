@@ -1,0 +1,59 @@
+{
+  "name": "Mr.Farmer Sri Lanka",
+  "coordinates": {
+    "latitude": 6.8367868,
+    "longitude": 80.9750206
+  },
+  "address": "Pahala Kahaththewela, Bandarawela 90100",
+  "categories": [
+    "Food manufacturer"
+  ],
+  "phone": "0704595959",
+  "website": "https://mrfarmer.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYAMZCY1NEHXT4VKDK8W2"
+}

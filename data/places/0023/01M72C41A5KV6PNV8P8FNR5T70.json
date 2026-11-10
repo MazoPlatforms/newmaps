@@ -1,0 +1,59 @@
+{
+  "name": "Kinniya Pharmacy",
+  "coordinates": {
+    "latitude": 8.501967,
+    "longitude": 81.18614819999999
+  },
+  "address": "G52P+QFJ, Main Street, Kinniya 3",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0773710017",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM",
+        "4–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8–11 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C41A5KV6PNV8P8FNR5T70"
+}

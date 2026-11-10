@@ -1,0 +1,63 @@
+{
+  "name": "Eltiom",
+  "coordinates": {
+    "latitude": 9.6766033,
+    "longitude": 80.0216282
+  },
+  "address": "Junction, 171 Palaly Rd, Jaffna 40000",
+  "categories": [
+    "Website designer",
+    "Advertising agency",
+    "Computer repair service",
+    "E-commerce service",
+    "Graphic designer"
+  ],
+  "phone": "0703050007",
+  "website": "https://www.eltiom.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4NA7NAJXB2AHC3FDGN7B"
+}

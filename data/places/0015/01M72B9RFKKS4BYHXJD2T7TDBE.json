@@ -1,0 +1,59 @@
+{
+  "name": "Bank Of Ceylon ලංකා බැංකුව",
+  "coordinates": {
+    "latitude": 5.9373708999999995,
+    "longitude": 80.57472229999999
+  },
+  "address": "WHPF+WVX, A2, Matara",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0412232880",
+  "website": "http://www.boc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9RFKKS4BYHXJD2T7TDBE"
+}

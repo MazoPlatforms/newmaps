@@ -1,0 +1,59 @@
+{
+  "name": "PC Click",
+  "coordinates": {
+    "latitude": 8.75334,
+    "longitude": 80.4984139
+  },
+  "address": "No 29 First Cross St, Vavuniya 43000",
+  "categories": [
+    "Computer service",
+    "Computer store"
+  ],
+  "phone": "0242226353",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5DZDW0ZV0064AT8GPJWJ"
+}

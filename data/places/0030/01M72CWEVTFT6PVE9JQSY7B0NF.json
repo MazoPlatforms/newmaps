@@ -1,0 +1,58 @@
+{
+  "name": "Best Look Salon",
+  "coordinates": {
+    "latitude": 6.028995999999999,
+    "longitude": 80.79393519999999
+  },
+  "address": "Beliatta Road, Tangalle",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0715804339",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWEVTFT6PVE9JQSY7B0NF"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "NDB Bank - Dambulla",
+  "coordinates": {
+    "latitude": 7.8738006,
+    "longitude": 80.6505719
+  },
+  "address": "No: 42 Kurunegala - Dambulla Rd, Dambulla",
+  "categories": [
+    "Bank",
+    "ATM",
+    "Private sector bank"
+  ],
+  "phone": "0667448000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSWEWNTQ0JVPYJJ5H44YX"
+}

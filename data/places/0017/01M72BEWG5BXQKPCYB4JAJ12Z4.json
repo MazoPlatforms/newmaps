@@ -1,0 +1,64 @@
+{
+  "name": "Uva Medical Clinic",
+  "coordinates": {
+    "latitude": 6.9890985,
+    "longitude": 81.0593622
+  },
+  "address": "X3Q5+JPQ, Mosque Rd, Badulla",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "+919061701601",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–1 PM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–1 PM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–1 PM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–1 PM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–1 PM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–1 PM",
+        "3–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWG5BXQKPCYB4JAJ12Z4"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Blue Feathers Sports Park",
+  "coordinates": {
+    "latitude": 6.7950387,
+    "longitude": 79.89638169999999
+  },
+  "address": "1 st Lane, Moratuwa 10400",
+  "categories": [
+    "Sports complex",
+    "Gym"
+  ],
+  "phone": "0112651717",
+  "website": "http://bluefeathers.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCNXX29XJEP8DZSH1V19F"
+}

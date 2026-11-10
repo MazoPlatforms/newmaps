@@ -1,0 +1,73 @@
+{
+  "name": "Faith Health Care Center",
+  "coordinates": {
+    "latitude": 7.101936599999999,
+    "longitude": 80.0417858
+  },
+  "address": "No: 270H, Yakkala 11600",
+  "categories": [
+    "Medical Center",
+    "Fitness center",
+    "Gym",
+    "Health consultant",
+    "Laboratory",
+    "Medical clinic",
+    "Pharmacy",
+    "Physical examination center",
+    "Physical fitness program",
+    "Speech pathologist"
+  ],
+  "phone": "0773303620",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30–8 AM",
+        "4–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30–8 AM",
+        "4–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30–8 AM",
+        "4–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30–8 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–8 AM",
+        "4–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30–8 AM",
+        "4–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30–11 AM",
+        "5:30–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGC81Y75Q702W3AE8XP7"
+}

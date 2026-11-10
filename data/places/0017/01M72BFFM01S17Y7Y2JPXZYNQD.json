@@ -1,0 +1,59 @@
+{
+  "name": "Lucky Food",
+  "coordinates": {
+    "latitude": 6.830406099999999,
+    "longitude": 80.9919342
+  },
+  "address": "No 10 main street, Bandarawela 90100",
+  "categories": [
+    "Cafe",
+    "Food court"
+  ],
+  "phone": "0772638166",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFFM01S17Y7Y2JPXZYNQD"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Burger Chief",
+  "coordinates": {
+    "latitude": 7.4651613999999995,
+    "longitude": 80.62492979999999
+  },
+  "address": "FJ8F+3X7, A9, Matale",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0664935550",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D83VMG51MSQ35C5CS87"
+}

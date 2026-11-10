@@ -1,0 +1,60 @@
+{
+  "address": "69A Green Path, Road, 00070",
+  "name": "Rodrigo’s",
+  "coordinates": {
+    "latitude": 6.9118778,
+    "longitude": 79.8566981
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.rodrigos.lk/",
+  "business_status": "OPEN",
+  "phone": "0761498343",
+  "categories": [
+    "Bakery",
+    "Cafe"
+  ],
+  "id": "01M72A8VF83WCC7C48V33ZQ19A"
+}

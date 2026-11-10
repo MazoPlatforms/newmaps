@@ -1,0 +1,58 @@
+{
+  "name": "The Daily Mart",
+  "coordinates": {
+    "latitude": 6.7927618999999995,
+    "longitude": 79.8923832
+  },
+  "address": "39 Polkotuwa Pl, Moratuwa 10400",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0706087367",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASKXVVV88TSRVMD252R6Z"
+}

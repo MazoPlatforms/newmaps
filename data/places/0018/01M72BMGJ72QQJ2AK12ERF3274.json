@@ -1,0 +1,62 @@
+{
+  "name": "Pizza Hut-Kuliyapitiya",
+  "coordinates": {
+    "latitude": 7.468595799999999,
+    "longitude": 80.0352904
+  },
+  "address": "Mahinda Lansakara, Kuliyapitiya",
+  "categories": [
+    "Pizza restaurant",
+    "Fast food restaurant",
+    "Pizza delivery",
+    "Pizza takeaway"
+  ],
+  "phone": "0112729729",
+  "website": "https://www.pizzahut.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMGJ72QQJ2AK12ERF3274"
+}

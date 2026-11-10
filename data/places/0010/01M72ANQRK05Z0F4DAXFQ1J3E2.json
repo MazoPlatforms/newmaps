@@ -1,0 +1,58 @@
+{
+  "name": "BOC ATM",
+  "coordinates": {
+    "latitude": 6.9384383,
+    "longitude": 79.85471489999999
+  },
+  "address": "WVQ3+9VG, Colombo 01300",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0112434478",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQRK05Z0F4DAXFQ1J3E2"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Tech Wizards Computers",
+  "coordinates": {
+    "latitude": 7.4957875,
+    "longitude": 80.3721096
+  },
+  "address": "293 Kurunegala - Dambulla Rd, Kurunegala 60000",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0715346809",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–7 AM",
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HGHF2YD4JCANWT1Z6YC"
+}

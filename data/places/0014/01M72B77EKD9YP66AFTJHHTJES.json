@@ -1,0 +1,60 @@
+{
+  "name": "Cafe Rustic Roots",
+  "coordinates": {
+    "latitude": 6.1339447,
+    "longitude": 80.1005811
+  },
+  "address": "291, 1 Galle Rd, Hikkaduwa",
+  "categories": [
+    "Seafood restaurant",
+    "Bar & grill",
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0768054079",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77EKD9YP66AFTJHHTJES"
+}

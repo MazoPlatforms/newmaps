@@ -1,0 +1,58 @@
+{
+  "name": "Mathiy Store",
+  "coordinates": {
+    "latitude": 6.8923678,
+    "longitude": 80.5996456
+  },
+  "address": "Hatton Dickoya Urban Council, Hatton",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0770154559",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B59G8H12NRJ0DA4RC3FAG"
+}

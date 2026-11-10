@@ -1,0 +1,59 @@
+{
+  "address": "280 George R. De Silva Mawatha, Colombo 01300",
+  "name": "Akshaya Food Centre",
+  "coordinates": {
+    "latitude": 6.9465688,
+    "longitude": 79.8626784
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–2:30 PM"
+      ]
+    }
+  ],
+  "website": "http://akshayafoodcity.com/",
+  "business_status": "OPEN",
+  "phone": "0112328258",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D06FBMGT1KS1BFE95WR"
+}

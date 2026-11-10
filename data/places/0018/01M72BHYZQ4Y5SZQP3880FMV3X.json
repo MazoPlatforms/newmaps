@@ -1,0 +1,59 @@
+{
+  "name": "Atukorala Bakery",
+  "coordinates": {
+    "latitude": 7.249683699999999,
+    "longitude": 80.34326329999999
+  },
+  "address": "166 Kalugalla Mawatha, Kegalle 71000",
+  "categories": [
+    "Bakery",
+    "Restaurant"
+  ],
+  "phone": "0353127276",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZQ4Y5SZQP3880FMV3X"
+}

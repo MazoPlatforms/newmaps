@@ -1,0 +1,62 @@
+{
+  "name": "DFCC Bank - Nuwara Eliya",
+  "coordinates": {
+    "latitude": 6.9723191,
+    "longitude": 80.7679935
+  },
+  "address": "58A, 60 Park Rd, Nuwara Eliya 22200",
+  "categories": [
+    "Private sector bank",
+    "ATM",
+    "Currency exchange service",
+    "Money transfer service"
+  ],
+  "phone": "0522223568",
+  "website": "http://www.dfcc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4MZMRSKRGC5NABWBADA8"
+}

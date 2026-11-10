@@ -1,0 +1,58 @@
+{
+  "name": "Royal Mall Food Court - Kandy",
+  "coordinates": {
+    "latitude": 7.2738967,
+    "longitude": 80.6132501
+  },
+  "address": "William Gopallawa Mawatha, Kandy",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0706474742",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B24QJG7DDTPP88X8EXKGS"
+}

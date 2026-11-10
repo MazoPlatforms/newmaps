@@ -1,0 +1,59 @@
+{
+  "address": "Chilaw Rd, Negombo",
+  "name": "New Orient Pharmacy",
+  "coordinates": {
+    "latitude": 7.2249285,
+    "longitude": 79.8499756
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0771388664",
+  "categories": [
+    "Supermarket",
+    "Pharmacy"
+  ],
+  "id": "01M72AECT06VGWPA1TH62W4BAX"
+}

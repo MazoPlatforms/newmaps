@@ -1,0 +1,58 @@
+{
+  "name": "Imc Med Hospital",
+  "coordinates": {
+    "latitude": 6.1292687,
+    "longitude": 80.1036254
+  },
+  "address": "391, Galle Road, Wewala, Hikkaduwa 80240",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0772291591",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7DEQC2T7PGZQHG1ZYEPN"
+}

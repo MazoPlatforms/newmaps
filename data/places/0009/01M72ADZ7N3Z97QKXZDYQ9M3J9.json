@@ -1,0 +1,58 @@
+{
+  "address": "No. 765/22, Seeduwa",
+  "name": "Baker's Lounge",
+  "coordinates": {
+    "latitude": 7.148045799999999,
+    "longitude": 79.87316129999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777527627",
+  "categories": [
+    "Pastry shop"
+  ],
+  "id": "01M72ADZ7N3Z97QKXZDYQ9M3J9"
+}

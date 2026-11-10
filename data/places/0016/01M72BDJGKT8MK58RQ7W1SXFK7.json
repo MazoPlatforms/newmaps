@@ -1,0 +1,64 @@
+{
+  "name": "Dream Cafe Ella",
+  "coordinates": {
+    "latitude": 6.8740407,
+    "longitude": 81.04885
+  },
+  "address": "Main Street, Ella 90090",
+  "categories": [
+    "Cafe",
+    "Asian restaurant",
+    "Bar",
+    "Breakfast restaurant",
+    "Restaurant",
+    "Coffee shop",
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0572051110",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDJGKT8MK58RQ7W1SXFK7"
+}

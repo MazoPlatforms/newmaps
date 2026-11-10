@@ -1,0 +1,60 @@
+{
+  "address": "100 Pedlar St, Galle 80000",
+  "name": "The Gelatory",
+  "coordinates": {
+    "latitude": 6.0259594,
+    "longitude": 80.21598689999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "https://www.facebook.com/TheGelotary/",
+  "business_status": "OPEN",
+  "phone": "0706450020",
+  "categories": [
+    "Ice cream shop",
+    "Bubble tea store"
+  ],
+  "id": "01M72AC7AFJHTN3J0J9S6E0DSM"
+}

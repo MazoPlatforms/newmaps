@@ -1,0 +1,58 @@
+{
+  "name": "Family Food Center",
+  "coordinates": {
+    "latitude": 6.7077043,
+    "longitude": 79.9162303
+  },
+  "address": "No. 23 Kaviraja Mawatha, Panadura",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0714880275",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B03AS86RFTPHKXY88S2TM"
+}

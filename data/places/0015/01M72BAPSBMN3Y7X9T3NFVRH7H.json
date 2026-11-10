@@ -1,0 +1,65 @@
+{
+  "name": "Mermaid's Kitchen",
+  "coordinates": {
+    "latitude": 5.9702921,
+    "longitude": 80.3672763
+  },
+  "address": "Ahangama 80650",
+  "categories": [
+    "Restaurant",
+    "Breakfast restaurant",
+    "Cocktail bar",
+    "Health food restaurant",
+    "Juice shop",
+    "Lunch restaurant",
+    "Sri Lankan restaurant",
+    "Yoga retreat center"
+  ],
+  "phone": "0774430701",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPSBMN3Y7X9T3NFVRH7H"
+}

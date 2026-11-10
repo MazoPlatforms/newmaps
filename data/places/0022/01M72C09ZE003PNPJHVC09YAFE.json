@@ -1,0 +1,58 @@
+{
+  "name": "Jamaldeen Groceries",
+  "coordinates": {
+    "latitude": 7.3982857,
+    "longitude": 81.837876
+  },
+  "address": "9RXQ+856, Jamahiriya Rd, Sainthamaruthu 03",
+  "categories": [
+    "Store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–12:40 PM",
+        "3:30–8:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:46 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09ZE003PNPJHVC09YAFE"
+}

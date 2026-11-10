@@ -1,0 +1,58 @@
+{
+  "name": "Zara Restaurant",
+  "coordinates": {
+    "latitude": 8.000665099999999,
+    "longitude": 79.8379643
+  },
+  "address": "386/1 , Colombo road , ratmalyaaye, Puttalam",
+  "categories": [
+    "Food court"
+  ],
+  "phone": "0778793943",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN963N0DV2P1YT1A1NAY9"
+}

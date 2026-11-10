@@ -1,0 +1,58 @@
+{
+  "name": "Sampath Supermarket",
+  "coordinates": {
+    "latitude": 6.561060299999999,
+    "longitude": 79.9807963
+  },
+  "address": "HX6J+C8F, Central junction, Kalutara",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0343029631",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ1EKB2Z4HRSWAPM4BZNN"
+}

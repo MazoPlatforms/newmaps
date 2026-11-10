@@ -1,0 +1,59 @@
+{
+  "name": "Mymech",
+  "coordinates": {
+    "latitude": 6.4738969,
+    "longitude": 79.9920027
+  },
+  "address": "18/1 Ariyawansa Mawatha, Beruwala",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0777319141",
+  "website": "http://www.mymech.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B1QT02ZGMBPY8JNC1T1RD"
+}

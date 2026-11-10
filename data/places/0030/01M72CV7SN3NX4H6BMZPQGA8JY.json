@@ -1,0 +1,61 @@
+{
+  "name": "Unicut Salon",
+  "coordinates": {
+    "latitude": 5.9684263,
+    "longitude": 80.4511768
+  },
+  "address": "Pelana, Weligama 81700",
+  "categories": [
+    "Barber shop",
+    "Beauty salon",
+    "Hairdresser"
+  ],
+  "phone": "0716331605",
+  "website": "https://www.instagram.com/the_unicut_barbershop?igsh=cTdnM2x1OHVhZnE3&utm_source=qr",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CV7SN3NX4H6BMZPQGA8JY"
+}

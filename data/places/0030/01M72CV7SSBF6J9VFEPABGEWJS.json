@@ -1,0 +1,58 @@
+{
+  "name": "Saloon Sujatha",
+  "coordinates": {
+    "latitude": 5.9760081,
+    "longitude": 80.4280443
+  },
+  "address": "XCGH+C63, Weligama - Kananke Rd, Weligama",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0776307897",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CV7SSBF6J9VFEPABGEWJS"
+}

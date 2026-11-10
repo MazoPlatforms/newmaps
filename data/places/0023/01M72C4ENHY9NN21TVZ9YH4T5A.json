@@ -1,0 +1,58 @@
+{
+  "name": "Mohamed Hotel & Bakery",
+  "coordinates": {
+    "latitude": 7.9161477,
+    "longitude": 81.5088724
+  },
+  "address": "Oddamavadi - Vahaneri Rd",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0652257802",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4ENHY9NN21TVZ9YH4T5A"
+}

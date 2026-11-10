@@ -1,0 +1,58 @@
+{
+  "name": "Ganga Super Market",
+  "coordinates": {
+    "latitude": 8.7574574,
+    "longitude": 80.4860655
+  },
+  "address": "QF4P+XCM, Vavuniya",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0778079515",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6KHQTHJWM9MN72XJ20V"
+}

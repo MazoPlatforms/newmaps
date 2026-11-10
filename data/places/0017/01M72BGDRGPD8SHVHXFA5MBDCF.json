@@ -1,0 +1,59 @@
+{
+  "name": "IMP Super City",
+  "coordinates": {
+    "latitude": 6.8512948,
+    "longitude": 81.3347323
+  },
+  "address": "653/5, Wellawaya Road, Hulandawa, Monaragala 94000",
+  "categories": [
+    "Grocery store",
+    "Wholesale grocer"
+  ],
+  "phone": "0715262000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGDRGPD8SHVHXFA5MBDCF"
+}

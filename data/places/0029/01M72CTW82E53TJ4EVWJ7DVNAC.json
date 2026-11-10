@@ -1,0 +1,61 @@
+{
+  "name": "Matara Agro Center",
+  "coordinates": {
+    "latitude": 5.9492113,
+    "longitude": 80.5514419
+  },
+  "address": "11 Sri Dharmarathna Mawatha, Edmond Samarasekara Mawatha, Matara 81000",
+  "categories": [
+    "Landscape designer",
+    "Agricultural production",
+    "Fertilizer supplier",
+    "Hotel supply store"
+  ],
+  "phone": "0773164695",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTW82E53TJ4EVWJ7DVNAC"
+}

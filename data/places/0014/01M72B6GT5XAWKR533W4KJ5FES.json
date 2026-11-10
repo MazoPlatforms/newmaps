@@ -1,0 +1,59 @@
+{
+  "name": "Sahana Medical Centre & Laboratory Complex",
+  "coordinates": {
+    "latitude": 6.0675183,
+    "longitude": 80.2272732
+  },
+  "address": "Mapalagama Bus Rd, Galle 80000",
+  "categories": [
+    "Medical Center",
+    "Medical laboratory"
+  ],
+  "phone": "0912227777",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6GT5XAWKR533W4KJ5FES"
+}

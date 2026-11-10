@@ -1,0 +1,65 @@
+{
+  "name": "Elite Health Care",
+  "coordinates": {
+    "latitude": 6.477651799999999,
+    "longitude": 79.98467289999999
+  },
+  "address": "44 Perera Rd, Beruwala",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0777935837",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–1:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–1:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–1:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–1:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–1:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–1:30 PM",
+        "4–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B1DBD5ZY9SNFAZ710QXC9"
+}

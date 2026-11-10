@@ -1,0 +1,58 @@
+{
+  "name": "The Wingham College",
+  "coordinates": {
+    "latitude": 7.0512076,
+    "longitude": 80.5326001
+  },
+  "address": "Soysakele Road, Nawalapitiya",
+  "categories": [
+    "International school"
+  ],
+  "phone": "0710171134",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5VFZ7H8Y6CMKNCHYE143"
+}

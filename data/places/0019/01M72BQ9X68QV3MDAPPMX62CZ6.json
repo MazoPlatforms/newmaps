@@ -1,0 +1,58 @@
+{
+  "name": "Asvin Medical Center",
+  "coordinates": {
+    "latitude": 8.3912895,
+    "longitude": 80.4254802
+  },
+  "address": "9CRG+G59, Anuradhapura",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0713845567",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9X68QV3MDAPPMX62CZ6"
+}

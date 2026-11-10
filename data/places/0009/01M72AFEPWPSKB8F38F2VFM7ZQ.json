@@ -1,0 +1,61 @@
+{
+  "address": "Dambulla",
+  "name": "Gimanhala Traveler Cafe",
+  "coordinates": {
+    "latitude": 7.8797796,
+    "longitude": 80.6503767
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0662283221",
+  "categories": [
+    "Restaurant",
+    "Cafe",
+    "Coffee shop",
+    "Pastry shop"
+  ],
+  "id": "01M72AFEPWPSKB8F38F2VFM7ZQ"
+}

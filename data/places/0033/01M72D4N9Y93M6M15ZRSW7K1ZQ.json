@@ -1,0 +1,58 @@
+{
+  "name": "Digital PC Computer",
+  "coordinates": {
+    "latitude": 9.677024099999999,
+    "longitude": 80.0407963
+  },
+  "address": "Adiyapatham Road kokuvil, Jaffna 40000",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0761789137",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4N9Y93M6M15ZRSW7K1ZQ"
+}

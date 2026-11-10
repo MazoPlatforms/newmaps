@@ -1,0 +1,63 @@
+{
+  "name": "Tk Printhouse",
+  "coordinates": {
+    "latitude": 5.9525188,
+    "longitude": 80.53779229999999
+  },
+  "address": "23 B, Kalidasa Road, 113 Rahula Rd, Matara 81000",
+  "categories": [
+    "Print shop",
+    "Digital printer",
+    "Digital printing service",
+    "Invitation printing service",
+    "Screen printer",
+    "Screen printing shop"
+  ],
+  "phone": "0717777273",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTVBDPZY8AAS5M1T654KG"
+}

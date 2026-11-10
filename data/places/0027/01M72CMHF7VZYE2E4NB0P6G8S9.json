@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Repair Centre",
+  "coordinates": {
+    "latitude": 7.2870614,
+    "longitude": 80.6273727
+  },
+  "address": "296 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0812246256",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHF7VZYE2E4NB0P6G8S9"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Bank Of Ceylon",
+  "coordinates": {
+    "latitude": 6.751055099999999,
+    "longitude": 79.9003096
+  },
+  "address": "No29 Galle Road, Panadura 12500",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0382298330",
+  "website": "http://www.boc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0HC8Y4P9FDXQKYEX48VD"
+}

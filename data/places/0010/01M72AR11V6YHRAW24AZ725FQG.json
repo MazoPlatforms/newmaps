@@ -1,0 +1,60 @@
+{
+  "name": "NDB Bank - Kohuwala",
+  "coordinates": {
+    "latitude": 6.8684847,
+    "longitude": 79.8863507
+  },
+  "address": "143 S. De S. Jayasinghe Mawatha, Nugegoda 00500",
+  "categories": [
+    "Bank",
+    "ATM",
+    "Private sector bank"
+  ],
+  "phone": "0117448051",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11V6YHRAW24AZ725FQG"
+}

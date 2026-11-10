@@ -1,0 +1,66 @@
+{
+  "name": "Azeez Medical Centre",
+  "coordinates": {
+    "latitude": 7.2492924,
+    "longitude": 80.4557729
+  },
+  "address": "A1, Mawanella",
+  "categories": [
+    "Pharmacy",
+    "Herbal medicine store",
+    "Medical clinic",
+    "Doctor"
+  ],
+  "phone": "0777225533",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–1:30 PM",
+        "3:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–1:30 PM",
+        "3:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–1:30 PM",
+        "3:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1:30 PM",
+        "3:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–1:30 PM",
+        "3:30–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJAE4FWK3YHGZXEEQHGA1"
+}

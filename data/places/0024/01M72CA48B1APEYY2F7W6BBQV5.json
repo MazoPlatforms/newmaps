@@ -1,0 +1,58 @@
+{
+  "name": "S A Big Fish",
+  "coordinates": {
+    "latitude": 6.8449580999999995,
+    "longitude": 79.8703451
+  },
+  "address": "51/B Perera Pl, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0770449432",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48B1APEYY2F7W6BBQV5"
+}

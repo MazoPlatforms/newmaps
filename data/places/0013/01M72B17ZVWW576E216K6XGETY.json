@@ -1,0 +1,59 @@
+{
+  "name": "IimaS Grocery",
+  "coordinates": {
+    "latitude": 6.482295,
+    "longitude": 79.9855546
+  },
+  "address": "57 Circular Rd, China Fort Rd, Beruwala",
+  "categories": [
+    "Store"
+  ],
+  "phone": "0760227602",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–11:30 AM",
+        "2:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B17ZVWW576E216K6XGETY"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Welbeck Medical (PVT)Ltd",
+  "coordinates": {
+    "latitude": 6.8563401,
+    "longitude": 79.8650818
+  },
+  "address": "VV48+G2P, Colombo Main Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0777851929",
+  "website": "http://welbeckmedical.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6GTF3871CGS6A05A4HWY"
+}

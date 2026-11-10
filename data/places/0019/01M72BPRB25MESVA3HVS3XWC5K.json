@@ -1,0 +1,60 @@
+{
+  "name": "Baker's Corner",
+  "coordinates": {
+    "latitude": 8.309042,
+    "longitude": 80.4066386
+  },
+  "address": "1079 Stage 2 D.S Senanayaka Road, 50000",
+  "categories": [
+    "Bakery",
+    "Restaurant",
+    "Cake shop"
+  ],
+  "phone": "0773961196",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRB25MESVA3HVS3XWC5K"
+}

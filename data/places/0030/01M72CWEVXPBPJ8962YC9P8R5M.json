@@ -1,0 +1,59 @@
+{
+  "name": "Eueni Hair & Beauty Salon",
+  "coordinates": {
+    "latitude": 6.0292625,
+    "longitude": 80.7951877
+  },
+  "address": "EUENI Hair & Beauty Salon,7/1, Thissa, Medaketiya Rd, Tangalle 82200",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0472241259",
+  "website": "http://euenisalons.com/branch-tangalle.php",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWEVXPBPJ8962YC9P8R5M"
+}

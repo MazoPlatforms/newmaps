@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank Colombo Gold Centre Branch",
+  "coordinates": {
+    "latitude": 6.940061399999999,
+    "longitude": 79.85299789999999
+  },
+  "address": "Colombo Gold Centre Complex No 180/27, N H M Abdul Cader Road, 00100",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112339521",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR2A2R0Z1MJ4QV4NBZG"
+}

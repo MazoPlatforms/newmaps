@@ -1,0 +1,58 @@
+{
+  "name": "Shine Service Center",
+  "coordinates": {
+    "latitude": 8.029805999999999,
+    "longitude": 80.9590319
+  },
+  "address": "2XH5+WJ, Bubula",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0779314872",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BY6JDC1376NFDQXGWV6MQ"
+}

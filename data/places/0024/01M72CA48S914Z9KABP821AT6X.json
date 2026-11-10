@@ -1,0 +1,58 @@
+{
+  "name": "Lahiru Aqua Farm",
+  "coordinates": {
+    "latitude": 7.0488878999999995,
+    "longitude": 79.89024359999999
+  },
+  "address": "David Soyza Road, Kandana 11320",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0759844000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48S914Z9KABP821AT6X"
+}

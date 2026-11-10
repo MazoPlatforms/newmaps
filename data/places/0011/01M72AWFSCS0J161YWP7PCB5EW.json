@@ -1,0 +1,59 @@
+{
+  "name": "Soma Motors Garage & Automotive Repair Shop",
+  "coordinates": {
+    "latitude": 6.897831399999999,
+    "longitude": 79.9052834
+  },
+  "address": "11/5 Samudra Devi Mawatha, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0769912157",
+  "website": "https://www.facebook.com/somamotors123/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AWFSCS0J161YWP7PCB5EW"
+}

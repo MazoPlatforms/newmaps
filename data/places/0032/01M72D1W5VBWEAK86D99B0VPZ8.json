@@ -1,0 +1,58 @@
+{
+  "name": "Ah Trading",
+  "coordinates": {
+    "latitude": 8.0311714,
+    "longitude": 79.8377337
+  },
+  "address": "41/1/1 A12, Puttalam 61300",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0770755219",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1W5VBWEAK86D99B0VPZ8"
+}

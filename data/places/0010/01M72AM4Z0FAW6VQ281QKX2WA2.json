@@ -1,0 +1,59 @@
+{
+  "name": "VOC Cafe",
+  "coordinates": {
+    "latitude": 6.8972232,
+    "longitude": 79.85900889999999
+  },
+  "address": "Thunmulla, Dutch Burgher Union, 114 Reid Ave, Colombo 00500",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0112584511",
+  "website": "http://thedutchburgherunion.org/voc-cafe/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AM4Z0FAW6VQ281QKX2WA2"
+}

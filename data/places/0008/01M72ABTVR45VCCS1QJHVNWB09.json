@@ -1,0 +1,60 @@
+{
+  "address": "Ground Floor, 58 Church St, Galle 80000",
+  "name": "Eats & Treats",
+  "coordinates": {
+    "latitude": 6.0255171999999995,
+    "longitude": 80.21791859999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0766904161",
+  "categories": [
+    "Cake shop",
+    "Coffee shop",
+    "Sweets and dessert buffet"
+  ],
+  "id": "01M72ABTVR45VCCS1QJHVNWB09"
+}

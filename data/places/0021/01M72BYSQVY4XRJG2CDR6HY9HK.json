@@ -1,0 +1,58 @@
+{
+  "name": "Rajahs Book Center",
+  "coordinates": {
+    "latitude": 7.714142,
+    "longitude": 81.6948553
+  },
+  "address": "51 Main Street, Batticaloa",
+  "categories": [
+    "Book store"
+  ],
+  "phone": "0652225599",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:59 AM–8:59 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BYSQVY4XRJG2CDR6HY9HK"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Popular Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 8.342653,
+    "longitude": 80.409835
+  },
+  "address": "8CV5+2X8, Anuradhapura",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0768950126",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4MX5A89ASPGKHEFPX8X"
+}

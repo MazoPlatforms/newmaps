@@ -1,0 +1,60 @@
+{
+  "address": "Old Dutch Hospital, UF 01 Hospital St, Galle 80000",
+  "name": "420 Crunch",
+  "coordinates": {
+    "latitude": 6.027171399999999,
+    "longitude": 80.21952019999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Eclectic restaurant",
+    "Bar",
+    "Fast food restaurant",
+    "Meal delivery"
+  ],
+  "id": "01M72ABTV3WF7AJ9SGTFMRW6PP"
+}

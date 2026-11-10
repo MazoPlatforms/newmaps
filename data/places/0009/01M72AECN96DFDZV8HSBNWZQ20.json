@@ -1,0 +1,58 @@
+{
+  "address": "144 Kimbulapitiya Rd, Negombo 11500",
+  "name": "T&S Grocery",
+  "coordinates": {
+    "latitude": 7.204333399999999,
+    "longitude": 79.8586718
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0789296030",
+  "categories": [
+    "Store"
+  ],
+  "id": "01M72AECN96DFDZV8HSBNWZQ20"
+}

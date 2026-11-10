@@ -1,0 +1,59 @@
+{
+  "name": "IDM City Campus",
+  "coordinates": {
+    "latitude": 7.4126951,
+    "longitude": 81.8273444
+  },
+  "address": "166 Main St, Kalmunai 32300",
+  "categories": [
+    "Private college"
+  ],
+  "phone": "0674324325",
+  "website": "http://www.idm.edu/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C0DHMRYP9Q1DKB3ZEBVWS"
+}

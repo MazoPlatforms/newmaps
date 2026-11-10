@@ -1,0 +1,60 @@
+{
+  "name": "Singer Plus - Vavuniya B",
+  "coordinates": {
+    "latitude": 8.752983,
+    "longitude": 80.49784079999999
+  },
+  "address": "149 A9, Vavuniya",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0777575333",
+  "website": "http://www.singersl.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6 AM",
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5DZJ51RZYP0M307V1GNE"
+}

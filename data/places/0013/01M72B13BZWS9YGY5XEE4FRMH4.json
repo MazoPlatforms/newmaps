@@ -1,0 +1,60 @@
+{
+  "name": "Kandoori",
+  "coordinates": {
+    "latitude": 6.4583058,
+    "longitude": 79.9871139
+  },
+  "address": "CGHW Hwy 428 Galle Road, Beruwala 12070",
+  "categories": [
+    "Indian restaurant",
+    "Halal restaurant"
+  ],
+  "phone": "0342276761",
+  "website": "http://www.kandoori.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13BZWS9YGY5XEE4FRMH4"
+}

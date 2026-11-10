@@ -1,0 +1,58 @@
+{
+  "name": "Sri Grocery",
+  "coordinates": {
+    "latitude": 6.8967724,
+    "longitude": 79.8916344
+  },
+  "address": "467 Nawala Rd, Sri Jayawardenepura Kotte 11222",
+  "categories": [
+    "Gourmet grocery store"
+  ],
+  "phone": "0770548729",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEMRK9SCPWVP2V41SX56"
+}

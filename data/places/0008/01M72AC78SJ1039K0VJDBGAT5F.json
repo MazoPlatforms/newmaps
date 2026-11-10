@@ -1,0 +1,58 @@
+{
+  "address": "No : 10/1 Madawalwatta, Galle",
+  "name": "Grocery Corner",
+  "coordinates": {
+    "latitude": 6.0417781,
+    "longitude": 80.23320199999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0725642947",
+  "categories": [
+    "Convenience store"
+  ],
+  "id": "01M72AC78SJ1039K0VJDBGAT5F"
+}

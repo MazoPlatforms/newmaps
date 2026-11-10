@@ -1,0 +1,57 @@
+{
+  "name": "Co-Operative Hospital Pharmacy",
+  "coordinates": {
+    "latitude": 7.476651599999999,
+    "longitude": 80.3564809
+  },
+  "address": "F9G4+MH9, Colombo Road, Kurunegala",
+  "categories": [
+    "Pharmacy"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKR9MZGEMAYKH95XCJW9G"
+}

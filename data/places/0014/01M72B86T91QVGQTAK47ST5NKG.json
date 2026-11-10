@@ -1,0 +1,58 @@
+{
+  "name": "Healthora Pharmacy",
+  "coordinates": {
+    "latitude": 6.2430560999999996,
+    "longitude": 80.0537075
+  },
+  "address": "Patabandimulla, No. 78/A Elpitiya Rd, Ambalangoda",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0703421548",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B86T91QVGQTAK47ST5NKG"
+}

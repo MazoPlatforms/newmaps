@@ -1,0 +1,60 @@
+{
+  "name": "SPAR Supermarket Thalawathugoda",
+  "coordinates": {
+    "latitude": 6.882356199999999,
+    "longitude": 79.9343133
+  },
+  "address": "1112 Battaramulla - Pannipitiya Rd, Battaramulla 10120",
+  "categories": [
+    "Supermarket",
+    "Grocery store"
+  ],
+  "phone": "0115007200",
+  "website": "http://spar-international.com/country/sri-lanka/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEMPH0X6V1JS6SJPQNAD"
+}

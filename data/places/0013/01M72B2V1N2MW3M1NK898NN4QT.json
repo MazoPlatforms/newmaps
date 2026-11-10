@@ -1,0 +1,59 @@
+{
+  "name": "HNB Kundasale (Hatton National Bank)",
+  "coordinates": {
+    "latitude": 7.279189199999999,
+    "longitude": 80.67961059999999
+  },
+  "address": "No 67/19¸ Digana Road¸ Nattarampotha¸ Kundasale, Nattarampota 20168",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0812424571",
+  "website": "https://www.hnb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2V1N2MW3M1NK898NN4QT"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon Nayani",
+  "coordinates": {
+    "latitude": 6.9071799,
+    "longitude": 79.85234129999999
+  },
+  "address": "WV42+VWG, St Anthony's Mawatha, Colombo 00300",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0773201247",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M7CKETPCM4PMB70S81"
+}

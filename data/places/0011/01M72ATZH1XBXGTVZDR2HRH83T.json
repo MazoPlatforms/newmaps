@@ -1,0 +1,61 @@
+{
+  "name": "Belmio Pizza",
+  "coordinates": {
+    "latitude": 6.875564499999999,
+    "longitude": 79.9319902
+  },
+  "address": "544 Madiwela Rd, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Restaurant",
+    "Italian restaurant",
+    "Pizza restaurant"
+  ],
+  "phone": "0770123166",
+  "website": "https://ordernow.lk/menu/belmio-pizza-thalawathugoda",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZH1XBXGTVZDR2HRH83T"
+}

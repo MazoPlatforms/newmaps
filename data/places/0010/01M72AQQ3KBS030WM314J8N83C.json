@@ -1,0 +1,59 @@
+{
+  "name": "Vanro Dispensary",
+  "coordinates": {
+    "latitude": 6.8406566,
+    "longitude": 79.8671633
+  },
+  "address": "236 Galle - Colombo Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0714243215",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–12 PM",
+        "6–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3KBS030WM314J8N83C"
+}

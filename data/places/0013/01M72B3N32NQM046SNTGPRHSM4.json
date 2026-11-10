@@ -1,0 +1,58 @@
+{
+  "name": "R.M.B Grocery And Cool Spot",
+  "coordinates": {
+    "latitude": 7.4778326999999996,
+    "longitude": 80.6231535
+  },
+  "address": "FJHF+47J, Matale",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0773759257",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N32NQM046SNTGPRHSM4"
+}

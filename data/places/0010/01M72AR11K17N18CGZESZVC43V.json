@@ -1,0 +1,60 @@
+{
+  "name": "Sampath Bank Attidiya",
+  "coordinates": {
+    "latitude": 6.8381317,
+    "longitude": 79.8849499
+  },
+  "address": "No. 202, Main Road, Attidiya Rd, 10350",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112725668",
+  "website": "http://sampath.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11K17N18CGZESZVC43V"
+}

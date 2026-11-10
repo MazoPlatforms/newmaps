@@ -1,0 +1,65 @@
+{
+  "name": "Hunters Park N Shop",
+  "coordinates": {
+    "latitude": 6.922274799999999,
+    "longitude": 79.8624291
+  },
+  "address": "T. B. Jayah Mawatha, Colombo 01000",
+  "categories": [
+    "Electronics store",
+    "Electronics company",
+    "Department store",
+    "Equipment importer",
+    "Farm equipment supplier",
+    "Garden",
+    "Hardware store"
+  ],
+  "phone": "0112693902",
+  "website": "http://www.hunters.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JN8V6QXEZF1W7WDC2NZ"
+}

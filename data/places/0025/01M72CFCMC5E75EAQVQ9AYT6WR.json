@@ -1,0 +1,63 @@
+{
+  "name": "New Lanka Glass",
+  "coordinates": {
+    "latitude": 7.2122777,
+    "longitude": 79.8431858
+  },
+  "address": "396 Main St, Negombo 11500",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0312220755",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–7:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–7:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–7:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–7:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–7:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–7:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCMC5E75EAQVQ9AYT6WR"
+}

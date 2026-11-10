@@ -1,0 +1,58 @@
+{
+  "name": "Prasan Pharmacy",
+  "coordinates": {
+    "latitude": 6.8408805,
+    "longitude": 79.88464479999999
+  },
+  "address": "Attidiya Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0774849435",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3MBT8K7C8MJT1RKH9A"
+}

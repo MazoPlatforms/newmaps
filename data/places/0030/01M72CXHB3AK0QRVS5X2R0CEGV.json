@@ -1,0 +1,58 @@
+{
+  "name": "Dinusha Trade Agency",
+  "coordinates": {
+    "latitude": 6.9889648,
+    "longitude": 81.05756579999999
+  },
+  "address": "9 Bazaar Street, Badulla",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0775000968",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXHB3AK0QRVS5X2R0CEGV"
+}

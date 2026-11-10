@@ -1,0 +1,58 @@
+{
+  "name": "MACMIN Restaurant",
+  "coordinates": {
+    "latitude": 7.4686587,
+    "longitude": 80.0344599
+  },
+  "address": "F29M+FQ8, Kurunegala-Narammala-Madampe Rd, Kuliyapitiya",
+  "categories": [
+    "Eclectic restaurant"
+  ],
+  "phone": "0372283785",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BK6TXDTH4STJ7C28GAQVR"
+}

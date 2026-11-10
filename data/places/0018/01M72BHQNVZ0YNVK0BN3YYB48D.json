@@ -1,0 +1,58 @@
+{
+  "name": "Elite Car Wash",
+  "coordinates": {
+    "latitude": 6.7406542,
+    "longitude": 80.3807405
+  },
+  "address": "P9RJ+64R, Ratnapura",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0712118623",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHQNVZ0YNVK0BN3YYB48D"
+}

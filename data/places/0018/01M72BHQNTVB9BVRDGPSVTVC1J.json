@@ -1,0 +1,60 @@
+{
+  "name": "Tesco Auto Care (PVT).Ltd",
+  "coordinates": {
+    "latitude": 6.592189599999999,
+    "longitude": 80.4618035
+  },
+  "address": "Watapotha Rd, Nivithigala 70044",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0719368652",
+  "website": "http://www.tescoautocare.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHQNTVB9BVRDGPSVTVC1J"
+}

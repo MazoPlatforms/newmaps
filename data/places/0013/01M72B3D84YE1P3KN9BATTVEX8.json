@@ -1,0 +1,58 @@
+{
+  "name": "Kiyo’s Kitchen",
+  "coordinates": {
+    "latitude": 7.5075825,
+    "longitude": 80.62346289999999
+  },
+  "address": "Matale Rd, Thotagamuwa",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0771096937",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D84YE1P3KN9BATTVEX8"
+}

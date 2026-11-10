@@ -1,0 +1,59 @@
+{
+  "address": "S Lake Rd, Kurunegala",
+  "name": "The Coffee Shop",
+  "coordinates": {
+    "latitude": 7.4949283,
+    "longitude": 80.3573201
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "https://www.instagram.com/thecoffeeshopkurunegala?igsh=MW01NjJlMWJyY2drZw%3D%3D&utm_source=qr",
+  "business_status": "OPEN",
+  "phone": "0703810036",
+  "categories": [
+    "Coffee shop"
+  ],
+  "id": "01M72AFEEFVGSGYGK4AK78YXMZ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Mega Food City",
+  "coordinates": {
+    "latitude": 8.7547391,
+    "longitude": 80.4997047
+  },
+  "address": "QF3X+VRX, Vavuniya",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0242226914",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6KKBT2EJNBZ6X6PPX5V"
+}

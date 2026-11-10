@@ -1,0 +1,58 @@
+{
+  "name": "Wellness Pharmacy & Life Store",
+  "coordinates": {
+    "latitude": 7.8665369,
+    "longitude": 80.6452501
+  },
+  "address": "Court Junction, Dambulla 21108",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0710124974",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSPMYCGY65RAEHGPBJVMM"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "39 Hirimbura Cross Rd, Galle 80000",
+  "name": "R.S.Grocery",
+  "coordinates": {
+    "latitude": 6.0591931,
+    "longitude": 80.218813
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777153625",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AC7813K5PJWMZ2NA50MQP"
+}

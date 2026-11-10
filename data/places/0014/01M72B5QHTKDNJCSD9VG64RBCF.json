@@ -1,0 +1,58 @@
+{
+  "name": "Pizza Picasso",
+  "coordinates": {
+    "latitude": 7.0525706999999995,
+    "longitude": 80.5361374
+  },
+  "address": "3G3P+2FC, Nawalapitiya",
+  "categories": [
+    "Pizza restaurant"
+  ],
+  "phone": "0705928009",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5QHTKDNJCSD9VG64RBCF"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Medical Centre",
+  "coordinates": {
+    "latitude": 7.5009421,
+    "longitude": 81.3252353
+  },
+  "address": "G82G+93H",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0774429140",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–8 AM",
+        "4:30–8:31 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–8 AM",
+        "4:30–8:31 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–8 AM",
+        "4:30–8:31 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–8 AM",
+        "4:30–8:31 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–8 AM",
+        "4:30–8:31 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–8 AM",
+        "4:30–8:31 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–8 AM",
+        "4:30–8:31 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4XW03HTPPKKV3G5QJ5TA"
+}

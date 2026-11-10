@@ -1,0 +1,59 @@
+{
+  "address": "William Gopallawa Mawatha, Kandy",
+  "name": "Royal Garden Mall Coffee Shop",
+  "coordinates": {
+    "latitude": 7.2743182,
+    "longitude": 80.61301139999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0817388300",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "id": "01M72AA6JYY06E9DT6RZFGTNTH"
+}

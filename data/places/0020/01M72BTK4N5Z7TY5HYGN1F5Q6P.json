@@ -1,0 +1,58 @@
+{
+  "name": "New Saraswathy Cafe",
+  "coordinates": {
+    "latitude": 9.7029287,
+    "longitude": 80.06846829999999
+  },
+  "address": "P339+59G, Jaffna",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0212232400",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTK4N5Z7TY5HYGN1F5Q6P"
+}

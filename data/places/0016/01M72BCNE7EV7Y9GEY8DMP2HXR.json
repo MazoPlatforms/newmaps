@@ -1,0 +1,58 @@
+{
+  "name": "Little Moon Restaurant",
+  "coordinates": {
+    "latitude": 6.036876299999999,
+    "longitude": 80.8014249
+  },
+  "address": "No 131 Pagngnawasa Mawatha, Tangalle 82200",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0717686024",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE7EV7Y9GEY8DMP2HXR"
+}

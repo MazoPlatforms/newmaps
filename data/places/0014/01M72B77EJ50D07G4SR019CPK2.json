@@ -1,0 +1,58 @@
+{
+  "name": "Charlie's Heaven Cafe",
+  "coordinates": {
+    "latitude": 6.1431116,
+    "longitude": 80.09992009999999
+  },
+  "address": "43VX+5XV, 149 Galle Rd, Hikkaduwa 80240",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0778497718",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77EJ50D07G4SR019CPK2"
+}

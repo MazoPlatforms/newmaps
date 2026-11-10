@@ -1,0 +1,61 @@
+{
+  "name": "New Crescent Hardware Store",
+  "coordinates": {
+    "latitude": 6.8499921,
+    "longitude": 79.8750341
+  },
+  "address": "215 A Srimath D.B.Jayathilake Mawatha, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Building materials supplier",
+    "Bathroom supply store",
+    "Electronics store",
+    "Paint store"
+  ],
+  "phone": "0769001732",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAYXHDFSR1DRE62RE2CPP"
+}

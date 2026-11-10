@@ -1,0 +1,62 @@
+{
+  "name": "Super Salon",
+  "coordinates": {
+    "latitude": 6.7975692,
+    "longitude": 79.88909269999999
+  },
+  "address": "15 G Bandaranayake Mawatha, Moratuwa 10400",
+  "categories": [
+    "Barber shop",
+    "Hairdresser",
+    "Beauty salon",
+    "Nail salon",
+    "Skin care clinic"
+  ],
+  "phone": "0777002135",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCDG6M0A9DE2RBBW9XDVY"
+}

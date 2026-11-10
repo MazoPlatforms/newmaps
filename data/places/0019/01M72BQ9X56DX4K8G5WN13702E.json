@@ -1,0 +1,65 @@
+{
+  "name": "Medicare Medical Center",
+  "coordinates": {
+    "latitude": 8.3115917,
+    "longitude": 80.4218762
+  },
+  "address": "NO.622 Airport Rd, Anuradhapura",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0773419589",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–9 AM",
+        "5–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9X56DX4K8G5WN13702E"
+}

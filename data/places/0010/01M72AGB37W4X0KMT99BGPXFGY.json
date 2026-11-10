@@ -1,0 +1,59 @@
+{
+  "name": "Nugegoda Post Office",
+  "coordinates": {
+    "latitude": 6.871516499999999,
+    "longitude": 79.88977249999999
+  },
+  "address": "VVCQ+JW2, Stanley Tilakaratne Mawatha, Nugegoda",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0112852719",
+  "website": "http://www.slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AGB37W4X0KMT99BGPXFGY"
+}

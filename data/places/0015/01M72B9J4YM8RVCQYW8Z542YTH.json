@@ -1,0 +1,59 @@
+{
+  "name": "Ayurveda Medical Center And Ayurveda Pharmacy",
+  "coordinates": {
+    "latitude": 5.9914572,
+    "longitude": 80.4173371
+  },
+  "address": "Egodhawaththa Moodugamuwa, Weligama 81700",
+  "categories": [
+    "Public medical center",
+    "Surgical center"
+  ],
+  "phone": "0774510420",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J4YM8RVCQYW8Z542YTH"
+}

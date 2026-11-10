@@ -1,0 +1,62 @@
+{
+  "name": "Piyarathna Service",
+  "coordinates": {
+    "latitude": 6.705416,
+    "longitude": 79.94470179999999
+  },
+  "address": "No.265, Pamunugama, 265 Horana Rd, Panadura 12500",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto repair shop",
+    "Auto tune up service",
+    "Vehicle inspection service",
+    "Car wash"
+  ],
+  "phone": "0778872968",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0X5EKH6VSA3VTM6T9XSN"
+}

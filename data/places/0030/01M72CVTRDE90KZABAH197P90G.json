@@ -1,0 +1,58 @@
+{
+  "name": "Salon D Hambantota",
+  "coordinates": {
+    "latitude": 6.1257069,
+    "longitude": 81.1240708
+  },
+  "address": "44/1 Hospital St, Hambantota 82000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0719406662",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CVTRDE90KZABAH197P90G"
+}

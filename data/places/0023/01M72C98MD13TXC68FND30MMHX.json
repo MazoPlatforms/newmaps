@@ -1,0 +1,58 @@
+{
+  "name": "Aura - The Beauty Salon",
+  "coordinates": {
+    "latitude": 6.8892487,
+    "longitude": 79.8730721
+  },
+  "address": "40/1 Chitra Ln, Colombo 00500",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0715305753",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MD13TXC68FND30MMHX"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "HNB KURUNEGALA ATM , CDM & Cheque Deposit",
+  "coordinates": {
+    "latitude": 7.4884454,
+    "longitude": 80.362279
+  },
+  "address": "NO.06 St. Anne's Road, Kurunegala",
+  "categories": [
+    "ATM"
+  ],
+  "website": "http://www.hnb.net/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKX3PAEPSN1F2V6HQJABN"
+}

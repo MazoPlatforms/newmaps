@@ -1,0 +1,59 @@
+{
+  "name": "Sushi Kai",
+  "coordinates": {
+    "latitude": 6.891522999999999,
+    "longitude": 79.86729199999999
+  },
+  "address": "127 Thimbirigasyaya Rd, Colombo 00500",
+  "categories": [
+    "Japanese restaurant"
+  ],
+  "phone": "0112081918",
+  "website": "https://www.facebook.com/SushiKaiSrilanka",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZH69ZQKTT36BP3KJ43B"
+}

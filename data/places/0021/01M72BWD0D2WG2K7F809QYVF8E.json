@@ -1,0 +1,58 @@
+{
+  "name": "Library, Vavuniya Campus",
+  "coordinates": {
+    "latitude": 8.7555943,
+    "longitude": 80.4100979
+  },
+  "address": "QC46+62Q, Vavuniya",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0243201199",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWD0D2WG2K7F809QYVF8E"
+}

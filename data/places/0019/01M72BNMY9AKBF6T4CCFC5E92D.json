@@ -1,0 +1,58 @@
+{
+  "name": "Sun Rise Super Market",
+  "coordinates": {
+    "latitude": 7.9935582,
+    "longitude": 79.847865
+  },
+  "address": "P2/559, Mullai Scheme, Palavi",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0701299978",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY9AKBF6T4CCFC5E92D"
+}

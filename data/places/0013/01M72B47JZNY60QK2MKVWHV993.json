@@ -1,0 +1,60 @@
+{
+  "name": "Caffera",
+  "coordinates": {
+    "latitude": 6.9584386,
+    "longitude": 80.7729408
+  },
+  "address": "No 1 PBC Hwy, Nuwara Eliya 22200",
+  "categories": [
+    "Coffee shop",
+    "Restaurant"
+  ],
+  "phone": "0522223724",
+  "website": "https://www.caffera.net/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B47JZNY60QK2MKVWHV993"
+}

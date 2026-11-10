@@ -1,0 +1,60 @@
+{
+  "name": "Premium Garage",
+  "coordinates": {
+    "latitude": 6.8780183,
+    "longitude": 79.8768391
+  },
+  "address": "116 High Level Rd, Colombo 00500",
+  "categories": [
+    "Auto repair shop",
+    "Car wash",
+    "Pressure washing service"
+  ],
+  "phone": "0703018020",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDXTMBRHJJ23R8JE3GDF"
+}

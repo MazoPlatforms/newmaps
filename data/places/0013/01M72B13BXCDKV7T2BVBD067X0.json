@@ -1,0 +1,58 @@
+{
+  "name": "White Elephant Restaurant Beruwala",
+  "coordinates": {
+    "latitude": 6.456517,
+    "longitude": 79.98285709999999
+  },
+  "address": "251 B Maradana Rd, Beruwala 12070",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777064004",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13BXCDKV7T2BVBD067X0"
+}

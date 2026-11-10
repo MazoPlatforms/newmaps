@@ -1,0 +1,62 @@
+{
+  "name": "Rise - Italian Pizzeria",
+  "coordinates": {
+    "latitude": 5.972808,
+    "longitude": 80.4416964
+  },
+  "address": "Matara Rd, Weligama 81700",
+  "categories": [
+    "Pizza restaurant",
+    "Boutique",
+    "Clothing store",
+    "Italian restaurant"
+  ],
+  "phone": "0412260337",
+  "website": "https://www.risesrilanka.com/italian-foods-in-weligama",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPS46F8677PJ5VGCFE99"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Paragon Super Mart",
+  "coordinates": {
+    "latitude": 6.863300799999999,
+    "longitude": 79.8679827
+  },
+  "address": "72 Hospital Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0777771763",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7VF2MNSVCNCB7CHMTCB"
+}

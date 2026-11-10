@@ -1,0 +1,59 @@
+{
+  "address": "19/a Jayarathna Road, Negombo 11500",
+  "name": "Snap Basket Mini Supermarket",
+  "coordinates": {
+    "latitude": 7.215853999999999,
+    "longitude": 79.8544179
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0786464966",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72AECKY9EK5GD6ZQG1NX4ZB"
+}

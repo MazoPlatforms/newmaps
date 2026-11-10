@@ -1,0 +1,62 @@
+{
+  "name": "BRIZO Beach Restaurant Mirissa",
+  "coordinates": {
+    "latitude": 5.944854599999999,
+    "longitude": 80.4595156
+  },
+  "address": "Junction, Udupila Road, Mirissa 81740",
+  "categories": [
+    "Seafood restaurant",
+    "Cocktail bar",
+    "Oyster bar restaurant",
+    "Restaurant"
+  ],
+  "phone": "0766615710",
+  "website": "https://www.brizomirissa.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90X4J8WQ3AP5WG9S137C"
+}

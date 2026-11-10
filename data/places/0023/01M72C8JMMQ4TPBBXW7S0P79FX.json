@@ -1,0 +1,59 @@
+{
+  "name": "ABC Computers (PVT) Ltd",
+  "coordinates": {
+    "latitude": 6.9025574,
+    "longitude": 79.8764704
+  },
+  "address": "410/81 A Bauddhaloka Mawatha, Colombo 00700",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0114710033",
+  "website": "http://www.abc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JMMQ4TPBBXW7S0P79FX"
+}

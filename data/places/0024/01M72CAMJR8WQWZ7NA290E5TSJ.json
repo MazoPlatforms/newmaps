@@ -1,0 +1,59 @@
+{
+  "name": "Computer HUB",
+  "coordinates": {
+    "latitude": 6.868303099999999,
+    "longitude": 79.88390079999999
+  },
+  "address": "No 179/2B Dutugemunu St, Nugegoda 10250",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0777351284",
+  "website": "http://www.computerhub.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAMJR8WQWZ7NA290E5TSJ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Matale Nursing Home",
+  "coordinates": {
+    "latitude": 7.463708899999999,
+    "longitude": 80.6260156
+  },
+  "address": "95A Kandy Rd, Matale",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0662222460",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3QC7CXFSCGSVWXS8BYJD"
+}

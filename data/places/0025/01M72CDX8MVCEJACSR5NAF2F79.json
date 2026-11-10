@@ -1,0 +1,60 @@
+{
+  "name": "Western PVC",
+  "coordinates": {
+    "latitude": 6.8759413,
+    "longitude": 79.89240509999999
+  },
+  "address": "15 Pagoda Rd, Nugegoda 10250",
+  "categories": [
+    "Building materials supplier"
+  ],
+  "phone": "0727457860",
+  "website": "http://www.westernpvc.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 PM",
+        "2–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDX8MVCEJACSR5NAF2F79"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Barber's Heaven",
+  "coordinates": {
+    "latitude": 6.970195599999999,
+    "longitude": 80.7843223
+  },
+  "address": "No 124 udapussalla road, Nuwara Eliya 22200",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0770775280",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:58 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPP1DYSA2H227B9JG5FNC"
+}

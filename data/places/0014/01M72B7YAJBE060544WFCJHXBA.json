@@ -1,0 +1,59 @@
+{
+  "name": "114 Beach Restaurant",
+  "coordinates": {
+    "latitude": 6.2179196999999995,
+    "longitude": 80.0574802
+  },
+  "address": "Galle Road. Madampe, Ambalangoda 80300",
+  "categories": [
+    "Western restaurant"
+  ],
+  "phone": "0773370250",
+  "website": "https://ballaratvillas.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YAJBE060544WFCJHXBA"
+}

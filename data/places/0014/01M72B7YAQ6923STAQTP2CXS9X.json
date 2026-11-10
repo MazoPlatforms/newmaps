@@ -1,0 +1,57 @@
+{
+  "name": "The Ranch Cafe",
+  "coordinates": {
+    "latitude": 6.2414014,
+    "longitude": 80.05242899999999
+  },
+  "address": "https://maps.app.goo.gl/cHfTN4asmmRPFuyW6?g_st=ic, Ambalangoda 80300",
+  "categories": [
+    "Cafe"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YAQ6923STAQTP2CXS9X"
+}

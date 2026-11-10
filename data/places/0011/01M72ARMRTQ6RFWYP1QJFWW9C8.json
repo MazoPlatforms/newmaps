@@ -1,0 +1,58 @@
+{
+  "name": "Garage 52Racing",
+  "coordinates": {
+    "latitude": 6.8189212,
+    "longitude": 79.87732249999999
+  },
+  "address": "Ko, 26 2nd Lane",
+  "categories": [
+    "Mechanic"
+  ],
+  "phone": "0777896460",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:15 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRTQ6RFWYP1QJFWW9C8"
+}

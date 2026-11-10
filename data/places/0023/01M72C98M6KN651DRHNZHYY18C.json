@@ -1,0 +1,58 @@
+{
+  "name": "Barbería",
+  "coordinates": {
+    "latitude": 6.926802899999999,
+    "longitude": 79.8682451
+  },
+  "address": "107 Hikkaduwe Sri Sumangala Himi Mawatha, Colombo 01000",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0764645333",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M6KN651DRHNZHYY18C"
+}

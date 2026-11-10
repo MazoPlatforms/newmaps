@@ -1,0 +1,60 @@
+{
+  "name": "Office One",
+  "coordinates": {
+    "latitude": 6.984550199999999,
+    "longitude": 81.0586903
+  },
+  "address": "No 18, 1 Bank Road, Badulla 90000",
+  "categories": [
+    "Computer store",
+    "Computer service"
+  ],
+  "phone": "0775599987",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11:45 AM",
+        "1:30–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWWBHXNG70XFFK8NYFZ7F"
+}

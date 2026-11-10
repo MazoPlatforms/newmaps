@@ -1,0 +1,59 @@
+{
+  "name": "Misrin Online Store",
+  "coordinates": {
+    "latitude": 8.039239199999999,
+    "longitude": 79.8344503
+  },
+  "address": "No 17, Lane 07 Spill Rd, Puttalam",
+  "categories": [
+    "General store"
+  ],
+  "phone": "0757530603",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM",
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY9G735NQW6AYP8KJ4Q"
+}

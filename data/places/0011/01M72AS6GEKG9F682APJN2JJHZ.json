@@ -1,0 +1,65 @@
+{
+  "name": "Carrington Food",
+  "coordinates": {
+    "latitude": 6.7724041999999995,
+    "longitude": 79.8848719
+  },
+  "address": "QVCM+XW9, Moratuwa 10400",
+  "categories": [
+    "Health food restaurant"
+  ],
+  "phone": "0112644400",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "5:30–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "5:30–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "5:30–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "5:30–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "5:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "5:30–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "5:30–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6GEKG9F682APJN2JJHZ"
+}

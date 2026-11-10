@@ -1,0 +1,58 @@
+{
+  "name": "Dental Chambers",
+  "coordinates": {
+    "latitude": 6.9167084,
+    "longitude": 79.86192559999999
+  },
+  "address": "8, 207 Srimath Anagarika Dharmapala Mawatha, Colombo 00700",
+  "categories": [
+    "Dental clinic"
+  ],
+  "phone": "0112692562",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG010WMXWBVX11SSM6J6Y"
+}

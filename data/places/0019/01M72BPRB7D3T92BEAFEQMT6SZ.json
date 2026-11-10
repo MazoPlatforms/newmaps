@@ -1,0 +1,58 @@
+{
+  "name": "Taste Corner",
+  "coordinates": {
+    "latitude": 8.3227747,
+    "longitude": 80.4156983
+  },
+  "address": "8CF8+474, Anuradhapura",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0771424473",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRB7D3T92BEAFEQMT6SZ"
+}

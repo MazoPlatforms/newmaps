@@ -1,0 +1,59 @@
+{
+  "name": "Isira Coffee Shop & Restaurant",
+  "coordinates": {
+    "latitude": 6.1350821,
+    "longitude": 80.10032509999999
+  },
+  "address": "6 Sarath Goonawardana Mawatha, Hikkaduwa",
+  "categories": [
+    "Restaurant",
+    "Coffee shop"
+  ],
+  "phone": "0713241600",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77ENH5B2GRX7C3ZX56D7"
+}

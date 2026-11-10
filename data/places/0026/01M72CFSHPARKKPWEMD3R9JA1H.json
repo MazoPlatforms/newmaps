@@ -1,0 +1,58 @@
+{
+  "name": "Raam Printers",
+  "coordinates": {
+    "latitude": 7.215001,
+    "longitude": 79.8427387
+  },
+  "address": "9 Ave Maria Rd, Negombo 11500",
+  "categories": [
+    "Print shop"
+  ],
+  "phone": "0765702757",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFSHPARKKPWEMD3R9JA1H"
+}

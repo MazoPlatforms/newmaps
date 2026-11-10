@@ -1,0 +1,65 @@
+{
+  "name": "M.T.P.Food City",
+  "coordinates": {
+    "latitude": 8.0314643,
+    "longitude": 79.8397341
+  },
+  "address": "71D A12, Puttalam",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0325685786",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 PM",
+        "4–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY56Z2B452EJ6N5104H"
+}

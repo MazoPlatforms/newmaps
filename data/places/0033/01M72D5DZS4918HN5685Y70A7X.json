@@ -1,0 +1,59 @@
+{
+  "name": "Abans Service Center Vavuniya",
+  "coordinates": {
+    "latitude": 8.757776699999999,
+    "longitude": 80.48716
+  },
+  "address": "15C Amman Kovil Rd, Vavuniya",
+  "categories": [
+    "Repair service"
+  ],
+  "phone": "0112222888",
+  "website": "https://www.abanservice.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5DZS4918HN5685Y70A7X"
+}

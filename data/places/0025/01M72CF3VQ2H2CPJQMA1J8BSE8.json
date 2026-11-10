@@ -1,0 +1,58 @@
+{
+  "name": "Ayumi Computers",
+  "coordinates": {
+    "latitude": 7.2036834,
+    "longitude": 79.8709799
+  },
+  "address": "240/3,Gamunu Mawatha Akkarapanaha, Kimbulapitiya Rd, Negombo 11500",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0777913204",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VQ2H2CPJQMA1J8BSE8"
+}

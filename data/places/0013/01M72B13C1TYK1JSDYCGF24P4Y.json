@@ -1,0 +1,58 @@
+{
+  "name": "Diyathra Bay",
+  "coordinates": {
+    "latitude": 6.483153499999999,
+    "longitude": 79.9835224
+  },
+  "address": "A2, Beruwala",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777990999",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13C1TYK1JSDYCGF24P4Y"
+}

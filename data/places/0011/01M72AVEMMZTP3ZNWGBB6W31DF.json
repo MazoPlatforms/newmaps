@@ -1,0 +1,59 @@
+{
+  "name": "UK Super",
+  "coordinates": {
+    "latitude": 6.8784404,
+    "longitude": 79.90015319999999
+  },
+  "address": "272 Kotte Rd, Nugegoda 10100",
+  "categories": [
+    "Grocery store",
+    "Store"
+  ],
+  "phone": "0771666661",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEMMZTP3ZNWGBB6W31DF"
+}

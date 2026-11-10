@@ -1,0 +1,58 @@
+{
+  "name": "Commercial Bank ATM",
+  "coordinates": {
+    "latitude": 6.936295599999999,
+    "longitude": 79.85009199999999
+  },
+  "address": "1st Cross St, Colombo",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0112336770",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQRAJMMVSEX91Q3W5GEG"
+}

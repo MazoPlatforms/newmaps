@@ -1,0 +1,58 @@
+{
+  "name": "Salon Priyasha",
+  "coordinates": {
+    "latitude": 7.4674508,
+    "longitude": 80.6234896
+  },
+  "address": "Co-operative (upstair)Centre, 15/1/1 Bulding Trinomialee street, Matale 21000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0777145365",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNZDYKG2SW84S3D8ZZCA5"
+}

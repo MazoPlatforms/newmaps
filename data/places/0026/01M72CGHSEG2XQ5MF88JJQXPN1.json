@@ -1,0 +1,58 @@
+{
+  "name": "Saviya Hardware Stores",
+  "coordinates": {
+    "latitude": 7.0900279,
+    "longitude": 79.99033
+  },
+  "address": "25, Kumarathunga Mawatha, Gampaha",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0332239483",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGHSEG2XQ5MF88JJQXPN1"
+}

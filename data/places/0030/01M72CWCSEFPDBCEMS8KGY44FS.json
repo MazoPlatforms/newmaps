@@ -1,0 +1,58 @@
+{
+  "name": "City Hardware Store",
+  "coordinates": {
+    "latitude": 6.1550801,
+    "longitude": 80.69731929999999
+  },
+  "address": "5M4W+2WP, Beliatta - Walasmulla Rd, Walasmulla",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0711674775",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWCSEFPDBCEMS8KGY44FS"
+}

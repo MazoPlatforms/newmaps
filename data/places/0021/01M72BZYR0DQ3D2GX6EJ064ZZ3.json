@@ -1,0 +1,58 @@
+{
+  "name": "M.M. Hotel & Bakery",
+  "coordinates": {
+    "latitude": 7.3658624999999995,
+    "longitude": 81.80495069999999
+  },
+  "address": "9R83+8XW, Sammanthurai",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0757422115",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BZYR0DQ3D2GX6EJ064ZZ3"
+}

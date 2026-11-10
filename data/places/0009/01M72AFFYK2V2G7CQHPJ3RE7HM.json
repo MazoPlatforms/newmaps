@@ -1,0 +1,59 @@
+{
+  "name": "VSK Stores",
+  "coordinates": {
+    "latitude": 6.9394712,
+    "longitude": 79.8542889
+  },
+  "address": "12 Wolfendhal St, Colombo 01300",
+  "categories": [
+    "Grocery store",
+    "Wholesaler"
+  ],
+  "phone": "0702899366",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–2:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AFFYK2V2G7CQHPJ3RE7HM"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "HNB Assurance",
+  "coordinates": {
+    "latitude": 8.341011,
+    "longitude": 80.4114641
+  },
+  "address": "249,maithripala Senanayake Mawatha, 2nd Floor, Anuradhapura 50000",
+  "categories": [
+    "Insurance agency"
+  ],
+  "phone": "0252223494",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQFZND9QYA53PYCNPGMTR"
+}

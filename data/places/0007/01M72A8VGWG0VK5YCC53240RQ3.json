@@ -1,0 +1,61 @@
+{
+  "address": "Bay X, TRACE Expert City, Colombo 01000",
+  "name": "The Third Place",
+  "coordinates": {
+    "latitude": 6.9296527999999995,
+    "longitude": 79.861992
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0789426663",
+  "categories": [
+    "Community center",
+    "Coffee shop",
+    "Coworking space",
+    "Event venue"
+  ],
+  "id": "01M72A8VGWG0VK5YCC53240RQ3"
+}

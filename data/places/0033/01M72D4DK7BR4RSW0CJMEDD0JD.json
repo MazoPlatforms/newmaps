@@ -1,0 +1,59 @@
+{
+  "name": "Daily Fashion",
+  "coordinates": {
+    "latitude": 9.681832199999999,
+    "longitude": 80.0396286
+  },
+  "address": "Jaffna-Point Pedro Rd, Kalviyankadu 40000",
+  "categories": [
+    "Dress store",
+    "Clothing store"
+  ],
+  "phone": "0768661515",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4DK7BR4RSW0CJMEDD0JD"
+}

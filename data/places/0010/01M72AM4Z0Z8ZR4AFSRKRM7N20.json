@@ -1,0 +1,59 @@
+{
+  "name": "Cafe Ivy",
+  "coordinates": {
+    "latitude": 6.9836354,
+    "longitude": 79.8972053
+  },
+  "address": "210 Averiwatta - Hunupitiya - Wattala Junk Rd, Wattala 11300",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0112941281",
+  "website": "http://www.cafeivylk.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AM4Z0Z8ZR4AFSRKRM7N20"
+}

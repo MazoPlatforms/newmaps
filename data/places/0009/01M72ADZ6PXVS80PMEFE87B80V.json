@@ -1,0 +1,59 @@
+{
+  "address": "Airport Road, Yatiyana, Minuwangoda",
+  "name": "Sasha Food Court",
+  "coordinates": {
+    "latitude": 7.1733194,
+    "longitude": 79.9344347
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0760679889",
+  "categories": [
+    "Restaurant",
+    "Food court"
+  ],
+  "id": "01M72ADZ6PXVS80PMEFE87B80V"
+}

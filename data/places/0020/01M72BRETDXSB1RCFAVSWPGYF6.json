@@ -1,0 +1,58 @@
+{
+  "name": "S.A.L.Super Marcket",
+  "coordinates": {
+    "latitude": 7.9050404,
+    "longitude": 81.0623447
+  },
+  "address": "294/4 Batticaloa Road, Gallella, Polonnaruwa",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0705752225",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRETDXSB1RCFAVSWPGYF6"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Salon Mosa",
+  "coordinates": {
+    "latitude": 6.2318245999999995,
+    "longitude": 80.05391689999999
+  },
+  "address": "70 Main St, Ambalangoda",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0774305300",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–6:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–6:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6:30 AM",
+        "9 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CSP3HRZ02XNJQFEF7TV31"
+}

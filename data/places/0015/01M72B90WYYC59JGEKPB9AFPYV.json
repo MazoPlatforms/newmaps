@@ -1,0 +1,59 @@
+{
+  "name": "Keells Super - Matara 2",
+  "coordinates": {
+    "latitude": 5.947121999999999,
+    "longitude": 80.5632004
+  },
+  "address": "No. 361 Welewatta, Matara",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0412234654",
+  "website": "http://www.keellssuper.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WYYC59JGEKPB9AFPYV"
+}

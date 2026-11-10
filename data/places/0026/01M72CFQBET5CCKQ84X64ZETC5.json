@@ -1,0 +1,58 @@
+{
+  "name": "Loyola Sports Complex",
+  "coordinates": {
+    "latitude": 7.2534830999999995,
+    "longitude": 79.8534598
+  },
+  "address": "7V33+J87, 305 College Entrance, Negombo",
+  "categories": [
+    "Sports complex"
+  ],
+  "phone": "0317223226",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFQBET5CCKQ84X64ZETC5"
+}

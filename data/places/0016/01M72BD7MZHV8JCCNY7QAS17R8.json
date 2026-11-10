@@ -1,0 +1,58 @@
+{
+  "name": "DS Auto Care",
+  "coordinates": {
+    "latitude": 6.037713,
+    "longitude": 80.7937609
+  },
+  "address": "21, 24 Danketiya Rd, Tangalle",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0743205752",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BD7MZHV8JCCNY7QAS17R8"
+}

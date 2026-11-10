@@ -1,0 +1,61 @@
+{
+  "name": "Nebula Supermarket",
+  "coordinates": {
+    "latitude": 6.4285603,
+    "longitude": 80.0006653
+  },
+  "address": "88 Aluthgama -Welipenna - Mathugama, Road, Aluthgama 12050",
+  "categories": [
+    "Grocery store",
+    "Food and beverage exporter",
+    "Modern European restaurant"
+  ],
+  "phone": "0342275607",
+  "website": "http://www.nebula88.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ1F2C8ZBCJSP9CV5QF0M"
+}

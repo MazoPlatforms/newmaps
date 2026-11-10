@@ -1,0 +1,60 @@
+{
+  "name": "Fine Store",
+  "coordinates": {
+    "latitude": 7.477003799999999,
+    "longitude": 80.3439741
+  },
+  "address": "1st floor, Malshani building, Negombo Rd, Kurunegala 60000",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0715511558",
+  "website": "http://www.finestore.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12:30 PM",
+        "1:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HGFBDWF32RP6DMF0QKJ"
+}

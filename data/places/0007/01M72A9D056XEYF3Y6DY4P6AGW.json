@@ -1,0 +1,58 @@
+{
+  "address": "418 R. A. De Mel Mawatha, Colombo",
+  "name": "Chinese Supermarket",
+  "coordinates": {
+    "latitude": 6.905682499999999,
+    "longitude": 79.8534444
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0114175456",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D056XEYF3Y6DY4P6AGW"
+}

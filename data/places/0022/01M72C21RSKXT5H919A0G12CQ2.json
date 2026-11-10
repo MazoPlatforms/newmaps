@@ -1,0 +1,58 @@
+{
+  "name": "Mpm Shopping Center",
+  "coordinates": {
+    "latitude": 6.8332456,
+    "longitude": 81.82724929999999
+  },
+  "address": "Panama road Main Street Passaradichani, Pottuvil 32500",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0788306389",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–9:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C21RSKXT5H919A0G12CQ2"
+}

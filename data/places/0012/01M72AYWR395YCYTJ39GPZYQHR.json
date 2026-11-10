@@ -1,0 +1,59 @@
+{
+  "name": "Café Meowkies",
+  "coordinates": {
+    "latitude": 6.577560699999999,
+    "longitude": 79.9628328
+  },
+  "address": "390, Galle Road, Main Street, 12000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0719118611",
+  "website": "https://www.instagram.com/meowkies__?igsh=aHIwZnVlMGttMm8x&utm_source=qr",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYWR395YCYTJ39GPZYQHR"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Shanthi Clinic",
+  "coordinates": {
+    "latitude": 8.7619559,
+    "longitude": 80.4920659
+  },
+  "address": "109 Mannar Rd, Vavuniya",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0242222777",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW991XXN1NF6XJFMQZW3Q"
+}

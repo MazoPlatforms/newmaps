@@ -1,0 +1,60 @@
+{
+  "address": "Kurunegala",
+  "name": "CM Bakers And Restaurant",
+  "coordinates": {
+    "latitude": 7.5023341,
+    "longitude": 80.3464692
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "https://cmbakers.com/",
+  "business_status": "OPEN",
+  "phone": "0372225753",
+  "categories": [
+    "Bakery",
+    "Cafe"
+  ],
+  "id": "01M72AFEDBFR22KVP8YAS9613T"
+}

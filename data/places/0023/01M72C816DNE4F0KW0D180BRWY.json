@@ -1,0 +1,59 @@
+{
+  "name": "House Of Fashions",
+  "coordinates": {
+    "latitude": 6.8893477,
+    "longitude": 79.8592334
+  },
+  "address": "28 R. A. De Mel Mawatha, Colombo 00500",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0112580620",
+  "website": "https://www.houseoffashions.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C816DNE4F0KW0D180BRWY"
+}

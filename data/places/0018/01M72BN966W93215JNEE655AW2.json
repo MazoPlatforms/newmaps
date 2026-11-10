@@ -1,0 +1,58 @@
+{
+  "name": "Sandamali Hotel & Bakery",
+  "coordinates": {
+    "latitude": 8.0542322,
+    "longitude": 79.95132339999999
+  },
+  "address": "Karuwalagaswewa 61314",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0762674605",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN966W93215JNEE655AW2"
+}

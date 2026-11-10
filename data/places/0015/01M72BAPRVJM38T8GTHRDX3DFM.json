@@ -1,0 +1,59 @@
+{
+  "name": "Jay’s Cafe",
+  "coordinates": {
+    "latitude": 5.9738074999999995,
+    "longitude": 80.4285032
+  },
+  "address": "No.327, sappukade, Weligama 81700",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "phone": "0777541760",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPRVJM38T8GTHRDX3DFM"
+}

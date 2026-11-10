@@ -1,0 +1,58 @@
+{
+  "name": "Lulu Saloon",
+  "coordinates": {
+    "latitude": 7.4676532,
+    "longitude": 80.04144289999999
+  },
+  "address": "F29R+3H8, Thissa Mawatha, Kuliyapitiya",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0771221610",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1DZFH1851SC39W8CPKXB"
+}

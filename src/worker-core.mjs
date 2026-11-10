@@ -3,9 +3,12 @@ import { liveDataObjectKey } from './live-data-registry.mjs';
 import { handleRideApi } from './ride-api.mjs';
 import { ifNoneMatchMatches } from './http-validators.mjs';
 import { handleVectorApi } from './vector-tiles.mjs';
+import { fetchGithubDataAsset } from './github-data-assets.mjs';
+import { streamR2PmtilesRange } from './pmtiles-r2.mjs';
 
-const PMTILES_PATH = '/generated/places.pmtiles';
-const PMTILES_RANGE_MANIFEST_PATH = '/generated/places-pmtiles-range.json';
+const PMTILES_PATH = 'generated/places.pmtiles';
+const PMTILES_ROUTE = `/${PMTILES_PATH}`;
+const PMTILES_RANGE_MANIFEST_PATH = 'generated/places-pmtiles-range.json';
 const PMTILES_CHUNK_DIRECTORY = '/generated/places-pmtiles-chunks';
 const BASEMAP_CHUNK_DIRECTORY = '/generated/sri-lanka-basemap-pmtiles-chunks';
 const LIVE_BOOTSTRAP_PATH = '/generated/live-data-manifest.json';
@@ -151,8 +154,27 @@ async function serveLiveData(request, env) {
     }
     return env.ASSETS.fetch(assetRequest);
   }
-  if (!env.DATA_BUCKET) return apiJson({ error: 'Live data storage is not configured.' }, 503);
   if (!['GET', 'HEAD'].includes(request.method)) return apiJson({ error: 'Method not allowed.' }, 405);
+
+  const manifestResponse = await readLiveManifest(request, env);
+  if (!manifestResponse.ok) return noStoreNotFound();
+  const manifest = await manifestResponse.json();
+  const entry = manifest.files?.[path];
+  if (url.searchParams.get('rev') !== manifest.revision || !entry || entry.sha256 !== sha256 || entry.bytes !== expectedBytes) {
+    return noStoreNotFound();
+  }
+  if (entry.storage === 'github') {
+    if (ifNoneMatchMatches(request.headers.get('if-none-match'), `"${sha256}"`)) {
+      return new Response(null, { status: 304, headers: safeVersionedDataHeaders(path, sha256, expectedBytes, entry.content_type) });
+    }
+    return fetchGithubDataAsset({ request, path, revision: manifest.artifact_revision || manifest.revision,
+      entry, origin: env.GITHUB_DATA_ASSET_ORIGIN, fetcher: env.GITHUB_DATA_FETCH || fetch });
+  }
+
+  if (!env.DATA_BUCKET) return apiJson({ error: 'PMTiles storage is not configured.' }, 503);
+  if (entry.storage === 'r2-archive' && path.endsWith('.pmtiles')) {
+    return serveR2PmtilesArchive(request, env, manifest, path, entry);
+  }
 
   let objectKey;
   try { objectKey = liveDataObjectKey(path, sha256); } catch { return apiJson({ error: 'Invalid data path.' }, 400); }
@@ -200,7 +222,7 @@ async function serveLiveData(request, env) {
 
 async function serveLiveAdmin(request, env) {
   const url = new URL(request.url);
-  if (!['POST'].includes(request.method) || !['/api/admin/plan', '/api/admin/publish', '/api/admin/upload'].includes(url.pathname)) {
+  if (!['POST'].includes(request.method) || !['/api/admin/plan', '/api/admin/publish', '/api/admin/upload', '/api/admin/prune'].includes(url.pathname)) {
     return apiJson({ error: 'Not found.' }, 404);
   }
   if (!env.LIVE_DATA_HMAC_SECRET) return apiJson({ error: 'Live data synchronization is not configured.' }, 503);
@@ -218,7 +240,9 @@ async function serveLiveAdmin(request, env) {
     const path = signed.filePath;
     const sha256 = signed.bodySha256;
     const contentType = signed.contentType;
-    if (!env.DATA_BUCKET || !path || !contentType || signed.bytes.byteLength > 32 * 1024 * 1024) {
+    const isPmtilesChunk = path?.startsWith('generated/places-pmtiles-chunks/')
+      || path?.startsWith('generated/sri-lanka-basemap-pmtiles-chunks/');
+    if (!env.DATA_BUCKET || !isPmtilesChunk || !contentType || signed.bytes.byteLength > 2 * 1024 * 1024) {
       return apiJson({ error: 'Invalid data upload.' }, 400);
     }
     let key;
@@ -237,11 +261,92 @@ async function serveLiveAdmin(request, env) {
 
   let payload;
   try { payload = JSON.parse(new TextDecoder().decode(signed.bytes)); } catch { return apiJson({ error: 'Invalid synchronization JSON.' }, 400); }
+  if (url.pathname === '/api/admin/prune') {
+    if (!env.DATA_BUCKET?.list || !env.DATA_BUCKET?.delete || !/^[a-f0-9]{40}$/.test(payload.expected_revision || '')) {
+      return apiJson({ error: 'Invalid PMTiles-only R2 cleanup request.' }, 400);
+    }
+    const current = await registry.fetch(new Request('https://live-data-registry/manifest'));
+    if (!current.ok || (await current.json()).revision !== payload.expected_revision) {
+      return apiJson({ error: 'Live data revision changed before cleanup.' }, 409);
+    }
+    const options = { prefix: 'objects/', limit: 1000 };
+    if (payload.cursor) options.cursor = payload.cursor;
+    const page = await env.DATA_BUCKET.list(options);
+    const remove = [];
+    for (const object of page.objects || []) {
+      const match = /^objects\/[a-f0-9]{64}\/([a-f0-9]+)$/.exec(object.key);
+      if (!match || match[1].length % 2 !== 0) continue;
+      let path;
+      try { path = new TextDecoder('utf-8', { fatal: true }).decode(Uint8Array.from(match[1].match(/../g), (byte) => Number.parseInt(byte, 16))); }
+      catch { continue; }
+      const isPmtiles = path === 'generated/places.pmtiles' || path === 'generated/sri-lanka-basemap.pmtiles'
+        || /^generated\/(?:places|sri-lanka-basemap)-pmtiles-chunks\/[0-9]{5}\.bin$/.test(path);
+      if (!isPmtiles) remove.push(object.key);
+    }
+    if (remove.length) await env.DATA_BUCKET.delete(remove);
+    return apiJson({ deleted_count: remove.length, next_cursor: page.truncated ? page.cursor : null,
+      revision: payload.expected_revision });
+  }
   const registryResponse = await registry.fetch(new Request(`https://live-data-registry/${url.pathname.endsWith('/plan') ? 'plan' : 'publish'}`, {
     method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
   }));
   const body = await registryResponse.arrayBuffer();
   return new Response(body, { status: registryResponse.status, headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
+}
+
+async function serveR2PmtilesArchive(request, env, manifest, path, entry) {
+  if (path !== PMTILES_PATH || !['GET', 'HEAD'].includes(request.method)) return apiJson({ error: 'Not found.' }, 404);
+  if (entry.storage !== 'r2-archive') {
+    if (!env.DATA_BUCKET) return apiJson({ error: 'PMTiles storage is not configured.' }, 503);
+    const headers = new Headers({ 'Accept-Ranges': 'bytes', 'Cache-Control': 'public, max-age=31536000, immutable',
+      'Content-Type': 'application/vnd.pmtiles', ETag: `"${entry.sha256}"`, 'X-Content-Type-Options': 'nosniff' });
+    if (ifNoneMatchMatches(request.headers.get('if-none-match'), headers.get('etag'))) return new Response(null, { status: 304, headers });
+    const rangeHeader = request.headers.get('range');
+    const range = rangeHeader && ifRangeMatches(request, headers) ? parseByteRange(rangeHeader, entry.bytes) : null;
+    if (rangeHeader && ifRangeMatches(request, headers) && !range) return apiRangeNotSatisfiable(entry.bytes, headers);
+    const bounds = range || { start: 0, end: entry.bytes - 1 };
+    const responseHeaders = range ? partialHeaders(headers, bounds.start, bounds.end, entry.bytes) : new Headers(headers);
+    if (request.method === 'HEAD') return new Response(null, { status: range ? 206 : 200, headers: responseHeaders });
+    const object = await env.DATA_BUCKET.get(liveDataObjectKey(path, entry.sha256), range
+      ? { range: { offset: bounds.start, length: bounds.end - bounds.start + 1 } } : undefined);
+    if (!object || object.size !== entry.bytes || object.customMetadata?.sha256 !== entry.sha256
+      || object.customMetadata?.path !== path) return noStoreNotFound();
+    return new Response(object.body, { status: range ? 206 : 200, headers: responseHeaders });
+  }
+  const descriptorPath = PMTILES_RANGE_MANIFEST_PATH;
+  const descriptorEntry = manifest.files?.[descriptorPath];
+  if (!descriptorEntry) return noStoreNotFound();
+  const descriptorResponse = await fetchGithubDataAsset({ request: new Request(request.url, { method: 'GET' }),
+    path: descriptorPath, revision: manifest.artifact_revision || manifest.revision,
+    entry: descriptorEntry, origin: env.GITHUB_DATA_ASSET_ORIGIN, fetcher: env.GITHUB_DATA_FETCH || fetch });
+  if (!descriptorResponse.ok) return new Response(null, { status: 503, headers: { 'Cache-Control': 'no-store' } });
+  const descriptor = await descriptorResponse.json();
+  if (descriptor.format !== 'MazoPMTilesRange/1' || descriptor.sha256 !== entry.sha256
+    || descriptor.bytes !== entry.bytes || !Number.isSafeInteger(descriptor.chunk_size)) return noStoreNotFound();
+  const baseHeaders = new Headers({ 'Accept-Ranges': 'bytes', 'Cache-Control': 'public, max-age=31536000, immutable',
+    'Content-Type': 'application/vnd.pmtiles', ETag: `"${entry.sha256}"`,
+    'X-Content-Type-Options': 'nosniff', 'X-Mazo-Data-SHA256': entry.sha256 });
+  if (ifNoneMatchMatches(request.headers.get('if-none-match'), baseHeaders.get('etag'))) {
+    return new Response(null, { status: 304, headers: baseHeaders });
+  }
+  const rangeHeader = request.headers.get('range');
+  const range = rangeHeader && ifRangeMatches(request, baseHeaders) ? parseByteRange(rangeHeader, entry.bytes) : null;
+  if (rangeHeader && ifRangeMatches(request, baseHeaders) && !range) return apiRangeNotSatisfiable(entry.bytes, baseHeaders);
+  const bounds = range || { start: 0, end: entry.bytes - 1 };
+  const headers = range ? partialHeaders(baseHeaders, bounds.start, bounds.end, entry.bytes) : new Headers(baseHeaders);
+  if (request.method === 'HEAD') return new Response(null, { status: range ? 206 : 200, headers });
+  const body = streamR2PmtilesRange({ env, manifest, archivePath: path, offset: bounds.start,
+    length: bounds.end - bounds.start + 1, chunkSize: descriptor.chunk_size, totalBytes: entry.bytes });
+  return new Response(body, { status: range ? 206 : 200, headers });
+}
+
+async function servePublishedPmtiles(request, env) {
+  const response = await readLiveManifest(request, env);
+  if (!response.ok) return new Response(null, { status: 503, headers: { 'Cache-Control': 'no-store' } });
+  const manifest = await response.json();
+  const entry = manifest.files?.[PMTILES_PATH];
+  if (!entry || (entry.storage !== undefined && entry.storage !== 'r2-archive')) return noStoreNotFound();
+  return serveR2PmtilesArchive(request, env, manifest, PMTILES_PATH, entry);
 }
 
 async function serveLiveApi(request, env) {
@@ -297,7 +402,7 @@ export async function servePmtilesRange(request, assets, chunkSize = 65_536) {
   if (request.method !== 'GET' || !range) return assets.fetch(request);
 
   const manifestUrl = new URL(request.url);
-  manifestUrl.pathname = PMTILES_RANGE_MANIFEST_PATH;
+  manifestUrl.pathname = `/${PMTILES_RANGE_MANIFEST_PATH}`;
   manifestUrl.search = '';
   const manifestResponse = await assets.fetch(new Request(manifestUrl, {
     headers: { 'Accept-Encoding': 'identity' },
@@ -384,7 +489,7 @@ export default {
     if (rideApiResponse) return rideApiResponse;
     if (pathname.startsWith(LIVE_API_PREFIX)) return serveLiveApi(request, env);
     if (pathname.startsWith(`${PMTILES_CHUNK_DIRECTORY}/`) || pathname.startsWith(`${BASEMAP_CHUNK_DIRECTORY}/`)) return noStoreNotFound();
-    if (pathname !== PMTILES_PATH) return env.ASSETS.fetch(request);
-    return servePmtilesRange(request, env.ASSETS, Number(env.PMTILES_CHUNK_SIZE || 65_536));
+    if (pathname !== PMTILES_ROUTE) return env.ASSETS.fetch(request);
+    return servePublishedPmtiles(request, env);
   },
 };

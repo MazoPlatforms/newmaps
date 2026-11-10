@@ -1,0 +1,58 @@
+{
+  "name": "Chill Pepper",
+  "coordinates": {
+    "latitude": 6.8464921,
+    "longitude": 79.8662824
+  },
+  "address": "149/C Galle Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0706507507",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7VGX9CNCMAFZT5AZGQN"
+}

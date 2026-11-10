@@ -1,0 +1,61 @@
+{
+  "name": "Suvika Fertility Centre",
+  "coordinates": {
+    "latitude": 6.8792851,
+    "longitude": 79.88712439999999
+  },
+  "address": "Wijayaba Mawatha, Nugegoda 10250",
+  "categories": [
+    "Fertility clinic",
+    "Health",
+    "Medical clinic"
+  ],
+  "phone": "0117717171",
+  "website": "http://www.suvika.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00YBREFZRSHNDC39G3T"
+}

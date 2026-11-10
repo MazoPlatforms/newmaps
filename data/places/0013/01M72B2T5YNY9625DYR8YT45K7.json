@@ -1,0 +1,59 @@
+{
+  "name": "The Library - University Of Kelaniya",
+  "coordinates": {
+    "latitude": 6.974969499999999,
+    "longitude": 79.9152508
+  },
+  "address": "University of Kelaniya",
+  "categories": [
+    "University library"
+  ],
+  "phone": "0112911918",
+  "website": "https://library.kln.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2T5YNY9625DYR8YT45K7"
+}

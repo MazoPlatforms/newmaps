@@ -1,0 +1,65 @@
+{
+  "name": "Sabri Mart - Discount Centre",
+  "coordinates": {
+    "latitude": 7.2492138,
+    "longitude": 81.8543055
+  },
+  "address": "6VX3+MPM, Main St, Addalaichenai",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0752855444",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11:30 AM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1NAV021XE5WQK00Y0WV3"
+}

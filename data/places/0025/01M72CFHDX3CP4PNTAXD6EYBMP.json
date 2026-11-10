@@ -1,0 +1,59 @@
+{
+  "name": "Ceylon Fengari",
+  "coordinates": {
+    "latitude": 7.2053275999999995,
+    "longitude": 79.8519374
+  },
+  "address": "14 Kimbulapitiya Rd, Negombo",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0779477818",
+  "website": "https://www.ceylonfengari.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHDX3CP4PNTAXD6EYBMP"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Gampaha Botanical Garden",
+  "coordinates": {
+    "latitude": 7.1020723,
+    "longitude": 79.9867907
+  },
+  "address": "112 Gampaha Fly Over, Gampaha",
+  "categories": [
+    "Tourist attraction",
+    "Botanical garden"
+  ],
+  "phone": "0332222316",
+  "website": "http://www.botanicgardens.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYQ0D95GGGXC7BA82AD6A"
+}

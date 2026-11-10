@@ -1,0 +1,61 @@
+{
+  "name": "Belleza",
+  "coordinates": {
+    "latitude": 6.6282099,
+    "longitude": 79.9431213
+  },
+  "address": "Galle Road, Wadduwa 12580",
+  "categories": [
+    "Beauty salon",
+    "Skin care clinic",
+    "Hairdresser"
+  ],
+  "phone": "0711885952",
+  "website": "https://youtube.com/@anupademel",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHTG2RS80G31WX2SM10K8"
+}

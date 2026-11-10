@@ -1,0 +1,60 @@
+{
+  "address": "106 Greens Rd, Negombo 11500",
+  "name": "Real Bombay Sweets",
+  "coordinates": {
+    "latitude": 7.206741,
+    "longitude": 79.8406814
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 PM",
+        "1:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://walker8436.hocoos.com/",
+  "business_status": "OPEN",
+  "phone": "0760515459",
+  "categories": [
+    "Bakery"
+  ],
+  "id": "01M72ADZ5FVQVFAZ3AR3VG80GF"
+}

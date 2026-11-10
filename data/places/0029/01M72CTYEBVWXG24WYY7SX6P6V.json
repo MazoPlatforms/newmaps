@@ -1,0 +1,59 @@
+{
+  "name": "Rosemary Surf Shop",
+  "coordinates": {
+    "latitude": 5.963440599999999,
+    "longitude": 80.40435819999999
+  },
+  "address": "87/3, weligama 81700",
+  "categories": [
+    "Surf shop",
+    "Beach clothing store"
+  ],
+  "phone": "0719891620",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTYEBVWXG24WYY7SX6P6V"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Health Care Medical Center",
+  "coordinates": {
+    "latitude": 6.5257406,
+    "longitude": 80.256681
+  },
+  "address": "G7G4+7MV, Seeladola, Health care medical center, Morapitiya",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0713389379",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:45 AM–6:40 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12:30–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGG40ZRBD01MGMEMY29XM"
+}

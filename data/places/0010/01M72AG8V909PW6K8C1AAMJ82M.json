@@ -1,0 +1,59 @@
+{
+  "name": "Citibank, N.A.",
+  "coordinates": {
+    "latitude": 6.9129561,
+    "longitude": 79.85483359999999
+  },
+  "address": "65C Srimath Anagarika Dharmapala Mawatha, Colombo 00700",
+  "categories": [
+    "Private sector bank"
+  ],
+  "phone": "0117794700",
+  "website": "http://www.citigroup.com/citi/about/countrypresence/sri-lanka.html",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG8V909PW6K8C1AAMJ82M"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon Shenu",
+  "coordinates": {
+    "latitude": 7.2746230999999995,
+    "longitude": 80.67534119999999
+  },
+  "address": "364,illukmodara, Gurudeniya",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0715413725",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQKRNZE0T0ZFGSHF77B"
+}

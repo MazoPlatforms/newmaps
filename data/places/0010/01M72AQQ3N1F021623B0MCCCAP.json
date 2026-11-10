@@ -1,0 +1,58 @@
+{
+  "name": "Lanka Health Care Centre",
+  "coordinates": {
+    "latitude": 6.8401811,
+    "longitude": 79.9284491
+  },
+  "address": "137 Piliyandala Rd, Maharagama 10280",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0713882333",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3N1F021623B0MCCCAP"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Lanka Hardware",
+  "coordinates": {
+    "latitude": 7.3254128,
+    "longitude": 80.62524309999999
+  },
+  "address": "37, New Town, Ranawana road, Katugasthota, Kandy 20000",
+  "categories": [
+    "Hardware store",
+    "Construction material wholesaler"
+  ],
+  "phone": "0812499802",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMTD29PH62BRTQFFGASN4"
+}

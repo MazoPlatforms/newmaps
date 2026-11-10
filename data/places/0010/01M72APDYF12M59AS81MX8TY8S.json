@@ -1,0 +1,58 @@
+{
+  "name": "Devturu Filling Station",
+  "coordinates": {
+    "latitude": 7.005961999999999,
+    "longitude": 79.9574423
+  },
+  "address": "458 Kandy Rd, Kadawatha 11850",
+  "categories": [
+    "Gas station"
+  ],
+  "phone": "0112927993",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDYF12M59AS81MX8TY8S"
+}

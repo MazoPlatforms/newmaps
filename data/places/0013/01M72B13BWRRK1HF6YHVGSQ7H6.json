@@ -1,0 +1,58 @@
+{
+  "name": "Sarwa Family Restaurant",
+  "coordinates": {
+    "latitude": 6.46399,
+    "longitude": 79.9870418
+  },
+  "address": "330 Galle Rd, Beruwala 12070",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0716626628",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–12:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13BWRRK1HF6YHVGSQ7H6"
+}

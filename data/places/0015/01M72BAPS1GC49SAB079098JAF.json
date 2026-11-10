@@ -1,0 +1,58 @@
+{
+  "name": "Cafe AMORE",
+  "coordinates": {
+    "latitude": 5.9732401,
+    "longitude": 80.4294638
+  },
+  "address": "no 15, 4 Samaraweera Pl, Weligama 81700",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0775496647",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPS1GC49SAB079098JAF"
+}

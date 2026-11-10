@@ -1,0 +1,59 @@
+{
+  "name": "LapMart.LK",
+  "coordinates": {
+    "latitude": 7.2983271,
+    "longitude": 80.6364612
+  },
+  "address": "15 Hill St, Kandy",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0761407322",
+  "website": "http://www.lapmart.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHEZ4G7G19M4AQ5ZQJXQ"
+}

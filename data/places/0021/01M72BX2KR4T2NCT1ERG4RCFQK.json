@@ -1,0 +1,59 @@
+{
+  "name": "District General Hospital Mannar",
+  "coordinates": {
+    "latitude": 8.9816618,
+    "longitude": 79.90457359999999
+  },
+  "address": "Thalvupadu - Mannar Rd, Mannar 41000",
+  "categories": [
+    "Government hospital"
+  ],
+  "phone": "0232222261",
+  "website": "http://www.nhsl.health.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX2KR4T2NCT1ERG4RCFQK"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "FocalDive",
+  "coordinates": {
+    "latitude": 8.0412266,
+    "longitude": 79.8401451
+  },
+  "address": "No.078/48, Waun Right, 61300",
+  "categories": [
+    "Software company"
+  ],
+  "phone": "0777432106",
+  "website": "https://focaldive.io/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1PXF0RAQD13ZVMB0ETDQ"
+}

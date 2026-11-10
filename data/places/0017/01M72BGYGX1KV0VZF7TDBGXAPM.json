@@ -1,0 +1,59 @@
+{
+  "name": "MacNara Family Restaurant",
+  "coordinates": {
+    "latitude": 6.679416799999999,
+    "longitude": 80.40677749999999
+  },
+  "address": "8 Warakatota Rd, Ratnapura 70000",
+  "categories": [
+    "Sri Lankan restaurant",
+    "Restaurant"
+  ],
+  "phone": "0452233955",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGYGX1KV0VZF7TDBGXAPM"
+}

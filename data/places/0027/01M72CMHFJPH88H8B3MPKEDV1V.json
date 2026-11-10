@@ -1,0 +1,59 @@
+{
+  "name": "Phonecare Kandy",
+  "coordinates": {
+    "latitude": 7.291561799999999,
+    "longitude": 80.6329552
+  },
+  "address": "Station Rd, Kandy 20000",
+  "categories": [
+    "Mobile phone repair shop",
+    "Cell phone store"
+  ],
+  "website": "https://www.facebook.com/phonecarekandyb22/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHFJPH88H8B3MPKEDV1V"
+}

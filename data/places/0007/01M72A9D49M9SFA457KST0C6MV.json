@@ -1,0 +1,59 @@
+{
+  "address": "Goodwill Martket, 86/11, 11 Keyzer St, Colombo",
+  "name": "The Vietnam Shop",
+  "coordinates": {
+    "latitude": 6.9366701,
+    "longitude": 79.8511281
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://thevietnamshop.appigo.co/",
+  "business_status": "OPEN",
+  "phone": "0777192926",
+  "categories": [
+    "Electronics store"
+  ],
+  "id": "01M72A9D49M9SFA457KST0C6MV"
+}

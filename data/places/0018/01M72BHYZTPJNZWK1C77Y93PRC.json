@@ -1,0 +1,59 @@
+{
+  "name": "Atukorala Bakery & Restaurant",
+  "coordinates": {
+    "latitude": 7.2522803,
+    "longitude": 80.3749476
+  },
+  "address": "Atukorala Building, No 120, Karandupana 71000",
+  "categories": [
+    "Bakery",
+    "Restaurant"
+  ],
+  "phone": "0352228041",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZTPJNZWK1C77Y93PRC"
+}

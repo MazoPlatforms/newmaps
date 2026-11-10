@@ -1,0 +1,60 @@
+{
+  "name": "Cafe By Arena",
+  "coordinates": {
+    "latitude": 6.4435052,
+    "longitude": 79.9920106
+  },
+  "address": "Level 0, 10 Galle Rd, Beruwala 12070",
+  "categories": [
+    "Cafe",
+    "Coffee shop"
+  ],
+  "phone": "0342273214",
+  "website": "https://www.facebook.com/CafeByArena/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13BVMJ7CABFF6GT5N72Y"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Duly Service Center",
+  "coordinates": {
+    "latitude": 6.8015788,
+    "longitude": 79.8820045
+  },
+  "address": "85 Aponso Mawatha, Moratuwa 10400",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0777738043",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATEH2RER79RT66C6MKTDE"
+}

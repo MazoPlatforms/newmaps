@@ -1,0 +1,61 @@
+{
+  "name": "PODS - Food Court",
+  "coordinates": {
+    "latitude": 5.942644,
+    "longitude": 80.5560524
+  },
+  "address": "Beach Rd, Matara 81000",
+  "categories": [
+    "Coffee shop",
+    "Ice cream shop",
+    "Italian restaurant",
+    "Pizza restaurant"
+  ],
+  "phone": "0777673656",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3 PM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WB7WGE15Q9FETYKN6S"
+}

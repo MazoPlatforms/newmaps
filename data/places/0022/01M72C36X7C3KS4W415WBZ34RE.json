@@ -1,0 +1,59 @@
+{
+  "name": "ACA College",
+  "coordinates": {
+    "latitude": 8.5995179,
+    "longitude": 81.2098455
+  },
+  "address": "565, Selvanayakapuram, Trincomalee 31000",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0766012334",
+  "website": "http://acacollege.net/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C36X7C3KS4W415WBZ34RE"
+}

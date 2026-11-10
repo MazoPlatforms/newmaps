@@ -1,0 +1,58 @@
+{
+  "name": "ITEC Solution",
+  "coordinates": {
+    "latitude": 6.927079,
+    "longitude": 79.861243
+  },
+  "address": "113/12 ST Joseph Street, Colombo 01400",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0721027232",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JNF10RPM5GM73FXH902"
+}

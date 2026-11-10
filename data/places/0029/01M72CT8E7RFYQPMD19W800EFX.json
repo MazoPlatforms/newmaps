@@ -1,0 +1,64 @@
+{
+  "name": "iTzone",
+  "coordinates": {
+    "latitude": 5.9456551,
+    "longitude": 80.5635437
+  },
+  "address": "No: 540/B, Tangalle Road , Maddawatta, Matara 81000",
+  "categories": [
+    "Computer repair service",
+    "Computer accessories store",
+    "Computer consultant",
+    "Computer service",
+    "Computer software store",
+    "Computer store",
+    "Data recovery service"
+  ],
+  "phone": "0777418837",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CT8E7RFYQPMD19W800EFX"
+}

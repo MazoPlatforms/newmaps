@@ -1,0 +1,58 @@
+{
+  "name": "Hz Grocery",
+  "coordinates": {
+    "latitude": 6.9693219,
+    "longitude": 79.874099
+  },
+  "address": "480 Ferguson's Rd, colombo 15 01300",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0755924148",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AMPGBPQ3XEYRKWSWPQ2W7"
+}

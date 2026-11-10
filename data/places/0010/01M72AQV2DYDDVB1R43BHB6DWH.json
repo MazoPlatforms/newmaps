@@ -1,0 +1,59 @@
+{
+  "name": "Public Library Dehiwala",
+  "coordinates": {
+    "latitude": 6.8603352,
+    "longitude": 79.86131449999999
+  },
+  "address": "Library Building, 42 Ramanathan Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0112712782",
+  "website": "http://dmmc.lk/library-service/?lang=en",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQV2DYDDVB1R43BHB6DWH"
+}

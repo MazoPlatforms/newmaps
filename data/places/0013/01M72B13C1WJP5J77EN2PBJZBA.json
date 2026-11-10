@@ -1,0 +1,59 @@
+{
+  "name": "Maharaja Sea Food Restaurant",
+  "coordinates": {
+    "latitude": 6.4425943,
+    "longitude": 79.9890297
+  },
+  "address": "1st lane, Kaluwamodara, Beruwala 12070",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0770814131",
+  "website": "http://www.maharajagroups.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13C1WJP5J77EN2PBJZBA"
+}

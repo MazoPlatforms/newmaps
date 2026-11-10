@@ -1,0 +1,57 @@
+{
+  "name": "Sarath Store",
+  "coordinates": {
+    "latitude": 5.975552599999999,
+    "longitude": 80.4283863
+  },
+  "address": "XCGH+69C, Station Rd, Weligama",
+  "categories": [
+    "Market"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30–8:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAYR8BS8HZPDR96XSCK8P"
+}

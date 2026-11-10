@@ -1,0 +1,58 @@
+{
+  "name": "Wimal Garage",
+  "coordinates": {
+    "latitude": 6.038263499999999,
+    "longitude": 80.2147389
+  },
+  "address": "26Q7+8V5, Galle 80000",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0776350533",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:29 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:29 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:29 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:29 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:29 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:29 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6ZWSPZQYYBEF3M95QGW2"
+}

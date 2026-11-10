@@ -1,0 +1,68 @@
+{
+  "name": "Navajeevana Healthcare Centre",
+  "coordinates": {
+    "latitude": 6.8514861,
+    "longitude": 79.8649023
+  },
+  "address": "1, 1 PT De Silva Mawatha, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Medical Center",
+    "Dental clinic",
+    "Laboratory",
+    "Medical clinic",
+    "Pharmacy"
+  ],
+  "phone": "0112733775",
+  "website": "http://navajeevanahealthcare.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12:30 PM",
+        "3:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12:30 PM",
+        "3:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12:30 PM",
+        "3:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12:30 PM",
+        "3:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12:30 PM",
+        "3:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00KXAY7DBNKMP80STH5"
+}

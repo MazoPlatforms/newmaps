@@ -1,0 +1,62 @@
+{
+  "name": "Fish Market Ratnapura",
+  "coordinates": {
+    "latitude": 6.6796172,
+    "longitude": 80.4015582
+  },
+  "address": "Public Market, No.35, Ratnapura 70000",
+  "categories": [
+    "Seafood market",
+    "Fish farm",
+    "Fish store",
+    "Seafood farm",
+    "Seafood wholesaler"
+  ],
+  "phone": "0776601023",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZJFX2Y8ACAPBTGX7TJ8W"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Vonro Enterprises",
+  "coordinates": {
+    "latitude": 6.8458146,
+    "longitude": 79.8713834
+  },
+  "address": "114 Kawdana Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112725152",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–1 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAYXCHBFJ26W1RF9ZA0MM"
+}

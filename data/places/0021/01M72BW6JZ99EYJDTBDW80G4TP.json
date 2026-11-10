@@ -1,0 +1,58 @@
+{
+  "name": "Promo Mart (PVT) Ltd (Supermarket)",
+  "coordinates": {
+    "latitude": 8.7787039,
+    "longitude": 80.4672853
+  },
+  "address": "No-237 Marukkarampalai road, Vavuniya",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0775757311",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6JZ99EYJDTBDW80G4TP"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Dily Salon",
+  "coordinates": {
+    "latitude": 6.7152389999999995,
+    "longitude": 79.9077066
+  },
+  "address": "385 Galle Rd, Panadura 12500",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0702568717",
+  "website": "https://www.facebook.com/dilysalon",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK4223F1V7CS6BKHBH6QN"
+}

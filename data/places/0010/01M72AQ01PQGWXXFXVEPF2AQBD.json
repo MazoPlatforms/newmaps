@@ -1,0 +1,59 @@
+{
+  "name": "Barracuda Sea Food & Grill",
+  "coordinates": {
+    "latitude": 6.861901199999999,
+    "longitude": 79.8598619
+  },
+  "address": "41/2 Wasala Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0770207733",
+  "website": "http://www.barracuda.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ01PQGWXXFXVEPF2AQBD"
+}

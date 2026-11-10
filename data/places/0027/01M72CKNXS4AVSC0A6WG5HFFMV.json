@@ -1,0 +1,59 @@
+{
+  "name": "Smart Talk",
+  "coordinates": {
+    "latitude": 6.4769711,
+    "longitude": 79.9830516
+  },
+  "address": "83/A Galle Rd, Beruwala 12070",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0770890506",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30–11 AM",
+        "2:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKNXS4AVSC0A6WG5HFFMV"
+}

@@ -1,0 +1,63 @@
+{
+  "address": "14 Hospital St, Galle 80000",
+  "name": "AQUA Forno",
+  "coordinates": {
+    "latitude": 6.0264603999999995,
+    "longitude": 80.2194258
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "website": "https://www.aquafornobakery.com/",
+  "business_status": "OPEN",
+  "phone": "0763690750",
+  "categories": [
+    "Bakery",
+    "Italian restaurant",
+    "Breakfast restaurant",
+    "Cafe",
+    "Sandwich shop"
+  ],
+  "id": "01M72ABTT29167AY5X99AVBFVG"
+}

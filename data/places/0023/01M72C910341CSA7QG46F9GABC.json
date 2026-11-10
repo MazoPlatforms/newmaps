@@ -1,0 +1,58 @@
+{
+  "name": "Goodwills Trading Company",
+  "coordinates": {
+    "latitude": 6.940607099999999,
+    "longitude": 79.86237419999999
+  },
+  "address": "15 Quarry Rd, Colombo 01200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112386189",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910341CSA7QG46F9GABC"
+}

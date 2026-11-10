@@ -1,0 +1,63 @@
+{
+  "name": "Hos International School",
+  "coordinates": {
+    "latitude": 6.754461399999999,
+    "longitude": 79.8993946
+  },
+  "address": "158 Old Galle Rd, Panadura 12550",
+  "categories": [
+    "International school",
+    "English language school",
+    "Plant nursery",
+    "Preschool",
+    "Primary school"
+  ],
+  "phone": "0773134836",
+  "website": "https://web.facebook.com/hospanadura",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0FBNMHJDH5ZC83DNMT1X"
+}

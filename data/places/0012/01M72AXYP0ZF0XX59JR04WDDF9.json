@@ -1,0 +1,61 @@
+{
+  "name": "Cakes By Delicious Creations",
+  "coordinates": {
+    "latitude": 7.0862794,
+    "longitude": 79.9992212
+  },
+  "address": "2, 49 Parakrama Mawatha, Gampaha 11000",
+  "categories": [
+    "Cake shop",
+    "Bakery",
+    "Cupcake shop"
+  ],
+  "phone": "0777888217",
+  "website": "https://www.deliciouscreations.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXYP0ZF0XX59JR04WDDF9"
+}

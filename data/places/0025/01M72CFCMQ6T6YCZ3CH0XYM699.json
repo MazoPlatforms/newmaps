@@ -1,0 +1,58 @@
+{
+  "name": "Olivia Trading",
+  "coordinates": {
+    "latitude": 7.191926199999999,
+    "longitude": 79.8223338
+  },
+  "address": "No.203/B, Negombo",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0773406503",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCMQ6T6YCZ3CH0XYM699"
+}

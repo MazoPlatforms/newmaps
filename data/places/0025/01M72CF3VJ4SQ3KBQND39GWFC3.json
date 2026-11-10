@@ -1,0 +1,59 @@
+{
+  "name": "Sky Computers",
+  "coordinates": {
+    "latitude": 7.1962844,
+    "longitude": 79.8211133
+  },
+  "address": "802, Pitipana, Pamunugama Rd, Negombo",
+  "categories": [
+    "Computer store",
+    "Store"
+  ],
+  "phone": "0714309537",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VJ4SQ3KBQND39GWFC3"
+}

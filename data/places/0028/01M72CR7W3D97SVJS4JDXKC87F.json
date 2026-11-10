@@ -1,0 +1,59 @@
+{
+  "name": "HK Smart",
+  "coordinates": {
+    "latitude": 6.0416332,
+    "longitude": 80.2147116
+  },
+  "address": "No.201/C, First Floor, Wakwella Rd, Galle 80000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0707404244",
+  "website": "https://hksmart.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7W3D97SVJS4JDXKC87F"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Dineth Bakehouse",
+  "coordinates": {
+    "latitude": 7.3267457,
+    "longitude": 80.62960079999999
+  },
+  "address": "8JGH+MRX, B205, Katugastota",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0812498575",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B24QGDP61G49M76H06PWW"
+}

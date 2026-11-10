@@ -1,0 +1,58 @@
+{
+  "name": "YUM Drinks & Food Restaurant",
+  "coordinates": {
+    "latitude": 6.0371391999999995,
+    "longitude": 80.80144399999999
+  },
+  "address": "No 131 Pagngnawasa Mawatha, Tangalle",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0715322014",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNDZ7TEFQR8863Z02G9C"
+}

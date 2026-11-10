@@ -1,0 +1,58 @@
+{
+  "name": "Salon Randi",
+  "coordinates": {
+    "latitude": 6.8295267,
+    "longitude": 80.9931658
+  },
+  "address": "No.234 Bandarawela By Pass Rd, Bandarawela",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0717119393",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CY55BBMQ4DZFC6VXRKXZ4"
+}

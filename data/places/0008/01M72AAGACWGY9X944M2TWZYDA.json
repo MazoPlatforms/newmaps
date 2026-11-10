@@ -1,0 +1,59 @@
+{
+  "address": "Peradeniya Rd, Kandy 20000",
+  "name": "Fresh Super",
+  "coordinates": {
+    "latitude": 7.2877545999999995,
+    "longitude": 80.6283412
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0812205353",
+  "categories": [
+    "Supermarket",
+    "Grocery store"
+  ],
+  "id": "01M72AAGACWGY9X944M2TWZYDA"
+}

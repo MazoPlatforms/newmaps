@@ -65,13 +65,13 @@ jobs:
           node --check assets/js/app.js
           npm run test:unit
 
+      - name: Assemble production static assets
+        run: npm run build:cloudflare
+
       - name: Run browser smoke tests
         run: |
           npx playwright install chromium
           npm run test:browser
-
-      - name: Assemble production static assets
-        run: npm run build:cloudflare
 
       - name: Validate Wrangler production bundle
         run: npx wrangler deploy --dry-run --config wrangler.jsonc

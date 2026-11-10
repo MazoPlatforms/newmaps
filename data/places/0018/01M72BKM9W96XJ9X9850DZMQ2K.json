@@ -1,0 +1,58 @@
+{
+  "name": "GS Super- Discount Store",
+  "coordinates": {
+    "latitude": 7.503502999999999,
+    "longitude": 80.36480139999999
+  },
+  "address": "Kudagalagamuwa Road, Kurunegala 60000",
+  "categories": [
+    "Grocery delivery service"
+  ],
+  "phone": "0777976246",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKM9W96XJ9X9850DZMQ2K"
+}

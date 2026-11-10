@@ -1,0 +1,58 @@
+{
+  "name": "Bakers Way Restaurant",
+  "coordinates": {
+    "latitude": 6.0991858,
+    "longitude": 80.47816639999999
+  },
+  "address": "3FXH+M6C, A17, Akuressa",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0771403556",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90X2HSF5BHQAA3FZX6KH"
+}

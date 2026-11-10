@@ -1,0 +1,60 @@
+{
+  "name": "Egs Stores",
+  "coordinates": {
+    "latitude": 7.845871099999999,
+    "longitude": 80.59931619999999
+  },
+  "address": "athabadiwewa road, Dambulla 21206",
+  "categories": [
+    "Grocery store",
+    "Electronics store",
+    "Store"
+  ],
+  "phone": "0775092518",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSM8YHJ8TJJJBGCB3390P"
+}

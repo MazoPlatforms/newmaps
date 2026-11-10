@@ -1,0 +1,58 @@
+{
+  "name": "Hair By Praneeth & Beauty Salon",
+  "coordinates": {
+    "latitude": 7.209212699999999,
+    "longitude": 79.84663119999999
+  },
+  "address": "28, 12 Rukmani Devi Mawatha Rd, Negombo 11500",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0772782939",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHDPB44C5XPTJV64NTN9"
+}

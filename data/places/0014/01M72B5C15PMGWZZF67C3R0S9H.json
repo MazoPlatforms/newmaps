@@ -1,0 +1,58 @@
+{
+  "name": "Medi Center",
+  "coordinates": {
+    "latitude": 6.8913918999999995,
+    "longitude": 80.59977909999999
+  },
+  "address": "35/5 Circular Rd, Hatton",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0774320237",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5C15PMGWZZF67C3R0S9H"
+}

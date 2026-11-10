@@ -1,0 +1,58 @@
+{
+  "name": "Thinesh Cafe",
+  "coordinates": {
+    "latitude": 8.838038599999999,
+    "longitude": 80.22360309999999
+  },
+  "address": "Piramanalankulam Madhu Road, Madu",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0760052982",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN9681RJ28ZGTFSKQ2T82"
+}

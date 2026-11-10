@@ -1,0 +1,62 @@
+{
+  "name": "Le Coiffeur Thilaque",
+  "coordinates": {
+    "latitude": 6.8967097,
+    "longitude": 79.8558085
+  },
+  "address": "27 School Ln, Colombo",
+  "categories": [
+    "Beauty salon",
+    "Barber shop",
+    "Beauty school",
+    "Hair salon"
+  ],
+  "phone": "0112584827",
+  "website": "http://www.salonlecoiffeurthilaque.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MAAQ776BAEYGGY9FE8"
+}

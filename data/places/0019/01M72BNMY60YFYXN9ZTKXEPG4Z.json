@@ -1,0 +1,59 @@
+{
+  "name": "Healthy Fruit",
+  "coordinates": {
+    "latitude": 8.034861,
+    "longitude": 79.828
+  },
+  "address": "52 Mannar Rd, Puttalam",
+  "categories": [
+    "Produce market"
+  ],
+  "phone": "0727085373",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–11:45 AM",
+        "4–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY60YFYXN9ZTKXEPG4Z"
+}

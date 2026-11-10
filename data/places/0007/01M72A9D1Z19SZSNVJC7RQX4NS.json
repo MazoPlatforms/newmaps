@@ -1,0 +1,57 @@
+{
+  "address": "21 Vauxhall Ln, Colombo 00200",
+  "name": "SLIC Welfare Shop",
+  "coordinates": {
+    "latitude": 6.9241167,
+    "longitude": 79.8532184
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "id": "01M72A9D1Z19SZSNVJC7RQX4NS"
+}

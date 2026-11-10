@@ -1,0 +1,59 @@
+{
+  "address": "Jaffna Rd, Karaveddi",
+  "name": "Subash Bakery",
+  "coordinates": {
+    "latitude": 9.799906499999999,
+    "longitude": 80.1999057
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "http://www.subashbakery.com/",
+  "business_status": "OPEN",
+  "phone": "0770022447",
+  "categories": [
+    "Bakery"
+  ],
+  "id": "01M72ACTCP6S1F8YV5Z1B4F159"
+}

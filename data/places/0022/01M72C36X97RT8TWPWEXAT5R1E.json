@@ -1,0 +1,59 @@
+{
+  "name": "Lucky Institute",
+  "coordinates": {
+    "latitude": 8.602171499999999,
+    "longitude": 81.2104248
+  },
+  "address": "Trincomalee",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0769266655",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8–11 AM",
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C36X97RT8TWPWEXAT5R1E"
+}

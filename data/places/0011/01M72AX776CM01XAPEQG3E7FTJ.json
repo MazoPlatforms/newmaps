@@ -1,0 +1,58 @@
+{
+  "name": "Family Medical Clinic,Negombo By Dr.Lerron Fernando",
+  "coordinates": {
+    "latitude": 7.2294715,
+    "longitude": 79.841065
+  },
+  "address": "184 Lewis Pl, Negombo",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0770405617",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AX776CM01XAPEQG3E7FTJ"
+}

@@ -1,0 +1,59 @@
+{
+  "address": "111 Old Matara Rd, Galle 80000",
+  "name": "Barista Galle Diner",
+  "coordinates": {
+    "latitude": 6.0377643999999995,
+    "longitude": 80.2250601
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://www.barista.lk/",
+  "business_status": "OPEN",
+  "phone": "0912121447",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72ABTTCPNMVCP8VFK860C4Z"
+}

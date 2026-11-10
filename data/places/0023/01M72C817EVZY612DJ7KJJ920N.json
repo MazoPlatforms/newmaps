@@ -1,0 +1,59 @@
+{
+  "name": "The Cricket Shop",
+  "coordinates": {
+    "latitude": 6.9153106,
+    "longitude": 79.8585192
+  },
+  "address": "37/1 W A D Ramanayake Mawatha, Colombo 00200",
+  "categories": [
+    "Sporting goods store"
+  ],
+  "phone": "0777530465",
+  "website": "https://www.thecricketshoplk.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C817EVZY612DJ7KJJ920N"
+}

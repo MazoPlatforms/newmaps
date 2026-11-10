@@ -1,0 +1,58 @@
+{
+  "name": "Orient Computer Systems",
+  "coordinates": {
+    "latitude": 7.2790358,
+    "longitude": 80.6175537
+  },
+  "address": "626A Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0714807629",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHEYE8HT0RZ328KNNE78"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Aa Sports Garment",
+  "coordinates": {
+    "latitude": 8.9868882,
+    "longitude": 79.9075402
+  },
+  "address": "Moor St, Mannar",
+  "categories": [
+    "Sporting goods store"
+  ],
+  "phone": "0232223522",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5WMAGVV2WFH5VW2CSJE0"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "MOH Office Gampaha",
+  "coordinates": {
+    "latitude": 7.090643099999999,
+    "longitude": 80.00209389999999
+  },
+  "address": "32R2+7R5, Colombo Rd, Gampaha",
+  "categories": [
+    "Public health department"
+  ],
+  "phone": "0332222278",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGC6N6JYVV29SGN3F5TE"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "108 Kandy Hwy Kandy 20000, Colombo",
+  "name": "Devon Bakers Best",
+  "coordinates": {
+    "latitude": 7.2901669,
+    "longitude": 80.6304894
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0812232317",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72AA6KFSDQ1GHDNA6ED9050"
+}

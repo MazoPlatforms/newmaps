@@ -1,0 +1,59 @@
+{
+  "address": "L1, Kandy City Centre, Sri Dalada Veediya, Kandy 20000",
+  "name": "Post Office KCC",
+  "coordinates": {
+    "latitude": 7.2927548,
+    "longitude": 80.63677229999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.slpost.gov.lk/",
+  "business_status": "OPEN",
+  "phone": "0812222294",
+  "categories": [
+    "Post office"
+  ],
+  "id": "01M72ABAPB8RWV1C487DK6825Z"
+}

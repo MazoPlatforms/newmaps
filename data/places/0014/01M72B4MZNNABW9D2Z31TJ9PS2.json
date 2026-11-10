@@ -1,0 +1,61 @@
+{
+  "name": "Bank Of Ceylon",
+  "coordinates": {
+    "latitude": 6.9741069,
+    "longitude": 80.766423
+  },
+  "address": "XQF8+HHC, 43, Lawson street,, Lawson Rd, Nuwara Eliya",
+  "categories": [
+    "Bank",
+    "ATM",
+    "Currency exchange service"
+  ],
+  "phone": "0522222390",
+  "website": "http://www.boc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4MZNNABW9D2Z31TJ9PS2"
+}

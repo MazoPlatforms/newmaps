@@ -1,0 +1,60 @@
+{
+  "name": "Star Computer Academy",
+  "coordinates": {
+    "latitude": 6.932571299999999,
+    "longitude": 79.8905889
+  },
+  "address": "144 Kolonnawa Rd, Sri Jayawardenepura Kotte 10600",
+  "categories": [
+    "Computer software store",
+    "Computer repair service"
+  ],
+  "phone": "0773641665",
+  "website": "https://web.facebook.com/StarComputeAcademy/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJRT9BHZP1V3XBXR46MG"
+}

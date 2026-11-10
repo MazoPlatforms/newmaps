@@ -1,0 +1,58 @@
+{
+  "name": "Royal Beauty Salon",
+  "coordinates": {
+    "latitude": 6.782575,
+    "longitude": 79.8928725
+  },
+  "address": "66,Puwakaramba Road, St Anthony's Rd, Moratuwa 10400",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0718434275",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCDG8VGVG0QKYE4TF8RYX"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "City Coolbar & Restaurant",
+  "coordinates": {
+    "latitude": 8.9785804,
+    "longitude": 79.9130319
+  },
+  "address": "No:01 old library complex, Mannar 41000",
+  "categories": [
+    "Restaurant",
+    "Fast food restaurant",
+    "Ice cream shop"
+  ],
+  "phone": "0767640075",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWX1PRVRDRT6F90H2272V"
+}

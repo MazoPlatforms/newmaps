@@ -1,0 +1,58 @@
+{
+  "address": "484 Kasthuriyar Rd, Jaffna",
+  "name": "அப்பு கடை",
+  "coordinates": {
+    "latitude": 9.677753,
+    "longitude": 80.0140878
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0212224408",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AD62X56SP8EF7PY3ZATPE"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kamala Hospital",
+  "coordinates": {
+    "latitude": 9.6937445,
+    "longitude": 80.01401709999999
+  },
+  "address": "M2V7+FJR, Jaffna-Kankesanturai Rd, Jaffna",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0778201195",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BV2NVBKPFW82JDXN2G8NS"
+}

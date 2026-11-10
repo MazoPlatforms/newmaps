@@ -1,0 +1,59 @@
+{
+  "name": "PC Gallery",
+  "coordinates": {
+    "latitude": 7.2876993,
+    "longitude": 80.62843149999999
+  },
+  "address": "289 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Computer service"
+  ],
+  "phone": "0726099005",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6:30 AM",
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–3:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHESA5FSSHEZNT8B2YKR"
+}

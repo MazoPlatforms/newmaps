@@ -1,0 +1,58 @@
+{
+  "name": "BSC Fashion",
+  "coordinates": {
+    "latitude": 6.0376816,
+    "longitude": 80.2160549
+  },
+  "address": "72 Wakwella Rd, Galle 80000",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0912248485",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQVBGKYDSHHQ1478504H4"
+}

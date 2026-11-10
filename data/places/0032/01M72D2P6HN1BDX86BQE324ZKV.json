@@ -1,0 +1,58 @@
+{
+  "name": "Wave Techzone",
+  "coordinates": {
+    "latitude": 8.2622199,
+    "longitude": 80.3539365
+  },
+  "address": "No.23, Moragoda 50000",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0712095954",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2P6HN1BDX86BQE324ZKV"
+}

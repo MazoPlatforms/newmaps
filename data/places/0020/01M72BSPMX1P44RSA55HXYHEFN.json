@@ -1,0 +1,58 @@
+{
+  "name": "Wellness Pharmacy, 2Nd Branch",
+  "coordinates": {
+    "latitude": 7.8576115,
+    "longitude": 80.6529675
+  },
+  "address": "Kandalama Road, Dambulla",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0710124974",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSPMX1P44RSA55HXYHEFN"
+}

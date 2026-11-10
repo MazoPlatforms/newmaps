@@ -1,0 +1,59 @@
+{
+  "address": "No 444 Colombo Road, Seeduwa 11410",
+  "name": "Barista Seeduwa",
+  "coordinates": {
+    "latitude": 7.135357399999999,
+    "longitude": 79.8757013
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://www.barista.lk/",
+  "business_status": "OPEN",
+  "phone": "0112258998",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72ADZ5THRGQC8GGZT3EJPGZ"
+}

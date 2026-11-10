@@ -1,0 +1,63 @@
+{
+  "name": "PC Garage",
+  "coordinates": {
+    "latitude": 7.4833934,
+    "longitude": 80.3558443
+  },
+  "address": "132/C Ground Floor, Bauddhaloka Mawatha, Kurunegala 60000",
+  "categories": [
+    "Computer repair service",
+    "Computer accessories store",
+    "Computer networking service",
+    "Computer store",
+    "Used computer store"
+  ],
+  "phone": "0711479191",
+  "website": "http://pcgarage.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HG78ASXZHB7Z395R22G"
+}

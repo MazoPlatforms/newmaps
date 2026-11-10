@@ -1,0 +1,59 @@
+{
+  "name": "Union Bank Jaffna Branch",
+  "coordinates": {
+    "latitude": 9.6663973,
+    "longitude": 80.0114964
+  },
+  "address": "398 Hospital Rd, Jaffna",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0212224567",
+  "website": "http://www.unionb.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BV7GHKW76VFQG5M6AK75W"
+}

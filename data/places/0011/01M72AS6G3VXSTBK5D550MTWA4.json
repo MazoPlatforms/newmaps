@@ -1,0 +1,59 @@
+{
+  "name": "Family Baker",
+  "coordinates": {
+    "latitude": 6.7867935,
+    "longitude": 79.8848005
+  },
+  "address": "613/1 Galle Road, Rawathawaththa, Moratuwa",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0744126107",
+  "website": "http://fambaker.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6G3VXSTBK5D550MTWA4"
+}

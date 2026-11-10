@@ -1,0 +1,59 @@
+{
+  "name": "Department Of Immigration & Emigration",
+  "coordinates": {
+    "latitude": 6.902886199999999,
+    "longitude": 79.9170315
+  },
+  "address": "Battaramulla 10120",
+  "categories": [
+    "Passport office"
+  ],
+  "phone": "0112101500",
+  "website": "http://www.immigration.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANV9PSFMH09RNARFAVNHB"
+}

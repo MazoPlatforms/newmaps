@@ -1,0 +1,59 @@
+{
+  "name": "Raja",
+  "coordinates": {
+    "latitude": 8.6329464,
+    "longitude": 81.20388659999999
+  },
+  "address": "Nilaveli Rd, Trincomalee",
+  "categories": [
+    "Supermarket",
+    "Asian grocery store"
+  ],
+  "phone": "0763131985",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3J0EK0MQGX4441S6W7"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Hasna's House And Shop",
+  "coordinates": {
+    "latitude": 6.1554899999999995,
+    "longitude": 81.1397085
+  },
+  "address": "J8 tzuchi niwasa, Hambantota 82000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0770373889",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BC0CT7ZRP9DBX7JCXV9BG"
+}

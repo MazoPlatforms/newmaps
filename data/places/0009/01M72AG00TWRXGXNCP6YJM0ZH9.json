@@ -1,0 +1,58 @@
+{
+  "name": "Vasantham Pharmacy",
+  "coordinates": {
+    "latitude": 9.679846099999999,
+    "longitude": 80.0237843
+  },
+  "address": "300 Palali Rd, Jaffna 40000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0212226838",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00TWRXGXNCP6YJM0ZH9"
+}

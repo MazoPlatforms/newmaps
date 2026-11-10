@@ -1,0 +1,59 @@
+{
+  "name": "Mag City Ratmalana",
+  "coordinates": {
+    "latitude": 6.8100622,
+    "longitude": 79.88189489999999
+  },
+  "address": "652 Industrial Estate, Dehiwala-Mount Lavinia 10390",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0112626333",
+  "website": "http://www.magcity.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDY8TQ420BY1G7AX97RZ"
+}

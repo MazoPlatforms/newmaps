@@ -1,0 +1,60 @@
+{
+  "name": "St.Mary's College - Kegalle",
+  "coordinates": {
+    "latitude": 7.2521663,
+    "longitude": 80.338816
+  },
+  "address": "Main Street, Kegalle",
+  "categories": [
+    "Government school",
+    "College"
+  ],
+  "phone": "0352222342",
+  "website": "http://smc-kegalle.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJBEBPHAY2CW6D6W0MJG5"
+}

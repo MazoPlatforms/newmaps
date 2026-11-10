@@ -1,0 +1,58 @@
+{
+  "name": "Guardian Medical Centre",
+  "coordinates": {
+    "latitude": 7.110313,
+    "longitude": 80.63375769999999
+  },
+  "address": "428, Nuwara Eliya, Road, Pussellawa 20580",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0814200308",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4HGPV4J1QDYXYJJJ0RS5"
+}

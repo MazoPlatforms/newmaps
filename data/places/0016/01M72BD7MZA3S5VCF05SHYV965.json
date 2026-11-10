@@ -1,0 +1,58 @@
+{
+  "name": "Nitto Motors",
+  "coordinates": {
+    "latitude": 6.0272988,
+    "longitude": 80.7949508
+  },
+  "address": "2QGV+WX8, Tangalle",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0472241309",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BD7MZA3S5VCF05SHYV965"
+}

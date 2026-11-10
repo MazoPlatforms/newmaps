@@ -1,0 +1,58 @@
+{
+  "name": "HP World",
+  "coordinates": {
+    "latitude": 6.042635499999999,
+    "longitude": 80.219036
+  },
+  "address": "05, Crips Road, Road, Galle",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0714956572",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7W9NV6XTKVTYGPE7J3K"
+}

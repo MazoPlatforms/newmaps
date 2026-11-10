@@ -1,0 +1,63 @@
+{
+  "name": "Cutting Club Hair And Beauty Salon",
+  "coordinates": {
+    "latitude": 7.208215,
+    "longitude": 79.8491736
+  },
+  "address": "210/3a St Philip Neri's Mawatha, Negombo 11500",
+  "categories": [
+    "Beauty salon",
+    "Bridal shop",
+    "Make-up artist",
+    "Hairdresser",
+    "Waxing hair removal service"
+  ],
+  "phone": "0772223634",
+  "website": "http://www.cuttingclub.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHDSW5VS3Z0WF81PP7VZ"
+}

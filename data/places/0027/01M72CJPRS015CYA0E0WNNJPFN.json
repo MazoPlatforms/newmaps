@@ -1,0 +1,58 @@
+{
+  "name": "A & I Computers",
+  "coordinates": {
+    "latitude": 6.727375899999999,
+    "longitude": 79.9007831
+  },
+  "address": "173B New Galle road, Moratuwa 10400",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0774128239",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPRS015CYA0E0WNNJPFN"
+}

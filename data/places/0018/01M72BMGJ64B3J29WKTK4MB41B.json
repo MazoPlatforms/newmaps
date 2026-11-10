@@ -1,0 +1,60 @@
+{
+  "name": "Bakeland Restaurant And Pastry Shop",
+  "coordinates": {
+    "latitude": 7.4586992,
+    "longitude": 80.02787099999999
+  },
+  "address": "335 Dandagamuwa Rd, Kuliyapitiya 60200",
+  "categories": [
+    "Sri Lankan restaurant",
+    "Bar",
+    "Pastry shop"
+  ],
+  "phone": "0706831000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMGJ64B3J29WKTK4MB41B"
+}

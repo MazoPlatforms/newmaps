@@ -1,0 +1,58 @@
+{
+  "name": "M D P Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 6.7212711,
+    "longitude": 79.9078974
+  },
+  "address": "7A siril jance mawatha, Panadura",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0773612580",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B03AYSJFK2CP3WGRXCVV5"
+}

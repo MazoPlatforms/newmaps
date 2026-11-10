@@ -1,0 +1,58 @@
+{
+  "name": "Dental Surgery (Dr Sumith Jayasundara)",
+  "coordinates": {
+    "latitude": 7.200779,
+    "longitude": 79.8504631
+  },
+  "address": "59, 25 Thaladuwa road, Negombo",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0713465859",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AX77C9HC8G86N1RKAKD1M"
+}

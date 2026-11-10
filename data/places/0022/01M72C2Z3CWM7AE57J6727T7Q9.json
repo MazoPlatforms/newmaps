@@ -1,0 +1,58 @@
+{
+  "name": "Vistara Food City",
+  "coordinates": {
+    "latitude": 8.5768849,
+    "longitude": 81.2202586
+  },
+  "address": "H6GC+Q42, Konesapurum Rd, Trincomalee",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0262062999",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3CWM7AE57J6727T7Q9"
+}

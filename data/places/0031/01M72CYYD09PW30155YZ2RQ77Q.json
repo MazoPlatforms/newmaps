@@ -1,0 +1,58 @@
+{
+  "name": "Nalin Stores",
+  "coordinates": {
+    "latitude": 6.6804076,
+    "longitude": 80.4074172
+  },
+  "address": "Colombo - Batticaloa Hwy, Ratnapura",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0452224165",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:15 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYYD09PW30155YZ2RQ77Q"
+}

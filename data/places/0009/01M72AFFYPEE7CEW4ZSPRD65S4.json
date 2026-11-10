@@ -1,0 +1,58 @@
+{
+  "name": "Chamara Grocery",
+  "coordinates": {
+    "latitude": 6.9369856,
+    "longitude": 79.9114046
+  },
+  "address": "WWP6+QHR, Colombo",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0112075968",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:50 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:50 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:50 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:50 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:50 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:50 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:50 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AFFYPEE7CEW4ZSPRD65S4"
+}

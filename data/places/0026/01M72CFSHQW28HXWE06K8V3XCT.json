@@ -1,0 +1,58 @@
+{
+  "name": "Print Out Shop",
+  "coordinates": {
+    "latitude": 7.2413313,
+    "longitude": 79.8597479
+  },
+  "address": "564/3/A Janapada Mawatha, Daluwakotuwa, 11540",
+  "categories": [
+    "Print shop"
+  ],
+  "phone": "0715645855",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFSHQW28HXWE06K8V3XCT"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Public Library Rajagiriya",
+  "coordinates": {
+    "latitude": 6.908820599999999,
+    "longitude": 79.8988882
+  },
+  "address": "WV5X+GHC, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Public library"
+  ],
+  "phone": "0112872384",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVWSDTRQWQZZCWXR8CB7C"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "King Crab Restaurant",
+  "coordinates": {
+    "latitude": 6.8448012,
+    "longitude": 81.0106129
+  },
+  "address": "Dikarawa, King Crab Restaurant, Beragala-Hali Ela Hwy, Bandarawela 90100",
+  "categories": [
+    "Crab house"
+  ],
+  "phone": "0729207511",
+  "website": "https://www.facebook.com/kingcrablk",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFFKYPWK09F3WX189ZPN3"
+}

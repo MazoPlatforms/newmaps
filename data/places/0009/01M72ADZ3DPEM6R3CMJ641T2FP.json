@@ -1,0 +1,65 @@
+{
+  "address": "48 Poruthota Rd, Negombo 11500",
+  "name": "Café Français",
+  "coordinates": {
+    "latitude": 7.2396289,
+    "longitude": 79.84180909999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    }
+  ],
+  "website": "https://www.cafefrancaisbypourcel.com/",
+  "business_status": "OPEN",
+  "phone": "0117445566",
+  "categories": [
+    "Restaurant",
+    "Brunch restaurant",
+    "Cocktail bar",
+    "French restaurant",
+    "Mediterranean restaurant",
+    "Tapas restaurant",
+    "Wine bar"
+  ],
+  "id": "01M72ADZ3DPEM6R3CMJ641T2FP"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Arogya Medical Center",
+  "coordinates": {
+    "latitude": 6.8627217,
+    "longitude": 79.9011075
+  },
+  "address": "Highlevel plaza, 13 Old Kesbewa Rd, Nugegoda",
+  "categories": [
+    "Medical Center",
+    "Health"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00GBE0JNTZWGRN5CX68"
+}

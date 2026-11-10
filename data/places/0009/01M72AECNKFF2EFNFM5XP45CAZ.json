@@ -1,0 +1,58 @@
+{
+  "address": "87 Temple Rd, Negombo 11500",
+  "name": "Shammi Fruit And Grocry",
+  "coordinates": {
+    "latitude": 7.2086898999999995,
+    "longitude": 79.8547784
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0786317799",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AECNKFF2EFNFM5XP45CAZ"
+}

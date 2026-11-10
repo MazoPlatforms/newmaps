@@ -1,0 +1,58 @@
+{
+  "name": "Cutting Art Salon",
+  "coordinates": {
+    "latitude": 6.7577989999999994,
+    "longitude": 79.8898356
+  },
+  "address": "24 B235, Moratuwa 10400",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0757456828",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCDG8HHK7PDJK4ZJJREGX"
+}

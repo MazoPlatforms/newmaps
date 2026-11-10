@@ -1,0 +1,57 @@
+{
+  "name": "Büfe - Dining Room",
+  "coordinates": {
+    "latitude": 6.4524970999999995,
+    "longitude": 79.9786338
+  },
+  "address": "FX2H+VHQ, Beruwala 12070",
+  "categories": [
+    "Buffet restaurant"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30–10:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13C0GGTB2Z6APAP0W6YH"
+}

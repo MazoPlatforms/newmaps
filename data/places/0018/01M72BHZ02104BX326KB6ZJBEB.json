@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City - Kegalle 2",
+  "coordinates": {
+    "latitude": 7.251142199999999,
+    "longitude": 80.34183399999999
+  },
+  "address": "123 Nidahas Mawata, Kegalle",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0352222310",
+  "website": "https://www.cargillsceylon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHZ02104BX326KB6ZJBEB"
+}

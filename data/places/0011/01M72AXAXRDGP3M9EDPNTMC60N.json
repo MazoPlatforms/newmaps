@@ -1,0 +1,59 @@
+{
+  "name": "Seeds Education Academy",
+  "coordinates": {
+    "latitude": 7.205781099999999,
+    "longitude": 79.8404043
+  },
+  "address": "144 Greens Rd, Negombo 11500",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0761525936",
+  "website": "https://seeds-education-academy.web.app/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXAXRDGP3M9EDPNTMC60N"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Double Cheese Coffee & Dine",
+  "coordinates": {
+    "latitude": 6.8501012999999995,
+    "longitude": 79.87420569999999
+  },
+  "address": "205 Hill St, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Halal restaurant"
+  ],
+  "phone": "0114363625",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ01RK156T8QK7W5ZDCCQ"
+}

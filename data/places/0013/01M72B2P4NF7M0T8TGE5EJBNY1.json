@@ -1,0 +1,59 @@
+{
+  "name": "Respicare",
+  "coordinates": {
+    "latitude": 7.2790691,
+    "longitude": 80.6195106
+  },
+  "address": "483, 1 William Gopallawa Mawatha, Kandy 20000",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0776437922",
+  "website": "http://respicare.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2P4NF7M0T8TGE5EJBNY1"
+}

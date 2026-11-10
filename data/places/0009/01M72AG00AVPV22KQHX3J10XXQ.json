@@ -1,0 +1,59 @@
+{
+  "name": "Medi Trust Pharmacy",
+  "coordinates": {
+    "latitude": 6.863530399999999,
+    "longitude": 79.8680346
+  },
+  "address": "77 Hospital Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0774570090",
+  "website": "http://www.facebook.com/MTPharmacy",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00AVPV22KQHX3J10XXQ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "අපේ කඩේ/Ape Kade",
+  "coordinates": {
+    "latitude": 7.8450185999999995,
+    "longitude": 80.65171529999999
+  },
+  "address": "No. 3, 3rd Lane, Jayamawata, Dambulla 21100",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0763196525",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–8:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSM8NYVGJG2XAC3BN2VVG"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Raheem's Grocery.",
+  "coordinates": {
+    "latitude": 5.9779374999999995,
+    "longitude": 80.43006249999999
+  },
+  "address": "Weligama",
+  "categories": [
+    "Shopping mall"
+  ],
+  "phone": "0777347700",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAYR0SJZ57V82W4HTSQKG"
+}

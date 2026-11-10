@@ -1,0 +1,59 @@
+{
+  "name": "New Daya Bakers",
+  "coordinates": {
+    "latitude": 5.9484398999999994,
+    "longitude": 80.6284123
+  },
+  "address": "No 63/5 Naotunna Road, Kottegoda 81180",
+  "categories": [
+    "Bakery",
+    "Restaurant"
+  ],
+  "phone": "0712702122",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90X2T25RZC6SWS1F7D3N"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Zipma Saloon",
+  "coordinates": {
+    "latitude": 6.8364679,
+    "longitude": 79.8848728
+  },
+  "address": "Ratmalana - Mirihana Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0770800440",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CB2CKNJ54CEFF3R2FDF0W"
+}

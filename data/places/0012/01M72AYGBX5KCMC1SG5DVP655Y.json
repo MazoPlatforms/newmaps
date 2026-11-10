@@ -1,0 +1,59 @@
+{
+  "name": "Arogya Hospitals Private Limited",
+  "coordinates": {
+    "latitude": 7.0906344,
+    "longitude": 80.0003969
+  },
+  "address": "250 Colombo Rd, Gampaha",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0332224592",
+  "website": "https://portal.arogyahospitals.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGBX5KCMC1SG5DVP655Y"
+}

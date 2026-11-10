@@ -1,0 +1,62 @@
+{
+  "name": "Metropolitan M Centre - Galle",
+  "coordinates": {
+    "latitude": 6.0393488,
+    "longitude": 80.2157134
+  },
+  "address": "114 Wakwella Rd, Galle 80000",
+  "categories": [
+    "Computer store",
+    "Electronics store",
+    "Computer support and services",
+    "Printer repair service"
+  ],
+  "phone": "0912248495",
+  "website": "https://mcentre.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7VT2RKRVYQ2WRGCJC0H"
+}

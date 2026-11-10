@@ -1,0 +1,58 @@
+{
+  "name": "Thilak Enterprises",
+  "coordinates": {
+    "latitude": 7.2526836999999995,
+    "longitude": 80.3421686
+  },
+  "address": "49 Main Street, Kegalle 71000",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0352223162",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWWBV3J20S8NFY3SHB50T"
+}

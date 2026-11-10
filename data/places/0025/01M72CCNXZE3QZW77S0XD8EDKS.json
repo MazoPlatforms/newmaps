@@ -1,0 +1,58 @@
+{
+  "name": "The Playground",
+  "coordinates": {
+    "latitude": 6.8057449,
+    "longitude": 79.88578509999999
+  },
+  "address": "670 Galle Rd, Moratuwa 10400",
+  "categories": [
+    "Playground"
+  ],
+  "phone": "0719492374",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCNXZE3QZW77S0XD8EDKS"
+}

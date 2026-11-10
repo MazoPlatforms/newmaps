@@ -1,0 +1,58 @@
+{
+  "name": "SteelCart",
+  "coordinates": {
+    "latitude": 7.2549319,
+    "longitude": 79.8561522
+  },
+  "address": "508/1, Daluwakotuwa, 11540",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0764504501",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCMJ4YXB0Y0SPZ1Z9WVV"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Burger Machan",
+  "coordinates": {
+    "latitude": 6.6080252999999995,
+    "longitude": 79.9513411
+  },
+  "address": "Abrew Rd, Kalutara 12500",
+  "categories": [
+    "Hamburger restaurant",
+    "Coffee shop",
+    "Juice shop"
+  ],
+  "phone": "0776504771",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYWR94Y4SCHQQWVT8EB0Z"
+}

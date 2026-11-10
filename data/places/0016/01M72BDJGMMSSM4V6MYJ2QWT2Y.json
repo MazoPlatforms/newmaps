@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Green Leaf Restaurant Ella",
+  "coordinates": {
+    "latitude": 6.8701213999999995,
+    "longitude": 81.0412099
+  },
+  "address": "abagahawaththa, medapathana, kithalella, Ella 90090",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0757088080",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "2–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDJGMMSSM4V6MYJ2QWT2Y"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Medical Center",
+  "coordinates": {
+    "latitude": 7.1002714,
+    "longitude": 80.021148
+  },
+  "address": "Gampaha",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0785880384",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGC1Y8HPSVQFA9HYN0Z0"
+}

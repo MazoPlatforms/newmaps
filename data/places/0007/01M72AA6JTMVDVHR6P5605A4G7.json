@@ -1,0 +1,60 @@
+{
+  "address": "128/1 George E De Silva Mawatha, Kandy 20000",
+  "name": "The Black Bean Cafe",
+  "coordinates": {
+    "latitude": 7.2845752,
+    "longitude": 80.61992579999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0774798886",
+  "categories": [
+    "Pizza restaurant",
+    "Espresso bar",
+    "Soup kitchen"
+  ],
+  "id": "01M72AA6JTMVDVHR6P5605A4G7"
+}

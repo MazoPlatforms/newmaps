@@ -1,0 +1,64 @@
+{
+  "name": "New City Consolidated (PVT) Limited",
+  "coordinates": {
+    "latitude": 7.4722409,
+    "longitude": 80.6226662
+  },
+  "address": "No:75/A, King St, Matale 21300",
+  "categories": [
+    "Hardware store",
+    "Paint store",
+    "Pipe supplier",
+    "Plumbing supply store",
+    "Ready mix concrete supplier",
+    "Roofing supply store"
+  ],
+  "phone": "0664650650",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1:30–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNW41ZTRD14PHETZQ7YRM"
+}

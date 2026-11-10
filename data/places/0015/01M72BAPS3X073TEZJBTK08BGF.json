@@ -1,0 +1,58 @@
+{
+  "name": "Dileena Eatery",
+  "coordinates": {
+    "latitude": 5.9663907,
+    "longitude": 80.41186619999999
+  },
+  "address": "No 320 Puwakwaththa, Weligama 81700",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0768887195",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPS3X073TEZJBTK08BGF"
+}

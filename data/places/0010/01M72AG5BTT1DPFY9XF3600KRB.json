@@ -1,0 +1,58 @@
+{
+  "name": "A Great Lyceum Institute",
+  "coordinates": {
+    "latitude": 6.874101199999999,
+    "longitude": 79.86250299999999
+  },
+  "address": "17 Fussel's Ln, Colombo 00600",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0776401717",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6–8:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BTT1DPFY9XF3600KRB"
+}

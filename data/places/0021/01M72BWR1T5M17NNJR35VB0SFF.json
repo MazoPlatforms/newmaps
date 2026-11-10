@@ -1,0 +1,58 @@
+{
+  "name": "Ajith Service Center",
+  "coordinates": {
+    "latitude": 8.7152057,
+    "longitude": 80.5677994
+  },
+  "address": "PH89+34M, Kudakachchakodiya, Vavuniya",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0775333521",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWR1T5M17NNJR35VB0SFF"
+}

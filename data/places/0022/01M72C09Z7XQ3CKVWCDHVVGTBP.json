@@ -1,0 +1,61 @@
+{
+  "name": "Mr. Local Home Delivery",
+  "coordinates": {
+    "latitude": 7.391329,
+    "longitude": 81.8429719
+  },
+  "address": "al hilal road sainthamaruthu, Kalmunai 32300",
+  "categories": [
+    "Grocery delivery service",
+    "Chicken shop",
+    "Fresh food market",
+    "Seafood market"
+  ],
+  "phone": "0768217926",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09Z7XQ3CKVWCDHVVGTBP"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "GB Medcare Medical Centre",
+  "coordinates": {
+    "latitude": 8.3191873,
+    "longitude": 80.4105245
+  },
+  "address": "8C96+M6C, Bulankulama Disawa Mawatha, Anuradhapura",
+  "categories": [
+    "Medical Center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–8 AM",
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–8 AM",
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–8 AM",
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–8 AM",
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–8 AM",
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9XC2Y2RJWXTJFJMM3GA"
+}

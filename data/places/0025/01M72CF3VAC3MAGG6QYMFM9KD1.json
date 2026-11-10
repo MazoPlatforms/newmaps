@@ -1,0 +1,67 @@
+{
+  "name": "IT Zone",
+  "coordinates": {
+    "latitude": 7.2088814999999995,
+    "longitude": 79.8442589
+  },
+  "address": "Galison Mawatha, Negombo",
+  "categories": [
+    "Computer accessories store",
+    "Burglar alarm store",
+    "Camera repair shop",
+    "Computer desk store",
+    "Computer repair service",
+    "Computer service",
+    "Computer software store",
+    "Computer store",
+    "Computer wholesaler",
+    "Electronics store"
+  ],
+  "phone": "0773421303",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VAC3MAGG6QYMFM9KD1"
+}

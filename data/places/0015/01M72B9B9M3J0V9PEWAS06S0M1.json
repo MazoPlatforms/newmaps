@@ -1,0 +1,63 @@
+{
+  "name": "Darshana Super",
+  "coordinates": {
+    "latitude": 6.0597354,
+    "longitude": 80.4878979
+  },
+  "address": "Matara - Akuressa Hwy, Algiriya",
+  "categories": [
+    "Supermarket",
+    "Food court",
+    "Gas shop",
+    "Gas station",
+    "Ice cream shop",
+    "Meat wholesaler"
+  ],
+  "phone": "0719204308",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9B9M3J0V9PEWAS06S0M1"
+}

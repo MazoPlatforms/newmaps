@@ -1,0 +1,59 @@
+{
+  "name": "Duminda Electronics",
+  "coordinates": {
+    "latitude": 6.6798566,
+    "longitude": 80.4035028
+  },
+  "address": "72/1/1 Main St, Ratnapura 70000",
+  "categories": [
+    "Electronics store",
+    "Electrical supply store"
+  ],
+  "phone": "0453600431",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYV1GTT476FNWMTNWWDS5"
+}

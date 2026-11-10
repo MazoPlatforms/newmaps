@@ -1,0 +1,58 @@
+{
+  "name": "Steve's Foods",
+  "coordinates": {
+    "latitude": 8.2972858,
+    "longitude": 80.4297034
+  },
+  "address": "7CWH+WV8, Anuradhapura",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0702960601",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRB703Z2ACVC22BPBMV6"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Cambridge English Language School",
+  "coordinates": {
+    "latitude": 8.323288999999999,
+    "longitude": 80.4041902
+  },
+  "address": "1st Lane, Anuradhapura",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0778200067",
+  "website": "https://cels.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQC9XK7R6Q48JR2Q27NW3"
+}

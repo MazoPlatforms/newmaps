@@ -1,0 +1,58 @@
+{
+  "name": "Rajarata Foods",
+  "coordinates": {
+    "latitude": 8.3154874,
+    "longitude": 80.4276606
+  },
+  "address": "26 D S Senanayake Mawatha, Anuradhapura",
+  "categories": [
+    "Food products supplier"
+  ],
+  "phone": "0715633224",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRBJV3B6V49TXXPGJ601"
+}

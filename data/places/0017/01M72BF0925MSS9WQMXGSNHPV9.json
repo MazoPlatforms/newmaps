@@ -1,0 +1,58 @@
+{
+  "name": "Widesa Education Centre",
+  "coordinates": {
+    "latitude": 6.9758486,
+    "longitude": 81.06797159999999
+  },
+  "address": "147/3 Hingurugamuwa Rd, Badulla",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0769855213",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF0925MSS9WQMXGSNHPV9"
+}

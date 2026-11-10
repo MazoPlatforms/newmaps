@@ -1,0 +1,59 @@
+{
+  "address": "619/A William Gopallawa Mawatha, Kandy 20000",
+  "name": "Launderette By Dobi Master Laundry Service",
+  "coordinates": {
+    "latitude": 7.2751018,
+    "longitude": 80.61418789999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "website": "https://launderettedb.vercel.app/",
+  "business_status": "OPEN",
+  "phone": "0779839027",
+  "categories": [
+    "Laundry service"
+  ],
+  "id": "01M72ABAS3VK6226F1GJJ4XFJC"
+}

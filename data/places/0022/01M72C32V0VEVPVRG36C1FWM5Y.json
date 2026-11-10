@@ -1,0 +1,64 @@
+{
+  "name": "Dental Care & Implant Centre",
+  "coordinates": {
+    "latitude": 8.5690518,
+    "longitude": 81.2339745
+  },
+  "address": "108 Post Office Rd, Trincomalee",
+  "categories": [
+    "Dental clinic"
+  ],
+  "phone": "0762266262",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–1 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–1 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–1 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–1 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–1 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C32V0VEVPVRG36C1FWM5Y"
+}

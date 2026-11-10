@@ -1,0 +1,59 @@
+{
+  "name": "Café De La Gare",
+  "coordinates": {
+    "latitude": 5.951474999999999,
+    "longitude": 80.5437357
+  },
+  "address": "43 Railway Station Rd, Matara 81000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0707717004",
+  "website": "https://www.cafedlagare.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90W6JCJ1YGXEWQYMQNQN"
+}

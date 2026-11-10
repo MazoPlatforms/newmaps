@@ -1,0 +1,58 @@
+{
+  "name": "Best Choice",
+  "coordinates": {
+    "latitude": 6.0340829,
+    "longitude": 80.2183335
+  },
+  "address": "Main Street, Galle 80000",
+  "categories": [
+    "Fashion accessories store"
+  ],
+  "phone": "0729107777",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQVBNNGF6H9CHMYZQ2GK2"
+}

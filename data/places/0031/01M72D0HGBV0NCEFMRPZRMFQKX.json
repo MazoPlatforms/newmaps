@@ -1,0 +1,58 @@
+{
+  "name": "Ladvo Computers",
+  "coordinates": {
+    "latitude": 7.488893399999999,
+    "longitude": 80.3619537
+  },
+  "address": "56 Puttalam Junction, Kurunegala 60000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0772249033",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HGBV0NCEFMRPZRMFQKX"
+}

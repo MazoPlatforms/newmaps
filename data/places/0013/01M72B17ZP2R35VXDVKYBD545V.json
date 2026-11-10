@@ -1,0 +1,59 @@
+{
+  "name": "Central Grocery Stores",
+  "coordinates": {
+    "latitude": 6.4761387,
+    "longitude": 79.98307249999999
+  },
+  "address": "116 Galle - Colombo Rd, Beruwala",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0342276219",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30–11 AM",
+        "2:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B17ZP2R35VXDVKYBD545V"
+}

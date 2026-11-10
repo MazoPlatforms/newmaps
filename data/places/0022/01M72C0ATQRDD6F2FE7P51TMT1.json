@@ -1,0 +1,65 @@
+{
+  "name": "Mercy Hospital",
+  "coordinates": {
+    "latitude": 7.4378379,
+    "longitude": 81.8129381
+  },
+  "address": "01,Main street,Maruthamunai-01, Maruthamunai 32314",
+  "categories": [
+    "Pharmacy",
+    "Dental clinic",
+    "Eye care center",
+    "Medical Center",
+    "Optician",
+    "Orthopedic clinic",
+    "Hospital"
+  ],
+  "phone": "0672229742",
+  "website": "http://mercyhospital.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C0ATQRDD6F2FE7P51TMT1"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Yasan Auto A/C",
+  "coordinates": {
+    "latitude": 6.9894241,
+    "longitude": 81.0496673
+  },
+  "address": "55 Bandarawela Rd, Badulla 90000",
+  "categories": [
+    "Auto repair shop",
+    "Air conditioning repair service",
+    "Auto electrical service",
+    "Mechanic"
+  ],
+  "phone": "0777346355",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF8EZRW29887T5CGRTRMQ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Royal Medicals",
+  "coordinates": {
+    "latitude": 7.5767029,
+    "longitude": 79.7945688
+  },
+  "address": "No.29, 2 Bazaar St, Chilaw 61000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0776878397",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BP63N3KEEMF92GADS66P4"
+}

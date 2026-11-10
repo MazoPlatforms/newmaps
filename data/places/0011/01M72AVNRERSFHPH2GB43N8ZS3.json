@@ -1,0 +1,57 @@
+{
+  "name": "Dispensery & Surgery",
+  "coordinates": {
+    "latitude": 6.889109599999999,
+    "longitude": 79.90935999999999
+  },
+  "address": "VWQ5+JPX, Baddegana Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Medical clinic"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVNRERSFHPH2GB43N8ZS3"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Lanka Chemist",
+  "coordinates": {
+    "latitude": 6.8615717,
+    "longitude": 79.8637957
+  },
+  "address": "34 Galle Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Pharmacy",
+    "Doctor",
+    "Laboratory",
+    "Medical clinic",
+    "Wholesaler"
+  ],
+  "phone": "0772045534",
+  "website": "https://lankachemist.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ39Q9N0JTWMAC2BGA15"
+}

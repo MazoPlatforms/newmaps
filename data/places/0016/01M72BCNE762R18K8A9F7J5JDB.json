@@ -1,0 +1,61 @@
+{
+  "name": "Kokomos",
+  "coordinates": {
+    "latitude": 6.0345352,
+    "longitude": 80.8021065
+  },
+  "address": "Vijaya Rd, Tangalle",
+  "categories": [
+    "Cafe",
+    "Bar",
+    "Breakfast restaurant",
+    "Asian fusion restaurant"
+  ],
+  "phone": "0772046903",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE762R18K8A9F7J5JDB"
+}

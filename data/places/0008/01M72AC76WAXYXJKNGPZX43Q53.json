@@ -1,0 +1,58 @@
+{
+  "address": "150 Bope Rd, Galle",
+  "name": "Gunawardena Grocery Store",
+  "coordinates": {
+    "latitude": 6.0549303,
+    "longitude": 80.19677709999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:45 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:45 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:45 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:45 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:45 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:45 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:45 AM–8:15 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0713604106",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AC76WAXYXJKNGPZX43Q53"
+}

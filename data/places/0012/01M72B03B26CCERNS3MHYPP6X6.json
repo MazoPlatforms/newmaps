@@ -1,0 +1,60 @@
+{
+  "name": "Melt",
+  "coordinates": {
+    "latitude": 6.7088027,
+    "longitude": 79.9137265
+  },
+  "address": "48/72, Suhanda Mawatha, Panadura 12500",
+  "categories": [
+    "Clothing store",
+    "Confectionery store",
+    "Grocery delivery service"
+  ],
+  "phone": "0768969802",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B03B26CCERNS3MHYPP6X6"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Sooriya Grocery",
+  "coordinates": {
+    "latitude": 6.7126912,
+    "longitude": 79.9062677
+  },
+  "address": "445 A Arthur V. Dias Mawatha, Panadura",
+  "categories": [
+    "General store"
+  ],
+  "phone": "0382245084",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B03AZEP9G1FG7VG8DS3TC"
+}

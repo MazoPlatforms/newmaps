@@ -1,0 +1,57 @@
+{
+  "name": "Izza Grocery Store",
+  "coordinates": {
+    "latitude": 8.0378432,
+    "longitude": 79.8261303
+  },
+  "address": "NO -22 J P Ln, Puttalam",
+  "categories": [
+    "Store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMXV2GF1CBAFDSG15KEV"
+}

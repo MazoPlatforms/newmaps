@@ -1,0 +1,59 @@
+{
+  "name": "Chocolate Works",
+  "coordinates": {
+    "latitude": 6.870003,
+    "longitude": 79.87177009999999
+  },
+  "address": "41 Sri Maha Vihara Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Takeout restaurant",
+    "Restaurant"
+  ],
+  "phone": "0773297887",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02GPZE0R1Q6PH3JJA0T"
+}

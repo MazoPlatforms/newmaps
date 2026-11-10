@@ -1,0 +1,60 @@
+{
+  "address": "Mapalagama Bus Rd, Galle 80000",
+  "name": "Sahana Restaurant",
+  "coordinates": {
+    "latitude": 6.0641568999999995,
+    "longitude": 80.221943
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "website": "http://sahana.lk/",
+  "business_status": "OPEN",
+  "phone": "0912222192",
+  "categories": [
+    "Fast food restaurant",
+    "Breakfast restaurant"
+  ],
+  "id": "01M72ABTVW2394C18M5NVTVY8W"
+}

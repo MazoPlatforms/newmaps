@@ -1,0 +1,59 @@
+{
+  "name": "Double Crush",
+  "coordinates": {
+    "latitude": 6.680187999999999,
+    "longitude": 80.3987581
+  },
+  "address": "113/7A Bandaranaike Mawatha, Ratnapura",
+  "categories": [
+    "Bakery",
+    "Restaurant"
+  ],
+  "phone": "0740220602",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGYGXZEYJS2MGY32Q4TD9"
+}

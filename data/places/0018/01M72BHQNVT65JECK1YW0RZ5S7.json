@@ -1,0 +1,61 @@
+{
+  "name": "Highway Auto Engineer",
+  "coordinates": {
+    "latitude": 6.740104199999999,
+    "longitude": 80.0552976
+  },
+  "address": "Highway Auto Engineer Kabellagoda Horana",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto machine shop",
+    "Chauffeur service"
+  ],
+  "phone": "0342264497",
+  "website": "https://hae.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHQNVT65JECK1YW0RZ5S7"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Cafe Asiana",
+  "coordinates": {
+    "latitude": 6.8506608,
+    "longitude": 79.87020869999999
+  },
+  "address": "97 Hill St, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Cafe",
+    "Halal restaurant",
+    "Chinese restaurant",
+    "Indian restaurant"
+  ],
+  "phone": "0114202004",
+  "website": "https://cafeasiana.appigo.co/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ01TWY4P6NCD392HRQBX"
+}

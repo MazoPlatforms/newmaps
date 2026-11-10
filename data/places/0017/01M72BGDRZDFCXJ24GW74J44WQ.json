@@ -1,0 +1,58 @@
+{
+  "name": "Sama Stores Grocery Shop",
+  "coordinates": {
+    "latitude": 6.9126271,
+    "longitude": 81.1388932
+  },
+  "address": "W47Q+3H2, B113, Passara",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0728869556",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGDRZDFCXJ24GW74J44WQ"
+}

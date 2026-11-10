@@ -1,0 +1,58 @@
+{
+  "name": "Shanthi Medi Shop",
+  "coordinates": {
+    "latitude": 6.9922881,
+    "longitude": 81.0541822
+  },
+  "address": "No.29 Gurundawaththa Road, Badulla 90000",
+  "categories": [
+    "Health consultant"
+  ],
+  "phone": "0771109000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWGBJMWRKW8PZ76NG00Z"
+}

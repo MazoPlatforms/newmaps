@@ -1,0 +1,58 @@
+{
+  "name": "HP World",
+  "coordinates": {
+    "latitude": 7.577259799999999,
+    "longitude": 79.795034
+  },
+  "address": "UC Shopping Complex, Freazer Road, Chilaw",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0741566567",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D25V9DW1KJN9XET5R95GF"
+}

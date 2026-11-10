@@ -1,0 +1,57 @@
+{
+  "name": "Municipal Council GYM",
+  "coordinates": {
+    "latitude": 7.490105,
+    "longitude": 80.3664852
+  },
+  "address": "27 Kachcheri Road, Kurunegala",
+  "categories": [
+    "Fitness center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 PM–1 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D12680T9VP6V8KYKMY3DN"
+}

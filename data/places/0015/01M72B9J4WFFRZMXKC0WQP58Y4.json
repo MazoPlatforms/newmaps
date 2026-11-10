@@ -1,0 +1,58 @@
+{
+  "name": "Unity Medical Center",
+  "coordinates": {
+    "latitude": 5.9495308,
+    "longitude": 80.5303931
+  },
+  "address": "Matara 81000",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0717677241",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J4WFFRZMXKC0WQP58Y4"
+}

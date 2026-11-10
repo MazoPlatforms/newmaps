@@ -1,0 +1,59 @@
+{
+  "name": "MHM Bakeware And Supermarket",
+  "coordinates": {
+    "latitude": 6.235233999999999,
+    "longitude": 80.05388339999999
+  },
+  "address": "18 Station Rd, Ambalangoda 80300",
+  "categories": [
+    "Supermarket",
+    "Wholesale market"
+  ],
+  "phone": "0912259839",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B84BNDYZFQ1DKRYKQTZYW"
+}

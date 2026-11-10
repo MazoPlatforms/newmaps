@@ -1,0 +1,58 @@
+{
+  "name": "Himas Hotel & Grocery",
+  "coordinates": {
+    "latitude": 7.2748376,
+    "longitude": 81.8482196
+  },
+  "address": "96, Main Street, Palamunai, Akkaraipattu 32354",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0672255339",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3–10:30 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1NB21XY4J2KXE3QK17P3"
+}

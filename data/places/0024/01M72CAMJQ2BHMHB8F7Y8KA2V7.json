@@ -1,0 +1,60 @@
+{
+  "name": "UniQue Technologies",
+  "coordinates": {
+    "latitude": 6.8498662,
+    "longitude": 79.874507
+  },
+  "address": "10350, 200 A Srimath D.B.Jayathilake Mawatha, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Electronics repair shop",
+    "Security system installation service"
+  ],
+  "phone": "0773526911",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAMJQ2BHMHB8F7Y8KA2V7"
+}

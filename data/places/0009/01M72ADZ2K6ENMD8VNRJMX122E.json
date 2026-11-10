@@ -1,0 +1,58 @@
+{
+  "address": "No.99 Poruthota Road, Negombo 11410",
+  "name": "Breath Café",
+  "coordinates": {
+    "latitude": 7.2419965,
+    "longitude": 79.8421719
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0768490691",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72ADZ2K6ENMD8VNRJMX122E"
+}

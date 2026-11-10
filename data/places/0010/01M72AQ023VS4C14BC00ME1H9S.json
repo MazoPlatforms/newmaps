@@ -1,0 +1,58 @@
+{
+  "name": "The Station Restaurant & Bar",
+  "coordinates": {
+    "latitude": 6.862307299999999,
+    "longitude": 79.859782
+  },
+  "address": "1, 41 Wasala Rd, Colombo",
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "phone": "0770770774",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ023VS4C14BC00ME1H9S"
+}

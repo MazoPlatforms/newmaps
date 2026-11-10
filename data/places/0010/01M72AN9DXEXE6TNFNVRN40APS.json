@@ -1,0 +1,58 @@
+{
+  "name": "GlobalMedics（ 全康医疗）",
+  "coordinates": {
+    "latitude": 6.9028996,
+    "longitude": 79.8543112
+  },
+  "address": "No 19 Charles Dr, Colombo 00300",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0762950693",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9DXEXE6TNFNVRN40APS"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "The Flying Wok Family Restaurant",
+  "coordinates": {
+    "latitude": 7.4688092,
+    "longitude": 80.054048
+  },
+  "address": "No 308 A, Kurunegala Rd, essedduma, Kuliyapitiya",
+  "categories": [
+    "Pan-Asian restaurant"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMGJBYMDWC9RJ2JSEE4M5"
+}

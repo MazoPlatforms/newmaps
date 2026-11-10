@@ -1,0 +1,60 @@
+{
+  "name": "Singer B Show Room - Badulla",
+  "coordinates": {
+    "latitude": 6.9847169,
+    "longitude": 81.06001359999999
+  },
+  "address": "33, Anagarika Darmapala Mawatha, Viharagoda, Badulla 90000",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0552231645",
+  "website": "http://www.singersl.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–8 AM",
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXCJV5A8DYRBYA2TJJKSV"
+}

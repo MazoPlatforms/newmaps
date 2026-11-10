@@ -1,0 +1,59 @@
+{
+  "name": "Co-Operative Hospital Galle",
+  "coordinates": {
+    "latitude": 6.036664,
+    "longitude": 80.2161146
+  },
+  "address": "24 Gamini Mawatha, Galle 80000",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0912234270",
+  "website": "https://gallecoophospital.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6GT63C2R0C5552F0HX55"
+}

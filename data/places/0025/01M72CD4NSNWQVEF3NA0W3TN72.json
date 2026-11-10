@@ -1,0 +1,63 @@
+{
+  "name": "Manjari",
+  "coordinates": {
+    "latitude": 6.868572599999999,
+    "longitude": 79.8873009
+  },
+  "address": "136 S. De S. Jayasinghe Mawatha, Nugegoda 10250",
+  "categories": [
+    "Clothing store",
+    "Shopping mall",
+    "Department store",
+    "Fabric store",
+    "Home goods store"
+  ],
+  "phone": "0112819599",
+  "website": "https://www.manjari.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CD4NSNWQVEF3NA0W3TN72"
+}

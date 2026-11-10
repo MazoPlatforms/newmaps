@@ -1,0 +1,58 @@
+{
+  "name": "Arunaloka Medical Centre Kurunegala",
+  "coordinates": {
+    "latitude": 7.490367999999999,
+    "longitude": 80.365253
+  },
+  "address": "24 Dambulla Rd, Kurunegala",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0773783163",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKR9NBJJMXE4FHCA3A38C"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Beruwala Public Library",
+  "coordinates": {
+    "latitude": 6.4747151999999994,
+    "longitude": 79.9826645
+  },
+  "address": "Beruwala Urban Council, A2, Beruwala",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0342279545",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKXVZ4NPCWYYWWWJK8ZSS"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Ksa Mini Mart",
+  "coordinates": {
+    "latitude": 8.5015044,
+    "longitude": 81.1737079
+  },
+  "address": "G52F+JF4, VC Road, Kinniya 02",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0756868158",
+  "website": "https://ksaminimartkinniya.netlify.app/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C408KVF9HDW6YPYNV5CMH"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Crystal",
+  "coordinates": {
+    "latitude": 6.9782193,
+    "longitude": 81.044536
+  },
+  "address": "Sinhapura, 90060",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0767804398",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDJGY0QC8Q7HMMA2K09A9"
+}

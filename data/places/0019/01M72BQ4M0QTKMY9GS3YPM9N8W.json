@@ -1,0 +1,58 @@
+{
+  "name": "Gunasekara Grocery",
+  "coordinates": {
+    "latitude": 8.3233801,
+    "longitude": 80.40628699999999
+  },
+  "address": "249 Freeman Mawatha, Anuradhapura",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0714177547",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4M0QTKMY9GS3YPM9N8W"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "3 Kandy Rd, Kilinochchi",
+  "name": "Sy Niro Cool Cafe",
+  "coordinates": {
+    "latitude": 9.387608499999999,
+    "longitude": 80.4081842
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0776664428",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72ACTCZMJFKSCZSV1C292Q0"
+}

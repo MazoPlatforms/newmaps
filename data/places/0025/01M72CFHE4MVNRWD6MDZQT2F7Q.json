@@ -1,0 +1,58 @@
+{
+  "name": "Salon Blue Diamond",
+  "coordinates": {
+    "latitude": 7.2175635,
+    "longitude": 79.8538097
+  },
+  "address": "139/1 Negombo - Giriulla Rd, Negombo",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0313138877",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHE4MVNRWD6MDZQT2F7Q"
+}

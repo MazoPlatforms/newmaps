@@ -1,0 +1,58 @@
+{
+  "name": "Verny Salon & Cosmetic Centre",
+  "coordinates": {
+    "latitude": 7.470812899999999,
+    "longitude": 80.6228374
+  },
+  "address": "1st Floor, 98B King St, Matale 21000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0776137028",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNZE0FKGD0RC807TTHCJE"
+}

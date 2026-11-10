@@ -1,0 +1,59 @@
+{
+  "name": "MyLaptop.lk",
+  "coordinates": {
+    "latitude": 7.4875086,
+    "longitude": 80.3642856
+  },
+  "address": "1st Floor, New Bus Stand Shopping Complex, M37, 60000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0776120121",
+  "website": "https://mylaptop.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HG81JJ74B42FYD02JDS"
+}

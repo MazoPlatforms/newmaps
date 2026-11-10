@@ -1,0 +1,64 @@
+{
+  "name": "Dispensary & Surgery",
+  "coordinates": {
+    "latitude": 6.8400571999999995,
+    "longitude": 79.8797645
+  },
+  "address": "72 Kawdana Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0777571662",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9–11 AM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9–11 AM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9–11 AM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9–11 AM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11 AM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9–11 AM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3JF9X17JN2KNZSEPFQ"
+}

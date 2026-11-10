@@ -1,0 +1,65 @@
+{
+  "name": "Medic Medical Centre Panadura ( Dr Ramanayaka )",
+  "coordinates": {
+    "latitude": 6.7169153999999995,
+    "longitude": 79.9072645
+  },
+  "address": "356/1A, Galle Road,, Panadura",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0382240557",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30–8:30 AM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30–8:30 AM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30–8:30 AM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30–8:30 AM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30–8:30 AM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30–8:30 AM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–1 PM",
+        "4:30–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08NA7WD9SPC64H8ZFWPB"
+}

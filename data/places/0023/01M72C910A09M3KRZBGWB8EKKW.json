@@ -1,0 +1,58 @@
+{
+  "name": "Capital Hardware",
+  "coordinates": {
+    "latitude": 6.939393399999999,
+    "longitude": 79.86087979999999
+  },
+  "address": "270 Old Moor St, Colombo 01200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112424303",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910A09M3KRZBGWB8EKKW"
+}

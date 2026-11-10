@@ -1,0 +1,68 @@
+{
+  "name": "Shanghai Terrace",
+  "coordinates": {
+    "latitude": 6.8984228,
+    "longitude": 79.9058852
+  },
+  "address": "811 Kotte Rd, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Chinese restaurant",
+    "Diner",
+    "Restaurant"
+  ],
+  "phone": "0112878878",
+  "website": "http://www.shanghai-terrace.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–3 PM",
+        "6–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZH0XAVKCA09PFX5SBQD"
+}

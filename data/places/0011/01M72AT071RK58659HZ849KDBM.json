@@ -1,0 +1,59 @@
+{
+  "name": "Moratuwa Post Office",
+  "coordinates": {
+    "latitude": 6.7749761,
+    "longitude": 79.8828819
+  },
+  "address": "QVFM+X5R, Station Rd, Moratuwa 10400",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0112645250",
+  "website": "http://www.slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AT071RK58659HZ849KDBM"
+}

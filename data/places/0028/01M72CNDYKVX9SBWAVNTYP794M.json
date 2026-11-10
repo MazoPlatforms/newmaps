@@ -1,0 +1,60 @@
+{
+  "name": "Tissa Communication & Book Shop",
+  "coordinates": {
+    "latitude": 7.2915855,
+    "longitude": 80.6329409
+  },
+  "address": "Kandy City Point Complex, B16 Station Rd, Kandy 20000",
+  "categories": [
+    "Print shop",
+    "Picture frame shop",
+    "Stationery store"
+  ],
+  "phone": "0712070529",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNDYKVX9SBWAVNTYP794M"
+}

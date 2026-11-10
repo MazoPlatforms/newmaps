@@ -1,0 +1,59 @@
+{
+  "name": "SHANI Beauty House",
+  "coordinates": {
+    "latitude": 7.0855706,
+    "longitude": 80.03378839999999
+  },
+  "address": "Asiri Laboratory, 16/1 Radawana Road, upper floor, Yakkala 11870",
+  "categories": [
+    "Beauty salon",
+    "Hair salon"
+  ],
+  "phone": "0701777958",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGKWYTBD11NEAF72KTF76"
+}

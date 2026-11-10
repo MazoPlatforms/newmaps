@@ -1,0 +1,59 @@
+{
+  "name": "Suraj Stores",
+  "coordinates": {
+    "latitude": 6.2087395999999995,
+    "longitude": 80.0683449
+  },
+  "address": "138, Hambuwatta Rd, Kuleegoda, Madampagama, Ambalangoda 80328",
+  "categories": [
+    "Supermarket",
+    "Asian grocery store"
+  ],
+  "phone": "0912256036",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–8:30 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B84BVYVH31ZA2HNP7RCQ5"
+}

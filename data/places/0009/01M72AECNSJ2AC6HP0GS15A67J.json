@@ -1,0 +1,62 @@
+{
+  "address": "81 Porutota Rd, Negombo",
+  "name": "Tecso Express",
+  "coordinates": {
+    "latitude": 7.2415508,
+    "longitude": 79.8421291
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777292828",
+  "categories": [
+    "Supermarket",
+    "Convenience store",
+    "Grocery store",
+    "Souvenir store",
+    "Tourist attraction"
+  ],
+  "id": "01M72AECNSJ2AC6HP0GS15A67J"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon Nilu",
+  "coordinates": {
+    "latitude": 6.5600716,
+    "longitude": 79.9761398
+  },
+  "address": "197 Kalutara-Matugama Rd, Kalutara",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0714939344",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHTG19MDPAPFP7XQTT0YQ"
+}

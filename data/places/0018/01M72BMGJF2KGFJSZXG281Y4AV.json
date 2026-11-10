@@ -1,0 +1,58 @@
+{
+  "name": "Deli By Jai",
+  "coordinates": {
+    "latitude": 7.325418,
+    "longitude": 79.98775069999999
+  },
+  "address": "JAI Lanka Filling Station, Pannala 60160",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0312298505",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMGJF2KGFJSZXG281Y4AV"
+}

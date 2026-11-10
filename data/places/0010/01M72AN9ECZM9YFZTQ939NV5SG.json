@@ -1,0 +1,59 @@
+{
+  "name": "Melsta Hospitals",
+  "coordinates": {
+    "latitude": 7.0275108,
+    "longitude": 79.9206797
+  },
+  "address": "No. 43 Mahabage Road, Ragama",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0115100000",
+  "website": "https://www.melstahospitals.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9ECZM9YFZTQ939NV5SG"
+}

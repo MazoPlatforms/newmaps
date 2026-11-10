@@ -1,0 +1,61 @@
+{
+  "name": "Bakemart Bakery - Makandura",
+  "coordinates": {
+    "latitude": 7.322593299999999,
+    "longitude": 79.9785675
+  },
+  "address": "Negombo-Kurunegala Rd, Makandura 60170",
+  "categories": [
+    "Bakery",
+    "Cafe",
+    "Ice cream shop",
+    "Juice shop"
+  ],
+  "phone": "0778985328",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMGJEN15ZJ813R9A3FND5"
+}

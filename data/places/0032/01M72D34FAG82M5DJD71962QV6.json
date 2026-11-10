@@ -1,0 +1,58 @@
+{
+  "name": "SMS Trade Center",
+  "coordinates": {
+    "latitude": 8.3235827,
+    "longitude": 80.4000563
+  },
+  "address": "Udaya Mawatha, Anuradhapura",
+  "categories": [
+    "Distribution service"
+  ],
+  "phone": "0779562519",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D34FAG82M5DJD71962QV6"
+}

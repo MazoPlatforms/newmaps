@@ -1,0 +1,58 @@
+{
+  "name": "Haris IT",
+  "coordinates": {
+    "latitude": 9.6709178,
+    "longitude": 80.0203859
+  },
+  "address": "No.258, 1 Navalar Rd, Jaffna 40000",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0776033650",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4NA0B1VTNJ6MGGQPDTDW"
+}

@@ -1,0 +1,61 @@
+{
+  "address": "295 Lewis Pl, Negombo 11500",
+  "name": "White House Seafood Restaurant",
+  "coordinates": {
+    "latitude": 7.2316788999999995,
+    "longitude": 79.8410214
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    }
+  ],
+  "website": "https://white-house-seafood.tas.ink/",
+  "business_status": "OPEN",
+  "phone": "0771348668",
+  "categories": [
+    "Restaurant",
+    "Bar & grill",
+    "Seafood restaurant"
+  ],
+  "id": "01M72ADZ4V6X41BCVRYSYDGYP3"
+}

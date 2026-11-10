@@ -1,0 +1,58 @@
+{
+  "name": "Helix Dental Care",
+  "coordinates": {
+    "latitude": 6.8322721,
+    "longitude": 80.9981696
+  },
+  "address": "4/A Beragala-Hali Ela Hwy, Bandarawela 90100",
+  "categories": [
+    "Dental clinic"
+  ],
+  "phone": "0779274656",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFTNQY78D9R17DVQR13BF"
+}

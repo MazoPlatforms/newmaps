@@ -1,0 +1,59 @@
+{
+  "name": "Khanco Lanka",
+  "coordinates": {
+    "latitude": 6.974107999999999,
+    "longitude": 79.8785387
+  },
+  "address": "43D Farm Rd, Colombo",
+  "categories": [
+    "Animal feed store"
+  ],
+  "phone": "0716333006",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11 AM",
+        "3–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48PH1MBHGW9ZBGXQRWT"
+}

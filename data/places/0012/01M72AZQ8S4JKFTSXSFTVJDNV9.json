@@ -1,0 +1,58 @@
+{
+  "name": "Seoul Restaurant",
+  "coordinates": {
+    "latitude": 6.690220999999999,
+    "longitude": 79.917305
+  },
+  "address": "MWR8+3WR, Panadura",
+  "categories": [
+    "Korean restaurant"
+  ],
+  "phone": "0704150387",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "1–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "1–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "1–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "1–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZQ8S4JKFTSXSFTVJDNV9"
+}

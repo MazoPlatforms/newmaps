@@ -1,0 +1,58 @@
+{
+  "address": "4.2 mount calvary, Galle 80000",
+  "name": "Akkis Cafe",
+  "coordinates": {
+    "latitude": 6.0351656,
+    "longitude": 80.2126449
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0766210245",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72ABTTHWGZ9TZT16SXCHV7G"
+}

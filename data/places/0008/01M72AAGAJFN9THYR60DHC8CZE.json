@@ -1,0 +1,58 @@
+{
+  "address": "40. Sangarajha Mahwatha, Rd, Kandy 20000",
+  "name": "Lakeside Mini Mart & Snaks",
+  "coordinates": {
+    "latitude": 7.288683,
+    "longitude": 80.6411894
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0761010735",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "id": "01M72AAGAJFN9THYR60DHC8CZE"
+}

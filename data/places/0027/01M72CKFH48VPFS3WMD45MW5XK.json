@@ -1,0 +1,59 @@
+{
+  "name": "Enuli Fashion",
+  "coordinates": {
+    "latitude": 6.5213522,
+    "longitude": 80.1146961
+  },
+  "address": "Aluthgama Road, Matugama",
+  "categories": [
+    "Clothing store",
+    "Aquarium shop"
+  ],
+  "phone": "0342248897",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKFH48VPFS3WMD45MW5XK"
+}

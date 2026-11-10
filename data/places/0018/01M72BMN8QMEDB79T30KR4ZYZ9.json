@@ -1,0 +1,58 @@
+{
+  "name": "Co-Op City Koshena",
+  "coordinates": {
+    "latitude": 7.520171599999999,
+    "longitude": 79.9950787
+  },
+  "address": "GXCW+328, Kuliyapitiya-Padiwela Rd, Ilukhena",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0374943930",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMN8QMEDB79T30KR4ZYZ9"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "ECC Supermarket",
+  "coordinates": {
+    "latitude": 6.8726436,
+    "longitude": 81.0510078
+  },
+  "address": "no 52/1 Ella - Passara Rd, Ambagollapathana",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0572235108",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDKD5KXGSR2ZV16CMP10Z"
+}

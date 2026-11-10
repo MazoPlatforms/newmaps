@@ -1,0 +1,58 @@
+{
+  "address": "96 Peradeniya Rd, Kandy 20000",
+  "name": "The Garage Café",
+  "coordinates": {
+    "latitude": 7.2916742999999995,
+    "longitude": 80.6313677
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0756660666",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72AA6JZQEMGVAPSW86AZAE1"
+}

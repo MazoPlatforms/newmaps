@@ -1,0 +1,63 @@
+{
+  "name": "Grand Dish Family Restaurant",
+  "coordinates": {
+    "latitude": 7.464301799999999,
+    "longitude": 80.6202868
+  },
+  "address": "5B Nagolla Rd, Matale 21000",
+  "categories": [
+    "Family restaurant",
+    "Asian restaurant",
+    "Chinese restaurant",
+    "Halal restaurant",
+    "Indian restaurant",
+    "Seafood restaurant"
+  ],
+  "phone": "0717776415",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D7ZHJQWDT2QW7MHRZGN"
+}

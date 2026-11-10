@@ -1,0 +1,61 @@
+{
+  "address": "No 45 Colombo - Puttalam Rd, Negombo 11500",
+  "name": "Grand Espresso Bar",
+  "coordinates": {
+    "latitude": 7.2175264,
+    "longitude": 79.845832
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "website": "http://www.grand.lk/grand_espresso/",
+  "business_status": "OPEN",
+  "phone": "0312236005",
+  "categories": [
+    "Bakery",
+    "Coffee shop",
+    "Cafe"
+  ],
+  "id": "01M72ADZ2WPZAK9496B1NRC33V"
+}

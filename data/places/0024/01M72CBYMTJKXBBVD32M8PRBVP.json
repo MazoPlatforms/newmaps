@@ -1,0 +1,58 @@
+{
+  "name": "Expert System Budget Shop",
+  "coordinates": {
+    "latitude": 6.7736455,
+    "longitude": 79.8804332
+  },
+  "address": "Circle Road, Moratuwa 10400",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0777671592",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CBYMTJKXBBVD32M8PRBVP"
+}

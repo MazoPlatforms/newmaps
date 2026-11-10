@@ -1,0 +1,58 @@
+{
+  "address": "11 Kong Tree Rd, Galle 80000",
+  "name": "S M Egg Stores",
+  "coordinates": {
+    "latitude": 6.0426167,
+    "longitude": 80.223445
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0774740619",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AC78KZGDZFXYSCBB8ZP14"
+}

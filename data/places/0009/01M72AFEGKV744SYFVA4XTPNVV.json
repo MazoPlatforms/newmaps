@@ -1,0 +1,59 @@
+{
+  "address": "155 Dambulla Rd, Kurunegala 60000",
+  "name": "Fresh & Hot Restaurant (Halal)",
+  "coordinates": {
+    "latitude": 7.4941711,
+    "longitude": 80.36765799999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–12 PM",
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0374946296",
+  "categories": [
+    "Non vegetarian restaurant"
+  ],
+  "id": "01M72AFEGKV744SYFVA4XTPNVV"
+}

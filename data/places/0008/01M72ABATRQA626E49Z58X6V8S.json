@@ -1,0 +1,59 @@
+{
+  "address": "Kandy City Centre, Sri Dalada Veediya, Kandy 20000",
+  "name": "Sarasavi Bookshop KCC Branch",
+  "coordinates": {
+    "latitude": 7.292026,
+    "longitude": 80.6371181
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    }
+  ],
+  "website": "http://www.sarasavi.lk/",
+  "business_status": "OPEN",
+  "phone": "0812205344",
+  "categories": [
+    "Book store"
+  ],
+  "id": "01M72ABATRQA626E49Z58X6V8S"
+}

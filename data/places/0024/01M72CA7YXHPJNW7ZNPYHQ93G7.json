@@ -1,0 +1,58 @@
+{
+  "name": "Piyara Fashion",
+  "coordinates": {
+    "latitude": 6.7766341,
+    "longitude": 79.8836182
+  },
+  "address": "112/B, No 112/B, Old Galle Road, Galle - Colombo Rd, Moratuwa 10400",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0112642612",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–8:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA7YXHPJNW7ZNPYHQ93G7"
+}

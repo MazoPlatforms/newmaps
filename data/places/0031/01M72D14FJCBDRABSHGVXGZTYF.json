@@ -1,0 +1,62 @@
+{
+  "name": "Jethro Photography",
+  "coordinates": {
+    "latitude": 7.519295,
+    "longitude": 80.3348644
+  },
+  "address": "Tittawella-Gonagama Rd, Kurunegala",
+  "categories": [
+    "Photography studio",
+    "Commercial photographer",
+    "Portrait studio",
+    "Wedding photographer"
+  ],
+  "phone": "0766695280",
+  "website": "http://www.jethrophotography.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D14FJCBDRABSHGVXGZTYF"
+}

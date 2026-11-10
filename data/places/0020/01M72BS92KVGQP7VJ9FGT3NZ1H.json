@@ -1,0 +1,58 @@
+{
+  "name": "Kings Food Cafe",
+  "coordinates": {
+    "latitude": 7.918120399999999,
+    "longitude": 80.6789379
+  },
+  "address": "WM9H+5H, Dambulla",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0716074274",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92KVGQP7VJ9FGT3NZ1H"
+}

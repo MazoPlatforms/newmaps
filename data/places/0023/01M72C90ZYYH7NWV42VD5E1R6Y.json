@@ -1,0 +1,58 @@
+{
+  "name": "Onida Steels",
+  "coordinates": {
+    "latitude": 6.9402819,
+    "longitude": 79.8625809
+  },
+  "address": "41 Quarry Rd, Colombo 01200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112445065",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C90ZYYH7NWV42VD5E1R6Y"
+}

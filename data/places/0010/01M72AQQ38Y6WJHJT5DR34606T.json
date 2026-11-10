@@ -1,0 +1,57 @@
+{
+  "name": "Axcel Western Medical Center",
+  "coordinates": {
+    "latitude": 6.8483716999999995,
+    "longitude": 79.8661223
+  },
+  "address": "Dehiwala-Mount Lavinia, Galle - Colombo Rd",
+  "categories": [
+    "Doctor"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ38Y6WJHJT5DR34606T"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Yashodha Super",
+  "coordinates": {
+    "latitude": 7.0178724,
+    "longitude": 80.4962012
+  },
+  "address": "D, 4/1 School Ln, Nawalapitiya 20678",
+  "categories": [
+    "Supermarket",
+    "Book store",
+    "Cafeteria"
+  ],
+  "phone": "0512242464",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5SH52MM0KADZF3AA6FX5"
+}

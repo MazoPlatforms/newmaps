@@ -1,0 +1,61 @@
+{
+  "name": "PetsVcare Animal Hospitals",
+  "coordinates": {
+    "latitude": 6.8938254,
+    "longitude": 79.8768731
+  },
+  "address": "506/7 Elvitigala Mawatha, Colombo 5",
+  "categories": [
+    "Animal hospital",
+    "Pet groomer",
+    "Pet supply store"
+  ],
+  "phone": "0773457238",
+  "website": "https://petsvcare.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00X8EGGRMJYNC0ZMAF6"
+}

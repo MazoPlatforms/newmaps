@@ -1,0 +1,58 @@
+{
+  "name": "Good City Supermarket",
+  "coordinates": {
+    "latitude": 8.0407913,
+    "longitude": 79.83938599999999
+  },
+  "address": "2RRQ+8Q6, Good City Supermarket, Puttalam rd, Chilaw",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0713324038",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–11 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–11 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–11 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–11 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–11 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–11 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY3NM1ZZE87Z4Q07TF0"
+}

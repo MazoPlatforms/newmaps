@@ -1,0 +1,63 @@
+{
+  "address": "80 Kurunegala Rd, Dambulla 21100",
+  "name": "CAFE DE SKYLARK - Coffee Shop",
+  "coordinates": {
+    "latitude": 7.8726673,
+    "longitude": 80.64987649999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0772588808",
+  "categories": [
+    "Restaurant",
+    "Beverage distributor",
+    "Cake shop",
+    "Coffee shop",
+    "Juice shop",
+    "Pastry shop"
+  ],
+  "id": "01M72AFEMQ372EYN8TM3NEX0RK"
+}

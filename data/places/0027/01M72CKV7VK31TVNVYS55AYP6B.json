@@ -1,0 +1,58 @@
+{
+  "name": "Street Barber",
+  "coordinates": {
+    "latitude": 6.4754847,
+    "longitude": 79.98439549999999
+  },
+  "address": "10 China Fort Rd, Beruwala 12070",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0779997490",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKV7VK31TVNVYS55AYP6B"
+}

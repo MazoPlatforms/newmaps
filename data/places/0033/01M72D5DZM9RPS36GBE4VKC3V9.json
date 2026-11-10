@@ -1,0 +1,59 @@
+{
+  "name": "Ykk-Shopping Vavuniya",
+  "coordinates": {
+    "latitude": 8.7490851,
+    "longitude": 80.48905859999999
+  },
+  "address": "No,98 Laxsapana Road, Vavuniya 43000",
+  "categories": [
+    "Store"
+  ],
+  "phone": "0758123738",
+  "website": "https://ykk-shopping.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5DZM9RPS36GBE4VKC3V9"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Nanotec Computers",
+  "coordinates": {
+    "latitude": 8.7530068,
+    "longitude": 80.4986747
+  },
+  "address": "20 1st Cross St, Vavuniya",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0711020303",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5DZKZDTT3W2AM11C70TE"
+}

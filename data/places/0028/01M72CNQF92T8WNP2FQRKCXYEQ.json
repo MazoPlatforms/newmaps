@@ -1,0 +1,58 @@
+{
+  "name": "S Tech Solution",
+  "coordinates": {
+    "latitude": 7.4326588,
+    "longitude": 80.64220619999999
+  },
+  "address": "188/2 A Dumbukola, Katudeniya 21016",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0701222344",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNQF92T8WNP2FQRKCXYEQ"
+}

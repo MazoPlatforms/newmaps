@@ -1,0 +1,59 @@
+{
+  "name": "Diliyha Tech",
+  "coordinates": {
+    "latitude": 6.5754136,
+    "longitude": 79.9736664
+  },
+  "address": "153/2 kandegedara, Kalutara 12000",
+  "categories": [
+    "Printer repair service",
+    "Computer repair service"
+  ],
+  "phone": "0768646207",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHJCZ2MMK00BFFXDR8RZJ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Fair Beauty Parlour & Salon",
+  "coordinates": {
+    "latitude": 6.976425,
+    "longitude": 80.7652299
+  },
+  "address": "05 Chapel St, Nuwara Eliya 22200",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0775005160",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPP1DZJ6XTW3THESKSX6J"
+}

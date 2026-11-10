@@ -1,0 +1,60 @@
+{
+  "address": "214 Grandpass Rd, Colombo 00140",
+  "name": "Arabian Mall",
+  "coordinates": {
+    "latitude": 6.94332,
+    "longitude": 79.8689072
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "website": "https://www.arabianmall.lk/",
+  "business_status": "OPEN",
+  "phone": "0777326545",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72A9D2ZZQW4M6QV1E25Q6VC"
+}

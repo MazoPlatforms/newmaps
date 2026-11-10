@@ -1,0 +1,58 @@
+{
+  "name": "New Liyanage Enterprises",
+  "coordinates": {
+    "latitude": 7.099533699999999,
+    "longitude": 79.9910974
+  },
+  "address": "No. 117/B New Minuwangoda Rd, Gampaha",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0332232719",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGHSB45YHSKS46ME82W86"
+}

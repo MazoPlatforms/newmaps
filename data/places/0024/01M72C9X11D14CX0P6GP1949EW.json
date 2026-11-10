@@ -1,0 +1,58 @@
+{
+  "name": "Peak Route",
+  "coordinates": {
+    "latitude": 6.8748222,
+    "longitude": 79.8610087
+  },
+  "address": "No 106A Galle - Colombo Rd, Colombo 00600",
+  "categories": [
+    "Print shop"
+  ],
+  "phone": "0112364000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9X11D14CX0P6GP1949EW"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Belle Arugambay",
+  "coordinates": {
+    "latitude": 6.857374,
+    "longitude": 81.83210249999999
+  },
+  "address": "Panama Rd, Pottuvil",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777531634",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1WQ2Y5FHH1YPTXDYTJ4N"
+}

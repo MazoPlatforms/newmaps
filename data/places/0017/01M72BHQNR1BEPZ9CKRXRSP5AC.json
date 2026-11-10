@@ -1,0 +1,58 @@
+{
+  "name": "Nelshan Auto Parts",
+  "coordinates": {
+    "latitude": 6.7142257999999995,
+    "longitude": 80.3860459
+  },
+  "address": "No. 796, Ratnapura",
+  "categories": [
+    "Auto parts store"
+  ],
+  "phone": "0767376730",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHQNR1BEPZ9CKRXRSP5AC"
+}

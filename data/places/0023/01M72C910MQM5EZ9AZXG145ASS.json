@@ -1,0 +1,60 @@
+{
+  "name": "Acculanka",
+  "coordinates": {
+    "latitude": 6.9411356,
+    "longitude": 79.8629811
+  },
+  "address": "1st floor, 130, 1 M. J. M. Laffir Mawatha, Colombo 01300",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0771116887",
+  "website": "http://acculanka.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10–11:30 AM",
+        "1:30–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910MQM5EZ9AZXG145ASS"
+}

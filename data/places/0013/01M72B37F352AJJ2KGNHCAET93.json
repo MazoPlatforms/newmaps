@@ -1,0 +1,58 @@
+{
+  "name": "OakRay Automobile - Gatambe",
+  "coordinates": {
+    "latitude": 7.2792157,
+    "longitude": 80.6056122
+  },
+  "address": "22c Deveni Rajasinghe Mawatha, Kandy 20000",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0763482801",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B37F352AJJ2KGNHCAET93"
+}

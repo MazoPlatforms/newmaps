@@ -1,0 +1,58 @@
+{
+  "name": "New City Hardware",
+  "coordinates": {
+    "latitude": 8.334151,
+    "longitude": 80.4105139
+  },
+  "address": "8CM6+M66, Bank of Ceylon Round About, Anuradhapura",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0777892090",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2W6X5G6GEHZ7S02ACCMM"
+}

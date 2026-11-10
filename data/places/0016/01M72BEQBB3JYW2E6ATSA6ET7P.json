@@ -1,0 +1,60 @@
+{
+  "name": "KS Oil Stores",
+  "coordinates": {
+    "latitude": 6.9883437,
+    "longitude": 81.0574622
+  },
+  "address": "No.13, 14 South Lane, Badulla 90000",
+  "categories": [
+    "General store",
+    "Asian grocery store"
+  ],
+  "phone": "0766011660",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8–11:30 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:30 AM",
+        "1:30–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQBB3JYW2E6ATSA6ET7P"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Crone",
+  "coordinates": {
+    "latitude": 8.7559875,
+    "longitude": 80.4913594
+  },
+  "address": "QF4R+9GX, Vavuniya",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0776364441",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6KT8Q21CVRW1R9W1DG5"
+}

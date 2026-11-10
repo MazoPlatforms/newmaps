@@ -1,0 +1,58 @@
+{
+  "name": "Today Salon",
+  "coordinates": {
+    "latitude": 7.247849899999999,
+    "longitude": 79.8422619
+  },
+  "address": "6RXR+4R9, Porutota Rd, Negombo",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0778300075",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHDR3GN6QNEFTKGPTAY1"
+}

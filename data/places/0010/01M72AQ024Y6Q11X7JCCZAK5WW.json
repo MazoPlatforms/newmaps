@@ -1,0 +1,58 @@
+{
+  "name": "Cornish Pastry Shop",
+  "coordinates": {
+    "latitude": 6.821515799999999,
+    "longitude": 79.8723294
+  },
+  "address": "RVCC+JW4, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Pastry shop"
+  ],
+  "phone": "0112735405",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ024Y6Q11X7JCCZAK5WW"
+}

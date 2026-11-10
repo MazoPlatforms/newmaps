@@ -1,0 +1,65 @@
+{
+  "name": "Aroos Retail Shop",
+  "coordinates": {
+    "latitude": 8.042732299999999,
+    "longitude": 79.81872349999999
+  },
+  "address": "2RV9+3FX, Puttalam",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0721166444",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:30 AM",
+        "4–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2 PM",
+        "4:30–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY3Q2QHWS63BTFGPN56"
+}

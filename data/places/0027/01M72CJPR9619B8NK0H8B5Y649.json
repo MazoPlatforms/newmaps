@@ -1,0 +1,59 @@
+{
+  "name": "Computer Repair Shop",
+  "coordinates": {
+    "latitude": 6.7580513,
+    "longitude": 79.90699819999999
+  },
+  "address": "2, 14 Sisila Mawatha, Panadura 12500",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0760499989",
+  "website": "https://sites.google.com/view/computerrepairshoppanadura/home#h.swzl26oy86ki",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPR9619B8NK0H8B5Y649"
+}

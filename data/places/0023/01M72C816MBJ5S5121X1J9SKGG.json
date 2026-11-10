@@ -1,0 +1,59 @@
+{
+  "name": "SPD Clothing",
+  "coordinates": {
+    "latitude": 6.9267245,
+    "longitude": 79.8454739
+  },
+  "address": "1A Centre Road, Colombo 00200, Colombo 2",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0762330798",
+  "website": "https://www.spd-clothing.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C816MBJ5S5121X1J9SKGG"
+}

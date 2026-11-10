@@ -1,0 +1,58 @@
+{
+  "name": "Rohans Kitchen",
+  "coordinates": {
+    "latitude": 6.8005998,
+    "longitude": 79.8794229
+  },
+  "address": "156A Angulana Station Rd, Moratuwa 10400",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0713003235",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6G2150RAWWW00A6WN48"
+}

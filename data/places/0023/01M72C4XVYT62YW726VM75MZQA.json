@@ -1,0 +1,57 @@
+{
+  "name": "Medical Center",
+  "coordinates": {
+    "latitude": 7.2882513,
+    "longitude": 80.5754193
+  },
+  "address": "7HQG+853, Muruthalawa",
+  "categories": [
+    "Medical Center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4XVYT62YW726VM75MZQA"
+}

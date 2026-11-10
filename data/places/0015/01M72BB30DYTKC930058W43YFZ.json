@@ -1,0 +1,59 @@
+{
+  "name": "HNB Weligama (Hatton National Bank)",
+  "coordinates": {
+    "latitude": 5.972916499999999,
+    "longitude": 80.42923909999999
+  },
+  "address": "No.354, 53 Matara Rd, Weligama",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0415622544",
+  "website": "https://www.hnb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB30DYTKC930058W43YFZ"
+}

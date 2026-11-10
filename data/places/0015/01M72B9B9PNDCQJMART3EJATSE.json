@@ -1,0 +1,58 @@
+{
+  "name": "Vegetable Place",
+  "coordinates": {
+    "latitude": 5.943885799999999,
+    "longitude": 80.5499823
+  },
+  "address": "WGVX+HX5, Beach Rd Matara, Matara",
+  "categories": [
+    "Produce market"
+  ],
+  "phone": "0771386007",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9B9PNDCQJMART3EJATSE"
+}

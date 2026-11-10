@@ -1,0 +1,58 @@
+{
+  "name": "Global Medicals",
+  "coordinates": {
+    "latitude": 9.3941382,
+    "longitude": 80.4081238
+  },
+  "address": "9CV5+M65, Kilinochchi",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0771070276",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXPZZPVHB55E5XJCRQSNV"
+}

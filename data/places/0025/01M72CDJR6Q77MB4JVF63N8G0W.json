@@ -1,0 +1,59 @@
+{
+  "name": "Gadmei",
+  "coordinates": {
+    "latitude": 6.9085095999999995,
+    "longitude": 79.89608249999999
+  },
+  "address": "2nd Floor, JANA JAYA CITY MALL (JJC ) NO:219, Nawala Rd, 10100",
+  "categories": [
+    "Repair service"
+  ],
+  "phone": "0718298899",
+  "website": "http://www.gadmei.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJR6Q77MB4JVF63N8G0W"
+}

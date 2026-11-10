@@ -1,0 +1,58 @@
+{
+  "name": "Chrishantha's Medical Center",
+  "coordinates": {
+    "latitude": 7.4017414,
+    "longitude": 79.8315628
+  },
+  "address": "Chilaw - Colombo Main Rd, Marawila",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0322250899",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMS28Z6ZEZ5BZJ2G1VH43"
+}

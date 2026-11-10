@@ -1,0 +1,59 @@
+{
+  "name": "Wasana Trade Center",
+  "coordinates": {
+    "latitude": 6.7015137,
+    "longitude": 79.912185
+  },
+  "address": "15 Modarawila Road, Modarawila Industrial Zone, Panadura 12500",
+  "categories": [
+    "Hardware store",
+    "Gas cylinders supplier"
+  ],
+  "phone": "0382237500",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK0P4TN3NGJMKTCN8JY3C"
+}

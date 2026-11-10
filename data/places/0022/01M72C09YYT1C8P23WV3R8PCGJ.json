@@ -1,0 +1,61 @@
+{
+  "name": "Qbay",
+  "coordinates": {
+    "latitude": 7.40281,
+    "longitude": 81.8340079
+  },
+  "address": "260/A Cassim Rd, Kalmunai 32300",
+  "categories": [
+    "Shopping mall",
+    "Grocery delivery service"
+  ],
+  "phone": "0672222279",
+  "website": "https://www.qbay.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11 AM",
+        "2:30–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09YYT1C8P23WV3R8PCGJ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Wings Cafe",
+  "coordinates": {
+    "latitude": 5.991679899999999,
+    "longitude": 80.44147439999999
+  },
+  "address": "Denipitiya, Weligama 81000",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0717591220",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3:30–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3:30–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3:30–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3:30–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3:30–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPS4AZMT8X8WSA6F4KST"
+}

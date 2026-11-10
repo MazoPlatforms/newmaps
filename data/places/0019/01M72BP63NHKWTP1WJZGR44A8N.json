@@ -1,0 +1,58 @@
+{
+  "name": "Cmc Pharmacy",
+  "coordinates": {
+    "latitude": 7.5830492,
+    "longitude": 79.79655609999999
+  },
+  "address": "HQMW+6J7, Colombo - Puttalam Rd, Chilaw 61000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0777161794",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BP63NHKWTP1WJZGR44A8N"
+}

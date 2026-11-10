@@ -1,0 +1,58 @@
+{
+  "name": "Lagoon Breeze Restaurant",
+  "coordinates": {
+    "latitude": 7.8150165,
+    "longitude": 79.8241951
+  },
+  "address": "Colombo - Puttalam Rd",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0772555838",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN96650VCB13P9MFKE2AT"
+}

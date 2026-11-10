@@ -1,0 +1,59 @@
+{
+  "address": "14 Independence Ave, Colombo 00700",
+  "name": "National Library Of Sri Lanka",
+  "coordinates": {
+    "latitude": 6.906073999999999,
+    "longitude": 79.86563799999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.natlib.lk/",
+  "business_status": "OPEN",
+  "phone": "0112688855",
+  "categories": [
+    "Public library"
+  ],
+  "id": "01M72A9SDAK07YGB5X3TKMXE2B"
+}

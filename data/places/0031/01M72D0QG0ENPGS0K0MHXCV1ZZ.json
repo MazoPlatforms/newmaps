@@ -1,0 +1,58 @@
+{
+  "name": "Rathna Engineering",
+  "coordinates": {
+    "latitude": 7.5266879,
+    "longitude": 80.3259149
+  },
+  "address": "Kurunegala - Puttalam Rd, Kurunegala",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0372265269",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0QG0ENPGS0K0MHXCV1ZZ"
+}

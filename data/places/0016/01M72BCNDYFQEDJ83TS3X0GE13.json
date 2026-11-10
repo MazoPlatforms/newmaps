@@ -1,0 +1,58 @@
+{
+  "name": "Chill Hut Cafe & Restaurent",
+  "coordinates": {
+    "latitude": 6.0288349,
+    "longitude": 80.797172
+  },
+  "address": "Ashoka Road, Tangalle 82200",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0716499270",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNDYFQEDJ83TS3X0GE13"
+}

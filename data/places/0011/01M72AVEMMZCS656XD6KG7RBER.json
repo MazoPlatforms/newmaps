@@ -1,0 +1,58 @@
+{
+  "name": "Australian Super Mart - Glorious",
+  "coordinates": {
+    "latitude": 6.8855013,
+    "longitude": 79.9021028
+  },
+  "address": "424 Kotte Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0777538387",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEMMZCS656XD6KG7RBER"
+}

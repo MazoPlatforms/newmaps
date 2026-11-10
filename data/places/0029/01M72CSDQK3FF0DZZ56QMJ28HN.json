@@ -1,0 +1,58 @@
+{
+  "name": "Layos",
+  "coordinates": {
+    "latitude": 6.2295761999999995,
+    "longitude": 80.0540487
+  },
+  "address": "N0, 17 Main St, Ambalangoda 80300",
+  "categories": [
+    "Clothing store"
+  ],
+  "website": "http://www.layosclothing.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CSDQK3FF0DZZ56QMJ28HN"
+}

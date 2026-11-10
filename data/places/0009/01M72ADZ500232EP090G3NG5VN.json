@@ -1,0 +1,58 @@
+{
+  "address": "Negombo 11500",
+  "name": "Rio Ice Cream",
+  "coordinates": {
+    "latitude": 7.2138985,
+    "longitude": 79.83847659999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0312225100",
+  "categories": [
+    "Ice cream shop"
+  ],
+  "id": "01M72ADZ500232EP090G3NG5VN"
+}

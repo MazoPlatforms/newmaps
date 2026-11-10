@@ -1,0 +1,58 @@
+{
+  "name": "Mr Hot Bread",
+  "coordinates": {
+    "latitude": 7.254098699999999,
+    "longitude": 80.45160179999999
+  },
+  "address": "No 82 Courts Road, Mawanella",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0775774474",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BK6V2W3HYKV2J4BQF4PQA"
+}

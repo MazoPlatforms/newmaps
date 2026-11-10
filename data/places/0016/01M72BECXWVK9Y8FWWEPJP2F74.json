@@ -1,0 +1,65 @@
+{
+  "name": "H2O Restaurant & Coffee Shop",
+  "coordinates": {
+    "latitude": 7.1287904,
+    "longitude": 80.5942805
+  },
+  "address": "Atabage, 21 mail post, Gampola 50274",
+  "categories": [
+    "Coffee shop",
+    "Cafe",
+    "Food court",
+    "Ice cream shop",
+    "Juice shop",
+    "Restaurant",
+    "Snack bar"
+  ],
+  "phone": "0772916193",
+  "website": "https://www.lankaservices.lk/ad/h2o-restaurant-coffee-shop-gampola",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BECXWVK9Y8FWWEPJP2F74"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Salon Rozani",
+  "coordinates": {
+    "latitude": 7.1917016,
+    "longitude": 79.85773069999999
+  },
+  "address": "657 Colombo - Puttalam Rd, Negombo",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0312237288",
+  "website": "https://www.facebook.com/SalonRozani/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHDVD34YQGWM4NHVY0Q5"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "MCooL Hiriketiya",
+  "coordinates": {
+    "latitude": 5.9643741,
+    "longitude": 80.70766689999999
+  },
+  "address": "Hiriketiya Rd, Hiriketiya",
+  "categories": [
+    "Juice shop",
+    "Pastry shop"
+  ],
+  "phone": "0761522885",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WW1VT8TQ96EVS9FA0Q"
+}

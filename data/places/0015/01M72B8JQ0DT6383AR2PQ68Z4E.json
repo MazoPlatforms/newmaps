@@ -1,0 +1,58 @@
+{
+  "name": "Mahinda Motors",
+  "coordinates": {
+    "latitude": 6.2414776,
+    "longitude": 80.0528348
+  },
+  "address": "134/b Galle Rd, Ambalangoda 80300",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0766007510",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B8JQ0DT6383AR2PQ68Z4E"
+}

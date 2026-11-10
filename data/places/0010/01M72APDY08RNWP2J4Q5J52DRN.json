@@ -1,0 +1,58 @@
+{
+  "name": "Auto World",
+  "coordinates": {
+    "latitude": 6.9792479,
+    "longitude": 79.9115819
+  },
+  "address": "154 Wewalduwa Rd, 11600",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0777182575",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDY08RNWP2J4Q5J52DRN"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Pan Asia Bank",
+  "coordinates": {
+    "latitude": 6.8660556999999995,
+    "longitude": 79.8795318
+  },
+  "address": "No 46A S. De S. Jayasinghe Mawatha, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0114374254",
+  "website": "http://www.pabcbank.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11GJ24NTV4HK45P55VY"
+}

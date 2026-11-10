@@ -1,0 +1,58 @@
+{
+  "name": "New Health Pharmacy",
+  "coordinates": {
+    "latitude": 6.8755641,
+    "longitude": 81.3492124
+  },
+  "address": "V8GX+6MG, POTHUVIL, ROAD, Monaragala",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0777404565",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGG3X73GE02H6KAPDGQMY"
+}

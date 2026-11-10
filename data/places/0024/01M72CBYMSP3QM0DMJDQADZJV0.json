@@ -1,0 +1,60 @@
+{
+  "name": "Computer Solutions",
+  "coordinates": {
+    "latitude": 6.7891689,
+    "longitude": 79.88740399999999
+  },
+  "address": "Vihara Mawatha, Moratuwa 10400",
+  "categories": [
+    "Computer store",
+    "Electronics store"
+  ],
+  "phone": "0777214168",
+  "website": "http://www.computersolutions123.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CBYMSP3QM0DMJDQADZJV0"
+}

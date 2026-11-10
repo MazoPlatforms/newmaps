@@ -1,0 +1,58 @@
+{
+  "name": "Vino Cafe & Cool Spot",
+  "coordinates": {
+    "latitude": 9.3842232,
+    "longitude": 80.4032222
+  },
+  "address": "9CM3+M7Q, Kilinochchi",
+  "categories": [
+    "Coffee store"
+  ],
+  "phone": "0775554795",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXDJZZ0PS2VHREQ7PBHTK"
+}

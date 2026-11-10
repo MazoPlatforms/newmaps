@@ -1,0 +1,58 @@
+{
+  "name": "Computer Repair Shop",
+  "coordinates": {
+    "latitude": 6.9832094,
+    "longitude": 81.06456349999999
+  },
+  "address": "No.280 Passara Road, Badulla",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0710959094",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWWBEA6KSASSBQVNZBGG7"
+}

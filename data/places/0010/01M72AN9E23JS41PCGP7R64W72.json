@@ -1,0 +1,58 @@
+{
+  "name": "Pamunuwa Medical Center",
+  "coordinates": {
+    "latitude": 6.860961499999999,
+    "longitude": 79.92885559999999
+  },
+  "address": "142 Pamunuwa Rd, Maharagama 10280",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0112844099",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9E23JS41PCGP7R64W72"
+}

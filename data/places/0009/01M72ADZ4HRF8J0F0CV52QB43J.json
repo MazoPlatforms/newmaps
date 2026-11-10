@@ -1,0 +1,57 @@
+{
+  "address": "18 Ramlyn Mawatha, Negombo",
+  "name": "L'Ange Café Negombo",
+  "coordinates": {
+    "latitude": 7.2312132,
+    "longitude": 79.841954
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72ADZ4HRF8J0F0CV52QB43J"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Happy Lab Grill & Bar",
+  "coordinates": {
+    "latitude": 6.036849999999999,
+    "longitude": 80.80557739999999
+  },
+  "address": "happy lab medilla, Tangalle 82200",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0778505720",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE7KK3T16JY5HQHKAHK"
+}

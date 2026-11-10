@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Meltora",
+  "coordinates": {
+    "latitude": 6.8349538,
+    "longitude": 79.8670046
+  },
+  "address": "5A Cross Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0771564853",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ01PDBZXNRDM3TSZWMRE"
+}

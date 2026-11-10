@@ -1,0 +1,65 @@
+{
+  "name": "Dr. Samantha Medical Center",
+  "coordinates": {
+    "latitude": 6.984374799999999,
+    "longitude": 81.06830529999999
+  },
+  "address": "218 Peradeniya-Badulla-Chenkaladi Hwy, Badulla",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0718021520",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM",
+        "2–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWG8WEN36H915G7K7T0A"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Finora",
+  "coordinates": {
+    "latitude": 6.8548900999999995,
+    "longitude": 79.9662835
+  },
+  "address": "931 Agirikula Mawatha, Pannipitiya 10230",
+  "categories": [
+    "Animal feed store"
+  ],
+  "phone": "0767567607",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–7 AM",
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CEPJNRH7Z6JQF1C2GZMKQ"
+}

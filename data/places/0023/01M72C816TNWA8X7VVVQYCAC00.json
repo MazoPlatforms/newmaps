@@ -1,0 +1,58 @@
+{
+  "name": "Winter Cloths Fashion",
+  "coordinates": {
+    "latitude": 6.9382104,
+    "longitude": 79.8523542
+  },
+  "address": "212 Main St, Colombo 01100",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0775947904",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C816TNWA8X7VVVQYCAC00"
+}

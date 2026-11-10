@@ -1,0 +1,59 @@
+{
+  "name": "Salon Rapunzels",
+  "coordinates": {
+    "latitude": 6.817342,
+    "longitude": 79.8756569
+  },
+  "address": "425/A Galle Rd, Dehiwala-Mount Lavinia 10400",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0717313134",
+  "website": "https://rapunzelsbeauty.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MK9AX9K7YVMGY54YAA"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Chandrani Vegetable Shop",
+  "coordinates": {
+    "latitude": 7.991584199999999,
+    "longitude": 81.0097267
+  },
+  "address": "X2R5+JVQ, Polonnaruwa",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0703806031",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRETFT19B9WXAZGQVSZ29"
+}

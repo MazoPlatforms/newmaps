@@ -1,0 +1,58 @@
+{
+  "name": "Mohamed Ali & Company",
+  "coordinates": {
+    "latitude": 7.2119582,
+    "longitude": 79.8425065
+  },
+  "address": "Prime Grameen Micro Finance Ltd ( Negombo ), 349/1A/1/1 Main St, Negombo",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0312222684",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCM2JQF1QQM8H51JNFAQ"
+}

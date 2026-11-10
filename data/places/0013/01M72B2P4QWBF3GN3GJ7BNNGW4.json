@@ -1,0 +1,62 @@
+{
+  "name": "Suwasetha Medical Center Kandy",
+  "coordinates": {
+    "latitude": 7.2912091,
+    "longitude": 80.6313691
+  },
+  "address": "Near to Kandy Convent, 111 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Medical Center",
+    "Mental health clinic",
+    "Psychiatrist",
+    "Psychologist"
+  ],
+  "phone": "0812232928",
+  "website": "https://suwasethakandy.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2P4QWBF3GN3GJ7BNNGW4"
+}

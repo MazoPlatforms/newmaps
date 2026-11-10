@@ -1,0 +1,58 @@
+{
+  "name": "Smart Shoes",
+  "coordinates": {
+    "latitude": 6.033456,
+    "longitude": 80.2153608
+  },
+  "address": "26M8+94Q, Gamini Mawatha, Galle 80000",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0759610600",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQVBKJ2481BANYY8NQW1K"
+}

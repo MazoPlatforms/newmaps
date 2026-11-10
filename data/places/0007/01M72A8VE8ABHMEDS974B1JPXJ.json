@@ -1,0 +1,59 @@
+{
+  "address": "61 Thimbirigasyaya Rd, Colombo 00500",
+  "name": "Hyve Dessert Bar",
+  "coordinates": {
+    "latitude": 6.890805899999999,
+    "longitude": 79.86548309999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0774545960",
+  "categories": [
+    "Cafe",
+    "Dessert shop"
+  ],
+  "id": "01M72A8VE8ABHMEDS974B1JPXJ"
+}

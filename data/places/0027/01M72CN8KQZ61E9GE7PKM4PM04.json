@@ -1,0 +1,64 @@
+{
+  "name": "Athlo Indoor Sports",
+  "coordinates": {
+    "latitude": 7.3268336,
+    "longitude": 80.6766719
+  },
+  "address": "Teldeniya Rd, Madawala",
+  "categories": [
+    "Sports complex",
+    "Badminton court",
+    "Cricket ground",
+    "Futsal court",
+    "Indoor playground",
+    "Playground"
+  ],
+  "phone": "0777126223",
+  "website": "https://www.athloindoor.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CN8KQZ61E9GE7PKM4PM04"
+}

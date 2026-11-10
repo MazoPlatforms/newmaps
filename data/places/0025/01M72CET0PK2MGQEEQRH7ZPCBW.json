@@ -1,0 +1,60 @@
+{
+  "name": "Nolimit - Negombo",
+  "coordinates": {
+    "latitude": 7.2127457999999995,
+    "longitude": 79.84445579999999
+  },
+  "address": "424 Main St, Negombo 11500",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0312224141",
+  "website": "http://www.nolimit.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10–11:30 AM",
+        "1:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CET0PK2MGQEEQRH7ZPCBW"
+}

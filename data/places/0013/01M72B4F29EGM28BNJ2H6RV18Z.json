@@ -1,0 +1,59 @@
+{
+  "name": "Mr.Oranj",
+  "coordinates": {
+    "latitude": 6.9709879,
+    "longitude": 80.7697287
+  },
+  "address": "daily fair complex, 22200",
+  "categories": [
+    "Indian grocery store"
+  ],
+  "phone": "0773469277",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6:30 AM",
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4F29EGM28BNJ2H6RV18Z"
+}

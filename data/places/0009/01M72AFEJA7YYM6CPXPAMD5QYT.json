@@ -1,0 +1,59 @@
+{
+  "address": "256/5 Kandy Rd, Kurunegala 60000",
+  "name": "One Man Kitchen",
+  "coordinates": {
+    "latitude": 7.4809738999999995,
+    "longitude": 80.3689701
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777887755",
+  "categories": [
+    "Non vegetarian restaurant",
+    "Video production service"
+  ],
+  "id": "01M72AFEJA7YYM6CPXPAMD5QYT"
+}

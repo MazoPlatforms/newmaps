@@ -1,0 +1,59 @@
+{
+  "name": "HNB Bank",
+  "coordinates": {
+    "latitude": 7.2539716,
+    "longitude": 80.3501392
+  },
+  "address": "7932+H3J, Kegalle",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0352223731",
+  "website": "http://www.hnb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJC862EV3RF9QRCY8H5EQ"
+}

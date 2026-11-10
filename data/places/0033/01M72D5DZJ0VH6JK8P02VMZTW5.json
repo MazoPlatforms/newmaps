@@ -1,0 +1,57 @@
+{
+  "name": "PC World",
+  "coordinates": {
+    "latitude": 8.7455777,
+    "longitude": 80.5128386
+  },
+  "address": "Sinnaputhukulam, 46 1st Ln, Vavuniya",
+  "categories": [
+    "Computer store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5DZJ0VH6JK8P02VMZTW5"
+}

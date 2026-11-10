@@ -1,0 +1,58 @@
+{
+  "name": "Sunil Brass House",
+  "coordinates": {
+    "latitude": 6.9414188,
+    "longitude": 79.8618336
+  },
+  "address": "WVR6+HP8, Abdul Jabbar Mawatha, Colombo 01300",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0703556155",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910N0MFS6VKR65JFGKP7"
+}

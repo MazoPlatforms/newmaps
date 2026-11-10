@@ -1,0 +1,61 @@
+{
+  "name": "Sujeewa Stores",
+  "coordinates": {
+    "latitude": 8.315455499999999,
+    "longitude": 80.3738783
+  },
+  "address": "Anuradhapura 50000",
+  "categories": [
+    "Supermarket",
+    "Convenience store",
+    "Hardware store",
+    "Wholesaler"
+  ],
+  "phone": "0776822467",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4KY6P6SWX7HARXZMN8Y"
+}

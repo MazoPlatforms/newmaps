@@ -1,0 +1,60 @@
+{
+  "name": "New City Hardware",
+  "coordinates": {
+    "latitude": 7.9346938,
+    "longitude": 81.03042459999999
+  },
+  "address": "357, MAIN STREET.KADURUWELA, POLONNARUWA, Polonnaruwa 51000",
+  "categories": [
+    "Building materials supplier",
+    "Industrial equipment supplier",
+    "Paint store"
+  ],
+  "phone": "0272222273",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3GT76D88BX59SCM1774V"
+}

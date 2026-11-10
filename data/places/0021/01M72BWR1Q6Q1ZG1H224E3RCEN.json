@@ -1,0 +1,58 @@
+{
+  "name": "A9 Service Station",
+  "coordinates": {
+    "latitude": 8.725525,
+    "longitude": 80.4877992
+  },
+  "address": "PFGQ+647, Vavuniya",
+  "categories": [
+    "Diesel engine repair service"
+  ],
+  "phone": "0776339458",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWR1Q6Q1ZG1H224E3RCEN"
+}

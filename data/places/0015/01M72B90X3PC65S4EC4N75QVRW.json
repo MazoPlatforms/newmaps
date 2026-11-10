@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City - Matara 2",
+  "coordinates": {
+    "latitude": 5.9430933999999995,
+    "longitude": 80.5543934
+  },
+  "address": "No. 28, 37 Araliya Mawatha",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0412221026",
+  "website": "https://www.cargillsceylon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90X3PC65S4EC4N75QVRW"
+}

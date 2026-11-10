@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
 import { chromium } from 'playwright';
 import worker from '../src/worker-core.mjs';
+import { buildLiveDataManifest } from '../scripts/cloudflare-live-data-sync.mjs';
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const screenshotDir = process.env.MAZO_SCREENSHOTS_DIR;
@@ -23,12 +24,33 @@ const searchFixturePlace = searchFixture.records.find((record) => record[nameCol
 assert.ok(searchFixturePlace, 'synthetic workflow fixture must be present in the generated search index');
 const expectedPlaceId = searchFixturePlace[idColumn];
 const distRoot = resolve(root, 'dist');
+const liveDataRoot = resolve(root, '.build/live-data');
+const publishedFixtureManifest = await buildLiveDataManifest(liveDataRoot, {
+  revision: 'a'.repeat(40), artifactRevision: 'b'.repeat(40), runNumber: 1,
+});
+const bootstrapManifest = { ...publishedFixtureManifest, revision: 'bootstrap', run_number: 0 };
 const assets = { fetch: async (request) => {
   const url = new URL(request.url);
-  const target = resolve(distRoot, `.${decodeURIComponent(url.pathname)}`);
+  const decodedPath = decodeURIComponent(url.pathname);
+  if (decodedPath.split(/[\\/]/).includes('..') || decodedPath.includes('\\')) return new Response(null, { status: 403 });
+  if (decodedPath === '/generated/live-data-manifest.json') return Response.json(bootstrapManifest);
+  const target = resolve(distRoot, `.${decodedPath}`);
   if (target !== distRoot && !target.startsWith(`${distRoot}${sep}`)) return new Response(null, { status: 403 });
   let bytes;
-  try { bytes = readFileSync(target); } catch { return new Response(null, { status: 404 }); }
+  try { bytes = readFileSync(target); }
+  catch {
+    const fallback = resolve(liveDataRoot, `.${decodedPath}`);
+    try {
+      if (fallback.startsWith(`${liveDataRoot}${sep}`)) bytes = readFileSync(fallback);
+      else throw new Error('outside live-data fixture');
+    } catch {
+      const generatedFallback = resolve(root, `.${decodedPath}`);
+      try {
+        if (generatedFallback.startsWith(`${resolve(root, 'generated')}${sep}`)) bytes = readFileSync(generatedFallback);
+        else return new Response(null, { status: 404 });
+      } catch { return new Response(null, { status: 404 }); }
+    }
+  }
   const headers = new Headers({ 'Content-Length': String(bytes.length), 'Content-Type': contentTypes[extname(target)] || 'application/octet-stream' });
   const range = request.headers.get('range');
   if (range) {
@@ -41,7 +63,37 @@ const assets = { fetch: async (request) => {
   }
   return new Response(request.method === 'HEAD' ? null : bytes, { status: 200, headers });
 } };
-const env = { ASSETS: assets, LIVE_DATA_REGISTRY: { getByName: () => ({ fetch: async () => new Response(null, { status: 404 }) }) } };
+const env = { ASSETS: assets, LIVE_DATA_REGISTRY: { getByName: () => ({ fetch: async () => new Response(null, { status: 404 }) }) },
+  DATA_BUCKET: { get: async (key, options) => {
+    const [, sha256, pathHex] = key.split('/');
+    const path = new TextDecoder().decode(Uint8Array.from(pathHex.match(/../g) || [], (byte) => Number.parseInt(byte, 16)));
+    const file = resolve(liveDataRoot, path);
+    if (!file.startsWith(`${liveDataRoot}${sep}`)) return null;
+    let data;
+    try { data = readFileSync(file); } catch { return null; }
+    const offset = options?.range?.offset ?? 0;
+    const length = options?.range?.length ?? data.byteLength;
+    return { size: data.byteLength, body: data.subarray(offset, offset + length),
+      customMetadata: { sha256, path } };
+  } },
+  GITHUB_DATA_FETCH: async (input, options = {}) => {
+    const url = new URL(input);
+    const path = url.pathname.split('/').slice(2).join('/');
+    const file = resolve(liveDataRoot, path);
+    if (!file.startsWith(`${liveDataRoot}${sep}`)) return new Response(null, { status: 404 });
+    let data;
+    try { data = readFileSync(file); } catch { return new Response(null, { status: 404 }); }
+    const range = options.headers?.get('Range');
+    if (range) {
+      const match = /^bytes=(\d+)-(\d*)$/.exec(range);
+      if (!match) return new Response(null, { status: 416 });
+      const start = Number(match[1]); const end = Math.min(match[2] ? Number(match[2]) : data.byteLength - 1, data.byteLength - 1);
+      if (start >= data.byteLength || end < start) return new Response(null, { status: 416 });
+      return new Response(data.subarray(start, end + 1), { status: 206, headers: { 'Content-Range': `bytes ${start}-${end}/${data.byteLength}` } });
+    }
+    return new Response(data, { headers: { 'Content-Type': 'application/json' } });
+  },
+};
 const server = createServer(async (request, response) => {
   const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
   if (pathname.startsWith('/api/')) {
@@ -112,6 +164,9 @@ try {
     });
     await context.grantPermissions([], { origin: `http://127.0.0.1:${server.address().port}` });
     const page = await context.newPage();
+    // Each scenario must start from the same theme even if Chromium reuses a
+    // profile or a prior run left a preference in storage.
+    await page.addInitScript(() => localStorage.setItem('mazo-maps-theme', 'light'));
     const errors = [];
     const ranges = [];
     const speedRequests = [];
@@ -161,8 +216,13 @@ try {
       throw error;
     }
     await wait(page, () => document.querySelectorAll('.categories button').length > 2 && document.querySelector('#search-status').hidden, 90_000);
-    const sourceType = await page.evaluate(() => window.__MAZO_MAP_TEST__.getSource('mazo-pois')?.type);
-    assert.equal(sourceType, 'vector', 'production places render from PMTiles vector tiles');
+    await wait(page, () => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['places-dot'] }).length > 0, 30_000);
+    const bootstrapPoiSource = await page.evaluate(() => ({
+      type: window.__MAZO_MAP_TEST__.getSource('mazo')?.type,
+      layer: window.__MAZO_MAP_TEST__.getLayer('places-dot')?.id,
+    }));
+    assert.equal(bootstrapPoiSource.type, 'vector', 'place PBF source is part of the initial map style');
+    assert.equal(bootstrapPoiSource.layer, 'places-dot', 'preloaded place features render before the PMTiles marker source initializes');
     assert.equal(await page.evaluate(() => new URL(location.href).searchParams.has('delivery')), false, 'production does not require a format flag');
     assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some((entry) => entry.name.includes('batticaloa-district.mzp'))), false,
       'production never requests a place MZP archive');
@@ -255,11 +315,24 @@ try {
     await wait(page, (zoom) => window.__MAZO_MAP_TEST__.getZoom() > zoom + 0.1, 10_000, beforeWheelZoom);
     const afterWheelZoom = await page.evaluate(() => window.__MAZO_MAP_TEST__.getZoom());
 
+    assert.equal(await page.evaluate(() => document.documentElement.dataset.theme), 'light', 'theme smoke starts from light in every browser scenario');
     await page.locator('#theme-toggle').click();
-    await wait(page, () => document.documentElement.dataset.theme === 'dark'
-      && window.__MAZO_MAP_TEST__?.isStyleLoaded()
-      && window.__MAZO_MAP_TEST__?.getLayer('mazo-poi-selected')
-      && window.__MAZO_MAP_TEST__?.getSource('mazo-selected-place')?.type === 'geojson', 60_000);
+    try {
+      await wait(page, () => document.documentElement.dataset.theme === 'dark'
+        && window.__MAZO_MAP_TEST__?.isStyleLoaded()
+        && (() => { const color = String(window.__MAZO_MAP_TEST__?.getPaintProperty('background', 'background-color')).replace(/\s/g, '').toLowerCase(); return color.includes('#102b3a') || color.includes('16,43,58'); })()
+        && window.__MAZO_MAP_TEST__?.getLayer('mazo-poi-selected')
+        && window.__MAZO_MAP_TEST__?.getSource('mazo-selected-place')?.type === 'geojson', 60_000);
+    } catch (error) {
+      console.error(`Theme switch failed (${mode}); browser state: ${JSON.stringify(await page.evaluate(() => ({
+        theme: document.documentElement.dataset.theme,
+        styleLoaded: window.__MAZO_MAP_TEST__?.isStyleLoaded(),
+        background: window.__MAZO_MAP_TEST__?.getPaintProperty('background', 'background-color'),
+        selectedLayer: Boolean(window.__MAZO_MAP_TEST__?.getLayer('mazo-poi-selected')),
+        selectedSource: window.__MAZO_MAP_TEST__?.getSource('mazo-selected-place')?.type || null,
+      })))} `);
+      throw error;
+    }
     assert.equal(styleRequests.length, 1, 'theme switching changes basemap paint without reloading the style');
     assert.deepEqual(thirdPartyMapRequests, [], 'map cartography, glyphs, sprites, tiles, and routing avoid third-party runtime requests');
     const themedColors = await page.evaluate(() => ({
@@ -438,7 +511,7 @@ try {
     await wait(page, (count) => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-speed-review') > 0, 30_000);
     assert.equal(speedRequests.filter((url) => url.includes('speed-limits.mzp')).length, 1);
     const result = {
-      mode, startupMs, sourceType, startupTransferBytes, startupHeapBytes,
+      mode, startupMs, sourceType: bootstrapPoiSource.type, startupTransferBytes, startupHeapBytes,
       postGcHeapBytes: postGcHeap.usedSize,
       interactiveTransferBytes,
       animation,

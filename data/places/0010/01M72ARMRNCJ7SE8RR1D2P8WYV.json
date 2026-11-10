@@ -1,0 +1,58 @@
+{
+  "name": "Senevirathne Garage",
+  "coordinates": {
+    "latitude": 6.8561061,
+    "longitude": 79.87849899999999
+  },
+  "address": "162 B Kadawatha Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0777635234",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRNCJ7SE8RR1D2P8WYV"
+}

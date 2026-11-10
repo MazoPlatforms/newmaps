@@ -1,0 +1,57 @@
+{
+  "name": "JanithRu Salon",
+  "coordinates": {
+    "latitude": 6.6640345,
+    "longitude": 80.4713673
+  },
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0762603543",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MK8KBD0S3NTN7GSW5B"
+}

@@ -1,0 +1,59 @@
+{
+  "address": "44 Colombo St, Kandy 20000",
+  "name": "Blizz Cafe - Kandy",
+  "coordinates": {
+    "latitude": 7.2942013,
+    "longitude": 80.6384757
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "website": "http://www.blizzcafe.com/",
+  "business_status": "OPEN",
+  "phone": "0771216261",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72AA6JH8XYQ3EZ9Z9CH85TS"
+}

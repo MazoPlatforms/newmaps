@@ -1,0 +1,59 @@
+{
+  "name": "Salon Lavish",
+  "coordinates": {
+    "latitude": 5.9495325,
+    "longitude": 80.5417398
+  },
+  "address": "No : 162/1/1 Anagarika Dharmapala Mawatha, Matara 81000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0717575200",
+  "website": "https://www.facebook.com/SalonLavish.lk?mibextid=wwXIfr&mibextid=wwXIfr",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3:30 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTKHPH7JHBA3Y0FZ879NM"
+}

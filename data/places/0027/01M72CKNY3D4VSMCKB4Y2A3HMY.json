@@ -1,0 +1,60 @@
+{
+  "name": "Our Souq",
+  "coordinates": {
+    "latitude": 6.439718699999999,
+    "longitude": 80.0059864
+  },
+  "address": "57A MAIN STREET, Dharga Town 12090",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0777398398",
+  "website": "http://www.oursouq.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11:30 AM",
+        "2:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKNY3D4VSMCKB4Y2A3HMY"
+}

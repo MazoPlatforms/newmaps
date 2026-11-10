@@ -1,0 +1,59 @@
+{
+  "name": "PGIPBS Library",
+  "coordinates": {
+    "latitude": 6.8701609999999995,
+    "longitude": 79.8795537
+  },
+  "address": "Library of PGIPBS, 113 Dutugemunu St, Colombo",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0112809460",
+  "website": "http://pgipbs.kln.ac.lk/library",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BX83K65EQQAV32EV3Q"
+}

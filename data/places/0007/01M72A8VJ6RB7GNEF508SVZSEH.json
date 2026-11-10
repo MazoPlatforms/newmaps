@@ -1,0 +1,59 @@
+{
+  "address": "123 Kumaranrathnam road, Colombo 02",
+  "name": "The Bamboo Room",
+  "coordinates": {
+    "latitude": 6.923902,
+    "longitude": 79.852229
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "website": "http://www.hotelnippon.lk/bar-dining/",
+  "business_status": "OPEN",
+  "phone": "0112431888",
+  "categories": [
+    "Kerala restaurant"
+  ],
+  "id": "01M72A8VJ6RB7GNEF508SVZSEH"
+}

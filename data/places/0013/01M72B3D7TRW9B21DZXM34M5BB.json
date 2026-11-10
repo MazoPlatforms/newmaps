@@ -1,0 +1,59 @@
+{
+  "name": "Indian Heaven Restaurant",
+  "coordinates": {
+    "latitude": 7.4629053999999995,
+    "longitude": 80.6193691
+  },
+  "address": "12, 1, 1 Nagolla Rd, Matale 21000",
+  "categories": [
+    "Indian restaurant"
+  ],
+  "phone": "0664343999",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–12 PM",
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D7TRW9B21DZXM34M5BB"
+}

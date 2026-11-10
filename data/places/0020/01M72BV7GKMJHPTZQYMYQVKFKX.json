@@ -1,0 +1,61 @@
+{
+  "name": "Union Assurance-Jaffna",
+  "coordinates": {
+    "latitude": 9.6680526,
+    "longitude": 80.0156919
+  },
+  "address": "218 Stanley Rd, Jaffna 40000",
+  "categories": [
+    "Insurance company",
+    "Health insurance agency",
+    "Life insurance agency"
+  ],
+  "phone": "0212223753",
+  "website": "http://www.unionassurance.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BV7GKMJHPTZQYMYQVKFKX"
+}

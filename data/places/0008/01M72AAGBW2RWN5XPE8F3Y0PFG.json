@@ -1,0 +1,59 @@
+{
+  "address": "76 Colombo St, Kandy 20000",
+  "name": "Palayakats",
+  "coordinates": {
+    "latitude": 7.294305,
+    "longitude": 80.6376954
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    }
+  ],
+  "website": "http://www.palayakats.lk/",
+  "business_status": "OPEN",
+  "phone": "0812223654",
+  "categories": [
+    "Clothing store"
+  ],
+  "id": "01M72AAGBW2RWN5XPE8F3Y0PFG"
+}

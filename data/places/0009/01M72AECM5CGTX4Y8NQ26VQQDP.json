@@ -1,0 +1,58 @@
+{
+  "address": "299 Chilaw - Colombo Main Rd, Negombo",
+  "name": "Calton Hypermarket",
+  "coordinates": {
+    "latitude": 7.2046065,
+    "longitude": 79.85207059999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0312226375",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AECM5CGTX4Y8NQ26VQQDP"
+}

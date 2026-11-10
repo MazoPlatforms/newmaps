@@ -1,0 +1,58 @@
+{
+  "name": "Digital Xray - Vavuniya Healthcare",
+  "coordinates": {
+    "latitude": 8.762282899999999,
+    "longitude": 80.4890454
+  },
+  "address": "253a Station Rd, Vavuniya",
+  "categories": [
+    "Hospital department"
+  ],
+  "phone": "0242221111",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW993M3NT8P2S0W3EQYAR"
+}

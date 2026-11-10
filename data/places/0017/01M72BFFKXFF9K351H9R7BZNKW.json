@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Plaza Bandarawela",
+  "coordinates": {
+    "latitude": 6.830317,
+    "longitude": 80.99069659999999
+  },
+  "address": "75 Dharmawijaya Mawatha, Bandarawela",
+  "categories": [
+    "Family restaurant"
+  ],
+  "phone": "0716071520",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFFKXFF9K351H9R7BZNKW"
+}

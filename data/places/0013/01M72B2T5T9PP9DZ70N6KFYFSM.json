@@ -1,0 +1,58 @@
+{
+  "name": "Science Library",
+  "coordinates": {
+    "latitude": 7.2587354,
+    "longitude": 80.5978336
+  },
+  "address": "University of Old Galaha Rd, 20400",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0812386006",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2T5T9PP9DZ70N6KFYFSM"
+}

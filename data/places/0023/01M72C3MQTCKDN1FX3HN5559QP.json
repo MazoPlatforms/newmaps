@@ -1,0 +1,58 @@
+{
+  "name": "Restaurant Mansoorah",
+  "coordinates": {
+    "latitude": 8.4745109,
+    "longitude": 81.14752539999999
+  },
+  "address": "colombo road, Kinniya",
+  "categories": [
+    "Barbecue restaurant"
+  ],
+  "phone": "0776425339",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–2 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C3MQTCKDN1FX3HN5559QP"
+}

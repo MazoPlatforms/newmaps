@@ -1,0 +1,66 @@
+{
+  "name": "Zay Products & Groceries",
+  "coordinates": {
+    "latitude": 6.739265199999999,
+    "longitude": 79.91815919999999
+  },
+  "address": "142A, Panadura 12500",
+  "categories": [
+    "Spice store"
+  ],
+  "phone": "0782010385",
+  "website": "https://zayproducts.base44.app/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11:30 AM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B03AZ0Z2Y29EPB9FAF1ZH"
+}

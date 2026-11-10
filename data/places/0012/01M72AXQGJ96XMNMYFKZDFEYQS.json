@@ -1,0 +1,59 @@
+{
+  "name": "N.R. Auto Service Station",
+  "coordinates": {
+    "latitude": 7.2038625,
+    "longitude": 79.8635888
+  },
+  "address": "6V37+GCW, B321, Negombo",
+  "categories": [
+    "Chauffeur service",
+    "Car wash"
+  ],
+  "phone": "0776264680",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXQGJ96XMNMYFKZDFEYQS"
+}

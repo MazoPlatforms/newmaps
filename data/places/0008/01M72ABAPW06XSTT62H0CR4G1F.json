@@ -1,0 +1,57 @@
+{
+  "address": "227 Colombo St, Kandy 20000",
+  "name": "Colombo Street, Kandy",
+  "coordinates": {
+    "latitude": 7.2942912,
+    "longitude": 80.6374594
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Tourist attraction"
+  ],
+  "id": "01M72ABAPW06XSTT62H0CR4G1F"
+}

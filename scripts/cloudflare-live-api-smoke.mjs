@@ -7,7 +7,7 @@ import Pbf from 'pbf';
 
 const base = new URL(process.env.MAZO_WORKERS_URL || 'https://maps.mazo.workers.dev/');
 const api = new URL('api/v1/', base);
-const index = JSON.parse(await readFile('dist/generated/search-index.json', 'utf8'));
+const index = JSON.parse(await readFile('.build/live-data/generated/search-index.json', 'utf8'));
 const nameColumn = index.fields.indexOf('name');
 const coordinatesColumn = index.fields.indexOf('coordinates');
 const probe = index.records.find((row) => typeof row[nameColumn] === 'string' && row[nameColumn].length >= 4
@@ -65,9 +65,7 @@ assert.equal(catalog.revision, liveVersion.revision,
   'manifest and version polling should settle on the same published revision');
 const archive = catalog.manifest.files['generated/places.pmtiles'];
 assert.ok(archive && /^[a-f0-9]{64}$/.test(archive.sha256));
-const archiveUrl = new URL('api/data/generated/places.pmtiles', base);
-archiveUrl.searchParams.set('v', archive.sha256);
-archiveUrl.searchParams.set('bytes', String(archive.bytes));
+const archiveUrl = new URL(catalog.resources.pmtiles.url, base);
 const range = await fetch(archiveUrl, { headers: { Range: 'bytes=19-82' } });
 assert.equal(range.status, 206, 'live R2 PMTiles byte range must return 206');
 assert.equal(range.headers.get('content-range'), `bytes 19-82/${archive.bytes}`);
@@ -118,7 +116,7 @@ assert.equal((await fetch(new URL('sprite.json', api))).status, 200);
 assert.equal((await fetch(new URL('sprite.png', api))).status, 200);
 assert.equal((await fetch(new URL('basemap/sprite.json', api))).status, 200);
 
-const graph = JSON.parse(await readFile('dist/generated/kattankudy-routing.json', 'utf8'));
+const graph = JSON.parse(await readFile('.build/live-data/generated/kattankudy-routing.json', 'utf8'));
 const segment = graph.segments.find((row) => (row[3] | row[4]) === 7);
 assert.ok(segment, 'production routing graph should include a segment supporting driving, walking and cycling');
 const from = graph.nodes[segment[0]];

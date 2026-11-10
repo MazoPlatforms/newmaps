@@ -1,0 +1,58 @@
+{
+  "name": "Lingaa Super Market",
+  "coordinates": {
+    "latitude": 9.676132599999999,
+    "longitude": 80.02948909999999
+  },
+  "address": "300 Temple Rd, Jaffna 40000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0764734864",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTYSG65VH51AF8TVQZRBY"
+}

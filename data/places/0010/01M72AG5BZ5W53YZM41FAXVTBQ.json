@@ -1,0 +1,58 @@
+{
+  "name": "Chemistry Lecture Theater (CLT)",
+  "coordinates": {
+    "latitude": 6.902571099999999,
+    "longitude": 79.85992639999999
+  },
+  "address": "Chemistry Old Building, Colombo 00700",
+  "categories": [
+    "University"
+  ],
+  "website": "https://science.cmb.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BZ5W53YZM41FAXVTBQ"
+}

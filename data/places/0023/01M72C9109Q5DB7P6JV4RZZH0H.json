@@ -1,0 +1,58 @@
+{
+  "name": "Urban Hardware Stores",
+  "coordinates": {
+    "latitude": 6.9390678999999995,
+    "longitude": 79.8620797
+  },
+  "address": "69/B Sirimavo Bandaranaike Mawatha, Colombo 01200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0742900907",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9109Q5DB7P6JV4RZZH0H"
+}

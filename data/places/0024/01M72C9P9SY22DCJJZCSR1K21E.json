@@ -1,0 +1,58 @@
+{
+  "name": "Kirulapone Public Library",
+  "coordinates": {
+    "latitude": 6.878066899999999,
+    "longitude": 79.8780503
+  },
+  "address": "VVHH+66F, Colombo 00500",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0113288071",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9P9SY22DCJJZCSR1K21E"
+}

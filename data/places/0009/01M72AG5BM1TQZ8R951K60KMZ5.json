@@ -1,0 +1,63 @@
+{
+  "name": "Lyceum Campus",
+  "coordinates": {
+    "latitude": 6.8709187,
+    "longitude": 79.88497249999999
+  },
+  "address": "10 Raymond Rd, Nugegoda 10250",
+  "categories": [
+    "Education center",
+    "University",
+    "Educational consultant",
+    "Educational institution",
+    "Private university"
+  ],
+  "phone": "0117366200",
+  "website": "https://lyceumcampus.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BM1TQZ8R951K60KMZ5"
+}

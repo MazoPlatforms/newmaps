@@ -1,0 +1,58 @@
+{
+  "name": "Medical Center - University Of Vavuniya",
+  "coordinates": {
+    "latitude": 8.756230799999999,
+    "longitude": 80.4114602
+  },
+  "address": "QC46+FJG, Vavuniya",
+  "categories": [
+    "Community health center"
+  ],
+  "phone": "0242224674",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW9928BBMRYEE16KPHKS7"
+}

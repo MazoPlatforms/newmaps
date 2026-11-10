@@ -1,0 +1,61 @@
+{
+  "name": "Imperial Trading Company",
+  "coordinates": {
+    "latitude": 7.089578899999999,
+    "longitude": 80.0039383
+  },
+  "address": "No: 354 Colombo Rd, Gampaha 11000",
+  "categories": [
+    "Electronics store",
+    "Electrical equipment supplier",
+    "Electrical supply store",
+    "Electrical products wholesaler"
+  ],
+  "phone": "0703122673",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGAG2DQMJ0D5FTYYD4Y14"
+}

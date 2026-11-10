@@ -1,0 +1,60 @@
+{
+  "name": "A2Z Family Super",
+  "coordinates": {
+    "latitude": 8.5873039,
+    "longitude": 81.20681789999999
+  },
+  "address": "Junction, Kandy Road, Anuradhapura, Trincomalee 31000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0773682573",
+  "website": "http://www.a2zfamily.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:30 AM",
+        "1:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3HRJ42DFEKPGDJA9S4"
+}

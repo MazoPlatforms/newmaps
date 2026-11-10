@@ -1,0 +1,59 @@
+{
+  "name": "University Of Peradeniya",
+  "coordinates": {
+    "latitude": 7.2549421999999995,
+    "longitude": 80.59739019999999
+  },
+  "address": "Galaha Rd, 20400",
+  "categories": [
+    "University"
+  ],
+  "phone": "0812392000",
+  "website": "http://www.pdn.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CN8KSA8J76NJVK9CR3MY6"
+}

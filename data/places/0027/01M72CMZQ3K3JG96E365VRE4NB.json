@@ -1,0 +1,58 @@
+{
+  "name": "Urban Style Salon",
+  "coordinates": {
+    "latitude": 7.2814187,
+    "longitude": 80.6231971
+  },
+  "address": "37/5 William Gopallawa Mawatha, Kandy 20000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0718989889",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQ3K3JG96E365VRE4NB"
+}

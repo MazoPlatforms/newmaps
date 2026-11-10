@@ -1,0 +1,58 @@
+{
+  "name": "Sathkaraa Hospitals",
+  "coordinates": {
+    "latitude": 7.247645599999999,
+    "longitude": 80.3426707
+  },
+  "address": "134 Molamure mawatha, Kegalle 71000",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0352222000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJADN280D7CD2EJ03NGVX"
+}

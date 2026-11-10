@@ -1,0 +1,59 @@
+{
+  "name": "Salon Elegance",
+  "coordinates": {
+    "latitude": 6.7121347,
+    "longitude": 79.9064886
+  },
+  "address": "454 Main St, Panadura 12500",
+  "categories": [
+    "Barber shop",
+    "Beauty salon"
+  ],
+  "phone": "0713280570",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK420YSGERP64X096FRME"
+}

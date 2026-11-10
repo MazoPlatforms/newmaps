@@ -1,0 +1,58 @@
+{
+  "address": "Sri Dalada Veediya, Kandy 20000",
+  "name": "Siri Ramya Restaurant",
+  "coordinates": {
+    "latitude": 7.293243899999999,
+    "longitude": 80.6365419
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0812200494",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72AA6KVBP57J4S608MQZ0Z4"
+}

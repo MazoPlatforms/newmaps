@@ -1,0 +1,60 @@
+{
+  "name": "MKB Select",
+  "coordinates": {
+    "latitude": 6.9889433,
+    "longitude": 81.058047
+  },
+  "address": "27 Bazaar Street, Badulla 90000",
+  "categories": [
+    "Shopping mall"
+  ],
+  "phone": "0552222197",
+  "website": "https://www.mkb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 PM",
+        "1:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQB4KVQ3RJ852E0GJK2J"
+}

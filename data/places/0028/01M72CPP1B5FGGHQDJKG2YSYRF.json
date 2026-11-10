@@ -1,0 +1,58 @@
+{
+  "name": "Super Salon",
+  "coordinates": {
+    "latitude": 6.9762987,
+    "longitude": 80.7652844
+  },
+  "address": "XQG8+G47, Chapel St, Nuwara Eliya 22200",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0717317883",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPP1B5FGGHQDJKG2YSYRF"
+}

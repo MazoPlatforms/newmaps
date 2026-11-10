@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict';
-import { execFileSync, spawn } from 'node:child_process';
+import { spawn } from 'node:child_process';
 import { createHash, randomBytes } from 'node:crypto';
 import { createServer } from 'node:net';
+import { createServer as createHttpServer } from 'node:http';
 import { mkdtemp, readFile, rm, unlink, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { tmpdir } from 'node:os';
@@ -12,8 +13,9 @@ import { buildLiveDataManifest, syncLiveData } from './cloudflare-live-data-sync
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const dist = join(root, 'dist');
-const fixturePath = join(dist, 'data', 'e2e-live-deletion-fixture.json');
-const citiesPath = join(dist, 'data', 'cities.json');
+const liveDataRoot = join(root, '.build', 'live-data');
+const fixturePath = join(liveDataRoot, 'data', 'e2e-live-deletion-fixture.json');
+const citiesPath = join(liveDataRoot, 'data', 'cities.json');
 const persistence = await mkdtemp(join(tmpdir(), 'mazo-workers-e2e-'));
 const secret = randomBytes(32).toString('hex');
 const portProbe = createServer();
@@ -24,9 +26,26 @@ await new Promise((resolveListen, reject) => {
 const port = portProbe.address().port;
 await new Promise((resolveClose, reject) => portProbe.close((error) => error ? reject(error) : resolveClose()));
 const baseUrl = `http://127.0.0.1:${port}/`;
+const snapshotServer = createHttpServer(async (request, response) => {
+  try {
+    const segments = decodeURIComponent(new URL(request.url, 'http://snapshot.local').pathname).split('/').filter(Boolean);
+    const relative = segments.slice(1).join('/');
+    const file = resolve(liveDataRoot, relative);
+    if (!segments[0]?.match(/^[a-f0-9]{40}$/) || !relative || !file.startsWith(`${resolve(liveDataRoot)}/`)) {
+      response.writeHead(404).end(); return;
+    }
+    const bytes = await readFile(file);
+    response.writeHead(200, { 'Content-Length': bytes.byteLength, 'Content-Type': file.endsWith('.json') ? 'application/json' : 'application/octet-stream',
+      'Access-Control-Allow-Origin': '*', 'Cache-Control': 'public, max-age=31536000, immutable' });
+    response.end(bytes);
+  } catch { response.writeHead(404).end(); }
+});
+await new Promise((resolveListen, reject) => { snapshotServer.once('error', reject); snapshotServer.listen(0, '127.0.0.1', resolveListen); });
+const snapshotOrigin = `http://127.0.0.1:${snapshotServer.address().port}`;
 const worker = spawn(process.execPath, [
   join(root, 'node_modules/wrangler/bin/wrangler.js'), 'dev', '--local', '--ip', '127.0.0.1', '--port', String(port),
-  '--persist-to', persistence, '--var', `LIVE_DATA_HMAC_SECRET:${secret}`, '--log-level', 'error',
+  '--persist-to', persistence, '--var', `LIVE_DATA_HMAC_SECRET:${secret}`,
+  '--var', `GITHUB_DATA_ASSET_ORIGIN:${snapshotOrigin}`, '--log-level', 'error',
 ], { cwd: root, env: { ...process.env, NO_COLOR: '1' }, stdio: ['ignore', 'pipe', 'pipe'] });
 const workerLogs = [];
 worker.stdout.on('data', (chunk) => workerLogs.push(chunk.toString()));
@@ -37,6 +56,29 @@ let originalCities;
 let fixtureCreated = false;
 
 function hash(bytes) { return createHash('sha256').update(bytes).digest('hex'); }
+
+function runProductionApiSmoke() {
+  return new Promise((resolveSmoke, rejectSmoke) => {
+    const smoke = spawn(process.execPath, [join(root, 'scripts/cloudflare-live-api-smoke.mjs')], {
+      cwd: root,
+      env: { ...process.env, MAZO_WORKERS_URL: baseUrl },
+      stdio: ['ignore', 'pipe', 'pipe'],
+    });
+    const stdout = [];
+    const stderr = [];
+    smoke.stdout.on('data', (chunk) => stdout.push(chunk));
+    smoke.stderr.on('data', (chunk) => stderr.push(chunk));
+    smoke.once('error', rejectSmoke);
+    smoke.once('close', (code) => {
+      if (code !== 0) {
+        rejectSmoke(new Error(`Local API smoke failed (${code}): ${Buffer.concat(stderr).toString().slice(-4000)}`));
+        return;
+      }
+      try { resolveSmoke(JSON.parse(Buffer.concat(stdout).toString())); }
+      catch (error) { rejectSmoke(new Error(`Local API smoke returned invalid JSON: ${error.message}`)); }
+    });
+  });
+}
 
 async function waitForWorker() {
   const deadline = Date.now() + 90_000;
@@ -52,8 +94,8 @@ async function waitForWorker() {
 }
 
 async function synchronize(revision, runNumber) {
-  const manifest = await buildLiveDataManifest(dist, { revision, runNumber, updatedAt: new Date().toISOString() });
-  const result = await syncLiveData({ root: dist, manifest, baseUrl, secret });
+  const manifest = await buildLiveDataManifest(liveDataRoot, { revision, artifactRevision: revision, runNumber, updatedAt: new Date().toISOString() });
+  const result = await syncLiveData({ root: liveDataRoot, manifest, baseUrl, secret });
   return { manifest, result };
 }
 
@@ -86,7 +128,7 @@ try {
   const rideGeocode = await fetch(new URL('api/v1/geocode?q=Noor%20Accessories%20Showroom', baseUrl));
   assert.equal(rideGeocode.status, 200);
   assert.equal((await rideGeocode.json()).features[0].geometry.type, 'Point');
-  const routeGraph = JSON.parse(await readFile(join(dist, 'generated/kattankudy-routing.json'), 'utf8'));
+  const routeGraph = JSON.parse(await readFile(join(liveDataRoot, 'generated/kattankudy-routing.json'), 'utf8'));
   const firstSegment = routeGraph.segments.find((row) => (row[3] | row[4]) & 1);
   const start = routeGraph.nodes[firstSegment[0]];
   const finish = routeGraph.nodes[firstSegment[1]];
@@ -96,10 +138,7 @@ try {
   });
   assert.equal(rideRoute.status, 200, 'versioned RideNow routing uses the current published Kattankudy graph');
   assert.equal((await rideRoute.json()).profile, 'driving');
-  const productionApiSmoke = JSON.parse(execFileSync(process.execPath,
-    [join(root, 'scripts/cloudflare-live-api-smoke.mjs')], {
-      cwd: root, encoding: 'utf8', env: { ...process.env, MAZO_WORKERS_URL: baseUrl },
-    }));
+  const productionApiSmoke = await runProductionApiSmoke();
   assert.equal(productionApiSmoke.status, 'PASS');
   const unauthorized = await fetch(new URL('api/admin/plan', baseUrl), { method: 'POST', body: '{}' });
   assert.equal(unauthorized.status, 401, 'unsigned synchronization requests are rejected');
@@ -118,7 +157,7 @@ try {
 
   const archivePath = 'generated/places.pmtiles';
   const archiveEntry = first.manifest.files[archivePath];
-  const archiveUrl = new URL(`api/data/${archivePath}?v=${archiveEntry.sha256}&bytes=${archiveEntry.bytes}`, baseUrl);
+  const archiveUrl = new URL(`api/data/${archivePath}?v=${archiveEntry.sha256}&bytes=${archiveEntry.bytes}&rev=${first.manifest.revision}`, baseUrl);
   const archiveResponse = await fetch(archiveUrl);
   assert.equal(archiveResponse.status, 200, 'full PMTiles object is retrievable from local R2');
   const archiveBytes = new Uint8Array(await archiveResponse.arrayBuffer());
@@ -137,7 +176,7 @@ try {
   const etagVersion = await fetch(new URL('api/version', baseUrl), { headers: { 'If-None-Match': `"${'a'.repeat(40)}"` } });
   assert.equal(etagVersion.status, 304, 'unchanged version polling is conditional and bodyless');
 
-  const browserBuild = JSON.parse(await readFile(join(dist, 'generated/search-index.json'), 'utf8'));
+  const browserBuild = JSON.parse(await readFile(join(liveDataRoot, 'generated/search-index.json'), 'utf8'));
   const nameColumn = browserBuild.fields.indexOf('name');
   const coordColumn = browserBuild.fields.indexOf('coordinates');
   const idColumn = browserBuild.fields.indexOf('id');
@@ -149,7 +188,27 @@ try {
   const page = await context.newPage();
   await page.addInitScript(() => { globalThis.__MAZO_LIVE_DATA_TEST_POLL_MS = 250; });
   page.on('pageerror', (error) => browserErrors.push(error.message));
-  page.on('console', (message) => { if (message.type() === 'error') browserErrors.push(message.text()); });
+  const placeTileStatuses = new Map();
+  const placeTileResponses = new Map();
+  page.on('response', (response) => {
+    if (new URL(response.url()).pathname.match(/\/api\/v1\/tiles\/\d+\/\d+\/\d+\.pbf$/)) {
+      placeTileStatuses.set(response.url(), response.status());
+      placeTileResponses.set(response.url(), response.body().then((body) => ({
+        status: response.status(), contentType: response.headers()['content-type'],
+        contentEncoding: response.headers()['content-encoding'], bodyBytes: body.byteLength,
+        prefix: [...body.slice(0, 8)].map((byte) => byte.toString(16).padStart(2, '0')).join(''),
+      })).catch((error) => ({ bodyError: error.message })));
+    }
+  });
+  page.on('console', (message) => {
+    if (message.type() !== 'error') return;
+    const text = message.text();
+    const tileUrl = text.match(/Unable to parse the tile at (https?:\/\/[^ ,]+)/)?.[1];
+    // HTTP 204 is the documented response for an empty place tile. MapLibre
+    // logs the empty body as a parse warning; keep treating malformed 200s as errors.
+    if (tileUrl && placeTileStatuses.get(tileUrl) === 204) return;
+    browserErrors.push(text);
+  });
   page.on('requestfailed', (request) => {
     const failure = request.failure()?.errorText;
     if (failure && failure !== 'net::ERR_ABORTED') browserErrors.push(`${failure}: ${request.url()}`);
@@ -227,7 +286,7 @@ try {
   await page.locator('#map-search').fill('Noor Accessories Showroom');
   await page.waitForSelector('#search-results [role="option"]');
   assert.match(await page.locator('#search-results [role="option"] strong').first().innerText(), /Noor Accessories/,
-    'R2-backed live search index remains usable');
+    'GitHub-backed live search index remains usable');
 
   const axePath = join(root, 'node_modules/axe-core/axe.min.js');
   await page.addScriptTag({ path: axePath });
@@ -244,7 +303,8 @@ try {
   await unlink(fixturePath);
   fixtureCreated = false;
   const second = await synchronize('b'.repeat(40), 2);
-  assert.deepEqual(second.result.changed, ['data/cities.json'], 'second sync uploads only the edited data file');
+  assert.deepEqual(second.result.changed, ['data/cities.json'], 'second sync changes only the edited GitHub data file');
+  assert.deepEqual(second.result.uploaded, [], 'ordinary map data is not stored in Cloudflare');
   assert.deepEqual(second.result.deleted, ['data/e2e-live-deletion-fixture.json'], 'second sync publishes deleted-file tombstones');
   await page.waitForFunction((revision) => window.__MAZO_LIVE_DATA_VERSION__?.revision === revision, 'b'.repeat(40), { timeout: 30_000 });
   const manifest2 = await readJson('api/manifest');
@@ -255,7 +315,8 @@ try {
     'changed bytes receive a new content address so immutable browser/CDN caches cannot shadow updates');
   if (browserErrors.length) {
     const failingTileDetails = await Promise.all([...basemapTileResponses].map(async ([url, result]) => [url, await result]));
-    assert.fail(`live update browser errors: ${browserErrors.join(' | ')}\nBasemap tile responses: ${JSON.stringify(failingTileDetails)}`);
+    const failingPlaceDetails = await Promise.all([...placeTileResponses].map(async ([url, result]) => [url, await result]));
+    assert.fail(`live update browser errors: ${browserErrors.join(' | ')}\nPlace tile responses: ${JSON.stringify(failingPlaceDetails.slice(0, 12))}\nBasemap tile responses: ${JSON.stringify(failingTileDetails)}`);
   }
 
   await writeFile(citiesPath, initialCities);
@@ -305,4 +366,5 @@ try {
     setTimeout(resolveExit, 5_000).unref();
   });
   await rm(persistence, { recursive: true, force: true });
+  await new Promise((resolveClose) => snapshotServer.close(() => resolveClose()));
 }

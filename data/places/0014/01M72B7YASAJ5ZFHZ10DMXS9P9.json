@@ -1,0 +1,58 @@
+{
+  "name": "Cinnamon Leaf Restaurant",
+  "coordinates": {
+    "latitude": 6.2389380999999995,
+    "longitude": 80.0565628
+  },
+  "address": "32 Ambalangoda - Batapola Rd, Ambalangoda",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0912299622",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YASAJ5ZFHZ10DMXS9P9"
+}

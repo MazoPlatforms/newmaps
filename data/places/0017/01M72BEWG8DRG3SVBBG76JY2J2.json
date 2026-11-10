@@ -1,0 +1,58 @@
+{
+  "name": "SWASTHA Pharmacy",
+  "coordinates": {
+    "latitude": 6.9849878,
+    "longitude": 81.0685712
+  },
+  "address": "273D Gonagala - Passara Rd, Hindhagoda 90000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0771608040",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWG8DRG3SVBBG76JY2J2"
+}

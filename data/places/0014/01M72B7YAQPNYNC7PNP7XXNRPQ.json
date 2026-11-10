@@ -1,0 +1,59 @@
+{
+  "name": "Minrich Bakers",
+  "coordinates": {
+    "latitude": 6.253271,
+    "longitude": 80.0544839
+  },
+  "address": "Ambalangoda 80300",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0777305345",
+  "website": "https://minrichbakers.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YAQPNYNC7PNP7XXNRPQ"
+}

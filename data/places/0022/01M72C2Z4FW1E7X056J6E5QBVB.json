@@ -1,0 +1,58 @@
+{
+  "name": "Lucky Pharmacy",
+  "coordinates": {
+    "latitude": 8.5870825,
+    "longitude": 81.20620749999999
+  },
+  "address": "1066 anurathapura junction, 31000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0774898176",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z4FW1E7X056J6E5QBVB"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Cortado",
+  "coordinates": {
+    "latitude": 7.4961785999999995,
+    "longitude": 79.8660062
+  },
+  "address": "Kuliyapitiya Road, Pothuwila",
+  "categories": [
+    "Bakery",
+    "Coffee shop",
+    "Dairy",
+    "Pastry shop",
+    "Pizza restaurant"
+  ],
+  "phone": "0701834422",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMGJBMTA8KGZZ1Q3WFRZW"
+}

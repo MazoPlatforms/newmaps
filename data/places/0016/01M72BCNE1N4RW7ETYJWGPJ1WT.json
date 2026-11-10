@@ -1,0 +1,58 @@
+{
+  "name": "Let’s Sea",
+  "coordinates": {
+    "latitude": 6.0305681,
+    "longitude": 80.7980327
+  },
+  "address": "33 Vijaya Rd, Tangalle 82200",
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "phone": "0773126486",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE1N4RW7ETYJWGPJ1WT"
+}

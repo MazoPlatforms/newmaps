@@ -1,0 +1,58 @@
+{
+  "name": "Kegalle Public Library",
+  "coordinates": {
+    "latitude": 7.2552455,
+    "longitude": 80.3525327
+  },
+  "address": "7943+32V, Kandy - Colombo Rd, Kegalle",
+  "categories": [
+    "Public library"
+  ],
+  "phone": "0352222434",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D011P7FA56VPSEB2ZJE2G"
+}

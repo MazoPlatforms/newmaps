@@ -1,0 +1,61 @@
+{
+  "address": "202 Galle Rd, Colombo",
+  "name": "The Royal Bakery",
+  "coordinates": {
+    "latitude": 6.872340599999999,
+    "longitude": 79.8616098
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "http://www.theroyalbakery.com/",
+  "business_status": "OPEN",
+  "phone": "0112500991",
+  "categories": [
+    "Bakery",
+    "Fast food restaurant",
+    "Restaurant"
+  ],
+  "id": "01M72A8VF2NAVHPZ6W8N0J2JR5"
+}

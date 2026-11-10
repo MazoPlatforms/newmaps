@@ -1,0 +1,59 @@
+{
+  "name": "Healan Hospital Homagama",
+  "coordinates": {
+    "latitude": 6.8406664,
+    "longitude": 79.99914609999999
+  },
+  "address": "380 High Level Rd, Homagama 10200",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0112857676",
+  "website": "https://healanhospitals.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3VK8J1TSHWEXFWSSS0"
+}

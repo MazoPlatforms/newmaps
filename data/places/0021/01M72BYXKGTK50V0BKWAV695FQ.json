@@ -1,0 +1,59 @@
+{
+  "name": "Bethel Chemists",
+  "coordinates": {
+    "latitude": 7.719730299999999,
+    "longitude": 81.69662699999999
+  },
+  "address": "No 297 Trinco Rd, Batticaloa 30000",
+  "categories": [
+    "Pharmacy",
+    "Pharmaceutical lab"
+  ],
+  "phone": "0652228197",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BYXKGTK50V0BKWAV695FQ"
+}

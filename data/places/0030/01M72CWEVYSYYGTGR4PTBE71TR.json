@@ -1,0 +1,58 @@
+{
+  "name": "Salon Fiore",
+  "coordinates": {
+    "latitude": 6.0150055,
+    "longitude": 80.7852273
+  },
+  "address": "207/2, Pallikkudawa Rd, Tangalle",
+  "categories": [
+    "Nail salon"
+  ],
+  "phone": "0711960983",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWEVYSYYGTGR4PTBE71TR"
+}

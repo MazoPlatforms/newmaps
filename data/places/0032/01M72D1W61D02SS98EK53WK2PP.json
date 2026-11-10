@@ -1,0 +1,63 @@
+{
+  "name": "Max Hardware Store",
+  "coordinates": {
+    "latitude": 8.2134064,
+    "longitude": 79.7247175
+  },
+  "address": "Main street kandalkuliya, Kalpitiya 61358",
+  "categories": [
+    "Hardware store",
+    "Building materials supplier",
+    "Equipment rental agency",
+    "Tool rental service"
+  ],
+  "phone": "0760520559",
+  "website": "https://maxhardware.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30–11:30 AM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1W61D02SS98EK53WK2PP"
+}

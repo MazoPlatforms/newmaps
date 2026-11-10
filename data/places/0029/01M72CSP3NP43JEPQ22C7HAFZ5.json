@@ -1,0 +1,59 @@
+{
+  "name": "Pradeepika Beauty Salon & Acedamy",
+  "coordinates": {
+    "latitude": 6.2343708,
+    "longitude": 80.0544644
+  },
+  "address": "24/K, Galle Road, Ambalangoda",
+  "categories": [
+    "Beauty salon",
+    "Special education school"
+  ],
+  "phone": "0779169713",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CSP3NP43JEPQ22C7HAFZ5"
+}

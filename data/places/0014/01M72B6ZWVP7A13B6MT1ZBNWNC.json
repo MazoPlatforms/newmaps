@@ -1,0 +1,58 @@
+{
+  "name": "M Automobile",
+  "coordinates": {
+    "latitude": 6.044088899999999,
+    "longitude": 80.2229103
+  },
+  "address": "299, olcott B128, Galle 80000",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0777399887",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6ZWVP7A13B6MT1ZBNWNC"
+}

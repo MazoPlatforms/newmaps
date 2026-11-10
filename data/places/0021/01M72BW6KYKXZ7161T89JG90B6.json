@@ -1,0 +1,58 @@
+{
+  "name": "Aradhana Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 8.754666799999999,
+    "longitude": 80.49933
+  },
+  "address": "CO OP Building, Bazaar St, Vavuniya 43000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0242226665",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6KYKXZ7161T89JG90B6"
+}

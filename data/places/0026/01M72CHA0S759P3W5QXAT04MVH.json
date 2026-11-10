@@ -1,0 +1,58 @@
+{
+  "name": "KingFish Aqua Farm",
+  "coordinates": {
+    "latitude": 7.1027477999999995,
+    "longitude": 80.0083677
+  },
+  "address": "6-A, Gampaha 11000",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0767255991",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHA0S759P3W5QXAT04MVH"
+}

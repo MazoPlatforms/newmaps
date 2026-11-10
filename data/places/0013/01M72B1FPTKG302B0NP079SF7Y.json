@@ -1,0 +1,58 @@
+{
+  "name": "Science By Ishfa",
+  "coordinates": {
+    "latitude": 6.4643045,
+    "longitude": 79.97640659999999
+  },
+  "address": "48, 11 Bakir Makar Ave, Beruwala 12070",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0769865234",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B1FPTKG302B0NP079SF7Y"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Speed Car Repair And Service Center",
+  "coordinates": {
+    "latitude": 7.0812449,
+    "longitude": 80.03047629999999
+  },
+  "address": "No.81, 71/1 Pituwalgoda Rd, Yakkala 11870",
+  "categories": [
+    "Auto electrical service"
+  ],
+  "phone": "0714758758",
+  "website": "https://web.facebook.com/SPEEDCARREPAIR",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYTD3Z13SX1MFS4S751NJ"
+}

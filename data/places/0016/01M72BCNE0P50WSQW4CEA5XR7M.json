@@ -1,0 +1,58 @@
+{
+  "name": "Cactus Lounge Restaurant",
+  "coordinates": {
+    "latitude": 6.0188502999999995,
+    "longitude": 80.7913955
+  },
+  "address": "435/7 Matara Rd, Tangalle 82200",
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "phone": "0776221139",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE0P50WSQW4CEA5XR7M"
+}

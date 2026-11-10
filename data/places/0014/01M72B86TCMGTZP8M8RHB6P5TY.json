@@ -1,0 +1,59 @@
+{
+  "name": "Sethma Pharmacy",
+  "coordinates": {
+    "latitude": 6.230557999999999,
+    "longitude": 80.0540619
+  },
+  "address": "63J3+6JF, Ambalangoda",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0912254508",
+  "website": "http://www.sethmapharmacy.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B86TCMGTZP8M8RHB6P5TY"
+}

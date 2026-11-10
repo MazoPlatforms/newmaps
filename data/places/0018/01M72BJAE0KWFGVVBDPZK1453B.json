@@ -1,0 +1,59 @@
+{
+  "name": "Co-Operative Hospital",
+  "coordinates": {
+    "latitude": 7.4768624,
+    "longitude": 80.356527
+  },
+  "address": "303 Colombo Road, Kurunegala",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0372222464",
+  "website": "https://kch.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJAE0KWFGVVBDPZK1453B"
+}

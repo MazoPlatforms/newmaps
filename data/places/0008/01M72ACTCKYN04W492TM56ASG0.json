@@ -1,0 +1,61 @@
+{
+  "address": "Kokuvil East",
+  "name": "New Thurkka Bakery",
+  "coordinates": {
+    "latitude": 9.698042899999999,
+    "longitude": 80.0272197
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0772478736",
+  "categories": [
+    "Bakery",
+    "Cafe",
+    "Pastry shop",
+    "Restaurant"
+  ],
+  "id": "01M72ACTCKYN04W492TM56ASG0"
+}

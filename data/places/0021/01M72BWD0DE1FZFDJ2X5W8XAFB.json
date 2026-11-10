@@ -1,0 +1,62 @@
+{
+  "name": "British Academy",
+  "coordinates": {
+    "latitude": 8.7566264,
+    "longitude": 80.49159999999999
+  },
+  "address": "10A/4,1st floor, Vairavar kovil Raod Vairavarpuliyankulam Vavuniya, 43000",
+  "categories": [
+    "Education center",
+    "English language school",
+    "German language school",
+    "Higher secondary school",
+    "University"
+  ],
+  "phone": "0770115251",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWD0DE1FZFDJ2X5W8XAFB"
+}

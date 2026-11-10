@@ -1,0 +1,61 @@
+{
+  "name": "Hatton National Bank PLC",
+  "coordinates": {
+    "latitude": 6.9342744,
+    "longitude": 79.85891219999999
+  },
+  "address": "Hatton National Bank, 151 Mihindu Mawatha, Colombo 01000",
+  "categories": [
+    "Private sector bank",
+    "ATM",
+    "Bank"
+  ],
+  "phone": "0112436292",
+  "website": "http://www.hnb.net/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR7WYV4XJ493HV6SEY4"
+}

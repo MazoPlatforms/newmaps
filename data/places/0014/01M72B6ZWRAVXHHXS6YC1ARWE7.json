@@ -1,0 +1,58 @@
+{
+  "name": "Buddhika Auto Engineering",
+  "coordinates": {
+    "latitude": 6.0719214,
+    "longitude": 80.2157048
+  },
+  "address": "Regis Illeperuma Mawatha, Galle",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0718020491",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6ZWRAVXHHXS6YC1ARWE7"
+}

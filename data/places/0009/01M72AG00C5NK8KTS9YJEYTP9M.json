@@ -1,0 +1,59 @@
+{
+  "name": "High Level Medical Centre",
+  "coordinates": {
+    "latitude": 6.8594184,
+    "longitude": 79.90541809999999
+  },
+  "address": "No;36 Wanatha Rd, Nugegoda 10250",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0777374052",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 PM",
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00C5NK8KTS9YJEYTP9M"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Central Agency - Head Office",
+  "coordinates": {
+    "latitude": 6.9398918,
+    "longitude": 79.8625005
+  },
+  "address": "22 Quarry Rd, Colombo 01200",
+  "categories": [
+    "Hardware store",
+    "Bathroom supply store"
+  ],
+  "phone": "0112327870",
+  "website": "http://www.centralagency.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910FSGE5AT12PRBE0X2S"
+}

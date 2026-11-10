@@ -1,0 +1,58 @@
+{
+  "name": "Union Hardware",
+  "coordinates": {
+    "latitude": 9.6705484,
+    "longitude": 80.01048229999999
+  },
+  "address": "194 Jaffna-Kankesanturai Rd, Jaffna 40000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0771123864",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–1:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4VHRENP7MVDSJY9RQSQF"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Jowfer Grocery Stores And Rice Mill",
+  "coordinates": {
+    "latitude": 7.4173621999999995,
+    "longitude": 81.7309964
+  },
+  "address": "109 Central Camp Rd, Ampara 32050",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0775325620",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C10NAVBKCS4205PAASP32"
+}

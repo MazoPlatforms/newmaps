@@ -1,0 +1,58 @@
+{
+  "name": "PC Partner Computer Store",
+  "coordinates": {
+    "latitude": 6.6805731999999995,
+    "longitude": 80.40834339999999
+  },
+  "address": "Shopping Complex, No.08, Ratnapura",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0717175566",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYV1HSAFTC6858YC82YRM"
+}

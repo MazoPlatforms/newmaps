@@ -1,0 +1,59 @@
+{
+  "name": "Salon Siyolook",
+  "coordinates": {
+    "latitude": 7.476103999999999,
+    "longitude": 80.6237211
+  },
+  "address": "540, 1 Kandy-Jaffna Highway, Matale 21000",
+  "categories": [
+    "Beauty salon",
+    "Textile exporter"
+  ],
+  "phone": "0778924016",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNZE3F2RT5Y9Z4G4K8CVS"
+}

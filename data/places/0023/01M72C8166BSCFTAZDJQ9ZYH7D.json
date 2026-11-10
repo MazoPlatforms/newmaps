@@ -1,0 +1,59 @@
+{
+  "name": "Be Desi",
+  "coordinates": {
+    "latitude": 6.8783768,
+    "longitude": 79.8603057
+  },
+  "address": "No: 37 Galle Rd, Colombo 00600",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0770022802",
+  "website": "https://bedesi.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8166BSCFTAZDJQ9ZYH7D"
+}

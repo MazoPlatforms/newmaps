@@ -1,0 +1,59 @@
+{
+  "address": "01,infront of old dutch market, Galle 80000",
+  "name": "Yasiru Spice Shack",
+  "coordinates": {
+    "latitude": 6.0355317,
+    "longitude": 80.21984719999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0788501908",
+  "categories": [
+    "Spice store",
+    "Spice wholesaler"
+  ],
+  "id": "01M72AC77F4NFGHTWSA4FRH33P"
+}

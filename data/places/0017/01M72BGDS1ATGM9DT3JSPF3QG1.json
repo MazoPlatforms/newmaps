@@ -1,0 +1,58 @@
+{
+  "name": "New Rajitha Grocery",
+  "coordinates": {
+    "latitude": 7.0341071,
+    "longitude": 81.2760412
+  },
+  "address": "Public market Complex, No: 05/06, Medagama 91550",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0719009070",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGDS1ATGM9DT3JSPF3QG1"
+}

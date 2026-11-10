@@ -1,0 +1,58 @@
+{
+  "name": "Kadalmani Grocery",
+  "coordinates": {
+    "latitude": 9.3933363,
+    "longitude": 80.4042565
+  },
+  "address": "Thirunagar Road, Kilinochchi 44000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0768302323",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXMQ8Y9JV93E7399YT5CE"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "International Medical Center",
+  "coordinates": {
+    "latitude": 6.1165213,
+    "longitude": 80.1185842
+  },
+  "address": "No:391, Galle Road, Wewala, Hikkaduwa 80240",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0742430000",
+  "website": "https://www.imcsrilanka.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7DEK7MC2MH19PF0WDGB3"
+}

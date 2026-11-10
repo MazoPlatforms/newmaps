@@ -1,0 +1,59 @@
+{
+  "name": "Hybrid Point",
+  "coordinates": {
+    "latitude": 6.5603698,
+    "longitude": 79.9728205
+  },
+  "address": "Hospital Rd, Kalutara 12000",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0777186183",
+  "website": "http://hybridpoint.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZBCKSE1JMKXTZSC2X1WB"
+}

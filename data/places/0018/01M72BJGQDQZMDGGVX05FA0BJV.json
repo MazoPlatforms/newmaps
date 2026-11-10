@@ -1,0 +1,62 @@
+{
+  "name": "Onestop Auto",
+  "coordinates": {
+    "latitude": 7.2907848,
+    "longitude": 80.3813241
+  },
+  "address": "Narambadda Rd, Rambukkana 17100",
+  "categories": [
+    "Auto repair shop",
+    "Auto electrical service",
+    "Electric vehicle charging station",
+    "Garage builder",
+    "Mechanic"
+  ],
+  "phone": "0703719996",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJGQDQZMDGGVX05FA0BJV"
+}

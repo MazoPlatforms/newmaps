@@ -1,0 +1,59 @@
+{
+  "name": "SDB Bank Vavuniya Branch",
+  "coordinates": {
+    "latitude": 8.7517154,
+    "longitude": 80.49712269999999
+  },
+  "address": "234 Kandy Rd, Vavuniya 43000",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0242224312",
+  "website": "http://www.sdb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWGMZ0C472NEFGN6HB55M"
+}

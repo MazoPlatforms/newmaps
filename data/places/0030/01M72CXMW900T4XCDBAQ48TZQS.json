@@ -1,0 +1,58 @@
+{
+  "name": "Roosiri Hair & Beauty Salon",
+  "coordinates": {
+    "latitude": 6.9854601999999995,
+    "longitude": 81.0601034
+  },
+  "address": "235 Lower St, Badulla",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0778159300",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXMW900T4XCDBAQ48TZQS"
+}

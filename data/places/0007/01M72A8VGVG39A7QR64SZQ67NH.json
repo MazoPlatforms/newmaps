@@ -1,0 +1,58 @@
+{
+  "address": "16 Flower Rd, Colombo 00700",
+  "name": "La Crème Ceylon",
+  "coordinates": {
+    "latitude": 6.9109301,
+    "longitude": 79.8563837
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112688252",
+  "categories": [
+    "Dessert shop"
+  ],
+  "id": "01M72A8VGVG39A7QR64SZQ67NH"
+}

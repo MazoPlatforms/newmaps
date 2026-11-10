@@ -1,0 +1,58 @@
+{
+  "name": "Ron Tailors",
+  "coordinates": {
+    "latitude": 7.2530046,
+    "longitude": 80.34835799999999
+  },
+  "address": "176/a walwwattha road, Kegalle 71000",
+  "categories": [
+    "Men's tailor"
+  ],
+  "phone": "0352051600",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZMR6XZRCK35HXXHJ60VT"
+}

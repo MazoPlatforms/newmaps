@@ -1,0 +1,59 @@
+{
+  "name": "Animal Care Veterinary Shop",
+  "coordinates": {
+    "latitude": 8.3416509,
+    "longitude": 80.4141616
+  },
+  "address": "market site, No.31, Anuradhapura 50000",
+  "categories": [
+    "Veterinary pharmacy"
+  ],
+  "phone": "0705909595",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:30 AM",
+        "2–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9XC3V28Q60JB5C4H3VT"
+}

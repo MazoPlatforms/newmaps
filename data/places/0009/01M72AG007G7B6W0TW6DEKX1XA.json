@@ -1,0 +1,66 @@
+{
+  "name": "Central Medical Centre, Kohuwala, Nugegoda",
+  "coordinates": {
+    "latitude": 6.8681598,
+    "longitude": 79.88655779999999
+  },
+  "address": "132 S. De S. Jayasinghe Mawatha, Nugegoda 10250",
+  "categories": [
+    "Pharmacy",
+    "Dental clinic",
+    "General practitioner",
+    "Health consultant",
+    "Medical Center",
+    "Medical laboratory",
+    "Family practice physician",
+    "Physical therapist"
+  ],
+  "phone": "0112821112",
+  "website": "https://centralmedicalcentre.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG007G7B6W0TW6DEKX1XA"
+}

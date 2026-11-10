@@ -1,0 +1,60 @@
+{
+  "name": "Pettah Computers",
+  "coordinates": {
+    "latitude": 6.9362129,
+    "longitude": 79.8510981
+  },
+  "address": "Mumtaz Mahal, 100/22 1st Cross St, Colombo 01100",
+  "categories": [
+    "Computer accessories store"
+  ],
+  "phone": "0775444855",
+  "website": "https://www.pettahcomputers.com/index.php",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "2–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JM6EZW0BG3G8QVBQHC8"
+}

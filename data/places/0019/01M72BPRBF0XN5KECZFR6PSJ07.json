@@ -1,0 +1,59 @@
+{
+  "name": "RetailShop.LK",
+  "coordinates": {
+    "latitude": 8.3113795,
+    "longitude": 80.4038478
+  },
+  "address": "616, Stage 2 Bulankulama Disawa Mawatha, Anuradhapura 50000",
+  "categories": [
+    "Cake shop"
+  ],
+  "phone": "0705527788",
+  "website": "http://www.retailshop.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRBF0XN5KECZFR6PSJ07"
+}

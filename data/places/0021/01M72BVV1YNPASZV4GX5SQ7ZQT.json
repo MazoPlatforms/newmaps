@@ -1,0 +1,62 @@
+{
+  "name": "Sinbon Bakery - Kurumankadu 2",
+  "coordinates": {
+    "latitude": 8.762647099999999,
+    "longitude": 80.48969079999999
+  },
+  "address": "Vavuniya-Parayanalankulam Hwy, Vavuniya",
+  "categories": [
+    "Cake shop",
+    "Bakery",
+    "Cookie shop",
+    "Cupcake shop",
+    "Sandwich shop"
+  ],
+  "phone": "0740586262",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVV1YNPASZV4GX5SQ7ZQT"
+}

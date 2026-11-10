@@ -1,0 +1,59 @@
+{
+  "name": "Sampath Bank Touchless ATM",
+  "coordinates": {
+    "latitude": 6.8546526,
+    "longitude": 79.86569639999999
+  },
+  "address": "129 Galle Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0112738481",
+  "website": "https://www.sampath.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11M0KPDKQ1N32H4R3ME"
+}

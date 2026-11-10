@@ -1,0 +1,59 @@
+{
+  "name": "Wihara Supermarket",
+  "coordinates": {
+    "latitude": 7.9443687999999995,
+    "longitude": 80.7338295
+  },
+  "address": "Sigiriya Rd, Sigiriya 21122",
+  "categories": [
+    "Grocery store",
+    "Supermarket"
+  ],
+  "phone": "0777244059",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSM8G1MCMSS674631C8NP"
+}

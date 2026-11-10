@@ -1,0 +1,60 @@
+{
+  "name": "Amazan Photo",
+  "coordinates": {
+    "latitude": 8.7530462,
+    "longitude": 80.4985878
+  },
+  "address": "16 1st Cross St, Vavuniya 43000",
+  "categories": [
+    "Photography studio",
+    "Portrait studio",
+    "Wedding photographer"
+  ],
+  "phone": "0778989768",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5V2J0GAQ6Z432JQ248E9"
+}

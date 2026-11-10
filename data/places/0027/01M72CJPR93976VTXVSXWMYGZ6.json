@@ -1,0 +1,60 @@
+{
+  "name": "PC Doctor",
+  "coordinates": {
+    "latitude": 6.7367892,
+    "longitude": 79.9172293
+  },
+  "address": "No 16 Bathikwatta, Panadura",
+  "categories": [
+    "Computer service",
+    "Computer repair service"
+  ],
+  "phone": "0756852244",
+  "website": "https://www.instagram.com/pcdoctortech?igsh=MTdpY2puNjVlM2s3aw==",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPR93976VTXVSXWMYGZ6"
+}

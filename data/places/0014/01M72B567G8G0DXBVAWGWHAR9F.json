@@ -1,0 +1,60 @@
+{
+  "name": "Pizzeria Italiano",
+  "coordinates": {
+    "latitude": 6.889752,
+    "longitude": 80.5973659
+  },
+  "address": "Dunbar Road, Hatton",
+  "categories": [
+    "Family restaurant",
+    "Halal restaurant"
+  ],
+  "phone": "0779126662",
+  "website": "https://akramramani786.wixsite.com/pizzeriaitalianofami",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B567G8G0DXBVAWGWHAR9F"
+}

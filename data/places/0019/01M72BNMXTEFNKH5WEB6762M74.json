@@ -1,0 +1,58 @@
+{
+  "name": "Saudi Super Market",
+  "coordinates": {
+    "latitude": 8.0361146,
+    "longitude": 79.8365443
+  },
+  "address": "2RPP+CJV, Canal Ln, Puttalam 31000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0776528497",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11:58 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11:58 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11:58 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11:58 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11:58 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11:58 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11:58 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMXTEFNKH5WEB6762M74"
+}

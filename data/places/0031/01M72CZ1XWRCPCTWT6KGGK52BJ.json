@@ -1,0 +1,58 @@
+{
+  "name": "Salon Nellora",
+  "coordinates": {
+    "latitude": 6.6822835,
+    "longitude": 80.3967907
+  },
+  "address": "100/1/0 Bandaranaike Mawatha, Ratnapura 70000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0707953939",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZ1XWRCPCTWT6KGGK52BJ"
+}

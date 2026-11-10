@@ -1,0 +1,59 @@
+{
+  "address": "122/2 Arnolda Pl, Colombo 00500",
+  "name": "Galette Cafe & Bakery",
+  "coordinates": {
+    "latitude": 6.8844112,
+    "longitude": 79.8763135
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    }
+  ],
+  "website": "http://galettebakery.cafe/",
+  "business_status": "OPEN",
+  "phone": "0743836002",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72A8VDDHCE4WPSTWBKRT0KP"
+}

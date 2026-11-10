@@ -1,0 +1,58 @@
+{
+  "name": "Mars Computer",
+  "coordinates": {
+    "latitude": 9.3860748,
+    "longitude": 80.408543
+  },
+  "address": "Near Court, No 481 A9, Kilinochchi 44000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0771993731",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D6BEP8TMM62P2HGVA2D1D"
+}

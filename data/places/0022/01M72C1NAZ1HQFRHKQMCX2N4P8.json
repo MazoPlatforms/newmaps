@@ -1,0 +1,65 @@
+{
+  "name": "Mri Store (Wholesale And Retail)",
+  "coordinates": {
+    "latitude": 7.283842099999999,
+    "longitude": 81.8598188
+  },
+  "address": "39B Old Post Office Road, Oluvil 07",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0741482211",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30–11:30 AM",
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30–11:30 AM",
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30–11:30 AM",
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30–11:30 AM",
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30–11:30 AM",
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30–11:30 AM",
+        "4:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30–11:30 AM",
+        "4:30–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1NAZ1HQFRHKQMCX2N4P8"
+}

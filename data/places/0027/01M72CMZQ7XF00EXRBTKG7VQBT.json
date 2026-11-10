@@ -1,0 +1,58 @@
+{
+  "name": "Salon W",
+  "coordinates": {
+    "latitude": 7.2742493999999995,
+    "longitude": 80.6132743
+  },
+  "address": "903, 18 William Gopallawa Mawatha, Kandy 20000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0814505757",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQ7XF00EXRBTKG7VQBT"
+}

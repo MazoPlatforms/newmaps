@@ -1,0 +1,58 @@
+{
+  "name": "Nishantha Sir's Science Class",
+  "coordinates": {
+    "latitude": 6.8587405,
+    "longitude": 79.8895197
+  },
+  "address": "Ranasinghe Mawatha, 10350",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0773064756",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4KY0TBHQM145QQW2T8B7"
+}

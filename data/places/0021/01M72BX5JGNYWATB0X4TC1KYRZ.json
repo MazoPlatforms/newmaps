@@ -1,0 +1,59 @@
+{
+  "name": "Union Bank Mannar Branch",
+  "coordinates": {
+    "latitude": 8.980974,
+    "longitude": 79.904415
+  },
+  "address": "66 Main Street, Mannar",
+  "categories": [
+    "Private sector bank"
+  ],
+  "phone": "0232251343",
+  "website": "http://www.unionb.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX5JGNYWATB0X4TC1KYRZ"
+}

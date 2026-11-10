@@ -1,0 +1,60 @@
+{
+  "name": "Mr Barber Shop",
+  "coordinates": {
+    "latitude": 5.990545099999999,
+    "longitude": 80.437376
+  },
+  "address": "Weligama - Kananke Rd, Weligama",
+  "categories": [
+    "Barber shop",
+    "Hairdresser"
+  ],
+  "phone": "0778515851",
+  "website": "https://mintideacreations.com/mintideacreations/public/shanakaabeysinghe/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CV7SN7MTM85R41CXTD6WP"
+}

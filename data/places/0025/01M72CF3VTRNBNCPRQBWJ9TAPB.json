@@ -1,0 +1,58 @@
+{
+  "name": "Prime Tech",
+  "coordinates": {
+    "latitude": 7.2158926,
+    "longitude": 79.8503343
+  },
+  "address": "49/B 1/1 First Floor, Negombo - Mirigama Rd, Negombo 11500",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0777921266",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VTRNBNCPRQBWJ9TAPB"
+}

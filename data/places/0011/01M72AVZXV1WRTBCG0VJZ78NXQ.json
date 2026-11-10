@@ -1,0 +1,59 @@
+{
+  "name": "Rajagiriya Post Office",
+  "coordinates": {
+    "latitude": 6.9095957,
+    "longitude": 79.89474369999999
+  },
+  "address": "Sri Jayawardenepura Kotte 10107",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0112872324",
+  "website": "http://www.slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVZXV1WRTBCG0VJZ78NXQ"
+}

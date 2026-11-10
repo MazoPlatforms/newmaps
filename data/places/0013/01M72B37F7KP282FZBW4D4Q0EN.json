@@ -1,0 +1,58 @@
+{
+  "name": "Unicorn Service Station",
+  "coordinates": {
+    "latitude": 7.460463799999999,
+    "longitude": 80.6269841
+  },
+  "address": "FJ6G+5QQ, A9, Matale",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0662223078",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:45 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:45 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:45 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:45 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:45 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:45 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B37F7KP282FZBW4D4Q0EN"
+}

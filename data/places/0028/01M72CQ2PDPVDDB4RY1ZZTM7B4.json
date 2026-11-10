@@ -1,0 +1,58 @@
+{
+  "name": "EasyTech",
+  "coordinates": {
+    "latitude": 6.900344199999999,
+    "longitude": 80.5966093
+  },
+  "address": "No16, New Busstand Shopping Complex, Hatton 22000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0778886175",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQ2PDPVDDB4RY1ZZTM7B4"
+}

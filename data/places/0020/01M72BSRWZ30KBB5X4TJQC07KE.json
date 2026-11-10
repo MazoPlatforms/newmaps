@@ -1,0 +1,59 @@
+{
+  "name": "Technical College Dambulla",
+  "coordinates": {
+    "latitude": 7.8655542,
+    "longitude": 80.64966749999999
+  },
+  "address": "VJ8X+6VF, Dambulla",
+  "categories": [
+    "College"
+  ],
+  "phone": "0662284713",
+  "website": "http://www.facebook.com/tcdambulla",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSRWZ30KBB5X4TJQC07KE"
+}

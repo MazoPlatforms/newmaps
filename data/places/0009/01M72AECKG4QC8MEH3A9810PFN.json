@@ -1,0 +1,58 @@
+{
+  "address": "Fortuna Enterprises, No 01/96 Lewis Pl, Negombo",
+  "name": "LiDLL Super Market",
+  "coordinates": {
+    "latitude": 7.2355510999999995,
+    "longitude": 79.8414301
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0719323323",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72AECKG4QC8MEH3A9810PFN"
+}

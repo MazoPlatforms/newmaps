@@ -1,0 +1,59 @@
+{
+  "address": "234 Wakwella Rd, Galle 80000",
+  "name": "Comida Restaurant",
+  "coordinates": {
+    "latitude": 6.0449081,
+    "longitude": 80.2135527
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    }
+  ],
+  "website": "https://comida-galle-demo.web.app/",
+  "business_status": "OPEN",
+  "phone": "0710912401",
+  "categories": [
+    "Eclectic restaurant"
+  ],
+  "id": "01M72ABTV9Y7X1HRD93ASKSW0T"
+}

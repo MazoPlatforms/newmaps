@@ -1,0 +1,59 @@
+{
+  "name": "St.Peter's College Sports Complex",
+  "coordinates": {
+    "latitude": 6.8805936999999995,
+    "longitude": 79.8616645
+  },
+  "address": "R. A. De Mel Mawatha, Colombo 00400",
+  "categories": [
+    "Sports complex"
+  ],
+  "phone": "0112506322",
+  "website": "https://www.stpeterscollege.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9P9JK91CJHXF2PNYQBXS"
+}

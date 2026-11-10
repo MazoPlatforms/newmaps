@@ -1,0 +1,58 @@
+{
+  "name": "Rameca Trading",
+  "coordinates": {
+    "latitude": 6.834890499999999,
+    "longitude": 79.8672388
+  },
+  "address": "03 Cross Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0778677256",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAYXYM75QK7NCREQXV0J7"
+}

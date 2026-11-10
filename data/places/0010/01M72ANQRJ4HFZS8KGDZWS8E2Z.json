@@ -1,0 +1,59 @@
+{
+  "name": "NDB Bank - Old Moore Street",
+  "coordinates": {
+    "latitude": 6.9400305,
+    "longitude": 79.8620353
+  },
+  "address": "311 Old Moor St, Colombo 01200",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0117448108",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQRJ4HFZS8KGDZWS8E2Z"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "New Delmon Hospital",
+  "coordinates": {
+    "latitude": 6.8709751,
+    "longitude": 79.8618228
+  },
+  "address": "Galle - Colombo Rd, Colombo 00600",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0112558800",
+  "website": "http://www.delmonhospital.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG001NW7GGF72GEAB2FJW"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Colombo Medical Center",
+  "coordinates": {
+    "latitude": 6.986798899999999,
+    "longitude": 79.9748584
+  },
+  "address": "Main street, Mawaramandiya",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0777617131",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8–10 AM",
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00VD94J2ET24F0FWQCA"
+}

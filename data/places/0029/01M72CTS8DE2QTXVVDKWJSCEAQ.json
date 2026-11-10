@@ -1,0 +1,59 @@
+{
+  "name": "Millennium Gym And Fitness Center",
+  "coordinates": {
+    "latitude": 5.942933699999999,
+    "longitude": 80.5149048
+  },
+  "address": "Welegoda Rd, Matara",
+  "categories": [
+    "Gym"
+  ],
+  "phone": "0717427474",
+  "website": "https://www.facebook.com/MillenniumGymMatara/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTS8DE2QTXVVDKWJSCEAQ"
+}

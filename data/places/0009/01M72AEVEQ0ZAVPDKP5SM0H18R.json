@@ -1,0 +1,59 @@
+{
+  "address": "49 Main St, Negombo 12400",
+  "name": "General Post Office",
+  "coordinates": {
+    "latitude": 7.2105998,
+    "longitude": 79.8356355
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.slpost.gov.lk/",
+  "business_status": "OPEN",
+  "phone": "0312238000",
+  "categories": [
+    "Post office"
+  ],
+  "id": "01M72AEVEQ0ZAVPDKP5SM0H18R"
+}

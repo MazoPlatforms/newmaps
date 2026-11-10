@@ -1,0 +1,62 @@
+{
+  "name": "Metropolitan M Centre - Kalutara",
+  "coordinates": {
+    "latitude": 6.578454,
+    "longitude": 79.9628678
+  },
+  "address": "261B Galle - Colombo Rd, Kalutara 12000",
+  "categories": [
+    "Computer store",
+    "Computer support and services",
+    "Electronics store",
+    "Printer repair service"
+  ],
+  "phone": "0342221431",
+  "website": "http://www.mcentre.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHJCYEK03HVP3HTWYQWKA"
+}

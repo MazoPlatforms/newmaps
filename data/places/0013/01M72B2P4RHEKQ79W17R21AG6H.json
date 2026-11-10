@@ -1,0 +1,58 @@
+{
+  "name": "Sithara Ayurvedic Dispensary",
+  "coordinates": {
+    "latitude": 7.2680601,
+    "longitude": 80.62163609999999
+  },
+  "address": "544, 11 A Heerassagala Rd, Kandy 20000",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0716395168",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2P4RHEKQ79W17R21AG6H"
+}

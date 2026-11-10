@@ -1,0 +1,57 @@
+{
+  "name": "Persian Hotel & Bakery",
+  "coordinates": {
+    "latitude": 7.4685121,
+    "longitude": 80.6228685
+  },
+  "address": "FJ9F+C45, Matale 21000",
+  "categories": [
+    "Restaurant"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–8 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–8 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–8 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–8 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–8 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–8 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D7XH7NZ9XY9X3GDFJSP"
+}

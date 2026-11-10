@@ -1,0 +1,59 @@
+{
+  "name": "Blc Campus",
+  "coordinates": {
+    "latitude": 9.6672994,
+    "longitude": 80.0186859
+  },
+  "address": "330 Stanley Rd, Jaffna 40000",
+  "categories": [
+    "Private university"
+  ],
+  "phone": "0212223355",
+  "website": "https://www.blccampus.edu.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BV6N2YXZKTQH2TGNR9HK7"
+}

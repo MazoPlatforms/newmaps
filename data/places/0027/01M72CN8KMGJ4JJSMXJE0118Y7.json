@@ -1,0 +1,58 @@
+{
+  "name": "Sports Complex - Digana",
+  "coordinates": {
+    "latitude": 7.297667499999999,
+    "longitude": 80.73005359999999
+  },
+  "address": "Mahaweli Stadium, Digana",
+  "categories": [
+    "Sports complex"
+  ],
+  "phone": "0812052550",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CN8KMGJ4JJSMXJE0118Y7"
+}

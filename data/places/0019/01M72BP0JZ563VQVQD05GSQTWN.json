@@ -1,0 +1,58 @@
+{
+  "name": "Platinum Automotive",
+  "coordinates": {
+    "latitude": 7.9418143,
+    "longitude": 79.80806369999999
+  },
+  "address": "570/A Puluthivayal, Palavi, Puttalam",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0757312312",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BP0JZ563VQVQD05GSQTWN"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Engineering Library",
+  "coordinates": {
+    "latitude": 7.2531408,
+    "longitude": 80.59283529999999
+  },
+  "address": "7H3V+744, Kandy",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0812393311",
+  "website": "http://eng.pdn.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–4:15 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2T5SBJ47DN0KJ5Y0012X"
+}

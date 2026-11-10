@@ -1,0 +1,58 @@
+{
+  "name": "Ayurvedic Medical Center",
+  "coordinates": {
+    "latitude": 6.7102235,
+    "longitude": 79.9159952
+  },
+  "address": "14 Solaman Mawatha, Panadura",
+  "categories": [
+    "Ayurvedic clinic"
+  ],
+  "phone": "0714445610",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08NG44KJJVKBZ41VQK6H"
+}

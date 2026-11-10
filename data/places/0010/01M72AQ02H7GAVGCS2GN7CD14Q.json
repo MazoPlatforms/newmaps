@@ -1,0 +1,61 @@
+{
+  "name": "Kandoori",
+  "coordinates": {
+    "latitude": 6.8780959,
+    "longitude": 79.8580988
+  },
+  "address": "17 Charlemont Rd, Colombo 00600",
+  "categories": [
+    "Indian restaurant",
+    "Chinese restaurant",
+    "Halal restaurant"
+  ],
+  "phone": "0777511911",
+  "website": "http://www.kandoori.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02H7GAVGCS2GN7CD14Q"
+}

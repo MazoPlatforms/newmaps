@@ -1,0 +1,58 @@
+{
+  "name": "Tech Haven Technology",
+  "coordinates": {
+    "latitude": 6.036393599999999,
+    "longitude": 80.7937857
+  },
+  "address": "96 Tangalle - Weeraketiya Rd, Tangalle 82200",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0701281254",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CW56ZJF1N8ZJB2B582X08"
+}

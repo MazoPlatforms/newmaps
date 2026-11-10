@@ -1,0 +1,58 @@
+{
+  "name": "Franky's Hut",
+  "coordinates": {
+    "latitude": 6.7640259,
+    "longitude": 80.9767583
+  },
+  "address": "QX7G+JP6, Dambetenna road",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0778099719",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:01 AM–7:29 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:01 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGVBR3R11BAQ4REQWZH"
+}

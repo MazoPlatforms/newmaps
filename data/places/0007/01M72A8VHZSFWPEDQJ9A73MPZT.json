@@ -1,0 +1,61 @@
+{
+  "address": "Hotel & Spa, Colombo Court, 32 Alfred House Ave, Colombo 00300",
+  "name": "Cloud Cafe & Bar",
+  "coordinates": {
+    "latitude": 6.897765,
+    "longitude": 79.856454
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30–11 PM"
+      ]
+    }
+  ],
+  "website": "https://www.colombocourthotel.com/cloudcafe",
+  "business_status": "OPEN",
+  "phone": "0114645333",
+  "categories": [
+    "Cafe",
+    "Bar",
+    "Restaurant"
+  ],
+  "id": "01M72A8VHZSFWPEDQJ9A73MPZT"
+}

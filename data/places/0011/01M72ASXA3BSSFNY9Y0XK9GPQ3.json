@@ -1,0 +1,58 @@
+{
+  "name": "Cambridge Academy",
+  "coordinates": {
+    "latitude": 6.787162899999999,
+    "longitude": 79.8759785
+  },
+  "address": "Prince of Wales Collage, 649 Galle Rd, Moratuwa 10400",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0714933888",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASXA3BSSFNY9Y0XK9GPQ3"
+}

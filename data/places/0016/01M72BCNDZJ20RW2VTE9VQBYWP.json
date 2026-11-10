@@ -1,0 +1,59 @@
+{
+  "name": "Maheshee Home Restaurant",
+  "coordinates": {
+    "latitude": 6.0310101,
+    "longitude": 80.79689259999999
+  },
+  "address": "No.18/1 New Lane, Tangalle 82200",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0777166706",
+  "website": "https://www.facebook.com/MahesheeRestaurant/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNDZJ20RW2VTE9VQBYWP"
+}

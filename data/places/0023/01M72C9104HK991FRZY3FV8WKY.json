@@ -1,0 +1,58 @@
+{
+  "name": "Colombo Hardware",
+  "coordinates": {
+    "latitude": 6.9397825,
+    "longitude": 79.8603296
+  },
+  "address": "10 Hultsdorf St, Colombo 12",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "2325566",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9104HK991FRZY3FV8WKY"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Salon LIYO",
+  "coordinates": {
+    "latitude": 6.8763508,
+    "longitude": 79.89271029999999
+  },
+  "address": "No 06 Pagoda Rd, Nugegoda 10250",
+  "categories": [
+    "Beauty salon",
+    "Hair salon"
+  ],
+  "phone": "0773885122",
+  "website": "http://www.salonliyo.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M9MZVKDD76TWSFNRXS"
+}

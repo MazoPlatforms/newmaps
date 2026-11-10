@@ -1,0 +1,58 @@
+{
+  "name": "Sandasiri Stores",
+  "coordinates": {
+    "latitude": 6.9756807,
+    "longitude": 81.08583999999999
+  },
+  "address": "Udawela Bus Stop, Peradeniya-Badulla-Chenkaladi Hwy",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0552226060",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQBEZ6RGNAM0DWC4C4VR"
+}

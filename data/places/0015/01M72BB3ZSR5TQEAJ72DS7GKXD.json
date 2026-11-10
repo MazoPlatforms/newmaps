@@ -1,0 +1,59 @@
+{
+  "name": "Mirissa Post Office",
+  "coordinates": {
+    "latitude": 5.9505729999999994,
+    "longitude": 80.4554892
+  },
+  "address": "XF24+65H, A2, Weligama",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0412250229",
+  "website": "http://www.slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB3ZSR5TQEAJ72DS7GKXD"
+}

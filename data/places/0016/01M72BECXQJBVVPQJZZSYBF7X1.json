@@ -1,0 +1,58 @@
+{
+  "name": "Vintage Cake Badulla",
+  "coordinates": {
+    "latitude": 6.4877579999999995,
+    "longitude": 80.8717855
+  },
+  "categories": [
+    "Cake shop",
+    "Service establishment"
+  ],
+  "phone": "0767088383",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8–11:30 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BECXQJBVVPQJZZSYBF7X1"
+}

@@ -1,0 +1,62 @@
+{
+  "address": "Matara Rd, Galle 80000",
+  "name": "Yummy Hut",
+  "coordinates": {
+    "latitude": 6.0323288,
+    "longitude": 80.23937409999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0769103351",
+  "categories": [
+    "Fast food restaurant",
+    "Cafe",
+    "Hamburger restaurant",
+    "Sandwich shop",
+    "Snack bar"
+  ],
+  "id": "01M72ABTWA6JCB1MAF1W9Q2SQ2"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Hair Cut Salon",
+  "coordinates": {
+    "latitude": 7.280208099999999,
+    "longitude": 80.6211751
+  },
+  "address": "431 William Gopallawa Mawatha, Kandy 20000",
+  "categories": [
+    "Barber shop",
+    "Beauty salon"
+  ],
+  "phone": "0773855351",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "1–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "1–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "1–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "1–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQA592DDBGBEQBG8Z1X"
+}

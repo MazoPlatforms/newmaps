@@ -1,0 +1,60 @@
+{
+  "name": "City Glass House",
+  "coordinates": {
+    "latitude": 7.468358899999999,
+    "longitude": 80.6242685
+  },
+  "address": "38 Station Rd, Matale 21300",
+  "categories": [
+    "Hardware store",
+    "Building materials supplier",
+    "Glass shop"
+  ],
+  "phone": "0740476040",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNW4BT8YGS7YMY5C024BJ"
+}

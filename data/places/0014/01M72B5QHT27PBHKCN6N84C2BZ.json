@@ -1,0 +1,58 @@
+{
+  "name": "The Open Kitchen",
+  "coordinates": {
+    "latitude": 7.049785,
+    "longitude": 80.52825709999999
+  },
+  "address": "2GXH+W7G, Jayasundara Rd, Nawalapitiya",
+  "categories": [
+    "Fast food restaurant"
+  ],
+  "phone": "0766847231",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5QHT27PBHKCN6N84C2BZ"
+}

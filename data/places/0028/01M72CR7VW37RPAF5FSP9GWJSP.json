@@ -1,0 +1,63 @@
+{
+  "name": "My Memory",
+  "coordinates": {
+    "latitude": 6.0342128,
+    "longitude": 80.21802009999999
+  },
+  "address": "Lakshman Building, No.07 2nd Cross St, Galle 80000",
+  "categories": [
+    "Electronics store",
+    "Cell phone accessory store",
+    "Computer accessories store",
+    "Game store",
+    "Movie rental store"
+  ],
+  "phone": "0777574643",
+  "website": "http://www.mymemorylk.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7VW37RPAF5FSP9GWJSP"
+}

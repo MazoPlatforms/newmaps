@@ -1,0 +1,58 @@
+{
+  "address": "No 209 Circular Rd, Magalle 80000",
+  "name": "S.K.D Grocery",
+  "coordinates": {
+    "latitude": 6.0383992,
+    "longitude": 80.23461189999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0771568829",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AC7AA3NC2PW6FPSY7C2EW"
+}

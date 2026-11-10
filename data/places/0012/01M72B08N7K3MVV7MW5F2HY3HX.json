@@ -1,0 +1,58 @@
+{
+  "name": "Gorakana Medical Centre",
+  "coordinates": {
+    "latitude": 6.756791,
+    "longitude": 79.89852049999999
+  },
+  "address": "Panadura 12500",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0714119769",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08N7K3MVV7MW5F2HY3HX"
+}

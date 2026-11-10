@@ -1,0 +1,64 @@
+{
+  "name": "Family Medic Care",
+  "coordinates": {
+    "latitude": 9.677916999999999,
+    "longitude": 80.0128417
+  },
+  "address": "No 20 College Ln, Jaffna",
+  "categories": [
+    "Private hospital"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8–9:30 AM",
+        "5:03 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–9:30 AM",
+        "5:03 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–9:30 AM",
+        "5:03 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–9:30 AM",
+        "5:03 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–9:30 AM",
+        "5:03 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–9:30 AM",
+        "5:03 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–8:30 AM",
+        "5 PM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BV2P0QDTC369YY9T8RVD2"
+}

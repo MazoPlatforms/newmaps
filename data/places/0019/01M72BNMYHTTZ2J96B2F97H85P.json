@@ -1,0 +1,59 @@
+{
+  "name": "Medix Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 8.0386347,
+    "longitude": 79.8281114
+  },
+  "address": "278 Mannar Rd, Puttalam 61300",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0776944404",
+  "website": "https://www.facebook.com/ajm.fairoos",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMYHTTZ2J96B2F97H85P"
+}

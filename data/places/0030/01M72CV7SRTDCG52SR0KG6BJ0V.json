@@ -1,0 +1,58 @@
+{
+  "name": "Faa_Salon",
+  "coordinates": {
+    "latitude": 5.9935572,
+    "longitude": 80.4390272
+  },
+  "address": "200 koledanda, Weligama 81700",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0778331107",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CV7SRTDCG52SR0KG6BJ0V"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Sk Phone Shop",
+  "coordinates": {
+    "latitude": 9.6830462,
+    "longitude": 80.0229055
+  },
+  "address": "Sir Pon Ramanathan Road, Jaffna",
+  "categories": [
+    "Computer service",
+    "Mobile phone repair shop"
+  ],
+  "phone": "0779628690",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4NA2MKQBA5YHM5BVNN4F"
+}

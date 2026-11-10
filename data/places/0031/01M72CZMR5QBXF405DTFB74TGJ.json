@@ -1,0 +1,59 @@
+{
+  "name": "Fabu",
+  "coordinates": {
+    "latitude": 7.2528263,
+    "longitude": 80.3419253
+  },
+  "address": "64/5 Main Street, Kegalle 71000",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0707021802",
+  "website": "http://www.fabu.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZMR5QBXF405DTFB74TGJ"
+}

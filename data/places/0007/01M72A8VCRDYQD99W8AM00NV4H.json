@@ -1,0 +1,59 @@
+{
+  "address": "90A Jawatta Rd, Colombo 00500",
+  "name": "Blue Spoon Café",
+  "coordinates": {
+    "latitude": 6.8928822,
+    "longitude": 79.8668541
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    }
+  ],
+  "website": "http://instagram.com/bluespoonlk",
+  "business_status": "OPEN",
+  "phone": "0773164000",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72A8VCRDYQD99W8AM00NV4H"
+}

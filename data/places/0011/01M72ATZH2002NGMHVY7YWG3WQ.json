@@ -1,0 +1,58 @@
+{
+  "name": "Bojunka Food",
+  "coordinates": {
+    "latitude": 6.9067738,
+    "longitude": 79.9463224
+  },
+  "address": "WW4W+PG4, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0779510830",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZH2002NGMHVY7YWG3WQ"
+}

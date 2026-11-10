@@ -1,0 +1,58 @@
+{
+  "name": "Car Throttle",
+  "coordinates": {
+    "latitude": 6.8672488,
+    "longitude": 79.95885419999999
+  },
+  "address": "1497, 4A Kottawa - Malabe Rd, Pannipitiya 10230",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0712841841",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMS4TFCA8BNX3N8FGNJJ"
+}

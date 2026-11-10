@@ -1,0 +1,59 @@
+{
+  "name": "Platinum Auto Spa",
+  "coordinates": {
+    "latitude": 6.842392599999999,
+    "longitude": 79.9096308
+  },
+  "address": "251 Dehiwala Rd, Boralesgamuwa",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0112150411",
+  "website": "http://www.platinumdetailing.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDY2W9NHR75XWG4R9JGX"
+}

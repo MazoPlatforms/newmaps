@@ -1,0 +1,58 @@
+{
+  "address": "85 Jumma Masjid Rd, Negombo 11500",
+  "name": "Family Grocers",
+  "coordinates": {
+    "latitude": 7.2173834,
+    "longitude": 79.8499447
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0776871845",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "id": "01M72AECPG8N47X069JJ7A6EXQ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Fresh Lobsters SeaFood Restaurant",
+  "coordinates": {
+    "latitude": 6.5649428,
+    "longitude": 79.96185179999999
+  },
+  "address": "187, 7 St. Sebastian Rd, Kalutara 12000",
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "phone": "0774063883",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYWR66RVN4GVP6APPYCRA"
+}

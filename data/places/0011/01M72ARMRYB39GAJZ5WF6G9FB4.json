@@ -1,0 +1,58 @@
+{
+  "name": "Canaan Automobile Technicians",
+  "coordinates": {
+    "latitude": 6.8472326,
+    "longitude": 79.8929117
+  },
+  "address": "55 Sri Bodhirajarama Mawatha, Divulapitiya, Boralesgamuwa",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0773872690",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRYB39GAJZ5WF6G9FB4"
+}

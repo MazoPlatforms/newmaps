@@ -1,0 +1,65 @@
+{
+  "name": "Central Healthcare",
+  "coordinates": {
+    "latitude": 7.2704124,
+    "longitude": 80.60797029999999
+  },
+  "address": "7JC5+559, Sri Amarawansa Mawatha, Kandy",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0777808471",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30–7:45 AM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30–7:45 AM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30–7:45 AM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30–7:45 AM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–7:45 AM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30–7:45 AM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30–7:45 AM",
+        "4–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2P4PRZZ0FRX3J8G636TW"
+}

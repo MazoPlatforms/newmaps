@@ -1,0 +1,58 @@
+{
+  "name": "Denipitiya Post Office",
+  "coordinates": {
+    "latitude": 5.9829395,
+    "longitude": 80.4418585
+  },
+  "address": "Weligama - Telijjawila Rd, Weligama",
+  "categories": [
+    "Post office"
+  ],
+  "website": "https://slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB3ZTDBTXGGA748330WNN"
+}

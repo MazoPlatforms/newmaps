@@ -1,0 +1,58 @@
+{
+  "name": "Selara",
+  "coordinates": {
+    "latitude": 6.1265689,
+    "longitude": 81.1221369
+  },
+  "address": "18/1B New Rd, Hambantota 82000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0715385966",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CVNAM5SY9Z4C7DHC6HF4J"
+}

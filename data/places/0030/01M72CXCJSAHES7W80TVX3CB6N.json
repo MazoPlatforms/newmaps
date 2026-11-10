@@ -1,0 +1,59 @@
+{
+  "name": "Apple Shop Badulla",
+  "coordinates": {
+    "latitude": 6.9879093,
+    "longitude": 81.0590706
+  },
+  "address": "62 Lower St, Badulla 90000",
+  "categories": [
+    "Cell phone store"
+  ],
+  "phone": "0779930093",
+  "website": "https://appleshop.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXCJSAHES7W80TVX3CB6N"
+}

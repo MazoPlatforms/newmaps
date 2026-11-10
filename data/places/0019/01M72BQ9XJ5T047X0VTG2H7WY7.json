@@ -1,0 +1,58 @@
+{
+  "name": "Thalawa Hospital",
+  "coordinates": {
+    "latitude": 8.233718099999999,
+    "longitude": 80.34833139999999
+  },
+  "address": "68MX+F8P, Talawa",
+  "categories": [
+    "Government hospital"
+  ],
+  "phone": "0252276261",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9XJ5T047X0VTG2H7WY7"
+}

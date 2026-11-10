@@ -1,0 +1,58 @@
+{
+  "name": "Bakery",
+  "coordinates": {
+    "latitude": 8.6071782,
+    "longitude": 81.2164413
+  },
+  "address": "No. 118, 3rd line, ananthapuri, Nilavali, road, Trincomalee 31000",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0756985396",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2KFK37P1MW8R4H9884GK"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Public Library Madulla",
+  "coordinates": {
+    "latitude": 6.974798799999999,
+    "longitude": 81.3717109
+  },
+  "address": "X9FC+WM8, Monaragala",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0554936527",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGH2E2YM0VSD4EEFWJXQG"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "123/1 Main Street, Kurunegala",
+  "name": "Golden Hotel & Family Restaurant",
+  "coordinates": {
+    "latitude": 7.4900106,
+    "longitude": 80.3643214
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0751445784",
+  "categories": [
+    "Family restaurant"
+  ],
+  "id": "01M72AFEGNZ6N7ZGD23Q1R2XYR"
+}

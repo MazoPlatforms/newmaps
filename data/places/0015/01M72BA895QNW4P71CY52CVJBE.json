@@ -1,0 +1,58 @@
+{
+  "name": "Reliance Motors",
+  "coordinates": {
+    "latitude": 5.9463659,
+    "longitude": 80.5564021
+  },
+  "address": "No 506 , New, Tangalle Rd, Matara 81000",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0713102786",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BA895QNW4P71CY52CVJBE"
+}

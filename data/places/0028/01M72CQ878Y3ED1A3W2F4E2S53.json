@@ -1,0 +1,62 @@
+{
+  "name": "Salon Adora Unisex(Barber & Nails)",
+  "coordinates": {
+    "latitude": 6.8745221,
+    "longitude": 81.04836929999999
+  },
+  "address": "Police road, 4, Ella 90090",
+  "categories": [
+    "Barber shop",
+    "Hairdresser",
+    "Beauty salon",
+    "Beauty supply store",
+    "Nail salon"
+  ],
+  "phone": "0752692496",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQ878Y3ED1A3W2F4E2S53"
+}

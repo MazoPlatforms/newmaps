@@ -1,0 +1,58 @@
+{
+  "name": "KFC Puttalam",
+  "coordinates": {
+    "latitude": 8.0277909,
+    "longitude": 79.83033809999999
+  },
+  "address": "South, Puttalam",
+  "categories": [
+    "Restaurant"
+  ],
+  "website": "http://kfc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10:40 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN964ARSG56RYZ42JVAQR"
+}

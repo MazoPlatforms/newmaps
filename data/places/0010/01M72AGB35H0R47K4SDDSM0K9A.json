@@ -1,0 +1,58 @@
+{
+  "name": "Kopiyawatta Sub - Post Office",
+  "coordinates": {
+    "latitude": 6.9317701,
+    "longitude": 79.8782994
+  },
+  "address": "388 Baseline Rd, Colombo",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0112695506",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AGB35H0R47K4SDDSM0K9A"
+}

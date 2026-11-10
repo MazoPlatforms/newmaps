@@ -1,0 +1,58 @@
+{
+  "name": "Sumanadisi Bakers",
+  "coordinates": {
+    "latitude": 6.868551399999999,
+    "longitude": 79.868561
+  },
+  "address": "29 Bhathiya Mawatha, Colombo",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0112716855",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02DKPP47F93EAHF75XQ"
+}

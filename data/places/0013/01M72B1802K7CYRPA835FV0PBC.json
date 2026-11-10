@@ -1,0 +1,59 @@
+{
+  "name": "City Sports",
+  "coordinates": {
+    "latitude": 6.4751803,
+    "longitude": 79.98312659999999
+  },
+  "address": "First Floor Supermarket, No. 01, Beruwala 12070",
+  "categories": [
+    "Sportswear store"
+  ],
+  "phone": "0779356286",
+  "website": "https://www.citysports.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B1802K7CYRPA835FV0PBC"
+}

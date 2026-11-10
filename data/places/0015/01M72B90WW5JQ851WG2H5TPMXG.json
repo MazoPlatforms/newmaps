@@ -1,0 +1,59 @@
+{
+  "name": "Chef Akila Kitchen",
+  "coordinates": {
+    "latitude": 5.9570282,
+    "longitude": 80.4197894
+  },
+  "address": "241/16 Awariyawatta Kapparathota, Weligama",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0769235591",
+  "website": "https://chefakilakitchen.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WW5JQ851WG2H5TPMXG"
+}

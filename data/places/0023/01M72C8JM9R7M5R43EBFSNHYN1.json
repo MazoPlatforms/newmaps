@@ -1,0 +1,62 @@
+{
+  "name": "Greenware Premium",
+  "coordinates": {
+    "latitude": 6.8893593,
+    "longitude": 79.8566565
+  },
+  "address": "154 Galle Rd, Colombo 00400",
+  "categories": [
+    "Computer store",
+    "Cell phone store",
+    "Electronics store",
+    "Game store"
+  ],
+  "phone": "0777396396",
+  "website": "https://www.greenware.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JM9R7M5R43EBFSNHYN1"
+}

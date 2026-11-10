@@ -1,0 +1,58 @@
+{
+  "name": "Tiffy Computer",
+  "coordinates": {
+    "latitude": 7.8669179,
+    "longitude": 80.6454854
+  },
+  "address": "Kurunegala Rd, Dambulla 21100",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0707600125",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3X5SB5FD8ACAJNM7247E"
+}

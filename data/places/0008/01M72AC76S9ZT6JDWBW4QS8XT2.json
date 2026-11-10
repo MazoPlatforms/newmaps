@@ -1,0 +1,65 @@
+{
+  "address": "233 Colombo Main Rd, Galle 80000",
+  "name": "Seagull Mart Chocolate Shop",
+  "coordinates": {
+    "latitude": 6.0370705,
+    "longitude": 80.20769709999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–10:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10:45 PM"
+      ]
+    }
+  ],
+  "website": "https://seagullmart.lk/",
+  "business_status": "OPEN",
+  "phone": "0764395180",
+  "categories": [
+    "Chocolate shop",
+    "Confectionery store",
+    "Cosmetics store",
+    "Grocery delivery service",
+    "Ice cream shop",
+    "Nut store",
+    "Perfume store"
+  ],
+  "id": "01M72AC76S9ZT6JDWBW4QS8XT2"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Jayanthi Radio",
+  "coordinates": {
+    "latitude": 7.2102889999999995,
+    "longitude": 79.8403551
+  },
+  "address": "46 De Croos Rd, Negombo",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0312222283",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VND4V5AGCY5JAS5FZT"
+}

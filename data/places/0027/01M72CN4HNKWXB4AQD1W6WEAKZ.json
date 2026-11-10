@@ -1,0 +1,69 @@
+{
+  "name": "Choco More",
+  "coordinates": {
+    "latitude": 7.2934101,
+    "longitude": 80.6354868
+  },
+  "address": "No: 30 De Soyza Ln, Kandy 20000",
+  "categories": [
+    "Chocolate shop",
+    "Clothes market",
+    "Cosmetics store",
+    "Gift basket store",
+    "Gift shop",
+    "Industrial vacuum equipment supplier",
+    "Nut store",
+    "Perfume store",
+    "Staple food package",
+    "Vacuum cleaner store"
+  ],
+  "phone": "0812227733",
+  "website": "http://chocomore.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 PM",
+        "1:30–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CN4HNKWXB4AQD1W6WEAKZ"
+}

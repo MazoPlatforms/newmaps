@@ -1,0 +1,58 @@
+{
+  "name": "Hiro Ice Cream",
+  "coordinates": {
+    "latitude": 6.234008299999999,
+    "longitude": 80.05442359999999
+  },
+  "address": "24 Galle Rd, Ambalangoda",
+  "categories": [
+    "Ice cream shop"
+  ],
+  "phone": "0774417417",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YAREMEEFW8HCPHHVD1Q"
+}

@@ -1,0 +1,61 @@
+{
+  "address": "44 Perakumba St, Kurunegala",
+  "name": "Thaj Bakers And Chinese Restaurant",
+  "coordinates": {
+    "latitude": 7.4884935,
+    "longitude": 80.3647045
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0773452414",
+  "categories": [
+    "Bakery",
+    "Pan-Asian restaurant",
+    "Cafe",
+    "Chinese restaurant"
+  ],
+  "id": "01M72AFEM0WYJG8ERH13YBGX0P"
+}

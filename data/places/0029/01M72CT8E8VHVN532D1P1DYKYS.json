@@ -1,0 +1,59 @@
+{
+  "name": "Lap Kingdom",
+  "coordinates": {
+    "latitude": 5.9528878,
+    "longitude": 80.5458261
+  },
+  "address": "79 Matara-Hakmana Rd, Matara 81000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0759098060",
+  "website": "https://www.lapkingdom.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CT8E8VHVN532D1P1DYKYS"
+}

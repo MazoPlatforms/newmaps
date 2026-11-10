@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: mazo-maps-live-data-main
@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: false
+          persist-credentials: true
 
       - name: Decide whether this event should publish live data
         id: sync-plan
@@ -59,7 +59,7 @@ jobs:
           if [[ "$include_generators" == true ]]; then
             while IFS= read -r path; do
               case "$path" in
-                data/*|scripts/places.py|scripts/roads.py|scripts/speed_limits.py|scripts/build_map_delivery.py|scripts/build_cloudflare_assets.py|scripts/build_vector_assets.mjs|scripts/build_routing_graph.py|scripts/build_sri_lanka_basemap.py|scripts/basemap/**|scripts/enrich_roads.py|requirements-map-tiles.txt|package-lock.json)
+                data/*|src/worker-core.mjs|src/live-data-registry.mjs|src/github-data-assets.mjs|src/pmtiles-r2.mjs|src/vector-tiles.mjs|src/ride-api.mjs|scripts/cloudflare-live-data-sync.mjs|scripts/publish-map-data-snapshot.mjs|scripts/places.py|scripts/roads.py|scripts/speed_limits.py|scripts/build_map_delivery.py|scripts/build_cloudflare_assets.py|scripts/build_vector_assets.mjs|scripts/build_routing_graph.py|scripts/build_sri_lanka_basemap.py|scripts/basemap/**|scripts/enrich_roads.py|requirements-map-tiles.txt|package-lock.json)
                   run=true
                   ;;
               esac
@@ -68,7 +68,7 @@ jobs:
             run=true
             while IFS= read -r path; do
               case "$path" in
-              data/*) ;;
+              data/*|generated/*|kattankudy-all-roads.json) ;;
                 *) run=false ;;
               esac
             done <<< "$changed"
@@ -121,6 +121,15 @@ jobs:
         if: steps.sync-plan.outputs.run == 'true'
         run: npm run build:cloudflare
 
+      - name: Publish immutable map data snapshot to GitHub
+        id: github-snapshot
+        if: steps.sync-plan.outputs.run == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SHA: ${{ github.sha }}
+        run: node scripts/publish-map-data-snapshot.mjs
+
       - name: Require live-data sync secret
         if: steps.sync-plan.outputs.run == 'true'
         env:
@@ -134,6 +143,7 @@ jobs:
         env:
           MAZO_LIVE_DATA_HMAC_SECRET: ${{ secrets.MAZO_LIVE_DATA_HMAC_SECRET }}
           MAZO_LIVE_SYNC_URL: https://maps.mazo.workers.dev/
+          MAZO_DATA_ARTIFACT_SHA: ${{ steps.github-snapshot.outputs.artifact_revision }}
         run: node scripts/cloudflare-live-data-sync.mjs
 
       - name: Smoke-test deployed RideNow v1 APIs after synchronization

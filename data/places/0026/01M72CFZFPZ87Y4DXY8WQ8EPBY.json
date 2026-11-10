@@ -1,0 +1,58 @@
+{
+  "name": "Sale House",
+  "coordinates": {
+    "latitude": 7.093677899999999,
+    "longitude": 79.9933929
+  },
+  "address": "109 Minuwangoda-Gampaha-Miriswatta Rd, Gampaha 11000",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0332224760",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFZFPZ87Y4DXY8WQ8EPBY"
+}

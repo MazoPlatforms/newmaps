@@ -1,0 +1,58 @@
+{
+  "name": "Dental Clinic",
+  "coordinates": {
+    "latitude": 6.8940624999999995,
+    "longitude": 80.59642079999999
+  },
+  "address": "90D Dimbula Road, Hatton 22000",
+  "categories": [
+    "Dental clinic"
+  ],
+  "phone": "0512223221",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5C164ER71C0K8K48EJ9P"
+}

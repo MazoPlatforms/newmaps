@@ -1,0 +1,58 @@
+{
+  "name": "King Stainless Steel",
+  "coordinates": {
+    "latitude": 6.9413265,
+    "longitude": 79.8618694
+  },
+  "address": "17 Abdul Jabbar Mawatha, Colombo 01300",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112430405",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910VR0B63PGEC7C3DPY4"
+}

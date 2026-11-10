@@ -1,0 +1,59 @@
+{
+  "name": "Total Auto Care",
+  "coordinates": {
+    "latitude": 6.832503399999999,
+    "longitude": 79.8829738
+  },
+  "address": "199 Templers Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0757888999",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11:30 AM",
+        "2–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRNXAAYQDZ39RRJZGAS"
+}

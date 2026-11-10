@@ -1,0 +1,60 @@
+{
+  "name": "Champa Bakers And Restaurant",
+  "coordinates": {
+    "latitude": 7.256422799999999,
+    "longitude": 80.4062855
+  },
+  "address": "7C44+HG7, Mangalagama, Molagoda",
+  "categories": [
+    "Bakery",
+    "Family restaurant",
+    "Chinese restaurant"
+  ],
+  "phone": "0777777395",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZY0H3FPZRQ3N8F2HZ8"
+}

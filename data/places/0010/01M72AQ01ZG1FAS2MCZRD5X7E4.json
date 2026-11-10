@@ -1,0 +1,62 @@
+{
+  "name": "The Baking Room",
+  "coordinates": {
+    "latitude": 6.8590924,
+    "longitude": 79.87640499999999
+  },
+  "address": "24,Sri Sri Wanaratne Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Bakery",
+    "Cake shop",
+    "Sweets and dessert buffet",
+    "Dessert shop",
+    "Gift basket store"
+  ],
+  "phone": "0775224069",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ01ZG1FAS2MCZRD5X7E4"
+}

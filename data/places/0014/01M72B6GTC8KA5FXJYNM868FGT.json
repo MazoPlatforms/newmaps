@@ -1,0 +1,59 @@
+{
+  "name": "Blood Bank - National Hospital Galle",
+  "coordinates": {
+    "latitude": 6.0659453,
+    "longitude": 80.22556469999999
+  },
+  "address": "368G+96G, Hirimbura Cross Rd, Galle 80000",
+  "categories": [
+    "Blood bank"
+  ],
+  "phone": "0912232176",
+  "website": "http://www.nbts.health.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6GTC8KA5FXJYNM868FGT"
+}

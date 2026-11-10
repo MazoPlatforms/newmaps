@@ -1,0 +1,59 @@
+{
+  "name": "Tippy Tay",
+  "coordinates": {
+    "latitude": 6.4675785,
+    "longitude": 79.9751746
+  },
+  "address": "59 Maradana Rd, Beruwala 12070",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0779598585",
+  "website": "https://tippytay.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13BX0HJT4NZ156S1TG7G"
+}

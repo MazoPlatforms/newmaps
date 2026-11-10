@@ -1,0 +1,58 @@
+{
+  "name": "Samaa Clothing Store",
+  "coordinates": {
+    "latitude": 6.8304637999999995,
+    "longitude": 80.9921086
+  },
+  "address": "No-301 Main Street, Bandarawela 90100",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0753251717",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CX8KKKQMER8ADFEHDX2XX"
+}

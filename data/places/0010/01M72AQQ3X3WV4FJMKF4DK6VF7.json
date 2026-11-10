@@ -1,0 +1,65 @@
+{
+  "name": "Kesbewa Medical Centre",
+  "coordinates": {
+    "latitude": 6.796119,
+    "longitude": 79.93893369999999
+  },
+  "address": "QWWQ+CHV, B84, Piliyandala",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0112702909",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM",
+        "4–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3X3WV4FJMKF4DK6VF7"
+}

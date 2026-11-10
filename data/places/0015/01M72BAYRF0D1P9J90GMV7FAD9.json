@@ -1,0 +1,58 @@
+{
+  "name": "Kodithuwakku",
+  "coordinates": {
+    "latitude": 6.0223496,
+    "longitude": 80.43297319999999
+  },
+  "address": "Kokmaduwa Interchange, Weligama - Kananke Rd, Weligama",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0742444444",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAYRF0D1P9J90GMV7FAD9"
+}

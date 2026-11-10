@@ -1,0 +1,58 @@
+{
+  "name": "Dilini Super Mart - Diyatalawa",
+  "coordinates": {
+    "latitude": 6.8085913,
+    "longitude": 80.9570869
+  },
+  "address": "No 44 Main Street, Diyatalawa",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0572227878",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFR7PRSJRV610MJB5X43Y"
+}

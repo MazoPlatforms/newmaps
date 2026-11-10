@@ -1,0 +1,59 @@
+{
+  "name": "Café 48",
+  "coordinates": {
+    "latitude": 7.4529388,
+    "longitude": 80.6277901
+  },
+  "address": "No. 48A Sesatha, Matale 21000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0667629500",
+  "website": "https://cafe48.sesathahotel.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D7X4DE2J9NTFGG4R666"
+}

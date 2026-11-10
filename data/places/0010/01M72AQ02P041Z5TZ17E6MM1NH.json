@@ -1,0 +1,58 @@
+{
+  "name": "The Chef Ceylon",
+  "coordinates": {
+    "latitude": 6.8691651,
+    "longitude": 79.8622026
+  },
+  "address": "324 Galle - Colombo Rd, Colombo 10350",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0773900035",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02P041Z5TZ17E6MM1NH"
+}

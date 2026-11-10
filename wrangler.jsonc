@@ -5,7 +5,7 @@
   "compatibility_date": "2026-11-05",
   "workers_dev": true,
   "vars": {
-    "PMTILES_CHUNK_SIZE": "65536"
+    "PMTILES_CHUNK_SIZE": "1048576"
   },
   "ratelimits": [
     {

@@ -1,0 +1,58 @@
+{
+  "name": "Science Point",
+  "coordinates": {
+    "latitude": 8.985953799999999,
+    "longitude": 79.9082494
+  },
+  "address": "33 St.Mary's Ln, Mannar",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0779914079",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX4TD49X0K7V3K2JAQZR9"
+}

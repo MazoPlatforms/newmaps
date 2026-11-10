@@ -1,0 +1,58 @@
+{
+  "name": "Kegalle Wine Store",
+  "coordinates": {
+    "latitude": 7.2537395,
+    "longitude": 80.34877279999999
+  },
+  "address": "783X+FGR, Kegalle",
+  "categories": [
+    "Liquor store"
+  ],
+  "phone": "0778900345",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJ5183CXXNCM6257BA0WV"
+}

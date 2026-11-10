@@ -1,0 +1,62 @@
+{
+  "name": "Shift Lab Auto Garage",
+  "coordinates": {
+    "latitude": 6.8395047,
+    "longitude": 79.87581639999999
+  },
+  "address": "120/44 Abeysekara Place, Abeysekara Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Auto body shop",
+    "Auto body parts supplier",
+    "Car wash",
+    "Motorcycle parts store",
+    "Motorcycle repair shop"
+  ],
+  "phone": "0773771372",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRNNCA7G74H423825AR"
+}

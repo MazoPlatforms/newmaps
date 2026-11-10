@@ -1,0 +1,58 @@
+{
+  "name": "Lovely Mini Mart",
+  "coordinates": {
+    "latitude": 8.748829299999999,
+    "longitude": 80.49297179999999
+  },
+  "address": "PFXV+G5Q, Vavuniya",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0770412006",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6K10DZF15X890R7ZC9S"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kumara Motor Works",
+  "coordinates": {
+    "latitude": 6.979396299999999,
+    "longitude": 81.08205
+  },
+  "address": "X3HJ+QR3, Badulla",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0711224131",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF8FCHY84P0NHJT0V6Z1J"
+}

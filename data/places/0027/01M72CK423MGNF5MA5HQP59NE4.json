@@ -1,0 +1,61 @@
+{
+  "name": "Vixenz Salon PVT Ltd",
+  "coordinates": {
+    "latitude": 6.7212571,
+    "longitude": 79.908644
+  },
+  "address": "Panadura - Hirana Road, Panadura 12500",
+  "categories": [
+    "Beauty salon",
+    "Hairdresser",
+    "Nail salon"
+  ],
+  "phone": "0755444714",
+  "website": "http://www.vixenzsalon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK423MGNF5MA5HQP59NE4"
+}

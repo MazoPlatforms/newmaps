@@ -1,0 +1,58 @@
+{
+  "name": "Food Paradise",
+  "coordinates": {
+    "latitude": 8.3001875,
+    "longitude": 80.4165625
+  },
+  "address": "8C28+3J7, Anuradhapura",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0741388232",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRB9TX25BHGEG97TG0SB"
+}

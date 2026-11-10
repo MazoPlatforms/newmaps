@@ -1,0 +1,58 @@
+{
+  "name": "Sihara Foods",
+  "coordinates": {
+    "latitude": 5.947760499999999,
+    "longitude": 80.56193909999999
+  },
+  "address": "New Tangalle Road,welewaththa, Matara",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0413006192",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9B9RS177J2N30XR076TJ"
+}

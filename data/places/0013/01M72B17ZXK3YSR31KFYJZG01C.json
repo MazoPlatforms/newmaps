@@ -1,0 +1,60 @@
+{
+  "name": "AS-Salam MINI MART",
+  "coordinates": {
+    "latitude": 6.475670099999999,
+    "longitude": 79.9844524
+  },
+  "address": "1B2, New Kankanangoda Road, China Fort Rd, Beruwala 12070",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0773110111",
+  "website": "https://www.facebook.com/AS-Salam-MINI-MART-100147188484727",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–9:30 AM",
+        "2:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B17ZXK3YSR31KFYJZG01C"
+}

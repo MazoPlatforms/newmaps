@@ -1,0 +1,58 @@
+{
+  "address": "85 DS Senanayake Veediya, Kandy",
+  "name": "Cafe Serenity",
+  "coordinates": {
+    "latitude": 7.2953582,
+    "longitude": 80.6378728
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0767246100",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72AA6KCPJ8MDDTNH9NWTT11"
+}

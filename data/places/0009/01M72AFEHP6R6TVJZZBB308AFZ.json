@@ -1,0 +1,58 @@
+{
+  "address": "Mallawapitiya",
+  "name": "Colombo Bake House",
+  "coordinates": {
+    "latitude": 7.4776875,
+    "longitude": 80.3834375
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0778080448",
+  "categories": [
+    "Bakery"
+  ],
+  "id": "01M72AFEHP6R6TVJZZBB308AFZ"
+}

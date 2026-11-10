@@ -1,0 +1,58 @@
+{
+  "name": "Muthu Cafe",
+  "coordinates": {
+    "latitude": 5.9856045,
+    "longitude": 80.70015819999999
+  },
+  "address": "XPP2+63V, Dikwella - Beliatte Rd, Walasgala",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0412255515",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNEE4CYD0WD7AG534402"
+}

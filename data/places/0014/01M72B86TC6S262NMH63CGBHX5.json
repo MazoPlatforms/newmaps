@@ -1,0 +1,57 @@
+{
+  "name": "Kularathna Medical Centre",
+  "coordinates": {
+    "latitude": 6.2615435,
+    "longitude": 80.0601391
+  },
+  "address": "62, 73 Ambalangoda - Elpitiya - Pitigala Rd, Ambalangoda",
+  "categories": [
+    "Pharmacy"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B86TC6S262NMH63CGBHX5"
+}

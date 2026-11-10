@@ -1,0 +1,58 @@
+{
+  "name": "Hybrid Station Colombo",
+  "coordinates": {
+    "latitude": 6.842581999999999,
+    "longitude": 79.91053959999999
+  },
+  "address": "271 Lake Rd, Boralesgamuwa 10290",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0772411112",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDXKXNS4S9AHTBGH5QDN"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon Lavender",
+  "coordinates": {
+    "latitude": 6.0294503,
+    "longitude": 80.7961491
+  },
+  "address": "No.08 Madakatiya road, Tangalle",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0774207801",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWEVT5XDFMGNCM1AE9039"
+}

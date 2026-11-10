@@ -1,0 +1,61 @@
+{
+  "name": "IShopMaster",
+  "coordinates": {
+    "latitude": 6.434545,
+    "longitude": 80.0004198
+  },
+  "address": "24/1 SM Lane Dharga Town, Aluthgama 12090",
+  "categories": [
+    "Software company",
+    "Business management consultant",
+    "Computer software store"
+  ],
+  "phone": "0785224830",
+  "website": "https://ishopmaster.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKNXYS3M9GVCZ1SHBP89G"
+}

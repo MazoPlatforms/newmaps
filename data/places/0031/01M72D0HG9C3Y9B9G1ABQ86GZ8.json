@@ -1,0 +1,63 @@
+{
+  "name": "PC Doctor",
+  "coordinates": {
+    "latitude": 7.4853423999999995,
+    "longitude": 80.3630664
+  },
+  "address": "29 C Mihindu Mawatha, Kurunegala 60000",
+  "categories": [
+    "Computer repair service",
+    "Computer service",
+    "Computer store",
+    "Mobile phone repair shop",
+    "Security system installation service"
+  ],
+  "phone": "0771662662",
+  "website": "http://www.pcdoctor.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HG9C3Y9B9G1ABQ86GZ8"
+}

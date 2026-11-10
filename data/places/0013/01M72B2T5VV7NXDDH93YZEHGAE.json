@@ -1,0 +1,61 @@
+{
+  "name": "Faculty Of Engineering - University Of Peradeniya",
+  "coordinates": {
+    "latitude": 7.253807999999999,
+    "longitude": 80.5916376
+  },
+  "address": "University of Peradeniya, Upper Gampola Rd, Kandy",
+  "categories": [
+    "University",
+    "College",
+    "Engineering school"
+  ],
+  "phone": "0812393300",
+  "website": "http://eng.pdn.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2T5VV7NXDDH93YZEHGAE"
+}

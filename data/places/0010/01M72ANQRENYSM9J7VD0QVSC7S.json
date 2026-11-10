@@ -1,0 +1,58 @@
+{
+  "name": "People's Bank ATM And CDM",
+  "coordinates": {
+    "latitude": 6.9357606,
+    "longitude": 79.8462006
+  },
+  "address": "WRPW+8F4, York St, Colombo",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0112325894",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQRENYSM9J7VD0QVSC7S"
+}

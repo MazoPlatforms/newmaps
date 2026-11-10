@@ -1,0 +1,58 @@
+{
+  "name": "The Stage Cafe & Cake Bar",
+  "coordinates": {
+    "latitude": 7.028276699999999,
+    "longitude": 79.9821877
+  },
+  "address": "Kandy Rd, Kadawatha 11850",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0114383867",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZH434SA0VD8K8R0H1EB"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "DFCC Bank - Wellawatta",
+  "coordinates": {
+    "latitude": 6.864922699999999,
+    "longitude": 79.86338599999999
+  },
+  "address": "585 Galle Rd, Colombo 00600",
+  "categories": [
+    "Private sector bank",
+    "ATM",
+    "Currency exchange service",
+    "Money transfer service"
+  ],
+  "phone": "0112063258",
+  "website": "https://www.dfcc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11QZ84PRHW1N067EK3N"
+}

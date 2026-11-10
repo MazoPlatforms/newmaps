@@ -1,0 +1,60 @@
+{
+  "name": "Win-Doors",
+  "coordinates": {
+    "latitude": 6.6738792,
+    "longitude": 80.42004089999999
+  },
+  "address": "317/2 B/ 1 Balangoda Rd, Ratnapura 70000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0452220020",
+  "website": "https://windoors.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 PM",
+        "1:30–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYYCR30S427TXD9DGSYGE"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Nelco Steels",
+  "coordinates": {
+    "latitude": 6.9404815,
+    "longitude": 79.86241509999999
+  },
+  "address": "27 Quarry Rd, Colombo 01200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112335122",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910HJK7WM4JNKMZ6X1N9"
+}

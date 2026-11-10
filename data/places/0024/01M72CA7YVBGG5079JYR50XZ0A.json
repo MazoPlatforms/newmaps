@@ -1,0 +1,58 @@
+{
+  "name": "Mount City Shopping Complex",
+  "coordinates": {
+    "latitude": 6.827539,
+    "longitude": 79.8691663
+  },
+  "address": "Building, 2nd Floor, 143 Galle Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0113603959",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8–10 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA7YVBGG5079JYR50XZ0A"
+}

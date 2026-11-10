@@ -1,0 +1,58 @@
+{
+  "name": "Salon Cut & Beauty",
+  "coordinates": {
+    "latitude": 6.7455424,
+    "longitude": 79.9019175
+  },
+  "address": "265/1A Old Galle Rd, Panadura 12500",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0717021380",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK421NWCPK387YQARW0V6"
+}

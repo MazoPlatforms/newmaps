@@ -1,0 +1,64 @@
+{
+  "name": "Shifa Healthcare",
+  "coordinates": {
+    "latitude": 6.003137499999999,
+    "longitude": 80.4441612
+  },
+  "address": "379/B/1, KOSGAHA KOROTUWA, Weligama 81300",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0772458128",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB142QPEJRYS9ZCRKG0HT"
+}

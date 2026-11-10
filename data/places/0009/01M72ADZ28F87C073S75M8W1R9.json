@@ -1,0 +1,65 @@
+{
+  "address": "361 Prison Rd, Negombo",
+  "name": "Monde French Bakery",
+  "coordinates": {
+    "latitude": 7.2330220999999995,
+    "longitude": 79.8558807
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    }
+  ],
+  "website": "http://www.monde.lk/",
+  "business_status": "OPEN",
+  "phone": "0312228907",
+  "categories": [
+    "Bakery",
+    "Cafe",
+    "Brunch restaurant",
+    "Dessert shop",
+    "French restaurant",
+    "Pastry shop",
+    "Patisserie"
+  ],
+  "id": "01M72ADZ28F87C073S75M8W1R9"
+}

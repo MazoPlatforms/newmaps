@@ -1,0 +1,59 @@
+{
+  "name": "Café Avocado",
+  "coordinates": {
+    "latitude": 6.873478899999999,
+    "longitude": 81.0528593
+  },
+  "address": "No 88A Passara Rd, Ella",
+  "categories": [
+    "Cafe",
+    "Brunch restaurant"
+  ],
+  "phone": "0764303272",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDJGFXYAJNQCY6FCA2QD1"
+}

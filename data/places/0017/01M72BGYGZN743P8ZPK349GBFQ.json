@@ -1,0 +1,58 @@
+{
+  "name": "NM Restaurant",
+  "coordinates": {
+    "latitude": 6.674988099999999,
+    "longitude": 80.4026189
+  },
+  "address": "MCF3+X2X, Sri Sumana Rd, Ratnapura",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777560129",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGYGZN743P8ZPK349GBFQ"
+}

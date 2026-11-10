@@ -1,0 +1,59 @@
+{
+  "name": "Main Library",
+  "coordinates": {
+    "latitude": 5.9384242,
+    "longitude": 80.5763667
+  },
+  "address": "Department of Computer Science, University of Ruhuna, Sri Lanka, A2, Matara 81000",
+  "categories": [
+    "University library"
+  ],
+  "phone": "0412227028",
+  "website": "http://www.lib.ruh.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9QE562GS6FWVDXNHVKA9"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "P&S (Perera & Sons) - Soysapura",
+  "coordinates": {
+    "latitude": 6.8057555999999995,
+    "longitude": 79.8851619
+  },
+  "address": "Galle Rd, Moratuwa",
+  "categories": [
+    "Bakery",
+    "Restaurant"
+  ],
+  "phone": "0114868416",
+  "website": "http://www.pereraandsons.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6GJ77VAS8DVCRYQKBF7"
+}

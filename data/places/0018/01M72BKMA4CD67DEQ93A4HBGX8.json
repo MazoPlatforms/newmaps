@@ -1,0 +1,58 @@
+{
+  "name": "Family Mart",
+  "coordinates": {
+    "latitude": 7.473618999999999,
+    "longitude": 80.3277911
+  },
+  "address": "171 B247, Kurunegala 60000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0372232734",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMA4CD67DEQ93A4HBGX8"
+}

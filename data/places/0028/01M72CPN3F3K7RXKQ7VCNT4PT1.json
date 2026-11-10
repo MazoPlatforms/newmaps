@@ -1,0 +1,57 @@
+{
+  "name": "Asia Hardware",
+  "coordinates": {
+    "latitude": 6.9756084,
+    "longitude": 80.7651149
+  },
+  "address": "Chandana Lal Karunaratne Street, Nuwara Eliya 22200",
+  "categories": [
+    "Hardware store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:15 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPN3F3K7RXKQ7VCNT4PT1"
+}

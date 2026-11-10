@@ -1,0 +1,58 @@
+{
+  "name": "Hyper Tech",
+  "coordinates": {
+    "latitude": 9.6642118,
+    "longitude": 80.0105411
+  },
+  "address": "1010, 7a Jaffna-Kankesanturai Rd, Jaffna",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0777946627",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4NA1Q3T2KE96D5G9Y6ZQ"
+}

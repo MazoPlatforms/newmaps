@@ -1,0 +1,58 @@
+{
+  "name": "Lavendelicious Cake Shop",
+  "coordinates": {
+    "latitude": 5.9607641,
+    "longitude": 80.5277229
+  },
+  "address": "XG6G+CWM, Matara",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0702035076",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WN5XTF13D79F0W42J3"
+}

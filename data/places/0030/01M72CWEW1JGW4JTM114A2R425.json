@@ -1,0 +1,59 @@
+{
+  "name": "The Barber Shop Dikwella",
+  "coordinates": {
+    "latitude": 5.9649693,
+    "longitude": 80.6986543
+  },
+  "address": "133 Mahawela Road, Dikwella 81200",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0741333462",
+  "website": "https://www.thebarbershop.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWEW1JGW4JTM114A2R425"
+}

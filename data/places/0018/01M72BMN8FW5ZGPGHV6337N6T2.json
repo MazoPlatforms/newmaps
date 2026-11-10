@@ -1,0 +1,58 @@
+{
+  "name": "Shantha Stores",
+  "coordinates": {
+    "latitude": 7.470226299999999,
+    "longitude": 80.043763
+  },
+  "address": "F2CV+3GR, Kuliyapitiya",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0773111104",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMN8FW5ZGPGHV6337N6T2"
+}

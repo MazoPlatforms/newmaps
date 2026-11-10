@@ -1,0 +1,59 @@
+{
+  "name": "Sfa Super Market",
+  "coordinates": {
+    "latitude": 7.390352099999999,
+    "longitude": 81.8353977
+  },
+  "address": "502, Main Street Sainthamaruthu -16, Sainthamaruthu 32280",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0672059101",
+  "website": "https://www.facebook.com/profile.php?id=100077295205393&mibextid=ZbWKwL",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09Z2MKHN6R6EPFYH3D60"
+}

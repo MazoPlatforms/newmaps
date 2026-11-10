@@ -1,0 +1,58 @@
+{
+  "name": "Dr.Fasihul Lizan",
+  "coordinates": {
+    "latitude": 6.4383694,
+    "longitude": 80.0036916
+  },
+  "address": "Siripathi Rd, Dharga Town",
+  "categories": [
+    "Doctor"
+  ],
+  "phone": "0775677167",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B1DBM8X27RX4MP4FCZB55"
+}

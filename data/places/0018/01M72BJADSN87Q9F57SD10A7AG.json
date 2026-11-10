@@ -1,0 +1,58 @@
+{
+  "name": "Medisewana Hospital",
+  "coordinates": {
+    "latitude": 7.2545513999999995,
+    "longitude": 80.4455329
+  },
+  "address": "Mawanella By Pass Rd, Mawanella",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0352246062",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJADSN87Q9F57SD10A7AG"
+}

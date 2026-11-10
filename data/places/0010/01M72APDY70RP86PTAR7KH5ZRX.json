@@ -1,0 +1,63 @@
+{
+  "name": "Pro Auto Detailers",
+  "coordinates": {
+    "latitude": 6.8776551999999995,
+    "longitude": 79.8604701
+  },
+  "address": "67 Galle - Colombo Rd, Colombo 00600",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto body shop",
+    "Auto painting",
+    "Car detailing service",
+    "Car wash"
+  ],
+  "phone": "0775459624",
+  "website": "http://www.pad.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDY70RP86PTAR7KH5ZRX"
+}

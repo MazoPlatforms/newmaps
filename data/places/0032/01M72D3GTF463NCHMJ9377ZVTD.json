@@ -1,0 +1,58 @@
+{
+  "name": "Nishath Trade Centre",
+  "coordinates": {
+    "latitude": 7.931686,
+    "longitude": 81.0319569
+  },
+  "address": "No.75c Main Street,, Polonnaruwa",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0272223083",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:15 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3GTF463NCHMJ9377ZVTD"
+}

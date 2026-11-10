@@ -1,0 +1,58 @@
+{
+  "name": "Public Library - Kotahena",
+  "coordinates": {
+    "latitude": 6.948022099999999,
+    "longitude": 79.8614676
+  },
+  "address": "WVX6+6H4, Colombo 01300",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0112334510",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9P9SH38YXW15BA9VG73D"
+}

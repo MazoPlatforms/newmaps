@@ -1,0 +1,58 @@
+{
+  "name": "Lbs Express Delivery",
+  "coordinates": {
+    "latitude": 7.2517168,
+    "longitude": 80.3423698
+  },
+  "address": "New Economical Center, 58 Nidahas Mawata, Kegalle 71000",
+  "categories": [
+    "E-commerce service"
+  ],
+  "phone": "0714514512",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZRMCV3B25FEJ3W53T0DJ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "My Choice Food",
+  "coordinates": {
+    "latitude": 7.9284854,
+    "longitude": 81.0080983
+  },
+  "address": "Isipathana Mawatha, Polonnaruwa 51000",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0776975032",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BR1GXW5MRB46X4KV659KF"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Fresh Bakes",
+  "coordinates": {
+    "latitude": 7.091743999999999,
+    "longitude": 80.01548249999999
+  },
+  "address": "No 24, 50 Yakkala Rd, Gampaha 11100",
+  "categories": [
+    "Bakery",
+    "Cafe",
+    "Pastry shop"
+  ],
+  "phone": "0332237639",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXYNYF8EA90DZN1PQG607"
+}

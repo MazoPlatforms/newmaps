@@ -1,0 +1,57 @@
+{
+  "address": "Kimbulapitiya Rd, Negombo 11534",
+  "name": "Breakfast Cafe",
+  "coordinates": {
+    "latitude": 7.2035029999999995,
+    "longitude": 79.8656419
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–11 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–11 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–11 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–11 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–10 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Coffee shop"
+  ],
+  "id": "01M72ADZ69H60AZATCFMYB2M2P"
+}

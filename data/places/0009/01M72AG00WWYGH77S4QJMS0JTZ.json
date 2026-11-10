@@ -1,0 +1,59 @@
+{
+  "name": "Parkway Cancer Centre-SL Office",
+  "coordinates": {
+    "latitude": 6.8641466,
+    "longitude": 79.8988178
+  },
+  "address": "389 Avissawella Rd, Nugegoda 10250",
+  "categories": [
+    "Cancer treatment center"
+  ],
+  "phone": "0773460000",
+  "website": "http://parkwaycancercentre.com/lk",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00WWYGH77S4QJMS0JTZ"
+}

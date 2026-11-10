@@ -1,0 +1,59 @@
+{
+  "name": "Sfc",
+  "coordinates": {
+    "latitude": 7.7348766,
+    "longitude": 81.6737089
+  },
+  "address": "10 Sharvothaya Road, Batticaloa 30000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0652226085",
+  "website": "https://www.shadvithayinifoodcity.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BYSQFCC5W7FZ2QDRFMSCV"
+}

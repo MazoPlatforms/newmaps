@@ -1,0 +1,58 @@
+{
+  "name": "Doctors' Library",
+  "coordinates": {
+    "latitude": 6.9182391999999995,
+    "longitude": 79.86885199999999
+  },
+  "address": "Lab, Kynsey Pl, Colombo 01000",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0112691111ext.2478",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BZP9J4TY8445KC2P6W"
+}

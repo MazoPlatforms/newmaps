@@ -1,0 +1,58 @@
+{
+  "name": "STD Clinic - Mahamodara Hospital",
+  "coordinates": {
+    "latitude": 6.0384939,
+    "longitude": 80.2063996
+  },
+  "address": "26Q4+9HR, Galle 80000",
+  "categories": [
+    "STD clinic"
+  ],
+  "phone": "0212222261",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6GT9M29KBANE0WXRT4FD"
+}

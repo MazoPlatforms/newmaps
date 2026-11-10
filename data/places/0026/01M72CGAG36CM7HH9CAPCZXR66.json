@@ -1,0 +1,63 @@
+{
+  "name": "STP Technology",
+  "coordinates": {
+    "latitude": 7.0846269,
+    "longitude": 80.0317618
+  },
+  "address": "178/A Kandy Rd, Yakkala 11870",
+  "categories": [
+    "Computer store",
+    "Camera store",
+    "Cell phone accessory store",
+    "Cell phone store",
+    "Computer accessories store",
+    "Computer repair service"
+  ],
+  "phone": "0714770011",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGAG36CM7HH9CAPCZXR66"
+}

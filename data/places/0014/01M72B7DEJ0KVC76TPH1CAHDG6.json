@@ -1,0 +1,57 @@
+{
+  "name": "Hikkaduwa Medical Center",
+  "coordinates": {
+    "latitude": 6.117279,
+    "longitude": 80.1175368
+  },
+  "address": "303 Galle Rd, Pannamgoda, Hikkaduwa 80240",
+  "categories": [
+    "Pharmacy"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7DEJ0KVC76TPH1CAHDG6"
+}

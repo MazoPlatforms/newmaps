@@ -1,0 +1,59 @@
+{
+  "name": "Family CARE Medical Clinic & Surgery",
+  "coordinates": {
+    "latitude": 6.8918922,
+    "longitude": 79.9265027
+  },
+  "address": "VWRG+PJX, Sunil Mawatha, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0112773444",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30–10:30 AM",
+        "5:30–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVNR90K58E95G1XV664EN"
+}

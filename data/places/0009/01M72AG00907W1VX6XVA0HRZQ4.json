@@ -1,0 +1,59 @@
+{
+  "name": "Durdans Hospital Laboratory",
+  "coordinates": {
+    "latitude": 6.9019258,
+    "longitude": 79.8532298
+  },
+  "address": "3 Alfred Pl, Colombo 00300",
+  "categories": [
+    "Medical laboratory"
+  ],
+  "phone": "0112140111",
+  "website": "http://www.durdans.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00907W1VX6XVA0HRZQ4"
+}

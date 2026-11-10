@@ -1,0 +1,58 @@
+{
+  "name": "Family Trade Center",
+  "coordinates": {
+    "latitude": 7.0562239,
+    "longitude": 80.5334594
+  },
+  "address": "no 55 Nawalapitiya - Dolosbage Rd, Nawalapitiya 20650",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0777848422",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5SH717GNKQ0XVXZ2A899"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Arthur's Pizzeria - Mount Lavinia",
+  "coordinates": {
+    "latitude": 6.841793999999999,
+    "longitude": 79.866795
+  },
+  "address": "220 Galle Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Pizza restaurant",
+    "Fast food restaurant"
+  ],
+  "phone": "0117955955",
+  "website": "http://www.arthurs.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ01YS2GXXE47WPH7JMSC"
+}

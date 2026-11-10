@@ -1,0 +1,63 @@
+{
+  "name": "Kushmi Foods & Catering",
+  "coordinates": {
+    "latitude": 6.8929952,
+    "longitude": 79.90451379999999
+  },
+  "address": "665 Kotte Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Takeout restaurant",
+    "Catering food and drink supplier"
+  ],
+  "phone": "0112875458",
+  "website": "http://kushmifoods.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–3:30 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–3:30 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–3:30 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGRB0XQ4H2AD3MHPV3A"
+}

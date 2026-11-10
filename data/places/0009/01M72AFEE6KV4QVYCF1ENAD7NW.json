@@ -1,0 +1,58 @@
+{
+  "address": "LAKE ROUND, Kurunegala",
+  "name": "Friendy's Restaurant & Cafe",
+  "coordinates": {
+    "latitude": 7.4943744,
+    "longitude": 80.3577249
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0372202833",
+  "categories": [
+    "Family restaurant"
+  ],
+  "id": "01M72AFEE6KV4QVYCF1ENAD7NW"
+}

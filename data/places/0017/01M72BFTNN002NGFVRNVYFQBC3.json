@@ -1,0 +1,64 @@
+{
+  "name": "Halpe Medical Center",
+  "coordinates": {
+    "latitude": 6.886692699999999,
+    "longitude": 81.0403862
+  },
+  "address": "Hela Halpe, Badulla Rd, Bandarawela",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0769606685",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–8 AM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–8 AM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–8 AM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–8 AM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–8 AM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–8 AM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFTNN002NGFVRNVYFQBC3"
+}

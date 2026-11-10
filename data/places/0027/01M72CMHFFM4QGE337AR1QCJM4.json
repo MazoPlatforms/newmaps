@@ -1,0 +1,60 @@
+{
+  "name": "iSeeQ",
+  "coordinates": {
+    "latitude": 7.283924,
+    "longitude": 80.623228
+  },
+  "address": "No 412, 1 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Software company",
+    "Educational institution"
+  ],
+  "phone": "0777789898",
+  "website": "http://www.iseeq.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHFFM4QGE337AR1QCJM4"
+}

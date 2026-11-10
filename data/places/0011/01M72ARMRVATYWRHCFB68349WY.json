@@ -1,0 +1,58 @@
+{
+  "name": "GP Automotive",
+  "coordinates": {
+    "latitude": 6.8619917,
+    "longitude": 79.86130659999999
+  },
+  "address": "31 Melford Crescent, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0771199991",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRVATYWRHCFB68349WY"
+}

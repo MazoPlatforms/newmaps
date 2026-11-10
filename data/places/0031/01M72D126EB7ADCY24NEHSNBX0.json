@@ -1,0 +1,58 @@
+{
+  "name": "Public Library Horana",
+  "coordinates": {
+    "latitude": 6.714973499999999,
+    "longitude": 80.0625779
+  },
+  "address": "P377+X2P, B7, Horana 12400",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0342261294",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D126EB7ADCY24NEHSNBX0"
+}

@@ -1,0 +1,59 @@
+{
+  "address": "Tambuttegama",
+  "name": "Mykitchen",
+  "coordinates": {
+    "latitude": 8.1602189,
+    "longitude": 80.3017263
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0778423529",
+  "categories": [
+    "Pastry shop",
+    "Juice shop"
+  ],
+  "id": "01M72AFEQQ8QYBRJ3XF82D8ERB"
+}

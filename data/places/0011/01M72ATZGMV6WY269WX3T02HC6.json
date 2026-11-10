@@ -1,0 +1,58 @@
+{
+  "name": "Dine Bakery",
+  "coordinates": {
+    "latitude": 6.8631451,
+    "longitude": 79.9471027
+  },
+  "address": "87 Meemanagoda Rd, Sri Jayawardenepura Kotte 10230",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0716018803",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGMV6WY269WX3T02HC6"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Chandrasoma Service Station",
+  "coordinates": {
+    "latitude": 7.0151524,
+    "longitude": 81.05556349999999
+  },
+  "address": "No. E/9, Rideepana, Mahiyangana Rd, Badulla 90000",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0552223874",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF8F5CMZ36XRCR20M4TDY"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Suputhra Medical Center",
+  "coordinates": {
+    "latitude": 7.291886,
+    "longitude": 80.6317954
+  },
+  "address": "No.85 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0772293484",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2P4K3CP45VQNHCHH5T2X"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Crema Cafe And Restaurant",
+  "coordinates": {
+    "latitude": 8.3233625,
+    "longitude": 80.4041002
+  },
+  "address": "561/53 public fair road, Anuradhapura",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0777685953",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRAWS96YKDGPM3WXFQ2T"
+}

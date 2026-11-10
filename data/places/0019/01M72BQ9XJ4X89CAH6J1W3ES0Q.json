@@ -1,0 +1,58 @@
+{
+  "name": "Care First Clinic",
+  "coordinates": {
+    "latitude": 7.9845181,
+    "longitude": 80.47624499999999
+  },
+  "address": "Negama main Street, Anuradhapura 50492",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0714312277",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9XJ4X89CAH6J1W3ES0Q"
+}

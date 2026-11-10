@@ -1,0 +1,58 @@
+{
+  "name": "Minal Rest And Bakery",
+  "coordinates": {
+    "latitude": 6.914114,
+    "longitude": 80.58897309999999
+  },
+  "address": "WH7Q+JHX, Hatton",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0512225610",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B567G1YPSCM8083GPBGXT"
+}

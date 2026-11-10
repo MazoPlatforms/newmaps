@@ -1,0 +1,64 @@
+{
+  "name": "Olympus Motor World",
+  "coordinates": {
+    "latitude": 7.0245112,
+    "longitude": 79.9776502
+  },
+  "address": "403, Kandy Road,, Kirillawala, Kadawatha 11850",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto parts store",
+    "Auto repair shop",
+    "Car accessories store",
+    "Car wash",
+    "Repair service",
+    "Wheel alignment service"
+  ],
+  "phone": "0763005222",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDY22XCC3EEQYMR7FB40"
+}

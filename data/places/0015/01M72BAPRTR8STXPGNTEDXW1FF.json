@@ -1,0 +1,67 @@
+{
+  "name": "Rizzie's Cafe",
+  "coordinates": {
+    "latitude": 5.9721851,
+    "longitude": 80.42866049999999
+  },
+  "address": "217 By Pass Road, Weligama 81700",
+  "categories": [
+    "Cafe",
+    "Breakfast restaurant",
+    "Brunch restaurant",
+    "Restaurant",
+    "Coffee shop",
+    "Lunch restaurant",
+    "Organic restaurant",
+    "Vegan restaurant",
+    "Vegetarian cafe and deli"
+  ],
+  "phone": "0741264377",
+  "website": "https://www.instagram.com/rizzies_weligama/#",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPRTR8STXPGNTEDXW1FF"
+}

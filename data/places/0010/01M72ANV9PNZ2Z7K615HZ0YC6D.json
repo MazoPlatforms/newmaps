@@ -1,0 +1,61 @@
+{
+  "name": "Sri Lanka Customs Headquarters",
+  "coordinates": {
+    "latitude": 6.935465799999999,
+    "longitude": 79.8480503
+  },
+  "address": "40 Main St, Colombo 01100",
+  "categories": [
+    "Customs office",
+    "Federal government office",
+    "Government office"
+  ],
+  "phone": "0112143434",
+  "website": "http://www.customs.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANV9PNZ2Z7K615HZ0YC6D"
+}

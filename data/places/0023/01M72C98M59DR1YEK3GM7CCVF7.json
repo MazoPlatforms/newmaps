@@ -1,0 +1,58 @@
+{
+  "name": "Mister Cut Salon",
+  "coordinates": {
+    "latitude": 6.9226209999999995,
+    "longitude": 79.86482939999999
+  },
+  "address": "259 Deans Road, Colombo 01000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0771235799",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M59DR1YEK3GM7CCVF7"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kopi",
+  "coordinates": {
+    "latitude": 5.9741947,
+    "longitude": 80.43348859999999
+  },
+  "address": "475/2, Matara Road, Palana, Weligama 81700",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0710424440",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPS3V3BVPS88GYQN3TRZ"
+}

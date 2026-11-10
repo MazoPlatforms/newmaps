@@ -1,0 +1,57 @@
+{
+  "name": "Cafe 44 Restaurant",
+  "coordinates": {
+    "latitude": 7.872659199999999,
+    "longitude": 80.56209969999999
+  },
+  "address": "Budugehinna",
+  "categories": [
+    "Chinese restaurant"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:45 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4ENFXPF41BH6TFTHJES4"
+}

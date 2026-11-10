@@ -1,0 +1,63 @@
+{
+  "name": "Evergreen Auto",
+  "coordinates": {
+    "latitude": 6.2535761,
+    "longitude": 80.0540597
+  },
+  "address": "114 adadola, Ambalangoda 80340",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0788235087",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6:30 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6:30 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6:30 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–6:30 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6:30 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B8JQ17BP7R37N363WMQ63"
+}

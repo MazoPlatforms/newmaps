@@ -1,0 +1,60 @@
+{
+  "name": "Sampath Bank Kohuwela",
+  "coordinates": {
+    "latitude": 6.8664954,
+    "longitude": 79.8829518
+  },
+  "address": "No 81 S. De S. Jayasinghe Mawatha, Dehiwala-Mount Lavinia 10250",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112814480",
+  "website": "http://www.sampath.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11PNJ68Z9T5EDJ38AGT"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Hikkaduwa Post Office",
+  "coordinates": {
+    "latitude": 6.1403704999999995,
+    "longitude": 80.10276859999999
+  },
+  "address": "44R3+44R, Baddegama - Nilhena Road, Hikkaduwa",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0912277251",
+  "website": "http://www.slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7FZV9KHAEG3XBMJ3T6X6"
+}

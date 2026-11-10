@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank Kotahena Branch",
+  "coordinates": {
+    "latitude": 6.9476403,
+    "longitude": 79.8610722
+  },
+  "address": "198 George R. De Silva Mawatha, Colombo 01300",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112323471",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR061WWY4G6K8437F97"
+}

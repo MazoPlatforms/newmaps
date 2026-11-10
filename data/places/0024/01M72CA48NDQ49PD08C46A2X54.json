@@ -1,0 +1,58 @@
+{
+  "name": "Mahesh Discus Aquarium",
+  "coordinates": {
+    "latitude": 6.82827,
+    "longitude": 79.864711
+  },
+  "address": "62/1, St. Mary's Road,, Mount Lavinia 10370",
+  "categories": [
+    "Aquaculture farm"
+  ],
+  "phone": "0777942899",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48NDQ49PD08C46A2X54"
+}

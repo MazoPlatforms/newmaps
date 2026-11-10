@@ -1,0 +1,60 @@
+{
+  "name": "IMA Supermarket",
+  "coordinates": {
+    "latitude": 6.870005,
+    "longitude": 81.8304824
+  },
+  "address": "Al Hairath, Road, Pottuvil 32500",
+  "categories": [
+    "Grocery store",
+    "Shopping mall"
+  ],
+  "phone": "0632248855",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C21RRAGF16KZ1RAMM4KWQ"
+}

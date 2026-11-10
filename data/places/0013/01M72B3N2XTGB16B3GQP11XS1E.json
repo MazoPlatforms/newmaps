@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City - Matale 1",
+  "coordinates": {
+    "latitude": 7.4742618,
+    "longitude": 80.6225225
+  },
+  "address": "99 A, King Street, No. 95 Kandy Rd, Matale",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0662224710",
+  "website": "http://www.cargillsceylon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N2XTGB16B3GQP11XS1E"
+}

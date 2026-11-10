@@ -1,0 +1,63 @@
+{
+  "name": "Simple Studio",
+  "coordinates": {
+    "latitude": 7.0911238999999995,
+    "longitude": 79.99593469999999
+  },
+  "address": "Gampaha",
+  "categories": [
+    "Photography studio",
+    "Passport photo processor",
+    "Photo lab",
+    "Picture frame shop",
+    "Print shop",
+    "Wedding photographer"
+  ],
+  "phone": "0773683899",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGWP8C6N7989SHTFF5KDE"
+}

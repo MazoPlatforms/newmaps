@@ -1,0 +1,58 @@
+{
+  "name": "Newtec Educational Center",
+  "coordinates": {
+    "latitude": 7.774425699999999,
+    "longitude": 80.66108469999999
+  },
+  "address": "Pannampitiya, Dambulla 21094",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0714521392",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSRX3YBJ40FKCGDS3XMKF"
+}

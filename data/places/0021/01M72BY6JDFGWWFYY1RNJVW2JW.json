@@ -1,0 +1,58 @@
+{
+  "name": "Amila Garage",
+  "coordinates": {
+    "latitude": 7.228929099999999,
+    "longitude": 79.996096
+  },
+  "address": "6XHW+HCH, Marandagahamula",
+  "categories": [
+    "Oil change service"
+  ],
+  "phone": "0772224044",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BY6JDFGWWFYY1RNJVW2JW"
+}

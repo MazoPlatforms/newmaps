@@ -1,0 +1,58 @@
+{
+  "name": "Science College",
+  "coordinates": {
+    "latitude": 7.018488,
+    "longitude": 81.5363078
+  },
+  "address": "Siyambalanduwa-Damana-Ampara Hwy",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0775302250",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C16TSXEP8PFN7ZN4ZETSW"
+}

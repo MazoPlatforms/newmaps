@@ -1,0 +1,59 @@
+{
+  "name": "TechZiz Computers",
+  "coordinates": {
+    "latitude": 6.3317347999999996,
+    "longitude": 80.85442479999999
+  },
+  "address": "No 39 New town road, Embilipitiya 70200",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0705553535",
+  "website": "http://techziz.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CVNAW720NCSA1M5PYETSQ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Homestay Cafè Fruit & Restaurant",
+  "coordinates": {
+    "latitude": 5.9455057,
+    "longitude": 80.4569889
+  },
+  "address": "181 Gunasiri Mahimi Rd, Weligama",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0776147083",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPS55S5793TPWHHQ0VP7"
+}

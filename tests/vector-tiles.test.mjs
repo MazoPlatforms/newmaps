@@ -23,15 +23,21 @@ const basemapDescriptorPath = 'generated/sri-lanka-basemap-range.json';
 let basemapDescriptor = null;
 let basemapEntries = {};
 try {
-  const bootstrapData = JSON.parse(await readFile(new URL('../dist/generated/live-data-manifest.json', import.meta.url), 'utf8'));
-  basemapDescriptor = JSON.parse(await readFile(new URL(`../dist/${basemapDescriptorPath}`, import.meta.url), 'utf8'));
-  basemapEntries = Object.fromEntries(Object.entries(bootstrapData.files)
-    .filter(([path]) => path === basemapDescriptorPath || path.startsWith('generated/sri-lanka-basemap-pmtiles-chunks/')));
+  const liveDataRoot = new URL('../.build/live-data/', import.meta.url);
+  const descriptorBytes = new Uint8Array(await readFile(new URL(basemapDescriptorPath, liveDataRoot)));
+  basemapDescriptor = JSON.parse(new TextDecoder().decode(descriptorBytes));
+  const descriptorSha = createHash('sha256').update(descriptorBytes).digest('hex');
+  basemapEntries[basemapDescriptorPath] = { sha256: descriptorSha, bytes: descriptorBytes.byteLength,
+    content_type: 'application/json', storage: 'github' };
+  for (const chunk of basemapDescriptor.chunks) {
+    const path = `generated/sri-lanka-basemap-pmtiles-chunks/${chunk.file}`;
+    basemapEntries[path] = { sha256: chunk.sha256, bytes: chunk.bytes, content_type: 'application/octet-stream', storage: 'r2-chunk' };
+  }
 } catch { /* Non-deployment test workflows may not generate the country basemap. */ }
 const basemapChunkByHash = new Map(Object.entries(basemapEntries)
   .filter(([path]) => path.includes('-pmtiles-chunks/')).map(([path, entry]) => [entry.sha256, { path, entry }]));
 const revision = 'vector-fixture-revision';
-const manifest = { revision, files: {
+const manifest = { revision, artifact_revision: 'f'.repeat(40), files: {
   'generated/places.pmtiles': { sha256: archiveSha, bytes: archive.byteLength, content_type: 'application/vnd.pmtiles' },
   'generated/manifest.json': { sha256: mapSha, bytes: mapBytes.byteLength, content_type: 'application/json' },
   [glyphPath]: { sha256: glyphSha, bytes: glyphBytes.byteLength, content_type: 'application/x-protobuf' },
@@ -50,7 +56,7 @@ function fixture() {
         const basemapChunk = basemapChunkByHash.get(hash);
         const source = hash === archiveSha ? archive : hash === mapSha ? mapBytes : hash === glyphSha ? glyphBytes : null;
         if (!source && basemapChunk) {
-          const file = await readFile(new URL(`../dist/${basemapChunk.path}`, import.meta.url));
+          const file = await readFile(new URL(`../.build/live-data/${basemapChunk.path}`, import.meta.url));
           const offset = options.range?.offset ?? 0;
           const length = options.range?.length ?? file.byteLength;
           const content = file.subarray(offset, offset + length);
@@ -77,6 +83,8 @@ function fixture() {
       try { return new Response(await readFile(new URL(`../dist/${path.replace(/^\//, '')}`, import.meta.url))); }
       catch { return new Response(null, { status: 404 }); }
     } },
+    GITHUB_DATA_FETCH: async () => new Response(await readFile(new URL(`../.build/live-data/${basemapDescriptorPath}`, import.meta.url)),
+      { headers: { 'Content-Type': 'application/json' } }),
   };
   return { env, get readBytes() { return readBytes; }, get basemapReadBytes() { return basemapReadBytes; } };
 }
@@ -177,12 +185,13 @@ test('XYZ tile response decodes the PMTiles payload by range without buffering t
   const response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/tiles/10/744/489.pbf'), fx.env);
   assert.equal(response.status, 200);
   assert.equal(response.headers.get('content-type'), 'application/vnd.mapbox-vector-tile');
-  assert.equal(response.headers.get('content-encoding'), 'gzip');
+  assert.equal(response.headers.get('content-encoding'), null, 'MapLibre receives the uncompressed MVT protobuf');
   assert.equal(response.headers.get('cache-control'), 'public, max-age=31536000, immutable');
   assert.equal(response.headers.get('access-control-allow-origin'), '*');
   const body = new Uint8Array(await response.arrayBuffer());
   assert.ok(body.byteLength > 100);
-  const decoded = new VectorTile(new Pbf(gunzipSync(body)));
+  assert.notDeepEqual([...body.slice(0, 2)], [0x1f, 0x8b], 'tile response is decoded from PMTiles gzip');
+  const decoded = new VectorTile(new Pbf(body));
   assert.ok(decoded.layers.places, 'tile should contain the documented places MVT layer');
   assert.ok(decoded.layers.places.length > 0, 'sample Kattankudy XYZ tile should contain features');
   assert.match(String(decoded.layers.places.feature(0).properties.id), /^01[A-Z0-9]+$/);

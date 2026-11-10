@@ -1,0 +1,58 @@
+{
+  "name": "Central Sports",
+  "coordinates": {
+    "latitude": 7.2906635,
+    "longitude": 80.6459519
+  },
+  "address": "31c Anagarika Dharmapala Mawatha, Kandy 20000",
+  "categories": [
+    "Sporting goods store"
+  ],
+  "phone": "0773746709",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CM4FXYB31H6PK98N7RJD6"
+}

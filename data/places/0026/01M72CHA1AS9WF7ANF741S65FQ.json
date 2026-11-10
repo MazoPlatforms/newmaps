@@ -1,0 +1,59 @@
+{
+  "name": "D&D Discus",
+  "coordinates": {
+    "latitude": 7.1155447999999994,
+    "longitude": 79.90207629999999
+  },
+  "address": "No 50 isuru uyana air force side kotugoda, Ja-Ela 11380",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0715428193",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6:30 AM",
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHA1AS9WF7ANF741S65FQ"
+}

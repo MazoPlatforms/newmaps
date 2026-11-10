@@ -1,0 +1,58 @@
+{
+  "name": "Tech Titans",
+  "coordinates": {
+    "latitude": 6.5595567,
+    "longitude": 80.0185858
+  },
+  "address": "NO 420 A, RUWANMAGA, DODANGODA, KALUTARA",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0786722822",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHJDBB3R7HK4HAN0Z5C68"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Sineth Hospitals Medical Center",
+  "coordinates": {
+    "latitude": 6.8483734,
+    "longitude": 79.8978564
+  },
+  "address": "92A Raththanapitiya, Boralesgamuwa 10290",
+  "categories": [
+    "Medical Center",
+    "Doctor"
+  ],
+  "phone": "0117072022",
+  "website": "http://www.sinethhospitals.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG009KBQQZFR1ZMB6ESMD"
+}

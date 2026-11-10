@@ -1,0 +1,58 @@
+{
+  "name": "Bakers Dyner",
+  "coordinates": {
+    "latitude": 6.891806099999999,
+    "longitude": 80.59852099999999
+  },
+  "address": "70 B149, Hatton",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0512222918",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B567ETSZ2H173T4B2HZNF"
+}

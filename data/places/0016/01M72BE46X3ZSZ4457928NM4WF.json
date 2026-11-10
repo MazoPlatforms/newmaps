@@ -1,0 +1,58 @@
+{
+  "name": "Auto Lanka Service Station",
+  "coordinates": {
+    "latitude": 6.8869829,
+    "longitude": 81.0413592
+  },
+  "address": "V2PR+QGX, badulla Road Hela Halpe, Kumbalwela",
+  "categories": [
+    "Chauffeur service"
+  ],
+  "phone": "0573584031",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BE46X3ZSZ4457928NM4WF"
+}

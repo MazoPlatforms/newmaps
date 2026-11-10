@@ -1,0 +1,58 @@
+{
+  "name": "St.Anthony’s Auto",
+  "coordinates": {
+    "latitude": 6.7878472,
+    "longitude": 79.88477259999999
+  },
+  "address": "570,Galle Road,Rawathawatha, Moratuwa",
+  "categories": [
+    "Auto machine shop"
+  ],
+  "phone": "0777122500",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATEHJDQKA4Q8W78KM6Q73"
+}

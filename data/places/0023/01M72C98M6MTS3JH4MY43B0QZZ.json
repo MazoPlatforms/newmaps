@@ -1,0 +1,58 @@
+{
+  "name": "Mr.Cutter",
+  "coordinates": {
+    "latitude": 6.8960133,
+    "longitude": 79.8728747
+  },
+  "address": "401/A1 Thimbirigasyaya Rd, Colombo 00500",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0711110993",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M6MTS3JH4MY43B0QZZ"
+}

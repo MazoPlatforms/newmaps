@@ -1,0 +1,59 @@
+{
+  "name": "Union Bank Kandy Branch",
+  "coordinates": {
+    "latitude": 7.2973403,
+    "longitude": 80.6371277
+  },
+  "address": "165 DS Senanayake Veediya, Kandy 20000",
+  "categories": [
+    "Private sector bank"
+  ],
+  "phone": "0812224500",
+  "website": "http://www.unionb.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2V1K9BFC03HG2CSPAR7Q"
+}

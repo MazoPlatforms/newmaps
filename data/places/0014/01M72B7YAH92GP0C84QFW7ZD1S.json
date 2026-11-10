@@ -1,0 +1,58 @@
+{
+  "name": "Wes Cafe",
+  "coordinates": {
+    "latitude": 6.241485,
+    "longitude": 80.0503588
+  },
+  "address": "No.417 patabadimulla, Ambalangoda 80300",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0775657575",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YAH92GP0C84QFW7ZD1S"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Galnewa Government Hospital",
+  "coordinates": {
+    "latitude": 8.037102599999999,
+    "longitude": 80.4783233
+  },
+  "address": "Galnewa Hospital, Andarawewa-Balaluwewa Rd, Galnewa",
+  "categories": [
+    "Government hospital"
+  ],
+  "phone": "0252269561",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM",
+        "2–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM",
+        "2–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM",
+        "2–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 PM",
+        "2–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "2–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8–10 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9XH28JGHG1V8M0W113T"
+}

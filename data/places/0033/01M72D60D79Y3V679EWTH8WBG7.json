@@ -1,0 +1,58 @@
+{
+  "name": "Lithur Beauty Salon",
+  "coordinates": {
+    "latitude": 8.976319199999999,
+    "longitude": 79.912109
+  },
+  "address": "XWG6+GRW, Mannar",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0774017180",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D60D79Y3V679EWTH8WBG7"
+}

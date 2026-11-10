@@ -1,0 +1,59 @@
+{
+  "name": "Ab Stores",
+  "coordinates": {
+    "latitude": 7.4765479,
+    "longitude": 80.38583899999999
+  },
+  "address": "87/A Kandy Road,Mallawapitiya, Kurunegala",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0779757374",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "2 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKM9TG7MKEXVCMBKSG7E9"
+}

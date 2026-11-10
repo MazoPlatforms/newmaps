@@ -1,0 +1,60 @@
+{
+  "name": "Himan Hospital",
+  "coordinates": {
+    "latitude": 7.027749099999999,
+    "longitude": 79.91817859999999
+  },
+  "address": "26 Mahabage Road, Ragama 11010",
+  "categories": [
+    "Pharmacy",
+    "Laboratory",
+    "Hospital"
+  ],
+  "phone": "0112961961",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9E3ES967AX7S0YD6WEE"
+}

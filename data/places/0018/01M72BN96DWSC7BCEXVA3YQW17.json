@@ -1,0 +1,58 @@
+{
+  "name": "Danke Cafeteria & Pizzeria",
+  "coordinates": {
+    "latitude": 7.32545,
+    "longitude": 79.8500663
+  },
+  "address": "68 Dummaladeniya, Wennappuwa 61170",
+  "categories": [
+    "Pizza restaurant"
+  ],
+  "phone": "0766833583",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN96DWSC7BCEXVA3YQW17"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kandy Multy Center",
+  "coordinates": {
+    "latitude": 7.477976699999999,
+    "longitude": 80.35901129999999
+  },
+  "address": "8 Jayanthipura Rd, Kurunegala 60000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0767543888",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMA8J5GMT81CGKR7MWE8"
+}

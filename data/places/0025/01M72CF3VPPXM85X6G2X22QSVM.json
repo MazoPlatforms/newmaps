@@ -1,0 +1,63 @@
+{
+  "name": "Nexovo",
+  "coordinates": {
+    "latitude": 7.1892286,
+    "longitude": 79.8641355
+  },
+  "address": "44 Jude Mawatha, Negombo 11500",
+  "categories": [
+    "Computer store",
+    "Computer repair service",
+    "Computer service",
+    "Electronics company",
+    "Computer support and services"
+  ],
+  "phone": "0776760635",
+  "website": "http://www.nexovo.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VPPXM85X6G2X22QSVM"
+}

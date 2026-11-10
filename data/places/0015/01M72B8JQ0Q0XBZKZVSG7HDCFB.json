@@ -1,0 +1,58 @@
+{
+  "name": "Mastertech",
+  "coordinates": {
+    "latitude": 6.2303919,
+    "longitude": 80.05491219999999
+  },
+  "address": "No. 03 hiriketiya road, Ambalangoda",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0771154392",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B8JQ0Q0XBZKZVSG7HDCFB"
+}

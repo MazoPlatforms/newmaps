@@ -1,0 +1,59 @@
+{
+  "name": "Seed Certification Service",
+  "coordinates": {
+    "latitude": 7.2755830999999995,
+    "longitude": 80.5999902
+  },
+  "address": "P.O.BOX 03, Peradeniya",
+  "categories": [
+    "Agricultural service"
+  ],
+  "phone": "0812388217",
+  "website": "http://scsdoa.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHA1FK19QMX4AGRA8AM45"
+}

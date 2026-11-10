@@ -1,0 +1,59 @@
+{
+  "name": "SPAR Supermarket - Gampaha",
+  "coordinates": {
+    "latitude": 7.091488999999999,
+    "longitude": 80.0151806
+  },
+  "address": "15, 24 Yakkala Rd, Gampaha 11870",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0767418909",
+  "website": "http://www.spar.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXYP3DM11AB2246MN269V"
+}

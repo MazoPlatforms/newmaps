@@ -1,0 +1,60 @@
+{
+  "name": "Max Look",
+  "coordinates": {
+    "latitude": 5.9454671,
+    "longitude": 80.55008839999999
+  },
+  "address": "35 Old Tangalle Rd, Matara",
+  "categories": [
+    "Clothing store",
+    "Computer accessories store"
+  ],
+  "phone": "0722814306",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12 AM–6:30 PM",
+        "8:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 PM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CT8EH67G6V7JY6Q574D1N"
+}

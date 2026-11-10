@@ -1,0 +1,65 @@
+{
+  "name": "Rainbow Cafe",
+  "coordinates": {
+    "latitude": 6.8739963,
+    "longitude": 81.0486566
+  },
+  "address": "41 Badulla-Bandarawela Main Rd, Ella 90090",
+  "categories": [
+    "Restaurant",
+    "Breakfast restaurant",
+    "Brunch restaurant",
+    "Coffee shop",
+    "Gluten-free restaurant",
+    "Health food restaurant",
+    "Vegan restaurant",
+    "Vegetarian restaurant"
+  ],
+  "phone": "0773709653",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDJGNDBRMN14QWE9CRK3Y"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City - Kalmunai",
+  "coordinates": {
+    "latitude": 7.413792399999999,
+    "longitude": 81.82724329999999
+  },
+  "address": "Main St, Sainthamaruthu 32300",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0672225520",
+  "website": "http://www.cargillsceylon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BZYQZ0EVXM2PPAC2T8BGD"
+}

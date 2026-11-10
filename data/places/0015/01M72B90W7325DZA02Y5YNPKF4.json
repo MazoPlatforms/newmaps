@@ -1,0 +1,59 @@
+{
+  "name": "Walgama Bake House",
+  "coordinates": {
+    "latitude": 5.9452196,
+    "longitude": 80.5504886
+  },
+  "address": "WHW2+35Q, Old Market Rd, Matara",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0412222400",
+  "website": "http://www.bakentake.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90W7325DZA02Y5YNPKF4"
+}

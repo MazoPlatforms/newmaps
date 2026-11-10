@@ -1,0 +1,57 @@
+{
+  "name": "Jelly Grocery",
+  "coordinates": {
+    "latitude": 7.389050999999999,
+    "longitude": 81.8406552
+  },
+  "address": "9RQR+J7C, Sainthamaruthu 32300",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:15 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:15 AM–8:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09Z3Z9CSZT2XMEW70TJ5"
+}

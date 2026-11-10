@@ -1,0 +1,58 @@
+{
+  "name": "Ilhas Food City",
+  "coordinates": {
+    "latitude": 7.436590499999999,
+    "longitude": 81.8138475
+  },
+  "address": "CRP7+JGQ, Al-Manar Rd, Maruthamunai",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0776072256",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09ZCCTVDVC5M15CG781H"
+}

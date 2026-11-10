@@ -1,0 +1,58 @@
+{
+  "name": "Kavinda Enterprises",
+  "coordinates": {
+    "latitude": 6.051628099999999,
+    "longitude": 80.23398949999999
+  },
+  "address": "D.Samson Rajapaksha Mawatha, Galle",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0912236055",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–3 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRJTTT58XHYM7J0BBMD3P"
+}

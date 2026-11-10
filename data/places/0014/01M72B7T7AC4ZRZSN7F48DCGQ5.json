@@ -1,0 +1,61 @@
+{
+  "name": "DM Automobiles And Car Detailing",
+  "coordinates": {
+    "latitude": 6.1368972,
+    "longitude": 80.1006037
+  },
+  "address": "Wawulagoda 1st Cross Rd, Hikkaduwa 80240",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto repair shop",
+    "Car wash"
+  ],
+  "phone": "0714464986",
+  "website": "http://www.dmautomobiles.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7T7AC4ZRZSN7F48DCGQ5"
+}

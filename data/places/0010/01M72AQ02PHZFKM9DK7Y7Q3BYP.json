@@ -1,0 +1,58 @@
+{
+  "name": "Rolex Hotel",
+  "coordinates": {
+    "latitude": 6.8683308,
+    "longitude": 79.8623674
+  },
+  "address": "358 Galle Rd, Colombo",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0112360462",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02PHZFKM9DK7Y7Q3BYP"
+}

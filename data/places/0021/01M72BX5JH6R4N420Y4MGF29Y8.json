@@ -1,0 +1,59 @@
+{
+  "name": "SDB Bank Mannar Branch",
+  "coordinates": {
+    "latitude": 8.9807454,
+    "longitude": 79.9118541
+  },
+  "address": "No 168 Main Street, Mannar 41000",
+  "categories": [
+    "Private sector bank"
+  ],
+  "phone": "0232251910",
+  "website": "http://www.sdb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX5JH6R4N420Y4MGF29Y8"
+}

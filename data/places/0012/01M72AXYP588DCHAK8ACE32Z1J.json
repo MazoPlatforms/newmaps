@@ -1,0 +1,59 @@
+{
+  "name": "Rasathi Foods",
+  "coordinates": {
+    "latitude": 7.091629999999999,
+    "longitude": 80.01686269999999
+  },
+  "address": "98 1/A Yakkala Rd, Gampaha",
+  "categories": [
+    "Food products supplier",
+    "Restaurant"
+  ],
+  "phone": "0766186807",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXYP588DCHAK8ACE32Z1J"
+}

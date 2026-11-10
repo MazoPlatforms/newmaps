@@ -1,0 +1,58 @@
+{
+  "name": "GK Filling Station",
+  "coordinates": {
+    "latitude": 7.2452584,
+    "longitude": 80.35625019999999
+  },
+  "address": "Kegalle Bypass Rd, Kegalle 71000",
+  "categories": [
+    "Gas station"
+  ],
+  "phone": "0777070762",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJGQDN1AYD7ZZYGG2S47A"
+}

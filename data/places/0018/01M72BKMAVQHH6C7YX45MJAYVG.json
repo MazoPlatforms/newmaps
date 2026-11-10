@@ -1,0 +1,58 @@
+{
+  "name": "Fn Family Mart",
+  "coordinates": {
+    "latitude": 7.432802799999999,
+    "longitude": 80.4467465
+  },
+  "address": "9, 11 Kandy Rd, Mawathagama 20000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0714807030",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMAVQHH6C7YX45MJAYVG"
+}

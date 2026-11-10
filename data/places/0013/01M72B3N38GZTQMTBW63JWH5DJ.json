@@ -1,0 +1,58 @@
+{
+  "name": "Royal Super",
+  "coordinates": {
+    "latitude": 7.4724214,
+    "longitude": 80.6248749
+  },
+  "address": "143 Gongawela Rd, Matale 21000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0761869392",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N38GZTQMTBW63JWH5DJ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Family Supermarket",
+  "coordinates": {
+    "latitude": 7.4149935,
+    "longitude": 81.8258669
+  },
+  "address": "235, main street, mawadippalli, Kalmunai 32300",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0754308410",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09YJFF8WDFJ9BFN44WPA"
+}

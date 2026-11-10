@@ -1,0 +1,58 @@
+{
+  "name": "T&D Enterprises",
+  "coordinates": {
+    "latitude": 6.7826439999999995,
+    "longitude": 79.9231016
+  },
+  "address": "Batakeththara Buddhist Temple, No. 86/17/B Madapatha Road, Piliyandala 10300",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0773642051",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCA6VCC2MV3FZQE05PXYJ"
+}

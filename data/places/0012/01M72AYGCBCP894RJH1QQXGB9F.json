@@ -1,0 +1,58 @@
+{
+  "name": "Base Hospital Kiribathgoda",
+  "coordinates": {
+    "latitude": 6.9835147,
+    "longitude": 79.9288893
+  },
+  "address": "XWMH+CH2, Kiribathgoda",
+  "categories": [
+    "Government hospital"
+  ],
+  "phone": "0112911493",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGCBCP894RJH1QQXGB9F"
+}

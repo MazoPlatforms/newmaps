@@ -1,0 +1,58 @@
+{
+  "name": "House Of Brass",
+  "coordinates": {
+    "latitude": 7.4757846,
+    "longitude": 80.0450089
+  },
+  "address": "140 Hettipola Rd, Kuliyapitiya",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0775703242",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1D0PR4D24ZH6H1VNXKZ9"
+}

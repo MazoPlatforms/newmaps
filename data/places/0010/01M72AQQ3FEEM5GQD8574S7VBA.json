@@ -1,0 +1,58 @@
+{
+  "name": "Ranseth Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 6.8666439,
+    "longitude": 79.87676379999999
+  },
+  "address": "near Kalubowila Hospital, No.316/A Hospital Rd",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0767851972",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3FEEM5GQD8574S7VBA"
+}

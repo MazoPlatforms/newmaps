@@ -1,0 +1,59 @@
+{
+  "name": "United Steel",
+  "coordinates": {
+    "latitude": 6.9396743,
+    "longitude": 79.8611076
+  },
+  "address": "271 Old Moor St, Colombo 01200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112439989",
+  "website": "http://www.unitedsteel.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9106ZRFKZP29F7N7RX2E"
+}

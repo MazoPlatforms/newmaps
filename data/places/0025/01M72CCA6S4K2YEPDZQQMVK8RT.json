@@ -1,0 +1,60 @@
+{
+  "name": "Basil Glass Palace",
+  "coordinates": {
+    "latitude": 6.787972,
+    "longitude": 79.8961326
+  },
+  "address": "250 De Soysa Rd, Moratuwa 10400",
+  "categories": [
+    "Hardware store",
+    "Glass repair service",
+    "Glass & mirror shop"
+  ],
+  "phone": "0777979699",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCA6S4K2YEPDZQQMVK8RT"
+}

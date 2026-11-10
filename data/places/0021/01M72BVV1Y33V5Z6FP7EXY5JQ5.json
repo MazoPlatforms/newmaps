@@ -1,0 +1,58 @@
+{
+  "name": "Vel Cafe",
+  "coordinates": {
+    "latitude": 8.7559747,
+    "longitude": 80.5013056
+  },
+  "address": "QG42+9GM, A29, Vavuniya",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0769151767",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVV1Y33V5Z6FP7EXY5JQ5"
+}

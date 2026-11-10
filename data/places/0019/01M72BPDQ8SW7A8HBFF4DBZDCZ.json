@@ -1,0 +1,58 @@
+{
+  "name": "Ar Autospace",
+  "coordinates": {
+    "latitude": 7.587854399999999,
+    "longitude": 79.79419999999999
+  },
+  "address": "5, 12 Canal Rd, Chilaw",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0773911455",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPDQ8SW7A8HBFF4DBZDCZ"
+}

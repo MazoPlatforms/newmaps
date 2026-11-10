@@ -1,6 +1,7 @@
 import { normalizeSearchText } from '../assets/js/search-engine.mjs';
 import { findLocalRoutes } from '../assets/js/routing-graph.mjs';
 import { liveDataObjectKey } from './live-data-registry.mjs';
+import { fetchGithubDataAsset } from './github-data-assets.mjs';
 
 const cache = new Map();
 const API_ROOT = '/api/v1';
@@ -39,11 +40,16 @@ async function jsonDataset(env, manifest, path) {
     url.searchParams.set('v', entry.sha256);
     response = await env.ASSETS.fetch(new Request(url));
     if (!response.ok) throw new Error('bootstrap data unavailable');
-  } else {
+  } else if (entry.storage !== 'github') {
     const object = await env.DATA_BUCKET.get(liveDataObjectKey(path, entry.sha256));
     if (!object || object.size !== entry.bytes || object.customMetadata?.sha256 !== entry.sha256
       || object.customMetadata?.path !== path) throw new Error('published data unavailable');
     response = new Response(object.body);
+  } else {
+    response = await fetchGithubDataAsset({ request: new Request('https://maps.invalid'), path,
+      revision: manifest.artifact_revision || manifest.revision, entry, origin: env.GITHUB_DATA_ASSET_ORIGIN,
+      fetcher: env.GITHUB_DATA_FETCH || fetch });
+    if (!response.ok) throw new Error('GitHub data snapshot is unavailable');
   }
   const value = await response.json();
   cache.set(`${manifest.revision}:${path}`, value);
@@ -80,7 +86,7 @@ function boundedLimit(value, fallback = 10, max = 25) {
 function resourceUrl(manifest, path) {
   const entry = manifest.files?.[path];
   if (!entry) return null;
-  return { path, url: `/api/data/${path}?v=${entry.sha256}&bytes=${entry.bytes}`,
+  return { path, url: `/api/data/${path}?v=${entry.sha256}&bytes=${entry.bytes}&rev=${manifest.revision}`,
     sha256: entry.sha256, bytes: entry.bytes, content_type: entry.content_type };
 }
 

@@ -1,0 +1,57 @@
+{
+  "name": "Nadhan Retail Shop",
+  "coordinates": {
+    "latitude": 6.865903299999999,
+    "longitude": 79.8668232
+  },
+  "address": "VV88+9P8, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Grocery delivery service"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7VMHY6N5XPB2XF7YWB3"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Shamila Stores",
+  "coordinates": {
+    "latitude": 7.464739499999999,
+    "longitude": 80.6252545
+  },
+  "address": "24 Kandy Road, Kandy - Jaffna Hwy, Matale 21000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0662231709",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6 AM",
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30–11:30 AM",
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N3AHE3DQ07YYBENMTGM"
+}
