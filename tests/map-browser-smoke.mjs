@@ -239,6 +239,10 @@ try {
     }));
     assert.equal(bootstrapPoiSource.type, 'vector', 'place PBF source is part of the initial map style');
     assert.equal(bootstrapPoiSource.layer, 'places-dot', 'preloaded place features render before the PMTiles marker source initializes');
+    const initialCamera = await page.evaluate(() => ({ center: window.__MAZO_MAP_TEST__.getCenter().toArray(), zoom: window.__MAZO_MAP_TEST__.getZoom(), bearing: window.__MAZO_MAP_TEST__.getBearing(), pitch: window.__MAZO_MAP_TEST__.getPitch() }));
+    assert.ok(Math.abs(initialCamera.center[0] - 80.8) < 0.01 && Math.abs(initialCamera.center[1] - 7.85) < 0.01,
+      'the initial view should be centered on Sri Lanka');
+    assert.ok(Math.abs(initialCamera.zoom - 7.4) < 0.1, 'the initial view should fit Sri Lanka rather than opening at city scale');
     const countryScalePlaceCount = await page.evaluate(async () => {
       await window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.7, 7.8], zoom: 6.3, bearing: 0, pitch: 0 });
       return window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['places-dot'] }).length;
@@ -274,7 +278,6 @@ try {
     const startupMs = Date.now() - started;
     const startupTransferBytes = await page.evaluate(() => performance.getEntriesByType('resource').reduce((total, entry) => total + (entry.transferSize || 0), 0));
     const startupHeapBytes = await page.evaluate(() => performance.memory?.usedJSHeapSize ?? null);
-    const initialCamera = await page.evaluate(() => ({ zoom: window.__MAZO_MAP_TEST__.getZoom(), bearing: window.__MAZO_MAP_TEST__.getBearing(), pitch: window.__MAZO_MAP_TEST__.getPitch() }));
     assert.equal(initialCamera.bearing, 0);
     assert.equal(initialCamera.pitch, 0);
     const interactionOptions = await page.evaluate(() => ({
