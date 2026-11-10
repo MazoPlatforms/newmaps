@@ -120,14 +120,13 @@ assert.equal(spriteJson.status, 200, 'style sprite descriptor should resolve');
 const spritePng = await get('api/v1/sprite.png');
 assert.equal(spritePng.status, 200, 'style sprite atlas should resolve');
 
-const manifestResponse = await get('generated/manifest.json', { headers: { 'Cache-Control': 'no-cache' } });
-assert.equal(manifestResponse.status, 200, 'place manifest should return HTTP 200');
-const manifest = await manifestResponse.json();
-const archive = manifest.delivery?.mvt_pmtiles;
+const archive = apiContract.map_manifest?.delivery?.mvt_pmtiles;
 assert.ok(archive?.file && /^[a-f0-9]{64}$/.test(archive.sha256), 'manifest should contain a PMTiles file and checksum');
 assert.ok(Number.isSafeInteger(archive.bytes) && archive.bytes > 127, 'manifest should contain the PMTiles byte size');
 
-const archivePath = `generated/${archive.file}?v=${archive.sha256}`;
+const archivePath = apiContract.resources?.pmtiles?.url;
+assert.ok(archivePath?.includes(`v=${archive.sha256}`) && archivePath.includes(`rev=${apiContract.revision}`),
+  'PMTiles resource URL should pin both content hash and live data revision');
 const range = await get(archivePath, { headers: { Range: 'bytes=0-31' } });
 assert.equal(range.status, 206, 'PMTiles byte ranges should return HTTP 206');
 assert.equal(range.headers.get('content-range'), `bytes 0-31/${archive.bytes}`);

@@ -23,15 +23,21 @@ const basemapDescriptorPath = 'generated/sri-lanka-basemap-range.json';
 let basemapDescriptor = null;
 let basemapEntries = {};
 try {
-  const bootstrapData = JSON.parse(await readFile(new URL('../dist/generated/live-data-manifest.json', import.meta.url), 'utf8'));
-  basemapDescriptor = JSON.parse(await readFile(new URL(`../dist/${basemapDescriptorPath}`, import.meta.url), 'utf8'));
-  basemapEntries = Object.fromEntries(Object.entries(bootstrapData.files)
-    .filter(([path]) => path === basemapDescriptorPath || path.startsWith('generated/sri-lanka-basemap-pmtiles-chunks/')));
+  const liveDataRoot = new URL('../.build/live-data/', import.meta.url);
+  const descriptorBytes = new Uint8Array(await readFile(new URL(basemapDescriptorPath, liveDataRoot)));
+  basemapDescriptor = JSON.parse(new TextDecoder().decode(descriptorBytes));
+  const descriptorSha = createHash('sha256').update(descriptorBytes).digest('hex');
+  basemapEntries[basemapDescriptorPath] = { sha256: descriptorSha, bytes: descriptorBytes.byteLength,
+    content_type: 'application/json', storage: 'github' };
+  for (const chunk of basemapDescriptor.chunks) {
+    const path = `generated/sri-lanka-basemap-pmtiles-chunks/${chunk.file}`;
+    basemapEntries[path] = { sha256: chunk.sha256, bytes: chunk.bytes, content_type: 'application/octet-stream', storage: 'r2-chunk' };
+  }
 } catch { /* Non-deployment test workflows may not generate the country basemap. */ }
 const basemapChunkByHash = new Map(Object.entries(basemapEntries)
   .filter(([path]) => path.includes('-pmtiles-chunks/')).map(([path, entry]) => [entry.sha256, { path, entry }]));
 const revision = 'vector-fixture-revision';
-const manifest = { revision, files: {
+const manifest = { revision, artifact_revision: 'f'.repeat(40), files: {
   'generated/places.pmtiles': { sha256: archiveSha, bytes: archive.byteLength, content_type: 'application/vnd.pmtiles' },
   'generated/manifest.json': { sha256: mapSha, bytes: mapBytes.byteLength, content_type: 'application/json' },
   [glyphPath]: { sha256: glyphSha, bytes: glyphBytes.byteLength, content_type: 'application/x-protobuf' },
@@ -50,7 +56,7 @@ function fixture() {
         const basemapChunk = basemapChunkByHash.get(hash);
         const source = hash === archiveSha ? archive : hash === mapSha ? mapBytes : hash === glyphSha ? glyphBytes : null;
         if (!source && basemapChunk) {
-          const file = await readFile(new URL(`../dist/${basemapChunk.path}`, import.meta.url));
+          const file = await readFile(new URL(`../.build/live-data/${basemapChunk.path}`, import.meta.url));
           const offset = options.range?.offset ?? 0;
           const length = options.range?.length ?? file.byteLength;
           const content = file.subarray(offset, offset + length);
@@ -77,6 +83,8 @@ function fixture() {
       try { return new Response(await readFile(new URL(`../dist/${path.replace(/^\//, '')}`, import.meta.url))); }
       catch { return new Response(null, { status: 404 }); }
     } },
+    GITHUB_DATA_FETCH: async () => new Response(await readFile(new URL(`../.build/live-data/${basemapDescriptorPath}`, import.meta.url)),
+      { headers: { 'Content-Type': 'application/json' } }),
   };
   return { env, get readBytes() { return readBytes; }, get basemapReadBytes() { return basemapReadBytes; } };
 }

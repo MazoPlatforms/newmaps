@@ -331,10 +331,17 @@ async function basemapArchiveContext(env, manifest) {
         else if (asset.ok && localOffset === 0 && amount === entry.bytes) part = new Uint8Array(await asset.arrayBuffer());
         else throw new Error('Static basemap range read failed');
       } else {
-        const object = await env.DATA_BUCKET.get(liveDataObjectKey(path, entry.sha256), { range: { offset: localOffset, length: amount } });
-        if (!object || object.size !== entry.bytes || object.customMetadata?.sha256 !== entry.sha256
-          || object.customMetadata?.path !== path) throw new Error('Basemap R2 chunk does not match active manifest');
-        part = await bytesOf(object);
+        if (manifest.files?.[descriptor.archive]?.storage === 'r2-archive') {
+          part = await readR2PmtilesRange({ env, manifest, archivePath: descriptor.archive, offset: absolute,
+            length: amount, chunkSize: descriptor.chunk_size, totalBytes: descriptor.bytes });
+        } else {
+          // Compatibility for the active pre-migration manifest until the first
+          // GitHub-backed snapshot and chunk manifest is atomically published.
+          const object = await env.DATA_BUCKET.get(liveDataObjectKey(path, entry.sha256), { range: { offset: localOffset, length: amount } });
+          if (!object || object.size !== entry.bytes || object.customMetadata?.sha256 !== entry.sha256
+            || object.customMetadata?.path !== path) throw new Error('Basemap R2 chunk does not match active manifest');
+          part = await bytesOf(object);
+        }
       }
       if (part.byteLength !== amount) throw new Error('Basemap range is truncated');
       result.set(part, written);

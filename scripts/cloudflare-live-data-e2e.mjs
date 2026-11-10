@@ -105,7 +105,7 @@ try {
   const rideGeocode = await fetch(new URL('api/v1/geocode?q=Noor%20Accessories%20Showroom', baseUrl));
   assert.equal(rideGeocode.status, 200);
   assert.equal((await rideGeocode.json()).features[0].geometry.type, 'Point');
-  const routeGraph = JSON.parse(await readFile(join(dist, 'generated/kattankudy-routing.json'), 'utf8'));
+  const routeGraph = JSON.parse(await readFile(join(liveDataRoot, 'generated/kattankudy-routing.json'), 'utf8'));
   const firstSegment = routeGraph.segments.find((row) => (row[3] | row[4]) & 1);
   const start = routeGraph.nodes[firstSegment[0]];
   const finish = routeGraph.nodes[firstSegment[1]];
@@ -156,7 +156,7 @@ try {
   const etagVersion = await fetch(new URL('api/version', baseUrl), { headers: { 'If-None-Match': `"${'a'.repeat(40)}"` } });
   assert.equal(etagVersion.status, 304, 'unchanged version polling is conditional and bodyless');
 
-  const browserBuild = JSON.parse(await readFile(join(dist, 'generated/search-index.json'), 'utf8'));
+  const browserBuild = JSON.parse(await readFile(join(liveDataRoot, 'generated/search-index.json'), 'utf8'));
   const nameColumn = browserBuild.fields.indexOf('name');
   const coordColumn = browserBuild.fields.indexOf('coordinates');
   const idColumn = browserBuild.fields.indexOf('id');
