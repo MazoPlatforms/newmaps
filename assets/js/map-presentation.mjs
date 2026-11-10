@@ -1,7 +1,7 @@
 import { discoveryCategoryFor } from './place-categories.mjs';
 
 // Start at a country overview so the Sri Lanka land shape is visible on launch.
-export const INITIAL_CAMERA = Object.freeze({ center: [80.8, 7.85], zoom: 7.4 });
+export const INITIAL_CAMERA = Object.freeze({ center: [80.8, 7.85], zoom: 7 });
 // Keep the island overview clean like a road atlas. POI pins are useful once a
 // user is exploring a district, but overwhelm national-scale place labels.
 export const POI_ZOOM_THRESHOLDS = Object.freeze({ major: 8.8, district: 9.8, category: 10.2, local: 12.4 });
