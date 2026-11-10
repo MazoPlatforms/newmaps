@@ -5,6 +5,11 @@ const CONTENT_SHA = /^[a-f0-9]{64}$/;
 const ALLOWED_PATH = /^(?:generated|data)\/[A-Za-z0-9._/-]+$/;
 const MAX_FILES = 5000;
 
+function storageFor(path, entry) {
+  if (entry?.storage) return entry.storage;
+  return path.endsWith('.pmtiles') ? 'legacy-r2-archive' : 'legacy-r2';
+}
+
 function validPath(path) {
   return typeof path === 'string' && ALLOWED_PATH.test(path)
     && !path.includes('..') && !path.includes('//') && !path.includes('\\');
@@ -17,6 +22,9 @@ export function validateLiveManifest(manifest) {
     throw new Error('Invalid live data manifest envelope');
   }
   const entries = Object.entries(manifest.files);
+  if (manifest.artifact_revision !== undefined && !COMMIT_SHA.test(manifest.artifact_revision || '')) {
+    throw new Error('Invalid GitHub data snapshot commit');
+  }
   if (entries.length === 0 || entries.length > MAX_FILES) throw new Error('Live data manifest file count is invalid');
   let totalBytes = 0;
   for (const [path, entry] of entries) {
@@ -24,6 +32,15 @@ export function validateLiveManifest(manifest) {
       || !Number.isSafeInteger(entry.bytes) || entry.bytes < 0
       || typeof entry.content_type !== 'string' || entry.content_type.length > 160) {
       throw new Error(`Invalid live data file entry: ${path}`);
+    }
+    if (entry.storage !== undefined && !['github', 'r2-archive', 'r2-chunk'].includes(entry.storage)) {
+      throw new Error(`Invalid live data storage provider: ${path}`);
+    }
+    if ((entry.storage === 'r2-archive' && !path.endsWith('.pmtiles'))
+      || (entry.storage === 'r2-chunk' && !/^generated\/(?:places|sri-lanka-basemap)-pmtiles-chunks\/[0-9]{5}\.bin$/.test(path))
+      || (entry.storage === 'github' && (path.endsWith('.pmtiles')
+        || /^generated\/(?:places|sri-lanka-basemap)-pmtiles-chunks\//.test(path)))) {
+      throw new Error(`Live data is assigned to an invalid storage provider: ${path}`);
     }
     totalBytes += entry.bytes;
   }
@@ -101,12 +118,16 @@ export class LiveDataRegistry {
     if (url.pathname === '/plan') {
       const previous = record?.manifest.files || {};
       const changed = Object.entries(candidate.files)
-        .filter(([path, entry]) => previous[path]?.sha256 !== entry.sha256 || previous[path]?.bytes !== entry.bytes)
+        .filter(([path, entry]) => previous[path]?.sha256 !== entry.sha256 || previous[path]?.bytes !== entry.bytes
+          || storageFor(path, previous[path]) !== storageFor(path, entry))
         .map(([path, entry]) => ({ path, ...entry }));
       const deleted = Object.keys(previous).filter((path) => !Object.hasOwn(candidate.files, path)).sort();
       const upload = [];
-      if (!this.env.DATA_BUCKET) return json({ error: 'Live data storage is not configured.' }, 503);
+      if (!this.env.DATA_BUCKET && changed.some(({ path, ...entry }) => storageFor(path, entry) === 'r2-chunk')) {
+        return json({ error: 'PMTiles storage is not configured.' }, 503);
+      }
       for (const entry of changed) {
+        if (storageFor(entry.path, entry) !== 'r2-chunk') continue;
         const object = await this.env.DATA_BUCKET.head(liveDataObjectKey(entry.path, entry.sha256));
         if (!object || object.size !== entry.bytes || object.customMetadata?.sha256 !== entry.sha256
           || object.customMetadata?.path !== entry.path) upload.push(entry);
@@ -130,9 +151,11 @@ export class LiveDataRegistry {
 
     const previous = record?.manifest.files || {};
     const changed = Object.entries(candidate.files)
-      .filter(([path, entry]) => previous[path]?.sha256 !== entry.sha256 || previous[path]?.bytes !== entry.bytes);
+      .filter(([path, entry]) => previous[path]?.sha256 !== entry.sha256 || previous[path]?.bytes !== entry.bytes
+        || storageFor(path, previous[path]) !== storageFor(path, entry));
     const missing = [];
     for (const [path, entry] of changed) {
+      if (storageFor(path, entry) !== 'r2-chunk') continue;
       const object = await this.env.DATA_BUCKET.head(liveDataObjectKey(path, entry.sha256));
       if (!object || object.size !== entry.bytes || object.customMetadata?.sha256 !== entry.sha256
         || object.customMetadata?.path !== path) missing.push(path);

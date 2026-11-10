@@ -14,6 +14,7 @@ from pathlib import Path, PurePosixPath
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 GENERATED = ROOT / "generated"
+LIVE_DATA = ROOT / ".build" / "live-data"
 WRANGLER_CONFIG = ROOT / "wrangler.jsonc"
 
 
@@ -123,7 +124,9 @@ def build() -> dict:
     if not (ROOT / "index.html").is_file():
         raise FileNotFoundError("Run this script from a complete Mazo Maps checkout")
     shutil.rmtree(DIST, ignore_errors=True)
+    shutil.rmtree(LIVE_DATA, ignore_errors=True)
     DIST.mkdir(parents=True)
+    LIVE_DATA.mkdir(parents=True)
 
     for relative in ("service-worker.js", "_headers"):
         copy_file(ROOT / relative, DIST / relative)
@@ -132,7 +135,7 @@ def build() -> dict:
         encoding="utf-8",
     )
     shutil.copytree(ROOT / "assets", DIST / "assets")
-    copy_file(ROOT / "data/cities.json", DIST / "data/cities.json")
+    copy_file(ROOT / "data/cities.json", LIVE_DATA / "data/cities.json")
 
     place_manifest = json.loads((GENERATED / "manifest.json").read_text(encoding="utf-8"))
     if place_manifest.get("format") != "PMTiles/1" or place_manifest.get("production_default") != "pmtiles":
@@ -181,9 +184,9 @@ def build() -> dict:
         files.extend(f"sri-lanka-basemap-pmtiles-chunks/{chunk['file']}" for chunk in basemap["chunks"])
 
     for name in sorted(set(files)):
-        copy_file(GENERATED / name, DIST / "generated" / name)
+        copy_file(GENERATED / name, LIVE_DATA / "generated" / name)
 
-    build_api_search_index(DIST / "generated" / "search-index.json", DIST / "generated" / "api-search-index.json")
+    build_api_search_index(LIVE_DATA / "generated" / "search-index.json", LIVE_DATA / "generated" / "api-search-index.json")
     files.append("api-search-index.json")
 
     # Native MapLibre glyphs are built locally from the bundled, OFL-licensed
@@ -192,7 +195,7 @@ def build() -> dict:
 
     written_chunks = split_pmtiles_archive(
         pmtiles_source,
-        DIST / "generated" / "places-pmtiles-chunks",
+        LIVE_DATA / "generated" / "places-pmtiles-chunks",
         chunk_size,
     )
     if written_chunks != chunk_count:
@@ -205,11 +208,14 @@ def build() -> dict:
         "chunk_size": chunk_size,
         "chunk_count": written_chunks,
     }
-    (DIST / "generated" / "places-pmtiles-range.json").write_text(
+    (LIVE_DATA / "generated" / "places-pmtiles-range.json").write_text(
         json.dumps(range_manifest, indent=2) + "\n",
         encoding="utf-8",
     )
     bootstrap_manifest = build_bootstrap_live_manifest()
+    # Map data lives in GitHub's versioned data snapshot; Static Assets carries
+    # only the app and small presentation resources.
+    bootstrap_manifest["files"] = {}
     (DIST / "generated" / "live-data-manifest.json").write_text(
         json.dumps(bootstrap_manifest, indent=2) + "\n",
         encoding="utf-8",
@@ -219,10 +225,12 @@ def build() -> dict:
         "output": str(DIST.relative_to(ROOT)),
         "files": sum(1 for path in DIST.rglob("*") if path.is_file()),
         "bytes": sum(path.stat().st_size for path in DIST.rglob("*") if path.is_file()),
-        "generated": sorted({*files, "places-pmtiles-range.json", "live-data-manifest.json",
-                              *[path.relative_to(DIST / "generated").as_posix()
-                                for path in (DIST / "generated" / "fonts").rglob("*.pbf")]}),
-        "live_data_files": len(bootstrap_manifest["files"]),
+        "live_data_output": str(LIVE_DATA.relative_to(ROOT)),
+        "live_data_files": sum(1 for path in LIVE_DATA.rglob("*") if path.is_file()),
+        "live_data_bytes": sum(path.stat().st_size for path in LIVE_DATA.rglob("*") if path.is_file()),
+        "static_generated": sorted({"live-data-manifest.json",
+                                     *[path.relative_to(DIST / "generated").as_posix()
+                                       for path in (DIST / "generated" / "fonts").rglob("*.pbf")]}),
         "pmtiles_range_chunks": written_chunks,
         "pmtiles_chunk_size": chunk_size,
     }

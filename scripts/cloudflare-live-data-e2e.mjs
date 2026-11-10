@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { execFileSync, spawn } from 'node:child_process';
 import { createHash, randomBytes } from 'node:crypto';
 import { createServer } from 'node:net';
+import { createServer as createHttpServer } from 'node:http';
 import { mkdtemp, readFile, rm, unlink, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { tmpdir } from 'node:os';
@@ -12,8 +13,9 @@ import { buildLiveDataManifest, syncLiveData } from './cloudflare-live-data-sync
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const dist = join(root, 'dist');
-const fixturePath = join(dist, 'data', 'e2e-live-deletion-fixture.json');
-const citiesPath = join(dist, 'data', 'cities.json');
+const liveDataRoot = join(root, '.build', 'live-data');
+const fixturePath = join(liveDataRoot, 'data', 'e2e-live-deletion-fixture.json');
+const citiesPath = join(liveDataRoot, 'data', 'cities.json');
 const persistence = await mkdtemp(join(tmpdir(), 'mazo-workers-e2e-'));
 const secret = randomBytes(32).toString('hex');
 const portProbe = createServer();
@@ -24,9 +26,26 @@ await new Promise((resolveListen, reject) => {
 const port = portProbe.address().port;
 await new Promise((resolveClose, reject) => portProbe.close((error) => error ? reject(error) : resolveClose()));
 const baseUrl = `http://127.0.0.1:${port}/`;
+const snapshotServer = createHttpServer(async (request, response) => {
+  try {
+    const segments = decodeURIComponent(new URL(request.url, 'http://snapshot.local').pathname).split('/').filter(Boolean);
+    const relative = segments.slice(1).join('/');
+    const file = resolve(liveDataRoot, relative);
+    if (!segments[0]?.match(/^[a-f0-9]{40}$/) || !relative || !file.startsWith(`${resolve(liveDataRoot)}/`)) {
+      response.writeHead(404).end(); return;
+    }
+    const bytes = await readFile(file);
+    response.writeHead(200, { 'Content-Length': bytes.byteLength, 'Content-Type': file.endsWith('.json') ? 'application/json' : 'application/octet-stream',
+      'Access-Control-Allow-Origin': '*', 'Cache-Control': 'public, max-age=31536000, immutable' });
+    response.end(bytes);
+  } catch { response.writeHead(404).end(); }
+});
+await new Promise((resolveListen, reject) => { snapshotServer.once('error', reject); snapshotServer.listen(0, '127.0.0.1', resolveListen); });
+const snapshotOrigin = `http://127.0.0.1:${snapshotServer.address().port}`;
 const worker = spawn(process.execPath, [
   join(root, 'node_modules/wrangler/bin/wrangler.js'), 'dev', '--local', '--ip', '127.0.0.1', '--port', String(port),
-  '--persist-to', persistence, '--var', `LIVE_DATA_HMAC_SECRET:${secret}`, '--log-level', 'error',
+  '--persist-to', persistence, '--var', `LIVE_DATA_HMAC_SECRET:${secret}`,
+  '--var', `GITHUB_DATA_ASSET_ORIGIN:${snapshotOrigin}`, '--log-level', 'error',
 ], { cwd: root, env: { ...process.env, NO_COLOR: '1' }, stdio: ['ignore', 'pipe', 'pipe'] });
 const workerLogs = [];
 worker.stdout.on('data', (chunk) => workerLogs.push(chunk.toString()));
@@ -52,8 +71,8 @@ async function waitForWorker() {
 }
 
 async function synchronize(revision, runNumber) {
-  const manifest = await buildLiveDataManifest(dist, { revision, runNumber, updatedAt: new Date().toISOString() });
-  const result = await syncLiveData({ root: dist, manifest, baseUrl, secret });
+  const manifest = await buildLiveDataManifest(liveDataRoot, { revision, artifactRevision: revision, runNumber, updatedAt: new Date().toISOString() });
+  const result = await syncLiveData({ root: liveDataRoot, manifest, baseUrl, secret });
   return { manifest, result };
 }
 
@@ -118,7 +137,7 @@ try {
 
   const archivePath = 'generated/places.pmtiles';
   const archiveEntry = first.manifest.files[archivePath];
-  const archiveUrl = new URL(`api/data/${archivePath}?v=${archiveEntry.sha256}&bytes=${archiveEntry.bytes}`, baseUrl);
+  const archiveUrl = new URL(`api/data/${archivePath}?v=${archiveEntry.sha256}&bytes=${archiveEntry.bytes}&rev=${first.manifest.revision}`, baseUrl);
   const archiveResponse = await fetch(archiveUrl);
   assert.equal(archiveResponse.status, 200, 'full PMTiles object is retrievable from local R2');
   const archiveBytes = new Uint8Array(await archiveResponse.arrayBuffer());
@@ -247,7 +266,7 @@ try {
   await page.locator('#map-search').fill('Noor Accessories Showroom');
   await page.waitForSelector('#search-results [role="option"]');
   assert.match(await page.locator('#search-results [role="option"] strong').first().innerText(), /Noor Accessories/,
-    'R2-backed live search index remains usable');
+    'GitHub-backed live search index remains usable');
 
   const axePath = join(root, 'node_modules/axe-core/axe.min.js');
   await page.addScriptTag({ path: axePath });
@@ -264,7 +283,8 @@ try {
   await unlink(fixturePath);
   fixtureCreated = false;
   const second = await synchronize('b'.repeat(40), 2);
-  assert.deepEqual(second.result.changed, ['data/cities.json'], 'second sync uploads only the edited data file');
+  assert.deepEqual(second.result.changed, ['data/cities.json'], 'second sync changes only the edited GitHub data file');
+  assert.deepEqual(second.result.uploaded, [], 'ordinary map data is not stored in Cloudflare');
   assert.deepEqual(second.result.deleted, ['data/e2e-live-deletion-fixture.json'], 'second sync publishes deleted-file tombstones');
   await page.waitForFunction((revision) => window.__MAZO_LIVE_DATA_VERSION__?.revision === revision, 'b'.repeat(40), { timeout: 30_000 });
   const manifest2 = await readJson('api/manifest');
@@ -326,4 +346,5 @@ try {
     setTimeout(resolveExit, 5_000).unref();
   });
   await rm(persistence, { recursive: true, force: true });
+  await new Promise((resolveClose) => snapshotServer.close(() => resolveClose()));
 }

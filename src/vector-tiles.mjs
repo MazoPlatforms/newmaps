@@ -1,9 +1,12 @@
 import { ifNoneMatchMatches } from './http-validators.mjs';
 import { liveDataObjectKey } from './live-data-registry.mjs';
+import { fetchGithubDataAsset } from './github-data-assets.mjs';
+import { readR2PmtilesRange } from './pmtiles-r2.mjs';
 
 const API = '/api/v1';
 const ARCHIVE = 'generated/places.pmtiles';
 const BASEMAP_DESCRIPTOR = 'generated/sri-lanka-basemap-range.json';
+const PMTILES_RANGE_DESCRIPTOR = 'generated/places-pmtiles-range.json';
 const TILE_TYPE = 'application/vnd.mapbox-vector-tile';
 const DIRECTORY_CACHE = new Map();
 const MAX_DIRECTORY_BYTES = 1_000_000;
@@ -183,11 +186,34 @@ async function getCurrentManifest(env) {
   return bootstrap.json();
 }
 
+async function liveJsonFile(request, env, manifest, path, entry) {
+  if (manifest.revision === 'bootstrap') return env.ASSETS.fetch(new Request(new URL(`/${path}`, request.url)));
+  if (entry?.storage === 'github') {
+    return fetchGithubDataAsset({ request, path, revision: manifest.artifact_revision || manifest.revision,
+      entry, origin: env.GITHUB_DATA_ASSET_ORIGIN, fetcher: env.GITHUB_DATA_FETCH || fetch });
+  }
+  const object = await env.DATA_BUCKET.get(liveDataObjectKey(path, entry.sha256));
+  return object ? new Response(object.body, { status: 200 }) : new Response(null, { status: 404 });
+}
+
 async function archiveContext(env, manifest, mapManifest) {
   const entry = manifest.files?.[ARCHIVE];
   if (!entry || !Number.isSafeInteger(entry.bytes) || !/^[a-f0-9]{64}$/.test(entry.sha256 || '')) throw new Error('Places archive is not published');
   const bootstrap = manifest.revision === 'bootstrap';
-  const key = bootstrap ? null : liveDataObjectKey(ARCHIVE, entry.sha256);
+  let chunkSize = Number(env.PMTILES_CHUNK_SIZE || 1_048_576);
+  if (!bootstrap && entry.storage === 'r2-archive') {
+    const descriptorEntry = manifest.files?.[PMTILES_RANGE_DESCRIPTOR];
+    if (!descriptorEntry) throw new Error('Places PMTiles chunk descriptor is missing');
+    const descriptorResponse = await fetchGithubDataAsset({ request: new Request('https://maps.invalid'), path: PMTILES_RANGE_DESCRIPTOR,
+      revision: manifest.artifact_revision || manifest.revision, entry: descriptorEntry,
+      origin: env.GITHUB_DATA_ASSET_ORIGIN, fetcher: env.GITHUB_DATA_FETCH || fetch });
+    if (!descriptorResponse.ok) throw new Error('Places PMTiles chunk descriptor is unavailable from GitHub');
+    const descriptor = await descriptorResponse.json();
+    if (descriptor.format !== 'MazoPMTilesRange/1' || descriptor.sha256 !== entry.sha256
+      || descriptor.bytes !== entry.bytes || !Number.isSafeInteger(descriptor.chunk_size)
+      || descriptor.chunk_count !== Math.ceil(entry.bytes / descriptor.chunk_size)) throw new Error('Places PMTiles chunk descriptor is invalid');
+    chunkSize = descriptor.chunk_size;
+  }
   const read = async (offset, length) => {
     if (offset < 0 || length <= 0 || offset + length > entry.bytes) throw new Error('PMTiles byte range is outside archive');
     if (bootstrap) {
@@ -197,10 +223,7 @@ async function archiveContext(env, manifest, mapManifest) {
       if (response.status !== 206) throw new Error('Static PMTiles range read failed');
       return new Uint8Array(await response.arrayBuffer());
     }
-    const object = await env.DATA_BUCKET.get(key, { range: { offset, length } });
-    if (!object || object.size !== entry.bytes || object.customMetadata?.sha256 !== entry.sha256
-      || object.customMetadata?.path !== ARCHIVE) throw new Error('PMTiles object does not match the active content manifest');
-    return bytesOf(object);
+    return readR2PmtilesRange({ env, manifest, archivePath: ARCHIVE, offset, length, chunkSize, totalBytes: entry.bytes });
   };
   const headerBytes = await read(0, PMTILES_HEADER_BYTES);
   const view = new DataView(headerBytes.buffer, headerBytes.byteOffset, headerBytes.byteLength);
@@ -279,12 +302,9 @@ async function style(env, base, revision, theme = 'light') {
 async function basemapArchiveContext(env, manifest) {
   const descriptorEntry = manifest.files?.[BASEMAP_DESCRIPTOR];
   if (!descriptorEntry) throw new Error('Sri Lanka basemap is not published');
-  const descriptorResponse = manifest.revision === 'bootstrap'
-    ? await env.ASSETS.fetch(new Request(`https://maps.invalid/${BASEMAP_DESCRIPTOR}`))
-    : await env.DATA_BUCKET.get(liveDataObjectKey(BASEMAP_DESCRIPTOR, descriptorEntry.sha256));
-  if (!descriptorResponse) throw new Error('Sri Lanka basemap range manifest is missing');
-  const descriptor = manifest.revision === 'bootstrap' ? await descriptorResponse.json()
-    : await new Response(descriptorResponse.body).json();
+    const descriptorResponse = await liveJsonFile(new Request('https://maps.invalid'), env, manifest, BASEMAP_DESCRIPTOR, descriptorEntry);
+  if (!descriptorResponse?.ok) throw new Error('Sri Lanka basemap range manifest is missing');
+  const descriptor = await descriptorResponse.json();
   if (descriptor.format !== 'MazoPMTilesRange/1' || descriptor.archive !== 'generated/sri-lanka-basemap.pmtiles'
     || !Number.isSafeInteger(descriptor.bytes) || !Number.isSafeInteger(descriptor.chunk_size)
     || descriptor.chunk_size < 65536 || descriptor.chunks?.length !== descriptor.chunk_count) throw new Error('Invalid basemap range manifest');
@@ -467,11 +487,9 @@ export async function handleVectorApi(request, env, rateLimitTile) {
         return cacheableResponse(request, key, response);
       }
       if (!mapManifest) return json({ error: 'map_manifest_unavailable' }, 503);
-      const mapResponse = manifest.revision === 'bootstrap'
-        ? await env.ASSETS.fetch(new Request('https://maps.invalid/generated/manifest.json'))
-        : await env.DATA_BUCKET.get(liveDataObjectKey('generated/manifest.json', mapManifest.sha256));
-      if (!mapResponse) return json({ error: 'map_manifest_unavailable' }, 503);
-      const map = manifest.revision === 'bootstrap' ? await mapResponse.json() : await new Response(mapResponse.body).json();
+      const mapResponse = await liveJsonFile(request, env, manifest, 'generated/manifest.json', mapManifest);
+      if (!mapResponse?.ok) return json({ error: 'map_manifest_unavailable' }, 503);
+      const map = await mapResponse.json();
       const { state } = await archiveContext(env, manifest, map);
       let value;
       if (url.pathname === `${API}/tiles.json`) value = tileJSON(url.origin, revision, state);
@@ -555,11 +573,9 @@ export async function handleVectorApi(request, env, rateLimitTile) {
     if (cached) return cached;
     const mapEntry = manifest.files?.['generated/manifest.json'];
     if (!mapEntry) return json({ error: 'map_manifest_unavailable' }, 503);
-    const mapObject = manifest.revision === 'bootstrap'
-      ? await env.ASSETS.fetch(new Request('https://maps.invalid/generated/manifest.json'))
-      : await env.DATA_BUCKET.get(liveDataObjectKey('generated/manifest.json', mapEntry.sha256));
-    if (!mapObject) return json({ error: 'map_manifest_unavailable' }, 503);
-    const mapManifest = manifest.revision === 'bootstrap' ? await mapObject.json() : await new Response(mapObject.body).json();
+    const mapObject = await liveJsonFile(request, env, manifest, 'generated/manifest.json', mapEntry);
+    if (!mapObject?.ok) return json({ error: 'map_manifest_unavailable' }, 503);
+    const mapManifest = await mapObject.json();
     const { read, state } = await archiveContext(env, manifest, mapManifest);
     if (z < state.minZoom || z > state.maxZoom) return new Response(null, { status: 204, headers: corsHeaders({
       'Cache-Control': 'public, max-age=86400', 'X-Mazo-Data-Revision': manifest.revision }) });

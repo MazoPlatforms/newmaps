@@ -263,6 +263,7 @@ try {
     await page.locator('#theme-toggle').click();
     await wait(page, () => document.documentElement.dataset.theme === 'dark'
       && window.__MAZO_MAP_TEST__?.isStyleLoaded()
+      && (() => { const color = String(window.__MAZO_MAP_TEST__?.getPaintProperty('background', 'background-color')).replace(/\s/g, '').toLowerCase(); return color.includes('#102b3a') || color.includes('16,43,58'); })()
       && window.__MAZO_MAP_TEST__?.getLayer('mazo-poi-selected')
       && window.__MAZO_MAP_TEST__?.getSource('mazo-selected-place')?.type === 'geojson', 60_000);
     assert.equal(styleRequests.length, 1, 'theme switching changes basemap paint without reloading the style');

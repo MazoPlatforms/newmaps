@@ -40,7 +40,7 @@ export function liveDataResourceUrl(relative, liveData, staticHash = '') {
   const url = new URL(`/api/data/${cleaned}`, globalThis.location?.href || 'https://mazo.invalid/');
   url.searchParams.set('v', entry.sha256);
   url.searchParams.set('bytes', String(entry.bytes));
-  if (liveData.version.revision === 'bootstrap') url.searchParams.set('rev', 'bootstrap');
+  url.searchParams.set('rev', liveData.version.revision);
   return url.href;
 }
 

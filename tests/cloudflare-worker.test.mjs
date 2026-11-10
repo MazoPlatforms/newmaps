@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import worker, { servePmtilesRange } from '../src/worker-core.mjs';
+import { liveDataObjectKey } from '../src/live-data-registry.mjs';
 
 const payload = new TextEncoder().encode('0123456789');
 const chunkSize = 4;
@@ -61,26 +62,51 @@ test('passes full and non-GET requests through unchanged', async () => {
 });
 
 test('serves exact ranges from only the required chunks and preserves response headers', async () => {
-  const assets = assetsFor();
-  const request = new Request('https://example.test/generated/places.pmtiles?v=pmtiles-v1', {
-    headers: { Range: 'bytes=2-5' },
-  });
-  const response = await worker.fetch(request, { ASSETS: assets, PMTILES_CHUNK_SIZE: String(chunkSize) });
-  assert.equal(response.status, 206);
-  assert.equal(await response.text(), '2345');
+  const data = Uint8Array.from({ length: 70_000 }, (_, index) => index % 251);
+  const chunkSize = 65_536;
+  const artifactRevision = 'b'.repeat(40);
+  const archiveHash = 'a'.repeat(64);
+  const descriptorPath = 'generated/places-pmtiles-range.json';
+  const descriptorBytes = new TextEncoder().encode(JSON.stringify({ format: 'MazoPMTilesRange/1',
+    sha256: archiveHash, bytes: data.byteLength, chunk_size: chunkSize, chunk_count: 2 }));
+  const descriptorHash = 'd'.repeat(64);
+  const entries = {
+    'generated/places.pmtiles': { sha256: archiveHash, bytes: data.byteLength, content_type: 'application/vnd.pmtiles', storage: 'r2-archive' },
+    [descriptorPath]: { sha256: descriptorHash, bytes: descriptorBytes.byteLength, content_type: 'application/json', storage: 'github' },
+  };
+  const objects = new Map();
+  for (let index = 0; index < 2; index += 1) {
+    const path = `generated/places-pmtiles-chunks/${String(index).padStart(5, '0')}.bin`;
+    const bytes = data.slice(index * chunkSize, Math.min(data.byteLength, (index + 1) * chunkSize));
+    const hash = (index ? 'e' : 'f').repeat(64);
+    entries[path] = { sha256: hash, bytes: bytes.byteLength, content_type: 'application/octet-stream', storage: 'r2-chunk' };
+    objects.set(liveDataObjectKey(path, hash), { bytes, size: bytes.byteLength, customMetadata: { path, sha256: hash } });
+  }
+  const manifest = { format: 'MazoLiveData/1', revision: 'c'.repeat(40), artifact_revision: artifactRevision,
+    run_number: 2, updated_at: '2026-11-10T00:00:00.000Z', files: entries };
+  const workerCalls = [];
+  const env = { ASSETS: { fetch: async () => { workerCalls.push('assets'); return new Response(null, { status: 404 }); } },
+    LIVE_DATA_REGISTRY: { getByName: () => ({ fetch: async (request) => { workerCalls.push(new URL(request.url).pathname); return Response.json(manifest); } }) },
+    GITHUB_DATA_ASSET_ORIGIN: 'https://raw.test/MazoPlatforms/newmaps',
+    GITHUB_DATA_FETCH: async () => { workerCalls.push('github'); return new Response(descriptorBytes, { headers: { 'Content-Type': 'application/json' } }); },
+    DATA_BUCKET: { get: async (key, options) => {
+      const item = objects.get(key);
+      if (!item) return null;
+      const start = options?.range?.offset || 0;
+      const end = start + (options?.range?.length ?? item.size);
+      return { ...item, body: item.bytes.slice(start, end), httpMetadata: { contentType: 'application/octet-stream' } };
+    } },
+  };
+  const response = await worker.fetch(new Request('https://example.test/generated/places.pmtiles', {
+    headers: { Range: 'bytes=65534-65538' },
+  }), env);
+  assert.equal(response.status, 206, `${await response.clone().text()} ${JSON.stringify(workerCalls)}`);
+  assert.deepEqual(new Uint8Array(await response.arrayBuffer()), data.slice(65_534, 65_539));
   assert.equal(response.headers.get('Accept-Ranges'), 'bytes');
-  assert.equal(response.headers.get('Content-Range'), 'bytes 2-5/10');
-  assert.equal(response.headers.get('Content-Length'), '4');
+  assert.equal(response.headers.get('Content-Range'), 'bytes 65534-65538/70000');
+  assert.equal(response.headers.get('Content-Length'), '5');
   assert.equal(response.headers.get('Cache-Control'), 'public, max-age=31536000, immutable');
-  assert.equal(response.headers.get('ETag'), '"pmtiles-v1"');
-  assert.equal(assets.bytesRead, 8);
-  assert.deepEqual(assets.requests.map((item) => new URL(item.url).pathname), [
-    '/generated/places-pmtiles-range.json',
-    '/generated/places.pmtiles',
-    '/generated/places-pmtiles-chunks/00000.bin',
-    '/generated/places-pmtiles-chunks/00001.bin',
-  ]);
-  assert.equal(new URL(assets.requests[2].url).searchParams.get('v'), '"pmtiles-v1"');
+  assert.equal(response.headers.get('ETag'), `"${archiveHash}"`);
 });
 
 test('supports open-ended and suffix byte ranges', async () => {

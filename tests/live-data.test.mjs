@@ -21,9 +21,9 @@ test('If-None-Match uses weak entity-tag comparison for conditional GETs', () =>
 });
 
 function makeManifest(revision = commit, run_number = 1, files = { 'data/example.json': {
-  sha256: sha, bytes: 4, content_type: 'application/json',
+  sha256: sha, bytes: 4, content_type: 'application/json', storage: 'github',
 } }) {
-  return { format: 'MazoLiveData/1', revision, run_number, updated_at: '2026-11-05T00:00:00.000Z', files };
+  return { format: 'MazoLiveData/1', revision, artifact_revision: commit, run_number, updated_at: '2026-11-05T00:00:00.000Z', files };
 }
 
 test('signed admin requests validate digest, method, path, timestamp and nonce', async () => {
@@ -58,7 +58,7 @@ test('registry plans changed/deleted objects and publishes atomically with stale
   let response = await registry.fetch(new Request('https://registry/plan', { method: 'POST', body: JSON.stringify({ manifest: manifest1 }) }));
   let plan = await response.json();
   assert.deepEqual(plan.changed.map((entry) => entry.path), ['data/example.json']);
-  assert.deepEqual(plan.upload.map((entry) => entry.path), ['data/example.json']);
+  assert.deepEqual(plan.upload, [], 'GitHub-hosted datasets are not copied into Cloudflare storage');
   assert.equal(plan.expected_revision, null);
   objects.set(key1, { size: 4, customMetadata: { sha256: sha, path: 'data/example.json' } });
   response = await registry.fetch(new Request('https://registry/publish', { method: 'POST', body: JSON.stringify({ manifest: manifest1, expected_revision: null }) }));
@@ -69,12 +69,11 @@ test('registry plans changed/deleted objects and publishes atomically with stale
   response = await registry.fetch(new Request('https://registry/version', { headers: { 'If-None-Match': `W/"${commit}"` } }));
   assert.equal(response.status, 304, 'the registry follows HTTP weak comparison for unchanged revision polls');
 
-  const manifest2 = makeManifest('c'.repeat(40), 2, { 'data/new.json': { sha256: 'd'.repeat(64), bytes: 2, content_type: 'application/json' } });
+  const manifest2 = makeManifest('c'.repeat(40), 2, { 'data/new.json': { sha256: 'd'.repeat(64), bytes: 2, content_type: 'application/json', storage: 'github' } });
   response = await registry.fetch(new Request('https://registry/plan', { method: 'POST', body: JSON.stringify({ manifest: manifest2 }) }));
   plan = await response.json();
   assert.deepEqual(plan.deleted, ['data/example.json']);
-  assert.deepEqual(plan.upload.map((entry) => entry.path), ['data/new.json']);
-  objects.set(liveDataObjectKey('data/new.json', 'd'.repeat(64)), { size: 2, customMetadata: { sha256: 'd'.repeat(64), path: 'data/new.json' } });
+  assert.deepEqual(plan.upload, []);
   response = await registry.fetch(new Request('https://registry/publish', { method: 'POST', body: JSON.stringify({ manifest: manifest2, expected_revision: commit }) }));
   assert.equal(response.status, 200);
   response = await registry.fetch(new Request('https://registry/publish', { method: 'POST', body: JSON.stringify({ manifest: manifest1, expected_revision: 'c'.repeat(40) }) }));
@@ -119,8 +118,13 @@ test('Worker serves R2 byte and suffix ranges without buffering an entire data o
         customMetadata: { sha256: sha, path: 'generated/sample.pmtiles' } };
     },
   };
-  const env = { DATA_BUCKET: bucket };
-  const url = `https://maps.mazo.workers.dev/api/data/generated/sample.pmtiles?v=${sha}&bytes=${data.byteLength}`;
+  const manifest = makeManifest(commit, 1, { 'generated/sample.pmtiles': {
+    sha256: sha, bytes: data.byteLength, content_type: 'application/vnd.pmtiles' },
+  });
+  const env = { DATA_BUCKET: bucket,
+    LIVE_DATA_REGISTRY: { getByName: () => ({ fetch: async (request) => new URL(request.url).pathname === '/manifest'
+      ? Response.json(manifest) : Response.json({}, { status: 404 }) }) } };
+  const url = `https://maps.mazo.workers.dev/api/data/generated/sample.pmtiles?v=${sha}&bytes=${data.byteLength}&rev=${commit}`;
   const range = await worker.fetch(new Request(url, { headers: { Range: 'bytes=2-5' } }), env);
   assert.equal(range.status, 206);
   assert.equal(range.headers.get('Content-Range'), 'bytes 2-5/10');
@@ -191,15 +195,20 @@ test('end-to-end signed sync publishes only changed objects and exposes the new 
       return { size: object.size, body: object.bytes.slice(start, end), httpMetadata: object.httpMetadata,
         customMetadata: object.customMetadata, writeHttpMetadata: (headers) => headers.set('Content-Type', object.httpMetadata.contentType) };
     },
+    list: async () => ({ objects: [...objects.keys()].map((key) => ({ key })), truncated: false, cursor: null }),
+    delete: async (keys) => { for (const key of keys) objects.delete(key); },
   };
+  const legacyDataKey = liveDataObjectKey('generated/legacy-search.json', '9'.repeat(64));
+  objects.set(legacyDataKey, { size: 3, bytes: enc.encode('old'), customMetadata: { path: 'generated/legacy-search.json', sha256: '9'.repeat(64) } });
   const env = { LIVE_DATA_HMAC_SECRET: secret, DATA_BUCKET: bucket,
     LIVE_DATA_REGISTRY: { getByName: () => ({ fetch: (request) => registry.fetch(request) }) },
     ASSETS: { fetch: async () => new Response('not found', { status: 404 }) } };
   const content = enc.encode('new dataset');
   const contentHash = await (await import('../src/live-data-auth.mjs')).sha256Hex(content);
   const nextRevision = 'e'.repeat(40);
-  const manifest = makeManifest(nextRevision, 5, { 'data/places.json': {
-    sha256: contentHash, bytes: content.byteLength, content_type: 'application/json',
+  const chunkPath = 'generated/places-pmtiles-chunks/00000.bin';
+  const manifest = makeManifest(nextRevision, 5, { [chunkPath]: {
+    sha256: contentHash, bytes: content.byteLength, content_type: 'application/octet-stream', storage: 'r2-chunk',
   } });
   async function signedCall(path, body, extra = {}) {
     const bytes = body instanceof Uint8Array ? body : enc.encode(JSON.stringify(body));
@@ -212,11 +221,16 @@ test('end-to-end signed sync publishes only changed objects and exposes the new 
   let response = await signedCall('/api/admin/plan', { manifest });
   assert.equal(response.status, 200);
   const plan = await response.json();
-  assert.deepEqual(plan.changed.map(({ path }) => path), ['data/places.json']);
-  response = await signedCall('/api/admin/upload', content, { filePath: 'data/places.json', contentType: 'application/json' });
+  assert.deepEqual(plan.changed.map(({ path }) => path), [chunkPath]);
+  response = await signedCall('/api/admin/upload', content, { filePath: chunkPath, contentType: 'application/octet-stream' });
   assert.equal(response.status, 201);
   response = await signedCall('/api/admin/publish', { manifest, expected_revision: null });
   assert.equal(response.status, 200);
+  response = await signedCall('/api/admin/prune', { expected_revision: nextRevision });
+  assert.equal(response.status, 200);
+  assert.equal(objects.has(legacyDataKey), false, 'post-publish cleanup removes legacy non-PMTiles R2 datasets');
+  assert.ok([...objects.keys()].some((key) => key.includes(Buffer.from(chunkPath).toString('hex'))),
+    'PMTiles chunks remain in R2 for map delivery and rollback');
 
   response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/version'), env);
   assert.equal((await response.json()).revision, nextRevision);
@@ -224,7 +238,7 @@ test('end-to-end signed sync publishes only changed objects and exposes the new 
     headers: { 'If-None-Match': `W/"${nextRevision}"` },
   }), env);
   assert.equal(response.status, 304, 'the Worker version endpoint accepts weak If-None-Match tags');
-  response = await worker.fetch(new Request(`https://maps.mazo.workers.dev/api/data/data/places.json?v=${contentHash}&bytes=${content.byteLength}`, { headers: { Range: 'bytes=1-4' } }), env);
+  response = await worker.fetch(new Request(`https://maps.mazo.workers.dev/api/data/${chunkPath}?v=${contentHash}&bytes=${content.byteLength}&rev=${nextRevision}`, { headers: { Range: 'bytes=1-4' } }), env);
   assert.equal(response.status, 206);
   assert.equal(await response.text(), 'ew d');
   assert.equal(response.headers.get('Content-Range'), `bytes 1-4/${content.byteLength}`);
