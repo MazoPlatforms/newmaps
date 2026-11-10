@@ -1,7 +1,7 @@
 export const MAZO_PALETTE = Object.freeze({
   light: Object.freeze({
-    land: '#ebe8df', water: '#a9d3e2', waterLine: '#5b9fb5',
-    vegetation: '#d1e1c8', vegetationDark: '#a9c69e', grass: '#dce8d0', wetland: '#c7dccd',
+    land: '#d9f0df', water: '#82d5e2', waterLine: '#5b9fb5',
+    vegetation: '#c5e8ce', vegetationDark: '#a9d5b4', grass: '#d2ecd2', wetland: '#bfe1cf',
     farmland: '#e4e7cf', sand: '#e8ddb9', built: '#e5e2d9', urban: '#deddd4',
     park: '#c4ddb9', parkOutline: '#9fbd91', building: '#e0d8c9', buildingOutline: '#b9ad99',
     roadCase: '#c9c7c0', roadMajor: '#d0a45e', roadSecondary: '#e0cba9', roadLocal: '#faf9f5',
