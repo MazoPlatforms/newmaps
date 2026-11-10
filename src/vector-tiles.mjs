@@ -18,14 +18,17 @@ const POI_LAYERS = [
   // The bootstrap MVT source exists so a few places appear with the first map
   // tiles while the searchable PMTiles archive loads. Drawing every place as a
   // circle here bypasses symbol collision and covers the whole island in POIs.
-  // Keep this lightweight preview to landmarks until the PMTiles symbol layers
-  // provide collision-aware, zoom-tiered place rendering.
-  { id: 'places-dot', type: 'circle', source: 'mazo', 'source-layer': 'places', minzoom: 6.2,
+  // Keep this lightweight preview to landmarks and use symbol collision so a
+  // dense imported landmark set cannot paint a solid field of circles.
+  { id: 'places-dot', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 6.2,
     filter: ['==', ['get', 'priority'], 1],
-    paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 6.2, 2, 12, 3.5, 16, 5],
-      'circle-color': ['match', ['get', 'kind'], 'health', '#d63b4b', 'fuel', '#e28b28',
-        'school', '#7358bd', 'worship', '#29876a', 'landmark', '#b7791f', '#147d91'],
-      'circle-stroke-color': '#ffffff', 'circle-stroke-width': 1 } },
+    layout: { 'text-field': '•', 'text-font': ['Mazo Maps Sans Regular'],
+      'text-size': ['interpolate', ['linear'], ['zoom'], 6.2, 10, 12, 12, 16, 14],
+      'text-allow-overlap': false, 'text-ignore-placement': false, 'text-padding': 20,
+      'symbol-z-order': 'auto', 'symbol-sort-key': ['get', 'priority'] },
+    paint: { 'text-color': ['match', ['get', 'kind'], 'health', '#d63b4b', 'fuel', '#e28b28',
+      'school', '#7358bd', 'worship', '#29876a', 'landmark', '#b7791f', '#147d91'],
+      'text-halo-color': '#ffffff', 'text-halo-width': 1.2 } },
   { id: 'places-label', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 12,
     layout: { 'text-field': ['get', 'name'], 'text-font': ['Mazo Maps Sans Regular'],
       'text-size': ['interpolate', ['linear'], ['zoom'], 12, 10, 16, 13],

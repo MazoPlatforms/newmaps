@@ -243,8 +243,10 @@ try {
       await window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.7, 7.8], zoom: 6.3, bearing: 0, pitch: 0 });
       return window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['places-dot'] }).length;
     });
+    assert.ok(countryScalePlaceCount > 0,
+      'the preloaded vector preview should show at least one collision-placed landmark');
     assert.ok(countryScalePlaceCount <= 100,
-      `Sri Lanka overview should show only a sparse landmark preview, got ${countryScalePlaceCount} place dots`);
+      `Sri Lanka overview should show only collision-placed landmark symbols, got ${countryScalePlaceCount} place symbols`);
     await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     assert.equal(await page.evaluate(() => new URL(location.href).searchParams.has('delivery')), false, 'production does not require a format flag');
     assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some((entry) => entry.name.includes('batticaloa-district.mzp'))), false,
