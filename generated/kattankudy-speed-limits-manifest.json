@@ -77,10 +77,10 @@
   "legacy_road_mzp_gzip_bytes": 291700,
   "benchmark_note": "Request counts cover the speed-review loader and its road-geometry dependency; Python JSON parsing is a build-time proxy, not browser timing. Base-map requests are excluded.",
   "browser_rendering_benchmark": "not measured in the GitHub Actions build environment",
-  "python_source_json_parse_ms": 8.905,
-  "mzp_json_parse_ms": 25.743,
+  "python_source_json_parse_ms": 5.942,
+  "mzp_json_parse_ms": 18.784,
   "sha256": "aa4bf568ff5224ce50ada05f8ffa9415125e813eab57dbf847fa570232eaba67",
-  "build_time_ms": 2066.269,
+  "build_time_ms": 941.28,
   "supplementary_maxspeed_evidence": {
     "source_file": "data/roads/kattankudy-all-roads.json",
     "source_sha256": "64f19c7fd1259f07935b47f5b1fd5984f19c5ec02a740f58c122e74aab57b872",
