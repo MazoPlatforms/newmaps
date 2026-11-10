@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { createReadStream, mkdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
+import { createReadStream, mkdirSync, readFileSync, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -413,5 +413,3 @@ try {
   await browser.close();
   server.close();
 }
-const reportPath = resolve(root, 'reports/phase10-browser-smoke.json');
-writeFileSync(reportPath, `${JSON.stringify({ browser: `Chromium ${browser.version()}`, viewport: { width: 390, height: 844, mobileEmulation: true }, results, cartographicViews }, null, 2)}\n`);
