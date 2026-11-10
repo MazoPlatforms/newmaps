@@ -8,7 +8,7 @@ import { chromium } from 'playwright';
 import worker from '../src/worker-core.mjs';
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
-const screenshotDir = process.env.PHASE10_SCREENSHOTS_DIR || process.env.PHASE9_SCREENSHOTS_DIR;
+const screenshotDir = process.env.MAZO_SCREENSHOTS_DIR;
 const contentTypes = {
   '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8',
   '.mjs': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8',
@@ -101,8 +101,6 @@ await new Promise((resolveListen) => server.listen(0, '127.0.0.1', resolveListen
 const address = server.address();
 const origin = `http://127.0.0.1:${address.port}`;
 const browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--enable-unsafe-swiftshader'] });
-const results = [];
-const cartographicViews = [];
 try {
   for (const mode of ['pmtiles', 'pmtiles-retry']) {
     const context = await browser.newContext({
@@ -211,7 +209,7 @@ try {
         ['kattankudy-street-network', [81.7337, 7.6831], 15], ['victory-ground-deen-road', [81.7389, 7.6766], 16],
       ];
       for (const [name, center, zoom] of scenes) {
-        const tilesReady = await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
+        await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
         await page.waitForTimeout(250);
         const visible = await page.evaluate(() => {
           const map = window.__MAZO_MAP_TEST__;
@@ -237,7 +235,6 @@ try {
           assert.ok(visible.buildingFeatures > 0, `${name} should expose building footprints at street zoom`);
         }
         await page.screenshot({ path: `${screenshotDir}/${name}-light.png` });
-        cartographicViews.push({ name, theme: 'light', tilesReady, ...visible });
       }
       await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     }
@@ -287,10 +284,9 @@ try {
         ['kattankudy-street-network', [81.7337, 7.6831], 15], ['victory-ground-deen-road', [81.7389, 7.6766], 16],
       ];
       for (const [name, center, zoom] of darkScenes) {
-        const tilesReady = await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
+        await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
         await page.waitForTimeout(250);
         await page.screenshot({ path: `${screenshotDir}/${name}-dark.png` });
-        cartographicViews.push({ name, theme: 'dark', tilesReady, zoom });
       }
       await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     }
@@ -450,7 +446,6 @@ try {
       theme, opacities, category: 'electronics', searchResult: firstName,
       selectedPlace: selectedName, worldCamera, rangeResponses: ranges, speedRequests, accessibility, errors,
     };
-    results.push(result);
     console.log(JSON.stringify(result));
     await context.close();
   }
