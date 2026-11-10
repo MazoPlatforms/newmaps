@@ -5,6 +5,8 @@ from __future__ import annotations
 import json
 import hashlib
 import mimetypes
+import os
+import re
 import shutil
 import subprocess
 import unicodedata
@@ -38,6 +40,16 @@ def cloudflare_index_html(source: str) -> str:
             .replace("src='./assets/", "src='/assets/")
             .replace('href="./"', 'href="/"')
             .replace("href='./'", "href='/'"))
+
+
+def cloudflare_service_worker(source: str, revision: str) -> str:
+    """Stamp each deploy so installed browsers activate a fresh offline shell."""
+    if not re.fullmatch(r"[a-f0-9]{40}|local", revision or ""):
+        raise ValueError("Cloudflare build revision must be a full Git SHA or 'local'")
+    marker = "__MAZO_BUILD_REVISION__"
+    if source.count(marker) != 1:
+        raise ValueError("Service worker must contain exactly one deployment revision marker")
+    return source.replace(marker, revision)
 
 
 def generated_entry(manifest: dict, section: str, field: str = "file") -> str:
@@ -128,8 +140,12 @@ def build() -> dict:
     DIST.mkdir(parents=True)
     LIVE_DATA.mkdir(parents=True)
 
-    for relative in ("service-worker.js", "_headers"):
-        copy_file(ROOT / relative, DIST / relative)
+    copy_file(ROOT / "_headers", DIST / "_headers")
+    worker_source = (ROOT / "service-worker.js").read_text(encoding="utf-8")
+    (DIST / "service-worker.js").write_text(
+        cloudflare_service_worker(worker_source, os.environ.get("GITHUB_SHA") or "local"),
+        encoding="utf-8",
+    )
     (DIST / "index.html").write_text(
         cloudflare_index_html((ROOT / "index.html").read_text(encoding="utf-8")),
         encoding="utf-8",

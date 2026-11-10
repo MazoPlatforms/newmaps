@@ -158,9 +158,9 @@ try {
     const context = await browser.newContext({
       viewport: { width: 390, height: 844 }, deviceScaleFactor: 1,
       isMobile: true, hasTouch: true, colorScheme: 'light',
-      // Let Playwright deterministically intercept the single injected failure;
-      // offline service-worker behavior is covered in its own context below.
-      serviceWorkers: mode === 'pmtiles-retry' ? 'block' : 'allow',
+      // Let Playwright deterministically inject transient failures; offline
+      // service-worker behavior is covered in its own context below.
+      serviceWorkers: 'block',
     });
     await context.grantPermissions([], { origin: `http://127.0.0.1:${server.address().port}` });
     const page = await context.newPage();
@@ -172,6 +172,7 @@ try {
     const speedRequests = [];
     const styleRequests = [];
     const thirdPartyMapRequests = [];
+    let injectedSearchFailure = false;
     page.on('pageerror', (error) => errors.push(error.message));
     page.on('requestfailed', (request) => {
       const failure = request.failure()?.errorText || 'unknown';
@@ -185,7 +186,10 @@ try {
     });
     page.on('response', (response) => {
       if (response.url().includes('/generated/places.pmtiles')) ranges.push({ status: response.status(), contentRange: response.headers()['content-range'] || null });
-      if (response.status() >= 400 && !(mode === 'pmtiles-retry' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))) {
+      const expectedTransientSearchError = mode === 'pmtiles' && response.status() === 503
+        && injectedSearchFailure && response.url().includes('/generated/search-index.json');
+      if (response.status() >= 400 && !expectedTransientSearchError
+        && !(mode === 'pmtiles-retry' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))) {
         errors.push(`HTTP ${response.status()} ${response.url()}`);
       }
     });
@@ -194,6 +198,16 @@ try {
       if (request.url().includes('/api/v1/style')) styleRequests.push(request.url());
       if (/tiles\.openfreemap\.org|fonts\.(googleapis|gstatic)\.com|router\.project-osrm\.org|routing\.openstreetmap\.de/i.test(request.url())) thirdPartyMapRequests.push(request.url());
     });
+    if (mode === 'pmtiles') {
+      await page.route('**/generated/search-index.json*', async (route) => {
+        if (!injectedSearchFailure) {
+          injectedSearchFailure = true;
+          await route.fulfill({ status: 503, body: 'temporary search origin error' });
+          return;
+        }
+        await route.continue();
+      });
+    }
     if (mode === 'pmtiles-retry') {
       let firstArchiveRequest = true;
       await page.route('**/generated/places.pmtiles*', (route) => {
@@ -370,6 +384,7 @@ try {
     const search = page.locator('#map-search');
     await search.fill('Noor Accessories Showroom');
     await wait(page, () => document.querySelector('#search-results [role="option"]'));
+    if (mode === 'pmtiles') assert.equal(injectedSearchFailure, true, 'search recovers after a transient origin error');
     const firstName = await page.locator('#search-results [role="option"] strong').first().innerText();
     assert.match(firstName, /Noor Accessories/);
     await page.locator('#search-results [role="option"]').first().click();
