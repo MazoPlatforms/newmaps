@@ -7,6 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'scripts'))
 from place_names import normalize_place_name
 from place_eligibility import classify_place
+from place_quality import is_map_poi, semantic_type
 PLACES=ROOT/'data'/'places'; GENERATED=ROOT/'generated'; ALIASES=PLACES/'aliases.json'; LIMIT=999
 PLACE_MANIFEST=GENERATED/'manifest.json'
 ULID=re.compile(r'^[0-7][0-9A-HJKMNP-TV-Z]{25}$')
@@ -63,7 +64,7 @@ def load_places():
     for retired_id in aliases:
         if retired_id in ids: raise ValueError(f'Retired place ID is also active: {retired_id}')
         target=resolve_place_id(retired_id,aliases)
-        if target not in ids: raise ValueError(f'Place alias does not resolve to an active record: {retired_id} -> {target}')
+        if target is not None and target not in ids: raise ValueError(f'Place alias does not resolve to an active record: {retired_id} -> {target}')
     fingerprints={}
     for p in records:
         if not isinstance(p.get('coordinates'),dict):continue
@@ -78,6 +79,10 @@ def load_aliases():
     if data.get('version')!=1 or not isinstance(data.get('aliases'),dict): raise ValueError('Invalid place aliases.json')
     for retired_id,entry in data['aliases'].items():
         if not isinstance(retired_id,str) or not ULID.fullmatch(retired_id): raise ValueError(f'Invalid retired place ULID: {retired_id!r}')
+        if isinstance(entry,dict) and entry.get('deleted') is True:
+            if entry.get('reason') not in {'invalid_place_data_removed','road_reference_moved_to_road_markers'} or 'canonical_id' in entry or 'record' in entry:
+                raise ValueError(f'Invalid deleted-place tombstone for {retired_id}')
+            continue
         if not isinstance(entry,dict) or not isinstance(entry.get('canonical_id'),str) or not ULID.fullmatch(entry['canonical_id']):
             raise ValueError(f'Invalid canonical target for retired place ULID: {retired_id}')
         if entry['canonical_id']==retired_id: raise ValueError(f'Place alias points to itself: {retired_id}')
@@ -89,7 +94,10 @@ def resolve_place_id(record_id, aliases=None):
     seen=set()
     while record_id in aliases:
         if record_id in seen: raise ValueError(f'Place alias cycle: {record_id}')
-        seen.add(record_id);record_id=aliases[record_id]['canonical_id']
+        seen.add(record_id)
+        entry=aliases[record_id]
+        if entry.get('deleted') is True:return None
+        record_id=entry['canonical_id']
     return record_id
 def feature(p):
     if not classify_place(p)['eligible_for_public_map']:
@@ -106,7 +114,8 @@ def build():
     records,counts,suspicious=load_places(); GENERATED.mkdir(exist_ok=True)
     excluded=[p['id'] for p in records if p.get('coordinates') is None and classify_place(p)['eligible_for_public_map']]
     withheld=sum(not classify_place(p)['eligible_for_public_map'] for p in records)
-    features=public_features(records)
+    public_records=[p for p in records if isinstance(p.get('coordinates'),dict) and classify_place(p)['eligible_for_public_map']]
+    features=[feature(p) for p in sorted(public_records,key=lambda p:p['id']) if is_map_poi(p)]
     # Places are delivered exclusively through MVT/PMTiles. Remove only the
     # obsolete place archive; road and speed-limit MZP files remain intact.
     (GENERATED/'batticaloa-district.mzp').unlink(missing_ok=True)
@@ -117,7 +126,9 @@ def build():
     aliases=load_aliases()
     resolved_aliases={retired:resolve_place_id(retired,aliases) for retired in aliases}
     source_sha256=source_digest(records)
-    report={'format':'PMTiles/1','features':len(features),'excluded_without_coordinates':excluded,'withheld_pending_public_eligibility_review':withheld,'shards':counts,'aliases':resolved_aliases,'source_sha256':source_sha256}
+    report={'format':'PMTiles/1','features':len(features),
+            'settlements_excluded_from_poi_delivery':sum(semantic_type(p)=='settlement' for p in records),
+            'excluded_without_coordinates':excluded,'withheld_pending_public_eligibility_review':withheld,'shards':counts,'aliases':resolved_aliases,'source_sha256':source_sha256}
     delivery=previous.get('delivery')
     if (isinstance(delivery,dict) and previous.get('production_default')=='pmtiles'
             and previous.get('source_sha256')==source_sha256):

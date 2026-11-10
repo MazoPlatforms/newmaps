@@ -48,7 +48,10 @@ function resolveAlias(id, aliases = {}) {
   while (Object.hasOwn(aliases, id)) {
     if (seen.has(id)) return id;
     seen.add(id);
-    id = typeof aliases[id] === "string" ? aliases[id] : aliases[id]?.canonical_id;
+    const alias = aliases[id];
+    if (alias?.deleted === true) return null;
+    id = typeof alias === "string" ? alias : alias?.canonical_id;
+    if (typeof id !== "string") return null;
   }
   return id;
 }

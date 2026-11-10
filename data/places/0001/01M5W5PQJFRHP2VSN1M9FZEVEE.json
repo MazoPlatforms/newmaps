@@ -4,7 +4,7 @@
     "latitude": 7.6843848999999995,
     "longitude": 81.72680609999999
   },
-  "address": "Main Street, Colombo - Batticaloa Hwy, Kattankudy 30100",
+  "address": "Main Street, Colombo - Batticaloa Highway, Kattankudy 30100",
   "categories": [
     "Sri Lankan restaurant"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJFRHP2VSN1M9FZEVEE"
+  "id": "01M5W5PQJFRHP2VSN1M9FZEVEE",
+  "alternate_addresses": [
+    "Main Street, Colombo - Batticaloa Hwy, Kattankudy 30100",
+    "Main Street, Colombo - Batticaloa Highway, Kattankudy 30100"
+  ]
 }

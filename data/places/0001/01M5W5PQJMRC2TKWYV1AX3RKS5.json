@@ -4,7 +4,7 @@
     "latitude": 7.6833276999999995,
     "longitude": 81.7280494
   },
-  "address": "20 Fisheries Road, Kattankudy",
+  "address": "20 Fisheries Road, Kattankudy 30100",
   "categories": [
     "Restaurant"
   ],
@@ -53,5 +53,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJMRC2TKWYV1AX3RKS5"
+  "id": "01M5W5PQJMRC2TKWYV1AX3RKS5",
+  "alternate_addresses": [
+    "20 Fisheries Road, Kattankudy",
+    "20 Fisheries Road, Kattankudy 30100"
+  ]
 }

@@ -4,7 +4,7 @@
     "latitude": 7.6759328,
     "longitude": 81.73164899999999
   },
-  "address": "06 Main St, Kattankudy 30100",
+  "address": "06 Main Street, Kattankudy 30100",
   "categories": [
     "Sweets and dessert buffet"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJM9TAD3WDC1V19K301"
+  "id": "01M5W5PQJM9TAD3WDC1V19K301",
+  "alternate_addresses": [
+    "06 Main St, Kattankudy 30100",
+    "06 Main Street, Kattankudy 30100"
+  ]
 }

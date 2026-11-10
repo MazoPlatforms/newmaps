@@ -4,7 +4,7 @@
     "latitude": 7.685326399999999,
     "longitude": 81.7259349
   },
-  "address": "24000, Kattankudy",
+  "address": "24000, Kattankudy 30100",
   "categories": [
     "Restaurant"
   ],
@@ -55,5 +55,9 @@
   ],
   "website": "http://fastfoodmafia.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQJM0DFXZ6CA9TNQ7XB6"
+  "id": "01M5W5PQJM0DFXZ6CA9TNQ7XB6",
+  "alternate_addresses": [
+    "24000, Kattankudy",
+    "24000, Kattankudy 30100"
+  ]
 }

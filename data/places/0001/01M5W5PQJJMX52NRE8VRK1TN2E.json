@@ -4,7 +4,7 @@
     "latitude": 7.687635599999999,
     "longitude": 81.7293083
   },
-  "address": "Telecom Road, Kattankudy",
+  "address": "Telecom Road, Kattankudy 30100",
   "categories": [
     "Sri Lankan restaurant"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJJMX52NRE8VRK1TN2E"
+  "id": "01M5W5PQJJMX52NRE8VRK1TN2E",
+  "alternate_addresses": [
+    "Telecom Road, Kattankudy",
+    "Telecom Road, Kattankudy 30100"
+  ]
 }

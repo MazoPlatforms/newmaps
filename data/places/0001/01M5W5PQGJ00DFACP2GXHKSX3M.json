@@ -4,7 +4,7 @@
     "latitude": 7.6837396,
     "longitude": 81.7313556
   },
-  "address": "MPMJ+FGX, Kattankudy",
+  "address": "MPMJ+FGX, Kattankudy 30100",
   "categories": [
     "Council"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQGJ00DFACP2GXHKSX3M"
+  "id": "01M5W5PQGJ00DFACP2GXHKSX3M",
+  "alternate_addresses": [
+    "MPMJ+FGX, Kattankudy",
+    "MPMJ+FGX, Kattankudy 30100"
+  ]
 }

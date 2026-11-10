@@ -4,11 +4,15 @@
     "latitude": 7.6779075,
     "longitude": 81.73893439999999
   },
-  "address": "194 Karbala Road, Kattankudy",
+  "address": "194 Karbala Road, Kattankudy 30100",
   "categories": [
     "Restaurant"
   ],
   "hours": [],
   "business_status": "OPEN",
-  "id": "01M5W5PQJKKZCS5A9GRXRT4KRA"
+  "id": "01M5W5PQJKKZCS5A9GRXRT4KRA",
+  "alternate_addresses": [
+    "194 Karbala Road, Kattankudy",
+    "194 Karbala Road, Kattankudy 30100"
+  ]
 }

@@ -4,7 +4,7 @@
     "latitude": 7.6815026,
     "longitude": 81.7280499
   },
-  "address": "Main St, Kattankudy 30100",
+  "address": "Main Street, Kattankudy 30100",
   "categories": [
     "Baby store"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQHGDR4YJDVJNVWCVCVH"
+  "id": "01M5W5PQHGDR4YJDVJNVWCVCVH",
+  "alternate_addresses": [
+    "Main St, Kattankudy 30100",
+    "Main Street, Kattankudy 30100"
+  ]
 }

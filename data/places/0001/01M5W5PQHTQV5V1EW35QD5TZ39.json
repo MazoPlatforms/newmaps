@@ -4,7 +4,7 @@
     "latitude": 7.6849545,
     "longitude": 81.7263451
   },
-  "address": "Colombo - Batticaloa Hwy, Kattankudy",
+  "address": "Colombo - Batticaloa Highway, Kattankudy 30100",
   "categories": [
     "Sri Lankan restaurant"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQHTQV5V1EW35QD5TZ39"
+  "id": "01M5W5PQHTQV5V1EW35QD5TZ39",
+  "alternate_addresses": [
+    "Colombo - Batticaloa Hwy, Kattankudy",
+    "Colombo - Batticaloa Highway, Kattankudy 30100"
+  ]
 }

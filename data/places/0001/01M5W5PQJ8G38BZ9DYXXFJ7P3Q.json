@@ -4,7 +4,7 @@
     "latitude": 7.678524599999999,
     "longitude": 81.73005789999999
   },
-  "address": "Kattankudy",
+  "address": "Kattankudy 30100",
   "categories": [
     "Sri Lankan restaurant"
   ],
@@ -55,5 +55,9 @@
   ],
   "website": "https://wa.me/0778440182",
   "business_status": "OPEN",
-  "id": "01M5W5PQJ8G38BZ9DYXXFJ7P3Q"
+  "id": "01M5W5PQJ8G38BZ9DYXXFJ7P3Q",
+  "alternate_addresses": [
+    "Kattankudy",
+    "Kattankudy 30100"
+  ]
 }

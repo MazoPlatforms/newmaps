@@ -4,7 +4,7 @@
     "latitude": 7.679489599999999,
     "longitude": 81.7267524
   },
-  "address": "MPHG+QPR, Kattankudy",
+  "address": "MPHG+QPR, Kattankudy 30100",
   "categories": [
     "Educational institution"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJ1FZQJGVMT0F7NA843"
+  "id": "01M5W5PQJ1FZQJGVMT0F7NA843",
+  "alternate_addresses": [
+    "MPHG+QPR, Kattankudy",
+    "MPHG+QPR, Kattankudy 30100"
+  ]
 }

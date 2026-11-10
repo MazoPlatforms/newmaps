@@ -4,7 +4,7 @@
     "latitude": 7.680636,
     "longitude": 81.739195
   },
-  "address": "Kattankudy",
+  "address": "Kattankudy 30100",
   "categories": [
     "Restaurant"
   ],
@@ -53,5 +53,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJG8VGMAXYQQJWNBWW9"
+  "id": "01M5W5PQJG8VGMAXYQQJWNBWW9",
+  "alternate_addresses": [
+    "Kattankudy",
+    "Kattankudy 30100"
+  ]
 }

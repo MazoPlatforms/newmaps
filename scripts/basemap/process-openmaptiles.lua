@@ -817,15 +817,26 @@ function WritePOI(class,subclass,rank)
 	end
 end
 
+-- Imported OSM records occasionally carry the literal strings "None" or
+-- "undefined" as a name. Numeric-only names belong to route/house references,
+-- not settlement or POI labels; do not inject them into the place-name layer.
+function IsUsableMapName(value)
+	if not value or value == "" then return false end
+	local normalized = string.lower(string.gsub(value, "^%s*(.-)%s*$", "%1"))
+	if normalized == "" or normalized == "none" or normalized == "null" or normalized == "undefined"
+		or normalized == "unknown" or normalized == "n/a" or normalized == "unnamed" then return false end
+	if string.match(normalized, "^[%d%s%.,:/#()%-]+$") then return false end
+	return true
+end
+
 -- Check if there are name tags on the object
 function HasNames()
-	if Holds("name") then return true end
+	if IsUsableMapName(Find("name")) then return true end
 	local iname
-	local main_written = name
-	if preferred_language and Holds("name:"..preferred_language) then return true end
+	if preferred_language and IsUsableMapName(Find("name:"..preferred_language)) then return true end
 	-- then set any additional languages
 	for i,lang in ipairs(additional_languages) do
-		if Holds("name:"..lang) then return true end
+		if IsUsableMapName(Find("name:"..lang)) then return true end
 	end
 	return false
 end
@@ -833,22 +844,23 @@ end
 -- Set name attributes on any object
 function SetNameAttributes()
 	local name = Find("name"), iname
-	local main_written = name
+	local main_written = ""
 	-- if we have a preferred language, then write that (if available), and additionally write the base name tag
-	if preferred_language and Holds("name:"..preferred_language) then
+	if preferred_language and IsUsableMapName(Find("name:"..preferred_language)) then
 		iname = Find("name:"..preferred_language)
 		Attribute(preferred_language_attribute, iname)
-		if iname~=name and default_language_attribute then
+		if IsUsableMapName(name) and iname~=name and default_language_attribute then
 			Attribute(default_language_attribute, name)
 		else main_written = iname end
-	elseif name ~= "" then
+	elseif IsUsableMapName(name) then
 		Attribute(preferred_language_attribute, name)
+		main_written = name
 	end
 	-- then set any additional languages
 	for i,lang in ipairs(additional_languages) do
 		iname = Find("name:"..lang)
-		if iname=="" then iname=name end
-		if iname~=main_written and iname ~= "" then Attribute("name:"..lang, iname) end
+		if not IsUsableMapName(iname) then iname=name end
+		if IsUsableMapName(iname) and iname~=main_written then Attribute("name:"..lang, iname) end
 	end
 end
 

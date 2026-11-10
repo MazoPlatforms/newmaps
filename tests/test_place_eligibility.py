@@ -89,6 +89,10 @@ class PublicPlaceEligibilityTests(unittest.TestCase):
         alias_file = json.loads((ROOT / "data/places/aliases.json").read_text(encoding="utf-8"))
         aliases = alias_file["aliases"]
         for retired_id, entry in aliases.items():
+            if entry.get("deleted") is True:
+                self.assertIsNone(places.resolve_place_id(retired_id, aliases))
+                self.assertNotIn("record", entry)
+                continue
             record = entry.get("record", {})
             if not classify_place(record)["eligible_for_public_map"]:
                 withheld_ids.add(retired_id)

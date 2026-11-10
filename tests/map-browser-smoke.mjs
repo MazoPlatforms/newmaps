@@ -254,6 +254,22 @@ try {
     assert.equal(speedRequests.length, 0, 'speed review data is deferred until street zoom');
     await wait(page, () => window.mazoPmtilesUrl !== null && window.mazoPmtilesUrl !== undefined);
     await wait(page, () => performance.getEntriesByType('resource').some((entry) => entry.name.includes('places.pmtiles')));
+    const placeSymbolPolicy = await page.evaluate(() => {
+      const map = window.__MAZO_MAP_TEST__;
+      return ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].map((id) => ({
+        id,
+        iconOverlap: map.getLayoutProperty(id, 'icon-allow-overlap'),
+        iconIgnorePlacement: map.getLayoutProperty(id, 'icon-ignore-placement'),
+        textOptional: map.getLayoutProperty(id, 'text-optional'),
+        textOverlap: map.getLayoutProperty(id, 'text-allow-overlap'),
+      }));
+    });
+    for (const policy of placeSymbolPolicy) {
+      assert.equal(policy.iconOverlap, true, `${policy.id} must retain visible place pins in dense areas`);
+      assert.equal(policy.iconIgnorePlacement, true, `${policy.id} pins must not vanish behind colliding labels`);
+      assert.equal(policy.textOptional, true, `${policy.id} labels must yield before the pin`);
+      assert.equal(policy.textOverlap, false, `${policy.id} place names must remain collision-aware`);
+    }
     assert.ok(ranges.some((entry) => entry.status === 206 && /^bytes \d+-\d+\/\d+$/.test(entry.contentRange || '')), 'PMTiles must use byte-range requests');
     const startupMs = Date.now() - started;
     const startupTransferBytes = await page.evaluate(() => performance.getEntriesByType('resource').reduce((total, entry) => total + (entry.transferSize || 0), 0));
@@ -305,6 +321,7 @@ try {
           const boundaryLayers = style.layers.filter((layer) => layer.type === 'line' && layer['source-layer'] === 'boundary').map((layer) => layer.id);
           return {
             zoom: map.getZoom(),
+            countryLandFeatures: count(layersFor('country_land', 'fill')),
             mazoPoiFeatures: map.queryRenderedFeatures(undefined, { layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'] }).length,
             geographicPlaceLabels: count(placeLayers),
             roadFeatures: count(layersFor('transportation', 'line')),
@@ -315,6 +332,7 @@ try {
             boundaryFeatures: map.queryRenderedFeatures(undefined, { layers: boundaryLayers }).filter((feature) => feature.properties.maritime === 1).length,
           };
         });
+        if (name === 'sri-lanka') assert.ok(visible.countryLandFeatures > 0, 'Sri Lanka country polygon must render at country scale');
         if (name === 'kattankudy-street-network' || name === 'victory-ground-deen-road') {
           assert.ok(visible.roadFeatures > 0, `${name} should expose road geometry at street zoom`);
           assert.ok(visible.buildingFeatures > 0, `${name} should expose building footprints at street zoom`);

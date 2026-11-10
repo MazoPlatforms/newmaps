@@ -4,12 +4,16 @@
     "latitude": 7.684606,
     "longitude": 81.7411948
   },
-  "address": "Marine Dr, Kattankudy",
+  "address": "Marine Dr, Kattankudy 30100",
   "categories": [
     "Family restaurant"
   ],
   "phone": "0755282202",
   "hours": [],
   "business_status": "CLOSED_TEMPORARILY",
-  "id": "01M5W5PQJH7M3PBT1EC0KVJGPT"
+  "id": "01M5W5PQJH7M3PBT1EC0KVJGPT",
+  "alternate_addresses": [
+    "Marine Dr, Kattankudy",
+    "Marine Dr, Kattankudy 30100"
+  ]
 }

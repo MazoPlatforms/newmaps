@@ -4,7 +4,7 @@
     "latitude": 7.6804384,
     "longitude": 81.7287202
   },
-  "address": "23 Main St, Kattankudy",
+  "address": "23 Main Street, Kattankudy 30100",
   "categories": [
     "Toy store"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQHHNHBBWJ8SP65WH5V9"
+  "id": "01M5W5PQHHNHBBWJ8SP65WH5V9",
+  "alternate_addresses": [
+    "23 Main St, Kattankudy",
+    "23 Main Street, Kattankudy 30100"
+  ]
 }

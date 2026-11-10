@@ -23,6 +23,7 @@ class MapDeliveryTests(unittest.TestCase):
         self.assertTrue(all(delivery.visible_from_zoom(p, 16) for p in priorities))
         self.assertTrue(all(not delivery.visible_from_zoom(p, 3) for p in priorities))
         self.assertTrue(all(delivery.visible_from_zoom(1, z) for z in range(4, 17)))
+        self.assertTrue(all(delivery.visible_from_zoom(2, z) for z in range(4, 7)))
         self.assertFalse(delivery.visible_from_zoom(3, 6))
         self.assertTrue(delivery.visible_from_zoom(2, 7))
 
@@ -42,9 +43,12 @@ class MapDeliveryTests(unittest.TestCase):
         result = validate_map_delivery.validate()
         self.assertEqual(result["features"], len(self.features))
         records, _, _ = places.load_places()
-        expected_search = sum(classify_place(record)["eligible_for_public_map"] for record in records)
+        expected_search = sum(classify_place(record)["eligible_for_public_map"] and
+                              delivery.place_quality.is_map_poi(record) for record in records)
         self.assertEqual(result["search_records"], expected_search)
         self.assertGreaterEqual(result["search_records"], len(self.features))
+        self.assertEqual(result["canonical_place_quality"]["settlement"], 18971)
+        self.assertEqual(result["road_kilometer_posts"], 13047)
         aliases = json.loads((ROOT / "data/places/aliases.json").read_text())["aliases"]
         self.assertEqual(result["aliases"], len(aliases))
         self.assertEqual(result["min_zoom"], delivery.MIN_ZOOM)

@@ -4,10 +4,12 @@
     "latitude": 7.676071299999999,
     "longitude": 81.7301596
   },
-  "address": "No. 25 CCH Lane, Kattankudy 30100",
+  "address": "No. 25, CCH Lane, Kattankudy 30100",
   "categories": [
     "Catering food and drink supplier",
-    "Restaurant supply store"
+    "Restaurant supply store",
+    "Biryani restaurant",
+    "Personal chef service"
   ],
   "phone": "0776165795",
   "hours": [
@@ -55,5 +57,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJM6NMGTT1ASZNVPSGZ"
+  "id": "01M5W5PQJM6NMGTT1ASZNVPSGZ",
+  "alternate_addresses": [
+    "No. 25 CCH Lane, Kattankudy 30100",
+    "No. 25, CCH Lane, Kattankudy 30100"
+  ]
 }

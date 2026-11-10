@@ -4,7 +4,7 @@
     "latitude": 7.6801903,
     "longitude": 81.7286156
   },
-  "address": "Sir Razeek Fareed Mawatha, Kattankudy",
+  "address": "Sir Razeek Fareed Mawatha, Kattankudy 30100",
   "categories": [
     "Fast food restaurant"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJ877GMK6RVPNK6CMMR"
+  "id": "01M5W5PQJ877GMK6RVPNK6CMMR",
+  "alternate_addresses": [
+    "Sir Razeek Fareed Mawatha, Kattankudy",
+    "Sir Razeek Fareed Mawatha, Kattankudy 30100"
+  ]
 }
