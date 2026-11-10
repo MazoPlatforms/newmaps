@@ -159,7 +159,7 @@ console.log(JSON.stringify({
   base: base.origin,
   homepage: home.status,
   spa: spa.status,
-  manifest: manifestResponse.status,
+  manifest: apiManifest.status,
   nativeStyle: mapStyle.status,
   nativeTileJSON: nativeTileJSON.status,
   nativePbf: nativeTile.status,
