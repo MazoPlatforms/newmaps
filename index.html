@@ -24,10 +24,7 @@
       try {
         const t = localStorage.getItem('mazo-maps-theme');
         document.documentElement.dataset.theme =
-          t === 'dark' ||
-          (t !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)
-            ? 'dark'
-            : 'light';
+          t === 'dark' ? 'dark' : 'light';
       } catch {}
     </script>
     <link rel="stylesheet" href="./assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css" />

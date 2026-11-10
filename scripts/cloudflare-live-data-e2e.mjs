@@ -274,7 +274,7 @@ try {
     assert.ok(Number.isFinite(layer.minzoom), 'each vector symbol tier has an explicit zoom threshold');
   }
   assert.deepEqual(Object.fromEntries(poiStyle.layers.map(({ id, minzoom }) => [id, minzoom])), {
-    'mazo-poi-major': 6.2, 'mazo-poi-district': 8.6, 'mazo-poi-local': 12.4,
+    'mazo-poi-major': 8.8, 'mazo-poi-district': 9.8, 'mazo-poi-local': 12.4,
   }, 'POI tiers appear at their configured zoom levels');
   await page.evaluate((coords) => window.__MAZO_MAP_TEST__.jumpTo({ center: coords, zoom: 17, bearing: 0, pitch: 0 }), browserPlace[coordColumn]);
   await page.waitForFunction((id) => !window.__MAZO_MAP_TEST__.isMoving()

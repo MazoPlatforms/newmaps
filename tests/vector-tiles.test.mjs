@@ -126,7 +126,7 @@ test('TileJSON and light/dark styles are valid MapLibre Native URLs with revisio
     assert.equal(style.layers.some(layer => layer.id === 'places-label'), true);
     assert.equal(style.layers.some(layer => layer.id === 'places-dot'), true);
     const bootstrapPlaces = style.layers.find(layer => layer.id === 'places-dot');
-    assert.equal(bootstrapPlaces.minzoom, 6.2, 'the preloaded preview must stay hidden at small country/world scales');
+    assert.equal(bootstrapPlaces.minzoom, 8.8, 'the preloaded preview must stay hidden at national overview scale');
     assert.equal(bootstrapPlaces.filter, undefined,
       'country-scale sample selection is encoded in the MVT, not filtered client-side');
     assert.deepEqual(bootstrapPlaces.layout['text-field'], ['get', 'name'],
