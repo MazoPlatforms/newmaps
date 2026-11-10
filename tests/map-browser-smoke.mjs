@@ -182,7 +182,8 @@ try {
     });
     page.on('console', (message) => {
       if (message.type() === 'error'
-        && !(mode === 'pmtiles-retry' && message.text().includes('503'))) errors.push(message.text());
+        && !(mode === 'pmtiles-retry' && message.text().includes('503'))
+        && !(mode === 'pmtiles' && injectedSearchFailure && message.text().includes('503'))) errors.push(message.text());
     });
     page.on('response', (response) => {
       if (response.url().includes('/generated/places.pmtiles')) ranges.push({ status: response.status(), contentRange: response.headers()['content-range'] || null });
