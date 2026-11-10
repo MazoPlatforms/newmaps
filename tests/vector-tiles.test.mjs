@@ -156,10 +156,11 @@ test('Sri Lanka basemap XYZ tiles are streamed from chunked PMTiles with truthfu
   assert.ok(tilejson.vector_layers.some(layer => layer.id === 'transportation'));
   const response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/basemap/tiles/10/744/489.pbf'), fx.env);
   assert.equal(response.status, 200);
-  assert.equal(response.headers.get('content-encoding'), 'gzip');
+  assert.equal(response.headers.get('content-encoding'), null, 'the Worker decodes PMTiles gzip before MapLibre parses the binary MVT');
   assert.match(response.headers.get('cache-control'), /immutable/);
-  const compressed = new Uint8Array(await response.arrayBuffer());
-  const decoded = new VectorTile(new Pbf(gunzipSync(compressed)));
+  const tileBytes = new Uint8Array(await response.arrayBuffer());
+  assert.notDeepEqual([...tileBytes.slice(0, 2)], [0x1f, 0x8b], 'native tile response contains an uncompressed protobuf');
+  const decoded = new VectorTile(new Pbf(tileBytes));
   assert.ok(decoded.layers.transportation || decoded.layers.water || decoded.layers.landuse,
     'full-island basemap tile should contain rendered vector layers');
   assert.ok(decoded.layers.country_land?.length, 'tile must include the OSM-derived whole-country land polygon');

@@ -7,6 +7,7 @@ const BASEMAP_DESCRIPTOR = 'generated/sri-lanka-basemap-range.json';
 const TILE_TYPE = 'application/vnd.mapbox-vector-tile';
 const DIRECTORY_CACHE = new Map();
 const MAX_DIRECTORY_BYTES = 1_000_000;
+const MAX_DECOMPRESSED_TILE_BYTES = 8 * 1024 * 1024;
 const PMTILES_HEADER_BYTES = 127;
 const encoder = new TextEncoder();
 
@@ -75,6 +76,26 @@ async function inflateDirectory(compressed) {
     if (done) break;
     size += value.byteLength;
     if (size > MAX_DIRECTORY_BYTES) throw new Error('PMTiles directory exceeds size limit');
+    chunks.push(value);
+  }
+  const bytes = new Uint8Array(size);
+  let offset = 0;
+  for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
+  return bytes;
+}
+
+async function inflateTile(compressed) {
+  const reader = new Blob([compressed]).stream().pipeThrough(new DecompressionStream('gzip')).getReader();
+  const chunks = [];
+  let size = 0;
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    size += value.byteLength;
+    if (size > MAX_DECOMPRESSED_TILE_BYTES) {
+      await reader.cancel();
+      throw new Error('Decompressed vector tile exceeds size limit');
+    }
     chunks.push(value);
   }
   const bytes = new Uint8Array(size);
@@ -498,13 +519,14 @@ export async function handleVectorApi(request, env, rateLimitTile) {
         throw new Error('Basemap tile has invalid PMTiles bounds');
       }
       const etag = `"${descriptor.sha256}-${z}-${x}-${y}"`;
-      const headers = corsHeaders({ 'Content-Type': TILE_TYPE, 'Content-Encoding': 'gzip',
-        'Cache-Control': 'public, max-age=31536000, immutable', ETag: etag, Vary: 'Accept-Encoding',
+      const headers = corsHeaders({ 'Content-Type': TILE_TYPE,
+        'Cache-Control': 'public, max-age=31536000, immutable', ETag: etag,
         'X-Mazo-Data-Revision': revision, 'X-Content-Type-Options': 'nosniff' });
       if (ifNoneMatchMatches(request.headers.get('if-none-match'), etag)) return new Response(null, { status: 304, headers });
       if (request.method === 'HEAD') return new Response(null, { status: 200, headers });
-      const bytes = await read(offset, tile.length);
-      if (bytes.byteLength !== tile.length) throw new Error('Basemap tile range is truncated');
+      const compressed = await read(offset, tile.length);
+      if (compressed.byteLength !== tile.length) throw new Error('Basemap tile range is truncated');
+      const bytes = await inflateTile(compressed);
       return cacheableResponse(request, cacheKey, new Response(bytes, { status: 200, headers }));
     } catch (error) {
       console.error(JSON.stringify({ event: 'basemap_tile_error', z, x, y, message: error?.message || 'unknown' }));
