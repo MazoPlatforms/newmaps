@@ -94,7 +94,7 @@ try {
     method: 'POST', headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ start_lon: start[0], start_lat: start[1], end_lon: finish[0], end_lat: finish[1], profile: 'driving' }),
   });
-  assert.equal(rideRoute.status, 200, 'versioned RideNow routing uses the current published Kattankudy graph');
+  assert.equal(rideRoute.status, 200, 'versioned RideNow routing uses the current published Sri Lanka road graph');
   assert.equal((await rideRoute.json()).profile, 'driving');
   const productionApiSmoke = JSON.parse(execFileSync(process.execPath,
     [join(root, 'scripts/cloudflare-live-api-smoke.mjs')], {

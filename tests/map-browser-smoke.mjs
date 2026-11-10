@@ -50,8 +50,14 @@ const server = createServer(async (request, response) => {
       // style, TileJSON, sprite, and glyph URLs; otherwise those URLs point at a
       // different localhost origin and the browser cannot reach this harness.
       const workerOrigin = `http://${request.headers.host || 'localhost'}`;
+      let body;
+      if (!['GET', 'HEAD'].includes(request.method)) {
+        const chunks = [];
+        for await (const chunk of request) chunks.push(chunk);
+        body = Buffer.concat(chunks);
+      }
       const result = await worker.fetch(new Request(new URL(request.url, workerOrigin), {
-        method: request.method, headers: request.headers,
+        method: request.method, headers: request.headers, body,
       }), env);
       response.writeHead(result.status, Object.fromEntries(result.headers.entries()));
       response.end(request.method === 'HEAD' ? undefined : Buffer.from(await result.arrayBuffer()));
@@ -117,7 +123,12 @@ try {
     const speedRequests = [];
     const styleRequests = [];
     const thirdPartyMapRequests = [];
+    const routeResponses = [];
     page.on('pageerror', (error) => errors.push(error.message));
+    page.on('response', async (response) => {
+      if (!new URL(response.url()).pathname.endsWith('/api/v1/route')) return;
+      routeResponses.push({ status: response.status(), body: await response.text().catch(() => '') });
+    });
     page.on('requestfailed', (request) => {
       const failure = request.failure()?.errorText || 'unknown';
       // MapLibre cancels obsolete tile requests during camera moves and theme
@@ -126,11 +137,14 @@ try {
     });
     page.on('console', (message) => {
       if (message.type() === 'error'
+        && !message.text().includes('status of 422 (Unprocessable Entity)')
         && !(mode === 'pmtiles-retry' && message.text().includes('503'))) errors.push(message.text());
     });
     page.on('response', (response) => {
       if (response.url().includes('/generated/places.pmtiles')) ranges.push({ status: response.status(), contentRange: response.headers()['content-range'] || null });
-      if (response.status() >= 400 && !(mode === 'pmtiles-retry' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))) {
+      const expectedRouteRejection = response.status() === 422 && new URL(response.url()).pathname === '/api/v1/route';
+      if (response.status() >= 400 && !expectedRouteRejection
+        && !(mode === 'pmtiles-retry' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))) {
         errors.push(`HTTP ${response.status()} ${response.url()}`);
       }
     });
@@ -388,18 +402,22 @@ try {
     await wait(page, () => !document.querySelector('#route-panel').hidden && document.querySelector('#route-details').hidden === false);
     assert.match(await page.locator('#route-status').innerText(), /permission denied/i);
     await page.locator('#route-pick-on-map').click();
-    // Pick a verified routing graph node that is distinct from the destination;
-    // the live app intentionally does not fall back to an external router.
+    // Pick a verified routing graph node that is distinct from the destination.
     await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.737, 7.686], zoom: 16, bearing: 0, pitch: 0 }));
     await wait(page, () => !window.__MAZO_MAP_TEST__.isMoving(), 5_000);
     const pickupPoint = await page.evaluate(() => window.__MAZO_MAP_TEST__.project(window.__MAZO_MAP_TEST__.getCenter().toArray()));
     await page.mouse.click(pickupPoint.x, pickupPoint.y);
-    await wait(page, () => /Local route ready/.test(document.querySelector('#route-status').innerText), 20_000);
+    try {
+      await wait(page, () => /Local route ready/.test(document.querySelector('#route-status').innerText), 20_000);
+    } catch (error) {
+      console.error(`Route browser smoke failed (${mode}); evidence: ${JSON.stringify({ status: await page.locator('#route-status').innerText(), pickup: await page.locator('#route-pickup').inputValue(), destination: await page.locator('#route-destination').inputValue(), routeResponses })}`);
+      throw error;
+    }
     assert.match(await page.locator('#route-summary').innerText(), /km/);
     assert.match(await page.locator('#route-status').innerText(), /snapped/i);
     const routeFeatureCount = await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route'));
     assert.equal(routeFeatureCount, 1, 'directions draw the selected route');
-    assert.deepEqual(thirdPartyMapRequests, [], 'routing stays on Mazo services and local road data');
+    assert.deepEqual(thirdPartyMapRequests, [], 'routing stays on self-hosted Mazo services and local road data');
     await page.locator('[data-route-mode="cycling"]').dispatchEvent('click');
     assert.equal(await page.locator('[data-route-mode="cycling"]').getAttribute('aria-pressed'), 'true');
     // Map movement collapses the mobile sheet; reopen it before choosing a new pickup.
@@ -411,6 +429,10 @@ try {
     const outsidePickup = await page.evaluate(() => window.__MAZO_MAP_TEST__.project(window.__MAZO_MAP_TEST__.getCenter().toArray()));
     await page.mouse.click(outsidePickup.x, outsidePickup.y);
     await wait(page, () => document.querySelector('#route-status').innerText.includes('No route is available'), 10_000);
+    const rejectedRoute = routeResponses.at(-1);
+    assert.equal(rejectedRoute?.status, 422, 'outside-coverage route should fail closed with HTTP 422');
+    assert.ok(['outside_coverage', 'snap_too_far', 'no_connected_route'].includes(JSON.parse(rejectedRoute.body).error),
+      'route rejection should explain unsupported road coverage or lack of a connected road');
     assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route')), 0, 'failed route refresh clears stale route geometry');
     if (mode === 'pmtiles') {
       const closeButton = page.locator('#route-close');

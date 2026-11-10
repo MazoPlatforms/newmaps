@@ -4,7 +4,7 @@
   "scripts": {
     "build:cloudflare": "python3 scripts/build_cloudflare_assets.py",
     "build:vector-assets": "node scripts/build_vector_assets.mjs",
-    "deploy:cloudflare": "wrangler deploy --config wrangler.jsonc",
+    "deploy:cloudflare": "python scripts/build_sri_lanka_routing_source.py && wrangler deploy --config wrangler.jsonc",
     "test:unit": "node --test tests/*.test.mjs",
     "test:browser": "node tests/map-browser-smoke.mjs",
     "test:live-data:e2e": "npm run build:cloudflare && node scripts/cloudflare-live-data-e2e.mjs"

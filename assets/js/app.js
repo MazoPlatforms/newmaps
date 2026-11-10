@@ -275,7 +275,7 @@ function renderPlaceDetails(p){
 }
 $('#place-close').onclick=closePlace;
 
-/* In-map directions use the local road graph only; map coverage does not imply route coverage. */
+/* Prefer the self-hosted Sri Lanka router online; retain the compact Kattankudy graph for offline fallback. */
 const routePanel=$('#route-panel');
 let routeSheetState='compact';
 function setRouteSheetState(state){
@@ -357,6 +357,15 @@ async function findLocalRoute(start,end,mode){
  if(result.error==='snap_too_far')return null;
  return null;
 }
+async function findOnlineRoute(start,end,mode,signal){
+ if(!navigator.onLine)return null;
+ const response=await fetch('./api/v1/route',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},signal,body:JSON.stringify({start_lon:start[0],start_lat:start[1],end_lon:end[0],end_lat:end[1],profile:mode})});
+ const body=await response.json();
+ if(!response.ok)return {error:body.error||'routing_unavailable',coverage:body.coverage};
+ if(!Array.isArray(body.routes)||!body.routes.length)return {error:'no_connected_route',coverage:body.coverage};
+ const source=body.coverage?.startsWith('Sri Lanka')?'online':'network-local';
+ return {coverage:body.coverage,routes:body.routes.map(route=>({...route,source,startCoordinate:route.geometry.coordinates[0],endCoordinate:route.geometry.coordinates.at(-1)}))};
+}
 function routeRenderInstructions(rows){
  const list=$('#route-steps');list.replaceChildren();routeSteps=rows.map((row,index)=>({...row,progressMeters:Number.isFinite(row.progressMeters)?row.progressMeters:null,index}));
  let progress=0;for(const row of routeSteps){if(row.progressMeters===null){progress+=Number(row.distance)||0;row.progressMeters=progress}}
@@ -371,7 +380,17 @@ function routeLocation(){
 async function routeCalculate(){
  if(!routePickup||!routeDestination)return;
  if(routeAbort)routeAbort.abort();const controller=new AbortController();routeAbort=controller;const sequence=++routeSequence;
+ let routeFailure=null;
  routeStatus('Calculating '+routeMode+' route…');$('#route-summary').textContent='';$('#route-steps').replaceChildren();
+ try{
+  const online=await findOnlineRoute(routePickup,routeDestination,routeMode,controller.signal);
+  if(sequence!==routeSequence)return;
+  if(online?.routes?.length){
+   routeCandidates=online.routes;routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();return;
+  }
+  routeFailure=online;
+ }catch(error){if(error.name!=='AbortError')console.warn('Countrywide routing unavailable:',error)}
+ if(sequence!==routeSequence)return;
  try{
   const local=await findLocalRoute(routePickup,routeDestination,routeMode);
   if(sequence!==routeSequence)return;
@@ -381,14 +400,15 @@ async function routeCalculate(){
   }
  }catch(error){console.warn('Local routing unavailable:',error)}
  if(sequence!==routeSequence)return;
- routeStatus('No route is available for these locations. Offline road routing currently covers Kattankudy only; map coverage does not imply route coverage.');
+ const status=routeFailure?.coverage?.startsWith('Sri Lanka')?'No route is available in the Sri Lanka OSM road coverage.':routeFailure?.coverage?.includes('Kattankudy')?'No route is available on the Kattankudy road graph.':navigator.onLine?'Sri Lanka online routing is unavailable. Offline fallback routing covers Kattankudy only.':'No route is available for these locations. Offline road routing currently covers Kattankudy only; map coverage does not imply route coverage.';
+ routeStatus(status);
  routeLine=null;routeDraw();routePickupMarker?.remove();routeDestinationMarker?.remove();routePickupMarker=routeDestinationMarker=null;
 }
 function routeShowCandidate(index){
  const route=routeCandidates[index];if(!route)return;routeSource=route.source;routeRender(route.geometry,route.startCoordinate,route.endCoordinate);routeProgressGeometry=route.geometry.coordinates;
- const km=(route.distance/1000).toFixed(route.distance<1000?2:1),mins=Math.max(1,Math.round(route.duration/60));
- $('#route-summary').textContent=km+' km · about '+mins+' min · '+routeMode+' · local road graph';
- routeStatus(`Local route ready. Start/end snapped ${Math.round(route.startSnapMeters)} m / ${Math.round(route.endSnapMeters)} m. ETA uses average road-class speeds, not verified speed limits.`);
+ const km=(route.distance/1000).toFixed(route.distance<1000?2:1),mins=Math.max(1,Math.round(route.duration/60)),online=route.source==='online',networkLocal=route.source==='network-local';
+ $('#route-summary').textContent=km+' km · about '+mins+' min · '+routeMode+' · '+(online?'Sri Lanka road graph':networkLocal?'Kattankudy road graph':'Kattankudy offline graph');
+ routeStatus(online?'Sri Lanka route ready. '+(route.durationNote||'ETA is an estimate; live traffic is unavailable.'):networkLocal?`Local route ready. Start/end snapped ${Math.round(route.startSnapMeters)} m / ${Math.round(route.endSnapMeters)} m. API fallback coverage is Kattankudy.`:`Offline route ready. Start/end snapped ${Math.round(route.startSnapMeters)} m / ${Math.round(route.endSnapMeters)} m. ETA uses average road-class speeds, not verified speed limits.`);
  routeRenderInstructions(route.instructions||[]);routeUpdateTurn();routeFit(route.geometry.coordinates);
  const choices=$('#route-alternatives');choices.replaceChildren();choices.hidden=routeCandidates.length<2;
  routeCandidates.forEach((candidate,choice)=>{const button=document.createElement('button');button.type='button';button.setAttribute('aria-pressed',String(choice===index));button.textContent=`Route ${choice+1} · ${(candidate.distance/1000).toFixed(1)} km`;button.onclick=()=>routeShowCandidate(choice);choices.append(button)});

@@ -43,6 +43,9 @@ def download_source() -> Path:
     parts = source_manifest.get("repository_parts")
     if not isinstance(parts, list) or not parts:
         raise ValueError("Complete Sri Lanka OSM source parts are required in data/basemap/source/")
+    if source.is_file() and source.stat().st_size == sum(int(part.get("bytes", 0)) for part in parts) \
+            and sha256(source) == source_manifest.get("sha256"):
+        return source
     source.unlink(missing_ok=True)
     with source.open("wb") as output:
         for part in parts:

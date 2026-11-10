@@ -142,12 +142,22 @@ for (const profile of ['driving', 'walking', 'cycling']) {
   routes[profile] = { alternatives: route.routes.length, distance: route.routes[0].distance,
     duration: route.routes[0].duration, coordinateCount: route.routes[0].geometry.coordinates.length };
 }
+const countryRouteResponse = await fetch(new URL('route', api), {
+  method: 'POST', headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
+  body: JSON.stringify({ start_lon: 79.8612, start_lat: 6.9271, end_lon: 81.73, end_lat: 7.68, profile: 'driving' }),
+});
+assert.equal(countryRouteResponse.status, 200, 'self-hosted routing should connect Colombo to Kattankudy');
+const countryRoute = await countryRouteResponse.json();
+assert.match(countryRoute.coverage, /^Sri Lanka OSM road network/);
+assert.ok(countryRoute.routes[0].distance > 100_000, 'country route should span more than 100 km');
+assert.ok(countryRoute.routes[0].geometry.coordinates.length > 10, 'country route should return detailed road geometry');
+
 const outsideCoverage = await fetch(new URL('route', api), {
   method: 'POST', headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
-  body: JSON.stringify({ start_lon: 79.9, start_lat: 7.7, end_lon: 79.91, end_lat: 7.7, profile: 'driving' }),
+  body: JSON.stringify({ start_lon: 78, start_lat: 7.7, end_lon: 79.8612, end_lat: 6.9271, profile: 'driving' }),
 });
-assert.equal(outsideCoverage.status, 422, 'routing outside the local road graph should fail with a coverage/snap error');
-assert.equal((await outsideCoverage.json()).error, 'snap_too_far');
+assert.equal(outsideCoverage.status, 422, 'routing outside the declared Sri Lanka extract should fail');
+assert.equal((await outsideCoverage.json()).error, 'outside_coverage');
 
 console.log(JSON.stringify({ status: 'PASS', revision: liveVersion.revision,
   polling: { version: 200, conditional: unchangedVersion.status, etag: versionEtag },
@@ -155,4 +165,8 @@ console.log(JSON.stringify({ status: 'PASS', revision: liveVersion.revision,
     contentRange: range.headers.get('content-range'), suffixRange: 206, fullSha256: archive.sha256, privateChunk: 404 },
   nativeMapLibre: { style: 200, tilejson: 200, tile: 200, decodedPlaceFeatures: decodedTile.layers.places.length, glyphs: 200, sprites: 200 },
   cors: 'public-read-only',
-  searchQuery: query, routes, routeCoverage: 'Kattankudy-area local road graph; outside coordinates return 422' }, null, 2));
+  searchQuery: query, routes,
+  countrywideRoute: { from: 'Colombo', to: 'Kattankudy', distance: countryRoute.routes[0].distance,
+    duration: countryRoute.routes[0].duration, coordinates: countryRoute.routes[0].geometry.coordinates.length,
+    coverage: countryRoute.coverage },
+  routeCoverage: 'Sri Lanka OSM road network (snapshot 261104); outside extract bounds return 422' }, null, 2));
