@@ -2,8 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { CAMERA_OPTIONS, INITIAL_CAMERA, POI_ZOOM_THRESHOLDS, cameraDuration, configureNorthUpInteractions, placeDisplayTier, placeFeature, placePriority, poiLayerFilter, visiblePoiTiers } from '../assets/js/map-presentation.mjs';
 
-test('map camera starts over the service area, remains north-up, and allows a world view', () => {
-  assert.deepEqual(INITIAL_CAMERA, { center: [81.5569, 7.8381], zoom: 8.6 });
+test('map camera starts at a Sri Lanka overview, remains north-up, and allows a world view', () => {
+  assert.deepEqual(INITIAL_CAMERA, { center: [80.8, 7.85], zoom: 7.4 });
   assert.equal(CAMERA_OPTIONS.minZoom, 0);
   assert.equal(CAMERA_OPTIONS.maxZoom, 20);
   assert.equal(CAMERA_OPTIONS.bearing, 0);

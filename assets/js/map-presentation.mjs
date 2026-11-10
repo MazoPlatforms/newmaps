@@ -1,6 +1,7 @@
 import { discoveryCategoryFor } from './place-categories.mjs';
 
-export const INITIAL_CAMERA = Object.freeze({ center: [81.5569, 7.8381], zoom: 8.6 });
+// Start at a country overview so the Sri Lanka land shape is visible on launch.
+export const INITIAL_CAMERA = Object.freeze({ center: [80.8, 7.85], zoom: 7.4 });
 export const POI_ZOOM_THRESHOLDS = Object.freeze({ major: 6.2, district: 8.6, category: 9.4, local: 12.4 });
 
 export const CAMERA_OPTIONS = Object.freeze({
