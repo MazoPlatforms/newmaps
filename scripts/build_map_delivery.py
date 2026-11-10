@@ -114,6 +114,11 @@ def overview_place(feature_id):
     return hashlib.sha256(feature_id.encode("utf-8")).digest()[0] == 0
 
 
+def include_tile_feature(feature_id, zoom):
+    """Keep country/region tiles sparse, then reveal full data at street zoom."""
+    return zoom >= 10 or overview_place(feature_id)
+
+
 def mercator(lon, lat):
     latitude = max(-85.05112878, min(85.05112878, lat))
     x = lon * MERCATOR_LIMIT / 180
@@ -191,6 +196,8 @@ def build_tiles(features):
         compact = {"id": feature_id, "name": props["name"], "kind": kind,
                    "priority": importance, "overview": overview_place(feature_id)}
         for zoom in range(MIN_ZOOM, MAX_ZOOM + 1):
+            if not include_tile_feature(feature_id, zoom):
+                continue
             if not visible_from_zoom(importance, zoom):
                 continue
             x, y = tile_xy(lon, lat, zoom)

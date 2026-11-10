@@ -33,6 +33,10 @@ class MapDeliveryTests(unittest.TestCase):
         self.assertLess(len(preview), len(ids) // 100)
         self.assertTrue(delivery.overview_place("overview-fixture-132"))
         self.assertFalse(delivery.overview_place("overview-fixture-no-match"))
+        self.assertTrue(all(delivery.include_tile_feature(place_id, 9) == delivery.overview_place(place_id)
+                            for place_id in ids))
+        self.assertTrue(all(delivery.include_tile_feature(place_id, 10) for place_id in ids),
+                        "full place coverage should return at street zoom")
 
     def test_every_feature_and_alias_is_present_in_generated_search_and_tiles(self):
         result = validate_map_delivery.validate()

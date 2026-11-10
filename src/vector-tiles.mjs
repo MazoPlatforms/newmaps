@@ -22,10 +22,9 @@ const POI_LAYERS = [
   // archive is collision-aware; laying out tens of thousands of bootstrap
   // symbols at once is expensive even when collision eventually hides them.
   { id: 'places-dot', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 6.2,
-    filter: ['==', ['get', 'overview'], true],
-    layout: { 'text-field': '•', 'text-font': ['Mazo Maps Sans Regular'],
+    layout: { 'text-field': ['get', 'name'], 'text-font': ['Mazo Maps Sans Regular'],
       'text-size': ['interpolate', ['linear'], ['zoom'], 6.2, 10, 12, 12, 16, 14],
-      'text-allow-overlap': false, 'text-ignore-placement': false, 'text-padding': 20,
+      'text-allow-overlap': false, 'text-ignore-placement': false, 'text-padding': 4, 'text-max-width': 8,
       'symbol-z-order': 'auto', 'symbol-sort-key': ['get', 'priority'] },
     paint: { 'text-color': ['match', ['get', 'kind'], 'health', '#d63b4b', 'fuel', '#e28b28',
       'school', '#7358bd', 'worship', '#29876a', 'landmark', '#b7791f', '#147d91'],
