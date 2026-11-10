@@ -177,12 +177,13 @@ test('XYZ tile response decodes the PMTiles payload by range without buffering t
   const response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/tiles/10/744/489.pbf'), fx.env);
   assert.equal(response.status, 200);
   assert.equal(response.headers.get('content-type'), 'application/vnd.mapbox-vector-tile');
-  assert.equal(response.headers.get('content-encoding'), 'gzip');
+  assert.equal(response.headers.get('content-encoding'), null, 'MapLibre receives the uncompressed MVT protobuf');
   assert.equal(response.headers.get('cache-control'), 'public, max-age=31536000, immutable');
   assert.equal(response.headers.get('access-control-allow-origin'), '*');
   const body = new Uint8Array(await response.arrayBuffer());
   assert.ok(body.byteLength > 100);
-  const decoded = new VectorTile(new Pbf(gunzipSync(body)));
+  assert.notDeepEqual([...body.slice(0, 2)], [0x1f, 0x8b], 'tile response is decoded from PMTiles gzip');
+  const decoded = new VectorTile(new Pbf(body));
   assert.ok(decoded.layers.places, 'tile should contain the documented places MVT layer');
   assert.ok(decoded.layers.places.length > 0, 'sample Kattankudy XYZ tile should contain features');
   assert.match(String(decoded.layers.places.feature(0).properties.id), /^01[A-Z0-9]+$/);

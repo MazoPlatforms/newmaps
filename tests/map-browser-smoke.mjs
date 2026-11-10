@@ -443,7 +443,7 @@ try {
     await wait(page, (count) => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-speed-review') > 0, 30_000);
     assert.equal(speedRequests.filter((url) => url.includes('speed-limits.mzp')).length, 1);
     const result = {
-      mode, startupMs, sourceType, startupTransferBytes, startupHeapBytes,
+      mode, startupMs, sourceType: bootstrapPoiSource.type, startupTransferBytes, startupHeapBytes,
       postGcHeapBytes: postGcHeap.usedSize,
       interactiveTransferBytes,
       animation,

@@ -572,13 +572,16 @@ export async function handleVectorApi(request, env, rateLimitTile) {
       throw new Error('PMTiles tile payload has invalid bounds');
     }
     const etag = `"${state.sha256}-${z}-${x}-${y}"`;
-    const headers = corsHeaders({ 'Content-Type': TILE_TYPE, 'Content-Encoding': 'gzip',
-      'Cache-Control': 'public, max-age=31536000, immutable', ETag: etag, 'Vary': 'Accept-Encoding',
+    const headers = corsHeaders({ 'Content-Type': TILE_TYPE,
+      'Cache-Control': 'public, max-age=31536000, immutable', ETag: etag,
       'X-Mazo-Data-Revision': manifest.revision || 'bootstrap', 'X-Content-Type-Options': 'nosniff' });
     if (ifNoneMatchMatches(request.headers.get('if-none-match'), etag)) return new Response(null, { status: 304, headers });
     if (request.method === 'HEAD') return new Response(null, { status: 200, headers });
-    const tileBytes = await read(offset, tile.length);
-    if (tileBytes.byteLength !== tile.length) throw new Error('PMTiles tile payload is truncated');
+    const compressedTileBytes = await read(offset, tile.length);
+    if (compressedTileBytes.byteLength !== tile.length) throw new Error('PMTiles tile payload is truncated');
+    // MapLibre Native/Web expects the MVT protobuf bytes here; PMTiles stores
+    // the tile internally gzip-compressed, which is not HTTP content encoding.
+    const tileBytes = await inflateTile(compressedTileBytes);
     const response = new Response(tileBytes, { status: 200, headers });
     return cacheableResponse(request, cacheKey, response);
     } catch {

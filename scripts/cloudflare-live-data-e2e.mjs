@@ -150,9 +150,15 @@ try {
   await page.addInitScript(() => { globalThis.__MAZO_LIVE_DATA_TEST_POLL_MS = 250; });
   page.on('pageerror', (error) => browserErrors.push(error.message));
   const placeTileStatuses = new Map();
+  const placeTileResponses = new Map();
   page.on('response', (response) => {
     if (new URL(response.url()).pathname.match(/\/api\/v1\/tiles\/\d+\/\d+\/\d+\.pbf$/)) {
       placeTileStatuses.set(response.url(), response.status());
+      placeTileResponses.set(response.url(), response.body().then((body) => ({
+        status: response.status(), contentType: response.headers()['content-type'],
+        contentEncoding: response.headers()['content-encoding'], bodyBytes: body.byteLength,
+        prefix: [...body.slice(0, 8)].map((byte) => byte.toString(16).padStart(2, '0')).join(''),
+      })).catch((error) => ({ bodyError: error.message })));
     }
   });
   page.on('console', (message) => {
@@ -269,7 +275,8 @@ try {
     'changed bytes receive a new content address so immutable browser/CDN caches cannot shadow updates');
   if (browserErrors.length) {
     const failingTileDetails = await Promise.all([...basemapTileResponses].map(async ([url, result]) => [url, await result]));
-    assert.fail(`live update browser errors: ${browserErrors.join(' | ')}\nBasemap tile responses: ${JSON.stringify(failingTileDetails)}`);
+    const failingPlaceDetails = await Promise.all([...placeTileResponses].map(async ([url, result]) => [url, await result]));
+    assert.fail(`live update browser errors: ${browserErrors.join(' | ')}\nPlace tile responses: ${JSON.stringify(failingPlaceDetails.slice(0, 12))}\nBasemap tile responses: ${JSON.stringify(failingTileDetails)}`);
   }
 
   await writeFile(citiesPath, initialCities);
