@@ -4,6 +4,10 @@ A static MapLibre GL JS map with district-wide place coverage for Batticaloa Dis
 
 Community contributions use GitHub forks and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for place schema, safe JSON templates, Codespaces allocator commands, validation, and maintainer review guidance.
 
+## Self-hosted basemap (no third-party map servers)
+
+At runtime the app requests only its own origin: base-map vector tiles, glyphs, fonts, place tiles and the routing graph. There is no OpenFreeMap, Google Fonts or public routing service dependency, so the map keeps working if OpenStreetMap or any other server is down, and offline after the first load. Base tiles are built once from an OpenStreetMap extract by the **One-time self-hosted basemap build** GitHub Actions workflow. See [docs/LOCAL_BASEMAP.md](docs/LOCAL_BASEMAP.md) for setup, size limits, offline behaviour and attribution. Directions are calculated on the device from the saved Kattankudy road graph; outside it no route is offered.
+
 ## Place records
 
 Every place has an immutable 26-character ULID `id`, a non-empty `name`, and `coordinates` as `{ "latitude": number, "longitude": number }` or `null` when the source has no verified location. Other source properties are retained. The JSON Schema is `data/place.schema.json`.
@@ -24,17 +28,17 @@ Road segments live in `data/roads/<shard>/<ULID>.json`, with no more than 999 re
 
 ## Validation and deployment
 
-`python scripts/places.py validate`, `python scripts/validate_map_delivery.py`, and `python scripts/roads.py validate` check IDs, filenames, source IDs, JSON, geometry, duplicate IDs, generated PMTiles/search/detail consistency, and shard limits. `python -m unittest discover -s tests -v` runs the full regression suite. GitHub Actions validates pull requests, builds the Worker assets, deploys Mazo Maps to Cloudflare Workers, and synchronizes changed map data to R2.
+`python scripts/places.py validate`, `python scripts/validate_map_delivery.py`, and `python scripts/roads.py validate` check IDs, filenames, source IDs, JSON, geometry, duplicate IDs, generated PMTiles/search/detail consistency, and shard limits. `python -m unittest discover -s tests -v` runs the full regression suite and `npm run test:unit` the JavaScript unit tests. `npm run test:browser` also asserts that no request leaves the app origin. GitHub Actions validates pull requests, builds the Worker assets, deploys Mazo Maps to Cloudflare Workers, and synchronizes changed map data to R2.
 
 Migration artifacts `migration-record-map.json` and `migration-exclusions.json` map every original file/index to its new ID and document records without coordinates. The original 61 category datasets are preserved on the [`archive/pre-ulid-migration`](https://github.com/MazoPlatforms/newmaps/tree/archive/pre-ulid-migration) branch. The live app loads the generated PMTiles archive instead of requesting individual place JSON files.
 
 ## Cloudflare Workers
 
-Cloudflare Workers with Static Assets and the `/api/*` Worker are the production host. GitHub is the source of truth for map records and source datasets; GitHub Actions publishes changed objects to R2 and atomically advances the live manifest. Wrangler bindings, PMTiles byte-range handling, required GitHub secrets, API contracts, and RideNow integration are documented in [Cloudflare Workers deployment](docs/CLOUDFLARE_WORKERS.md) and [Cloudflare live data](docs/cloudflare-live-data.md).
+Cloudflare Workers with Static Assets and the `/api/*` Worker are the production host. GitHub is the source of truth for map records and source datasets; GitHub Actions publishes changed objects to R2 and atomically advances the live manifest. Wrangler bindings, PMTiles byte-range handling, required GitHub secrets, and API/data publication contracts are documented in [Cloudflare Workers deployment](docs/CLOUDFLARE_WORKERS.md) and [Cloudflare live data](docs/cloudflare-live-data.md).
 
 ## Rollback
 
-Revert the relevant pull request. The Cloudflare deployment workflow restores the Worker build, and the live-data sync workflow republishes the reverted GitHub source data to R2. Place PMTiles, indexes, and road/speed MZP files are build artifacts and do not need commits.
+Revert the relevant pull request. The Cloudflare deployment workflow restores the Worker build, and the live-data sync workflow republishes the reverted GitHub source data to R2. Place PMTiles, indexes, and road/speed MZP files are build artifacts and do not need commits. Basemap archives under `assets/basemap/` are committed assets and roll back with their pull request.
 
 
 ## Speed-limit records

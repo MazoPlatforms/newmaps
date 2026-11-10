@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { createReadStream, mkdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
+import { createReadStream, mkdirSync, readFileSync, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -7,7 +7,7 @@ import { gzipSync } from 'node:zlib';
 import { chromium } from 'playwright';
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
-const screenshotDir = process.env.PHASE10_SCREENSHOTS_DIR || process.env.PHASE9_SCREENSHOTS_DIR;
+const screenshotDir = process.env.MAZO_SCREENSHOTS_DIR;
 const contentTypes = {
   '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8',
   '.mjs': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8',
@@ -20,6 +20,8 @@ const nameColumn = searchFixture.fields.indexOf('name');
 const coordinatesColumn = searchFixture.fields.indexOf('coordinates');
 const searchFixturePlace = searchFixture.records.find((record) => record[nameColumn] === 'Noor Accessories Showroom');
 assert.ok(searchFixturePlace, 'synthetic workflow fixture must be present in the generated search index');
+assert.ok(statSync(resolve(root, 'assets/basemap/manifest.json')).isFile(),
+  'self-hosted basemap is missing: run the one-time basemap workflow and merge its PR (docs/LOCAL_BASEMAP.md)');
 const expectedPlaceId = searchFixturePlace[idColumn];
 const server = createServer((request, response) => {
   const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
@@ -65,9 +67,13 @@ const wait = (page, predicate, timeout = 120_000, argument = undefined) => page.
 await new Promise((resolveListen) => server.listen(0, '127.0.0.1', resolveListen));
 const address = server.address();
 const origin = `http://127.0.0.1:${address.port}`;
+// Any http(s) request that leaves the test origin proves a third-party dependency.
+const trackExternal = (page, sink) => page.on('request', (request) => {
+  const url = request.url();
+  if (/^https?:/i.test(url) && !url.startsWith(origin)) sink.push(url);
+});
 const browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--enable-unsafe-swiftshader'] });
-const results = [];
-const cartographicViews = [];
+const externalRequests = [];
 try {
   for (const mode of ['pmtiles', 'pmtiles-retry']) {
     const context = await browser.newContext({
@@ -82,7 +88,7 @@ try {
     const errors = [];
     const ranges = [];
     const speedRequests = [];
-    const styleRequests = [];
+    trackExternal(page, externalRequests);
     page.on('pageerror', (error) => errors.push(error.message));
     page.on('console', (message) => {
       if (message.type() === 'error'
@@ -96,7 +102,6 @@ try {
     });
     page.on('request', (request) => {
       if (request.url().includes('speed-limits')) speedRequests.push(request.url());
-      if (request.url().includes('/styles/liberty')) styleRequests.push(request.url());
     });
     if (mode === 'pmtiles-retry') {
       let firstArchiveRequest = true;
@@ -115,6 +120,9 @@ try {
     }
     await wait(page, () => window.__MAZO_MAP_TEST__?.isStyleLoaded() && document.querySelector('#map-frame')?.dataset.state === 'ready');
     await wait(page, () => document.querySelectorAll('.categories button').length > 2 && document.querySelector('#search-status').hidden, 90_000);
+    // The self-hosted basemap must be installed from this origin.
+    await wait(page, () => window.__MAZO_MAP_TEST__?.getSource('island')?.type === 'vector'
+      && window.__MAZO_MAP_TEST__?.getLayer('island-water') && window.__MAZO_MAP_TEST__?.isStyleLoaded(), 60_000);
     const sourceType = await page.evaluate(() => window.__MAZO_MAP_TEST__.getSource('mazo-pois')?.type);
     assert.equal(sourceType, 'vector', 'production places render from PMTiles vector tiles');
     assert.equal(await page.evaluate(() => new URL(location.href).searchParams.has('delivery')), false, 'production does not require a format flag');
@@ -163,7 +171,7 @@ try {
         ['kattankudy-street-network', [81.7337, 7.6831], 15], ['victory-ground-deen-road', [81.7389, 7.6766], 16],
       ];
       for (const [name, center, zoom] of scenes) {
-        const tilesReady = await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
+        await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
         await page.waitForTimeout(250);
         const visible = await page.evaluate(() => {
           const map = window.__MAZO_MAP_TEST__;
@@ -189,7 +197,6 @@ try {
           assert.ok(visible.buildingFeatures > 0, `${name} should expose building footprints at street zoom`);
         }
         await page.screenshot({ path: `${screenshotDir}/${name}-light.png` });
-        cartographicViews.push({ name, theme: 'light', tilesReady, ...visible });
       }
       await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     }
@@ -214,8 +221,8 @@ try {
     await wait(page, () => document.documentElement.dataset.theme === 'dark'
       && window.__MAZO_MAP_TEST__?.isStyleLoaded()
       && window.__MAZO_MAP_TEST__?.getLayer('mazo-poi-selected')
+      && window.__MAZO_MAP_TEST__?.getLayer('island-water')
       && window.__MAZO_MAP_TEST__?.getSource('mazo-selected-place')?.type === 'geojson', 60_000);
-    assert.equal(styleRequests.length, 1, 'theme switching updates paint without reloading the basemap style');
     const themedLand = await page.evaluate(() => window.__MAZO_MAP_TEST__.getPaintProperty('background', 'background-color'));
     assert.ok(String(themedLand).replace(/\s/g, '').toLowerCase().includes('#202d32') || String(themedLand).replace(/\s/g, '').toLowerCase().includes('32,45,50'), `dark background should use Mazo land palette, received ${JSON.stringify(themedLand)}`);
     const opacities = await page.evaluate(() => ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local', 'mazo-poi-selected']
@@ -234,10 +241,9 @@ try {
         ['kattankudy-street-network', [81.7337, 7.6831], 15], ['victory-ground-deen-road', [81.7389, 7.6766], 16],
       ];
       for (const [name, center, zoom] of darkScenes) {
-        const tilesReady = await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
+        await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
         await page.waitForTimeout(250);
         await page.screenshot({ path: `${screenshotDir}/${name}-dark.png` });
-        cartographicViews.push({ name, theme: 'dark', tilesReady, zoom });
       }
       await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     }
@@ -312,11 +318,8 @@ try {
     const selectedAtWorld = await page.evaluate(() => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-selected'] }).map((feature) => feature.properties.id));
     assert.ok(selectedAtWorld.includes(expectedPlaceId), 'selected place remains highlighted in the world-scale view');
 
-    await page.route('https://router.project-osrm.org/**', (route) => route.fulfill({
-      status: 200,
-      contentType: 'application/json',
-      body: JSON.stringify({ code: 'Ok', routes: [{ distance: 1200, duration: 240, geometry: { type: 'LineString', coordinates: [[81.72, 7.68], [81.73, 7.68]] }, legs: [{ steps: [] }] }] }),
-    }));
+    // Routing is local only. A pickup far outside the Kattankudy graph must fail
+    // without contacting any routing service.
     await page.evaluate(() => Object.defineProperty(navigator, 'geolocation', {
       configurable: true,
       value: { getCurrentPosition(_success, failure) { failure({ code: 1 }); }, watchPosition() { return 1; }, clearWatch() {} },
@@ -327,17 +330,9 @@ try {
     await page.locator('#route-pick-on-map').click();
     const pickupPoint = await page.evaluate(() => window.__MAZO_MAP_TEST__.project(window.__MAZO_MAP_TEST__.getCenter().toArray()));
     await page.mouse.click(pickupPoint.x, pickupPoint.y);
-    await wait(page, () => /(?:Local|Online) route ready/.test(document.querySelector('#route-status').innerText), 20_000);
-    assert.match(await page.locator('#route-summary').innerText(), /km/);
-    assert.match(await page.locator('#route-status').innerText(), /snapped|Coordinates are sent/i);
-    const routeFeatureCount = await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route'));
-    assert.equal(routeFeatureCount, 1, 'directions draw the selected route');
-    await page.evaluate(() => {
-      const originalFetch = window.fetch.bind(window);
-      window.fetch = (url, options) => String(url).includes('/route/v1/')
-        ? Promise.resolve(new Response('offline', { status: 503 }))
-        : originalFetch(url, options);
-    });
+    await wait(page, () => /Unable to calculate route/.test(document.querySelector('#route-status').innerText), 20_000);
+    assert.match(await page.locator('#route-status').innerText(), /no online service/i);
+    assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route')), 0, 'unroutable request draws no route');
     await page.locator('[data-route-mode="cycling"]').dispatchEvent('click');
     assert.equal(await page.locator('[data-route-mode="cycling"]').getAttribute('aria-pressed'), 'true');
     await wait(page, () => document.querySelector('#route-status').innerText.includes('Unable to calculate route'), 10_000);
@@ -354,6 +349,7 @@ try {
     const interactiveTransferBytes = await page.evaluate(() => performance.getEntriesByType('resource').reduce((total, entry) => total + (entry.transferSize || 0), 0));
 
     assert.deepEqual(errors, [], `${mode} browser errors`);
+    assert.deepEqual(externalRequests, [], `${mode}: no request may leave the app origin`);
 
     if (mode === 'pmtiles' && screenshotDir) {
       await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.73, 7.68], zoom: 14, bearing: 0, pitch: 0 }));
@@ -376,17 +372,19 @@ try {
       theme, opacities, category: 'electronics', searchResult: firstName,
       selectedPlace: selectedName, worldCamera, rangeResponses: ranges, speedRequests, accessibility, errors,
     };
-    results.push(result);
     console.log(JSON.stringify(result));
     await context.close();
   }
 
   const offlineContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, serviceWorkers: 'allow' });
   const offlinePage = await offlineContext.newPage();
+  trackExternal(offlinePage, externalRequests);
   const cachedArchiveRanges = [];
   offlinePage.on('response', (response) => { if (response.url().includes('/generated/places.pmtiles')) cachedArchiveRanges.push({ status: response.status(), range: response.headers()['content-range'] || '' }); });
   await offlinePage.goto(`${origin}/?map-test=1`, { waitUntil: 'domcontentloaded' });
   await wait(offlinePage, () => window.__MAZO_MAP_TEST__?.isStyleLoaded(), 60_000);
+  // The basemap must be fully installed (and therefore cached) before going offline.
+  await wait(offlinePage, () => window.__MAZO_MAP_TEST__?.getLayer('island-water') && window.__MAZO_MAP_TEST__?.isStyleLoaded(), 60_000);
   await offlinePage.locator('#offline-download').click();
   try {
     await wait(offlinePage, () => /(?:Offline place search, details, local roads and limited Kattankudy routing are downloaded|Offline data operation failed:)/i.test(document.querySelector('#offline-status').innerText), 90_000);
@@ -403,15 +401,16 @@ try {
   await offlinePage.context().setOffline(true);
   await offlinePage.reload({ waitUntil: 'domcontentloaded' });
   await wait(offlinePage, () => document.querySelector('#map-search') && document.querySelector('#offline-status'), 30_000);
+  // With no network at all, the self-hosted basemap must still be installed from Cache Storage.
+  await wait(offlinePage, () => window.__MAZO_MAP_TEST__?.getLayer('island-water') && window.__MAZO_MAP_TEST__?.isStyleLoaded(), 60_000);
   await offlinePage.locator('#map-search').fill('Noor Accessories Showroom');
   await wait(offlinePage, () => document.querySelector('#search-results [role="option"]'), 30_000);
   assert.match(await offlinePage.locator('#search-results [role="option"] strong').first().innerText(), /Noor Accessories/);
   assert.ok(cachedArchiveRanges.some((response) => response.status === 206 && /^bytes \d+-\d+\/\d+$/.test(response.range)), 'cached PMTiles requests are served as valid byte ranges');
-  assert.match(await offlinePage.locator('#offline-status').innerText(), /basemap.*internet|basemap.*online/i);
+  assert.match(await offlinePage.locator('#offline-status').innerText(), /base map is cached/i);
+  assert.deepEqual(externalRequests, [], 'offline context: no request may leave the app origin');
   await offlineContext.close();
 } finally {
   await browser.close();
   server.close();
 }
-const reportPath = resolve(root, 'reports/phase10-browser-smoke.json');
-writeFileSync(reportPath, `${JSON.stringify({ browser: `Chromium ${browser.version()}`, viewport: { width: 390, height: 844, mobileEmulation: true }, results, cartographicViews }, null, 2)}\n`);

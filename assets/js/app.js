@@ -1,17 +1,23 @@
 import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs';
 import { createPlaceLookup, decodePlaceDetails, decodeSearchIndex } from './place-delivery.mjs';
 import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=phase9-cartography-1';
-import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=phase9-basemap-audit-1';
+import { BASEMAP_FONT, MAZO_PALETTE, buildLocalBasemapStyle, loadLocalBasemap } from './local-basemap.mjs';
 import { closestRouteProgress, findLocalRoutes, validateRoutingGraph } from './routing-graph.mjs';
 import { downloadOfflinePack, removeOfflinePack, offlinePackResources } from './offline-pack.mjs';
 import { discoverLiveData, liveDataResourceUrl, startLiveDataPolling } from './live-data-client.mjs';
 
-// Reliable OpenFreeMap fallback; optional local PMTiles are enabled only after verification.
+// Every map resource (base tiles, glyphs, fonts, place tiles, routing graph) is served from this
+// origin. No third-party tile, style, font or routing service is contacted at runtime.
 const $=s=>document.querySelector(s);
-const styles={light:'https://tiles.openfreemap.org/styles/liberty',dark:'https://tiles.openfreemap.org/styles/liberty'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const cameraDuration=milliseconds=>reducedMotionDuration(milliseconds,window.matchMedia?.('(prefers-reduced-motion: reduce)').matches===true);
-const map=new maplibregl.Map({container:'map',style:styles[theme()],...CAMERA_OPTIONS});
+if(!window.pmtiles?.Protocol)throw Error('The bundled PMTiles library did not load');
+// Protocol handler for both the base map archives (held in memory) and the places archive (byte ranges).
+const pmtilesProtocol=new window.pmtiles.Protocol();
+maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile);
+let basemapManifest=null;
+// Starts as a blank, valid style; the self-hosted basemap replaces it once its archives are verified.
+const map=new maplibregl.Map({container:'map',style:buildLocalBasemapStyle(theme(),null),...CAMERA_OPTIONS});
 // A bounded test-only camera/inspection facade for reproducible browser scenarios.
 if(new URLSearchParams(location.search).has('map-test'))window.__MAZO_MAP_TEST__=Object.freeze({
  isStyleLoaded:()=>map.isStyleLoaded(),areTilesLoaded:()=>map.areTilesLoaded(),jumpTo:options=>map.jumpTo(options),
@@ -31,7 +37,7 @@ if(new URLSearchParams(location.search).has('map-test'))window.__MAZO_MAP_TEST__
 // Preserve pinch zoom and keyboard panning while removing all rotation/pitch controls.
 configureNorthUpInteractions(map);
 // Minimal map chrome: touch gestures remain available without zoom buttons.
-let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false,pmtilesProtocol=null,offlineBaseStyle=false;
+let places=[],category='all',placesVisible=true,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false;
 let placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchIndexPromise=null,placeDetailsLoaded=false;
 let liveDataPromise=null,liveDataRuntime=null,stopLiveDataPolling=null;
 let presentedCategory=null,presentedSelectedId=null,presentedVisibility=null;
@@ -154,7 +160,7 @@ function poiLayout(){return {
  'icon-anchor':'bottom',
  'icon-size':['interpolate',['linear'],['zoom'],6,0.48,9,0.56,12,0.64,15,0.74,18,0.82,20,0.9],
  'icon-allow-overlap':false,'icon-padding':['interpolate',['linear'],['zoom'],6,16,9,18,12,19,15,26,18,22,20,18],
- 'text-field':['get','name'],'text-font':['Noto Sans Regular'],
+ 'text-field':['get','name'],'text-font':[BASEMAP_FONT],
  'text-size':['interpolate',['linear'],['zoom'],6,9,9,10,12,11,16,12,20,13],
  'text-offset':[0,0.8],'text-anchor':'top','text-max-width':11,
  'text-optional':true,'text-allow-overlap':false,'text-padding':['interpolate',['linear'],['zoom'],6,9,12,8,16,6],
@@ -273,7 +279,7 @@ function renderPlaceDetails(p){
 $('#place-close').onclick=closePlace;
 
 /* In-map directions: pickup defaults to device location; map-click override.
-   Public OSRM endpoints are best-effort and need a managed backend for production SLA. */
+   Routes are computed entirely on the device from the saved local road graph. */
 const routePanel=$('#route-panel');
 let routeSheetState='compact';
 function setRouteSheetState(state){
@@ -316,9 +322,8 @@ function routeLayout(){
 }
 window.addEventListener('resize',()=>{if(!routePanel.hidden)routeLayout()});
 let routeSteps=[],routeWatch=null,routeCurrent=null,routeProgressGeometry=[],routingGraphPromise=null,routeOffRouteCount=0,lastRouteRecalculation=0;
-let routeDestination=null,routePickup=null,routeMode='driving',routeAbort=null,routeLine=null,routePickupMarker=null,routeDestinationMarker=null,pickingPickup=false,routeSequence=0,routeSource='online',routeCandidates=[];
+let routeDestination=null,routePickup=null,routeMode='driving',routeAbort=null,routeLine=null,routePickupMarker=null,routeDestinationMarker=null,pickingPickup=false,routeSequence=0,routeSource='local',routeCandidates=[];
 const routeStatus=message=>{$('#route-status').textContent=message};
-const routeCoord=c=>c.map(x=>Number(x).toFixed(6)).join(',');
 function routeClear(){
  if(routeWatch!==null){navigator.geolocation.clearWatch(routeWatch);routeWatch=null}
  routeSteps=[];routeCurrent=null;routeProgressGeometry=[];routeOffRouteCount=0;routeCandidates=[];$('#route-turn-card').hidden=true;$('#route-alternatives').replaceChildren();$('#route-alternatives').hidden=true;
@@ -370,7 +375,6 @@ async function routeCalculate(){
  if(!routePickup||!routeDestination)return;
  if(routeAbort)routeAbort.abort();const controller=new AbortController();routeAbort=controller;const sequence=++routeSequence;
  routeStatus('Calculating '+routeMode+' route…');$('#route-summary').textContent='';$('#route-steps').replaceChildren();
- const profile=routeMode==='walking'?'foot':routeMode==='cycling'?'bike':'driving';
  try{
   const local=await findLocalRoute(routePickup,routeDestination,routeMode);
   if(sequence!==routeSequence)return;
@@ -378,28 +382,16 @@ async function routeCalculate(){
    routeCandidates=local.routes.map(route=>({...route,source:'local',startCoordinate:route.geometry.coordinates[0],endCoordinate:route.geometry.coordinates.at(-1)}));
    routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();return;
   }
- }catch(error){console.warn('Local routing unavailable:',error)}
- // Distinct public OSRM profiles; walking/cycling do not silently fall back to driving.
- const base=profile==='driving'?'https://router.project-osrm.org/route/v1/driving/':profile==='foot'?'https://routing.openstreetmap.de/routed-foot/route/v1/driving/':'https://routing.openstreetmap.de/routed-bike/route/v1/driving/';
-  const url=base+routeCoord(routePickup)+';'+routeCoord(routeDestination)+'?overview=full&geometries=geojson&steps=true&alternatives=2';
- try{
-  const res=await fetch(url,{signal:controller.signal});
-  if(!res.ok)throw Error('Routing service returned '+res.status);
-  const data=await res.json();if(sequence!==routeSequence)return;
-  const routes=data.routes||[];const route=routes[0];if(data.code!=='Ok'||!route?.geometry?.coordinates?.length)throw Error('No connected route found.');
-  const snappedStart=data.waypoints?.[0]?.location||routePickup,snappedEnd=data.waypoints?.at(-1)?.location||routeDestination;
-  routeCandidates=routes.map(candidate=>{
-   let progress=0;const instructions=[];
-   for(const leg of candidate.legs||[])for(const step of leg.steps||[]){const maneuver=step.maneuver||{};if(Array.isArray(maneuver.location))instructions.push({location:maneuver.location,type:maneuver.type||'continue',modifier:maneuver.modifier||'',name:step.name||'',distance:step.distance,progressMeters:progress});progress+=Number(step.distance)||0}
-   return {...candidate,source:'online',startCoordinate:snappedStart,endCoordinate:snappedEnd,instructions};
-  });routeShowCandidate(0);routeCurrent=routePickup;routeUpdateTurn();routeStartWatch();
- }catch(e){if(e.name==='AbortError'||sequence!==routeSequence)return;routeStatus('Unable to calculate route: '+e.message+' Try again or select another pickup.');routeLine=null;routeDraw();routePickupMarker?.remove();routeDestinationMarker?.remove();routePickupMarker=routeDestinationMarker=null}
+ }catch(error){console.warn('Local routing unavailable:',error);if(sequence!==routeSequence)return}
+ // No online routing fallback exists: routing is entirely local.
+ routeLine=null;routeDraw();routePickupMarker?.remove();routeDestinationMarker?.remove();routePickupMarker=routeDestinationMarker=null;
+ routeStatus('Unable to calculate route: both points must be on the saved Kattankudy road network. Routing runs on this device and uses no online service. Choose another pickup.');
 }
 function routeShowCandidate(index){
  const route=routeCandidates[index];if(!route)return;routeSource=route.source;routeRender(route.geometry,route.startCoordinate,route.endCoordinate);routeProgressGeometry=route.geometry.coordinates;
  const km=(route.distance/1000).toFixed(route.distance<1000?2:1),mins=Math.max(1,Math.round(route.duration/60));
- $('#route-summary').textContent=km+' km · about '+mins+' min · '+routeMode+(route.source==='local'?' · local road graph':' · online routing service');
- routeStatus(route.source==='local'?`Local route ready. Start/end snapped ${Math.round(route.startSnapMeters)} m / ${Math.round(route.endSnapMeters)} m. ETA uses average road-class speeds, not verified speed limits.`:`Online route ready. Coordinates are sent to the selected public routing service; start/end snap ${Math.round(route.startSnapMeters||0)} m / ${Math.round(route.endSnapMeters||0)} m.`);
+ $('#route-summary').textContent=km+' km · about '+mins+' min · '+routeMode+' · local road graph';
+ routeStatus(`Local route ready. Start/end snapped ${Math.round(route.startSnapMeters)} m / ${Math.round(route.endSnapMeters)} m. ETA uses average road-class speeds, not verified speed limits.`);
  routeRenderInstructions(route.instructions||[]);routeUpdateTurn();routeFit(route.geometry.coordinates);
  const choices=$('#route-alternatives');choices.replaceChildren();choices.hidden=routeCandidates.length<2;
  routeCandidates.forEach((candidate,choice)=>{const button=document.createElement('button');button.type='button';button.setAttribute('aria-pressed',String(choice===index));button.textContent=`Route ${choice+1} · ${(candidate.distance/1000).toFixed(1)} km`;button.onclick=()=>routeShowCandidate(choice);choices.append(button)});
@@ -525,17 +517,6 @@ function refresh(){
  }
  if(places.length){status.hidden=true;status.textContent=''}
 }
-function loadRoadGeoJSON(){
- if(!roadGeoJSONPromise)roadGeoJSONPromise=(async()=>{
-  const mr=await fetch(await appDataUrl('generated/kattankudy-roads-manifest.json'));if(!mr.ok)throw Error('Road manifest '+mr.status);
-  const manifest=await mr.json(),r=await fetch(await appDataUrl('generated/'+manifest.geojson,manifest.sha256));if(!r.ok)throw Error('Road MZP '+r.status);
-  const data=JSON.parse(await r.text());if(data.type!=='FeatureCollection'||data.features.length!==manifest.valid_geographic_features)throw Error('Road MZP manifest mismatch');
-  return data;
- })();
- return roadGeoJSONPromise;
-}
-async function roads(){try{const data=await loadRoadGeoJSON();if(map.getSource('mazo-roads'))return;map.addSource('mazo-roads',{type:'geojson',data});map.addLayer({id:'mazo-road-lines',type:'line',source:'mazo-roads',paint:{'line-color':'#f8f9fa','line-width':['interpolate',['linear'],['zoom'],11,2,16,9]}});map.addLayer({id:'mazo-road-names',type:'symbol',source:'mazo-roads',minzoom:13,filter:['!=',['get','name'],null],layout:{'symbol-placement':'line','text-field':['get','name'],'text-size':12},paint:{'text-color':'#46515b','text-halo-color':'#fff','text-halo-width':2}});for(const id of ['mazo-road-lines','mazo-road-names'])map.setLayoutProperty(id,'visibility',roadsVisible?'visible':'none')}catch(e){console.warn('Road MZP unavailable:',e)}}
-
 
 /* Gazette-backed provisional 70 km/h defaults. Not individually verified road limits.
    A04 built-up geometry requires authoritative chainage matching before 50 km/h display. */
@@ -613,9 +594,9 @@ map.on('error',event=>{
  }
 });
 
-// Preserve the vector basemap: roads, city labels and road names remain visible.
-// Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
+// Every layer on the map comes from this origin: the self-hosted basemap plus our own place tiles.
+// Style reloads (basemap install, theme switch) re-add the app layers on top of the new style.
+map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
 async function checkedJson(file,sha256){
  const response=await fetch(await appDataUrl(file,sha256));if(!response.ok)throw Error(file+' '+response.status);
  const bytes=await response.arrayBuffer();
@@ -643,12 +624,10 @@ async function loadPlaceDetails(){
 }
 async function loadPmtiles(manifest){
  const entry=manifest.delivery?.mvt_pmtiles,index=manifest.delivery?.search_index;if(!entry||!index)throw Error('PMTiles delivery is not present in manifest');
- const script=await new Promise((resolve,reject)=>{if(window.pmtiles)return resolve();const tag=document.createElement('script');tag.src='./assets/vendor/pmtiles-4.5.0.js';tag.onload=resolve;tag.onerror=()=>reject(Error('PMTiles protocol library could not be loaded'));document.head.append(tag)});
- void script;if(!window.pmtiles?.Protocol||!window.pmtiles?.PMTiles)throw Error('PMTiles protocol library did not initialize');
+ if(!window.pmtiles?.PMTiles)throw Error('PMTiles protocol library did not initialize');
  const archiveUrl=await appDataUrl('generated/'+entry.file,entry.sha256);const archive=new window.pmtiles.PMTiles(archiveUrl);
  const header=await archive.getHeader(),metadata=await archive.getMetadata();
  if(!metadata.vector_layers?.some(layer=>layer.id==='places')||header.minZoom!==entry.min_zoom||header.maxZoom!==entry.max_zoom)throw Error('PMTiles archive metadata mismatch');
- if(!pmtilesProtocol){pmtilesProtocol=new window.pmtiles.Protocol();maplibregl.addProtocol('pmtiles',pmtilesProtocol.tile)}
  pmtilesProtocol.add(archive);
  window.mazoPmtilesUrl='pmtiles://'+archiveUrl;deliveryManifest=manifest;
  for(const id of [...POI_LAYERS].reverse())if(map.getLayer(id))map.removeLayer(id);
@@ -662,30 +641,45 @@ async function loadPlaceData(){const status=$('#search-status'),retry=$('#places
 }catch(error){status.hidden=false;status.textContent='Place map tiles could not be loaded. Search may still work; check your connection and retry.';status.classList.add('is-error');retry.hidden=false;console.error('Place data error:',error);if(deliveryManifest)void ensureSearchIndex().catch(indexError=>console.warn('Place search index unavailable:',indexError))}}
 $('#places-retry').onclick=()=>void loadPlaceData();
 void loadPlaceData();
+// Self-hosted base map: archives are verified, kept in Cache Storage and read from memory,
+// so it keeps working with no network at all after the first successful load.
+async function startBasemap(){
+ const notice=$('#network-status');
+ try{
+  notice.hidden=false;notice.textContent='Preparing the built-in base map…';
+  basemapManifest=await loadLocalBasemap({pmtiles:window.pmtiles,protocol:pmtilesProtocol});
+  map.setStyle(buildLocalBasemapStyle(theme(),basemapManifest),{diff:false});
+  notice.hidden=true;notice.textContent='';
+ }catch(error){
+  console.error('Self-hosted base map unavailable:',error);
+  notice.hidden=false;notice.textContent='The built-in base map is not installed yet. Places and search still work. See docs/LOCAL_BASEMAP.md.';
+ }
+}
+void startBasemap();
 const offlineStatus=$('#offline-status'),offlineButton=$('#offline-download');
 if('serviceWorker' in navigator)navigator.serviceWorker.register('./service-worker.js').catch(error=>console.warn('Offline cache worker unavailable:',error));
 async function updateOfflineStatus(){
- try{const keys=await caches.keys();const packs=keys.filter(key=>key.startsWith('mazo-offline-pack-'));offlineStatus.hidden=false;offlineStatus.textContent=packs.length?'Offline place search, details, local roads and limited Kattankudy routing are downloaded. Basemap, live directions outside that area, and online updates still require internet.':'Offline data is not downloaded. Basemap tiles are online-only.';offlineButton.title=packs.length?'Remove downloaded offline place data':'Download offline place data';offlineButton.setAttribute('aria-label',offlineButton.title)}catch{offlineStatus.hidden=false;offlineStatus.textContent='Offline storage is unavailable in this browser.'}
+ try{const keys=await caches.keys();const packs=keys.filter(key=>key.startsWith('mazo-offline-pack-'));offlineStatus.hidden=false;offlineStatus.textContent=packs.length?'Offline place search, details, local roads and limited Kattankudy routing are downloaded. The built-in base map is cached after its first load.':'Offline data is not downloaded. The built-in base map is cached after its first load.';offlineButton.title=packs.length?'Remove downloaded offline place data':'Download offline place data';offlineButton.setAttribute('aria-label',offlineButton.title)}catch{offlineStatus.hidden=false;offlineStatus.textContent='Offline storage is unavailable in this browser.'}
 }
 offlineButton.onclick=async()=>{
  offlineButton.disabled=true;offlineStatus.hidden=false;let operationFailed=false;
  try{
   const keys=await caches.keys(),existing=keys.filter(key=>key.startsWith('mazo-offline-pack-'));
-  if(existing.length&&!navigator.onLine){await removeOfflinePack();offlineStatus.textContent='Downloaded place data removed. The basemap was never stored offline.'}
+  if(existing.length&&!navigator.onLine){await removeOfflinePack();offlineStatus.textContent='Downloaded place data removed.'}
   else{
    offlineStatus.textContent='Checking for offline data updates…';
    const live=await getLiveDataRuntime();
    const [places,roads,routing]=await Promise.all(['generated/manifest.json','generated/kattankudy-roads-manifest.json','generated/kattankudy-routing-manifest.json'].map(async path=>{const response=await fetch(liveDataResourceUrl(path,live),{cache:'no-store'});if(!response.ok)throw Error(`Manifest unavailable (${response.status})`);return response.json()}));
    const resolveResource=url=>offlineResourceUrl(url,live);
    const pack=offlinePackResources(places,roads,routing,resolveResource),target='mazo-offline-pack-'+pack.version;
-   if(existing.includes(target)){await removeOfflinePack();offlineStatus.textContent='Downloaded place data removed. The basemap was never stored offline.'}
-   else{const total=pack.resources.reduce((sum,row)=>sum+(Number(row.bytes)||0),0);offlineStatus.textContent=`Downloading ${pack.resources.length} files (${(total/1048576).toFixed(1)} MB)…`;await downloadOfflinePack({manifest:places,roadsManifest:roads,routingManifest:routing,resolveResource});offlineStatus.textContent=`Offline place, search, detail and Kattankudy routing data saved or updated (${(total/1048576).toFixed(1)} MB). Basemap remains online-only.`}
+   if(existing.includes(target)){await removeOfflinePack();offlineStatus.textContent='Downloaded place data removed.'}
+   else{const total=pack.resources.reduce((sum,row)=>sum+(Number(row.bytes)||0),0);offlineStatus.textContent=`Downloading ${pack.resources.length} files (${(total/1048576).toFixed(1)} MB)…`;await downloadOfflinePack({manifest:places,roadsManifest:roads,routingManifest:routing,resolveResource});offlineStatus.textContent=`Offline place, search, detail and Kattankudy routing data saved or updated (${(total/1048576).toFixed(1)} MB). The built-in base map is cached after its first load.`}
   }
  }catch(error){operationFailed=true;offlineStatus.textContent=`Offline data operation failed: ${error.message}`}
  finally{offlineButton.disabled=false;if(!operationFailed)await updateOfflineStatus()}
 };
 window.addEventListener('online',updateOfflineStatus);window.addEventListener('offline',updateOfflineStatus);void updateOfflineStatus();
-window.addEventListener('offline',()=>{const message=$('#network-status');message.textContent='You are offline. The basemap may stop updating; already loaded places remain available.';message.hidden=false});
+window.addEventListener('offline',()=>{const message=$('#network-status');message.textContent='You are offline. The map is served from this device; online updates resume when you reconnect.';message.hidden=false});
 window.addEventListener('online',()=>{$('#network-status').hidden=true});
 function renderCategoryFilters(){
  const container=document.querySelector('.categories'),all=container.querySelector('[data-category="all"]');container.replaceChildren(all);
@@ -697,19 +691,8 @@ function renderCategoryFilters(){
 $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=>{e.preventDefault();refresh()};
 const searchInput=$('#map-search');
 searchInput.addEventListener('keydown',event=>{const results=$('#search-results'),items=[...results.querySelectorAll('[role="option"]')];if(event.key==='Escape'){results.hidden=true;searchInput.setAttribute('aria-expanded','false');searchInput.removeAttribute('aria-activedescendant');return}if(results.hidden||!items.length)return;let active=items.findIndex(item=>item.id===searchInput.getAttribute('aria-activedescendant'));if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();active=(active+(event.key==='ArrowDown'?1:-1)+items.length)%items.length;items.forEach((item,index)=>item.setAttribute('aria-selected',String(index===active)));searchInput.setAttribute('aria-activedescendant',items[active].id);items[active].scrollIntoView({block:'nearest'})}else if(event.key==='Enter'&&active>=0){event.preventDefault();items[active].click()}});
-function applyThemeToMap(){
- if(!map.isStyleLoaded()){map.once('style.load',applyThemeToMap);return}
- const selected=theme(),palette=MAZO_PALETTE[selected];
- applyMazoCartographicStyle(map,selected);
- for(const id of Object.keys(artwork).map(iconFor))if(map.hasImage(id))map.removeImage(id);
- registerIcons();
- for(const id of POI_LAYERS)if(map.getLayer(id)){
-  map.setPaintProperty(id,'text-color',palette.label);map.setPaintProperty(id,'text-halo-color',palette.halo);
- }
- if(map.getLayer('mazo-city-labels')){map.setPaintProperty('mazo-city-labels','text-color',palette.label);map.setPaintProperty('mazo-city-labels','text-halo-color',palette.halo)}
- if(map.getLayer('mazo-road-lines'))map.setPaintProperty('mazo-road-lines','line-color',selected==='dark'?'#89999d':'#f8f9fa');
- if(map.getLayer('mazo-road-names')){map.setPaintProperty('mazo-road-names','text-color',palette.roadLabel);map.setPaintProperty('mazo-road-names','text-halo-color',palette.halo)}
-}
+// Theme switches rebuild the local style (no network); the style.load handler restores app layers and icons.
+function applyThemeToMap(){map.setStyle(buildLocalBasemapStyle(theme(),basemapManifest),{diff:false})}
 $('#theme-toggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';$('#theme-toggle').setAttribute('aria-pressed',String(dark));try{localStorage.setItem('mazo-maps-theme',dark?'dark':'light')}catch{};applyThemeToMap();};
 const locateButton=$('#map-locate');
 let locationMarker=null;
@@ -734,17 +717,9 @@ locateButton.onclick=()=>{
   nearbyMode=false;nearbyOrigin=null;refresh();status.hidden=false;status.textContent=error.code===1?'Location permission denied. You can continue using search and category filters.':error.code===2?'GPS location is unavailable. Check your device settings or continue using search.':'Location request timed out. You can continue using search.';
  },{enableHighAccuracy:true,timeout:12000,maximumAge:10000});
 };
-async function cities(){try{const r=await fetch(await appDataUrl('data/cities.json'));if(!r.ok)return;const d=await r.json();const features=(d.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)).map(c=>({type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:c.name||'',level:c.level||'city'}}));if(map.getSource('mazo-cities'))return;map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-city-labels',type:'symbol',source:'mazo-cities',layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],5,11,13,17],'text-allow-overlap':false},paint:{'text-color':theme()==='dark'?'#e8edf4':'#27313b','text-halo-color':theme()==='dark'?'#161b22':'#fff','text-halo-width':2}})}catch(e){console.warn('City labels:',e)}}
 
 map.on('load',()=>{$('#map-frame').dataset.state='ready';try{ensurePoiLayer()}catch(e){console.warn('POI on load:',e)}if(map.getZoom()>=15.5)void loadSpeedReviews()});
 const maybeLoadSpeedReviews=()=>{if(map.getZoom()>=15.5)void loadSpeedReviews()};
 map.on('zoomend',maybeLoadSpeedReviews);
 map.on('moveend',maybeLoadSpeedReviews);
 map.on('error',event=>console.error('MapLibre:',event.error));
-map.on('error',event=>{
- if(navigator.onLine||offlineBaseStyle)return;
- offlineBaseStyle=true;
- const background=theme()==='dark'?'#202d32':'#ebe8df';
- map.setStyle({version:8,sources:{},layers:[{id:'offline-background',type:'background',paint:{'background-color':background}}]});
- const status=document.querySelector('#offline-status');if(status){status.hidden=false;status.textContent='Offline mode: saved places and Kattankudy road routing can work from the downloaded pack. Basemap tiles and remote routes are unavailable.'}
-});
