@@ -173,6 +173,7 @@ try {
     const styleRequests = [];
     const thirdPartyMapRequests = [];
     let injectedSearchFailure = false;
+    let injectedArchiveFailures = 0;
     page.on('pageerror', (error) => errors.push(error.message));
     page.on('requestfailed', (request) => {
       const failure = request.failure()?.errorText || 'unknown';
@@ -182,15 +183,16 @@ try {
     });
     page.on('console', (message) => {
       if (message.type() === 'error'
-        && !(mode === 'pmtiles-retry' && message.text().includes('503'))
+        && !(['pmtiles', 'pmtiles-retry'].includes(mode) && injectedArchiveFailures > 0 && message.text().includes('503'))
         && !(mode === 'pmtiles' && injectedSearchFailure && message.text().includes('503'))) errors.push(message.text());
     });
     page.on('response', (response) => {
       if (response.url().includes('/generated/places.pmtiles')) ranges.push({ status: response.status(), contentRange: response.headers()['content-range'] || null });
       const expectedTransientSearchError = mode === 'pmtiles' && response.status() === 503
         && injectedSearchFailure && response.url().includes('/generated/search-index.json');
-      if (response.status() >= 400 && !expectedTransientSearchError
-        && !(mode === 'pmtiles-retry' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))) {
+      const expectedTransientArchiveError = ['pmtiles', 'pmtiles-retry'].includes(mode)
+        && response.status() === 503 && injectedArchiveFailures > 0 && response.url().includes('/generated/places.pmtiles');
+      if (response.status() >= 400 && !expectedTransientSearchError && !expectedTransientArchiveError) {
         errors.push(`HTTP ${response.status()} ${response.url()}`);
       }
     });
@@ -209,10 +211,10 @@ try {
         await route.continue();
       });
     }
-    if (mode === 'pmtiles-retry') {
-      let firstArchiveRequest = true;
+    {
+      const archiveFailureLimit = mode === 'pmtiles-retry' ? 3 : 1;
       await page.route('**/generated/places.pmtiles*', (route) => {
-        if (firstArchiveRequest) { firstArchiveRequest = false; return route.fulfill({ status: 503, body: 'temporary archive error' }); }
+        if (injectedArchiveFailures < archiveFailureLimit) { injectedArchiveFailures++; return route.fulfill({ status: 503, body: 'temporary archive error' }); }
         return route.continue();
       });
     }
