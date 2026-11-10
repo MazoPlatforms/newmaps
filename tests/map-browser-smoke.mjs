@@ -241,9 +241,9 @@ try {
     const initialCamera = await page.evaluate(() => ({ center: window.__MAZO_MAP_TEST__.getCenter().toArray(), zoom: window.__MAZO_MAP_TEST__.getZoom(), bearing: window.__MAZO_MAP_TEST__.getBearing(), pitch: window.__MAZO_MAP_TEST__.getPitch() }));
     assert.ok(Math.abs(initialCamera.center[0] - 80.8) < 0.01 && Math.abs(initialCamera.center[1] - 7.85) < 0.01,
       'the initial view should be centered on Sri Lanka');
-    assert.ok(Math.abs(initialCamera.zoom - 7.4) < 0.1, 'the initial view should fit Sri Lanka rather than opening at city scale');
+    assert.ok(Math.abs(initialCamera.zoom - 7) < 0.1, 'the initial view should show the whole island with surrounding sea margins');
     const countryScalePlaceCount = await page.evaluate(async () => {
-      await window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.8, 7.85], zoom: 7.4, bearing: 0, pitch: 0 });
+      await window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.8, 7.85], zoom: 7, bearing: 0, pitch: 0 });
       return window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['places-dot'] }).length;
     });
     assert.equal(countryScalePlaceCount, 0,
