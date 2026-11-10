@@ -1,6 +1,6 @@
 import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs';
 import { createPlaceLookup, decodePlaceDetails, decodeSearchIndex } from './place-delivery.mjs';
-import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=phase9-cartography-1';
+import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=country-overview-clean-1';
 import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=phase9-basemap-audit-1';
 import { closestRouteProgress, findLocalRoutes, validateRoutingGraph } from './routing-graph.mjs';
 import { downloadOfflinePack, removeOfflinePack, offlinePackResources } from './offline-pack.mjs';

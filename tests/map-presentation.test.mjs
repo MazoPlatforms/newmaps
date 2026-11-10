@@ -25,11 +25,12 @@ test('progressive display prioritizes public facilities before ordinary business
   assert.equal(placeDisplayTier({ categories: ['Hotel'] }), 'district');
   assert.equal(placePriority({ categories: ['Restaurant'] }), 3);
   assert.equal(placeDisplayTier({ categories: ['Grocery store'] }), 'local');
-  assert.deepEqual(POI_ZOOM_THRESHOLDS, { major: 6.2, district: 8.6, category: 9.4, local: 12.4 });
+  assert.deepEqual(POI_ZOOM_THRESHOLDS, { major: 8.8, district: 9.8, category: 10.2, local: 12.4 });
   assert.deepEqual(visiblePoiTiers(2), []);
   assert.deepEqual(visiblePoiTiers(6), []);
-  assert.deepEqual(visiblePoiTiers(7), ['major']);
-  assert.deepEqual(visiblePoiTiers(9), ['major', 'district']);
+  assert.deepEqual(visiblePoiTiers(7), []);
+  assert.deepEqual(visiblePoiTiers(9), ['major']);
+  assert.deepEqual(visiblePoiTiers(10), ['major', 'district']);
   assert.deepEqual(visiblePoiTiers(13), ['major', 'district', 'local']);
   assert.ok(POI_ZOOM_THRESHOLDS.category < POI_ZOOM_THRESHOLDS.local);
   assert.equal(CAMERA_OPTIONS.fadeDuration, 100);

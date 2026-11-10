@@ -157,16 +157,13 @@ try {
   for (const mode of ['pmtiles', 'pmtiles-retry']) {
     const context = await browser.newContext({
       viewport: { width: 390, height: 844 }, deviceScaleFactor: 1,
-      isMobile: true, hasTouch: true, colorScheme: 'light',
+      isMobile: true, hasTouch: true, colorScheme: 'dark',
       // Let Playwright deterministically inject transient failures; offline
       // service-worker behavior is covered in its own context below.
       serviceWorkers: 'block',
     });
     await context.grantPermissions([], { origin: `http://127.0.0.1:${server.address().port}` });
     const page = await context.newPage();
-    // Each scenario must start from the same theme even if Chromium reuses a
-    // profile or a prior run left a preference in storage.
-    await page.addInitScript(() => localStorage.setItem('mazo-maps-theme', 'light'));
     const errors = [];
     const ranges = [];
     const speedRequests = [];
@@ -220,6 +217,8 @@ try {
     }
     const started = Date.now();
     await page.goto(`${origin}/?map-test=1`, { waitUntil: 'domcontentloaded' });
+    assert.equal(await page.locator('html').getAttribute('data-theme'), 'light',
+      'a first visit starts in the light map theme even when the device uses dark mode');
     if (mode === 'pmtiles-retry') {
       await wait(page, () => !document.querySelector('#places-retry').hidden);
       assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getSource('mazo-pois')), null,
@@ -244,13 +243,11 @@ try {
       'the initial view should be centered on Sri Lanka');
     assert.ok(Math.abs(initialCamera.zoom - 7.4) < 0.1, 'the initial view should fit Sri Lanka rather than opening at city scale');
     const countryScalePlaceCount = await page.evaluate(async () => {
-      await window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.7, 7.8], zoom: 6.3, bearing: 0, pitch: 0 });
+      await window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.8, 7.85], zoom: 7.4, bearing: 0, pitch: 0 });
       return window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['places-dot'] }).length;
     });
-    assert.ok(countryScalePlaceCount > 0,
-      'the preloaded vector preview should show at least one collision-placed landmark');
-    assert.ok(countryScalePlaceCount <= 100,
-      `Sri Lanka overview should show only collision-placed landmark symbols, got ${countryScalePlaceCount} place symbols`);
+    assert.equal(countryScalePlaceCount, 0,
+      `Sri Lanka overview should keep place pins hidden until a closer zoom, got ${countryScalePlaceCount} place symbols`);
     await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     assert.equal(await page.evaluate(() => new URL(location.href).searchParams.has('delivery')), false, 'production does not require a format flag');
     assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some((entry) => entry.name.includes('batticaloa-district.mzp'))), false,
