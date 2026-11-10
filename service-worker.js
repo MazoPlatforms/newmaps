@@ -1,5 +1,7 @@
-const APP_CACHE = 'mazo-app-shell-v5';
-const SHELL = ['./', './index.html', './assets/css/site.css?v=phase12-14-1', './assets/js/app.js?v=phase12-14-workers-vector-live-2', './assets/js/live-data-client.mjs', './assets/js/search-engine.mjs', './assets/js/place-delivery.mjs', './assets/js/map-presentation.mjs?v=phase9-cartography-1', './assets/js/cartographic-style.mjs?v=phase9-basemap-audit-1', './assets/js/routing-graph.mjs', './assets/js/offline-pack.mjs', './assets/vendor/pmtiles-4.5.0.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css'];
+const APP_CACHE = 'mazo-app-shell-v6';
+const SHELL = ['./', './index.html', './assets/css/fonts.css?v=local-basemap-1', './assets/css/site.css?v=phase12-14-1', './assets/js/app.js?v=local-basemap-1', './assets/js/local-basemap.mjs', './assets/js/live-data-client.mjs', './assets/js/search-engine.mjs', './assets/js/place-delivery.mjs', './assets/js/map-presentation.mjs?v=phase9-cartography-1', './assets/js/cartographic-style.mjs?v=phase9-basemap-audit-1', './assets/js/routing-graph.mjs', './assets/js/offline-pack.mjs', './assets/vendor/pmtiles-4.5.0.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css'];
+// Static, same-origin map resources (code, styles, fonts, glyph ranges) are kept for offline use.
+const CACHEABLE = /\.(?:js|mjs|css|pbf|woff2)$/;
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -57,7 +59,7 @@ self.addEventListener('fetch', (event) => {
     if (cachedShell) return cachedShell;
     try {
       const response = await fetch(request);
-      if (response.ok && (url.pathname.endsWith('.js') || url.pathname.endsWith('.mjs') || url.pathname.endsWith('.css'))) await appCache.put(request, response.clone());
+      if (response.ok && CACHEABLE.test(url.pathname)) await appCache.put(request, response.clone());
       return response;
     } catch {
       return new Response('This resource is not available in the downloaded offline area.', { status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
