@@ -11,9 +11,9 @@ import roads
 import speed_limits
 
 ROOT = Path(__file__).resolve().parents[1]
-SUPPLEMENT = ROOT / "kattankudy-all-roads.json"
+SUPPLEMENT = ROOT / "data/roads/kattankudy-all-roads.json"
 ROAD_EVIDENCE = ROOT / "data/roads/supplementary-road-audit.json"
-SOURCE_FILE = "kattankudy-all-roads.json"
+SOURCE_FILE = "data/roads/kattankudy-all-roads.json"
 
 
 def canonical(value):
