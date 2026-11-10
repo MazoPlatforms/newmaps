@@ -129,8 +129,9 @@ def validate():
             properties = feature["properties"]
             expected_kind = build.discovery_kind(source["properties"])
             if (properties.get("kind") != expected_kind or properties.get("priority") != build.priority(expected_kind) or
+                    properties.get("overview") is not build.overview_place(place_id) or
                     properties.get("name") != source["properties"].get("name")):
-                raise ValueError(f"Feature {place_id} lost category or priority attributes")
+                raise ValueError(f"Feature {place_id} lost category, priority, or overview attributes")
             point = feature["geometry"]
             coordinates = point.get("coordinates")
             if point.get("type") != "Point" or not coordinates or len(coordinates) != 2:

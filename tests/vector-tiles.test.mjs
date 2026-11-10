@@ -127,8 +127,8 @@ test('TileJSON and light/dark styles are valid MapLibre Native URLs with revisio
     assert.equal(style.layers.some(layer => layer.id === 'places-dot'), true);
     const bootstrapPlaces = style.layers.find(layer => layer.id === 'places-dot');
     assert.equal(bootstrapPlaces.minzoom, 6.2, 'the preloaded preview must stay hidden at small country/world scales');
-    assert.deepEqual(bootstrapPlaces.filter, ['==', ['get', 'priority'], 1],
-      'only landmark features should be considered for the country-scale preview');
+    assert.deepEqual(bootstrapPlaces.filter, ['==', ['get', 'overview'], true],
+      'only the deterministic sparse subset should be considered for the country-scale preview');
     assert.equal(bootstrapPlaces.type, 'symbol', 'dense preview points need MapLibre collision placement');
     assert.equal(bootstrapPlaces.layout['text-allow-overlap'], false);
     assert.ok(bootstrapPlaces.layout['text-padding'] >= 16,

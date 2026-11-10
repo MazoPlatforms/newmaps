@@ -18,10 +18,11 @@ const POI_LAYERS = [
   // The bootstrap MVT source exists so a few places appear with the first map
   // tiles while the searchable PMTiles archive loads. Drawing every place as a
   // circle here bypasses symbol collision and covers the whole island in POIs.
-  // Keep this lightweight preview to landmarks and use symbol collision so a
-  // dense imported landmark set cannot paint a solid field of circles.
+  // Keep the bootstrap preview to a deterministic, sparse MVT subset. The full
+  // archive is collision-aware; laying out tens of thousands of bootstrap
+  // symbols at once is expensive even when collision eventually hides them.
   { id: 'places-dot', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 6.2,
-    filter: ['==', ['get', 'priority'], 1],
+    filter: ['==', ['get', 'overview'], true],
     layout: { 'text-field': '•', 'text-font': ['Mazo Maps Sans Regular'],
       'text-size': ['interpolate', ['linear'], ['zoom'], 6.2, 10, 12, 12, 16, 14],
       'text-allow-overlap': false, 'text-ignore-placement': false, 'text-padding': 20,
@@ -262,7 +263,7 @@ function tileJSON(base, revision, state) {
     minzoom: state.minZoom, maxzoom: state.maxZoom,
     bounds: [state.minLon, state.minLat, state.maxLon, state.maxLat],
     center: [81.72, 7.72, 11], attribution: '© Mazo Maps place data contributors',
-    vector_layers: [{ id: 'places', fields: { id: 'String', name: 'String', kind: 'String', priority: 'Number' },
+    vector_layers: [{ id: 'places', fields: { id: 'String', name: 'String', kind: 'String', priority: 'Number', overview: 'Boolean' },
       minzoom: state.minZoom, maxzoom: state.maxZoom }],
   };
 }
