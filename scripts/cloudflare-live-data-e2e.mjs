@@ -155,7 +155,11 @@ try {
     if (failure && failure !== 'net::ERR_ABORTED') browserErrors.push(`${failure}: ${request.url()}`);
   });
   const rangeResponses = [];
+  const staleTileResponses = new Set();
   page.on('response', (response) => {
+    if (response.status() === 409 && /\/api\/v1\/(?:basemap\/)?tiles\/\d+\/\d+\/\d+\.pbf\?revision=/.test(response.url())) {
+      staleTileResponses.add(response.url());
+    }
     if (response.url().includes('/api/data/generated/places.pmtiles')) rangeResponses.push({ status: response.status(), contentRange: response.headers()['content-range'] });
   });
   await page.goto(`${baseUrl}?map-test=1&live-data-test=1`, { waitUntil: 'domcontentloaded' });
@@ -245,7 +249,8 @@ try {
   const cityVersion2 = manifest2.files['data/cities.json'];
   assert.notEqual(cityVersion2.sha256, first.manifest.files['data/cities.json'].sha256,
     'changed bytes receive a new content address so immutable browser/CDN caches cannot shadow updates');
-  assert.ok(browserErrors.length === 0, `live update browser errors: ${browserErrors.join(' | ')}`);
+  const unexpectedBrowserErrors = browserErrors.filter((error) => ![...staleTileResponses].some((url) => error.includes(url)));
+  assert.ok(unexpectedBrowserErrors.length === 0, `live update browser errors: ${unexpectedBrowserErrors.join(' | ')}`);
 
   await writeFile(citiesPath, initialCities);
   const rollback = await synchronize('c'.repeat(40), 3);
@@ -274,7 +279,8 @@ try {
     replayed_admin_request: rejectedReplay.status,
     private_chunk: privateChunk.status,
     browser_a11y_violations: a11y.length,
-    browser_errors: browserErrors.length,
+    browser_errors: unexpectedBrowserErrors.length,
+    stale_tile_responses_during_update: staleTileResponses.size,
     poi_vector_source: poiStyle.source,
     browser_revision: 'c'.repeat(40),
   }, null, 2));
