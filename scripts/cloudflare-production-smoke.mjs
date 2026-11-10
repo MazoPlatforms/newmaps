@@ -87,9 +87,9 @@ basemapJson.bounds.forEach((value, index) => assert.ok(Math.abs(value - [79.1641
 assert.ok(basemapJson.vector_layers.some((layer) => layer.id === 'transportation'));
 const basemapTile = await get('api/v1/basemap/tiles/10/744/489.pbf');
 assert.equal(basemapTile.status, 200, 'Sri Lanka basemap tile should be served from R2-backed PMTiles ranges');
-assert.equal(basemapTile.headers.get('content-encoding'), 'gzip');
+assert.equal(basemapTile.headers.get('content-encoding'), null, 'native basemap MVT is decoded for MapLibre clients');
 assert.match(basemapTile.headers.get('cache-control') || '', /immutable/);
-const basemapTileDecoded = new VectorTile(new Pbf(gunzipSync(new Uint8Array(await basemapTile.arrayBuffer()))));
+const basemapTileDecoded = new VectorTile(new Pbf(new Uint8Array(await basemapTile.arrayBuffer())));
 assert.ok(basemapTileDecoded.layers.transportation?.length || basemapTileDecoded.layers.water?.length
   || basemapTileDecoded.layers.landuse?.length, 'basemap tile should decode to actual OSM vector features');
 const nativeTileJSON = await get('api/v1/tiles.json');
