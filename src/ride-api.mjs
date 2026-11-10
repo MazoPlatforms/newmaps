@@ -114,8 +114,13 @@ export async function handleRideApi(request, env) {
         ['pmtiles', 'generated/places.pmtiles'], ['search_index', 'generated/search-index.json'],
         ['place_details', 'generated/place-details.json'], ['roads', 'generated/kattankudy-roads.mzp'],
         ['routing_graph', `generated/${mapManifest.routing?.file || 'kattankudy-routing.json'}`],
+        ['routing_source', 'generated/sri-lanka-routing-source-manifest.json'],
       ].map(([name, path]) => [name, resourceUrl(manifest, path)]));
-      return response({ api_version: 'v1', revision, manifest, map_manifest: mapManifest, resources }, 200, headers);
+      const routingSource = await jsonDataset(env, manifest, 'generated/sri-lanka-routing-source-manifest.json');
+      return response({ api_version: 'v1', revision, manifest, map_manifest: mapManifest, resources,
+        routing: { endpoint: `${API_ROOT}/route`, coverage: 'Sri Lanka OSM road extract',
+          online: Boolean(env.SRI_LANKA_ROUTER), offline_coverage: 'Kattankudy local road graph',
+          snapshot: routingSource?.snapshot || null, source_sha256: routingSource?.sha256 || null } }, 200, headers);
     }
 
     if (pathname === `${API_ROOT}/places/search` || pathname === `${API_ROOT}/geocode`) {
@@ -148,6 +153,59 @@ export async function handleRideApi(request, env) {
         || Math.abs(coordinates[0]) > 180 || Math.abs(coordinates[2]) > 180
         || Math.abs(coordinates[1]) > 90 || Math.abs(coordinates[3]) > 90) {
         return response({ error: 'invalid_route_request', required: [...names, 'profile'] }, 400, headers);
+      }
+      if (env.SRI_LANKA_ROUTER) {
+        const routingSource = await jsonDataset(env, manifest, 'generated/sri-lanka-routing-source-manifest.json');
+        if (routingSource?.format !== 'MazoCountryRoutingSource/1' || !Array.isArray(routingSource.bounds)
+          || routingSource.bounds.length !== 4 || !/^[a-f0-9]{64}$/.test(routingSource.sha256 || '')) {
+          return response({ error: 'routing_source_unavailable' }, 503, headers);
+        }
+        const [west, south, east, north] = routingSource.bounds;
+        const [startLon, startLat, endLon, endLat] = coordinates;
+        if ([startLon, endLon].some((lon) => lon < west || lon > east)
+          || [startLat, endLat].some((lat) => lat < south || lat > north)) {
+          return response({ error: 'outside_coverage', coverage: 'Sri Lanka OSM road extract', bounds: routingSource.bounds }, 422, headers);
+        }
+        const engineUrl = new URL(`https://mazo-router/route/v1/${profile}/${startLon},${startLat};${endLon},${endLat}`);
+        engineUrl.searchParams.set('alternatives', '2');
+        engineUrl.searchParams.set('steps', 'true');
+        engineUrl.searchParams.set('overview', 'full');
+        engineUrl.searchParams.set('geometries', 'geojson');
+        const upstream = await env.SRI_LANKA_ROUTER.getByName(profile).fetch(new Request(engineUrl, {
+          headers: { 'X-Mazo-Routing-Profile': profile, 'X-Mazo-Routing-Source': routingSource.sha256, Accept: 'application/json' },
+        }));
+        let engineResult;
+        try { engineResult = await upstream.json(); } catch { return response({ error: 'routing_engine_unavailable' }, 503, headers); }
+        if (engineResult.code !== 'Ok' || !Array.isArray(engineResult.routes) || !engineResult.routes.length) {
+          const error = engineResult.code === 'NoSegment' ? 'snap_too_far'
+            : engineResult.code === 'NoRoute' ? 'no_connected_route' : 'routing_engine_unavailable';
+          const status = error === 'routing_engine_unavailable' ? 503 : 422;
+          return response({ error, coverage: 'Sri Lanka OSM road network', message: engineResult.message,
+            startSnapMeters: engineResult.waypoints?.[0]?.distance,
+            endSnapMeters: engineResult.waypoints?.[1]?.distance }, status, headers);
+        }
+        const routes = engineResult.routes.map((route) => {
+          let progress = 0;
+          const instructions = (route.legs || []).flatMap((leg) => leg.steps || []).map((step) => {
+            const instruction = { type: step.maneuver?.type || 'continue',
+              modifier: step.maneuver?.modifier || '', name: step.name || '',
+              distance: Number(step.distance) || 0, duration: Number(step.duration) || 0,
+              location: step.maneuver?.location || route.geometry.coordinates[0] };
+            instruction.progressMeters = progress;
+            progress += instruction.distance;
+            return instruction;
+          });
+          return { profile, source: 'self-hosted-country-road-graph', geometry: route.geometry,
+            distance: route.distance, duration: route.duration, instructions,
+            startSnapMeters: engineResult.waypoints?.[0]?.distance ?? null,
+            endSnapMeters: engineResult.waypoints?.[1]?.distance ?? null,
+            durationNote: 'OSRM profile estimate; not live traffic or verified legal speed limits.' };
+        });
+        return response({ api_version: 'v1', revision, profile,
+          coverage: `Sri Lanka OSM road network (Geofabrik snapshot ${routingSource.snapshot})`,
+          source: { provider: routingSource.source, snapshot: routingSource.snapshot,
+            url: routingSource.url, sha256: routingSource.sha256,
+            attribution: routingSource.attribution, license: routingSource.license }, routes }, 200, headers);
       }
       const graphManifest = await jsonDataset(env, manifest, 'generated/kattankudy-routing-manifest.json');
       const graphFile = graphManifest?.graph_file;

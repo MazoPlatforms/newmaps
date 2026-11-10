@@ -16,7 +16,7 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-24.04
-    timeout-minutes: 50
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
         with:
@@ -39,6 +39,7 @@ jobs:
           python scripts/validate_map_delivery.py
           python scripts/build_sri_lanka_basemap.py
           python scripts/validate_sri_lanka_basemap.py
+          python scripts/build_sri_lanka_routing_source.py
           python scripts/build_routing_graph.py
           python scripts/enrich_roads.py --check
           python scripts/roads.py validate

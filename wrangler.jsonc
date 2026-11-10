@@ -30,6 +30,10 @@
       {
         "name": "LIVE_DATA_REGISTRY",
         "class_name": "LiveDataRegistry"
+      },
+      {
+        "name": "SRI_LANKA_ROUTER",
+        "class_name": "SriLankaRouter"
       }
     ]
   },
@@ -37,6 +41,24 @@
     {
       "tag": "live-data-v1",
       "new_sqlite_classes": ["LiveDataRegistry"]
+    },
+    {
+      "tag": "sri-lanka-router-v1",
+      "new_sqlite_classes": ["SriLankaRouter"]
+    }
+  ],
+  "containers": [
+    {
+      "class_name": "SriLankaRouter",
+      "scheduling_policy": "durable_object",
+      "images": {
+        "base": {
+          "dockerfile": "./routing/Dockerfile",
+          "build_context": "."
+        }
+      },
+      "observability": { "enabled": true },
+      "max_instances": 3
     }
   ],
   "observability": {

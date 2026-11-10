@@ -180,6 +180,23 @@ def build() -> dict:
         files.append(basemap_descriptor_path.name)
         files.extend(f"sri-lanka-basemap-pmtiles-chunks/{chunk['file']}" for chunk in basemap["chunks"])
 
+    source_metadata = json.loads((ROOT / "data/basemap/sri-lanka-source.json").read_text(encoding="utf-8"))
+    if source_metadata.get("extract") != "Sri Lanka" or not re.fullmatch(r"[a-f0-9]{64}", source_metadata.get("sha256", "")):
+        raise ValueError("Sri Lanka routing source metadata is invalid")
+    routing_source_path = GENERATED / "sri-lanka-routing-source-manifest.json"
+    routing_source_path.parent.mkdir(parents=True, exist_ok=True)
+    routing_source_path.write_text(json.dumps({
+        "format": "MazoCountryRoutingSource/1",
+        "source": source_metadata.get("source", "OpenStreetMap via Geofabrik"),
+        "snapshot": source_metadata.get("snapshot"),
+        "url": source_metadata.get("url"),
+        "sha256": source_metadata["sha256"],
+        "bounds": source_metadata["bounds"],
+        "attribution": source_metadata.get("attribution"),
+        "license": source_metadata.get("license"),
+    }, indent=2) + "\n", encoding="utf-8")
+    files.append(routing_source_path.name)
+
     for name in sorted(set(files)):
         copy_file(GENERATED / name, DIST / "generated" / name)
 

@@ -3,10 +3,24 @@ name: Deploy Mazo Maps to Cloudflare Workers
 on:
   push:
     branches: [main, deploy/cloudflare-workers]
-    paths-ignore:
-      - 'data/**'
-      - 'generated/**'
-      - 'kattankudy-all-roads.json'
+    paths:
+      - 'src/**'
+      - 'assets/**'
+      - 'routing/**'
+      - 'index.html'
+      - 'service-worker.js'
+      - '_headers'
+      - 'wrangler.jsonc'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'scripts/build_cloudflare_assets.py'
+      - 'scripts/build_vector_assets.mjs'
+      - 'scripts/build_sri_lanka_basemap.py'
+      - 'scripts/validate_sri_lanka_basemap.py'
+      - 'scripts/build_sri_lanka_routing_source.py'
+      - 'scripts/basemap/**'
+      - 'data/basemap/**'
+      - '.github/workflows/deploy-cloudflare-workers.yml'
   workflow_dispatch:
 
 permissions:
@@ -20,7 +34,7 @@ jobs:
   build-and-deploy:
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/deploy/cloudflare-workers' || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/fix/cloudflare-production-hardening')
     runs-on: ubuntu-24.04
-    timeout-minutes: 35
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
         with:
@@ -52,6 +66,7 @@ jobs:
           python scripts/validate_map_delivery.py
           python scripts/build_sri_lanka_basemap.py
           python scripts/validate_sri_lanka_basemap.py
+          python scripts/build_sri_lanka_routing_source.py
           python scripts/build_routing_graph.py
           python scripts/enrich_roads.py --check
           python scripts/roads.py validate

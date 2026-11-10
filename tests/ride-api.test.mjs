@@ -15,6 +15,7 @@ const payloads = {
   ] },
   'generated/kattankudy-routing-manifest.json': { graph_file: 'kattankudy-routing.json' },
   'generated/kattankudy-routing.json': { version: 1, nodes: [[79.91, 7.72], [79.911, 7.72]], ways: [{ name: 'Main Street', highway: 'residential' }], segments: [[0, 1, 0, 7, 7]] },
+  'generated/sri-lanka-routing-source-manifest.json': { format: 'MazoCountryRoutingSource/1', source: 'OpenStreetMap via Geofabrik', snapshot: '261104', sha256: 'c'.repeat(64), bounds: [79.16416, 5.621275, 82.64612, 10.07153], attribution: '© OpenStreetMap contributors, ODbL 1.0', license: 'https://www.openstreetmap.org/copyright' },
 };
 
 function rideApiEnv({ allowed = true } = {}) {
@@ -56,6 +57,7 @@ test('RideNow v1 place search and geocoding are versioned, CORS-readable and rat
   assert.equal(contract.map_manifest.format, 'PMTiles/1');
   assert.equal(contract.resources.pmtiles.path, 'generated/places.pmtiles');
   assert.match(contract.resources.pmtiles.url, /\/api\/data\/generated\/places\.pmtiles\?v=/);
+  assert.equal(contract.routing.offline_coverage, 'Kattankudy local road graph');
   const geocode = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/geocode?q=Harbor'), fixture.env);
   const feature = (await geocode.json()).features[0];
   assert.equal(feature.geometry.type, 'Point');
@@ -103,6 +105,50 @@ test('RideNow route API returns real geometry for all supported profiles and rej
   }), fixture.env);
   assert.equal(outside.status, 422);
   assert.equal((await outside.json()).error, 'snap_too_far');
+});
+
+test('RideNow routing delegates all Sri Lanka profiles to the self-hosted country graph', async () => {
+  const fixture = rideApiEnv();
+  const requests = [];
+  fixture.env.SRI_LANKA_ROUTER = { getByName: (name) => ({ fetch: async (request) => {
+    requests.push({ name, request });
+    const url = new URL(request.url);
+    const profile = url.pathname.split('/')[3];
+    return Response.json({ code: 'Ok', waypoints: [
+      { distance: 7, location: [79.87, 6.93] }, { distance: 9, location: [81.7, 7.7] },
+    ], routes: [{ distance: 120_000, duration: 10_000, geometry: {
+      type: 'LineString', coordinates: [[79.87, 6.93], [80.4, 7.1], [81.7, 7.7]],
+    }, legs: [{ steps: [{ name: 'A Road', distance: 120_000, duration: 10_000,
+      maneuver: { type: 'depart', location: [79.87, 6.93] } }] }] }], profile });
+  } }) };
+
+  for (const profile of ['driving', 'walking', 'cycling']) {
+    const response = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/route', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ start_lon: 79.87, start_lat: 6.93, end_lon: 81.7, end_lat: 7.7, profile }),
+    }), fixture.env);
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.equal(body.coverage, 'Sri Lanka OSM road network (Geofabrik snapshot 261104)');
+    assert.equal(body.source.license, 'https://www.openstreetmap.org/copyright');
+    assert.equal(body.routes[0].source, 'self-hosted-country-road-graph');
+    assert.equal(body.routes[0].geometry.coordinates.length, 3);
+    assert.equal(body.routes[0].startSnapMeters, 7);
+    assert.equal(body.routes[0].endSnapMeters, 9);
+    assert.equal(body.routes[0].instructions[0].name, 'A Road');
+    assert.match(new URL(requests.at(-1).request.url).pathname, new RegExp(`/route/v1/${profile}/`));
+    assert.equal(requests.at(-1).name, profile);
+    assert.equal(requests.at(-1).request.headers.get('x-mazo-routing-source'), 'c'.repeat(64));
+  }
+
+  const beforeOutside = requests.length;
+  const outside = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/route', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ start_lon: 78, start_lat: 7, end_lon: 81.7, end_lat: 7.7, profile: 'driving' }),
+  }), fixture.env);
+  assert.equal(outside.status, 422);
+  assert.equal((await outside.json()).error, 'outside_coverage');
+  assert.equal(requests.length, beforeOutside, 'coordinates outside declared Sri Lanka extract bounds never reach OSRM');
 });
 
 test('RideNow v1 limits malformed or excessive traffic and marks throttle responses', async () => {

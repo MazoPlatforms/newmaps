@@ -388,8 +388,7 @@ try {
     await wait(page, () => !document.querySelector('#route-panel').hidden && document.querySelector('#route-details').hidden === false);
     assert.match(await page.locator('#route-status').innerText(), /permission denied/i);
     await page.locator('#route-pick-on-map').click();
-    // Pick a verified routing graph node that is distinct from the destination;
-    // the live app intentionally does not fall back to an external router.
+    // Pick a verified routing graph node that is distinct from the destination.
     await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.737, 7.686], zoom: 16, bearing: 0, pitch: 0 }));
     await wait(page, () => !window.__MAZO_MAP_TEST__.isMoving(), 5_000);
     const pickupPoint = await page.evaluate(() => window.__MAZO_MAP_TEST__.project(window.__MAZO_MAP_TEST__.getCenter().toArray()));
@@ -399,7 +398,7 @@ try {
     assert.match(await page.locator('#route-status').innerText(), /snapped/i);
     const routeFeatureCount = await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route'));
     assert.equal(routeFeatureCount, 1, 'directions draw the selected route');
-    assert.deepEqual(thirdPartyMapRequests, [], 'routing stays on Mazo services and local road data');
+    assert.deepEqual(thirdPartyMapRequests, [], 'routing stays on self-hosted Mazo services and local road data');
     await page.locator('[data-route-mode="cycling"]').dispatchEvent('click');
     assert.equal(await page.locator('[data-route-mode="cycling"]').getAttribute('aria-pressed'), 'true');
     // Map movement collapses the mobile sheet; reopen it before choosing a new pickup.
