@@ -31,8 +31,8 @@
       } catch {}
     </script>
     <link rel="stylesheet" href="./assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css" />
-    <link rel="stylesheet" href="./assets/css/site.css?v=phase12-14-1" />
-    <script src="./assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=self-hosted-sri-lanka-basemap-1"></script>
+    <link rel="stylesheet" href="./assets/css/site.css?v=instant-vector-startup-1" />
+    <script src="./assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js" defer></script><script type="module" src="./assets/js/app.js?v=instant-vector-startup-1"></script>
   </head>
   <body>
     <a class="skip-link" href="#map">Skip to map</a>
@@ -47,8 +47,8 @@
             <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></button>
           </form>
           <div id="search-results" class="panel search-results" role="listbox" aria-label="Search results" hidden></div>
-          <p id="search-status" class="search-status" role="status" aria-live="polite" hidden>Loading places…</p>
-          <button id="places-retry" class="places-retry" type="button" hidden>Retry loading places</button>
+          <p id="search-status" class="search-status" role="status" aria-live="polite" hidden></p>
+          <button id="places-retry" class="places-retry" type="button" hidden>Retry place data</button>
           <p id="network-status" class="search-status" role="status" aria-live="polite" hidden></p>
           <div class="categories" role="group" aria-label="Place categories">
             <button data-category="all" aria-pressed="true">Explore</button>
@@ -56,10 +56,12 @@
         </div>
         <div class="utility-controls" aria-label="Map tools">
           <button class="icon-button" id="theme-toggle" aria-label="Toggle map theme" aria-pressed="false" title="Light or dark map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14A8 8 0 0 1 10 4a8 8 0 1 0 10 10Z"/></svg></button>
+          <button class="icon-button" id="offline-download" aria-label="Download places and local routing for offline use" title="Download offline place data">↓</button>
         </div>
 
         <div class="map-actions">
-          <button class="icon-button" id="offline-download" aria-label="Download places and local routing for offline use" title="Download offline place data">↓</button>
+          <button class="icon-button" id="map-zoom-in" type="button" aria-label="Zoom in" title="Zoom in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+          <button class="icon-button" id="map-zoom-out" type="button" aria-label="Zoom out" title="Zoom out"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg></button>
           <button class="icon-button" id="map-locate" aria-label="Find nearby places using my location" aria-busy="false" title="Find nearby places"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
 
         </div>
