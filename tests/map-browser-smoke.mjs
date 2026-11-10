@@ -158,9 +158,9 @@ try {
     const context = await browser.newContext({
       viewport: { width: 390, height: 844 }, deviceScaleFactor: 1,
       isMobile: true, hasTouch: true, colorScheme: 'light',
-      // Let Playwright deterministically intercept the single injected failure;
-      // offline service-worker behavior is covered in its own context below.
-      serviceWorkers: mode === 'pmtiles-retry' ? 'block' : 'allow',
+      // Let Playwright deterministically inject transient failures; offline
+      // service-worker behavior is covered in its own context below.
+      serviceWorkers: 'block',
     });
     await context.grantPermissions([], { origin: `http://127.0.0.1:${server.address().port}` });
     const page = await context.newPage();
@@ -172,6 +172,8 @@ try {
     const speedRequests = [];
     const styleRequests = [];
     const thirdPartyMapRequests = [];
+    let injectedSearchFailure = false;
+    let injectedArchiveFailures = 0;
     page.on('pageerror', (error) => errors.push(error.message));
     page.on('requestfailed', (request) => {
       const failure = request.failure()?.errorText || 'unknown';
@@ -181,11 +183,16 @@ try {
     });
     page.on('console', (message) => {
       if (message.type() === 'error'
-        && !(mode === 'pmtiles-retry' && message.text().includes('503'))) errors.push(message.text());
+        && !(['pmtiles', 'pmtiles-retry'].includes(mode) && injectedArchiveFailures > 0 && message.text().includes('503'))
+        && !(mode === 'pmtiles' && injectedSearchFailure && message.text().includes('503'))) errors.push(message.text());
     });
     page.on('response', (response) => {
       if (response.url().includes('/generated/places.pmtiles')) ranges.push({ status: response.status(), contentRange: response.headers()['content-range'] || null });
-      if (response.status() >= 400 && !(mode === 'pmtiles-retry' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))) {
+      const expectedTransientSearchError = mode === 'pmtiles' && response.status() === 503
+        && injectedSearchFailure && response.url().includes('/generated/search-index.json');
+      const expectedTransientArchiveError = ['pmtiles', 'pmtiles-retry'].includes(mode)
+        && response.status() === 503 && injectedArchiveFailures > 0 && response.url().includes('/generated/places.pmtiles');
+      if (response.status() >= 400 && !expectedTransientSearchError && !expectedTransientArchiveError) {
         errors.push(`HTTP ${response.status()} ${response.url()}`);
       }
     });
@@ -194,10 +201,20 @@ try {
       if (request.url().includes('/api/v1/style')) styleRequests.push(request.url());
       if (/tiles\.openfreemap\.org|fonts\.(googleapis|gstatic)\.com|router\.project-osrm\.org|routing\.openstreetmap\.de/i.test(request.url())) thirdPartyMapRequests.push(request.url());
     });
-    if (mode === 'pmtiles-retry') {
-      let firstArchiveRequest = true;
+    if (mode === 'pmtiles') {
+      await page.route('**/generated/search-index.json*', async (route) => {
+        if (!injectedSearchFailure) {
+          injectedSearchFailure = true;
+          await route.fulfill({ status: 503, body: 'temporary search origin error' });
+          return;
+        }
+        await route.continue();
+      });
+    }
+    {
+      const archiveFailureLimit = mode === 'pmtiles-retry' ? 3 : 1;
       await page.route('**/generated/places.pmtiles*', (route) => {
-        if (firstArchiveRequest) { firstArchiveRequest = false; return route.fulfill({ status: 503, body: 'temporary archive error' }); }
+        if (injectedArchiveFailures < archiveFailureLimit) { injectedArchiveFailures++; return route.fulfill({ status: 503, body: 'temporary archive error' }); }
         return route.continue();
       });
     }
@@ -370,6 +387,7 @@ try {
     const search = page.locator('#map-search');
     await search.fill('Noor Accessories Showroom');
     await wait(page, () => document.querySelector('#search-results [role="option"]'));
+    if (mode === 'pmtiles') assert.equal(injectedSearchFailure, true, 'search recovers after a transient origin error');
     const firstName = await page.locator('#search-results [role="option"] strong').first().innerText();
     assert.match(firstName, /Noor Accessories/);
     await page.locator('#search-results [role="option"]').first().click();

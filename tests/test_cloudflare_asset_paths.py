@@ -1,6 +1,6 @@
 import unittest
 
-from scripts.build_cloudflare_assets import cloudflare_index_html
+from scripts.build_cloudflare_assets import cloudflare_index_html, cloudflare_service_worker
 
 
 class CloudflareAssetPathTests(unittest.TestCase):
@@ -17,6 +17,15 @@ class CloudflareAssetPathTests(unittest.TestCase):
         self.assertIn("src='/assets/mazo-mark.svg'", output)
         self.assertIn('href="/"', output)
         self.assertNotIn('./assets/', output)
+
+    def test_service_worker_cache_is_scoped_to_the_deployment_revision(self):
+        source = "const BUILD_REVISION = '__MAZO_BUILD_REVISION__';"
+        revision = "a" * 40
+        self.assertEqual(cloudflare_service_worker(source, revision), f"const BUILD_REVISION = '{revision}';")
+
+    def test_service_worker_revision_rejects_untrusted_or_incomplete_values(self):
+        with self.assertRaises(ValueError):
+            cloudflare_service_worker("__MAZO_BUILD_REVISION__", "not-a-commit")
 
 
 if __name__ == "__main__":

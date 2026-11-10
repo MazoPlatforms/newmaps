@@ -14,6 +14,7 @@ const styles={light:MAP_API+'/style.json',dark:MAP_API+'/style/dark.json'};
 const theme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
 const cameraDuration=milliseconds=>reducedMotionDuration(milliseconds,window.matchMedia?.('(prefers-reduced-motion: reduce)').matches===true);
 const map=new maplibregl.Map({container:'map',style:styles[theme()],...CAMERA_OPTIONS});
+let mapStyleReady=false;
 // A bounded test-only camera/inspection facade for reproducible browser scenarios.
 if(new URLSearchParams(location.search).has('map-test'))window.__MAZO_MAP_TEST__=Object.freeze({
  isStyleLoaded:()=>map.isStyleLoaded(),areTilesLoaded:()=>map.areTilesLoaded(),jumpTo:options=>map.jumpTo(options),
@@ -36,6 +37,7 @@ configureNorthUpInteractions(map);
 // Keep the map unobstructed while providing direct zoom and location controls.
 let places=[],category='all',roadsVisible=true,placesVisible=true,roadGeoJSONPromise=null,placeAliases={},placeSearchIndex=null,nearbyOrigin=null,nearbyMode=false,pmtilesProtocol=null,offlineBaseStyle=false;
 let placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchIndexPromise=null,placeDetailsLoaded=false;
+let poiReloadTimer=0,poiReloadAttempts=0;
 let liveDataPromise=null,liveDataRuntime=null,stopLiveDataPolling=null;
 let presentedCategory=null,presentedSelectedId=null,presentedVisibility=null;
 async function getLiveDataRuntime(){
@@ -611,17 +613,35 @@ map.on('error',event=>{
   const status=$('#search-status'),retry=$('#places-retry');
   status.hidden=false;status.classList.add('is-error');status.textContent='Place map tiles could not be loaded. Search may still work; check your connection and retry.';
   retry.hidden=false;console.error('PMTiles place source error:',event.error);
+  const source=map.getSource(POI_SOURCE);
+  if(source?.reload&&poiReloadAttempts<2){poiReloadAttempts++;clearTimeout(poiReloadTimer);poiReloadTimer=setTimeout(()=>source.reload(),500*poiReloadAttempts)}
  }
+});
+map.on('sourcedata',event=>{
+ if(event.sourceId!==POI_SOURCE||event.sourceDataType!=='content'||!event.isSourceLoaded)return;
+ poiReloadAttempts=0;clearTimeout(poiReloadTimer);poiReloadTimer=0;
+ const status=$('#search-status'),retry=$('#places-retry');
+ if(status.textContent.startsWith('Place map tiles could not be loaded.')){status.hidden=true;status.textContent='';status.classList.remove('is-error');retry.hidden=true}
 });
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();retireBootstrapPoiAfterArchiveLoads();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
+map.on('style.load',()=>{mapStyleReady=true;try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();retireBootstrapPoiAfterArchiveLoads();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
 async function checkedJson(file,sha256){
- const response=await fetch(await appDataUrl(file,sha256));if(!response.ok)throw Error(file+' '+response.status);
- const bytes=await response.arrayBuffer();
- if(sha256&&globalThis.crypto?.subtle){const digest=Array.from(new Uint8Array(await globalThis.crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');if(digest!==sha256)throw Error(file+' checksum mismatch')}
- return JSON.parse(new TextDecoder().decode(bytes));
+ const url=await appDataUrl(file,sha256);
+ return retryTransientData(async()=>{
+  const response=await fetch(url);if(!response.ok){const error=Error(file+' '+response.status);error.status=response.status;throw error}
+  const bytes=await response.arrayBuffer();
+  if(sha256&&globalThis.crypto?.subtle){const digest=Array.from(new Uint8Array(await globalThis.crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');if(digest!==sha256){const error=Error(file+' checksum mismatch');error.retryable=true;throw error}}
+  return JSON.parse(new TextDecoder().decode(bytes));
+ });
+}
+async function retryTransientData(operation,attempts=3){
+ let failure;
+ for(let attempt=0;attempt<attempts;attempt++){
+  try{return await operation()}catch(error){failure=error;const retryable=error?.retryable||!Number.isInteger(error?.status)||error.status===408||error.status===429||error.status>=500;if(!retryable||attempt+1>=attempts)throw error;await new Promise(resolve=>setTimeout(resolve,250*(2**attempt)))}
+ }
+ throw failure;
 }
 function installPlaceIndex(payload){
  const seen=new Set();
@@ -635,7 +655,7 @@ function installPlaceIndex(payload){
 }
 async function ensureSearchIndex(){
  if(placeSearchIndex)return placeSearchIndex;
- if(!searchIndexPromise){const entry=deliveryManifest?.delivery?.search_index;if(!entry)throw Error('Search index is not in the manifest');searchIndexPromise=checkedJson('generated/'+entry.file,entry.sha256).then(installPlaceIndex)}
+ if(!searchIndexPromise){const entry=deliveryManifest?.delivery?.search_index;if(!entry)throw Error('Search index is not in the manifest');searchIndexPromise=checkedJson('generated/'+entry.file,entry.sha256).then(installPlaceIndex).catch(error=>{places=[];placeById.clear();placeSearchIndex=null;searchIndexPromise=null;throw error})}
  await searchIndexPromise;return placeSearchIndex;
 }
 async function loadPlaceDetails(){
@@ -658,14 +678,14 @@ async function loadPmtiles(manifest){
  retireBootstrapPoiAfterArchiveLoads();
  renderCategoryFilters();refresh();const status=$('#search-status');status.hidden=true;status.textContent='';
 }
-async function loadPlaceData(){const status=$('#search-status'),retry=$('#places-retry');retry.hidden=true;status.hidden=true;status.classList.remove('is-error');status.textContent='';places=[];placeById.clear();placeSearchIndex=null;searchIndexPromise=null;placeDetailsLoaded=false;placeDetailPromise=null;try{const response=await fetch(await appDataUrl('generated/manifest.json'),{cache:'no-store'});if(!response.ok)throw Error('Manifest '+response.status);const manifest=await response.json();if(manifest.production_default!=='pmtiles'||manifest.format!=='PMTiles/1')throw Error('The place manifest does not declare PMTiles as its sole delivery format');deliveryManifest=manifest;placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};renderCategoryFilters();
- await loadPmtiles(manifest);
+async function loadPlaceData(){const status=$('#search-status'),retry=$('#places-retry');retry.hidden=true;status.hidden=true;status.classList.remove('is-error');status.textContent='';places=[];placeById.clear();placeSearchIndex=null;searchIndexPromise=null;placeDetailsLoaded=false;placeDetailPromise=null;try{const manifestUrl=await appDataUrl('generated/manifest.json');const manifest=await retryTransientData(async()=>{const response=await fetch(manifestUrl,{cache:'no-store'});if(!response.ok){const error=Error('Manifest '+response.status);error.status=response.status;throw error}return response.json()});if(manifest.production_default!=='pmtiles'||manifest.format!=='PMTiles/1')throw Error('The place manifest does not declare PMTiles as its sole delivery format');deliveryManifest=manifest;placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};renderCategoryFilters();
+ await retryTransientData(()=>loadPmtiles(manifest));
  status.hidden=true;status.textContent='';status.classList.remove('is-error');retry.hidden=true;
 }catch(error){status.hidden=false;status.textContent='Place search and details could not be refreshed. Vector map places remain visible; check your connection and retry.';status.classList.add('is-error');retry.hidden=false;console.error('Place data error:',error);if(deliveryManifest)void ensureSearchIndex().catch(indexError=>console.warn('Place search index unavailable:',indexError))}}
-$('#places-retry').onclick=()=>void loadPlaceData();
+$('#places-retry').onclick=()=>{poiReloadAttempts=0;void loadPlaceData()};
 void loadPlaceData();
 const offlineStatus=$('#offline-status'),offlineButton=$('#offline-download');
-if('serviceWorker' in navigator)navigator.serviceWorker.register('./service-worker.js').catch(error=>console.warn('Offline cache worker unavailable:',error));
+if('serviceWorker' in navigator){const hadWorkerController=Boolean(navigator.serviceWorker.controller);navigator.serviceWorker.addEventListener('controllerchange',()=>{if(hadWorkerController)location.reload()});navigator.serviceWorker.register('./service-worker.js',{updateViaCache:'none'}).then(registration=>registration.update().catch(()=>{})).catch(error=>console.warn('Offline cache worker unavailable:',error))}
 async function updateOfflineStatus(){
  try{const keys=await caches.keys();const packs=keys.filter(key=>key.startsWith('mazo-offline-pack-'));offlineStatus.hidden=false;offlineStatus.textContent=packs.length?'Offline place search, details, local roads and limited Kattankudy routing are downloaded. Basemap, live directions outside that area, and online updates still require internet.':'Offline data is not downloaded. Basemap tiles are online-only.';offlineButton.title=packs.length?'Remove downloaded offline place data':'Download offline place data';offlineButton.setAttribute('aria-label',offlineButton.title)}catch{offlineStatus.hidden=false;offlineStatus.textContent='Offline storage is unavailable in this browser.'}
 }
@@ -700,7 +720,7 @@ $('#map-search').addEventListener('input',refresh);$('#search-form').onsubmit=e=
 const searchInput=$('#map-search');
 searchInput.addEventListener('keydown',event=>{const results=$('#search-results'),items=[...results.querySelectorAll('[role="option"]')];if(event.key==='Escape'){results.hidden=true;searchInput.setAttribute('aria-expanded','false');searchInput.removeAttribute('aria-activedescendant');return}if(results.hidden||!items.length)return;let active=items.findIndex(item=>item.id===searchInput.getAttribute('aria-activedescendant'));if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();active=(active+(event.key==='ArrowDown'?1:-1)+items.length)%items.length;items.forEach((item,index)=>item.setAttribute('aria-selected',String(index===active)));searchInput.setAttribute('aria-activedescendant',items[active].id);items[active].scrollIntoView({block:'nearest'})}else if(event.key==='Enter'&&active>=0){event.preventDefault();items[active].click()}});
 function applyThemeToMap(){
- if(!map.isStyleLoaded()){map.once('style.load',applyThemeToMap);return}
+ if(!mapStyleReady){map.once('style.load',applyThemeToMap);return}
  const selected=theme(),palette=MAZO_PALETTE[selected];
  applyMazoCartographicStyle(map,selected);
  for(const id of Object.keys(artwork).map(iconFor))if(map.hasImage(id))map.removeImage(id);
