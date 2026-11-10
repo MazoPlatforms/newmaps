@@ -28,7 +28,7 @@ PHASE2_JSON = ROOT / "reports/places-data-quality-phase-2.json"
 AUDIT_JSON = Path(os.environ.get("PHASE3_AUDIT_JSON", ROOT / "reports/places-quality-audit-2026-10-27.json"))
 OSM_JSON = ROOT / "reports/places-phase3-osm-evidence.json"
 REPORT_JSON = ROOT / "reports/places-verification-phase-3.json"
-REPORT_MD = ROOT / "docs/PLACES_VERIFICATION_PHASE_3.md"
+REPORT_MD = ROOT / "generated/places-verification-phase-3.md"
 BASE_COMMIT = "ba5d385a6843d45b684fc6b67d3c75765118b62e"
 MAP_BOUNDS = (81.70, 7.65, 81.77, 7.72)
 FIELD_ORDER = ("name", "coordinates", "address", "categories", "phone", "website", "hours", "business_status")
@@ -526,10 +526,11 @@ def _scrub_public_report(withheld_ids: dict[str, str]) -> None:
     report["privacy_review"] = {"public_record_details_withheld": len(sensitive),
                                 "note": "The per-record identifying values for uncertain/private place eligibility cases were removed from this current report version."}
     PHASE2_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    doc = ROOT / "docs/PLACES_DATA_QUALITY_PHASE_2.md"
+    doc = ROOT / "generated/places-data-quality-phase-2.md"
     if doc.exists():
         lines = doc.read_text(encoding="utf-8").splitlines()
         lines = [line for line in lines if not any(record_id in line for record_id in sensitive)]
+        doc.parent.mkdir(parents=True, exist_ok=True)
         doc.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -737,6 +738,7 @@ def write_report(report: dict) -> None:
         "- Public source listings do not establish current operation, exact address, ownership, public access, or pin accuracy unless explicitly stated in an evidence row.",
         "- Redacted eligibility cases require direct contributor/owner review before any details can be restored.", "",
     ]
+    REPORT_MD.parent.mkdir(parents=True, exist_ok=True)
     REPORT_MD.write_text("\n".join(lines), encoding="utf-8")
 
 

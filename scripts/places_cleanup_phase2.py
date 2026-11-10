@@ -21,7 +21,7 @@ from place_names import normalize_place_name
 PLACES = ROOT / "data" / "places"
 ALIASES = PLACES / "aliases.json"
 JSON_REPORT = ROOT / "reports" / "places-data-quality-phase-2.json"
-MD_REPORT = ROOT / "docs" / "PLACES_DATA_QUALITY_PHASE_2.md"
+MD_REPORT = ROOT / "generated" / "places-data-quality-phase-2.md"
 ACRONYMS = {"ATM", "CCTV", "DJ", "FM", "LK", "PVT", "LTD", "PLC", "SMR", "ADS", "BOC", "NHK", "AP", "DS", "SLT"}
 
 
@@ -623,6 +623,7 @@ def write_reports(report: dict) -> None:
         flags = ", ".join(flag["code"] for flag in row["flags"])
         lines.append(f"| {row['review_priority_score']} | `{row['id']}` | {row['name']} | {flags} |")
     lines += ["", "## Rollback", "", "`data/places/aliases.json` contains complete retired records and original formatting values. Restore with `python scripts/places_cleanup_phase2.py --rollback`.", ""]
+    MD_REPORT.parent.mkdir(parents=True, exist_ok=True)
     MD_REPORT.write_text("\n".join(lines), encoding="utf-8")
 
 
