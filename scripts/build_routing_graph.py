@@ -13,7 +13,7 @@ from collections import Counter, defaultdict, deque
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "kattankudy-all-roads.json"
+SOURCE = ROOT / "data/roads/kattankudy-all-roads.json"
 OUTPUT = ROOT / "generated" / "kattankudy-routing.json"
 REPORT = ROOT / "generated" / "kattankudy-routing-manifest.json"
 DRIVE, WALK, BIKE = 1, 2, 4

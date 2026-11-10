@@ -5,7 +5,6 @@ on:
     branches: [main]
     paths:
       - 'data/**'
-      - 'kattankudy-all-roads.json'
   workflow_run:
     workflows: [Deploy Mazo Maps to Cloudflare Workers]
     types: [completed]
@@ -60,7 +59,7 @@ jobs:
           if [[ "$include_generators" == true ]]; then
             while IFS= read -r path; do
               case "$path" in
-                data/*|kattankudy-all-roads.json|scripts/places.py|scripts/roads.py|scripts/speed_limits.py|scripts/build_map_delivery.py|scripts/build_cloudflare_assets.py|scripts/build_vector_assets.mjs|scripts/build_routing_graph.py|scripts/build_sri_lanka_basemap.py|scripts/basemap/**|scripts/enrich_roads.py|requirements-map-tiles.txt|package-lock.json)
+                data/*|scripts/places.py|scripts/roads.py|scripts/speed_limits.py|scripts/build_map_delivery.py|scripts/build_cloudflare_assets.py|scripts/build_vector_assets.mjs|scripts/build_routing_graph.py|scripts/build_sri_lanka_basemap.py|scripts/basemap/**|scripts/enrich_roads.py|requirements-map-tiles.txt|package-lock.json)
                   run=true
                   ;;
               esac
@@ -69,7 +68,7 @@ jobs:
             run=true
             while IFS= read -r path; do
               case "$path" in
-                data/*|kattankudy-all-roads.json) ;;
+              data/*) ;;
                 *) run=false ;;
               esac
             done <<< "$changed"
@@ -143,8 +142,8 @@ jobs:
           MAZO_WORKERS_URL: https://maps.mazo.workers.dev/
         run: node scripts/cloudflare-live-api-smoke.mjs
 
-      - name: Smoke-test complete production map delivery after deployment
-        if: github.event_name == 'workflow_run'
+      - name: Smoke-test complete production map delivery after publication
+        if: steps.sync-plan.outputs.run == 'true' || github.event_name == 'workflow_run'
         env:
           MAZO_WORKERS_URL: https://maps.mazo.workers.dev/
         run: node scripts/cloudflare-production-smoke.mjs

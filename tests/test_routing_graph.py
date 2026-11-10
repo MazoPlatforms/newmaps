@@ -34,9 +34,9 @@ class RoutingGraphBuildTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "routing.json"
             report = Path(directory) / "routing-manifest.json"
-            first = routing.build(ROOT / "kattankudy-all-roads.json", output, report)
+            first = routing.build(routing.SOURCE, output, report)
             digest = hashlib.sha256(output.read_bytes()).hexdigest()
-            second = routing.build(ROOT / "kattankudy-all-roads.json", output, report)
+            second = routing.build(routing.SOURCE, output, report)
             self.assertEqual(digest, hashlib.sha256(output.read_bytes()).hexdigest())
             self.assertEqual(first["graph_sha256"], second["graph_sha256"])
             self.assertEqual(first["road_records"], 2102)
@@ -45,7 +45,6 @@ class RoutingGraphBuildTests(unittest.TestCase):
             self.assertGreater(first["connectivity"]["driving"]["largest_component_nodes"], 6000)
             self.assertTrue(all("maxspeed" not in way for way in graph["ways"]))
             self.assertIn("unverified", graph["speed_tag_policy"])
-
 
 if __name__ == "__main__":
     unittest.main()
