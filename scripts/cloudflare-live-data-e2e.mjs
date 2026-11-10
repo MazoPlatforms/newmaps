@@ -150,6 +150,10 @@ try {
   await page.addInitScript(() => { globalThis.__MAZO_LIVE_DATA_TEST_POLL_MS = 250; });
   page.on('pageerror', (error) => browserErrors.push(error.message));
   page.on('console', (message) => { if (message.type() === 'error') browserErrors.push(message.text()); });
+  page.on('requestfailed', (request) => {
+    const failure = request.failure()?.errorText;
+    if (failure && failure !== 'net::ERR_ABORTED') browserErrors.push(`${failure}: ${request.url()}`);
+  });
   const rangeResponses = [];
   page.on('response', (response) => {
     if (response.url().includes('/api/data/generated/places.pmtiles')) rangeResponses.push({ status: response.status(), contentRange: response.headers()['content-range'] });

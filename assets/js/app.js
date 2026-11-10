@@ -729,7 +729,7 @@ map.on('load',()=>{$('#map-frame').dataset.state='ready';try{ensurePoiLayer()}ca
 const maybeLoadSpeedReviews=()=>{if(map.getZoom()>=15.5)void loadSpeedReviews()};
 map.on('zoomend',maybeLoadSpeedReviews);
 map.on('moveend',maybeLoadSpeedReviews);
-map.on('error',event=>console.error('MapLibre:',event.error));
+map.on('error',event=>console.error('MapLibre:',event.error?.message||event.error));
 map.on('error',event=>{
  if(navigator.onLine||offlineBaseStyle)return;
  offlineBaseStyle=true;
