@@ -1203,15 +1203,15 @@
   "delivery": {
     "mvt_pmtiles": {
       "file": "places.pmtiles",
-      "sha256": "cdb3e8be20e477e85b06df2a2922c9ba8d86fc9aa80f7d7d230846147cc2d468",
-      "bytes": 45114567,
+      "sha256": "3df9830678502fd09a57c3601a109a8d852ef4e3ad39b1f3025c6f54ac2ddd78",
+      "bytes": 37938974,
       "features": 101540,
-      "tiles": 76370,
+      "tiles": 76362,
       "min_zoom": 4,
       "max_zoom": 16,
       "tile_type": "MVT",
       "compression": "gzip",
-      "metadata_sha256": "3f98fe6337d5b0ffc5845fa89dffbbfe50902affb2971e4bc979b28e9625669b"
+      "metadata_sha256": "77f9338770bb3028c176e2db64913dee14b1e7aa6ee7252e6c348563f844b0e5"
     },
     "search_index": {
       "file": "search-index.json",
