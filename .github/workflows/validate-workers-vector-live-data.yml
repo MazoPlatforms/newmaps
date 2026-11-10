@@ -37,6 +37,8 @@ jobs:
           python scripts/places.py build
           python scripts/build_map_delivery.py
           python scripts/validate_map_delivery.py
+          python scripts/build_sri_lanka_basemap.py
+          python scripts/validate_sri_lanka_basemap.py
           python scripts/build_routing_graph.py
           python scripts/enrich_roads.py --check
           python scripts/roads.py validate

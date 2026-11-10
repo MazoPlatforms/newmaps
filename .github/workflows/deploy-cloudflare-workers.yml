@@ -50,6 +50,8 @@ jobs:
           python scripts/places.py build
           python scripts/build_map_delivery.py
           python scripts/validate_map_delivery.py
+          python scripts/build_sri_lanka_basemap.py
+          python scripts/validate_sri_lanka_basemap.py
           python scripts/build_routing_graph.py
           python scripts/enrich_roads.py --check
           python scripts/roads.py validate
@@ -102,6 +104,12 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           MAZO_LIVE_DATA_HMAC_SECRET: ${{ secrets.MAZO_LIVE_DATA_HMAC_SECRET }}
         run: printf '%s' "$MAZO_LIVE_DATA_HMAC_SECRET" | npx wrangler secret put LIVE_DATA_HMAC_SECRET --config wrangler.jsonc
+
+      - name: Publish changed source data and basemap chunks
+        env:
+          MAZO_LIVE_DATA_HMAC_SECRET: ${{ secrets.MAZO_LIVE_DATA_HMAC_SECRET }}
+          MAZO_LIVE_SYNC_URL: https://maps.mazo.workers.dev/
+        run: node scripts/cloudflare-live-data-sync.mjs
 
       - name: Smoke-test deployed Worker routes and PMTiles Range
         env:

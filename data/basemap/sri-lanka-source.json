@@ -1,0 +1,65 @@
+{
+  "format": "MazoBasemapSource/1",
+  "source": "OpenStreetMap via Geofabrik",
+  "provider": "Geofabrik",
+  "extract": "Sri Lanka",
+  "snapshot": "261104",
+  "url": "https://download.geofabrik.de/asia/sri-lanka-261104.osm.pbf",
+  "sha256": "59c18095ea554d6d3f2f94dc0f805c526f721fd20cc2f3acfa5b6a3034f0c993",
+  "bounds": [
+    79.16416,
+    5.621275,
+    82.64612,
+    10.07153
+  ],
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+  "license": "https://www.openstreetmap.org/copyright",
+  "notes": "Complete Sri Lanka extract as of 2026-11-04; generated basemap uses OSM-derived layers only and excludes global ocean/Natural Earth overlays.",
+  "repository_parts": [
+    {
+      "file": "sri-lanka.osm.pbf.part-000",
+      "bytes": 16777216,
+      "sha256": "7f4b8e440862865eea5b62b9131a8cb8297485de2e6e95001b932a9ed7349f4e"
+    },
+    {
+      "file": "sri-lanka.osm.pbf.part-001",
+      "bytes": 16777216,
+      "sha256": "4a8421ceba12ad2aec453a80f664a8d699a249077b663044273e26231a564d5e"
+    },
+    {
+      "file": "sri-lanka.osm.pbf.part-002",
+      "bytes": 16777216,
+      "sha256": "8f1d52e0ae89e9ca161f49c2e7398f6882f7dfdca9449accea21593f75ae3a77"
+    },
+    {
+      "file": "sri-lanka.osm.pbf.part-003",
+      "bytes": 16777216,
+      "sha256": "5d9406359239129f04357c2bb468c2f43af47562fea513df2d2e6df14141729c"
+    },
+    {
+      "file": "sri-lanka.osm.pbf.part-004",
+      "bytes": 16777216,
+      "sha256": "f74a51fe57159dd8e58f3646a4800f50d1b6b7aa0a2aaa80890622fb8ed30a76"
+    },
+    {
+      "file": "sri-lanka.osm.pbf.part-005",
+      "bytes": 16777216,
+      "sha256": "ffab7d03a36575fcd5a3014c9c56a1ed1d55dc4072012ba029d3f868f5fb2121"
+    },
+    {
+      "file": "sri-lanka.osm.pbf.part-006",
+      "bytes": 16777216,
+      "sha256": "6fdb9b4d335e12e02cb911400cacb27acd081d799f10529aff60e619e190fe84"
+    },
+    {
+      "file": "sri-lanka.osm.pbf.part-007",
+      "bytes": 16777216,
+      "sha256": "5967f536f42575ae83ae204c5f2bf424cbc2a7f0c99d58c8e614f94fea571841"
+    },
+    {
+      "file": "sri-lanka.osm.pbf.part-008",
+      "bytes": 10359298,
+      "sha256": "c95c73d17a0fcd89a2983c1be6f035a6b35156ade18add36ac2d3a2d9f9d36da"
+    }
+  ]
+}
