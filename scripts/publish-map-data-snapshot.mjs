@@ -1,21 +1,12 @@
-import { cp, mkdtemp, readdir, rm, writeFile } from 'node:fs/promises';
+import { cp, mkdtemp, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
+import { listMapDataSnapshotFiles } from './map-data-snapshot-files.mjs';
 
 const root = process.env.MAZO_LIVE_DATA_ROOT || new URL('../.build/live-data/', import.meta.url).pathname;
 const repository = process.env.GITHUB_REPOSITORY || 'MazoPlatforms/newmaps';
 const token = process.env.GITHUB_TOKEN;
 if (!token || !/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repository)) throw new Error('GitHub token and repository are required');
-
-async function files(directory, base = directory) {
-  const result = [];
-  for (const item of await readdir(directory, { withFileTypes: true })) {
-    const path = join(directory, item.name);
-    if (item.isDirectory()) result.push(...await files(path, base));
-    else if (item.isFile() && !item.name.endsWith('.pmtiles') && !path.includes('-pmtiles-chunks/')) result.push(path);
-  }
-  return result.map((path) => ({ path, relative: path.slice(base.length).replace(/^\/+/, '') }));
-}
 
 const scratch = await mkdtemp(join(tmpdir(), 'mazo-data-snapshot-'));
 const askpass = join(scratch, 'askpass.sh');
@@ -43,7 +34,7 @@ try {
   }
   git(['config', 'user.name', 'github-actions[bot]']);
   git(['config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com']);
-  for (const { path, relative } of await files(root)) {
+  for (const { path, relative } of await listMapDataSnapshotFiles(root)) {
     const target = join(snapshot, relative);
     await (await import('node:fs/promises')).mkdir(join(target, '..'), { recursive: true });
     await cp(path, target);
