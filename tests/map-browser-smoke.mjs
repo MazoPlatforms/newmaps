@@ -233,13 +233,21 @@ try {
       throw error;
     }
     await wait(page, () => document.querySelectorAll('.categories button').length > 2 && document.querySelector('#search-status').hidden, 90_000);
-    await wait(page, () => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['places-dot'] }).length > 0, 30_000);
     const bootstrapPoiSource = await page.evaluate(() => ({
       type: window.__MAZO_MAP_TEST__.getSource('mazo')?.type,
       layer: window.__MAZO_MAP_TEST__.getLayer('places-dot')?.id,
     }));
     assert.equal(bootstrapPoiSource.type, 'vector', 'place PBF source is part of the initial map style');
     assert.equal(bootstrapPoiSource.layer, 'places-dot', 'preloaded place features render before the PMTiles marker source initializes');
+    const countryScalePlaceCount = await page.evaluate(async () => {
+      await window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.7, 7.8], zoom: 6.3, bearing: 0, pitch: 0 });
+      return window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['places-dot'] }).length;
+    });
+    assert.ok(countryScalePlaceCount > 0,
+      'the preloaded vector preview should show at least one collision-placed landmark');
+    assert.ok(countryScalePlaceCount <= 100,
+      `Sri Lanka overview should show only collision-placed landmark symbols, got ${countryScalePlaceCount} place symbols`);
+    await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     assert.equal(await page.evaluate(() => new URL(location.href).searchParams.has('delivery')), false, 'production does not require a format flag');
     assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some((entry) => entry.name.includes('batticaloa-district.mzp'))), false,
       'production never requests a place MZP archive');

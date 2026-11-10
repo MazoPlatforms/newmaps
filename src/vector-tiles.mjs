@@ -15,14 +15,20 @@ const PMTILES_HEADER_BYTES = 127;
 const encoder = new TextEncoder();
 
 const POI_LAYERS = [
-  { id: 'places-halo', type: 'circle', source: 'mazo', 'source-layer': 'places', minzoom: 4,
-    paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 3, 12, 7, 16, 10],
-      'circle-color': '#ffffff', 'circle-opacity': 0.95, 'circle-stroke-width': 0 } },
-  { id: 'places-dot', type: 'circle', source: 'mazo', 'source-layer': 'places', minzoom: 4,
-    paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 2.2, 12, 5, 16, 7],
-      'circle-color': ['match', ['get', 'kind'], 'health', '#d63b4b', 'fuel', '#e28b28',
-        'school', '#7358bd', 'worship', '#29876a', 'landmark', '#b7791f', '#147d91'],
-      'circle-stroke-color': '#ffffff', 'circle-stroke-width': 1.2 } },
+  // The bootstrap MVT source exists so a few places appear with the first map
+  // tiles while the searchable PMTiles archive loads. Drawing every place as a
+  // circle here bypasses symbol collision and covers the whole island in POIs.
+  // Keep the bootstrap preview to a deterministic, sparse MVT subset. The full
+  // archive is collision-aware; laying out tens of thousands of bootstrap
+  // symbols at once is expensive even when collision eventually hides them.
+  { id: 'places-dot', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 6.2,
+    layout: { 'text-field': ['get', 'name'], 'text-font': ['Mazo Maps Sans Regular'],
+      'text-size': ['interpolate', ['linear'], ['zoom'], 6.2, 10, 12, 12, 16, 14],
+      'text-allow-overlap': false, 'text-ignore-placement': false, 'text-padding': 4, 'text-max-width': 8,
+      'symbol-z-order': 'auto', 'symbol-sort-key': ['get', 'priority'] },
+    paint: { 'text-color': ['match', ['get', 'kind'], 'health', '#d63b4b', 'fuel', '#e28b28',
+      'school', '#7358bd', 'worship', '#29876a', 'landmark', '#b7791f', '#147d91'],
+      'text-halo-color': '#ffffff', 'text-halo-width': 1.2 } },
   { id: 'places-label', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 12,
     layout: { 'text-field': ['get', 'name'], 'text-font': ['Mazo Maps Sans Regular'],
       'text-size': ['interpolate', ['linear'], ['zoom'], 12, 10, 16, 13],
@@ -256,7 +262,7 @@ function tileJSON(base, revision, state) {
     minzoom: state.minZoom, maxzoom: state.maxZoom,
     bounds: [state.minLon, state.minLat, state.maxLon, state.maxLat],
     center: [81.72, 7.72, 11], attribution: '© Mazo Maps place data contributors',
-    vector_layers: [{ id: 'places', fields: { id: 'String', name: 'String', kind: 'String', priority: 'Number' },
+    vector_layers: [{ id: 'places', fields: { id: 'String', name: 'String', kind: 'String', priority: 'Number', overview: 'Boolean' },
       minzoom: state.minZoom, maxzoom: state.maxZoom }],
   };
 }

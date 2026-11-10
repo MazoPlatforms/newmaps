@@ -125,6 +125,17 @@ test('TileJSON and light/dark styles are valid MapLibre Native URLs with revisio
     assert.equal(style.layers.some(layer => layer['source-layer'] === 'transportation'), true);
     assert.equal(style.layers.some(layer => layer.id === 'places-label'), true);
     assert.equal(style.layers.some(layer => layer.id === 'places-dot'), true);
+    const bootstrapPlaces = style.layers.find(layer => layer.id === 'places-dot');
+    assert.equal(bootstrapPlaces.minzoom, 6.2, 'the preloaded preview must stay hidden at small country/world scales');
+    assert.equal(bootstrapPlaces.filter, undefined,
+      'country-scale sample selection is encoded in the MVT, not filtered client-side');
+    assert.deepEqual(bootstrapPlaces.layout['text-field'], ['get', 'name'],
+      'the sparse preview should use readable collision-placed labels');
+    assert.equal(bootstrapPlaces.type, 'symbol', 'dense preview points need MapLibre collision placement');
+    assert.equal(bootstrapPlaces.layout['text-allow-overlap'], false);
+    assert.ok(bootstrapPlaces.layout['text-padding'] >= 4);
+    assert.equal(style.layers.some(layer => layer.id === 'places-halo'), false,
+      'a second layer must not amplify dense place tiles');
   }
 });
 

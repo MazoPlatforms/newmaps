@@ -26,6 +26,18 @@ class MapDeliveryTests(unittest.TestCase):
         self.assertFalse(delivery.visible_from_zoom(3, 6))
         self.assertTrue(delivery.visible_from_zoom(2, 7))
 
+    def test_country_overview_subset_is_sparse_and_deterministic(self):
+        ids = [feature["id"] for feature in self.features]
+        preview = [place_id for place_id in ids if delivery.overview_place(place_id)]
+        self.assertGreater(len(preview), 0)
+        self.assertLess(len(preview), len(ids) // 100)
+        self.assertTrue(delivery.overview_place("overview-fixture-132"))
+        self.assertFalse(delivery.overview_place("overview-fixture-no-match"))
+        self.assertTrue(all(delivery.include_tile_feature(place_id, 9) == delivery.overview_place(place_id)
+                            for place_id in ids))
+        self.assertTrue(all(delivery.include_tile_feature(place_id, 10) for place_id in ids),
+                        "full place coverage should return at street zoom")
+
     def test_every_feature_and_alias_is_present_in_generated_search_and_tiles(self):
         result = validate_map_delivery.validate()
         self.assertEqual(result["features"], len(self.features))

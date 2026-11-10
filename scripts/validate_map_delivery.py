@@ -117,7 +117,8 @@ def validate():
             raise ValueError(f"High-zoom MVT feature coverage mismatch (missing={missing}, extra={extra})")
         for zoom in range(build.MIN_ZOOM, build.MAX_ZOOM + 1):
             wanted = {feature_id for feature_id, feature in expected.items()
-                      if build.visible_from_zoom(build.priority(build.discovery_kind(feature["properties"])), zoom)}
+                      if build.include_tile_feature(feature_id, zoom) and
+                      build.visible_from_zoom(build.priority(build.discovery_kind(feature["properties"])), zoom)}
             if seen_by_zoom.get(zoom, set()) != wanted:
                 raise ValueError(f"Progressive tile coverage does not match category policy at z{zoom}")
         for place_id, (_, x, y, feature) in decoded.items():
@@ -129,8 +130,9 @@ def validate():
             properties = feature["properties"]
             expected_kind = build.discovery_kind(source["properties"])
             if (properties.get("kind") != expected_kind or properties.get("priority") != build.priority(expected_kind) or
+                    properties.get("overview") is not build.overview_place(place_id) or
                     properties.get("name") != source["properties"].get("name")):
-                raise ValueError(f"Feature {place_id} lost category or priority attributes")
+                raise ValueError(f"Feature {place_id} lost category, priority, or overview attributes")
             point = feature["geometry"]
             coordinates = point.get("coordinates")
             if point.get("type") != "Point" or not coordinates or len(coordinates) != 2:
