@@ -156,7 +156,15 @@ try {
   });
   const rangeResponses = [];
   const staleTileResponses = new Set();
+  const basemapTileResponses = new Map();
   page.on('response', (response) => {
+    if (response.url().includes('/api/v1/basemap/tiles/') && new URL(response.url()).pathname.endsWith('.pbf')) {
+      basemapTileResponses.set(response.url(), response.body().then((body) => ({
+        status: response.status(), contentType: response.headers()['content-type'],
+        contentEncoding: response.headers()['content-encoding'], bodyBytes: body.byteLength,
+        prefix: [...body.slice(0, 4)].map((byte) => byte.toString(16).padStart(2, '0')).join(''),
+      })).catch((error) => ({ bodyError: error.message })));
+    }
     if (response.status() === 409 && /\/api\/v1\/(?:basemap\/)?tiles\/\d+\/\d+\/\d+\.pbf\?revision=/.test(response.url())) {
       staleTileResponses.add(response.url());
     }
@@ -250,7 +258,10 @@ try {
   assert.notEqual(cityVersion2.sha256, first.manifest.files['data/cities.json'].sha256,
     'changed bytes receive a new content address so immutable browser/CDN caches cannot shadow updates');
   const unexpectedBrowserErrors = browserErrors.filter((error) => ![...staleTileResponses].some((url) => error.includes(url)));
-  assert.ok(unexpectedBrowserErrors.length === 0, `live update browser errors: ${unexpectedBrowserErrors.join(' | ')}`);
+  if (unexpectedBrowserErrors.length) {
+    const failingTileDetails = await Promise.all([...basemapTileResponses].map(async ([url, result]) => [url, await result]));
+    assert.fail(`live update browser errors: ${unexpectedBrowserErrors.join(' | ')}\nBasemap tile responses: ${JSON.stringify(failingTileDetails)}`);
+  }
 
   await writeFile(citiesPath, initialCities);
   const rollback = await synchronize('c'.repeat(40), 3);
