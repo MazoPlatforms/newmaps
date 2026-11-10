@@ -15,14 +15,17 @@ const PMTILES_HEADER_BYTES = 127;
 const encoder = new TextEncoder();
 
 const POI_LAYERS = [
-  { id: 'places-halo', type: 'circle', source: 'mazo', 'source-layer': 'places', minzoom: 4,
-    paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 3, 12, 7, 16, 10],
-      'circle-color': '#ffffff', 'circle-opacity': 0.95, 'circle-stroke-width': 0 } },
-  { id: 'places-dot', type: 'circle', source: 'mazo', 'source-layer': 'places', minzoom: 4,
-    paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 2.2, 12, 5, 16, 7],
+  // The bootstrap MVT source exists so a few places appear with the first map
+  // tiles while the searchable PMTiles archive loads. Drawing every place as a
+  // circle here bypasses symbol collision and covers the whole island in POIs.
+  // Keep this lightweight preview to landmarks until the PMTiles symbol layers
+  // provide collision-aware, zoom-tiered place rendering.
+  { id: 'places-dot', type: 'circle', source: 'mazo', 'source-layer': 'places', minzoom: 6.2,
+    filter: ['==', ['get', 'priority'], 1],
+    paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 6.2, 2, 12, 3.5, 16, 5],
       'circle-color': ['match', ['get', 'kind'], 'health', '#d63b4b', 'fuel', '#e28b28',
         'school', '#7358bd', 'worship', '#29876a', 'landmark', '#b7791f', '#147d91'],
-      'circle-stroke-color': '#ffffff', 'circle-stroke-width': 1.2 } },
+      'circle-stroke-color': '#ffffff', 'circle-stroke-width': 1 } },
   { id: 'places-label', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 12,
     layout: { 'text-field': ['get', 'name'], 'text-font': ['Mazo Maps Sans Regular'],
       'text-size': ['interpolate', ['linear'], ['zoom'], 12, 10, 16, 13],

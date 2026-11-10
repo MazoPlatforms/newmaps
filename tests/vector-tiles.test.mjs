@@ -125,6 +125,12 @@ test('TileJSON and light/dark styles are valid MapLibre Native URLs with revisio
     assert.equal(style.layers.some(layer => layer['source-layer'] === 'transportation'), true);
     assert.equal(style.layers.some(layer => layer.id === 'places-label'), true);
     assert.equal(style.layers.some(layer => layer.id === 'places-dot'), true);
+    const bootstrapPlaces = style.layers.find(layer => layer.id === 'places-dot');
+    assert.equal(bootstrapPlaces.minzoom, 6.2, 'the preloaded preview must stay hidden at small country/world scales');
+    assert.deepEqual(bootstrapPlaces.filter, ['==', ['get', 'priority'], 1],
+      'only landmark features may render as uncullable bootstrap circles');
+    assert.equal(style.layers.some(layer => layer.id === 'places-halo'), false,
+      'a second uncullable circle layer must not amplify dense place tiles');
   }
 });
 
