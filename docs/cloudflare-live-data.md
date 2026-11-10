@@ -39,54 +39,14 @@ The Cloudflare `API_RATE_LIMITER` binding allows 60 search/geocode/route/manifes
 | `GET /geocode?q=<text>&limit=10` | GeoJSON `FeatureCollection` of matching geocoded places; geometry is `[longitude, latitude]`. |
 | `POST /route` with JSON `{ start_lon, start_lat, end_lon, end_lat, profile }` | Local route alternatives with geometry, distance, ETA and snap distances. Coordinates are kept out of URL query strings. `profile` is `driving`, `walking`, or `cycling`. Local routing coverage is the Kattankudy-area graph only; outside coverage returns `422` with `snap_too_far`. |
 
-### Native MapLibre Android API
+### Native vector map API
 
 `GET /style.json` and `/style/dark.json` provide MapLibre Native-compatible version-8 style JSON. `/tiles.json` is TileJSON 3.0 with XYZ scheme, `places` vector-layer metadata, zoom range and bounds. `/tiles/{z}/{x}/{y}.pbf` returns the gzip-compressed MVT payload selected from the versioned R2 PMTiles archive using only header/directory/tile range reads. The endpoint sends PBF MIME type, `Content-Encoding: gzip`, ETag, immutable caching for revision-pinned URLs, and public CORS. A valid tile with no features returns `204`; invalid coordinates return `400`; an old explicit revision returns `409`. Glyph range assets are built from the bundled OFL font, published alongside generated data, and served under `/fonts/{fontstack}/{range}.pbf`; sprite JSON/PNG assets are served from `/sprite` resources. Place icons remain collision-aware native symbol layers; no HTML markers are required for POIs.
 
-**Current basemap limitation:** inspection of the actual archive metadata confirms `places.pmtiles` has only the `places` layer. The repository has no basemap MVT archive or legally-cleared pipeline for roads, water, buildings, or land use. The native API's style therefore uses a neutral background and renders the real place vectors. Old style JSONs referenced GitHub Pages PMTiles that currently return 404; Android clients must use the live API style URLs. Full basemap readiness requires licensing and ingesting a pinned authoritative open dataset first. Do not describe the current place archive as a complete or nationwide basemap.
-
 Unknown paths return `404`; invalid parameters return `400`; unavailable synchronized data returns `503`. Clients should read `/manifest` first, track `revision`, and refresh cached search/route data when that value changes. The web app also retains client-side search and routing data for responsive interaction and offline behavior.
-
-### Kotlin / Jetpack Compose integration
-
-Use OkHttp/Ktor on an IO dispatcher and parse coordinates as longitude then latitude. No API key is required. MapLibre Native loads `/api/v1/style.json` directly and fetches ordinary XYZ PBF tiles; it does not need the browser PMTiles protocol. Keep API requests cancellable, debounce search (250–350 ms), respect `429 Retry-After`, and display local routing coverage/errors. See [RideNow Android MapLibre integration](RIDENOW_ANDROID_MAPLIBRE.md) and the standalone [Compose example](../android-example/).
-
-```kotlin
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
-import kotlinx.serialization.Serializable
-import kotlinx.serialization.json.Json
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import okhttp3.HttpUrl.Companion.toHttpUrl
-
-@Serializable data class PlaceSearchResponse(
-    val api_version: String, val revision: String, val query: String, val results: List<PlaceResult>,
-)
-@Serializable data class PlaceResult(
-    val id: String, val name: String, val address: String? = null,
-    val coordinates: List<Double>? = null, val discoveryCategory: String? = null,
-    val canonical_id: String? = null, val score: Int = 0,
-)
-class RateLimited(val retryAfterSeconds: Long) : Exception("Retry after $retryAfterSeconds seconds")
-private val json = Json { ignoreUnknownKeys = true }
-
-suspend fun searchPlaces(client: OkHttpClient, query: String): PlaceSearchResponse {
-    val url = "https://maps.mazo.workers.dev/api/v1/places/search".toHttpUrl()
-        .newBuilder().addQueryParameter("q", query).addQueryParameter("limit", "10").build()
-    val request = Request.Builder().url(url).header("Accept", "application/json").get().build()
-    return withContext(Dispatchers.IO) {
-        client.newCall(request).execute().use { response ->
-            if (response.code == 429) throw RateLimited(response.header("Retry-After")?.toLongOrNull() ?: 60)
-            check(response.isSuccessful) { "Mazo Maps API returned ${response.code}" }
-            json.decodeFromString(requireNotNull(response.body).string())
-        }
-    }
-}
-```
 
 ## Validation and benchmarks
 
 Run `npm run test:unit`, `npm run test:live-data:e2e`, `npm run test:browser`, `python -m unittest discover -s tests -v`, `npm run build:cloudflare`, and `npx wrangler deploy --dry-run --config wrangler.jsonc`. The E2E script starts Wrangler locally with its SQLite Durable Object and local R2 emulation, signs real sync requests, verifies one-use HMAC nonces, tests changed/deleted files, archive SHA-256 and ranges, conditional polls, hash-addressed cache behavior, rollback without re-uploading retained objects, open-tab reload, vector-POI point clicks, stale service-worker cache bypass and axe accessibility. The existing browser suite covers map startup, search, routing/GPS, touch directions controls, offline behavior and PMTiles delivery.
 
-`node scripts/benchmark_live_data.mjs` compares the existing static 64 KiB chunk path with exact-length R2 range reads using the built archive and deterministic 16 KiB ranges. This is a local byte-amplification benchmark, not an edge-latency or billed-cost measurement. For production latency/cost measurement, run repeated ranges against the deployed Worker and inspect Cloudflare Analytics for Worker invocations/CPU, Durable Object requests, R2 Class B reads, and R2 stored bytes. Do not run a production data sync or deploy as part of local validation.
+For production latency/cost measurement, run repeated ranges against the deployed Worker and inspect Cloudflare Analytics for Worker invocations/CPU, Durable Object requests, R2 Class B reads, and R2 stored bytes. Do not run a production data sync or deploy as part of local validation.

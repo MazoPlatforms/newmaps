@@ -30,7 +30,7 @@ Migration artifacts `migration-record-map.json` and `migration-exclusions.json` 
 
 ## Cloudflare Workers
 
-Cloudflare Workers with Static Assets and the `/api/*` Worker are the production host. GitHub is the source of truth for map records and source datasets; GitHub Actions publishes changed objects to R2 and atomically advances the live manifest. Wrangler bindings, PMTiles byte-range handling, required GitHub secrets, API contracts, and RideNow integration are documented in [Cloudflare Workers deployment](docs/CLOUDFLARE_WORKERS.md) and [Cloudflare live data](docs/cloudflare-live-data.md).
+Cloudflare Workers with Static Assets and the `/api/*` Worker are the production host. GitHub is the source of truth for map records and source datasets; GitHub Actions publishes changed objects to R2 and atomically advances the live manifest. Wrangler bindings, PMTiles byte-range handling, required GitHub secrets, and API/data publication contracts are documented in [Cloudflare Workers deployment](docs/CLOUDFLARE_WORKERS.md) and [Cloudflare live data](docs/cloudflare-live-data.md).
 
 ## Rollback
 
