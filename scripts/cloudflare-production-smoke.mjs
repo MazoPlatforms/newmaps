@@ -101,9 +101,14 @@ assert.equal(tileJSON.vector_layers[0].id, 'places');
 const nativeTile = await get('api/v1/tiles/10/744/489.pbf');
 assert.equal(nativeTile.status, 200, 'known Kattankudy XYZ tile should be served');
 assert.match(nativeTile.headers.get('content-type') || '', /application\/vnd\.mapbox-vector-tile/);
-assert.equal(nativeTile.headers.get('content-encoding'), 'gzip');
+const nativeTileEncoding = nativeTile.headers.get('content-encoding');
+assert.ok(nativeTileEncoding === null || nativeTileEncoding === 'gzip',
+  'native tile should be raw or gzip encoded');
 const nativeTileBytes = new Uint8Array(await nativeTile.arrayBuffer());
-const decodedTileBytes = nativeTile.headers.get('content-encoding') === 'gzip' ? gunzipSync(nativeTileBytes) : nativeTileBytes;
+// Fetch implementations may transparently decode gzip and remove the header.
+const nativeTileIsGzip = nativeTileEncoding === 'gzip'
+  || (nativeTileBytes[0] === 0x1f && nativeTileBytes[1] === 0x8b);
+const decodedTileBytes = nativeTileIsGzip ? gunzipSync(nativeTileBytes) : nativeTileBytes;
 const decodedTile = new VectorTile(new Pbf(decodedTileBytes));
 assert.ok(decodedTile.layers.places?.length, 'known vector tile should decode to place features');
 const font = await fetch(new URL(new URL(style.glyphs.replace('{fontstack}', 'Mazo%20Maps%20Sans%20Regular')
@@ -159,6 +164,7 @@ console.log(JSON.stringify({
   nativeStyle: mapStyle.status,
   nativeTileJSON: nativeTileJSON.status,
   nativePbf: nativeTile.status,
+  nativeTileEncoding: nativeTileEncoding || 'fetch-decoded-or-identity',
   decodedPlaceFeatures: decodedTile.layers.places.length,
   glyphs: font.status,
   sprite: [spriteJson.status, spritePng.status],
