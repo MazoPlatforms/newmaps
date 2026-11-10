@@ -87,7 +87,8 @@ test('XYZ to PMTiles Hilbert ids match the archive coordinate scheme', () => {
   assert.equal(zxyToPmtilesId(14, 11911, 7839), 307_723_925);
 });
 
-test('TileJSON and light/dark styles are valid MapLibre Native URLs with revision pinning', async () => {
+test('TileJSON and light/dark styles are valid MapLibre Native URLs with revision pinning', async (t) => {
+  if (!basemapDescriptor) return t.skip('Build the Sri Lanka basemap before validating the complete native style');
   const fx = fixture();
   const tilejsonResponse = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/tiles.json'), fx.env);
   assert.equal(tilejsonResponse.status, 200);
