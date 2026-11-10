@@ -171,7 +171,7 @@ try {
         ['kattankudy-street-network', [81.7337, 7.6831], 15], ['victory-ground-deen-road', [81.7389, 7.6766], 16],
       ];
       for (const [name, center, zoom] of scenes) {
-        const tilesReady = await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
+        await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
         await page.waitForTimeout(250);
         const visible = await page.evaluate(() => {
           const map = window.__MAZO_MAP_TEST__;
@@ -241,7 +241,7 @@ try {
         ['kattankudy-street-network', [81.7337, 7.6831], 15], ['victory-ground-deen-road', [81.7389, 7.6766], 16],
       ];
       for (const [name, center, zoom] of darkScenes) {
-        const tilesReady = await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
+        await page.evaluate(({ center, zoom }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom, bearing: 0, pitch: 0 }), { center, zoom });
         await page.waitForTimeout(250);
         await page.screenshot({ path: `${screenshotDir}/${name}-dark.png` });
       }
