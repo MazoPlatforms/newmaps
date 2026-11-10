@@ -137,11 +137,14 @@ try {
     });
     page.on('console', (message) => {
       if (message.type() === 'error'
+        && !message.text().includes('status of 422 (Unprocessable Entity)')
         && !(mode === 'pmtiles-retry' && message.text().includes('503'))) errors.push(message.text());
     });
     page.on('response', (response) => {
       if (response.url().includes('/generated/places.pmtiles')) ranges.push({ status: response.status(), contentRange: response.headers()['content-range'] || null });
-      if (response.status() >= 400 && !(mode === 'pmtiles-retry' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))) {
+      const expectedRouteRejection = response.status() === 422 && new URL(response.url()).pathname === '/api/v1/route';
+      if (response.status() >= 400 && !expectedRouteRejection
+        && !(mode === 'pmtiles-retry' && response.status() === 503 && response.url().includes('/generated/places.pmtiles'))) {
         errors.push(`HTTP ${response.status()} ${response.url()}`);
       }
     });
@@ -426,6 +429,10 @@ try {
     const outsidePickup = await page.evaluate(() => window.__MAZO_MAP_TEST__.project(window.__MAZO_MAP_TEST__.getCenter().toArray()));
     await page.mouse.click(outsidePickup.x, outsidePickup.y);
     await wait(page, () => document.querySelector('#route-status').innerText.includes('No route is available'), 10_000);
+    const rejectedRoute = routeResponses.at(-1);
+    assert.equal(rejectedRoute?.status, 422, 'outside-coverage route should fail closed with HTTP 422');
+    assert.ok(['outside_coverage', 'snap_too_far', 'no_connected_route'].includes(JSON.parse(rejectedRoute.body).error),
+      'route rejection should explain unsupported road coverage or lack of a connected road');
     assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route')), 0, 'failed route refresh clears stale route geometry');
     if (mode === 'pmtiles') {
       const closeButton = page.locator('#route-close');
