@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
 import { chromium } from 'playwright';
 import worker from '../src/worker-core.mjs';
+import { buildLiveDataManifest } from '../scripts/cloudflare-live-data-sync.mjs';
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const screenshotDir = process.env.MAZO_SCREENSHOTS_DIR;
@@ -23,12 +24,33 @@ const searchFixturePlace = searchFixture.records.find((record) => record[nameCol
 assert.ok(searchFixturePlace, 'synthetic workflow fixture must be present in the generated search index');
 const expectedPlaceId = searchFixturePlace[idColumn];
 const distRoot = resolve(root, 'dist');
+const liveDataRoot = resolve(root, '.build/live-data');
+const publishedFixtureManifest = await buildLiveDataManifest(liveDataRoot, {
+  revision: 'a'.repeat(40), artifactRevision: 'b'.repeat(40), runNumber: 1,
+});
+const bootstrapManifest = { ...publishedFixtureManifest, revision: 'bootstrap', run_number: 0 };
 const assets = { fetch: async (request) => {
   const url = new URL(request.url);
-  const target = resolve(distRoot, `.${decodeURIComponent(url.pathname)}`);
+  const decodedPath = decodeURIComponent(url.pathname);
+  if (decodedPath.split(/[\\/]/).includes('..') || decodedPath.includes('\\')) return new Response(null, { status: 403 });
+  if (decodedPath === '/generated/live-data-manifest.json') return Response.json(bootstrapManifest);
+  const target = resolve(distRoot, `.${decodedPath}`);
   if (target !== distRoot && !target.startsWith(`${distRoot}${sep}`)) return new Response(null, { status: 403 });
   let bytes;
-  try { bytes = readFileSync(target); } catch { return new Response(null, { status: 404 }); }
+  try { bytes = readFileSync(target); }
+  catch {
+    const fallback = resolve(liveDataRoot, `.${decodedPath}`);
+    try {
+      if (fallback.startsWith(`${liveDataRoot}${sep}`)) bytes = readFileSync(fallback);
+      else throw new Error('outside live-data fixture');
+    } catch {
+      const generatedFallback = resolve(root, `.${decodedPath}`);
+      try {
+        if (generatedFallback.startsWith(`${resolve(root, 'generated')}${sep}`)) bytes = readFileSync(generatedFallback);
+        else return new Response(null, { status: 404 });
+      } catch { return new Response(null, { status: 404 }); }
+    }
+  }
   const headers = new Headers({ 'Content-Length': String(bytes.length), 'Content-Type': contentTypes[extname(target)] || 'application/octet-stream' });
   const range = request.headers.get('range');
   if (range) {
@@ -41,7 +63,37 @@ const assets = { fetch: async (request) => {
   }
   return new Response(request.method === 'HEAD' ? null : bytes, { status: 200, headers });
 } };
-const env = { ASSETS: assets, LIVE_DATA_REGISTRY: { getByName: () => ({ fetch: async () => new Response(null, { status: 404 }) }) } };
+const env = { ASSETS: assets, LIVE_DATA_REGISTRY: { getByName: () => ({ fetch: async () => new Response(null, { status: 404 }) }) },
+  DATA_BUCKET: { get: async (key, options) => {
+    const [, sha256, pathHex] = key.split('/');
+    const path = new TextDecoder().decode(Uint8Array.from(pathHex.match(/../g) || [], (byte) => Number.parseInt(byte, 16)));
+    const file = resolve(liveDataRoot, path);
+    if (!file.startsWith(`${liveDataRoot}${sep}`)) return null;
+    let data;
+    try { data = readFileSync(file); } catch { return null; }
+    const offset = options?.range?.offset ?? 0;
+    const length = options?.range?.length ?? data.byteLength;
+    return { size: data.byteLength, body: data.subarray(offset, offset + length),
+      customMetadata: { sha256, path } };
+  } },
+  GITHUB_DATA_FETCH: async (input, options = {}) => {
+    const url = new URL(input);
+    const path = url.pathname.split('/').slice(2).join('/');
+    const file = resolve(liveDataRoot, path);
+    if (!file.startsWith(`${liveDataRoot}${sep}`)) return new Response(null, { status: 404 });
+    let data;
+    try { data = readFileSync(file); } catch { return new Response(null, { status: 404 }); }
+    const range = options.headers?.get('Range');
+    if (range) {
+      const match = /^bytes=(\d+)-(\d*)$/.exec(range);
+      if (!match) return new Response(null, { status: 416 });
+      const start = Number(match[1]); const end = Math.min(match[2] ? Number(match[2]) : data.byteLength - 1, data.byteLength - 1);
+      if (start >= data.byteLength || end < start) return new Response(null, { status: 416 });
+      return new Response(data.subarray(start, end + 1), { status: 206, headers: { 'Content-Range': `bytes ${start}-${end}/${data.byteLength}` } });
+    }
+    return new Response(data, { headers: { 'Content-Type': 'application/json' } });
+  },
+};
 const server = createServer(async (request, response) => {
   const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
   if (pathname.startsWith('/api/')) {
