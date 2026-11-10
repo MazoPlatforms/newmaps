@@ -1,0 +1,58 @@
+{
+  "name": "Athena Seafood Restaurant",
+  "coordinates": {
+    "latitude": 6.0122398,
+    "longitude": 80.7791407
+  },
+  "address": "Athena Seafood Restaurant Goyambokka, Beach Road, Tangalle 82200",
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "phone": "0774708266",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNEDEVF9S8AWDXCK39B5"
+}

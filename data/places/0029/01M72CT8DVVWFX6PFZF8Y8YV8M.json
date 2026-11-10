@@ -1,0 +1,62 @@
+{
+  "name": "Metropolitan M Centre - Matara",
+  "coordinates": {
+    "latitude": 5.9490298,
+    "longitude": 80.5442231
+  },
+  "address": "61 Anagarika Dharmapala Mawatha, Matara 81000",
+  "categories": [
+    "Computer store",
+    "Electronics company",
+    "Computer support and services",
+    "Printer repair service"
+  ],
+  "phone": "0412221113",
+  "website": "http://www.mcentre.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CT8DVVWFX6PFZF8Y8YV8M"
+}

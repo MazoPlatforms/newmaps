@@ -1,0 +1,59 @@
+{
+  "name": "Juice Bar Monaragala",
+  "coordinates": {
+    "latitude": 6.871786999999999,
+    "longitude": 81.3503321
+  },
+  "address": "No 84 Wellawaya Rd, Monaragala",
+  "categories": [
+    "Produce market",
+    "Cafe"
+  ],
+  "phone": "0777032078",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGDRJ078HE6XXGFA4PF30"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Amani Store's",
+  "coordinates": {
+    "latitude": 8.499700599999999,
+    "longitude": 81.1867766
+  },
+  "address": "Jaya Rd, Kinniya",
+  "categories": [
+    "Store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–6 AM",
+        "6:30–9 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–9 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4093FJ5252MHJQQBP5VQ"
+}

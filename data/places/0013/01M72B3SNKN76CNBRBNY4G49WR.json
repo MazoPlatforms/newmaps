@@ -1,0 +1,58 @@
+{
+  "name": "ICT Class",
+  "coordinates": {
+    "latitude": 7.4674401999999995,
+    "longitude": 80.6277336
+  },
+  "address": "Dole Rd, Matale 21000",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0771952845",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3SNKN76CNBRBNY4G49WR"
+}

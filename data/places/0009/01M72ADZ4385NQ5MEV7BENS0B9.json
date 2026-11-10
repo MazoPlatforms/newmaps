@@ -1,0 +1,65 @@
+{
+  "address": "218 Lewis Pl, Negombo",
+  "name": "Memorella Restaurant & Cafe",
+  "coordinates": {
+    "latitude": 7.2310152,
+    "longitude": 79.8411813
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Cafe",
+    "Seafood restaurant",
+    "Crab house",
+    "Dessert shop",
+    "Food court",
+    "Juice shop",
+    "Persian restaurant",
+    "Restaurant",
+    "Vegan restaurant"
+  ],
+  "id": "01M72ADZ4385NQ5MEV7BENS0B9"
+}

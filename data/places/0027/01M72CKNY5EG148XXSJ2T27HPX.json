@@ -1,0 +1,61 @@
+{
+  "name": "Btec Computers",
+  "coordinates": {
+    "latitude": 6.9369698,
+    "longitude": 79.9767261
+  },
+  "address": "No. 158/F Hewagama, Kaduwela 10640",
+  "categories": [
+    "Computer store",
+    "Computer repair service",
+    "Computer service"
+  ],
+  "phone": "0752616616",
+  "website": "https://bteccomputers.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKNY5EG148XXSJ2T27HPX"
+}

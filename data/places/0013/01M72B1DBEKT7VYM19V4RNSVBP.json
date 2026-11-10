@@ -1,0 +1,59 @@
+{
+  "name": "Unani Medical Center",
+  "coordinates": {
+    "latitude": 6.4621637,
+    "longitude": 79.98386239999999
+  },
+  "address": "38/13, Zainulabdeen Mawatha, Mahagoda, Beruwala 12070",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0774244643",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 PM",
+        "4:30–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B1DBEKT7VYM19V4RNSVBP"
+}

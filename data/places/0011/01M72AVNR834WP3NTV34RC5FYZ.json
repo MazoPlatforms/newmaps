@@ -1,0 +1,57 @@
+{
+  "name": "Dispensary & Surgery, Medical Laboratory",
+  "coordinates": {
+    "latitude": 6.8787357,
+    "longitude": 79.92185909999999
+  },
+  "address": "VWHC+FPX, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Medical clinic"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVNR834WP3NTV34RC5FYZ"
+}

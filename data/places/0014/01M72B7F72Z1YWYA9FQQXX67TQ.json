@@ -1,0 +1,59 @@
+{
+  "name": "Bank Of Ceylon ATM",
+  "coordinates": {
+    "latitude": 6.1395484,
+    "longitude": 80.09988299999999
+  },
+  "address": "43QX+RX6, Amarasena Mawatha, Hikkaduwa",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0912277813",
+  "website": "http://www.boc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7F72Z1YWYA9FQQXX67TQ"
+}

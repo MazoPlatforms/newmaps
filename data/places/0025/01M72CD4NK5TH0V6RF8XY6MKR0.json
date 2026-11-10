@@ -1,0 +1,60 @@
+{
+  "name": "Cool Planet Pelawatte",
+  "coordinates": {
+    "latitude": 6.8926238,
+    "longitude": 79.92831369999999
+  },
+  "address": "770 B47, Battaramulla",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0114879750",
+  "website": "http://www.coolplanet.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 PM",
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CD4NK5TH0V6RF8XY6MKR0"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Chocoholics - Havelock Road",
+  "coordinates": {
+    "latitude": 6.880166999999999,
+    "longitude": 79.86953199999999
+  },
+  "address": "506 Havelock Rd, Colombo 00500",
+  "categories": [
+    "Chocolate cafe",
+    "Cafe",
+    "Dessert restaurant"
+  ],
+  "phone": "0114332261",
+  "website": "http://www.chocoholicscafe.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–11:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ027D6VKG7SXQAG41CSZ"
+}

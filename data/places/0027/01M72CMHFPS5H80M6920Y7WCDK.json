@@ -1,0 +1,58 @@
+{
+  "name": "SMART Technology",
+  "coordinates": {
+    "latitude": 7.293730699999999,
+    "longitude": 80.6384866
+  },
+  "address": "47, Vanic, 10 Kandy Rd, Hasalaka 20960",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0784442666",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHFPS5H80M6920Y7WCDK"
+}

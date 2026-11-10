@@ -1,0 +1,61 @@
+{
+  "name": "Family Healthcare Homeopathy (PVT) Ltd",
+  "coordinates": {
+    "latitude": 6.937235599999999,
+    "longitude": 79.8625287
+  },
+  "address": "78/1 Meeraniya St, Colombo",
+  "categories": [
+    "Doctor"
+  ],
+  "phone": "0773465616",
+  "website": "http://www.familyhealthcarehomeo.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–1 PM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–1 PM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00B0NAKW3Q39FGTYNJE"
+}

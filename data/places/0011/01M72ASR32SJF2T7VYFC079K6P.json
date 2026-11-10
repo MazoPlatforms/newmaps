@@ -1,0 +1,58 @@
+{
+  "name": "People's Medical",
+  "coordinates": {
+    "latitude": 6.7824683,
+    "longitude": 79.8944403
+  },
+  "address": "45 Puwakaramba Rd, Moratuwa 10400",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0777675980",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASR32SJF2T7VYFC079K6P"
+}

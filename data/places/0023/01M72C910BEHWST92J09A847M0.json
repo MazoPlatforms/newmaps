@@ -1,0 +1,59 @@
+{
+  "name": "Steel Lanka",
+  "coordinates": {
+    "latitude": 6.940377499999999,
+    "longitude": 79.8634836
+  },
+  "address": "390 Old Moor St, Colombo 01200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112421005",
+  "website": "http://steellanka.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–2:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910BEHWST92J09A847M0"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Colombo Restaurant",
+  "coordinates": {
+    "latitude": 6.8657935,
+    "longitude": 81.8325545
+  },
+  "address": "main street, Pottuvil",
+  "categories": [
+    "Asian restaurant"
+  ],
+  "phone": "0770213316",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1WQ326Y6K739ZRV28C01"
+}

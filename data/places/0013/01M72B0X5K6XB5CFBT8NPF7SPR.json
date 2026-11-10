@@ -1,0 +1,58 @@
+{
+  "name": "Ranjani Garage",
+  "coordinates": {
+    "latitude": 6.7143625,
+    "longitude": 79.9572452
+  },
+  "address": "PX74+PVX, Panadura",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0779420811",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0X5K6XB5CFBT8NPF7SPR"
+}

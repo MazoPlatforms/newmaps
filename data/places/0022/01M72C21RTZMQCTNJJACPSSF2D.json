@@ -1,0 +1,58 @@
+{
+  "name": "SA Grocery Store",
+  "coordinates": {
+    "latitude": 6.8651580999999995,
+    "longitude": 81.8312485
+  },
+  "address": "VR8J+3F9, MRM, cross road, Pottuvil 15",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0715310430",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C21RTZMQCTNJJACPSSF2D"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Health Care Medical Center Panagoda",
+  "coordinates": {
+    "latitude": 6.8640095,
+    "longitude": 80.0250172
+  },
+  "address": "498/4 Borella road, Homagama 10206",
+  "categories": [
+    "Medical Center",
+    "General practitioner",
+    "Laboratory"
+  ],
+  "phone": "0112173333",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGCCHHQ2NGRCRC5AK0P9"
+}

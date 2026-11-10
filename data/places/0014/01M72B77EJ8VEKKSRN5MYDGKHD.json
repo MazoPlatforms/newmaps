@@ -1,0 +1,59 @@
+{
+  "name": "Match",
+  "coordinates": {
+    "latitude": 6.1265883,
+    "longitude": 80.1056059
+  },
+  "address": "522 Galle Rd, Hikkaduwa 80240",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "phone": "0742518575",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77EJ8VEKKSRN5MYDGKHD"
+}

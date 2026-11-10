@@ -1,0 +1,62 @@
+{
+  "name": "Ameer Stores (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.488899999999999,
+    "longitude": 80.3625426
+  },
+  "address": "20 22Main Street, Kurunegala",
+  "categories": [
+    "Glassware wholesaler",
+    "Ceramics wholesaler",
+    "Cosmetics wholesaler",
+    "Electronics wholesaler",
+    "Stationery wholesaler"
+  ],
+  "phone": "0372233254",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKM9YF5Z16G65H7XE06M5"
+}

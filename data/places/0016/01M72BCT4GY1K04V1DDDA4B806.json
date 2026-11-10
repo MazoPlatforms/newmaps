@@ -1,0 +1,58 @@
+{
+  "name": "New Lanka Pharmacy & Grocery Tangalle",
+  "coordinates": {
+    "latitude": 6.0271742999999995,
+    "longitude": 80.79502029999999
+  },
+  "address": "123 Matara Rd, Tangalle",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0770394009",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCT4GY1K04V1DDDA4B806"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "384b Chilaw - Colombo Main Rd, Negombo",
+  "name": "GetGo",
+  "coordinates": {
+    "latitude": 7.2244538,
+    "longitude": 79.849105
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0779068483",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AECNQQ0C55G3G3S7DD04M"
+}

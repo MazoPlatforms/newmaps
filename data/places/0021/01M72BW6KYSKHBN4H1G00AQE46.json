@@ -1,0 +1,57 @@
+{
+  "name": "Rasiah Medical Store",
+  "coordinates": {
+    "latitude": 8.755837,
+    "longitude": 80.5011213
+  },
+  "address": "No-202 Bazaar St, Vavuniya",
+  "categories": [
+    "Medical supply store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6KYSKHBN4H1G00AQE46"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Salon Sujee",
+  "coordinates": {
+    "latitude": 6.830480199999999,
+    "longitude": 80.9914816
+  },
+  "address": "181 Main St, Bandarawela",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0776363571",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–6:30 AM",
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6:30 AM",
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6:30 AM",
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6:30 AM",
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–6:30 AM",
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6:30 AM",
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6:30 AM",
+        "7 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CY559MEBMBS0PZX0SWPJK"
+}

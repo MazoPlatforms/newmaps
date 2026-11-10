@@ -1,0 +1,63 @@
+{
+  "name": "Demone Traders",
+  "coordinates": {
+    "latitude": 6.9356675,
+    "longitude": 79.86609229999999
+  },
+  "address": "No 353/F Sri Sangaraja Mawatha, Colombo 01000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112322550",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–6 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–3 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910KHTEHGB01P73Q84ZW"
+}

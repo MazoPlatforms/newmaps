@@ -1,0 +1,61 @@
+{
+  "name": "NKT Computers",
+  "coordinates": {
+    "latitude": 6.8692299,
+    "longitude": 79.8900046
+  },
+  "address": "189c1/2, High Level Rd, Nugegoda 10250",
+  "categories": [
+    "Computer repair service",
+    "Computer support and services",
+    "Data recovery service",
+    "Phone repair service"
+  ],
+  "phone": "0713221112",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–1:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJRF5V58YM98JZBZMWKF"
+}

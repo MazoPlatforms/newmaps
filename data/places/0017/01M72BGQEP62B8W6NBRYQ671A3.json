@@ -1,0 +1,66 @@
+{
+  "name": "Yoshan Service Center",
+  "coordinates": {
+    "latitude": 6.8580495,
+    "longitude": 81.3333109
+  },
+  "address": "Passara-Moneragala Hwy, Monaragala",
+  "categories": [
+    "Vehicle inspection service",
+    "Auto tune up service"
+  ],
+  "phone": "0774312343",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–6 AM",
+        "7:45 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6 AM",
+        "7:45 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6 AM",
+        "7:45 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6 AM",
+        "7:45 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–6 AM",
+        "7:45 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6 AM",
+        "7:45 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 AM",
+        "7:45 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGQEP62B8W6NBRYQ671A3"
+}

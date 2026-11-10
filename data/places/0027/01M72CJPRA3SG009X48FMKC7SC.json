@@ -1,0 +1,58 @@
+{
+  "name": "Fixme Zone",
+  "coordinates": {
+    "latitude": 6.7523906,
+    "longitude": 79.90015609999999
+  },
+  "address": "No6 Thakshala Rd, Panadura 12500",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0772164793",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPRA3SG009X48FMKC7SC"
+}

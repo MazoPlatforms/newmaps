@@ -1,0 +1,58 @@
+{
+  "name": "Mahabulankulama Polyclinic",
+  "coordinates": {
+    "latitude": 8.306244699999999,
+    "longitude": 80.3177305
+  },
+  "address": "8849+F3, Anuradhapura",
+  "categories": [
+    "Health consultant"
+  ],
+  "phone": "0252223400",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9XG40SNWPVTR05MM96Z"
+}

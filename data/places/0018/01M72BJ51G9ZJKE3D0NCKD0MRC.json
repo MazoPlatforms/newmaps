@@ -1,0 +1,58 @@
+{
+  "name": "Asb Enterprises",
+  "coordinates": {
+    "latitude": 7.2476973,
+    "longitude": 80.3492208
+  },
+  "address": "245A Bandaranayaka Ave, Kegalle",
+  "categories": [
+    "Book store"
+  ],
+  "phone": "0773123666",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJ51G9ZJKE3D0NCKD0MRC"
+}

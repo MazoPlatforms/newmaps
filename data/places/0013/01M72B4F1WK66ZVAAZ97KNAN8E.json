@@ -1,0 +1,57 @@
+{
+  "name": "Nandana Grocery Store",
+  "coordinates": {
+    "latitude": 6.9569183,
+    "longitude": 80.77263409999999
+  },
+  "address": "XQ4F+Q36, Lower Gibson's Rd, Nuwara Eliya 22200",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4F1WK66ZVAAZ97KNAN8E"
+}

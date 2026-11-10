@@ -1,0 +1,59 @@
+{
+  "name": "Bubbles Outlet",
+  "coordinates": {
+    "latitude": 6.0448229,
+    "longitude": 80.2228645
+  },
+  "address": "311, B/3 Sarenthukade Junction, Galle 80000",
+  "categories": [
+    "Children's clothing store"
+  ],
+  "phone": "0777850288",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:15 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:15 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:15 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:15 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:15–11:45 AM",
+        "2:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:15 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:15 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQVBJX2760Z68PVH7E3HJ"
+}

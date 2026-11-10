@@ -1,0 +1,58 @@
+{
+  "name": "Shehan Saloon",
+  "coordinates": {
+    "latitude": 7.1894608,
+    "longitude": 79.858705
+  },
+  "address": "725 A3, Negombo",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0767030708",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHE2GDH809SM8HDCKT4Z"
+}

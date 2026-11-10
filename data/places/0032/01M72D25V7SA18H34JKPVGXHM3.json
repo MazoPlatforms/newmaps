@@ -1,0 +1,59 @@
+{
+  "name": "Netro Computers",
+  "coordinates": {
+    "latitude": 7.5772881,
+    "longitude": 79.7951351
+  },
+  "address": "Library Rd, Chilaw",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0778865976",
+  "website": "http://www.netrocomputers.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D25V7SA18H34JKPVGXHM3"
+}

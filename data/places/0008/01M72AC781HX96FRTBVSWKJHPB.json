@@ -1,0 +1,59 @@
+{
+  "address": "No: 108 Morris Rd, Galle 80000",
+  "name": "Hidayath Trade Center",
+  "coordinates": {
+    "latitude": 6.0470913,
+    "longitude": 80.2253399
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8–9:30 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0770524007",
+  "categories": [
+    "Grocery store",
+    "Wholesale grocer"
+  ],
+  "id": "01M72AC781HX96FRTBVSWKJHPB"
+}

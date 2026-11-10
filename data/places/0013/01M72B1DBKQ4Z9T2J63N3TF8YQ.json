@@ -1,0 +1,61 @@
+{
+  "name": "HEART CARE Medical Center",
+  "coordinates": {
+    "latitude": 6.4424271,
+    "longitude": 80.012115
+  },
+  "address": "26 AR Mohamed Mawatha, Dharga Town 12090",
+  "categories": [
+    "Medical Center",
+    "Doctor",
+    "Hospital"
+  ],
+  "phone": "0765520221",
+  "website": "http://heartcare.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B1DBKQ4Z9T2J63N3TF8YQ"
+}

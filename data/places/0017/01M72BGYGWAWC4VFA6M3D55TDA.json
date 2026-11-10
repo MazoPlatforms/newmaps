@@ -1,0 +1,58 @@
+{
+  "name": "Raalahamy Hotel",
+  "coordinates": {
+    "latitude": 6.6772616,
+    "longitude": 80.4030654
+  },
+  "address": "MCG3+W66, Riverside Rd, Ratnapura",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0715413723",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGYGWAWC4VFA6M3D55TDA"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Sajith Stores",
+  "coordinates": {
+    "latitude": 8.7552912,
+    "longitude": 80.4544489
+  },
+  "address": "217 neriyakula road, Vavuniya 43000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0773379610",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6KAG2PQHKPFFQ91H303"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Ruwan Hardware",
+  "coordinates": {
+    "latitude": 6.1886918,
+    "longitude": 80.9796308
+  },
+  "address": "Ridiyagama road, Ambalantota",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0712484355",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6:30 AM",
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6:30 AM",
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–12:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CVSWH25RPXC9VC27NYCME"
+}

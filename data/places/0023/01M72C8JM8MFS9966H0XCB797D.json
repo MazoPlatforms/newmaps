@@ -1,0 +1,59 @@
+{
+  "name": "Latest Technology",
+  "coordinates": {
+    "latitude": 6.924455,
+    "longitude": 79.8679597
+  },
+  "address": "No 636, 10 Maradana Rd, Colombo",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0112676769",
+  "website": "http://www.latest.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JM8MFS9966H0XCB797D"
+}

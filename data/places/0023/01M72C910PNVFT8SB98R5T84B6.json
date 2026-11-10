@@ -1,0 +1,60 @@
+{
+  "name": "Maxcity Plywood",
+  "coordinates": {
+    "latitude": 6.9427147,
+    "longitude": 79.8622869
+  },
+  "address": "145 A Maha Vidyalaya Mawatha, Colombo 01300",
+  "categories": [
+    "Hardware store",
+    "Construction material wholesaler",
+    "Plywood supplier"
+  ],
+  "phone": "0112389812",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910PNVFT8SB98R5T84B6"
+}

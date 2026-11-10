@@ -1,0 +1,58 @@
+{
+  "name": "Ruhunu Bakery",
+  "coordinates": {
+    "latitude": 6.285218899999999,
+    "longitude": 81.2692701
+  },
+  "address": "77P9+3PJ, Debarawewa",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0472238440",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGSCX0T9A1GRHGS9CK7"
+}

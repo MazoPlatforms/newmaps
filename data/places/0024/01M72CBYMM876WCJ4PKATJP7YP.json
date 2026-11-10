@@ -1,0 +1,61 @@
+{
+  "name": "Expert System Laptop Repair Centre Moratuwa",
+  "coordinates": {
+    "latitude": 6.7757476,
+    "longitude": 79.8821864
+  },
+  "address": "No.104/1, 1 Galle Rd New Deviation, Moratuwa 10400",
+  "categories": [
+    "Computer repair service",
+    "Computer hardware manufacturer",
+    "Computer store",
+    "Computer support and services"
+  ],
+  "phone": "0777671592",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CBYMM876WCJ4PKATJP7YP"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Beyond Technologies",
+  "coordinates": {
+    "latitude": 7.2897219,
+    "longitude": 80.6298971
+  },
+  "address": "182 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0779134643",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHEH8B5NN0FERKQJP52R"
+}

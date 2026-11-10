@@ -1,0 +1,59 @@
+{
+  "name": "AROGYA Medical Centre",
+  "coordinates": {
+    "latitude": 7.2999284,
+    "longitude": 81.6929084
+  },
+  "address": "Nawagampura Road, Ampara 32400",
+  "categories": [
+    "Medical clinic",
+    "Medical Center"
+  ],
+  "phone": "0702295555",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C14FKFXK52TD8G6TJM9VC"
+}

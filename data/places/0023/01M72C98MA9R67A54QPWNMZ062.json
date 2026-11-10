@@ -1,0 +1,60 @@
+{
+  "name": "La Passion Salon",
+  "coordinates": {
+    "latitude": 6.8879033,
+    "longitude": 79.85454
+  },
+  "address": "25 Marine Drive, Colombo 00400",
+  "categories": [
+    "Beauty salon",
+    "Hair salon",
+    "Nail salon"
+  ],
+  "phone": "0112588701",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11:59 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11:59 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11:59 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11:59 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11:59 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11:59 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11:59 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MA9R67A54QPWNMZ062"
+}

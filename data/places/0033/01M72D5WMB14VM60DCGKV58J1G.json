@@ -1,0 +1,58 @@
+{
+  "name": "Indian Shoe Palace",
+  "coordinates": {
+    "latitude": 8.9779982,
+    "longitude": 79.9139673
+  },
+  "address": "29 A14, Mannar",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0779684110",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5WMB14VM60DCGKV58J1G"
+}

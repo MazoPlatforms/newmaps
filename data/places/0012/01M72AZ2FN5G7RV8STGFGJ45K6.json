@@ -1,0 +1,58 @@
+{
+  "name": "Rathna Pharmacy",
+  "coordinates": {
+    "latitude": 6.5613278,
+    "longitude": 79.98127509999999
+  },
+  "address": "184A Central Junction, Kalutara",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0753566199",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ2FN5G7RV8STGFGJ45K6"
+}

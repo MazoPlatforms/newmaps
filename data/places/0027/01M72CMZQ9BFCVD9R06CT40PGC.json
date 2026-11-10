@@ -1,0 +1,59 @@
+{
+  "name": "Salon Viyana Kandy",
+  "coordinates": {
+    "latitude": 7.3006476,
+    "longitude": 80.63618369999999
+  },
+  "address": "291 DS Senanayake Veediya, Kandy 20000",
+  "categories": [
+    "Beauty salon",
+    "Bridal shop"
+  ],
+  "phone": "0777222336",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQ9BFCVD9R06CT40PGC"
+}

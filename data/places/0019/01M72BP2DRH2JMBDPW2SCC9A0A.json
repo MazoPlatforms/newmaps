@@ -1,0 +1,58 @@
+{
+  "name": "T & R Primart",
+  "coordinates": {
+    "latitude": 7.5772745,
+    "longitude": 79.8023546
+  },
+  "address": "HRG2+WW5, Chilaw",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0777125660",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BP2DRH2JMBDPW2SCC9A0A"
+}

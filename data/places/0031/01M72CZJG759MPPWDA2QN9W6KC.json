@@ -1,0 +1,58 @@
+{
+  "name": "Madusanka Fish Farm",
+  "coordinates": {
+    "latitude": 6.7985885999999995,
+    "longitude": 80.1562161
+  },
+  "address": "269 4Kurauda Road, Handapangoda",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0711314848",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZJG759MPPWDA2QN9W6KC"
+}

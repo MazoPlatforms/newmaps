@@ -1,0 +1,59 @@
+{
+  "name": "Sleek Salon",
+  "coordinates": {
+    "latitude": 6.890344499999999,
+    "longitude": 79.856629
+  },
+  "address": "No: 2B Vajira Rd, Colombo 00400",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0112590294",
+  "website": "http://www.sleeksalon.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M4DMY8YQ7M1XN9VT6C"
+}

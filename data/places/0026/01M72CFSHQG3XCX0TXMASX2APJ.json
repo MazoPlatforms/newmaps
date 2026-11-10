@@ -1,0 +1,60 @@
+{
+  "name": "Kanren HTI",
+  "coordinates": {
+    "latitude": 7.210807399999999,
+    "longitude": 79.8361663
+  },
+  "address": "No 55 Main St, Negombo",
+  "categories": [
+    "Graphic designer",
+    "Print shop",
+    "Stores and shopping"
+  ],
+  "phone": "0312220670",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFSHQG3XCX0TXMASX2APJ"
+}

@@ -1,0 +1,57 @@
+{
+  "address": "WVMR+5QJ, Colombo 10600",
+  "name": "Kolonnawa Public Library",
+  "coordinates": {
+    "latitude": 6.9329636,
+    "longitude": 79.8918834
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Public library"
+  ],
+  "id": "01M72A9SFVET4YH5AE4GKV2QCK"
+}

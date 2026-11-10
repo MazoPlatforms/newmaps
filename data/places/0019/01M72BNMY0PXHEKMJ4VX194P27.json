@@ -1,0 +1,64 @@
+{
+  "name": "Hazee Mart",
+  "coordinates": {
+    "latitude": 8.0476866,
+    "longitude": 79.82868529999999
+  },
+  "address": "Mannar Rd, Puttalam",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0773485868",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–2 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–2 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–2 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–2 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–2 PM",
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2 PM",
+        "5–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY0PXHEKMJ4VX194P27"
+}

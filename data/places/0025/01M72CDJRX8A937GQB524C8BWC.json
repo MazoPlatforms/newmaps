@@ -1,0 +1,60 @@
+{
+  "name": "Sala Enterprises",
+  "coordinates": {
+    "latitude": 6.8582328,
+    "longitude": 79.8936028
+  },
+  "address": "No. 81, Nugegoda Rd, Pepiliyana Rd, Nugegoda",
+  "categories": [
+    "Computer store",
+    "Company"
+  ],
+  "phone": "0112366666",
+  "website": "https://sala.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJRX8A937GQB524C8BWC"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kin Beauty Salon",
+  "coordinates": {
+    "latitude": 6.0342715,
+    "longitude": 80.2179723
+  },
+  "address": "26M9+P55, 2nd Cross St, Galle 80000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0772907043",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRN3CQNK9XJ5NW01CM6PH"
+}

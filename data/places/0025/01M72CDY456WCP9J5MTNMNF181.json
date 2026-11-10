@@ -1,0 +1,59 @@
+{
+  "name": "Salon 21",
+  "coordinates": {
+    "latitude": 6.906908,
+    "longitude": 79.90193719999999
+  },
+  "address": "No 463/2A Road, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0703212121",
+  "website": "https://www.salon21.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDY456WCP9J5MTNMNF181"
+}

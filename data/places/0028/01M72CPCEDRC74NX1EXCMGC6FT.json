@@ -1,0 +1,58 @@
+{
+  "name": "Petfish Aquarium",
+  "coordinates": {
+    "latitude": 7.6089685,
+    "longitude": 80.64061679999999
+  },
+  "address": "Diya dahara uyana, මාතලේ 20000",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0719511521",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPCEDRC74NX1EXCMGC6FT"
+}

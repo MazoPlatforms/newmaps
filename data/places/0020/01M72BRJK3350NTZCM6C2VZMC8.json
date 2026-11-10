@@ -1,0 +1,58 @@
+{
+  "name": "Polonnaruwa Southern Pharmacy",
+  "coordinates": {
+    "latitude": 7.942177699999999,
+    "longitude": 81.0086551
+  },
+  "address": "No 208 Hospital Junction, Polonnaruwa 51089",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0707867681",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRJK3350NTZCM6C2VZMC8"
+}

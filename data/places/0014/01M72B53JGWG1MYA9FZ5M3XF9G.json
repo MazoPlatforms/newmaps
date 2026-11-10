@@ -1,0 +1,58 @@
+{
+  "name": "Wallawatta Service Station",
+  "coordinates": {
+    "latitude": 6.9109611,
+    "longitude": 80.9059577
+  },
+  "address": "WW64+99P, B471, Welimada",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0572245434",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B53JGWG1MYA9FZ5M3XF9G"
+}

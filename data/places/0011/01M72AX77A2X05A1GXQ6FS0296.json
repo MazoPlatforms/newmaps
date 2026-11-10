@@ -1,0 +1,59 @@
+{
+  "name": "Care Clinic",
+  "coordinates": {
+    "latitude": 7.2243344,
+    "longitude": 79.8643718
+  },
+  "address": "Katana Rd, Negombo 11532",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0771431123",
+  "website": "http://careclinic.cc/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AX77A2X05A1GXQ6FS0296"
+}

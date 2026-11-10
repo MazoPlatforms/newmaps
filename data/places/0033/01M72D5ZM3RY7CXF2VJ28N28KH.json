@@ -1,0 +1,57 @@
+{
+  "name": "New AJ Glass House",
+  "coordinates": {
+    "latitude": 8.9779879,
+    "longitude": 79.9018351
+  },
+  "address": "Mannar",
+  "categories": [
+    "Hardware store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–1:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5ZM3RY7CXF2VJ28N28KH"
+}

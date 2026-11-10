@@ -1,0 +1,58 @@
+{
+  "name": "Jaleez Medical Centre",
+  "coordinates": {
+    "latitude": 7.963545399999999,
+    "longitude": 79.8308751
+  },
+  "address": "XR7J+C96, Colombo - Puttalam Rd, Erukkalampiddy",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0325715714",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNQC1CJTEVA1M2TXRAB5P"
+}

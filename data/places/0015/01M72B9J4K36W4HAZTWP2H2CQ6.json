@@ -1,0 +1,59 @@
+{
+  "name": "K9 Dental Hospital, Matara",
+  "coordinates": {
+    "latitude": 5.954547499999999,
+    "longitude": 80.5341026
+  },
+  "address": "Akuressa Rd, Matara",
+  "categories": [
+    "Dental clinic"
+  ],
+  "phone": "0702243333",
+  "website": "http://www.k9dentalhospital.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J4K36W4HAZTWP2H2CQ6"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Nawalapitiya Autocare",
+  "coordinates": {
+    "latitude": 7.064233799999999,
+    "longitude": 80.541845
+  },
+  "address": "Malanda, Nawalapitiya 20650",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5Z86B309M12D4BK91T8P"
+}

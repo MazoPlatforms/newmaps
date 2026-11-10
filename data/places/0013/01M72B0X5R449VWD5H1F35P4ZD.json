@@ -1,0 +1,58 @@
+{
+  "name": "Peugeot Land",
+  "coordinates": {
+    "latitude": 6.7372444,
+    "longitude": 79.90241309999999
+  },
+  "address": "18/1 Sri Gnanasena Mawatha, Panadura 12500",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0775101292",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0X5R449VWD5H1F35P4ZD"
+}

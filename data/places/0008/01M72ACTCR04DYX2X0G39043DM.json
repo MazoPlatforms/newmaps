@@ -1,0 +1,60 @@
+{
+  "address": "1576 Jaffna-Kankesanturai Rd, Kondavil 40000",
+  "name": "My Pizza",
+  "coordinates": {
+    "latitude": 9.7111539,
+    "longitude": 80.0199432
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://www.facebook.com/Mypizzajaffna/",
+  "business_status": "OPEN",
+  "phone": "0772403801",
+  "categories": [
+    "Pizza restaurant",
+    "Restaurant"
+  ],
+  "id": "01M72ACTCR04DYX2X0G39043DM"
+}

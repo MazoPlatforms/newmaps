@@ -1,0 +1,58 @@
+{
+  "name": "Jayasinha Fruits Shop",
+  "coordinates": {
+    "latitude": 8.0406654,
+    "longitude": 80.95124899999999
+  },
+  "address": "new shopping complex, Jayasinha grocery no 17, Hingurakgoda",
+  "categories": [
+    "Fruit and vegetable store"
+  ],
+  "phone": "0773322020",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BREV2NN5QJDGRSJRYMY28"
+}

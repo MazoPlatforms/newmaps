@@ -1,0 +1,58 @@
+{
+  "name": "Ashan Motors",
+  "coordinates": {
+    "latitude": 7.5556234,
+    "longitude": 80.3170511
+  },
+  "address": "No: 267/3 3lane maligathenna, Kurunegala 60000",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0712151026",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BM9397Q61JZG026DTDMBQ"
+}

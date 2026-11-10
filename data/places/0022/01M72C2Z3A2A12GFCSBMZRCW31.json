@@ -1,0 +1,59 @@
+{
+  "name": "GR Supermarket",
+  "coordinates": {
+    "latitude": 8.5808422,
+    "longitude": 81.22372879999999
+  },
+  "address": "406/1 Main St, Trincomalee 31000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0774455648",
+  "website": "https://www.grplaza.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3A2A12GFCSBMZRCW31"
+}

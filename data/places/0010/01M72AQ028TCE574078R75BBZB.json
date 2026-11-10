@@ -1,0 +1,57 @@
+{
+  "name": "Columbus Cafe",
+  "coordinates": {
+    "latitude": 6.8525089999999995,
+    "longitude": 79.882333
+  },
+  "address": "147 Anderson Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Cafe"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ028TCE574078R75BBZB"
+}

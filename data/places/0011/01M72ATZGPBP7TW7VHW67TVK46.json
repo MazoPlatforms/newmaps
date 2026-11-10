@@ -1,0 +1,59 @@
+{
+  "name": "D&D Cafe Kimbulawala",
+  "coordinates": {
+    "latitude": 6.8737622,
+    "longitude": 79.9281202
+  },
+  "address": "No.07, Kimbulawela",
+  "categories": [
+    "Restaurant",
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0789888375",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "2:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGPBP7TW7VHW67TVK46"
+}

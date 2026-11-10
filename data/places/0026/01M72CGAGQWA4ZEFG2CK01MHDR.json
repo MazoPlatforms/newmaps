@@ -1,0 +1,64 @@
+{
+  "name": "Beauty Think Lover",
+  "coordinates": {
+    "latitude": 7.0938894999999995,
+    "longitude": 79.99349529999999
+  },
+  "address": "Unishare Computer School, 45 old minuwangoda rode, Gampaha 11000",
+  "categories": [
+    "Cosmetics store",
+    "Bag shop",
+    "Fashion accessories store",
+    "Gift shop",
+    "Perfume store",
+    "Shoe store",
+    "Watch store"
+  ],
+  "phone": "0332234111",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGAGQWA4ZEFG2CK01MHDR"
+}

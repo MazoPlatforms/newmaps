@@ -1,0 +1,59 @@
+{
+  "name": "Samantha Salon",
+  "coordinates": {
+    "latitude": 7.070009,
+    "longitude": 79.8926388
+  },
+  "address": "278/4 A Negombo Rd, Weligampitiya Church Road, Ja-Ela 11350",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0114831951",
+  "website": "https://www.facebook.com/salonsamanthafernando/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MN9GXS1HGA17PACN54"
+}

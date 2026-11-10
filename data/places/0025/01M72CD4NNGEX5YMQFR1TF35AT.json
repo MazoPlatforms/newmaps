@@ -1,0 +1,58 @@
+{
+  "name": "O’Hara Shoes",
+  "coordinates": {
+    "latitude": 6.872264299999999,
+    "longitude": 79.89026489999999
+  },
+  "address": "42 Stanley Tilakaratne Mawatha, Nugegoda",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0112815405",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:15 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:15 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:15 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:15 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:15 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:15 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:15 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CD4NNGEX5YMQFR1TF35AT"
+}

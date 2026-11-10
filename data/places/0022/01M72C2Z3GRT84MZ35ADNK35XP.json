@@ -1,0 +1,58 @@
+{
+  "name": "Bl2 Grocery",
+  "coordinates": {
+    "latitude": 8.5580941,
+    "longitude": 81.1907008
+  },
+  "address": "No 12 Tamil school road chainabay, Trincomalee",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0778708712",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3GRT84MZ35ADNK35XP"
+}

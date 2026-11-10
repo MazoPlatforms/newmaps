@@ -1,0 +1,58 @@
+{
+  "name": "Colombo Stores",
+  "coordinates": {
+    "latitude": 8.5020612,
+    "longitude": 81.1804844
+  },
+  "address": "29, Buhary Junction, Main Street, Tampalakamam-Kinniya Rd, Kinniya 31100",
+  "categories": [
+    "General store"
+  ],
+  "phone": "0767755717",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4091VRTFCQPQFK9VHH91"
+}

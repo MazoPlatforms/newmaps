@@ -1,0 +1,58 @@
+{
+  "name": "Coop City Kanniya",
+  "coordinates": {
+    "latitude": 8.606269,
+    "longitude": 81.1822473
+  },
+  "address": "Puttalam - Anuradhapura - Trincomalee Hwy, Trincomalee",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0263207358",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3HPHMED40EF0V4NFS9"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Adrian Salon",
+  "coordinates": {
+    "latitude": 6.6909364,
+    "longitude": 79.91693769999999
+  },
+  "address": "21 ගාලු පාර, Panadura 12500",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0769722181",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK4262RH74H4HRFH5RGED"
+}

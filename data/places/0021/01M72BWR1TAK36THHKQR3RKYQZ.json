@@ -1,0 +1,57 @@
+{
+  "name": "Maruthi Garage",
+  "coordinates": {
+    "latitude": 8.7616318,
+    "longitude": 80.458512
+  },
+  "address": "QF65+MC2, Vavuniya",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWR1TAK36THHKQR3RKYQZ"
+}

@@ -1,0 +1,59 @@
+{
+  "address": "20 Flower Rd, Colombo 00300",
+  "name": "House Of Wines",
+  "coordinates": {
+    "latitude": 6.9108608,
+    "longitude": 79.856489
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "http://www.houseofwines.lk/",
+  "business_status": "OPEN",
+  "phone": "0114502902",
+  "categories": [
+    "Wine store"
+  ],
+  "id": "01M72A9D46M42TR13RF5TX44FT"
+}

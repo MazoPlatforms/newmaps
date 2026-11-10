@@ -1,0 +1,59 @@
+{
+  "name": "1St Cross Street Store",
+  "coordinates": {
+    "latitude": 6.2338892999999995,
+    "longitude": 80.0534479
+  },
+  "address": "181 Main St, Ambalangoda",
+  "categories": [
+    "Electronics store",
+    "Home goods store"
+  ],
+  "phone": "0771520235",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CSHHA9YVFXG88GG1V8Z6B"
+}

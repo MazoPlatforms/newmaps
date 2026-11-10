@@ -1,0 +1,58 @@
+{
+  "name": "Denuka Grocery",
+  "coordinates": {
+    "latitude": 6.975503499999999,
+    "longitude": 80.76515429999999
+  },
+  "address": "XQG8+632, Chandana Lal Karunaratne Street, Nuwara Eliya 22200",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0764456822",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4F2532V1V88FJZSTWC86"
+}

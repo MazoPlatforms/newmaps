@@ -1,0 +1,58 @@
+{
+  "name": "Chathu Super Mart",
+  "coordinates": {
+    "latitude": 7.091495,
+    "longitude": 79.99754539999999
+  },
+  "address": "No 282/1,Gampaha Road Bulath Pola Handiya Mabodala, Ballapana",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0714237642",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AY4KX5870BCMCD8MZBWVB"
+}

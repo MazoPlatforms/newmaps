@@ -1,0 +1,58 @@
+{
+  "name": "Rawana Enterprises",
+  "coordinates": {
+    "latitude": 7.9070541,
+    "longitude": 81.1194064
+  },
+  "address": "No 40, manampitiya",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0763918244",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3GTRT2AAKD33NBJAMSNA"
+}

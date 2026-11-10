@@ -1,0 +1,59 @@
+{
+  "name": "Salon Jayani",
+  "coordinates": {
+    "latitude": 7.4792027,
+    "longitude": 80.6234271
+  },
+  "address": "No. 638/1 Kandy-Jaffna Highway, Matale 21000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0759003237",
+  "website": "http://www.facebook.com/Salon-Jayani-2136079703118043/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNZE1BTNN1FEYHRQYMNMC"
+}

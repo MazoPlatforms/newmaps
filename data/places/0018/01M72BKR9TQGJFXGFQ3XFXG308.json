@@ -1,0 +1,58 @@
+{
+  "name": "The New Pharmacy & Stores",
+  "coordinates": {
+    "latitude": 7.4883472,
+    "longitude": 80.3645494
+  },
+  "address": "No:16 Perakumba St, Kurunegala 60000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0372222150",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKR9TQGJFXGFQ3XFXG308"
+}

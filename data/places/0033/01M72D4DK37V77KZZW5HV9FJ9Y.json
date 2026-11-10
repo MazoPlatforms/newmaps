@@ -1,0 +1,58 @@
+{
+  "name": "City Tex",
+  "coordinates": {
+    "latitude": 9.6742109,
+    "longitude": 80.0303929
+  },
+  "address": "No 256, Point Pedro Road, Nallur, Jaffna 40000",
+  "categories": [
+    "Dress store"
+  ],
+  "phone": "0766663574",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4DK37V77KZZW5HV9FJ9Y"
+}

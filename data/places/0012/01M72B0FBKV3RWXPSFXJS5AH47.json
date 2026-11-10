@@ -1,0 +1,59 @@
+{
+  "name": "Institute Of Steam Education (PVT) Ltd",
+  "coordinates": {
+    "latitude": 6.7123734,
+    "longitude": 79.90984259999999
+  },
+  "address": "7th Cross St, Panadura 12500",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0719700719",
+  "website": "http://www.steamedu.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0FBKV3RWXPSFXJS5AH47"
+}

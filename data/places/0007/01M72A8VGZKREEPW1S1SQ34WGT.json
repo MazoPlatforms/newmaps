@@ -1,0 +1,59 @@
+{
+  "address": "590 Marine Drive, Colombo 00300",
+  "name": "Tides Restaurant",
+  "coordinates": {
+    "latitude": 6.899819399999999,
+    "longitude": 79.85165529999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "http://www.tides.lk/",
+  "business_status": "OPEN",
+  "phone": "0769400400",
+  "categories": [
+    "Buffet restaurant"
+  ],
+  "id": "01M72A8VGZKREEPW1S1SQ34WGT"
+}

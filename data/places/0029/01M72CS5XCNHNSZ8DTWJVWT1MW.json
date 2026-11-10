@@ -1,0 +1,58 @@
+{
+  "name": "AishA's Beauty Salon",
+  "coordinates": {
+    "latitude": 6.1392501,
+    "longitude": 80.10013649999999
+  },
+  "address": "231/2 B.H, Amarasena Mawatha, Hikkaduwa",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0773126890",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CS5XCNHNSZ8DTWJVWT1MW"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Cha Cha Mini Mart",
+  "coordinates": {
+    "latitude": 8.5832689,
+    "longitude": 81.2102835
+  },
+  "address": "1247, Trincomalee 31000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0776238023",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3ZY9DM3XAN6CR15P0Q"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Dubai Fashion",
+  "coordinates": {
+    "latitude": 6.9356684,
+    "longitude": 79.8950509
+  },
+  "address": "258B, Kolonnawa Rd, Wellampitiya 10600",
+  "categories": [
+    "Clothing store",
+    "Cosmetics store",
+    "Fashion accessories store"
+  ],
+  "phone": "0755395547",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C816TGCABGRKAKHXFDCKF"
+}

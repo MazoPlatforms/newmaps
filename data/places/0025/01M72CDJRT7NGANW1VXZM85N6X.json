@@ -1,0 +1,59 @@
+{
+  "name": "Shards Online Store",
+  "coordinates": {
+    "latitude": 6.8870434,
+    "longitude": 79.87481749999999
+  },
+  "address": "4, 110 Thalakotuwa Gardens, Colombo 00500",
+  "categories": [
+    "Computer store",
+    "Electronics store"
+  ],
+  "phone": "0114329252",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJRT7NGANW1VXZM85N6X"
+}

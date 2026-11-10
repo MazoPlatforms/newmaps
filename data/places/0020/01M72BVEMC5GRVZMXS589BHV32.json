@@ -1,0 +1,61 @@
+{
+  "name": "OFNIR Car Care",
+  "coordinates": {
+    "latitude": 9.6888091,
+    "longitude": 80.05149279999999
+  },
+  "address": "Point Pedro Rd, Jaffna 40000",
+  "categories": [
+    "Car repair and maintenance service",
+    "Car detailing service",
+    "Chauffeur service",
+    "Oil change service"
+  ],
+  "phone": "0773533964",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:01 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVEMC5GRVZMXS589BHV32"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Ornamental Fish Breeding Centre",
+  "coordinates": {
+    "latitude": 7.0066405,
+    "longitude": 80.4922134
+  },
+  "address": "Blackwater Rd, Ginigathhena",
+  "categories": [
+    "Pond fish supplier"
+  ],
+  "phone": "0512242249",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPZ4HQWC11ZR272S7P7W2"
+}

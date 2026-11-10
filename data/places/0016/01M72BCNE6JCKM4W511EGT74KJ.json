@@ -1,0 +1,59 @@
+{
+  "name": "Shell Point Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 6.0474562,
+    "longitude": 80.8223162
+  },
+  "address": "Marakolliya, 11 Kapuhenwala Road, Tangalle 82200",
+  "categories": [
+    "Sri Lankan restaurant",
+    "Seafood restaurant"
+  ],
+  "phone": "0741880109",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE6JCKM4W511EGT74KJ"
+}

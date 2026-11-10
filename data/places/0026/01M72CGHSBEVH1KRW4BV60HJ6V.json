@@ -1,0 +1,61 @@
+{
+  "name": "Jayasinghe Suppliers",
+  "coordinates": {
+    "latitude": 7.1105626,
+    "longitude": 79.9872299
+  },
+  "address": "319/B, Gampaha",
+  "categories": [
+    "Building materials store",
+    "Building materials supplier",
+    "Construction equipment supplier",
+    "Construction material wholesaler"
+  ],
+  "phone": "0332223176",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGHSBEVH1KRW4BV60HJ6V"
+}

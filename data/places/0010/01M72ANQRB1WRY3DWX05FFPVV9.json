@@ -1,0 +1,60 @@
+{
+  "name": "HNB Aluthkade (Hatton National Bank)",
+  "coordinates": {
+    "latitude": 6.940451599999999,
+    "longitude": 79.8624409
+  },
+  "address": "31 Quarry Rd, Colombo 01200",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112445042",
+  "website": "https://www.hnb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQRB1WRY3DWX05FFPVV9"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Delica Food Corner",
+  "coordinates": {
+    "latitude": 5.9781913,
+    "longitude": 80.4260876
+  },
+  "address": "20 kottegoda, Weligama",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0762233002",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPRZT3PN36VTJJTDG9D1"
+}

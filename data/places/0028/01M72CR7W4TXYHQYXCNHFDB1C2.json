@@ -1,0 +1,60 @@
+{
+  "name": "Abans IT Service Center Galle",
+  "coordinates": {
+    "latitude": 6.036474699999999,
+    "longitude": 80.22204219999999
+  },
+  "address": "1st Floor No, 72 Old Matara Rd, Galle 80000",
+  "categories": [
+    "Computer service",
+    "Computer repair service"
+  ],
+  "phone": "0913776301",
+  "website": "https://abansit.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7W4TXYHQYXCNHFDB1C2"
+}

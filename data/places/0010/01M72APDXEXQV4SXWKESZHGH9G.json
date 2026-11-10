@@ -1,0 +1,58 @@
+{
+  "name": "Auto Box PVT Ltd (U&H Tyre Repair Centre)",
+  "coordinates": {
+    "latitude": 6.9226011,
+    "longitude": 79.8508823
+  },
+  "address": "No 44 Church St, Colombo",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0114896644",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDXEXQV4SXWKESZHGH9G"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon MR 579",
+  "coordinates": {
+    "latitude": 5.9637478,
+    "longitude": 80.45635329999999
+  },
+  "address": "Mirissa",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0716628355",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CV7SVZJBEN9K8CTT6X2HV"
+}

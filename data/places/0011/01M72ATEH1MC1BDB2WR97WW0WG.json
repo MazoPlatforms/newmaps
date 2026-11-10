@@ -1,0 +1,58 @@
+{
+  "name": "Sasantha's Garage",
+  "coordinates": {
+    "latitude": 6.7904412,
+    "longitude": 79.88220439999999
+  },
+  "address": "QVRJ+5VG, Moratuwa 10400",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0776606117",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATEH1MC1BDB2WR97WW0WG"
+}

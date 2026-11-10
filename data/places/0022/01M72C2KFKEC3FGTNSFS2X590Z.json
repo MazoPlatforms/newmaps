@@ -1,0 +1,65 @@
+{
+  "name": "New Trinco Village",
+  "coordinates": {
+    "latitude": 8.5678263,
+    "longitude": 81.2380846
+  },
+  "address": "H69Q+46P, Trincomalee",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0262222558",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–2 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–2 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–2 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–2 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–2 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–2 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–2 PM",
+        "5–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2KFKEC3FGTNSFS2X590Z"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Medical Clinic",
+  "coordinates": {
+    "latitude": 6.986165199999999,
+    "longitude": 81.0596381
+  },
+  "address": "150 Lower St, Badulla",
+  "categories": [
+    "Medical Center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "1–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWG1FBM1VNEQWKJJZZ7N"
+}

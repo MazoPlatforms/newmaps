@@ -1,0 +1,58 @@
+{
+  "name": "Duminda Enterprises",
+  "coordinates": {
+    "latitude": 6.940429699999999,
+    "longitude": 79.8630341
+  },
+  "address": "349 Old Moor St, Colombo",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112423620",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910KDBVHQCSZSBM3W1N4"
+}

@@ -1,0 +1,62 @@
+{
+  "address": "Australia Building, 54 York St, Colombo 00100",
+  "name": "Tarlton Tea Shop",
+  "coordinates": {
+    "latitude": 6.9350419,
+    "longitude": 79.8447644
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "https://tarltontea.com/",
+  "business_status": "OPEN",
+  "phone": "0112027270",
+  "categories": [
+    "Tea store",
+    "Tea exporter",
+    "Tea house",
+    "Tea manufacturer"
+  ],
+  "id": "01M72A8VGT0RSDFZD2H3ZDJG41"
+}

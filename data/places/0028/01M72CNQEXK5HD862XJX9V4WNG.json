@@ -1,0 +1,59 @@
+{
+  "name": "Mansco",
+  "coordinates": {
+    "latitude": 7.4674556,
+    "longitude": 80.6226803
+  },
+  "address": "7b King St, Matale 21000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0773519315",
+  "website": "http://www.mansco.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNQEXK5HD862XJX9V4WNG"
+}

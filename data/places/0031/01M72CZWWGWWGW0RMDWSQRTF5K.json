@@ -1,0 +1,58 @@
+{
+  "name": "Salon Michael",
+  "coordinates": {
+    "latitude": 7.2538852,
+    "longitude": 80.3504688
+  },
+  "address": "No 1/1, Ikman, Near, 453 Main Street, Kegalle 71000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0724700677",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZWWGWWGW0RMDWSQRTF5K"
+}

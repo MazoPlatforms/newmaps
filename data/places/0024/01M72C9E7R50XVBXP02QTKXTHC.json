@@ -1,0 +1,60 @@
+{
+  "name": "Kingdom Faith Church",
+  "coordinates": {
+    "latitude": 6.946566,
+    "longitude": 79.85798199999999
+  },
+  "address": "87/1, First Floor, K. B. Christy Perera Mawatha, Colombo 01300",
+  "categories": [
+    "Church"
+  ],
+  "phone": "0777762561",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30–10 AM",
+        "6–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30–10:30 AM",
+        "4:30–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9E7R50XVBXP02QTKXTHC"
+}

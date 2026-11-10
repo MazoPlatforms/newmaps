@@ -1,0 +1,59 @@
+{
+  "name": "Hybrid Care Point Badulla",
+  "coordinates": {
+    "latitude": 6.984161599999999,
+    "longitude": 81.0719965
+  },
+  "address": "No.100,Passara Road,Badulla, Badulla 90000",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0767918833",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6 AM",
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF8F5KJFNSK5X7M6VKA5W"
+}

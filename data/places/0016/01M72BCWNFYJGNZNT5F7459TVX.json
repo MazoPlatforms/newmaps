@@ -1,0 +1,58 @@
+{
+  "name": "Clinic Complex",
+  "coordinates": {
+    "latitude": 6.022529,
+    "longitude": 80.79724329999999
+  },
+  "address": "2QFW+2V9, Tangalle",
+  "categories": [
+    "Hospital department"
+  ],
+  "phone": "0472240261",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCWNFYJGNZNT5F7459TVX"
+}

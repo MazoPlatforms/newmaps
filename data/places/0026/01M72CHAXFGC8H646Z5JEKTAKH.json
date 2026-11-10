@@ -1,0 +1,62 @@
+{
+  "name": "Lanka Shoe",
+  "coordinates": {
+    "latitude": 6.5755712,
+    "longitude": 79.9699752
+  },
+  "address": "Mafoor cresent, Kalutara 12000",
+  "categories": [
+    "Shoe store",
+    "Shoe factory",
+    "Clothing wholesaler",
+    "Footwear wholesaler"
+  ],
+  "phone": "0777990242",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11:30 AM",
+        "3–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHAXFGC8H646Z5JEKTAKH"
+}

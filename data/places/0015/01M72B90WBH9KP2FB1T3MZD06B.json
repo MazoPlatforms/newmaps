@@ -1,0 +1,59 @@
+{
+  "name": "Mockingbird Restaurant Madiha",
+  "coordinates": {
+    "latitude": 5.9409563,
+    "longitude": 80.5106976
+  },
+  "address": "Matara",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0775668983",
+  "website": "http://mockingbird.maxreach.biz/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WBH9KP2FB1T3MZD06B"
+}

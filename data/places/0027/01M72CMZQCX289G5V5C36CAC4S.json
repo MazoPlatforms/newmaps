@@ -1,0 +1,58 @@
+{
+  "name": "Salon Levi's",
+  "coordinates": {
+    "latitude": 7.2859826,
+    "longitude": 80.64948749999999
+  },
+  "address": "no 29, 19 Ampitiya Rd, Kandy 20000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0775339500",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQCX289G5V5C36CAC4S"
+}

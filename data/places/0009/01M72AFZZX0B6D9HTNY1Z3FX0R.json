@@ -1,0 +1,60 @@
+{
+  "name": "My Clinic By Hemas Hospitals - Wellawatta",
+  "coordinates": {
+    "latitude": 6.8783262999999994,
+    "longitude": 79.86000179999999
+  },
+  "address": "36A Galle Rd, Colombo 00600",
+  "categories": [
+    "Medical clinic",
+    "Optician",
+    "Pharmacy"
+  ],
+  "phone": "0112593959",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AFZZX0B6D9HTNY1Z3FX0R"
+}

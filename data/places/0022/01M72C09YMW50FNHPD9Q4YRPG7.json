@@ -1,0 +1,58 @@
+{
+  "name": "Green Palace Stores(GPS)",
+  "coordinates": {
+    "latitude": 7.4047385,
+    "longitude": 81.8353534
+  },
+  "address": "515/1 Mosque Rd, Kalmunai 32300",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0779680575",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09YMW50FNHPD9Q4YRPG7"
+}

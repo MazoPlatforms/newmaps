@@ -1,0 +1,65 @@
+{
+  "address": "10 McCallum Rd, Colombo 001000",
+  "name": "Postal Department Head Office",
+  "coordinates": {
+    "latitude": 6.9280653999999995,
+    "longitude": 79.85785729999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 PM",
+        "1–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12 PM",
+        "1–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 PM",
+        "1–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12 PM",
+        "1–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "1–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.slpost.gov.lk/",
+  "business_status": "OPEN",
+  "phone": "0112320700",
+  "categories": [
+    "Shipping and mailing service",
+    "Post office"
+  ],
+  "id": "01M72A9SDKJVX6BF1FMXXJBZT8"
+}

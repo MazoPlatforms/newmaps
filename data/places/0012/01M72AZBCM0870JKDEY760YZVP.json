@@ -1,0 +1,60 @@
+{
+  "name": "Premier Automobile",
+  "coordinates": {
+    "latitude": 6.5844998,
+    "longitude": 79.984738
+  },
+  "address": "Kalutara",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto parts store",
+    "Repair service"
+  ],
+  "phone": "0772856456",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZBCM0870JKDEY760YZVP"
+}

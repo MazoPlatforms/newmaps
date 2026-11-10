@@ -1,0 +1,58 @@
+{
+  "address": "No:99, 2 DS Senanayake Veediya, Kandy 20000",
+  "name": "Hungry Brunch Café & Restaurant",
+  "coordinates": {
+    "latitude": 7.2956221,
+    "longitude": 80.63779559999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "1:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0776057554",
+  "categories": [
+    "Fine dining restaurant"
+  ],
+  "id": "01M72AA6J7VR1EFY0HRG2PQC8N"
+}

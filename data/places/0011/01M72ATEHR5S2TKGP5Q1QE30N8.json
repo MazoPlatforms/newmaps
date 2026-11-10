@@ -1,0 +1,59 @@
+{
+  "name": "Car Checks (PVT) Ltd",
+  "coordinates": {
+    "latitude": 6.8604335,
+    "longitude": 79.8900334
+  },
+  "address": "334/1, Sunethradevi Rd, Pepiliyana Rd, Nugegoda 10250",
+  "categories": [
+    "Car inspection station"
+  ],
+  "phone": "0728353535",
+  "website": "http://www.carchecksonline.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30–11:30 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATEHR5S2TKGP5Q1QE30N8"
+}

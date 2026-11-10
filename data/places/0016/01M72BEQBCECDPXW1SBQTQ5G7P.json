@@ -1,0 +1,58 @@
+{
+  "name": "Magwin Trade Centre",
+  "coordinates": {
+    "latitude": 6.9918375,
+    "longitude": 81.0533797
+  },
+  "address": "7 Abdulla Sahib Mawatha, Badulla",
+  "categories": [
+    "Business center"
+  ],
+  "phone": "0773401329",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQBCECDPXW1SBQTQ5G7P"
+}

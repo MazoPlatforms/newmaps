@@ -1,0 +1,59 @@
+{
+  "address": "88 Fife Rd, Colombo 00500",
+  "name": "Tasty Caterers",
+  "coordinates": {
+    "latitude": 6.889208399999999,
+    "longitude": 79.8700191
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "website": "http://tastycaterers.lk/",
+  "business_status": "OPEN",
+  "phone": "0117644744",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72A8VHAM9T7VYJ88D53PMWA"
+}

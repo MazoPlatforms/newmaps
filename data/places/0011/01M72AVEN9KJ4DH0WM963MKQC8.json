@@ -1,0 +1,58 @@
+{
+  "name": "Super Mart Nugegoda",
+  "coordinates": {
+    "latitude": 6.8607986,
+    "longitude": 79.9055702
+  },
+  "address": "578 High Level Rd, Nugegoda 10250",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0768250600",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEN9KJ4DH0WM963MKQC8"
+}

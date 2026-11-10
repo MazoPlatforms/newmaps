@@ -1,0 +1,58 @@
+{
+  "name": "Jayane Pharmacy",
+  "coordinates": {
+    "latitude": 6.8385991,
+    "longitude": 79.9197099
+  },
+  "address": "Opposite Razavi complex, Cancer Hospital Rd, Maharagama 10230",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0112088863",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9:15 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3RDJVQDR6CQER8Z2E8"
+}

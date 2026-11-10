@@ -1,0 +1,58 @@
+{
+  "name": "United Grocery & Hardware",
+  "coordinates": {
+    "latitude": 6.8562702,
+    "longitude": 79.8653282
+  },
+  "address": "115 Galle Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0766092976",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7V9G70HYR99PB8HQMSS"
+}

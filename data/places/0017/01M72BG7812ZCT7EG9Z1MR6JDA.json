@@ -1,0 +1,58 @@
+{
+  "name": "Peoples Bakers",
+  "coordinates": {
+    "latitude": 6.8714875,
+    "longitude": 81.3517796
+  },
+  "address": "New Bus stand, No:09, Monaragala",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0770639334",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BG7812ZCT7EG9Z1MR6JDA"
+}

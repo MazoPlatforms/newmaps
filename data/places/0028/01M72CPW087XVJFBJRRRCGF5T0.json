@@ -1,0 +1,58 @@
+{
+  "name": "Public Library - Nuwara Eliya",
+  "coordinates": {
+    "latitude": 6.970676399999999,
+    "longitude": 80.7674396
+  },
+  "address": "XQC8+7XG, PBC Hwy, Nuwara Eliya 22200",
+  "categories": [
+    "Public library"
+  ],
+  "phone": "0522235154",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPW087XVJFBJRRRCGF5T0"
+}

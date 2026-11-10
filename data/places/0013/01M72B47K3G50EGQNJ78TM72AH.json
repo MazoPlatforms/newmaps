@@ -1,0 +1,59 @@
+{
+  "name": "Cafe Queenswood",
+  "coordinates": {
+    "latitude": 6.9644594,
+    "longitude": 80.76657139999999
+  },
+  "address": "124/1 Badulla Rd, Nuwara Eliya 22200",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0522222000",
+  "website": "https://queenswoodcottage.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B47K3G50EGQNJ78TM72AH"
+}

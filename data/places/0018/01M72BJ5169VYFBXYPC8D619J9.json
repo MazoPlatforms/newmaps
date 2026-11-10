@@ -1,0 +1,58 @@
+{
+  "name": "Chandana Stores",
+  "coordinates": {
+    "latitude": 7.248996999999999,
+    "longitude": 80.3436382
+  },
+  "address": "No 26 Kalugalla Ave, Kegalle",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0779984944",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJ5169VYFBXYPC8D619J9"
+}

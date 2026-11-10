@@ -1,0 +1,63 @@
+{
+  "name": "Salon Diwani Hair & Skin Clinic",
+  "coordinates": {
+    "latitude": 7.9327121,
+    "longitude": 81.0316429
+  },
+  "address": "Main St, Polonnaruwa 51000",
+  "categories": [
+    "Beauty salon",
+    "Bridal shop",
+    "Facial spa",
+    "Skin care clinic",
+    "Hairdresser"
+  ],
+  "phone": "0711476350",
+  "website": "https://sites.google.com/view/diwanisalon/home",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3JVGRHEE8MP2RTJVG5SP"
+}

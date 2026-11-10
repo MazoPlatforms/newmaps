@@ -1,0 +1,58 @@
+{
+  "name": "Kalani Stores",
+  "coordinates": {
+    "latitude": 6.5839061999999995,
+    "longitude": 79.9607987
+  },
+  "address": "62, A2, Kalutara",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0342223087",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ1ER12K636JMJRB3TP42"
+}

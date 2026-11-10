@@ -1,0 +1,59 @@
+{
+  "name": "Base HP Regional Office Kandy",
+  "coordinates": {
+    "latitude": 7.2892228,
+    "longitude": 80.62949499999999
+  },
+  "address": "NO.214 Peradeniya Rd, Kandy 20400",
+  "categories": [
+    "Computer support and services"
+  ],
+  "phone": "0812222878",
+  "website": "http://www.basehp.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHF2BE9GXQ07TD5RN0SP"
+}

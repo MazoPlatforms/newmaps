@@ -1,0 +1,60 @@
+{
+  "name": "Feblow Cafe",
+  "coordinates": {
+    "latitude": 7.252583899999999,
+    "longitude": 80.3403405
+  },
+  "address": "No.108 Main Street, Kegalle 71000",
+  "categories": [
+    "Restaurant",
+    "Coffee shop"
+  ],
+  "phone": "0711771513",
+  "website": "http://feblow.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZKR4WJ8X3JGRQ5VMZF"
+}

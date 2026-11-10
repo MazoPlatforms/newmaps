@@ -1,0 +1,59 @@
+{
+  "address": "42 Pedlar St, Galle 80000",
+  "name": "Punto Cafe",
+  "coordinates": {
+    "latitude": 6.0262427,
+    "longitude": 80.21838369999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777599994",
+  "categories": [
+    "Asian restaurant",
+    "Restaurant"
+  ],
+  "id": "01M72ABTV0BJHPEQVW85SGGB1W"
+}

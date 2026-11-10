@@ -1,0 +1,58 @@
+{
+  "name": "Ceylon Marine & Hardware",
+  "coordinates": {
+    "latitude": 6.940493,
+    "longitude": 79.86315479999999
+  },
+  "address": "353 Old Moor St, Colombo 01200",
+  "categories": [
+    "Building materials store"
+  ],
+  "phone": "0112323526",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C90ZVYYJ20EP1J2368DAQ"
+}

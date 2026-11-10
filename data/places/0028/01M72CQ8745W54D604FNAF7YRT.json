@@ -1,0 +1,58 @@
+{
+  "name": "Hatton Salon",
+  "coordinates": {
+    "latitude": 7.0483597,
+    "longitude": 80.5130757
+  },
+  "address": "84 Dunbar Road, හැටන්",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0775454002",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQ8745W54D604FNAF7YRT"
+}

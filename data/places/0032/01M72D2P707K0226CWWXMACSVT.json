@@ -1,0 +1,58 @@
+{
+  "name": "IT Support & Technician",
+  "coordinates": {
+    "latitude": 8.3441638,
+    "longitude": 80.4576835
+  },
+  "address": "Isuru Lane Mihinthala Road, Kurundankulama 50062",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0750707003",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2P707K0226CWWXMACSVT"
+}

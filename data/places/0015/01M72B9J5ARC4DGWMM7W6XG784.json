@@ -1,0 +1,59 @@
+{
+  "name": "Dr. Lalith Dolamulla Dental Surgery",
+  "coordinates": {
+    "latitude": 5.9491061,
+    "longitude": 80.5505354
+  },
+  "address": "18/1/1,Esplanade Road, Uyanwatta, Matara",
+  "categories": [
+    "Dental clinic"
+  ],
+  "phone": "0777306844",
+  "website": "http://www.dolamulladental.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J5ARC4DGWMM7W6XG784"
+}

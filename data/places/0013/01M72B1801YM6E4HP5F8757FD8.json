@@ -1,0 +1,58 @@
+{
+  "name": "Sanethma Book Shop",
+  "coordinates": {
+    "latitude": 6.475632399999999,
+    "longitude": 79.982411
+  },
+  "address": "13/1, Custom Road, Beruwala",
+  "categories": [
+    "Book store"
+  ],
+  "phone": "0714169382",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B1801YM6E4HP5F8757FD8"
+}

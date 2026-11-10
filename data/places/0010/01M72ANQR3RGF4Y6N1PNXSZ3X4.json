@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank Keyzer Street Branch",
+  "coordinates": {
+    "latitude": 6.9362812,
+    "longitude": 79.85021929999999
+  },
+  "address": "No 32 Keyzer St, Colombo 01100",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112336770",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR3RGF4Y6N1PNXSZ3X4"
+}

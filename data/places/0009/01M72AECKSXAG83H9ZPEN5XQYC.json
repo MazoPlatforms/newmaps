@@ -1,0 +1,59 @@
+{
+  "address": "124/B Kimbulapitiya Rd, Negombo",
+  "name": "SNS Grocery",
+  "coordinates": {
+    "latitude": 7.2044346,
+    "longitude": 79.8576865
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "website": "http://snsgrocery.lk/",
+  "business_status": "OPEN",
+  "phone": "0770723118",
+  "categories": [
+    "Italian grocery store"
+  ],
+  "id": "01M72AECKSXAG83H9ZPEN5XQYC"
+}

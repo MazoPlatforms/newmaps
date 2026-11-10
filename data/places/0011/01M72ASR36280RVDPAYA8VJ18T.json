@@ -1,0 +1,58 @@
+{
+  "name": "Nethmini Pharmacy",
+  "coordinates": {
+    "latitude": 6.788267299999999,
+    "longitude": 79.89613539999999
+  },
+  "address": "De Soysa Rd, Moratuwa 10400",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0776750699",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASR36280RVDPAYA8VJ18T"
+}

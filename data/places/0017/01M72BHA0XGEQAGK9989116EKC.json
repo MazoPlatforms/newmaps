@@ -1,0 +1,66 @@
+{
+  "name": "4 Paws Animal Clinic & Surgery",
+  "coordinates": {
+    "latitude": 6.7008391,
+    "longitude": 80.39030079999999
+  },
+  "address": "526/A Colombo Rd, Ratnapura 70000",
+  "categories": [
+    "Veterinarian"
+  ],
+  "phone": "0760999899",
+  "website": "http://www.4paws.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–1 PM",
+        "4–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHA0XGEQAGK9989116EKC"
+}

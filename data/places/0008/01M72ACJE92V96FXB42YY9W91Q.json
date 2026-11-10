@@ -1,0 +1,63 @@
+{
+  "address": "16B Akuressa Road, Galle 88000",
+  "name": "Epic Ride - Rent A Bike/ Rent A Car/ Tuktuk Rent",
+  "coordinates": {
+    "latitude": 6.032133,
+    "longitude": 80.2402417
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–11 AM",
+        "2–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "website": "https://epicride.lk/",
+  "business_status": "OPEN",
+  "categories": [
+    "Scooter rental service",
+    "Airport",
+    "Car leasing service",
+    "Motorcycle rental agency",
+    "Taxi service"
+  ],
+  "id": "01M72ACJE92V96FXB42YY9W91Q"
+}

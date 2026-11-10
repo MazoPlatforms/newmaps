@@ -1,0 +1,58 @@
+{
+  "name": "Dreams Computers",
+  "coordinates": {
+    "latitude": 6.8043093,
+    "longitude": 79.8863369
+  },
+  "address": "11/1/1 Angulana Station Rd, Moratuwa 10400",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0776843660",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–7 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CBYMMDXYQRS04XBX60YV1"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Ashoka Traders",
+  "coordinates": {
+    "latitude": 8.318306699999999,
+    "longitude": 80.3970721
+  },
+  "address": "899W+8RG, Anuradhapura",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0773719881",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2W74V2DYHSQVBNXK1NNK"
+}

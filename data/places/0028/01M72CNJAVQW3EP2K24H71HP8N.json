@@ -1,0 +1,59 @@
+{
+  "name": "BOYZ Steet",
+  "coordinates": {
+    "latitude": 7.4757396,
+    "longitude": 80.6234357
+  },
+  "address": "16 Brodie St, Matale",
+  "categories": [
+    "Men's clothing store",
+    "Clothing store"
+  ],
+  "phone": "0718118118",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNJAVQW3EP2K24H71HP8N"
+}

@@ -1,0 +1,60 @@
+{
+  "address": "No 60, Tennekumbura",
+  "name": "Bread Plus",
+  "coordinates": {
+    "latitude": 7.28566,
+    "longitude": 80.661896
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0773309584",
+  "categories": [
+    "Bakery",
+    "Asian grocery store",
+    "Restaurant"
+  ],
+  "id": "01M72AA6MNJCFVECZN7SNWZAEG"
+}

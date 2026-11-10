@@ -1,0 +1,59 @@
+{
+  "name": "Post Office - Yakkala",
+  "coordinates": {
+    "latitude": 7.087695399999999,
+    "longitude": 80.0350915
+  },
+  "address": "32QP+32G, Yakkala",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0332222055",
+  "website": "http://www.slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYNW26J42JZN7G40JGXSE"
+}

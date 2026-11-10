@@ -1,0 +1,62 @@
+{
+  "name": "Salon Apsara Bridal House",
+  "coordinates": {
+    "latitude": 6.872853699999999,
+    "longitude": 79.9229044
+  },
+  "address": "67/6A Sigera Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Beauty salon",
+    "Beautician",
+    "Curling hall",
+    "Hair extension technician",
+    "Hairdresser"
+  ],
+  "phone": "0715855017",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDY45JD1RJEH09FKR2SJK"
+}

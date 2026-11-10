@@ -1,0 +1,64 @@
+{
+  "name": "Caravan Fresh - The Cake & Pastry Shop",
+  "coordinates": {
+    "latitude": 6.8006385,
+    "longitude": 79.9200898
+  },
+  "address": "85/2 Moratuwa - Piliyandala Rd, Piliyandala 10300",
+  "categories": [
+    "Bakery",
+    "Cake shop",
+    "Coffee shop",
+    "Cupcake shop",
+    "Dessert shop",
+    "Halal restaurant",
+    "Pastry shop"
+  ],
+  "phone": "0706956256",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6GFFYRHMJ1SZX7PFM3X"
+}

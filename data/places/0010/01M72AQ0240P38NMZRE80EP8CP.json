@@ -1,0 +1,58 @@
+{
+  "name": "Cafe 4 U",
+  "coordinates": {
+    "latitude": 6.8499026,
+    "longitude": 79.8788936
+  },
+  "address": "307 Hill St, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0112710799",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ0240P38NMZRE80EP8CP"
+}

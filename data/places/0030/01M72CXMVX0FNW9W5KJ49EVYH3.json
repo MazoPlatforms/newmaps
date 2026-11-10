@@ -1,0 +1,58 @@
+{
+  "name": "Salon Oshadi",
+  "coordinates": {
+    "latitude": 6.9870278,
+    "longitude": 81.0595422
+  },
+  "address": "No:157 Lower St, Badulla",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0763949500",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXMVX0FNW9W5KJ49EVYH3"
+}

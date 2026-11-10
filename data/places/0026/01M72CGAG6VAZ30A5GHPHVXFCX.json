@@ -1,0 +1,59 @@
+{
+  "name": "Phone MART",
+  "coordinates": {
+    "latitude": 7.092876899999999,
+    "longitude": 79.99341559999999
+  },
+  "address": "New Shopping Complex, No 14/15 Orutota Rd, Gampaha 11000",
+  "categories": [
+    "Cell phone store",
+    "Mobile phone repair shop"
+  ],
+  "phone": "0713737777",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGAG6VAZ30A5GHPHVXFCX"
+}

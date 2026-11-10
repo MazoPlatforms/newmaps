@@ -1,0 +1,58 @@
+{
+  "name": "New Mariya's Grocery Wattala",
+  "coordinates": {
+    "latitude": 6.9824924,
+    "longitude": 79.88805479999999
+  },
+  "address": "237 Negombo Main Rd, Wattala 11300",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0711251818",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AMPGG622KD99EXGQB9YEK"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Nawalapitiya Medical Centre",
+  "coordinates": {
+    "latitude": 7.0525625,
+    "longitude": 80.5361875
+  },
+  "address": "Nawalapitiya",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0542222532",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5TGN5D8A5NJP4WX9W3TE"
+}

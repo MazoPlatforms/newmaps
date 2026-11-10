@@ -1,0 +1,59 @@
+{
+  "address": "1 Castle Ave, Colombo 00800",
+  "name": "Italian Supermarket Lanka",
+  "coordinates": {
+    "latitude": 6.911493,
+    "longitude": 79.8802676
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "website": "https://italiansupermarketlanka.com/",
+  "business_status": "OPEN",
+  "phone": "0717333999",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72A9D1TBE8QS9XQ2RNQT01Y"
+}

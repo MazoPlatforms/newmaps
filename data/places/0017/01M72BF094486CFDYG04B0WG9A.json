@@ -1,0 +1,57 @@
+{
+  "name": "Info Bright ICT Class",
+  "coordinates": {
+    "latitude": 6.9980559,
+    "longitude": 81.0550609
+  },
+  "address": "57, 11 Rathwaththa Mawatha, Badulla",
+  "categories": [
+    "Education center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2:30–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2:30–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2:30–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2:30–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF094486CFDYG04B0WG9A"
+}

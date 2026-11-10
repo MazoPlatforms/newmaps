@@ -1,0 +1,64 @@
+{
+  "name": "Sakeen Hardware Stores",
+  "coordinates": {
+    "latitude": 7.2952661,
+    "longitude": 80.63696589999999
+  },
+  "address": "70A Raja Veediya, Kandy 20000",
+  "categories": [
+    "Hardware store",
+    "Countertop store",
+    "Key duplication service",
+    "Locks supplier",
+    "Locksmith",
+    "Safe & vault shop",
+    "Scale supplier"
+  ],
+  "phone": "0773115685",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMTD1V9V75HN0V5K7H8G7"
+}

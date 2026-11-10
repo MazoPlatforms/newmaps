@@ -1,0 +1,61 @@
+{
+  "name": "Steelmax Hardware Stores",
+  "coordinates": {
+    "latitude": 6.7087644,
+    "longitude": 79.9252396
+  },
+  "address": "4B Horana Rd, Panadura 12500",
+  "categories": [
+    "Hardware store",
+    "Construction material wholesaler",
+    "Steel fabricator"
+  ],
+  "phone": "0382221321",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11:45 AM",
+        "1:45–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK0NKN6GV0CVCG6DFE83R"
+}

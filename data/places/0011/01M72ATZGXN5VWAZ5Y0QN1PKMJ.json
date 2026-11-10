@@ -1,0 +1,59 @@
+{
+  "name": "Gracebake Cafe",
+  "coordinates": {
+    "latitude": 6.8796076,
+    "longitude": 79.9195397
+  },
+  "address": "VWH9+RRV, Pitakotte - Talawatugoda Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Thai restaurant"
+  ],
+  "phone": "0711881999",
+  "website": "https://gracebake.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGXN5VWAZ5Y0QN1PKMJ"
+}

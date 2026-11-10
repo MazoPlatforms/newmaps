@@ -1,0 +1,58 @@
+{
+  "name": "Chest Clinic",
+  "coordinates": {
+    "latitude": 8.3229728,
+    "longitude": 80.4128753
+  },
+  "address": "8CF7+55J, Bulankulama Disawa Mawatha, Anuradhapura",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0253852155",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9X69SS9VFKQJAY670SC"
+}

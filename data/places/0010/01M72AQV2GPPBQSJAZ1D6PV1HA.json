@@ -1,0 +1,58 @@
+{
+  "name": "Smart Tuition Colombo",
+  "coordinates": {
+    "latitude": 6.833762999999999,
+    "longitude": 79.8748842
+  },
+  "address": "79 A Sri Dhammananda Mawatha, Templers Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0778038806",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQV2GPPBQSJAZ1D6PV1HA"
+}

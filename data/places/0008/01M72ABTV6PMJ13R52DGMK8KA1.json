@@ -1,0 +1,57 @@
+{
+  "address": "53 Lighthouse St, Galle 80000",
+  "name": "Sugar Bistro",
+  "coordinates": {
+    "latitude": 6.0260362999999995,
+    "longitude": 80.2171207
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Eclectic restaurant"
+  ],
+  "id": "01M72ABTV6PMJ13R52DGMK8KA1"
+}

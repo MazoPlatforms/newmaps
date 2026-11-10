@@ -1,0 +1,58 @@
+{
+  "name": "OMC Restaurant",
+  "coordinates": {
+    "latitude": 7.930315599999999,
+    "longitude": 81.0377027
+  },
+  "address": "W2JQ+43G, Polonnaruwa",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0702337143",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BR1GVX0EQR5JT1F049AE1"
+}

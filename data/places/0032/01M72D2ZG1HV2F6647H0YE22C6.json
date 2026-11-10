@@ -1,0 +1,58 @@
+{
+  "name": "Salon Thejani Hair And Beauty Academy",
+  "coordinates": {
+    "latitude": 8.3103904,
+    "longitude": 80.4017791
+  },
+  "address": "Sangabo Mawatha, Anuradhapura",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0252237033",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2ZG1HV2F6647H0YE22C6"
+}

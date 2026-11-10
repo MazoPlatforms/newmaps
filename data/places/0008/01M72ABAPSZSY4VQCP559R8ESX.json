@@ -1,0 +1,58 @@
+{
+  "address": "14 A1, Kandy 20400",
+  "name": "Peradeniya Botanical Gardens Ticket Counter",
+  "coordinates": {
+    "latitude": 7.268344,
+    "longitude": 80.5969329
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Park",
+    "Ticket office"
+  ],
+  "id": "01M72ABAPSZSY4VQCP559R8ESX"
+}

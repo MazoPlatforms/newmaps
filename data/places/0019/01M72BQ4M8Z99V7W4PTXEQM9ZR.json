@@ -1,0 +1,58 @@
+{
+  "name": "CTC (Central Tread Centre)",
+  "coordinates": {
+    "latitude": 8.3235201,
+    "longitude": 80.4035379
+  },
+  "address": "AB2, Anuradhapura",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0252235293",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4M8Z99V7W4PTXEQM9ZR"
+}

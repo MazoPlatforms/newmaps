@@ -1,0 +1,59 @@
+{
+  "address": "Fish Market, Road, Negombo",
+  "name": "Negombo Fish Market",
+  "coordinates": {
+    "latitude": 7.2102612,
+    "longitude": 79.8313577
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://boattourssrilanka.com/",
+  "business_status": "OPEN",
+  "phone": "0779017730",
+  "categories": [
+    "Seafood market"
+  ],
+  "id": "01M72AECT30TVWC28NEVTV9S9K"
+}

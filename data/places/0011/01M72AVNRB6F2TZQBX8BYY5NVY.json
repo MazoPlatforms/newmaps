@@ -1,0 +1,65 @@
+{
+  "name": "Life Care Medical Center",
+  "coordinates": {
+    "latitude": 6.899951799999999,
+    "longitude": 79.9218559
+  },
+  "address": "103 B47, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0716853955",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 PM",
+        "5–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVNRB6F2TZQBX8BYY5NVY"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Salon Perfect",
+  "coordinates": {
+    "latitude": 7.2614012,
+    "longitude": 80.713484
+  },
+  "address": "144 Haragama Rd, Kandy 20189",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0752158286",
+  "website": "https://touch.facebook.com/salonperfectkandy/?ref=bookmarks",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQJQCANXATMP6VFGNS4"
+}

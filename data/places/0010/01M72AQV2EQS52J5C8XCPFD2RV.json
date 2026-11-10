@@ -1,0 +1,60 @@
+{
+  "name": "B Academy",
+  "coordinates": {
+    "latitude": 6.830041199999999,
+    "longitude": 79.8783669
+  },
+  "address": "19a Athula Mawatha, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Tutoring service",
+    "Education center",
+    "Educational institution"
+  ],
+  "phone": "0758578537",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQV2EQS52J5C8XCPFD2RV"
+}

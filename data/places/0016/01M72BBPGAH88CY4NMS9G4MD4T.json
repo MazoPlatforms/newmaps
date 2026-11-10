@@ -1,0 +1,67 @@
+{
+  "name": "B Cafe & Nuts",
+  "coordinates": {
+    "latitude": 6.132536699999999,
+    "longitude": 81.12632459999999
+  },
+  "address": "Baddawela Road, Hambantota 82000",
+  "categories": [
+    "Cafe",
+    "Cafeteria",
+    "Coffee shop",
+    "Ice cream shop",
+    "Juice shop",
+    "Restaurant",
+    "Salad shop",
+    "Salsa bar",
+    "Soft drinks shop"
+  ],
+  "phone": "0779439560",
+  "website": "https://www.facebook.com/BCafeandNuts",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGAH88CY4NMS9G4MD4T"
+}

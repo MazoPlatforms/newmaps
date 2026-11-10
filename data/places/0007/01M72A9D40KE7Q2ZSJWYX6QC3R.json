@@ -1,0 +1,58 @@
+{
+  "address": "30 Obeysekarapura Rd, Sri Jayawardenepura Kotte 10600",
+  "name": "Aman Supermarket",
+  "coordinates": {
+    "latitude": 6.9316137,
+    "longitude": 79.89057389999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0788877005",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D40KE7Q2ZSJWYX6QC3R"
+}

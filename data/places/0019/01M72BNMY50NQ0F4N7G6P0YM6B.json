@@ -1,0 +1,58 @@
+{
+  "name": "Vinayagar Stores",
+  "coordinates": {
+    "latitude": 8.0319482,
+    "longitude": 79.8278484
+  },
+  "address": "22 Mannar Rd, Puttalam",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0322265941",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY50NQ0F4N7G6P0YM6B"
+}

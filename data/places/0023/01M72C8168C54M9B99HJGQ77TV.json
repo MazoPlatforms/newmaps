@@ -1,0 +1,60 @@
+{
+  "name": "Jazzy Shoes",
+  "coordinates": {
+    "latitude": 6.9086146,
+    "longitude": 79.8962402
+  },
+  "address": "Jana Jaya City, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0772753232",
+  "website": "http://www.jazzy.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–12 PM",
+        "1:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8168C54M9B99HJGQ77TV"
+}

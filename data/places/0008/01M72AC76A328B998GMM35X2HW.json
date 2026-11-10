@@ -1,0 +1,58 @@
+{
+  "address": "26P9+8WR, Main Street, Galle 80000",
+  "name": "Urban Vegetable Market",
+  "coordinates": {
+    "latitude": 6.0358747,
+    "longitude": 80.21975859999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Market",
+    "Fruit and vegetable store"
+  ],
+  "id": "01M72AC76A328B998GMM35X2HW"
+}

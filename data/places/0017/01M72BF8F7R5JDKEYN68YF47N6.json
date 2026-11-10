@@ -1,0 +1,59 @@
+{
+  "name": "Sisira Garage Valuers",
+  "coordinates": {
+    "latitude": 6.9852484,
+    "longitude": 81.056253
+  },
+  "address": "No 88 Clinic Road, Badulla",
+  "categories": [
+    "Vehicle inspection service"
+  ],
+  "phone": "0775405305",
+  "website": "http://www.sgvaluers.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF8F7R5JDKEYN68YF47N6"
+}

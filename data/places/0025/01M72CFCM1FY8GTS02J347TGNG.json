@@ -1,0 +1,62 @@
+{
+  "name": "City Hardware",
+  "coordinates": {
+    "latitude": 7.2202376,
+    "longitude": 79.8456346
+  },
+  "address": "Chilaw - Colombo Main Rd, Negombo",
+  "categories": [
+    "Hardware store",
+    "Building materials supplier",
+    "Electrical products wholesaler",
+    "Paint store"
+  ],
+  "phone": "0775529640",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "2–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCM1FY8GTS02J347TGNG"
+}

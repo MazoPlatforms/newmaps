@@ -1,0 +1,59 @@
+{
+  "name": "Queen's Pharmacy",
+  "coordinates": {
+    "latitude": 8.338768,
+    "longitude": 80.411754
+  },
+  "address": "8CQ6+GP2, A12, Anuradhapura",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0779226140",
+  "website": "http://www.queenspharmacy.wordpress.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9XC6FW09YAAZ90J5D9N"
+}

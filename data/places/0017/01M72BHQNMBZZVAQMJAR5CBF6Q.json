@@ -1,0 +1,58 @@
+{
+  "name": "J.L Super Service",
+  "coordinates": {
+    "latitude": 6.6862493999999995,
+    "longitude": 80.3979224
+  },
+  "address": "Veralupe Road, Ratnapura",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0773519898",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHQNMBZZVAQMJAR5CBF6Q"
+}

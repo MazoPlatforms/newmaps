@@ -1,0 +1,62 @@
+{
+  "name": "G.B.Enterprises",
+  "coordinates": {
+    "latitude": 6.9701559,
+    "longitude": 80.7846272
+  },
+  "address": "192/1 Nuwara Eliya-Uda Pussellawa Rd, Nuwara Eliya 22200",
+  "categories": [
+    "Construction machine rental service",
+    "Building equipment hire service",
+    "Equipment rental agency",
+    "Scaffolding rental service",
+    "Tool rental service"
+  ],
+  "phone": "0522234200",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPN3MMRCZHETN9CRS6S22"
+}

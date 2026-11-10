@@ -1,0 +1,59 @@
+{
+  "name": "New Medicals",
+  "coordinates": {
+    "latitude": 7.477762599999999,
+    "longitude": 80.3833362
+  },
+  "address": "06 A Kandy Rd, Kurunegala",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0727390390",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKR9T9FBRH0DZ3EWMGCE7"
+}

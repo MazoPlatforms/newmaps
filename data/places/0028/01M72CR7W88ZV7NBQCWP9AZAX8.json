@@ -1,0 +1,61 @@
+{
+  "name": "Leader Laptops And Mobile Shop",
+  "coordinates": {
+    "latitude": 6.0699461,
+    "longitude": 80.1794013
+  },
+  "address": "313, Galle",
+  "categories": [
+    "Mobile phone repair shop",
+    "Computer repair service",
+    "Computer store"
+  ],
+  "phone": "0777772391",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:30 AM",
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7W88ZV7NBQCWP9AZAX8"
+}

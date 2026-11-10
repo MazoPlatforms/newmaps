@@ -1,0 +1,58 @@
+{
+  "name": "A.J Multy Center",
+  "coordinates": {
+    "latitude": 8.7733671,
+    "longitude": 80.5156581
+  },
+  "address": "MADEENA NAGAR, Vavuniya 43000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0771831198",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5KV72NKFDN61RWPDN9R5"
+}

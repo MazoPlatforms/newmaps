@@ -1,0 +1,59 @@
+{
+  "name": "NDB Bank - Wattala",
+  "coordinates": {
+    "latitude": 6.9870955,
+    "longitude": 79.89007029999999
+  },
+  "address": "378A Negombo Main Rd, Wattala 11300",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0117448042",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQRHW2B005GDDAPCS36H"
+}

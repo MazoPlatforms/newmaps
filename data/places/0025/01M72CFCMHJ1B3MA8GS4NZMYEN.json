@@ -1,0 +1,60 @@
+{
+  "name": "Mithra",
+  "coordinates": {
+    "latitude": 7.2003252,
+    "longitude": 79.82133449999999
+  },
+  "address": "403, meda, 1A Pitipana St, Negombo 11500",
+  "categories": [
+    "Hardware store",
+    "Wholesaler"
+  ],
+  "phone": "0773000493",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–7 AM",
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCMHJ1B3MA8GS4NZMYEN"
+}

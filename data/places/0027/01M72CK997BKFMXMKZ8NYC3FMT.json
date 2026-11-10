@@ -1,0 +1,65 @@
+{
+  "name": "The Gym Panadura",
+  "coordinates": {
+    "latitude": 6.721082,
+    "longitude": 79.9086767
+  },
+  "address": "36/1, Cyiril Janz, Hirana Rd, Panadura 12500",
+  "categories": [
+    "Fitness center"
+  ],
+  "phone": "0777674926",
+  "website": "https://www.facebook.com/thegymlk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12:30 PM",
+        "2:30–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12:30 PM",
+        "2:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12:30 PM",
+        "2:30–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12:30 PM",
+        "2:30–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12:30 PM",
+        "2:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12:30 PM",
+        "2:30–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK997BKFMXMKZ8NYC3FMT"
+}

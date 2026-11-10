@@ -1,0 +1,58 @@
+{
+  "name": "Sandagiri Wine Store",
+  "coordinates": {
+    "latitude": 6.1300278,
+    "longitude": 80.102978
+  },
+  "address": "367B Galle Rd, Hikkaduwa 80240",
+  "categories": [
+    "Wine store"
+  ],
+  "phone": "0761396692",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7AZRHD010TWKRW6YFJ0B"
+}

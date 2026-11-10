@@ -1,0 +1,59 @@
+{
+  "address": "83 Morris Rd, Galle 80000",
+  "name": "House Of Hidayath (Ceylon City Mart)",
+  "coordinates": {
+    "latitude": 6.0467043,
+    "longitude": 80.2249947
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "1:45–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777385377",
+  "categories": [
+    "Department store"
+  ],
+  "id": "01M72AC76HCJ0HS4GHQPEKTKNY"
+}

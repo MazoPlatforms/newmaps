@@ -1,0 +1,58 @@
+{
+  "name": "Rawula Hair Salon",
+  "coordinates": {
+    "latitude": 7.9469937999999996,
+    "longitude": 81.0155044
+  },
+  "address": "591/1, Polonnaruwa 51000",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0766966385",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3JVHBER7WKKV8H678H0G"
+}

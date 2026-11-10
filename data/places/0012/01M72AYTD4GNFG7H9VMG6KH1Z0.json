@@ -1,0 +1,58 @@
+{
+  "name": "Mapa Filling Station",
+  "coordinates": {
+    "latitude": 7.0614982,
+    "longitude": 80.0102009
+  },
+  "address": "Kandy Rd, Gampaha",
+  "categories": [
+    "Gas station"
+  ],
+  "phone": "0715148007",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYTD4GNFG7H9VMG6KH1Z0"
+}

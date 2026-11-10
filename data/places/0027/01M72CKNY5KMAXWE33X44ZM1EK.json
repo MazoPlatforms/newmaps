@@ -1,0 +1,58 @@
+{
+  "name": "KT Tech",
+  "coordinates": {
+    "latitude": 6.4382654,
+    "longitude": 80.0299458
+  },
+  "address": "B157",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0719330943",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKNY5KMAXWE33X44ZM1EK"
+}

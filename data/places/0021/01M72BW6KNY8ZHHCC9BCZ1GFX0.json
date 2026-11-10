@@ -1,0 +1,58 @@
+{
+  "name": "Sports Corner",
+  "coordinates": {
+    "latitude": 8.7535648,
+    "longitude": 80.4974136
+  },
+  "address": "#76, Bus stand Complex, Vavuniya 43000",
+  "categories": [
+    "Sporting goods store"
+  ],
+  "phone": "0242224008",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6KNY8ZHHCC9BCZ1GFX0"
+}

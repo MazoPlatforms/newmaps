@@ -1,0 +1,58 @@
+{
+  "name": "Lit Class",
+  "coordinates": {
+    "latitude": 6.6808321,
+    "longitude": 80.40692229999999
+  },
+  "address": "Goods Shed Rd, Ratnapura 70000",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0702695444",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2:30 PM–4:30 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHFFBS2GN1R3NFEB47EV3"
+}

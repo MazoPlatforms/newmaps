@@ -1,0 +1,58 @@
+{
+  "name": "B G S Supermart",
+  "coordinates": {
+    "latitude": 6.7160974,
+    "longitude": 79.9047559
+  },
+  "address": "01 Jayathilaka Mawatha, Panadura 12500",
+  "categories": [
+    "Discount supermarket"
+  ],
+  "phone": "0776900886",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B03AWF3CJMYQERX7W75EB"
+}

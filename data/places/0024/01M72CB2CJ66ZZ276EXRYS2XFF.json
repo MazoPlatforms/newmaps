@@ -1,0 +1,59 @@
+{
+  "name": "Salon Pradee",
+  "coordinates": {
+    "latitude": 6.8442973,
+    "longitude": 79.869104
+  },
+  "address": "43 Terrence Ave, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0712853957",
+  "website": "https://www.facebook.com/SalonPradee/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CB2CJ66ZZ276EXRYS2XFF"
+}

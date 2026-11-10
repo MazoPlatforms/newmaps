@@ -1,0 +1,59 @@
+{
+  "name": "HDFC Bank Dambulla Branch",
+  "coordinates": {
+    "latitude": 7.872973399999999,
+    "longitude": 80.649971
+  },
+  "address": "Number 60, Kurunegala Rd, Dambulla 21100",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0662285644",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSWESVWJ6RJKQ4CMNHMBB"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "JS Technology",
+  "coordinates": {
+    "latitude": 9.386783,
+    "longitude": 80.40436299999999
+  },
+  "address": "No1 Kanakapuram Rd, Kilinochchi 44000",
+  "categories": [
+    "Software company",
+    "Computer accessories store",
+    "Computer service",
+    "Computer software store",
+    "Computer store"
+  ],
+  "phone": "0774329673",
+  "website": "https://jstech-hub.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D6BF08K7CARWW8Y45XRVE"
+}

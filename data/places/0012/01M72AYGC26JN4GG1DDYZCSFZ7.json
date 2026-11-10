@@ -1,0 +1,65 @@
+{
+  "name": "Family Medical Center (Dr. Priyantha Halambarachchige)",
+  "coordinates": {
+    "latitude": 7.0742489,
+    "longitude": 80.0149977
+  },
+  "address": "Minuwangoda-Gampaha-Miriswatta Rd, Gampaha",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0702296698",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–8 AM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–8 AM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–8 AM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–8 AM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–8 AM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–8 AM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6–8 AM",
+        "4–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGC26JN4GG1DDYZCSFZ7"
+}

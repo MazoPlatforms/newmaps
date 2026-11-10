@@ -1,0 +1,58 @@
+{
+  "name": "Ranu Super",
+  "coordinates": {
+    "latitude": 7.2269134,
+    "longitude": 80.305064
+  },
+  "address": "B127",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0763884388",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4VFHECH2ZX87X2TDTK9Q"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Polek eMarket",
+  "coordinates": {
+    "latitude": 6.937493399999999,
+    "longitude": 79.8526675
+  },
+  "address": "First Floor, 165/A, 6 Main St, Colombo 01100",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0773129888",
+  "website": "http://polektc.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10–11:30 AM",
+        "1:30–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JN0C2TBM26SKSG27Q4Q"
+}

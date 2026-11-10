@@ -1,0 +1,58 @@
+{
+  "name": "Lionel’s Garage",
+  "coordinates": {
+    "latitude": 6.844262499999999,
+    "longitude": 79.8852175
+  },
+  "address": "RVVP+P34, Bus Stop, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0777688852",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRQFWZ28Q8C62GJPFNQ"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Corner Barber",
+  "coordinates": {
+    "latitude": 7.857685,
+    "longitude": 80.70625
+  },
+  "categories": [
+    "Hair salon",
+    "Service establishment"
+  ],
+  "phone": "0117141555",
+  "website": "https://www.facebook.com/CornerBarber03",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MFBN89PX2EXB04EKY6"
+}

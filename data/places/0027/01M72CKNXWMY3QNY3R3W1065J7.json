@@ -1,0 +1,67 @@
+{
+  "name": "Tech & Book Center",
+  "coordinates": {
+    "latitude": 6.4560737999999995,
+    "longitude": 80.01471029999999
+  },
+  "address": "Kopiwatte Road, Beruwala",
+  "categories": [
+    "Print shop",
+    "Book store",
+    "Cell phone accessory store",
+    "Computer repair service",
+    "Copy shop",
+    "Internet shop",
+    "Lamination service",
+    "Pen store",
+    "Phone repair service",
+    "Typing service"
+  ],
+  "phone": "0762546630",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKNXWMY3QNY3R3W1065J7"
+}

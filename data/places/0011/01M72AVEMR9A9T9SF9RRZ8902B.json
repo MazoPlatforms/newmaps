@@ -1,0 +1,58 @@
+{
+  "name": "Thamali Stores",
+  "coordinates": {
+    "latitude": 6.8892897,
+    "longitude": 79.9098416
+  },
+  "address": "124, 86 Baddegana Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0112884404",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEMR9A9T9SF9RRZ8902B"
+}

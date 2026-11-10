@@ -1,0 +1,61 @@
+{
+  "name": "Digital Zone",
+  "coordinates": {
+    "latitude": 6.874297899999999,
+    "longitude": 79.89154789999999
+  },
+  "address": "165D Etul Kotte-Mirihana-Kohuwela Rd, Nugegoda",
+  "categories": [
+    "Computer store",
+    "Book store",
+    "Print shop"
+  ],
+  "phone": "0112811207",
+  "website": "http://www.dzlanka.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJRVKSDW91634EJW60QJ"
+}

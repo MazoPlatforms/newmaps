@@ -1,0 +1,58 @@
+{
+  "name": "Ovinmee Family Restaurant",
+  "coordinates": {
+    "latitude": 6.8152276999999994,
+    "longitude": 79.8932572
+  },
+  "address": "No 7 Gemunu Mawatha, Moratuwa",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777950123",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02MN0W8S7FCHJ1VT4V2"
+}

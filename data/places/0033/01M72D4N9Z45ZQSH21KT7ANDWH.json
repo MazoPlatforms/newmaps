@@ -1,0 +1,64 @@
+{
+  "name": "My Dynamica",
+  "coordinates": {
+    "latitude": 9.6810523,
+    "longitude": 80.015191
+  },
+  "address": "71/3 Arasadi Rd, Jaffna 40000",
+  "categories": [
+    "Software company",
+    "Computer accessories store",
+    "Computer service",
+    "Institute of technology",
+    "Web hosting company",
+    "Website designer"
+  ],
+  "phone": "0777861677",
+  "website": "https://mydynamica.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4N9Z45ZQSH21KT7ANDWH"
+}

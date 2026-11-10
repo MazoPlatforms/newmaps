@@ -1,0 +1,59 @@
+{
+  "address": "3/1 Thambiah Avenue, Independence Ave, Colombo 00700",
+  "name": "Cafe Kumbuk",
+  "coordinates": {
+    "latitude": 6.9090042,
+    "longitude": 79.8647311
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "website": "https://www.cafekumbuk.com/",
+  "business_status": "OPEN",
+  "phone": "0112685310",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72A8VD7XPSBQCME0VDPEVQS"
+}

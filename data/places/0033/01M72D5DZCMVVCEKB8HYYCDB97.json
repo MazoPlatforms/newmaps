@@ -1,0 +1,58 @@
+{
+  "name": "C Lab Tec System",
+  "coordinates": {
+    "latitude": 8.760619799999999,
+    "longitude": 80.49269989999999
+  },
+  "address": "77 Vairavar Temple Road, Vavuniya 43000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0777104704",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5DZCMVVCEKB8HYYCDB97"
+}

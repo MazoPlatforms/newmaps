@@ -1,0 +1,57 @@
+{
+  "name": "Weligama Shopping Complex",
+  "coordinates": {
+    "latitude": 5.974198299999999,
+    "longitude": 80.429204
+  },
+  "address": "3rd Floor, New Super Market Building, Station Rd, Weligama 81700",
+  "categories": [
+    "Outlet mall"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAYR3MHAQ5683C2SNVX14"
+}

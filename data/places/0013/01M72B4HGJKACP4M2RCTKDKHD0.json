@@ -1,0 +1,58 @@
+{
+  "name": "City Clinic Nuwara Eliya",
+  "coordinates": {
+    "latitude": 6.9719406,
+    "longitude": 80.7667428
+  },
+  "address": "Queen Elizabeth Dr, Nuwara Eliya 22200",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0707151249",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4HGJKACP4M2RCTKDKHD0"
+}

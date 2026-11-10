@@ -1,0 +1,58 @@
+{
+  "name": "Wild Bakery",
+  "coordinates": {
+    "latitude": 5.9672586999999995,
+    "longitude": 80.70600329999999
+  },
+  "address": "Nilwella Rd, Dikwella 81200",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0741246612",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WTT35CZ5ANGWYZ3K3F"
+}

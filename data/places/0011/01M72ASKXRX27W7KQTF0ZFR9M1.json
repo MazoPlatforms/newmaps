@@ -1,0 +1,58 @@
+{
+  "name": "Family Mart",
+  "coordinates": {
+    "latitude": 6.7833302,
+    "longitude": 79.8912843
+  },
+  "address": "11 Lady Evelyn de Soysa Rd, Moratuwa 10400",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0701232525",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASKXRX27W7KQTF0ZFR9M1"
+}

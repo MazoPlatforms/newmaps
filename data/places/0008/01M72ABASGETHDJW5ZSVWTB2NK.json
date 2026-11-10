@@ -1,0 +1,61 @@
+{
+  "address": "B365",
+  "name": "Agriculture Department (Sales Center)",
+  "coordinates": {
+    "latitude": 7.2727208,
+    "longitude": 80.60298929999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    }
+  ],
+  "website": "https://doa.gov.lk/spmdc-home-new/",
+  "business_status": "OPEN",
+  "phone": "0812069339",
+  "categories": [
+    "Agricultural product wholesaler",
+    "Seed supplier",
+    "Wholesale plant nursery"
+  ],
+  "id": "01M72ABASGETHDJW5ZSVWTB2NK"
+}

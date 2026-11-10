@@ -1,0 +1,58 @@
+{
+  "name": "S.P Enterprises",
+  "coordinates": {
+    "latitude": 5.9553693999999995,
+    "longitude": 80.5247251
+  },
+  "address": "84 Yehiya Rd, Matara",
+  "categories": [
+    "Paint store"
+  ],
+  "phone": "0412225031",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTHBJ8ZH5X1GA9XQ08MG8"
+}

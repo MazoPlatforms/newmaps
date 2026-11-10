@@ -1,0 +1,58 @@
+{
+  "address": "18/1 E Akuressa Road, Galle 80000",
+  "name": "New Grocery",
+  "coordinates": {
+    "latitude": 6.032123599999999,
+    "longitude": 80.2404233
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0779342472",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AC77JAR54EFK4NDCGVPGG"
+}

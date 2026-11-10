@@ -1,0 +1,58 @@
+{
+  "name": "Genaross Restaurant",
+  "coordinates": {
+    "latitude": 5.9744066,
+    "longitude": 80.43294
+  },
+  "address": "No 7 awsa road palana, Weligama 81700",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0740539383",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPS0D2ME77QPMAMFQE8E"
+}

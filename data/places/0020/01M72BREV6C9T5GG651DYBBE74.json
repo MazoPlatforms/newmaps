@@ -1,0 +1,58 @@
+{
+  "name": "Western Super Market",
+  "coordinates": {
+    "latitude": 8.012266799999999,
+    "longitude": 81.0646237
+  },
+  "address": "NO-10, Thambala",
+  "categories": [
+    "Grocery store"
+  ],
+  "website": "https://www.facebook.com/Western-Super-market-105999247960286/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BREV6C9T5GG651DYBBE74"
+}

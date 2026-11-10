@@ -1,0 +1,58 @@
+{
+  "name": "Gold Steel",
+  "coordinates": {
+    "latitude": 6.941505599999999,
+    "longitude": 79.8618126
+  },
+  "address": "18 Abdul Jabbar Mawatha, Colombo 01300",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112337213",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9108D9V08HATTG9T4KS4"
+}

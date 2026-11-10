@@ -1,0 +1,58 @@
+{
+  "name": "Salon Pretty Look",
+  "coordinates": {
+    "latitude": 7.492356999999999,
+    "longitude": 80.3558884
+  },
+  "address": "No.260 1st floor, Kurunegala - Puttalam Rd, Kurunegala",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0773824955",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0V7B5D5Y1PYR95D2XGJD"
+}

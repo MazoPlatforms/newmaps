@@ -1,0 +1,65 @@
+{
+  "name": "New City Hardware",
+  "coordinates": {
+    "latitude": 6.940595999999999,
+    "longitude": 79.8613917
+  },
+  "address": "58 M. J. M. Laffir Mawatha, Colombo",
+  "categories": [
+    "Building materials supplier",
+    "Building materials market",
+    "Construction equipment supplier",
+    "Construction material wholesaler",
+    "Electrical equipment supplier",
+    "Electrical supply store",
+    "Electrical products wholesaler",
+    "Tool wholesaler"
+  ],
+  "phone": "0112334671",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–2:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C90ZRZW5KA72YXHDX0910"
+}

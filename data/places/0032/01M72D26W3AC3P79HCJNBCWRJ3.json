@@ -1,0 +1,58 @@
+{
+  "name": "New Hardware Stores",
+  "coordinates": {
+    "latitude": 7.5774054,
+    "longitude": 79.7928325
+  },
+  "address": "1 Chilaw - Colombo Main Rd, Chilaw",
+  "categories": [
+    "Home goods store"
+  ],
+  "phone": "0322222206",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D26W3AC3P79HCJNBCWRJ3"
+}

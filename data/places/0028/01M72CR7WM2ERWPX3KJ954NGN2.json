@@ -1,0 +1,59 @@
+{
+  "name": "IT Partner",
+  "coordinates": {
+    "latitude": 6.0371694,
+    "longitude": 80.23438349999999
+  },
+  "address": "33 Kachchiwatta Rd, Galle 80000",
+  "categories": [
+    "Computer support and services"
+  ],
+  "phone": "0774597665",
+  "website": "https://www.partnerit.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7WM2ERWPX3KJ954NGN2"
+}

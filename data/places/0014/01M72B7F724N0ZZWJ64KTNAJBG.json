@@ -1,0 +1,58 @@
+{
+  "name": "People's Bank",
+  "coordinates": {
+    "latitude": 6.136804199999999,
+    "longitude": 80.0999313
+  },
+  "address": "Wawulagoda 1st Cross Rd, Hikkaduwa 80240",
+  "categories": [
+    "Public sector bank"
+  ],
+  "phone": "0912277984",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7F724N0ZZWJ64KTNAJBG"
+}

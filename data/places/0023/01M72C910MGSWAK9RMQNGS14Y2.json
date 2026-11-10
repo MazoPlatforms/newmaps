@@ -1,0 +1,59 @@
+{
+  "name": "Cimco Metal Centre",
+  "coordinates": {
+    "latitude": 6.937149499999999,
+    "longitude": 79.866163
+  },
+  "address": "405 Sri Sangaraja Mawatha, Colombo 01200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112449493",
+  "website": "https://www.cimco.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910MGSWAK9RMQNGS14Y2"
+}

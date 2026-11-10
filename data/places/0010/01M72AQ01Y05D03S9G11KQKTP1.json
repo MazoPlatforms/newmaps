@@ -1,0 +1,59 @@
+{
+  "name": "Governor's Restaurant",
+  "coordinates": {
+    "latitude": 6.8336111,
+    "longitude": 79.8619444
+  },
+  "address": "100 Hotel Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0112711711ext.430",
+  "website": "https://www.mountlaviniahotel.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ01Y05D03S9G11KQKTP1"
+}

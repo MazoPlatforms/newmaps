@@ -1,0 +1,62 @@
+{
+  "name": "Driveline Badulla",
+  "coordinates": {
+    "latitude": 6.9866914,
+    "longitude": 81.05760509999999
+  },
+  "address": "1 Dewala Veediya, Badulla 90000",
+  "categories": [
+    "Auto repair shop",
+    "Car detailing service",
+    "Chauffeur service",
+    "Car wash"
+  ],
+  "phone": "0707885866",
+  "website": "http://driveline.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF8EXKZZWBEEG2C4CNC8N"
+}

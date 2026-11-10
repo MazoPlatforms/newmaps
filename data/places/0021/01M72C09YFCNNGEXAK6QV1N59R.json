@@ -1,0 +1,57 @@
+{
+  "name": "Corner Supermarket",
+  "coordinates": {
+    "latitude": 7.4016487,
+    "longitude": 81.8383709
+  },
+  "address": "CR2Q+M85, Old Post Office Rd, Kalmunai 32300",
+  "categories": [
+    "Grocery store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09YFCNNGEXAK6QV1N59R"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Asian Life Style",
+  "coordinates": {
+    "latitude": 7.5353362,
+    "longitude": 80.3532946
+  },
+  "address": "G9P3+48M, Edandawala, Abeyniwasa, Lake round road, Kurunegala 60000",
+  "categories": [
+    "Fish farm",
+    "Farm"
+  ],
+  "phone": "0741291641",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8–10 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZJG9Y4YRFZ0WEDDBY9CS"
+}

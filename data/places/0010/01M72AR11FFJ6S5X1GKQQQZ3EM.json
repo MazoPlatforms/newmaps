@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank Attidiya Branch",
+  "coordinates": {
+    "latitude": 6.8402218999999995,
+    "longitude": 79.8844262
+  },
+  "address": "No. 275/1 Attidiya Rd, Dehiwala-Mount Lavinia 10390",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112736502",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11FFJ6S5X1GKQQQZ3EM"
+}

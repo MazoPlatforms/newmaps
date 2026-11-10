@@ -1,0 +1,58 @@
+{
+  "name": "KMS Stores",
+  "coordinates": {
+    "latitude": 5.956158299999999,
+    "longitude": 80.5320885
+  },
+  "address": "No 109 Sri Rathanapala road, Matara",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0775915100",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9B91MS68F1TDQYKBJHQR"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Union Bank Vavuniya Branch",
+  "coordinates": {
+    "latitude": 8.7549337,
+    "longitude": 80.4999438
+  },
+  "address": "124 Bazaar St, Vavuniya",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0242225612",
+  "website": "http://www.unionb.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWGMKT7WBF4XT484NDSNT"
+}

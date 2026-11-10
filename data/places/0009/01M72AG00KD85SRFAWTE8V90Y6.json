@@ -1,0 +1,58 @@
+{
+  "name": "People's York Pharmacy",
+  "coordinates": {
+    "latitude": 6.9207091,
+    "longitude": 79.8702424
+  },
+  "address": "127 EW Perera Mawatha, Colombo 01000",
+  "categories": [
+    "Pharmaceutical company"
+  ],
+  "phone": "0115717046",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00KD85SRFAWTE8V90Y6"
+}

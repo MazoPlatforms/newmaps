@@ -1,0 +1,58 @@
+{
+  "name": "Western Pharmacy",
+  "coordinates": {
+    "latitude": 6.596228699999999,
+    "longitude": 79.95894919999999
+  },
+  "address": "A2, Kalutara 12000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0342235181",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ2FN23ZN7TR8XW6X1GQW"
+}

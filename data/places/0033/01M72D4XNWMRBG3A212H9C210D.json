@@ -1,0 +1,58 @@
+{
+  "name": "Saloon",
+  "coordinates": {
+    "latitude": 9.6512504,
+    "longitude": 80.02656549999999
+  },
+  "address": "Old Park Rd, Jaffna 40000",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0761745478",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4XNWMRBG3A212H9C210D"
+}

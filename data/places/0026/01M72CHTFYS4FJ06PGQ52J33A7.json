@@ -1,0 +1,59 @@
+{
+  "name": "Salon Leo",
+  "coordinates": {
+    "latitude": 6.562332199999999,
+    "longitude": 79.9799871
+  },
+  "address": "Heenatiyangala Road, Kalutara 12000",
+  "categories": [
+    "Beauty salon",
+    "Hairdresser"
+  ],
+  "phone": "0762808239",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHTFYS4FJ06PGQ52J33A7"
+}

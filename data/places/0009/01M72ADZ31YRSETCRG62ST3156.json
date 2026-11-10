@@ -1,0 +1,58 @@
+{
+  "address": "361 Negombo - Colombo Main Rd, Negombo",
+  "name": "The Grand Gastrobar",
+  "coordinates": {
+    "latitude": 7.202469,
+    "longitude": 79.852792
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0312227300",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72ADZ31YRSETCRG62ST3156"
+}

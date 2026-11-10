@@ -1,0 +1,64 @@
+{
+  "name": "Arogya Medical Center-Kurunegala",
+  "coordinates": {
+    "latitude": 7.4742660999999995,
+    "longitude": 80.3922499
+  },
+  "address": "Keppetigala Rd, Mallawapitiya 60000",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0372221295",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:45–8 AM",
+        "4:45–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:45–8 AM",
+        "4:45–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:45–8 AM",
+        "4:45–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:45–8 AM",
+        "4:45–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:45–8 AM",
+        "4:45–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:45–8 AM",
+        "4:45–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKR9QS9RXS1MDT3TXFQ9D"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "A-Plus Computer Shop",
+  "coordinates": {
+    "latitude": 6.8420099,
+    "longitude": 79.8673061
+  },
+  "address": "2B Peiris Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0779449555",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAMJJMKJSD2R5HSVJSMGJ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "New Fish Shop",
+  "coordinates": {
+    "latitude": 6.122319399999999,
+    "longitude": 81.0150725
+  },
+  "address": "42C8+W2, Ambalantota",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0716141756",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CVZHPW62KHECGY2JE47TS"
+}

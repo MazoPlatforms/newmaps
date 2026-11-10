@@ -1,0 +1,61 @@
+{
+  "name": "CIB Shopping Centre - Kaduruwela",
+  "coordinates": {
+    "latitude": 7.9320870999999995,
+    "longitude": 81.0317377
+  },
+  "address": "No:119/1 Main Street, Polonnaruwa",
+  "categories": [
+    "Clothing store",
+    "Electrical and electronics stores",
+    "Fashion accessories store",
+    "Shopping mall"
+  ],
+  "phone": "0272235579",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D39PH60Q7QHH12JFYMC5D"
+}

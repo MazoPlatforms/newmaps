@@ -1,0 +1,58 @@
+{
+  "name": "Hawaeliya Medical Center",
+  "coordinates": {
+    "latitude": 6.9700254,
+    "longitude": 80.78517889999999
+  },
+  "address": "144/1a Nuwara Eliya-Uda Pussellawa Rd, Nuwara Eliya 22200",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0718078727",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4HGK59WAD7H45XM1RVC6"
+}

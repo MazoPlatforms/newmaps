@@ -1,0 +1,58 @@
+{
+  "name": "Yeny Auto Mechanic",
+  "coordinates": {
+    "latitude": 9.2174557,
+    "longitude": 80.7599278
+  },
+  "address": "6Q85+XXM, Mullaitivu",
+  "categories": [
+    "Mechanic"
+  ],
+  "phone": "0773307127",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BY6JC5DBW93Q04BDARZ0G"
+}

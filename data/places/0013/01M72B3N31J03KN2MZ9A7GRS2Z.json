@@ -1,0 +1,58 @@
+{
+  "name": "Multi-Store Grocery",
+  "coordinates": {
+    "latitude": 7.476005,
+    "longitude": 80.6258695
+  },
+  "address": "30/2 Tharalanda Rd, Matale 21000",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–11:30 AM",
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N31J03KN2MZ9A7GRS2Z"
+}

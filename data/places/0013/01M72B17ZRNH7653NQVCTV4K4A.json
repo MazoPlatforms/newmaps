@@ -1,0 +1,59 @@
+{
+  "name": "Shiyam Grocery",
+  "coordinates": {
+    "latitude": 6.4862451,
+    "longitude": 79.98599159999999
+  },
+  "address": "FXPP+F9X, nowfel Jabir mawatha, Beruwala",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0777047686",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–11:30 AM",
+        "2:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B17ZRNH7653NQVCTV4K4A"
+}

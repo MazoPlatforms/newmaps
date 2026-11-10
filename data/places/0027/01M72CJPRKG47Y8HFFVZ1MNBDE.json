@@ -1,0 +1,58 @@
+{
+  "name": "Viraj PC House",
+  "coordinates": {
+    "latitude": 6.718225899999999,
+    "longitude": 79.9519291
+  },
+  "address": "444/D Kahatagahawatta Rd, Panadura 12500",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0706545096",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPRKG47Y8HFFVZ1MNBDE"
+}

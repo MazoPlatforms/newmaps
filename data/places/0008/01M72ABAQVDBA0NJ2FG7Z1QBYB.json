@@ -1,0 +1,57 @@
+{
+  "address": "204 A9, Kandy 20000",
+  "name": "Post Office, Kandy Branch",
+  "coordinates": {
+    "latitude": 7.2983476,
+    "longitude": 80.6371594
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Post office"
+  ],
+  "id": "01M72ABAQVDBA0NJ2FG7Z1QBYB"
+}

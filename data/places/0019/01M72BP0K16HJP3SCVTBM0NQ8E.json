@@ -1,0 +1,57 @@
+{
+  "name": "Service Station",
+  "coordinates": {
+    "latitude": 7.3457061999999995,
+    "longitude": 79.9053914
+  },
+  "address": "Kahatawila-Pothuwatawana Rd",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BP0K16HJP3SCVTBM0NQ8E"
+}

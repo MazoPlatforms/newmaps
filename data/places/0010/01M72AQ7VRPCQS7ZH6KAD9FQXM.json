@@ -1,0 +1,57 @@
+{
+  "name": "Thilakma Grocery",
+  "coordinates": {
+    "latitude": 6.8505158999999995,
+    "longitude": 79.8709583
+  },
+  "address": "125 Hill St, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Grocery store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7VRPCQS7ZH6KAD9FQXM"
+}

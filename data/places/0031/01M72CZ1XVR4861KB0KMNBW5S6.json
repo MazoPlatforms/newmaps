@@ -1,0 +1,58 @@
+{
+  "name": "Salon Suranka",
+  "coordinates": {
+    "latitude": 6.6903448,
+    "longitude": 80.3946045
+  },
+  "address": "137 Colombo Rd, Ratnapura 70000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0711540728",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZ1XVR4861KB0KMNBW5S6"
+}

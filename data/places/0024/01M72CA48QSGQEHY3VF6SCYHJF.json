@@ -1,0 +1,62 @@
+{
+  "name": "Yl Fresh Fish",
+  "coordinates": {
+    "latitude": 6.926206,
+    "longitude": 79.84996699999999
+  },
+  "address": "40B-1/12,Metro Homes Complex, Malay St, Colombo 00200",
+  "categories": [
+    "Fish & chips restaurant",
+    "Fish farm",
+    "Fish processing",
+    "Fishing store"
+  ],
+  "phone": "0774557876",
+  "website": "https://www.facebook.com/mohomed.lahir.14",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–11:45 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48QSGQEHY3VF6SCYHJF"
+}

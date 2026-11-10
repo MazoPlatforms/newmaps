@@ -1,0 +1,57 @@
+{
+  "name": "City Pizza Family Restaurant",
+  "coordinates": {
+    "latitude": 7.285994499999999,
+    "longitude": 81.6917996
+  },
+  "address": "7MPR+QQG, Ampara",
+  "categories": [
+    "Family restaurant"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C0PF9MRQ2H3MVY8EYYESN"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Singhe Super",
+  "coordinates": {
+    "latitude": 7.074446,
+    "longitude": 80.5407701
+  },
+  "address": "Gampola road, Nawalapitiya 20650",
+  "categories": [
+    "Hardware store",
+    "Supermarket"
+  ],
+  "phone": "0542222182",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQJGAG77XJTA06GMCQAHT"
+}

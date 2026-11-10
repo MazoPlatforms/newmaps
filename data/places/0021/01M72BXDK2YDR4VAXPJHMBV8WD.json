@@ -1,0 +1,58 @@
+{
+  "name": "Hotel Star Rest",
+  "coordinates": {
+    "latitude": 9.4265761,
+    "longitude": 80.4073133
+  },
+  "address": "A9, Paranthan town-Kn/44",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777887271",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXDK2YDR4VAXPJHMBV8WD"
+}

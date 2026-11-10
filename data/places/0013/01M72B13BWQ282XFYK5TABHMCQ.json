@@ -1,0 +1,60 @@
+{
+  "name": "Arena Sky Restaurant",
+  "coordinates": {
+    "latitude": 6.443484,
+    "longitude": 79.99190779999999
+  },
+  "address": "Level 4, 10 Galle Rd, Beruwala 12070",
+  "categories": [
+    "Restaurant",
+    "Diner"
+  ],
+  "phone": "0342273214",
+  "website": "https://arena.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13BWQ282XFYK5TABHMCQ"
+}

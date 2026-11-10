@@ -1,0 +1,58 @@
+{
+  "name": "Fine Dine",
+  "coordinates": {
+    "latitude": 8.3192751,
+    "longitude": 80.4054118
+  },
+  "address": "8C94+P57, Anuradhapura",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0719952121",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRAZJCS8JN5WC9HJNF2A"
+}

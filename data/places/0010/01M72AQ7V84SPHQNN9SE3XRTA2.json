@@ -1,0 +1,58 @@
+{
+  "name": "LS Super Mart",
+  "coordinates": {
+    "latitude": 6.8477863,
+    "longitude": 79.86922369999999
+  },
+  "address": "46 Samagi Mawatha(Off, Kawdana Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0112723238",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7V84SPHQNN9SE3XRTA2"
+}

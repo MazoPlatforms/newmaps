@@ -1,0 +1,58 @@
+{
+  "name": "Saga Sports",
+  "coordinates": {
+    "latitude": 6.2375647,
+    "longitude": 80.0541654
+  },
+  "address": "257 Galle Rd, Ambalangoda",
+  "categories": [
+    "Sporting goods store"
+  ],
+  "phone": "0773066954",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B84C1VR40MCJYHA16QM5R"
+}

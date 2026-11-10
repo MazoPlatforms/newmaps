@@ -1,0 +1,64 @@
+{
+  "name": "Gamini Building Materials",
+  "coordinates": {
+    "latitude": 6.9679981,
+    "longitude": 80.78769489999999
+  },
+  "address": "27 Wajira Mawatha, Nuwara Eliya 22200",
+  "categories": [
+    "Building materials store",
+    "Brick manufacturer",
+    "Cement supplier",
+    "Metal supplier",
+    "Paving materials supplier",
+    "Sand & gravel supplier",
+    "Stone supplier"
+  ],
+  "phone": "0522234200",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPN3D39WD117XF0AENKYX"
+}

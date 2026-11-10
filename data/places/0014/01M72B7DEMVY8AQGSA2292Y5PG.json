@@ -1,0 +1,58 @@
+{
+  "name": "Health Care Medical Laboratory",
+  "coordinates": {
+    "latitude": 6.110193799999999,
+    "longitude": 80.1251173
+  },
+  "address": "446G+32H, Hikkaduwa",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0912274510",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7DEMVY8AQGSA2292Y5PG"
+}

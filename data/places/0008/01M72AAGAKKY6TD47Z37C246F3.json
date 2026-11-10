@@ -1,0 +1,58 @@
+{
+  "address": "151 Colombo St, Kandy 20000",
+  "name": "Hewage Family Super",
+  "coordinates": {
+    "latitude": 7.294337,
+    "longitude": 80.6364016
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0812224087",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AAGAKKY6TD47Z37C246F3"
+}

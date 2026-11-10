@@ -1,0 +1,58 @@
+{
+  "name": "T Cafe",
+  "coordinates": {
+    "latitude": 6.7344241,
+    "longitude": 79.8984189
+  },
+  "address": "No 85 Egodauyana, Moratuwa 10400",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0776367632",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6GABM1Y32VYVFNGV6TG"
+}

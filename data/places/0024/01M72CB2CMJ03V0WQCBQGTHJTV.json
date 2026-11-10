@@ -1,0 +1,58 @@
+{
+  "name": "DL Beauty Studio",
+  "coordinates": {
+    "latitude": 6.8454595,
+    "longitude": 79.8661205
+  },
+  "address": "148 A2, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0771097093",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CB2CMJ03V0WQCBQGTHJTV"
+}

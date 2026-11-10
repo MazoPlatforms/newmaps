@@ -1,0 +1,58 @@
+{
+  "name": "Shan Salon",
+  "coordinates": {
+    "latitude": 6.7671173,
+    "longitude": 80.3711883
+  },
+  "address": "Junction, Kuruwita 70500",
+  "categories": [
+    "Hairdresser"
+  ],
+  "phone": "0761646010",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:33 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:33 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:33 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:33 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:33 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:33 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:33 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZ1Y0FP1RBZ1WKNRYTM5Z"
+}

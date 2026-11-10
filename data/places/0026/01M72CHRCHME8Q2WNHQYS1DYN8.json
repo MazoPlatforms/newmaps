@@ -1,0 +1,58 @@
+{
+  "name": "Cement Center",
+  "coordinates": {
+    "latitude": 6.5681671999999995,
+    "longitude": 79.9665764
+  },
+  "address": "690/c Galle Rd, Kalutara 12000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0775507032",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHRCHME8Q2WNHQYS1DYN8"
+}

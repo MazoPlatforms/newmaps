@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Pelmadulla - Silver Ray",
+  "coordinates": {
+    "latitude": 6.625575899999999,
+    "longitude": 80.538747
+  },
+  "address": "Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Pelmadulla",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0717097000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGYGY70D9M0E6P38N5TVB"
+}

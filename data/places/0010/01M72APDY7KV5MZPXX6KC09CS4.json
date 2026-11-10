@@ -1,0 +1,63 @@
+{
+  "name": "Toyota Lanka Hyde Park",
+  "coordinates": {
+    "latitude": 6.9182365,
+    "longitude": 79.86074839999999
+  },
+  "address": "55 Hyde Park Corner, Colombo 00200",
+  "categories": [
+    "Toyota dealer",
+    "Car repair and maintenance service",
+    "Chauffeur service",
+    "Tire shop",
+    "Wheel alignment service"
+  ],
+  "phone": "0112667939",
+  "website": "http://www.toyota.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDY7KV5MZPXX6KC09CS4"
+}

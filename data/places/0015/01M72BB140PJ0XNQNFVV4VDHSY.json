@@ -1,0 +1,59 @@
+{
+  "name": "Horizon Medical Services",
+  "coordinates": {
+    "latitude": 5.973801,
+    "longitude": 80.43030999999999
+  },
+  "address": "XCFJ+G4F, Weligama",
+  "categories": [
+    "Medical Center",
+    "Travel clinic"
+  ],
+  "phone": "0718205340",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB140PJ0XNQNFVV4VDHSY"
+}

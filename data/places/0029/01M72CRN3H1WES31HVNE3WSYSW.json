@@ -1,0 +1,64 @@
+{
+  "name": "Salon First Look",
+  "coordinates": {
+    "latitude": 6.0322843,
+    "longitude": 80.2413918
+  },
+  "address": "28/B Akuress road, Galle",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0742130073",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–7 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–7 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–7 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–7 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–7 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–7 AM",
+        "9 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRN3H1WES31HVNE3WSYSW"
+}

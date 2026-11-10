@@ -1,0 +1,58 @@
+{
+  "name": "Mr.red Auto Works",
+  "coordinates": {
+    "latitude": 5.9765025,
+    "longitude": 80.43113579999999
+  },
+  "address": "XCGJ+JF2, Weligama",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0773535129",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBDNGF711NC77TP1WB118"
+}

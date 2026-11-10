@@ -1,0 +1,62 @@
+{
+  "name": "The International Hardware Stores",
+  "coordinates": {
+    "latitude": 7.294925999999999,
+    "longitude": 80.6381176
+  },
+  "address": "A9, Kandy",
+  "categories": [
+    "Hardware store",
+    "Cleaning products supplier",
+    "Paint store",
+    "Plumbing supply store",
+    "Tool store"
+  ],
+  "phone": "0812222220",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMTD3WN5SYX8S4GMA8XSQ"
+}

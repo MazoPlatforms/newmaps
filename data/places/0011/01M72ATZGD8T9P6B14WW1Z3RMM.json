@@ -1,0 +1,60 @@
+{
+  "name": "Arroma Bakery Cafe PVT Ltd",
+  "coordinates": {
+    "latitude": 6.8981721,
+    "longitude": 79.9223875
+  },
+  "address": "125/d, B47, Battaramulla",
+  "categories": [
+    "Bakery",
+    "Cafe",
+    "Restaurant or cafe"
+  ],
+  "phone": "0776953790",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGD8T9P6B14WW1Z3RMM"
+}

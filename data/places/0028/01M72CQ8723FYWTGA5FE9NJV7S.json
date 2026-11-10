@@ -1,0 +1,57 @@
+{
+  "name": "Salon Red Rose",
+  "coordinates": {
+    "latitude": 6.8914415,
+    "longitude": 80.5994651
+  },
+  "address": "37E Circular Rd, Hatton 22000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQ8723FYWTGA5FE9NJV7S"
+}

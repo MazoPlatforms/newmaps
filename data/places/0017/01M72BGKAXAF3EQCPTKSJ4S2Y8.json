@@ -1,0 +1,58 @@
+{
+  "name": "People's Bank",
+  "coordinates": {
+    "latitude": 7.0359452,
+    "longitude": 81.2746413
+  },
+  "address": "27PF+9VC",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0552276170",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGKAXAF3EQCPTKSJ4S2Y8"
+}

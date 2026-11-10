@@ -1,0 +1,59 @@
+{
+  "address": "697 Colombo - Puttalam Rd, Katunayake 11450",
+  "name": "Ranka Food House",
+  "coordinates": {
+    "latitude": 7.1587026,
+    "longitude": 79.87077529999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://ranka-food-qr.vercel.app/",
+  "business_status": "OPEN",
+  "phone": "0114377553",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72ADZ64EFN3MYABSVVZPRQF"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Scan Alpine Camping Store",
+  "coordinates": {
+    "latitude": 6.906157899999999,
+    "longitude": 79.85118369999999
+  },
+  "address": "410 Galle - Colombo Rd, Colombo 00300",
+  "categories": [
+    "Camping store"
+  ],
+  "phone": "0112574313",
+  "website": "http://www.scanalpine.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C817EV5NKRAA99VC9FF5S"
+}

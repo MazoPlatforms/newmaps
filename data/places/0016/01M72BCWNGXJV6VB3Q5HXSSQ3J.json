@@ -1,0 +1,58 @@
+{
+  "name": "MOH - Tangalle (සෞඛ්‍ය වෛද්‍ය නිලධාරී කාර්යාලය)",
+  "coordinates": {
+    "latitude": 6.023636199999999,
+    "longitude": 80.79578269999999
+  },
+  "address": "Tangalle",
+  "categories": [
+    "Medical office"
+  ],
+  "phone": "0472240278",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCWNGXJV6VB3Q5HXSSQ3J"
+}

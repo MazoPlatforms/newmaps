@@ -1,0 +1,57 @@
+{
+  "name": "Anoma Grocery",
+  "coordinates": {
+    "latitude": 6.8593652,
+    "longitude": 79.8707692
+  },
+  "address": "74 Galvihara Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Grocery store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7VJGAQVWWK6PK8GDE9T"
+}

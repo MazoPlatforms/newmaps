@@ -1,0 +1,58 @@
+{
+  "name": "Ceylon Brew",
+  "coordinates": {
+    "latitude": 5.9499879,
+    "longitude": 80.5476329
+  },
+  "address": "No. 58 Esplanade Road, Matara 81000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0703627389",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGMX1QZQCXQ95D4JM27"
+}

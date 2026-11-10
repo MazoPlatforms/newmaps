@@ -1,0 +1,58 @@
+{
+  "name": "Omeelan",
+  "coordinates": {
+    "latitude": 8.3246003,
+    "longitude": 80.4044325
+  },
+  "address": "11 Maithripala Senanayake Mawatha, Anuradhapura 50000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0252227558",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRAYFQ2TE6FSP8SGZXKQ"
+}

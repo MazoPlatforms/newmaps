@@ -1,0 +1,58 @@
+{
+  "name": "Trinco Automobile (PVT) Ltd",
+  "coordinates": {
+    "latitude": 8.5991793,
+    "longitude": 81.1939429
+  },
+  "address": "Puttalam - Anuradhapura - Trincomalee Hwy, Trincomalee",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0262225299",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C3GPN5JFGK0BY8S2YWTWJ"
+}

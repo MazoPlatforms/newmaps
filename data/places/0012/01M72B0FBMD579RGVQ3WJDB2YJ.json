@@ -1,0 +1,59 @@
+{
+  "name": "Highbrow College",
+  "coordinates": {
+    "latitude": 6.7619693,
+    "longitude": 79.8967455
+  },
+  "address": "375 Old Galle Rd, Panadura 12500",
+  "categories": [
+    "Montessori school"
+  ],
+  "phone": "0382287545",
+  "website": "https://www.highbrowkids.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0FBMD579RGVQ3WJDB2YJ"
+}

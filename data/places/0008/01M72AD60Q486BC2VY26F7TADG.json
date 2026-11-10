@@ -1,0 +1,58 @@
+{
+  "address": "Martin Rd, Jaffna 40000",
+  "name": "My Products",
+  "coordinates": {
+    "latitude": 9.6632433,
+    "longitude": 80.019818
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0741674036",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72AD60Q486BC2VY26F7TADG"
+}

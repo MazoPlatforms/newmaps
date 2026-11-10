@@ -1,0 +1,58 @@
+{
+  "address": "26M9+929, Main Street, Galle 80000",
+  "name": "Galle Main Post Office",
+  "coordinates": {
+    "latitude": 6.033414199999999,
+    "longitude": 80.2176221
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8–9:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0912222250",
+  "categories": [
+    "Post office"
+  ],
+  "id": "01M72ACJC8GKQFXG27RWH3ABWW"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Fashion Bug Online Store",
+  "coordinates": {
+    "latitude": 6.8018833999999995,
+    "longitude": 79.8888072
+  },
+  "address": "Admiral Clancy, No.04 Wajira Fernando Mawatha, Moratuwa 10400",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0772352235",
+  "website": "http://fashionbug.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CBNH77PYMY38V3QV5VECM"
+}

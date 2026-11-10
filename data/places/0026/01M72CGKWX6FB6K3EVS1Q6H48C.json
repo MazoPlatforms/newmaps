@@ -1,0 +1,58 @@
+{
+  "name": "Saloon Byoky",
+  "coordinates": {
+    "latitude": 7.0896881,
+    "longitude": 80.0042512
+  },
+  "address": "366, 364 Ja Ela-Ekala-Gampaha-Yakkala Hwy, Gampaha",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0333331138",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGKWX6FB6K3EVS1Q6H48C"
+}

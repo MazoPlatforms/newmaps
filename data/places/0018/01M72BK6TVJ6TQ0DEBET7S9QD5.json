@@ -1,0 +1,58 @@
+{
+  "name": "Emsiya Hotel & Bakery",
+  "coordinates": {
+    "latitude": 7.6199563999999995,
+    "longitude": 80.2462238
+  },
+  "address": "Wariyapola",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0372267869",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:15 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:15 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BK6TVJ6TQ0DEBET7S9QD5"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Unani Medical Centre Dr. M. Seinadeen",
+  "coordinates": {
+    "latitude": 8.034611,
+    "longitude": 79.82994889999999
+  },
+  "address": "2RMH+RXW, Marikkar St, Puttalam",
+  "categories": [
+    "Medical clinic"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–1:30 PM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–1:30 PM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–1:30 PM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–1:30 PM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1:30 PM",
+        "5–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–1:30 PM",
+        "5–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNQBYTV9CX4F322ZCKMQS"
+}

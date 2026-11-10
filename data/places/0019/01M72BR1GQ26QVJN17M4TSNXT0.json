@@ -1,0 +1,58 @@
+{
+  "name": "Amora Cafe",
+  "coordinates": {
+    "latitude": 7.9411698,
+    "longitude": 80.9987218
+  },
+  "address": "Bund Rd, Polonnaruwa",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0719998894",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BR1GQ26QVJN17M4TSNXT0"
+}

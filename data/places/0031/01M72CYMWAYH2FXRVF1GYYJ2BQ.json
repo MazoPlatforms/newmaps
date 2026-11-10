@@ -1,0 +1,58 @@
+{
+  "name": "Leather Walk",
+  "coordinates": {
+    "latitude": 6.6803734,
+    "longitude": 80.40285899999999
+  },
+  "address": "No 17, Main Street, Rathnapura, A4, Ratnapura",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0454545498",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYMWAYH2FXRVF1GYYJ2BQ"
+}

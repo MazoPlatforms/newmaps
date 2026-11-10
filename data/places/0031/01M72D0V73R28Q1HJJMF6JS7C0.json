@@ -1,0 +1,58 @@
+{
+  "name": "Salon Best Cut",
+  "coordinates": {
+    "latitude": 7.5014854,
+    "longitude": 80.3475653
+  },
+  "address": "126 A10, Kurunegala",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0718898714",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0V73R28Q1HJJMF6JS7C0"
+}

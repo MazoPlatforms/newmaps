@@ -1,0 +1,63 @@
+{
+  "name": "Weligama Shoe Centre",
+  "coordinates": {
+    "latitude": 6.1009381,
+    "longitude": 80.4770856
+  },
+  "address": "No:41 Main Street, Akuressa 81400",
+  "categories": [
+    "Shoe store",
+    "Bag shop",
+    "Watch store",
+    "Wholesale market"
+  ],
+  "phone": "0771334416",
+  "website": "https://m.facebook.com/weligama.sc#!/weligama.sc",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12:15 PM",
+        "1:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTYEAS20QN9K6SWN3TVMX"
+}

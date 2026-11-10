@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City - Dambulla 1",
+  "coordinates": {
+    "latitude": 7.8782096,
+    "longitude": 80.6503372
+  },
+  "address": "643, Anuradhapura Road, Dambulla",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0662283240",
+  "website": "http://www.cargillsceylon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSM8CE33QQ8QBCKSMCHKM"
+}

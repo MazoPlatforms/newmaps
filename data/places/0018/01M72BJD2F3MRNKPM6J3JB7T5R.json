@@ -1,0 +1,59 @@
+{
+  "name": "Police Station - Kegalle",
+  "coordinates": {
+    "latitude": 7.2554374,
+    "longitude": 80.3532291
+  },
+  "address": "7943+57H, Nilwakka Rd, Kegalle",
+  "categories": [
+    "Police station"
+  ],
+  "phone": "0352222222",
+  "website": "http://www.police.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJD2F3MRNKPM6J3JB7T5R"
+}

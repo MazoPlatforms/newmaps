@@ -1,0 +1,58 @@
+{
+  "name": "Herbal Healthcare Center",
+  "coordinates": {
+    "latitude": 9.6936925,
+    "longitude": 80.0140053
+  },
+  "address": "1300 Jaffna-Kankesanturai Rd, Kokuvil East",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0778201195",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–5 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BV2NYMPVK0DGZ3FPZQMXQ"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "The Leone Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 7.193155099999999,
+    "longitude": 80.15152359999999
+  },
+  "address": "68/A/8 Kandy Rd, Weweldeniya 11894",
+  "categories": [
+    "Bakery",
+    "Eclectic restaurant",
+    "Cafe",
+    "Coffee shop"
+  ],
+  "phone": "0761402157",
+  "website": "https://www.facebook.com/theleone.lk",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDJH5BV9QAEPMMRGQH14R"
+}

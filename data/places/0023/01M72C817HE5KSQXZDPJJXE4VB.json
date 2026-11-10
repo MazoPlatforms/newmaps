@@ -1,0 +1,61 @@
+{
+  "name": "The Wedding Store",
+  "coordinates": {
+    "latitude": 6.8874564,
+    "longitude": 79.8778758
+  },
+  "address": "21, 49 Polhengoda Gardens, Colombo 00500",
+  "categories": [
+    "Wedding store",
+    "Bridal shop",
+    "Dress store"
+  ],
+  "phone": "0774521326",
+  "website": "https://www.facebook.com/theweddingstorecolombo",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C817HE5KSQXZDPJJXE4VB"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Respicare Medical Centre",
+  "coordinates": {
+    "latitude": 6.989237699999999,
+    "longitude": 81.056924
+  },
+  "address": "X3Q4+MQV, Hunukotuwa Road, Badulla",
+  "categories": [
+    "Hospital"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12:15–1:30 PM",
+        "4:30–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–1 PM",
+        "4:30–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWGAAWMMETK02G0BZVXD"
+}

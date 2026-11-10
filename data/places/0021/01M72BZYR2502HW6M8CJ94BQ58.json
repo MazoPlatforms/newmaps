@@ -1,0 +1,57 @@
+{
+  "name": "Sajath Cake Shop & Coffee",
+  "coordinates": {
+    "latitude": 7.3623262,
+    "longitude": 81.80535789999999
+  },
+  "address": "9R64+W4Q, Karativu, Ampara Hwy, Sammanthurai",
+  "categories": [
+    "Coffee shop"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BZYR2502HW6M8CJ94BQ58"
+}

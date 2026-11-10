@@ -1,0 +1,59 @@
+{
+  "name": "Salon Selie",
+  "coordinates": {
+    "latitude": 7.4704535,
+    "longitude": 80.02596969999999
+  },
+  "address": "Madampe Road, Kuliyapitiya 60200",
+  "categories": [
+    "Beauty salon",
+    "Bridal shop"
+  ],
+  "phone": "0715805701",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1DZD7EVDRZWY9K5CRKXZ"
+}

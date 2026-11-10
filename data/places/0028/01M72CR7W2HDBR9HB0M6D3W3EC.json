@@ -1,0 +1,59 @@
+{
+  "name": "Citrix Computer",
+  "coordinates": {
+    "latitude": 6.0335911,
+    "longitude": 80.2181514
+  },
+  "address": "Main Street, Galle 80000",
+  "categories": [
+    "Computer accessories store"
+  ],
+  "phone": "0789827123",
+  "website": "https://www.citrixpc.com.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7W2HDBR9HB0M6D3W3EC"
+}

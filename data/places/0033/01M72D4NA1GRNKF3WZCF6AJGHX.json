@@ -1,0 +1,58 @@
+{
+  "name": "HP World",
+  "coordinates": {
+    "latitude": 9.7026713,
+    "longitude": 80.03596929999999
+  },
+  "address": "195/4 Palali Rd, Jaffna",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0777917610",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4NA1GRNKF3WZCF6AJGHX"
+}

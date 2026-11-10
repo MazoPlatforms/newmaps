@@ -1,0 +1,59 @@
+{
+  "name": "Sun Flower Restaurant",
+  "coordinates": {
+    "latitude": 6.448938,
+    "longitude": 79.9821496
+  },
+  "address": "6th Lane, Police Bungalow Rd, Beruwala 12070",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0779945140",
+  "website": "https://www.facebook.com/sunflowerseafoodrestaurant",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13BWC7WT4R8SJF80SKKH"
+}

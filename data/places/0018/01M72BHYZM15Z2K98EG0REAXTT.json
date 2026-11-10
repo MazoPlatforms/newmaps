@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Choco Love",
+  "coordinates": {
+    "latitude": 7.2536447,
+    "longitude": 80.34909619999999
+  },
+  "address": "HDFC Bank, 371 Main Street, 2nd Floor, Kegalle",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0777628216",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZM15Z2K98EG0REAXTT"
+}

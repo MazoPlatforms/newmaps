@@ -1,0 +1,59 @@
+{
+  "name": "Sishan Service Centre (PVT) Ltd",
+  "coordinates": {
+    "latitude": 6.924820899999999,
+    "longitude": 79.9779851
+  },
+  "address": "Kaduwela",
+  "categories": [
+    "Car wash",
+    "Oil change service"
+  ],
+  "phone": "0112579207",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AWFSSYJ17KN2WETFZQAHG"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Godage Book Shop",
+  "coordinates": {
+    "latitude": 6.9248493,
+    "longitude": 79.8680296
+  },
+  "address": "No:661 P De S Kularatne Mawatha, Colombo 01000",
+  "categories": [
+    "Book store",
+    "Book publisher"
+  ],
+  "phone": "0112686925",
+  "website": "http://godage.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5C1Z5K74A58CFRQJY93"
+}

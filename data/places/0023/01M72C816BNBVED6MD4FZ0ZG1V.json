@@ -1,0 +1,58 @@
+{
+  "name": "The Fashion Store - Bambalapitiya",
+  "coordinates": {
+    "latitude": 6.8915215,
+    "longitude": 79.8559394
+  },
+  "address": "76 Galle Rd, Colombo",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0772422888",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C816BNBVED6MD4FZ0ZG1V"
+}

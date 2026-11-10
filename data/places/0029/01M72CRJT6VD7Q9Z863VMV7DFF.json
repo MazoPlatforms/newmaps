@@ -1,0 +1,58 @@
+{
+  "name": "M.W.S Traders Galle",
+  "coordinates": {
+    "latitude": 6.0367685,
+    "longitude": 80.2220662
+  },
+  "address": "No:63 Old Matara Rd, Galle 80000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0912223520",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRJT6VD7Q9Z863VMV7DFF"
+}

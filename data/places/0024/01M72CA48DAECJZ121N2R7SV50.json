@@ -1,0 +1,61 @@
+{
+  "name": "Tropical Aquatic Fish Farm",
+  "coordinates": {
+    "latitude": 7.0821995,
+    "longitude": 79.8967444
+  },
+  "address": "Kanuwana, No.42/3 First Ln, Ja-Ela 11350",
+  "categories": [
+    "Fish farm",
+    "Aquarium shop",
+    "Exporter"
+  ],
+  "phone": "0773913466",
+  "website": "http://www.tropicalaquaticfishfarm.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48DAECJZ121N2R7SV50"
+}

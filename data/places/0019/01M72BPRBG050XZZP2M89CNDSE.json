@@ -1,0 +1,63 @@
+{
+  "name": "Sanjeewanie Fresh Fruits & Juice Bar",
+  "coordinates": {
+    "latitude": 8.3377274,
+    "longitude": 80.41168359999999
+  },
+  "address": "No.10 Maithreesenanayake MW, Anuradhapura 50000",
+  "categories": [
+    "Fruit wholesaler",
+    "Cake shop",
+    "Candy store",
+    "Fruits wholesaler",
+    "Juice shop",
+    "Supermarket"
+  ],
+  "phone": "0704744232",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRBG050XZZP2M89CNDSE"
+}

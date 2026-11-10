@@ -1,0 +1,59 @@
+{
+  "name": "Noved - Restaurant & Coffee Shop",
+  "coordinates": {
+    "latitude": 7.290205899999999,
+    "longitude": 80.63852419999999
+  },
+  "address": "Devon Rest, Noved - Restaurant & Coffee Shop, 4E Sangaraja Mawatha, Kandy 20000",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0812205352",
+  "website": "https://www.devonrest.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B24QDECP11YZAQHE0P50E"
+}

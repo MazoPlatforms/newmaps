@@ -1,0 +1,58 @@
+{
+  "address": "420 Hospital Rd, Jaffna 40000",
+  "name": "Take Me Cafe",
+  "coordinates": {
+    "latitude": 9.6654922,
+    "longitude": 80.01377939999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0774148152",
+  "categories": [
+    "Coffee shop"
+  ],
+  "id": "01M72ACTC1BH5YQ1DMA7Y7D6T8"
+}

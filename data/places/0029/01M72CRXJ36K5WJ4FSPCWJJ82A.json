@@ -1,0 +1,58 @@
+{
+  "name": "The Print Shop",
+  "coordinates": {
+    "latitude": 6.0449044,
+    "longitude": 80.21310199999999
+  },
+  "address": "271 Wakwella Rd, Galle 80000",
+  "categories": [
+    "Advertising service"
+  ],
+  "phone": "0771820033",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRXJ36K5WJ4FSPCWJJ82A"
+}

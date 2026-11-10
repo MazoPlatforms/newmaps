@@ -1,0 +1,58 @@
+{
+  "name": "A J Stores",
+  "coordinates": {
+    "latitude": 8.4822436,
+    "longitude": 81.2893793
+  },
+  "address": "MUTHUR, 05, Sampur 31216",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0778445913",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4VFCB66H389CJ1T8VDKP"
+}

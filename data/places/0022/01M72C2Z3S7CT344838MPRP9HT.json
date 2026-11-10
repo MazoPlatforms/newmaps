@@ -1,0 +1,57 @@
+{
+  "name": "Pavithira Groceries",
+  "coordinates": {
+    "latitude": 8.583932299999999,
+    "longitude": 81.2017955
+  },
+  "address": "H6M2+66G, Trincomalee",
+  "categories": [
+    "General store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3S7CT344838MPRP9HT"
+}

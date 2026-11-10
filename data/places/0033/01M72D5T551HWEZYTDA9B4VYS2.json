@@ -1,0 +1,63 @@
+{
+  "name": "UC Gym, Vavuniya",
+  "coordinates": {
+    "latitude": 8.758140899999999,
+    "longitude": 80.4982143
+  },
+  "address": "QF5X+774, Urban Council Rd, Vavuniya",
+  "categories": [
+    "Gym"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 AM",
+        "4–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 AM",
+        "4–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 AM",
+        "4–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 AM",
+        "4–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9 AM",
+        "4–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–9 AM",
+        "4–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5T551HWEZYTDA9B4VYS2"
+}

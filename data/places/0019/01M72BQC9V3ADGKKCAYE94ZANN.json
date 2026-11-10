@@ -1,0 +1,60 @@
+{
+  "name": "Central College Anuradhapura",
+  "coordinates": {
+    "latitude": 8.3359217,
+    "longitude": 80.4075127
+  },
+  "address": "Harischandra Mawatha, Anuradhapura 50000",
+  "categories": [
+    "Government school",
+    "School"
+  ],
+  "phone": "0252222653",
+  "website": "https://anucentralcollege.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQC9V3ADGKKCAYE94ZANN"
+}

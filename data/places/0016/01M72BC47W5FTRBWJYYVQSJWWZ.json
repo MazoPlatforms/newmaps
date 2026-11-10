@@ -1,0 +1,57 @@
+{
+  "name": "Medical And Surgical Center Mayurapura",
+  "coordinates": {
+    "latitude": 6.157596799999999,
+    "longitude": 81.1532194
+  },
+  "address": "Methsewana, Hambantota",
+  "categories": [
+    "Medical Center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–8:27 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–8:27 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–8:27 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–8:27 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–8:27 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BC47W5FTRBWJYYVQSJWWZ"
+}

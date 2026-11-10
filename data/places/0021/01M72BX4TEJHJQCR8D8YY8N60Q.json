@@ -1,0 +1,58 @@
+{
+  "name": "Technical College-Mannar",
+  "coordinates": {
+    "latitude": 8.8049572,
+    "longitude": 80.099464
+  },
+  "address": "R33X+XQP, Pannai vedduvan Junction,Madu Road, Isaimalaithalvu",
+  "categories": [
+    "Technical school"
+  ],
+  "phone": "0233238532",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX4TEJHJQCR8D8YY8N60Q"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Mohamed Asmi",
+  "coordinates": {
+    "latitude": 8.0376268,
+    "longitude": 79.8336879
+  },
+  "address": "47/A Spill Rd, Puttalam",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0714241010",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY4J8ZPBWT3MDW56SAQ"
+}

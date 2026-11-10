@@ -1,0 +1,58 @@
+{
+  "name": "Crown Service",
+  "coordinates": {
+    "latitude": 6.969829799999999,
+    "longitude": 80.78551639999999
+  },
+  "address": "Moon plans, Nuwara Eliya 22200",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0778107540",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B53JDGZN3FEWWZVQP7TG2"
+}

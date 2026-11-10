@@ -1,0 +1,60 @@
+{
+  "address": "Matara Rd, Galle 80000",
+  "name": "Zain Super Center",
+  "coordinates": {
+    "latitude": 6.0323158999999995,
+    "longitude": 80.2396153
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11:30 AM",
+        "2:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0766675983",
+  "categories": [
+    "Supermarket",
+    "Gift shop"
+  ],
+  "id": "01M72AC76BDAG5MHS8C6EPYTT8"
+}

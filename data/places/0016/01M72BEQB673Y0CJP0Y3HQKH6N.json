@@ -1,0 +1,59 @@
+{
+  "name": "Victoria Wine City",
+  "coordinates": {
+    "latitude": 6.9856384,
+    "longitude": 81.0587551
+  },
+  "address": "23 Cocowatte Road, Badulla 90000",
+  "categories": [
+    "Liquor store",
+    "Wine store"
+  ],
+  "phone": "0552223122",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQB673Y0CJP0Y3HQKH6N"
+}

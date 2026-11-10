@@ -1,0 +1,58 @@
+{
+  "name": "Charles And Sons",
+  "coordinates": {
+    "latitude": 7.295541399999999,
+    "longitude": 80.6379499
+  },
+  "address": "92 A9, Kandy 20000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0779829264",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMTD5CY6HNQ3EBQVN96FW"
+}

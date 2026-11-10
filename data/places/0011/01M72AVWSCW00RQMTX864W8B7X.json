@@ -1,0 +1,59 @@
+{
+  "name": "Ministry Of Education Book Shop",
+  "coordinates": {
+    "latitude": 6.889646,
+    "longitude": 79.9301583
+  },
+  "address": "725 B47, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Book store"
+  ],
+  "phone": "0112786830",
+  "website": "https://www.edupub.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVWSCW00RQMTX864W8B7X"
+}

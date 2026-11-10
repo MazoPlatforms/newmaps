@@ -1,0 +1,59 @@
+{
+  "name": "Badulla Central College",
+  "coordinates": {
+    "latitude": 6.996976699999999,
+    "longitude": 81.0528387
+  },
+  "address": "Auditorium, Keppetipola Road, Badulla",
+  "categories": [
+    "High school"
+  ],
+  "phone": "0552222385",
+  "website": "http://bmmv.edu.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF08WN2EJZQ2NFX3V5J2N"
+}

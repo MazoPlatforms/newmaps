@@ -1,0 +1,58 @@
+{
+  "name": "Mama Pudditat",
+  "coordinates": {
+    "latitude": 6.871154799999999,
+    "longitude": 79.9905437
+  },
+  "address": "The City, 608/38 Jayanthi Road",
+  "categories": [
+    "Cake shop"
+  ],
+  "phone": "0777359130",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGY8BCHYDF5M4CTKPRB"
+}

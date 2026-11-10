@@ -1,0 +1,62 @@
+{
+  "name": "Fresh Flesh Seafood",
+  "coordinates": {
+    "latitude": 6.853107,
+    "longitude": 79.8689279
+  },
+  "address": "7 Malwattha Cross Ln, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Seafood market",
+    "Seafood farm",
+    "Seafood wholesaler"
+  ],
+  "phone": "0714888444",
+  "website": "https://www.freshflesh.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11:30 AM",
+        "2–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48FYJQV5S173VQ5C2JY"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Ravi Auto Works",
+  "coordinates": {
+    "latitude": 6.8623107999999995,
+    "longitude": 79.8738371
+  },
+  "address": "43 Prathibimbarama Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0776226232",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRKTA0MADYBNXCBT6S8"
+}

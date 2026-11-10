@@ -1,0 +1,58 @@
+{
+  "name": "Haus35 Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 5.9686333,
+    "longitude": 80.4222612
+  },
+  "address": "35/A Old Galle Road, Weligama 81700",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0771225191",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPS4Z336QM246BWA7QZE"
+}

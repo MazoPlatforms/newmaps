@@ -1,0 +1,59 @@
+{
+  "name": "Zoom Salon",
+  "coordinates": {
+    "latitude": 6.8957977999999995,
+    "longitude": 79.9059382
+  },
+  "address": "726 Kotte Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0778185252",
+  "website": "http://www.salonzoom.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDY4314E01SMX5FVZK8PB"
+}

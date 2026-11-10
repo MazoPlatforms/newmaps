@@ -1,0 +1,59 @@
+{
+  "name": "Short & Sweet",
+  "coordinates": {
+    "latitude": 6.850074299999999,
+    "longitude": 79.88216779999999
+  },
+  "address": "33/1 Arunaloka mawatha, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0777245502",
+  "website": "http://www.facebook.com/ShortEats",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6GWRF13MZRAGABJBXVZ"
+}

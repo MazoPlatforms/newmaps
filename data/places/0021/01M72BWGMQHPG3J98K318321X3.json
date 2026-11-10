@@ -1,0 +1,58 @@
+{
+  "name": "HNB Assurance",
+  "coordinates": {
+    "latitude": 8.754173999999999,
+    "longitude": 80.500954
+  },
+  "address": "69/71, Mill Road, 1st Floor, Vavuniya 43000",
+  "categories": [
+    "Insurance agency"
+  ],
+  "phone": "0242225161",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWGMQHPG3J98K318321X3"
+}

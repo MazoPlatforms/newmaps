@@ -1,0 +1,59 @@
+{
+  "name": "Mr Technologies",
+  "coordinates": {
+    "latitude": 8.323639199999999,
+    "longitude": 80.40373459999999
+  },
+  "address": "561/10/B4, 1 st CROSS, Maithripala Senanayake Mawatha, Anuradhapura 50000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0772559997",
+  "website": "http://www.mrtechnologies.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2P6F9K7EW5TAC3KJXAK6"
+}

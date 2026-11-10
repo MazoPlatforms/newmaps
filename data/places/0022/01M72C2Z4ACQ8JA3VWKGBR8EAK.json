@@ -1,0 +1,58 @@
+{
+  "name": "Dee Mart",
+  "coordinates": {
+    "latitude": 8.569897,
+    "longitude": 81.23286639999999
+  },
+  "address": "84H Power House Rd, Trincomalee 31000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0740993363",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z4ACQ8JA3VWKGBR8EAK"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "NDB Bank - Pettah",
+  "coordinates": {
+    "latitude": 6.937769599999999,
+    "longitude": 79.8509468
+  },
+  "address": "No, 137, 133/1 Main St, Colombo 01100",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0117448072",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQRFQQMQAAS39MW6MK8F"
+}

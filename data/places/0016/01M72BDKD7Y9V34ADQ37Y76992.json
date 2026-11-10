@@ -1,0 +1,58 @@
+{
+  "name": "Sunil Stores",
+  "coordinates": {
+    "latitude": 6.8727018,
+    "longitude": 81.0562029
+  },
+  "address": "V3F4+3FP, B113, Ella",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0705902717",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDKD7Y9V34ADQ37Y76992"
+}

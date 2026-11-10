@@ -1,0 +1,58 @@
+{
+  "name": "City Photo",
+  "coordinates": {
+    "latitude": 8.9811639,
+    "longitude": 79.9067505
+  },
+  "address": "XWJ4+FP6, Mannar",
+  "categories": [
+    "Photography studio"
+  ],
+  "phone": "0776726932",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D67NWVXY4DSH3NECAYVFB"
+}

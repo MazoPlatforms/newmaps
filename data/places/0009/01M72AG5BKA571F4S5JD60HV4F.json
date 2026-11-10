@@ -1,0 +1,59 @@
+{
+  "name": "Main Library - University Of Colombo",
+  "coordinates": {
+    "latitude": 6.9005125,
+    "longitude": 79.86205389999999
+  },
+  "address": "The Library, University of Colombo, P.O. Box 1698, Colombo 07",
+  "categories": [
+    "University library"
+  ],
+  "phone": "0112586432",
+  "website": "http://www.lib.cmb.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BKA571F4S5JD60HV4F"
+}

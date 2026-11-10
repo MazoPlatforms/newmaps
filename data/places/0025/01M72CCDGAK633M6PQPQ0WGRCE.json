@@ -1,0 +1,59 @@
+{
+  "name": "Salon Sheela",
+  "coordinates": {
+    "latitude": 6.7721911,
+    "longitude": 79.8844809
+  },
+  "address": "No.05 1st Ln, Moratuwa 10400",
+  "categories": [
+    "Beauty salon",
+    "Hair salon"
+  ],
+  "phone": "0722268782",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCDGAK633M6PQPQ0WGRCE"
+}

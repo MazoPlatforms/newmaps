@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank Grandpass Branch",
+  "coordinates": {
+    "latitude": 6.9486203,
+    "longitude": 79.8728141
+  },
+  "address": "99 St. Joseph's St, Colombo 01400",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112451601",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR17X9F88J8C7AQ2X25"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "T-TEC Mobile",
+  "coordinates": {
+    "latitude": 7.2052249999999995,
+    "longitude": 79.840715
+  },
+  "address": "No F35-36 Green's Road Central Bus Terminal, Negombo 11500",
+  "categories": [
+    "Electronics repair shop",
+    "Camera repair shop",
+    "Cell phone store",
+    "Computer repair service"
+  ],
+  "phone": "0773527500",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VRDF48S6W99H109XYH"
+}

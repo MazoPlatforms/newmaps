@@ -1,0 +1,58 @@
+{
+  "name": "Auto Service Enterprises",
+  "coordinates": {
+    "latitude": 7.5144068,
+    "longitude": 80.30647429999999
+  },
+  "address": "No: 13, \"Asiri Perogollawatta Demataluwa, Kurunegala 60024",
+  "categories": [
+    "Auto parts market"
+  ],
+  "phone": "0778080307",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BM9377VT871G40NY2AVFV"
+}

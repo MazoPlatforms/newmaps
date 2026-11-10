@@ -1,0 +1,61 @@
+{
+  "name": "DFCC Bank - Head Office",
+  "coordinates": {
+    "latitude": 6.9193194,
+    "longitude": 79.84829649999999
+  },
+  "address": "73/5 Galle - Colombo Rd, Colombo 00300",
+  "categories": [
+    "Private sector bank",
+    "Currency exchange service",
+    "Money transfer service"
+  ],
+  "phone": "0112442442",
+  "website": "http://www.dfcc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG8V8EG1V3XC0Y5T709A1"
+}

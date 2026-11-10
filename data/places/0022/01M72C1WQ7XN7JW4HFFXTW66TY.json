@@ -1,0 +1,60 @@
+{
+  "name": "Rafeek Bakery",
+  "coordinates": {
+    "latitude": 6.8701288,
+    "longitude": 81.8307514
+  },
+  "address": "Main Street Pottuvil, Arugam Bay 32500",
+  "categories": [
+    "Bakery",
+    "Restaurant"
+  ],
+  "phone": "0764106428",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–11:30 AM",
+        "2:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1WQ7XN7JW4HFFXTW66TY"
+}

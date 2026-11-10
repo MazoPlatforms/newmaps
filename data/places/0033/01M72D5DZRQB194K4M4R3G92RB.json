@@ -1,0 +1,59 @@
+{
+  "name": "New Mahajana Hardware",
+  "coordinates": {
+    "latitude": 8.7537515,
+    "longitude": 80.5028083
+  },
+  "address": "Bazaar St, Vavuniya",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0768486875",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 PM",
+        "1:30–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–1:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5DZRQB194K4M4R3G92RB"
+}

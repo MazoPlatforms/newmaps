@@ -1,0 +1,61 @@
+{
+  "address": "59 Wakwella Rd, Galle 80000",
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 6.0356407,
+    "longitude": 80.2163381
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://www.combank.lk/",
+  "business_status": "OPEN",
+  "phone": "0912234445",
+  "categories": [
+    "Bank",
+    "ATM",
+    "Private sector bank"
+  ],
+  "id": "01M72ACJDZXBZ160PTJ4PXCVF3"
+}

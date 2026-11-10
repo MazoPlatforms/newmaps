@@ -1,0 +1,67 @@
+{
+  "name": "E-Line Technologies",
+  "coordinates": {
+    "latitude": 7.2896719999999995,
+    "longitude": 80.62981839999999
+  },
+  "address": "186 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Computer store",
+    "Computer accessories store",
+    "Computer consultant",
+    "Computer hardware manufacturer",
+    "Computer networking service",
+    "Computer repair service",
+    "Computer software store",
+    "Computer wholesaler",
+    "Printer repair service",
+    "Used computer store"
+  ],
+  "phone": "0779741742",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHEGVQHQV21AWDRQFEKW"
+}

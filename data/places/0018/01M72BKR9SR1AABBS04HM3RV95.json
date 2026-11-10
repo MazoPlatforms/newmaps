@@ -1,0 +1,58 @@
+{
+  "name": "Family Care Medical Center",
+  "coordinates": {
+    "latitude": 7.4996449,
+    "longitude": 80.3658117
+  },
+  "address": "No. 17, Withera Uyana, Road, Kurunegala",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0777862105",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKR9SR1AABBS04HM3RV95"
+}

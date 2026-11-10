@@ -1,0 +1,57 @@
+{
+  "address": "483 Srimath Kudarathwatta Mawatha, Kandy 20000",
+  "name": "Grocery Store",
+  "coordinates": {
+    "latitude": 7.2902704,
+    "longitude": 80.6136199
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "General store"
+  ],
+  "id": "01M72AAGAN8071MZ53W2TP3D8P"
+}

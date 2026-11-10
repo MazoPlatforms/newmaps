@@ -1,0 +1,58 @@
+{
+  "name": "Hemans Coffeeshop",
+  "coordinates": {
+    "latitude": 6.0329748,
+    "longitude": 80.8005561
+  },
+  "address": "51A Medaketiya Rd, Tangalle",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0715432949",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE5P4PE0YPE8Z2HR0EZ"
+}

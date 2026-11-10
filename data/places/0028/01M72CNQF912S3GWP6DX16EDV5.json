@@ -1,0 +1,58 @@
+{
+  "name": "Dynamic Soft",
+  "coordinates": {
+    "latitude": 7.4676238999999995,
+    "longitude": 80.6210306
+  },
+  "address": "Dharmapala Mawatha, Matale",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0777373238",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNQF912S3GWP6DX16EDV5"
+}

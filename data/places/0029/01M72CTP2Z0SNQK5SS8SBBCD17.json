@@ -1,0 +1,58 @@
+{
+  "name": "Mosque",
+  "coordinates": {
+    "latitude": 5.9442391,
+    "longitude": 80.5565476
+  },
+  "address": "WHV4+MJV, Sambodi Mawatha, Matara",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0779972233",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTP2Z0SNQK5SS8SBBCD17"
+}

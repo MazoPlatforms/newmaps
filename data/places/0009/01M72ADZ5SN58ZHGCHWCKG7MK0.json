@@ -1,0 +1,59 @@
+{
+  "address": "158 Katunayake-Veyangoda Rd, Katunayake",
+  "name": "Café Achilla",
+  "coordinates": {
+    "latitude": 7.1825487,
+    "longitude": 79.9135714
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112258599",
+  "categories": [
+    "Family restaurant",
+    "Coffee shop"
+  ],
+  "id": "01M72ADZ5SN58ZHGCHWCKG7MK0"
+}

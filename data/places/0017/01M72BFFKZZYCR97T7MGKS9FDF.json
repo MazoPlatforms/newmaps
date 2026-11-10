@@ -1,0 +1,60 @@
+{
+  "name": "Bubble Cafe",
+  "coordinates": {
+    "latitude": 6.8329442,
+    "longitude": 80.9986958
+  },
+  "address": "Bandarawela 90100",
+  "categories": [
+    "Cafe",
+    "Food and beverage consultant"
+  ],
+  "phone": "0767895168",
+  "website": "https://www.facebook.com/elinesolution9",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFFKZZYCR97T7MGKS9FDF"
+}

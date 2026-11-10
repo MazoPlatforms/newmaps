@@ -1,0 +1,61 @@
+{
+  "name": "HNB Assurance - Hatton Branch",
+  "coordinates": {
+    "latitude": 6.892894999999999,
+    "longitude": 80.597189
+  },
+  "address": "171/1/9, Dambula Road, 1st Floor, Dkw Commercial Complex, Hatton 22000",
+  "categories": [
+    "Accountant",
+    "Computer repair service",
+    "Photographer",
+    "Website designer"
+  ],
+  "phone": "0512222763",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5GPJKB5WK32CYMVA0G8X"
+}

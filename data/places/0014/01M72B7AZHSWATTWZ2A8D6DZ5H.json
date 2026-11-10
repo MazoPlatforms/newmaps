@@ -1,0 +1,59 @@
+{
+  "name": "Mihisara Grocery",
+  "coordinates": {
+    "latitude": 6.1216235,
+    "longitude": 80.1147682
+  },
+  "address": "44C7+MW6, Hikkaduwa 80244",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0776055251",
+  "website": "https://www.facebook.com/profile.php?id=100089534864555",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7AZHSWATTWZ2A8D6DZ5H"
+}

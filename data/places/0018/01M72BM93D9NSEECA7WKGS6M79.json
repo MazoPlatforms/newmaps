@@ -1,0 +1,59 @@
+{
+  "name": "Auto Service Center",
+  "coordinates": {
+    "latitude": 7.812598299999999,
+    "longitude": 80.613957
+  },
+  "address": "Thalakiriyagama, Kurunegala - Dambulla Rd, Dambulla 21116",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0773690995",
+  "website": "https://www.facebook.com/profile.php?id=100085042217425&mibextid=AEUHqQ",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BM93D9NSEECA7WKGS6M79"
+}

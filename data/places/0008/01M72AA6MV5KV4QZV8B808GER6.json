@@ -1,0 +1,59 @@
+{
+  "address": "233 Peradeniya Rd, Kandy 00500",
+  "name": "Oak Ray Restaurant",
+  "coordinates": {
+    "latitude": 7.288719899999999,
+    "longitude": 80.62939329999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "http://www.oakraybakers.com/",
+  "business_status": "OPEN",
+  "phone": "0812227727",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "id": "01M72AA6MV5KV4QZV8B808GER6"
+}

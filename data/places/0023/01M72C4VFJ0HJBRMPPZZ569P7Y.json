@@ -1,0 +1,58 @@
+{
+  "name": "Thashwin Multi Shop",
+  "coordinates": {
+    "latitude": 8.3390072,
+    "longitude": 81.24965279999999
+  },
+  "address": "167, aathiyammankeni 31000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0752608969",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–9 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4VFJ0HJBRMPPZZ569P7Y"
+}

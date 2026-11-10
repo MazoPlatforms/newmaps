@@ -1,0 +1,58 @@
+{
+  "name": "Play",
+  "coordinates": {
+    "latitude": 7.2228851999999995,
+    "longitude": 79.8473195
+  },
+  "address": "18 Adnives Rd, Negombo",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0771784787",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCMQYRWJD33299HVW7M7"
+}

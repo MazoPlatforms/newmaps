@@ -1,0 +1,58 @@
+{
+  "name": "Sam's Place Weligama",
+  "coordinates": {
+    "latitude": 5.9727979,
+    "longitude": 80.433988
+  },
+  "address": "437 Aturupara,palana, Weligama",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0774203514",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPRY94R9D5B5C8FFTJ0G"
+}

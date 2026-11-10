@@ -1,0 +1,60 @@
+{
+  "name": "Eiffel Complex",
+  "coordinates": {
+    "latitude": 8.3250847,
+    "longitude": 80.4048533
+  },
+  "address": "488/9 Maithripala Senanayake Mawatha, Anuradhapura",
+  "categories": [
+    "Clothing store",
+    "Cosmetics store",
+    "Italian grocery store"
+  ],
+  "phone": "0773979100",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4M9XGSTA7RMGZ4VNTC8"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Dr Mahendra Gunasekara - Medical Clinic",
+  "coordinates": {
+    "latitude": 5.975196899999999,
+    "longitude": 80.4298477
+  },
+  "address": "XCGH+3WH, Weligama",
+  "categories": [
+    "Medical Center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–7:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–7:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–7:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–7:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–7:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB140YNN3CEHWFKGG9JXX"
+}

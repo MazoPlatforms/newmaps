@@ -1,0 +1,63 @@
+{
+  "name": "SS Auto Care - Vehicle Repair & Car Carrier Breakdown Recovery Service",
+  "coordinates": {
+    "latitude": 6.939742799999999,
+    "longitude": 80.65905269999999
+  },
+  "address": "Talawakelle 22100",
+  "categories": [
+    "Auto repair shop",
+    "Auto electrical service",
+    "Machine shop",
+    "Oil change service",
+    "Small engine repair service",
+    "Used auto parts store"
+  ],
+  "phone": "0711926699",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B53JF7KK5CY0H321PERTK"
+}

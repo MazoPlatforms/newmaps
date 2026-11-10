@@ -1,0 +1,58 @@
+{
+  "name": "Nano Technology",
+  "coordinates": {
+    "latitude": 6.7210678999999995,
+    "longitude": 79.9092397
+  },
+  "address": "54 Panadura - Malamulla Rd, Panadura",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0777989017",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPRDY1CJ1XW13V7CDHF1"
+}

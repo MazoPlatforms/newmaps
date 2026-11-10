@@ -1,0 +1,58 @@
+{
+  "name": "Super Market",
+  "coordinates": {
+    "latitude": 8.3222601,
+    "longitude": 80.4069457
+  },
+  "address": "8CC4+WQ4, junction, Godage Mawatha, Anuradhapura 50000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0702072071",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4KWCARDPYZ35NBAVJ1N"
+}

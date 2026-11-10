@@ -1,0 +1,61 @@
+{
+  "name": "Falcon Sports",
+  "coordinates": {
+    "latitude": 7.2528913,
+    "longitude": 80.3415137
+  },
+  "address": "74A, Mainstreet, Kegalle 71000",
+  "categories": [
+    "Sporting goods store",
+    "Badminton club",
+    "Sports accessories wholesaler",
+    "Sportswear store"
+  ],
+  "phone": "0774066265",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZMR5QGR4490JYW6J4RNP"
+}

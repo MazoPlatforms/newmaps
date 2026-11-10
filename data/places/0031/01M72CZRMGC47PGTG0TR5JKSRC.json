@@ -1,0 +1,60 @@
+{
+  "name": "Horizon GAME STORE",
+  "coordinates": {
+    "latitude": 7.2301167,
+    "longitude": 80.3503786
+  },
+  "address": "No 03, 71000",
+  "categories": [
+    "Computer store",
+    "Game store"
+  ],
+  "phone": "0742891202",
+  "website": "https://sites.google.com/view/horizon-computers/home",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZRMGC47PGTG0TR5JKSRC"
+}

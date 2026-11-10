@@ -1,0 +1,64 @@
+{
+  "name": "Royal Medical Centre",
+  "coordinates": {
+    "latitude": 7.9353001999999995,
+    "longitude": 81.0383353
+  },
+  "address": "W2PQ+48G, Polonnaruwa",
+  "categories": [
+    "Medical Center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–8 AM",
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRJK5VDFC408K4AANP0KH"
+}

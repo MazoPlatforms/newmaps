@@ -1,0 +1,58 @@
+{
+  "name": "Sri Garage & Travels",
+  "coordinates": {
+    "latitude": 9.3836476,
+    "longitude": 80.4011372
+  },
+  "address": "No. 12, Kanagapuram Road, Kilinochchi 44000",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0214912490",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXY20J9N68CNNT9RCRB5N"
+}

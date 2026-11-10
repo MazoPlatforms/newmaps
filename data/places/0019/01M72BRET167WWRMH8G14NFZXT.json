@@ -1,0 +1,58 @@
+{
+  "name": "Wijesinghe Retail Shop",
+  "coordinates": {
+    "latitude": 7.9743241,
+    "longitude": 80.9971048
+  },
+  "address": "Polonnaruwa-Hingurakgoda Rd, Nissankamallapura",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0765564632",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRET167WWRMH8G14NFZXT"
+}

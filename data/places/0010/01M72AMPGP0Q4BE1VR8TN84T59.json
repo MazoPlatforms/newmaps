@@ -1,0 +1,58 @@
+{
+  "name": "Barnes Place Mini Mart",
+  "coordinates": {
+    "latitude": 6.9139278,
+    "longitude": 79.8653216
+  },
+  "address": "Barnes Residencies, No.7B1 Barnes Pl, Colombo 00700",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0705563065",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AMPGP0Q4BE1VR8TN84T59"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Tharan Traders",
+  "coordinates": {
+    "latitude": 9.6687408,
+    "longitude": 80.0134743
+  },
+  "address": "130 Stanley Rd, Jaffna",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0212227184",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4VHYX8BSG9CPQSCET4VW"
+}

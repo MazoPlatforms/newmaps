@@ -1,0 +1,58 @@
+{
+  "name": "The Study",
+  "coordinates": {
+    "latitude": 6.911661,
+    "longitude": 79.8714421
+  },
+  "address": "71 Horton Pl, Colombo 00700",
+  "categories": [
+    "International school"
+  ],
+  "website": "http://www.thestudy.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–1:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–1:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–1:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–1:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–1:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BWT8F2JRZMH792GN6D"
+}

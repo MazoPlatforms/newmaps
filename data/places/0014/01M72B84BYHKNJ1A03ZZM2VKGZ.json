@@ -1,0 +1,63 @@
+{
+  "name": "Choctail",
+  "coordinates": {
+    "latitude": 6.2405592,
+    "longitude": 80.0536419
+  },
+  "address": "108 Galle Rd, Ambalangoda",
+  "categories": [
+    "Grocery store",
+    "E-commerce service",
+    "Greeting card shop",
+    "Chocolate shop",
+    "Novelty store",
+    "Office supply store"
+  ],
+  "phone": "0766372929",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B84BYHKNJ1A03ZZM2VKGZ"
+}

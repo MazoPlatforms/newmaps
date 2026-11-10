@@ -1,0 +1,58 @@
+{
+  "name": "IT Technique",
+  "coordinates": {
+    "latitude": 6.851996799999999,
+    "longitude": 79.8684468
+  },
+  "address": "97 Malwatta Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0714809510",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAMKACN169AHAHB2V1V2E"
+}

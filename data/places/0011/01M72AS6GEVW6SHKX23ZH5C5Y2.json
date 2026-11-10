@@ -1,0 +1,63 @@
+{
+  "name": "Pizza Hut - Moratuwa",
+  "coordinates": {
+    "latitude": 6.785296,
+    "longitude": 79.884699
+  },
+  "address": "491, Galle Rd, Moratuwa, A2, Moratuwa",
+  "categories": [
+    "Italian restaurant",
+    "Pasta shop",
+    "Pizza delivery",
+    "Pizza restaurant",
+    "Pizza takeaway"
+  ],
+  "phone": "0112729729",
+  "website": "https://www.pizzahut.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6GEVW6SHKX23ZH5C5Y2"
+}

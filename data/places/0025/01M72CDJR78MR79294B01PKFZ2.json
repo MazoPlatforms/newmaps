@@ -1,0 +1,67 @@
+{
+  "name": "Game Plaza Rajagiriya",
+  "coordinates": {
+    "latitude": 6.9134978,
+    "longitude": 79.8944693
+  },
+  "address": "172 Rajagiriya Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Computer store",
+    "CD store",
+    "Game store",
+    "Video game store"
+  ],
+  "phone": "0784933344",
+  "website": "https://www.facebook.com/gameplazarajagiriya",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30–11 AM",
+        "2:30–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30–11 AM",
+        "2:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30–11 AM",
+        "2:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30–11 AM",
+        "2:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11 AM",
+        "2:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJR78MR79294B01PKFZ2"
+}

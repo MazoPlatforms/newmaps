@@ -1,0 +1,59 @@
+{
+  "name": "MKB Supermart",
+  "coordinates": {
+    "latitude": 6.9889944999999996,
+    "longitude": 81.0588294
+  },
+  "address": "53 Lower St, Badulla",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0552222678",
+  "website": "http://www.fb.com/mkbsupermart",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQAR2V5ZX93ZV2FA225H"
+}

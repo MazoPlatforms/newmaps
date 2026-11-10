@@ -1,0 +1,58 @@
+{
+  "name": "Vivekananda College",
+  "coordinates": {
+    "latitude": 6.943047,
+    "longitude": 79.86004559999999
+  },
+  "address": "55-57, Colombo 01300",
+  "categories": [
+    "College"
+  ],
+  "phone": "0112431120",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9QE82QHNGBKT1YHFMT07"
+}

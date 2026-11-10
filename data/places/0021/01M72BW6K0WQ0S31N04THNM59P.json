@@ -1,0 +1,58 @@
+{
+  "name": "New Wijaya Stores",
+  "coordinates": {
+    "latitude": 8.7511659,
+    "longitude": 80.47794259999999
+  },
+  "address": "kumankula rd, Vavuniya 43000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0778727682",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6K0WQ0S31N04THNM59P"
+}

@@ -1,0 +1,59 @@
+{
+  "address": "76 Wijerama Mawatha, Colombo 00700",
+  "name": "Peppermint Cafe",
+  "coordinates": {
+    "latitude": 6.9111405,
+    "longitude": 79.8709445
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "website": "https://www.peppermintcafe.lk/",
+  "business_status": "OPEN",
+  "phone": "0756320420",
+  "categories": [
+    "Coffee shop"
+  ],
+  "id": "01M72A8VD44182KFKYA4NPHJ37"
+}

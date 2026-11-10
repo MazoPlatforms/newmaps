@@ -1,0 +1,58 @@
+{
+  "name": "Fdmi Super (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.9341133,
+    "longitude": 81.0131786
+  },
+  "categories": [
+    "Supermarket",
+    "Service establishment"
+  ],
+  "phone": "0707899330",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRETWJE4SNDNQWQ4453E6"
+}

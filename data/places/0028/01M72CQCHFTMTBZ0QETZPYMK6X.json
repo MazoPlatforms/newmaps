@@ -1,0 +1,60 @@
+{
+  "name": "Sackthi A Forage",
+  "coordinates": {
+    "latitude": 6.8914161,
+    "longitude": 80.5984227
+  },
+  "address": "46 Main St, Hatton 22000",
+  "categories": [
+    "Animal feed store",
+    "Agrochemicals supplier",
+    "Fertilizer supplier"
+  ],
+  "phone": "0512222829",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQCHFTMTBZ0QETZPYMK6X"
+}

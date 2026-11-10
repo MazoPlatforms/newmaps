@@ -1,0 +1,58 @@
+{
+  "name": "Mr.Handsome Saloon",
+  "coordinates": {
+    "latitude": 7.2979707,
+    "longitude": 80.6365388
+  },
+  "address": "182 E L Senanayake Veediya, Kandy 20000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0760794910",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQ5GGP6PZX2A73GZ6KA"
+}

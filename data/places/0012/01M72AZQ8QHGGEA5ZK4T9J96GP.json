@@ -1,0 +1,58 @@
+{
+  "name": "Ella Cafe By Anji",
+  "coordinates": {
+    "latitude": 6.7530681,
+    "longitude": 79.8994499
+  },
+  "address": "121, Panadura 10900",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0725817915",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZQ8QHGGEA5ZK4T9J96GP"
+}

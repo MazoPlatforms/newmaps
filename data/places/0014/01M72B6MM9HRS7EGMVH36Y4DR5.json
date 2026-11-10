@@ -1,0 +1,60 @@
+{
+  "name": "SIEM Galle Campus",
+  "coordinates": {
+    "latitude": 6.067234,
+    "longitude": 80.221178
+  },
+  "address": "No 133, Albert's Burgh, Hirimbura Rd, Galle 80000",
+  "categories": [
+    "Educational institution",
+    "Educational consultant"
+  ],
+  "phone": "0775993392",
+  "website": "http://www.siemgallecampus.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6MM9HRS7EGMVH36Y4DR5"
+}

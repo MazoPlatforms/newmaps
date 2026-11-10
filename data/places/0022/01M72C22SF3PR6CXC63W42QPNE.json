@@ -1,0 +1,64 @@
+{
+  "name": "Arham Medi Clinic",
+  "coordinates": {
+    "latitude": 6.873002199999999,
+    "longitude": 81.8245362
+  },
+  "address": "VRFF+6R3, Pottuvil",
+  "categories": [
+    "Medical Center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–9 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–9 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–9 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–9 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–9 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–9 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–9 AM",
+        "4–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C22SF3PR6CXC63W42QPNE"
+}

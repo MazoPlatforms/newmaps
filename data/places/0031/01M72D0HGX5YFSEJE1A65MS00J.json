@@ -1,0 +1,59 @@
+{
+  "name": "Singer",
+  "coordinates": {
+    "latitude": 7.4845355,
+    "longitude": 80.3630917
+  },
+  "address": "62 A6, Kurunegala",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0372224535",
+  "website": "http://www.singersl.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HGX5YFSEJE1A65MS00J"
+}

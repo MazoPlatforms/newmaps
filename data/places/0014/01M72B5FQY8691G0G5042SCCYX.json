@@ -1,0 +1,59 @@
+{
+  "name": "Science Academy",
+  "coordinates": {
+    "latitude": 6.8902002,
+    "longitude": 80.59580679999999
+  },
+  "address": "Hatton - Maskeliya - Dalhousie Rd, Hatton",
+  "categories": [
+    "Tutoring service",
+    "School"
+  ],
+  "phone": "0777702849",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5FQY8691G0G5042SCCYX"
+}

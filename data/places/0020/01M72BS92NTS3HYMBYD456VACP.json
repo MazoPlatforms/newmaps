@@ -1,0 +1,57 @@
+{
+  "name": "Green Valley Restaurant",
+  "coordinates": {
+    "latitude": 7.7974172,
+    "longitude": 80.66024809999999
+  },
+  "address": "QMW6+X39, Kiralagolla, Dambulla",
+  "categories": [
+    "Restaurant"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92NTS3HYMBYD456VACP"
+}

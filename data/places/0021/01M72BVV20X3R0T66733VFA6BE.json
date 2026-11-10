@@ -1,0 +1,58 @@
+{
+  "name": "Thiruppathi",
+  "coordinates": {
+    "latitude": 8.7627926,
+    "longitude": 80.4893053
+  },
+  "address": "Mannar Rd, Vavuniya",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0242221317",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–9:10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–9:10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–9:10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–9:10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–9:10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–9:10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–9:10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVV20X3R0T66733VFA6BE"
+}

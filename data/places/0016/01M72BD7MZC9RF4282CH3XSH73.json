@@ -1,0 +1,58 @@
+{
+  "name": "DM Auto Repair",
+  "coordinates": {
+    "latitude": 6.0206909,
+    "longitude": 80.77597039999999
+  },
+  "address": "2QCG+687, Tangalle",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0715208293",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BD7MZC9RF4282CH3XSH73"
+}

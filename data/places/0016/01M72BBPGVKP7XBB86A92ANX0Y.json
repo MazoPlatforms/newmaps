@@ -1,0 +1,58 @@
+{
+  "name": "Roti Cafe Restaurant",
+  "coordinates": {
+    "latitude": 8.0365279,
+    "longitude": 80.75325749999999
+  },
+  "address": "Dambulla Road, Habarana 50150",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0778992616",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGVKP7XBB86A92ANX0Y"
+}

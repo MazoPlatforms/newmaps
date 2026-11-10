@@ -1,0 +1,64 @@
+{
+  "name": "Salon AD",
+  "coordinates": {
+    "latitude": 6.7757475,
+    "longitude": 79.88258809999999
+  },
+  "address": "34 , De Mel's Rd, Moratuwella, Moratuwa 10400",
+  "categories": [
+    "Beauty salon",
+    "Fencing salon",
+    "Hair extension technician",
+    "Hair removal service",
+    "Nail salon",
+    "Tanning salon",
+    "Hairdresser"
+  ],
+  "phone": "0768781438",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCDGBT98QFATHYJJKQD60"
+}

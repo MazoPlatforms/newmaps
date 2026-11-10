@@ -1,0 +1,58 @@
+{
+  "address": "Ampitiya Rd, Kandy 20000",
+  "name": "Ceylora Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 7.2854111999999995,
+    "longitude": 80.6490724
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–10 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0707657651",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72AA6KX14Z6YHZJW4PSB804"
+}

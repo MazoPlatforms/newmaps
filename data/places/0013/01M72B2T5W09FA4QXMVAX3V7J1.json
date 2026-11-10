@@ -1,0 +1,57 @@
+{
+  "name": "Zahira College Library",
+  "coordinates": {
+    "latitude": 7.371196899999999,
+    "longitude": 80.60936819999999
+  },
+  "address": "9JC5+FPH, Kasawattha Road, Akurana",
+  "categories": [
+    "Library"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2T5W09FA4QXMVAX3V7J1"
+}

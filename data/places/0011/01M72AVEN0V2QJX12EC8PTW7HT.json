@@ -1,0 +1,58 @@
+{
+  "name": "Cargills Food City - Pitakotte 2",
+  "coordinates": {
+    "latitude": 6.8839638999999995,
+    "longitude": 79.9001061
+  },
+  "address": "139 Pagoda Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0112856372",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEN0V2QJX12EC8PTW7HT"
+}

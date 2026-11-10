@@ -1,0 +1,58 @@
+{
+  "name": "Salon M Zero 1",
+  "coordinates": {
+    "latitude": 7.4574720999999995,
+    "longitude": 80.34605839999999
+  },
+  "address": "129/1, Colombo Road, Waduragala, Kurunegala 60000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0766314153",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0V77MFYZB6QCZ509AC5H"
+}

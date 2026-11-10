@@ -1,0 +1,59 @@
+{
+  "name": "Mega Salon",
+  "coordinates": {
+    "latitude": 7.4781758,
+    "longitude": 80.3570787
+  },
+  "address": "1, 184 Colombo Road, Kurunegala",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0779205882",
+  "website": "https://www.facebook.com/megasalonkurunegala",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0V72C5B0A1MXAZVYGFSC"
+}

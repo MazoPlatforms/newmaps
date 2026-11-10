@@ -1,0 +1,59 @@
+{
+  "name": "Nova Style Lounge",
+  "coordinates": {
+    "latitude": 7.294545299999999,
+    "longitude": 80.6257814
+  },
+  "categories": [
+    "Hair salon",
+    "Service establishment"
+  ],
+  "phone": "0710409535",
+  "website": "https://novastylelounge.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQKK9NDPNTFJKM54ETY"
+}

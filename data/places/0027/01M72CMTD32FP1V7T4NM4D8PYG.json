@@ -1,0 +1,58 @@
+{
+  "name": "Estate Supplies Corporation",
+  "coordinates": {
+    "latitude": 7.2940225,
+    "longitude": 80.6384266
+  },
+  "address": "100 Colombo St, Kandy 20000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0812222448",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMTD32FP1V7T4NM4D8PYG"
+}

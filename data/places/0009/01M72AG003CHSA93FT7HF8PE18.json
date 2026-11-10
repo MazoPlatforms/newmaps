@@ -1,0 +1,60 @@
+{
+  "name": "Ninewells Hospital (PVT) Ltd.",
+  "coordinates": {
+    "latitude": 6.8951172,
+    "longitude": 79.8824786
+  },
+  "address": "55, 1 Kirimandala Mawatha, Colombo 00500",
+  "categories": [
+    "Private hospital",
+    "Hospital"
+  ],
+  "phone": "0114520999",
+  "website": "http://ninewellshospital.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG003CHSA93FT7HF8PE18"
+}

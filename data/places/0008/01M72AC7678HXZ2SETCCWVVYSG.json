@@ -1,0 +1,57 @@
+{
+  "address": "26G9+H4P, Church St, Galle 80000",
+  "name": "Co-Op Grocery Shop",
+  "coordinates": {
+    "latitude": 6.0264748,
+    "longitude": 80.2178241
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AC7678HXZ2SETCCWVVYSG"
+}

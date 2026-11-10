@@ -1,0 +1,58 @@
+{
+  "name": "Hungry Bug",
+  "coordinates": {
+    "latitude": 6.1352022,
+    "longitude": 80.10032509999999
+  },
+  "address": "6 Sarath Goonawardana Mawatha, Hikkaduwa",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0762745924",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77ERN3P2VRPTEA66PA4C"
+}

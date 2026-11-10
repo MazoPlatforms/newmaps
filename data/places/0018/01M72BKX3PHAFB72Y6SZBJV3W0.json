@@ -1,0 +1,60 @@
+{
+  "name": "Sampath Bank Kurunegala Super",
+  "coordinates": {
+    "latitude": 7.4882048999999995,
+    "longitude": 80.3613845
+  },
+  "address": "F9Q6+7GQ, 31 Negombo Rd, Kurunegala 60000",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0372223500",
+  "website": "http://sampath.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKX3PHAFB72Y6SZBJV3W0"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Tulip Computers",
+  "coordinates": {
+    "latitude": 6.0419154,
+    "longitude": 80.2146466
+  },
+  "address": "207 Wakwella Rd, Galle 80000",
+  "categories": [
+    "Computer store",
+    "Computer repair service"
+  ],
+  "phone": "0912246200",
+  "website": "https://www.tulipcom.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7VWGYRMQMW83TY1EEB8"
+}

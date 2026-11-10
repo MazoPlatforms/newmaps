@@ -1,0 +1,60 @@
+{
+  "name": "U.S. Auto Care (PVT) LTD",
+  "coordinates": {
+    "latitude": 6.849875,
+    "longitude": 79.8767584
+  },
+  "address": "245 Hill St, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto repair shop"
+  ],
+  "phone": "0779954645",
+  "website": "http://uscarsales.lk/web/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRKQ5CZE3KTZFBA4XXA"
+}

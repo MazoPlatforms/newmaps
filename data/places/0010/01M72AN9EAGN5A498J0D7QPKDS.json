@@ -1,0 +1,57 @@
+{
+  "name": "Dr. Rohitha Fernando Medical Clinic",
+  "coordinates": {
+    "latitude": 6.9787718,
+    "longitude": 79.9385305
+  },
+  "address": "Thambiligasmulla Rd, Gonawala",
+  "categories": [
+    "Medical clinic"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9EAGN5A498J0D7QPKDS"
+}

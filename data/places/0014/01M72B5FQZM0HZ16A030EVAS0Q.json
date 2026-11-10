@@ -1,0 +1,58 @@
+{
+  "name": "Teachers' College, Kotagala",
+  "coordinates": {
+    "latitude": 6.9173161,
+    "longitude": 80.6004092
+  },
+  "address": "Hatton",
+  "categories": [
+    "College"
+  ],
+  "phone": "0512244572",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:15 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:15 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:15 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:15 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:15 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5FQZM0HZ16A030EVAS0Q"
+}

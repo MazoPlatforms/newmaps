@@ -1,0 +1,68 @@
+{
+  "name": "Ann Beauty Studio",
+  "coordinates": {
+    "latitude": 6.8506694,
+    "longitude": 79.8630208
+  },
+  "address": "41 Station Road, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Beauty salon",
+    "Bridal shop",
+    "Charter school",
+    "Make-up artist",
+    "Nail salon",
+    "Permanent make-up clinic",
+    "Skin care clinic",
+    "Hairdresser",
+    "Waxing hair removal service",
+    "Wellness center"
+  ],
+  "phone": "0717160417",
+  "website": "https://www.annbeautystudio.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CB2CGH0SZPDCWW0BF9A3T"
+}

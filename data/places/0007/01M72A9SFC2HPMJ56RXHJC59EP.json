@@ -1,0 +1,60 @@
+{
+  "address": "2-2/1, Temple Ln, Colombo 00300",
+  "name": "XpressJobs",
+  "coordinates": {
+    "latitude": 6.8966546,
+    "longitude": 79.8548881
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://xpress.jobs/",
+  "business_status": "OPEN",
+  "phone": "0117422414",
+  "categories": [
+    "Recruiter",
+    "Employment center"
+  ],
+  "id": "01M72A9SFC2HPMJ56RXHJC59EP"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Thilina Phamacy",
+  "coordinates": {
+    "latitude": 7.1257692,
+    "longitude": 79.98179069999999
+  },
+  "address": "4XGJ+8P3, Divulapitiya Road, Udugampola",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0332231435",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGCDXVKWDE31YXSH14D3"
+}

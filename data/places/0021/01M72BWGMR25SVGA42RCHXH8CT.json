@@ -1,0 +1,59 @@
+{
+  "name": "Ceylinco Insurance",
+  "coordinates": {
+    "latitude": 8.7521653,
+    "longitude": 80.4985368
+  },
+  "address": "44 2nd Cross St, Vavuniya 43000",
+  "categories": [
+    "Life insurance agency"
+  ],
+  "phone": "0244589319",
+  "website": "https://www.ceylinco-insurance.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWGMR25SVGA42RCHXH8CT"
+}

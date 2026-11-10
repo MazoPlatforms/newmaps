@@ -1,0 +1,59 @@
+{
+  "name": "CRUST - Bakers And Restaurant",
+  "coordinates": {
+    "latitude": 6.6828699,
+    "longitude": 80.4026461
+  },
+  "address": "MCM3+43R, Town North, Ratnapura",
+  "categories": [
+    "Pastry shop"
+  ],
+  "phone": "0452121870",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–11:30 AM",
+        "1:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGYGSNHET2W940SXFWBAF"
+}

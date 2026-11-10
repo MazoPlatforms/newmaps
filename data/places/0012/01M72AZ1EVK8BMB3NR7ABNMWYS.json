@@ -1,0 +1,60 @@
+{
+  "name": "A.N.Spices",
+  "coordinates": {
+    "latitude": 6.5756352,
+    "longitude": 79.96744799999999
+  },
+  "address": "127 A Hill St, Kalutara 12000",
+  "categories": [
+    "Grocery store",
+    "Mill"
+  ],
+  "phone": "0750778995",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11:30 AM",
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ1EVK8BMB3NR7ABNMWYS"
+}

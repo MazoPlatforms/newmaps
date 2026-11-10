@@ -1,0 +1,58 @@
+{
+  "name": "Color Me Hair And Beauty Salon",
+  "coordinates": {
+    "latitude": 7.4671689,
+    "longitude": 80.6228443
+  },
+  "address": "No 8/3 King St, Matale",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0775672669",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNZE3E0D3GQCQVT5ZFHMS"
+}

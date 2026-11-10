@@ -1,0 +1,58 @@
+{
+  "name": "Orthopedic Clinic - Aluthgama",
+  "coordinates": {
+    "latitude": 6.433930999999999,
+    "longitude": 79.9973897
+  },
+  "address": "No. 1/304 Galle Rd, Aluthgama",
+  "categories": [
+    "Orthopedic clinic"
+  ],
+  "phone": "0342275070",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B1DBJGSP3GXRDCK63C8VX"
+}

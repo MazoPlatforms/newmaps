@@ -1,0 +1,58 @@
+{
+  "name": "Home Seas",
+  "coordinates": {
+    "latitude": 7.4776641999999995,
+    "longitude": 80.6231166
+  },
+  "address": "19/1 Kandy - Jaffna Hwy, Mandandawela 21000",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0662223369",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D8339ARE2CDTP2YPFG1"
+}

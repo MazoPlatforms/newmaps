@@ -1,0 +1,59 @@
+{
+  "name": "Lalith Auto Service Centre",
+  "coordinates": {
+    "latitude": 6.0482714,
+    "longitude": 80.2101714
+  },
+  "address": "No. 327/2 Wakwella Rd, Galle 80000",
+  "categories": [
+    "Car repair and maintenance service",
+    "Suzuki dealer"
+  ],
+  "phone": "0912233866",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6ZWR2T1QARQ6GZVC7HG5"
+}

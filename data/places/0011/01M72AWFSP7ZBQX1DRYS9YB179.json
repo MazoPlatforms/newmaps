@@ -1,0 +1,58 @@
+{
+  "name": "CJ Automobile",
+  "coordinates": {
+    "latitude": 6.9125358,
+    "longitude": 79.91534899999999
+  },
+  "address": "Sri Jayawardenepura Kotte",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0770117208",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AWFSP7ZBQX1DRYS9YB179"
+}

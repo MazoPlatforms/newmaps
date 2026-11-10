@@ -1,0 +1,58 @@
+{
+  "address": "221 Maradana Rd, Colombo 01000",
+  "name": "Hasthigiri Cafe",
+  "coordinates": {
+    "latitude": 6.930451499999999,
+    "longitude": 79.8625484
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112348439",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "id": "01M72A8VHKPGGX9K5Y7JKCT38Q"
+}

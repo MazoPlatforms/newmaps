@@ -1,0 +1,60 @@
+{
+  "name": "Knox Café & Restaurant",
+  "coordinates": {
+    "latitude": 7.4679329,
+    "longitude": 80.6215613
+  },
+  "address": "95 Dharmapala Mawatha, Matale 21000",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "phone": "0662221350",
+  "website": "https://www.facebook.com/people/Knox-Caf%C3%A9-Restaurant/61560021369250/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D7TH1RP9VTHDNTC6PQ8"
+}

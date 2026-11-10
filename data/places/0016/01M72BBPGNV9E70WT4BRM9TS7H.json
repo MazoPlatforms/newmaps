@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Panda",
+  "coordinates": {
+    "latitude": 6.0314551,
+    "longitude": 80.7906225
+  },
+  "address": "No 158, Tangalle 82200",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777480239",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGNV9E70WT4BRM9TS7H"
+}

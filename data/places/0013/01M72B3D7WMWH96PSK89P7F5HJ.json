@@ -1,0 +1,59 @@
+{
+  "name": "Open Kitchen Matale",
+  "coordinates": {
+    "latitude": 7.4651553999999996,
+    "longitude": 80.6252043
+  },
+  "address": "4 Gongawela Rd, Matale 21000",
+  "categories": [
+    "Restaurant",
+    "Fast food restaurant"
+  ],
+  "phone": "0664340350",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D7WMWH96PSK89P7F5HJ"
+}

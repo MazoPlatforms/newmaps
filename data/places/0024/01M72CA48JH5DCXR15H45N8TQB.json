@@ -1,0 +1,59 @@
+{
+  "name": "The Fish Aquarium",
+  "coordinates": {
+    "latitude": 6.8367245,
+    "longitude": 79.8966829
+  },
+  "address": "151 Pubudu Mawatha, Boralesgamuwa 10290",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0728600880",
+  "website": "https://wa.me/94728600880",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48JH5DCXR15H45N8TQB"
+}

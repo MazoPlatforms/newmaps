@@ -1,0 +1,65 @@
+{
+  "name": "Dr.Zaheer's Dispensary",
+  "coordinates": {
+    "latitude": 6.8202837,
+    "longitude": 79.8815565
+  },
+  "address": "83 Palm Grove Avenue, 3rd Lane, 10390",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0775636078",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9–11 AM",
+        "9–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9–11 AM",
+        "9–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9–11 AM",
+        "9–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9–11 AM",
+        "9–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11 AM",
+        "9–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9–11 AM",
+        "9–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9–11 AM",
+        "9–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3PE59EJCA3Q10KM49N"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Kingsman Studio",
+  "coordinates": {
+    "latitude": 6.8901815,
+    "longitude": 79.8595046
+  },
+  "address": "29, 14 Visakha Private Rd, Colombo 00400",
+  "categories": [
+    "Men's tailor"
+  ],
+  "phone": "0114248972",
+  "website": "https://www.kingsmanstudio.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–12:30 PM",
+        "2–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C817CA39H98BEG2NV0FR3"
+}

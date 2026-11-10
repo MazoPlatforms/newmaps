@@ -1,0 +1,58 @@
+{
+  "name": "Kokilas Kitchen",
+  "coordinates": {
+    "latitude": 7.514151,
+    "longitude": 80.4222285
+  },
+  "address": "Sunray Lane, Kiriwawula Thorayaya, Kurunegala 60000",
+  "categories": [
+    "Food producer"
+  ],
+  "phone": "0764082416",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BK6TS71M9A681HR8PM41X"
+}

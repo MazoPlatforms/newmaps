@@ -1,0 +1,65 @@
+{
+  "name": "GUI Technologies",
+  "coordinates": {
+    "latitude": 6.8750998,
+    "longitude": 79.900596
+  },
+  "address": "75 A Mirihana Rd, Nugegoda 10250",
+  "categories": [
+    "Computer store",
+    "Closed circuit television",
+    "Computer accessories store",
+    "Computer hardware manufacturer",
+    "Computer repair service",
+    "Computer service",
+    "Computer wholesaler",
+    "Security system installation service"
+  ],
+  "phone": "0777476647",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJR4TJ0YZS1H3B3RYZRM"
+}

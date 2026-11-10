@@ -1,0 +1,58 @@
+{
+  "name": "Dhammika Stores",
+  "coordinates": {
+    "latitude": 5.972542499999999,
+    "longitude": 80.4226379
+  },
+  "address": "08 Bandaranayaka Rd, Weligama",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0714056515",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAYR4DZ84RC53T893342T"
+}

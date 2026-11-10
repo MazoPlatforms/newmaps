@@ -1,0 +1,58 @@
+{
+  "name": "Medicare Pharmacy (PVT) Ltd",
+  "coordinates": {
+    "latitude": 6.832742499999999,
+    "longitude": 79.86750169999999
+  },
+  "address": "Galle Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0112719947",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG01019554BZSNHBK1MNE"
+}

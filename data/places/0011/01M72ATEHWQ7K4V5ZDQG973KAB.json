@@ -1,0 +1,59 @@
+{
+  "name": "New Rock Motors",
+  "coordinates": {
+    "latitude": 6.8135821,
+    "longitude": 79.8903034
+  },
+  "address": "6a Samagi Mawatha, Moratuwa",
+  "categories": [
+    "Motorcycle parts store"
+  ],
+  "phone": "0777220935",
+  "website": "https://newrockmotors.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATEHWQ7K4V5ZDQG973KAB"
+}

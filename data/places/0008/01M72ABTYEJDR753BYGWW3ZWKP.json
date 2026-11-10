@@ -1,0 +1,58 @@
+{
+  "address": "Imaduwa",
+  "name": "Ajantha & Sons Family Restaurant",
+  "coordinates": {
+    "latitude": 6.0409431,
+    "longitude": 80.39938219999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0774066490",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "id": "01M72ABTYEJDR753BYGWW3ZWKP"
+}

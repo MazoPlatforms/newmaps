@@ -1,0 +1,58 @@
+{
+  "name": "Suwaya Pharmacy",
+  "coordinates": {
+    "latitude": 6.0299369,
+    "longitude": 80.7929729
+  },
+  "address": "No 75/1 Beliatta road, Tangalle 82200",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0769812979",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCWNH0DDYH3JHPT415B85"
+}

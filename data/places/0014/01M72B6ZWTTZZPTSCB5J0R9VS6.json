@@ -1,0 +1,58 @@
+{
+  "name": "Nimal Motors",
+  "coordinates": {
+    "latitude": 6.0412292,
+    "longitude": 80.20618569999999
+  },
+  "address": "Ossanagoda, NO 54 D. J. Wimalasurendra Mawatha, Galle 80000",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0912223553",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6ZWTTZZPTSCB5J0R9VS6"
+}

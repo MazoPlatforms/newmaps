@@ -1,0 +1,62 @@
+{
+  "name": "Sundaras Jungle Restaurant & Pool BAR",
+  "coordinates": {
+    "latitude": 7.8493182,
+    "longitude": 80.65256959999999
+  },
+  "address": "189 Kandy Rd, Dambulla 21100",
+  "categories": [
+    "Restaurant",
+    "Bar",
+    "Cocktail bar",
+    "Outdoor swimming pool"
+  ],
+  "phone": "0727086000",
+  "website": "https://sundaras.tilda.ws/restaurant",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–3 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–2 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92FCY3D33DNAEXNT3ES"
+}

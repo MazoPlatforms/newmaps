@@ -1,0 +1,59 @@
+{
+  "name": "South Lanka Hardware",
+  "coordinates": {
+    "latitude": 5.9521716,
+    "longitude": 80.5410199
+  },
+  "address": "No.56/B Bathutha Rd, Matara 81000",
+  "categories": [
+    "Hardware store",
+    "Paint store"
+  ],
+  "phone": "0412226371",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTHAQYJXGX7F0ZSS1Y0ZJ"
+}

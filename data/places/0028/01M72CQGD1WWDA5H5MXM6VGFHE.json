@@ -1,0 +1,59 @@
+{
+  "name": "PC Care",
+  "coordinates": {
+    "latitude": 7.0489226,
+    "longitude": 80.5142315
+  },
+  "address": "9/A SILVASLAND, RAMBUKPITIYA, Nawalapitiya 20650",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0754867475",
+  "website": "https://www.facebook.com/chanakabeiber/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30–7:30 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQGD1WWDA5H5MXM6VGFHE"
+}

@@ -1,0 +1,60 @@
+{
+  "address": "34 Queen's Rd, Colombo 00300",
+  "name": "Baguette French Bakery & Cafe",
+  "coordinates": {
+    "latitude": 6.8987889,
+    "longitude": 79.85540069999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "website": "http://baguette.lk/",
+  "business_status": "OPEN",
+  "phone": "0777302922",
+  "categories": [
+    "Bakery",
+    "Cafe"
+  ],
+  "id": "01M72A8VCK8RQT5R147KQP79NA"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "DD Automobile",
+  "coordinates": {
+    "latitude": 6.702279,
+    "longitude": 79.9466705
+  },
+  "address": "PW2W+WM7, Bodhirukkarama Rd, Panadura",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0722852944",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0X5SZA9RTAX915259XJ5"
+}

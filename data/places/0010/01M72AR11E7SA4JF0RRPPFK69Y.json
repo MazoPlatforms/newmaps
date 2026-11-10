@@ -1,0 +1,60 @@
+{
+  "name": "Bank Of Ceylon",
+  "coordinates": {
+    "latitude": 6.8357924,
+    "longitude": 79.86719219999999
+  },
+  "address": "286, A2",
+  "categories": [
+    "Public sector bank",
+    "ATM"
+  ],
+  "phone": "0112721060",
+  "website": "http://www.boc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11E7SA4JF0RRPPFK69Y"
+}

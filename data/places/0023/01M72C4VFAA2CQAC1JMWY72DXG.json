@@ -1,0 +1,58 @@
+{
+  "name": "My Village Supermarket",
+  "coordinates": {
+    "latitude": 8.4395584,
+    "longitude": 81.2614056
+  },
+  "address": "C7Q6+QG9, Mutur 31200",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0777039250",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4VFAA2CQAC1JMWY72DXG"
+}

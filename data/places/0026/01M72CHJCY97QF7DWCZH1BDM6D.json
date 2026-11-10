@@ -1,0 +1,59 @@
+{
+  "name": "PC Doctor",
+  "coordinates": {
+    "latitude": 6.5811402,
+    "longitude": 79.9620971
+  },
+  "address": "11 Gnanodaya Mawatha, Kalutara 12000",
+  "categories": [
+    "Computer hardware manufacturer"
+  ],
+  "phone": "0766876198",
+  "website": "https://www.facebook.com/PCDoctor7676",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHJCY97QF7DWCZH1BDM6D"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "OMEGA Higher Education Centre",
+  "coordinates": {
+    "latitude": 7.2433993999999995,
+    "longitude": 79.8469181
+  },
+  "address": "160 Station Rd, Negombo 11500",
+  "categories": [
+    "Educational institution"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXAXRT853BG5APB6PK09W"
+}

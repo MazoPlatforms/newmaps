@@ -1,0 +1,64 @@
+{
+  "name": "SWEA Motor Works (PVT)Ltd",
+  "coordinates": {
+    "latitude": 7.7833204,
+    "longitude": 80.6600855
+  },
+  "address": "Kandy - Jaffna Hwy, Dambulla",
+  "categories": [
+    "Mechanic",
+    "Auto body parts supplier",
+    "Mechanical plant",
+    "Paint store",
+    "Painting",
+    "Repair service"
+  ],
+  "phone": "0662052208",
+  "website": "https://sweamotors.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTBN718DJDT7Q8RJT55HC"
+}

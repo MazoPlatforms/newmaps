@@ -1,0 +1,58 @@
+{
+  "name": "Hasan Husain Fish Mart",
+  "coordinates": {
+    "latitude": 7.6857717999999995,
+    "longitude": 81.7362253
+  },
+  "address": "2nd Cross St, Kattankudy 30100",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0769019741",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BZH5RJGVBCVTTFSC80B5Y"
+}

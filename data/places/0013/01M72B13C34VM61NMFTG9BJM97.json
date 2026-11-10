@@ -1,0 +1,59 @@
+{
+  "name": "Ayesha Restaurant & Pub",
+  "coordinates": {
+    "latitude": 6.443879,
+    "longitude": 79.99196169999999
+  },
+  "address": "Galle Road, Kaluwamodara, Aluthgama",
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "phone": "0342298023",
+  "website": "http://www.ayesharestaurantandpub.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13C34VM61NMFTG9BJM97"
+}

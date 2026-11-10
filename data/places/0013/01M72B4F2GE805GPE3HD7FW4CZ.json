@@ -1,0 +1,58 @@
+{
+  "name": "Medisi Pharmacy",
+  "coordinates": {
+    "latitude": 6.9743664999999995,
+    "longitude": 80.7674869
+  },
+  "address": "XQF8+PXX, Sir Jayathilake Mawatha, Nuwara Eliya 22200",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0522235446",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4F2GE805GPE3HD7FW4CZ"
+}

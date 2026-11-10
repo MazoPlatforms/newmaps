@@ -1,0 +1,58 @@
+{
+  "name": "Adat Computer Vavuniya",
+  "coordinates": {
+    "latitude": 8.7432347,
+    "longitude": 80.4877791
+  },
+  "address": "Vavuniya 43000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0771578821",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5DZHPZMA23F3128A4NB4"
+}

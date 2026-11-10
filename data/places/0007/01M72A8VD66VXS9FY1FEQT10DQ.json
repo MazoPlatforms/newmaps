@@ -1,0 +1,60 @@
+{
+  "address": "108 5th Ln, Colombo 00300",
+  "name": "Café On The 5Th",
+  "coordinates": {
+    "latitude": 6.9053423,
+    "longitude": 79.8575955
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0114935684",
+  "categories": [
+    "Cafe",
+    "Restaurant",
+    "Sri Lankan restaurant"
+  ],
+  "id": "01M72A8VD66VXS9FY1FEQT10DQ"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "223 Negombo Main Rd, Katunayake",
+  "name": "Macho Food",
+  "coordinates": {
+    "latitude": 7.1488325999999995,
+    "longitude": 79.87301579999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0774376677",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72ADZ5Z7E7WMW8E3Y6HGVK2"
+}

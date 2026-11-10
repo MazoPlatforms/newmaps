@@ -1,0 +1,58 @@
+{
+  "name": "Nimali Cafe And Bakers",
+  "coordinates": {
+    "latitude": 7.3305615,
+    "longitude": 80.3020039
+  },
+  "address": "දුම්රිය පොළ ඉදිරිපිට, New Colombo Road, Polgahawela 60300",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0716951880",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZYM0FWC8SX023P33DT"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Hotel Queens Palace",
+  "coordinates": {
+    "latitude": 8.750403,
+    "longitude": 80.4946428
+  },
+  "address": "63 Outer Circular Rd, Vavuniya",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0704560000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWKXMZSS2P0B8KZRDKKZY"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "St. Mary's Medicare",
+  "coordinates": {
+    "latitude": 6.9379732,
+    "longitude": 79.9505568
+  },
+  "address": "WXQ2+56M, Welivita",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0718240106",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12:30 PM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9EB4V43XC3P2SA1TZ1H"
+}

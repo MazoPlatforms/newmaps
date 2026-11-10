@@ -1,0 +1,58 @@
+{
+  "name": "Super Center",
+  "coordinates": {
+    "latitude": 6.8897835,
+    "longitude": 80.6025283
+  },
+  "address": "26 Gamini Pura Rd, Hatton 22000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0512222322",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B59G61TD6MPN5WQ8FEDTA"
+}

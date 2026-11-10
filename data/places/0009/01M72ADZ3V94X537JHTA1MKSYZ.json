@@ -1,0 +1,61 @@
+{
+  "address": "60, 55 School Ln, Negombo 11500",
+  "name": "Glory Cafe",
+  "coordinates": {
+    "latitude": 7.235238,
+    "longitude": 79.84339969999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777991918",
+  "categories": [
+    "Cafe",
+    "Coffee shop",
+    "Restaurant",
+    "Tourist information center"
+  ],
+  "id": "01M72ADZ3V94X537JHTA1MKSYZ"
+}

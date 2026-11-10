@@ -1,0 +1,58 @@
+{
+  "address": "40 Church St, Galle 80000",
+  "name": "Chambers",
+  "coordinates": {
+    "latitude": 6.0263453,
+    "longitude": 80.21774409999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0912244320",
+  "categories": [
+    "Middle Eastern restaurant"
+  ],
+  "id": "01M72ACJC2E6VR1Y3D53YTZ8W7"
+}

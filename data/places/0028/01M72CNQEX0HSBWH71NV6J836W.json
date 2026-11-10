@@ -1,0 +1,61 @@
+{
+  "name": "PC DEN [Computer Shop & eSports Center]",
+  "coordinates": {
+    "latitude": 7.4736215999999995,
+    "longitude": 80.62291479999999
+  },
+  "address": "146/A King St, Matale 21000",
+  "categories": [
+    "Computer store",
+    "Computer repair service",
+    "Video game store"
+  ],
+  "phone": "0776066599",
+  "website": "https://www.pcden.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNQEX0HSBWH71NV6J836W"
+}

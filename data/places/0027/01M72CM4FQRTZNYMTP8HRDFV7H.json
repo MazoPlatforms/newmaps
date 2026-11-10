@@ -1,0 +1,59 @@
+{
+  "name": "Fashion Bug",
+  "coordinates": {
+    "latitude": 7.3112208,
+    "longitude": 80.6348628
+  },
+  "address": "No. 235 Katugastota Rd, Kandy 20000",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0812213833",
+  "website": "http://www.fashionbug.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CM4FQRTZNYMTP8HRDFV7H"
+}

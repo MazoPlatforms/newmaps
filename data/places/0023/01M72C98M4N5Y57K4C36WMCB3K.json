@@ -1,0 +1,59 @@
+{
+  "name": "Toni&Guy",
+  "coordinates": {
+    "latitude": 6.9094707,
+    "longitude": 79.8741792
+  },
+  "address": "65b R.G. Senanayake Mawatha, Colombo 00700",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0112102015",
+  "website": "http://toniandguysl.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M4N5Y57K4C36WMCB3K"
+}

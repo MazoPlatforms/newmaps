@@ -1,0 +1,59 @@
+{
+  "name": "New Life Medical Centre",
+  "coordinates": {
+    "latitude": 6.8246908,
+    "longitude": 79.8805641
+  },
+  "address": "86, 2 Sri Dhammadara Mawatha, Colombo 10370",
+  "categories": [
+    "Medical Center",
+    "General practitioner"
+  ],
+  "phone": "0722940454",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 PM–2:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9ECRNW77336XZEQW4MH"
+}

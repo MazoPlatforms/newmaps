@@ -1,0 +1,57 @@
+{
+  "name": "Comercial Bank ATM",
+  "coordinates": {
+    "latitude": 6.9443151,
+    "longitude": 79.855569
+  },
+  "address": "WVV4+P68, Ginthupitiya St, Colombo 01300",
+  "categories": [
+    "ATM"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQRH5N4KN7YPQMX9A64R"
+}

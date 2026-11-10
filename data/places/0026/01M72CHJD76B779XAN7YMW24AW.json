@@ -1,0 +1,59 @@
+{
+  "name": "ShopHere",
+  "coordinates": {
+    "latitude": 6.5563571,
+    "longitude": 79.9693561
+  },
+  "address": "46 Galle Rd, Kalutara 12000",
+  "categories": [
+    "Software company"
+  ],
+  "phone": "0741301440",
+  "website": "https://www.shophere.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHJD76B779XAN7YMW24AW"
+}

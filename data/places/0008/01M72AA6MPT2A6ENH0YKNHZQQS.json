@@ -1,0 +1,57 @@
+{
+  "address": "517 Peradeniya Rd, Kandy 20000",
+  "name": "Foodlands Bakery",
+  "coordinates": {
+    "latitude": 7.2838851,
+    "longitude": 80.6239009
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Bakery"
+  ],
+  "id": "01M72AA6MPT2A6ENH0YKNHZQQS"
+}

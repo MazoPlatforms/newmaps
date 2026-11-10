@@ -1,0 +1,61 @@
+{
+  "address": "10A Philip Gunawardena Mawatha, Colombo 07 00700",
+  "name": "Department Of Coffee",
+  "coordinates": {
+    "latitude": 6.9062209,
+    "longitude": 79.8635106
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "website": "https://deptofcoffee.lk/",
+  "business_status": "OPEN",
+  "phone": "0113430808",
+  "categories": [
+    "Coffee shop",
+    "Coffee store",
+    "Restaurant"
+  ],
+  "id": "01M72A8VE9NT3KWDR5J1A3HDES"
+}

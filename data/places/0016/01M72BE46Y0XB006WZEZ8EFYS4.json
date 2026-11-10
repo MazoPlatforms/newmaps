@@ -1,0 +1,58 @@
+{
+  "name": "Dananjaya Auto Works",
+  "coordinates": {
+    "latitude": 6.898026199999999,
+    "longitude": 81.0585127
+  },
+  "address": "1, 10 Badulla-Bandarawela Main Rd, Demodara 90080",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0728398123",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BE46Y0XB006WZEZ8EFYS4"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Kids Boutique Co.",
+  "coordinates": {
+    "latitude": 7.4785235,
+    "longitude": 80.3732878
+  },
+  "address": "386 Kandy Rd, Kurunegala 60000",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0761147043",
+  "website": "http://kidsboutiqueco.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D07A3VPNF549KCPQBXX1D"
+}

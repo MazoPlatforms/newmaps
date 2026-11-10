@@ -1,0 +1,60 @@
+{
+  "name": "Fms Dental Care",
+  "coordinates": {
+    "latitude": 7.0273436,
+    "longitude": 79.92439279999999
+  },
+  "address": "42, A2 kadawatha road, Ragama 11010",
+  "categories": [
+    "Pharmacy",
+    "Dental clinic",
+    "X-ray lab"
+  ],
+  "phone": "0112952323",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9EGQNH8SJABQY9YCRW4"
+}

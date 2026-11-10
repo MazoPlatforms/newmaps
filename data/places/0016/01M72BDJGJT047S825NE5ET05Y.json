@@ -1,0 +1,60 @@
+{
+  "name": "Cafe C Ella",
+  "coordinates": {
+    "latitude": 6.874549099999999,
+    "longitude": 81.0476523
+  },
+  "address": "56 A23, Ella",
+  "categories": [
+    "Sri Lankan restaurant",
+    "Cafe",
+    "Fine dining restaurant"
+  ],
+  "phone": "0718141746",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDJGJT047S825NE5ET05Y"
+}

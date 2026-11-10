@@ -1,0 +1,58 @@
+{
+  "name": "Open University Badulla Regional Centre",
+  "coordinates": {
+    "latitude": 6.9948726,
+    "longitude": 81.0545317
+  },
+  "address": "No.179 Keppetipola Road, Badulla 90000",
+  "categories": [
+    "University"
+  ],
+  "phone": "0553012151",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF08X418HS5DQ8B9K5JKS"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "City Grocery",
+  "coordinates": {
+    "latitude": 7.493726,
+    "longitude": 80.3673211
+  },
+  "address": "F9V8+FWW, Kurunegala",
+  "categories": [
+    "Store"
+  ],
+  "phone": "0722747319",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKM9VRSDZ291XWJ5PKQAC"
+}

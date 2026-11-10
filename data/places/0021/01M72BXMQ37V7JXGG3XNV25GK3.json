@@ -1,0 +1,59 @@
+{
+  "name": "Aruna's Supermarket",
+  "coordinates": {
+    "latitude": 9.3915314,
+    "longitude": 80.40781869999999
+  },
+  "address": "Piradesha Saba Rd, Kilinochchi",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0212282246",
+  "website": "https://www.facebook.com/arunas.store",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXMQ37V7JXGG3XNV25GK3"
+}

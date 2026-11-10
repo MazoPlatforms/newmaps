@@ -1,0 +1,65 @@
+{
+  "name": "Veterinary Choice",
+  "coordinates": {
+    "latitude": 8.0310957,
+    "longitude": 79.8311253
+  },
+  "address": "No: 9 Poles Rd, Puttalam 61300",
+  "categories": [
+    "Animal feed store",
+    "Animal hospital",
+    "Farm equipment supplier",
+    "Farm shop",
+    "Farmers' market",
+    "Poultry farm",
+    "Poultry store",
+    "Veterinary pharmacy"
+  ],
+  "phone": "0776615975",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNQC0YZG8S7VRCYBCQ5TW"
+}

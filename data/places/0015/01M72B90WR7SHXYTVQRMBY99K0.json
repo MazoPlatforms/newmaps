@@ -1,0 +1,60 @@
+{
+  "name": "Restaurant Weligama",
+  "coordinates": {
+    "latitude": 5.9730123,
+    "longitude": 80.43359799999999
+  },
+  "address": "No.28 first cross road palana, Weligama 81700",
+  "categories": [
+    "Cafe",
+    "Bar",
+    "Restaurant",
+    "Cocktail bar"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WR7SHXYTVQRMBY99K0"
+}

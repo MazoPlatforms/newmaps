@@ -1,0 +1,60 @@
+{
+  "name": "Games Street",
+  "coordinates": {
+    "latitude": 6.8906524,
+    "longitude": 79.8562778
+  },
+  "address": "100 Galle Rd, Colombo 00400",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0112504072",
+  "website": "http://www.gamestreet.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–12 PM",
+        "1:30–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JM3RMF870KDX9N3N5YY"
+}

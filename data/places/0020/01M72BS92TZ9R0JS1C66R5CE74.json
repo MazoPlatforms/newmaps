@@ -1,0 +1,63 @@
+{
+  "name": "Heritage Dambulla",
+  "coordinates": {
+    "latitude": 7.860112699999999,
+    "longitude": 80.65247269999999
+  },
+  "address": "Kandy Rd, Dambulla 21100",
+  "categories": [
+    "Restaurant",
+    "Breakfast restaurant",
+    "Diner",
+    "Lunch restaurant",
+    "Takeout restaurant",
+    "Snack bar"
+  ],
+  "phone": "0743819159",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92TZ9R0JS1C66R5CE74"
+}

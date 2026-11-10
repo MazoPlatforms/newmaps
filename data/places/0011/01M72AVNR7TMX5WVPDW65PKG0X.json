@@ -1,0 +1,64 @@
+{
+  "name": "Dr. Jayawardane Medical Center",
+  "coordinates": {
+    "latitude": 6.8938044,
+    "longitude": 79.9051447
+  },
+  "address": "634 Kotte Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0714872760",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVNR7TMX5WVPDW65PKG0X"
+}

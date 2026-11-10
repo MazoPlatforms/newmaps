@@ -1,0 +1,59 @@
+{
+  "name": "Sanelco",
+  "coordinates": {
+    "latitude": 6.9449990999999995,
+    "longitude": 80.7757987
+  },
+  "address": "#63, Nuwara Eliya 22200",
+  "categories": [
+    "Grocery store",
+    "Hardware store"
+  ],
+  "phone": "0777784344",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4F22FJDRN51K8XTXBRGY"
+}

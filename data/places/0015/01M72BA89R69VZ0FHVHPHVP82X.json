@@ -1,0 +1,58 @@
+{
+  "name": "Ayesh Automobile Matara",
+  "coordinates": {
+    "latitude": 5.951992199999999,
+    "longitude": 80.550748
+  },
+  "categories": [
+    "Machine workshop",
+    "Service establishment"
+  ],
+  "phone": "0776401534",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BA89R69VZ0FHVHPHVP82X"
+}

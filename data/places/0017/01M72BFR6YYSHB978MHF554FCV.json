@@ -1,0 +1,58 @@
+{
+  "name": "R K G Food City",
+  "coordinates": {
+    "latitude": 6.8447618,
+    "longitude": 81.0105896
+  },
+  "address": "R2V6+W64, Road, Bandarawela",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0575796612",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFR6YYSHB978MHF554FCV"
+}

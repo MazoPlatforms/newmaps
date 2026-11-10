@@ -1,0 +1,58 @@
+{
+  "name": "BMC Hardware",
+  "coordinates": {
+    "latitude": 7.4707564,
+    "longitude": 80.3959948
+  },
+  "address": "millawa",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0372223684",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0QGK8KVT69RXRT42P21M"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Chatura Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 7.4538747999999995,
+    "longitude": 80.6133698
+  },
+  "address": "34 Kumbiyangoda Rd, Matale 21000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0662226733",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:45 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:45 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:45 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:45 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:45 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:45 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:45 AM–8:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N3E96QHJBJ14NFCA8DX"
+}

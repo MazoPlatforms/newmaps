@@ -1,0 +1,59 @@
+{
+  "name": "Mango Tree Restaurant",
+  "coordinates": {
+    "latitude": 7.9296136,
+    "longitude": 80.695206
+  },
+  "address": "168 Inamaluwa - Sigiriya Rd, Sigiriya",
+  "categories": [
+    "Family restaurant"
+  ],
+  "phone": "0769162280",
+  "website": "https://linktr.ee/mangotreevilla",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92PK91ZZNW7STGJ6K7K"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Tangalle Medical Center",
+  "coordinates": {
+    "latitude": 6.0222424,
+    "longitude": 80.7956825
+  },
+  "address": "No.200 Moor St, Tangalle 82200",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0773265692",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:45–7:45 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:45–7:45 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:45–7:45 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:45–7:45 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:45–7:45 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:45–7:45 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:45–7:45 AM",
+        "4:30–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCWNG739CX22PTZ08ZSSD"
+}

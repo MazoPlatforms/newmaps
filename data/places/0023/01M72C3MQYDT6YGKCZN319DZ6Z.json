@@ -1,0 +1,58 @@
+{
+  "name": "SamadFruitsShop",
+  "coordinates": {
+    "latitude": 8.5023862,
+    "longitude": 81.1832522
+  },
+  "address": "G52M+X82, Main Street, Kinniya",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0759611990",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C3MQYDT6YGKCZN319DZ6Z"
+}

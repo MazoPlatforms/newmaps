@@ -1,0 +1,58 @@
+{
+  "name": "City Pharmacy Matale",
+  "coordinates": {
+    "latitude": 7.4639783,
+    "longitude": 80.6260274
+  },
+  "address": "A9, 89B Kandy Rd, Matale",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0772978715",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3QC6A0HZ8MGN7EJDT4TK"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Nature Park Anuradhapura",
+  "coordinates": {
+    "latitude": 8.3288636,
+    "longitude": 80.4124824
+  },
+  "address": "Nature Park, Anuradhapura",
+  "categories": [
+    "Park"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D372AD2F94YBKAJMN83X2"
+}

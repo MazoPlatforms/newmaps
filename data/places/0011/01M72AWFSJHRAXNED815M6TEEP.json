@@ -1,0 +1,57 @@
+{
+  "name": "A&R Motors",
+  "coordinates": {
+    "latitude": 6.8817032,
+    "longitude": 79.90427
+  },
+  "address": "Raja Maha Vihara Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AWFSJHRAXNED815M6TEEP"
+}

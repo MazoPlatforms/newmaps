@@ -1,0 +1,57 @@
+{
+  "name": "Janatha Restaurant",
+  "coordinates": {
+    "latitude": 6.9060676,
+    "longitude": 80.9112214
+  },
+  "address": "WW46+CGC, Divisional Secretary Office - Welimada, Hemapala Munidasa Mawatha, Welimada",
+  "categories": [
+    "Bakery"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B47K9XH9FMP7WGH0MA7ZF"
+}

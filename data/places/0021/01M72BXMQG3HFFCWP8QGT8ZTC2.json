@@ -1,0 +1,57 @@
+{
+  "name": "Beef Stall",
+  "coordinates": {
+    "latitude": 9.3837996,
+    "longitude": 80.4062885
+  },
+  "address": "9CM4+GG7, Kilinochchi",
+  "categories": [
+    "Supermarket"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXMQG3HFFCWP8QGT8ZTC2"
+}

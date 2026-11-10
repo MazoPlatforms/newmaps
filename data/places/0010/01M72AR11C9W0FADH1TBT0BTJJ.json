@@ -1,0 +1,61 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 6.840781,
+    "longitude": 79.8670946
+  },
+  "address": "234 Galle Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Bank",
+    "ATM",
+    "Private sector bank"
+  ],
+  "phone": "0112737074",
+  "website": "https://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11C9W0FADH1TBT0BTJJ"
+}

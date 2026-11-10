@@ -1,0 +1,58 @@
+{
+  "name": "Poisson Aqua Mart",
+  "coordinates": {
+    "latitude": 6.5047334999999995,
+    "longitude": 80.0607204
+  },
+  "address": "yatadola, Matugama 12200",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0772874094",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJAJEY6JW98RA7CDA13VW"
+}

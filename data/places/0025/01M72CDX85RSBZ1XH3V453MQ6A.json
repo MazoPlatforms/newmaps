@@ -1,0 +1,58 @@
+{
+  "name": "Gayani Enterprises",
+  "coordinates": {
+    "latitude": 6.899820699999999,
+    "longitude": 79.89521979999999
+  },
+  "address": "51a Koswatta Rd, Sri Jayawardenepura Kotte 11222",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0777405697",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDX85RSBZ1XH3V453MQ6A"
+}

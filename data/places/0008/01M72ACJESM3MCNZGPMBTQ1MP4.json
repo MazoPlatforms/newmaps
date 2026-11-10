@@ -1,0 +1,59 @@
+{
+  "address": "369G+4XX, Road, Galle 80000",
+  "name": "Bank Of Ceylon",
+  "coordinates": {
+    "latitude": 6.0678505,
+    "longitude": 80.22748039999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0912227090",
+  "categories": [
+    "Public sector bank",
+    "ATM"
+  ],
+  "id": "01M72ACJESM3MCNZGPMBTQ1MP4"
+}

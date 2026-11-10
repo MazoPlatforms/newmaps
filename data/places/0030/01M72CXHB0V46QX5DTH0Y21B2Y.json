@@ -1,0 +1,58 @@
+{
+  "name": "Lucky Hardware",
+  "coordinates": {
+    "latitude": 6.9888289,
+    "longitude": 81.0585729
+  },
+  "address": "55 Bazaar Street, Badulla",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0552223478",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXHB0V46QX5DTH0Y21B2Y"
+}

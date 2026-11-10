@@ -1,0 +1,62 @@
+{
+  "name": "Car Spa Service Station",
+  "coordinates": {
+    "latitude": 6.0505834,
+    "longitude": 80.2280662
+  },
+  "address": "97/1B B109, Galle 80000",
+  "categories": [
+    "Car wash",
+    "Air filter supplier",
+    "News service",
+    "Oil change service",
+    "Store"
+  ],
+  "phone": "0773743766",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6ZWSG3N3ZERHKD92EVHH"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Salon Sinali",
+  "coordinates": {
+    "latitude": 6.037598,
+    "longitude": 80.2332643
+  },
+  "address": "No 27 Megalle Lane, Galle 80000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0713000760",
+  "website": "https://www.facebook.com/salonsinali",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRN3D7R4FEYCMX3N4SZG9"
+}

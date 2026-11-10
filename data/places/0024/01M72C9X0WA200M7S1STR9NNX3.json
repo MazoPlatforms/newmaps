@@ -1,0 +1,59 @@
+{
+  "name": "Print Mart",
+  "coordinates": {
+    "latitude": 6.8920952,
+    "longitude": 79.8580167
+  },
+  "address": "21 De Vos Avenue, Duplication Road, Colombo 00400",
+  "categories": [
+    "Print shop"
+  ],
+  "phone": "0112559199",
+  "website": "http://www.printmart.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9X0WA200M7S1STR9NNX3"
+}

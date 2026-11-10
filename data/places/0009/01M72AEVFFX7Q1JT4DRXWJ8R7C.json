@@ -1,0 +1,59 @@
+{
+  "address": "Main Street, No.100 Grand St, Negombo 11410",
+  "name": "St. Mary's Church - Grand Street",
+  "coordinates": {
+    "latitude": 7.2102862,
+    "longitude": 79.8372703
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0312222128",
+  "categories": [
+    "Tourist attraction",
+    "Catholic church"
+  ],
+  "id": "01M72AEVFFX7Q1JT4DRXWJ8R7C"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon Master Cut",
+  "coordinates": {
+    "latitude": 7.480223199999999,
+    "longitude": 80.3707295
+  },
+  "address": "304 A Kandy Rd, Kurunegala 60000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0757094874",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0V76CPR0P56152WJZ3GH"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "F.R. Stores",
+  "coordinates": {
+    "latitude": 8.4960132,
+    "longitude": 81.1868188
+  },
+  "address": "No 149, Annal Street, Mancholaichenai, Kinniya 03",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0740707607",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–12 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C408RGXR9GDMCNN3F6W6S"
+}

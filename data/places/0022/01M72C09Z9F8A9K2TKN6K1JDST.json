@@ -1,0 +1,58 @@
+{
+  "name": "Gulf Food City",
+  "coordinates": {
+    "latitude": 7.3940895,
+    "longitude": 81.8385464
+  },
+  "address": "70, Kalayana Road, Sainthamaruthu- 09, 32280",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0777210037",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09Z9F8A9K2TKN6K1JDST"
+}

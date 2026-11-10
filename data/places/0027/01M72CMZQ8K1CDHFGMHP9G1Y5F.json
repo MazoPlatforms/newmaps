@@ -1,0 +1,58 @@
+{
+  "name": "SalonHk",
+  "coordinates": {
+    "latitude": 7.2715594999999995,
+    "longitude": 80.607671
+  },
+  "address": "879 William Gopallawa Mawatha, Kandy",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0710876315",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQ8K1CDHFGMHP9G1Y5F"
+}

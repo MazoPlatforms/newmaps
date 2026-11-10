@@ -1,0 +1,59 @@
+{
+  "name": "Milroy Auto Engineers",
+  "coordinates": {
+    "latitude": 6.9598077,
+    "longitude": 79.9273375
+  },
+  "address": "Kohalwila Rd, 11630",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0112913465",
+  "website": "https://milroybmw.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDY1NS99TH4P9WX50KPP"
+}

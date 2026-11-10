@@ -1,0 +1,58 @@
+{
+  "name": "The Devon Restaurant & Bakery",
+  "coordinates": {
+    "latitude": 6.8982617,
+    "longitude": 80.5972579
+  },
+  "address": "Nursing home, road, Hatton 22000",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0512225491",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B47K7B0PPW56T53PV27CD"
+}

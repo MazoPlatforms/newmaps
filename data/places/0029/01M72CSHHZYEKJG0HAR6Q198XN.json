@@ -1,0 +1,58 @@
+{
+  "name": "Mr.Programmer",
+  "coordinates": {
+    "latitude": 6.2471309999999995,
+    "longitude": 80.05630819999999
+  },
+  "categories": [
+    "Computer software store",
+    "Service establishment"
+  ],
+  "phone": "0761671009",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CSHHZYEKJG0HAR6Q198XN"
+}

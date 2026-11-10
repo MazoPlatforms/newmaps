@@ -1,0 +1,59 @@
+{
+  "name": "Nisal Auto Service",
+  "coordinates": {
+    "latitude": 6.1375363,
+    "longitude": 80.11485549999999
+  },
+  "address": "44Q7+2W9, Baddegama Rd, Hikkaduwa 80240",
+  "categories": [
+    "Car wash",
+    "Auto restoration service"
+  ],
+  "phone": "0912277852",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7T7AQT5ZXET5J25GYNNJ"
+}

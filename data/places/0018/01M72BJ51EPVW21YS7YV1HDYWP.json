@@ -1,0 +1,63 @@
+{
+  "name": "Nipuni Stores",
+  "coordinates": {
+    "latitude": 7.237235999999999,
+    "longitude": 80.286822
+  },
+  "address": "67PP+VPW, Kegalle",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0352282902",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–7 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–7 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–7 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–7 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–7 AM",
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJ51EPVW21YS7YV1HDYWP"
+}

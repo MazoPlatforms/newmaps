@@ -1,0 +1,58 @@
+{
+  "name": "Sleek Salon",
+  "coordinates": {
+    "latitude": 6.838811,
+    "longitude": 79.8674204
+  },
+  "address": "No: 256B Galle Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0112712730",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CB2CJBRMQ9AGC09D15B7N"
+}

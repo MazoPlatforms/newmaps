@@ -1,0 +1,58 @@
+{
+  "name": "Health Right Medicals",
+  "coordinates": {
+    "latitude": 6.0454037,
+    "longitude": 80.21070519999999
+  },
+  "address": "No.96/B Wiskam Rd, Galle 80000",
+  "categories": [
+    "Pharmaceutical company"
+  ],
+  "phone": "0720346229",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6GTDSDZ6GZR97EVJANHW"
+}

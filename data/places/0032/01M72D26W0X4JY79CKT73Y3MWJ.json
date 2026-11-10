@@ -1,0 +1,57 @@
+{
+  "name": "Chillaw Water Mart",
+  "coordinates": {
+    "latitude": 7.565939299999999,
+    "longitude": 79.8018128
+  },
+  "address": "HR82+9PG, Chilaw - Colombo Main Rd, Chilaw",
+  "categories": [
+    "Hardware store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D26W0X4JY79CKT73Y3MWJ"
+}

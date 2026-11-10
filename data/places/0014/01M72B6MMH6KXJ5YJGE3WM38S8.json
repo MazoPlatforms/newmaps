@@ -1,0 +1,58 @@
+{
+  "name": "Eclipse Education",
+  "coordinates": {
+    "latitude": 6.033373399999999,
+    "longitude": 80.2153562
+  },
+  "address": "28 4th floor, complex 80000",
+  "categories": [
+    "Training center"
+  ],
+  "phone": "0771252303",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6MMH6KXJ5YJGE3WM38S8"
+}

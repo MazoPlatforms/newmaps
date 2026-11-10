@@ -1,0 +1,59 @@
+{
+  "name": "Bishop's College",
+  "coordinates": {
+    "latitude": 6.913899499999999,
+    "longitude": 79.8551949
+  },
+  "address": "15 Boyd Pl, Colombo 00300",
+  "categories": [
+    "Private college"
+  ],
+  "phone": "0112422691",
+  "website": "http://www.bishopscollege.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BJHG3GPEJ31FZBFB3C"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "142 Colombo St, Kandy 20000",
+  "name": "New SVS Trade Center",
+  "coordinates": {
+    "latitude": 7.2945299,
+    "longitude": 80.6363203
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0814146691",
+  "categories": [
+    "General store"
+  ],
+  "id": "01M72AAGBFX9WSYNRSYF63YEES"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "அஜேஸ் ஸ்ரோர்ஸ் AJESH Grocery Store",
+  "coordinates": {
+    "latitude": 9.648358199999999,
+    "longitude": 80.0565062
+  },
+  "address": "斯里蘭卡4 ம் குறுக்கு , மணியம்தோட்டம்",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0766083631",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTYSRQEN3EPNWG004X6WT"
+}

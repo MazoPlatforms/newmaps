@@ -1,0 +1,58 @@
+{
+  "name": "Primary Medical Care Unit - Thummodara Hospital",
+  "coordinates": {
+    "latitude": 6.8635283,
+    "longitude": 80.1696056
+  },
+  "address": "V579+CR9, Labugama",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0362251308",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4XVZ6K8DYH7B0WMVYJP7"
+}

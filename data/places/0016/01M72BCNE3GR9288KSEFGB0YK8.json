@@ -1,0 +1,58 @@
+{
+  "name": "The Fine Dine",
+  "coordinates": {
+    "latitude": 6.0206487,
+    "longitude": 80.7921056
+  },
+  "address": "1 st Street, Pallikkudawa Rd, Tangalle 82200",
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "phone": "0775329344",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE3GR9288KSEFGB0YK8"
+}

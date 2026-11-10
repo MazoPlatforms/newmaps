@@ -1,0 +1,67 @@
+{
+  "name": "M H Cader Meesa",
+  "coordinates": {
+    "latitude": 6.035539099999999,
+    "longitude": 80.21938949999999
+  },
+  "address": "29 Ward St, Galle 80000",
+  "categories": [
+    "Hardware store",
+    "Carpet wholesaler",
+    "Cement supplier",
+    "Locks supplier",
+    "Paint store",
+    "Pipe supplier",
+    "Plywood supplier",
+    "Steel fabricator",
+    "Tool store"
+  ],
+  "phone": "0912223693",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 PM",
+        "2–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRJT6TR8YH5BQMPVHY3AA"
+}

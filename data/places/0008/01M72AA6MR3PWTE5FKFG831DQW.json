@@ -1,0 +1,59 @@
+{
+  "address": "382a Kandy Rd, Kandy 20000",
+  "name": "Light House Family Restaurant",
+  "coordinates": {
+    "latitude": 7.285082,
+    "longitude": 80.62481559999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    }
+  ],
+  "website": "http://www.lighthousefamilyrestuarant.com/",
+  "business_status": "OPEN",
+  "phone": "0817925259",
+  "categories": [
+    "Family restaurant"
+  ],
+  "id": "01M72AA6MR3PWTE5FKFG831DQW"
+}

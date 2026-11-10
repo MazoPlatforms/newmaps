@@ -1,0 +1,60 @@
+{
+  "address": "50 Muttiah Rd, Colombo",
+  "name": "Moors Sports Club",
+  "coordinates": {
+    "latitude": 6.9180822,
+    "longitude": 79.8571577
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://moorssc.lk/",
+  "business_status": "OPEN",
+  "phone": "0112304224",
+  "categories": [
+    "Sports club",
+    "Playground"
+  ],
+  "id": "01M72A9SEHDVRAP172N6BXN5PE"
+}

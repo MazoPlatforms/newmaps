@@ -1,0 +1,60 @@
+{
+  "name": "Refresh Beach Restaurant",
+  "coordinates": {
+    "latitude": 6.1303005,
+    "longitude": 80.1021225
+  },
+  "address": "384, Galle Road, A2, Hikkaduwa",
+  "categories": [
+    "Seafood restaurant",
+    "Restaurant"
+  ],
+  "phone": "0912277810",
+  "website": "https://www.refreshhikkaduwa.com/index.php/en/restaurants/hikkaduwa",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77EVSYQ3HXJSX7A2P4CN"
+}

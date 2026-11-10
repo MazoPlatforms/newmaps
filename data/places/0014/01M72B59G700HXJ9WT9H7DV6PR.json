@@ -1,0 +1,57 @@
+{
+  "name": "Lathus Grocery Stores",
+  "coordinates": {
+    "latitude": 6.900344199999999,
+    "longitude": 80.5966093
+  },
+  "address": "HATTON, ROZELLA 22008",
+  "categories": [
+    "Grocery store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30–9:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B59G700HXJ9WT9H7DV6PR"
+}

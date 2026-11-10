@@ -1,0 +1,58 @@
+{
+  "name": "Restaurant",
+  "coordinates": {
+    "latitude": 6.865068699999999,
+    "longitude": 79.8816909
+  },
+  "address": "VV8J+2MG, Kashyapa Road, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0774214116",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02693E7ARWS0SA03EKR"
+}

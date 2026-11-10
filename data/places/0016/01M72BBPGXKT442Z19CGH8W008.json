@@ -1,0 +1,61 @@
+{
+  "name": "New City Hotel Restaurant And Bakery",
+  "coordinates": {
+    "latitude": 6.0255956,
+    "longitude": 80.7944279
+  },
+  "address": "No.190 Mahawela road, Tangalle 82200",
+  "categories": [
+    "Cafe",
+    "Restaurant",
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0719071102",
+  "website": "https://lankaraj.com/food/new-city-hotel-restaurant-tangalle/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:15 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:15 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:15 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:15 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:15 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:15 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:15 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGXKT442Z19CGH8W008"
+}

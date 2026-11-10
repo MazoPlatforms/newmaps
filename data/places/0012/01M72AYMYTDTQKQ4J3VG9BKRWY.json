@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 7.0936689,
+    "longitude": 79.9977449
+  },
+  "address": "No 51 Queen Mary's Rd, Gampaha 11870",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0332224136",
+  "website": "https://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYMYTDTQKQ4J3VG9BKRWY"
+}

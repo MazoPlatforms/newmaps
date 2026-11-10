@@ -1,0 +1,58 @@
+{
+  "name": "Happy Digital Tec",
+  "coordinates": {
+    "latitude": 6.933041299999999,
+    "longitude": 79.86262119999999
+  },
+  "address": "No.75D sri sangaraja, road 01000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0113421156",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JN9KY5NHSQ9ZN7JB9PP"
+}

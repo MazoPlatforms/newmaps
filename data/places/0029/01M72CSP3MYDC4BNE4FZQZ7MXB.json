@@ -1,0 +1,58 @@
+{
+  "name": "Deshapriya Salon",
+  "coordinates": {
+    "latitude": 6.278446199999999,
+    "longitude": 80.0403327
+  },
+  "address": "04 Galle Rd, Balapitiya",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0776334208",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CSP3MYDC4BNE4FZQZ7MXB"
+}

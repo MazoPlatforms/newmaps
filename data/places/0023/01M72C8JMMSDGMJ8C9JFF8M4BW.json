@@ -1,0 +1,60 @@
+{
+  "name": "City Tech Computers",
+  "coordinates": {
+    "latitude": 6.9369803999999995,
+    "longitude": 79.8508822
+  },
+  "address": "144 1/3 1st Floor, 1st Cross St, Colombo",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0112392878",
+  "website": "http://www.gtlsoftwares.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 PM",
+        "1–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JMMSDGMJ8C9JFF8M4BW"
+}

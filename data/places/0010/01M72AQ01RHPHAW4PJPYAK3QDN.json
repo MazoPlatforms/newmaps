@@ -1,0 +1,58 @@
+{
+  "name": "Muncheeze Cafe",
+  "coordinates": {
+    "latitude": 6.8325002999999995,
+    "longitude": 79.86722929999999
+  },
+  "address": "1 Station Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0762345679",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ01RHPHAW4PJPYAK3QDN"
+}

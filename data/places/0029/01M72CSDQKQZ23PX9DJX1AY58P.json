@@ -1,0 +1,59 @@
+{
+  "name": "Daizy Clothing",
+  "coordinates": {
+    "latitude": 6.2415123999999995,
+    "longitude": 80.05293429999999
+  },
+  "address": "134A Galle Rd, Ambalangoda 80300",
+  "categories": [
+    "Clothing store",
+    "Women's clothing store"
+  ],
+  "phone": "0714450231",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CSDQKQZ23PX9DJX1AY58P"
+}

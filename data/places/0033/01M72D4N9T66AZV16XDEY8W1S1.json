@@ -1,0 +1,58 @@
+{
+  "name": "HP World",
+  "coordinates": {
+    "latitude": 9.6689603,
+    "longitude": 80.01259619999999
+  },
+  "address": "70, 72 Stanley Rd, Jaffna",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0777439772",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4N9T66AZV16XDEY8W1S1"
+}

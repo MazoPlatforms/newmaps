@@ -1,0 +1,58 @@
+{
+  "name": "Cargills Food City - Ratnapura 02",
+  "coordinates": {
+    "latitude": 6.6845374,
+    "longitude": 80.4008102
+  },
+  "address": "1 Outer Circular Rd, Ratnapura",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0452222115",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BH4TT5ZWNXSAX37HNDQE9"
+}

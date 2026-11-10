@@ -1,0 +1,59 @@
+{
+  "address": "77 Abeygoonaratne Mawatha, Colombo 01000",
+  "name": "New Colombo Groceries",
+  "coordinates": {
+    "latitude": 6.9256839,
+    "longitude": 79.8656414
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11:30 AM",
+        "1:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0755695839",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D1949RJY6T85MGCWWD1"
+}

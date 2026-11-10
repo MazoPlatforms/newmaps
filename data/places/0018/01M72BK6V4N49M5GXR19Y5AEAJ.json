@@ -1,0 +1,61 @@
+{
+  "name": "HungryZilla",
+  "coordinates": {
+    "latitude": 7.2521903,
+    "longitude": 80.4492108
+  },
+  "address": "HungryZilla, 92, New, Kandy Rd, Mawanella 71500",
+  "categories": [
+    "Cake shop",
+    "Cafe",
+    "Juice shop",
+    "Pastry shop"
+  ],
+  "phone": "0714242184",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BK6V4N49M5GXR19Y5AEAJ"
+}

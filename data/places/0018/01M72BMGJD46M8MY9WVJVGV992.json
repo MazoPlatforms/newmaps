@@ -1,0 +1,58 @@
+{
+  "name": "Yaman Cafe & Garden Restaurant",
+  "coordinates": {
+    "latitude": 7.4314374,
+    "longitude": 79.83157
+  },
+  "address": "CRJJ+HJG, Meda Hattiniya, Marawila",
+  "categories": [
+    "Family restaurant"
+  ],
+  "phone": "0777212174",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMGJD46M8MY9WVJVGV992"
+}

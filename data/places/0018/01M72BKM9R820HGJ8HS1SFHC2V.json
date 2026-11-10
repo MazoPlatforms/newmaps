@@ -1,0 +1,58 @@
+{
+  "name": "Fn Family Mart",
+  "coordinates": {
+    "latitude": 7.4750049,
+    "longitude": 80.3885772
+  },
+  "address": "Samodaya Mawatha, Kurunegala",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0703382000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKM9R820HGJ8HS1SFHC2V"
+}

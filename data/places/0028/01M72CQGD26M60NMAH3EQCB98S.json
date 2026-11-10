@@ -1,0 +1,58 @@
+{
+  "name": "Profix Solution",
+  "coordinates": {
+    "latitude": 7.0557840999999994,
+    "longitude": 80.5318015
+  },
+  "address": "147 Ambagamuwa Rd, Nawalapitiya",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0773900872",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQGD26M60NMAH3EQCB98S"
+}

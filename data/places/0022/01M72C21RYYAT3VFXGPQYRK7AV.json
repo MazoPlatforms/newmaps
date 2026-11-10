@@ -1,0 +1,59 @@
+{
+  "name": "Astra Mini Market",
+  "coordinates": {
+    "latitude": 6.8752705999999995,
+    "longitude": 81.8271573
+  },
+  "address": "Old AGA Office Road Pottuvil 13, 32500",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0754985555",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM",
+        "3:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C21RYYAT3VFXGPQYRK7AV"
+}

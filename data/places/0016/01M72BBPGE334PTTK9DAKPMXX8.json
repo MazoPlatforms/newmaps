@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Noor",
+  "coordinates": {
+    "latitude": 6.1386087,
+    "longitude": 81.1280623
+  },
+  "address": "44QH+C6V, A2, Hambantota",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0728162187",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGE334PTTK9DAKPMXX8"
+}

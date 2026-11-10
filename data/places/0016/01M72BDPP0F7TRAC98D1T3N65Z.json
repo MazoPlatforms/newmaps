@@ -1,0 +1,59 @@
+{
+  "name": "Musaeus College",
+  "coordinates": {
+    "latitude": 6.9147384,
+    "longitude": 79.86861119999999
+  },
+  "address": "58 Rosmead Pl, Colombo 00700",
+  "categories": [
+    "Private educational institution"
+  ],
+  "phone": "0112686532",
+  "website": "http://www.musaeus.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:45 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:45 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:45 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:45 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:45 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDPP0F7TRAC98D1T3N65Z"
+}

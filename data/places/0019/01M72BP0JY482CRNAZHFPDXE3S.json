@@ -1,0 +1,58 @@
+{
+  "name": "Sudesh Auto",
+  "coordinates": {
+    "latitude": 8.0300377,
+    "longitude": 79.85957429999999
+  },
+  "address": "No.44 berister garden, A12, Puttalam",
+  "categories": [
+    "Auto body shop"
+  ],
+  "phone": "0763807400",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BP0JY482CRNAZHFPDXE3S"
+}

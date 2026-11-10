@@ -1,0 +1,57 @@
+{
+  "name": "Bimsara Wholesale & Retail Grocery",
+  "coordinates": {
+    "latitude": 6.7115887999999995,
+    "longitude": 79.9318074
+  },
+  "address": "Panadura",
+  "categories": [
+    "Supermarket"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B03AJEBM2PRWAP424B56A"
+}

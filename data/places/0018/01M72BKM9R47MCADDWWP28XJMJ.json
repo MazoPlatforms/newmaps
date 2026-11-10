@@ -1,0 +1,64 @@
+{
+  "name": "Richard Express Wholesale & Retail Center",
+  "coordinates": {
+    "latitude": 7.4965793,
+    "longitude": 80.3549572
+  },
+  "address": "25 Welangolla Rd, Kurunegala 60000",
+  "categories": [
+    "Grocery store",
+    "Fruit and vegetable store",
+    "Gift shop",
+    "Store",
+    "Household goods wholesaler",
+    "Toy store",
+    "Wholesaler"
+  ],
+  "phone": "0773540002",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKM9R47MCADDWWP28XJMJ"
+}

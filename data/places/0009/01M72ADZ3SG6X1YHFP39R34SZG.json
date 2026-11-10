@@ -1,0 +1,60 @@
+{
+  "address": "B-Building, Shopping Complex, No. 2, Negombo 11500",
+  "name": "New Negombo Cafe",
+  "coordinates": {
+    "latitude": 7.2091620999999995,
+    "longitude": 79.8406729
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–12 PM",
+        "2:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0764906103",
+  "categories": [
+    "Restaurant",
+    "Coffee shop"
+  ],
+  "id": "01M72ADZ3SG6X1YHFP39R34SZG"
+}

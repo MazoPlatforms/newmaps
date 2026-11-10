@@ -1,0 +1,58 @@
+{
+  "name": "AR.Grocery",
+  "coordinates": {
+    "latitude": 6.895256,
+    "longitude": 80.5955476
+  },
+  "address": "Dimbulla Road, Hatton - Maskeliya - Dalhousie Rd, Hatton 22000",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0703300203",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B59G7PW8ZD82R1ACR9DPW"
+}

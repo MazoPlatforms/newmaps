@@ -1,0 +1,58 @@
+{
+  "address": "Negombo",
+  "name": "Rawzan Fruit Center",
+  "coordinates": {
+    "latitude": 7.2183366,
+    "longitude": 79.84944589999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0779013604",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AECP78CGQZNZGTE87YHNZ"
+}

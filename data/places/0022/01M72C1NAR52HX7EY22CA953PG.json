@@ -1,0 +1,65 @@
+{
+  "name": "Sazna Trading Centre",
+  "coordinates": {
+    "latitude": 7.2244024,
+    "longitude": 81.8501088
+  },
+  "address": "236, 02 Main St, Akkaraipattu 92400",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0778305209",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–1 PM",
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–1 PM",
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–1 PM",
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–1 PM",
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–10:30 AM",
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM",
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–1 PM",
+        "4–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1NAR52HX7EY22CA953PG"
+}

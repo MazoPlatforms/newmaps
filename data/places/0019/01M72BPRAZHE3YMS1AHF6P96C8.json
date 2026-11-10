@@ -1,0 +1,58 @@
+{
+  "name": "GB Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 8.3566241,
+    "longitude": 80.4216947
+  },
+  "address": "Jaffna Junction, 425A, Opposite Mahinda College, Anuradhapura 50000",
+  "categories": [
+    "Family restaurant"
+  ],
+  "phone": "0760717007",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRAZHE3YMS1AHF6P96C8"
+}

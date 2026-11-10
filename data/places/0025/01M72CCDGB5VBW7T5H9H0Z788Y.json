@@ -1,0 +1,58 @@
+{
+  "name": "Salon Beautray",
+  "coordinates": {
+    "latitude": 6.8030998,
+    "longitude": 79.8887139
+  },
+  "address": "NO:10 Model Town Rd, Moratuwa 10400",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0703684791",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCDGB5VBW7T5H9H0Z788Y"
+}

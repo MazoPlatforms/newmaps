@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 6.9675283,
+    "longitude": 79.87225459999999
+  },
+  "address": "No 802 Aluthmawatha Rd, Colombo 01500",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112522559",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQQZTD6RSQRZE3AK7P8D"
+}

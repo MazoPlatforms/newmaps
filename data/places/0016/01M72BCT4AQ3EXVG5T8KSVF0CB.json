@@ -1,0 +1,58 @@
+{
+  "name": "Cargoes Food City",
+  "coordinates": {
+    "latitude": 6.0334598,
+    "longitude": 80.7853276
+  },
+  "address": "2QMP+94P, Polommaruwa, Tangalle",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0472244464",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCT4AQ3EXVG5T8KSVF0CB"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "New Clinic Complex, General Hospital Badulla",
+  "coordinates": {
+    "latitude": 6.9923204,
+    "longitude": 81.0511858
+  },
+  "address": "X3R2+WFF, Daya Gunasekara Mawatha, Badulla",
+  "categories": [
+    "Hospital department"
+  ],
+  "phone": "0552222261",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWG49BRFYXK4P3H06ZSC"
+}

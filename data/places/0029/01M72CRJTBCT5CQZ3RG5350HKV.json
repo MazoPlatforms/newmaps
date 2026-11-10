@@ -1,0 +1,58 @@
+{
+  "name": "Ranasinghe Trade Center",
+  "coordinates": {
+    "latitude": 6.0705702,
+    "longitude": 80.2313204
+  },
+  "address": "295/3 Hirimbura Rd, Galle 80000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0912232603",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRJTBCT5CQZ3RG5350HKV"
+}

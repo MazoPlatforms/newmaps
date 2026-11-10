@@ -1,0 +1,65 @@
+{
+  "name": "Raihan Trading Company",
+  "coordinates": {
+    "latitude": 7.295065999999999,
+    "longitude": 80.6375279
+  },
+  "address": "29 Raja Veediya, Kandy 20000",
+  "categories": [
+    "Hardware store",
+    "Electronics repair shop",
+    "Electric generator shop",
+    "Machine shop",
+    "Pneumatic tools supplier",
+    "Repair service",
+    "Tool repair shop",
+    "Tool store"
+  ],
+  "phone": "0763298528",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMTD3A0CBK6W5F30GFAH1"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Union Bank Badulla Branch",
+  "coordinates": {
+    "latitude": 6.9848319,
+    "longitude": 81.0589318
+  },
+  "address": "X3M5+XJ2, 81 Bank Road, Badulla",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0552224657",
+  "website": "http://www.unionb.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF11486SE1F8F2WT5EG1H"
+}

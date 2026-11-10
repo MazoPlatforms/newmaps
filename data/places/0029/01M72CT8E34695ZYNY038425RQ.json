@@ -1,0 +1,61 @@
+{
+  "name": "KE Office Automation",
+  "coordinates": {
+    "latitude": 5.947435899999999,
+    "longitude": 80.5335729
+  },
+  "address": "WGWM+XCG, B535, Matara",
+  "categories": [
+    "Office equipment supplier",
+    "CD store",
+    "Computer store",
+    "Printing equipment supplier"
+  ],
+  "phone": "0412233991",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CT8E34695ZYNY038425RQ"
+}

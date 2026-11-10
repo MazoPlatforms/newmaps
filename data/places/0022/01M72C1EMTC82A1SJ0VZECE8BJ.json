@@ -1,0 +1,59 @@
+{
+  "name": "Sunrise Auto Service",
+  "coordinates": {
+    "latitude": 7.2264123,
+    "longitude": 81.8504552
+  },
+  "address": "No.557 / 2 Akkaraipattu - Kalmunai Rd, Akkaraipattu 32000",
+  "categories": [
+    "Chauffeur service"
+  ],
+  "phone": "0773814830",
+  "website": "http://sunriseautoservice.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1EMTC82A1SJ0VZECE8BJ"
+}

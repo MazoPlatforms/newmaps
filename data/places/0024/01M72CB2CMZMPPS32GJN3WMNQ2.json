@@ -1,0 +1,59 @@
+{
+  "name": "Ropara Hair And Beauty",
+  "coordinates": {
+    "latitude": 6.8328039,
+    "longitude": 79.8686843
+  },
+  "address": "No.8 D.J. Wijesiriwardhena, Road, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0711123121",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–7 AM",
+        "9:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CB2CMZMPPS32GJN3WMNQ2"
+}

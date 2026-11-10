@@ -1,0 +1,57 @@
+{
+  "name": "Study Point",
+  "coordinates": {
+    "latitude": 8.0417483,
+    "longitude": 79.823132
+  },
+  "address": "25A/1, Mullipuram, Puttalam",
+  "categories": [
+    "Education center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNSKGWBJXQEES3J602A3M"
+}

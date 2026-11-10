@@ -1,0 +1,58 @@
+{
+  "name": "Muneswara Cafe",
+  "coordinates": {
+    "latitude": 9.6684936,
+    "longitude": 80.01507199999999
+  },
+  "address": "266/1 Stanley Rd, Jaffna",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0777993470",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTK4KZTWFR0PPMG3A6MW7"
+}

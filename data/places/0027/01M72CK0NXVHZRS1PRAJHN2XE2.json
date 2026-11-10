@@ -1,0 +1,58 @@
+{
+  "name": "Siripathi Trade Center",
+  "coordinates": {
+    "latitude": 6.7091657,
+    "longitude": 79.9227992
+  },
+  "address": "7 Walter Salgado Mawatha, Panadura",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0382231010",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK0NXVHZRS1PRAJHN2XE2"
+}

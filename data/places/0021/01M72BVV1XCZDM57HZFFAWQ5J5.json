@@ -1,0 +1,62 @@
+{
+  "name": "Sinbon Bakery - Vavuniya",
+  "coordinates": {
+    "latitude": 8.7525082,
+    "longitude": 80.4978146
+  },
+  "address": "ground floor, A9, Vavuniya",
+  "categories": [
+    "Cake shop",
+    "Bakery",
+    "Cafe",
+    "Cookie shop",
+    "Cupcake shop"
+  ],
+  "phone": "0740586262",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVV1XCZDM57HZFFAWQ5J5"
+}

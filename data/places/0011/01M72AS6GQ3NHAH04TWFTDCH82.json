@@ -1,0 +1,59 @@
+{
+  "name": "Cava Cafe & Bakery",
+  "coordinates": {
+    "latitude": 6.8794977,
+    "longitude": 79.8692974
+  },
+  "address": "536, 5 Havelock Rd, Colombo 00500",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0771588222",
+  "website": "https://www.instagram.com/cava_cafe_bakery/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6GQ3NHAH04TWFTDCH82"
+}

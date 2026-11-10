@@ -1,0 +1,60 @@
+{
+  "name": "State Fertilizer Company Limited",
+  "coordinates": {
+    "latitude": 6.9861109,
+    "longitude": 79.8987863
+  },
+  "address": "Lakpohora Swarna, Jayanthi Mw, Wattala",
+  "categories": [
+    "Fertilizer supplier",
+    "Store"
+  ],
+  "phone": "0112930298",
+  "website": "http://www.statefertilizer.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48RNFESTF7X6V67GJG0"
+}

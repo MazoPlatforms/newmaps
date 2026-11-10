@@ -1,0 +1,59 @@
+{
+  "name": "Kandy Stores",
+  "coordinates": {
+    "latitude": 7.4894199,
+    "longitude": 80.3632729
+  },
+  "address": "65 Main Street, Kurunegala",
+  "categories": [
+    "Clothing store",
+    "Home improvement store"
+  ],
+  "phone": "0372222446",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D079WJY2F59TBJFSQS0RF"
+}

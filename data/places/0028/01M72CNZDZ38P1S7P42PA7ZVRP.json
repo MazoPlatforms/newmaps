@@ -1,0 +1,61 @@
+{
+  "name": "Faces Beauty Salon PVT Ltd",
+  "coordinates": {
+    "latitude": 7.5051518999999995,
+    "longitude": 80.62633629999999
+  },
+  "address": "120/5/94 Winrose Garden, Matale 21000",
+  "categories": [
+    "Beauty salon",
+    "Nail salon",
+    "Hairdresser"
+  ],
+  "phone": "0776130039",
+  "website": "https://www.facebook.com/profile.php?id=100089316017586",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNZDZ38P1S7P42PA7ZVRP"
+}

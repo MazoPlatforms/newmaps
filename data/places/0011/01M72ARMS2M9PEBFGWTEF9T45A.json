@@ -1,0 +1,58 @@
+{
+  "name": "Nilanka Motor Stores",
+  "coordinates": {
+    "latitude": 6.864943599999999,
+    "longitude": 79.86310329999999
+  },
+  "address": "488 Galle Rd, Colombo 00600",
+  "categories": [
+    "Auto parts store"
+  ],
+  "phone": "0112580239",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMS2M9PEBFGWTEF9T45A"
+}

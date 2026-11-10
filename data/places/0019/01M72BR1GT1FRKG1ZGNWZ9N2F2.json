@@ -1,0 +1,59 @@
+{
+  "name": "Midland Cafe - Good Market",
+  "coordinates": {
+    "latitude": 7.942124499999999,
+    "longitude": 81.0126631
+  },
+  "address": "Good Market, No.13 Hospital Junction, Polonnaruwa 51000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0272121213",
+  "website": "https://www.facebook.com/midlandcafe",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BR1GT1FRKG1ZGNWZ9N2F2"
+}

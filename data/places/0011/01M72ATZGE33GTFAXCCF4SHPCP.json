@@ -1,0 +1,65 @@
+{
+  "name": "Caravan Fresh - The Cake & Pastry Shop",
+  "coordinates": {
+    "latitude": 6.9152108,
+    "longitude": 79.89054949999999
+  },
+  "address": "No. 83B, Main Street, Obeysekarapura, 10100",
+  "categories": [
+    "Cake shop",
+    "Bakery",
+    "Coffee shop",
+    "Cupcake shop",
+    "Dessert shop",
+    "Halal restaurant",
+    "Pastry shop"
+  ],
+  "phone": "0718684224",
+  "website": "http://www.caravanfresh.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGE33GTFAXCCF4SHPCP"
+}

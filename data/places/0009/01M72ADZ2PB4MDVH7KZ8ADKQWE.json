@@ -1,0 +1,60 @@
+{
+  "address": "11/A Jude Ln, Negombo",
+  "name": "Coffee Salt",
+  "coordinates": {
+    "latitude": 7.237327199999999,
+    "longitude": 79.8429948
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0773267885",
+  "categories": [
+    "Coffee shop",
+    "Bar",
+    "Cafe"
+  ],
+  "id": "01M72ADZ2PB4MDVH7KZ8ADKQWE"
+}

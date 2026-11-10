@@ -1,0 +1,58 @@
+{
+  "name": "Abc Educational Institute",
+  "coordinates": {
+    "latitude": 6.7472213,
+    "longitude": 79.9013066
+  },
+  "address": "79/1/2 Old Galle Rd, Panadura 10400",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0715845848",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0FBKE10RTDY15AACN2M1"
+}

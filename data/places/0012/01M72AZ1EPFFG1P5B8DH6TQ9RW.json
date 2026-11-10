@@ -1,0 +1,58 @@
+{
+  "name": "New Lanka Super",
+  "coordinates": {
+    "latitude": 6.5777272,
+    "longitude": 79.9680913
+  },
+  "address": "103/1/A Marikkar St, Kalutara",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0770491234",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ1EPFFG1P5B8DH6TQ9RW"
+}

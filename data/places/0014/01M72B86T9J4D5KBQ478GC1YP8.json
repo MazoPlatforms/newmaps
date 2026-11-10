@@ -1,0 +1,58 @@
+{
+  "name": "Roseth Hospital (PVT) Ltd.",
+  "coordinates": {
+    "latitude": 6.2391675,
+    "longitude": 80.0543199
+  },
+  "address": "Kularatne Rd, Ambalangoda",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0912258945",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B86T9J4D5KBQ478GC1YP8"
+}

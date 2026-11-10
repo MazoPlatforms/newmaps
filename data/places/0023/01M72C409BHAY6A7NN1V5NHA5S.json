@@ -1,0 +1,61 @@
+{
+  "name": "Muthur Mart",
+  "coordinates": {
+    "latitude": 8.450437599999999,
+    "longitude": 81.2599894
+  },
+  "address": "Arabic College Road, Mutur 31200",
+  "categories": [
+    "Grocery store",
+    "Grocery delivery service",
+    "Restaurant",
+    "Meal delivery"
+  ],
+  "phone": "0754848248",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C409BHAY6A7NN1V5NHA5S"
+}

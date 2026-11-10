@@ -1,0 +1,58 @@
+{
+  "name": "Front Yard Cafe",
+  "coordinates": {
+    "latitude": 6.920416599999999,
+    "longitude": 79.8947172
+  },
+  "address": "47 Moragasmulla Rd, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0775739944",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGRXQ6S9PAGJTWFD37J"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "WinTec IT Solutions",
+  "coordinates": {
+    "latitude": 7.205050699999999,
+    "longitude": 79.8407345
+  },
+  "address": "58 Shopping Complex, Bus Station, Negombo",
+  "categories": [
+    "Computer service"
+  ],
+  "phone": "0312234704",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VXVCPN0E4Z0KCPRF0D"
+}

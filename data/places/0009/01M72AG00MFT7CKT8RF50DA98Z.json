@@ -1,0 +1,64 @@
+{
+  "name": "Life Medical Center",
+  "coordinates": {
+    "latitude": 6.9563350999999995,
+    "longitude": 79.8772678
+  },
+  "address": "XV4G+GWJ, Nagalagam St, Colombo 01400",
+  "categories": [
+    "Hospital"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM",
+        "4–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00MFT7CKT8RF50DA98Z"
+}

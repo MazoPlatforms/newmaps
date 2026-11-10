@@ -1,0 +1,57 @@
+{
+  "name": "Harishchandra Cafe",
+  "coordinates": {
+    "latitude": 5.953211,
+    "longitude": 80.5408297
+  },
+  "address": "Harischandra Mills, Delkada Mawatha, Matara",
+  "categories": [
+    "Cafe"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WHVRPKP7ECXVVMDR9Q"
+}

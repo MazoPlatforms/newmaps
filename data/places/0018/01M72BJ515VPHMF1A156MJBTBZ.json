@@ -1,0 +1,58 @@
+{
+  "name": "C Mart",
+  "coordinates": {
+    "latitude": 7.2597578,
+    "longitude": 80.3291086
+  },
+  "address": "Polagahwela road , adurapotha, Kegalle",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0778055870",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJ515VPHMF1A156MJBTBZ"
+}

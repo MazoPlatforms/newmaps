@@ -1,0 +1,61 @@
+{
+  "name": "The Alice",
+  "coordinates": {
+    "latitude": 6.1837032,
+    "longitude": 81.0184055
+  },
+  "address": "153 2koggalla road, Ambalantota 82100",
+  "categories": [
+    "Electronic parts supplier",
+    "Cell phone accessory store",
+    "Computer accessories store"
+  ],
+  "phone": "0701305991",
+  "website": "https://s.daraz.lk/s.4MG",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–3:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CVNAQDBGMKTVN4GFFFQN3"
+}

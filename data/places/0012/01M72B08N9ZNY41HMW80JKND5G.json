@@ -1,0 +1,65 @@
+{
+  "name": "Venus Clinic",
+  "coordinates": {
+    "latitude": 6.7504551,
+    "longitude": 79.907451
+  },
+  "address": "8 Devalaya Rd, Panadura 12500",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0383399888",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 PM",
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08N9ZNY41HMW80JKND5G"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Torana Fresh Food",
+  "coordinates": {
+    "latitude": 5.9551150999999996,
+    "longitude": 80.53342909999999
+  },
+  "address": "XG4M+29V, Matara",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0715325000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WJQD94G15J55R6JW02"
+}

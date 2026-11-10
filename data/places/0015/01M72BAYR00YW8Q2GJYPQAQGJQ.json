@@ -1,0 +1,58 @@
+{
+  "name": "AR Store Supermarket",
+  "coordinates": {
+    "latitude": 6.0027896,
+    "longitude": 80.4391472
+  },
+  "address": "2C3Q+7CC, Weligama",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0765491744",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAYR00YW8Q2GJYPQAQGJQ"
+}

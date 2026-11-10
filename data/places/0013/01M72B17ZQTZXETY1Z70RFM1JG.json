@@ -1,0 +1,58 @@
+{
+  "name": "Ravishka Mini SuperMarket",
+  "coordinates": {
+    "latitude": 6.452245899999999,
+    "longitude": 79.979974
+  },
+  "address": "143/A 7th Lane, Beruwala 12070",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0765339505",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B17ZQTZXETY1Z70RFM1JG"
+}

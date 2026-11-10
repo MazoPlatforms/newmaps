@@ -1,0 +1,58 @@
+{
+  "name": "Technical College",
+  "coordinates": {
+    "latitude": 7.2324342999999995,
+    "longitude": 81.8509772
+  },
+  "address": "6VJ2+X9H, Ashraff Rd, Akkaraipattu 32400",
+  "categories": [
+    "Technical school"
+  ],
+  "phone": "0672279326",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1PW6GPZ5Q5T98YVBPMVC"
+}

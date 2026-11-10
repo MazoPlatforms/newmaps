@@ -1,0 +1,59 @@
+{
+  "name": "Lavinia's Chinese Restaurant",
+  "coordinates": {
+    "latitude": 6.894618299999999,
+    "longitude": 79.9239741
+  },
+  "address": "1106 Denzil Kobbekaduwa Mawatha, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Chinese restaurant",
+    "Restaurant"
+  ],
+  "phone": "0112779079",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGYT5Y69WFC3VC0PBHA"
+}

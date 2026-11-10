@@ -1,0 +1,58 @@
+{
+  "name": "Nishanthas Garage",
+  "coordinates": {
+    "latitude": 6.8828632,
+    "longitude": 79.8715818
+  },
+  "address": "100 Sri Siddhartha Passage, Colombo 00500",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0777780266",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDXPVTBMNMN977CJ6VTW"
+}

@@ -1,0 +1,61 @@
+{
+  "address": "379 Sri Vjiragnana Mawatha, Colombo 00900",
+  "name": "TH Store",
+  "coordinates": {
+    "latitude": 6.9304315999999995,
+    "longitude": 79.8719059
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8–11 AM",
+        "1:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    }
+  ],
+  "website": "http://thstorelk.lk/",
+  "business_status": "OPEN",
+  "phone": "0778994939",
+  "categories": [
+    "Supermarket",
+    "Convenience store"
+  ],
+  "id": "01M72A9D120A485R588MQG4ZYX"
+}

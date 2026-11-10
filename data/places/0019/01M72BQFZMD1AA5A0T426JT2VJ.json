@@ -1,0 +1,59 @@
+{
+  "name": "Amana Bank PLC Anuradhapura",
+  "coordinates": {
+    "latitude": 8.340831699999999,
+    "longitude": 80.4114275
+  },
+  "address": "32/A Maithripala Senanayake Mawatha, Anuradhapura",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0257756034",
+  "website": "http://www.amanabank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQFZMD1AA5A0T426JT2VJ"
+}

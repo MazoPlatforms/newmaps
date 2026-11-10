@@ -1,0 +1,61 @@
+{
+  "name": "Hybrid Care - Car Clinic",
+  "coordinates": {
+    "latitude": 7.3012067,
+    "longitude": 81.6792476
+  },
+  "address": "771, New house, Jayawardenepura, 32000",
+  "categories": [
+    "Auto electrical service",
+    "Car repair and maintenance service",
+    "Vehicle inspection service"
+  ],
+  "phone": "0761621305",
+  "website": "https://www.facebook.com/Carclinicampara/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1EMQ8K6E7M9TETBBHKGV"
+}

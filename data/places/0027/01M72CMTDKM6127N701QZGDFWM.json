@@ -1,0 +1,59 @@
+{
+  "name": "Mohammadiya Stores",
+  "coordinates": {
+    "latitude": 7.3279214999999995,
+    "longitude": 80.6317902
+  },
+  "address": "317 Madawala Rd, Katugastota 20800",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0812499093",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 PM",
+        "1:30–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMTDKM6127N701QZGDFWM"
+}

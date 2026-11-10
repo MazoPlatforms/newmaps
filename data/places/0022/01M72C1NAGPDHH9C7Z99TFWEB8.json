@@ -1,0 +1,58 @@
+{
+  "name": "Basket Bazaar",
+  "coordinates": {
+    "latitude": 7.2172208,
+    "longitude": 81.851106
+  },
+  "address": "6V82+VCQ, BASKET BAZAAR, POTTUVIL ROAD, Akkaraipattu",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0776651516",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11:45 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1NAGPDHH9C7Z99TFWEB8"
+}

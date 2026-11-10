@@ -1,0 +1,58 @@
+{
+  "name": "Health 1St Pharmacy",
+  "coordinates": {
+    "latitude": 5.9828635,
+    "longitude": 80.432886
+  },
+  "address": "357 New St, Weligama 81700",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0779112332",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB141R1REC5Q7Q2TNVQBX"
+}

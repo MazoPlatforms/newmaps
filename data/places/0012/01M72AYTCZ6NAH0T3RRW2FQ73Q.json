@@ -1,0 +1,59 @@
+{
+  "name": "Tech-Know Autombile",
+  "coordinates": {
+    "latitude": 7.0819985,
+    "longitude": 79.9869236
+  },
+  "address": "13A, Gampaha 11000",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0711039999",
+  "website": "http://www.rsprojects.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYTCZ6NAH0T3RRW2FQ73Q"
+}

@@ -1,0 +1,66 @@
+{
+  "address": "126 York St, Colombo 00100",
+  "name": "Torena Cafe & Restaurant",
+  "coordinates": {
+    "latitude": 6.933396,
+    "longitude": 79.8446673
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0717792999",
+  "categories": [
+    "Sri Lankan restaurant",
+    "American restaurant",
+    "Bakery",
+    "Cafe",
+    "Chinese restaurant",
+    "Coffee shop",
+    "Indian restaurant",
+    "Indonesian restaurant",
+    "Juice shop"
+  ],
+  "id": "01M72A8VEWQG2KSA36YV6CQKDH"
+}

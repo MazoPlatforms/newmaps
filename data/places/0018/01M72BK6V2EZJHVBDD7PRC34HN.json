@@ -1,0 +1,58 @@
+{
+  "name": "Lucky Cafe",
+  "coordinates": {
+    "latitude": 7.2567505,
+    "longitude": 80.3969001
+  },
+  "address": "794W+PQ2, Meramitipana",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0711185488",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BK6V2EZJHVBDD7PRC34HN"
+}

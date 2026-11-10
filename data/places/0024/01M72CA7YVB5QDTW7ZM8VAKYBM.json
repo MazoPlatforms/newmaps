@@ -1,0 +1,58 @@
+{
+  "name": "The Brands Warehouse",
+  "coordinates": {
+    "latitude": 6.8786834,
+    "longitude": 79.86020189999999
+  },
+  "address": "VVH6+F3G, Colombo",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0772007000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA7YVB5QDTW7ZM8VAKYBM"
+}

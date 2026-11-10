@@ -1,0 +1,59 @@
+{
+  "name": "Gem City Electrical",
+  "coordinates": {
+    "latitude": 6.4606126999999995,
+    "longitude": 79.9809095
+  },
+  "address": "Abdul muees mawatha, Beruwala",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0773924117",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30–11:30 AM",
+        "2:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKS5ZM9NFX840A2PFTKQH"
+}

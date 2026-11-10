@@ -1,0 +1,60 @@
+{
+  "name": "Foodie-Colombo",
+  "coordinates": {
+    "latitude": 6.865571699999999,
+    "longitude": 79.889197
+  },
+  "address": "60 Melder Pl, Nugegoda",
+  "categories": [
+    "Bakery",
+    "Store"
+  ],
+  "phone": "0773842330",
+  "website": "http://www.facebook.com/foodie-colombo",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "2–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6H1Q8ZAHBNHM4BXKFR1"
+}

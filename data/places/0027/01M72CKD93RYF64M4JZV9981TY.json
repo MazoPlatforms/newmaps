@@ -1,0 +1,58 @@
+{
+  "name": "Ornamental Fish Shop",
+  "coordinates": {
+    "latitude": 6.723402999999999,
+    "longitude": 79.94755579999999
+  },
+  "address": "408 D,mahawala road, Panadura 12500",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0762171682",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKD93RYF64M4JZV9981TY"
+}

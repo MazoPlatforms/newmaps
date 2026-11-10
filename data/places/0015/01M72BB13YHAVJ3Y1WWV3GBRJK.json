@@ -1,0 +1,61 @@
+{
+  "name": "Weligama Medical Centre PVT Ltd",
+  "coordinates": {
+    "latitude": 5.973516999999999,
+    "longitude": 80.43214189999999
+  },
+  "address": "441E Matara Rd, Weligama",
+  "categories": [
+    "Medical Center",
+    "Doctor",
+    "Home health care service",
+    "Medical clinic"
+  ],
+  "phone": "0412250484",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB13YHAVJ3Y1WWV3GBRJK"
+}

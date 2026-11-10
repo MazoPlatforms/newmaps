@@ -1,0 +1,61 @@
+{
+  "name": "Rainbow Computers",
+  "coordinates": {
+    "latitude": 7.2540420999999995,
+    "longitude": 80.35057239999999
+  },
+  "address": "A1, Kegalle",
+  "categories": [
+    "Computer store",
+    "Advertising agency",
+    "Computer service",
+    "Home audio store"
+  ],
+  "phone": "0779748842",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGAGSFGFSJD6PG27W0AJ7"
+}

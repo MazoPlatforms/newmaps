@@ -1,0 +1,59 @@
+{
+  "name": "BizLife",
+  "coordinates": {
+    "latitude": 6.457973399999999,
+    "longitude": 80.20978559999999
+  },
+  "categories": [
+    "Computer support and services",
+    "Service establishment"
+  ],
+  "phone": "0727002766",
+  "website": "https://www.bizlife.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CT8EPT8FXT9ZYYNXGC445"
+}

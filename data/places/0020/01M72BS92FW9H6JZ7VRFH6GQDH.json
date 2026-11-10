@@ -1,0 +1,58 @@
+{
+  "name": "Delum Uyana Restaurants And Fruits Garden",
+  "coordinates": {
+    "latitude": 7.8238284,
+    "longitude": 80.6580204
+  },
+  "address": "A9, Dambulla",
+  "categories": [
+    "Family restaurant"
+  ],
+  "phone": "0714076376",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92FW9H6JZ7VRFH6GQDH"
+}

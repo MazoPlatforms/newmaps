@@ -1,0 +1,61 @@
+{
+  "name": "Vehicle Repair Mobile Service-Nuwara Eliya",
+  "coordinates": {
+    "latitude": 6.9519589999999996,
+    "longitude": 80.7915227
+  },
+  "address": "62 Gajabapura Rd, Nuwara Eliya 22200",
+  "categories": [
+    "Mechanic",
+    "Carriage ride service",
+    "Diagnostic center",
+    "Repair service"
+  ],
+  "phone": "0741102869",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B53JC6TPF2JGPZSC12Y7M"
+}

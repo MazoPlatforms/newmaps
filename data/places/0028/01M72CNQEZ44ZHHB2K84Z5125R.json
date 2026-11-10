@@ -1,0 +1,58 @@
+{
+  "name": "Biwon Computer Matale",
+  "coordinates": {
+    "latitude": 7.4777114,
+    "longitude": 80.6234114
+  },
+  "address": "612/D trincomalee street, Matale 21000",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0772637991",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNQEZ44ZHHB2K84Z5125R"
+}

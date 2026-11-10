@@ -1,0 +1,58 @@
+{
+  "name": "Library - Faculty Of Nursing, University Of Colombo",
+  "coordinates": {
+    "latitude": 6.8688768,
+    "longitude": 79.9272111
+  },
+  "address": "17 8th Ln, Sri Jayawardenepura Kotte 11222",
+  "categories": [
+    "University library"
+  ],
+  "website": "https://nursing.cmb.ac.lk/nursing-library/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BQKTJAB4S8030NBQ07"
+}

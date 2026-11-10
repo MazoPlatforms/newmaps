@@ -1,0 +1,63 @@
+{
+  "name": "Cloud Lounge",
+  "coordinates": {
+    "latitude": 6.8604014,
+    "longitude": 79.8669106
+  },
+  "address": "53/A/1 Anagarika Dharmapala Mawatha, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Cafe",
+    "Hookah bar",
+    "Coffee shop",
+    "Hookah store",
+    "Lounge bar"
+  ],
+  "phone": "0117173224",
+  "website": "http://www.facebook.com/cloudlounge.lk",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4 PM–1 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 PM–2 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02ACWS34NCBR81R7RGW"
+}

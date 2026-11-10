@@ -1,0 +1,62 @@
+{
+  "name": "The \"Magic Kitchen\" Cooking Class",
+  "coordinates": {
+    "latitude": 6.0255655,
+    "longitude": 80.7970333
+  },
+  "address": "No:43 Mihindu Mawatha, Tangalle",
+  "categories": [
+    "Cooking class",
+    "Barbecue area",
+    "Event planner",
+    "Outdoor activity organiser",
+    "Tourist information center"
+  ],
+  "phone": "0717606066",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCXPDCS41CWFWEFPMKW0Q"
+}

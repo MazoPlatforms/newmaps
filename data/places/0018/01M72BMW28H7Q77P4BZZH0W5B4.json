@@ -1,0 +1,59 @@
+{
+  "name": "HNB Kuliyapitiya (Hatton National Bank)",
+  "coordinates": {
+    "latitude": 7.4686876,
+    "longitude": 80.0385636
+  },
+  "address": "No.225 Main Street, Kuliyapitiya",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0372281909",
+  "website": "https://www.hnb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMW28H7Q77P4BZZH0W5B4"
+}

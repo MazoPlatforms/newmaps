@@ -1,0 +1,60 @@
+{
+  "name": "Glitz Park",
+  "coordinates": {
+    "latitude": 7.077195499999999,
+    "longitude": 80.04356969999999
+  },
+  "address": "280/1 A, Batagolla Road, Yakkala",
+  "categories": [
+    "Auto repair shop",
+    "Car detailing service"
+  ],
+  "phone": "0112928928",
+  "website": "https://glitzpark.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYTD0S3408AGYF0A65XA2"
+}

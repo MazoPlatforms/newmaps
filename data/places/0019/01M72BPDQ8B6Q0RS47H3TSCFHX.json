@@ -1,0 +1,58 @@
+{
+  "name": "Techsan Automobiles",
+  "coordinates": {
+    "latitude": 7.5449854,
+    "longitude": 79.8125096
+  },
+  "address": "GRV7+X2R, Bandarawatta, Kakkapalliya, Chilaw",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0760933145",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPDQ8B6Q0RS47H3TSCFHX"
+}

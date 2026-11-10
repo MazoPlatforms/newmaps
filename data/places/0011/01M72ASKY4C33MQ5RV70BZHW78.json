@@ -1,0 +1,58 @@
+{
+  "name": "DC Kumudu Grocery & Meat Shop",
+  "coordinates": {
+    "latitude": 6.7969596,
+    "longitude": 79.8792649
+  },
+  "address": "105 De Mel Road, Laxapathiya Rd, Moratuwa 10400",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0778506070",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASKY4C33MQ5RV70BZHW78"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Fero Cafe",
+  "coordinates": {
+    "latitude": 7.3205298,
+    "longitude": 81.66106649999999
+  },
+  "address": "EN/48,Kandy Road ,Karangawa, Ampara 32000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0774346218",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C0PF98D36HCG5J2CF524B"
+}

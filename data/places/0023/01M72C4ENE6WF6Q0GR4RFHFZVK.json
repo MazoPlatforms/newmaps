@@ -1,0 +1,59 @@
+{
+  "name": "Burger Cafe",
+  "coordinates": {
+    "latitude": 7.249733099999999,
+    "longitude": 80.4808067
+  },
+  "address": "Kandy Colombo Road Ganethanna Hingula, Mawanella 71500",
+  "categories": [
+    "Coffee shop",
+    "Restaurant"
+  ],
+  "phone": "0773626869",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1:30–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4ENE6WF6Q0GR4RFHFZVK"
+}

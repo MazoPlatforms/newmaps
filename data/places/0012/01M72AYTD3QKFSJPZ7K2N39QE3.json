@@ -1,0 +1,59 @@
+{
+  "name": "Ceylon Garage",
+  "coordinates": {
+    "latitude": 7.088296199999999,
+    "longitude": 80.0304815
+  },
+  "address": "17/12/B Ja Ela-Ekala-Gampaha-Yakkala Hwy, Yakkala 11870",
+  "categories": [
+    "Auto parts store"
+  ],
+  "phone": "0706709268",
+  "website": "https://www.ceylongarage.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYTD3QKFSJPZ7K2N39QE3"
+}

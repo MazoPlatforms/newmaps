@@ -1,0 +1,58 @@
+{
+  "name": "O.P.S. Salon",
+  "coordinates": {
+    "latitude": 6.0576042999999995,
+    "longitude": 80.2177832
+  },
+  "address": "438 Galle - Baddegama Rd, Galle 80000",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0772800864",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRN3EM7PY1JGE06784G3Y"
+}

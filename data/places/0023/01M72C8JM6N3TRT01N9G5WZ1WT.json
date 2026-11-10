@@ -1,0 +1,60 @@
+{
+  "name": "Nanotek Computer Solutions",
+  "coordinates": {
+    "latitude": 6.8968918,
+    "longitude": 79.8563961
+  },
+  "address": "No:37 School Ln, Colombo 00300",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0777292272",
+  "website": "http://www.nanotek.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 PM",
+        "2–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JM6N3TRT01N9G5WZ1WT"
+}

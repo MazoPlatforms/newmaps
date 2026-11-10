@@ -1,0 +1,57 @@
+{
+  "name": "Darrel Library",
+  "coordinates": {
+    "latitude": 6.0531581,
+    "longitude": 80.2044397
+  },
+  "address": "3633+7Q8, Galle 80000",
+  "categories": [
+    "Library"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6MMGX5JDGMQSMS4Q8FQ6"
+}

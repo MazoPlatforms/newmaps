@@ -1,0 +1,59 @@
+{
+  "name": "CIB Online Store",
+  "coordinates": {
+    "latitude": 6.8531094,
+    "longitude": 79.9152459
+  },
+  "address": "345, 1 High Level Rd, Maharagama 10280",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0117125125",
+  "website": "https://www.cibonline.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CD4NYAC1YCPC6BJ8YJ7PA"
+}

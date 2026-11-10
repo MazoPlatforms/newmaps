@@ -1,0 +1,58 @@
+{
+  "name": "Ranhiru Multy City",
+  "coordinates": {
+    "latitude": 8.0163301,
+    "longitude": 81.0092193
+  },
+  "address": "2285+GMQ, NEAR SHANTHI M.V, Polonnaruwa",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0769225100",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRETT4Y1JXWDXTSAP6MDY"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Caffe Welly",
+  "coordinates": {
+    "latitude": 5.9609081999999995,
+    "longitude": 80.6823927
+  },
+  "address": "Caffe Welly, Matara Road, Bathigama - Akurubebila Rd, Dikwella 81200",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12:30–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30–11 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGXX5R65H5B9AYVVQMG"
+}

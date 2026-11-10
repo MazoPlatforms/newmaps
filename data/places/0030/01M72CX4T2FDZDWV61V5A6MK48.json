@@ -1,0 +1,57 @@
+{
+  "name": "Public Library - Ellekade",
+  "coordinates": {
+    "latitude": 7.403133899999999,
+    "longitude": 80.5969933
+  },
+  "address": "CH3W+7Q5, Alawatugoda-Ankumbura-Keppetigala Rd, Ellekade",
+  "categories": [
+    "Public library"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CX4T2FDZDWV61V5A6MK48"
+}

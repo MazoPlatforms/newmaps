@@ -1,0 +1,58 @@
+{
+  "name": "Salon Lovely Looks",
+  "coordinates": {
+    "latitude": 7.195764499999999,
+    "longitude": 79.8616772
+  },
+  "address": "73/c Parakrama Rd, Negombo",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0779766171",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHDTJYPH7TZMAR811GC3"
+}

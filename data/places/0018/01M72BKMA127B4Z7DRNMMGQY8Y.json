@@ -1,0 +1,58 @@
+{
+  "name": "Diwan Grocery",
+  "coordinates": {
+    "latitude": 7.494791599999999,
+    "longitude": 80.33440569999999
+  },
+  "address": "Ilukpitiya, Kurunegala 60000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0762235322",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMA127B4Z7DRNMMGQY8Y"
+}

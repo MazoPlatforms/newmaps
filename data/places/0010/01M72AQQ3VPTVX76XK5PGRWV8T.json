@@ -1,0 +1,59 @@
+{
+  "name": "Sachitra Hospital",
+  "coordinates": {
+    "latitude": 6.7111089999999995,
+    "longitude": 79.910656
+  },
+  "address": "76 A8, Panadura 12500",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0382240425",
+  "website": "http://www.sachitrahospitals.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3VPTVX76XK5PGRWV8T"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "English Class Center",
+  "coordinates": {
+    "latitude": 6.6989997,
+    "longitude": 79.9241155
+  },
+  "address": "44/A Dibbadda - Mahawila Road, Panadura",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0766584186",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0FBP9R3A54APCH581FH3"
+}

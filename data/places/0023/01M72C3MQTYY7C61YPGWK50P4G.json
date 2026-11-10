@@ -1,0 +1,59 @@
+{
+  "name": "Loaf Cafeteria",
+  "coordinates": {
+    "latitude": 8.5036217,
+    "longitude": 81.180432
+  },
+  "address": "Urban Council Road Kinniya 04, Kinniya 31100",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0751101014",
+  "website": "https://loafcafeteria.zobaze.shop/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12:15–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C3MQTYY7C61YPGWK50P4G"
+}

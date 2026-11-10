@@ -1,0 +1,58 @@
+{
+  "name": "Ramani Super",
+  "coordinates": {
+    "latitude": 6.8406006999999995,
+    "longitude": 79.90093
+  },
+  "address": "31 Dehiwala Rd, Boralesgamuwa",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0112519973",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVENF9GQV18CN4NYA5YH6"
+}

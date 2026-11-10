@@ -1,0 +1,63 @@
+{
+  "name": "Vet Vibe Animal Hospital Balummahara",
+  "coordinates": {
+    "latitude": 7.064424,
+    "longitude": 80.0098033
+  },
+  "address": "119/2/4, Oruthota road, Mudungoda, Gampaha",
+  "categories": [
+    "Pharmacy",
+    "Pet groomer",
+    "Pet store",
+    "Animal hospital"
+  ],
+  "phone": "0762176968",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–1 PM",
+        "3–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGC7WD7HYZPJECKYGMBJ"
+}

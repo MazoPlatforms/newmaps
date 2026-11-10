@@ -1,0 +1,58 @@
+{
+  "name": "Manaa Salon",
+  "coordinates": {
+    "latitude": 7.5759414,
+    "longitude": 79.79232449999999
+  },
+  "address": "52 Corea St, Chilaw",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0773578408",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D27KVPEPMBYZ0JGRY2KS7"
+}

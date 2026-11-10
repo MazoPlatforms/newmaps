@@ -1,0 +1,58 @@
+{
+  "name": "The Elephant Seafood Restaurant",
+  "coordinates": {
+    "latitude": 6.4538803,
+    "longitude": 79.9789828
+  },
+  "address": "Beruwala",
+  "categories": [
+    "Family restaurant"
+  ],
+  "phone": "0342278056",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13C1A5B60CBC02GHXVH8"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Mullai Health",
+  "coordinates": {
+    "latitude": 9.223480799999999,
+    "longitude": 80.7696131
+  },
+  "address": "A, 34 Mankulam-Mullaitivu Hwy, Mulliyawalai 42100",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0713144336",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BY24FBFNXGFD9V23XXFFK"
+}

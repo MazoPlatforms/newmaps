@@ -1,0 +1,58 @@
+{
+  "name": "My Mechanics PvtLtd",
+  "coordinates": {
+    "latitude": 7.4659989,
+    "longitude": 80.0669921
+  },
+  "address": "Bohingamuwa, Kuliyapitiya",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0372281111",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN0CCHSNR1EYQSSF3XVCK"
+}

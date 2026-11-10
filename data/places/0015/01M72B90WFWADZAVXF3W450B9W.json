@@ -1,0 +1,61 @@
+{
+  "name": "Crust And Crumble",
+  "coordinates": {
+    "latitude": 5.963085599999999,
+    "longitude": 80.7052911
+  },
+  "address": "219 Hiriketiya Rd, Dikwella",
+  "categories": [
+    "Coffee shop",
+    "Brunch restaurant",
+    "Lunch restaurant",
+    "Patisserie"
+  ],
+  "phone": "0704773785",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WFWADZAVXF3W450B9W"
+}

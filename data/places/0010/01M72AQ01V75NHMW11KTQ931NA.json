@@ -1,0 +1,59 @@
+{
+  "name": "Olivia Restaurant And Bar",
+  "coordinates": {
+    "latitude": 6.8348984999999995,
+    "longitude": 79.86332
+  },
+  "address": "15A De Soysa Ave, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Italian restaurant"
+  ],
+  "phone": "0775892882",
+  "website": "https://olivia.laviniabaybeach.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ01V75NHMW11KTQ931NA"
+}

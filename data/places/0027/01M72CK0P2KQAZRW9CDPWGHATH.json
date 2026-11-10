@@ -1,0 +1,58 @@
+{
+  "name": "Lakshan Trade Center And Gas Store",
+  "coordinates": {
+    "latitude": 6.6998092,
+    "longitude": 79.9461542
+  },
+  "address": "140/E, 265 Bodhirukkarama Rd, Panadura",
+  "categories": [
+    "Hardware store",
+    "Gas shop"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK0P2KQAZRW9CDPWGHATH"
+}

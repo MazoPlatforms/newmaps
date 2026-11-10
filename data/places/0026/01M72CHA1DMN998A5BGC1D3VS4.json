@@ -1,0 +1,57 @@
+{
+  "name": "Sstrade",
+  "coordinates": {
+    "latitude": 6.987854,
+    "longitude": 80.0157633
+  },
+  "address": "30, 11700",
+  "categories": [
+    "Fish farm"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–12:30 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–12:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHA1DMN998A5BGC1D3VS4"
+}

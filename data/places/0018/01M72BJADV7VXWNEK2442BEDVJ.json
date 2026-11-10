@@ -1,0 +1,59 @@
+{
+  "name": "Medicare Pharmacy And Medical Center",
+  "coordinates": {
+    "latitude": 7.496751799999999,
+    "longitude": 80.3780771
+  },
+  "address": "11C, Andagalakandawatta, Wellawa Road",
+  "categories": [
+    "Medical Center",
+    "Pharmacy"
+  ],
+  "phone": "0778175623",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJADV7VXWNEK2442BEDVJ"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Aaro Brunch & Brew Tangalle",
+  "coordinates": {
+    "latitude": 6.0222147,
+    "longitude": 80.7938784
+  },
+  "address": "No. 33 Kadurupokuna road, Tangalle 82200",
+  "categories": [
+    "Cafe",
+    "Brunch restaurant"
+  ],
+  "phone": "0785555737",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGFGS4AY46M4PV9D2KV"
+}

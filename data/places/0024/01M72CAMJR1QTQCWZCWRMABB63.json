@@ -1,0 +1,60 @@
+{
+  "name": "Chooseme",
+  "coordinates": {
+    "latitude": 6.8562528,
+    "longitude": 79.86809459999999
+  },
+  "address": "6, 3 Old Waidya Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Business center",
+    "Store"
+  ],
+  "phone": "0778280936",
+  "website": "http://chooseme.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAMJR1QTQCWZCWRMABB63"
+}

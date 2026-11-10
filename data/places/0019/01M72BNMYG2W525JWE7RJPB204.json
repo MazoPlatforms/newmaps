@@ -1,0 +1,58 @@
+{
+  "name": "HN Stores",
+  "coordinates": {
+    "latitude": 7.950324299999999,
+    "longitude": 79.82881929999999
+  },
+  "address": "Colombo - Puttalam Rd, Karikattiya",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0766699955",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMYG2W525JWE7RJPB204"
+}

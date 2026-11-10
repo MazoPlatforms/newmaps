@@ -1,0 +1,58 @@
+{
+  "name": "The Blade",
+  "coordinates": {
+    "latitude": 7.4714151,
+    "longitude": 80.6225264
+  },
+  "address": "No' 31 abagahamula shopping complex 1st flooor, King St, Matale 21000",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0768167950",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNZDYHCMRFNM28V0AX38F"
+}

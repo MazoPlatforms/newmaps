@@ -1,0 +1,60 @@
+{
+  "name": "Bank Of Ceylon",
+  "coordinates": {
+    "latitude": 7.871742299999999,
+    "longitude": 80.6512122
+  },
+  "address": "438/B, Kandy Road, Dambulla",
+  "categories": [
+    "Public sector bank",
+    "ATM"
+  ],
+  "phone": "0662285270",
+  "website": "http://www.boc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSWET1KBS9WMFGK1B3XGQ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Blue Octopus Beach Restaurant",
+  "coordinates": {
+    "latitude": 6.2297503,
+    "longitude": 80.0533367
+  },
+  "address": "11/11 Uswella road , Hirewatta, Ambalangoda 80300",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0770555542",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YAJQBYZ67MEXB59EFVX"
+}

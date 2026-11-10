@@ -1,0 +1,59 @@
+{
+  "name": "Asiri Medical Hospital Pharmacy",
+  "coordinates": {
+    "latitude": 6.893196,
+    "longitude": 79.87437059999999
+  },
+  "address": "181 කිරුළ පාර, Colombo 00500",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0763068504",
+  "website": "https://www.asirihealth.com/asiri-group/our-locations/asiri-medical-hospital",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AFZZQ4A3FZB1B2TQMK3AT"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Zam Zam Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 7.221006,
+    "longitude": 81.849781
+  },
+  "address": "Main street, Akkaraipattu 32400",
+  "categories": [
+    "Grocery store",
+    "Pharmacy",
+    "Veterinary pharmacy"
+  ],
+  "phone": "0672277698",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1NAPNYKW4F3Q5SVGXWDZ"
+}

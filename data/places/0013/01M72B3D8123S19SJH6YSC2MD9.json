@@ -1,0 +1,59 @@
+{
+  "name": "Rayeeza Hotel",
+  "coordinates": {
+    "latitude": 7.4717831,
+    "longitude": 80.62492429999999
+  },
+  "address": "125 Gongawela Rd, Matale 21000",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0779679779",
+  "website": "http://rayeezahotel.wixsite.com/rayeeza",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D8123S19SJH6YSC2MD9"
+}

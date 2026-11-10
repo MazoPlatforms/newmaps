@@ -1,0 +1,64 @@
+{
+  "name": "Softlogic Showroom",
+  "coordinates": {
+    "latitude": 7.488653599999999,
+    "longitude": 80.3634198
+  },
+  "address": "64 3 වන පටුමග, Kurunegala 60000",
+  "categories": [
+    "Computer store",
+    "Cell phone store",
+    "Electronics company",
+    "Electronics repair shop",
+    "Furniture wholesaler",
+    "Washer & dryer repair service"
+  ],
+  "phone": "0372226219",
+  "website": "http://www.mysoftlogic.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HGA6457KH31AH2EKPWT"
+}

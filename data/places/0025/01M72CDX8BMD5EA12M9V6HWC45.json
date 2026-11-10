@@ -1,0 +1,60 @@
+{
+  "name": "M. M. Noorbhoy & Co (PVT) Ltd - Pickup Location",
+  "coordinates": {
+    "latitude": 6.8913737,
+    "longitude": 79.8889992
+  },
+  "address": "312/6 Nawala Rd, Sri Jayawardenepura Kotte 00500",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0773828900",
+  "website": "https://noorbhoy.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:15 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:15 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:15 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:15 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:15 AM–12:30 PM",
+        "1:30–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:15 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–1:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDX8BMD5EA12M9V6HWC45"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Co-Operative Store",
+  "coordinates": {
+    "latitude": 7.470305799999999,
+    "longitude": 80.0482838
+  },
+  "address": "F2CX+48F, Kurunegala-Narammala-Madampe Rd, Kuliyapitiya",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0374942451",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMN8B3D50VQW6549B2TWZ"
+}

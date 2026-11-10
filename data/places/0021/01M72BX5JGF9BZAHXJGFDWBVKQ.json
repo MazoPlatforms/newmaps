@@ -1,0 +1,61 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 8.980097599999999,
+    "longitude": 79.91186619999999
+  },
+  "address": "No 45 Main Street, Mannar 41000",
+  "categories": [
+    "Bank",
+    "ATM",
+    "Private sector bank"
+  ],
+  "phone": "0232251502",
+  "website": "https://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX5JGF9BZAHXJGFDWBVKQ"
+}

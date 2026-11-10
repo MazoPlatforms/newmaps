@@ -1,0 +1,67 @@
+{
+  "name": "1St Lady Salon",
+  "coordinates": {
+    "latitude": 7.2529537,
+    "longitude": 80.34290229999999
+  },
+  "address": "Kegalle 71000",
+  "categories": [
+    "Beauty salon",
+    "Bridal shop",
+    "Hair extension technician",
+    "Nail salon",
+    "Photography service",
+    "Hairdresser",
+    "Wedding dress rental service",
+    "Wedding photographer",
+    "Wedding service"
+  ],
+  "phone": "0771305587",
+  "website": "https://web.facebook.com/salon1stlady",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZWWDS59GVS2V0T4BG9A7"
+}

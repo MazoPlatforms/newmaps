@@ -1,0 +1,59 @@
+{
+  "name": "Salon Lucky",
+  "coordinates": {
+    "latitude": 7.0853117999999995,
+    "longitude": 79.8942727
+  },
+  "address": "Kanuwana, Ja-Ela 11350",
+  "categories": [
+    "Beauty salon",
+    "Beautician"
+  ],
+  "phone": "0778947262",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MM292MSK0BXSMV7N9N"
+}

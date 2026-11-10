@@ -1,0 +1,59 @@
+{
+  "name": "Eee Workshop",
+  "coordinates": {
+    "latitude": 7.4744139,
+    "longitude": 80.368904
+  },
+  "address": "31/140 Amunawatta Road, 1st Lane, Kurunegala 60000",
+  "categories": [
+    "Electronics repair shop"
+  ],
+  "phone": "0775888745",
+  "website": "http://www.facebook.com/EEEWORKSHOPS",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HH2918WQ4N7PWNKAHMZ"
+}

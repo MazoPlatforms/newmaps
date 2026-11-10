@@ -1,0 +1,59 @@
+{
+  "name": "Salon ISHU",
+  "coordinates": {
+    "latitude": 6.8257664,
+    "longitude": 80.9850633
+  },
+  "address": "Beragala-Hali Ela Hwy, Bandarawela",
+  "categories": [
+    "Beauty salon",
+    "Bridal shop"
+  ],
+  "phone": "0766560982",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CY55B3H54BKDM0D4V0SRY"
+}

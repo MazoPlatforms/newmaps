@@ -1,0 +1,59 @@
+{
+  "name": "Healthy Care Pharmacy",
+  "coordinates": {
+    "latitude": 7.576653899999999,
+    "longitude": 79.7975883
+  },
+  "address": "Chilaw - Wariyapola Rd, Chilaw",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0322224085",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2:30 PM",
+        "4–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BP63J5E25FRT4FH5F8NRD"
+}

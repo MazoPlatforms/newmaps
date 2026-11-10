@@ -1,0 +1,57 @@
+{
+  "name": "Nations Trust Bank CDM,ATM",
+  "coordinates": {
+    "latitude": 6.9378715,
+    "longitude": 79.8503379
+  },
+  "address": "54A Bankshall St, Colombo 01000",
+  "categories": [
+    "ATM"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR4TCPYAEJD8XTN16F0"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "The Cutting Station",
+  "coordinates": {
+    "latitude": 6.8930286,
+    "longitude": 79.8711285
+  },
+  "address": "65/3A Bernard Soysa Mawatha, Colombo 00500",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0112588769",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M38459PQE3YMK3C58E"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Ocean Tech Computers",
+  "coordinates": {
+    "latitude": 7.2057690999999995,
+    "longitude": 79.8487538
+  },
+  "address": "192/A St Joseph's St, Negombo 11500",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0772323840",
+  "website": "https://oceantech.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3V8B79E8C1GA5AWNX6P"
+}

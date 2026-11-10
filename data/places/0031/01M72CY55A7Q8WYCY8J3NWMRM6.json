@@ -1,0 +1,58 @@
+{
+  "name": "Doctor Salon",
+  "coordinates": {
+    "latitude": 6.8294692999999995,
+    "longitude": 80.99769599999999
+  },
+  "address": "kumari building, Beragala-Hali Ela Hwy, Bandarawela 90100",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0703177901",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CY55A7Q8WYCY8J3NWMRM6"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Dr. S. Priyal Martinus",
+  "coordinates": {
+    "latitude": 7.2192566,
+    "longitude": 79.8572725
+  },
+  "address": "329/1 Negombo - Giriulla Rd, Negombo 11500",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0312231607",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30–10 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30–10 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30–10 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30–10 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–10 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30–10 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AX77ASND0EDPF5BH4P7V8"
+}

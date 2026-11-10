@@ -1,0 +1,59 @@
+{
+  "name": "Sampath Bank Kandy Super",
+  "coordinates": {
+    "latitude": 7.2929365,
+    "longitude": 80.6360578
+  },
+  "address": "Kodithuwakkuarachchi Building, 19 Sri Dalada Veediya, Kandy 20000",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0812232778",
+  "website": "http://www.sampath.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2V1MF6TA65H3AXQ94QPR"
+}

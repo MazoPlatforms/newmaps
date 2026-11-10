@@ -1,0 +1,57 @@
+{
+  "name": "Stella Clinic",
+  "coordinates": {
+    "latitude": 7.7338574,
+    "longitude": 81.69571289999999
+  },
+  "address": "12 6th Cross, Batticaloa",
+  "categories": [
+    "Hospital"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BYXKD68XZ9EYDHPWMPCFG"
+}

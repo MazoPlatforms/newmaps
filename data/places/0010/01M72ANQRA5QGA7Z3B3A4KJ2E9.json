@@ -1,0 +1,59 @@
+{
+  "name": "NDB Bank - Hendala",
+  "coordinates": {
+    "latitude": 6.9948469,
+    "longitude": 79.87629989999999
+  },
+  "address": "46/A Hendala Rd, Wattala",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0117448094",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQRA5QGA7Z3B3A4KJ2E9"
+}

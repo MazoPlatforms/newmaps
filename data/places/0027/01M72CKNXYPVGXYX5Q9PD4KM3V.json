@@ -1,0 +1,64 @@
+{
+  "name": "I C M Systems",
+  "coordinates": {
+    "latitude": 6.4423059,
+    "longitude": 80.0176291
+  },
+  "address": "35-A Marikkar St, Dharga Town 12090",
+  "categories": [
+    "Computer store",
+    "Cell phone accessory store",
+    "Computer accessories store",
+    "Computer repair service",
+    "Computer support and services"
+  ],
+  "phone": "0772311310",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11:30 AM",
+        "4–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–1:30 PM",
+        "4–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKNXYPVGXYX5Q9PD4KM3V"
+}

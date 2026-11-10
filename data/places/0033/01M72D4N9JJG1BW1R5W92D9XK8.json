@@ -1,0 +1,58 @@
+{
+  "name": "Northern PC Park",
+  "coordinates": {
+    "latitude": 9.669891,
+    "longitude": 80.0102392
+  },
+  "address": "NO:10 Stanley Rd, Jaffna 40000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0777570124",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4N9JJG1BW1R5W92D9XK8"
+}

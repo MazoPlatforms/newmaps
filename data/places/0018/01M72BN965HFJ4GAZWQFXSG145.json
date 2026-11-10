@@ -1,0 +1,63 @@
+{
+  "name": "Donuts",
+  "coordinates": {
+    "latitude": 8.0746326,
+    "longitude": 79.8348876
+  },
+  "address": "4th mile post, Mannar Rd, Puttalam 61300",
+  "categories": [
+    "Food court",
+    "Barbecue area",
+    "Cake shop",
+    "Chocolate shop",
+    "Diner"
+  ],
+  "phone": "0773397192",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 PM",
+        "2–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN965HFJ4GAZWQFXSG145"
+}

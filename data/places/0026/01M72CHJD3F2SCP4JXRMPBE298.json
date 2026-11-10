@@ -1,0 +1,59 @@
+{
+  "name": "Singer Kalutara A",
+  "coordinates": {
+    "latitude": 6.5834858,
+    "longitude": 79.9612329
+  },
+  "address": "81 Main Street, Kalutara",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0778962777",
+  "website": "http://www.singersl.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHJD3F2SCP4JXRMPBE298"
+}

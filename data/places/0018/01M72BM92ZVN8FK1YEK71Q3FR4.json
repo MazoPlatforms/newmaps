@@ -1,0 +1,58 @@
+{
+  "name": "Kithsiri Auto Service",
+  "coordinates": {
+    "latitude": 7.5216601,
+    "longitude": 80.375337
+  },
+  "address": "G9CG+M48, Kurunegala",
+  "categories": [
+    "Rest stop"
+  ],
+  "phone": "0779345597",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BM92ZVN8FK1YEK71Q3FR4"
+}

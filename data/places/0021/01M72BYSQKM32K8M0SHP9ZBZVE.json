@@ -1,0 +1,59 @@
+{
+  "name": "Lucky Emporium",
+  "coordinates": {
+    "latitude": 7.713114099999999,
+    "longitude": 81.69824419999999
+  },
+  "address": "75 Main Street, Batticaloa",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0652222978",
+  "website": "http://www.facebook.com/BattiLucky/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BYSQKM32K8M0SHP9ZBZVE"
+}

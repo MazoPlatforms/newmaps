@@ -1,0 +1,59 @@
+{
+  "name": "Beach Cafe",
+  "coordinates": {
+    "latitude": 9.8160631,
+    "longitude": 80.0460335
+  },
+  "address": "Kankesanturai",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0765719979",
+  "website": "https://www.facebook.com/share/18VXdA36oo/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTK4NKG8NMRA767CG7183"
+}

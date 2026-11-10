@@ -1,0 +1,59 @@
+{
+  "name": "Ruhunu Hospital Medical Centre - Matara",
+  "coordinates": {
+    "latitude": 5.9502114,
+    "longitude": 80.54839729999999
+  },
+  "address": "Edmond Samarasekara Mawatha, Matara 81000",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0417572301",
+  "website": "http://www.ruhunuhospital.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J4D8DTXZKNR72J3WK38"
+}

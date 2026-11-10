@@ -1,0 +1,58 @@
+{
+  "name": "Cyberpunk",
+  "coordinates": {
+    "latitude": 6.0808085,
+    "longitude": 80.2229097
+  },
+  "address": "No.75/1,Kahataghawatta, Godakanda, Galle 80600",
+  "categories": [
+    "Computer security service"
+  ],
+  "phone": "0771818404",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7XAD83N0VDQT4D7MSSH"
+}

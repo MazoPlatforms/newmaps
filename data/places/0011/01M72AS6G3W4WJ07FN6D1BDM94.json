@@ -1,0 +1,59 @@
+{
+  "name": "Bright House",
+  "coordinates": {
+    "latitude": 6.7890082,
+    "longitude": 79.8856917
+  },
+  "address": "Vihara Mawatha, Moratuwa 10400",
+  "categories": [
+    "Bakery",
+    "Cafe"
+  ],
+  "phone": "0112645271",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6G3W4WJ07FN6D1BDM94"
+}

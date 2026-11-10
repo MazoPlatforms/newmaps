@@ -1,0 +1,67 @@
+{
+  "name": "Exotic Kitchen",
+  "coordinates": {
+    "latitude": 6.706679299999999,
+    "longitude": 79.95722359999999
+  },
+  "address": "400A Horana Rd, Panadura",
+  "categories": [
+    "Restaurant",
+    "Chinese restaurant"
+  ],
+  "phone": "0382252221",
+  "website": "http://exotickitchen.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–3:30 PM",
+        "6–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZQ8Y7NX104132RGGH208"
+}

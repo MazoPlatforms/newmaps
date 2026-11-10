@@ -1,0 +1,58 @@
+{
+  "address": "770,POINT PEDRO ROAD, AB20, Jaffna",
+  "name": "Arriyaars Medical Store",
+  "coordinates": {
+    "latitude": 9.6733221,
+    "longitude": 80.0343134
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0212229288",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72AD61EDA3B15MEKYXBWKC5"
+}

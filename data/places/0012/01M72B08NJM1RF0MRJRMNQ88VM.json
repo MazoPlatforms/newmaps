@@ -1,0 +1,58 @@
+{
+  "name": "Homeopathic Clinic",
+  "coordinates": {
+    "latitude": 6.736394199999999,
+    "longitude": 79.90534509999999
+  },
+  "address": "1 Jubilee Road, Panadura 12500",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0771604992",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08NJM1RF0MRJRMNQ88VM"
+}

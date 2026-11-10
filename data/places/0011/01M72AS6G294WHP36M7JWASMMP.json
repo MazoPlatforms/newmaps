@@ -1,0 +1,59 @@
+{
+  "name": "Urban Elephants",
+  "coordinates": {
+    "latitude": 6.7833223,
+    "longitude": 79.8845001
+  },
+  "address": "250 Galle Rd, Moratuwa 10400",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0112643213",
+  "website": "https://urbanelephants.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6G294WHP36M7JWASMMP"
+}

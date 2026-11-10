@@ -1,0 +1,58 @@
+{
+  "name": "වසන්ත Supermarket",
+  "coordinates": {
+    "latitude": 6.8935398,
+    "longitude": 79.90620609999999
+  },
+  "address": "Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0713014209",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEMN0W3XNP5DJZN93FCC"
+}

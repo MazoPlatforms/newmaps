@@ -1,0 +1,58 @@
+{
+  "name": "Salon X7",
+  "coordinates": {
+    "latitude": 7.475935499999999,
+    "longitude": 80.3467584
+  },
+  "address": "No:01 Royal Garden, Circular Rd, Kurunegala 60000",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0701515156",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0V76GJQN7XKQMSWV4JC3"
+}

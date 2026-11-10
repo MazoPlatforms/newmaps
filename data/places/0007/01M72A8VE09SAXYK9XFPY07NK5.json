@@ -1,0 +1,59 @@
+{
+  "address": "37/3 Pedris Rd, Colombo 00300",
+  "name": "Coffee & Company",
+  "coordinates": {
+    "latitude": 6.9044874,
+    "longitude": 79.8578737
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0771225567",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "id": "01M72A8VE09SAXYK9XFPY07NK5"
+}

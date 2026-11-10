@@ -1,0 +1,58 @@
+{
+  "name": "Sithupura Food Mart",
+  "coordinates": {
+    "latitude": 6.265556999999999,
+    "longitude": 80.076729
+  },
+  "address": "Elpitiya, road, Dhangahavilla 80360",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0741202190",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B84C6D22QJSZWWSSWJM5D"
+}

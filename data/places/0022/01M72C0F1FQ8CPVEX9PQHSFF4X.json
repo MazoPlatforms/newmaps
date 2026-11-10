@@ -1,0 +1,58 @@
+{
+  "name": "Sub Post Office",
+  "coordinates": {
+    "latitude": 7.410529299999999,
+    "longitude": 81.83773889999999
+  },
+  "address": "CR6Q+639, KKP Rd., Kalmunai 32300",
+  "categories": [
+    "Post office"
+  ],
+  "website": "https://slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C0F1FQ8CPVEX9PQHSFF4X"
+}

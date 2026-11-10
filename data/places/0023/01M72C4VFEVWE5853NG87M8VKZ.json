@@ -1,0 +1,59 @@
+{
+  "name": "S M Stores",
+  "coordinates": {
+    "latitude": 8.404612,
+    "longitude": 81.31241399999999
+  },
+  "address": "HM4-HM5, Cental Road, Thoppur 31250",
+  "categories": [
+    "Grocery store",
+    "Clothing store"
+  ],
+  "phone": "0754192095",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4VFEVWE5853NG87M8VKZ"
+}

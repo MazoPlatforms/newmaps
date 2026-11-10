@@ -1,0 +1,58 @@
+{
+  "name": "Onmart Restaurant",
+  "coordinates": {
+    "latitude": 8.7850957,
+    "longitude": 80.4852799
+  },
+  "address": "QFPP+24J, A9, Vavuniya",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777123456",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6M1XDW02F5AW1NCYM1Y"
+}

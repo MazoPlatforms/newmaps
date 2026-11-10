@@ -1,0 +1,58 @@
+{
+  "name": "Iron Stores",
+  "coordinates": {
+    "latitude": 8.9772795,
+    "longitude": 79.9128265
+  },
+  "address": "Grand Bazar, Mannar 41000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0232222309",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5ZM027AAH7MZEMCAAX9Z"
+}

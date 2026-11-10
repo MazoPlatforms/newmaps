@@ -1,0 +1,57 @@
+{
+  "name": "Dehiwala Market",
+  "coordinates": {
+    "latitude": 6.8509936,
+    "longitude": 79.8649521
+  },
+  "address": "37 Galle Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Market"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7V6T96E7BH74NAAKXYB"
+}

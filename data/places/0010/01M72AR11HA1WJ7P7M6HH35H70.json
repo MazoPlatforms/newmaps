@@ -1,0 +1,59 @@
+{
+  "name": "Union Bank Attidiya Branch",
+  "coordinates": {
+    "latitude": 6.8321609,
+    "longitude": 79.8856989
+  },
+  "address": "126 Attidiya Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Bank",
+    "ATM",
+    "Banking and finance"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11HA1WJ7P7M6HH35H70"
+}

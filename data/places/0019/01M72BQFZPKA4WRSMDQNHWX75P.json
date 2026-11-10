@@ -1,0 +1,58 @@
+{
+  "name": "HDFC Bank ATM",
+  "coordinates": {
+    "latitude": 8.326687699999999,
+    "longitude": 80.41005439999999
+  },
+  "address": "8CG6+M2F, Court Place, Bandaranayaka Mawatha, Anuradhapura 50000",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0252223289",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQFZPKA4WRSMDQNHWX75P"
+}

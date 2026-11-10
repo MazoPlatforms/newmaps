@@ -1,0 +1,58 @@
+{
+  "name": "New Waruna Pharmacy",
+  "coordinates": {
+    "latitude": 6.7124548,
+    "longitude": 79.90876659999999
+  },
+  "address": "33 A8, Panadura",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0382230185",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08NEF8FVZPYBJV81EBA9"
+}

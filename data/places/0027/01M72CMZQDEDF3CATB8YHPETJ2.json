@@ -1,0 +1,59 @@
+{
+  "name": "The Style Lab",
+  "coordinates": {
+    "latitude": 7.2756889,
+    "longitude": 80.6152736
+  },
+  "address": "605 William Gopallawa Mawatha, Kandy 20000",
+  "categories": [
+    "Beauty salon",
+    "Hairdresser"
+  ],
+  "phone": "0714940158",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQDEDF3CATB8YHPETJ2"
+}

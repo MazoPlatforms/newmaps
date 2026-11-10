@@ -1,0 +1,63 @@
+{
+  "name": "Medicare Medical Centre",
+  "coordinates": {
+    "latitude": 8.308341799999999,
+    "longitude": 80.41367629999999
+  },
+  "address": "No.317 Bandaranaike Mawatha, Anuradhapura",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0711595004",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–8 AM",
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–8 AM",
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–8 AM",
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–8 AM",
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–8 AM",
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9X7NHZSW8ZPK24WANWQ"
+}

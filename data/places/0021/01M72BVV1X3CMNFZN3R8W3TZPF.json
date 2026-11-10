@@ -1,0 +1,60 @@
+{
+  "name": "Bathushan Bake House",
+  "coordinates": {
+    "latitude": 8.7494845,
+    "longitude": 80.5107391
+  },
+  "address": "Rambaikulam",
+  "categories": [
+    "Bakery",
+    "Restaurant"
+  ],
+  "phone": "0242220448",
+  "website": "http://bathushanbakehouse.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVV1X3CMNFZN3R8W3TZPF"
+}

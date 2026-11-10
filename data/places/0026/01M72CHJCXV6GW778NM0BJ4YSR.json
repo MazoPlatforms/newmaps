@@ -1,0 +1,61 @@
+{
+  "name": "IT Partner",
+  "coordinates": {
+    "latitude": 6.5844121,
+    "longitude": 79.9610221
+  },
+  "address": "55/C Galle - Colombo Rd, Kalutara 12000",
+  "categories": [
+    "Computer store",
+    "Computer accessories store",
+    "Computer repair service",
+    "Computer software store"
+  ],
+  "phone": "0765599701",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHJCXV6GW778NM0BJ4YSR"
+}

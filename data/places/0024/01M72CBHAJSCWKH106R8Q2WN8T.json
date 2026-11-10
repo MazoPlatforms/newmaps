@@ -1,0 +1,58 @@
+{
+  "name": "Print House",
+  "coordinates": {
+    "latitude": 6.869269399999999,
+    "longitude": 79.8815747
+  },
+  "address": "170 Dutugemunu St, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Print shop"
+  ],
+  "phone": "0777309158",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CBHAJSCWKH106R8Q2WN8T"
+}

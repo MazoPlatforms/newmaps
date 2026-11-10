@@ -1,0 +1,60 @@
+{
+  "name": "Supiri Wine Stores",
+  "coordinates": {
+    "latitude": 5.9466116,
+    "longitude": 80.5313512
+  },
+  "address": "399E, Matara 81000",
+  "categories": [
+    "Wine store",
+    "Alcoholic beverage wholesaler",
+    "Beer store"
+  ],
+  "phone": "0412234447",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9B98Q5182VZBHZVKBWVT"
+}

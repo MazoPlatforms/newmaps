@@ -1,0 +1,58 @@
+{
+  "name": "Kuwait Hospital",
+  "coordinates": {
+    "latitude": 8.0507964,
+    "longitude": 79.8358457
+  },
+  "address": "3R2P+889, Puttalam",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0324934469",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNQBZKFAM4JPC5EZR6WKJ"
+}

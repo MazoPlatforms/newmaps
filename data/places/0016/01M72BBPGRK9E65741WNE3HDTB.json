@@ -1,0 +1,58 @@
+{
+  "name": "Mr.Smoothie- Health Food Restaurant ,Udawalawa",
+  "coordinates": {
+    "latitude": 6.4131591,
+    "longitude": 80.7970673
+  },
+  "address": "112/4 Thanamalvila Rd, Udawalawa",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0770639417",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGRK9E65741WNE3HDTB"
+}

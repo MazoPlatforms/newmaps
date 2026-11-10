@@ -1,0 +1,61 @@
+{
+  "name": "The Kandy Ayurvedic Pharmacy Ltd. (Nuwara Osu) Factory",
+  "coordinates": {
+    "latitude": 7.275258399999999,
+    "longitude": 80.6128219
+  },
+  "address": "893 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Pharmacy",
+    "Medical Center",
+    "Medical clinic",
+    "Pharmaceutical company"
+  ],
+  "phone": "0707000213",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–2:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2P4R8EJPMT88X1WGJ4TZ"
+}

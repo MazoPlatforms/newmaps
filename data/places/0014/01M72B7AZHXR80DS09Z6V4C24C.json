@@ -1,0 +1,59 @@
+{
+  "name": "Upali's Supermarket (MINI)",
+  "coordinates": {
+    "latitude": 6.1340188,
+    "longitude": 80.1003915
+  },
+  "address": "No 291 Galle - Colombo Rd, Hikkaduwa 80240",
+  "categories": [
+    "Grocery store",
+    "Beach entertainment shop"
+  ],
+  "phone": "0722894013",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7AZHXR80DS09Z6V4C24C"
+}

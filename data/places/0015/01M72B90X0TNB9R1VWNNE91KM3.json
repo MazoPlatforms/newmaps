@@ -1,0 +1,59 @@
+{
+  "name": "NGM Hotel & Bakers",
+  "coordinates": {
+    "latitude": 5.9736148,
+    "longitude": 80.4282355
+  },
+  "address": "304 Main Street, Weligama 81700",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0770052565",
+  "website": "https://ngmhotel.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90X0TNB9R1VWNNE91KM3"
+}

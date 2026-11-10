@@ -1,0 +1,58 @@
+{
+  "name": "Sriya Saloon",
+  "coordinates": {
+    "latitude": 7.5943375,
+    "longitude": 80.8397064
+  },
+  "address": "No 45, Matale 21520",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0766434905",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNZE8RDM08G92EM71EVKH"
+}

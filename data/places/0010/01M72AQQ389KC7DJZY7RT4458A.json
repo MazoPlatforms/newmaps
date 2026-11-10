@@ -1,0 +1,64 @@
+{
+  "name": "Al Shifa Medi Point Family & Clinic",
+  "coordinates": {
+    "latitude": 6.8561838999999996,
+    "longitude": 79.8673318
+  },
+  "address": "No 30 B 1, 1 Waidya Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0719119911",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–8:30 AM",
+        "6–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–5 PM",
+        "6–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–5 PM",
+        "6–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6–8:30 AM",
+        "6–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–8:30 AM",
+        "6–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–5 PM",
+        "6–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ389KC7DJZY7RT4458A"
+}

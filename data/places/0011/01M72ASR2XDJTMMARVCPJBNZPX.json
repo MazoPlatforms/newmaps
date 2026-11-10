@@ -1,0 +1,58 @@
+{
+  "name": "Medical Center",
+  "coordinates": {
+    "latitude": 6.8000624,
+    "longitude": 79.87833309999999
+  },
+  "address": "RV2H+28G, Angulana Station Rd, Moratuwa 10400",
+  "categories": [
+    "Occupational medical physician"
+  ],
+  "phone": "0112624076",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASR2XDJTMMARVCPJBNZPX"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Technical College, Vavuniya.",
+  "coordinates": {
+    "latitude": 8.7612535,
+    "longitude": 80.4519742
+  },
+  "address": "Technical College, Vavuniya-Parayanalankulam Hwy, Vavuniya 43000",
+  "categories": [
+    "Technical school"
+  ],
+  "phone": "0242223664",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–4:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWD0CNQ36AD1EK5M7R3GK"
+}

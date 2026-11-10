@@ -1,0 +1,58 @@
+{
+  "name": "Diana Beach Restaurant",
+  "coordinates": {
+    "latitude": 5.9359815,
+    "longitude": 80.5189723
+  },
+  "address": "Beach road, Madiha Rd, Matara 81000",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0716720008",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WCM3PX20NH7K7YE1T6"
+}

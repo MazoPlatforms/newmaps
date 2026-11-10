@@ -1,0 +1,58 @@
+{
+  "name": "Ashi Pharmacy",
+  "coordinates": {
+    "latitude": 6.8460364,
+    "longitude": 79.8714621
+  },
+  "address": "97 B547, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0750701700",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG0140EB6PMQPPXXJ7MF0"
+}

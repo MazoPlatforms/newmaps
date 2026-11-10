@@ -1,0 +1,59 @@
+{
+  "name": "Araliya Mini Mart & Shopping Complex",
+  "coordinates": {
+    "latitude": 6.967546,
+    "longitude": 80.767011
+  },
+  "address": "NO 01, Araliya Green City, Grand Hotel Road, Nuwara Eliya, Nuwara Eliya 22200",
+  "categories": [
+    "Supermarket",
+    "Grocery store"
+  ],
+  "phone": "0522225000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4F1V1A8H2BZE9GRNPAC8"
+}

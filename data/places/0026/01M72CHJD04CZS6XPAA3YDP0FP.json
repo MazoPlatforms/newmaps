@@ -1,0 +1,59 @@
+{
+  "name": "New Micro City",
+  "coordinates": {
+    "latitude": 6.5804785,
+    "longitude": 79.96205359999999
+  },
+  "address": "189/B Galle Rd, Kalutara",
+  "categories": [
+    "Computer store",
+    "Cell phone store"
+  ],
+  "phone": "0758122757",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9–9:30 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHJD04CZS6XPAA3YDP0FP"
+}

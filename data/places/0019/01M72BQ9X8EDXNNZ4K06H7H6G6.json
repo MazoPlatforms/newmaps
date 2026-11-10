@@ -1,0 +1,58 @@
+{
+  "name": "New Leeds Hospital",
+  "coordinates": {
+    "latitude": 8.3183755,
+    "longitude": 80.4156343
+  },
+  "address": "Buddhagaya Mawatha, Anuradhapura",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0787618715",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9X8EDXNNZ4K06H7H6G6"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Matale Medicals",
+  "coordinates": {
+    "latitude": 7.4685394,
+    "longitude": 80.6227026
+  },
+  "address": "45 Dharmapala Mawatha, Matale 21000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0753806299",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3QC6ZZ3YK8DR5B9EDAEZ"
+}

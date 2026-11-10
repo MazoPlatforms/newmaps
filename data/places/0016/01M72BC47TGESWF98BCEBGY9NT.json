@@ -1,0 +1,65 @@
+{
+  "name": "Trust Care Medical Center",
+  "coordinates": {
+    "latitude": 6.1640562999999995,
+    "longitude": 81.1294279
+  },
+  "address": "Faxar lanka, No 02 Siribopura, Hambantota 82000",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0713430920",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30–8 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM",
+        "4–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BC47TGESWF98BCEBGY9NT"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Green Super",
+  "coordinates": {
+    "latitude": 8.3144969,
+    "longitude": 80.401202
+  },
+  "address": "No:3143 D, S. Senanayake Mw, Anuradhapura 50000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0723510531",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4KWYKTPFJ7S508G6A73"
+}

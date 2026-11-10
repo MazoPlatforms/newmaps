@@ -1,0 +1,59 @@
+{
+  "name": "TWP Grocery Store",
+  "coordinates": {
+    "latitude": 7.543872899999999,
+    "longitude": 80.38745229999999
+  },
+  "address": "Wellawa, Kurunegala 60570",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0714893711",
+  "website": "https://twpgrocerystore.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMA9DMQX6G58CQQQCSP4"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "City Tex",
+  "coordinates": {
+    "latitude": 9.383697,
+    "longitude": 80.4054235
+  },
+  "address": "No. 05 (City Tex), Kanagapuram Road, Kilinochchi 44000",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0773774231",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D696Z210BQ1QC599C4A93"
+}

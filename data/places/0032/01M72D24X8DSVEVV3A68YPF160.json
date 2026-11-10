@@ -1,0 +1,58 @@
+{
+  "name": "Colombo Tailor Spot",
+  "coordinates": {
+    "latitude": 7.5766116,
+    "longitude": 79.7923825
+  },
+  "address": "147 Bazaar St, Chilaw",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0322223847",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D24X8DSVEVV3A68YPF160"
+}

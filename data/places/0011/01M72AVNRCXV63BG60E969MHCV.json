@@ -1,0 +1,58 @@
+{
+  "name": "Lanka Pharmacy",
+  "coordinates": {
+    "latitude": 6.909665599999999,
+    "longitude": 79.89634559999999
+  },
+  "address": "WV5W+VG9, Sri Jayawardenepura Mawatha, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0112876255",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10:29 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVNRCXV63BG60E969MHCV"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Kids Play World",
+  "coordinates": {
+    "latitude": 7.4206907,
+    "longitude": 80.6086627
+  },
+  "address": "No:07, Kandy Road, Balakaduwa Rd, Alawatugoda",
+  "categories": [
+    "Theme park",
+    "Family restaurant",
+    "Leisure center",
+    "Water park"
+  ],
+  "phone": "0777903535",
+  "website": "http://playworld.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CP86ZVWY8J1RC693X4E9M"
+}

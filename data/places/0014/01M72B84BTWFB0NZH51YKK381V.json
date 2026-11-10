@@ -1,0 +1,63 @@
+{
+  "name": "Damsath Enterprises",
+  "coordinates": {
+    "latitude": 6.2340450999999995,
+    "longitude": 80.0535471
+  },
+  "address": "No.185/1 Main St, Ambalangoda 85300",
+  "categories": [
+    "Supermarket",
+    "Asian grocery store",
+    "Bakery equipment",
+    "Cake decorating equipment shop",
+    "Hotel supply store"
+  ],
+  "phone": "0912210445",
+  "website": "http://www.damsath.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B84BTWFB0NZH51YKK381V"
+}

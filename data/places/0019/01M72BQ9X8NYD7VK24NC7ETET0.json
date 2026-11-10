@@ -1,0 +1,58 @@
+{
+  "name": "Medical Center",
+  "coordinates": {
+    "latitude": 8.3570639,
+    "longitude": 80.4150344
+  },
+  "address": "Jaffna juction, Anuradhapura 50000",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0718281355",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9X8NYD7VK24NC7ETET0"
+}

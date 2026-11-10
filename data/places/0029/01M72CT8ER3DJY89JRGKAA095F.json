@@ -1,0 +1,64 @@
+{
+  "name": "GoveRn IT",
+  "coordinates": {
+    "latitude": 5.9509023999999995,
+    "longitude": 80.5413165
+  },
+  "address": "No: 28E Batutha Road, Matara 81000",
+  "categories": [
+    "Print shop",
+    "Convenience store"
+  ],
+  "phone": "0773474103",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–1:30 PM",
+        "5–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CT8ER3DJY89JRGKAA095F"
+}

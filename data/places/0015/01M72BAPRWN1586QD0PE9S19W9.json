@@ -1,0 +1,58 @@
+{
+  "name": "Auntie's Café",
+  "coordinates": {
+    "latitude": 5.975980799999999,
+    "longitude": 80.4366932
+  },
+  "address": "Gangarama cross Road, Pelena West, Matara, Weligama 81700",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0766446033",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPRWN1586QD0PE9S19W9"
+}

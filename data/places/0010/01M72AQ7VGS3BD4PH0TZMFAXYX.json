@@ -1,0 +1,58 @@
+{
+  "name": "Quick Mart Store",
+  "coordinates": {
+    "latitude": 6.8430214,
+    "longitude": 79.870843
+  },
+  "address": "RVVC+689, Pragnaloka Mawatha, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Convenience store"
+  ],
+  "phone": "0777068998",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7VGS3BD4PH0TZMFAXYX"
+}

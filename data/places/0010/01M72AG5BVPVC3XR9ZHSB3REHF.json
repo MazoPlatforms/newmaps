@@ -1,0 +1,59 @@
+{
+  "name": "The Knowledge Institute",
+  "coordinates": {
+    "latitude": 6.9368821,
+    "longitude": 79.8994374
+  },
+  "address": "Wellampitiya 10600",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0778986564",
+  "website": "http://www.tkiedu.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BVPVC3XR9ZHSB3REHF"
+}

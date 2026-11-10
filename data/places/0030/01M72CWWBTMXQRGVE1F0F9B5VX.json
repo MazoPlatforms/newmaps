@@ -1,0 +1,59 @@
+{
+  "name": "Safe Mobile",
+  "coordinates": {
+    "latitude": 6.9551837999999995,
+    "longitude": 81.03111729999999
+  },
+  "address": "WELIMAD ROAD, Hali-ela 96000",
+  "categories": [
+    "Computer store",
+    "Cell phone store"
+  ],
+  "phone": "0771756858",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWWBTMXQRGVE1F0F9B5VX"
+}

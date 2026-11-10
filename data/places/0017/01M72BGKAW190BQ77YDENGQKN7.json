@@ -1,0 +1,59 @@
+{
+  "name": "NDB Bank - Monaragala",
+  "coordinates": {
+    "latitude": 6.8733685,
+    "longitude": 81.3502462
+  },
+  "address": "No: 29, Pothuwil Road",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0557448006",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGKAW190BQ77YDENGQKN7"
+}

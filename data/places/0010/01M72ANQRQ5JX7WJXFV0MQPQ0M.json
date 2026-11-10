@@ -1,0 +1,58 @@
+{
+  "name": "HNB ATM",
+  "coordinates": {
+    "latitude": 6.9382141,
+    "longitude": 79.84437109999999
+  },
+  "address": "Sri Lanka Ports Authority, Colombo 10, Colombo 01000",
+  "categories": [
+    "ATM"
+  ],
+  "website": "https://www.hnb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQRQ5JX7WJXFV0MQPQ0M"
+}

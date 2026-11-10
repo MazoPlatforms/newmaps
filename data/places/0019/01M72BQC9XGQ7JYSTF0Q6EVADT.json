@@ -1,0 +1,58 @@
+{
+  "name": "Science Academy",
+  "coordinates": {
+    "latitude": 8.3007187,
+    "longitude": 80.4189341
+  },
+  "address": "112/259B, Wanniyankulama, 50000",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0779430040",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8–10:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQC9XGQ7JYSTF0Q6EVADT"
+}

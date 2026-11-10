@@ -1,0 +1,66 @@
+{
+  "name": "Aliya Fashion Store",
+  "coordinates": {
+    "latitude": 6.9107696,
+    "longitude": 79.892358
+  },
+  "address": "660/1 Dr NM Perera Mawatha Rd, Colombo",
+  "categories": [
+    "Clothing store",
+    "Delivery service",
+    "Jeans shop",
+    "Men's clothing store",
+    "Perfume store",
+    "Shoe store",
+    "Shopping mall",
+    "Sunglasses store"
+  ],
+  "phone": "0773499788",
+  "website": "https://aliya.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8165ZQCC9D293B0PSWHY"
+}

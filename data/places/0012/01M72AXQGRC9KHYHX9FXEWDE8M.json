@@ -1,0 +1,59 @@
+{
+  "name": "M.R Auto Workshop",
+  "coordinates": {
+    "latitude": 7.2209822,
+    "longitude": 79.86137599999999
+  },
+  "address": "182/2, MIRIGAMA ROAD, NEGOMBO, Katana 11534",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0779641430",
+  "website": "https://mrautoworkshop.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXQGRC9KHYHX9FXEWDE8M"
+}

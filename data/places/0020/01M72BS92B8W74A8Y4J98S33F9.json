@@ -1,0 +1,58 @@
+{
+  "name": "Home Kitchen Dambulla",
+  "coordinates": {
+    "latitude": 7.857922899999999,
+    "longitude": 80.6589195
+  },
+  "address": "125 Kandalama Road, Dambulla 21100",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0765731084",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92B8W74A8Y4J98S33F9"
+}

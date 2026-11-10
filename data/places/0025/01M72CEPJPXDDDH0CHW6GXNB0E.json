@@ -1,0 +1,58 @@
+{
+  "name": "Gamage Fish Farm",
+  "coordinates": {
+    "latitude": 6.8996277,
+    "longitude": 80.03286399999999
+  },
+  "address": "276,alman peris road",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0776748643",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CEPJPXDDDH0CHW6GXNB0E"
+}

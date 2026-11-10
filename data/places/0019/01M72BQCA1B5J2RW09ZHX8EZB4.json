@@ -1,0 +1,58 @@
+{
+  "name": "Smart Class",
+  "coordinates": {
+    "latitude": 8.2901027,
+    "longitude": 80.4137111
+  },
+  "address": "259/c/c 9th cannel road, Anuradhapura 50000",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0715359945",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQCA1B5J2RW09ZHX8EZB4"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "PC Galaxy",
+  "coordinates": {
+    "latitude": 7.0525816,
+    "longitude": 80.53571939999999
+  },
+  "address": "51 Kothmale Rd, Nawalapitiya",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0764777039",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQGD0135YXQQ0PZF0X0KQ"
+}

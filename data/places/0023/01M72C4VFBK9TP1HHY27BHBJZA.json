@@ -1,0 +1,59 @@
+{
+  "name": "Samad Grocery",
+  "coordinates": {
+    "latitude": 8.4540028,
+    "longitude": 81.2657933
+  },
+  "address": "Main street, Mutur 30005",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0758514399",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:30 AM",
+        "1–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4VFBK9TP1HHY27BHBJZA"
+}

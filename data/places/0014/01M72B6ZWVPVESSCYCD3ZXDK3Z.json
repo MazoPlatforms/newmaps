@@ -1,0 +1,58 @@
+{
+  "name": "Tharindu Auto Service",
+  "coordinates": {
+    "latitude": 6.0914142,
+    "longitude": 80.1908076
+  },
+  "address": "35RR+H87, Wakwella",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0772275601",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6ZWVPVESSCYCD3ZXDK3Z"
+}

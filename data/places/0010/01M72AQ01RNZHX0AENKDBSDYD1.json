@@ -1,0 +1,59 @@
+{
+  "name": "Mazza Hotel & Bakery",
+  "coordinates": {
+    "latitude": 6.8511935,
+    "longitude": 79.8653489
+  },
+  "address": "Station Road, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Halal restaurant"
+  ],
+  "phone": "0769904124",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–11:30 AM",
+        "1:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ01RNZHX0AENKDBSDYD1"
+}

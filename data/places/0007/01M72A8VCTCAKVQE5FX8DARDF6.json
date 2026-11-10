@@ -1,0 +1,62 @@
+{
+  "address": "461 Thimbirigasyaya Rd, Colombo 00500",
+  "name": "The German Bakery",
+  "coordinates": {
+    "latitude": 6.8962087,
+    "longitude": 79.8747799
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    }
+  ],
+  "website": "http://www.germanbakery.lk/",
+  "business_status": "OPEN",
+  "phone": "0772885461",
+  "categories": [
+    "Bakery",
+    "Cafe",
+    "Breakfast restaurant",
+    "Deli"
+  ],
+  "id": "01M72A8VCTCAKVQE5FX8DARDF6"
+}

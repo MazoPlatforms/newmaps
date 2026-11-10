@@ -1,0 +1,58 @@
+{
+  "name": "Salon Woshini",
+  "coordinates": {
+    "latitude": 7.2694559,
+    "longitude": 80.6044865
+  },
+  "address": "1057 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0723400278",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQ94C8TD24HD7A3FFD3"
+}

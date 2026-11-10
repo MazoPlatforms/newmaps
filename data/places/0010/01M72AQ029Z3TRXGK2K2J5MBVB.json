@@ -1,0 +1,60 @@
+{
+  "name": "Suzie's Home Foods",
+  "coordinates": {
+    "latitude": 6.820116,
+    "longitude": 79.87992349999999
+  },
+  "address": "20 Jaya Mawatha, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Restaurant",
+    "Fast food restaurant",
+    "Pastry shop"
+  ],
+  "phone": "0771908322",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ029Z3TRXGK2K2J5MBVB"
+}

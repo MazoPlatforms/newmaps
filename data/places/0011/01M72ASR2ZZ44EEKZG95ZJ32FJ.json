@@ -1,0 +1,58 @@
+{
+  "name": "Shan Medicals",
+  "coordinates": {
+    "latitude": 6.7882563,
+    "longitude": 79.8853154
+  },
+  "address": "No 01, De Soysa Rd, Rawathawatta, Moratuwa, 01 Moratuwa - Piliyandala Rd, Moratuwa 10400",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0112646964",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASR2ZZ44EEKZG95ZJ32FJ"
+}

@@ -1,0 +1,57 @@
+{
+  "address": "M2WC+273, Jaffna",
+  "name": "Grocery Store",
+  "coordinates": {
+    "latitude": 9.6950063,
+    "longitude": 80.0206821
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "id": "01M72AD60KBA229MH1CJVAFC32"
+}

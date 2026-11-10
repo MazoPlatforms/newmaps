@@ -1,0 +1,60 @@
+{
+  "address": "No.175 Lewis Pl, Negombo 11500",
+  "name": "Swiss Bakery, Banyan",
+  "coordinates": {
+    "latitude": 7.2348183,
+    "longitude": 79.8414354
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "website": "https://www.heritancehotels.com/negombo/dining/banyan/swiss-bakery-cafe.html",
+  "business_status": "OPEN",
+  "phone": "0317431431",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "id": "01M72ADZ2SZCYYZ5VKQCV0CC6E"
+}

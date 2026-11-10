@@ -1,0 +1,59 @@
+{
+  "name": "I.P.M Stores",
+  "coordinates": {
+    "latitude": 7.402705399999999,
+    "longitude": 81.83455769999999
+  },
+  "address": "251-a, Cassim Rd, Kalmunai",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0776232181",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "3:15–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09YJDBF38Q694SZRVDEP"
+}

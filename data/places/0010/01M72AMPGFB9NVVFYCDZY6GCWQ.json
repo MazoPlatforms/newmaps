@@ -1,0 +1,59 @@
+{
+  "name": "R&L Philippines Supermarket",
+  "coordinates": {
+    "latitude": 6.9870401,
+    "longitude": 79.8938807
+  },
+  "address": "66 Kuda Edanda Rd, Wattala 11300",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0778873746",
+  "website": "https://www.facebook.com/PhilippinesSupermarketinSriLanka/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AMPGFB9NVVFYCDZY6GCWQ"
+}

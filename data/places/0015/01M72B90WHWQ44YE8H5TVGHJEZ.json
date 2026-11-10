@@ -1,0 +1,59 @@
+{
+  "name": "Wild Beach Cafe Food And Drinks",
+  "coordinates": {
+    "latitude": 5.9651346,
+    "longitude": 80.3846664
+  },
+  "address": "X98M+3V3, Matara Rd, Midigama",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "phone": "0779080122",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WHWQ44YE8H5TVGHJEZ"
+}

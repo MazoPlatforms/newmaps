@@ -1,0 +1,61 @@
+{
+  "name": "Assistia",
+  "coordinates": {
+    "latitude": 8.7519849,
+    "longitude": 80.4935859
+  },
+  "address": "45 outter Circular Rd, Vavuniya 43000",
+  "categories": [
+    "Computer support and services",
+    "Website designer",
+    "Graphic designer"
+  ],
+  "phone": "0764472222",
+  "website": "https://www.assistia.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5DZJD5D4600GVGC70Z9S"
+}

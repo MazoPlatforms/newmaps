@@ -1,0 +1,58 @@
+{
+  "name": "Ethernet Global",
+  "coordinates": {
+    "latitude": 6.7774681999999995,
+    "longitude": 79.8820293
+  },
+  "address": "Super Market Building, No, 42 1st Floor, Moratuwa 10400",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0779968105",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CBYMYJYTRQSW7AV9VYW4T"
+}

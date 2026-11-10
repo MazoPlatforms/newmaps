@@ -1,0 +1,58 @@
+{
+  "address": "49 Adnivers Road, Negombo 11500",
+  "name": "Akshayan Grocery Store",
+  "coordinates": {
+    "latitude": 7.2251654,
+    "longitude": 79.8461272
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0773538073",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AECM46T507JM2K1XFMBJT"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Faculty Of Agriculture",
+  "coordinates": {
+    "latitude": 7.2620625,
+    "longitude": 80.5958125
+  },
+  "address": "Kandy 20000",
+  "categories": [
+    "College of agriculture"
+  ],
+  "phone": "0812395013",
+  "website": "http://agri.pdn.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNG8AAC9S1C5WFBD9QG5A"
+}

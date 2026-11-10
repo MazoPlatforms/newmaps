@@ -1,0 +1,59 @@
+{
+  "name": "People's Bank",
+  "coordinates": {
+    "latitude": 6.581608699999999,
+    "longitude": 79.9617949
+  },
+  "address": "HXJ6+JPV, A2, Kalutara",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0342225143",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ5NKETRT69VWSRYE4PCG"
+}

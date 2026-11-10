@@ -1,0 +1,63 @@
+{
+  "address": "6 Kinross Ave, Colombo 00400",
+  "name": "Cafe Kinross",
+  "coordinates": {
+    "latitude": 6.880961,
+    "longitude": 79.8588183
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0771618527",
+  "categories": [
+    "Cafe",
+    "Chinese restaurant",
+    "Italian restaurant",
+    "Pizza restaurant",
+    "Restaurant",
+    "Sri Lankan restaurant"
+  ],
+  "id": "01M72A8VCSA8PCR2KFRG27QENG"
+}

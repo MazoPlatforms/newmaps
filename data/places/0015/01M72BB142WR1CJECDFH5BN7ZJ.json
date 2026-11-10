@@ -1,0 +1,65 @@
+{
+  "name": "Herbal Solutions",
+  "coordinates": {
+    "latitude": 5.981245599999999,
+    "longitude": 80.4324065
+  },
+  "address": "292 New St, Weligama 81700",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0783238220",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM",
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB142WR1CJECDFH5BN7ZJ"
+}

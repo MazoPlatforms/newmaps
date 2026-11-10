@@ -1,0 +1,59 @@
+{
+  "address": "273 Aadiyapatham Rd, Kokkuvil 40000",
+  "name": "Daily Food City",
+  "coordinates": {
+    "latitude": 9.6943662,
+    "longitude": 80.0156015
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    }
+  ],
+  "website": "https://dfc.lk/",
+  "business_status": "OPEN",
+  "phone": "0212224600",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72AD631HM5XCTBD64BRBBZV"
+}

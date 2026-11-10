@@ -1,0 +1,59 @@
+{
+  "address": "136 AB, 3rd Floor, Dam St, Colombo 01200",
+  "name": "Ab Travels",
+  "coordinates": {
+    "latitude": 6.938020799999999,
+    "longitude": 79.8575814
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777410104",
+  "categories": [
+    "Travel agency",
+    "Employment agency"
+  ],
+  "id": "01M72A9SFYB5EQ7NH410FEG6ZB"
+}

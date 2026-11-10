@@ -1,0 +1,58 @@
+{
+  "name": "BOC Bank",
+  "coordinates": {
+    "latitude": 8.7558367,
+    "longitude": 80.5011274
+  },
+  "address": "QG42+8FJ, Bazaar St, Vavuniya",
+  "categories": [
+    "Bank"
+  ],
+  "website": "http://www.boc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWGMMMMF6HZJ88D3NNGF9"
+}

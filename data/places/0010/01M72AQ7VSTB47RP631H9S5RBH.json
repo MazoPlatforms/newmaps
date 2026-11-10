@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City Express",
+  "coordinates": {
+    "latitude": 6.8524334,
+    "longitude": 79.8830274
+  },
+  "address": "No. 65 C Pepiliyana Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0112724170",
+  "website": "http://www.cargillsceylon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7VSTB47RP631H9S5RBH"
+}

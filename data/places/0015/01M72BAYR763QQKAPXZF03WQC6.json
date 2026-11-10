@@ -1,0 +1,58 @@
+{
+  "name": "Ajith Stores",
+  "coordinates": {
+    "latitude": 5.9706852,
+    "longitude": 80.4100228
+  },
+  "address": "Batawala Colony Rd, Weligama 81700",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0716001278",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAYR763QQKAPXZF03WQC6"
+}

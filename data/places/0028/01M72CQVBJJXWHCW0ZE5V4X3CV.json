@@ -1,0 +1,58 @@
+{
+  "name": "Galle Stores",
+  "coordinates": {
+    "latitude": 6.0345103,
+    "longitude": 80.2188079
+  },
+  "address": "No: 65, 67 Main Street, Galle 80000",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0912248855",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQVBJJXWHCW0ZE5V4X3CV"
+}

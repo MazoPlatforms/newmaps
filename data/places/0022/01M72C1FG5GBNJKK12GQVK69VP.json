@@ -1,0 +1,58 @@
+{
+  "name": "London Cafe",
+  "coordinates": {
+    "latitude": 7.227097,
+    "longitude": 81.8504743
+  },
+  "address": "Main St, Akkaraipattu 32400",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0775558960",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4 PM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1FG5GBNJKK12GQVK69VP"
+}

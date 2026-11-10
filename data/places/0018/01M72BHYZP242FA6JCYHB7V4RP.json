@@ -1,0 +1,58 @@
+{
+  "name": "Timaya Bakers",
+  "coordinates": {
+    "latitude": 7.2509295,
+    "longitude": 80.3429615
+  },
+  "address": "126 Kalugalla Ave, Kegalle 71000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0772976425",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZP242FA6JCYHB7V4RP"
+}

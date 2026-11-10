@@ -1,0 +1,60 @@
+{
+  "name": "Nehali Cakes",
+  "coordinates": {
+    "latitude": 6.2384585,
+    "longitude": 80.0524772
+  },
+  "address": "351 Main St, Ambalangoda 80300",
+  "categories": [
+    "Cake shop",
+    "Cafe"
+  ],
+  "phone": "0718838969",
+  "website": "https://facebook.com/nehalicakes/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YAPT14537X0F54V3VR7"
+}

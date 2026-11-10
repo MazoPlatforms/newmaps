@@ -1,0 +1,58 @@
+{
+  "name": "Spaghetti And Co. Restaurant",
+  "coordinates": {
+    "latitude": 6.1247745,
+    "longitude": 80.1102446
+  },
+  "address": "Narigama, 611 Galle Rd, Hikkaduwa 80240",
+  "categories": [
+    "Italian restaurant"
+  ],
+  "website": "http://fb.me/spaghettiandco",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77EXT6WZQ0FHZ38SX7W7"
+}

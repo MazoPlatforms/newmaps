@@ -1,0 +1,58 @@
+{
+  "name": "Saloon Abiru",
+  "coordinates": {
+    "latitude": 5.9829956,
+    "longitude": 80.7233541
+  },
+  "address": "XPMF+58X, Jayodagama.nakulugamuwa, Tangalle",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0715741363",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWEW2S5J21BHDMN0R26ZD"
+}

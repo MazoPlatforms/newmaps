@@ -1,0 +1,64 @@
+{
+  "name": "Glass Centre",
+  "coordinates": {
+    "latitude": 7.4891207,
+    "longitude": 80.362552
+  },
+  "address": "No. 31 Main Street, Kurunegala 60000",
+  "categories": [
+    "Hardware store",
+    "Glass & mirror shop",
+    "Picture frame shop",
+    "Wholesaler",
+    "Window treatment store",
+    "Wood frame supplier"
+  ],
+  "phone": "0776099209",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 PM",
+        "1:30–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0QGTH81R98MYZRY2AG57"
+}

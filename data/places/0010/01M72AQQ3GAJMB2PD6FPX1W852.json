@@ -1,0 +1,59 @@
+{
+  "name": "Medical Center",
+  "coordinates": {
+    "latitude": 6.818382799999999,
+    "longitude": 79.8744833
+  },
+  "address": "419 D Galle Rd, Dehiwala-Mount Lavinia 10390",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0764628528",
+  "website": "https://frabjous-profiterole-d843bb.netlify.app/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3GAJMB2PD6FPX1W852"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Royal Salon",
+  "coordinates": {
+    "latitude": 7.820258,
+    "longitude": 80.6577306
+  },
+  "address": "dambuluoya, 42.male post moragollawa, Dambulla",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0702621174",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D42VNE85P4R1CDJPHDEQ7"
+}

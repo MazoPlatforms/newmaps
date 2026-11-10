@@ -1,0 +1,58 @@
+{
+  "name": "Computer Corner",
+  "coordinates": {
+    "latitude": 9.670974099999999,
+    "longitude": 80.0122251
+  },
+  "address": "238 Kasthuriyar Rd, Jaffna",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0773537126",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4N9KG8NXD7WZ3HJMRZY9"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Nanotech",
+  "coordinates": {
+    "latitude": 6.935273199999999,
+    "longitude": 79.8524128
+  },
+  "address": "03 2nd Cross Street, Mannar 41000",
+  "categories": [
+    "Computer service",
+    "Computer accessories store",
+    "Computer repair service",
+    "Closed circuit television",
+    "Electronics repair shop",
+    "Hair extension technician",
+    "Mobile home supply store",
+    "Mobile phone repair shop",
+    "Security system installation service"
+  ],
+  "phone": "0757711117",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JN552WA6XY0EQ1J3DP2"
+}

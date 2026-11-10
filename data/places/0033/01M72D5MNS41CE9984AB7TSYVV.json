@@ -1,0 +1,58 @@
+{
+  "name": "The Lavish Men's Spot",
+  "coordinates": {
+    "latitude": 8.762475199999999,
+    "longitude": 80.47049899999999
+  },
+  "address": "417/5 Mannar Rd, Vavuniya 43000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0765233223",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5MNS41CE9984AB7TSYVV"
+}

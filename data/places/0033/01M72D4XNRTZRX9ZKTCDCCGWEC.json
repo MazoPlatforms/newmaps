@@ -1,0 +1,58 @@
+{
+  "name": "D Beauty House",
+  "coordinates": {
+    "latitude": 9.681816699999999,
+    "longitude": 80.03960099999999
+  },
+  "address": "1093 Jaffna-Point Pedro Rd, Kalviyankadu 40000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0771294740",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4XNRTZRX9ZKTCDCCGWEC"
+}

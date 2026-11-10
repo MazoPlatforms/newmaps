@@ -1,0 +1,58 @@
+{
+  "name": "Araliya Restaurant",
+  "coordinates": {
+    "latitude": 6.8735247,
+    "longitude": 81.0311807
+  },
+  "address": "V2FJ+CF3, Araliya Restaurant, Badulla Rd, Kumbalwela 90090",
+  "categories": [
+    "Cake shop"
+  ],
+  "phone": "0767081964",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BECXTS825PSZ17DZ7A5A0"
+}

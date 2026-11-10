@@ -1,0 +1,58 @@
+{
+  "name": "Medical Center",
+  "coordinates": {
+    "latitude": 6.8409415,
+    "longitude": 79.998633
+  },
+  "address": "NO 366, 1 High Level Rd, Homagama 10200",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0775649466",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGCF56ZMGHMYYF64X3XG"
+}

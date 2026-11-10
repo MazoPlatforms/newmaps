@@ -1,0 +1,58 @@
+{
+  "name": "Animal Clinic Dr. Anura Gunasekara",
+  "coordinates": {
+    "latitude": 7.0609454,
+    "longitude": 79.958168
+  },
+  "address": "311/N, Ganemulla 11020",
+  "categories": [
+    "Veterinary pharmacy"
+  ],
+  "phone": "0777123319",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGC9RHAE9A7NN70VF0G1"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Pearl Grocery",
+  "coordinates": {
+    "latitude": 7.986016899999999,
+    "longitude": 79.87594159999999
+  },
+  "address": "XVPG+C94, Cement Factory Road, Puttalam, Bodhirajapura",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0322058107",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY1JGB1BC8MAN75ZXKR"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Michelin Hardware Centre",
+  "coordinates": {
+    "latitude": 6.9403394,
+    "longitude": 79.8627145
+  },
+  "address": "333-1/2 Old Moor St, Colombo 01000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112423765",
+  "website": "https://michelinhwc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910F40AW98KD0D06HW4M"
+}

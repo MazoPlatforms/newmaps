@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank Hulftsdrop Branch",
+  "coordinates": {
+    "latitude": 6.933155999999999,
+    "longitude": 79.8589658
+  },
+  "address": "Basl Modern Office Complex, No 36, St. Sebastian Hill, 34 Sanchi Arachchi Gardens, Colombo 01200",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112339406",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR57C9ZJF266BJ5E9R1"
+}

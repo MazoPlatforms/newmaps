@@ -1,0 +1,58 @@
+{
+  "name": "Subhash Telecom",
+  "coordinates": {
+    "latitude": 7.4684731,
+    "longitude": 80.0416268
+  },
+  "address": "No.11,Gamma Shopping City, Kuliyapitiya",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0715244366",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D19P1DYAVX73KEG49FFR5"
+}

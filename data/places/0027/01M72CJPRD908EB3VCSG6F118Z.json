@@ -1,0 +1,64 @@
+{
+  "name": "Global Tech Solutions",
+  "coordinates": {
+    "latitude": 6.7398833,
+    "longitude": 79.9439762
+  },
+  "address": "109B, Panadura - Hirana Road, Panadura 12500",
+  "categories": [
+    "Computer service",
+    "Repair service",
+    "Electrical repair shop",
+    "Printer repair service",
+    "Security system installation service",
+    "Solar energy system service",
+    "Washer & dryer repair service"
+  ],
+  "phone": "0716002098",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPRD908EB3VCSG6F118Z"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "OK Tech",
+  "coordinates": {
+    "latitude": 6.0308193,
+    "longitude": 80.7913384
+  },
+  "address": "No 110 Beliatta Road, Tangalle 82200",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0779940950",
+  "website": "https://oktech.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CW56Y7NP0B06BYRS3WH32"
+}

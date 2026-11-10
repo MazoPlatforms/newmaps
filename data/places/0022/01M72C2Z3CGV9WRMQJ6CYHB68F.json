@@ -1,0 +1,57 @@
+{
+  "name": "Luxi Food City",
+  "coordinates": {
+    "latitude": 8.6005019,
+    "longitude": 81.21781899999999
+  },
+  "address": "J629+644, North Coast Road, Uppuveli Road, Trincomalee",
+  "categories": [
+    "Supermarket"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3CGV9WRMQJ6CYHB68F"
+}

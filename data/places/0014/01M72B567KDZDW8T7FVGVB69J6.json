@@ -1,0 +1,58 @@
+{
+  "name": "The Poranuwa",
+  "coordinates": {
+    "latitude": 6.898174699999999,
+    "longitude": 80.5931423
+  },
+  "address": "fruithill, Hatton 22000",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0706541701",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B567KDZDW8T7FVGVB69J6"
+}

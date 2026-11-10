@@ -1,0 +1,59 @@
+{
+  "name": "Sp Food Mart",
+  "coordinates": {
+    "latitude": 6.2595415999999995,
+    "longitude": 80.0570603
+  },
+  "address": "No:5 ,t.a.ke, T. A. K. De Silva Mawatha, Ambalangoda 80340",
+  "categories": [
+    "Grocery store",
+    "Fresh food market"
+  ],
+  "phone": "0775746828",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B84BQPBYJ5XQYKFDYZ4QW"
+}

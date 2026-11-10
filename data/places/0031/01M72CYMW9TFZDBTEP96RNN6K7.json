@@ -1,0 +1,58 @@
+{
+  "name": "Mahesh Fashion",
+  "coordinates": {
+    "latitude": 6.6781304,
+    "longitude": 80.4042655
+  },
+  "address": "55/1 Council Ave, Ratnapura 70000",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0771404949",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYMW9TFZDBTEP96RNN6K7"
+}

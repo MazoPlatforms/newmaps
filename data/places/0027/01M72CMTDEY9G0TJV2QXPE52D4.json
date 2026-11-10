@@ -1,0 +1,61 @@
+{
+  "name": "Victory Traders",
+  "coordinates": {
+    "latitude": 7.2851745,
+    "longitude": 80.6276559
+  },
+  "address": "63 William Gopallawa Mawatha, Kandy 20000",
+  "categories": [
+    "Building materials store",
+    "Electrical products wholesaler",
+    "Hardware store",
+    "Paint store"
+  ],
+  "phone": "0817221420",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMTDEY9G0TJV2QXPE52D4"
+}

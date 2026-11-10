@@ -1,0 +1,58 @@
+{
+  "name": "Family Mart",
+  "coordinates": {
+    "latitude": 8.5873638,
+    "longitude": 81.2152121
+  },
+  "address": "H6P8+W3W, Hospital road, Trincomalee 31000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0773158345",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3G7Z151788CBVAJ7Z2"
+}

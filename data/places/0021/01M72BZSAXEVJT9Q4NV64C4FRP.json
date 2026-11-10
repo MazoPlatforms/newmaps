@@ -1,0 +1,58 @@
+{
+  "name": "Auto Mart Service Station",
+  "coordinates": {
+    "latitude": 6.7844818,
+    "longitude": 80.3558092
+  },
+  "address": "A4 Colombo - Batticaloa Hwy Kuruwita 70500 Colombo - Batticaloa Hwy, Kuruwita 70500",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0452264650",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BZSAXEVJT9Q4NV64C4FRP"
+}

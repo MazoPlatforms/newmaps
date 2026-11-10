@@ -1,0 +1,62 @@
+{
+  "name": "Sinbon Bakery - Hospital Road",
+  "coordinates": {
+    "latitude": 8.7604314,
+    "longitude": 80.500543
+  },
+  "address": "14 Madathady Rd, Vavuniya",
+  "categories": [
+    "Cake shop",
+    "Bakery",
+    "Cookie shop",
+    "Cupcake shop",
+    "Sandwich shop"
+  ],
+  "phone": "0740586262",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVV1X7A0QR0026X6YRMCM"
+}

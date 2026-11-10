@@ -1,0 +1,60 @@
+{
+  "name": "FoodBell - Home Delivery",
+  "coordinates": {
+    "latitude": 8.7630949,
+    "longitude": 80.47820279999999
+  },
+  "address": "No-374 manar road, Vavuniya 43000",
+  "categories": [
+    "Delivery service",
+    "Cake shop"
+  ],
+  "phone": "0770660913",
+  "website": "http://foodbelleat.company.site/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVV20XBQHP0DPMV4X8AEQ"
+}

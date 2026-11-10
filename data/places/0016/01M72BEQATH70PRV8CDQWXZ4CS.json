@@ -1,0 +1,59 @@
+{
+  "name": "Quality Super Mart Badulla",
+  "coordinates": {
+    "latitude": 7.0044242,
+    "longitude": 81.05711459999999
+  },
+  "address": "211 Mahiyangana Road Puwakgodamulla, Badulla 90000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0717221080",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–11:30 AM",
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQATH70PRV8CDQWXZ4CS"
+}

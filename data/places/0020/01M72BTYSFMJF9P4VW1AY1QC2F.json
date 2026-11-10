@@ -1,0 +1,58 @@
+{
+  "name": "Navaneethan Store & Distributor",
+  "coordinates": {
+    "latitude": 9.667060099999999,
+    "longitude": 80.0258521
+  },
+  "address": "127, 4 Temple Rd Ln, Jaffna 40000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0774651480",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTYSFMJF9P4VW1AY1QC2F"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Fish Mart",
+  "coordinates": {
+    "latitude": 6.8031638,
+    "longitude": 80.0508546
+  },
+  "address": "251/1 batahira ,horagala ,padukka, Homagama",
+  "categories": [
+    "Pet store",
+    "Fish farm"
+  ],
+  "phone": "0716203813",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJAJ9N3HAPY1RGTK85Y52"
+}

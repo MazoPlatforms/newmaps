@@ -1,0 +1,58 @@
+{
+  "name": "Café Latte",
+  "coordinates": {
+    "latitude": 6.0209879,
+    "longitude": 80.7960276
+  },
+  "address": "No.43 Mihindu Mawatha, Tangalle",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0702108223",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNDXNSV9XV9QFYADBAK0"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "The Green Door Cafe",
+  "coordinates": {
+    "latitude": 6.8718262,
+    "longitude": 81.0567097
+  },
+  "address": "3rd Mile Post, Ella - Passara Rd, Ella 90090",
+  "categories": [
+    "Eclectic restaurant",
+    "Coffee shop",
+    "Western restaurant"
+  ],
+  "phone": "0777760744",
+  "website": "https://thegreendoor.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B47K8QW243X07WK3E6HXG"
+}

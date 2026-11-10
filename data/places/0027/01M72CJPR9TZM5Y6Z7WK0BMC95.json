@@ -1,0 +1,59 @@
+{
+  "name": "NanoHub",
+  "coordinates": {
+    "latitude": 6.7124083,
+    "longitude": 79.9070603
+  },
+  "address": "No. 27 1, 2 7th Cross St, Panadura 12500",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0767049479",
+  "website": "https://www.nanohub.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPR9TZM5Y6Z7WK0BMC95"
+}

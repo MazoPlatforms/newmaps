@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Bro",
+  "coordinates": {
+    "latitude": 8.025676599999999,
+    "longitude": 79.84247979999999
+  },
+  "address": "136/E Outer Circular Rd, Puttalam 61300",
+  "categories": [
+    "Cake shop"
+  ],
+  "phone": "0710160133",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN962JX2TXQ6PQPVRCZ6A"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Sujeewa Grocery",
+  "coordinates": {
+    "latitude": 6.580779,
+    "longitude": 79.9633951
+  },
+  "address": "144, Old Road, Kalutara South, Sarananda Mawatha, Kalutara 12000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0773259635",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ1ERG9XZPZ7NYKGS7JYS"
+}

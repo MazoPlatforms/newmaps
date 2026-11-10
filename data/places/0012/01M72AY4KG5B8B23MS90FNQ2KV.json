@@ -1,0 +1,58 @@
+{
+  "name": "Sps Grocery",
+  "coordinates": {
+    "latitude": 7.0638691,
+    "longitude": 80.0021283
+  },
+  "address": "3272+GVR, Gampaha",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0716904894",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AY4KG5B8B23MS90FNQ2KV"
+}

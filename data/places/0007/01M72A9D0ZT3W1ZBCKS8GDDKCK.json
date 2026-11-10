@@ -1,0 +1,58 @@
+{
+  "address": "64 Davidson Rd, Colombo 00400",
+  "name": "Royal Super Food Mart",
+  "coordinates": {
+    "latitude": 6.882616,
+    "longitude": 79.86142869999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112559333",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D0ZT3W1ZBCKS8GDDKCK"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "L M Automobile",
+  "coordinates": {
+    "latitude": 6.740449399999999,
+    "longitude": 79.9080759
+  },
+  "address": "Panadura",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0711245294",
+  "website": "https://www.facebook.com/L-M-Automobile-695132123907756/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0X5FW8K5WWR3RYB0HW75"
+}

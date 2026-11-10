@@ -1,0 +1,59 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 7.877037,
+    "longitude": 80.6510235
+  },
+  "address": "No 680, Anuradhapura Road, Ambepussa - Kurunegala - Trincomalee Hwy, Dambulla",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0662284934",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSWEP4G1SZQ5E6080VEA7"
+}

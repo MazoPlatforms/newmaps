@@ -1,0 +1,59 @@
+{
+  "name": "NDB Bank - Vavuniya",
+  "coordinates": {
+    "latitude": 8.752458899999999,
+    "longitude": 80.4973103
+  },
+  "address": "188, 190, 192 & 190, 1 Kandy Rd, Vavuniya",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0247448000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWGMNF6TA1ZWGHDV6XD6F"
+}

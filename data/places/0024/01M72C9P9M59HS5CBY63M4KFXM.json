@@ -1,0 +1,63 @@
+{
+  "name": "Excel World Entertainment Park",
+  "coordinates": {
+    "latitude": 6.9220071999999995,
+    "longitude": 79.86201799999999
+  },
+  "address": "338 T. B. Jayah Mawatha, Colombo 01000",
+  "categories": [
+    "Amusement center",
+    "Bowling alley",
+    "Laser tag center",
+    "Tourist attraction",
+    "Video game store"
+  ],
+  "phone": "0773082529",
+  "website": "http://www.excelworld.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9P9M59HS5CBY63M4KFXM"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Horizon Computers",
+  "coordinates": {
+    "latitude": 6.1245888,
+    "longitude": 81.1259913
+  },
+  "address": "Ruhunu plaza complex No 31, 82000",
+  "categories": [
+    "Computer service",
+    "Computer store"
+  ],
+  "phone": "0713679222",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CVNAMWCVYVVB4XCCTFT0K"
+}

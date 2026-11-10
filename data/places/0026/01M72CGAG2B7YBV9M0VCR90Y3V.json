@@ -1,0 +1,59 @@
+{
+  "name": "Sap Gamezone",
+  "coordinates": {
+    "latitude": 7.0923374,
+    "longitude": 79.9935186
+  },
+  "address": "Shopping Complex, Gampaha 11000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0773987246",
+  "website": "http://sapcomputers.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGAG2B7YBV9M0VCR90Y3V"
+}

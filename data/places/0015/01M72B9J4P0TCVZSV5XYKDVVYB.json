@@ -1,0 +1,58 @@
+{
+  "name": "Medical Cosmetic Clinic",
+  "coordinates": {
+    "latitude": 5.949192999999999,
+    "longitude": 80.5423486
+  },
+  "address": "WGXR+MWG, No: 129 Anagarika Dharmapala Mawatha, Matara 20000",
+  "categories": [
+    "Cosmetic surgeon"
+  ],
+  "phone": "0704499399",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J4P0TCVZSV5XYKDVVYB"
+}

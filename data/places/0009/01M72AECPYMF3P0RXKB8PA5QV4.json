@@ -1,0 +1,58 @@
+{
+  "address": "41 Mankuliya Rd, Negombo",
+  "name": "Shanthi Pharmacy & Supermarket",
+  "coordinates": {
+    "latitude": 7.2060122,
+    "longitude": 79.833517
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0742361547",
+  "categories": [
+    "Pharmacy"
+  ],
+  "id": "01M72AECPYMF3P0RXKB8PA5QV4"
+}

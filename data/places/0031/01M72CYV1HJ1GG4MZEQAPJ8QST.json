@@ -1,0 +1,58 @@
+{
+  "name": "My Computer",
+  "coordinates": {
+    "latitude": 6.680328299999999,
+    "longitude": 80.4071228
+  },
+  "address": "MCJ4+4RQ, Ratnapura",
+  "categories": [
+    "Computer accessories store"
+  ],
+  "phone": "0714219128",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYV1HJ1GG4MZEQAPJ8QST"
+}

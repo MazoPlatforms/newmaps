@@ -1,0 +1,58 @@
+{
+  "name": "Central Pharmacy",
+  "coordinates": {
+    "latitude": 7.4331007,
+    "longitude": 81.8139415
+  },
+  "address": "CRM7+6HW, Maruthamunai",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0672059674",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09ZENX9SPHJZNZY028ZP"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Mansoor Stores",
+  "coordinates": {
+    "latitude": 8.058017999999999,
+    "longitude": 79.82611349999999
+  },
+  "address": "Mansoor Stores, 2nd Mile Post, Mannar Rd, Puttalam 00000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0771487969",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–2 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–2 PM",
+        "4–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMXXH2N5NAJFGWEGX42G"
+}

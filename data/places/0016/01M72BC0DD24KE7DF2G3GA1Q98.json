@@ -1,0 +1,59 @@
+{
+  "name": "Freelan Smart Express",
+  "coordinates": {
+    "latitude": 6.1266336,
+    "longitude": 81.1258371
+  },
+  "address": "Hambantota",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0776057878",
+  "website": "http://www.freelanmatara.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BC0DD24KE7DF2G3GA1Q98"
+}

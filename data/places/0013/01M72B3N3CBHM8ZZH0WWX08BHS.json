@@ -1,0 +1,59 @@
+{
+  "name": "New Thaj Traders",
+  "coordinates": {
+    "latitude": 7.471717099999999,
+    "longitude": 80.62491469999999
+  },
+  "address": "119/D Gongawela Rd, Matale 21000",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0772667375",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–12 PM",
+        "1–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N3CBHM8ZZH0WWX08BHS"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "කේ Cafe",
+  "coordinates": {
+    "latitude": 6.698233,
+    "longitude": 79.93391629999999
+  },
+  "address": "No.305 /B, Panadura 12500",
+  "categories": [
+    "Food court"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZQ90WT30MQC8M1GBT14M"
+}

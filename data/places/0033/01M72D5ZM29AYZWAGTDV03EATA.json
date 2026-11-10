@@ -1,0 +1,59 @@
+{
+  "name": "Homebase",
+  "coordinates": {
+    "latitude": 8.977153699999999,
+    "longitude": 79.9130888
+  },
+  "address": "71 Grand Bazzar, Mannar",
+  "categories": [
+    "Hardware store",
+    "Paint store"
+  ],
+  "phone": "0702020205",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5ZM29AYZWAGTDV03EATA"
+}

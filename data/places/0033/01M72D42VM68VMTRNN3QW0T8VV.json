@@ -1,0 +1,61 @@
+{
+  "name": "Salon Lucky Dambulla",
+  "coordinates": {
+    "latitude": 7.881418399999999,
+    "longitude": 80.64962229999999
+  },
+  "address": "No 639/B A12, Dambulla 21100",
+  "categories": [
+    "Beauty salon",
+    "Bridal shop",
+    "Make-up artist"
+  ],
+  "phone": "0761258140",
+  "website": "https://www.facebook.com/Lucky-bridal-and-beauty-salon-818987774965429/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D42VM68VMTRNN3QW0T8VV"
+}

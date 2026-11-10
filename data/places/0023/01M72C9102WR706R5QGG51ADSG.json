@@ -1,0 +1,58 @@
+{
+  "name": "Meraki",
+  "coordinates": {
+    "latitude": 6.9397158,
+    "longitude": 79.8640989
+  },
+  "address": "188 Srimath Bandaranayake Mawatha, Colombo 00012",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0777381945",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9102WR706R5QGG51ADSG"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Ceylon Tea Supermarket - Ella City",
+  "coordinates": {
+    "latitude": 6.8745237,
+    "longitude": 81.047995
+  },
+  "address": "Ceylon Tea Supermarket, 68 Ella - Passara Rd, Ella 90090",
+  "categories": [
+    "Tea store"
+  ],
+  "phone": "0773013747",
+  "website": "https://www.ceylonteasupermarket.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDKD5ETHMRG89H576RNGD"
+}

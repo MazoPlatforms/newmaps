@@ -1,0 +1,58 @@
+{
+  "name": "Hiroshi Lanka",
+  "coordinates": {
+    "latitude": 7.1933563,
+    "longitude": 79.8607742
+  },
+  "address": "108, Negombo",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0770300006",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VQMCX0E7F5T32FZN16"
+}

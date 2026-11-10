@@ -1,0 +1,58 @@
+{
+  "name": "Salon Glamour",
+  "coordinates": {
+    "latitude": 6.737061499999999,
+    "longitude": 79.90369299999999
+  },
+  "address": "No 306 A1, 1 Old Galle Rd, Panadura 12500",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0758782427",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK4275XT6W7EWNNWDCRRB"
+}

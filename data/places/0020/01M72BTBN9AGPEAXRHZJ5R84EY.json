@@ -1,0 +1,58 @@
+{
+  "name": "Janidu Service Station",
+  "coordinates": {
+    "latitude": 7.8535797,
+    "longitude": 80.68318099999999
+  },
+  "address": "VM3M+C7M, Dambulla",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0776414376",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTBN9AGPEAXRHZJ5R84EY"
+}

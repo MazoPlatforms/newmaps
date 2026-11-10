@@ -1,0 +1,58 @@
+{
+  "name": "D Mart",
+  "coordinates": {
+    "latitude": 7.4333545999999995,
+    "longitude": 81.8144676
+  },
+  "address": "123, maraikar road, maruthamunai-04, Kalmunai 32314",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0757755666",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09YGT2Q04F8EVA5XT77G"
+}

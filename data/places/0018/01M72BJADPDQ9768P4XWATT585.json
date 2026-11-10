@@ -1,0 +1,60 @@
+{
+  "name": "Pharmacy Lanka",
+  "coordinates": {
+    "latitude": 7.274483399999999,
+    "longitude": 80.37004069999999
+  },
+  "address": "Kegalle",
+  "categories": [
+    "Medical Center",
+    "Medical supply store"
+  ],
+  "phone": "0716581030",
+  "website": "https://pharmacylanka.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJADPDQ9768P4XWATT585"
+}

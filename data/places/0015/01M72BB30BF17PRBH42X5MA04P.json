@@ -1,0 +1,59 @@
+{
+  "name": "Bank Of Ceylon ලංකා බැංකුව",
+  "coordinates": {
+    "latitude": 5.9733759,
+    "longitude": 80.42602269999999
+  },
+  "address": "A2, Weligama",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0412250280",
+  "website": "http://www.boc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB30BF17PRBH42X5MA04P"
+}

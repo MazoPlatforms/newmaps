@@ -1,0 +1,58 @@
+{
+  "name": "Dissanayaka Tool Center",
+  "coordinates": {
+    "latitude": 7.8773873,
+    "longitude": 80.6508415
+  },
+  "address": "Dambulla",
+  "categories": [
+    "Electrical engineer"
+  ],
+  "phone": "0773135006",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSM99J79X6380PZNAW3MK"
+}

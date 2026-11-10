@@ -1,0 +1,58 @@
+{
+  "name": "Friends Beauty Care",
+  "coordinates": {
+    "latitude": 8.7619553,
+    "longitude": 80.48928289999999
+  },
+  "address": "214 Station Rd, Vavuniya",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0245681409",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5MNT86BEH0YQDWTGR1CF"
+}

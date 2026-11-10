@@ -1,0 +1,64 @@
+{
+  "name": "Dr. Dilanthi Silva Medical Centre",
+  "coordinates": {
+    "latitude": 6.7956008,
+    "longitude": 79.8898282
+  },
+  "address": "QVWQ+6WW, Rolly Fdo Mawatha, Moratuwa 10400",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0112655764",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–1 PM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–1 PM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–1 PM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–1 PM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–1 PM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASR33HT072023FPVB8CPW"
+}

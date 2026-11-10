@@ -1,0 +1,69 @@
+{
+  "name": "The Dispensary Arugambay",
+  "coordinates": {
+    "latitude": 6.846396899999999,
+    "longitude": 81.83045779999999
+  },
+  "address": "Panama Rd, Arugam Bay 32500",
+  "categories": [
+    "Medical Center",
+    "Medical examiner",
+    "Occupational medical physician",
+    "Pharmacy"
+  ],
+  "phone": "0777576126",
+  "website": "http://thedispensary.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–12 PM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–12 PM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–12 PM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 PM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–10 AM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–12 PM",
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 PM",
+        "4:30–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C14FVGQCPN3B6PN8JMST8"
+}

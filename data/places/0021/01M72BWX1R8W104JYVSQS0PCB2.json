@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Arokkiya",
+  "coordinates": {
+    "latitude": 8.9403145,
+    "longitude": 80.0002234
+  },
+  "address": "Andankulam Road, Adampan",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0766213109",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWX1R8W104JYVSQS0PCB2"
+}

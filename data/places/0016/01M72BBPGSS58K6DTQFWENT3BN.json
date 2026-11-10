@@ -1,0 +1,58 @@
+{
+  "name": "Tharu Hotel & Guest House",
+  "coordinates": {
+    "latitude": 6.1860536999999995,
+    "longitude": 81.17713169999999
+  },
+  "address": "Main St, Hambantota",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0711583887",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGSS58K6DTQFWENT3BN"
+}

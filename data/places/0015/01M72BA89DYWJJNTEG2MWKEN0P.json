@@ -1,0 +1,60 @@
+{
+  "name": "Matara Auto Tec - New Body Shop",
+  "coordinates": {
+    "latitude": 5.9621581,
+    "longitude": 80.5258429
+  },
+  "address": "හිත්තැටිය ධර්මරාජ විහාරය, No - 320 /25 ARALIYA GARDENS Akuressa Road, Matara 81000",
+  "categories": [
+    "Auto body shop",
+    "Auto painting",
+    "Auto repair shop"
+  ],
+  "phone": "0777907190",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BA89DYWJJNTEG2MWKEN0P"
+}

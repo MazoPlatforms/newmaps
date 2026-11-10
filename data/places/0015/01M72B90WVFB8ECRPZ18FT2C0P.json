@@ -1,0 +1,61 @@
+{
+  "name": "Cafe Madhu",
+  "coordinates": {
+    "latitude": 5.9663492,
+    "longitude": 80.70151709999999
+  },
+  "address": "No,122, Mahawela Road, Dikwella 81200",
+  "categories": [
+    "Ice cream shop",
+    "Brunch restaurant",
+    "Wedding bakery"
+  ],
+  "phone": "0764198867",
+  "website": "https://tiktok.com/@cafe.madhu",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WVFB8ECRPZ18FT2C0P"
+}

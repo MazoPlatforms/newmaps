@@ -1,0 +1,58 @@
+{
+  "address": "160/9 Church St, Colombo 00200",
+  "name": "Hathifa Grocery Outlet",
+  "coordinates": {
+    "latitude": 6.9232439999999995,
+    "longitude": 79.8509364
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0772186281",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9CZYV9MG3DH93T8JA5QG"
+}

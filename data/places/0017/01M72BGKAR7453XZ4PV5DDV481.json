@@ -1,0 +1,59 @@
+{
+  "name": "National Saving Bank",
+  "coordinates": {
+    "latitude": 6.8718011,
+    "longitude": 81.3501301
+  },
+  "address": "Colombo - Ratnapura - Wellawaya - Batticaloa Rd, Monaragala",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0552276028",
+  "website": "http://www.nsb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGKAR7453XZ4PV5DDV481"
+}

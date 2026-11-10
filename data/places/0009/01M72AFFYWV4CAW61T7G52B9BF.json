@@ -1,0 +1,58 @@
+{
+  "name": "Orchard Shopping Complex",
+  "coordinates": {
+    "latitude": 6.8791524,
+    "longitude": 79.8602542
+  },
+  "address": "7 Galle Rd, Colombo",
+  "categories": [
+    "Shopping mall"
+  ],
+  "phone": "0112589350",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AFFYWV4CAW61T7G52B9BF"
+}

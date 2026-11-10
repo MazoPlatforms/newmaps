@@ -1,0 +1,58 @@
+{
+  "name": "Salon Mastersu",
+  "coordinates": {
+    "latitude": 6.583408899999999,
+    "longitude": 79.96135
+  },
+  "address": "No 83/1,Main Street,Kalutara South,Sri Lanka., Kalutara 12000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0342235855",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHTG00CT584D0DV2HMP12"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Paarnila Traders",
+  "coordinates": {
+    "latitude": 9.383702699999999,
+    "longitude": 80.40452719999999
+  },
+  "address": "No. 05, Kanagapuram Road, Kilinochchi 44000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0212283344",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXMQNSH8E7HCWPAQW9N4C"
+}

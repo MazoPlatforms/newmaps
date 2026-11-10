@@ -1,0 +1,59 @@
+{
+  "name": "Myteklk Store",
+  "coordinates": {
+    "latitude": 6.68051,
+    "longitude": 80.4083969
+  },
+  "address": "Kudugalwatta Shopping Complex, No. 06, Ratnapura 70000",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0777664443",
+  "website": "https://myteklk.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYV1K03N2G43T4CK09W3M"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "227A Chilaw - Colombo Main Rd, Negombo 11500",
+  "name": "T.U.S Bus Booking Centere",
+  "coordinates": {
+    "latitude": 7.2227732,
+    "longitude": 79.8477423
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777350149",
+  "categories": [
+    "Transportation service"
+  ],
+  "id": "01M72AEVGPCM1B55GW7EW8QRQ4"
+}

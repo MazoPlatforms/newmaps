@@ -1,0 +1,59 @@
+{
+  "name": "​Mr.Cosmo",
+  "coordinates": {
+    "latitude": 5.9738826,
+    "longitude": 80.4579309
+  },
+  "address": "Usswaththa, Eluwawala , Denipitiya, Weligama 81700",
+  "categories": [
+    "Beauty salon",
+    "Barber shop"
+  ],
+  "phone": "0766563743",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CV7SSYC836V0R2M6MH8S2"
+}

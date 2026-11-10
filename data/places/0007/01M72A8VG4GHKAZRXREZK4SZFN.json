@@ -1,0 +1,59 @@
+{
+  "address": "145 Thimbirigasyaya Rd, Colombo 00500",
+  "name": "Cafe Rafaella",
+  "coordinates": {
+    "latitude": 6.8915162,
+    "longitude": 79.86791219999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    }
+  ],
+  "website": "https://www.facebook.com/caferafaella/",
+  "business_status": "OPEN",
+  "phone": "0770335366",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72A8VG4GHKAZRXREZK4SZFN"
+}

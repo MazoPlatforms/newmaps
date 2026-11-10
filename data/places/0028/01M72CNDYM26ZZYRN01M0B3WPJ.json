@@ -1,0 +1,62 @@
+{
+  "name": "Devsmark (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.288852899999999,
+    "longitude": 80.61907269999999
+  },
+  "address": "4, 19A Pitakande Rd, Kandy 20000",
+  "categories": [
+    "Graphic designer",
+    "Marketing agency",
+    "Software company",
+    "Website designer"
+  ],
+  "phone": "0766196588",
+  "website": "https://devsmark.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNDYM26ZZYRN01M0B3WPJ"
+}

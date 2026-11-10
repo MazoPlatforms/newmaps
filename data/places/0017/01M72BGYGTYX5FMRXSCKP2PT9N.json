@@ -1,0 +1,58 @@
+{
+  "name": "Cafe 6 To 6",
+  "coordinates": {
+    "latitude": 6.6689585,
+    "longitude": 80.42647029999999
+  },
+  "address": "MC9G+HM2, Ratnapura",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0770249767",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGYGTYX5FMRXSCKP2PT9N"
+}

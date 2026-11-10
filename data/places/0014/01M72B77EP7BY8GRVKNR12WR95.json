@@ -1,0 +1,59 @@
+{
+  "name": "Sudha's Eatery",
+  "coordinates": {
+    "latitude": 6.1393857,
+    "longitude": 80.09971209999999
+  },
+  "address": "233 Galle Rd, Hikkaduwa",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0776334930",
+  "website": "https://ordernow.lk/menu/sudha-s-eatery/yckmj",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–12:30 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77EP7BY8GRVKNR12WR95"
+}

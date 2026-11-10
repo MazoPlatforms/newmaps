@@ -1,0 +1,61 @@
+{
+  "name": "Aunty Cookie's Cafe",
+  "coordinates": {
+    "latitude": 6.8840582,
+    "longitude": 79.90447689999999
+  },
+  "address": "49 Perera Mawatha, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Cake shop",
+    "Coffee shop",
+    "Cupcake shop"
+  ],
+  "phone": "0743135500",
+  "website": "http://www.auntycookies.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02BM1BEGTNTM6MJYS3N"
+}

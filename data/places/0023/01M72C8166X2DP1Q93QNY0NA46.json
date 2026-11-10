@@ -1,0 +1,59 @@
+{
+  "name": "Genelle Shoes & Bags",
+  "coordinates": {
+    "latitude": 6.8883345,
+    "longitude": 79.86788229999999
+  },
+  "address": "Isipathana Mawatha, Colombo 00500",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0112582845",
+  "website": "https://www.genelle.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8166X2DP1Q93QNY0NA46"
+}

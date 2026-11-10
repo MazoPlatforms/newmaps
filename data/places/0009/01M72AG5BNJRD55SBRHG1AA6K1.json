@@ -1,0 +1,59 @@
+{
+  "name": "Tutor Educational Institute",
+  "coordinates": {
+    "latitude": 6.9065806,
+    "longitude": 79.8513431
+  },
+  "address": "No 321/B1 Galle Rd, Colombo 00300",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0770244992",
+  "website": "http://www.tutor.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BNJRD55SBRHG1AA6K1"
+}

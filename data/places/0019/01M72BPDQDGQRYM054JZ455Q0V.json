@@ -1,0 +1,58 @@
+{
+  "name": "Automan Car Care",
+  "coordinates": {
+    "latitude": 7.3854994,
+    "longitude": 79.83160099999999
+  },
+  "address": "9RPJ+CQJ, Marawila",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0764935433",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPDQDGQRYM054JZ455Q0V"
+}

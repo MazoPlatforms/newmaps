@@ -1,0 +1,58 @@
+{
+  "address": "146 Galle Rd, Colombo 00600",
+  "name": "Colombo Super Mart",
+  "coordinates": {
+    "latitude": 6.8738601,
+    "longitude": 79.86133459999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112286086",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D1AMA6N3D3WP6WHWFC3"
+}

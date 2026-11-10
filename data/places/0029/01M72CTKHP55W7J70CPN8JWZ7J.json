@@ -1,0 +1,58 @@
+{
+  "name": "Salon හැඩකාරයා",
+  "coordinates": {
+    "latitude": 5.9428487,
+    "longitude": 80.51485339999999
+  },
+  "address": "Matara",
+  "categories": [
+    "Hairdresser"
+  ],
+  "phone": "0702747272",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTKHP55W7J70CPN8JWZ7J"
+}

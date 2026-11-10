@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank Orion City - Automated Banking Centre Branch",
+  "coordinates": {
+    "latitude": 6.940743299999999,
+    "longitude": 79.8790306
+  },
+  "address": "Orion City Complex, No 752 Dr Danister De Silva Mawatha, Colombo 00900",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112688520",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR4P382R6ZK4FDWNMDY"
+}

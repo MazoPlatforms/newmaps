@@ -1,0 +1,58 @@
+{
+  "address": "202 A9, Kandy 20000",
+  "name": "Central Finance Company Vahicle Yard",
+  "coordinates": {
+    "latitude": 7.3120372,
+    "longitude": 80.6338425
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0812234234",
+  "categories": [
+    "Corporate office"
+  ],
+  "id": "01M72ABARGRWS7WGM7HGXVWNYF"
+}

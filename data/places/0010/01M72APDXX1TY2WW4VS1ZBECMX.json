@@ -1,0 +1,59 @@
+{
+  "name": "Viss Automobiles (PVT) Ltd",
+  "coordinates": {
+    "latitude": 6.9080246999999995,
+    "longitude": 79.9357642
+  },
+  "address": "316/7A, Battaramulla 10120",
+  "categories": [
+    "Auto repair shop",
+    "Chauffeur service"
+  ],
+  "phone": "0775904848",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDXX1TY2WW4VS1ZBECMX"
+}

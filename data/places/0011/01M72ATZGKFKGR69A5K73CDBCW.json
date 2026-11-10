@@ -1,0 +1,60 @@
+{
+  "name": "A&A Home Made Good Food",
+  "coordinates": {
+    "latitude": 6.874647599999999,
+    "longitude": 79.89471569999999
+  },
+  "address": "5, 1 Pelawatta Rd, Nugegoda 10250",
+  "categories": [
+    "Cake shop",
+    "Health food store",
+    "Snack bar"
+  ],
+  "phone": "0772608623",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGKFKGR69A5K73CDBCW"
+}

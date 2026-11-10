@@ -1,0 +1,60 @@
+{
+  "name": "ScienceLab",
+  "coordinates": {
+    "latitude": 7.2297227,
+    "longitude": 79.870981
+  },
+  "address": "Negombo",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0770477637",
+  "website": "http://www.devsritha.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–7 AM",
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXAXT9W9144NYY7TWSB99"
+}

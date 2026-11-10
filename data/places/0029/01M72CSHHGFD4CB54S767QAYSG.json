@@ -1,0 +1,58 @@
+{
+  "name": "Electronic House",
+  "coordinates": {
+    "latitude": 6.2362706,
+    "longitude": 80.05319089999999
+  },
+  "address": "279 Main St, Ambalangoda",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0714643641",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CSHHGFD4CB54S767QAYSG"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Muzammir Store",
+  "coordinates": {
+    "latitude": 7.4022599,
+    "longitude": 81.76066209999999
+  },
+  "address": "Chadayanthalawa Road, Kalmunai 32300",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0755696923",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6–9:30 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6–9:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09Z39N0SM9BYZ2GE4ZNN"
+}

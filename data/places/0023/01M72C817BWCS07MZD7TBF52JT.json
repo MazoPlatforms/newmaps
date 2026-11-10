@@ -1,0 +1,58 @@
+{
+  "name": "Discovery Fashion",
+  "coordinates": {
+    "latitude": 6.9370347,
+    "longitude": 79.8500717
+  },
+  "address": "No. 88A Main St, Colombo 01100",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0112444015",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C817BWCS07MZD7TBF52JT"
+}

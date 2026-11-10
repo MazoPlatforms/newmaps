@@ -1,0 +1,58 @@
+{
+  "name": "Randiya Takeaway Station",
+  "coordinates": {
+    "latitude": 6.7502061,
+    "longitude": 79.89307199999999
+  },
+  "address": "QV2V+36P, Moratuwa 10400",
+  "categories": [
+    "Takeout restaurant"
+  ],
+  "phone": "0112658658",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6GNGBM6BW6W7TFDQBDP"
+}

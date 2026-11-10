@@ -1,0 +1,60 @@
+{
+  "name": "Sandanuwan Enterprises",
+  "coordinates": {
+    "latitude": 8.2965736,
+    "longitude": 80.4279577
+  },
+  "address": "Anuradhapura",
+  "categories": [
+    "Hardware store",
+    "Construction material wholesaler",
+    "Home goods store"
+  ],
+  "phone": "0714034003",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2W7028A4RH6Y71EHFXWJ"
+}

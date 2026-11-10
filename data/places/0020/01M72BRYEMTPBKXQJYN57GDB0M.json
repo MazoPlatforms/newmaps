@@ -1,0 +1,58 @@
+{
+  "name": "SINOPEC Filling Station",
+  "coordinates": {
+    "latitude": 7.9623395,
+    "longitude": 80.9814249
+  },
+  "address": "Polonnaruwa",
+  "categories": [
+    "Fuel supplier"
+  ],
+  "phone": "0760421703",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRYEMTPBKXQJYN57GDB0M"
+}

@@ -1,0 +1,60 @@
+{
+  "address": "16 New Lane I, Galle 80000",
+  "name": "Cafe Yesara Gallefort",
+  "coordinates": {
+    "latitude": 6.0254378,
+    "longitude": 80.2184848
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0773414179",
+  "categories": [
+    "Sri Lankan restaurant",
+    "Art gallery",
+    "Cafe"
+  ],
+  "id": "01M72ABTT8S89D5R9T25651NW2"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "City IT & Cameras",
+  "coordinates": {
+    "latitude": 6.8935498,
+    "longitude": 79.85531309999999
+  },
+  "address": "Unity plaza, Colombo",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0775298800",
+  "website": "http://www.cityit.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 PM",
+        "1:30–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JMWEQE4XV7YG5MAVM9K"
+}

@@ -1,0 +1,57 @@
+{
+  "address": "WV8H+6PR, Elliot Pl, Colombo",
+  "name": "Public Library Elliot Place - Borella",
+  "coordinates": {
+    "latitude": 6.9156032,
+    "longitude": 79.8792744
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Public library"
+  ],
+  "id": "01M72A9SE3CHHYYP0FPEQAAGAV"
+}

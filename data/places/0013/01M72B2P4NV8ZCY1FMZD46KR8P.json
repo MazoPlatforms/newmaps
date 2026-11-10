@@ -1,0 +1,58 @@
+{
+  "name": "The Health Care Pharmacy",
+  "coordinates": {
+    "latitude": 7.292262399999999,
+    "longitude": 80.6321778
+  },
+  "address": "CCC Chanelling Center, 63, Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0777662299",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2P4NV8ZCY1FMZD46KR8P"
+}

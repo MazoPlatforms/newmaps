@@ -1,0 +1,59 @@
+{
+  "name": "Mowlana Emporium",
+  "coordinates": {
+    "latitude": 5.9821114,
+    "longitude": 80.4323261
+  },
+  "address": "311 New St, Weligama 81700",
+  "categories": [
+    "Clothing store",
+    "Store"
+  ],
+  "phone": "0771891773",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAYRCH256A4VZC1M0ZR4E"
+}

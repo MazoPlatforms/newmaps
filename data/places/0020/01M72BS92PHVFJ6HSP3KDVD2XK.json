@@ -1,0 +1,58 @@
+{
+  "name": "Rithu Restaurant",
+  "coordinates": {
+    "latitude": 7.9303468,
+    "longitude": 80.7032265
+  },
+  "address": "Sigiriya Road, Galakotuwa, Kimbissa",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0774451529",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92PHVFJ6HSP3KDVD2XK"
+}

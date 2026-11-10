@@ -1,0 +1,58 @@
+{
+  "name": "Mackie Medicals",
+  "coordinates": {
+    "latitude": 6.9758721999999995,
+    "longitude": 80.76588149999999
+  },
+  "address": "82 B331 No 15,kandy road, Nuwara Eliya",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0522051700",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4HGMH5JM4TF4FVBB75G4"
+}

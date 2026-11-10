@@ -1,0 +1,58 @@
+{
+  "name": "Hunger",
+  "coordinates": {
+    "latitude": 5.9752553,
+    "longitude": 80.4372088
+  },
+  "address": "29b Gangarama 1st Cross Rd, Weligama 81700",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777780875",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPRZ9GWE9ZPHZBWTF89Q"
+}

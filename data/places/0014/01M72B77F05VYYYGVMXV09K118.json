@@ -1,0 +1,58 @@
+{
+  "name": "Farm House Restaurant",
+  "coordinates": {
+    "latitude": 6.1309853,
+    "longitude": 80.1018893
+  },
+  "address": "341 Galle Rd, Hikkaduwa",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0912277082",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77F05VYYYGVMXV09K118"
+}

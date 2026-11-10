@@ -1,0 +1,59 @@
+{
+  "address": "Main Street, norocholai 61342",
+  "name": "Elite Bakehouse & Restaurant",
+  "coordinates": {
+    "latitude": 8.000854,
+    "longitude": 79.8377074
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0323131999",
+  "categories": [
+    "Restaurant",
+    "Seafood restaurant"
+  ],
+  "id": "01M72AFEPSZ1B9X4JA6CEJGEH7"
+}

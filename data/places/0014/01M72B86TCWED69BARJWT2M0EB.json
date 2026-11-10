@@ -1,0 +1,57 @@
+{
+  "name": "New Medilabs",
+  "coordinates": {
+    "latitude": 6.2442161,
+    "longitude": 80.05908
+  },
+  "address": "Bus stand shopping complex, No 45, Ambalangoda",
+  "categories": [
+    "Medical Center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B86TCWED69BARJWT2M0EB"
+}

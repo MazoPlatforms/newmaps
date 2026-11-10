@@ -1,0 +1,58 @@
+{
+  "name": "Kalana Shopping Center",
+  "coordinates": {
+    "latitude": 6.4680199,
+    "longitude": 80.0035065
+  },
+  "address": "F293+6C2, Beruwala",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0768321491",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKNXXWJBNSXA96YZPPZJH"
+}
