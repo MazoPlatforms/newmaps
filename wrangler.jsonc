@@ -57,8 +57,7 @@
           "build_context": "."
         }
       },
-      "observability": { "enabled": true },
-      "max_instances": 3
+      "observability": { "enabled": true }
     }
   ],
   "observability": {

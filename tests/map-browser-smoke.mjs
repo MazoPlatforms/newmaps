@@ -117,7 +117,12 @@ try {
     const speedRequests = [];
     const styleRequests = [];
     const thirdPartyMapRequests = [];
+    const routeResponses = [];
     page.on('pageerror', (error) => errors.push(error.message));
+    page.on('response', async (response) => {
+      if (!new URL(response.url()).pathname.endsWith('/api/v1/route')) return;
+      routeResponses.push({ status: response.status(), body: await response.text().catch(() => '') });
+    });
     page.on('requestfailed', (request) => {
       const failure = request.failure()?.errorText || 'unknown';
       // MapLibre cancels obsolete tile requests during camera moves and theme
@@ -393,7 +398,12 @@ try {
     await wait(page, () => !window.__MAZO_MAP_TEST__.isMoving(), 5_000);
     const pickupPoint = await page.evaluate(() => window.__MAZO_MAP_TEST__.project(window.__MAZO_MAP_TEST__.getCenter().toArray()));
     await page.mouse.click(pickupPoint.x, pickupPoint.y);
-    await wait(page, () => /Local route ready/.test(document.querySelector('#route-status').innerText), 20_000);
+    try {
+      await wait(page, () => /Local route ready/.test(document.querySelector('#route-status').innerText), 20_000);
+    } catch (error) {
+      console.error(`Route browser smoke failed (${mode}); evidence: ${JSON.stringify({ status: await page.locator('#route-status').innerText(), pickup: await page.locator('#route-pickup').inputValue(), destination: await page.locator('#route-destination').inputValue(), routeResponses })}`);
+      throw error;
+    }
     assert.match(await page.locator('#route-summary').innerText(), /km/);
     assert.match(await page.locator('#route-status').innerText(), /snapped/i);
     const routeFeatureCount = await page.evaluate(() => window.__MAZO_MAP_TEST__.getGeoJSONFeatureCount('mazo-route'));
