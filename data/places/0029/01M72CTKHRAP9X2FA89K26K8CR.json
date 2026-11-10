@@ -1,0 +1,58 @@
+{
+  "name": "Salon Best Cut",
+  "coordinates": {
+    "latitude": 5.9539503,
+    "longitude": 80.5458306
+  },
+  "address": "111 Matara-Hakmana Rd, Matara 81000",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0750941455",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTKHRAP9X2FA89K26K8CR"
+}

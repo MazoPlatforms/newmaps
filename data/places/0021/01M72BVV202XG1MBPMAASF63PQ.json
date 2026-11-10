@@ -1,0 +1,62 @@
+{
+  "name": "Sinbon Bakery (Branch - 4)",
+  "coordinates": {
+    "latitude": 8.766755999999999,
+    "longitude": 80.5093332
+  },
+  "address": "Vavuniya",
+  "categories": [
+    "Cake shop",
+    "Bakery",
+    "Cookie shop",
+    "Cupcake shop",
+    "Sandwich shop"
+  ],
+  "phone": "0740586262",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVV202XG1MBPMAASF63PQ"
+}

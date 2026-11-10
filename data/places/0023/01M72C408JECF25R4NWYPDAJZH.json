@@ -1,0 +1,59 @@
+{
+  "name": "Feros Super Market",
+  "coordinates": {
+    "latitude": 8.502163,
+    "longitude": 81.19190189999999
+  },
+  "address": "Batticalo, 01 Road, Kinniya 31100",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0262237322",
+  "website": "http://feros.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C408JECF25R4NWYPDAJZH"
+}

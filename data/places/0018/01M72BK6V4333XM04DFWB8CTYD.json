@@ -1,0 +1,58 @@
+{
+  "name": "Delight Family Restaurant",
+  "coordinates": {
+    "latitude": 7.2394399,
+    "longitude": 80.2131442
+  },
+  "address": "516, Kandy Rd, Ambepussa",
+  "categories": [
+    "Family restaurant"
+  ],
+  "phone": "0354650651",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BK6V4333XM04DFWB8CTYD"
+}

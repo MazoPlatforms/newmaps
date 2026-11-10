@@ -1,0 +1,59 @@
+{
+  "name": "CareLink Pharmacy",
+  "coordinates": {
+    "latitude": 7.0276667999999995,
+    "longitude": 79.9218003
+  },
+  "address": "No: 26 Siriwardhana Rd, Ragama 11010",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0777783939",
+  "website": "http://www.carelink.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG012T60K6TBS05PH3A29"
+}

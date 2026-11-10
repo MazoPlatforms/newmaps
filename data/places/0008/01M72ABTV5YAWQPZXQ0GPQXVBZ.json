@@ -1,0 +1,62 @@
+{
+  "address": "472 Matara Rd, Galle 80000",
+  "name": "The Shack Beach Cafe",
+  "coordinates": {
+    "latitude": 6.03294,
+    "longitude": 80.238676
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0775415117",
+  "categories": [
+    "Cafe",
+    "Restaurant",
+    "Community center",
+    "Juice shop",
+    "Sports bar"
+  ],
+  "id": "01M72ABTV5YAWQPZXQ0GPQXVBZ"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Science Tutor",
+  "coordinates": {
+    "latitude": 6.7553376,
+    "longitude": 79.9018162
+  },
+  "address": "33a/1 Paraththa Rd, Panadura",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0720541956",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0FBJ50W9C23T6SP50AQ8"
+}

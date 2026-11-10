@@ -1,0 +1,59 @@
+{
+  "name": "The Miracle Barber",
+  "coordinates": {
+    "latitude": 6.8849259,
+    "longitude": 79.8764463
+  },
+  "address": "150a, 1 Kirulapone Ave, Colombo 00500",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0776939943",
+  "website": "https://themiraclebarber.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M2TQMPZJA1VF623314"
+}

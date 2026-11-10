@@ -1,0 +1,58 @@
+{
+  "name": "K-Fashion",
+  "coordinates": {
+    "latitude": 6.8924110999999995,
+    "longitude": 80.5981054
+  },
+  "address": "No:153 Dimbulla Rd, Hatton 22000",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0512222694",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQ00JGH9ZN7MN5EX4Z1ZG"
+}

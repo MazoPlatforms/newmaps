@@ -1,0 +1,58 @@
+{
+  "name": "Ayurveda Shop",
+  "coordinates": {
+    "latitude": 6.9369328999999995,
+    "longitude": 79.8978108
+  },
+  "address": "WVPX+Q4F, Colombo 10600",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0759022455",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00QDBQECF7Z6DJA342P"
+}

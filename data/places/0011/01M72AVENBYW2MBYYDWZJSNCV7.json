@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City",
+  "coordinates": {
+    "latitude": 6.8779167999999995,
+    "longitude": 79.9592263
+  },
+  "address": "Sri Jayawardenepura Kotte",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0112076060",
+  "website": "http://www.cargillsceylon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVENBYW2MBYYDWZJSNCV7"
+}

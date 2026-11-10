@@ -1,0 +1,58 @@
+{
+  "name": "La Bruschetta",
+  "coordinates": {
+    "latitude": 7.2177728,
+    "longitude": 79.845787
+  },
+  "address": "43 Colombo - Puttalam Rd, Negombo",
+  "categories": [
+    "Italian restaurant"
+  ],
+  "phone": "0314552652",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AWVZ2N72E00GCS42W26DA"
+}

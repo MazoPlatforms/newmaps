@@ -1,0 +1,63 @@
+{
+  "name": "Dr. Thiyagi (Veterinarian)",
+  "coordinates": {
+    "latitude": 6.899114,
+    "longitude": 79.9210083
+  },
+  "address": "Parakum Mawatha, Battaramulla 10120",
+  "categories": [
+    "Veterinarian",
+    "Emergency veterinarian service",
+    "Pet store",
+    "Pet supply store",
+    "Veterinary pharmacy"
+  ],
+  "phone": "0718322833",
+  "website": "https://drthiyagi.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9EDCBCG9AMPHCP1ZZYK"
+}

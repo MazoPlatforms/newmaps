@@ -1,0 +1,59 @@
+{
+  "address": "No. 188 Colombo Road, Seeduwa",
+  "name": "Sasha Food Court",
+  "coordinates": {
+    "latitude": 7.1333172,
+    "longitude": 79.8761358
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "website": "http://www.sashafoodcourt.com/",
+  "business_status": "OPEN",
+  "phone": "0113476145",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72ADZ78XPXN2M4HPF1G453P"
+}

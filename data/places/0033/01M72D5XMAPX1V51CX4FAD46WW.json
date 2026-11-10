@@ -1,0 +1,64 @@
+{
+  "name": "IT Platform",
+  "coordinates": {
+    "latitude": 8.9780239,
+    "longitude": 79.91591149999999
+  },
+  "address": "Uppukulam Mosque, 13 Mosque road, Mannar 41000",
+  "categories": [
+    "Computer support and services",
+    "Camera store",
+    "Computer networking service",
+    "Computer store",
+    "Digital printing service",
+    "Fingerprinting service",
+    "Graphic designer"
+  ],
+  "phone": "0232223426",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5XMAPX1V51CX4FAD46WW"
+}

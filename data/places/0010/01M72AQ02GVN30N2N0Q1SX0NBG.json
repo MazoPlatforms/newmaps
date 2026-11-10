@@ -1,0 +1,65 @@
+{
+  "name": "Seetha Hotel",
+  "coordinates": {
+    "latitude": 6.8516603,
+    "longitude": 79.8657614
+  },
+  "address": "216 Galle - Colombo Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777879186",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3:30–4:30 AM",
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3:30–4:30 AM",
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3:30–4:30 AM",
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3:30–4:30 AM",
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3:30–4:30 AM",
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3:30–4:30 AM",
+        "5 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3:30–4:30 AM",
+        "5 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02GVN30N2N0Q1SX0NBG"
+}

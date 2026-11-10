@@ -1,0 +1,59 @@
+{
+  "name": "Bank Of Ceylon ලංකා බැංකුව",
+  "coordinates": {
+    "latitude": 6.0352156,
+    "longitude": 80.3896156
+  },
+  "address": "29PQ+3RQ, Ahangama and Weligama Road, Imaduwa",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0912286030",
+  "website": "http://www.boc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB30D3WA3KTKYYK8X72B0"
+}

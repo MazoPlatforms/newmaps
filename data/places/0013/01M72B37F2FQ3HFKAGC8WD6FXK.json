@@ -1,0 +1,63 @@
+{
+  "name": "Polgolla Automobile Service Station",
+  "coordinates": {
+    "latitude": 7.3246459999999995,
+    "longitude": 80.6617972
+  },
+  "address": "265/50, Upper Gunnepana Road, Polgolla Estate, Polgolla 20250",
+  "categories": [
+    "Auto repair shop",
+    "Battery store",
+    "Car wash",
+    "Ford dealer",
+    "Nissan dealer"
+  ],
+  "phone": "0812499067",
+  "website": "https://sites.google.com/view/polgollaautomobile/home",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B37F2FQ3HFKAGC8WD6FXK"
+}

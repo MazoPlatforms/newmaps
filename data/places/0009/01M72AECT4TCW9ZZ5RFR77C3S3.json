@@ -1,0 +1,58 @@
+{
+  "address": "3rd, 69 St Anne's Rd, Negombo 11500",
+  "name": "St. Anne's Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 7.191853,
+    "longitude": 79.8615198
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0767144024",
+  "categories": [
+    "Pharmacy"
+  ],
+  "id": "01M72AECT4TCW9ZZ5RFR77C3S3"
+}

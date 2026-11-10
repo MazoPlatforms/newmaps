@@ -1,0 +1,58 @@
+{
+  "name": "United Pharmacy",
+  "coordinates": {
+    "latitude": 6.7124656,
+    "longitude": 79.9072578
+  },
+  "address": "37/a,7 th cross lane, rankoth vihara mawatha, Panadura",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0769265316",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08NGJGT74AFX2WAJR6GP"
+}

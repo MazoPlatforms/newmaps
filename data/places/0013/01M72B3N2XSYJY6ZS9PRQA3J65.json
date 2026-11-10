@@ -1,0 +1,58 @@
+{
+  "name": "Ruk City Super Market",
+  "coordinates": {
+    "latitude": 7.471277499999999,
+    "longitude": 80.6217162
+  },
+  "address": "8 Vihara Rd, Matale",
+  "categories": [
+    "General store"
+  ],
+  "phone": "0662232272",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N2XSYJY6ZS9PRQA3J65"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Day Long Restaurant",
+  "coordinates": {
+    "latitude": 5.973850499999999,
+    "longitude": 80.4336687
+  },
+  "address": "514 A, Matara road Pelana, Weligama 81700",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0760915894",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPS40SSZPXM5C446HYJ5"
+}

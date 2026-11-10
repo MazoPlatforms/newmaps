@@ -1,0 +1,64 @@
+{
+  "name": "Dehiwala Post Office",
+  "coordinates": {
+    "latitude": 6.8512454,
+    "longitude": 79.8641943
+  },
+  "address": "24 Gregory's Pl, Colombo",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0112739833",
+  "website": "http://www.slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AGB37T6G47V6CDQ9JFSDG"
+}

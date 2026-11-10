@@ -1,0 +1,63 @@
+{
+  "address": "63 Colombo St, Kandy 20000",
+  "name": "Sunset Kandy",
+  "coordinates": {
+    "latitude": 7.2938846999999996,
+    "longitude": 80.6379972
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "http://www.sunsetkandy.lk/",
+  "business_status": "OPEN",
+  "phone": "0707754511",
+  "categories": [
+    "Italian restaurant",
+    "Bar & grill",
+    "Health food restaurant",
+    "Pizza restaurant",
+    "Western restaurant"
+  ],
+  "id": "01M72AA6K48SA015K0N3P7SDPR"
+}

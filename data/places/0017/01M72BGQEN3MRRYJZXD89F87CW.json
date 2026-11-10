@@ -1,0 +1,58 @@
+{
+  "name": "Buddhika Auto Car Service & Repair",
+  "coordinates": {
+    "latitude": 6.8807887999999995,
+    "longitude": 81.3503206
+  },
+  "address": "Buddhika Auto Car, 160/32 Jayasiri Mawatha, Pothuvil Road, Monaragala 91000",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0783222585",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGQEN3MRRYJZXD89F87CW"
+}

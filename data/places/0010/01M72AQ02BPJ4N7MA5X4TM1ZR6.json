@@ -1,0 +1,59 @@
+{
+  "name": "Burger King - Mount Lavinia",
+  "coordinates": {
+    "latitude": 6.8421372,
+    "longitude": 79.8665625
+  },
+  "address": "Dehiwala-Mount Lavinia",
+  "categories": [
+    "Fast food restaurant"
+  ],
+  "phone": "0115123123",
+  "website": "https://burgerking.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02BPJ4N7MA5X4TM1ZR6"
+}

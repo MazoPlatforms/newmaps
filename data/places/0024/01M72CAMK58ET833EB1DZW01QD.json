@@ -1,0 +1,65 @@
+{
+  "name": "PC Technologies",
+  "coordinates": {
+    "latitude": 6.8936454,
+    "longitude": 79.8552952
+  },
+  "address": "311A, 1st Floor, Unity Plaza, 00400",
+  "categories": [
+    "Computer store",
+    "Computer accessories store",
+    "Computer repair service",
+    "Computer service",
+    "Electronics store",
+    "Used computer store"
+  ],
+  "phone": "0775516641",
+  "website": "http://www.pctechnologies.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 PM",
+        "1:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAMK58ET833EB1DZW01QD"
+}

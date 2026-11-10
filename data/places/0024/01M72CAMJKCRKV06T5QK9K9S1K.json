@@ -1,0 +1,62 @@
+{
+  "name": "Flex Solutions",
+  "coordinates": {
+    "latitude": 6.8566771,
+    "longitude": 79.8775927
+  },
+  "address": "11 bandaranayake mawath, galawala road, Dehiwala 10350",
+  "categories": [
+    "Computer repair service",
+    "Computer networking service",
+    "Computer support and services",
+    "Data recovery service",
+    "Printer repair service"
+  ],
+  "phone": "0779097440",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAMJKCRKV06T5QK9K9S1K"
+}

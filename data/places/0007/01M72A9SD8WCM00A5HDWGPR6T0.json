@@ -1,0 +1,60 @@
+{
+  "address": "310 McCallum Rd, Colombo 01000",
+  "name": "Sri Lanka Post Headquarters",
+  "coordinates": {
+    "latitude": 6.928020999999999,
+    "longitude": 79.8579455
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112328301",
+  "categories": [
+    "State government office",
+    "Corporate office",
+    "Post office"
+  ],
+  "id": "01M72A9SD8WCM00A5HDWGPR6T0"
+}

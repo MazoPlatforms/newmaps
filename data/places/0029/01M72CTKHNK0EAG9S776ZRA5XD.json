@@ -1,0 +1,58 @@
+{
+  "name": "Salon Fix",
+  "coordinates": {
+    "latitude": 5.9574858,
+    "longitude": 80.5359434
+  },
+  "address": "98 Elawella Rd, Matara 81000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0712488888",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTKHNK0EAG9S776ZRA5XD"
+}

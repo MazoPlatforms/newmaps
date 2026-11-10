@@ -1,0 +1,62 @@
+{
+  "name": "YDC Mobile Smart Shop",
+  "coordinates": {
+    "latitude": 7.0866035,
+    "longitude": 79.9933772
+  },
+  "address": "Sumedha College, Gampaha",
+  "categories": [
+    "Computer service",
+    "Mobile phone repair shop",
+    "Electronics engineer",
+    "Television repair service"
+  ],
+  "phone": "0704332151",
+  "website": "http://scg.ydc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGAG35NCT3G0HDQ1H7960"
+}

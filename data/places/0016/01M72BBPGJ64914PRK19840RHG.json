@@ -1,0 +1,58 @@
+{
+  "name": "Little Cafe",
+  "coordinates": {
+    "latitude": 5.9602517,
+    "longitude": 80.6831152
+  },
+  "address": "New Tangalle Rd, Batigama",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0742112717",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–4:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGJ64914PRK19840RHG"
+}

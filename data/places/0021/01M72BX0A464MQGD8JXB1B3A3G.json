@@ -1,0 +1,58 @@
+{
+  "name": "Agaram",
+  "coordinates": {
+    "latitude": 8.9909258,
+    "longitude": 79.8888012
+  },
+  "address": "Thalai mannar, road, Mannar",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0763070787",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX0A464MQGD8JXB1B3A3G"
+}

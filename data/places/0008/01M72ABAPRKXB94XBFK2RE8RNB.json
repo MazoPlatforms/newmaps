@@ -1,0 +1,58 @@
+{
+  "address": "No 148/1, 1 Colombo St, Kandy 20000",
+  "name": "Tax Advisor.lk",
+  "coordinates": {
+    "latitude": 7.294409099999999,
+    "longitude": 80.63501029999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.taxadvisor.lk/",
+  "business_status": "OPEN",
+  "categories": [
+    "Tax consultant"
+  ],
+  "id": "01M72ABAPRKXB94XBFK2RE8RNB"
+}

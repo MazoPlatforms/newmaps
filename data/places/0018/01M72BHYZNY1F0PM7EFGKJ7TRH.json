@@ -1,0 +1,58 @@
+{
+  "name": "Salika Pastry Shop",
+  "coordinates": {
+    "latitude": 7.252480299999999,
+    "longitude": 80.34000449999999
+  },
+  "address": "112 Kandy - Colombo Rd, Kegalle",
+  "categories": [
+    "Pastry shop"
+  ],
+  "phone": "0352230250",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZNY1F0PM7EFGKJ7TRH"
+}

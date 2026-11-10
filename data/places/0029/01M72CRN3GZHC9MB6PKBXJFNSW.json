@@ -1,0 +1,58 @@
+{
+  "name": "Salon WinRel",
+  "coordinates": {
+    "latitude": 6.066643099999999,
+    "longitude": 80.2198918
+  },
+  "address": "117/A Hirimbura Rd, Galle 80000",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0761250469",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRN3GZHC9MB6PKBXJFNSW"
+}

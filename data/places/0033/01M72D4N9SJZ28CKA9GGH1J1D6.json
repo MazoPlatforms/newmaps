@@ -1,0 +1,59 @@
+{
+  "name": "Jaffna PC Solution",
+  "coordinates": {
+    "latitude": 9.6801275,
+    "longitude": 80.00987649999999
+  },
+  "address": "M2J5+3X2, Oddumadam Road, Jaffna",
+  "categories": [
+    "Computer repair service",
+    "Computer security service",
+    "Computer software store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4N9SJZ28CKA9GGH1J1D6"
+}

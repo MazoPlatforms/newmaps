@@ -1,0 +1,58 @@
+{
+  "name": "New General Trading",
+  "coordinates": {
+    "latitude": 7.2130152999999995,
+    "longitude": 79.8433178
+  },
+  "address": "347/5 Main St, Negombo 11500",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0770521591",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCMC9KJ7FSE269JP175A"
+}

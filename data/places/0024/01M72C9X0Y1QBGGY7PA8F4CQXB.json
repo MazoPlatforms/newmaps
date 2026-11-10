@@ -1,0 +1,63 @@
+{
+  "name": "Print IT",
+  "coordinates": {
+    "latitude": 6.8414003999999995,
+    "longitude": 79.90503009999999
+  },
+  "address": "100A Lake Rd, Boralesgamuwa 10290",
+  "categories": [
+    "Print shop",
+    "E-commerce service",
+    "Gift shop",
+    "Picture frame shop",
+    "Promotional products supplier"
+  ],
+  "phone": "0775658800",
+  "website": "https://printit.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9X0Y1QBGGY7PA8F4CQXB"
+}

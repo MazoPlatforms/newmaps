@@ -1,0 +1,59 @@
+{
+  "name": "Hatton National Bank PLC",
+  "coordinates": {
+    "latitude": 8.7629191,
+    "longitude": 80.4897924
+  },
+  "address": "184A Vavuniya-Parayanalankulam Hwy, Vavuniya",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0244928289",
+  "website": "https://www.hnb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWGMXE2YR8EMCFXJW0FXV"
+}

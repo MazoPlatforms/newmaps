@@ -1,0 +1,63 @@
+{
+  "name": "Subway Rajagiriya",
+  "coordinates": {
+    "latitude": 6.9065159,
+    "longitude": 79.90362209999999
+  },
+  "address": "298 Sri Jayawardenepura Mawatha, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Cafe",
+    "Breakfast restaurant",
+    "Sandwich shop",
+    "Fast food restaurant",
+    "Restaurant"
+  ],
+  "phone": "0112123123",
+  "website": "https://subway.in/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–4 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZH6HZG59ZVD7M1ZG9WA"
+}

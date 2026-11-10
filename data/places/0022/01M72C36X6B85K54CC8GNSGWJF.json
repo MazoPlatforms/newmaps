@@ -1,0 +1,58 @@
+{
+  "name": "Loyola Campus Trincomalee",
+  "coordinates": {
+    "latitude": 8.5728829,
+    "longitude": 81.2287467
+  },
+  "address": "232 Inner Harbour Rd, Trincomalee",
+  "categories": [
+    "Secondary school"
+  ],
+  "phone": "0262224100",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C36X6B85K54CC8GNSGWJF"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Lionel Grocery Store",
+  "coordinates": {
+    "latitude": 6.0789598,
+    "longitude": 80.9308171
+  },
+  "address": "No.116, Bataatha South, Hungama, Ambalantota 82100",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0771697266",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BC0CWC7S0J35FDMHH5KAM"
+}

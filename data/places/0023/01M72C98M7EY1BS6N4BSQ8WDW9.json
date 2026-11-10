@@ -1,0 +1,59 @@
+{
+  "name": "Jaal Salon",
+  "coordinates": {
+    "latitude": 6.9101496,
+    "longitude": 79.86670939999999
+  },
+  "address": "No.15A Maitland Cres, Colombo 00700",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0114889898",
+  "website": "https://salonjaal.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M7EY1BS6N4BSQ8WDW9"
+}

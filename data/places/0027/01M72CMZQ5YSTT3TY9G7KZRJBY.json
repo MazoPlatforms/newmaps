@@ -1,0 +1,58 @@
+{
+  "name": "Salon 365",
+  "coordinates": {
+    "latitude": 7.299408499999999,
+    "longitude": 80.6369294
+  },
+  "address": "No.258 1, 3 DS Senanayake Veediya, Kandy 20000",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0706627620",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMZQ5YSTT3TY9G7KZRJBY"
+}

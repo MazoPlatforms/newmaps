@@ -1,0 +1,63 @@
+{
+  "name": "D TECH Computer",
+  "coordinates": {
+    "latitude": 8.3260019,
+    "longitude": 80.4069331
+  },
+  "address": "488 37 H, Anuradhapura 50000",
+  "categories": [
+    "Computer hardware manufacturer"
+  ],
+  "phone": "0719669614",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–7 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–7 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–7 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–7 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–7 AM",
+        "9:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–5:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2P6VX7SY9Q04CC74FF11"
+}

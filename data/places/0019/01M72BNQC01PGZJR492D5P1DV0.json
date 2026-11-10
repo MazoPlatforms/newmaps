@@ -1,0 +1,58 @@
+{
+  "name": "NextDoor Medical Center",
+  "coordinates": {
+    "latitude": 8.3054043,
+    "longitude": 80.3142381
+  },
+  "address": "Mahabulankulama, 376/01 Puttalam Rd, 50000",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0763991117",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNQC01PGZJR492D5P1DV0"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "POPO Kids Park",
+  "coordinates": {
+    "latitude": 7.042242,
+    "longitude": 79.994405
+  },
+  "address": "177 Kandy Rd, 11000",
+  "categories": [
+    "Indoor playground"
+  ],
+  "phone": "0707288208",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGTCHG3JTB62WD6S2R2W2"
+}

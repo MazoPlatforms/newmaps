@@ -1,0 +1,59 @@
+{
+  "name": "Honey Tree Cafe",
+  "coordinates": {
+    "latitude": 6.9096921,
+    "longitude": 79.9068542
+  },
+  "address": "59 Buthgamuwa Rd, Sri Jayawardenepura Kotte 10107",
+  "categories": [
+    "Cake shop"
+  ],
+  "phone": "0764450763",
+  "website": "https://honeytree.cafe/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGDEA25HRW9J4WP579P"
+}

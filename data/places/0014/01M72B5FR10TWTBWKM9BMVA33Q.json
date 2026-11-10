@@ -1,0 +1,58 @@
+{
+  "name": "University Of Kelaniya",
+  "coordinates": {
+    "latitude": 6.9754032,
+    "longitude": 79.9155534
+  },
+  "address": "Administrative Building, Kandy Rd, Kelaniya 11600",
+  "categories": [
+    "University"
+  ],
+  "phone": "0112903903",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5FR10TWTBWKM9BMVA33Q"
+}

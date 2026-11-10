@@ -1,0 +1,60 @@
+{
+  "name": "Lapz Store",
+  "coordinates": {
+    "latitude": 6.8938802,
+    "longitude": 79.8556481
+  },
+  "address": "Fortune Arcade, 39 Galle Rd, Colombo 00400",
+  "categories": [
+    "Computer accessories store",
+    "Computer repair service"
+  ],
+  "phone": "0766459890",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–8 AM",
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JME7T5AZXXWD9HGRBPM"
+}

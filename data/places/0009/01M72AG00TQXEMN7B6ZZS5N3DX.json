@@ -1,0 +1,59 @@
+{
+  "name": "Havelock Dental Center",
+  "coordinates": {
+    "latitude": 6.914644399999999,
+    "longitude": 79.8590816
+  },
+  "address": "139 Anagarika Srimath Anagarika Dharmapala Mawatha, Colombo 00700",
+  "categories": [
+    "Dental clinic"
+  ],
+  "phone": "0112501094",
+  "website": "https://havelockdental.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00TQXEMN7B6ZZS5N3DX"
+}

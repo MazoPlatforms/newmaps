@@ -1,0 +1,58 @@
+{
+  "name": "Anns",
+  "coordinates": {
+    "latitude": 7.4879967,
+    "longitude": 80.3626967
+  },
+  "address": "15 St Anne’s St, Kurunegala",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0374931761",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–11:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMA4QRMS5363ZM82GVPV"
+}

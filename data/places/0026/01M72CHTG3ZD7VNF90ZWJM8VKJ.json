@@ -1,0 +1,58 @@
+{
+  "name": "Salon The ONE",
+  "coordinates": {
+    "latitude": 6.522621,
+    "longitude": 80.1117953
+  },
+  "address": "Kalutara-Matugama Rd, Matugama 12100",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0769340018",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHTG3ZD7VNF90ZWJM8VKJ"
+}

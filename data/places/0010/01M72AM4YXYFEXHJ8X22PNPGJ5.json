@@ -1,0 +1,64 @@
+{
+  "name": "Caravan Fresh - The Cake & Pastry Shop",
+  "coordinates": {
+    "latitude": 6.9568194,
+    "longitude": 79.8618518
+  },
+  "address": "218 Aluthmawatha Rd, Colombo 00015",
+  "categories": [
+    "Cake shop",
+    "Bakery",
+    "Coffee shop",
+    "Cupcake shop",
+    "Dessert shop",
+    "Halal restaurant",
+    "Pastry shop"
+  ],
+  "phone": "0705982707",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AM4YXYFEXHJ8X22PNPGJ5"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon Sithsandi",
+  "coordinates": {
+    "latitude": 6.992785,
+    "longitude": 81.0542076
+  },
+  "address": "Nizam Manzil, No 218, Keppetipola Road, Badulla 90000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0773355828",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXMWD0FER99JA0GH0ZXW8"
+}

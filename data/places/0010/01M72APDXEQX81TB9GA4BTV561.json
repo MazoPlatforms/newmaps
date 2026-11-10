@@ -1,0 +1,58 @@
+{
+  "name": "24 Hour Breakedown Service",
+  "coordinates": {
+    "latitude": 6.9256728,
+    "longitude": 79.850309
+  },
+  "address": "2 Malay St, Colombo 00200",
+  "categories": [
+    "Vehicle inspection service"
+  ],
+  "phone": "0729477771",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDXEQX81TB9GA4BTV561"
+}

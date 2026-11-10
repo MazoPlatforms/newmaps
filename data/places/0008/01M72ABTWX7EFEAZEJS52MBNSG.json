@@ -1,0 +1,59 @@
+{
+  "address": "No.65/4,1st Lane, Darlinton Waththa, Hapugala 80000",
+  "name": "Cake O' Clock-Head Office(Hapugala)",
+  "coordinates": {
+    "latitude": 6.0820699,
+    "longitude": 80.1944591
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0768667517",
+  "categories": [
+    "Bakery",
+    "Restaurant"
+  ],
+  "id": "01M72ABTWX7EFEAZEJS52MBNSG"
+}

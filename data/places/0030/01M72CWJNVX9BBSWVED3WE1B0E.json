@@ -1,0 +1,60 @@
+{
+  "name": "Western Lab",
+  "coordinates": {
+    "latitude": 6.0370712,
+    "longitude": 80.8018488
+  },
+  "address": "12 Panyawasa Rd, Tangalle 82200",
+  "categories": [
+    "Photographer",
+    "Graphic designer",
+    "Video editing service"
+  ],
+  "phone": "0711271300",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWJNVX9BBSWVED3WE1B0E"
+}

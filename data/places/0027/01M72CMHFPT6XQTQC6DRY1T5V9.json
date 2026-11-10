@@ -1,0 +1,58 @@
+{
+  "name": "Computer Repair Centre Kandy",
+  "coordinates": {
+    "latitude": 7.380767499999999,
+    "longitude": 80.718954
+  },
+  "categories": [
+    "Computer repair service",
+    "Service establishment"
+  ],
+  "phone": "0777131694",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHFPT6XQTQC6DRY1T5V9"
+}

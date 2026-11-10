@@ -1,0 +1,59 @@
+{
+  "name": "Pan Asian Bank ATM",
+  "coordinates": {
+    "latitude": 6.8711742,
+    "longitude": 79.8851107
+  },
+  "address": "141/1 High Level Rd, Nugegoda",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0114374044",
+  "website": "http://www.pabcbank.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVZ4FXPS0XP92S4C3JJ4Y"
+}

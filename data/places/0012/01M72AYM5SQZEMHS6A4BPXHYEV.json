@@ -1,0 +1,59 @@
+{
+  "name": "Sumedha College",
+  "coordinates": {
+    "latitude": 7.0854715,
+    "longitude": 79.9928369
+  },
+  "address": "Vishaka Rd, Gampaha",
+  "categories": [
+    "Private educational institution"
+  ],
+  "phone": "0332222635",
+  "website": "http://scg.ydc.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYM5SQZEMHS6A4BPXHYEV"
+}

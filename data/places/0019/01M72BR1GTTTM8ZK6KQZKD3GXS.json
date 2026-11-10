@@ -1,0 +1,58 @@
+{
+  "name": "My Taste Cafe",
+  "coordinates": {
+    "latitude": 7.9226456999999995,
+    "longitude": 80.9962863
+  },
+  "address": "New Town, Road, Polonnaruwa",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0272055205",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BR1GTTTM8ZK6KQZKD3GXS"
+}

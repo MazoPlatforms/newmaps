@@ -1,0 +1,68 @@
+{
+  "address": "No: 12 Main St, Negombo 11500",
+  "name": "The Lawyer",
+  "coordinates": {
+    "latitude": 7.2096874,
+    "longitude": 79.8341209
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://www.thelawyer.lk/",
+  "business_status": "OPEN",
+  "phone": "0717552121",
+  "categories": [
+    "Legal services",
+    "Civil law attorney",
+    "Criminal justice attorney",
+    "Divorce lawyer",
+    "Immigration attorney",
+    "Labor relations attorney",
+    "Lawyers association",
+    "Notary public",
+    "Real estate attorney",
+    "Tax attorney"
+  ],
+  "id": "01M72AEVE85VV0Z93M2PKZF0MR"
+}

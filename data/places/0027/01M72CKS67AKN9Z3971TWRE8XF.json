@@ -1,0 +1,57 @@
+{
+  "name": "Cycle Bazaar",
+  "coordinates": {
+    "latitude": 6.4750176999999995,
+    "longitude": 79.9833592
+  },
+  "address": "FXGM+285, Jim Jam Court Supermarket, Beruwala 12070",
+  "categories": [
+    "Hardware store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKS67AKN9Z3971TWRE8XF"
+}

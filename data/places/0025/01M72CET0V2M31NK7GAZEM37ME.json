@@ -1,0 +1,59 @@
+{
+  "name": "Molly Boulevard",
+  "coordinates": {
+    "latitude": 7.2129750999999995,
+    "longitude": 79.8447393
+  },
+  "address": "7.212933, 79.844627, 430 Main St, Negombo 11500",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0312224499",
+  "website": "http://www.molly.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CET0V2M31NK7GAZEM37ME"
+}

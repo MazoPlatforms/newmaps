@@ -1,0 +1,67 @@
+{
+  "name": "Blackberry",
+  "coordinates": {
+    "latitude": 6.8759486,
+    "longitude": 79.93091489999999
+  },
+  "address": "මාදිවෙල පාර, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Print shop",
+    "Book store",
+    "Cell phone accessory store",
+    "Cosmetics store",
+    "Fashion accessories store",
+    "Gift shop",
+    "Party store",
+    "Perfume store",
+    "Stationery store",
+    "Toy store"
+  ],
+  "phone": "0777423223",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CEF2BDSRA7B2VEQSCPPB4"
+}

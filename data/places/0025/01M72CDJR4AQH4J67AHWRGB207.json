@@ -1,0 +1,59 @@
+{
+  "name": "Tech Store",
+  "coordinates": {
+    "latitude": 6.908854,
+    "longitude": 79.89635679999999
+  },
+  "address": "First Floor, 107 Janajaya City, Mall 10107",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0741144037",
+  "website": "https://www.facebook.com/profile.php?id=%20100076077018544",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJR4AQH4J67AHWRGB207"
+}

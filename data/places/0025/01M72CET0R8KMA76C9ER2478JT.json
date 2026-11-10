@@ -1,0 +1,66 @@
+{
+  "name": "Haward Fashion",
+  "coordinates": {
+    "latitude": 7.1785399,
+    "longitude": 79.8654492
+  },
+  "address": "No. 416 Nanda Mawatha, Negombo 11450",
+  "categories": [
+    "Clothing store",
+    "Clothing supplier",
+    "Clothing wholesaler",
+    "Dress store",
+    "Fashion accessories store",
+    "Garment exporter",
+    "Sportwear manufacturer",
+    "Women's clothing store"
+  ],
+  "phone": "0703005085",
+  "website": "http://haward.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CET0R8KMA76C9ER2478JT"
+}

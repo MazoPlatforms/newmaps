@@ -1,0 +1,60 @@
+{
+  "address": "No.10 Wakwella Rd, Galle 80000",
+  "name": "Asiri Hospital Galle",
+  "coordinates": {
+    "latitude": 6.0357427999999995,
+    "longitude": 80.2159411
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "website": "http://www.asirihealth.com/",
+  "business_status": "OPEN",
+  "phone": "0914640640",
+  "categories": [
+    "Private hospital",
+    "Medical Center"
+  ],
+  "id": "01M72ACJCW1B6TXMMGW3G6142Y"
+}

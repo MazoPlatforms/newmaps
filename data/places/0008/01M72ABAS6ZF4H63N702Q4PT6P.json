@@ -1,0 +1,62 @@
+{
+  "address": "28 DS Senanayake Veediya, Kandy 20000",
+  "name": "Lalitha Jewellers",
+  "coordinates": {
+    "latitude": 7.2942184999999995,
+    "longitude": 80.6383245
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0812234514",
+  "categories": [
+    "Jewelry store",
+    "Jewelry appraiser",
+    "Jewelry buyer",
+    "Jewelry designer",
+    "Jewelry repair service"
+  ],
+  "id": "01M72ABAS6ZF4H63N702Q4PT6P"
+}

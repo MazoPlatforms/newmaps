@@ -1,0 +1,59 @@
+{
+  "name": "Royal Dude Family Restaurant",
+  "coordinates": {
+    "latitude": 5.9477364999999995,
+    "longitude": 80.534818
+  },
+  "address": "14 Wilmot Balasuriya Mawatha, Matara 81000",
+  "categories": [
+    "Restaurant",
+    "Family restaurant"
+  ],
+  "phone": "0701055556",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WA45WC0QAPEFQ6JXVH"
+}

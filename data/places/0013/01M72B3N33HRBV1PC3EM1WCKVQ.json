@@ -1,0 +1,59 @@
+{
+  "name": "Bombay Sweet",
+  "coordinates": {
+    "latitude": 7.475941499999999,
+    "longitude": 80.62570579999999
+  },
+  "address": "36 Muhandiram Rd, Matale",
+  "categories": [
+    "Supermarket",
+    "Outlet mall",
+    "Store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2:30–11:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N33HRBV1PC3EM1WCKVQ"
+}

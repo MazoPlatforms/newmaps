@@ -1,0 +1,59 @@
+{
+  "address": "10 Station Rd, Colombo",
+  "name": "Majestic City",
+  "coordinates": {
+    "latitude": 6.8939784,
+    "longitude": 79.8551107
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "http://www.majesticcity.lk/",
+  "business_status": "OPEN",
+  "phone": "0112508673",
+  "categories": [
+    "Shopping mall"
+  ],
+  "id": "01M72A9D45R5B0HT8M0EMSEQEN"
+}

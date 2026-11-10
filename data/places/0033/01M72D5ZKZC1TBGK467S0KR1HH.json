@@ -1,0 +1,63 @@
+{
+  "name": "Mannar Hardware",
+  "coordinates": {
+    "latitude": 8.977160399999999,
+    "longitude": 79.91306449999999
+  },
+  "address": "Grand Bazar, Mannar",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0232223171",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6:30 AM",
+        "7:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6:30 AM",
+        "7:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6:30 AM",
+        "7:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–6:30 AM",
+        "7:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6:30 AM",
+        "7:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6:30 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5ZKZC1TBGK467S0KR1HH"
+}

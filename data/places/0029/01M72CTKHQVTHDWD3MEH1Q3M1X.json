@@ -1,0 +1,59 @@
+{
+  "name": "EUENI Hair & Beauty Salon",
+  "coordinates": {
+    "latitude": 5.9478493,
+    "longitude": 80.5445357
+  },
+  "address": "76A A2, Matara 81000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0412231874",
+  "website": "http://euenisalons.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTKHQVTHDWD3MEH1Q3M1X"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Nishantha Motors",
+  "coordinates": {
+    "latitude": 6.7198378,
+    "longitude": 79.91085149999999
+  },
+  "address": "150, 9 Sri Mahavihara Rd, Panadura",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0776264063",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0X5RZ0DX6PHM5R0H0CAK"
+}

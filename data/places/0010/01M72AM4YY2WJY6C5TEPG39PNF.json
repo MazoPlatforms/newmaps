@@ -1,0 +1,60 @@
+{
+  "name": "Bakers Lab LK",
+  "coordinates": {
+    "latitude": 6.9619724,
+    "longitude": 79.86279789999999
+  },
+  "address": "03 Muthuwella Mawatha, Colombo 01500",
+  "categories": [
+    "Bakery",
+    "Cafe"
+  ],
+  "phone": "0757574797",
+  "website": "http://www.bakerslablk.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AM4YY2WJY6C5TEPG39PNF"
+}

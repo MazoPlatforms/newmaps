@@ -1,0 +1,58 @@
+{
+  "name": "Ken Motors",
+  "coordinates": {
+    "latitude": 5.952941,
+    "longitude": 80.5424646
+  },
+  "address": "45, 2 Rahula Rd, Matara",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0779858193",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BA89D2Y1K5S8QZY5BQTRJ"
+}

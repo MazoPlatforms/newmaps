@@ -1,0 +1,59 @@
+{
+  "name": "A New Asia Silk Emporium",
+  "coordinates": {
+    "latitude": 6.937178299999999,
+    "longitude": 79.8499866
+  },
+  "address": "73 Main St, Colombo 01100",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0112391592",
+  "website": "http://www.littleasia.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C816JWYX0RE48ZPZ8A9ER"
+}

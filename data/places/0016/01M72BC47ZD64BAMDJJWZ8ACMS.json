@@ -1,0 +1,58 @@
+{
+  "name": "New Sithari Pharmacy",
+  "coordinates": {
+    "latitude": 6.1224596,
+    "longitude": 81.0255253
+  },
+  "address": "No 90, Ambalantota",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0472225433",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BC47ZD64BAMDJJWZ8ACMS"
+}

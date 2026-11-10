@@ -1,0 +1,58 @@
+{
+  "name": "Succulent Treats",
+  "coordinates": {
+    "latitude": 6.830688299999999,
+    "longitude": 79.8655943
+  },
+  "address": "44a Samudrasanna Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0773616222",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:31 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:31 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:31 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:31 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:31 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:31 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5:31 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02C7YMFNY2NW6BXEAR4"
+}

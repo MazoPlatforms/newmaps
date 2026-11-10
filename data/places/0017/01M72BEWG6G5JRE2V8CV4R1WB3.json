@@ -1,0 +1,59 @@
+{
+  "name": "United Pharmacy Badulla",
+  "coordinates": {
+    "latitude": 6.9885886,
+    "longitude": 81.05745519999999
+  },
+  "address": "No 06, south land, 90000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0552229111",
+  "website": "https://united-pharmacy.indraverse.site/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWG6G5JRE2V8CV4R1WB3"
+}

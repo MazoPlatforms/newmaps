@@ -1,0 +1,65 @@
+{
+  "name": "Bliss",
+  "coordinates": {
+    "latitude": 5.9492992,
+    "longitude": 80.54085309999999
+  },
+  "address": "202 Anagarika Dharmapala Mawatha, Matara 81000",
+  "categories": [
+    "Clothing store",
+    "Shopping mall",
+    "Men's clothing store",
+    "Party store",
+    "Souvenir store",
+    "Women's clothing store"
+  ],
+  "phone": "0764870223",
+  "website": "http://www.blissmt.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CSXM42AMK20B3PJZQ0VG0"
+}

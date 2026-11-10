@@ -1,0 +1,59 @@
+{
+  "name": "A/C Electricals",
+  "coordinates": {
+    "latitude": 8.752742699999999,
+    "longitude": 80.50152969999999
+  },
+  "address": "53 Soosaipillayarkulam Rd, Vavuniya 43000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0778808255",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:55 AM",
+        "1:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5KVD0R21CEGWFN34YNKG"
+}

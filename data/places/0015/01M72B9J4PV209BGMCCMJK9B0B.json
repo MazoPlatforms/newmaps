@@ -1,0 +1,58 @@
+{
+  "name": "Matara Pharmacy",
+  "coordinates": {
+    "latitude": 5.9486051,
+    "longitude": 80.5392821
+  },
+  "address": "02 C.A. Ariyatilaka Mawatha, Matara 81000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0717384367",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J4PV209BGMCCMJK9B0B"
+}

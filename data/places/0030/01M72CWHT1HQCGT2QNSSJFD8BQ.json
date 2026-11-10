@@ -1,0 +1,58 @@
+{
+  "name": "Vitharandeniya Public Library",
+  "coordinates": {
+    "latitude": 6.0876873,
+    "longitude": 80.7835862
+  },
+  "address": "Tangalle - Weeraketiya Rd",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0665683999",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWHT1HQCGT2QNSSJFD8BQ"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Dr.Desktop",
+  "coordinates": {
+    "latitude": 7.3612153,
+    "longitude": 80.6177766
+  },
+  "address": "165/A Matale Rd, Akurana 20000",
+  "categories": [
+    "Computer store",
+    "Camera store",
+    "Computer networking service",
+    "Fingerprinting service",
+    "Security system installation service",
+    "Security system supplier"
+  ],
+  "phone": "0767996071",
+  "website": "https://drdesktop.netlify.app/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNQF8GZNXYFHQ5KNKPETW"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon 4U Badulla",
+  "coordinates": {
+    "latitude": 6.9849548,
+    "longitude": 81.06120039999999
+  },
+  "address": "Wiharagoda, Badulla 90000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0715990500",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXMVDYSYZHZ26B70ZCA0F"
+}

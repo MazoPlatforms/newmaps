@@ -1,0 +1,58 @@
+{
+  "name": "Vanni Super Market",
+  "coordinates": {
+    "latitude": 9.3337342,
+    "longitude": 80.4094643
+  },
+  "address": "No 46, Inthupuram,Kilinochchi, Iranamadu 44000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0768965999",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXMQPWSEGY42XGWA19QFJ"
+}

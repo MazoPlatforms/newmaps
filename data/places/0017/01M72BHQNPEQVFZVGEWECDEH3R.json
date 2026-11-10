@@ -1,0 +1,58 @@
+{
+  "name": "Multy Auto A/C",
+  "coordinates": {
+    "latitude": 6.682701499999999,
+    "longitude": 80.39641449999999
+  },
+  "address": "Bandaranaike Mawatha, Ratnapura",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0718214263",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHQNPEQVFZVGEWECDEH3R"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Stores",
+  "coordinates": {
+    "latitude": 7.392598199999999,
+    "longitude": 81.8385916
+  },
+  "address": "91 Kalyana Rd, Sainthamaruthu 32300",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0774000000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09YQPQP2G5M2EJM5P12K"
+}

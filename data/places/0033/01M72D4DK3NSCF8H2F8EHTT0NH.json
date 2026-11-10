@@ -1,0 +1,61 @@
+{
+  "name": "Fashion Wear Jaffna",
+  "coordinates": {
+    "latitude": 9.6654295,
+    "longitude": 80.0115071
+  },
+  "address": "32 muneeswaran road, Jaffna 40000",
+  "categories": [
+    "Clothing store",
+    "Fashion accessories store",
+    "Fashion designer",
+    "Men's clothing store"
+  ],
+  "phone": "0777033573",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4DK3NSCF8H2F8EHTT0NH"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "RS Food Mart",
+  "coordinates": {
+    "latitude": 6.954785299999999,
+    "longitude": 81.0316548
+  },
+  "address": "30 Badulla-Bandarawela Main Rd, Hali-ela",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0754076535",
+  "website": "https://www.facebook.com/p/R-S-Food-Mart-100089272196480/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQB45X4G8TA49MT3VH1G"
+}

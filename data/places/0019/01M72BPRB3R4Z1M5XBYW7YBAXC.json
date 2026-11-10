@@ -1,0 +1,59 @@
+{
+  "name": "The City Cafe",
+  "coordinates": {
+    "latitude": 8.3255454,
+    "longitude": 80.4060787
+  },
+  "address": "488/30,6th lane Maithripala, Senanayaka Rd, Anuradhapura 50000",
+  "categories": [
+    "Pastry shop",
+    "Juice shop"
+  ],
+  "phone": "0716481718",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRB3R4Z1M5XBYW7YBAXC"
+}

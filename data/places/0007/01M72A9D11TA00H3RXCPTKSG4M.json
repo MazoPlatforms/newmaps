@@ -1,0 +1,58 @@
+{
+  "address": "465 Dematagoda Rd, Colombo 00900",
+  "name": "Landmark Super",
+  "coordinates": {
+    "latitude": 6.931082699999999,
+    "longitude": 79.8743661
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0701474412",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D11TA00H3RXCPTKSG4M"
+}

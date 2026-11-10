@@ -1,0 +1,60 @@
+{
+  "name": "National Food Promotion Board",
+  "coordinates": {
+    "latitude": 6.894494099999999,
+    "longitude": 79.8815516
+  },
+  "address": "45 Central Rd, Colombo 00500",
+  "categories": [
+    "Government office",
+    "Agricultural product wholesaler"
+  ],
+  "phone": "0112506895",
+  "website": "http://www.nfpb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48EYXSNYE5QE61N3VEH"
+}

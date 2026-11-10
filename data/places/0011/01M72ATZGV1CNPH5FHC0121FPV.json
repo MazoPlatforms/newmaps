@@ -1,0 +1,58 @@
+{
+  "name": "Kumarage Restaurant & Bakery",
+  "coordinates": {
+    "latitude": 6.8769998,
+    "longitude": 79.9354043
+  },
+  "address": "VWGP+Q5R, Ruhunupura",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0112774300",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGV1CNPH5FHC0121FPV"
+}

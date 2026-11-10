@@ -1,0 +1,59 @@
+{
+  "name": "Cargills Food City (Express) - Mutur",
+  "coordinates": {
+    "latitude": 8.455939599999999,
+    "longitude": 81.26090839999999
+  },
+  "address": "Main Street, Mutur 31200",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0262238057",
+  "website": "https://www.cargillsceylon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C409CXMVMRED23D6GBFVP"
+}

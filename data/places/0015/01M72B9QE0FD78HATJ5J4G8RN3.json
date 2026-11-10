@@ -1,0 +1,59 @@
+{
+  "name": "Apeiro Higher Education Center",
+  "coordinates": {
+    "latitude": 5.9468540999999995,
+    "longitude": 80.53673979999999
+  },
+  "address": "25 Eugin Balasuriya Mawatha, Matara",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0775557795",
+  "website": "https://apeiro.eclass.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9QE0FD78HATJ5J4G8RN3"
+}

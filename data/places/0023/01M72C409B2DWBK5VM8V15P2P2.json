@@ -1,0 +1,58 @@
+{
+  "name": "MPCS Thampalakamam",
+  "coordinates": {
+    "latitude": 8.4961305,
+    "longitude": 81.0996246
+  },
+  "address": "Tampalakamam-Kinniyai Rd",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0262248191",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C409B2DWBK5VM8V15P2P2"
+}

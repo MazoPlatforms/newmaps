@@ -1,0 +1,58 @@
+{
+  "name": "Z I R Auto Parts",
+  "coordinates": {
+    "latitude": 7.0079302,
+    "longitude": 79.8969803
+  },
+  "address": "860 Negombo Main Rd, Wattala 11300",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0779865725",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDXQ9F4SBJT1VT0ZJA1Q"
+}

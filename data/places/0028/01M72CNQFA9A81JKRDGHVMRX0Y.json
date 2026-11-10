@@ -1,0 +1,58 @@
+{
+  "name": "Your Camera",
+  "coordinates": {
+    "latitude": 7.4671615,
+    "longitude": 80.6232356
+  },
+  "address": "No 15/3, Co-op Building, Kandy-Jaffna Highway, Matale 21000",
+  "categories": [
+    "Camera store"
+  ],
+  "phone": "0779958273",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNQFA9A81JKRDGHVMRX0Y"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "MOH Office Kegalle (Medical Officer Of Health)",
+  "coordinates": {
+    "latitude": 7.2480468,
+    "longitude": 80.3436535
+  },
+  "address": "68XV+6F6, Kegalle-Bulathkohupitiya-Karawanella Hwy, Kegalle",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0352222278",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJADRYP6RHBRSTFWE7QPD"
+}

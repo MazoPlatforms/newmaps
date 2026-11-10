@@ -1,0 +1,58 @@
+{
+  "address": "Katunayake",
+  "name": "New Pasindu Restaurant",
+  "coordinates": {
+    "latitude": 7.1871176,
+    "longitude": 79.9006217
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:15 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:15 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:15 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:15 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:15 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:15 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:15 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112260777",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72ADZ82MQEEYE3WQC4KXJY7"
+}

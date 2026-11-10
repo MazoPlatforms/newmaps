@@ -1,0 +1,58 @@
+{
+  "name": "Care-IT Computers",
+  "coordinates": {
+    "latitude": 6.023320399999999,
+    "longitude": 80.7954014
+  },
+  "address": "275 Matara Rd, Tangalle 82200",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0713238769",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CW56XC860EX7QFNAVSS5J"
+}

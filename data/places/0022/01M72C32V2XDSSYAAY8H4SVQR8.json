@@ -1,0 +1,60 @@
+{
+  "name": "Aarogya Medical Center",
+  "coordinates": {
+    "latitude": 8.6288453,
+    "longitude": 81.0329241
+  },
+  "address": "Shop No.9, Pradeshiya Sabha Shopping Complex, Morawewa, Pankulam, Trincomalee 31000",
+  "categories": [
+    "Private hospital",
+    "Medical Center",
+    "Medical clinic"
+  ],
+  "phone": "0766500055",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C32V2XDSSYAAY8H4SVQR8"
+}

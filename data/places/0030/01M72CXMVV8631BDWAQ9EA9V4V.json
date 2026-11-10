@@ -1,0 +1,58 @@
+{
+  "name": "Secret Beauty Salon Badulla",
+  "coordinates": {
+    "latitude": 6.9837672,
+    "longitude": 81.045418
+  },
+  "address": "130 Peradeniya-Badulla-Chenkaladi Hwy, Badulla",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0777393048",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXMVV8631BDWAQ9EA9V4V"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Lap Zone",
+  "coordinates": {
+    "latitude": 6.894746,
+    "longitude": 79.8558927
+  },
+  "address": "Lauries Road, Galle Rd, Colombo",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0742001542",
+  "website": "http://www.lapzone.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JMMJ7FEH4B028YGC0T4"
+}

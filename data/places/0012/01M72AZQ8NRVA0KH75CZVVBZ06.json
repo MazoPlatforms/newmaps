@@ -1,0 +1,58 @@
+{
+  "name": "Allen Cafe & Restuarannt",
+  "coordinates": {
+    "latitude": 6.7089588,
+    "longitude": 79.9225996
+  },
+  "address": "302 Horana Rd, Panadura 12500",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0754955632",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZQ8NRVA0KH75CZVVBZ06"
+}

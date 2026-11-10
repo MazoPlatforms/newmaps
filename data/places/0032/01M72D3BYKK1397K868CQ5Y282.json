@@ -1,0 +1,62 @@
+{
+  "name": "Semicolans EShop",
+  "coordinates": {
+    "latitude": 7.965752999999999,
+    "longitude": 80.9975013
+  },
+  "address": "No.405/1 Main Street, Polonnaruwa 51000",
+  "categories": [
+    "Computer accessories store",
+    "Computer service",
+    "Computer store",
+    "Security system installation service"
+  ],
+  "phone": "0757035587",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 PM",
+        "2–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3BYKK1397K868CQ5Y282"
+}

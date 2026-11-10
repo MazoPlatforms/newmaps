@@ -1,0 +1,65 @@
+{
+  "name": "St. Diomi's Medical Center",
+  "coordinates": {
+    "latitude": 6.984604099999999,
+    "longitude": 79.9078923
+  },
+  "address": "No. 65 Padiliyathuduwa Road, Wattala 11300",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0112945545",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–2:30 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "4:30–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00NRPRF0C7F0VXNY4EH"
+}

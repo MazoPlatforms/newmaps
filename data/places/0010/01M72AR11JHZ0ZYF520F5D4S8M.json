@@ -1,0 +1,58 @@
+{
+  "name": "HNB ATM",
+  "coordinates": {
+    "latitude": 6.84167,
+    "longitude": 79.866824
+  },
+  "address": "28 Hotel Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "ATM"
+  ],
+  "website": "https://www.hnb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11JHZ0ZYF520F5D4S8M"
+}

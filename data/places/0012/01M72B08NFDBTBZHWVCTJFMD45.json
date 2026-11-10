@@ -1,0 +1,58 @@
+{
+  "name": "Dawn Pharmacy",
+  "coordinates": {
+    "latitude": 6.7128716,
+    "longitude": 79.9060234
+  },
+  "address": "429 Arthur V. Dias Mawatha, Panadura",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0382231955",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8–9 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8–9 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–9 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8–9 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8–9 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08NFDBTBZHWVCTJFMD45"
+}

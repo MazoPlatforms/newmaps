@@ -1,0 +1,58 @@
+{
+  "name": "Central Foto And Camera Shop",
+  "coordinates": {
+    "latitude": 7.0905641,
+    "longitude": 79.9991215
+  },
+  "address": "194 Colombo Rd, Gampaha",
+  "categories": [
+    "Photography service"
+  ],
+  "phone": "0332239462",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGWP97YD75W4N1PC31447"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon Heeshan",
+  "coordinates": {
+    "latitude": 7.0662755,
+    "longitude": 80.402048
+  },
+  "address": "3C82+GR7, Berannawa",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0718986610",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQ876J1PVDFNZM2N28Y9C"
+}

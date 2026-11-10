@@ -1,0 +1,58 @@
+{
+  "name": "Sandeepa Super City",
+  "coordinates": {
+    "latitude": 7.3745249,
+    "longitude": 81.6686469
+  },
+  "address": "Sandeepa Stores, 21/291/1 Thissapura, Uhana, Ampara 32060",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "+8180-6308-1665",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C10NF4DN7RS0JB0H71MTE"
+}

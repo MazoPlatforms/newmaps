@@ -1,0 +1,58 @@
+{
+  "name": "Central Grocery",
+  "coordinates": {
+    "latitude": 6.7589362,
+    "longitude": 81.244283
+  },
+  "address": "Q65V+HPF, A4, Buttala",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0772547550",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGDRP2Q36X5GP5DZ8RGNG"
+}

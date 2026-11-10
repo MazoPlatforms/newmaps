@@ -1,0 +1,58 @@
+{
+  "name": "Fresh City",
+  "coordinates": {
+    "latitude": 8.3177413,
+    "longitude": 80.397526
+  },
+  "address": "899X+32R, Dahaiyagama Junction, Pubudupura Rd, Anuradhapura",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0252054028",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4KTAVESVQS708NQCJYZ"
+}

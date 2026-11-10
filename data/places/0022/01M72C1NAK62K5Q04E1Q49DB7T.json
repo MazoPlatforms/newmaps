@@ -1,0 +1,58 @@
+{
+  "name": "Maryam Food City",
+  "coordinates": {
+    "latitude": 7.2258157,
+    "longitude": 81.8439751
+  },
+  "address": "6RGV+8HH, Fiscal Rd, Akkaraipattu",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0755100005",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1NAK62K5Q04E1Q49DB7T"
+}

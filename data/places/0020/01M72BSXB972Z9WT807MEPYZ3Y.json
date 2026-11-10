@@ -1,0 +1,59 @@
+{
+  "name": "Dambulla Police Station",
+  "coordinates": {
+    "latitude": 7.8620803,
+    "longitude": 80.6491662
+  },
+  "address": "VJ6X+RMM, Link Rd, Dambulla",
+  "categories": [
+    "Police station"
+  ],
+  "phone": "0662284703",
+  "website": "http://www.police.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSXB972Z9WT807MEPYZ3Y"
+}

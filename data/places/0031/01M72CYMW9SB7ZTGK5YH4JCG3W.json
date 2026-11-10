@@ -1,0 +1,58 @@
+{
+  "name": "Thai Shoe",
+  "coordinates": {
+    "latitude": 6.6817937999999995,
+    "longitude": 80.4013646
+  },
+  "address": "266 Main St, Ratnapura 70000",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0716779991",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYMW9SB7ZTGK5YH4JCG3W"
+}

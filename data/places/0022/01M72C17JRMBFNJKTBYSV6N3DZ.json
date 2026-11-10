@@ -1,0 +1,59 @@
+{
+  "name": "Seylan Bank",
+  "coordinates": {
+    "latitude": 7.2910409,
+    "longitude": 81.6755159
+  },
+  "address": "7MRG+C66, D. S. Senanayke Rd, Ampara",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0632224897",
+  "website": "http://www.seylan.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C17JRMBFNJKTBYSV6N3DZ"
+}

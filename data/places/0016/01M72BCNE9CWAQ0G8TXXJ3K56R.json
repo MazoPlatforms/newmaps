@@ -1,0 +1,58 @@
+{
+  "name": "Banyan Tree Sea Food Restaurant",
+  "coordinates": {
+    "latitude": 6.0157161,
+    "longitude": 80.7864967
+  },
+  "address": "2Q8P+7HQ, Road, Tangalle",
+  "categories": [
+    "Seafood restaurant"
+  ],
+  "phone": "0761966775",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE9CWAQ0G8TXXJ3K56R"
+}

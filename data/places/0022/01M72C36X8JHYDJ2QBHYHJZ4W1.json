@@ -1,0 +1,58 @@
+{
+  "name": "Study Center",
+  "coordinates": {
+    "latitude": 8.6368227,
+    "longitude": 81.20726119999999
+  },
+  "address": "J6P4+PWC, Unnamed Road, Trincomalee",
+  "categories": [
+    "Studying center"
+  ],
+  "phone": "0757643254",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C36X8JHYDJ2QBHYHJZ4W1"
+}

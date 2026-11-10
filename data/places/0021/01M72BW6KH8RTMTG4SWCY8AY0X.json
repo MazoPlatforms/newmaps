@@ -1,0 +1,58 @@
+{
+  "name": "Vimal Stores",
+  "coordinates": {
+    "latitude": 8.767856199999999,
+    "longitude": 80.50904849999999
+  },
+  "address": "QG95+5JC, Vavuniya",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0774348638",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6KH8RTMTG4SWCY8AY0X"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Subway - Mount Lavinia",
+  "coordinates": {
+    "latitude": 6.8363521,
+    "longitude": 79.86712349999999
+  },
+  "address": "275 Galle Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Cafe",
+    "Breakfast restaurant",
+    "Sandwich shop",
+    "Fast food restaurant",
+    "Restaurant"
+  ],
+  "phone": "0115575000",
+  "website": "https://subway.in/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02GSZHHVQP62QJ87XHT"
+}

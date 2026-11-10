@@ -1,0 +1,58 @@
+{
+  "name": "Saai Tiles",
+  "coordinates": {
+    "latitude": 9.666528699999999,
+    "longitude": 80.0177629
+  },
+  "address": "80 Jaffna-Point Pedro Rd, Jaffna 40000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0212224549",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4VHVSQXB1CBK3W47Z8CE"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon Rahul",
+  "coordinates": {
+    "latitude": 5.9496309,
+    "longitude": 80.54685289999999
+  },
+  "address": "New Bus Stand, No 28 Upstairs, Matara",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0743635006",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTKHWJ3T8DD7X9ADTBBCK"
+}

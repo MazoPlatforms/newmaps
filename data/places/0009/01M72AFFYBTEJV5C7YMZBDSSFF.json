@@ -1,0 +1,58 @@
+{
+  "name": "Central Plaza Complex",
+  "coordinates": {
+    "latitude": 6.924658,
+    "longitude": 79.86757899999999
+  },
+  "address": "WVF9+V28, Gnanartha Pradeepa Mawatha, Colombo 00100",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0777318342",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AFFYBTEJV5C7YMZBDSSFF"
+}

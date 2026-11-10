@@ -1,0 +1,62 @@
+{
+  "name": "New City Glass",
+  "coordinates": {
+    "latitude": 7.2125398999999994,
+    "longitude": 79.8432505
+  },
+  "address": "343 Main St, Negombo 11500",
+  "categories": [
+    "Hardware store",
+    "Interior Decorator",
+    "Kitchen furniture store",
+    "Shipping service"
+  ],
+  "phone": "0312224820",
+  "website": "http://cityglassnet.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCMP4Y54QRHJSJ8T7NB6"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "English Literature Class",
+  "coordinates": {
+    "latitude": 7.3922846,
+    "longitude": 81.839933
+  },
+  "address": "129, Haja Lane, Sainthamaruthu - 12, Kalmunai 32280",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0672225379",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2:30–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–9 AM",
+        "3–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C0DHP7K92CBHRFCZ5YQ2E"
+}

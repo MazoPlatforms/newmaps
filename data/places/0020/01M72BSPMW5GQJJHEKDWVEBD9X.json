@@ -1,0 +1,58 @@
+{
+  "name": "Durdans Medical Centre - Dambulla",
+  "coordinates": {
+    "latitude": 7.8739367,
+    "longitude": 80.65062259999999
+  },
+  "address": "20 Kurunegala - Dambulla Rd, Dambulla",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0662052888",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSPMW5GQJJHEKDWVEBD9X"
+}

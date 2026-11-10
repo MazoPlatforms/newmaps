@@ -1,0 +1,58 @@
+{
+  "name": "SK Auto Zone",
+  "coordinates": {
+    "latitude": 7.4577865,
+    "longitude": 80.6173195
+  },
+  "address": "141/A Nagolla Rd, Matale 21000",
+  "categories": [
+    "Auto machine shop"
+  ],
+  "phone": "0760020835",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B404W0KD710CTEVRHCWCB"
+}

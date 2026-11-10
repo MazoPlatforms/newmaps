@@ -1,0 +1,58 @@
+{
+  "name": "Pariraj Plaza",
+  "coordinates": {
+    "latitude": 9.678403999999999,
+    "longitude": 80.007148
+  },
+  "address": "Pariraj Plaza, No 344, Navalar Road, Jaffna, Jaffna 40000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0212217252",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTYSJ7QZJW7S9EZ5TNQC1"
+}

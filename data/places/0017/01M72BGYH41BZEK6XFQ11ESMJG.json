@@ -1,0 +1,58 @@
+{
+  "name": "Nishan Restaurant & Bakers",
+  "coordinates": {
+    "latitude": 6.6002401,
+    "longitude": 80.4551924
+  },
+  "address": "JF24+33W, Nivithigala",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0715237524",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGYH41BZEK6XFQ11ESMJG"
+}

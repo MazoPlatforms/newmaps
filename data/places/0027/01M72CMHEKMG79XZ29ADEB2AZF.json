@@ -1,0 +1,65 @@
+{
+  "name": "Extreme Computers",
+  "coordinates": {
+    "latitude": 7.2974543999999995,
+    "longitude": 80.63740419999999
+  },
+  "address": "180 A9, Kandy 20000",
+  "categories": [
+    "Computer repair service",
+    "Computer accessories store",
+    "Computer networking service",
+    "Computer service",
+    "Computer software store",
+    "Computer store",
+    "Computer support and services"
+  ],
+  "phone": "0812204305",
+  "website": "http://www.extremegroup.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHEKMG79XZ29ADEB2AZF"
+}

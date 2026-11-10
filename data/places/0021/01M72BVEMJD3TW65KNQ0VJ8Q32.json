@@ -1,0 +1,58 @@
+{
+  "name": "Quick Service Station",
+  "coordinates": {
+    "latitude": 9.6656249,
+    "longitude": 80.01724569999999
+  },
+  "address": "M288+6VX, Sillalai Main Road, Pandatharippu",
+  "categories": [
+    "Auto tune up service"
+  ],
+  "phone": "0774001978",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVEMJD3TW65KNQ0VJ8Q32"
+}

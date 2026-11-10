@@ -1,0 +1,58 @@
+{
+  "name": "Techroof",
+  "coordinates": {
+    "latitude": 8.322171299999999,
+    "longitude": 80.4040388
+  },
+  "address": "Fair road, Anuradhapura 50000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0710650116",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2P6GMTZ70CZ47QEJ06P2"
+}

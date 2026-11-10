@@ -1,0 +1,59 @@
+{
+  "name": "Millennium (Book Shop & Communication)",
+  "coordinates": {
+    "latitude": 6.8511792,
+    "longitude": 79.86539909999999
+  },
+  "address": "13 Station Road, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Book store",
+    "Stationery wholesaler"
+  ],
+  "phone": "0760242410",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CBHARC68M8HB3AXDD3FNQ"
+}

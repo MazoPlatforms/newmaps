@@ -1,0 +1,61 @@
+{
+  "name": "Champa Stores",
+  "coordinates": {
+    "latitude": 7.2932187,
+    "longitude": 80.6362479
+  },
+  "address": "40 Sri Dalada Veediya, Kandy",
+  "categories": [
+    "Electronics store",
+    "Print shop",
+    "Sporting goods store"
+  ],
+  "phone": "0768185995",
+  "website": "http://champastores.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHEQ4Z7Q225Q7G9PQRNQ"
+}

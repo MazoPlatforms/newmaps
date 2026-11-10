@@ -1,0 +1,62 @@
+{
+  "name": "Good Spa",
+  "coordinates": {
+    "latitude": 5.9744475,
+    "longitude": 80.4460008
+  },
+  "address": "Mahavatta, Polwatta, Weligama 81700",
+  "categories": [
+    "Spa",
+    "Health spa",
+    "Massage spa",
+    "Wellness center"
+  ],
+  "phone": "0779322577",
+  "website": "https://goodspa.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CVDH4MQ4BS1QXGKQ87VVC"
+}

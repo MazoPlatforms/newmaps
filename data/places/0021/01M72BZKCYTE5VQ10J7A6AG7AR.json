@@ -1,0 +1,59 @@
+{
+  "name": "Central Pharmacy",
+  "coordinates": {
+    "latitude": 7.6831244,
+    "longitude": 81.7349054
+  },
+  "address": "MPMM+6XR, Dr Badhiudeen Mahmood Mawatha, Kattankudy",
+  "categories": [
+    "Pharmaceutical company"
+  ],
+  "phone": "0776758695",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BZKCYTE5VQ10J7A6AG7AR"
+}

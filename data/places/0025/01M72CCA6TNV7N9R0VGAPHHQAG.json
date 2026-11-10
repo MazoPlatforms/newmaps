@@ -1,0 +1,58 @@
+{
+  "name": "Rathna Hardware Stores",
+  "coordinates": {
+    "latitude": 6.7881518,
+    "longitude": 79.910934
+  },
+  "address": "1/1A St.Michel Rd, Piliyandala 10300",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0776008503",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCA6TNV7N9R0VGAPHHQAG"
+}

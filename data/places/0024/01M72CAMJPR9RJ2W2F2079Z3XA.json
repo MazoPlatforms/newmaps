@@ -1,0 +1,62 @@
+{
+  "name": "EBase Asia",
+  "coordinates": {
+    "latitude": 6.836866,
+    "longitude": 79.866553
+  },
+  "address": "27, 1/A Hotel Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Computer repair service",
+    "Computer consultant",
+    "Computer security service",
+    "Computer service",
+    "Computer support and services"
+  ],
+  "phone": "0757666666",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAMJPR9RJ2W2F2079Z3XA"
+}

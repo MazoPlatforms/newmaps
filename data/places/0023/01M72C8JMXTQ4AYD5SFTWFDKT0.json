@@ -1,0 +1,59 @@
+{
+  "name": "Spencer House Shopping Complex",
+  "coordinates": {
+    "latitude": 6.9369114,
+    "longitude": 79.850888
+  },
+  "address": "142, 144 1st Cross St, Colombo 01100",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0112322657",
+  "website": "http://www.camera.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JMXTQ4AYD5SFTWFDKT0"
+}

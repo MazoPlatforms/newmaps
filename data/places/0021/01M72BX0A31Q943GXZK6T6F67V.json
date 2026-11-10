@@ -1,0 +1,58 @@
+{
+  "name": "Malar Stores",
+  "coordinates": {
+    "latitude": 8.9764964,
+    "longitude": 79.9138459
+  },
+  "address": "35 Centre Bazaar Rd, Mannar",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0232222046",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX0A31Q943GXZK6T6F67V"
+}

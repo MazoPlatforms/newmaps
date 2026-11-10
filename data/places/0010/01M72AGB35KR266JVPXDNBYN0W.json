@@ -1,0 +1,59 @@
+{
+  "name": "Post Office Kollupitiya.",
+  "coordinates": {
+    "latitude": 6.9107596,
+    "longitude": 79.85015159999999
+  },
+  "address": "NSB Building, A2, Colombo",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0112573160",
+  "website": "http://www.slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AGB35KR266JVPXDNBYN0W"
+}

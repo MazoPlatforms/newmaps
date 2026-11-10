@@ -1,0 +1,59 @@
+{
+  "name": "Salon Bernie",
+  "coordinates": {
+    "latitude": 6.8317871,
+    "longitude": 79.8745034
+  },
+  "address": "76A, RVJF+PH8, 1 Templers Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0777729528",
+  "website": "http://berniebalasuriya.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MEJBT1GXSSKW3VT7KR"
+}

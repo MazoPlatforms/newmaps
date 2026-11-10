@@ -1,0 +1,58 @@
+{
+  "name": "Kasthuri Grocery",
+  "coordinates": {
+    "latitude": 7.8960618,
+    "longitude": 80.9992281
+  },
+  "address": "120 Ganangolla Main Rd, Polonnaruwa",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "+1639-994-2257",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRETCAT6NE1PD7F17169Q"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Fish Center",
+  "coordinates": {
+    "latitude": 7.267614399999999,
+    "longitude": 80.5766755
+  },
+  "address": "7H9G+2MV, Kiribathkumbura",
+  "categories": [
+    "Fish farm"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJAJ2FTXAZKSXCXBPJQ1Y"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Carabela Restaurant",
+  "coordinates": {
+    "latitude": 6.5839588,
+    "longitude": 79.9612156
+  },
+  "address": "73/1/2 Main Street, Kalutara 12000",
+  "categories": [
+    "Eclectic restaurant",
+    "Pub"
+  ],
+  "phone": "0777626565",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYWR5KVA2YG79E4Y184CV"
+}

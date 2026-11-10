@@ -1,0 +1,58 @@
+{
+  "address": "136 Colombo St, Kandy 20000",
+  "name": "Kandy Trade Centre",
+  "coordinates": {
+    "latitude": 7.2944727,
+    "longitude": 80.6364687
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–1:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0814472937",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72AAGB3E3KRT637CXZ1459T"
+}

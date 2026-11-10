@@ -1,0 +1,58 @@
+{
+  "name": "Saloon Akshara",
+  "coordinates": {
+    "latitude": 7.477030399999999,
+    "longitude": 80.6234872
+  },
+  "address": "584 Kandy-Jaffna Highway, Matale 21000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0766099922",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNZE0PPXWMA8A6RY3ZQ5S"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Vet Plus Animal Clinic",
+  "coordinates": {
+    "latitude": 8.319911399999999,
+    "longitude": 80.4055298
+  },
+  "address": "No.522/5, Wewa Road, Anuradhapura",
+  "categories": [
+    "Veterinary pharmacy"
+  ],
+  "phone": "0711638984",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9XE9W6H4VRB86VYBJ2K"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Divisional Hospital Dharga Town",
+  "coordinates": {
+    "latitude": 6.4421783,
+    "longitude": 80.0157787
+  },
+  "address": "Hospital Rd, Dharga Town",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0342275264",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B1DBMNJP2Z2JCMXP6RWA5"
+}

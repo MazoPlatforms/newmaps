@@ -1,0 +1,58 @@
+{
+  "name": "PGIS Library",
+  "coordinates": {
+    "latitude": 7.2587068,
+    "longitude": 80.5977446
+  },
+  "address": "University of, University of, University of Labuduwa Sri Damma Mawatha, 20400",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0812385660",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2T5VETXHB68T0KNBSP96"
+}

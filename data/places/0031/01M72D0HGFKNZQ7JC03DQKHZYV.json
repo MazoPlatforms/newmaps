@@ -1,0 +1,58 @@
+{
+  "name": "Edison Computers",
+  "coordinates": {
+    "latitude": 7.4602626999999995,
+    "longitude": 80.34631399999999
+  },
+  "address": "Kavindu niwasa edisons, Wanduragala 60000",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0769292831",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HGFKNZQ7JC03DQKHZYV"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "Super Market, 23 Srimath Anagarika Dharmapala Mawatha, Colombo 00300",
+  "name": "Beemas Best Buy",
+  "coordinates": {
+    "latitude": 6.9120288,
+    "longitude": 79.85051519999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0117205458",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72A9CZXFEGJFF8A6EX9EFSS"
+}

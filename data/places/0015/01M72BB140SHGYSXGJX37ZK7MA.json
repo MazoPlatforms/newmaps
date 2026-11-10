@@ -1,0 +1,59 @@
+{
+  "name": "Central Pharmacy - Weligama",
+  "coordinates": {
+    "latitude": 5.9739448,
+    "longitude": 80.4291246
+  },
+  "address": "No 03, Old Super Markett, Weligama, Matara Rd, Weligama 81700",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0775588624",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB140SHGYSXGJX37ZK7MA"
+}

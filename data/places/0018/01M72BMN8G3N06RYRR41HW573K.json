@@ -1,0 +1,59 @@
+{
+  "name": "Perera Stores And Oil Mart",
+  "coordinates": {
+    "latitude": 7.498627,
+    "longitude": 80.04811339999999
+  },
+  "address": "Hettipola Rd",
+  "categories": [
+    "Shopping mall",
+    "Asian grocery store"
+  ],
+  "phone": "0772681436",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMN8G3N06RYRR41HW573K"
+}

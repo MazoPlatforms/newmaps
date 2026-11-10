@@ -1,0 +1,60 @@
+{
+  "name": "Suwasarana Hospital",
+  "coordinates": {
+    "latitude": 7.032596,
+    "longitude": 79.92284099999999
+  },
+  "address": "769/A Thewatta Rd, Ragama 10011",
+  "categories": [
+    "Pharmacy",
+    "Laboratory",
+    "Hospital"
+  ],
+  "phone": "0112956138",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9E6Q4QCK355C8TWCKWR"
+}

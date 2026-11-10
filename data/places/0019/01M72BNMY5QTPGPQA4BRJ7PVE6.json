@@ -1,0 +1,63 @@
+{
+  "name": "Smart Choice Express",
+  "coordinates": {
+    "latitude": 8.0363126,
+    "longitude": 79.8291325
+  },
+  "address": "No-22 Cassim Ln, Puttalam 61300",
+  "categories": [
+    "Cake decorating equipment shop",
+    "Cake shop",
+    "Chocolate shop",
+    "Nut store",
+    "Party store"
+  ],
+  "phone": "0322266818",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11:30 AM",
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMY5QTPGPQA4BRJ7PVE6"
+}

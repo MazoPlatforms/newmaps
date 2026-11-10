@@ -1,0 +1,60 @@
+{
+  "name": "MKB Supermarket- Badulla",
+  "coordinates": {
+    "latitude": 6.9884935,
+    "longitude": 81.059834
+  },
+  "address": "38 Race Course Rd, Badulla 90000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0552220022",
+  "website": "http://www.mkb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQAQ31HCNH2RES6796R7"
+}

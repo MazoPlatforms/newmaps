@@ -1,0 +1,59 @@
+{
+  "name": "Garden Cafe - Matale",
+  "coordinates": {
+    "latitude": 7.4680598,
+    "longitude": 80.6234571
+  },
+  "address": "No 45 Kandy-Jaffna Highway, Matale 21000",
+  "categories": [
+    "Restaurant",
+    "Diner"
+  ],
+  "phone": "0768983296",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D7S5M3KQF6W7D18F5JX"
+}

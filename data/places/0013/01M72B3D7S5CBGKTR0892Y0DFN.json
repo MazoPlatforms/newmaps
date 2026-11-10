@@ -1,0 +1,58 @@
+{
+  "name": "Delia Cafe And Restaurant",
+  "coordinates": {
+    "latitude": 7.441046,
+    "longitude": 80.607985
+  },
+  "address": "CJR5+J64, AB26, Matale",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0751283536",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D7S5CBGKTR0892Y0DFN"
+}

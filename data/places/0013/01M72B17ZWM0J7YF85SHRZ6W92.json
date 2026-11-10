@@ -1,0 +1,58 @@
+{
+  "name": "Palace Of Space",
+  "coordinates": {
+    "latitude": 6.4821097,
+    "longitude": 79.9917744
+  },
+  "address": "104 st Ann's raod kardagoda, Beruwala 12070",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0707797761",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8–10 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–10 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B17ZWM0J7YF85SHRZ6W92"
+}

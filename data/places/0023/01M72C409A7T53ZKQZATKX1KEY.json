@@ -1,0 +1,58 @@
+{
+  "name": "N.R.S Stores",
+  "coordinates": {
+    "latitude": 8.4536774,
+    "longitude": 81.26076549999999
+  },
+  "address": "F736+F8C, Mutur",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0775219696",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C409A7T53ZKQZATKX1KEY"
+}

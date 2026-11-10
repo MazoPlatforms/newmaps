@@ -1,0 +1,57 @@
+{
+  "name": "Negombo Saturday Market",
+  "coordinates": {
+    "latitude": 7.2103587,
+    "longitude": 79.8416158
+  },
+  "address": "6R6R+4JX, Negombo",
+  "categories": [
+    "Market"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFK6BMSF517PNXYM5BTHM"
+}

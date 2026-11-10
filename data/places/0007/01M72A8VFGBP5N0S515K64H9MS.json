@@ -1,0 +1,59 @@
+{
+  "address": "379 R. A. De Mel Mawatha, Colombo 00300",
+  "name": "The Cake Factory",
+  "coordinates": {
+    "latitude": 6.9024918,
+    "longitude": 79.85488869999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "website": "http://www.cakefactory.lk/",
+  "business_status": "OPEN",
+  "phone": "0112372322",
+  "categories": [
+    "Bakery"
+  ],
+  "id": "01M72A8VFGBP5N0S515K64H9MS"
+}

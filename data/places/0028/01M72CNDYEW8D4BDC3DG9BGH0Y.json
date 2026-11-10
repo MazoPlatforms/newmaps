@@ -1,0 +1,58 @@
+{
+  "name": "Studio Laxman",
+  "coordinates": {
+    "latitude": 7.2941310999999995,
+    "longitude": 80.6360435
+  },
+  "address": "22 Yatinuwara St, Kandy 20000",
+  "categories": [
+    "Photography studio"
+  ],
+  "phone": "0812224121",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNDYEW8D4BDC3DG9BGH0Y"
+}

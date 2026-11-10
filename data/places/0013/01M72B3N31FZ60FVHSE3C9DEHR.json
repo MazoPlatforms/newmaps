@@ -1,0 +1,57 @@
+{
+  "name": "UP Grocery Shop",
+  "coordinates": {
+    "latitude": 7.4658915,
+    "longitude": 80.6410915
+  },
+  "address": "FJ7R+VJV, Matale",
+  "categories": [
+    "Store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N31FZ60FVHSE3C9DEHR"
+}

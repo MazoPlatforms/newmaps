@@ -1,0 +1,57 @@
+{
+  "name": "Sanka's Garage",
+  "coordinates": {
+    "latitude": 6.8705102,
+    "longitude": 79.92312249999999
+  },
+  "address": "57 Cemetery Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AWFSNFVAYSM8058J5EA2W"
+}

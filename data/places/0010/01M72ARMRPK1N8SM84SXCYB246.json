@@ -1,0 +1,59 @@
+{
+  "name": "Fawaz’s Garage",
+  "coordinates": {
+    "latitude": 6.842733399999999,
+    "longitude": 79.8765513
+  },
+  "address": "19, 4 Attidiya Main Road, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0778175333",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–12 PM",
+        "2–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRPK1N8SM84SXCYB246"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Food Experience Restaurant",
+  "coordinates": {
+    "latitude": 6.0242895999999995,
+    "longitude": 80.7868447
+  },
+  "address": "No.27/2a Senanayaka Labeema, Tangalle 82200",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0775800890",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE98MV898WGTZHHWTA8"
+}

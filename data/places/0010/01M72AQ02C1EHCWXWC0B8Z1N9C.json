@@ -1,0 +1,58 @@
+{
+  "name": "Five Star Bakers",
+  "coordinates": {
+    "latitude": 6.8206986999999994,
+    "longitude": 79.87300859999999
+  },
+  "address": "387/E1, Galle Rd",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0115299710",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ02C1EHCWXWC0B8Z1N9C"
+}

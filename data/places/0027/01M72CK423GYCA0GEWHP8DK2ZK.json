@@ -1,0 +1,61 @@
+{
+  "name": "La Bella (Hair&Beauty Bridle )Salon",
+  "coordinates": {
+    "latitude": 6.709249,
+    "longitude": 79.9222375
+  },
+  "address": "298 Horana Rd, Panadura 12500",
+  "categories": [
+    "Beauty salon",
+    "Bridal shop",
+    "Nail salon",
+    "Hairdresser"
+  ],
+  "phone": "0778039893",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK423GYCA0GEWHP8DK2ZK"
+}

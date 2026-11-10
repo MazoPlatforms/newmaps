@@ -1,0 +1,60 @@
+{
+  "name": "Xpert Medics",
+  "coordinates": {
+    "latitude": 9.700094799999999,
+    "longitude": 80.0343674
+  },
+  "address": "220, Palaly Road Kondavil, East, Kodavil 40000",
+  "categories": [
+    "Medical supply store",
+    "Pharmaceutical products wholesaler"
+  ],
+  "phone": "0772849686",
+  "website": "https://www.xpert-medics.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00C47EGE8SMS5EPYX9R"
+}

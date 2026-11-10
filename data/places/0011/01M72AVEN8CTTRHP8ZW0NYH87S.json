@@ -1,0 +1,58 @@
+{
+  "name": "Jayasi Grocery Store",
+  "coordinates": {
+    "latitude": 6.8478343,
+    "longitude": 79.9301287
+  },
+  "address": "RWXJ+43J, Temple Rd, Maharagama 10280",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0715676195",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEN8CTTRHP8ZW0NYH87S"
+}

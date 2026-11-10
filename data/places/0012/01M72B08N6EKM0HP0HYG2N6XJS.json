@@ -1,0 +1,57 @@
+{
+  "name": "Medical Center & Pharmacy",
+  "coordinates": {
+    "latitude": 6.7086904999999994,
+    "longitude": 79.9289056
+  },
+  "address": "PW5H+FHC, Ratnapura - Horana - Panadura Hwy, Panadura",
+  "categories": [
+    "Doctor"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08N6EKM0HP0HYG2N6XJS"
+}

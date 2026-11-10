@@ -1,0 +1,58 @@
+{
+  "name": "Fuel Station",
+  "coordinates": {
+    "latitude": 8.0746491,
+    "longitude": 79.8339641
+  },
+  "address": "3RFM+VH4, Puttalam",
+  "categories": [
+    "Alternative fuel station"
+  ],
+  "phone": "0754934153",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BP0JZ6GPBEH7PG856KW7A"
+}

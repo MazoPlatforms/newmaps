@@ -1,0 +1,60 @@
+{
+  "name": "National Hospital - Sri Lanka",
+  "coordinates": {
+    "latitude": 6.9177759,
+    "longitude": 79.8675987
+  },
+  "address": "WV99+FHX, Colombo 00700",
+  "categories": [
+    "Government hospital",
+    "General hospital"
+  ],
+  "phone": "0112691111",
+  "website": "http://nhsl.health.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AFZZW7C4VWWPDDKZS6B50"
+}

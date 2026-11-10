@@ -1,0 +1,62 @@
+{
+  "name": "Salon Ambience",
+  "coordinates": {
+    "latitude": 6.7123143,
+    "longitude": 79.90929129999999
+  },
+  "address": "PW65+WPF, Horana Rd, Panadura",
+  "categories": [
+    "Beauty salon",
+    "Bridal shop",
+    "Facial spa",
+    "Hairdresser"
+  ],
+  "phone": "0773673246",
+  "website": "http://www.salonambience.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK425PN529BVRB3WX82F8"
+}

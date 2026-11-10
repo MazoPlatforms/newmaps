@@ -1,0 +1,61 @@
+{
+  "name": "Liyanage Stores",
+  "coordinates": {
+    "latitude": 6.9730194999999995,
+    "longitude": 81.06739329999999
+  },
+  "address": "179 Hingurugamuwa Rd, Badulla 90000",
+  "categories": [
+    "Asian grocery store",
+    "Bakery equipment",
+    "Food manufacturer",
+    "Grocery delivery service"
+  ],
+  "phone": "0763069853",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQAZEVVGQ4WYPR0HN951"
+}

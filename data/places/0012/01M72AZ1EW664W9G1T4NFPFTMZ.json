@@ -1,0 +1,58 @@
+{
+  "name": "Sampath Supermarket",
+  "coordinates": {
+    "latitude": 6.6368144,
+    "longitude": 79.9403617
+  },
+  "address": "JWPR+P4H, Galle Road, Pothupitiya, Wadduwa",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0712566191",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ1EW664W9G1T4NFPFTMZ"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Southern Grocery(Ralahami Kade)",
+  "coordinates": {
+    "latitude": 6.001249,
+    "longitude": 80.4421785
+  },
+  "address": "2C2R+FVV, Main Street, Weligama",
+  "categories": [
+    "Grocery delivery service"
+  ],
+  "phone": "0778926707",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–2 PM",
+        "5–11:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–2 PM",
+        "5–11:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–2 PM",
+        "5–11:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–2 PM",
+        "5–11:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–2 PM",
+        "5–11:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–2 PM",
+        "5–11:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 PM",
+        "5–11:15 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAYRJD0W1KDX91C6KNHTW"
+}

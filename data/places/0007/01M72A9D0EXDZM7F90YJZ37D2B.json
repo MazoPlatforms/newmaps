@@ -1,0 +1,59 @@
+{
+  "address": "1 Castle Ave, Colombo 00800",
+  "name": "Jalanka International Japanese Supermarket",
+  "coordinates": {
+    "latitude": 6.9116779,
+    "longitude": 79.8803396
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "website": "http://jalanka.com/",
+  "business_status": "OPEN",
+  "phone": "0717333999",
+  "categories": [
+    "Japanese grocery store"
+  ],
+  "id": "01M72A9D0EXDZM7F90YJZ37D2B"
+}

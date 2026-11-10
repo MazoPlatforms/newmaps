@@ -1,0 +1,58 @@
+{
+  "address": "NO 82 Main St, Negombo 20830",
+  "name": "Matara Supper",
+  "coordinates": {
+    "latitude": 7.2105185999999994,
+    "longitude": 79.8360819
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0761818300",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72AECQ46XR1VQK9AJZHQPW3"
+}

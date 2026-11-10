@@ -1,0 +1,65 @@
+{
+  "name": "Athula Restaurant",
+  "coordinates": {
+    "latitude": 7.845893299999999,
+    "longitude": 80.6546682
+  },
+  "address": "RMW3+9V3, Dambulla",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0725838742",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:30 PM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:30 PM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:30 PM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:30 PM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:30 PM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4:30 PM",
+        "6–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–4:30 PM",
+        "6–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92JG3AMA7AFFH155GNW"
+}

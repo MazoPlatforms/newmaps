@@ -1,0 +1,59 @@
+{
+  "name": "Mag City Gatambe",
+  "coordinates": {
+    "latitude": 7.270937999999999,
+    "longitude": 80.6049347
+  },
+  "address": "964B Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0759296485",
+  "website": "http://www.magcity.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B37F4E7DTRGZ7W4EGZ0VY"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Central Bank Regional Office",
+  "coordinates": {
+    "latitude": 7.4873715999999995,
+    "longitude": 80.6234784
+  },
+  "address": "No 805, Trincomalee Street, Mandandawela, Matale",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0776161956",
+  "website": "http://www.cbsl.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3TGB28BYVQS2DK3PJCG3"
+}

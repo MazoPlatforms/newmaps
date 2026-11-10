@@ -1,0 +1,58 @@
+{
+  "name": "SRS Sports Complex",
+  "coordinates": {
+    "latitude": 6.248003,
+    "longitude": 80.0548894
+  },
+  "address": "Kandegoda, lane, Ambalangoda",
+  "categories": [
+    "Sports complex"
+  ],
+  "phone": "0773371490",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CST06W097DH9GH8Q1V4X5"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Steffy Stores",
+  "coordinates": {
+    "latitude": 8.568107999999999,
+    "longitude": 81.235626
+  },
+  "address": "69 Customs Rd, Trincomalee",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0772142414",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3MM5501GB5EQ79T9VT"
+}

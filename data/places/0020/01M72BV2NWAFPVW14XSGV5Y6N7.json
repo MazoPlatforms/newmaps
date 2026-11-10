@@ -1,0 +1,58 @@
+{
+  "name": "Yarl Baby Needs & Pharmacy",
+  "coordinates": {
+    "latitude": 9.666432499999999,
+    "longitude": 80.01135169999999
+  },
+  "address": "388 Hospital Rd, Jaffna",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0212228013",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BV2NWAFPVW14XSGV5Y6N7"
+}

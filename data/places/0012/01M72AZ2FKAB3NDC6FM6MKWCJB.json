@@ -1,0 +1,58 @@
+{
+  "name": "New Pharmacy Kalutara",
+  "coordinates": {
+    "latitude": 6.5815282999999996,
+    "longitude": 79.9613023
+  },
+  "address": "212 Galle Rd, Kalutara 12000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0342222558",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ2FKAB3NDC6FM6MKWCJB"
+}

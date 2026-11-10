@@ -1,0 +1,58 @@
+{
+  "address": "87A Temple Rd, Negombo 11500",
+  "name": "THE FoodZzz",
+  "coordinates": {
+    "latitude": 7.2089020999999995,
+    "longitude": 79.8538256
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Bakery",
+    "Cafe"
+  ],
+  "id": "01M72ADZ3XARPYK0CEK0F7WNYR"
+}

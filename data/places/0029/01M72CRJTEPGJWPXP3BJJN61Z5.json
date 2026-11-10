@@ -1,0 +1,58 @@
+{
+  "name": "A.K.A Wadood & Sons",
+  "coordinates": {
+    "latitude": 6.0348725,
+    "longitude": 80.2192227
+  },
+  "address": "101 Main Street, Galle 80000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0912234809",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRJTEPGJWPXP3BJJN61Z5"
+}

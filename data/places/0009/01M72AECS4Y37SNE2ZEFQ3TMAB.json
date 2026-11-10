@@ -1,0 +1,61 @@
+{
+  "address": "107 Main St, Negombo 11500",
+  "name": "A.M. Abdul Rahuman & Son",
+  "coordinates": {
+    "latitude": 7.211348999999999,
+    "longitude": 79.83768909999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0314933667",
+  "categories": [
+    "Grocery store",
+    "Cake decorating equipment shop",
+    "Herb shop",
+    "Herbal medicine store"
+  ],
+  "id": "01M72AECS4Y37SNE2ZEFQ3TMAB"
+}

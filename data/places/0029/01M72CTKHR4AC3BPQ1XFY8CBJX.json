@@ -1,0 +1,58 @@
+{
+  "name": "Salon T Plus",
+  "coordinates": {
+    "latitude": 5.954369,
+    "longitude": 80.5501034
+  },
+  "address": "XH32+P2X, Sri Mangala Mawatha, Matara",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0705174871",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9:05 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:05 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9:05 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9:05 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9:05 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9:05 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9:05 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTKHR4AC3BPQ1XFY8CBJX"
+}

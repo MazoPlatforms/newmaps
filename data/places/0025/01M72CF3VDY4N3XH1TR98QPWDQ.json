@@ -1,0 +1,59 @@
+{
+  "name": "Mazz Laptop Hub",
+  "coordinates": {
+    "latitude": 7.2231109,
+    "longitude": 79.8492862
+  },
+  "address": "37 Yoosuf Hajiyar Mawatha, Negombo 11500",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0789999976",
+  "website": "http://mazzlaptop.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VDY4N3XH1TR98QPWDQ"
+}

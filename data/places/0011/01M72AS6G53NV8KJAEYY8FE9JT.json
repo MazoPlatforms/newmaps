@@ -1,0 +1,58 @@
+{
+  "name": "Maxi's Kitchen",
+  "coordinates": {
+    "latitude": 6.7745755,
+    "longitude": 79.8829236
+  },
+  "address": "39/1/1 Railway Station Road, Moratuwa 10400",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0710544544",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6G53NV8KJAEYY8FE9JT"
+}

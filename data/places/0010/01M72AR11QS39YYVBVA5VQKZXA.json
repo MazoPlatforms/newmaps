@@ -1,0 +1,57 @@
+{
+  "name": "NDB ATM - Arpico Attidiya",
+  "coordinates": {
+    "latitude": 6.8330768,
+    "longitude": 79.8854094
+  },
+  "address": "No. 144, Main Road, Attidiya Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "ATM"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11QS39YYVBVA5VQKZXA"
+}

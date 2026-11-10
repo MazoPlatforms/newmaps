@@ -1,0 +1,62 @@
+{
+  "name": "Jasmine Cafe And Sea Food Restaurant",
+  "coordinates": {
+    "latitude": 6.031153199999999,
+    "longitude": 80.7985135
+  },
+  "address": "No.52/A Madakatiya Road, Tangalle 82200",
+  "categories": [
+    "Cafe",
+    "Breakfast restaurant",
+    "Seafood restaurant",
+    "Coffee shop",
+    "Vegan restaurant"
+  ],
+  "phone": "0765437690",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNE421XM1W43TRZG8D2C"
+}

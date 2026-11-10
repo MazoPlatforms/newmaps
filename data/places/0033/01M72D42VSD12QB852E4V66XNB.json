@@ -1,0 +1,59 @@
+{
+  "name": "Salon Beautello",
+  "coordinates": {
+    "latitude": 7.8819547,
+    "longitude": 80.6498318
+  },
+  "address": "310 Dambulugama junection, Dambulla",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0763181122",
+  "website": "https://www.facebook.com/profile.php?id=100085087263887&mibextid=ibOpuV",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D42VSD12QB852E4V66XNB"
+}

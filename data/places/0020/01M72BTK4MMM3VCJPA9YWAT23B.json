@@ -1,0 +1,57 @@
+{
+  "name": "Krishna Cafe",
+  "coordinates": {
+    "latitude": 9.712346,
+    "longitude": 80.0579164
+  },
+  "address": "P365+W5M, B268, Jaffna",
+  "categories": [
+    "Cafe"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTK4MMM3VCJPA9YWAT23B"
+}

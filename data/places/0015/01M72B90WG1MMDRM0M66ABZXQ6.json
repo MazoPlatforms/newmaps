@@ -1,0 +1,66 @@
+{
+  "name": "Nutry Cafe",
+  "coordinates": {
+    "latitude": 5.9683217,
+    "longitude": 80.4240449
+  },
+  "address": "13 Galle Road, Main Street, Weligama 81700",
+  "categories": [
+    "Cafe",
+    "Breakfast restaurant",
+    "Brunch restaurant",
+    "Coffee roastery",
+    "Coffee shop",
+    "Health food restaurant",
+    "Lunch restaurant",
+    "Pancake restaurant",
+    "Restaurant"
+  ],
+  "phone": "0775558394",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WG1MMDRM0M66ABZXQ6"
+}

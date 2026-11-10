@@ -1,0 +1,65 @@
+{
+  "name": "Universal Vets Animal Hospital",
+  "coordinates": {
+    "latitude": 7.162166999999999,
+    "longitude": 79.9936031
+  },
+  "address": "Gampaha",
+  "categories": [
+    "Animal hospital"
+  ],
+  "phone": "0773368757",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–2 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–2 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–2 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM",
+        "3–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM",
+        "3–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGCH7S7K20TJYAZ6ZWVN"
+}

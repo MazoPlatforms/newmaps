@@ -1,0 +1,58 @@
+{
+  "name": "Ganeshan Store",
+  "coordinates": {
+    "latitude": 8.6001742,
+    "longitude": 81.2152122
+  },
+  "address": "J628+338, Trincomalee",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0778485306",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3TMT5PD68STHVT2FBG"
+}

@@ -1,0 +1,64 @@
+{
+  "address": "460 A1, Kandy 20000",
+  "name": "Sub Post Office - Katukele",
+  "coordinates": {
+    "latitude": 7.2832478,
+    "longitude": 80.6227727
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://slpost.gov.lk/",
+  "business_status": "OPEN",
+  "categories": [
+    "Post office"
+  ],
+  "id": "01M72ABASCTEQ2K06GDEZVFPJK"
+}

@@ -1,0 +1,60 @@
+{
+  "address": "Adnives Rd, Negombo 11500",
+  "name": "Statebeans Coffee",
+  "coordinates": {
+    "latitude": 7.2256712,
+    "longitude": 79.8461021
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–12:30 PM",
+        "1:30–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0312121799",
+  "categories": [
+    "Coffee shop",
+    "Cafe"
+  ],
+  "id": "01M72ADZ3P7CS23QGMV2NP2P3M"
+}

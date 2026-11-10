@@ -1,0 +1,60 @@
+{
+  "name": "Sri Lanka Police Headquarters",
+  "coordinates": {
+    "latitude": 6.927753,
+    "longitude": 79.8500773
+  },
+  "address": "Colombo",
+  "categories": [
+    "State police",
+    "Police"
+  ],
+  "phone": "0112421111",
+  "website": "http://www.police.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AGB33NJFGJ8JZGB3QQH6X"
+}

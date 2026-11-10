@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Opera",
+  "coordinates": {
+    "latitude": 6.0343786,
+    "longitude": 80.8017235
+  },
+  "address": "2RM2+PMH, 91/D Vijaya Rd, Tangalle 82200",
+  "categories": [
+    "Coffee shop"
+  ],
+  "phone": "0717576417",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCNDYG8Y3MEE05FZV76WN"
+}

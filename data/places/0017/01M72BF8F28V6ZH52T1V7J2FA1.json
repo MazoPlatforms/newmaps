@@ -1,0 +1,58 @@
+{
+  "name": "Shine Auto Service",
+  "coordinates": {
+    "latitude": 6.9835132,
+    "longitude": 81.0644379
+  },
+  "address": "X3M7+CQ4, Badulla",
+  "categories": [
+    "Cleaning service"
+  ],
+  "phone": "0714384853",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF8F28V6ZH52T1V7J2FA1"
+}

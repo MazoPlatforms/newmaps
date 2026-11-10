@@ -1,0 +1,58 @@
+{
+  "name": "HNB Islamic Banking Unit",
+  "coordinates": {
+    "latitude": 6.9029361,
+    "longitude": 79.8508853
+  },
+  "address": "WV32+59C, Colombo",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0112372756",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG8V73GR0AD0KQG3NX2D7"
+}

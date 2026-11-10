@@ -1,0 +1,57 @@
+{
+  "name": "Medical Center",
+  "coordinates": {
+    "latitude": 6.0332924,
+    "longitude": 80.796708
+  },
+  "address": "Thissa rd, Tangalle",
+  "categories": [
+    "Medical Center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–7:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–7:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–7:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–7:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–7:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–7:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–7:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCWNHYZC39B9HC4MPG83T"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "85, 23 Seevali Ln, Colombo 00800",
+  "name": "Nayana Stores",
+  "coordinates": {
+    "latitude": 6.9241082,
+    "longitude": 79.87898179999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112697419",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "id": "01M72A9D2BBDZDPM86ZSEVRTSF"
+}

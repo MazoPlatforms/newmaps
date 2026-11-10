@@ -1,0 +1,59 @@
+{
+  "name": "My Fish (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.2557069,
+    "longitude": 80.25742439999999
+  },
+  "address": "Nelundeniya 71060",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0777774676",
+  "website": "https://www.myfish.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHA1AS1WJ28F2HBZ8NTBB"
+}

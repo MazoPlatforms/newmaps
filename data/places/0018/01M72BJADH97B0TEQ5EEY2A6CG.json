@@ -1,0 +1,58 @@
+{
+  "name": "Medical Center - Dr.M.D.P.Jayasuriya",
+  "coordinates": {
+    "latitude": 7.2521502,
+    "longitude": 80.34002939999999
+  },
+  "address": "782R+V26, Kegalle",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0352221542",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJADH97B0TEQ5EEY2A6CG"
+}

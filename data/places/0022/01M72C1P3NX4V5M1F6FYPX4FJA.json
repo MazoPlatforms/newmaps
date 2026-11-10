@@ -1,0 +1,58 @@
+{
+  "name": "Jai Hospital",
+  "coordinates": {
+    "latitude": 7.2181028,
+    "longitude": 81.8488433
+  },
+  "address": "6R9X+6GW, Akkaraipattu - Warapathanchenai, Akkaraipattu",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0672052414",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1P3NX4V5M1F6FYPX4FJA"
+}

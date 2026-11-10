@@ -1,0 +1,57 @@
+{
+  "name": "Municipal Library - Aruppola",
+  "coordinates": {
+    "latitude": 7.309779,
+    "longitude": 80.64334459999999
+  },
+  "address": "8J5V+W89, Kandy",
+  "categories": [
+    "Library"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CN8KPDA3CSA2EWJHVC1Q4"
+}

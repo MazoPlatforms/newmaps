@@ -1,0 +1,64 @@
+{
+  "name": "Law College - Vavuniya",
+  "coordinates": {
+    "latitude": 8.7614866,
+    "longitude": 80.4900646
+  },
+  "address": "21 10th Ln, Vavuniya 43000",
+  "categories": [
+    "Law school",
+    "Business development service",
+    "Higher secondary school",
+    "Private educational institution",
+    "Technical university",
+    "University"
+  ],
+  "phone": "0778594239",
+  "website": "https://www.sunteccampus.edu.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWD0JJ7AWE3YVW2Y37F3A"
+}

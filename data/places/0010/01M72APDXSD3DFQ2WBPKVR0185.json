@@ -1,0 +1,58 @@
+{
+  "name": "Waligampitiya Service Center",
+  "coordinates": {
+    "latitude": 7.0682785,
+    "longitude": 79.8990553
+  },
+  "address": "Ja-Ela",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0112236510",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDXSD3DFQ2WBPKVR0185"
+}

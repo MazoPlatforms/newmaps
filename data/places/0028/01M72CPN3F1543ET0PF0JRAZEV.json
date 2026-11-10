@@ -1,0 +1,58 @@
+{
+  "name": "Maneesha Enterprises",
+  "coordinates": {
+    "latitude": 6.951648,
+    "longitude": 80.78743899999999
+  },
+  "address": "No 1, Vijithapura,Badulla Road, Nuwara Eliya 22200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0716176941",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPN3F1543ET0PF0JRAZEV"
+}

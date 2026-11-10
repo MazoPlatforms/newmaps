@@ -1,0 +1,59 @@
+{
+  "name": "Barista Matara",
+  "coordinates": {
+    "latitude": 5.944084999999999,
+    "longitude": 80.54995699999999
+  },
+  "address": "07 Beach Rd Matara, Matara 81000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0412121662",
+  "website": "https://www.barista.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90W6QQPY5TRR0C3F8V6X"
+}

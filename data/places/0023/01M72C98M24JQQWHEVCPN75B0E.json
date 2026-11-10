@@ -1,0 +1,58 @@
+{
+  "name": "Chopping Block Salon",
+  "coordinates": {
+    "latitude": 6.9082607,
+    "longitude": 79.8654198
+  },
+  "address": "43 1, 1 Maitland Cres, Colombo 00700",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0117412412",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M24JQQWHEVCPN75B0E"
+}

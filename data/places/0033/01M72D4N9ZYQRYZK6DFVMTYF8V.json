@@ -1,0 +1,59 @@
+{
+  "name": "Sun Star Repairing Shop",
+  "coordinates": {
+    "latitude": 9.6801187,
+    "longitude": 80.0239862
+  },
+  "address": "Aalady Junction, No 308 Palam Rd, Jaffna 40000",
+  "categories": [
+    "Computer repair service",
+    "Electronics company"
+  ],
+  "phone": "0752686751",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4N9ZYQRYZK6DFVMTYF8V"
+}

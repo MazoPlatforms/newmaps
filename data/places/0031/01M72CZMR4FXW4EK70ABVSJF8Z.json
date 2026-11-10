@@ -1,0 +1,58 @@
+{
+  "name": "Sirasa Clothing",
+  "coordinates": {
+    "latitude": 7.252946799999999,
+    "longitude": 80.342624
+  },
+  "address": "36 Main Street, Kegalle 71000",
+  "categories": [
+    "Men's clothing store"
+  ],
+  "phone": "0770771729",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZMR4FXW4EK70ABVSJF8Z"
+}

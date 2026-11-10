@@ -1,0 +1,58 @@
+{
+  "name": "Shenal Super Mart",
+  "coordinates": {
+    "latitude": 6.2671424,
+    "longitude": 81.2574523
+  },
+  "address": "498/1 Molakepupathana, Tissamaharama 82600",
+  "categories": [
+    "Store"
+  ],
+  "phone": "0762917095",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BC0DKYSAE63DHH6KQA14C"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Eric Agency",
+  "coordinates": {
+    "latitude": 9.651627999999999,
+    "longitude": 80.03327809999999
+  },
+  "address": "93 Echchamaddi Rd, Jaffna 40000",
+  "categories": [
+    "Hardware store",
+    "Electronics store"
+  ],
+  "phone": "0771757407",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4VHZQVP5GZ3E52XXTFXK"
+}

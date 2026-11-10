@@ -1,0 +1,59 @@
+{
+  "name": "Rumana Traders",
+  "coordinates": {
+    "latitude": 7.2202299,
+    "longitude": 79.84592339999999
+  },
+  "address": "226 Chilaw - Colombo Main Rd, Negombo",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0758085060",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:30 AM",
+        "2–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCMF698DYNGS7CAG6W6Z"
+}

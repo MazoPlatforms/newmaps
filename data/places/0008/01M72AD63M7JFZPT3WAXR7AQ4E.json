@@ -1,0 +1,61 @@
+{
+  "address": "Palali Rd, Urumpirai West",
+  "name": "Happy Supermarket Urumpirai",
+  "coordinates": {
+    "latitude": 9.7177627,
+    "longitude": 80.0444023
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "website": "https://www.facebook.com/Happybasketlk/",
+  "business_status": "OPEN",
+  "phone": "0765725757",
+  "categories": [
+    "Supermarket",
+    "Grocery delivery service",
+    "Wholesale grocer"
+  ],
+  "id": "01M72AD63M7JFZPT3WAXR7AQ4E"
+}

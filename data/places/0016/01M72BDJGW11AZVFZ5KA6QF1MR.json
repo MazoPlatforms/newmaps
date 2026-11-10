@@ -1,0 +1,58 @@
+{
+  "name": "Tea Cup",
+  "coordinates": {
+    "latitude": 6.8299558,
+    "longitude": 81.0771888
+  },
+  "address": "10 post mail, Ella 90090",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0741151434",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDJGW11AZVFZ5KA6QF1MR"
+}

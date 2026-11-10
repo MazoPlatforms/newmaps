@@ -1,0 +1,58 @@
+{
+  "name": "King Choice Restaurant",
+  "coordinates": {
+    "latitude": 6.2383925,
+    "longitude": 80.09047679999999
+  },
+  "address": "Thilakapura, Ambalangoda - Batapola Rd, Ambalangoda 80320",
+  "categories": [
+    "Family restaurant"
+  ],
+  "phone": "0741300350",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YARBQYRNYP6DR64B530"
+}

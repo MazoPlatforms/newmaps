@@ -1,0 +1,58 @@
+{
+  "name": "DharshiBeautyParlour",
+  "coordinates": {
+    "latitude": 6.8897657,
+    "longitude": 80.5982418
+  },
+  "address": "city plaza, No 20, Hatton",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0710584501",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQ873N8KTS3XZMKX93HA1"
+}

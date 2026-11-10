@@ -1,0 +1,58 @@
+{
+  "name": "Out Patient Department (OPD)",
+  "coordinates": {
+    "latitude": 6.022444699999999,
+    "longitude": 80.7973324
+  },
+  "address": "2QCW+XWG, Tangalle",
+  "categories": [
+    "Hospital department"
+  ],
+  "phone": "0472240261",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCWNJHFY3ZHSKVJ1GFYWH"
+}

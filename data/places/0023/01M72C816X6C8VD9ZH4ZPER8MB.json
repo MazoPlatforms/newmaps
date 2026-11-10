@@ -1,0 +1,60 @@
+{
+  "name": "Barefoot",
+  "coordinates": {
+    "latitude": 6.8967239,
+    "longitude": 79.8542889
+  },
+  "address": "704 Galle - Colombo Rd, Colombo 00300",
+  "categories": [
+    "Store",
+    "Fabric store"
+  ],
+  "phone": "0112589305",
+  "website": "http://barefootceylon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C816X6C8VD9ZH4ZPER8MB"
+}

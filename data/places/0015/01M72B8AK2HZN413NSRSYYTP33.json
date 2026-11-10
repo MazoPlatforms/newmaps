@@ -1,0 +1,58 @@
+{
+  "name": "Wonder Zone",
+  "coordinates": {
+    "latitude": 6.2258172,
+    "longitude": 80.05483199999999
+  },
+  "address": "No.27 1/1 Urawtta, Ambalangoda",
+  "categories": [
+    "Indoor playground"
+  ],
+  "phone": "0760319117",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B8AK2HZN413NSRSYYTP33"
+}

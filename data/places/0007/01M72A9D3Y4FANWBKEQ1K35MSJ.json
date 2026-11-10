@@ -1,0 +1,59 @@
+{
+  "address": "240 Vauxhall St, Colombo 00200",
+  "name": "Keells Retail Academy - KRA",
+  "coordinates": {
+    "latitude": 6.921463999999999,
+    "longitude": 79.8589193
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.keellssuper.com/",
+  "business_status": "OPEN",
+  "phone": "0766240240",
+  "categories": [
+    "Training center"
+  ],
+  "id": "01M72A9D3Y4FANWBKEQ1K35MSJ"
+}

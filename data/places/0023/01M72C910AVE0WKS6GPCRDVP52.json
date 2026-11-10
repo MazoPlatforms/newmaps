@@ -1,0 +1,58 @@
+{
+  "name": "Naufar Hardware Stores",
+  "coordinates": {
+    "latitude": 6.9382888,
+    "longitude": 79.8664924
+  },
+  "address": "480/D Sri Sangaraja Mawatha, Colombo 01000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0757808299",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910AVE0WKS6GPCRDVP52"
+}

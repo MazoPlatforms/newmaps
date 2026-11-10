@@ -1,0 +1,59 @@
+{
+  "address": "446 Peradeniya Rd, Kandy 20000",
+  "name": "Olive Bakers",
+  "coordinates": {
+    "latitude": 7.2837843,
+    "longitude": 80.6233233
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 PM",
+        "1:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0812227250",
+  "categories": [
+    "Bakery"
+  ],
+  "id": "01M72AA6M67X304GGQZS9PWH3H"
+}

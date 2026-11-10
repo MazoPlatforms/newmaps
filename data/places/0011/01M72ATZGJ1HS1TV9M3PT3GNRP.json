@@ -1,0 +1,61 @@
+{
+  "name": "Rocco's",
+  "coordinates": {
+    "latitude": 6.9053603,
+    "longitude": 79.8945143
+  },
+  "address": "615A Nawala Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Cafe",
+    "Italian restaurant",
+    "Pizza restaurant"
+  ],
+  "phone": "0771262121",
+  "website": "http://www.roccos.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGJ1HS1TV9M3PT3GNRP"
+}

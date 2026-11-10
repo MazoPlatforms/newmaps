@@ -1,0 +1,60 @@
+{
+  "name": "SuperTarget",
+  "coordinates": {
+    "latitude": 6.4670483999999995,
+    "longitude": 79.9862713
+  },
+  "address": "284 Galle Rd, Beruwala",
+  "categories": [
+    "Grocery store",
+    "Rice shop"
+  ],
+  "phone": "0773578107",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:30 AM",
+        "2:30–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B17ZTVPX3V3ND4AKNJ7PS"
+}

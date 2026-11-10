@@ -1,0 +1,58 @@
+{
+  "name": "Medical Centre",
+  "coordinates": {
+    "latitude": 6.9454603,
+    "longitude": 81.07800619999999
+  },
+  "address": "Badulla",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0774999759",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–7:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–7:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–7:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–7:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–7:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWG9H966F4YXQE369YPY"
+}

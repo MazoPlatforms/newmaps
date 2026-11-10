@@ -1,0 +1,58 @@
+{
+  "name": "Beauty Room Saloon",
+  "coordinates": {
+    "latitude": 6.7142257999999995,
+    "longitude": 80.3860459
+  },
+  "address": "796 hidallana, Rathnapura",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0777339861",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZ1XZJ2BZFQ4QBMGNYK43"
+}

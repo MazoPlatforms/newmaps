@@ -1,0 +1,58 @@
+{
+  "name": "Welikala Motors",
+  "coordinates": {
+    "latitude": 6.9788939,
+    "longitude": 81.0617255
+  },
+  "address": "No 123/10 mailagasthanna, Badulla",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0776616951",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BF8F4H5DEMM2ARGEXG0MR"
+}

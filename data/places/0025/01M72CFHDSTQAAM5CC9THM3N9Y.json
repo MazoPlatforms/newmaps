@@ -1,0 +1,61 @@
+{
+  "name": "Fleuri Lounge By Veena",
+  "coordinates": {
+    "latitude": 7.2128998,
+    "longitude": 79.8447006
+  },
+  "address": "No. 430 Main St, Negombo 11500",
+  "categories": [
+    "Beauty salon",
+    "Nail salon",
+    "Hairdresser"
+  ],
+  "phone": "0317934646",
+  "website": "https://www.facebook.com/fleuriloungebyveena",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHDSTQAAM5CC9THM3N9Y"
+}

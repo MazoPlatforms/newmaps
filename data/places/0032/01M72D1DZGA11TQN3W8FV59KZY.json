@@ -1,0 +1,58 @@
+{
+  "name": "Master Look Saloon",
+  "coordinates": {
+    "latitude": 7.4721211,
+    "longitude": 80.0446353
+  },
+  "address": "New Bus Stand, No.06, Kuliyapitiya 60200",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0764124225",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1DZGA11TQN3W8FV59KZY"
+}

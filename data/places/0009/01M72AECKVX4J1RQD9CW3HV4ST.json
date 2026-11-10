@@ -1,0 +1,58 @@
+{
+  "address": "Negombo - Mirigama Rd, Negombo 11500",
+  "name": "Zm Super Mart",
+  "coordinates": {
+    "latitude": 7.2194335,
+    "longitude": 79.8576333
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0114142161",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "id": "01M72AECKVX4J1RQD9CW3HV4ST"
+}

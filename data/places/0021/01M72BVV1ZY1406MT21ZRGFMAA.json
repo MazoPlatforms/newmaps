@@ -1,0 +1,57 @@
+{
+  "name": "Ambal Cafe",
+  "coordinates": {
+    "latitude": 8.755925099999999,
+    "longitude": 80.5012969
+  },
+  "address": "QG42+9GF, A29, Vavuniya",
+  "categories": [
+    "Cafe"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVV1ZY1406MT21ZRGFMAA"
+}

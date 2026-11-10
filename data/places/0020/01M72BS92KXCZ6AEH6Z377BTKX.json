@@ -1,0 +1,67 @@
+{
+  "name": "Black Mustang Restaurant",
+  "coordinates": {
+    "latitude": 7.862311699999999,
+    "longitude": 80.6427795
+  },
+  "address": "Kurunegala Rd, Dambulla 21100",
+  "categories": [
+    "Cafe",
+    "Eclectic restaurant",
+    "Chinese restaurant",
+    "Ice cream shop",
+    "Indian restaurant",
+    "Italian restaurant",
+    "Mexican restaurant",
+    "Sandwich shop",
+    "Seafood restaurant"
+  ],
+  "phone": "0705000810",
+  "website": "https://blackmustangrestaurant.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92KXCZ6AEH6Z377BTKX"
+}

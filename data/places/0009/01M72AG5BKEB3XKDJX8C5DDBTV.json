@@ -1,0 +1,60 @@
+{
+  "name": "Metropolitan College",
+  "coordinates": {
+    "latitude": 6.8511874,
+    "longitude": 79.8676401
+  },
+  "address": "33 C Hill St, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "University",
+    "College"
+  ],
+  "phone": "0112712700",
+  "website": "https://metropolitancollege.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BKEB3XKDJX8C5DDBTV"
+}

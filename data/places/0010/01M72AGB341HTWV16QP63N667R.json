@@ -1,0 +1,65 @@
+{
+  "name": "Wellampitiya Post Office",
+  "coordinates": {
+    "latitude": 6.9370766999999995,
+    "longitude": 79.896834
+  },
+  "address": "WVPW+RPP, Avissawella Rd, Colombo",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0112572236",
+  "website": "http://www.slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM",
+        "1–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AGB341HTWV16QP63N667R"
+}

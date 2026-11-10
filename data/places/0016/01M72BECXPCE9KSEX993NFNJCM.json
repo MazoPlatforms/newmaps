@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Bandarawela",
+  "coordinates": {
+    "latitude": 6.834230799999999,
+    "longitude": 80.9863214
+  },
+  "address": "36/1 park road, Bandarawela 90100",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0777965855",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BECXPCE9KSEX993NFNJCM"
+}

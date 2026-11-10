@@ -1,0 +1,58 @@
+{
+  "name": "J & S Cafe And Baker's",
+  "coordinates": {
+    "latitude": 5.9515265,
+    "longitude": 80.52218359999999
+  },
+  "address": "Jayasena Bake house, Sunanda Mawatha, Matara 81000",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0719431433",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WG5083R5NBBP4F012X"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Star Saloon",
+  "coordinates": {
+    "latitude": 6.7946338,
+    "longitude": 79.8797957
+  },
+  "address": "QVVH+VW3, Ernest Pl, Moratuwa 10400",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0775421410",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7:15 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCDGD7KW97JJ0MNJ9425Y"
+}

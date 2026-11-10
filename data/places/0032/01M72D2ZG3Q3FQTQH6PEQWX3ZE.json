@@ -1,0 +1,58 @@
+{
+  "name": "ලin Salon",
+  "coordinates": {
+    "latitude": 8.32138,
+    "longitude": 80.40322379999999
+  },
+  "address": "561/B/44/A1, 4th cross street, Anuradhapura",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0786007777",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2ZG3Q3FQTQH6PEQWX3ZE"
+}

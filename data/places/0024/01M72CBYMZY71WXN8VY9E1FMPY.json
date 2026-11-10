@@ -1,0 +1,58 @@
+{
+  "name": "Com Computers",
+  "coordinates": {
+    "latitude": 6.7587657,
+    "longitude": 79.8893135
+  },
+  "address": "170B Koralawella Rd, Moratuwa 10400",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0759540747",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CBYMZY71WXN8VY9E1FMPY"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon Livoni",
+  "coordinates": {
+    "latitude": 8.3214072,
+    "longitude": 80.4076814
+  },
+  "address": "741/1 Freeman Mawatha, Anuradhapura",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0777060500",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2ZG6JPG5TWXBGFG0R5RG"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "CN Pharmacy",
+  "coordinates": {
+    "latitude": 6.7149972,
+    "longitude": 79.90921689999999
+  },
+  "address": "PW75+XMW, Sriya Mawatha, Panadura",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0382236215",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08NFMF2MTAB9YD7KP32F"
+}

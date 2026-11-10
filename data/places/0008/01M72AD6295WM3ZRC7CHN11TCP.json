@@ -1,0 +1,58 @@
+{
+  "address": "24 Adiyapatham Rd, Jaffna 40000",
+  "name": "Prabha Stores",
+  "coordinates": {
+    "latitude": 9.6808494,
+    "longitude": 80.0391772
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0775594515",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AD6295WM3ZRC7CHN11TCP"
+}

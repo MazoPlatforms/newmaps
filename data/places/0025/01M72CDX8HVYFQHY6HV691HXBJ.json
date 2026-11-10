@@ -1,0 +1,64 @@
+{
+  "name": "Illyas",
+  "coordinates": {
+    "latitude": 6.8810455,
+    "longitude": 79.8908216
+  },
+  "address": "No. 124 Nawala Rd, Nugegoda 10250",
+  "categories": [
+    "Hardware store",
+    "Bathroom supply store",
+    "Hygiene articles wholesaler",
+    "Kitchen supply store",
+    "Plumber",
+    "Tile store"
+  ],
+  "phone": "0770048080",
+  "website": "https://www.illyasandson.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDX8HVYFQHY6HV691HXBJ"
+}

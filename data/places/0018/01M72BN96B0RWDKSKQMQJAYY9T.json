@@ -1,0 +1,58 @@
+{
+  "name": "LA Flavors - Restaurant",
+  "coordinates": {
+    "latitude": 7.6246941999999995,
+    "longitude": 80.6066069
+  },
+  "address": "JJF4+VM2, Akuramboda, road, pallepola",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0751612996",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN96B0RWDKSKQMQJAYY9T"
+}

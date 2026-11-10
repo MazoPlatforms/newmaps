@@ -1,0 +1,58 @@
+{
+  "name": "Global Higher Education Centre",
+  "coordinates": {
+    "latitude": 8.0325537,
+    "longitude": 79.8302205
+  },
+  "address": "38/3 KK St, Puttalam 61300",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0753830897",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–9 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–9 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNSKGEK5Z2P2RKBMZE4W6"
+}

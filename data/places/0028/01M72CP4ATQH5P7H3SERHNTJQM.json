@@ -1,0 +1,62 @@
+{
+  "name": "Sales Centre - National Spice Garden Of Sri Lanka",
+  "coordinates": {
+    "latitude": 7.4531814,
+    "longitude": 80.6422908
+  },
+  "address": "National Spice Garden, Export Agriculture Research Centre, Department of Export Agriculture, Sales Center, Matale 21300",
+  "categories": [
+    "Spice store",
+    "Agricultural organization",
+    "Agricultural production",
+    "Agricultural service",
+    "Book store"
+  ],
+  "phone": "0662222822",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CP4ATQH5P7H3SERHNTJQM"
+}

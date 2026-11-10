@@ -1,0 +1,66 @@
+{
+  "name": "Hameedia | Main Street",
+  "coordinates": {
+    "latitude": 6.9371708,
+    "longitude": 79.84990239999999
+  },
+  "address": "No: 69 Main St, Colombo 01100",
+  "categories": [
+    "Men's clothing store",
+    "Children's store",
+    "Custom tailor",
+    "Fashion accessories store",
+    "Fashion designer",
+    "Jewelry store",
+    "Perfume store",
+    "Shoe store",
+    "Tailor"
+  ],
+  "phone": "0112388109",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C816VVHCMMTNY4XRH1ZQ1"
+}

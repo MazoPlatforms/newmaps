@@ -1,0 +1,58 @@
+{
+  "name": "Shantha Stores",
+  "coordinates": {
+    "latitude": 5.959810999999999,
+    "longitude": 80.545749
+  },
+  "address": "Matara",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0743750784",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9B8SF6Q5BP4VREWYF48Q"
+}

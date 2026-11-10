@@ -1,0 +1,65 @@
+{
+  "name": "Niroga Medical Center නිරෝගා මෙඩිකල් සෙන්ටර් நிரோகா மெடிக்கல் சென்டர்",
+  "coordinates": {
+    "latitude": 6.8941759,
+    "longitude": 80.8689287
+  },
+  "address": "Niroga Medical Center Nuwara Eliya, Road, Keppetipola 90350",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0729000111",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30–8:30 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30–8:30 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30–8:30 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30–8:30 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–8:30 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30–9 AM",
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30–9 AM",
+        "4–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4HGSHMVKAZJEEX68R5GZ"
+}

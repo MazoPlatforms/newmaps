@@ -1,0 +1,60 @@
+{
+  "name": "Faculty Of Information Technology",
+  "coordinates": {
+    "latitude": 6.7970862,
+    "longitude": 79.9019094
+  },
+  "address": "Bandaranayake Mawatha, Moratuwa 10400",
+  "categories": [
+    "Academic department",
+    "Public university"
+  ],
+  "phone": "0112650301",
+  "website": "http://www.itfac.mrt.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:15 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:15 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:15 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:15 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:15 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCNY2XJ970DYWBVB4ESVX"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Amana Bake House",
+  "coordinates": {
+    "latitude": 7.4752594,
+    "longitude": 80.04496449999999
+  },
+  "address": "F2GV+4X4, Hettipola Rd, Kuliyapitiya",
+  "categories": [
+    "Bakery",
+    "Restaurant"
+  ],
+  "phone": "0721800333",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMGJ5RQAV1G2XD5PWZK08"
+}

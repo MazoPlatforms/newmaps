@@ -1,0 +1,58 @@
+{
+  "name": "Cafè AVIV",
+  "coordinates": {
+    "latitude": 7.0926937,
+    "longitude": 79.99855269999999
+  },
+  "address": "Marybiso Rd, Gampaha",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0779916453",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXYNT7RK4QGK1JM4YAYVS"
+}

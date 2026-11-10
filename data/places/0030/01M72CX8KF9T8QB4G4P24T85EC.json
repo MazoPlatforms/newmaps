@@ -1,0 +1,59 @@
+{
+  "name": "Indian Fashion",
+  "coordinates": {
+    "latitude": 6.991098099999999,
+    "longitude": 81.06003749999999
+  },
+  "address": "28 Badulupitiya Road, Badulla",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0772911699",
+  "website": "https://www.facebook.com/Indian-Fashion-Badulla-1156253124400408/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CX8KF9T8QB4G4P24T85EC"
+}

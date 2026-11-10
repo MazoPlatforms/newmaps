@@ -1,0 +1,60 @@
+{
+  "address": "#04-01, West Block World Trade Centre Echelon Square, Colombo 00100",
+  "name": "Colombo Stock Exchange",
+  "coordinates": {
+    "latitude": 6.932381899999999,
+    "longitude": 79.84363669999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://www.cse.lk/",
+  "business_status": "OPEN",
+  "phone": "0112356456",
+  "categories": [
+    "Stock exchange building",
+    "Financial institution"
+  ],
+  "id": "01M72A9SD48ERH5CG10M77EM4Y"
+}

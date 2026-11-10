@@ -1,0 +1,59 @@
+{
+  "name": "Susantha Automobile 24 Hours",
+  "coordinates": {
+    "latitude": 5.9470149999999995,
+    "longitude": 80.55708709999999
+  },
+  "address": "WHW4+RR4, Matara 81000",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0705911319",
+  "website": "https://www.facebook.com/Susantha-auto-mobile-111011804084924/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BA896KWPC48SMPSDH1QG1"
+}

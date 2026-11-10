@@ -1,0 +1,59 @@
+{
+  "name": "Riyo Salon",
+  "coordinates": {
+    "latitude": 6.460860599999999,
+    "longitude": 79.9872251
+  },
+  "address": "No 496 Galle Rd, Beruwala 12070",
+  "categories": [
+    "Hair salon",
+    "Hairdresser"
+  ],
+  "phone": "0711222453",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CKV7V7RCWD86B76RWBVDG"
+}

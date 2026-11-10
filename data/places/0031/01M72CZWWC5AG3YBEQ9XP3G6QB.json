@@ -1,0 +1,58 @@
+{
+  "name": "Orchid Salon",
+  "coordinates": {
+    "latitude": 7.2527266,
+    "longitude": 80.3428611
+  },
+  "address": "783V+34X, Kegalle",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0770228360",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZWWC5AG3YBEQ9XP3G6QB"
+}

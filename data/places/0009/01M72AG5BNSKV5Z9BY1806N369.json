@@ -1,0 +1,59 @@
+{
+  "name": "The Tutory",
+  "coordinates": {
+    "latitude": 6.879997899999999,
+    "longitude": 79.8712307
+  },
+  "address": "119/1 Maya Ave, Colombo 00600",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0766765279",
+  "website": "https://www.thetutory.co/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BNSKV5Z9BY1806N369"
+}

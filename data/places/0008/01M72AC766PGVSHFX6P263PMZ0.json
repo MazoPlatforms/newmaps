@@ -1,0 +1,58 @@
+{
+  "address": "75, Galle 80000",
+  "name": "Krishna Stores",
+  "coordinates": {
+    "latitude": 6.0372987,
+    "longitude": 80.2222743
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0752111112",
+  "categories": [
+    "Store"
+  ],
+  "id": "01M72AC766PGVSHFX6P263PMZ0"
+}

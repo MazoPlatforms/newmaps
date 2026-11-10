@@ -1,0 +1,66 @@
+{
+  "name": "AN PLUS MART ( Wholesale & Retail Store)",
+  "coordinates": {
+    "latitude": 7.2853889,
+    "longitude": 81.86325289999999
+  },
+  "address": "Ansari mosque, road, Oluvil 32360",
+  "categories": [
+    "Wholesale market",
+    "Asian grocery store"
+  ],
+  "phone": "0759721668",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–12 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–1:30 PM",
+        "4:30–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1NAYFDEEN6N4CXKB045D"
+}

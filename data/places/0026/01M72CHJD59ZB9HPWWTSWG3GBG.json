@@ -1,0 +1,58 @@
+{
+  "name": "Zests Computer System",
+  "coordinates": {
+    "latitude": 6.6023796,
+    "longitude": 79.9552724
+  },
+  "address": "172 Galle Rd, Kalutara",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0772504700",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHJD59ZB9HPWWTSWG3GBG"
+}

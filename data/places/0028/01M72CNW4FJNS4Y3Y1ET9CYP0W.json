@@ -1,0 +1,58 @@
+{
+  "name": "Royal Paint House",
+  "coordinates": {
+    "latitude": 7.4683645,
+    "longitude": 80.6242927
+  },
+  "address": "No:32 Station Rd, Matale 21000",
+  "categories": [
+    "Paint store"
+  ],
+  "phone": "0662226956",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNW4FJNS4Y3Y1ET9CYP0W"
+}

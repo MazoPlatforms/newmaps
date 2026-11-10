@@ -1,0 +1,60 @@
+{
+  "name": "HNB Head Office Branch",
+  "coordinates": {
+    "latitude": 6.920912599999999,
+    "longitude": 79.8623557
+  },
+  "address": "479 T. B. Jayah Mawatha, Colombo 01000",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112660160",
+  "website": "https://www.hnb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG8V8SYRASYDZ4WDVYMAV"
+}

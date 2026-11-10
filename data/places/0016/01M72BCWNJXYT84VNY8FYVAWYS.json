@@ -1,0 +1,58 @@
+{
+  "name": "Medical Centre - Aluthgoda (වෛද්‍ය මධ්‍යස්ථානය - අලුත්ගොඩ)",
+  "coordinates": {
+    "latitude": 6.0647027,
+    "longitude": 80.7889012
+  },
+  "address": "Dr. Dumindu Tharanga Medical Center, Aluthgoda, Tangalle 82200",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0716610081",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCWNJXYT84VNY8FYVAWYS"
+}

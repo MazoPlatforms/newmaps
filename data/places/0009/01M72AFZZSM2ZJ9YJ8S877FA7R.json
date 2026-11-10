@@ -1,0 +1,63 @@
+{
+  "name": "Aps Medical Center",
+  "coordinates": {
+    "latitude": 6.9428702,
+    "longitude": 79.8564662
+  },
+  "address": "68 Brass Founder St, Colombo 01300",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0112446095",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–12:30 PM",
+        "4–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–12:30 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–12:30 PM",
+        "4–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–12:30 PM",
+        "4–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–12:30 PM",
+        "4–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–12:30 PM",
+        "4–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AFZZSM2ZJ9YJ8S877FA7R"
+}

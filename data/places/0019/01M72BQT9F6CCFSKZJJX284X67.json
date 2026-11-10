@@ -1,0 +1,63 @@
+{
+  "name": "Wheel Masters Auto Plaza - Vehicle Service, Car Wash, Repair Center,Auto Garage",
+  "coordinates": {
+    "latitude": 8.3214834,
+    "longitude": 80.4012241
+  },
+  "address": "514/A, 3A Maithripala Senanayake Mawatha, Anuradhapura 50000",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto air conditioning service",
+    "Auto electrical service",
+    "Car detailing service",
+    "Car wash"
+  ],
+  "phone": "0714333747",
+  "website": "https://www.wheelmasters.biz/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQT9F6CCFSKZJJX284X67"
+}

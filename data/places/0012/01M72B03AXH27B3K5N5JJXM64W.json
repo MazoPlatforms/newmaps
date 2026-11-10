@@ -1,0 +1,58 @@
+{
+  "name": "Pridemore Traders",
+  "coordinates": {
+    "latitude": 6.7123795,
+    "longitude": 79.9064846
+  },
+  "address": "473 Main St, Panadura 10712",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0362222033",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B03AXH27B3K5N5JJXM64W"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Mathurata Hardware Stores",
+  "coordinates": {
+    "latitude": 6.9839633999999995,
+    "longitude": 80.8126637
+  },
+  "address": "253 New Road, Kandapola 22200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0773873411",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPN3NNW81W6A3CRJ0010F"
+}

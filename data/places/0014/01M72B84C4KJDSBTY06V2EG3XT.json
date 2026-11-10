@@ -1,0 +1,59 @@
+{
+  "name": "Charlie",
+  "coordinates": {
+    "latitude": 6.2333362,
+    "longitude": 80.05456079999999
+  },
+  "address": "18 Galle Rd, Ambalangoda 80300",
+  "categories": [
+    "Shopping mall"
+  ],
+  "phone": "0912210555",
+  "website": "https://charlie.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B84C4KJDSBTY06V2EG3XT"
+}

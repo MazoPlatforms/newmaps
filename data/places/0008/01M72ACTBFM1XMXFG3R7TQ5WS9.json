@@ -1,0 +1,58 @@
+{
+  "address": "321 Kandy Rd, Jaffna",
+  "name": "GKR Café & Bakes",
+  "coordinates": {
+    "latitude": 9.6611406,
+    "longitude": 80.0388371
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0770417514",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72ACTBFM1XMXFG3R7TQ5WS9"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Swastha Ayurveda Medical Center",
+  "coordinates": {
+    "latitude": 7.4894957,
+    "longitude": 80.6237895
+  },
+  "address": "No.820 Trincomalee street, Matale",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0719661618",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3QC414MHB8MWHCYS1GWN"
+}

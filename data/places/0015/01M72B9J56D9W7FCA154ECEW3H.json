@@ -1,0 +1,65 @@
+{
+  "name": "Lotus Medical & Surgical Center",
+  "coordinates": {
+    "latitude": 5.9867231,
+    "longitude": 80.6134482
+  },
+  "address": "Kokawala, Yatiyana road, Matara",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0703861769",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–10 AM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–10 AM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–10 AM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–10 AM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–10 AM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–10 AM",
+        "5–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–9 AM",
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J56D9W7FCA154ECEW3H"
+}

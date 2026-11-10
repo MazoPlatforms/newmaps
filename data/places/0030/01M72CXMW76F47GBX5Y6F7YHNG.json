@@ -1,0 +1,58 @@
+{
+  "name": "Kumar Beauty Saloon",
+  "coordinates": {
+    "latitude": 6.9890827,
+    "longitude": 81.0575827
+  },
+  "address": "No15/ North lane, Bazaar Street, Badulla 90000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0772626288",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXMW76F47GBX5Y6F7YHNG"
+}

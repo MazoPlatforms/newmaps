@@ -1,0 +1,58 @@
+{
+  "name": "Salon Curly Girl & Nail Bar",
+  "coordinates": {
+    "latitude": 7.2044532,
+    "longitude": 79.8416196
+  },
+  "address": "185/3 Thaladuwa road, Negombo 11540",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0772526091",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHE1FQZ2JR5PCB3M6TM2"
+}

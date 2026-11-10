@@ -1,0 +1,58 @@
+{
+  "name": "WAKI Hair And Beauty Salon",
+  "coordinates": {
+    "latitude": 7.1889844,
+    "longitude": 79.8586282
+  },
+  "address": "700 Colombo - Puttalam Rd, Negombo 11500",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0713641008",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHDY4JDDFA4N13EDWNHZ"
+}

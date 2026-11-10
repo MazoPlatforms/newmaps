@@ -1,0 +1,58 @@
+{
+  "name": "Container Cafe",
+  "coordinates": {
+    "latitude": 6.8769858,
+    "longitude": 81.0340339
+  },
+  "address": "V2GM+QJV, Wellawaya Road, Kumbalwela, Ella",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0572221873",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDJGXERMQYQYYGDAFDE1A"
+}

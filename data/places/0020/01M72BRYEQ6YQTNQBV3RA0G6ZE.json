@@ -1,0 +1,58 @@
+{
+  "name": "Lahan Auto Service",
+  "coordinates": {
+    "latitude": 7.9045679,
+    "longitude": 81.06060219999999
+  },
+  "address": "Maradankadawala-Habarana-Thirukkondaiadimadu Hwy",
+  "categories": [
+    "Gas station"
+  ],
+  "phone": "0273273213",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRYEQ6YQTNQBV3RA0G6ZE"
+}

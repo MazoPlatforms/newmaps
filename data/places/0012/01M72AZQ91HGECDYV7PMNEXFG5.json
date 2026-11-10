@@ -1,0 +1,58 @@
+{
+  "name": "Frozen Cakes",
+  "coordinates": {
+    "latitude": 6.721132099999999,
+    "longitude": 79.9219044
+  },
+  "address": "93 1 malamulla road, Panadura",
+  "categories": [
+    "Cake shop"
+  ],
+  "phone": "0772373079",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZQ91HGECDYV7PMNEXFG5"
+}

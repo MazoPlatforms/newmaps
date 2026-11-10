@@ -1,0 +1,60 @@
+{
+  "name": "Lilly’s Beauty Boutique",
+  "coordinates": {
+    "latitude": 6.8882388,
+    "longitude": 79.868737
+  },
+  "address": "Isipathana Mawatha, Colombo 00500",
+  "categories": [
+    "Nail salon",
+    "Waxing hair removal service"
+  ],
+  "phone": "0777238932",
+  "website": "https://lillysbeautyboutique.my.canva.site/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MBD1Y33WKQ8SNC7A7K"
+}

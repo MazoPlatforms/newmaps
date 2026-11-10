@@ -1,0 +1,58 @@
+{
+  "name": "AYORA Grocery Shop",
+  "coordinates": {
+    "latitude": 7.4752553,
+    "longitude": 80.3325416
+  },
+  "address": "370/A Negambo road , Bamunawala, Kurunegala 60000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0741518432",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKM9XKN5WBD238N4BW4J1"
+}

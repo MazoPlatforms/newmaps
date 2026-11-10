@@ -1,0 +1,58 @@
+{
+  "name": "Target Shopping Bazar",
+  "coordinates": {
+    "latitude": 6.888161299999999,
+    "longitude": 80.59858609999999
+  },
+  "address": "No_54/1 Dickoya Road, Hatton 22000",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0772914951",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQ00K6ECE8YCQAAWGETAN"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Sunset Coffee Bar",
+  "coordinates": {
+    "latitude": 6.134036399999999,
+    "longitude": 80.1000842
+  },
+  "address": "350/1 Galle Rd, Hikkaduwa 80240",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0773061068",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77ES7QEWV20PA2CG440W"
+}

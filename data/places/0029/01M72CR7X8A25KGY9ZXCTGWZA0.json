@@ -1,0 +1,60 @@
+{
+  "name": "Cs Technology",
+  "coordinates": {
+    "latitude": 6.0648664,
+    "longitude": 80.23494149999999
+  },
+  "address": "253 A Morris Rd, wellipatha 80000",
+  "categories": [
+    "Computer service"
+  ],
+  "phone": "0770438342",
+  "website": "https://www.facebook.com/CS-Technology-105531521268588",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–6 AM",
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7X8A25KGY9ZXCTGWZA0"
+}

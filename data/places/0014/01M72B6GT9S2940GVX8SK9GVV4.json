@@ -1,0 +1,59 @@
+{
+  "name": "Nawaloka Care Pharmacy - Galle",
+  "coordinates": {
+    "latitude": 6.0351517,
+    "longitude": 80.2109432
+  },
+  "address": "46 Colombo Main Rd, Galle 80000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0769860662",
+  "website": "http://www.nawalokamedicare.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6GT9S2940GVX8SK9GVV4"
+}

@@ -1,0 +1,65 @@
+{
+  "address": "WVQ2+5PG, Main St, Colombo 00077",
+  "name": "WSB Super Market",
+  "coordinates": {
+    "latitude": 6.937948,
+    "longitude": 79.85183909999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 AM",
+        "8 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777457733",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D2H910CP4XZMMDT03VQ"
+}

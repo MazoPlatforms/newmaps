@@ -1,0 +1,61 @@
+{
+  "name": "Café Samaya Restaurant",
+  "coordinates": {
+    "latitude": 5.9730175,
+    "longitude": 80.4349573
+  },
+  "address": "Kanakamage Watha, Weligama By Pass Rd, Weligama 81700",
+  "categories": [
+    "Restaurant",
+    "Cocktail bar",
+    "Coffee shop"
+  ],
+  "phone": "0773395212",
+  "website": "https://casasamaya.com/restaurant.html",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPRS307FWNWYA28M2078"
+}

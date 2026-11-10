@@ -1,0 +1,58 @@
+{
+  "name": "Piyasena Automobile (PVT) Ltd",
+  "coordinates": {
+    "latitude": 8.585501899999999,
+    "longitude": 81.21813619999999
+  },
+  "address": "66 Kandy Rd, Trincomalee 31000",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0711264213",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C3GPPFX1M9TXCJ174TH9K"
+}

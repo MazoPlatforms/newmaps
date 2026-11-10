@@ -1,0 +1,58 @@
+{
+  "name": "Barakath Saloon",
+  "coordinates": {
+    "latitude": 8.0746089,
+    "longitude": 79.83386519999999
+  },
+  "address": "3RFM+RGX, Mannar Rd, Puttalam",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0756667816",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1X57TMXZFVJ3TC5K3KVB"
+}

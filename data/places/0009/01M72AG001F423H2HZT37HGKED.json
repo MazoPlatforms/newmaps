@@ -1,0 +1,58 @@
+{
+  "name": "Sithara Hospital & Ayurvedic Pharmacy",
+  "coordinates": {
+    "latitude": 6.8734516,
+    "longitude": 79.8699893
+  },
+  "address": "Weluwanarama Road, 125 Pamankada Ln, Colombo",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0776967649",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG001F423H2HZT37HGKED"
+}

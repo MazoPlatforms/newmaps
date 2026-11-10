@@ -1,0 +1,60 @@
+{
+  "name": "Computer Tech PVT. Ltd",
+  "coordinates": {
+    "latitude": 7.923202399999999,
+    "longitude": 80.99700829999999
+  },
+  "address": "Computer Tech, 53/3 New Town Rd, Polonnaruwa 51000",
+  "categories": [
+    "Computer store",
+    "Computer accessories store",
+    "Computer repair service",
+    "Computer service"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3BYH4EG82ZA7VE762D1C"
+}

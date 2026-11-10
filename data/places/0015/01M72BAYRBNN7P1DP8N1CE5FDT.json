@@ -1,0 +1,58 @@
+{
+  "name": "Weligama Food Hub",
+  "coordinates": {
+    "latitude": 5.9656763999999995,
+    "longitude": 80.4116811
+  },
+  "address": "No2 Kuruduwatta old Galle Rode, Weligama 81700",
+  "categories": [
+    "Produce market"
+  ],
+  "phone": "0740022625",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAYRBNN7P1DP8N1CE5FDT"
+}

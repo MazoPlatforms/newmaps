@@ -1,0 +1,63 @@
+{
+  "name": "Kundasale Auto Service (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.2807936,
+    "longitude": 80.6949394
+  },
+  "address": "Digana, Road, kandy 20168",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto body shop",
+    "Auto repair shop",
+    "Auto tune up service",
+    "Vehicle inspection service"
+  ],
+  "phone": "0812420130",
+  "website": "http://www.kas.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B37F3ZYSNHM4DSSTQXPS7"
+}

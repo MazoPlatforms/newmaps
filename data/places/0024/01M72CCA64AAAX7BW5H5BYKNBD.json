@@ -1,0 +1,58 @@
+{
+  "name": "MGL Trade Centre",
+  "coordinates": {
+    "latitude": 6.7905475,
+    "longitude": 79.8863604
+  },
+  "address": "422 A2, Moratuwa 10400",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112645364",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCA64AAAX7BW5H5BYKNBD"
+}

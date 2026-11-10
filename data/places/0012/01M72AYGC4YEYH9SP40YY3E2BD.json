@@ -1,0 +1,58 @@
+{
+  "name": "New Dasatha Pharmacy",
+  "coordinates": {
+    "latitude": 7.0909379999999995,
+    "longitude": 79.9983477
+  },
+  "address": "176/A Colombo Rd, Gampaha",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0769118984",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGC4YEYH9SP40YY3E2BD"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Pab ATM",
+  "coordinates": {
+    "latitude": 6.934250899999999,
+    "longitude": 79.86563939999999
+  },
+  "address": "WVM8+P72, Sri Sangaraja Mawatha, Colombo 01000",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0114667222",
+  "website": "http://www.pabcbank.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR5VGGY3TVAGW9D7CXW"
+}

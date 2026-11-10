@@ -1,0 +1,60 @@
+{
+  "name": "Laptop.lk",
+  "coordinates": {
+    "latitude": 6.8820599,
+    "longitude": 79.8591634
+  },
+  "address": "next to, 401 Galle Road, Davidson Rd, 00400",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0773277277",
+  "website": "http://laptop.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–12 PM",
+        "1:30–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JM48KZBT67PH0QRTNMX"
+}

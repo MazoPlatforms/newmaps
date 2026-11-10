@@ -1,0 +1,58 @@
+{
+  "name": "Medical Center",
+  "coordinates": {
+    "latitude": 7.4561310999999995,
+    "longitude": 80.62479429999999
+  },
+  "address": "85 MC Rd, Matale 21000",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0776208911",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3QC6T929Z2E4GQNZ0R1M"
+}

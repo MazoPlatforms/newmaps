@@ -1,0 +1,59 @@
+{
+  "name": "Damro Showroom - Nawalapitiya",
+  "coordinates": {
+    "latitude": 7.0534118,
+    "longitude": 80.5287038
+  },
+  "address": "No 191 Ginigathhena Road, Nawalapitiya",
+  "categories": [
+    "Electronics store",
+    "Furniture store"
+  ],
+  "phone": "0542222433",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:15 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:15 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQGD3PAZZ97GTGA7F0JB4"
+}

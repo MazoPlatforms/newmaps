@@ -1,0 +1,63 @@
+{
+  "name": "Lagoon Lab",
+  "coordinates": {
+    "latitude": 6.9207969,
+    "longitude": 79.8466648
+  },
+  "address": "3, Galle Face Court, 2, Colombo 00300",
+  "categories": [
+    "Swimwear store",
+    "Beach clothing store",
+    "Clothing store",
+    "Dress store",
+    "Kimono store"
+  ],
+  "phone": "0741377737",
+  "website": "https://lagoonlabstore.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C81718MTCW1SGK867RP19"
+}

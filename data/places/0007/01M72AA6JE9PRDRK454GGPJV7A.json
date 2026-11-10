@@ -1,0 +1,58 @@
+{
+  "address": "175 DS Senanayake Veediya, Kandy 20000",
+  "name": "Cafe Purple King",
+  "coordinates": {
+    "latitude": 7.2977533,
+    "longitude": 80.6370556
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0813156656",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72AA6JE9PRDRK454GGPJV7A"
+}

@@ -1,0 +1,59 @@
+{
+  "address": "No.650, Anura Kade Junction, Airport Rd, Anuradhapura 50000",
+  "name": "C Cafe",
+  "coordinates": {
+    "latitude": 8.3101782,
+    "longitude": 80.4225513
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0778800073",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "id": "01M72AFER40QZ8AZV1C22Z2WHH"
+}

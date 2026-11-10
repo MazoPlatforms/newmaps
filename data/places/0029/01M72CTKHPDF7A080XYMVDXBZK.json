@@ -1,0 +1,58 @@
+{
+  "name": "Salon Hair Care",
+  "coordinates": {
+    "latitude": 5.9539154,
+    "longitude": 80.5341756
+  },
+  "address": "No 53, Akuressa Rd, Matara, Matara - Akuressa Hwy, Matara 81000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0413429190",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTKHPDF7A080XYMVDXBZK"
+}

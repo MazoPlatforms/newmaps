@@ -1,0 +1,61 @@
+{
+  "address": "62 Kynsey Rd, Colombo 00700",
+  "name": "The Commons Coffeehouse",
+  "coordinates": {
+    "latitude": 6.9165114,
+    "longitude": 79.8730109
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–1 AM"
+      ]
+    }
+  ],
+  "website": "http://thecommonscolombo.com/",
+  "business_status": "OPEN",
+  "phone": "0112694435",
+  "categories": [
+    "Coffee shop",
+    "Breakfast restaurant",
+    "Brunch restaurant"
+  ],
+  "id": "01M72A8VDBA6GX8PSHG577FQ16"
+}

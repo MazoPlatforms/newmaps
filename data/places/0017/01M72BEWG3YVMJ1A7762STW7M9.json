@@ -1,0 +1,62 @@
+{
+  "name": "Badulla Ayurvedic Hospital",
+  "coordinates": {
+    "latitude": 6.9892813,
+    "longitude": 81.0573728
+  },
+  "address": "X3Q4+PW9, North Lane, Badulla",
+  "categories": [
+    "Hospital"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 PM",
+        "1–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12 PM",
+        "1–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 PM",
+        "1–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12 PM",
+        "1–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "1–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWG3YVMJ1A7762STW7M9"
+}

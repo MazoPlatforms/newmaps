@@ -1,0 +1,58 @@
+{
+  "name": "Sanekvin Restaurant",
+  "coordinates": {
+    "latitude": 6.2328177,
+    "longitude": 80.05427139999999
+  },
+  "address": "63M3+4PC, Modara Dewala Rd, Ambalangoda",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0912255220",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YAN99H225MC8A0HR3Y5"
+}

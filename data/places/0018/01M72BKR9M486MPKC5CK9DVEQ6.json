@@ -1,0 +1,58 @@
+{
+  "name": "Gulf Medical Center (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.4899707,
+    "longitude": 80.3644176
+  },
+  "address": "127 Main Street, Kurunegala",
+  "categories": [
+    "Medical office"
+  ],
+  "phone": "0714777799",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKR9M486MPKC5CK9DVEQ6"
+}

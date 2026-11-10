@@ -1,0 +1,59 @@
+{
+  "name": "Ariyadasa Filling Station",
+  "coordinates": {
+    "latitude": 7.477187499999999,
+    "longitude": 80.3720625
+  },
+  "address": "Kurunegala",
+  "categories": [
+    "Gas station",
+    "Fuel supplier"
+  ],
+  "phone": "0777216732",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BM930KSG0HPFBZZ02WZPZ"
+}

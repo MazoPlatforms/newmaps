@@ -1,0 +1,59 @@
+{
+  "address": "Mapalagama Bus Rd, Galle 80000",
+  "name": "Mahilal Bakery And Restaurant",
+  "coordinates": {
+    "latitude": 6.0688002,
+    "longitude": 80.2297636
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0914906382",
+  "categories": [
+    "Sri Lankan restaurant",
+    "Bakery"
+  ],
+  "id": "01M72ABTW4GYGMF3S5WYMDDD3K"
+}

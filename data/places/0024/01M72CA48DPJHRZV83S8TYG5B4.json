@@ -1,0 +1,58 @@
+{
+  "name": "සමුදුර Fish Shop",
+  "coordinates": {
+    "latitude": 6.826041699999999,
+    "longitude": 79.9359611
+  },
+  "address": "RWGP+C98, arawwala, road, Maharagama",
+  "categories": [
+    "Farm"
+  ],
+  "phone": "0776325204",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CA48DPJHRZV83S8TYG5B4"
+}

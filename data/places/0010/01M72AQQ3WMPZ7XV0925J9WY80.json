@@ -1,0 +1,58 @@
+{
+  "name": "Wales Health Care",
+  "coordinates": {
+    "latitude": 6.7968541,
+    "longitude": 79.89399159999999
+  },
+  "address": "149/A Bandaranayake Mawatha, Moratuwa 10400",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0777375928",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3WMPZ7XV0925J9WY80"
+}

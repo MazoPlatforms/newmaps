@@ -1,0 +1,59 @@
+{
+  "name": "CIB Shopping Center - Chilaw",
+  "coordinates": {
+    "latitude": 7.575516599999999,
+    "longitude": 79.79611009999999
+  },
+  "address": "No 24, Colombo Road, A3, Chilaw",
+  "categories": [
+    "Clothing store",
+    "Shopping mall"
+  ],
+  "phone": "0322222369",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D24X7SPFXBZK3A49YRCH2"
+}

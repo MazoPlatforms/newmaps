@@ -1,0 +1,60 @@
+{
+  "name": "Thivan Phone Shop",
+  "coordinates": {
+    "latitude": 9.679838499999999,
+    "longitude": 80.0121685
+  },
+  "address": "Puliyadi santhi, Jaffna-Kankesanturai Rd, Jaffna",
+  "categories": [
+    "Computer store",
+    "Repair service",
+    "Mobile phone repair shop"
+  ],
+  "phone": "0743577143",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4N9WK8QFCF05QSM9DD7H"
+}

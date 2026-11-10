@@ -1,0 +1,59 @@
+{
+  "name": "Yamaha Workshop",
+  "coordinates": {
+    "latitude": 6.9222345,
+    "longitude": 79.8556976
+  },
+  "address": "2, 169/-1 Union Pl, Colombo",
+  "categories": [
+    "Motorcycle repair shop"
+  ],
+  "phone": "0117609609",
+  "website": "http://www.yamaha.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDYCAE0HM970DFAKFW5V"
+}

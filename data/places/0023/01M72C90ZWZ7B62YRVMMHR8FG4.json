@@ -1,0 +1,58 @@
+{
+  "name": "Liberty Hardware Stores",
+  "coordinates": {
+    "latitude": 6.940903199999999,
+    "longitude": 79.8647866
+  },
+  "address": "453 Old Moor St, Colombo 01200",
+  "categories": [
+    "Building materials supplier"
+  ],
+  "phone": "0112459879",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C90ZWZ7B62YRVMMHR8FG4"
+}

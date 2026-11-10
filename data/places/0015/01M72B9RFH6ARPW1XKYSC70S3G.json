@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank City Office",
+  "coordinates": {
+    "latitude": 5.9439961,
+    "longitude": 80.5499753
+  },
+  "address": "WGVX+JW5, 11 Beach Rd, Matara",
+  "categories": [
+    "Private sector bank",
+    "ATM"
+  ],
+  "phone": "0415410801",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9RFH6ARPW1XKYSC70S3G"
+}

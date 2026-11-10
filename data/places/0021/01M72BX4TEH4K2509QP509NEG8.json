@@ -1,0 +1,58 @@
+{
+  "name": "Public Library Mawanella",
+  "coordinates": {
+    "latitude": 7.2503649999999995,
+    "longitude": 80.4529388
+  },
+  "address": "7F23+45W, Mawanella",
+  "categories": [
+    "Public library"
+  ],
+  "phone": "0352246275",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–4:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX4TEH4K2509QP509NEG8"
+}

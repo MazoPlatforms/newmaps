@@ -1,0 +1,57 @@
+{
+  "name": "Barber Following",
+  "coordinates": {
+    "latitude": 7.2075135999999995,
+    "longitude": 79.8804847
+  },
+  "address": "6V5J+255, Negombo",
+  "categories": [
+    "Hair salon"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHE2T4K9648ABYY7VJS6"
+}

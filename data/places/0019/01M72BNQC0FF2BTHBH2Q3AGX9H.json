@@ -1,0 +1,64 @@
+{
+  "name": "A-Z Health Care",
+  "coordinates": {
+    "latitude": 8.041697,
+    "longitude": 79.82839969999999
+  },
+  "address": "Puttalam",
+  "categories": [
+    "Medical clinic"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–11:56 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–11:56 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–11:56 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–11:56 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11:56 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–11:56 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–11:56 AM",
+        "4:15–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNQC0FF2BTHBH2Q3AGX9H"
+}

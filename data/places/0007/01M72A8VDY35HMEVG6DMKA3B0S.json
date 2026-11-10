@@ -1,0 +1,61 @@
+{
+  "address": "2C De Fonseka Rd, Colombo 05555",
+  "name": "Klassy Pastry Shop",
+  "coordinates": {
+    "latitude": 6.8876734,
+    "longitude": 79.8623112
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–4 PM"
+      ]
+    }
+  ],
+  "website": "https://klassy.lk/",
+  "business_status": "OPEN",
+  "phone": "0114252502",
+  "categories": [
+    "Pastry shop",
+    "Bakery",
+    "Cafe"
+  ],
+  "id": "01M72A8VDY35HMEVG6DMKA3B0S"
+}

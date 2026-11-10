@@ -1,0 +1,57 @@
+{
+  "address": "No 33 Canal Row, Colombo 00100",
+  "name": "Side Walk Cafe",
+  "coordinates": {
+    "latitude": 6.9333572,
+    "longitude": 79.84415349999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "id": "01M72A8VEG660GZ974M1N45F0R"
+}

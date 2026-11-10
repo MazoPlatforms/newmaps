@@ -1,0 +1,59 @@
+{
+  "name": "Kailash Hardware Centre",
+  "coordinates": {
+    "latitude": 6.9406954999999995,
+    "longitude": 79.8646651
+  },
+  "address": "456 Old Moor St, Colombo 01200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112233615",
+  "website": "https://www.kailassh.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C910HBY3E2F3ZH1JQEM0C"
+}

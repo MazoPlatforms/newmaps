@@ -1,0 +1,59 @@
+{
+  "name": "Union Bank Dambulla Branch",
+  "coordinates": {
+    "latitude": 8.302441,
+    "longitude": 80.42490699999999
+  },
+  "address": "723 Galkulama - Anuradhapura Rd, Dambulla",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0662285510",
+  "website": "http://www.unionb.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSWF0D7BRET0DGBMHR16X"
+}

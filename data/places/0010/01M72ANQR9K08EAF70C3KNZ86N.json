@@ -1,0 +1,59 @@
+{
+  "name": "NDB Bank - Colombo 13",
+  "coordinates": {
+    "latitude": 6.946187,
+    "longitude": 79.863573
+  },
+  "address": "295, George R, C.P De Silva Mw",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0117448031",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR9K08EAF70C3KNZ86N"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Loop Restaurant And Cafe",
+  "coordinates": {
+    "latitude": 7.0519791,
+    "longitude": 79.89653059999999
+  },
+  "address": "85 Negombo Main Rd, Kandana 11320",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0112248888",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXYP32NB9252GDCWXWEG1"
+}

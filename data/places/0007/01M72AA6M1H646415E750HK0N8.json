@@ -1,0 +1,58 @@
+{
+  "address": "Vegetable Retails, Market St, Kandy",
+  "name": "Midland Cafe",
+  "coordinates": {
+    "latitude": 7.2918474,
+    "longitude": 80.6341566
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:45 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:45 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0812234496",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72AA6M1H646415E750HK0N8"
+}

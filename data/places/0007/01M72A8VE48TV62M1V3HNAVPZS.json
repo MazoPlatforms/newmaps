@@ -1,0 +1,62 @@
+{
+  "address": "08 Jawatta Rd, Colombo 5",
+  "name": "Tea Avenue - Jawatte",
+  "coordinates": {
+    "latitude": 6.8994693,
+    "longitude": 79.866473
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–1 AM"
+      ]
+    }
+  ],
+  "website": "http://www.tea-avenue.com/",
+  "business_status": "OPEN",
+  "phone": "0771130112",
+  "categories": [
+    "Cafe",
+    "Breakfast restaurant",
+    "Tea house",
+    "Coffee shop"
+  ],
+  "id": "01M72A8VE48TV62M1V3HNAVPZS"
+}

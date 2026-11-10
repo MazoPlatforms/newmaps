@@ -1,0 +1,58 @@
+{
+  "name": "Manhas Medicare & Ayurvedic Pharmacy",
+  "coordinates": {
+    "latitude": 7.587040399999999,
+    "longitude": 79.8001132
+  },
+  "address": "Saggathattana, Chilaw 60001",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0775107135",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BP63KV3ER5ZS1RH8C8ZWP"
+}

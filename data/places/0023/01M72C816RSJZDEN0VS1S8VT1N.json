@@ -1,0 +1,63 @@
+{
+  "name": "Shay Int",
+  "coordinates": {
+    "latitude": 6.9066183,
+    "longitude": 79.85313889999999
+  },
+  "address": "24 Deal Pl, Colombo 00300",
+  "categories": [
+    "Clothing store",
+    "Fashion designer",
+    "Men's clothing store",
+    "Store",
+    "Women's clothing store"
+  ],
+  "phone": "0772761665",
+  "website": "http://shayint.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C816RSJZDEN0VS1S8VT1N"
+}

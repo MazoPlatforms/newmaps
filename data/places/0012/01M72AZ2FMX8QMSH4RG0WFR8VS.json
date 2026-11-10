@@ -1,0 +1,58 @@
+{
+  "name": "Metro Clinic And Pharmacy",
+  "coordinates": {
+    "latitude": 6.665445699999999,
+    "longitude": 79.9345024
+  },
+  "address": "72 Wadduwa - Morontuduwa Rd, Wadduwa 12560",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0775651064",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ2FMX8QMSH4RG0WFR8VS"
+}

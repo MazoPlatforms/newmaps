@@ -1,0 +1,63 @@
+{
+  "name": "One Zero",
+  "coordinates": {
+    "latitude": 7.942266,
+    "longitude": 81.0099877
+  },
+  "address": "Salon one zero hospita junction, Hospital junction, Polonnaruwa 51000",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0772509700",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–7 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–7 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–7 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–7 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–7 AM",
+        "8:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–7 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3JVK60518FQ7FDTQPEZA"
+}

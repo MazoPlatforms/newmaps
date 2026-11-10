@@ -1,0 +1,58 @@
+{
+  "name": "Mr Caffeine Cafe & Restaurant Sigiriya",
+  "coordinates": {
+    "latitude": 7.945192,
+    "longitude": 80.76203079999999
+  },
+  "address": "Sigiriya 21120",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0773662243",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C3MQWMBT055W9WWG3N3N9"
+}

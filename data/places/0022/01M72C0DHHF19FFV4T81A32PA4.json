@@ -1,0 +1,58 @@
+{
+  "name": "Learning College Of Higher Education (LCHE Campus)",
+  "coordinates": {
+    "latitude": 7.4027546,
+    "longitude": 81.8355754
+  },
+  "address": "142a1 Cassim Rd, Kalmunai 32300",
+  "categories": [
+    "College"
+  ],
+  "website": "https://lche.edu.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C0DHHF19FFV4T81A32PA4"
+}

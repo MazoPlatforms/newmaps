@@ -1,0 +1,61 @@
+{
+  "name": "Learning Channel College",
+  "coordinates": {
+    "latitude": 6.8299217,
+    "longitude": 80.99588229999999
+  },
+  "address": "121 Beragala-Hali Ela Hwy, Bandarawela",
+  "categories": [
+    "Training center",
+    "Special education school",
+    "Speech pathologist"
+  ],
+  "phone": "0777878092",
+  "website": "http://www.learningchanel.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFX12K8YKH5HBPH3RDR15"
+}

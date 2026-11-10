@@ -1,0 +1,60 @@
+{
+  "name": "Karu Super",
+  "coordinates": {
+    "latitude": 7.2999966,
+    "longitude": 80.38648169999999
+  },
+  "address": "B199, Rambukkana 71100",
+  "categories": [
+    "Supermarket",
+    "Cell phone accessory store",
+    "Souvenir store"
+  ],
+  "phone": "0779542016",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMAVSD6NKDTKZQEZHZZV"
+}

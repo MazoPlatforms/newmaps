@@ -1,0 +1,65 @@
+{
+  "name": "Central Hardware",
+  "coordinates": {
+    "latitude": 6.5688568,
+    "longitude": 79.9661761
+  },
+  "address": "A2, 672 Galle Rd, Kalutara 12000",
+  "categories": [
+    "Hardware store",
+    "Cement supplier",
+    "Industrial supermarket",
+    "Lighting store",
+    "Paint store",
+    "Plumbing supply store",
+    "Roofing supply store"
+  ],
+  "phone": "0778040999",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11:45 AM",
+        "1:30–8:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ1EYBPSCX145DV10HZNW"
+}

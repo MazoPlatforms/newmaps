@@ -1,0 +1,58 @@
+{
+  "name": "Peoples Bank",
+  "coordinates": {
+    "latitude": 6.892193799999999,
+    "longitude": 80.5982792
+  },
+  "address": "VHRX+V8C, Hatton - Maskeliya - Dalhousie Rd, Hatton 22000",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0512222262",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5GPHYE1D621SJWMX1BPG"
+}

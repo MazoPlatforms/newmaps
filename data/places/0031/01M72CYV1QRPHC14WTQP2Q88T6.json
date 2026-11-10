@@ -1,0 +1,58 @@
+{
+  "name": "Cemex",
+  "coordinates": {
+    "latitude": 6.6797246999999995,
+    "longitude": 80.4060585
+  },
+  "address": "137 Main St, Ratnapura",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0452121930",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:35 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:35 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:35 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:35 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:35 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5:35 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5:35 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CYV1QRPHC14WTQP2Q88T6"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Room 73, STD Clinic, Teaching Hospital Badulla",
+  "coordinates": {
+    "latitude": 6.9911857,
+    "longitude": 81.05142099999999
+  },
+  "address": "Room, 73 Daya Gunasekara Mawatha, Badulla",
+  "categories": [
+    "Hospital department"
+  ],
+  "phone": "0552222578",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWG4MPF69EFZQSGP8H7N"
+}

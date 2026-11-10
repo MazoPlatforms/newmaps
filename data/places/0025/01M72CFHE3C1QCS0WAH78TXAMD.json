@@ -1,0 +1,58 @@
+{
+  "name": "Salon Blessing",
+  "coordinates": {
+    "latitude": 7.208238799999999,
+    "longitude": 79.8804445
+  },
+  "address": "6V5J+75W, Negombo",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0778370122",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFHE3C1QCS0WAH78TXAMD"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Teenage Salon",
+  "coordinates": {
+    "latitude": 6.6806443,
+    "longitude": 80.3987497
+  },
+  "address": "No 131/A/1, 1 Bandaranaike Mawatha, Ratnapura 70000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0761552626",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZ1XT6X7BCMQCCPTZ604B"
+}

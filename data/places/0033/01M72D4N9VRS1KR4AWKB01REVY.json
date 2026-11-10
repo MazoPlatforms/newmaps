@@ -1,0 +1,61 @@
+{
+  "name": "Nexa Erp",
+  "coordinates": {
+    "latitude": 9.6737538,
+    "longitude": 80.0218072
+  },
+  "address": "34 Amman Rd, Jaffna 40000",
+  "categories": [
+    "Computer software store",
+    "Computer hardware manufacturer",
+    "Software company"
+  ],
+  "phone": "0771115753",
+  "website": "https://nexa.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4N9VRS1KR4AWKB01REVY"
+}

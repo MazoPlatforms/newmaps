@@ -1,0 +1,58 @@
+{
+  "name": "Advanced Computer Technology",
+  "coordinates": {
+    "latitude": 6.7117106,
+    "longitude": 79.9076548
+  },
+  "address": "Bus Stand, 27 1st Floor, Panadura",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0770442113",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPRCVRV4RDK77C6NZ0AN"
+}

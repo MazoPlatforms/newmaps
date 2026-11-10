@@ -1,0 +1,58 @@
+{
+  "address": "109 Negombo Rd, Kurunegala 60000",
+  "name": "Brunch Cafe & Bakes",
+  "coordinates": {
+    "latitude": 7.4864188,
+    "longitude": 80.3568829
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0772802994",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72AFEM5RH05179R7BT4JEAY"
+}

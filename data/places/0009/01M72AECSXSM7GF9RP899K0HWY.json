@@ -1,0 +1,65 @@
+{
+  "address": "Supermarket, shopping complex No: 3A, Rajapaksha Broadway, Negombo Negombo Town, Town 11500",
+  "name": "Watch Point",
+  "coordinates": {
+    "latitude": 7.2094539,
+    "longitude": 79.84003469999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–7 AM",
+        "9:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–8:30 AM",
+        "9:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–8:30 AM",
+        "9:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–8:30 AM",
+        "9:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–8:30 AM",
+        "9:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–8:30 AM",
+        "9:30 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–9 AM",
+        "9:30 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0754230508",
+  "categories": [
+    "Watch store"
+  ],
+  "id": "01M72AECSXSM7GF9RP899K0HWY"
+}

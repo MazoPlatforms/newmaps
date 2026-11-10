@@ -1,0 +1,58 @@
+{
+  "name": "BMK Stores",
+  "coordinates": {
+    "latitude": 7.567937499999999,
+    "longitude": 80.4578125
+  },
+  "address": "Kurunegala",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0372259311",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMAKG4ST734DKT87QYQ3"
+}

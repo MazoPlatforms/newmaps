@@ -1,0 +1,59 @@
+{
+  "name": "Alli Company (PVT ) Ltd",
+  "coordinates": {
+    "latitude": 7.1732399,
+    "longitude": 80.12995409999999
+  },
+  "address": "100 Weerasurikanda Rd, Pasyala 11890",
+  "categories": [
+    "Food processing company"
+  ],
+  "phone": "0332285039",
+  "website": "http://www.allifood.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGSFPW14S7G786S626ZT7"
+}

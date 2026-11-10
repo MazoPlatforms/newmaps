@@ -1,0 +1,59 @@
+{
+  "name": "SA Sport",
+  "coordinates": {
+    "latitude": 6.737038,
+    "longitude": 79.9087548
+  },
+  "address": "22, 2 Jubilee Patumaga, Panadura 12500",
+  "categories": [
+    "Sports complex"
+  ],
+  "phone": "0776694040",
+  "website": "https://www.sasport.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK9945CDEK40ANT99V9J9"
+}

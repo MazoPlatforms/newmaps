@@ -1,0 +1,59 @@
+{
+  "name": "FairDeal",
+  "coordinates": {
+    "latitude": 6.88221,
+    "longitude": 79.93815819999999
+  },
+  "address": "41 Wickramasinghapura Rd, Sri Jayawardenepura Kotte 10120",
+  "categories": [
+    "Grocery store",
+    "Gourmet grocery store"
+  ],
+  "phone": "0778096016",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEN1QK1JWSTE212S8BVF"
+}

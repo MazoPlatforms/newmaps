@@ -1,0 +1,59 @@
+{
+  "name": "Premier Center",
+  "coordinates": {
+    "latitude": 6.8145299999999995,
+    "longitude": 79.89560379999999
+  },
+  "address": "40 Centre Rd, Moratuwa",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0766335555",
+  "website": "https://premiercenter.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATEGZPGHZ23GMVWEA43Y6"
+}

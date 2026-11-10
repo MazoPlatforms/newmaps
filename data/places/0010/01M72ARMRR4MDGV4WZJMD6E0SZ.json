@@ -1,0 +1,59 @@
+{
+  "name": "CARDRESS Motor Supply",
+  "coordinates": {
+    "latitude": 6.8239078,
+    "longitude": 79.8712962
+  },
+  "address": "11 Park Road, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto machine shop"
+  ],
+  "phone": "0767606888",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRR4MDGV4WZJMD6E0SZ"
+}

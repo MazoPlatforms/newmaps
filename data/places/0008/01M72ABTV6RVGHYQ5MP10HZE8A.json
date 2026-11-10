@@ -1,0 +1,59 @@
+{
+  "address": "321 Matara Rd, Galle 80000",
+  "name": "Baguette French Bakery & Café",
+  "coordinates": {
+    "latitude": 6.0336473,
+    "longitude": 80.2376986
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    }
+  ],
+  "website": "http://www.baguette.lk/",
+  "business_status": "OPEN",
+  "phone": "0771723234",
+  "categories": [
+    "Bakery"
+  ],
+  "id": "01M72ABTV6RVGHYQ5MP10HZE8A"
+}

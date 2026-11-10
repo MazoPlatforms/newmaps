@@ -1,0 +1,61 @@
+{
+  "name": "Singer Kegalle",
+  "coordinates": {
+    "latitude": 7.2536641,
+    "longitude": 80.3491008
+  },
+  "address": "377 Main Street, Kegalle 71000",
+  "categories": [
+    "Electronics store",
+    "Cell phone store",
+    "Mattress store"
+  ],
+  "phone": "0352231760",
+  "website": "http://www.singersl.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZRMGMVAH1431YQAKMD0W"
+}

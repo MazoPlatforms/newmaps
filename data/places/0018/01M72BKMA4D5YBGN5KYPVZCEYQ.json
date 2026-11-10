@@ -1,0 +1,58 @@
+{
+  "name": "Mini Mart",
+  "coordinates": {
+    "latitude": 7.4939699,
+    "longitude": 80.3677058
+  },
+  "address": "145 Kurunegala - Dambulla Rd, Kurunegala",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0771613493",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–11:55 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–11:55 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–11:55 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–11:55 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–11:55 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–11:55 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–11:55 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMA4D5YBGN5KYPVZCEYQ"
+}

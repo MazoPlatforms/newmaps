@@ -1,0 +1,59 @@
+{
+  "name": "Indika Saloon Welekade",
+  "coordinates": {
+    "latitude": 6.993474399999999,
+    "longitude": 81.05498039999999
+  },
+  "address": "Welekade market, Badulla 90000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0756202768",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–7 AM",
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXMWDEP1969YFK4X5JJNE"
+}

@@ -1,0 +1,59 @@
+{
+  "address": "No 364/1 Matara Rd, Galle 80000",
+  "name": "Intocare Service Station",
+  "coordinates": {
+    "latitude": 6.0343445,
+    "longitude": 80.2344609
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0761365540",
+  "categories": [
+    "Car wash",
+    "Home goods store"
+  ],
+  "id": "01M72AC7AGH70VTJY5NEEETAT8"
+}

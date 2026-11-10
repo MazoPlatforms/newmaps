@@ -1,0 +1,59 @@
+{
+  "name": "Sri Lanka Medical Library",
+  "coordinates": {
+    "latitude": 6.916036,
+    "longitude": 79.8688181
+  },
+  "address": "6 Wijerama Mawatha, Colombo 00700",
+  "categories": [
+    "Library"
+  ],
+  "phone": "0112695188",
+  "website": "http://medicallibrary.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BWM7X1ZZ6J0P0MVBYA"
+}

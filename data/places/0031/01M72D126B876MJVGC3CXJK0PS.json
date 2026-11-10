@@ -1,0 +1,58 @@
+{
+  "name": "Royal Park",
+  "coordinates": {
+    "latitude": 7.487512199999999,
+    "longitude": 80.18765429999999
+  },
+  "address": "F5QQ+232, Kurunegala",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0372247768",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D126B876MJVGC3CXJK0PS"
+}

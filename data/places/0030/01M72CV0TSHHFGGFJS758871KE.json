@@ -1,0 +1,58 @@
+{
+  "name": "Darshana Electronics Center",
+  "coordinates": {
+    "latitude": 5.9744668,
+    "longitude": 80.42924769999999
+  },
+  "address": "21, New shopping complex, 1st floor, Weligama",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0412254762",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CV0TSHHFGGFJS758871KE"
+}

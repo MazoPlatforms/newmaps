@@ -1,0 +1,59 @@
+{
+  "name": "Hameediya Tea Room & Bake House",
+  "coordinates": {
+    "latitude": 7.392787299999999,
+    "longitude": 81.8351027
+  },
+  "address": "No.4, No.4, A4, Sainthamaruthu 32300",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0777645380",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–12 PM",
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BYFBQ1D51MVNZFMGP60EN"
+}

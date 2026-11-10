@@ -1,0 +1,59 @@
+{
+  "name": "Cafe De - රසහල",
+  "coordinates": {
+    "latitude": 6.8419275,
+    "longitude": 81.00425109999999
+  },
+  "address": "Bindunuwewa, Bandarawela",
+  "categories": [
+    "Coffee shop",
+    "Juice shop"
+  ],
+  "phone": "0761136006",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFFKXHD3P3J981CEPTW5Z"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Dr.Anbudhaasan",
+  "coordinates": {
+    "latitude": 7.7141677,
+    "longitude": 81.6964157
+  },
+  "address": "50 St Anthony`s St, Batticaloa",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0714402193",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–1:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BYXKFDVS41CDP0AZ9AZJH"
+}

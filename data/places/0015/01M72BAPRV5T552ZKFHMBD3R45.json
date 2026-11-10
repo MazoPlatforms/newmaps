@@ -1,0 +1,58 @@
+{
+  "name": "La Felina Cafe And Restaurants",
+  "coordinates": {
+    "latitude": 5.973704,
+    "longitude": 80.42692219999999
+  },
+  "address": "No. 261 Main Street, Weligama 81700",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0761490990",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPRV5T552ZKFHMBD3R45"
+}

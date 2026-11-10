@@ -1,0 +1,59 @@
+{
+  "name": "Apeksha Hospital",
+  "coordinates": {
+    "latitude": 6.8382175,
+    "longitude": 79.92036019999999
+  },
+  "address": "Maharagama 10280",
+  "categories": [
+    "Government hospital"
+  ],
+  "phone": "0112850253",
+  "website": "http://www.ncisl.health.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3T5FPQ641FMG2T2QQ1"
+}

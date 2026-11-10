@@ -1,0 +1,59 @@
+{
+  "name": "Best Beta Aquarium",
+  "coordinates": {
+    "latitude": 7.1448718,
+    "longitude": 80.03532849999999
+  },
+  "address": "194, Magalegoda, 141 Weerakoon Watta, Veyangoda",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0766433355",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–6 AM",
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1 PM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHA1CWZ6VGERK14NSJZTP"
+}

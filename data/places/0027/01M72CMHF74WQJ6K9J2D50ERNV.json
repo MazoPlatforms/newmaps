@@ -1,0 +1,58 @@
+{
+  "name": "Ifix Computer Repairs",
+  "coordinates": {
+    "latitude": 7.288626799999999,
+    "longitude": 80.6289151
+  },
+  "address": "Kandy 20000",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0767269703",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHF74WQJ6K9J2D50ERNV"
+}

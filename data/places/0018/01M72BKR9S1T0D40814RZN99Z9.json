@@ -1,0 +1,58 @@
+{
+  "name": "Healthcare Medical Centre",
+  "coordinates": {
+    "latitude": 7.475208599999999,
+    "longitude": 80.38777859999999
+  },
+  "address": "37/1 Hijra Mawatha, Kurunegala",
+  "categories": [
+    "Doctor"
+  ],
+  "phone": "0777350308",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKR9S1T0D40814RZN99Z9"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "MEDICARE Medical Center",
+  "coordinates": {
+    "latitude": 6.704272,
+    "longitude": 80.3861507
+  },
+  "address": "In front of heighland store, Usaviya Junction, Ratnapura 70000",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0742664449",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30–8 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30–8 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30–8 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30–8 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–8 AM",
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–10:30 AM",
+        "4:30–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHA0MGKCEK01NPXP31MB9"
+}

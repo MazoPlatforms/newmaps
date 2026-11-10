@@ -1,0 +1,59 @@
+{
+  "name": "Lakshmi Salon",
+  "coordinates": {
+    "latitude": 6.7139671,
+    "longitude": 79.90676789999999
+  },
+  "address": "1/1, No: 74 Janapriya Mawatha, Panadura",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0382234422",
+  "website": "https://www.facebook.com/Lakshmi-salon-459566194242550/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK424906TTS2RW1440HAH"
+}

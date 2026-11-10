@@ -1,0 +1,59 @@
+{
+  "name": "Doluwa Public Library",
+  "coordinates": {
+    "latitude": 7.184514699999999,
+    "longitude": 80.6082322
+  },
+  "address": "5JM5+R72, Doluwa 20532",
+  "categories": [
+    "Public library"
+  ],
+  "phone": "0812415208",
+  "website": "http://doluwa.dlp.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D126EG3SH9P87TD82C710"
+}

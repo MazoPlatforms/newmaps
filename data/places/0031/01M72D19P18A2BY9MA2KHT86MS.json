@@ -1,0 +1,58 @@
+{
+  "name": "Singhagiri",
+  "coordinates": {
+    "latitude": 7.4705517,
+    "longitude": 80.0439744
+  },
+  "address": "19 Hettipola Rd, Kuliyapitiya 60400",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0773913416",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D19P18A2BY9MA2KHT86MS"
+}

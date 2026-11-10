@@ -1,0 +1,60 @@
+{
+  "name": "Saheed Sons",
+  "coordinates": {
+    "latitude": 5.945686299999999,
+    "longitude": 80.550246
+  },
+  "address": "53 Old Tangalle Rd, Matara 81000",
+  "categories": [
+    "Hardware store",
+    "Paint store",
+    "Home improvement store"
+  ],
+  "phone": "0412222863",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTHBCKR94F6E6VVNYY61A"
+}

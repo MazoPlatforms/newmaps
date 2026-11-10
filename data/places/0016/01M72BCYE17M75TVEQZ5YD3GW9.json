@@ -1,0 +1,59 @@
+{
+  "name": "Pan Asia Bank",
+  "coordinates": {
+    "latitude": 6.0276327,
+    "longitude": 80.7941256
+  },
+  "address": "Annapitiya Road, Tangalle 82200",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0474929626",
+  "website": "https://www.pabcbank.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BCYE17M75TVEQZ5YD3GW9"
+}

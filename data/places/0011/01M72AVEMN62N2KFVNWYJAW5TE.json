@@ -1,0 +1,59 @@
+{
+  "name": "Greens Express",
+  "coordinates": {
+    "latitude": 6.883978,
+    "longitude": 79.902045
+  },
+  "address": "370 Kotte Rd, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0707661666",
+  "website": "https://www.greens.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVEMN62N2KFVNWYJAW5TE"
+}

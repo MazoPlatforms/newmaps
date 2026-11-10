@@ -1,0 +1,59 @@
+{
+  "name": "Technical College - Bandarawela",
+  "coordinates": {
+    "latitude": 6.8498486,
+    "longitude": 80.9772168
+  },
+  "address": "Wewathenna, Bandarawela",
+  "categories": [
+    "Vocational school",
+    "Trade school"
+  ],
+  "phone": "0572233754",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFX118M7ZKR8NGAFXZ3YC"
+}

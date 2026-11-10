@@ -1,0 +1,58 @@
+{
+  "name": "CIB Shopping Centre - Gampaha",
+  "coordinates": {
+    "latitude": 7.0919282,
+    "longitude": 79.9952424
+  },
+  "address": "32M5+HWR, 85 Colombo Rd, Gampaha",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0332231812",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFZFMN1JK1PXPNXCX4T8N"
+}

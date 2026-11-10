@@ -1,0 +1,58 @@
+{
+  "address": "30 Greens Rd, Negombo 11540",
+  "name": "National Bake House",
+  "coordinates": {
+    "latitude": 7.209956,
+    "longitude": 79.83948989999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0714989528",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72ADZ5N87QR0VBZTXKEKTAW"
+}

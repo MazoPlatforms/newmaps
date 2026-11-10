@@ -1,0 +1,60 @@
+{
+  "name": "Mindila Bake House",
+  "coordinates": {
+    "latitude": 6.8625567,
+    "longitude": 81.34323719999999
+  },
+  "address": "35 Mahanama Road, Monaragala 91000",
+  "categories": [
+    "Bakery",
+    "Family restaurant"
+  ],
+  "phone": "0777254449",
+  "website": "https://mindilabakehouse.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BECXTFFFJAEBYQTZVV3KP"
+}

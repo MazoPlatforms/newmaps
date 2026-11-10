@@ -1,0 +1,58 @@
+{
+  "address": "1 Nagasthenna Rd, Kandy 20000",
+  "name": "Coffee Dose Kandy",
+  "coordinates": {
+    "latitude": 7.2863112999999995,
+    "longitude": 80.62928269999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0755541729",
+  "categories": [
+    "Coffee shop"
+  ],
+  "id": "01M72AA6JRASZBW0Y1EA2QGWSW"
+}

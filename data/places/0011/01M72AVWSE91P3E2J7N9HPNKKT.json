@@ -1,0 +1,61 @@
+{
+  "name": "Institute Of Alexandria",
+  "coordinates": {
+    "latitude": 6.9070567,
+    "longitude": 79.9290153
+  },
+  "address": "262 B240, Sri Jayawardenepura Kotte 10120",
+  "categories": [
+    "Private educational institution",
+    "Institute of technology",
+    "Private tutor",
+    "Tutoring service"
+  ],
+  "phone": "0774109023",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3:30–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AVWSE91P3E2J7N9HPNKKT"
+}

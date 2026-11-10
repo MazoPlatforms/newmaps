@@ -1,0 +1,61 @@
+{
+  "name": "Union Assurance-Nuwara Eliya",
+  "coordinates": {
+    "latitude": 6.9730047,
+    "longitude": 80.7675679
+  },
+  "address": "2nd Floor, No 36, Park Rd, Nuwara Eliya 22200",
+  "categories": [
+    "Insurance company",
+    "Health insurance agency",
+    "Life insurance agency"
+  ],
+  "phone": "0522223341",
+  "website": "http://www.unionassurance.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B4MZPP60BVVA3QRZRQXJC"
+}

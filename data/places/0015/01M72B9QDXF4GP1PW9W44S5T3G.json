@@ -1,0 +1,60 @@
+{
+  "name": "MindSpark Institute",
+  "coordinates": {
+    "latitude": 5.9534959,
+    "longitude": 80.5439961
+  },
+  "address": "No.1 School Lane, Rahula Rd, Matara 81000",
+  "categories": [
+    "Education center",
+    "Educational consultant",
+    "Educational institution"
+  ],
+  "phone": "0743806018",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9QDXF4GP1PW9W44S5T3G"
+}

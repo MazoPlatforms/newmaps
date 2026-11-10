@@ -1,0 +1,58 @@
+{
+  "name": "Victory Pharmacy",
+  "coordinates": {
+    "latitude": 6.7791321,
+    "longitude": 79.88320879999999
+  },
+  "address": "QVHM+M74, Moratuwa 10400",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0773030411",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASR35NZC1ZMJ60MZE7TH2"
+}

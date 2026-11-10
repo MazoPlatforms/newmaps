@@ -1,0 +1,58 @@
+{
+  "name": "Sky Technology",
+  "coordinates": {
+    "latitude": 7.9979152,
+    "longitude": 80.60624279999999
+  },
+  "address": "Horapola road,maha elagamuwa kekirawa, 50100",
+  "categories": [
+    "Computer service"
+  ],
+  "phone": "0772740189",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3X64ZC066RA7KCN2DYJH"
+}

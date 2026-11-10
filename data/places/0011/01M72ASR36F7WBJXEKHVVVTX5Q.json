@@ -1,0 +1,58 @@
+{
+  "name": "Kristal Pharmacy",
+  "coordinates": {
+    "latitude": 6.809584699999999,
+    "longitude": 79.8826249
+  },
+  "address": "No. 1, 11 Kaldemulla Rd, Moratuwa 11330",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0112610371",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASR36F7WBJXEKHVVVTX5Q"
+}

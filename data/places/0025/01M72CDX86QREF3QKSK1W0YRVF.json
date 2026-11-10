@@ -1,0 +1,58 @@
+{
+  "name": "Weragala Enterprises",
+  "coordinates": {
+    "latitude": 6.8905119,
+    "longitude": 79.9288675
+  },
+  "address": "No 01 Main Street, Battaramulla 10120",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0712974465",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDX86QREF3QKSK1W0YRVF"
+}

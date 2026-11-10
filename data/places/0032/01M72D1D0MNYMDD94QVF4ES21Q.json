@@ -1,0 +1,59 @@
+{
+  "name": "Kuliyapitiya Hardware",
+  "coordinates": {
+    "latitude": 7.4689073,
+    "longitude": 80.0384461
+  },
+  "address": "208 Main street, Kuliyapitiya 60200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0372282923",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "1:30–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1D0MNYMDD94QVF4ES21Q"
+}

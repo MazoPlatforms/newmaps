@@ -1,0 +1,58 @@
+{
+  "name": "Rajeenas Medical Center",
+  "coordinates": {
+    "latitude": 8.036458,
+    "longitude": 79.8260421
+  },
+  "address": "5, 1 J P Ln, Puttalam 61300",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0714461263",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNQBVJT57CR90E74H2GSW"
+}

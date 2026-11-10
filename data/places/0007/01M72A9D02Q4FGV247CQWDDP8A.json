@@ -1,0 +1,58 @@
+{
+  "address": "27 Havelock Rd, Colombo 00500",
+  "name": "Branas Supermarket - Havelock Branch",
+  "coordinates": {
+    "latitude": 6.8951169,
+    "longitude": 79.8610799
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777133363",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D02Q4FGV247CQWDDP8A"
+}

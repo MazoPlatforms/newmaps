@@ -1,0 +1,58 @@
+{
+  "name": "Gamage Grocery",
+  "coordinates": {
+    "latitude": 6.7749399,
+    "longitude": 79.8822852
+  },
+  "address": "18 Puranappu Raja Mawatha, Moratuwa 10400",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0756853004",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASKY94FNDY7Z97QN0495E"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "The Barber King",
+  "coordinates": {
+    "latitude": 7.233662499999999,
+    "longitude": 80.34908209999999
+  },
+  "address": "Kegalle 72000",
+  "categories": [
+    "Barber shop",
+    "Tattoo shop"
+  ],
+  "phone": "0743400440",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZWWHSX7GFGYQZ03J54B4"
+}

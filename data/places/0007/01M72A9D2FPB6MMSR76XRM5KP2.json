@@ -1,0 +1,59 @@
+{
+  "address": "305 Vauxhall St, Colombo 00200",
+  "name": "Harrow House",
+  "coordinates": {
+    "latitude": 6.9205565,
+    "longitude": 79.8605779
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://harrowhouse.lk/",
+  "business_status": "OPEN",
+  "phone": "0114693053",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D2FPB6MMSR76XRM5KP2"
+}

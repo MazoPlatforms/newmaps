@@ -1,0 +1,58 @@
+{
+  "name": "Shyamali Auto Care",
+  "coordinates": {
+    "latitude": 7.0592567,
+    "longitude": 79.9676932
+  },
+  "address": "3X59+P34, Ganemulla",
+  "categories": [
+    "Repair service"
+  ],
+  "phone": "0719982707",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BA89Q60SZK4X3DKGZMNSK"
+}

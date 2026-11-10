@@ -1,0 +1,60 @@
+{
+  "name": "Elpiti Medical Hospital (PVT) Ltd",
+  "coordinates": {
+    "latitude": 6.292164199999999,
+    "longitude": 80.1635621
+  },
+  "address": "103A Main St, Elpitiya",
+  "categories": [
+    "Pharmacy",
+    "Grocery store",
+    "Hospital"
+  ],
+  "phone": "0912290467",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B86THVTE1AGXVE060H40Q"
+}

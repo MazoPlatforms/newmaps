@@ -1,0 +1,58 @@
+{
+  "name": "Samanthi Stories",
+  "coordinates": {
+    "latitude": 6.7984168,
+    "longitude": 79.8744787
+  },
+  "address": "85 Station Rd, Moratuwa 10400",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0752687199",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASKXS6XFHKVHXE67H86E7"
+}

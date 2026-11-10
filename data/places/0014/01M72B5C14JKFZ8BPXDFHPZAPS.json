@@ -1,0 +1,58 @@
+{
+  "name": "Medicare Medical Center",
+  "coordinates": {
+    "latitude": 6.9129644,
+    "longitude": 80.5890086
+  },
+  "address": "no,755, 4 kudagama bazar, Hatton 22000",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0779762203",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "3:30–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3:30–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3:30–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3:30–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "1:30–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "1:30–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5C14JKFZ8BPXDFHPZAPS"
+}

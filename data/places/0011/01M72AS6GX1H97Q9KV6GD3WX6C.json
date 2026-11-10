@@ -1,0 +1,62 @@
+{
+  "name": "OMNI Restaurant",
+  "coordinates": {
+    "latitude": 6.853870799999999,
+    "longitude": 79.9187975
+  },
+  "address": "52 Old Maharagama Rd, Maharagama 10280",
+  "categories": [
+    "Bakery",
+    "Restaurant",
+    "Chinese restaurant",
+    "Indian restaurant",
+    "Italian restaurant"
+  ],
+  "phone": "0702066666",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6GX1H97Q9KV6GD3WX6C"
+}

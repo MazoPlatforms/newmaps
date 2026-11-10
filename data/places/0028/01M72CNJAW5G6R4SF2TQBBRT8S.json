@@ -1,0 +1,59 @@
+{
+  "name": "Baby Land",
+  "coordinates": {
+    "latitude": 7.469326,
+    "longitude": 80.623943
+  },
+  "address": "130 E, Main Street,, Matale 21000",
+  "categories": [
+    "Baby clothing store",
+    "Baby store"
+  ],
+  "phone": "0779961699",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:45 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–2:45 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNJAW5G6R4SF2TQBBRT8S"
+}

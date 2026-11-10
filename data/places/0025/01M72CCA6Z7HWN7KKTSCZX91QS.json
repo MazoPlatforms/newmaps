@@ -1,0 +1,59 @@
+{
+  "name": "Premium Gallery",
+  "coordinates": {
+    "latitude": 6.742334,
+    "longitude": 79.9025187
+  },
+  "address": "158 Old Galle Rd, Panadura 12500",
+  "categories": [
+    "Bathroom supply store"
+  ],
+  "phone": "0382256638",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCA6Z7HWN7KKTSCZX91QS"
+}

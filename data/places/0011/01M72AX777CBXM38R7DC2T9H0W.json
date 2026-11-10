@@ -1,0 +1,58 @@
+{
+  "name": "MediX Medical Center",
+  "coordinates": {
+    "latitude": 7.2364557,
+    "longitude": 79.8450769
+  },
+  "address": "no 36 Rani Mawatha, Negombo",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0716161392",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:15–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:15–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:15–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:15–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:15–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:15–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AX777CBXM38R7DC2T9H0W"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "SUWA PIYASA, Family Health Care Center",
+  "coordinates": {
+    "latitude": 6.726128,
+    "longitude": 79.9156296
+  },
+  "address": "134 Panadura - Hirana Road, Panadura 12500",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0773662844",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8–10 AM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8–10 AM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8–11 AM",
+        "4:30–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08NDMRW5YXE8MRNKS87B"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Gamage Mini Mart And Pharmacy",
+  "coordinates": {
+    "latitude": 6.6815489999999995,
+    "longitude": 80.4096089
+  },
+  "address": "372 Main St, Ratnapura 70000",
+  "categories": [
+    "Grocery store",
+    "Pharmacy"
+  ],
+  "phone": "0764294528",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BH4V1F1DDSBPCJSZN0BGP"
+}

@@ -1,0 +1,59 @@
+{
+  "address": "Beliyakanda, 47 / A Kalawewa - Galewela Rd, Galewela 21200",
+  "name": "The Greens Bakery & Cafe",
+  "coordinates": {
+    "latitude": 7.8069697,
+    "longitude": 80.56956629999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0702808746",
+  "categories": [
+    "Bakery",
+    "Cafe"
+  ],
+  "id": "01M72AFENVYE9ZJW70KJPTQ2AX"
+}

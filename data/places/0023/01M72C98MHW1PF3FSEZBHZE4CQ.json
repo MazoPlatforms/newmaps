@@ -1,0 +1,58 @@
+{
+  "name": "Salon Baber",
+  "coordinates": {
+    "latitude": 6.857208,
+    "longitude": 79.9079659
+  },
+  "address": "No 14 1 4, Nugegoda 10250",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0775725563",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MHW1PF3FSEZBHZE4CQ"
+}

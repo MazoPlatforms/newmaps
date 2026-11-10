@@ -1,0 +1,59 @@
+{
+  "name": "Chris Medical Stores",
+  "coordinates": {
+    "latitude": 7.2497628999999995,
+    "longitude": 80.3434163
+  },
+  "address": "7.250201, 80.343290",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0352232629",
+  "website": "https://chris-medical-stores.odoo.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJADMF2ACAGZA6ZKVRSGW"
+}

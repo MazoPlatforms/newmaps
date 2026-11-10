@@ -1,0 +1,58 @@
+{
+  "name": "Safe Medi Care",
+  "coordinates": {
+    "latitude": 6.7478321999999995,
+    "longitude": 79.9008996
+  },
+  "address": "82 Old Galle Rd, Panadura 10400",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0777703488",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08NE1S5MP3N2XJV8M248"
+}

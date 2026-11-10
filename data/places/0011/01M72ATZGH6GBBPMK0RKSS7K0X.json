@@ -1,0 +1,60 @@
+{
+  "name": "The Cake Factory",
+  "coordinates": {
+    "latitude": 6.909679,
+    "longitude": 79.898883
+  },
+  "address": "25 Buthgamuwa Rd, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Cake shop",
+    "Cafe"
+  ],
+  "phone": "0777382510",
+  "website": "http://www.cakefactory.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGH6GBBPMK0RKSS7K0X"
+}

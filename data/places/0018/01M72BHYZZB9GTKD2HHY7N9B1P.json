@@ -1,0 +1,58 @@
+{
+  "name": "Deshaka Restaurant & Bakery",
+  "coordinates": {
+    "latitude": 7.329053999999999,
+    "longitude": 80.1220082
+  },
+  "address": "Negombo-Kurunegala Rd, Giriulla",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0777947261",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:45 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZZB9GTKD2HHY7N9B1P"
+}

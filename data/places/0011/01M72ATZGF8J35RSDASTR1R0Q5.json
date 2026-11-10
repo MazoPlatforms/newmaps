@@ -1,0 +1,58 @@
+{
+  "name": "Upper Crust Bakery And Cafe",
+  "coordinates": {
+    "latitude": 6.875343699999999,
+    "longitude": 79.89182799999999
+  },
+  "address": "01,Pagoda Road, Nugegoda, B345, Nugegoda",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0771560917",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGF8J35RSDASTR1R0Q5"
+}

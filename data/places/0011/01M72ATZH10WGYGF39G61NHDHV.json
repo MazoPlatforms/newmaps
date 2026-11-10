@@ -1,0 +1,65 @@
+{
+  "name": "Cocos Restaurant",
+  "coordinates": {
+    "latitude": 6.9047193,
+    "longitude": 79.9531851
+  },
+  "address": "WX33+V7M, New Kandy Rd, Sri Jayawardenepura Kotte",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0112054208",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–3 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–3 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–3 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–3 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–3 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–3 PM",
+        "6–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–3 PM",
+        "6–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZH10WGYGF39G61NHDHV"
+}

@@ -1,0 +1,59 @@
+{
+  "address": "St. Mary's Road, Ja-Ela 11350",
+  "name": "Cynthiya's Bake House",
+  "coordinates": {
+    "latitude": 7.079372299999999,
+    "longitude": 79.8939805
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777845978",
+  "categories": [
+    "Bakery",
+    "Cafe"
+  ],
+  "id": "01M72ADZ7WZTA8Y7EV4Z70CR32"
+}

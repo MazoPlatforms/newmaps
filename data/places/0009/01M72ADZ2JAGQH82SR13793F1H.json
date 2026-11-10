@@ -1,0 +1,58 @@
+{
+  "address": "20 Poruthota Road, Negombo 11500",
+  "name": "Cairo Cafe",
+  "coordinates": {
+    "latitude": 7.237957,
+    "longitude": 79.8415955
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–1:30 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–1:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0741070056",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72ADZ2JAGQH82SR13793F1H"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "WiNing Discus",
+  "coordinates": {
+    "latitude": 6.9926357999999995,
+    "longitude": 79.9545747
+  },
+  "address": "458/1A, Pahala Biyanwila, Mankada Road, Vimukthi Pl, Kadawatha 11850",
+  "categories": [
+    "Fish farm",
+    "Wholesaler"
+  ],
+  "phone": "0775080881",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–7:30 AM",
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHA1DDCEAWG6QNY9Z3HXA"
+}

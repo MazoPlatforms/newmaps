@@ -1,0 +1,65 @@
+{
+  "name": "Senon",
+  "coordinates": {
+    "latitude": 6.5024682,
+    "longitude": 80.0370956
+  },
+  "categories": [
+    "Computer store",
+    "Cell phone accessory store",
+    "Computer software store",
+    "Cell phone store",
+    "Service establishment",
+    "Mobile phone repair shop",
+    "Phone repair service"
+  ],
+  "phone": "0772454244",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–7:30 AM",
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–7:30 AM",
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CSHHWW1D1G3HT3GMTGC0X"
+}

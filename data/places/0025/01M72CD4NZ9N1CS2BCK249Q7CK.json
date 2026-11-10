@@ -1,0 +1,59 @@
+{
+  "name": "CIB Mega City Shopping Centre",
+  "coordinates": {
+    "latitude": 6.8450280999999995,
+    "longitude": 79.9310125
+  },
+  "address": "122 Avissawella Rd, Maharagama 10280",
+  "categories": [
+    "Clothing store",
+    "Shopping mall"
+  ],
+  "phone": "0112089628",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CD4NZ9N1CS2BCK249Q7CK"
+}

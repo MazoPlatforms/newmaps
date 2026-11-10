@@ -1,0 +1,58 @@
+{
+  "address": "157 Sri Kathiresan St, Colombo 01300",
+  "name": "Murugans Indian Grocery",
+  "coordinates": {
+    "latitude": 6.9424322,
+    "longitude": 79.85520149999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112333555",
+  "categories": [
+    "Store"
+  ],
+  "id": "01M72A9D21H2MTEGRWCAAE4D16"
+}

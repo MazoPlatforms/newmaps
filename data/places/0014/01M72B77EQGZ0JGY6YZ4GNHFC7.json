@@ -1,0 +1,59 @@
+{
+  "name": "Cafe De Paris Hikkaduwa",
+  "coordinates": {
+    "latitude": 6.1366054,
+    "longitude": 80.1011201
+  },
+  "address": "No. 20, Wawulagoda 1st Cross Road, Sarath Goonawardana Mawatha, Hikkaduwa 80240",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0764865053",
+  "website": "https://cafedeparishikkaduwa.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77EQGZ0JGY6YZ4GNHFC7"
+}

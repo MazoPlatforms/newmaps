@@ -1,0 +1,58 @@
+{
+  "name": "Eclipse International",
+  "coordinates": {
+    "latitude": 6.069482799999999,
+    "longitude": 80.2302101
+  },
+  "address": "Bogahavella Road, Galle 80000",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0771252303",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6MMDMWFZ7X36DVDPJDWR"
+}

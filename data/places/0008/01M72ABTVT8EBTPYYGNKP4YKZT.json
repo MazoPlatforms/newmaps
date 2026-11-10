@@ -1,0 +1,59 @@
+{
+  "address": "65 Leyn Baan St, Galle 80000",
+  "name": "AQUA Pizza",
+  "coordinates": {
+    "latitude": 6.025676,
+    "longitude": 80.21899499999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10 PM"
+      ]
+    }
+  ],
+  "website": "https://www.aquapizzeria.com/",
+  "business_status": "OPEN",
+  "phone": "0762804769",
+  "categories": [
+    "Pizza restaurant"
+  ],
+  "id": "01M72ABTVT8EBTPYYGNKP4YKZT"
+}

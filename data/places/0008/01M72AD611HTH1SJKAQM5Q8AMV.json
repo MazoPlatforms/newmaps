@@ -1,0 +1,58 @@
+{
+  "address": "204,SIR PON, Ramanathan Rd, Jaffna",
+  "name": "Saravana Super Market",
+  "coordinates": {
+    "latitude": 9.6830307,
+    "longitude": 80.0227534
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 PM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0759912055",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AD611HTH1SJKAQM5Q8AMV"
+}

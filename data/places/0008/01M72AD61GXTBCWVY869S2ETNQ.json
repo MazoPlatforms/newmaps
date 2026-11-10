@@ -1,0 +1,58 @@
+{
+  "address": "69 Palali Rd, Jaffna",
+  "name": "திருநெல்வேலி சந்தை, Vegetable Market",
+  "coordinates": {
+    "latitude": 9.688817,
+    "longitude": 80.0280794
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Farmers' market",
+    "Seafood market"
+  ],
+  "id": "01M72AD61GXTBCWVY869S2ETNQ"
+}

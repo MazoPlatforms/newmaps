@@ -1,0 +1,59 @@
+{
+  "name": "Techtrove",
+  "coordinates": {
+    "latitude": 6.848425499999999,
+    "longitude": 79.86615069999999
+  },
+  "address": "103 Galle Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0771531147",
+  "website": "https://techtrove.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAMJEKENQN7M1V1VXW33M"
+}

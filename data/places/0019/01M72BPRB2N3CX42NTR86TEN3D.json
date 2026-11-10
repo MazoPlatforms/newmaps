@@ -1,0 +1,59 @@
+{
+  "name": "Garden Cafe",
+  "coordinates": {
+    "latitude": 8.3233233,
+    "longitude": 80.4002548
+  },
+  "address": "562/F Udaya Mawatha, Anuradhapura 50000",
+  "categories": [
+    "Sri Lankan restaurant",
+    "Food court"
+  ],
+  "phone": "0254925925",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRB2N3CX42NTR86TEN3D"
+}

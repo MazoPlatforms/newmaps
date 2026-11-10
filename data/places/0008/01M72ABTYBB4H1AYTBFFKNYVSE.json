@@ -1,0 +1,58 @@
+{
+  "address": "Galle",
+  "name": "Yapa Bakery , Kaduruduwa",
+  "coordinates": {
+    "latitude": 6.0379679,
+    "longitude": 80.2533169
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0715517151",
+  "categories": [
+    "Bakery"
+  ],
+  "id": "01M72ABTYBB4H1AYTBFFKNYVSE"
+}

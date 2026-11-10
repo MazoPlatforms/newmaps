@@ -1,0 +1,58 @@
+{
+  "name": "Papps Cakes",
+  "coordinates": {
+    "latitude": 6.9963695999999995,
+    "longitude": 81.0570615
+  },
+  "address": "97/2 Mahiyangana Rd, Badulla 90000",
+  "categories": [
+    "Cake shop"
+  ],
+  "phone": "0776313449",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BECXJ3AC9FFZDXGGGRR93"
+}

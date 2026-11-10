@@ -1,0 +1,58 @@
+{
+  "name": "ORA 4 Cafe And Restaurant",
+  "coordinates": {
+    "latitude": 6.8947169,
+    "longitude": 79.8884815
+  },
+  "address": "11 Kirimandala Mawatha, Sri Jayawardenepura Kotte 11222",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0764146314",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATZGBVVR9V3HNW5CPKV79"
+}

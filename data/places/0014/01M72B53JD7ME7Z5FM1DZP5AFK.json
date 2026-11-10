@@ -1,0 +1,60 @@
+{
+  "name": "Globe Automobile Engineers",
+  "coordinates": {
+    "latitude": 6.9724077,
+    "longitude": 80.76640569999999
+  },
+  "address": "77 Queen Elizabeth Dr, Nuwara Eliya 22200",
+  "categories": [
+    "Auto repair shop",
+    "Auto air conditioning service",
+    "Auto machine shop"
+  ],
+  "phone": "0775006079",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B53JD7ME7Z5FM1DZP5AFK"
+}

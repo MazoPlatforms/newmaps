@@ -1,0 +1,59 @@
+{
+  "name": "Princess Beauty Centre",
+  "coordinates": {
+    "latitude": 8.743027,
+    "longitude": 80.4897124
+  },
+  "address": "Vavuniya 43000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0770580532",
+  "website": "http://princessbeauty.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5MNSNZ21HSBW7F537MD6"
+}

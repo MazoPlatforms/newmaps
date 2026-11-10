@@ -1,0 +1,58 @@
+{
+  "name": "Macaw Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 7.4736761,
+    "longitude": 80.62451039999999
+  },
+  "address": "2c Godapola Rd, Matale",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0772622151",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N3E6JCHYF5NK1430GD1"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Pro Auto Park",
+  "coordinates": {
+    "latitude": 8.728440899999999,
+    "longitude": 80.48884629999999
+  },
+  "address": "214 G, A9 Road, A9, Vavuniya",
+  "categories": [
+    "Electric vehicle charging station"
+  ],
+  "phone": "0777123450",
+  "website": "http://www.proautopark.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWR1R3YD2J70GJFDXNHAJ"
+}

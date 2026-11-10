@@ -1,0 +1,59 @@
+{
+  "name": "Dewalegama Medical Center",
+  "coordinates": {
+    "latitude": 7.285838399999999,
+    "longitude": 80.3220333
+  },
+  "address": "78PC+8RM, Dewalegama Kegalle, Devalegama",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0716510007",
+  "website": "https://dewalegamamc.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:15–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:15–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:15–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:15–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:15–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:15–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJADR8GB87DNGA4W6085Y"
+}

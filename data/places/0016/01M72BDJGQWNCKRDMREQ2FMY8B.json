@@ -1,0 +1,61 @@
+{
+  "name": "Sleek Spoon Restaurant Ella",
+  "coordinates": {
+    "latitude": 6.8732997,
+    "longitude": 81.0462901
+  },
+  "address": "Wemullahena, Ella 90090",
+  "categories": [
+    "Sri Lankan restaurant",
+    "Diner",
+    "Fine dining restaurant"
+  ],
+  "phone": "0705219109",
+  "website": "http://sleekspoonwebsite.vercel.app/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BDJGQWNCKRDMREQ2FMY8B"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Vinsuva Pharmacy",
+  "coordinates": {
+    "latitude": 7.1226866,
+    "longitude": 80.0214998
+  },
+  "address": "42FC+3HH, Bemmulla",
+  "categories": [
+    "Doctor"
+  ],
+  "phone": "0774139391",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGCCJSYPKX6V6NSR1P1E"
+}

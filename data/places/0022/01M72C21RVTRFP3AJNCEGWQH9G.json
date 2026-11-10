@@ -1,0 +1,58 @@
+{
+  "name": "Ask Supermarket",
+  "coordinates": {
+    "latitude": 6.82998,
+    "longitude": 81.8275317
+  },
+  "address": "RRHH+X2V, Pasarichanai pottuvil, Arugam Bay",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0758778739",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C21RVTRFP3AJNCEGWQH9G"
+}

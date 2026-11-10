@@ -1,0 +1,58 @@
+{
+  "name": "Bilaal Pharmacy",
+  "coordinates": {
+    "latitude": 8.4699159,
+    "longitude": 80.51247839999999
+  },
+  "address": "FG96+XX9, A9 road, Anuradhapura",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0718653111",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ9XH4BHRA5X5KH26EN1D"
+}

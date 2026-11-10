@@ -1,0 +1,58 @@
+{
+  "name": "Excel Fish Farm Center",
+  "coordinates": {
+    "latitude": 7.9053109,
+    "longitude": 80.66582009999999
+  },
+  "address": "kulathunga mawatha,walihena,palwehara, Dambulla",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0775921731",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4A7TW77GPHDNMXR9D9WP"
+}

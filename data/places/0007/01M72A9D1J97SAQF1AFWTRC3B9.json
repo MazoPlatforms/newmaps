@@ -1,0 +1,58 @@
+{
+  "address": "68 4th Cross St, Colombo 01100",
+  "name": "Ranjitha Traders",
+  "coordinates": {
+    "latitude": 6.9361073,
+    "longitude": 79.8533827
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0767011080",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D1J97SAQF1AFWTRC3B9"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Post Office - Hambanthota | තැපැල් කාර්යාලය - හම්බන්තොට",
+  "coordinates": {
+    "latitude": 6.123125,
+    "longitude": 81.1261825
+  },
+  "address": "Main Post Office, Hambantota 82000",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0472220250",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BC6ZTEP8XWK2KTEA638XS"
+}

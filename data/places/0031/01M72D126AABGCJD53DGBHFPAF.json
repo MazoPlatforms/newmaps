@@ -1,0 +1,59 @@
+{
+  "name": "Toy Library",
+  "coordinates": {
+    "latitude": 7.4878709,
+    "longitude": 80.3595064
+  },
+  "address": "74 Negombo Rd, Kurunegala 60000",
+  "categories": [
+    "Toy library"
+  ],
+  "phone": "0372223878",
+  "website": "http://toylibrary.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D126AABGCJD53DGBHFPAF"
+}

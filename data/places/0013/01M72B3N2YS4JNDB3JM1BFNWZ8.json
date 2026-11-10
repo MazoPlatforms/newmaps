@@ -1,0 +1,58 @@
+{
+  "name": "Family Super Mart",
+  "coordinates": {
+    "latitude": 7.459381,
+    "longitude": 80.6180148
+  },
+  "address": "101 Nagolla Rd, Matale",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0777822236",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N2YS4JNDB3JM1BFNWZ8"
+}

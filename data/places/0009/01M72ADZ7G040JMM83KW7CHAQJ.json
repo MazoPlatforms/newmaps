@@ -1,0 +1,60 @@
+{
+  "address": "Katana Rd, Katana 11534",
+  "name": "Village Bakery - Kandawala",
+  "coordinates": {
+    "latitude": 7.2402761,
+    "longitude": 79.8874603
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0744145413",
+  "categories": [
+    "Coffee shop",
+    "Cake shop",
+    "Pastry shop"
+  ],
+  "id": "01M72ADZ7G040JMM83KW7CHAQJ"
+}

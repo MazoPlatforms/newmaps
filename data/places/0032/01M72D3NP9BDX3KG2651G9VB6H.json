@@ -1,0 +1,59 @@
+{
+  "name": "Activity Center",
+  "coordinates": {
+    "latitude": 7.940370199999999,
+    "longitude": 81.00052579999999
+  },
+  "address": "W2R2+566, Polonnaruwa",
+  "categories": [
+    "Tourist information center"
+  ],
+  "phone": "0776892430",
+  "website": "http://www.polonnaruwa.org/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3NP9BDX3KG2651G9VB6H"
+}

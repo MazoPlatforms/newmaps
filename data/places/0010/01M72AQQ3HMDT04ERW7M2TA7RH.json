@@ -1,0 +1,63 @@
+{
+  "name": "The Medical Clinic",
+  "coordinates": {
+    "latitude": 6.8240481,
+    "longitude": 79.87023099999999
+  },
+  "address": "4 Perera Pl, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0112726547",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–12:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12:30 PM",
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–12:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3HMDT04ERW7M2TA7RH"
+}

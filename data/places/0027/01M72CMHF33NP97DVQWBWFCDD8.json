@@ -1,0 +1,65 @@
+{
+  "name": "Laptop Repair Kandy",
+  "coordinates": {
+    "latitude": 7.282458999999999,
+    "longitude": 80.6221637
+  },
+  "address": "617B සිරිමාවො බන්ඩාරණායක මාවත, Kandy 20000",
+  "categories": [
+    "Computer consultant",
+    "Computer repair service",
+    "Industrial engineer",
+    "Phone repair service",
+    "Printer repair service",
+    "Refrigerator repair service",
+    "Television repair service",
+    "Washer & dryer repair service"
+  ],
+  "phone": "0716982645",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHF33NP97DVQWBWFCDD8"
+}

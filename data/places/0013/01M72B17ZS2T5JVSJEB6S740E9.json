@@ -1,0 +1,59 @@
+{
+  "name": "YAZ Shoppings",
+  "coordinates": {
+    "latitude": 6.4730846,
+    "longitude": 79.98432559999999
+  },
+  "address": "Galle Rd, Beruwala",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0785889694",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM",
+        "1:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B17ZS2T5JVSJEB6S740E9"
+}

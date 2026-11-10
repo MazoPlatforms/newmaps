@@ -1,0 +1,58 @@
+{
+  "name": "Fashion Direct",
+  "coordinates": {
+    "latitude": 8.0318121,
+    "longitude": 79.82971909999999
+  },
+  "address": "18 KK St, Puttalam 61300",
+  "categories": [
+    "Men's clothing store"
+  ],
+  "phone": "0756071795",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1K4MT04N6GQNSN6FKF5Y"
+}

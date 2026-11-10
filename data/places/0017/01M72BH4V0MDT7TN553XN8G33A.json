@@ -1,0 +1,58 @@
+{
+  "name": "Gayan Stores",
+  "coordinates": {
+    "latitude": 6.6834191999999994,
+    "longitude": 80.4021349
+  },
+  "address": "Ratnapura Central Bus Station, Outer Circular Rd, Ratnapura",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0452232971",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BH4V0MDT7TN553XN8G33A"
+}

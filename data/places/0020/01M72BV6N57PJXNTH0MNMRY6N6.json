@@ -1,0 +1,61 @@
+{
+  "name": "British Council",
+  "coordinates": {
+    "latitude": 9.664178399999999,
+    "longitude": 80.0283408
+  },
+  "address": "70 Rakka Rd, Jaffna",
+  "categories": [
+    "English language school",
+    "Educational institution",
+    "Non-profit organization"
+  ],
+  "phone": "0117521521",
+  "website": "http://www.britishcouncil.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BV6N57PJXNTH0MNMRY6N6"
+}

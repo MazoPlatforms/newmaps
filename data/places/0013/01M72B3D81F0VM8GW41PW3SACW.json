@@ -1,0 +1,60 @@
+{
+  "name": "Wijayasiri Hotel",
+  "coordinates": {
+    "latitude": 7.4727217999999995,
+    "longitude": 80.62485889999999
+  },
+  "address": "153 Gongawela Rd, Matale 21000",
+  "categories": [
+    "Bakery",
+    "Takeout restaurant",
+    "Restaurant"
+  ],
+  "phone": "0779382411",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D81F0VM8GW41PW3SACW"
+}

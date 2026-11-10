@@ -1,0 +1,58 @@
+{
+  "address": "210 A9, Kandy 20000",
+  "name": "Cafe 210",
+  "coordinates": {
+    "latitude": 7.2985323,
+    "longitude": 80.63705929999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0701371370",
+  "categories": [
+    "Cafe"
+  ],
+  "id": "01M72AA6KQXPF4JJSZZ9REBZB5"
+}

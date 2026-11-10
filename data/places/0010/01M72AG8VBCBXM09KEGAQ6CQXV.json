@@ -1,0 +1,59 @@
+{
+  "name": "NDB Bank - 1 Galleface Mall",
+  "coordinates": {
+    "latitude": 6.9269763,
+    "longitude": 79.8455809
+  },
+  "address": "One Galle Face Mall, Premises no L 1 - 77, No 1 A",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0117448117",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG8VBCBXM09KEGAQ6CQXV"
+}

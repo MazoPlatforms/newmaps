@@ -1,0 +1,61 @@
+{
+  "name": "Abans IT Service Center",
+  "coordinates": {
+    "latitude": 6.905645799999999,
+    "longitude": 79.8633804
+  },
+  "address": "GS 1, Grandstand, Colombo Racecourse, Colombo 00700",
+  "categories": [
+    "Computer repair service",
+    "Computer accessories store",
+    "Computer support and services"
+  ],
+  "phone": "0112222888",
+  "website": "https://abansit.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JMQRCNC215VECY9V6RT"
+}

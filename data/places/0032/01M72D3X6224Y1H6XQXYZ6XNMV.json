@@ -1,0 +1,60 @@
+{
+  "name": "Singer Naula",
+  "coordinates": {
+    "latitude": 7.7060097999999995,
+    "longitude": 80.65327289999999
+  },
+  "address": "No. 54 Dambulla Road, Naula 21090",
+  "categories": [
+    "Electronics store",
+    "Furniture store"
+  ],
+  "phone": "0662246487",
+  "website": "http://www.singersl.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D3X6224Y1H6XQXYZ6XNMV"
+}

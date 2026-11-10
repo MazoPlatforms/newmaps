@@ -1,0 +1,59 @@
+{
+  "name": "HK Smart",
+  "coordinates": {
+    "latitude": 7.196855299999999,
+    "longitude": 79.8554207
+  },
+  "address": "Ranomoto Shopping Complex, Shop No.15, 01st Floor, Colombo - Puttalam Rd, Negombo 11500",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0707101211",
+  "website": "https://www.hksmart.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VFFTSK7PZF89536X21"
+}

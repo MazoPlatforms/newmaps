@@ -1,0 +1,64 @@
+{
+  "name": "Techno Brothers",
+  "coordinates": {
+    "latitude": 9.6696639,
+    "longitude": 80.0111009
+  },
+  "address": "10 Stanley Rd, Jaffna 40000",
+  "categories": [
+    "Computer store",
+    "Cell phone accessory store",
+    "Computer accessories store",
+    "Cell phone store",
+    "Computer support and services",
+    "Mobile phone repair shop"
+  ],
+  "phone": "0740411141",
+  "website": "https://www.technobrothers.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4N9K50J36KR771SN9VXN"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Sanjeewana Wound Care Center",
+  "coordinates": {
+    "latitude": 7.090717799999999,
+    "longitude": 80.0003821
+  },
+  "address": "NO 244/A Colombo Rd, Gampaha 11000",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0777801856",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGC0TP6R82NM8FNATKM7"
+}

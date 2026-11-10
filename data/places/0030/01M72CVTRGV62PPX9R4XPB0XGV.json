@@ -1,0 +1,58 @@
+{
+  "name": "Salon Beauty Zone By Amanda",
+  "coordinates": {
+    "latitude": 6.1227151,
+    "longitude": 81.0254738
+  },
+  "address": "42FG+35Q, Main street, Ambalantota",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0711733685",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CVTRGV62PPX9R4XPB0XGV"
+}

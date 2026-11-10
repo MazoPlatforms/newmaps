@@ -1,0 +1,58 @@
+{
+  "name": "Singhe Hospitals Laboratory Service",
+  "coordinates": {
+    "latitude": 6.3046302,
+    "longitude": 81.0033371
+  },
+  "address": "8233+V84, Sooriyawewa",
+  "categories": [
+    "Laboratory"
+  ],
+  "phone": "0703232270",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BC47Y4V0PJD54YJ0XB1VZ"
+}

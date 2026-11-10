@@ -1,0 +1,58 @@
+{
+  "name": "SISILA Hardware Stores",
+  "coordinates": {
+    "latitude": 6.0551369,
+    "longitude": 80.1813739
+  },
+  "address": "557 Colombo Main Rd, Galle",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0912248596",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRJTYA0YQQC5CCM0ZNBEG"
+}

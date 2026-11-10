@@ -1,0 +1,58 @@
+{
+  "name": "Medicale And Surgical Center",
+  "coordinates": {
+    "latitude": 5.957866699999999,
+    "longitude": 80.5307527
+  },
+  "address": "XG5J+48R, Matara",
+  "categories": [
+    "Doctor"
+  ],
+  "phone": "0412231033",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J56CP36ZD6VC2VC2WWR"
+}

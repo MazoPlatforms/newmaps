@@ -1,0 +1,58 @@
+{
+  "address": "67 Palali Rd, Jaffna 40000",
+  "name": "T&G Super Market",
+  "coordinates": {
+    "latitude": 9.6882593,
+    "longitude": 80.0273215
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0771380670",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72AD624M0ECE5SD2XW7JM3J"
+}

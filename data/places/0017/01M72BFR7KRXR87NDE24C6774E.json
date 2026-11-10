@@ -1,0 +1,58 @@
+{
+  "name": "Jetline's Steel",
+  "coordinates": {
+    "latitude": 6.8304531,
+    "longitude": 80.9905417
+  },
+  "address": "72 Main St, Bandarawela 90100",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0572233490",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFR7KRXR87NDE24C6774E"
+}

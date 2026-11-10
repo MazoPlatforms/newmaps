@@ -1,0 +1,59 @@
+{
+  "name": "Super Stores",
+  "coordinates": {
+    "latitude": 5.973535399999999,
+    "longitude": 80.42975249999999
+  },
+  "address": "No 1, Super Stores, Bus Stand Weligama, 81700",
+  "categories": [
+    "Asian grocery store",
+    "Convenience store"
+  ],
+  "phone": "0777627673",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9B9RQJ7RFN9B2DXVY456"
+}

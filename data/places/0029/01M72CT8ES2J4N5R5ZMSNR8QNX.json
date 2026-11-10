@@ -1,0 +1,63 @@
+{
+  "name": "Livo",
+  "coordinates": {
+    "latitude": 5.9456522,
+    "longitude": 80.5635538
+  },
+  "address": "540 Tangalle Rd, Meddawatte 81000",
+  "categories": [
+    "Computer store",
+    "Cell phone store",
+    "Computer service",
+    "Electronics store",
+    "Mobile phone repair shop",
+    "Office supply store"
+  ],
+  "phone": "0702556677",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CT8ES2J4N5R5ZMSNR8QNX"
+}

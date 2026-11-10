@@ -1,0 +1,57 @@
+{
+  "address": "23 Srimath Anagarika Dharmapala Mawatha, Colombo 00300",
+  "name": "Kollupitiya Market",
+  "coordinates": {
+    "latitude": 6.912000099999999,
+    "longitude": 79.8505811
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "categories": [
+    "Market"
+  ],
+  "id": "01M72A9D19MREGDRB30KQRZPKY"
+}

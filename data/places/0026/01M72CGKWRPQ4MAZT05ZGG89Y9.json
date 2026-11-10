@@ -1,0 +1,58 @@
+{
+  "name": "Barbers Town Salon",
+  "coordinates": {
+    "latitude": 7.092035699999999,
+    "longitude": 79.99176729999999
+  },
+  "address": "39/3, Molawatte Rd, Ja-Ela, Rd, Gampaha",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0754548514",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGKWRPQ4MAZT05ZGG89Y9"
+}

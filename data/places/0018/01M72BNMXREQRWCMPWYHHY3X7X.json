@@ -1,0 +1,58 @@
+{
+  "name": "BBC Express Supermarket",
+  "coordinates": {
+    "latitude": 8.0314368,
+    "longitude": 79.84030349999999
+  },
+  "address": "Near Railway Gate, A12, Puttalam 61300",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0711088999",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMXREQRWCMPWYHHY3X7X"
+}

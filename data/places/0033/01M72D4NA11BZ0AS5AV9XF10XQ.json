@@ -1,0 +1,59 @@
+{
+  "name": "TechWye",
+  "coordinates": {
+    "latitude": 9.6760178,
+    "longitude": 80.0210436
+  },
+  "address": "Junction, Palali Rd, Jaffna 40000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0770788877",
+  "website": "http://techwye.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4NA11BZ0AS5AV9XF10XQ"
+}

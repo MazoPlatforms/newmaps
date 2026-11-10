@@ -1,0 +1,58 @@
+{
+  "name": "Samantha Stores",
+  "coordinates": {
+    "latitude": 7.0262524,
+    "longitude": 80.0897845
+  },
+  "address": "23GQ+GW3, Gampaha",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0332269045",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AY4KYSE9N08EEAW3QK7S4"
+}

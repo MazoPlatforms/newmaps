@@ -1,0 +1,58 @@
+{
+  "name": "Salon Dilu",
+  "coordinates": {
+    "latitude": 7.4686797,
+    "longitude": 80.0418516
+  },
+  "address": "Kuliyapitiya",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0712361117",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1DZGBB8P5CN3V3JPQF6P"
+}

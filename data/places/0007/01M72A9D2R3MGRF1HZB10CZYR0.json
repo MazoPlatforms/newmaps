@@ -1,0 +1,58 @@
+{
+  "address": "40 Ratnam Rd, kochikade 01300",
+  "name": "Sarojini Supermarket",
+  "coordinates": {
+    "latitude": 6.9449255,
+    "longitude": 79.8567691
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0754421121",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72A9D2R3MGRF1HZB10CZYR0"
+}

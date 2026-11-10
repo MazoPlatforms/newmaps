@@ -1,0 +1,58 @@
+{
+  "name": "NewRo Filling Station",
+  "coordinates": {
+    "latitude": 7.3077666,
+    "longitude": 81.7236257
+  },
+  "address": "New Walathapitiya, Karativu-Ampara Hwy, Ampara 32000",
+  "categories": [
+    "Gas station"
+  ],
+  "phone": "0771800381",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1EMS0Y6K9BSE1ECGXFQ6"
+}

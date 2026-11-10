@@ -1,0 +1,58 @@
+{
+  "name": "Peoples Bank Kegalle Main Branch",
+  "coordinates": {
+    "latitude": 7.2539979,
+    "longitude": 80.3517294
+  },
+  "address": "380 Kandy - Colombo Rd, Kegalle",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0352222412",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJC877VSYCCGXW1NJTMA5"
+}

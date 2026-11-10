@@ -1,0 +1,59 @@
+{
+  "name": "Panadura Medic",
+  "coordinates": {
+    "latitude": 6.7109768999999995,
+    "longitude": 79.9071787
+  },
+  "address": "Dr. c.m gomes 474, 1 C Arthur V. Dias Mawatha, Panadura",
+  "categories": [
+    "Medical clinic",
+    "Eye care center"
+  ],
+  "phone": "0382233316",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B08N6KRP5WHM0626G9RRQ"
+}

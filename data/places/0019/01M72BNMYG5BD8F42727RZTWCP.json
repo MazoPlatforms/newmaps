@@ -1,0 +1,58 @@
+{
+  "name": "Sukri Stores",
+  "coordinates": {
+    "latitude": 7.963578999999999,
+    "longitude": 79.83084439999999
+  },
+  "address": "13/B Colombo - Puttalam Rd, Nagawilluwa 61280",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0710555051",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMYG5BD8F42727RZTWCP"
+}

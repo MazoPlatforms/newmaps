@@ -1,0 +1,67 @@
+{
+  "address": "No. 123/1, 1 DS Senanayake Veediya, Kandy 22000",
+  "name": "Business Advisor",
+  "coordinates": {
+    "latitude": 7.2960211,
+    "longitude": 80.6376179
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.businessadvisor.lk/",
+  "business_status": "OPEN",
+  "phone": "0706525555",
+  "categories": [
+    "Business management consultant",
+    "Accountant",
+    "Accounting firm",
+    "Bookkeeping service",
+    "Consultant",
+    "Customs consultant",
+    "Payroll service",
+    "Registration office",
+    "Taxi service"
+  ],
+  "id": "01M72ABANKED7ZV80JBEDXCFZY"
+}

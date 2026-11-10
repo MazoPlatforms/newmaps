@@ -1,0 +1,59 @@
+{
+  "name": "Salon Rami",
+  "coordinates": {
+    "latitude": 6.851330399999999,
+    "longitude": 79.9214434
+  },
+  "address": "3, 31 Nagahawatte Road, Maharagama 10280",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0712457337",
+  "website": "http://salonrami.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MGXECDWGH6NTTP1Z16"
+}

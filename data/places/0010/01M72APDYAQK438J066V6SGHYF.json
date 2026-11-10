@@ -1,0 +1,59 @@
+{
+  "name": "Carmax Automobile Services & Repairs (Negombo)",
+  "coordinates": {
+    "latitude": 7.223967999999999,
+    "longitude": 79.8645143
+  },
+  "address": "No 277, Katana road, Thimbirigaskatuwa, Negombo",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0701908000",
+  "website": "http://www.carmax.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDYAQK438J066V6SGHYF"
+}

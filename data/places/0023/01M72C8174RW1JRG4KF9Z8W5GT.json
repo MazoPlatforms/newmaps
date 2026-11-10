@@ -1,0 +1,62 @@
+{
+  "name": "The Culture Boutique",
+  "coordinates": {
+    "latitude": 6.916116,
+    "longitude": 79.8698737
+  },
+  "address": "48A Ward Pl, Colombo 00700",
+  "categories": [
+    "Boutique",
+    "Art gallery",
+    "Gift shop",
+    "Shopping mall"
+  ],
+  "phone": "0775407000",
+  "website": "http://www.tcbceylon.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8174RW1JRG4KF9Z8W5GT"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Dr. Bujawansha",
+  "coordinates": {
+    "latitude": 6.845442599999999,
+    "longitude": 79.8660393
+  },
+  "address": "148 A2, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0112723098",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ39JH7AB0JW7QK0QD9F"
+}

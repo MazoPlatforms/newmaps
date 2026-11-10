@@ -1,0 +1,65 @@
+{
+  "name": "Dispensary And Surgery",
+  "coordinates": {
+    "latitude": 6.663988,
+    "longitude": 80.38241699999999
+  },
+  "address": "M97J+MX2, Ratnapura",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0777357122",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30–8:30 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30–8:30 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30–8:30 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30–8:30 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30–8:30 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30–8:30 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30–8:30 AM",
+        "5–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHA0TYATN6E4Q6619KG4E"
+}

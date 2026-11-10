@@ -1,0 +1,58 @@
+{
+  "name": "S.S.K Traders (Importer&Exporter)",
+  "coordinates": {
+    "latitude": 7.415374099999999,
+    "longitude": 81.8267975
+  },
+  "address": "350 Main St, Kalmunai 32300",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0772365487",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6–11:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09YYVBA5QF7ZT7Z0MTK4"
+}

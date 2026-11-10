@@ -1,0 +1,58 @@
+{
+  "name": "Mega Medical City - Kalmunai",
+  "coordinates": {
+    "latitude": 7.4101683,
+    "longitude": 81.8367787
+  },
+  "address": "KKP Rd., Kalmunai 32300",
+  "categories": [
+    "Pharmacy",
+    "Medical clinic"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C0ATQVCZSQ2KGX96DTY2K"
+}

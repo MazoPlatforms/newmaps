@@ -1,0 +1,58 @@
+{
+  "address": "No: 89 Peradeniya Rd, Kandy 20000",
+  "name": "Clean And Shine Laundry",
+  "coordinates": {
+    "latitude": 7.2916813,
+    "longitude": 80.6317329
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0775101989",
+  "categories": [
+    "Laundry service"
+  ],
+  "id": "01M72ABAQBREXH442CNBYSTQA1"
+}

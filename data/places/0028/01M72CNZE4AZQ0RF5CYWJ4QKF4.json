@@ -1,0 +1,57 @@
+{
+  "name": "Dallah Salon",
+  "coordinates": {
+    "latitude": 7.4734434,
+    "longitude": 80.62477439999999
+  },
+  "address": "Dallah Salon, 3rd floor Gongawela Rd, Matale 21000",
+  "categories": [
+    "Hair salon"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–2 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNZE4AZQ0RF5CYWJ4QKF4"
+}

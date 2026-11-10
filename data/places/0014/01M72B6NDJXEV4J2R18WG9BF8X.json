@@ -1,0 +1,59 @@
+{
+  "name": "Union Bank Galle Branch",
+  "coordinates": {
+    "latitude": 6.0353259999999995,
+    "longitude": 80.2196927
+  },
+  "address": "143 Main Street, Galle 80000",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0912247307",
+  "website": "http://www.unionb.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6NDJXEV4J2R18WG9BF8X"
+}

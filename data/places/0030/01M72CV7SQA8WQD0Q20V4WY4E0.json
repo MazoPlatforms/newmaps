@@ -1,0 +1,58 @@
+{
+  "name": "Salon Shihansa",
+  "coordinates": {
+    "latitude": 5.983534499999999,
+    "longitude": 80.4527104
+  },
+  "address": "No 313 baduwatta, Denipitiya, Weligama 81700",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0760506509",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CV7SQA8WQD0Q20V4WY4E0"
+}

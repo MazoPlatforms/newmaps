@@ -1,0 +1,62 @@
+{
+  "name": "Zone Health Care Hospital",
+  "coordinates": {
+    "latitude": 6.9696606,
+    "longitude": 80.00261379999999
+  },
+  "address": "Zone Road, Waduwegama, Mosque Road, malwna 11650",
+  "categories": [
+    "Pharmacy",
+    "Diabetes center",
+    "Laboratory",
+    "Hospital"
+  ],
+  "phone": "0112489369",
+  "website": "http://www.zonehealthcare.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJAE21B3FN1YHJQB5ZEND"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Mahajana Glass Palace",
+  "coordinates": {
+    "latitude": 6.7733374,
+    "longitude": 79.8845426
+  },
+  "address": "89 Old Galle Rd, Moratuwa 10400",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112643454",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30–11:45 AM",
+        "1:30–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCA6P9TPMAEN9JTVV3KGE"
+}

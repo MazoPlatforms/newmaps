@@ -1,0 +1,65 @@
+{
+  "name": "Siva Home Care And Medicals",
+  "coordinates": {
+    "latitude": 6.870101399999999,
+    "longitude": 79.8638812
+  },
+  "address": "57/2 37th Ln, Colombo 00600",
+  "categories": [
+    "Pharmacy",
+    "Adult day care center",
+    "Laboratory",
+    "Hospital",
+    "Physical therapist",
+    "Rehabilitation center",
+    "Aged care"
+  ],
+  "phone": "0762255965",
+  "website": "http://sivamedicals.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG003ZZ8S8NMY91S9X8CW"
+}

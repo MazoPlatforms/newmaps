@@ -1,0 +1,59 @@
+{
+  "name": "Salon Sonwy Queen",
+  "coordinates": {
+    "latitude": 6.992045,
+    "longitude": 81.05637519999999
+  },
+  "address": "44 Mahiyangana Rd, Badulla 90000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0768826282",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6 AM",
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXMWE6GS19CV5JNCA1NZK"
+}

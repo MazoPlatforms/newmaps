@@ -1,0 +1,65 @@
+{
+  "address": "104 Adnives Rd, Negombo 11500",
+  "name": "Shehan Stores",
+  "coordinates": {
+    "latitude": 7.226892299999999,
+    "longitude": 79.8455374
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–2 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0312239789",
+  "categories": [
+    "Grocery store",
+    "Hypermarket"
+  ],
+  "id": "01M72AECM9QZEZT93A9BWNY3KX"
+}

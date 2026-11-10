@@ -1,0 +1,58 @@
+{
+  "name": "Saloon Lavender & Beauty",
+  "coordinates": {
+    "latitude": 6.1264647,
+    "longitude": 81.12376929999999
+  },
+  "address": "46 Hospital St, Hambantota 82000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0742812786",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CVTRHET0AEZDBMRCCRKYK"
+}

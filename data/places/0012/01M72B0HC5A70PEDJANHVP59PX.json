@@ -1,0 +1,59 @@
+{
+  "name": "Union Bank Panadura Branch",
+  "coordinates": {
+    "latitude": 6.790647099999999,
+    "longitude": 79.8865594
+  },
+  "address": "495 Galle Rd, Panadura 10400",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0382237098",
+  "website": "http://www.unionb.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0HC5A70PEDJANHVP59PX"
+}

@@ -1,0 +1,60 @@
+{
+  "address": "NSB Road, New Bus Stand, Anuradhapura, Anuradhapura 50000",
+  "name": "Banana Cafe, Coffee Shop",
+  "coordinates": {
+    "latitude": 8.3218861,
+    "longitude": 80.4038501
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    }
+  ],
+  "website": "https://www.facebook.com/bananacafelanka/",
+  "business_status": "OPEN",
+  "phone": "0717707676",
+  "categories": [
+    "Cafe",
+    "Ice cream shop"
+  ],
+  "id": "01M72AFEQ18PGXR2RNMW8VEJJA"
+}

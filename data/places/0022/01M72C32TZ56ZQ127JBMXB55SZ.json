@@ -1,0 +1,58 @@
+{
+  "name": "Central Dental Clinic And Surgery - Central Hospital",
+  "coordinates": {
+    "latitude": 8.5742349,
+    "longitude": 81.2340893
+  },
+  "address": "New Moor St, Trincomalee",
+  "categories": [
+    "Private hospital"
+  ],
+  "phone": "0776054439",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C32TZ56ZQ127JBMXB55SZ"
+}

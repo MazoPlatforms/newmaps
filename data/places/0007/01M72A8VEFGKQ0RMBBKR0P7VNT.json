@@ -1,0 +1,62 @@
+{
+  "address": "L6, One, Colombo",
+  "name": "The Pizza Bakery - Bar & Eatery",
+  "coordinates": {
+    "latitude": 6.9271294999999995,
+    "longitude": 79.8446508
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–10:30 PM"
+      ]
+    }
+  ],
+  "website": "http://www.thepizzabakery.in/",
+  "business_status": "OPEN",
+  "phone": "0703359900",
+  "categories": [
+    "Pizza restaurant",
+    "Bar",
+    "Italian restaurant",
+    "Restaurant"
+  ],
+  "id": "01M72A8VEFGKQ0RMBBKR0P7VNT"
+}

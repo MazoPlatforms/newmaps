@@ -1,0 +1,59 @@
+{
+  "address": "26 Ward Pl, Colombo 00700",
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 6.9166035,
+    "longitude": 79.86770949999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112679503",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "id": "01M72A9SFN39AARJRVW90VFB6G"
+}

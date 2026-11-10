@@ -1,0 +1,57 @@
+{
+  "name": "Vithus Clinic",
+  "coordinates": {
+    "latitude": 7.7280701999999994,
+    "longitude": 81.6973898
+  },
+  "address": "PMHW+6XC, Batticaloa",
+  "categories": [
+    "Doctor"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BYXKJ5SSNWRHEY4C9ZV6F"
+}

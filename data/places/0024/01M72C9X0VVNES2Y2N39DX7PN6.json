@@ -1,0 +1,60 @@
+{
+  "name": "Print Store",
+  "coordinates": {
+    "latitude": 6.8757829,
+    "longitude": 79.8610649
+  },
+  "address": "159 Galle Rd, Colombo 00600",
+  "categories": [
+    "Print shop"
+  ],
+  "phone": "0777999334",
+  "website": "https://www.printstore.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–1 PM",
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9X0VVNES2Y2N39DX7PN6"
+}

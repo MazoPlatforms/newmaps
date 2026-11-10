@@ -1,0 +1,58 @@
+{
+  "name": "Famila Garage, Jaffna",
+  "coordinates": {
+    "latitude": 9.6583989,
+    "longitude": 80.0205825
+  },
+  "address": "M25C+F8V) 278 Main Street, A9, Jaffna",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0773151175",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVEMDPAMJGNDGSWQK7WDC"
+}

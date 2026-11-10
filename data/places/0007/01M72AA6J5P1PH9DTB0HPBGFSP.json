@@ -1,0 +1,58 @@
+{
+  "address": "43 Ampitiya Rd, Kandy 20000",
+  "name": "Lion Brand Coffee & Restaurant",
+  "coordinates": {
+    "latitude": 7.2844983999999995,
+    "longitude": 80.64951099999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0779771055",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72AA6J5P1PH9DTB0HPBGFSP"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Riche",
+  "coordinates": {
+    "latitude": 8.568999999999999,
+    "longitude": 81.2381874
+  },
+  "address": "07 Church Road, Trincomalee 31000",
+  "categories": [
+    "College"
+  ],
+  "phone": "0779335579",
+  "website": "http://www.riche.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C36X5J8W3XFQQN0SZ1SBF"
+}

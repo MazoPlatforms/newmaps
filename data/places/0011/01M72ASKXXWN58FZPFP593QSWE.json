@@ -1,0 +1,58 @@
+{
+  "name": "DMN Super",
+  "coordinates": {
+    "latitude": 6.7740152,
+    "longitude": 79.8825916
+  },
+  "address": "20 Galle Road, Moratuwa 10400",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0703335016",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:15 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:15 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:15 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:15 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:15 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:15 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:15 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASKXXWN58FZPFP593QSWE"
+}

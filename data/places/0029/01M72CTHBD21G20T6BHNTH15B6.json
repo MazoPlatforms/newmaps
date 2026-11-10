@@ -1,0 +1,58 @@
+{
+  "name": "New Neptune",
+  "coordinates": {
+    "latitude": 5.9454622,
+    "longitude": 80.5607715
+  },
+  "address": "305 Uda Peekwella Road, Matara",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0412221826",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTHBD21G20T6BHNTH15B6"
+}

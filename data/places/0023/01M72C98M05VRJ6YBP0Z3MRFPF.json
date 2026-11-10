@@ -1,0 +1,60 @@
+{
+  "name": "Raula Barbershop Baseline Road",
+  "coordinates": {
+    "latitude": 6.8837202,
+    "longitude": 79.8758259
+  },
+  "address": "129 Kirulapone Ave, Colombo 00500",
+  "categories": [
+    "Barber shop",
+    "Beauty salon"
+  ],
+  "phone": "0777353163",
+  "website": "https://barbershop.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M05VRJ6YBP0Z3MRFPF"
+}

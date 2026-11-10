@@ -1,0 +1,59 @@
+{
+  "name": "IIT Regional Centre - Galle",
+  "coordinates": {
+    "latitude": 6.0347443,
+    "longitude": 80.2115615
+  },
+  "address": "36A Colombo Rd, Galle 80000",
+  "categories": [
+    "Educational institution"
+  ],
+  "phone": "0762562563",
+  "website": "https://www.iit.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B6MMEYAGFF7JAXBZWYPA0"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Game Zone",
+  "coordinates": {
+    "latitude": 6.7146523,
+    "longitude": 79.9090973
+  },
+  "address": "Sri Mahavihara Rd, Panadura 12500",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0759446169",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPRKEJ8DC6TD6V6XXC0J"
+}

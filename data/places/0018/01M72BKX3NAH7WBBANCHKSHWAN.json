@@ -1,0 +1,60 @@
+{
+  "name": "State Mortgage And Investment Bank",
+  "coordinates": {
+    "latitude": 7.4848304,
+    "longitude": 80.3628031
+  },
+  "address": "46/1 Mihindu Mawatha, Kurunegala",
+  "categories": [
+    "Bank",
+    "Investment bank"
+  ],
+  "phone": "0377722722",
+  "website": "http://www.smib.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKX3NAH7WBBANCHKSHWAN"
+}

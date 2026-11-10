@@ -1,0 +1,58 @@
+{
+  "name": "Studio Pro",
+  "coordinates": {
+    "latitude": 8.7624493,
+    "longitude": 80.4892833
+  },
+  "address": "Station Rd, Vavuniya 43000",
+  "categories": [
+    "Photography studio"
+  ],
+  "phone": "0761084758",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5V2J0XBPHHMK9GR5K7XQ"
+}

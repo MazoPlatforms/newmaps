@@ -1,0 +1,59 @@
+{
+  "name": "Tulip Computers",
+  "coordinates": {
+    "latitude": 5.9490215,
+    "longitude": 80.5441178
+  },
+  "address": "61A Anagarika Dharmapala Mawatha, Matara 81000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0412050800",
+  "website": "http://www.tulipcom.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CT8DPJ2ZNVHT07529JE0A"
+}

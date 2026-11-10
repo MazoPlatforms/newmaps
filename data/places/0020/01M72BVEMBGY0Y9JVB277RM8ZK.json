@@ -1,0 +1,58 @@
+{
+  "name": "Deiva Car Care",
+  "coordinates": {
+    "latitude": 9.6686882,
+    "longitude": 80.0179374
+  },
+  "address": "Sirampirady Ln, Jaffna",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0777913930",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BVEMBGY0Y9JVB277RM8ZK"
+}

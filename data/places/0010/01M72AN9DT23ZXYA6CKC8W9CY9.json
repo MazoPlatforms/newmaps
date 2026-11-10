@@ -1,0 +1,60 @@
+{
+  "name": "Health Care Ayurvedic Medical Centre",
+  "coordinates": {
+    "latitude": 6.9464447,
+    "longitude": 79.8691769
+  },
+  "address": "192A Sirimavo Bandaranaike Mawatha, Colombo 01400",
+  "categories": [
+    "Medical Center",
+    "Laboratory"
+  ],
+  "phone": "0114177315",
+  "website": "https://healthcareamc.blogspot.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9DT23ZXYA6CKC8W9CY9"
+}

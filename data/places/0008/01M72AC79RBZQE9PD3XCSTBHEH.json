@@ -1,0 +1,60 @@
+{
+  "address": "59 E Olcott Mawatha, Galle 80000",
+  "name": "Hassan Traders",
+  "coordinates": {
+    "latitude": 6.0370151,
+    "longitude": 80.2207466
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777790401",
+  "categories": [
+    "Wholesaler",
+    "Chocolate shop",
+    "Cookie shop"
+  ],
+  "id": "01M72AC79RBZQE9PD3XCSTBHEH"
+}

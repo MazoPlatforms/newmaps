@@ -1,0 +1,58 @@
+{
+  "name": "Bandula Electronics",
+  "coordinates": {
+    "latitude": 7.2866969,
+    "longitude": 80.6272556
+  },
+  "address": "347-1 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0812205158",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHEVRJ7ZY79T0YS7QM0W"
+}

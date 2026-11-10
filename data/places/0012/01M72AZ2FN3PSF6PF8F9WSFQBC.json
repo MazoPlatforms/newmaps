@@ -1,0 +1,62 @@
+{
+  "name": "Zencare Medical And Dental Clinic",
+  "coordinates": {
+    "latitude": 6.605973499999999,
+    "longitude": 79.9539297
+  },
+  "address": "Galle road, Wadduwa 12000",
+  "categories": [
+    "Medical Center",
+    "Dental clinic",
+    "Hospital",
+    "Laboratory",
+    "Pharmacy"
+  ],
+  "phone": "0772464465",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ2FN3PSF6PF8F9WSFQBC"
+}

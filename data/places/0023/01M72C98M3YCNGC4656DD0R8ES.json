@@ -1,0 +1,58 @@
+{
+  "name": "Drift Barber",
+  "coordinates": {
+    "latitude": 6.909523399999999,
+    "longitude": 79.90649479999999
+  },
+  "address": "167, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0741317373",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M3YCNGC4656DD0R8ES"
+}

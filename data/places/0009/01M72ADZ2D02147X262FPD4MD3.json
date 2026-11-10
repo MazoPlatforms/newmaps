@@ -1,0 +1,58 @@
+{
+  "address": "184A Lewis Pl, Negombo 11500",
+  "name": "Retro Cafe And Restaurant",
+  "coordinates": {
+    "latitude": 7.2297356,
+    "longitude": 79.841072
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0750611636",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72ADZ2D02147X262FPD4MD3"
+}

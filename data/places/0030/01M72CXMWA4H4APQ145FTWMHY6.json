@@ -1,0 +1,58 @@
+{
+  "name": "Salon ESHA",
+  "coordinates": {
+    "latitude": 6.9948972,
+    "longitude": 81.0541118
+  },
+  "address": "264 Keppetipola Road, Badulla",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0767782784",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXMWA4H4APQ145FTWMHY6"
+}

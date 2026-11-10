@@ -1,0 +1,58 @@
+{
+  "address": "No. 42 Kandy Rd, Mallawapitiya 60000",
+  "name": "Treat Cafe Family Restaurant",
+  "coordinates": {
+    "latitude": 7.4776910999999995,
+    "longitude": 80.38290119999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0772888408",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72AFEFNJQZ84YPVTBTF2CSB"
+}

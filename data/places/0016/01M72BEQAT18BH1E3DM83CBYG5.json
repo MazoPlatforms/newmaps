@@ -1,0 +1,60 @@
+{
+  "name": "Lanka Sathosa Ltd",
+  "coordinates": {
+    "latitude": 6.9902774999999995,
+    "longitude": 81.0534808
+  },
+  "address": "95 Bandarawela Rd, Badulla",
+  "categories": [
+    "Supermarket",
+    "General store",
+    "Grocery store"
+  ],
+  "phone": "0552225254",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQAT18BH1E3DM83CBYG5"
+}

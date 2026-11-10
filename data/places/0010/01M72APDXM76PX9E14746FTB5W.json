@@ -1,0 +1,58 @@
+{
+  "name": "Shaveen Auto Works",
+  "coordinates": {
+    "latitude": 6.8774637,
+    "longitude": 79.86520809999999
+  },
+  "address": "115 Saliya Rd, Colombo",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0777190191",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDXM76PX9E14746FTB5W"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Veterinary Teaching Hospital, Faculty Of Veterinary Medicine, University Of Peradeniya.",
+  "coordinates": {
+    "latitude": 7.2635615,
+    "longitude": 80.59543289999999
+  },
+  "address": "B364, Kandy",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0812388664",
+  "website": "https://vet.pdn.ac.lk/vcs/index.php",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2P4SSSRHQ6W924CS6HFQ"
+}

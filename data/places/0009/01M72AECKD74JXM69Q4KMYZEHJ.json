@@ -1,0 +1,58 @@
+{
+  "address": "165 Sea St, Negombo",
+  "name": "Jogathas And Sons Super Mart",
+  "coordinates": {
+    "latitude": 7.215863199999999,
+    "longitude": 79.83899559999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0779733820",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AECKD74JXM69Q4KMYZEHJ"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Softlogic Showroom",
+  "coordinates": {
+    "latitude": 7.4702252,
+    "longitude": 80.0437699
+  },
+  "address": "Main Street, Opposite Co-op, Kuliyapitiya",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0375646300",
+  "website": "http://www.softlogic.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D19NZDT4X3PFAX092BJQS"
+}

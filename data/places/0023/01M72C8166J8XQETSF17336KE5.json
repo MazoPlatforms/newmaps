@@ -1,0 +1,63 @@
+{
+  "name": "Franco",
+  "coordinates": {
+    "latitude": 6.8700497,
+    "longitude": 79.86243019999999
+  },
+  "address": "385 Galle Rd, Colombo 00600",
+  "categories": [
+    "Shoe store",
+    "Handbags shop",
+    "Shoe factory",
+    "Footwear wholesaler"
+  ],
+  "phone": "0112364566",
+  "website": "https://www.franco.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 PM",
+        "2–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8166J8XQETSF17336KE5"
+}

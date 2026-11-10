@@ -1,0 +1,60 @@
+{
+  "address": "677/5 Jaffna-Point Pedro Rd, Jaffna 40000",
+  "name": "Bestway Super Market",
+  "coordinates": {
+    "latitude": 9.6755183,
+    "longitude": 80.03563
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–6 AM",
+        "9–10 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9–10 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9–10 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9–10 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–10 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 AM",
+        "9 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0776685146",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72AD61PJ2DRS5RPZJ20CNSS"
+}

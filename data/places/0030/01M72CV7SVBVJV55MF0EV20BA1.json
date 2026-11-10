@@ -1,0 +1,60 @@
+{
+  "name": "Mod Saloon",
+  "coordinates": {
+    "latitude": 5.9761475,
+    "longitude": 80.4282202
+  },
+  "address": "29 Galbokka Rd, Weligama",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0772757910",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1:15–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM",
+        "1:15–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CV7SVBVJV55MF0EV20BA1"
+}

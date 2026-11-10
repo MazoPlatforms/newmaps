@@ -1,0 +1,58 @@
+{
+  "name": "The Bike Zone",
+  "coordinates": {
+    "latitude": 6.0349943,
+    "longitude": 80.21980719999999
+  },
+  "address": "79 Sea St, Galle 80000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0777412376",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRJVBY50TA5ZTCZ0R7JS7"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Kalyani Hardware Stores",
+  "coordinates": {
+    "latitude": 6.939779499999999,
+    "longitude": 79.8625637
+  },
+  "address": "22C Quarry Rd, Colombo 01200",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112434622",
+  "website": "http://www.kalyani.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–2:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C90ZW2AXJH7B8KBXH55X3"
+}

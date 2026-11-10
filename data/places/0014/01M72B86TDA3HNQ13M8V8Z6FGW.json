@@ -1,0 +1,58 @@
+{
+  "name": "CityLab - Ambalangoda",
+  "coordinates": {
+    "latitude": 6.2391195999999995,
+    "longitude": 80.0525957
+  },
+  "address": "4A Old Elpitiya Rd, Ambalangoda 80300",
+  "categories": [
+    "Medical laboratory"
+  ],
+  "phone": "0912257815",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B86TDA3HNQ13M8V8Z6FGW"
+}

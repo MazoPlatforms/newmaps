@@ -1,0 +1,58 @@
+{
+  "name": "Summer Fish World",
+  "coordinates": {
+    "latitude": 6.7527994,
+    "longitude": 79.89493089999999
+  },
+  "address": "Moratuwa 12500",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0775289298",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CCVAH5FGKPPTS5X80E9RD"
+}

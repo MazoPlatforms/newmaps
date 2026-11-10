@@ -1,0 +1,57 @@
+{
+  "name": "Subash Bakers & Pastry Shop",
+  "coordinates": {
+    "latitude": 7.092641899999999,
+    "longitude": 79.9920854
+  },
+  "address": "no 98,ja ela road",
+  "categories": [
+    "Pastry shop"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7–8 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7–8 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXYP2KR4GJ4YXVJB50CEY"
+}

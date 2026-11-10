@@ -1,0 +1,58 @@
+{
+  "name": "Salon Milton",
+  "coordinates": {
+    "latitude": 6.027406999999999,
+    "longitude": 80.21597589999999
+  },
+  "address": "26G8+X99, Lighthouse St, Galle 80000",
+  "categories": [
+    "Hair salon"
+  ],
+  "phone": "0775400796",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRN3E5M6PBS7AB9VTJPMG"
+}

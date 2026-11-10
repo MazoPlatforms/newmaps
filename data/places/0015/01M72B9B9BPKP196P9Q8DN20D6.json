@@ -1,0 +1,58 @@
+{
+  "name": "Siyalma Food Fair",
+  "coordinates": {
+    "latitude": 5.945474,
+    "longitude": 80.5500735
+  },
+  "address": "35 Old Tangalle Rd, Matara 81000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0776242218",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9B9BPKP196P9Q8DN20D6"
+}

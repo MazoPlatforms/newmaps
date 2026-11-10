@@ -1,0 +1,63 @@
+{
+  "name": "Mallika Bakers",
+  "coordinates": {
+    "latitude": 6.7985498,
+    "longitude": 79.8887115
+  },
+  "address": "552 Galle Rd, Moratuwa 10400",
+  "categories": [
+    "Bakery",
+    "Cafe",
+    "Cake shop",
+    "Pastry shop",
+    "Restaurant"
+  ],
+  "phone": "0112611777",
+  "website": "https://m.facebook.com/MallikaBakers/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AS6G72PQ4E0RKKDKNSDW3"
+}

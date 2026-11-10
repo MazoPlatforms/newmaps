@@ -1,0 +1,59 @@
+{
+  "name": "Laptopshop",
+  "coordinates": {
+    "latitude": 6.924371,
+    "longitude": 79.86798449999999
+  },
+  "address": "636 Maradana Rd, Colombo 01000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0759910241",
+  "website": "http://www.laptopshop.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JMQNMP0GR06DY99N75N"
+}

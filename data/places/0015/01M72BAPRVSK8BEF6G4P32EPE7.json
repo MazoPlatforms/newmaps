@@ -1,0 +1,59 @@
+{
+  "name": "Cafe Keith",
+  "coordinates": {
+    "latitude": 5.9735996,
+    "longitude": 80.4325953
+  },
+  "address": "486 Matara Rd, Weligama",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "phone": "0773459450",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BAPRVSK8BEF6G4P32EPE7"
+}

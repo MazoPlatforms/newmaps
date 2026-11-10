@@ -1,0 +1,58 @@
+{
+  "name": "Zainamb Traders",
+  "coordinates": {
+    "latitude": 8.032413,
+    "longitude": 79.82780009999999
+  },
+  "address": "50 Mannar Rd, Puttalam",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0771306623",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9–11:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1W5T66C4W9XYXGBDA3TB"
+}

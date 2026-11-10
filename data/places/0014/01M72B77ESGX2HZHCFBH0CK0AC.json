@@ -1,0 +1,58 @@
+{
+  "name": "Natura Italian Restaurant",
+  "coordinates": {
+    "latitude": 6.1287302,
+    "longitude": 80.10323129999999
+  },
+  "address": "412/A, Galle Road, Wewala, Hikkaduwa 80240",
+  "categories": [
+    "Italian restaurant"
+  ],
+  "phone": "0713170604",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77ESGX2HZHCFBH0CK0AC"
+}

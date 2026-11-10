@@ -1,0 +1,58 @@
+{
+  "name": "Atukorala Bakery And Restaurant",
+  "coordinates": {
+    "latitude": 7.2311217999999995,
+    "longitude": 80.2450245
+  },
+  "address": "Kandy - Colombo Rd, Kegalle",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0352222849",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZVD7KCSGSJ2PNQ6P59"
+}

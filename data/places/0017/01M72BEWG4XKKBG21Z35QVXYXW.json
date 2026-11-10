@@ -1,0 +1,58 @@
+{
+  "name": "City Medicals සිටි මෙඩිකල්ස්",
+  "coordinates": {
+    "latitude": 6.9891586,
+    "longitude": 81.0587874
+  },
+  "address": "Lower St, Badulla",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0714208164",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWG4XKKBG21Z35QVXYXW"
+}

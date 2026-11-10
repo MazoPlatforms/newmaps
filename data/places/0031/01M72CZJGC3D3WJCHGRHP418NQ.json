@@ -1,0 +1,58 @@
+{
+  "name": "Fish Aquarium",
+  "coordinates": {
+    "latitude": 6.7080288999999995,
+    "longitude": 79.99109899999999
+  },
+  "address": "63 Waskaduwa - Bandaragama Rd, Bandaragama",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0717752024",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZJGC3D3WJCHGRHP418NQ"
+}

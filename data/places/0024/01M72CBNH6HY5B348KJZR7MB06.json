@@ -1,0 +1,58 @@
+{
+  "name": "Idea Shoes",
+  "coordinates": {
+    "latitude": 6.7757526,
+    "longitude": 79.8827975
+  },
+  "address": "De Mel Lane, Moratuwa 10400",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0714046919",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CBNH6HY5B348KJZR7MB06"
+}

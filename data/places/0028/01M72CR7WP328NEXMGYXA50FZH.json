@@ -1,0 +1,59 @@
+{
+  "name": "ICT Solutions",
+  "coordinates": {
+    "latitude": 6.0473248,
+    "longitude": 80.2114632
+  },
+  "address": "26W6+WHG, Galle 80000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0775663366",
+  "website": "http://www.icts.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7WP328NEXMGYXA50FZH"
+}

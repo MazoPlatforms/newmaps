@@ -1,0 +1,58 @@
+{
+  "name": "Bro Cafe",
+  "coordinates": {
+    "latitude": 7.8789324999999995,
+    "longitude": 80.6505002
+  },
+  "address": "Kandy Rd, Dambulla 21100",
+  "categories": [
+    "Sri Lankan restaurant"
+  ],
+  "phone": "0713971414",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BS92GRG6SAY7EXD58Z12C"
+}

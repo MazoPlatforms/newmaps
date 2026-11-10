@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank",
+  "coordinates": {
+    "latitude": 6.8766988,
+    "longitude": 79.86533949999999
+  },
+  "address": "VVG8+M4G, 115 W.A. Silva Mawatha, Colombo 10290",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112367641",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11RACG92EP7ZG4WFC18"
+}

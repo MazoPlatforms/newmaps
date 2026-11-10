@@ -1,0 +1,58 @@
+{
+  "name": "Hello Print",
+  "coordinates": {
+    "latitude": 6.8963152999999995,
+    "longitude": 79.8912914
+  },
+  "address": "a, 386 Nawala Rd, Sri Jayawardenepura Kotte 11222",
+  "categories": [
+    "Print shop"
+  ],
+  "phone": "0114326893",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5:45 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9X11YZGMFXSEDZABP2GV"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Salon Beloza",
+  "coordinates": {
+    "latitude": 6.6817893999999995,
+    "longitude": 80.40410399999999
+  },
+  "address": "48A Goods Shed Rd, Ratnapura 70000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0760485106",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZ1XVG6DJES861Z3AYE9N"
+}

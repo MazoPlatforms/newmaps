@@ -1,0 +1,58 @@
+{
+  "name": "Lanka Mart Hikkaduwa",
+  "coordinates": {
+    "latitude": 6.126124,
+    "longitude": 80.1074036
+  },
+  "address": "Galle Rd, Hikkaduwa 80240",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "+491753812132",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7AZH588R26WRGB2S2PEA"
+}

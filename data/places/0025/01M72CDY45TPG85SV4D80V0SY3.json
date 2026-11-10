@@ -1,0 +1,60 @@
+{
+  "name": "Hair Refinery Ladies Salon",
+  "coordinates": {
+    "latitude": 6.9050213,
+    "longitude": 79.9052276
+  },
+  "address": "Hair Refinery, 933/B, E. W, Perera Mawatha, Sri Jayawardenepura Kotte 10120",
+  "categories": [
+    "Beauty salon",
+    "Nail salon"
+  ],
+  "phone": "0777773219",
+  "website": "https://hairrefinery.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDY45TPG85SV4D80V0SY3"
+}

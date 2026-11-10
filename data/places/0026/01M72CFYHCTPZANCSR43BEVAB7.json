@@ -1,0 +1,58 @@
+{
+  "name": "Farma Line Group Ltd",
+  "coordinates": {
+    "latitude": 7.197699999999999,
+    "longitude": 79.888239
+  },
+  "address": "No-437,Golden Heven,Kadirana North, Negombo",
+  "categories": [
+    "Garbage dump"
+  ],
+  "phone": "0714947935",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFYHCTPZANCSR43BEVAB7"
+}

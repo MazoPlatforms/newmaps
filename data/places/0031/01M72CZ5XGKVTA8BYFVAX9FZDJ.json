@@ -1,0 +1,59 @@
+{
+  "name": "The Play Spot",
+  "coordinates": {
+    "latitude": 6.684360799999999,
+    "longitude": 80.40860649999999
+  },
+  "address": "Sri Pada Road, 70000",
+  "categories": [
+    "Sports club",
+    "Futsal court"
+  ],
+  "phone": "0707270270",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "2–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "2–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZ5XGKVTA8BYFVAX9FZDJ"
+}

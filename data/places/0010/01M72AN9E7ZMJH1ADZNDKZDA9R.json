@@ -1,0 +1,63 @@
+{
+  "name": "Dr.M Health Care Centre",
+  "coordinates": {
+    "latitude": 6.9526715999999995,
+    "longitude": 79.92639989999999
+  },
+  "address": "No. 70, A, 1 Biyagama Rd, Gonawala 11300",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0778435587",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–1 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–1 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–1 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–1 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–1 PM",
+        "4–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AN9E7ZMJH1ADZNDKZDA9R"
+}

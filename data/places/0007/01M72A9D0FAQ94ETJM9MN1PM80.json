@@ -1,0 +1,58 @@
+{
+  "address": "Super Market, Colombo",
+  "name": "Colpetty Groceries",
+  "coordinates": {
+    "latitude": 6.9120766,
+    "longitude": 79.8506098
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112446424",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72A9D0FAQ94ETJM9MN1PM80"
+}

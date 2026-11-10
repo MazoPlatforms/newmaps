@@ -1,0 +1,58 @@
+{
+  "address": "Uhumeeya, Kurunegala 60000",
+  "name": "Cafe-J",
+  "coordinates": {
+    "latitude": 7.467481899999999,
+    "longitude": 80.30363299999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0705555590",
+  "categories": [
+    "Food court"
+  ],
+  "id": "01M72AFEMA5WY9P0GND0KV8WBX"
+}

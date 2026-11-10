@@ -1,0 +1,59 @@
+{
+  "name": "Sampath Bank",
+  "coordinates": {
+    "latitude": 6.9345037,
+    "longitude": 80.6627353
+  },
+  "address": "WMM7+R35, Avissawella - Hatton - Nuwara Eliya Hwy, Talawakelle",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0522258912",
+  "website": "https://www.sampath.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B5GPJR6NX5HKH7PM52BF9"
+}

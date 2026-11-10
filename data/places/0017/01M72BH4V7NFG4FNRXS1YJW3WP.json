@@ -1,0 +1,58 @@
+{
+  "name": "Aroos Shopping Center",
+  "coordinates": {
+    "latitude": 6.6813557,
+    "longitude": 80.4016948
+  },
+  "address": "MCJ2+GMW, Ratnapura",
+  "categories": [
+    "Clothing store"
+  ],
+  "phone": "0452223438",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BH4V7NFG4FNRXS1YJW3WP"
+}

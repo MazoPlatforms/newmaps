@@ -1,0 +1,58 @@
+{
+  "address": "Lazarus Rd, Negombo",
+  "name": "Moon Pharmacy",
+  "coordinates": {
+    "latitude": 7.216882699999999,
+    "longitude": 79.8523396
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0776761234",
+  "categories": [
+    "Pharmacy"
+  ],
+  "id": "01M72AECTBDF9HGZGFPTXMQJ4G"
+}

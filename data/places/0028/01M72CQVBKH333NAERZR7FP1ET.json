@@ -1,0 +1,59 @@
+{
+  "name": "Design Store",
+  "coordinates": {
+    "latitude": 6.0392538,
+    "longitude": 80.1983466
+  },
+  "address": "colombo road, Galle 80000",
+  "categories": [
+    "Clothing store",
+    "Pottery store"
+  ],
+  "phone": "0912234479",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQVBKH333NAERZR7FP1ET"
+}

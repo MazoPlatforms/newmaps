@@ -1,0 +1,58 @@
+{
+  "name": "New Metro Pharmacy",
+  "coordinates": {
+    "latitude": 8.9815876,
+    "longitude": 79.90534629999999
+  },
+  "address": "XWJ4+J4Q, Hospital Rd, Mannar",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0237911312",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX2KS4RW3TSSAJ5DFKMH9"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Swiss Sweet & Spicy",
+  "coordinates": {
+    "latitude": 6.463982199999999,
+    "longitude": 79.9771566
+  },
+  "address": "33 Bakir Makar Ave, Beruwala",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0754001090",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5:30 AM–12 PM",
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5 AM–12 PM",
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5 AM–12 PM",
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5 AM–12 PM",
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5 AM–12 PM",
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5 AM–12 PM",
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5 AM–12 PM",
+        "4:30–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13C42CH50B3TXS42XN1J"
+}

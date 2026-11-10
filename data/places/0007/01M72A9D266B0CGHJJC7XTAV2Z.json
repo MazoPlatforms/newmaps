@@ -1,0 +1,59 @@
+{
+  "address": "1 Castle Ave, Colombo 00800",
+  "name": "Australian Super Market",
+  "coordinates": {
+    "latitude": 6.9114936,
+    "longitude": 79.880303
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "website": "https://australiansupermarket.com/",
+  "business_status": "OPEN",
+  "phone": "0717333999",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72A9D266B0CGHJJC7XTAV2Z"
+}

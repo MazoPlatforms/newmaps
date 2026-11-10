@@ -1,0 +1,58 @@
+{
+  "name": "Attidiya Public Library",
+  "coordinates": {
+    "latitude": 6.8368492,
+    "longitude": 79.8857271
+  },
+  "address": "RVPP+P7Q, Pansala Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Library"
+  ],
+  "website": "http://dmmc.lk/library-service/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–4:15 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQV2KMKP17ZNG0WT9JNC2"
+}

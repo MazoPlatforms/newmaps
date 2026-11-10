@@ -1,0 +1,59 @@
+{
+  "name": "Olivia Hospital",
+  "coordinates": {
+    "latitude": 7.2217673,
+    "longitude": 81.8490281
+  },
+  "address": "Akkaraipattu",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0677500300",
+  "website": "https://oliviahospital.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C1P3MY4D49QVFTN15ET79"
+}

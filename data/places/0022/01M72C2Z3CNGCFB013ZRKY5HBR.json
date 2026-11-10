@@ -1,0 +1,58 @@
+{
+  "name": "7-ELEVEN (Supermarket)",
+  "coordinates": {
+    "latitude": 8.614773399999999,
+    "longitude": 81.21370689999999
+  },
+  "address": "J677+WF5, Trincomalee",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0764547480",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3CNGCFB013ZRKY5HBR"
+}

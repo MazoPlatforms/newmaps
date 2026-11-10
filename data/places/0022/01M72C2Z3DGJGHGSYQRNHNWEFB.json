@@ -1,0 +1,58 @@
+{
+  "name": "Central City",
+  "coordinates": {
+    "latitude": 8.5780259,
+    "longitude": 81.23148429999999
+  },
+  "address": "H6HJ+6JC, Main St, Trincomalee",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0262220507",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C2Z3DGJGHGSYQRNHNWEFB"
+}

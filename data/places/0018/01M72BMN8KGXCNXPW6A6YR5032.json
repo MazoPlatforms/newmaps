@@ -1,0 +1,57 @@
+{
+  "name": "Hospital Public Canteen",
+  "coordinates": {
+    "latitude": 7.4713826999999995,
+    "longitude": 80.0444388
+  },
+  "address": "No 77 Hettipola Rd, Kuliyapitiya",
+  "categories": [
+    "Grocery store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–5 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMN8KGXCNXPW6A6YR5032"
+}

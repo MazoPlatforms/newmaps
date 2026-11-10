@@ -1,0 +1,61 @@
+{
+  "name": "TechAssist IT Services",
+  "coordinates": {
+    "latitude": 6.7244024,
+    "longitude": 79.9119035
+  },
+  "address": "Panadura",
+  "categories": [
+    "Computer consultant",
+    "Computer repair service",
+    "Computer service"
+  ],
+  "phone": "0779433669",
+  "website": "https://sites.google.com/view/tech-a-its/home",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPRQYS43XSN6XKB5XCS4"
+}

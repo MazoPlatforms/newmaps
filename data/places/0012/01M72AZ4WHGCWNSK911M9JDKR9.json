@@ -1,0 +1,58 @@
+{
+  "name": "Kalutara Public Library",
+  "coordinates": {
+    "latitude": 6.5858133,
+    "longitude": 79.96003639999999
+  },
+  "address": "Colombo - Galle Main Rd, Kalutara, KT1 1AA",
+  "categories": [
+    "Public library"
+  ],
+  "phone": "0342226422",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ4WHGCWNSK911M9JDKR9"
+}

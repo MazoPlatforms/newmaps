@@ -1,0 +1,62 @@
+{
+  "name": "Care Plus Clinic & Pharmacy",
+  "coordinates": {
+    "latitude": 6.8263348,
+    "longitude": 79.96059489999999
+  },
+  "address": "Sikuradapola Junction, Pannipitiya 10230",
+  "categories": [
+    "Medical Center",
+    "Health consultant",
+    "Hospital",
+    "Medical clinic",
+    "Pharmacy"
+  ],
+  "phone": "0743876329",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3X0QTBNK4M1BPA8WZ4"
+}

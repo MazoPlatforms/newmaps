@@ -1,0 +1,58 @@
+{
+  "name": "Prasanna Motor Works",
+  "coordinates": {
+    "latitude": 7.4696817,
+    "longitude": 80.0270877
+  },
+  "address": "F29G+VRG, Kuliyapitiya",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0777859139",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN0CEYK3TNVQ9M7RFN2HK"
+}

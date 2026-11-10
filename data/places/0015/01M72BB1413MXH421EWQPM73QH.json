@@ -1,0 +1,65 @@
+{
+  "name": "Gurubebila Medical Center(Dr.Pradeep)",
+  "coordinates": {
+    "latitude": 5.9632704,
+    "longitude": 80.4034538
+  },
+  "address": "Weligama",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0718681116",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:15–8 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:15–8 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:15–8 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:15–8 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:15–8 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:15–8 AM",
+        "4:15–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:15–8 AM",
+        "4:15–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BB1413MXH421EWQPM73QH"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "City Super",
+  "coordinates": {
+    "latitude": 7.4885487,
+    "longitude": 80.3616964
+  },
+  "address": "21 Negombo Rd, Kurunegala 60000",
+  "categories": [
+    "Convenience store"
+  ],
+  "phone": "0775750850",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:45 AM",
+        "1:45–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMA1XNZYM1S8XN72B9XS"
+}

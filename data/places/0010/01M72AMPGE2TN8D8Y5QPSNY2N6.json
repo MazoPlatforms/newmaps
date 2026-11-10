@@ -1,0 +1,62 @@
+{
+  "name": "Best Foods",
+  "coordinates": {
+    "latitude": 6.8532892,
+    "longitude": 79.8739586
+  },
+  "address": "164c Anagarika Dharmapala Mawatha, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Supermarket",
+    "Delivery service",
+    "Grocery delivery service"
+  ],
+  "phone": "0777366880",
+  "website": "http://www.bestfoods.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8–11:15 AM",
+        "2–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AMPGE2TN8D8Y5QPSNY2N6"
+}

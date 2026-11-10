@@ -1,0 +1,59 @@
+{
+  "name": "Onestore",
+  "coordinates": {
+    "latitude": 6.9088398,
+    "longitude": 79.89650329999999
+  },
+  "address": "420 4th Floor Jana Jaya City, Nawala Rd, 10100",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0755172169",
+  "website": "https://onestore.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJR3J2EZDW9Z3AG6P710"
+}

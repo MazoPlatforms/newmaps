@@ -1,0 +1,58 @@
+{
+  "name": "Building Material Corporation",
+  "coordinates": {
+    "latitude": 6.9933568,
+    "longitude": 81.05511489999999
+  },
+  "address": "No.61, Mailagastenna Road, Kanupalalla, Badulla",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0552222390",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXHB0SSA2D9MX17A8FJSA"
+}

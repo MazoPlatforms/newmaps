@@ -1,0 +1,58 @@
+{
+  "name": "Saloon #ASH",
+  "coordinates": {
+    "latitude": 6.854281299999999,
+    "longitude": 79.86547
+  },
+  "address": "162b Galle Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0778934389",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CB2CE61PFX5585A4SZX33"
+}

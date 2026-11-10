@@ -1,0 +1,58 @@
+{
+  "name": "Eat Mee Cakes",
+  "coordinates": {
+    "latitude": 7.458029799999999,
+    "longitude": 80.623065
+  },
+  "address": "MC Rd, Matale 21000",
+  "categories": [
+    "Cake shop"
+  ],
+  "phone": "0714410183",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3D83RTE3WQ198CD6F6TQ"
+}

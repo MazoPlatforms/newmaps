@@ -1,0 +1,61 @@
+{
+  "name": "Hudo Lounge",
+  "coordinates": {
+    "latitude": 8.3368893,
+    "longitude": 80.4141491
+  },
+  "address": "Stage I, Weerasekararama Mawatha, Anuradhapura 50000",
+  "categories": [
+    "Coffee shop",
+    "Cafe",
+    "Restaurant"
+  ],
+  "phone": "0257284899",
+  "website": "https://theivylake.com/hudo-lounge",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRAY1PMBJYTKS2KKM25V"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Rubasinghe Products Company",
+  "coordinates": {
+    "latitude": 6.702253799999999,
+    "longitude": 79.925949
+  },
+  "address": "PW2G+W94, Panadura",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0382234472",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B03AWDPVZBGG753Q7AZVY"
+}

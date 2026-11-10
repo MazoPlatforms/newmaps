@@ -1,0 +1,62 @@
+{
+  "name": "IT Zone Technology (PVT) Ltd",
+  "coordinates": {
+    "latitude": 7.3198098,
+    "longitude": 80.6338615
+  },
+  "address": "Mawilmada Rd, Kandy 20000",
+  "categories": [
+    "Computer store",
+    "Electronics store",
+    "Hardware store",
+    "Stationery store"
+  ],
+  "phone": "0775694407",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM",
+        "5:45–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHENAPEZ49319X5B329E"
+}

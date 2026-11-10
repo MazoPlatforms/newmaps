@@ -1,0 +1,63 @@
+{
+  "address": "Leyn Baan, Cross Street, Galle 80000",
+  "name": "The Pasta Factory",
+  "coordinates": {
+    "latitude": 6.0270331,
+    "longitude": 80.2179343
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777147736",
+  "categories": [
+    "Cafe",
+    "Brunch restaurant",
+    "Italian restaurant",
+    "Gluten-free restaurant",
+    "Mediterranean restaurant",
+    "Vegetarian cafe and deli"
+  ],
+  "id": "01M72ABTTH36QGQ5B2AKZ0RTQ5"
+}

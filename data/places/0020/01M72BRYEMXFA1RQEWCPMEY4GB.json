@@ -1,0 +1,58 @@
+{
+  "name": "Deepasara Service Station",
+  "coordinates": {
+    "latitude": 7.945024999999999,
+    "longitude": 81.0115454
+  },
+  "address": "W2W6+2J7, Somawathiya Rd, Polonnaruwa",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0718319176",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRYEMXFA1RQEWCPMEY4GB"
+}

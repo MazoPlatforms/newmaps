@@ -1,0 +1,58 @@
+{
+  "name": "TronixHub - Home Appliance Repair Centre",
+  "coordinates": {
+    "latitude": 6.955775699999999,
+    "longitude": 81.03213319999999
+  },
+  "address": "Badulla Rd, Hali-ela 90060",
+  "categories": [
+    "Television repair service"
+  ],
+  "phone": "0743299555",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWWBGFA100FBHFT7JPMQM"
+}

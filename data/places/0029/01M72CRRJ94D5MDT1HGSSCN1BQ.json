@@ -1,0 +1,58 @@
+{
+  "name": "The Wholesale Hub",
+  "coordinates": {
+    "latitude": 6.0353479,
+    "longitude": 80.2192436
+  },
+  "address": "21b Ward St, Galle 80000",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0778846499",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRRJ94D5MDT1HGSSCN1BQ"
+}

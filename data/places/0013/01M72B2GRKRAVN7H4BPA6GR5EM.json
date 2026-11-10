@@ -1,0 +1,59 @@
+{
+  "name": "New City Super",
+  "coordinates": {
+    "latitude": 7.341761,
+    "longitude": 80.6513411
+  },
+  "address": "Abdul Rahman Mawatha, 14 Doragamuwa Rd, Kandy 20802",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0812493883",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11:30 AM",
+        "1–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2GRKRAVN7H4BPA6GR5EM"
+}

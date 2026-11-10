@@ -1,0 +1,58 @@
+{
+  "name": "Chilaw Auto Hybrid",
+  "coordinates": {
+    "latitude": 7.577102699999999,
+    "longitude": 79.80110169999999
+  },
+  "address": "Chilaw",
+  "categories": [
+    "Repair service"
+  ],
+  "phone": "0777752247",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPDQA02GE37BP6K44E2TE"
+}

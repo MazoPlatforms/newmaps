@@ -1,0 +1,59 @@
+{
+  "name": "Nawaloka Premier Centre",
+  "coordinates": {
+    "latitude": 6.912853699999999,
+    "longitude": 79.8705181
+  },
+  "address": "29A Wijerama Mawatha, Colombo 7",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0117999500",
+  "website": "https://www.nawalokamedicare.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYGCFHQPBY9GS0TZ9HYP7"
+}

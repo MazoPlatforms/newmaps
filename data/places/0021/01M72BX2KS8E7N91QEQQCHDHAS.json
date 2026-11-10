@@ -1,0 +1,58 @@
+{
+  "name": "District Chest Clinic Mannar",
+  "coordinates": {
+    "latitude": 8.982790099999999,
+    "longitude": 79.90294449999999
+  },
+  "address": "XWM3+458, District Chest Clinic, Thalvupadu - Mannar Rd, Mannar",
+  "categories": [
+    "Medical clinic"
+  ],
+  "phone": "0232251554",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX2KS8E7N91QEQQCHDHAS"
+}

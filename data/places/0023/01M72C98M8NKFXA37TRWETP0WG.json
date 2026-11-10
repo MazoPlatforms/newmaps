@@ -1,0 +1,58 @@
+{
+  "name": "Western Saloon",
+  "coordinates": {
+    "latitude": 6.949324,
+    "longitude": 79.85906399999999
+  },
+  "address": "63 George R. De Silva Mawatha, Colombo 00130",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0774747715",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98M8NKFXA37TRWETP0WG"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Lanka Medical Pharmacy",
+  "coordinates": {
+    "latitude": 6.679444999999999,
+    "longitude": 80.4051429
+  },
+  "address": "222 Main St, Colombo - Batticaloa Hwy, Ratnapura",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0452222334",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHA0M420JRN0HRRD50N4W"
+}

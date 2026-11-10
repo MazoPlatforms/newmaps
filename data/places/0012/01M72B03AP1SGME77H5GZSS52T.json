@@ -1,0 +1,58 @@
+{
+  "name": "Sunil Stores",
+  "coordinates": {
+    "latitude": 6.7152069,
+    "longitude": 79.90482879999999
+  },
+  "address": "PW83+3WP, Panadura",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0725127007",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:45 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:45 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B03AP1SGME77H5GZSS52T"
+}

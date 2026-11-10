@@ -1,0 +1,61 @@
+{
+  "name": "Global Electronics",
+  "coordinates": {
+    "latitude": 7.489123299999999,
+    "longitude": 80.36261259999999
+  },
+  "address": "#31/B, Main Street, Kurunegala 60000",
+  "categories": [
+    "Electronics store",
+    "Electronics accessories wholesaler"
+  ],
+  "phone": "0377119229",
+  "website": "https://facebook.com/GLOBALKUR",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 PM",
+        "1:30–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D0HG9P5ZHY7BTYDW8K027"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Wilson Trading Company (PVT) Ltd",
+  "coordinates": {
+    "latitude": 8.3417637,
+    "longitude": 80.4131617
+  },
+  "address": "No 10-13, Market Site, 50000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0252222017",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4KS43C0NT4EEFJ1ZR94"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Commercial Bank Pettah Branch",
+  "coordinates": {
+    "latitude": 6.937964999999999,
+    "longitude": 79.8561431
+  },
+  "address": "Peoples Park Shopping Complex 180/1/31, Colombo",
+  "categories": [
+    "Bank",
+    "ATM"
+  ],
+  "phone": "0112446290",
+  "website": "http://www.combank.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ANQR2SNFNCG8VQRNHXR33"
+}

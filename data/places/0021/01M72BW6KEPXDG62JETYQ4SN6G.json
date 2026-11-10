@@ -1,0 +1,58 @@
+{
+  "name": "Sasi Mini Supermarket",
+  "coordinates": {
+    "latitude": 8.767966999999999,
+    "longitude": 80.47793949999999
+  },
+  "address": "6th Street, Vavuniya 43000",
+  "categories": [
+    "Store"
+  ],
+  "phone": "0742440152",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6KEPXDG62JETYQ4SN6G"
+}

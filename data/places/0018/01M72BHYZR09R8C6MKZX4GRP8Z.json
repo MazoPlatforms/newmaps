@@ -1,0 +1,58 @@
+{
+  "name": "Delicacy Restaurant",
+  "coordinates": {
+    "latitude": 7.2488684999999995,
+    "longitude": 80.34345259999999
+  },
+  "address": "198 Kalugalla Ave, Kegalle",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0716835936",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BHYZR09R8C6MKZX4GRP8Z"
+}

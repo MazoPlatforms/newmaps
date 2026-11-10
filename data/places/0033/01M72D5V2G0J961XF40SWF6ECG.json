@@ -1,0 +1,59 @@
+{
+  "name": "Austriya Photo",
+  "coordinates": {
+    "latitude": 8.7524863,
+    "longitude": 80.49970429999999
+  },
+  "address": "50 1st Cross St, Vavuniya 43000",
+  "categories": [
+    "Photo lab"
+  ],
+  "phone": "0773501045",
+  "website": "https://austriya.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5V2G0J961XF40SWF6ECG"
+}

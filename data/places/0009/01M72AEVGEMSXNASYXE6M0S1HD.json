@@ -1,0 +1,59 @@
+{
+  "address": "No 49 Negombo Main Rd, Negombo",
+  "name": "Institute Of British Examinations",
+  "coordinates": {
+    "latitude": 7.201076,
+    "longitude": 79.8517306
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.ibe.lk/",
+  "business_status": "OPEN",
+  "phone": "0312223096",
+  "categories": [
+    "Test preparation center"
+  ],
+  "id": "01M72AEVGEMSXNASYXE6M0S1HD"
+}

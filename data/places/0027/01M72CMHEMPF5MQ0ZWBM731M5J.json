@@ -1,0 +1,59 @@
+{
+  "name": "Techzone - Kandy",
+  "coordinates": {
+    "latitude": 7.2893495999999995,
+    "longitude": 80.6295337
+  },
+  "address": "208 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0812220127",
+  "website": "https://techzone.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–3:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHEMPF5MQ0ZWBM731M5J"
+}

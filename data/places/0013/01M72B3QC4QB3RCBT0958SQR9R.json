@@ -1,0 +1,58 @@
+{
+  "name": "Arogya Dispensary / Medical Center Dr. Chathura Bandara",
+  "coordinates": {
+    "latitude": 7.456136399999999,
+    "longitude": 80.6245515
+  },
+  "address": "85 MC Rd, Matale 21000",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0776208911",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4:30–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4:30–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3QC4QB3RCBT0958SQR9R"
+}

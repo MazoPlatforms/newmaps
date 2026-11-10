@@ -1,0 +1,59 @@
+{
+  "name": "Capital Campus",
+  "coordinates": {
+    "latitude": 9.2398486,
+    "longitude": 80.82134599999999
+  },
+  "address": "6RQC+WGQ, Chilawaththai, Mullaitivu",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0769151510",
+  "website": "https://www.capitalcampus.org.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BY31SFT29RT2PZSYAC4BN"
+}

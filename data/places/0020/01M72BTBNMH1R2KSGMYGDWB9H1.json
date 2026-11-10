@@ -1,0 +1,58 @@
+{
+  "name": "Dinesh Motors",
+  "coordinates": {
+    "latitude": 7.873054,
+    "longitude": 80.77179699999999
+  },
+  "address": "190 biyagamaroad pattiya kelaniya",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0776748842",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BTBNMH1R2KSGMYGDWB9H1"
+}

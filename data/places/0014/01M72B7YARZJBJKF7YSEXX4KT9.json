@@ -1,0 +1,60 @@
+{
+  "name": "WOK Restaurant & Roti Hut",
+  "coordinates": {
+    "latitude": 6.2391853,
+    "longitude": 80.05809049999999
+  },
+  "address": "Vilegoda, No.49 S. G. A. De Silva Mawatha, Ambalangoda 80300",
+  "categories": [
+    "Restaurant",
+    "Chinese restaurant",
+    "Indian restaurant"
+  ],
+  "phone": "0760143443",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YARZJBJKF7YSEXX4KT9"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "GrocerySlot",
+  "coordinates": {
+    "latitude": 6.824147,
+    "longitude": 79.8815716
+  },
+  "address": "Bus Stop, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0112626969",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ASKYFR7MG01WRV3Q1CMFA"
+}

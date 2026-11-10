@@ -1,0 +1,58 @@
+{
+  "name": "Liyanaarachchi Auto Care",
+  "coordinates": {
+    "latitude": 6.0205465,
+    "longitude": 80.7758047
+  },
+  "address": "2QCG+687, Tangalle",
+  "categories": [
+    "Repair service"
+  ],
+  "phone": "0775822281",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BD7N0QN7F2DAF725P29XX"
+}

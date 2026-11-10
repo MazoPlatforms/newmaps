@@ -1,0 +1,65 @@
+{
+  "address": "144 Aadiyapatham Rd, Jaffna 40000",
+  "name": "R&B Shop & Market",
+  "coordinates": {
+    "latitude": 9.6865882,
+    "longitude": 80.0339146
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–6 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–6 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–6 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–6 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–6 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–6 AM"
+      ]
+    }
+  ],
+  "website": "https://www.rbbio.ch/",
+  "business_status": "OPEN",
+  "phone": "0712204241",
+  "categories": [
+    "Gas cylinders supplier",
+    "Produce market"
+  ],
+  "id": "01M72AD61HZJ10CGZZB2EVPJMV"
+}

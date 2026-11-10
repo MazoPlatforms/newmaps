@@ -1,0 +1,59 @@
+{
+  "name": "Department Of Clinical Oncology General Hospital Badulla",
+  "coordinates": {
+    "latitude": 6.9920152,
+    "longitude": 81.0515995
+  },
+  "address": "X3R2+RJ5, Daya Gunasekara Mawatha, Badulla",
+  "categories": [
+    "Hospital department"
+  ],
+  "phone": "0552222261",
+  "website": "http://www.badullapgh.org/?our-services=department-of-oncology",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEWGB0ZSXKZ3PKD2XG8F1"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Big Plate",
+  "coordinates": {
+    "latitude": 6.8966347,
+    "longitude": 79.8524194
+  },
+  "address": "No 32, 8th Lane Kollupitiya, Colombo, 03 Marine Drive, Face 00300",
+  "categories": [
+    "Halal restaurant",
+    "Restaurant"
+  ],
+  "phone": "0777799400",
+  "website": "https://bigplate.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11:30 AM–12:30 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11:30 AM–12:30 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11:30 AM–12:30 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11:30 AM–12:30 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "1:30 PM–1:30 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11:30 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–1 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4ENJH9BNGDF6SDEJN5EN"
+}

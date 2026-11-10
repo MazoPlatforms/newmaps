@@ -1,0 +1,62 @@
+{
+  "name": "Nelaka Auto Care",
+  "coordinates": {
+    "latitude": 5.9431502,
+    "longitude": 80.5188316
+  },
+  "address": "No 593, Galle Road, South, Matara 81000",
+  "categories": [
+    "Car repair and maintenance service",
+    "Auto air conditioning service",
+    "Auto electrical service",
+    "Vehicle inspection service"
+  ],
+  "phone": "0717515888",
+  "website": "https://www.nelakaauto.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BA8912EZFJ0FMWT6FYWP9"
+}

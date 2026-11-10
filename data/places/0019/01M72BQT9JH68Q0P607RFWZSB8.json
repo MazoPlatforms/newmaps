@@ -1,0 +1,58 @@
+{
+  "name": "Keerthi Filling Station And Service Center",
+  "coordinates": {
+    "latitude": 8.3556148,
+    "longitude": 80.41562669999999
+  },
+  "address": "B164, Anuradhapura",
+  "categories": [
+    "Gas station"
+  ],
+  "phone": "0252222303",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQT9JH68Q0P607RFWZSB8"
+}

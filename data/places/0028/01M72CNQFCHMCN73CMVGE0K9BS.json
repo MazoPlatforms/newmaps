@@ -1,0 +1,60 @@
+{
+  "name": "Cyber Spot",
+  "coordinates": {
+    "latitude": 7.3773839,
+    "longitude": 80.6190582
+  },
+  "address": "273 Matale Rd, Akurana 20850",
+  "categories": [
+    "Mobile phone repair shop",
+    "Computer repair service"
+  ],
+  "phone": "0775513388",
+  "website": "https://www.facebook.com/CyberSpotAkurana",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CNQFCHMCN73CMVGE0K9BS"
+}

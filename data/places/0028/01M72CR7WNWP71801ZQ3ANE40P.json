@@ -1,0 +1,65 @@
+{
+  "name": "Central Venture",
+  "coordinates": {
+    "latitude": 6.0347558999999995,
+    "longitude": 80.2146111
+  },
+  "address": "42/A Havelock Rd, Galle 80000",
+  "categories": [
+    "Cell phone store",
+    "Flavours fragrances and aroma supplier",
+    "Gift shop",
+    "Money transfer service",
+    "Pen store",
+    "Perfume store",
+    "Watch store"
+  ],
+  "phone": "0912236565",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–12 PM",
+        "1:30–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CR7WNWP71801ZQ3ANE40P"
+}

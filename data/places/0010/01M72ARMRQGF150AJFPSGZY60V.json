@@ -1,0 +1,58 @@
+{
+  "name": "Stanley Motors",
+  "coordinates": {
+    "latitude": 6.8130074,
+    "longitude": 79.8878663
+  },
+  "address": "No. 52, 1st Cross Street, Borupana-Rathmalana",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0773648493",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRQGF150AJFPSGZY60V"
+}

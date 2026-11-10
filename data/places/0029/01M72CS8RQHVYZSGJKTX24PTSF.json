@@ -1,0 +1,59 @@
+{
+  "name": "Sam's Bar",
+  "coordinates": {
+    "latitude": 6.128476999999999,
+    "longitude": 80.10427109999999
+  },
+  "address": "A2, Hikkaduwa",
+  "categories": [
+    "Bar"
+  ],
+  "phone": "0772131031",
+  "website": "http://samsbarhikka.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CS8RQHVYZSGJKTX24PTSF"
+}

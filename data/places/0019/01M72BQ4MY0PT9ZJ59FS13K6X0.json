@@ -1,0 +1,59 @@
+{
+  "name": "Shenaya Pharmacy & Grocery",
+  "coordinates": {
+    "latitude": 8.280839499999999,
+    "longitude": 80.3920303
+  },
+  "address": "Anuradhapura",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0752632436",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8–11 AM",
+        "4–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4MY0PT9ZJ59FS13K6X0"
+}

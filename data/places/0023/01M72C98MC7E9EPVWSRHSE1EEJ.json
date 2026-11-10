@@ -1,0 +1,58 @@
+{
+  "name": "Salon One",
+  "coordinates": {
+    "latitude": 6.8277703999999995,
+    "longitude": 79.868725
+  },
+  "address": "152 Galle Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0775442222",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C98MC7E9EPVWSRHSE1EEJ"
+}

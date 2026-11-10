@@ -1,0 +1,63 @@
+{
+  "name": "X Mobile",
+  "coordinates": {
+    "latitude": 6.91186,
+    "longitude": 79.8512289
+  },
+  "address": "LIBERTY PLAZA, 42N Ground Floor, Colombo 00300",
+  "categories": [
+    "Computer store",
+    "Cell phone accessory store",
+    "Cell phone store",
+    "Electronics wholesaler"
+  ],
+  "phone": "0777267436",
+  "website": "https://xmobile.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 PM",
+        "1–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JN8X22SHV3NAQFG8KFM"
+}

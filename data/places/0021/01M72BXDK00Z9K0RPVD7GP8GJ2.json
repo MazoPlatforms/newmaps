@@ -1,0 +1,58 @@
+{
+  "name": "Sy Niro Cool Cafe 2",
+  "coordinates": {
+    "latitude": 9.3829048,
+    "longitude": 80.395806
+  },
+  "address": "No 46 Uthayanagar west, Kilinochchi",
+  "categories": [
+    "Asian restaurant"
+  ],
+  "phone": "0774544418",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXDK00Z9K0RPVD7GP8GJ2"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Hairport The Beauty Bar",
+  "coordinates": {
+    "latitude": 6.9845652,
+    "longitude": 81.0582779
+  },
+  "address": "No:03 Bank Road, Badulla",
+  "categories": [
+    "Beauty salon",
+    "Hairdresser"
+  ],
+  "phone": "0772272809",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CXMVVDEGW5GR45K3E9CV8"
+}

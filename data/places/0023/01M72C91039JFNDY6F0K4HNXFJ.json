@@ -1,0 +1,58 @@
+{
+  "name": "A.H.S Hardware Stores",
+  "coordinates": {
+    "latitude": 6.935190599999999,
+    "longitude": 79.8559409
+  },
+  "address": "Mg 13 Saunders Pl, Colombo",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112541744",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C91039JFNDY6F0K4HNXFJ"
+}

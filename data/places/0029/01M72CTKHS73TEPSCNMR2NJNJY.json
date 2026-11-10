@@ -1,0 +1,58 @@
+{
+  "name": "New Sri Lankan Salon",
+  "coordinates": {
+    "latitude": 5.9456286,
+    "longitude": 80.5497565
+  },
+  "address": "WGWX+7W2, Old Tangalle Rd, Matara",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0772117071",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTKHS73TEPSCNMR2NJNJY"
+}

@@ -1,0 +1,60 @@
+{
+  "address": "9 Hill St, Dehiwala-Mount Lavinia",
+  "name": "Lucky Stores",
+  "coordinates": {
+    "latitude": 6.8513999,
+    "longitude": 79.86652579999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112724208",
+  "categories": [
+    "Asian grocery store",
+    "Grocery store",
+    "Supermarket"
+  ],
+  "id": "01M72A9D2J9GTGS5DR5DC8CP5Z"
+}

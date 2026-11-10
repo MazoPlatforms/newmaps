@@ -1,0 +1,58 @@
+{
+  "name": "Automan Service Station & Mechanics",
+  "coordinates": {
+    "latitude": 6.8429058,
+    "longitude": 79.8671442
+  },
+  "address": "2/A St Sylvester Rd, Dehiwala-Mount Lavinia 10370",
+  "categories": [
+    "Mechanical engineer"
+  ],
+  "phone": "0754035824",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ARMRZRDB5958767PVW30W"
+}

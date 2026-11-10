@@ -1,0 +1,58 @@
+{
+  "name": "Reliable Auto Service",
+  "coordinates": {
+    "latitude": 7.4783779,
+    "longitude": 80.33893189999999
+  },
+  "address": "F8HQ+9H3, Malpiyali Mawatha, Kurunegala",
+  "categories": [
+    "Chauffeur service"
+  ],
+  "phone": "0374690059",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BM9322AQKSQH8PBAC5F8Q"
+}

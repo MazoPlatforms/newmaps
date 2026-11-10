@@ -1,0 +1,58 @@
+{
+  "name": "Paan Lab",
+  "coordinates": {
+    "latitude": 6.7476663,
+    "longitude": 79.9012726
+  },
+  "address": "61 old galle road henamulla, Panadura 12550",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0711101770",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZQ8M836GHB8Q38JXE2F9"
+}

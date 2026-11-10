@@ -1,0 +1,66 @@
+{
+  "name": "AIC Campus Kandy",
+  "coordinates": {
+    "latitude": 7.2912804,
+    "longitude": 80.6312897
+  },
+  "address": "111 Peradeniya Rd, Kandy 20000",
+  "categories": [
+    "Business school",
+    "College",
+    "Education center",
+    "Educational consultant",
+    "Educational institution",
+    "Psychotherapist",
+    "Teachers college",
+    "University"
+  ],
+  "phone": "0761335511",
+  "website": "https://kandy.aicedu.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2T5R640FDXYWD129D2F4"
+}

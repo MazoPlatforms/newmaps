@@ -1,0 +1,66 @@
+{
+  "name": "Medicare Dispensary And Surgery",
+  "coordinates": {
+    "latitude": 6.7995684999999995,
+    "longitude": 79.9190279
+  },
+  "address": "152 Moratuwa - Piliyandala Rd, Piliyandala 10300",
+  "categories": [
+    "Medical Center",
+    "Doctor"
+  ],
+  "phone": "0112609488",
+  "website": "https://www.facebook.com/medicarepiliyandala/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–12 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–12 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–12 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–12 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–12 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–12 PM",
+        "4:30–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3WNZB1ZS648D1G01D6"
+}

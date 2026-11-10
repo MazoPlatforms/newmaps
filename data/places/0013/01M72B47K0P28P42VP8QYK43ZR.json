@@ -1,0 +1,63 @@
+{
+  "name": "Cafe Chill Nuwara Eliya",
+  "coordinates": {
+    "latitude": 6.973629099999999,
+    "longitude": 80.767501
+  },
+  "address": "No 2 old udapusellawa road, Nuwara Eliya 22200",
+  "categories": [
+    "Cafe",
+    "Bar",
+    "Coffee shop",
+    "Hookah bar",
+    "Pub",
+    "Restaurant"
+  ],
+  "phone": "0776110664",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B47K0P28P42VP8QYK43ZR"
+}

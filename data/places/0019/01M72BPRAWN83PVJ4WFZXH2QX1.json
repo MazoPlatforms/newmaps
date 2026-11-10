@@ -1,0 +1,59 @@
+{
+  "name": "Barista Anuradhapura",
+  "coordinates": {
+    "latitude": 8.3261282,
+    "longitude": 80.3985833
+  },
+  "address": "519/G 23 Jayanthi Mawatha, Anuradhapura 50000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0252229968",
+  "website": "https://barista.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRAWN83PVJ4WFZXH2QX1"
+}

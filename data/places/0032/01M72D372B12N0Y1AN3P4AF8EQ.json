@@ -1,0 +1,58 @@
+{
+  "name": "Recreation Club",
+  "coordinates": {
+    "latitude": 8.3201852,
+    "longitude": 80.419851
+  },
+  "address": "8CC9+3WH, Bandaranaike Mawatha, Anuradhapura",
+  "categories": [
+    "Night club"
+  ],
+  "phone": "0252222587",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D372B12N0Y1AN3P4AF8EQ"
+}

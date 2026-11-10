@@ -1,0 +1,59 @@
+{
+  "name": "D7 Juice And Cafe",
+  "coordinates": {
+    "latitude": 6.123187499999999,
+    "longitude": 81.0253125
+  },
+  "address": "42FG+74G, Ambalantota 82100",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "phone": "0711155527",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGA9XJW7G5N0MTGQYTX"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Matara Work Shop - Alumium / Iron / Wood",
+  "coordinates": {
+    "latitude": 5.9649132,
+    "longitude": 80.5477224
+  },
+  "address": "Hakmana Road, Premapala Mawatha, Matara 81000",
+  "categories": [
+    "Aluminum supplier",
+    "Iron works",
+    "Wood supplier"
+  ],
+  "phone": "0778778030",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CTHBEHCQ891J00QSR3FJK"
+}

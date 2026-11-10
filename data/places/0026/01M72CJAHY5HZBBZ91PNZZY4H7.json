@@ -1,0 +1,58 @@
+{
+  "name": "Tropical Fish Hub",
+  "coordinates": {
+    "latitude": 6.709083199999999,
+    "longitude": 80.08215799999999
+  },
+  "address": "1/75, 20th lane, Dikhenapura Road, Horana 12400",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0766820225",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJAHY5HZBBZ91PNZZY4H7"
+}

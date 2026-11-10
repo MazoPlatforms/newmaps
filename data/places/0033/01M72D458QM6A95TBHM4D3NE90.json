@@ -1,0 +1,58 @@
+{
+  "name": "Museum Of Wall Painting",
+  "coordinates": {
+    "latitude": 7.8538019,
+    "longitude": 80.6524439
+  },
+  "address": "VM32+GXG, Kandy - Jaffna Hwy, Dambulla",
+  "categories": [
+    "Tourist attraction",
+    "Museum"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D458QM6A95TBHM4D3NE90"
+}

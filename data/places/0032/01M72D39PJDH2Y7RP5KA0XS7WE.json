@@ -1,0 +1,58 @@
+{
+  "name": "DSI Showroom Polonnaruwa",
+  "coordinates": {
+    "latitude": 7.9325939,
+    "longitude": 81.0313913
+  },
+  "address": "No 808 Main Street, Polonnaruwa 51000",
+  "categories": [
+    "Shoe store"
+  ],
+  "phone": "0272225469",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D39PJDH2Y7RP5KA0XS7WE"
+}

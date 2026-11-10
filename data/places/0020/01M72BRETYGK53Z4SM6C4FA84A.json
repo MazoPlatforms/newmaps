@@ -1,0 +1,58 @@
+{
+  "name": "IJ Stores",
+  "coordinates": {
+    "latitude": 7.9618117999999996,
+    "longitude": 81.0281131
+  },
+  "address": "41/2/A, Palugasdamana 51000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0710610277",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRETYGK53Z4SM6C4FA84A"
+}

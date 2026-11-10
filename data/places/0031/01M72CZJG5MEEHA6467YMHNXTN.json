@@ -1,0 +1,58 @@
+{
+  "name": "Susantha Fish Farm",
+  "coordinates": {
+    "latitude": 6.7858873,
+    "longitude": 80.1541891
+  },
+  "address": "281/A/2,Wela Ihala,Handapangoda, Ingiriya",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0722182321",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CZJG5MEEHA6467YMHNXTN"
+}

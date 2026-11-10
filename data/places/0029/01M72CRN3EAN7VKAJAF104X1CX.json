@@ -1,0 +1,59 @@
+{
+  "name": "Salon Belinda",
+  "coordinates": {
+    "latitude": 6.0384892,
+    "longitude": 80.2146602
+  },
+  "address": "82 Havelock Rd, Galle 80000",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0702444393",
+  "website": "https://saloonbelinda.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRN3EAN7VKAJAF104X1CX"
+}

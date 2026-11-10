@@ -1,0 +1,58 @@
+{
+  "name": "St.Antony's Stores",
+  "coordinates": {
+    "latitude": 9.383406299999999,
+    "longitude": 80.4169969
+  },
+  "address": "9CM8+9Q4, 91, Raththinapuram, Kilinochchi",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0770625337",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:45 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:45 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXMQ7WWWDRG1H3WDSFBQ5"
+}

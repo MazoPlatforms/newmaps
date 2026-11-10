@@ -1,0 +1,67 @@
+{
+  "name": "Rhs Trade Center",
+  "coordinates": {
+    "latitude": 6.9354252,
+    "longitude": 79.8499702
+  },
+  "address": "11 Prince Street, Colombo",
+  "categories": [
+    "Hardware store",
+    "Bathroom remodeler",
+    "Business to business service",
+    "Electronics wholesaler",
+    "Lock Store",
+    "Machine shop",
+    "Tool store",
+    "Tool wholesaler",
+    "Wholesaler"
+  ],
+  "phone": "0112421783",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–12 PM",
+        "1–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9100PSSN57KW3ETZR4D5"
+}

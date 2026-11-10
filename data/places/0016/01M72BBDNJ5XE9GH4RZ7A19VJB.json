@@ -1,0 +1,58 @@
+{
+  "name": "Good Spark Automotives",
+  "coordinates": {
+    "latitude": 6.0278969,
+    "longitude": 80.3966176
+  },
+  "address": "Weligama - Imaduwa Rd, Imaduwa 80130",
+  "categories": [
+    "Car repair and maintenance service"
+  ],
+  "phone": "0715134946",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5:31 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBDNJ5XE9GH4RZ7A19VJB"
+}

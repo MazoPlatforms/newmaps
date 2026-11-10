@@ -1,0 +1,58 @@
+{
+  "name": "Open University - Puttalam Study Centre",
+  "coordinates": {
+    "latitude": 8.0232346,
+    "longitude": 79.8338234
+  },
+  "address": "No. 1, 137 Colombo - Puttalam Rd, Puttalam 61300",
+  "categories": [
+    "University"
+  ],
+  "phone": "0322266822",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNSKDYT9HBW2TW99AX38K"
+}

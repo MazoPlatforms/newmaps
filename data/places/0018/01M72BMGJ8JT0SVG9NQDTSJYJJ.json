@@ -1,0 +1,59 @@
+{
+  "name": "Domino's Pizza - Kuliyapitiya",
+  "coordinates": {
+    "latitude": 7.470168699999999,
+    "longitude": 80.0454006
+  },
+  "address": "No. 88 Kurunegala Road, Kuliyapitiya 60200",
+  "categories": [
+    "Pizza restaurant"
+  ],
+  "phone": "0117777888",
+  "website": "https://m.dominoslk.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMGJ8JT0SVG9NQDTSJYJJ"
+}

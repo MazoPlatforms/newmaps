@@ -1,0 +1,58 @@
+{
+  "name": "Austriya Photo",
+  "coordinates": {
+    "latitude": 9.3957213,
+    "longitude": 80.4085959
+  },
+  "address": "Old Hospital Opposite, Kilinochchi 44000",
+  "categories": [
+    "Photography studio"
+  ],
+  "phone": "0773501065",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D6M658J8ARQ7NHAPZKC1W"
+}

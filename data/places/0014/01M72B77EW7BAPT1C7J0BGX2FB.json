@@ -1,0 +1,59 @@
+{
+  "name": "Hello Burger",
+  "coordinates": {
+    "latitude": 6.1258156,
+    "longitude": 80.1078193
+  },
+  "address": "583 Colombo Main Rd, Hikkaduwa 80250",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0771927667",
+  "website": "https://hello-burger.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B77EW7BAPT1C7J0BGX2FB"
+}

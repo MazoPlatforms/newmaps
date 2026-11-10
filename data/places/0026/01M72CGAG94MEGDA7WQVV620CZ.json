@@ -1,0 +1,59 @@
+{
+  "name": "Repair Geek",
+  "coordinates": {
+    "latitude": 7.073278999999999,
+    "longitude": 80.0164171
+  },
+  "address": "130, CD, Mudungoda 11056",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0755481523",
+  "website": "https://repairgeek.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGAG94MEGDA7WQVV620CZ"
+}

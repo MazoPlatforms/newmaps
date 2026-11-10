@@ -1,0 +1,58 @@
+{
+  "name": "Lanka Trading Enterprises",
+  "coordinates": {
+    "latitude": 7.2123966,
+    "longitude": 79.8429565
+  },
+  "address": "1797 Ave Maria Rd, Negombo",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0312232260",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFCMBKSAGDJ6M5KD0DC7P"
+}

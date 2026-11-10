@@ -1,0 +1,58 @@
+{
+  "name": "Suganthan Stores",
+  "coordinates": {
+    "latitude": 8.762779,
+    "longitude": 80.4902554
+  },
+  "address": "13A Mannar Rd, Vavuniya",
+  "categories": [
+    "Asian grocery store"
+  ],
+  "phone": "0242223348",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6K8GZZ6J27A1XJY4TP3"
+}

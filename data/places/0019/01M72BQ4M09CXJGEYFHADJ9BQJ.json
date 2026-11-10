@@ -1,0 +1,58 @@
+{
+  "name": "Ammar Store",
+  "coordinates": {
+    "latitude": 8.295831399999999,
+    "longitude": 80.378756
+  },
+  "address": "4th canal Srawasthipura",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0713565550",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4M09CXJGEYFHADJ9BQJ"
+}

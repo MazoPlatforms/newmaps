@@ -1,0 +1,60 @@
+{
+  "name": "The Bun Hut",
+  "coordinates": {
+    "latitude": 6.7071011,
+    "longitude": 79.9360736
+  },
+  "address": "Miriswatta Junction, Horana Rd, Panadura",
+  "categories": [
+    "Bakery",
+    "Fast food restaurant"
+  ],
+  "phone": "0776948606",
+  "website": "http://www.bunhut.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZQ8VNH4WFV9SY6VQBD0K"
+}

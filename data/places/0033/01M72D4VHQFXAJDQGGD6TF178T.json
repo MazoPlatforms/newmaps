@@ -1,0 +1,59 @@
+{
+  "name": "City Hardware Stores",
+  "coordinates": {
+    "latitude": 9.669259199999999,
+    "longitude": 80.0123641
+  },
+  "address": "57, 55 Stanley Rd, Jaffna",
+  "categories": [
+    "Building materials store"
+  ],
+  "phone": "0212222901",
+  "website": "https://www.cityhardwarejaffna.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4VHQFXAJDQGGD6TF178T"
+}

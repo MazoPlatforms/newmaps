@@ -1,0 +1,62 @@
+{
+  "name": "Osula Medical Center",
+  "coordinates": {
+    "latitude": 7.5990484,
+    "longitude": 79.9650628
+  },
+  "address": "HXX8+J28, Bowatta",
+  "categories": [
+    "Medical Center"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30–8 AM",
+        "3:30–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30–8 AM",
+        "3:30–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30–8 AM",
+        "3:30–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30–8 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30–8 AM",
+        "3:30–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30–8 AM",
+        "3:30–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMS2AM28D17E7M81YYPXK"
+}

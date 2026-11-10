@@ -1,0 +1,61 @@
+{
+  "name": "Akram Car Care & Hybrid Tech",
+  "coordinates": {
+    "latitude": 7.4018521999999995,
+    "longitude": 81.83158639999999
+  },
+  "address": "291 Colombo - Batticaloa Hwy, Kalmunai 32300",
+  "categories": [
+    "Car repair and maintenance service",
+    "Car wash",
+    "Oil change service"
+  ],
+  "phone": "0779606657",
+  "website": "https://www.facebook.com/akramcarcare/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C0H0P5E39KE45WBQM2NQ2"
+}

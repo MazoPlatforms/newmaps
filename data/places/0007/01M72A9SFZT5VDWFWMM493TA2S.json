@@ -1,0 +1,59 @@
+{
+  "address": "48, IBM Building, Nawam Mawatha, Colombo 00200",
+  "name": "Barista Nawam Mawatha",
+  "coordinates": {
+    "latitude": 6.9184918,
+    "longitude": 79.8503504
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://www.barista.lk/",
+  "business_status": "OPEN",
+  "phone": "0112121886",
+  "categories": [
+    "Coffee shop"
+  ],
+  "id": "01M72A9SFZT5VDWFWMM493TA2S"
+}

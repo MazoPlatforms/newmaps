@@ -1,0 +1,65 @@
+{
+  "name": "Richard Bookshop And Retail Store",
+  "coordinates": {
+    "latitude": 7.4888053999999995,
+    "longitude": 80.36440089999999
+  },
+  "address": "64 Perakumba St, Kurunegala",
+  "categories": [
+    "Book store",
+    "Gift shop",
+    "Household goods wholesaler",
+    "Stationery manufacturer",
+    "Stationery store",
+    "Stationery wholesaler",
+    "Wholesaler household appliances"
+  ],
+  "phone": "0372222547",
+  "website": "http://www.richard.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMAJJX59JKK6CMRED7WE"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Barclays Computers (PVT) Ltd",
+  "coordinates": {
+    "latitude": 6.8922275,
+    "longitude": 79.8557095
+  },
+  "address": "42 Galle Rd, Colombo 00400",
+  "categories": [
+    "Computer store",
+    "Computer accessories store",
+    "Computer repair service",
+    "Computer support and services",
+    "Computer wholesaler",
+    "Repair service"
+  ],
+  "phone": "0117510510",
+  "website": "https://www.barclays.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–12 PM",
+        "2–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JM2DQD4RKRCD370X8K7"
+}

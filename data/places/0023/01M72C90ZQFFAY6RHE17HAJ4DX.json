@@ -1,0 +1,59 @@
+{
+  "name": "Moon Hardware Centre",
+  "coordinates": {
+    "latitude": 6.9406089,
+    "longitude": 79.863638
+  },
+  "address": "375A&B, Old Moor St, Colombo 01200",
+  "categories": [
+    "Hardware store",
+    "Store"
+  ],
+  "phone": "0112345873",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C90ZQFFAY6RHE17HAJ4DX"
+}

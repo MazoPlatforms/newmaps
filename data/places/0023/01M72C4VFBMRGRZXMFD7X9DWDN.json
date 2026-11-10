@@ -1,0 +1,58 @@
+{
+  "name": "Harshan Stores",
+  "coordinates": {
+    "latitude": 8.4875818,
+    "longitude": 81.29203179999999
+  },
+  "address": "CULTURE HALL, ROAD, Mutur 31216",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0767610576",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C4VFBMRGRZXMFD7X9DWDN"
+}

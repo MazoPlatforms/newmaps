@@ -1,0 +1,58 @@
+{
+  "address": "293 Lewis Pl, Negombo 11500",
+  "name": "Paloma Restaurant",
+  "coordinates": {
+    "latitude": 7.2313632,
+    "longitude": 79.8409755
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0777227765",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72ADZ4GZ4DQJD9M8W2503P8"
+}

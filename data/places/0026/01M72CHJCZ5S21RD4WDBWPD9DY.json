@@ -1,0 +1,64 @@
+{
+  "name": "Shoppy Computers & CCTV",
+  "coordinates": {
+    "latitude": 6.5845386999999995,
+    "longitude": 79.9609005
+  },
+  "address": "55 Galle - Colombo Rd, Kalutara",
+  "categories": [
+    "Computer store",
+    "Computer accessories store",
+    "Computer repair service",
+    "Computer service",
+    "Security system installation service",
+    "Used computer store"
+  ],
+  "phone": "0347484355",
+  "website": "https://shoppy.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CHJCZ5S21RD4WDBWPD9DY"
+}

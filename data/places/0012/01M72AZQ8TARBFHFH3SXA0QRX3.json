@@ -1,0 +1,58 @@
+{
+  "name": "The Best Chef Family Restaurant",
+  "coordinates": {
+    "latitude": 6.7064676,
+    "longitude": 79.9380047
+  },
+  "address": "208 Horana Rd, Panadura",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0382253350",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZQ8TARBFHFH3SXA0QRX3"
+}

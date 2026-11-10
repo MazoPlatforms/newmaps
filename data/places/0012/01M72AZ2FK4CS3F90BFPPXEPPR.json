@@ -1,0 +1,65 @@
+{
+  "name": "Kalutara Medical Centere",
+  "coordinates": {
+    "latitude": 6.5666267,
+    "longitude": 79.96736849999999
+  },
+  "address": "No 721 Galle Rd, Kalutara 12000",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0712111850",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–12 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–12 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–12 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–12 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–12 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–12 PM",
+        "4:30–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–12 PM",
+        "4:30–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ2FK4CS3F90BFPPXEPPR"
+}

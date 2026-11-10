@@ -1,0 +1,59 @@
+{
+  "name": "Supipi Medical Centre",
+  "coordinates": {
+    "latitude": 6.0814344,
+    "longitude": 80.56859829999999
+  },
+  "address": "Kirinda Road, Kamburupitiya 81100",
+  "categories": [
+    "Private hospital",
+    "Hospital"
+  ],
+  "phone": "0412294736",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J59QM8PBY5DS0KMST7J"
+}

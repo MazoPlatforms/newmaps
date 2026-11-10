@@ -1,0 +1,60 @@
+{
+  "name": "Akrams Hardware",
+  "coordinates": {
+    "latitude": 6.0360713,
+    "longitude": 80.2209402
+  },
+  "address": "17 Old Matara Rd, Galle 80000",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0912234550",
+  "website": "http://akramshardware.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30–11:45 AM",
+        "2–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–3 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CRJT7NMZP6RVCJZAX91QQ"
+}

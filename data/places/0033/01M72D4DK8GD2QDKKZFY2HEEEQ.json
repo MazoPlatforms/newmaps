@@ -1,0 +1,60 @@
+{
+  "name": "Abirami Shoe Center",
+  "coordinates": {
+    "latitude": 9.667207999999999,
+    "longitude": 80.01127
+  },
+  "address": "No.155,156, Jaffna 40000",
+  "categories": [
+    "Shoe store",
+    "Repairs",
+    "Shoe repair shop"
+  ],
+  "phone": "0212223525",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4DK8GD2QDKKZFY2HEEEQ"
+}

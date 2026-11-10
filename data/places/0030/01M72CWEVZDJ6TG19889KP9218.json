@@ -1,0 +1,65 @@
+{
+  "name": "Shanuka Saloon",
+  "coordinates": {
+    "latitude": 6.0275343999999995,
+    "longitude": 80.7951113
+  },
+  "address": "48, 18 Parakrama Rd, Tangalle",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0718771416",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "12–8:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12–8:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "12–8:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "12–8:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "12–8:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "12–8:30 AM",
+        "9 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "12–8:30 AM",
+        "9 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWEVZDJ6TG19889KP9218"
+}

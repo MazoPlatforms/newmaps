@@ -1,0 +1,59 @@
+{
+  "name": "Dropoff",
+  "coordinates": {
+    "latitude": 6.9166156999999995,
+    "longitude": 79.8758971
+  },
+  "address": "1111 Maradana Rd, Colombo 00800",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0777558555",
+  "website": "http://dropoff.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AFFYG650Q8VVZ32VX06QV"
+}

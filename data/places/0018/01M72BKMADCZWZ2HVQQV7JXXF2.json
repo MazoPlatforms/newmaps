@@ -1,0 +1,57 @@
+{
+  "name": "Thilak Grocery",
+  "coordinates": {
+    "latitude": 7.4767693,
+    "longitude": 80.37020009999999
+  },
+  "address": "F9GC+P34, U B Wanninayake Mawatha, Kurunegala",
+  "categories": [
+    "Store"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMADCZWZ2HVQQV7JXXF2"
+}

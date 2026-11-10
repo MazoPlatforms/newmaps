@@ -1,0 +1,59 @@
+{
+  "name": "Auto Care Centre",
+  "coordinates": {
+    "latitude": 7.2066303,
+    "longitude": 79.844836
+  },
+  "address": "203 St Joseph's St, Negombo",
+  "categories": [
+    "Car wash",
+    "Auto spring shop"
+  ],
+  "phone": "0777777155",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–4 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXQGJ1Z9K9TKEDEW4S630"
+}

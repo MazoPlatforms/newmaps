@@ -1,0 +1,63 @@
+{
+  "name": "Day To Day Mount",
+  "coordinates": {
+    "latitude": 6.8401499999999995,
+    "longitude": 79.8676097
+  },
+  "address": "327 Galle Rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Supermarket",
+    "Candy store",
+    "Convenience store",
+    "Chocolate shop"
+  ],
+  "phone": "0777954241",
+  "website": "http://dtdlk.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–12 PM",
+        "1:30–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQ7VNPS5MDK0YMP1WPJ54"
+}

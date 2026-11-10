@@ -1,0 +1,60 @@
+{
+  "name": "ApexSolutions",
+  "coordinates": {
+    "latitude": 6.6967671,
+    "longitude": 79.94445259999999
+  },
+  "address": "Panadura 12524",
+  "categories": [
+    "Computer store",
+    "Mobile phone repair shop",
+    "Software company"
+  ],
+  "phone": "0785495694",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJPRMBXYP3S8BDKTPB4KK"
+}

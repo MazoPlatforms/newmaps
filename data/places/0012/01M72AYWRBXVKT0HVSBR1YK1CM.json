@@ -1,0 +1,59 @@
+{
+  "name": "Nadee Indian Restaurant",
+  "coordinates": {
+    "latitude": 6.5733739,
+    "longitude": 79.9645891
+  },
+  "address": "355/1/A Galle Rd, Kalutara 12000",
+  "categories": [
+    "Indian restaurant",
+    "Restaurant"
+  ],
+  "phone": "0344300700",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AYWRBXVKT0HVSBR1YK1CM"
+}

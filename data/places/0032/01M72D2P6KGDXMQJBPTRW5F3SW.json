@@ -1,0 +1,59 @@
+{
+  "name": "LapMart.lk Technical Hub",
+  "coordinates": {
+    "latitude": 8.3233268,
+    "longitude": 80.403898
+  },
+  "address": "No 561/59 Fair Road, Anuradhapura 50000",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0767977320",
+  "website": "https://www.lapmart.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D2P6KGDXMQJBPTRW5F3SW"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Niyas Stores",
+  "coordinates": {
+    "latitude": 7.397346499999999,
+    "longitude": 81.8344661
+  },
+  "address": "471B Old Market Rd, Sainthamaruthu 03",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0778613822",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 PM",
+        "4–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09ZANJM4GAHAJBX00G7B"
+}

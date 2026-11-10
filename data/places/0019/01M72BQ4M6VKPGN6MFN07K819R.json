@@ -1,0 +1,58 @@
+{
+  "name": "Tharunethu Grocery",
+  "coordinates": {
+    "latitude": 8.3483223,
+    "longitude": 80.37692539999999
+  },
+  "address": "Anuradhapura",
+  "categories": [
+    "Store"
+  ],
+  "phone": "0702466203",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4M6VKPGN6MFN07K819R"
+}

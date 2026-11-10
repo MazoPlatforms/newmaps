@@ -1,0 +1,58 @@
+{
+  "name": "Rukmal Motor Vehicle Garage",
+  "coordinates": {
+    "latitude": 8.325703299999999,
+    "longitude": 80.39883429999999
+  },
+  "address": "89GX+7GP, A12, Anuradhapura",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0716894545",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQT9GZVSRJKSJYCS9QXSJ"
+}

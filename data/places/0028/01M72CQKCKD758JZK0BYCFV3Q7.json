@@ -1,0 +1,58 @@
+{
+  "name": "Zane Hair & Beauty Salon",
+  "coordinates": {
+    "latitude": 7.0558764,
+    "longitude": 80.5349816
+  },
+  "address": "Gampol, road, Nawalapitiya",
+  "categories": [
+    "Hairdresser"
+  ],
+  "phone": "0764839796",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CQKCKD758JZK0BYCFV3Q7"
+}

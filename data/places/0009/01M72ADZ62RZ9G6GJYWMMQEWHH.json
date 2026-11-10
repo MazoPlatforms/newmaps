@@ -1,0 +1,58 @@
+{
+  "address": "Negombo",
+  "name": "S&S Foods Centre",
+  "coordinates": {
+    "latitude": 7.1117976,
+    "longitude": 79.84285729999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0715162872",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72ADZ62RZ9G6GJYWMMQEWHH"
+}

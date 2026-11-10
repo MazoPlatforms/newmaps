@@ -1,0 +1,58 @@
+{
+  "name": "Sampath Bank Kandy City Centre",
+  "coordinates": {
+    "latitude": 7.2921792,
+    "longitude": 80.6369406
+  },
+  "address": "Shop No. L1-6 Level One, Kandy City Centre Building, Sri Dalada Veediya, Kandy 20000",
+  "categories": [
+    "Bank"
+  ],
+  "phone": "0812205825",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2V1MQCCM38280CA3DWGR"
+}

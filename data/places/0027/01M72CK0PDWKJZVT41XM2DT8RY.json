@@ -1,0 +1,58 @@
+{
+  "name": "Tool Rental DS Enterprise",
+  "coordinates": {
+    "latitude": 6.697595,
+    "longitude": 79.919197
+  },
+  "address": "130/A/3 ගලවිල පාර, Panadura",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0382235565",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK0PDWKJZVT41XM2DT8RY"
+}

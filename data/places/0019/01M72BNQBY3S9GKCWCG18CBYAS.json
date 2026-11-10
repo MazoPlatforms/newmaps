@@ -1,0 +1,58 @@
+{
+  "name": "J&C Medical",
+  "coordinates": {
+    "latitude": 8.0300761,
+    "longitude": 79.8290169
+  },
+  "address": "2RJH+2JJ, Puttalam",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0322265553",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNQBY3S9GKCWCG18CBYAS"
+}

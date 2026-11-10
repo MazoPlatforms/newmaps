@@ -1,0 +1,58 @@
+{
+  "name": "Yalu Malu Aquarium",
+  "coordinates": {
+    "latitude": 6.6489481,
+    "longitude": 80.1793521
+  },
+  "address": "Podujana Mawatha, Bulathsinhala 12300",
+  "categories": [
+    "Fish farm"
+  ],
+  "phone": "0342282785",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CJAJGBNKEXGQDYYEBS8SE"
+}

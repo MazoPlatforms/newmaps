@@ -1,0 +1,57 @@
+{
+  "name": "Nishadhi Pharmacy Dambulla",
+  "coordinates": {
+    "latitude": 7.8723965,
+    "longitude": 80.6512094
+  },
+  "address": "VMC2+XF4, Infront of hospital, Matale Rd, Dambulla",
+  "categories": [
+    "Pharmacy"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSPMYYTX3GM1KP19W36BX"
+}

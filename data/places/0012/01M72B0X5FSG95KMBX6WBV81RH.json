@@ -1,0 +1,58 @@
+{
+  "name": "LK Auto Service",
+  "coordinates": {
+    "latitude": 6.737807,
+    "longitude": 79.94069999999999
+  },
+  "address": "Hirana Rd, Panadura",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0382221357",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B0X5FSG95KMBX6WBV81RH"
+}

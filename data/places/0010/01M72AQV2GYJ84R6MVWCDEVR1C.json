@@ -1,0 +1,59 @@
+{
+  "name": "Wycherley International School",
+  "coordinates": {
+    "latitude": 6.8584283,
+    "longitude": 79.8659723
+  },
+  "address": "13, 15 & 17 Sri Mahabodhi Rd, Dehiwala-Mount Lavinia",
+  "categories": [
+    "International school"
+  ],
+  "phone": "0112736223",
+  "website": "http://www.wycherleydehiwala.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–12:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQV2GYJ84R6MVWCDEVR1C"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Cafe Scenario",
+  "coordinates": {
+    "latitude": 8.3240819,
+    "longitude": 80.4056129
+  },
+  "address": "58/A , 1st lane, Town Hall Pl, Anuradhapura 50000",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0771952844",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BPRAX714G6AC7158WWKBF"
+}

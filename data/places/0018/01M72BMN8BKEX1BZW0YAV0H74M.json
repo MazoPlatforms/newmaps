@@ -1,0 +1,58 @@
+{
+  "name": "Roomy Super",
+  "coordinates": {
+    "latitude": 7.4830081999999996,
+    "longitude": 80.0462204
+  },
+  "address": "F2MW+6F5, Kuliyapitiya",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0767684000",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BMN8BKEX1BZW0YAV0H74M"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Auto Nation",
+  "coordinates": {
+    "latitude": 6.2478487,
+    "longitude": 80.05807209999999
+  },
+  "address": "23/1, Kaluwadumulla Rd, Kandegoda, Ambalangoda 80300",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0772690790",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B8JQ2PP3PJEEY64CXH9G2"
+}

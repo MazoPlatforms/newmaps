@@ -1,0 +1,60 @@
+{
+  "name": "SimplyTek Flagship Store",
+  "coordinates": {
+    "latitude": 6.906302999999999,
+    "longitude": 79.8514957
+  },
+  "address": "331 Galle Rd, Colombo 00300",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0117555888",
+  "website": "https://www.simplytek.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 PM",
+        "2–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJRTHWYKY08D2BMANW63"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "NO 76/B Base line Rd, Negombo 11500",
+  "name": "Harsha Mini Mart",
+  "coordinates": {
+    "latitude": 7.2411074,
+    "longitude": 79.8551976
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:30 AM–10:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0713200990",
+  "categories": [
+    "Grocery store"
+  ],
+  "id": "01M72AECKTNATW8SQQ9WC5DW3X"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Tweenbay Pizza",
+  "coordinates": {
+    "latitude": 6.4675642,
+    "longitude": 79.9751799
+  },
+  "address": "No 59, 1 Maradana Rd, Beruwala 12070",
+  "categories": [
+    "Pizza restaurant"
+  ],
+  "phone": "0779598585",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B13C3GNFG8JZ53X7DZ9VG"
+}

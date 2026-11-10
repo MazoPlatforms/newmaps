@@ -1,0 +1,58 @@
+{
+  "name": "Academy Of Mathematics",
+  "coordinates": {
+    "latitude": 5.9482140999999995,
+    "longitude": 80.5380832
+  },
+  "address": "E.M.W. Jayasuriya Mawatha, Matara",
+  "categories": [
+    "Education center"
+  ],
+  "phone": "0713450217",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "2:30–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "2:30–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "2:30–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "2:30–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "2:30–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9QE5QP7PZV9286HAYW5A"
+}

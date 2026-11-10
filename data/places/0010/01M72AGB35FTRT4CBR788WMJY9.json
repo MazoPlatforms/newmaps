@@ -1,0 +1,59 @@
+{
+  "name": "Kotahena Post Office",
+  "coordinates": {
+    "latitude": 6.9453105,
+    "longitude": 79.8640039
+  },
+  "address": "15 A. G. Hinniappuhamy Mawatha, Colombo 01300",
+  "categories": [
+    "Post office"
+  ],
+  "phone": "0112434240",
+  "website": "http://www.slpost.gov.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AGB35FTRT4CBR788WMJY9"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Food Gallery",
+  "coordinates": {
+    "latitude": 5.9491418,
+    "longitude": 80.54308759999999
+  },
+  "address": "99/1/A Anagarika Dharmapala Mawatha, Matara 81000",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0778448353",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B90WCXMHD18G7TKPNB0XP"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "J C B Enterprise",
+  "coordinates": {
+    "latitude": 6.9392945,
+    "longitude": 79.8529025
+  },
+  "address": "43 I X Pereira Street, Colombo 01300",
+  "categories": [
+    "Wholesale market"
+  ],
+  "phone": "0777657815",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C9GPTAJHJBK427ETX77CZ"
+}

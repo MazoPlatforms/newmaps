@@ -1,0 +1,58 @@
+{
+  "name": "Yakupitiya Stores",
+  "coordinates": {
+    "latitude": 6.568467,
+    "longitude": 80.0076054
+  },
+  "address": "H295+92Q, Kalutara",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0342287100",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AZ1EN40K9MSDCZRTTH1Z1"
+}

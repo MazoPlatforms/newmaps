@@ -1,0 +1,59 @@
+{
+  "name": "Faculty Of Science University Of Peradeniya",
+  "coordinates": {
+    "latitude": 7.259309399999999,
+    "longitude": 80.5985755
+  },
+  "address": "Faculty of Science, Peradeniya-Deltota-Rikiligaskada Rd, Kandy",
+  "categories": [
+    "Faculty of science"
+  ],
+  "phone": "0812388693",
+  "website": "http://sci.pdn.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B2T5VGVHPK3CZYS158HM1"
+}

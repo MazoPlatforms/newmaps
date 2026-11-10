@@ -1,0 +1,59 @@
+{
+  "address": "199 Kew Rd, Colombo 00200",
+  "name": "Post Office - Slave Island",
+  "coordinates": {
+    "latitude": 6.9227910999999995,
+    "longitude": 79.853096
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–3:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.slpost.gov.lk/",
+  "business_status": "OPEN",
+  "phone": "0112325017",
+  "categories": [
+    "Post office"
+  ],
+  "id": "01M72A9SDY9919570E84K4BE0H"
+}

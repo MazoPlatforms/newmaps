@@ -1,0 +1,58 @@
+{
+  "name": "NLM Food Delivery",
+  "coordinates": {
+    "latitude": 7.4673435999999995,
+    "longitude": 80.6235615
+  },
+  "address": "24/H Kandy-Jaffna Highway, Matale 21000",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0772364021",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–4:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B3N385DX5R44C4JWDE05V"
+}

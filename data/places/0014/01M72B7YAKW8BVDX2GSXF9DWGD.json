@@ -1,0 +1,58 @@
+{
+  "name": "Salvin Restaurant",
+  "coordinates": {
+    "latitude": 6.2411297,
+    "longitude": 80.05358509999999
+  },
+  "address": "37/1 Elpitiya Rd, Ambalangoda",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0913142900",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "11 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B7YAKW8BVDX2GSXF9DWGD"
+}

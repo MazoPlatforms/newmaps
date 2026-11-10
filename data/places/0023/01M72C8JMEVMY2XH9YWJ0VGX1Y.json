@@ -1,0 +1,58 @@
+{
+  "name": "Positive Computer",
+  "coordinates": {
+    "latitude": 6.946079699999999,
+    "longitude": 79.8591812
+  },
+  "address": "118B K. B. Christy Perera Mawatha, Colombo 00130",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0779959964",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C8JMEVMY2XH9YWJ0VGX1Y"
+}

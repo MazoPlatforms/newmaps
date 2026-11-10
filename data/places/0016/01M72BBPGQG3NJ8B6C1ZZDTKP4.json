@@ -1,0 +1,60 @@
+{
+  "name": "Bayside",
+  "coordinates": {
+    "latitude": 5.9626541,
+    "longitude": 80.705147
+  },
+  "address": "Hiriketiya Rd, Dikwella 81200",
+  "categories": [
+    "Coffee shop",
+    "Brunch restaurant",
+    "Restaurant"
+  ],
+  "phone": "0785831818",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGQG3NJ8B6C1ZZDTKP4"
+}

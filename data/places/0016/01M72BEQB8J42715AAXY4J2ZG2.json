@@ -1,0 +1,58 @@
+{
+  "name": "Badulla Sathosa Fish Stall",
+  "coordinates": {
+    "latitude": 6.9907303999999995,
+    "longitude": 81.05353629999999
+  },
+  "address": "95 Bandarawela Rd, Badulla",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0777108070",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BEQB8J42715AAXY4J2ZG2"
+}

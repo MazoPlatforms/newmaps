@@ -1,0 +1,58 @@
+{
+  "address": "111, 15 Hunupitiya Lake Rd, Colombo 00200",
+  "name": "Aventude",
+  "coordinates": {
+    "latitude": 6.915379,
+    "longitude": 79.8569571
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "https://aventude.com/",
+  "business_status": "OPEN",
+  "categories": [
+    "Software company"
+  ],
+  "id": "01M72A9SF2WBHJD2NQJPBP6F89"
+}

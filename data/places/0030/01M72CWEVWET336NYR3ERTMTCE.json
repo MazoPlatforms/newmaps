@@ -1,0 +1,58 @@
+{
+  "name": "Salon Kyali",
+  "coordinates": {
+    "latitude": 6.0293794,
+    "longitude": 80.7942547
+  },
+  "address": "No:64 Beliatta Rd, Tangalle 82200",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0704307312",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWEVWET336NYR3ERTMTCE"
+}

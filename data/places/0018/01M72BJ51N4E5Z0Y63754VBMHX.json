@@ -1,0 +1,58 @@
+{
+  "name": "Meat Mart",
+  "coordinates": {
+    "latitude": 7.2726747,
+    "longitude": 80.33119239999999
+  },
+  "address": "78FJ+3F8, Habudugala",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0778800624",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:40 PM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "12 AM–7:32 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:40 PM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BJ51N4E5Z0Y63754VBMHX"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Sl Stores & Food City",
+  "coordinates": {
+    "latitude": 7.401172,
+    "longitude": 81.84027739999999
+  },
+  "address": "Aliyar Rd, Kalmunai 32300",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0750540988",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09YHNZ0ARFHMEHQF5DWS"
+}

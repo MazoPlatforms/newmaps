@@ -1,0 +1,68 @@
+{
+  "name": "Zaheem Group",
+  "coordinates": {
+    "latitude": 7.4082184,
+    "longitude": 81.8343872
+  },
+  "address": "Kadatkaraipalli road, Kalmunai 32300",
+  "categories": [
+    "Business center",
+    "Business administration service",
+    "Business development service",
+    "Business management consultant",
+    "Clothing store",
+    "Corporate campus",
+    "Graphic designer",
+    "Grocery delivery service",
+    "Marketing agency",
+    "Website designer"
+  ],
+  "phone": "0674341225",
+  "website": "https://www.zaheemgroup.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C09ZJT27YGKVC4PA4GAZ6"
+}

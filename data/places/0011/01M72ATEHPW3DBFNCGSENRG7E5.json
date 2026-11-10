@@ -1,0 +1,58 @@
+{
+  "name": "Summito Automobile Engineers",
+  "coordinates": {
+    "latitude": 6.769716,
+    "longitude": 79.8829987
+  },
+  "address": "368a Galle Rd, Moratuwa 10400",
+  "categories": [
+    "Auto electrical service"
+  ],
+  "phone": "0773086494",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72ATEHPW3DBFNCGSENRG7E5"
+}

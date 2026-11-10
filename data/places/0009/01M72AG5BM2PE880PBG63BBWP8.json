@@ -1,0 +1,61 @@
+{
+  "name": "The Open University Of Sri Lanka",
+  "coordinates": {
+    "latitude": 6.8829227,
+    "longitude": 79.88669569999999
+  },
+  "address": "Nawala, Nugegoda 11222",
+  "categories": [
+    "Open university",
+    "Public university",
+    "University"
+  ],
+  "phone": "0112881000",
+  "website": "https://www.ou.ac.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–6:08 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG5BM2PE880PBG63BBWP8"
+}

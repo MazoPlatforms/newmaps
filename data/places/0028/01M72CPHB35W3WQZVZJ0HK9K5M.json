@@ -1,0 +1,58 @@
+{
+  "name": "TP Technologies",
+  "coordinates": {
+    "latitude": 6.8958758,
+    "longitude": 80.87339519999999
+  },
+  "address": "No.15 Welimada Rd, Keppetipola 90350",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0777657588",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CPHB35W3WQZVZJ0HK9K5M"
+}

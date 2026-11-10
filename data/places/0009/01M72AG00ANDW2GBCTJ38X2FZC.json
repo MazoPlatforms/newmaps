@@ -1,0 +1,58 @@
+{
+  "name": "Raaha Health Care Centre",
+  "coordinates": {
+    "latitude": 6.948208999999999,
+    "longitude": 79.8728505
+  },
+  "address": "88 St. Joseph's St, Colombo 01400",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0771033445",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AG00ANDW2GBCTJ38X2FZC"
+}

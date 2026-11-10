@@ -1,0 +1,58 @@
+{
+  "name": "Dr. Ariyadasa Dispensary ( Dickwella Medical Center)",
+  "coordinates": {
+    "latitude": 5.9656256,
+    "longitude": 80.6921332
+  },
+  "address": "Dikwella",
+  "categories": [
+    "Medical Center"
+  ],
+  "phone": "0711252010",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–12 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B9J535YESNMJ5GBHAP8HF"
+}

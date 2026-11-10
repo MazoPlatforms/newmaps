@@ -1,0 +1,58 @@
+{
+  "name": "Ariyadasa Service Centre",
+  "coordinates": {
+    "latitude": 7.4771151,
+    "longitude": 80.3720726
+  },
+  "address": "125, Road, Kurunegala 60000",
+  "categories": [
+    "Car wash"
+  ],
+  "phone": "0372223692",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BM92XTVBTSWS91FEVJYVV"
+}

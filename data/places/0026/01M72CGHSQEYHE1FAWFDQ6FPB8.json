@@ -1,0 +1,59 @@
+{
+  "name": "Janaki Hardware",
+  "coordinates": {
+    "latitude": 7.0846238999999995,
+    "longitude": 80.0347388
+  },
+  "address": "52, 13 Yakkala - Radawana Rd, Yakkala 11870",
+  "categories": [
+    "Hardware store",
+    "Paint store"
+  ],
+  "phone": "0332222780",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–2 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–6:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGHSQEYHE1FAWFDQ6FPB8"
+}

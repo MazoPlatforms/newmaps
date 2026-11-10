@@ -1,0 +1,59 @@
+{
+  "name": "Mingle Cafe",
+  "coordinates": {
+    "latitude": 8.0249445,
+    "longitude": 79.8310557
+  },
+  "address": "Cart No:4 Colombo Face, Beach Road, Puttalam 61300",
+  "categories": [
+    "Cake shop",
+    "Beverage distributor"
+  ],
+  "phone": "0714752426",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "4–11:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "4–11:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "4–11:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–11:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "4–11:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "4–11:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN9625CSZQF5TAXNCPZBW"
+}

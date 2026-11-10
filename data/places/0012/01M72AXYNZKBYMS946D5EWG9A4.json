@@ -1,0 +1,58 @@
+{
+  "name": "Machi Pub & Resturant",
+  "coordinates": {
+    "latitude": 7.1092344,
+    "longitude": 80.04930259999999
+  },
+  "address": "No 122/4 Aluthgama,Bogamuwa, Yakkala 11870",
+  "categories": [
+    "Chinese restaurant"
+  ],
+  "phone": "0701310470",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–2 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9:30 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AXYNZKBYMS946D5EWG9A4"
+}

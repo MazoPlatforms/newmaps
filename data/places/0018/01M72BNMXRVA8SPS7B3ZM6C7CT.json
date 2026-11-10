@@ -1,0 +1,59 @@
+{
+  "name": "A&H SuperMarket",
+  "coordinates": {
+    "latitude": 8.0309441,
+    "longitude": 79.8575597
+  },
+  "address": "No.200 A12, Puttalam 61300",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0754545432",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7–11 AM",
+        "2–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BNMXRVA8SPS7B3ZM6C7CT"
+}

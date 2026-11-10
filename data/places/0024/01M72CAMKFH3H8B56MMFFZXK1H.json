@@ -1,0 +1,58 @@
+{
+  "name": "Business Lapz",
+  "coordinates": {
+    "latitude": 6.8594219,
+    "longitude": 79.88183269999999
+  },
+  "address": "no 46 huldagoda rd, Dehiwala-Mount Lavinia 10350",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0715803647",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CAMKFH3H8B56MMFFZXK1H"
+}

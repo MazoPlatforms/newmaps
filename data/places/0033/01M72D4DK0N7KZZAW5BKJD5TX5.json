@@ -1,0 +1,61 @@
+{
+  "name": "Ellara",
+  "coordinates": {
+    "latitude": 9.6701749,
+    "longitude": 80.02212899999999
+  },
+  "address": "Near to TCT Super store, Anaippanthi, 320B Navalar Rd, Jaffna 40000",
+  "categories": [
+    "Clothing store",
+    "Boutique",
+    "Fashion accessories store"
+  ],
+  "phone": "0768493800",
+  "website": "https://www.facebook.com/ellarajaffna",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D4DK0N7KZZAW5BKJD5TX5"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Tech Yard Solutions (Computer Store)",
+  "coordinates": {
+    "latitude": 7.2044245,
+    "longitude": 79.8415586
+  },
+  "address": "185/01 Thaladuwa Road, Negombo 11500",
+  "categories": [
+    "Computer store",
+    "Computer repair service",
+    "Computer security service",
+    "Computer service",
+    "Security system installation service",
+    "Security system supplier",
+    "Used computer store"
+  ],
+  "phone": "0779333270",
+  "website": "https://www.techyardsolutions.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–3:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VA3GJ5KKG27MCAR03Y"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Co-Op Shop & Sub Post Office",
+  "coordinates": {
+    "latitude": 6.2304007,
+    "longitude": 80.0596114
+  },
+  "address": "63J5+5R9, Maha Ambalangoda Rd, Ambalangoda 80300",
+  "categories": [
+    "Post office",
+    "Grocery store"
+  ],
+  "phone": "0912258490",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72B84C3PKTH0B4H8ZJ4SE3R"
+}

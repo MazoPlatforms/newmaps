@@ -1,0 +1,58 @@
+{
+  "name": "Daya Stores",
+  "coordinates": {
+    "latitude": 6.7124163999999995,
+    "longitude": 79.9064104
+  },
+  "address": "465 Main St, Panadura",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0777487897",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–2 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CK0NWJVN3S01CQHJ4GW2B"
+}

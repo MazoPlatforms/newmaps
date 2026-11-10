@@ -1,0 +1,62 @@
+{
+  "address": "39A Horton Pl, Colombo 00700",
+  "name": "Gerard Mendis Chocolatier",
+  "coordinates": {
+    "latitude": 6.9117447,
+    "longitude": 79.8683149
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "website": "https://gerardmendis.com/",
+  "business_status": "OPEN",
+  "phone": "0117006955",
+  "categories": [
+    "Chocolate shop",
+    "Cake shop",
+    "Confectionery store",
+    "Pastry shop"
+  ],
+  "id": "01M72A8VHVB2HK1SN2FGNHHT55"
+}

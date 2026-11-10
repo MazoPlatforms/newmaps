@@ -1,0 +1,58 @@
+{
+  "name": "Bath Plus Showroom",
+  "coordinates": {
+    "latitude": 6.877741299999999,
+    "longitude": 79.8907272
+  },
+  "address": "VVHR+37X, Nugegoda",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0112809595",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDX8JWKE8AXWF687XS4KR"
+}

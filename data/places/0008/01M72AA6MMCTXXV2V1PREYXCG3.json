@@ -1,0 +1,59 @@
+{
+  "address": "847 Peradeniya Rd, Kandy 20000",
+  "name": "Delight Bakers Peradeniya",
+  "coordinates": {
+    "latitude": 7.2765721999999995,
+    "longitude": 80.6149363
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–7:30 PM"
+      ]
+    }
+  ],
+  "website": "https://delightkandy.com/",
+  "business_status": "OPEN",
+  "phone": "0814954563",
+  "categories": [
+    "Bakery"
+  ],
+  "id": "01M72AA6MMCTXXV2V1PREYXCG3"
+}

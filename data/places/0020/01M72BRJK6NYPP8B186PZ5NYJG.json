@@ -1,0 +1,65 @@
+{
+  "name": "Dr. Kasun Medical Centre",
+  "coordinates": {
+    "latitude": 7.9495393,
+    "longitude": 81.0186816
+  },
+  "address": "Somawathiya Rd, Polonnaruwa 51000",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0781027002",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:15–7:55 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:15–7:55 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:15–7:55 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:15–7:55 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:15–7:55 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7:15–7:55 AM",
+        "5–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7:15–8:30 AM",
+        "5–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRJK6NYPP8B186PZ5NYJG"
+}

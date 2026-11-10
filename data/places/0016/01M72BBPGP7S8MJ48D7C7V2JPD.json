@@ -1,0 +1,59 @@
+{
+  "name": "Barista Udawalawa",
+  "coordinates": {
+    "latitude": 6.426063,
+    "longitude": 80.8163637
+  },
+  "address": "C.P.D De Silva Rd, B427, Udawalawa 70190",
+  "categories": [
+    "Cafe"
+  ],
+  "phone": "0472233166",
+  "website": "https://barista.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6:30 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BBPGP7S8MJ48D7C7V2JPD"
+}

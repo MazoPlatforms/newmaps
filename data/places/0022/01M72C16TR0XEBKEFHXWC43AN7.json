@@ -1,0 +1,57 @@
+{
+  "name": "Public Library Paragahakele",
+  "coordinates": {
+    "latitude": 7.2423191,
+    "longitude": 81.5898327
+  },
+  "address": "6HRQ+VP9, wavinna, Ampara",
+  "categories": [
+    "Public library"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–1 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8:30 AM–4:15 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72C16TR0XEBKEFHXWC43AN7"
+}

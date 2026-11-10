@@ -1,0 +1,58 @@
+{
+  "name": "Kandy Laptop Store",
+  "coordinates": {
+    "latitude": 7.3013696999999995,
+    "longitude": 80.6359471
+  },
+  "address": "129, 1 DS Senanayake Veediya, Kandy 20000",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0717418741",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHF3YR5MNBJK7VFEXGCE"
+}

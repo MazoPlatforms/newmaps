@@ -1,0 +1,58 @@
+{
+  "name": "Atthi Abi House",
+  "coordinates": {
+    "latitude": 9.376870499999999,
+    "longitude": 80.3838395
+  },
+  "address": "99GM+PGW, Kilinochchi",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0775564315",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BXMQPP6YDAXM58PWBK4FC"
+}

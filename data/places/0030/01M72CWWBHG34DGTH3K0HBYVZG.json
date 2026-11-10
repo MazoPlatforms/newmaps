@@ -1,0 +1,58 @@
+{
+  "name": "I FIX Computer Shop",
+  "coordinates": {
+    "latitude": 6.9357422,
+    "longitude": 81.1582063
+  },
+  "address": "412/3 Main St, Passara",
+  "categories": [
+    "Electronics store"
+  ],
+  "phone": "0774163174",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CWWBHG34DGTH3K0HBYVZG"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "New Shehan Pharmacy And Grocery",
+  "coordinates": {
+    "latitude": 8.3090763,
+    "longitude": 80.3990862
+  },
+  "address": "2547 Sangabo Mawatha, Anuradhapura 50000",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0766000377",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BQ4MZ82FVPSZK0CBMHWQ8"
+}

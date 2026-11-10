@@ -1,0 +1,59 @@
+{
+  "name": "Kandy CCTV Centre",
+  "coordinates": {
+    "latitude": 7.3171648,
+    "longitude": 80.6300831
+  },
+  "address": "312B Katugastota Rd, Kandy 20000",
+  "categories": [
+    "Camera store",
+    "Computer networking service"
+  ],
+  "phone": "0755840840",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CMHF856QGYM78E328PRCT"
+}

@@ -1,0 +1,62 @@
+{
+  "address": "16 Sellamuttu Ave, Colombo 00300",
+  "name": "Monkey Bean Cafe",
+  "coordinates": {
+    "latitude": 6.908345499999999,
+    "longitude": 79.8492325
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–7 PM"
+      ]
+    }
+  ],
+  "website": "https://www.facebook.com/monkeybeanlk/",
+  "business_status": "OPEN",
+  "phone": "0764130060",
+  "categories": [
+    "Coffee shop",
+    "Brunch restaurant",
+    "Cake shop",
+    "Dessert shop"
+  ],
+  "id": "01M72A8VENP0QJZ2VYVR3BTTEX"
+}

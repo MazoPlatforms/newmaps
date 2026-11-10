@@ -1,0 +1,60 @@
+{
+  "name": "College Of IT",
+  "coordinates": {
+    "latitude": 8.7741286,
+    "longitude": 80.508482
+  },
+  "address": "Vavuniya",
+  "categories": [
+    "Computer training school",
+    "Training center"
+  ],
+  "phone": "0773300812",
+  "website": "https://collegeofit2018.blogspot.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "5–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "5–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "5–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "5–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "5–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "5–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "5–7:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BWD0MNYPXKMBMVE7JQXPC"
+}

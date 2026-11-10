@@ -1,0 +1,58 @@
+{
+  "name": "Salon Harshi",
+  "coordinates": {
+    "latitude": 7.875758599999999,
+    "longitude": 80.65127939999999
+  },
+  "address": "616 Anuradhapura road, Dambulla",
+  "categories": [
+    "Beauty salon"
+  ],
+  "phone": "0715536808",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–6 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D42VQJ1W6JZZAE6SDDA75"
+}

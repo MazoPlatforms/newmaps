@@ -1,0 +1,59 @@
+{
+  "name": "Anantham Holistic Care - Medical Clinic",
+  "coordinates": {
+    "latitude": 9.6592685,
+    "longitude": 80.0150719
+  },
+  "address": "IOFM Building, 125 main Street, Jaffna",
+  "categories": [
+    "Hospital"
+  ],
+  "phone": "0212225432",
+  "website": "https://ananthamhealth.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "4–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "2–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "2–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BV2NTC1CGXW8Z344F70S4"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Weligama Auto Care",
+  "coordinates": {
+    "latitude": 5.969810799999999,
+    "longitude": 80.418294
+  },
+  "address": "XC99+W8F, A2, Weligama",
+  "categories": [
+    "Auto repair shop"
+  ],
+  "phone": "0412252147",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BA89CDPPTYGZB0TAGM4MR"
+}

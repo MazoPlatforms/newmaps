@@ -1,0 +1,57 @@
+{
+  "name": "ICS Computers",
+  "coordinates": {
+    "latitude": 7.0668291,
+    "longitude": 79.98780529999999
+  },
+  "address": "3X8Q+P4M, Ihala- Yagoda Rd, Yagoda",
+  "categories": [
+    "Computer repair service"
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9:30 AM–5:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9:30 AM–1:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CGAGSD70Y3HN7HEHXBHX4"
+}

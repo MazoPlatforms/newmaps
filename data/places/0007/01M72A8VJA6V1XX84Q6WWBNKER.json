@@ -1,0 +1,59 @@
+{
+  "address": "8 Norris Canal Rd, Colombo 01000",
+  "name": "The Fab - Asiri Central Hospital",
+  "coordinates": {
+    "latitude": 6.920376699999999,
+    "longitude": 79.86574259999999
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8:30 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "website": "http://www.thefab.lk/",
+  "business_status": "OPEN",
+  "phone": "0743914528",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72A8VJA6V1XX84Q6WWBNKER"
+}

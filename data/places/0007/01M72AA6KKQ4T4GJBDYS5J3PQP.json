@@ -1,0 +1,58 @@
+{
+  "address": "Kandy",
+  "name": "Rock Cafe",
+  "coordinates": {
+    "latitude": 7.2813292,
+    "longitude": 80.6689502
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0764725398",
+  "categories": [
+    "Coffee shop"
+  ],
+  "id": "01M72AA6KKQ4T4GJBDYS5J3PQP"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Presto Super",
+  "coordinates": {
+    "latitude": 6.8386735,
+    "longitude": 80.987656
+  },
+  "address": "No:160 Vishaka Rd, Bandarawela 90100",
+  "categories": [
+    "Supermarket"
+  ],
+  "phone": "0779751125",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8–10 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BFR73EMSNFY6JR4TX9XMB"
+}

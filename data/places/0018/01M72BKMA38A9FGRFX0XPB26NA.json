@@ -1,0 +1,58 @@
+{
+  "name": "Alm Farm Shop",
+  "coordinates": {
+    "latitude": 7.4762479,
+    "longitude": 80.35036079999999
+  },
+  "address": "84 Nissanka mawatha, Wehera Rd, Kurunegala",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0776069885",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–8 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BKMA38A9FGRFX0XPB26NA"
+}

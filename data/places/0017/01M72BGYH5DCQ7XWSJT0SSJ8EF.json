@@ -1,0 +1,58 @@
+{
+  "name": "Pink Line Restaurant & Bar",
+  "coordinates": {
+    "latitude": 6.6574594,
+    "longitude": 80.4874814
+  },
+  "address": "MF4P+XXQ, Colombo - Batticaloa Hwy, Pelmadulla",
+  "categories": [
+    "Restaurant"
+  ],
+  "phone": "0713112001",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–11 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BGYH5DCQ7XWSJT0SSJ8EF"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "NSB ATM",
+  "coordinates": {
+    "latitude": 6.850732,
+    "longitude": 79.8631545
+  },
+  "address": "VV27+77R, Dehiwala-Mount Lavinia",
+  "categories": [
+    "ATM"
+  ],
+  "phone": "0112737130",
+  "website": "http://www.nsb.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Open 24 hours"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Open 24 hours"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AR11D2NMZZP5CERXQTJY2"
+}

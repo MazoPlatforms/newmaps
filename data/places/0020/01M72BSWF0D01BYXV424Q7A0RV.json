@@ -1,0 +1,58 @@
+{
+  "name": "Allianz",
+  "coordinates": {
+    "latitude": 7.8794451,
+    "longitude": 80.6504575
+  },
+  "address": "643 Ambepussa - Trincomalee Hwy, Dambulla",
+  "categories": [
+    "Insurance agency"
+  ],
+  "phone": "0662283088",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8:30 AM–5 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BSWF0D01BYXV424Q7A0RV"
+}

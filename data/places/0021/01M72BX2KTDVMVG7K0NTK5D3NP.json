@@ -1,0 +1,58 @@
+{
+  "name": "Bismi Pharmacy",
+  "coordinates": {
+    "latitude": 8.978430999999999,
+    "longitude": 79.91355109999999
+  },
+  "address": "XWH7+9CF, Grand Bazar, Mannar",
+  "categories": [
+    "Pharmacy"
+  ],
+  "phone": "0774454700",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BX2KTDVMVG7K0NTK5D3NP"
+}

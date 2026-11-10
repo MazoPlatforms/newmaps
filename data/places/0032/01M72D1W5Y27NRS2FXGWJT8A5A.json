@@ -1,0 +1,58 @@
+{
+  "name": "Shalika Enterprise",
+  "coordinates": {
+    "latitude": 7.9818573,
+    "longitude": 79.8336338
+  },
+  "address": "Puttalam Road Palaviya, Puttalam",
+  "categories": [
+    "Hardware store"
+  ],
+  "phone": "0776796436",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–6 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D1W5Y27NRS2FXGWJT8A5A"
+}

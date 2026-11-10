@@ -1,0 +1,59 @@
+{
+  "address": "355 Main St, Negombo",
+  "name": "Cargills Food City - Negombo 1",
+  "coordinates": {
+    "latitude": 7.2129467,
+    "longitude": 79.8441404
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://www.cargillsceylon.com/",
+  "business_status": "OPEN",
+  "phone": "0312232273",
+  "categories": [
+    "Supermarket"
+  ],
+  "id": "01M72AECK4Z5KKTHAA72EF601B"
+}

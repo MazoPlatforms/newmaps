@@ -1,0 +1,60 @@
+{
+  "address": "Lighthouse St, Galle 80000",
+  "name": "Anods Cafe And Restaurant",
+  "coordinates": {
+    "latitude": 6.027135599999999,
+    "longitude": 80.2165471
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–10 PM"
+      ]
+    }
+  ],
+  "website": "https://anodzcafe.com/",
+  "business_status": "OPEN",
+  "phone": "0773257248",
+  "categories": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "id": "01M72ABTT6CW3ZAVTM348JAMA5"
+}

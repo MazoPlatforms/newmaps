@@ -1,0 +1,58 @@
+{
+  "name": "Co-Op City",
+  "coordinates": {
+    "latitude": 8.7564163,
+    "longitude": 80.5005549
+  },
+  "address": "28a Pandaravanniyan Rd, Vavuniya 43000",
+  "categories": [
+    "Grocery store"
+  ],
+  "phone": "0719156950",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–7 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BW6KEGWC28J4PG272TASK"
+}

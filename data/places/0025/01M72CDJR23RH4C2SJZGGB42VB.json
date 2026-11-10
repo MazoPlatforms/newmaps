@@ -1,0 +1,59 @@
+{
+  "name": "Tech Planet",
+  "coordinates": {
+    "latitude": 6.880726699999999,
+    "longitude": 79.91794329999999
+  },
+  "address": "344 Thalawathugoda Road, Sri Jayawardenepura Kotte 10100",
+  "categories": [
+    "Computer repair service"
+  ],
+  "phone": "0778800035",
+  "website": "http://www.techplanet.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CDJR23RH4C2SJZGGB42VB"
+}

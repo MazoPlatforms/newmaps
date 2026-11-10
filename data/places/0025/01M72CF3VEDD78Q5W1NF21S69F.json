@@ -1,0 +1,58 @@
+{
+  "name": "Sun Way Computers",
+  "coordinates": {
+    "latitude": 7.206492099999999,
+    "longitude": 79.84548749999999
+  },
+  "address": "No : 219 B, St Joseph's St, Negombo 11500",
+  "categories": [
+    "Computer store"
+  ],
+  "phone": "0772222060",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–7:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "9 AM–1 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CF3VEDD78Q5W1NF21S69F"
+}

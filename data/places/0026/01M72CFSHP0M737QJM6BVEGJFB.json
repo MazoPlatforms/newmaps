@@ -1,0 +1,60 @@
+{
+  "name": "Wijaya Print",
+  "coordinates": {
+    "latitude": 7.2113399,
+    "longitude": 79.8407431
+  },
+  "address": "283 Main St, Negombo",
+  "categories": [
+    "Print shop",
+    "Commercial printer"
+  ],
+  "phone": "0312233015",
+  "website": "http://www.wijayaprint.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–3 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72CFSHP0M737QJM6BVEGJFB"
+}

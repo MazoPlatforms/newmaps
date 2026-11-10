@@ -1,0 +1,58 @@
+{
+  "name": "Head Office Men’s Saloon",
+  "coordinates": {
+    "latitude": 8.762165,
+    "longitude": 80.4771957
+  },
+  "address": "QF6G+VV8, Vavuniya",
+  "categories": [
+    "Barber shop"
+  ],
+  "phone": "0770092602",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "9 AM–8 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "9 AM–9 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "Closed"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72D5MNS0WW6W71BTTZV8H2N"
+}

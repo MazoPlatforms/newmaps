@@ -1,0 +1,58 @@
+{
+  "name": "Little Café",
+  "coordinates": {
+    "latitude": 7.2585472,
+    "longitude": 80.3284863
+  },
+  "address": "785H+9CM, Habudugala",
+  "categories": [
+    "Bakery"
+  ],
+  "phone": "0702330243",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "3–10 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "3–10 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BN9676SBGFWDH2AB55ATD"
+}

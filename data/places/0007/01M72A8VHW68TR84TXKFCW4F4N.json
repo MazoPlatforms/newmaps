@@ -1,0 +1,59 @@
+{
+  "address": "590 Galle Rd, Colombo 00300",
+  "name": "Marino Mall Food Emporium",
+  "coordinates": {
+    "latitude": 6.8998902,
+    "longitude": 79.8517893
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "10 AM–10 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "10 AM–10:30 PM"
+      ]
+    }
+  ],
+  "website": "https://www.marinomall.com/dining.php",
+  "business_status": "OPEN",
+  "phone": "0772576526",
+  "categories": [
+    "Food court"
+  ],
+  "id": "01M72A8VHW68TR84TXKFCW4F4N"
+}

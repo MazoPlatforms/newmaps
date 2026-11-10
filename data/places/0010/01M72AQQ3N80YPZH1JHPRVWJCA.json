@@ -1,0 +1,60 @@
+{
+  "name": "Aichi Lanka Medical Centre",
+  "coordinates": {
+    "latitude": 6.804206799999999,
+    "longitude": 79.9229493
+  },
+  "address": "Wata Mawatha, Piliyandala",
+  "categories": [
+    "Medical Center",
+    "Doctor"
+  ],
+  "phone": "0112606607",
+  "website": "https://www.aichilanka.com/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "7 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72AQQ3N80YPZH1JHPRVWJCA"
+}

@@ -1,0 +1,58 @@
+{
+  "address": "7 Sea St, Colombo 01100",
+  "name": "Star Hotel & Bakery",
+  "coordinates": {
+    "latitude": 6.9392214999999995,
+    "longitude": 79.8540118
+  },
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "6 AM–12 AM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "phone": "0112435012",
+  "categories": [
+    "Restaurant"
+  ],
+  "id": "01M72A8VH9DDN4JJYF5VATCBNF"
+}

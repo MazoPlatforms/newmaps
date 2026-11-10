@@ -1,0 +1,60 @@
+{
+  "name": "A.H.A Super Market",
+  "coordinates": {
+    "latitude": 7.9060881,
+    "longitude": 81.06564929999999
+  },
+  "address": "149/3 kaduruwela, Gallella 51000",
+  "categories": [
+    "Supermarket",
+    "Grocery store"
+  ],
+  "phone": "0272224968",
+  "website": "http://www.aha.lk/",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "7:30 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–9:30 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72BRETWTK3W6DM0PMYSQ315"
+}

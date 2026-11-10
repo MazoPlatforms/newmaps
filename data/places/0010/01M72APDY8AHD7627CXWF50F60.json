@@ -1,0 +1,58 @@
+{
+  "name": "Bajaj Service Center",
+  "coordinates": {
+    "latitude": 6.8535806,
+    "longitude": 79.8732223
+  },
+  "address": "154 Anagarika Dharmapala Mawatha, Dehiwala-Mount Lavinia",
+  "categories": [
+    "Motorcycle repair shop"
+  ],
+  "phone": "0114858627",
+  "hours": [
+    {
+      "day": "Monday",
+      "times": [
+        "Closed"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Friday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "times": [
+        "8 AM–5 PM"
+      ]
+    }
+  ],
+  "business_status": "OPEN",
+  "id": "01M72APDY8AHD7627CXWF50F60"
+}
