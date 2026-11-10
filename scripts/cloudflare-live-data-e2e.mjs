@@ -149,7 +149,21 @@ try {
   const page = await context.newPage();
   await page.addInitScript(() => { globalThis.__MAZO_LIVE_DATA_TEST_POLL_MS = 250; });
   page.on('pageerror', (error) => browserErrors.push(error.message));
-  page.on('console', (message) => { if (message.type() === 'error') browserErrors.push(message.text()); });
+  const placeTileStatuses = new Map();
+  page.on('response', (response) => {
+    if (new URL(response.url()).pathname.match(/\/api\/v1\/tiles\/\d+\/\d+\/\d+\.pbf$/)) {
+      placeTileStatuses.set(response.url(), response.status());
+    }
+  });
+  page.on('console', (message) => {
+    if (message.type() !== 'error') return;
+    const text = message.text();
+    const tileUrl = text.match(/Unable to parse the tile at (https?:\/\/[^ ,]+)/)?.[1];
+    // HTTP 204 is the documented response for an empty place tile. MapLibre
+    // logs the empty body as a parse warning; keep treating malformed 200s as errors.
+    if (tileUrl && placeTileStatuses.get(tileUrl) === 204) return;
+    browserErrors.push(text);
+  });
   page.on('requestfailed', (request) => {
     const failure = request.failure()?.errorText;
     if (failure && failure !== 'net::ERR_ABORTED') browserErrors.push(`${failure}: ${request.url()}`);

@@ -161,8 +161,13 @@ try {
       throw error;
     }
     await wait(page, () => document.querySelectorAll('.categories button').length > 2 && document.querySelector('#search-status').hidden, 90_000);
-    const sourceType = await page.evaluate(() => window.__MAZO_MAP_TEST__.getSource('mazo-pois')?.type);
-    assert.equal(sourceType, 'vector', 'production places render from PMTiles vector tiles');
+    await wait(page, () => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['places-dot'] }).length > 0, 30_000);
+    const bootstrapPoiSource = await page.evaluate(() => ({
+      type: window.__MAZO_MAP_TEST__.getSource('mazo')?.type,
+      layer: window.__MAZO_MAP_TEST__.getLayer('places-dot')?.id,
+    }));
+    assert.equal(bootstrapPoiSource.type, 'vector', 'place PBF source is part of the initial map style');
+    assert.equal(bootstrapPoiSource.layer, 'places-dot', 'preloaded place features render before the PMTiles marker source initializes');
     assert.equal(await page.evaluate(() => new URL(location.href).searchParams.has('delivery')), false, 'production does not require a format flag');
     assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some((entry) => entry.name.includes('batticaloa-district.mzp'))), false,
       'production never requests a place MZP archive');
