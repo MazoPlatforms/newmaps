@@ -61,5 +61,95 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQFKT98HRQ7G0HBJNYBK"
+  "id": "01M5W5PQFKT98HRQ7G0HBJNYBK",
+  "alternate_hours": [
+    [
+      {
+        "day": "Monday",
+        "times": [
+          "9:30 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "times": [
+          "9:30 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "times": [
+          "9:30 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "times": [
+          "9:30 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Friday",
+        "times": [
+          "Closed"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "times": [
+          "9:30 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Sunday",
+        "times": [
+          "9:30 AM–2 AM"
+        ]
+      }
+    ],
+    [
+      {
+        "day": "Monday",
+        "times": [
+          "9:30 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "times": [
+          "9:30 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "times": [
+          "9:30 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "times": [
+          "9:30 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Friday",
+        "times": [
+          "Closed"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "times": [
+          "9:30 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Sunday",
+        "times": [
+          "9:30 AM–2 AM"
+        ]
+      }
+    ]
+  ]
 }

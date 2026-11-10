@@ -4,7 +4,7 @@
     "latitude": 7.6773020999999995,
     "longitude": 81.7244841
   },
-  "address": "MPGF+WQH, Front Of Falah Arabic college, Oor Road, Kattankudy",
+  "address": "MPGF+WQH, Front Of Falah Arabic college, Oor Road, Kattankudy 30100",
   "categories": [
     "Chicken shop"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJK77NFS6Y00MVPKYPH"
+  "id": "01M5W5PQJK77NFS6Y00MVPKYPH",
+  "alternate_addresses": [
+    "MPGF+WQH, Front Of Falah Arabic college, Oor Road, Kattankudy",
+    "MPGF+WQH, Front Of Falah Arabic college, Oor Road, Kattankudy 30100"
+  ]
 }

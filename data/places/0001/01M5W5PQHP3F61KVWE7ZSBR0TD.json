@@ -4,7 +4,7 @@
     "latitude": 7.676786399999999,
     "longitude": 81.72489159999999
   },
-  "address": "127 Old Road, Kattankudy",
+  "address": "127 Old Road, Kattankudy 30100",
   "categories": [
     "Restaurant"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQHP3F61KVWE7ZSBR0TD"
+  "id": "01M5W5PQHP3F61KVWE7ZSBR0TD",
+  "alternate_addresses": [
+    "127 Old Road, Kattankudy",
+    "127 Old Road, Kattankudy 30100"
+  ]
 }

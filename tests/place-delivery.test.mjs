@@ -54,6 +54,13 @@ test('canonical and retired ULIDs resolve to the same selected place', () => {
   assert.throws(() => createPlaceLookup([place], { A: { canonical_id: 'B' }, B: { canonical_id: 'A' } }), /alias cycle/);
 });
 
+test('permanently removed invalid place IDs do not resolve to another place', () => {
+  const place = { id, name: 'Example Place' };
+  const lookup = createPlaceLookup([place], { '01ARZ3NDEKTSV4RRFFQ69G5FAW': { deleted: true, reason: 'invalid_place_data_removed' } });
+  assert.equal(lookup.get('01ARZ3NDEKTSV4RRFFQ69G5FAW'), undefined);
+  assert.equal(lookup.get(id), place);
+});
+
 test('generated category identifiers match frontend category and filter rules for every searchable place', () => {
   const manifest = JSON.parse(readFileSync('generated/manifest.json', 'utf8'));
   assert.equal(manifest.production_default, 'pmtiles');

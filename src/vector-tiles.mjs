@@ -278,9 +278,9 @@ async function style(env, base, revision, theme = 'light') {
   value.sources.mazo = { type: 'vector', url: `${base}${API}/tiles.json?revision=${encodeURIComponent(revision)}` };
   value.layers.push(...POI_LAYERS);
   for (const layer of value.layers) {
-    if (layer.type === 'background') layer.paint = { ...(layer.paint || {}), 'background-color': theme === 'dark' ? '#102b3a' : '#a9d3e2' };
+    if (layer.type === 'background') layer.paint = { ...(layer.paint || {}), 'background-color': theme === 'dark' ? '#102b3a' : '#82d5e2' };
     if (layer.type === 'fill' && layer['source-layer'] === 'country_land') {
-      layer.paint = { ...(layer.paint || {}), 'fill-color': theme === 'dark' ? '#202d32' : '#ebe8df' };
+      layer.paint = { ...(layer.paint || {}), 'fill-color': theme === 'dark' ? '#202d32' : '#d9f0df' };
     }
   }
   if (theme === 'dark') {

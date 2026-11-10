@@ -4,7 +4,7 @@
     "latitude": 7.6867996,
     "longitude": 81.7259693
   },
-  "address": "Welcome Board Bus Stop, Colombo-Ratnapura-Wellawaya-Batticaloa Hwy, Kattankudy",
+  "address": "Welcome Board Bus Stop, Colombo-Ratnapura-Wellawaya-Batticaloa Highway, Kattankudy 30100",
   "categories": [
     "Indian restaurant"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJBVTJ0S0280EN7PK4E"
+  "id": "01M5W5PQJBVTJ0S0280EN7PK4E",
+  "alternate_addresses": [
+    "Welcome Board Bus Stop, Colombo-Ratnapura-Wellawaya-Batticaloa Hwy, Kattankudy",
+    "Welcome Board Bus Stop, Colombo-Ratnapura-Wellawaya-Batticaloa Highway, Kattankudy 30100"
+  ]
 }

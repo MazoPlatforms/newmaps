@@ -21,6 +21,29 @@ def validate():
     if any(key in manifest for key in ("geojson", "bytes", "sha256")):
         raise ValueError("Legacy MZP place delivery metadata remains in the manifest")
     source_records, _, _ = build.places.load_places()
+    quality_counts = {}
+    for record in source_records:
+        kind = build.place_quality.semantic_type(record)
+        quality_counts[kind] = quality_counts.get(kind, 0) + 1
+        if kind in {"invalid_name", "road_reference"}:
+            raise ValueError(f"Non-place record remains in canonical place data: {record['id']} ({kind})")
+    marker_ids = set()
+    marker_count = 0
+    for marker_file in sorted((build.ROOT / "data/road-markers/kilometer-posts").glob("*.geojson")):
+        marker_collection = json.loads(marker_file.read_text(encoding="utf-8"))
+        if marker_collection.get("type") != "FeatureCollection":
+            raise ValueError(f"Road kilometer-post chunk is not GeoJSON: {marker_file}")
+        for marker in marker_collection.get("features", []):
+            marker_id = marker.get("properties", {}).get("id")
+            coords = marker.get("geometry", {}).get("coordinates", [])
+            name = str(marker.get("properties", {}).get("name", "")).strip()
+            if (not marker_id or marker_id in marker_ids or len(coords) != 2 or
+                    not all(isinstance(value, (int, float)) for value in coords) or
+                    not name or name.casefold() in build.place_quality.PLACEHOLDER_NAMES or
+                    not (79.0 <= coords[0] <= 82.8 and 5.4 <= coords[1] <= 10.2)):
+                raise ValueError(f"Invalid or duplicate road kilometer post in {marker_file}")
+            marker_ids.add(marker_id)
+            marker_count += 1
     if manifest.get("source_sha256") != build.places.source_digest(source_records):
         raise ValueError("Place manifest does not match current canonical records")
     if (build.GENERATED / "batticaloa-district.mzp").exists():
@@ -49,7 +72,8 @@ def validate():
     search_ids = [row.get("id") for row in search_rows]
     canonical_records = source_records
     public_records = {record["id"]: record for record in canonical_records
-                      if build.places.classify_place(record)["eligible_for_public_map"]}
+                      if build.places.classify_place(record)["eligible_for_public_map"]
+                      and build.place_quality.is_map_poi(record)}
     if len(search_ids) != len(set(search_ids)) or set(search_ids) != set(public_records):
         raise ValueError("Search index does not exactly cover all eligible canonical places")
     if len(expected) != tile_entry.get("features") or len(search_ids) != search_entry.get("records"):
@@ -161,6 +185,7 @@ def validate():
         raise ValueError("Delivery manifest does not preserve permanent alias resolution")
     return {
         "valid": True, "features": len(expected), "search_records": len(search_ids),
+        "canonical_place_quality": quality_counts, "road_kilometer_posts": marker_count,
         "aliases": len(aliases), "tiles": tile_count, "min_zoom": header["min_zoom"],
         "max_zoom": header["max_zoom"], "archive_bytes": len(archive_data),
         "search_index_bytes": len(search_data), "search_index_gzip_bytes": len(gzip.compress(search_data, mtime=0)),

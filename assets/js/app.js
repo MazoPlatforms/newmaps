@@ -158,7 +158,11 @@ function poiLayout(){return {
  'icon-image':['concat','mazo-',['get','kind']],
  'icon-anchor':'bottom',
  'icon-size':['interpolate',['linear'],['zoom'],6,0.48,9,0.56,12,0.64,15,0.74,18,0.82,20,0.9],
- 'icon-allow-overlap':false,'icon-padding':['interpolate',['linear'],['zoom'],6,16,9,18,12,19,15,26,18,22,20,18],
+ // Keep every valid place anchored by its pin even where nearby names collide.
+ // Labels remain optional and collision-aware, so dense areas do not become a
+ // wall of text and the icon does not disappear behind another label.
+ 'icon-allow-overlap':true,'icon-ignore-placement':true,
+ 'icon-padding':['interpolate',['linear'],['zoom'],6,5,9,6,12,7,15,8,18,8,20,8],
  'text-field':['get','name'],'text-font':['Mazo Maps Sans Regular'],
  'text-size':['interpolate',['linear'],['zoom'],6,9,9,10,12,11,16,12,20,13],
  'text-offset':[0,0.8],'text-anchor':'top','text-max-width':11,
@@ -678,7 +682,7 @@ async function loadPmtiles(manifest){
  retireBootstrapPoiAfterArchiveLoads();
  renderCategoryFilters();refresh();const status=$('#search-status');status.hidden=true;status.textContent='';
 }
-async function loadPlaceData(){const status=$('#search-status'),retry=$('#places-retry');retry.hidden=true;status.hidden=true;status.classList.remove('is-error');status.textContent='';places=[];placeById.clear();placeSearchIndex=null;searchIndexPromise=null;placeDetailsLoaded=false;placeDetailPromise=null;try{const manifestUrl=await appDataUrl('generated/manifest.json');const manifest=await retryTransientData(async()=>{const response=await fetch(manifestUrl,{cache:'no-store'});if(!response.ok){const error=Error('Manifest '+response.status);error.status=response.status;throw error}return response.json()});if(manifest.production_default!=='pmtiles'||manifest.format!=='PMTiles/1')throw Error('The place manifest does not declare PMTiles as its sole delivery format');deliveryManifest=manifest;placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);id=typeof placeAliases[id]==='string'?placeAliases[id]:placeAliases[id].canonical_id}return id};renderCategoryFilters();
+async function loadPlaceData(){const status=$('#search-status'),retry=$('#places-retry');retry.hidden=true;status.hidden=true;status.classList.remove('is-error');status.textContent='';places=[];placeById.clear();placeSearchIndex=null;searchIndexPromise=null;placeDetailsLoaded=false;placeDetailPromise=null;try{const manifestUrl=await appDataUrl('generated/manifest.json');const manifest=await retryTransientData(async()=>{const response=await fetch(manifestUrl,{cache:'no-store'});if(!response.ok){const error=Error('Manifest '+response.status);error.status=response.status;throw error}return response.json()});if(manifest.production_default!=='pmtiles'||manifest.format!=='PMTiles/1')throw Error('The place manifest does not declare PMTiles as its sole delivery format');deliveryManifest=manifest;placeAliases=manifest.aliases||{};window.resolveMazoPlaceId=id=>{const seen=new Set();while(placeAliases[id]){if(seen.has(id))throw Error('Place alias cycle');seen.add(id);const alias=placeAliases[id];if(alias?.deleted===true)return null;id=typeof alias==='string'?alias:alias?.canonical_id;if(typeof id!=='string')return null}return id};renderCategoryFilters();
  await retryTransientData(()=>loadPmtiles(manifest));
  status.hidden=true;status.textContent='';status.classList.remove('is-error');retry.hidden=true;
 }catch(error){status.hidden=false;status.textContent='Place search and details could not be refreshed. Vector map places remain visible; check your connection and retry.';status.classList.add('is-error');retry.hidden=false;console.error('Place data error:',error);if(deliveryManifest)void ensureSearchIndex().catch(indexError=>console.warn('Place search index unavailable:',indexError))}}

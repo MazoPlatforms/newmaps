@@ -19,6 +19,7 @@ from types import SimpleNamespace
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import places  # noqa: E402
+import place_quality  # noqa: E402
 
 try:
     import mapbox_vector_tile
@@ -136,13 +137,14 @@ def tile_xy(lon, lat, zoom):
 
 def visible_from_zoom(feature_priority, zoom):
     return (zoom >= MIN_ZOOM and
-            (zoom <= 6 and feature_priority == 1 or
+            (zoom <= 6 and feature_priority <= 2 or
              7 <= zoom <= 9 and feature_priority <= 2 or
              zoom >= 10))
 
 
 def read_features():
-    return places.public_features()
+    return [feature for feature in places.public_features()
+            if place_quality.is_map_poi(feature["properties"])]
 
 
 def build_search_index(features):
@@ -150,7 +152,9 @@ def build_search_index(features):
     fields = list(SEARCH_FIELDS)
     rows = []
     active_records, _, _ = places.load_places()
-    public_records = [record for record in active_records if places.classify_place(record)["eligible_for_public_map"]]
+    public_records = [record for record in active_records
+                      if places.classify_place(record)["eligible_for_public_map"]
+                      and place_quality.is_map_poi(record)]
     detail_fields = sorted({key for record in public_records for key in record if key not in {"id", "coordinates"}})
     details = []
     for record in public_records:

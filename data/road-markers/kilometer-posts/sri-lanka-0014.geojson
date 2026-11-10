@@ -1,0 +1,946 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sri Lanka road kilometer posts",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "01M72DWY7QE07WA9WXZQRKQ114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53476367000007,
+          7.0749073000000635
+        ]
+      },
+      "properties": {
+        "name": "Shemrok Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7QE07WA9WXZQRKQ114"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7QGFGAQKANWBM5ZARP",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.51749455900006,
+          7.102586466000048
+        ]
+      },
+      "properties": {
+        "name": "Wetakedeniya Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7QGFGAQKANWBM5ZARP"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7QHF7RY56GKVFQ31EP",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.52393454500003,
+          7.100369189000048
+        ]
+      },
+      "properties": {
+        "name": "Medagoda Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7QHF7RY56GKVFQ31EP"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7QQ2FE0W05GKBRYMDQ",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.52044796800004,
+          7.031886425000039
+        ]
+      },
+      "properties": {
+        "name": "Galwela Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7QQ2FE0W05GKBRYMDQ"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7R2B6PZWGR004CNH9G",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.58043179800006,
+          7.162719039000024
+        ]
+      },
+      "properties": {
+        "name": "Orayanwatta Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7R2B6PZWGR004CNH9G"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7RAKRF7C0DS67KHMCR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.56906219800004,
+          7.1642510300000595
+        ]
+      },
+      "properties": {
+        "name": "Gangasiripura Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7RAKRF7C0DS67KHMCR"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7RRCVA6N00WFMATX8T",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.52386067800006,
+          7.136509285000045
+        ]
+      },
+      "properties": {
+        "name": "Naigala Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7RRCVA6N00WFMATX8T"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7RYKP9AB4CB0DBTHF8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57322160500007,
+          7.15641501500005
+        ]
+      },
+      "properties": {
+        "name": "Maligapurana Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7RYKP9AB4CB0DBTHF8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7S1F95MH23JS1RB7AX",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.55647134400004,
+          7.179082678000043
+        ]
+      },
+      "properties": {
+        "name": "Pinthaliya Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7S1F95MH23JS1RB7AX"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7S349R2PHTRKSAEW8D",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57572245300008,
+          7.197742427000037
+        ]
+      },
+      "properties": {
+        "name": "Chegiriya Lunugama Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7S349R2PHTRKSAEW8D"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7S50JF8GWA8ZCDP18F",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.56977967200004,
+          7.165362369000036
+        ]
+      },
+      "properties": {
+        "name": "Kadugannawa Road Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7S50JF8GWA8ZCDP18F"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7SA5Y0W948VDY4EHYS",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57491289500007,
+          7.202934264000021
+        ]
+      },
+      "properties": {
+        "name": "Menikboova Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7SA5Y0W948VDY4EHYS"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7SQ0N1GDTDSYJX7A34",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.55416272200006,
+          7.181931353000039
+        ]
+      },
+      "properties": {
+        "name": "Wewpitiya Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7SQ0N1GDTDSYJX7A34"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7T5SQX65JGNKWHZ6DG",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.58127742400006,
+          7.2070956590000606
+        ]
+      },
+      "properties": {
+        "name": "Thalawathura Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7T5SQX65JGNKWHZ6DG"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7T6GR9R0KYYSMZPJ40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57273174900007,
+          7.20748384500007
+        ]
+      },
+      "properties": {
+        "name": "Galkona Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7T6GR9R0KYYSMZPJ40"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7TK6GFKXRWGHRB8B8N",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.59384800700008,
+          7.212322110000059
+        ]
+      },
+      "properties": {
+        "name": "Kelamadeniya Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7TK6GFKXRWGHRB8B8N"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7TN4WB8C5XTKYNAY29",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.56333777500004,
+          7.209576208000044
+        ]
+      },
+      "properties": {
+        "name": "Thalawa Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7TN4WB8C5XTKYNAY29"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7TT2T73YG8JN3R1HSB",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.56456122000003,
+          7.210358190000022
+        ]
+      },
+      "properties": {
+        "name": "Bambaradeniya Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7TT2T73YG8JN3R1HSB"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7V6FR63VJDVY1Z63GY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57478895400004,
+          7.213265226000033
+        ]
+      },
+      "properties": {
+        "name": "Punahela Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7V6FR63VJDVY1Z63GY"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7V8PA1BTVG5TXEDX08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57128843700008,
+          7.215851455000063
+        ]
+      },
+      "properties": {
+        "name": "Embekka Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7V8PA1BTVG5TXEDX08"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7VAKMW3SV03W8B7AG3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.58220798700006,
+          7.213333234000061
+        ]
+      },
+      "properties": {
+        "name": "Elamaldeniya Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7VAKMW3SV03W8B7AG3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7VEJC718QTS05RZQCY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57914485600008,
+          7.218584966000037
+        ]
+      },
+      "properties": {
+        "name": "Eladetta Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7VEJC718QTS05RZQCY"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7VRYGW7X4CZZWH9FT5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57908972900003,
+          7.219799958000067
+        ]
+      },
+      "properties": {
+        "name": "Eladetta Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7VRYGW7X4CZZWH9FT5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7W6C65CFMYM3D5VRF6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57174276800004,
+          7.221203369000023
+        ]
+      },
+      "properties": {
+        "name": "Embekka Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7W6C65CFMYM3D5VRF6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7WM40YK12KV24JKDH9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57341272900004,
+          7.218995242000062
+        ]
+      },
+      "properties": {
+        "name": "Ambarapola Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7WM40YK12KV24JKDH9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7WQ43B29HCA73DGEM5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.54922398000008,
+          7.210037161000059
+        ]
+      },
+      "properties": {
+        "name": "Kuradeniya Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7WQ43B29HCA73DGEM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7WSDHTYT1D9SPW0FTG",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.54764890700005,
+          7.214175742000066
+        ]
+      },
+      "properties": {
+        "name": "Nikahetiya Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7WSDHTYT1D9SPW0FTG"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7WV22EKJC1TJEMF257",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.57460719700003,
+          7.215989658000069
+        ]
+      },
+      "properties": {
+        "name": "Eladetta JUnction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7WV22EKJC1TJEMF257"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7XATD8J31GXAHQSQR6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.54113187900003,
+          7.2344570790000375
+        ]
+      },
+      "properties": {
+        "name": "Ganhatha Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7XATD8J31GXAHQSQR6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7XJZWFH1KNREKGH5VM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.54490426300003,
+          7.225414106000073
+        ]
+      },
+      "properties": {
+        "name": "Dihitiyawela Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7XJZWFH1KNREKGH5VM"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7XSN4DNX3MXX2WR10K",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53790575300008,
+          7.234828097000047
+        ]
+      },
+      "properties": {
+        "name": "Nagahamula Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7XSN4DNX3MXX2WR10K"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7XWG85R9GSGSNV5AT8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.54271555400004,
+          7.21692321200004
+        ]
+      },
+      "properties": {
+        "name": "Uswatta Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7XWG85R9GSGSNV5AT8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7XZDSF15VAY1YBY98F",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53640711600008,
+          7.229308020000076
+        ]
+      },
+      "properties": {
+        "name": "Walagedera Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7XZDSF15VAY1YBY98F"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7Y7NDS4HJ7GH545YH1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53303304800005,
+          7.240294068000026
+        ]
+      },
+      "properties": {
+        "name": "Ambagasthenna Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7Y7NDS4HJ7GH545YH1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7YE1QT0TCQQSBHZBCB",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.52503821600004,
+          7.243867196000053
+        ]
+      },
+      "properties": {
+        "name": "Lunuwatta Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7YE1QT0TCQQSBHZBCB"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7YJPXQ6MN40EBZYVRN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53300167200007,
+          7.241048130000024
+        ]
+      },
+      "properties": {
+        "name": "Kethgalla Ambagasthenna Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7YJPXQ6MN40EBZYVRN"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7YM5HP67BRDY3WKQXC",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53333486800005,
+          7.238328171000035
+        ]
+      },
+      "properties": {
+        "name": "Kudumirisa Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7YM5HP67BRDY3WKQXC"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7YXHDZRGNQQ77NYM9N",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53461248600007,
+          7.234286528000041
+        ]
+      },
+      "properties": {
+        "name": "Bandarahenthenna Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7YXHDZRGNQQ77NYM9N"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7Z8NAZE6EYQ3YHW6EF",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53131697200007,
+          7.262316446000057
+        ]
+      },
+      "properties": {
+        "name": "Heenawela Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7Z8NAZE6EYQ3YHW6EF"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7ZFSDGXZSB1SXZZS5X",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.52499990700005,
+          7.250091735000069
+        ]
+      },
+      "properties": {
+        "name": "Belungala Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7ZFSDGXZSB1SXZZS5X"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7ZM57Y8RNCQBRK1JN2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.52694044800006,
+          7.247964336000052
+        ]
+      },
+      "properties": {
+        "name": "Lagamuwa Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7ZM57Y8RNCQBRK1JN2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7ZP2CGCA30D0GW8X17",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53551194200008,
+          7.2409734500000695
+        ]
+      },
+      "properties": {
+        "name": "Nagahamula Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7ZP2CGCA30D0GW8X17"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY7ZTMGKQK4QT11ZTDAD",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.52147576200008,
+          7.258351980000043
+        ]
+      },
+      "properties": {
+        "name": "Mudaliwatta Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY7ZTMGKQK4QT11ZTDAD"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY8004W4GCRB9K5V6D25",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53251358000006,
+          7.266368968000052
+        ]
+      },
+      "properties": {
+        "name": "Kurudhuwatta Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY8004W4GCRB9K5V6D25"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY8096SFHJM83TRN83WX",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.54085722300005,
+          7.281364483000061
+        ]
+      },
+      "properties": {
+        "name": "Siyambalagoda Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY8096SFHJM83TRN83WX"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY80D76TTA9GC6ATS263",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.54209732200007,
+          7.276021614000058
+        ]
+      },
+      "properties": {
+        "name": "Dambalanda Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY80D76TTA9GC6ATS263"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01M72DWY80MQS928NTFPN40DWQ",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.53416635800005,
+          7.271132776000059
+        ]
+      },
+      "properties": {
+        "name": "Amugala Junction",
+        "categories": [
+          "Transport",
+          "Kilometer post"
+        ],
+        "description": "3",
+        "id": "01M72DWY80MQS928NTFPN40DWQ"
+      }
+    }
+  ]
+}

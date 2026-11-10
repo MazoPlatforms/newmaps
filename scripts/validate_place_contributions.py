@@ -267,7 +267,7 @@ def validate_changes(base_ref: str, head_ref: str) -> dict:
     for record_id in removed_ids:
         if record_id in aliases:
             target = places.resolve_place_id(record_id, aliases)
-            if target not in active_by_id:
+            if target is not None and target not in active_by_id:
                 errors.append(f"Deleted place {record_id} alias does not resolve to an active canonical place")
     errors.extend(validate_alias_changes(base_ref, aliases, set(removed_ids)))
 
@@ -301,7 +301,8 @@ def validate_changes(base_ref: str, head_ref: str) -> dict:
     delivery_result = validate_map_delivery.validate()
     manifest = json.loads((places.GENERATED / "manifest.json").read_text(encoding="utf-8"))
     expected_ids = {r["id"] for r in records if r.get("coordinates") is not None
-                    and classify_place(r)["eligible_for_public_map"]}
+                    and classify_place(r)["eligible_for_public_map"]
+                    and build_map_delivery.place_quality.is_map_poi(r)}
     actual_ids = {f.get("id") for f in build_map_delivery.read_features()}
     if actual_ids != expected_ids:
         raise ValueError("Generated PMTiles source features do not match eligible, geocoded source records")

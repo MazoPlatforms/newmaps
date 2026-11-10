@@ -60,5 +60,95 @@
   ],
   "website": "https://www.witsberry.com/",
   "business_status": "OPEN",
-  "id": "01M5W5PQJZPSSWZRGZ9KN4Z9BH"
+  "id": "01M5W5PQJZPSSWZRGZ9KN4Z9BH",
+  "alternate_hours": [
+    [
+      {
+        "day": "Monday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      },
+      {
+        "day": "Friday",
+        "times": [
+          "Closed"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      },
+      {
+        "day": "Sunday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      }
+    ],
+    [
+      {
+        "day": "Monday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      },
+      {
+        "day": "Friday",
+        "times": [
+          "Closed"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      },
+      {
+        "day": "Sunday",
+        "times": [
+          "3:30–7:30 PM"
+        ]
+      }
+    ]
+  ]
 }

@@ -4,7 +4,7 @@
     "latitude": 7.6916478999999995,
     "longitude": 81.7346936
   },
-  "address": "MPRM+MV4, Telecom Road, Kattankudy 01",
+  "address": "Telecom Road, Kattankudy 01, Kattankudy 30100",
   "categories": [
     "Restaurant"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJ76W2CP482P8JRBNX6"
+  "id": "01M5W5PQJ76W2CP482P8JRBNX6",
+  "alternate_addresses": [
+    "MPRM+MV4, Telecom Road, Kattankudy 01",
+    "Telecom Road, Kattankudy 01, Kattankudy 30100"
+  ]
 }

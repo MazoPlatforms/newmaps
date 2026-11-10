@@ -4,7 +4,7 @@
     "latitude": 7.6771139999999995,
     "longitude": 81.7306668
   },
-  "address": "243 Main St, Kattankudy",
+  "address": "243 Main Street, Kattankudy 30100",
   "categories": [
     "Museum"
   ],
@@ -53,5 +53,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJ1SXSB87CY61BWZW9S"
+  "id": "01M5W5PQJ1SXSB87CY61BWZW9S",
+  "alternate_addresses": [
+    "243 Main St, Kattankudy",
+    "243 Main Street, Kattankudy 30100"
+  ]
 }

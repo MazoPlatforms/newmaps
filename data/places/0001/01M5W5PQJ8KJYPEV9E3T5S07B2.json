@@ -4,7 +4,7 @@
     "latitude": 7.679566899999999,
     "longitude": 81.7375114
   },
-  "address": "MPHQ+R2C, Kattankudy",
+  "address": "MPHQ+R2C, Kattankudy 30100",
   "categories": [
     "Soup shop"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJ8KJYPEV9E3T5S07B2"
+  "id": "01M5W5PQJ8KJYPEV9E3T5S07B2",
+  "alternate_addresses": [
+    "MPHQ+R2C, Kattankudy",
+    "MPHQ+R2C, Kattankudy 30100"
+  ]
 }

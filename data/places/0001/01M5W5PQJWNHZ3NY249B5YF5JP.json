@@ -55,5 +55,95 @@
   ],
   "website": "https://smartnet.digitel.site/",
   "business_status": "OPEN",
-  "id": "01M5W5PQJWNHZ3NY249B5YF5JP"
+  "id": "01M5W5PQJWNHZ3NY249B5YF5JP",
+  "alternate_hours": [
+    [
+      {
+        "day": "Monday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Friday",
+        "times": [
+          "Closed"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Sunday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      }
+    ],
+    [
+      {
+        "day": "Monday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Friday",
+        "times": [
+          "Closed"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      },
+      {
+        "day": "Sunday",
+        "times": [
+          "9 AM–10 PM"
+        ]
+      }
+    ]
+  ]
 }

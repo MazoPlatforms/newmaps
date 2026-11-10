@@ -3,6 +3,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import places
+from place_quality import is_map_poi
 from place_eligibility import classify_place
 
 class PlaceTests(unittest.TestCase):
@@ -39,15 +40,21 @@ class PlaceTests(unittest.TestCase):
         self.assertEqual(sum(r['coordinates'] is not None for r in records)+len(no_coords),len(records))
         self.assertTrue(all(len(places.shard_files(s))<=999 for s in (places.PLACES).iterdir()))
         places.build()
-        geo={'type':'FeatureCollection','features':places.public_features()}
+        geo={'type':'FeatureCollection','features':[f for f in places.public_features() if is_map_poi(f['properties'])]}
         manifest=json.loads((places.GENERATED/'manifest.json').read_text())
         self.assertEqual(len(geo['features']),manifest['features'])
-        expected_features=sum(isinstance(r.get('coordinates'),dict) and classify_place(r)['eligible_for_public_map'] for r in records)
+        expected_features=sum(isinstance(r.get('coordinates'),dict) and classify_place(r)['eligible_for_public_map'] and is_map_poi(r) for r in records)
         self.assertEqual(manifest['features'],expected_features)
         self.assertGreater(manifest['features'],2550)
         self.assertTrue(all(f['id'] for f in geo['features']))
         self.assertEqual(manifest['aliases'],{key:places.resolve_place_id(key,aliases) for key in aliases})
         self.assertEqual(len(manifest['aliases']),len(aliases))
+
+    def test_deleted_invalid_place_tombstone_does_not_resolve_to_a_different_place(self):
+        retired='01ARZ3NDEKTSV4RRFFQ69G5FAW'
+        self.assertIsNone(places.resolve_place_id(retired,{
+            retired:{'deleted':True,'reason':'invalid_place_data_removed'}
+        }))
 
     def test_null_coordinates_are_valid_but_invalid_non_null_ranges_always_fail(self):
         base={"id":"01AAAAAAAAAAAAAAAAAAAAAAAA","name":"Community Library","coordinates":None,

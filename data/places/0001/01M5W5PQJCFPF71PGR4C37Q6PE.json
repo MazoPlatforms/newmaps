@@ -4,7 +4,7 @@
     "latitude": 7.6740601999999996,
     "longitude": 81.7259199
   },
-  "address": "MPFG+J9F, B337, Kattankudy",
+  "address": "MPFG+J9F, B337, Kattankudy 30100",
   "categories": [
     "Restaurant"
   ],
@@ -54,5 +54,9 @@
     }
   ],
   "business_status": "OPEN",
-  "id": "01M5W5PQJCFPF71PGR4C37Q6PE"
+  "id": "01M5W5PQJCFPF71PGR4C37Q6PE",
+  "alternate_addresses": [
+    "MPFG+J9F, B337, Kattankudy",
+    "MPFG+J9F, B337, Kattankudy 30100"
+  ]
 }
