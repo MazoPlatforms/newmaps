@@ -74,9 +74,24 @@ assert.equal(mapStyle.status, 200, 'Native MapLibre style should be available as
 const style = await mapStyle.json();
 assert.equal(style.version, 8);
 assert.equal(style.sources.mazo.type, 'vector');
+assert.ok(style.sources.openmaptiles?.url?.includes('/api/v1/basemap/tiles.json?revision='),
+  'MapLibre style should use the self-hosted Sri Lanka TileJSON source');
 assert.match(style.glyphs, /\/api\/v1\/fonts\/\{fontstack\}\/\{range\}\.pbf\?revision=/);
 const darkStyle = await get('api/v1/style/dark.json');
 assert.equal(darkStyle.status, 200);
+assert.equal(darkStyle.headers.get('content-type')?.includes('application/json'), true);
+const basemapJsonResponse = await get('api/v1/basemap/tiles.json');
+assert.equal(basemapJsonResponse.status, 200, 'self-hosted basemap TileJSON should be available');
+const basemapJson = await basemapJsonResponse.json();
+basemapJson.bounds.forEach((value, index) => assert.ok(Math.abs(value - [79.16416, 5.621275, 82.64612, 10.07153][index]) < 1e-6));
+assert.ok(basemapJson.vector_layers.some((layer) => layer.id === 'transportation'));
+const basemapTile = await get('api/v1/basemap/tiles/10/744/489.pbf');
+assert.equal(basemapTile.status, 200, 'Sri Lanka basemap tile should be served from R2-backed PMTiles ranges');
+assert.equal(basemapTile.headers.get('content-encoding'), 'gzip');
+assert.match(basemapTile.headers.get('cache-control') || '', /immutable/);
+const basemapTileDecoded = new VectorTile(new Pbf(gunzipSync(new Uint8Array(await basemapTile.arrayBuffer()))));
+assert.ok(basemapTileDecoded.layers.transportation?.length || basemapTileDecoded.layers.water?.length
+  || basemapTileDecoded.layers.landuse?.length, 'basemap tile should decode to actual OSM vector features');
 const nativeTileJSON = await get('api/v1/tiles.json');
 assert.equal(nativeTileJSON.status, 200);
 const tileJSON = await nativeTileJSON.json();
@@ -133,6 +148,8 @@ assert.equal(createHash('sha256').update(fullArchiveBytes).digest('hex'), archiv
 const chunkPath = 'generated/places-pmtiles-chunks/00000.bin';
 const hiddenChunk = await get(chunkPath);
 assert.equal(hiddenChunk.status, 404, 'internal chunk assets should not be directly public');
+const hiddenBasemapChunk = await get('generated/sri-lanka-basemap-pmtiles-chunks/00000.bin');
+assert.equal(hiddenBasemapChunk.status, 404, 'basemap range chunks should not be directly public');
 
 console.log(JSON.stringify({
   base: base.origin,
@@ -150,5 +167,6 @@ console.log(JSON.stringify({
   suffixRange: suffix.status,
   fullArchive: fullArchive.status,
   hiddenChunk: hiddenChunk.status,
+  hiddenBasemapChunk: hiddenBasemapChunk.status,
   archiveBytes: archive.bytes,
 }, null, 2));

@@ -84,6 +84,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .maplibregl-ctrl-group button { width: 40px; height: 40px; }
 :root[data-theme=dark] .maplibregl-ctrl-icon { filter: invert(1); }
 .maplibregl-ctrl-attrib { font: 10px var(--font); }
+.maplibregl-ctrl-attrib a { text-decoration: underline; text-underline-offset: 2px; }
 .attribution-link { position: absolute; z-index: 2; left: 8px; bottom: calc(7px + env(safe-area-inset-bottom)); padding: 4px 6px; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); font-size: 10px; text-decoration: none; }
 .map-loading { position: absolute; z-index: 4; top: 130px; left: 50%; display: flex; align-items: center; gap: 8px; max-width: 85%; transform: translateX(-50%); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; background: var(--surface); box-shadow: var(--shadow); }
 .map-loading.is-hidden { display: none; }
@@ -380,3 +381,4 @@ body,.place-sheet,.place-sheet button,.place-sheet a{font-family:Inter,-apple-sy
 .route-panel #route-alternatives[hidden]{display:none}
 .route-panel #route-alternatives button{border:1px solid #aab6bd;border-radius:999px;background:transparent;color:inherit;padding:7px 10px;font:inherit;font-size:.82rem}
 .route-panel #route-alternatives button[aria-pressed="true"]{background:#1d5f8a;color:#fff;border-color:#1d5f8a}
+@font-face{font-family:Inter;src:url('../fonts/MazoMapsSans-Regular.ttf') format('truetype');font-style:normal;font-weight:100 900;font-display:swap}

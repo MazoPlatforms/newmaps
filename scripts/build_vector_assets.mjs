@@ -8,18 +8,10 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const output = join(root, 'dist', 'vector-assets');
 const fontOutput = join(root, 'dist', 'generated', 'fonts', 'MazoMapsSansRegular');
 const fontPath = join(root, 'assets', 'fonts', 'MazoMapsSans-Regular.ttf');
-const search = JSON.parse(await readFile(join(root, 'dist/generated/api-search-index.json'), 'utf8'));
-const nameIndex = search.fields.indexOf('name');
-const addressIndex = search.fields.indexOf('address');
-const ranges = new Set([0]);
-for (const row of search.records) {
-  for (const value of [row[nameIndex], row[addressIndex]]) {
-    for (const character of String(value || '')) {
-      const point = character.codePointAt(0);
-      if (point <= 0xffff) ranges.add(Math.floor(point / 256) * 256);
-    }
-  }
-}
+// Self-host every BMP PBF range. The basemap carries island-wide Sinhala and
+// Tamil labels beyond the curated place index; empty ranges are valid glyph
+// protobufs and also satisfy MapLibre's requests for UTF-16 surrogate blocks.
+const ranges = new Set(Array.from({ length: 256 }, (_, index) => index * 256));
 await mkdir(fontOutput, { recursive: true });
 await mkdir(output, { recursive: true });
 const font = await readFile(fontPath);

@@ -3,9 +3,11 @@ import { liveDataObjectKey } from './live-data-registry.mjs';
 
 const API = '/api/v1';
 const ARCHIVE = 'generated/places.pmtiles';
+const BASEMAP_DESCRIPTOR = 'generated/sri-lanka-basemap-range.json';
 const TILE_TYPE = 'application/vnd.mapbox-vector-tile';
 const DIRECTORY_CACHE = new Map();
 const MAX_DIRECTORY_BYTES = 1_000_000;
+const MAX_DECOMPRESSED_TILE_BYTES = 8 * 1024 * 1024;
 const PMTILES_HEADER_BYTES = 127;
 const encoder = new TextEncoder();
 
@@ -74,6 +76,26 @@ async function inflateDirectory(compressed) {
     if (done) break;
     size += value.byteLength;
     if (size > MAX_DIRECTORY_BYTES) throw new Error('PMTiles directory exceeds size limit');
+    chunks.push(value);
+  }
+  const bytes = new Uint8Array(size);
+  let offset = 0;
+  for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
+  return bytes;
+}
+
+async function inflateTile(compressed) {
+  const reader = new Blob([compressed]).stream().pipeThrough(new DecompressionStream('gzip')).getReader();
+  const chunks = [];
+  let size = 0;
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    size += value.byteLength;
+    if (size > MAX_DECOMPRESSED_TILE_BYTES) {
+      await reader.cancel();
+      throw new Error('Decompressed vector tile exceeds size limit');
+    }
     chunks.push(value);
   }
   const bytes = new Uint8Array(size);
@@ -216,22 +238,106 @@ function tileJSON(base, revision, state) {
   };
 }
 
-function style(base, theme, revision) {
-  const dark = theme === 'dark';
-  return {
-    version: 8, name: `Mazo Maps ${dark ? 'Dark' : 'Light'} (POI vector coverage)`,
-    metadata: { 'mazo:api-version': 'v1', 'mazo:data-revision': revision,
-      'mazo:coverage': 'Place points cover their source coordinates; current basemap contains no road, water, building or land-use layers.' },
-    glyphs: `${base}${API}/fonts/{fontstack}/{range}.pbf?revision=${encodeURIComponent(revision)}`,
-    sprite: `${base}${API}/sprite?revision=${encodeURIComponent(revision)}`,
-    sources: { mazo: { type: 'vector', url: `${base}${API}/tiles.json?revision=${encodeURIComponent(revision)}` } },
-    layers: [
-      { id: 'background', type: 'background', paint: { 'background-color': dark ? '#182327' : '#eef1e9' } },
-      ...POI_LAYERS.map(layer => layer.id === 'places-label' ? { ...layer,
-        paint: { 'text-color': dark ? '#eef6f3' : '#243238', 'text-halo-color': dark ? '#182327' : '#ffffff', 'text-halo-width': 1.5 } } : layer),
-    ],
-    attribution: '© Mazo Maps public place data',
+async function style(env, base, revision, theme = 'light') {
+  const response = await env.ASSETS.fetch(new Request(new URL('/assets/styles/mazo-basemap.json', base)));
+  if (!response.ok) throw new Error('Self-hosted basemap style is unavailable');
+  const value = await response.json();
+  value.glyphs = `${base}${API}/fonts/{fontstack}/{range}.pbf?revision=${encodeURIComponent(revision)}`;
+  value.sprite = `${base}${API}/basemap/sprite`;
+  value.sources.openmaptiles = { type: 'vector', url: `${base}${API}/basemap/tiles.json?revision=${encodeURIComponent(revision)}`,
+    attribution: '© OpenStreetMap contributors, ODbL 1.0' };
+  value.sources.mazo = { type: 'vector', url: `${base}${API}/tiles.json?revision=${encodeURIComponent(revision)}` };
+  value.layers.push(...POI_LAYERS);
+  for (const layer of value.layers) {
+    if (layer.type === 'background') layer.paint = { ...(layer.paint || {}), 'background-color': theme === 'dark' ? '#102b3a' : '#a9d3e2' };
+    if (layer.type === 'fill' && layer['source-layer'] === 'country_land') {
+      layer.paint = { ...(layer.paint || {}), 'fill-color': theme === 'dark' ? '#202d32' : '#ebe8df' };
+    }
+  }
+  if (theme === 'dark') {
+    for (const layer of value.layers) {
+      const id = String(layer.id || '').toLowerCase();
+      const sourceLayer = String(layer['source-layer'] || '').toLowerCase();
+      if (layer.type === 'background') layer.paint = { ...(layer.paint || {}), 'background-color': '#102b3a' };
+      if (layer.type === 'fill' && sourceLayer === 'water') layer.paint = { ...(layer.paint || {}), 'fill-color': '#102b3a' };
+      if (layer.type === 'line' && ['transportation', 'transportation_name'].includes(sourceLayer)) {
+        layer.paint = { ...(layer.paint || {}), 'line-color': /casing|motorway|trunk|primary/i.test(id) ? '#c9944c' : '#647980' };
+      }
+      if (layer.type === 'fill' && sourceLayer === 'building') layer.paint = { ...(layer.paint || {}), 'fill-color': '#52636a' };
+      if (layer.type === 'fill' && sourceLayer === 'landcover') layer.paint = { ...(layer.paint || {}), 'fill-color': '#2b4938' };
+      if (layer.type === 'fill' && sourceLayer === 'landuse') layer.paint = { ...(layer.paint || {}), 'fill-color': /park|garden|cemetery|forest|wood/i.test(id) ? '#2b5138' : '#303e43' };
+      if (layer.type === 'symbol') layer.paint = { ...(layer.paint || {}), 'text-color': '#e4ebeb', 'text-halo-color': '#19272e', 'text-halo-width': 1.2 };
+    }
+    value.name = 'Mazo Maps Sri Lanka Dark';
+  } else value.name = 'Mazo Maps Sri Lanka Light';
+  value.attribution = '© OpenStreetMap contributors, ODbL 1.0 · © Mazo Maps place data contributors';
+  value.metadata = { ...(value.metadata || {}), 'mazo:api-version': 'v1', 'mazo:data-revision': revision,
+    'mazo:coverage': 'Sri Lanka OpenStreetMap basemap, zooms 0–14; place points from Mazo Maps source datasets.' };
+  return value;
+}
+
+async function basemapArchiveContext(env, manifest) {
+  const descriptorEntry = manifest.files?.[BASEMAP_DESCRIPTOR];
+  if (!descriptorEntry) throw new Error('Sri Lanka basemap is not published');
+  const descriptorResponse = manifest.revision === 'bootstrap'
+    ? await env.ASSETS.fetch(new Request(`https://maps.invalid/${BASEMAP_DESCRIPTOR}`))
+    : await env.DATA_BUCKET.get(liveDataObjectKey(BASEMAP_DESCRIPTOR, descriptorEntry.sha256));
+  if (!descriptorResponse) throw new Error('Sri Lanka basemap range manifest is missing');
+  const descriptor = manifest.revision === 'bootstrap' ? await descriptorResponse.json()
+    : await new Response(descriptorResponse.body).json();
+  if (descriptor.format !== 'MazoPMTilesRange/1' || descriptor.archive !== 'generated/sri-lanka-basemap.pmtiles'
+    || !Number.isSafeInteger(descriptor.bytes) || !Number.isSafeInteger(descriptor.chunk_size)
+    || descriptor.chunk_size < 65536 || descriptor.chunks?.length !== descriptor.chunk_count) throw new Error('Invalid basemap range manifest');
+  const read = async (offset, length) => {
+    if (offset < 0 || length <= 0 || offset + length > descriptor.bytes) throw new Error('Basemap byte range is outside archive');
+    const result = new Uint8Array(length);
+    let written = 0;
+    while (written < length) {
+      const absolute = offset + written;
+      const index = Math.floor(absolute / descriptor.chunk_size);
+      const chunk = descriptor.chunks[index];
+      if (!chunk) throw new Error('Basemap range points to an absent chunk');
+      const path = `generated/sri-lanka-basemap-pmtiles-chunks/${chunk.file}`;
+      const entry = manifest.files?.[path];
+      if (!entry || entry.sha256 !== chunk.sha256 || entry.bytes !== chunk.bytes) throw new Error('Basemap chunk is not in active manifest');
+      const localOffset = absolute - index * descriptor.chunk_size;
+      const amount = Math.min(length - written, entry.bytes - localOffset);
+      let part;
+      if (manifest.revision === 'bootstrap') {
+        const asset = await env.ASSETS.fetch(new Request(`https://maps.invalid/${path}`, {
+          headers: { Range: `bytes=${localOffset}-${localOffset + amount - 1}` },
+        }));
+        if (asset.status === 206) part = new Uint8Array(await asset.arrayBuffer());
+        else if (asset.ok && localOffset === 0 && amount === entry.bytes) part = new Uint8Array(await asset.arrayBuffer());
+        else throw new Error('Static basemap range read failed');
+      } else {
+        const object = await env.DATA_BUCKET.get(liveDataObjectKey(path, entry.sha256), { range: { offset: localOffset, length: amount } });
+        if (!object || object.size !== entry.bytes || object.customMetadata?.sha256 !== entry.sha256
+          || object.customMetadata?.path !== path) throw new Error('Basemap R2 chunk does not match active manifest');
+        part = await bytesOf(object);
+      }
+      if (part.byteLength !== amount) throw new Error('Basemap range is truncated');
+      result.set(part, written);
+      written += amount;
+    }
+    return result;
   };
+  const header = await read(0, PMTILES_HEADER_BYTES);
+  const view = new DataView(header.buffer, header.byteOffset, header.byteLength);
+  if (new TextDecoder().decode(header.slice(0, 7)) !== 'PMTiles' || view.getUint8(7) !== 3
+    || view.getUint8(97) !== 2 || view.getUint8(98) !== 2 || view.getUint8(99) !== 1) throw new Error('Unsupported basemap PMTiles archive');
+  const state = { sha256: descriptor.sha256, entry: { bytes: descriptor.bytes },
+    rootOffset: pmtilesU64(view, 8), rootLength: pmtilesU64(view, 16),
+    leafOffset: pmtilesU64(view, 40), leafLength: pmtilesU64(view, 48),
+    tileOffset: pmtilesU64(view, 56), tileLength: pmtilesU64(view, 64),
+    minZoom: view.getUint8(100), maxZoom: view.getUint8(101), tileCount: pmtilesU64(view, 80),
+    minLon: view.getInt32(102, true) / 1e7, minLat: view.getInt32(106, true) / 1e7,
+    maxLon: view.getInt32(110, true) / 1e7, maxLat: view.getInt32(114, true) / 1e7 };
+  if (state.rootOffset + state.rootLength > descriptor.bytes || state.tileOffset + state.tileLength > descriptor.bytes
+    || state.sha256 !== descriptor.sha256 || state.minZoom !== descriptor.min_zoom || state.maxZoom !== descriptor.max_zoom) {
+    throw new Error('Basemap PMTiles header does not match its range manifest');
+  }
+  return { descriptor, read, state };
 }
 
 function corsHeaders(headers = {}) {
@@ -260,6 +366,7 @@ async function cachedResponse(request, cacheKey) {
 
 export async function handleVectorApi(request, env, rateLimitTile) {
   const url = new URL(request.url);
+  const basemapSpritePrefix = `${API}/basemap/sprite`;
   if (url.pathname.startsWith(`${API}/fonts/`) || url.pathname.startsWith(`${API}/sprite`)) {
     if (!['GET', 'HEAD', 'OPTIONS'].includes(request.method)) return json({ error: 'method_not_allowed' }, 405, { Allow: 'GET, HEAD, OPTIONS' });
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders() });
@@ -320,8 +427,22 @@ export async function handleVectorApi(request, env, rateLimitTile) {
     }
   }
 
+  if (url.pathname.startsWith(basemapSpritePrefix)) {
+    if (!['GET', 'HEAD', 'OPTIONS'].includes(request.method)) return json({ error: 'method_not_allowed' }, 405, { Allow: 'GET, HEAD, OPTIONS' });
+    if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders() });
+    const suffix = url.pathname.slice(basemapSpritePrefix.length);
+    if (!['.json', '.png', '@2x.json', '@2x.png'].includes(suffix)) return new Response(null, { status: 404, headers: corsHeaders() });
+    const asset = await env.ASSETS.fetch(new Request(new URL(`/assets/styles/sprites/basemap${suffix}`, url.origin), { method: request.method }));
+    if (!asset.ok) return new Response(null, { status: 404, headers: corsHeaders() });
+    const etag = asset.headers.get('etag') || '';
+    const headers = corsHeaders({ 'Content-Type': suffix.endsWith('.json') ? 'application/json; charset=utf-8' : 'image/png',
+      'Cache-Control': 'public, max-age=31536000, immutable', ETag: etag, 'X-Content-Type-Options': 'nosniff' });
+    if (ifNoneMatchMatches(request.headers.get('if-none-match'), etag)) return new Response(null, { status: 304, headers });
+    return new Response(request.method === 'HEAD' ? null : asset.body, { status: asset.status, headers });
+  }
+
   if (url.pathname === `${API}/tiles.json` || url.pathname === `${API}/style.json`
-    || url.pathname === `${API}/style/dark.json`) {
+    || url.pathname === `${API}/style/dark.json` || url.pathname === `${API}/basemap/tiles.json`) {
     if (!['GET', 'HEAD', 'OPTIONS'].includes(request.method)) return json({ error: 'method_not_allowed' }, 405, { Allow: 'GET, HEAD, OPTIONS' });
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders() });
     try {
@@ -331,6 +452,20 @@ export async function handleVectorApi(request, env, rateLimitTile) {
       const cached = await cachedResponse(request, key);
       if (cached) return cached;
       const mapManifest = manifest.files?.['generated/manifest.json'];
+      if (url.pathname === `${API}/basemap/tiles.json`) {
+        const { descriptor, state } = await basemapArchiveContext(env, manifest);
+        const body = JSON.stringify({ tilejson: '3.0.0', name: 'Mazo Maps Sri Lanka Basemap', scheme: 'xyz',
+          tiles: [`${url.origin}${API}/basemap/tiles/{z}/{x}/{y}.pbf?revision=${encodeURIComponent(revision)}`],
+          minzoom: state.minZoom, maxzoom: state.maxZoom, bounds: [state.minLon, state.minLat, state.maxLon, state.maxLat],
+          center: [80.90514, 7.8464, 7], attribution: '© OpenStreetMap contributors, ODbL 1.0',
+          vector_layers: descriptor.vector_layers });
+        const etag = `W/"${revision}-${await shortHash(body)}"`;
+        const headers = corsHeaders({ 'Content-Type': 'application/json; charset=utf-8', ETag: etag,
+          'Cache-Control': 'public, max-age=300, stale-while-revalidate=600', 'X-Mazo-Data-Revision': revision });
+        if (ifNoneMatchMatches(request.headers.get('if-none-match'), etag)) return new Response(null, { status: 304, headers });
+        const response = new Response(request.method === 'HEAD' ? null : body, { status: 200, headers });
+        return cacheableResponse(request, key, response);
+      }
       if (!mapManifest) return json({ error: 'map_manifest_unavailable' }, 503);
       const mapResponse = manifest.revision === 'bootstrap'
         ? await env.ASSETS.fetch(new Request('https://maps.invalid/generated/manifest.json'))
@@ -341,7 +476,8 @@ export async function handleVectorApi(request, env, rateLimitTile) {
       let value;
       if (url.pathname === `${API}/tiles.json`) value = tileJSON(url.origin, revision, state);
       else if (url.pathname === `${API}/style.json` || url.pathname === `${API}/style/dark.json`) {
-        value = style(url.origin, url.pathname.endsWith('/dark.json') || url.searchParams.get('theme') === 'dark' ? 'dark' : 'light', revision);
+        value = await style(env, url.origin, revision,
+          url.pathname.endsWith('/dark.json') || url.searchParams.get('theme') === 'dark' ? 'dark' : 'light');
       }
       const body = JSON.stringify(value);
       const etag = `W/"${revision}-${await shortHash(body)}"`;
@@ -353,6 +489,48 @@ export async function handleVectorApi(request, env, rateLimitTile) {
     } catch {
       console.error(JSON.stringify({ event: 'vector_metadata_error', path: url.pathname }));
       return json({ error: 'vector_metadata_unavailable' }, 503);
+    }
+  }
+
+  const basemapMatch = new RegExp(`^${API}/basemap/tiles/(\\d+)/(\\d+)/(\\d+)\\.pbf$`).exec(url.pathname);
+  if (basemapMatch) {
+    if (!['GET', 'HEAD', 'OPTIONS'].includes(request.method)) return json({ error: 'method_not_allowed' }, 405, { Allow: 'GET, HEAD, OPTIONS' });
+    if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders() });
+    const z = Number(basemapMatch[1]); const x = Number(basemapMatch[2]); const y = Number(basemapMatch[3]);
+    if (!Number.isSafeInteger(z) || z < 0 || z > 22 || !Number.isSafeInteger(x) || !Number.isSafeInteger(y)
+      || x < 0 || y < 0 || x >= 2 ** z || y >= 2 ** z) return json({ error: 'invalid_tile_coordinate' }, 400);
+    if (rateLimitTile && !(await rateLimitTile(request))) return json({ error: 'rate_limited', retry_after_seconds: 60 }, 429, { 'Retry-After': '60' });
+    try {
+      const manifest = await getCurrentManifest(env);
+      const revision = manifest.revision || 'bootstrap';
+      const requestedRevision = url.searchParams.get('revision');
+      if (requestedRevision && requestedRevision !== revision) return json({ error: 'stale_tile_revision' }, 409, { 'X-Mazo-Data-Revision': revision });
+      const cacheKey = `https://vector-cache.invalid/${revision}/basemap/${z}/${x}/${y}.pbf`;
+      const cached = await cachedResponse(request, cacheKey);
+      if (cached) return cached;
+      const { descriptor, read, state } = await basemapArchiveContext(env, manifest);
+      if (z < state.minZoom || z > state.maxZoom) return new Response(null, { status: 204, headers: corsHeaders({
+        'Cache-Control': 'public, max-age=86400', 'X-Mazo-Data-Revision': revision }) });
+      const tile = await findTile({ read }, state, zxyToPmtilesId(z, x, y));
+      if (!tile) return new Response(null, { status: 204, headers: corsHeaders({
+        'Cache-Control': 'public, max-age=86400', 'X-Mazo-Data-Revision': revision }) });
+      const offset = state.tileOffset + tile.offset;
+      if (tile.length < 1 || tile.length > 4 * 1024 * 1024 || offset + tile.length > state.tileOffset + state.tileLength) {
+        throw new Error('Basemap tile has invalid PMTiles bounds');
+      }
+      const etag = `"${descriptor.sha256}-${z}-${x}-${y}"`;
+      const headers = corsHeaders({ 'Content-Type': TILE_TYPE,
+        'Cache-Control': 'public, max-age=31536000, immutable', ETag: etag,
+        'X-Mazo-Data-Revision': revision, 'X-Content-Type-Options': 'nosniff' });
+      if (ifNoneMatchMatches(request.headers.get('if-none-match'), etag)) return new Response(null, { status: 304, headers });
+      if (request.method === 'HEAD') return new Response(null, { status: 200, headers });
+      const compressed = await read(offset, tile.length);
+      if (compressed.byteLength !== tile.length) throw new Error('Basemap tile range is truncated');
+      const bytes = await inflateTile(compressed);
+      return cacheableResponse(request, cacheKey, new Response(bytes, { status: 200, headers }));
+    } catch (error) {
+      console.error(JSON.stringify({ event: 'basemap_tile_error', z, x, y, message: error?.message || 'unknown' }));
+      return json({ error: 'basemap_tile_unavailable' }, 503);
     }
   }
 

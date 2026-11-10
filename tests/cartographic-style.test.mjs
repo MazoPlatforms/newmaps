@@ -34,6 +34,7 @@ function mockMap(layers) {
 const sample = [
   { id: 'background', type: 'background', paint: { 'background-color': '#000' } },
   { id: 'natural_earth', type: 'raster', source: 'ne2_shaded', maxzoom: 7, paint: { 'raster-opacity': 1 } },
+  { id: 'mazo-country-land', type: 'fill', source: 'base', 'source-layer': 'country_land', paint: { 'fill-color': '#000' } },
   { id: 'water', type: 'fill', source: 'base', 'source-layer': 'water', paint: { 'fill-color': '#000' } },
   { id: 'land', type: 'fill', source: 'base', 'source-layer': 'land', paint: { 'fill-color': '#000' } },
   { id: 'landcover_wood', type: 'fill', source: 'base', 'source-layer': 'landcover', paint: { 'fill-color': '#000', 'fill-opacity': 0.4, 'fill-pattern': 'wood-pattern' } },
@@ -62,7 +63,8 @@ test('dark palette restores separation among water, land, vegetation and buildin
   const map = mockMap(sample);
   const summary = applyMazoCartographicStyle(map, 'dark');
   const byId = Object.fromEntries(map.style.layers.map((layer) => [layer.id, layer]));
-  assert.equal(byId.background.paint['background-color'], MAZO_PALETTE.dark.land);
+  assert.equal(byId.background.paint['background-color'], MAZO_PALETTE.dark.water);
+  assert.equal(byId['mazo-country-land'].paint['fill-color'], MAZO_PALETTE.dark.land);
   assert.equal(byId.water.paint['fill-color'], MAZO_PALETTE.dark.water);
   assert.equal(byId.land.paint['fill-color'], MAZO_PALETTE.dark.land);
   assert.equal(byId.landcover_wood.paint['fill-color'], MAZO_PALETTE.dark.vegetationDark);
@@ -97,7 +99,8 @@ test('roads receive class hierarchy and geographic labels become fully opaque an
 test('light palette remains coordinated and reports supported source-layer coverage', () => {
   const map = mockMap(sample);
   const summary = applyMazoCartographicStyle(map, 'light');
-  assert.equal(map.style.layers[0].paint['background-color'], MAZO_PALETTE.light.land);
+  assert.equal(map.style.layers[0].paint['background-color'], MAZO_PALETTE.light.water);
+  assert.equal(map.style.layers[2].paint['fill-color'], MAZO_PALETTE.light.land);
   assert.equal(summary.roads, 6);
   assert.equal(summary.labels, 2);
   assert.equal(summary.boundaries, 1);

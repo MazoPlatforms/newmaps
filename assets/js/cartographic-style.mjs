@@ -66,9 +66,12 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
     const paint = (property, value) => map.setPaintProperty(layer.id, property, value);
 
     if (layer.type === 'background') {
-      // Background is unclassified land at local zooms. Oceans and lakes are
-      // covered by the dedicated OpenMapTiles `water` source layer below.
-      paint('background-color', palette.land);
+      // Background remains the ocean; the whole-country polygon supplies land.
+      paint('background-color', palette.water);
+      applied.water++;
+    }
+    if (layer.type === 'fill' && sourceLayer === 'country_land') {
+      paint('fill-color', palette.land);
       applied.land++;
     }
     if (layer.type === 'raster' && (id === 'natural_earth' || layer.source === 'ne2_shaded')) {

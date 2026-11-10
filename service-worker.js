@@ -1,5 +1,5 @@
-const APP_CACHE = 'mazo-app-shell-v5';
-const SHELL = ['./', './index.html', './assets/css/site.css?v=phase12-14-1', './assets/js/app.js?v=phase12-14-workers-vector-live-2', './assets/js/live-data-client.mjs', './assets/js/search-engine.mjs', './assets/js/place-delivery.mjs', './assets/js/map-presentation.mjs?v=phase9-cartography-1', './assets/js/cartographic-style.mjs?v=phase9-basemap-audit-1', './assets/js/routing-graph.mjs', './assets/js/offline-pack.mjs', './assets/vendor/pmtiles-4.5.0.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css'];
+const APP_CACHE = 'mazo-app-shell-v6';
+const SHELL = ['./', './index.html', './assets/css/site.css?v=phase12-14-1', './assets/js/app.js?v=self-hosted-sri-lanka-basemap-1', './assets/js/live-data-client.mjs', './assets/js/search-engine.mjs', './assets/js/place-delivery.mjs', './assets/js/map-presentation.mjs?v=phase9-cartography-1', './assets/js/cartographic-style.mjs?v=phase9-basemap-audit-1', './assets/js/routing-graph.mjs', './assets/js/offline-pack.mjs', './assets/vendor/pmtiles-4.5.0.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -26,6 +26,9 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(fetch(new Request(request, { cache: 'no-store' })));
     return;
   }
+  // Keep high-volume MVT traffic on the browser's native HTTP path so gzip
+  // Content-Encoding is decoded consistently before MapLibre parses protobufs.
+  if (url.origin === self.location.origin && /^\/api\/v1\/(?:basemap\/)?tiles\/\d+\/\d+\/\d+\.pbf$/.test(url.pathname)) return;
   if (request.headers.has('range') && url.origin === self.location.origin) {
     event.respondWith((async () => {
       for (const name of await caches.keys()) {

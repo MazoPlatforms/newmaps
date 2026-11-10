@@ -172,6 +172,14 @@ def build() -> dict:
         manifest = json.loads((GENERATED / manifest_name).read_text(encoding="utf-8"))
         files.extend((manifest_name, referenced_manifest_file(manifest, data_field)))
 
+    basemap_descriptor_path = GENERATED / "sri-lanka-basemap-range.json"
+    if basemap_descriptor_path.is_file():
+        basemap = json.loads(basemap_descriptor_path.read_text(encoding="utf-8"))
+        if basemap.get("format") != "MazoPMTilesRange/1" or not basemap.get("chunks"):
+            raise ValueError("Sri Lanka basemap range descriptor is invalid")
+        files.append(basemap_descriptor_path.name)
+        files.extend(f"sri-lanka-basemap-pmtiles-chunks/{chunk['file']}" for chunk in basemap["chunks"])
+
     for name in sorted(set(files)):
         copy_file(GENERATED / name, DIST / "generated" / name)
 

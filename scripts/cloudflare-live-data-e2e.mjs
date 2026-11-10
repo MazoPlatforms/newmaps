@@ -150,8 +150,20 @@ try {
   await page.addInitScript(() => { globalThis.__MAZO_LIVE_DATA_TEST_POLL_MS = 250; });
   page.on('pageerror', (error) => browserErrors.push(error.message));
   page.on('console', (message) => { if (message.type() === 'error') browserErrors.push(message.text()); });
+  page.on('requestfailed', (request) => {
+    const failure = request.failure()?.errorText;
+    if (failure && failure !== 'net::ERR_ABORTED') browserErrors.push(`${failure}: ${request.url()}`);
+  });
   const rangeResponses = [];
+  const basemapTileResponses = new Map();
   page.on('response', (response) => {
+    if (response.url().includes('/api/v1/basemap/tiles/') && new URL(response.url()).pathname.endsWith('.pbf')) {
+      basemapTileResponses.set(response.url(), response.body().then((body) => ({
+        status: response.status(), contentType: response.headers()['content-type'],
+        contentEncoding: response.headers()['content-encoding'], bodyBytes: body.byteLength,
+        prefix: [...body.slice(0, 4)].map((byte) => byte.toString(16).padStart(2, '0')).join(''),
+      })).catch((error) => ({ bodyError: error.message })));
+    }
     if (response.url().includes('/api/data/generated/places.pmtiles')) rangeResponses.push({ status: response.status(), contentRange: response.headers()['content-range'] });
   });
   await page.goto(`${baseUrl}?map-test=1&live-data-test=1`, { waitUntil: 'domcontentloaded' });
@@ -241,7 +253,10 @@ try {
   const cityVersion2 = manifest2.files['data/cities.json'];
   assert.notEqual(cityVersion2.sha256, first.manifest.files['data/cities.json'].sha256,
     'changed bytes receive a new content address so immutable browser/CDN caches cannot shadow updates');
-  assert.ok(browserErrors.length === 0, `live update browser errors: ${browserErrors.join(' | ')}`);
+  if (browserErrors.length) {
+    const failingTileDetails = await Promise.all([...basemapTileResponses].map(async ([url, result]) => [url, await result]));
+    assert.fail(`live update browser errors: ${browserErrors.join(' | ')}\nBasemap tile responses: ${JSON.stringify(failingTileDetails)}`);
+  }
 
   await writeFile(citiesPath, initialCities);
   const rollback = await synchronize('c'.repeat(40), 3);
