@@ -5,9 +5,15 @@ on:
       - 'assets/css/**'
       - 'assets/js/**'
       - 'assets/vendor/**'
+      - 'assets/styles/**'
       - 'index.html'
+      - 'data/basemap/**'
       - 'scripts/places.py'
       - 'scripts/build_map_delivery.py'
+      - 'scripts/build_sri_lanka_basemap.py'
+      - 'scripts/validate_sri_lanka_basemap.py'
+      - 'scripts/basemap/**'
+      - 'scripts/build_vector_assets.mjs'
       - 'scripts/build_routing_graph.py'
       - 'scripts/roads.py'
       - 'scripts/speed_limits.py'
@@ -27,9 +33,15 @@ on:
       - 'assets/css/**'
       - 'assets/js/**'
       - 'assets/vendor/**'
+      - 'assets/styles/**'
       - 'index.html'
+      - 'data/basemap/**'
       - 'scripts/places.py'
       - 'scripts/build_map_delivery.py'
+      - 'scripts/build_sri_lanka_basemap.py'
+      - 'scripts/validate_sri_lanka_basemap.py'
+      - 'scripts/basemap/**'
+      - 'scripts/build_vector_assets.mjs'
       - 'scripts/build_routing_graph.py'
       - 'scripts/roads.py'
       - 'scripts/speed_limits.py'
@@ -67,8 +79,11 @@ jobs:
       - run: python scripts/places.py validate
       - run: python scripts/places.py build
       - run: python scripts/build_map_delivery.py
+      - run: python scripts/build_sri_lanka_basemap.py
+      - run: python scripts/validate_sri_lanka_basemap.py
       - run: python scripts/build_routing_graph.py
       - run: python scripts/roads.py validate
       - run: python scripts/roads.py build
       - run: python scripts/speed_limits.py build
+      - run: npm run build:cloudflare
       - run: npm run test:browser

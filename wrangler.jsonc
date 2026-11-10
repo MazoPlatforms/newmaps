@@ -51,7 +51,8 @@
     "run_worker_first": [
       "/api/*",
       "/generated/places.pmtiles",
-      "/generated/places-pmtiles-chunks/*"
+      "/generated/places-pmtiles-chunks/*",
+      "/generated/sri-lanka-basemap-pmtiles-chunks/*"
     ]
   }
 }

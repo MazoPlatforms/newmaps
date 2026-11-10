@@ -92,6 +92,7 @@ const styleResponse = await fetch(new URL('style.json', api));
 assert.equal(styleResponse.status, 200);
 const style = await styleResponse.json();
 assert.equal(style.sources.mazo.type, 'vector');
+assert.ok(style.sources.openmaptiles?.url?.includes('/basemap/tiles.json?revision='));
 const tilejsonResponse = await fetch(new URL('tiles.json', api));
 assert.equal(tilejsonResponse.status, 200);
 const tilejson = await tilejsonResponse.json();
@@ -103,10 +104,19 @@ assert.match(nativeTile.headers.get('content-type') || '', /application\/vnd\.ma
 const encodedTile = new Uint8Array(await nativeTile.arrayBuffer());
 const decodedTile = new VectorTile(new Pbf(nativeTile.headers.get('content-encoding') === 'gzip' ? gunzipSync(encodedTile) : encodedTile));
 assert.ok(decodedTile.layers.places?.length, 'synchronized PMTiles must serve decodable XYZ places');
+const basemapTiles = await fetch(new URL('basemap/tiles.json', api));
+assert.equal(basemapTiles.status, 200);
+const basemapTile = await fetch(new URL('basemap/tiles/10/744/489.pbf', api));
+assert.equal(basemapTile.status, 200);
+assert.equal(basemapTile.headers.get('content-encoding'), 'gzip');
+const decodedBasemapTile = new VectorTile(new Pbf(gunzipSync(new Uint8Array(await basemapTile.arrayBuffer()))));
+assert.ok(decodedBasemapTile.layers.transportation?.length, 'self-hosted Sri Lanka basemap should serve actual road features');
+assert.ok(decodedBasemapTile.layers.country_land?.length, 'self-hosted basemap should include its country outline');
 const glyphUrl = new URL(style.glyphs.replace('{fontstack}', 'Mazo%20Maps%20Sans%20Regular').replace('{range}', '0-255'));
 assert.equal((await fetch(glyphUrl)).status, 200, 'glyph resources should be published to R2 with the live data manifest');
 assert.equal((await fetch(new URL('sprite.json', api))).status, 200);
 assert.equal((await fetch(new URL('sprite.png', api))).status, 200);
+assert.equal((await fetch(new URL('basemap/sprite.json', api))).status, 200);
 
 const graph = JSON.parse(await readFile('dist/generated/kattankudy-routing.json', 'utf8'));
 const segment = graph.segments.find((row) => (row[3] | row[4]) === 7);

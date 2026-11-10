@@ -380,3 +380,4 @@ body,.place-sheet,.place-sheet button,.place-sheet a{font-family:Inter,-apple-sy
 .route-panel #route-alternatives[hidden]{display:none}
 .route-panel #route-alternatives button{border:1px solid #aab6bd;border-radius:999px;background:transparent;color:inherit;padding:7px 10px;font:inherit;font-size:.82rem}
 .route-panel #route-alternatives button[aria-pressed="true"]{background:#1d5f8a;color:#fff;border-color:#1d5f8a}
+@font-face{font-family:Inter;src:url('../fonts/MazoMapsSans-Regular.ttf') format('truetype');font-style:normal;font-weight:100 900;font-display:swap}

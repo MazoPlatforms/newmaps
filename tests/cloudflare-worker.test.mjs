@@ -134,10 +134,10 @@ test('a matching If-Range serves chunks and a stale validator returns the comple
 
 test('does not expose internal static chunk assets to public requests', async () => {
   const assets = assetsFor();
-  const response = await worker.fetch(
-    new Request('https://example.test/generated/places-pmtiles-chunks/00000.bin'),
-    { ASSETS: assets, PMTILES_CHUNK_SIZE: String(chunkSize) },
-  );
-  assert.equal(response.status, 404);
+  for (const path of ['/generated/places-pmtiles-chunks/00000.bin', '/generated/sri-lanka-basemap-pmtiles-chunks/00000.bin']) {
+    const response = await worker.fetch(new Request(`https://example.test${path}`),
+      { ASSETS: assets, PMTILES_CHUNK_SIZE: String(chunkSize) });
+    assert.equal(response.status, 404);
+  }
   assert.equal(assets.requests.length, 0);
 });

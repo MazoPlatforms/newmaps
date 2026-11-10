@@ -7,6 +7,7 @@ import { handleVectorApi } from './vector-tiles.mjs';
 const PMTILES_PATH = '/generated/places.pmtiles';
 const PMTILES_RANGE_MANIFEST_PATH = '/generated/places-pmtiles-range.json';
 const PMTILES_CHUNK_DIRECTORY = '/generated/places-pmtiles-chunks';
+const BASEMAP_CHUNK_DIRECTORY = '/generated/sri-lanka-basemap-pmtiles-chunks';
 const LIVE_BOOTSTRAP_PATH = '/generated/live-data-manifest.json';
 const LIVE_API_PREFIX = '/api/';
 const MAX_PARALLEL_CHUNK_FETCHES = 4;
@@ -382,7 +383,7 @@ export default {
     const rideApiResponse = await handleRideApi(request, env);
     if (rideApiResponse) return rideApiResponse;
     if (pathname.startsWith(LIVE_API_PREFIX)) return serveLiveApi(request, env);
-    if (pathname.startsWith(`${PMTILES_CHUNK_DIRECTORY}/`)) return noStoreNotFound();
+    if (pathname.startsWith(`${PMTILES_CHUNK_DIRECTORY}/`) || pathname.startsWith(`${BASEMAP_CHUNK_DIRECTORY}/`)) return noStoreNotFound();
     if (pathname !== PMTILES_PATH) return env.ASSETS.fetch(request);
     return servePmtilesRange(request, env.ASSETS, Number(env.PMTILES_CHUNK_SIZE || 65_536));
   },
