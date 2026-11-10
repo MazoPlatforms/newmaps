@@ -26,6 +26,9 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(fetch(new Request(request, { cache: 'no-store' })));
     return;
   }
+  // Keep high-volume MVT traffic on the browser's native HTTP path so gzip
+  // Content-Encoding is decoded consistently before MapLibre parses protobufs.
+  if (url.origin === self.location.origin && /^\/api\/v1\/(?:basemap\/)?tiles\/\d+\/\d+\/\d+\.pbf$/.test(url.pathname)) return;
   if (request.headers.has('range') && url.origin === self.location.origin) {
     event.respondWith((async () => {
       for (const name of await caches.keys()) {
