@@ -1,6 +1,6 @@
 import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs';
 import { createPlaceLookup, decodePlaceDetails, decodeSearchIndex } from './place-delivery.mjs';
-import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=google-zoom-cartography-2';
+import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, SHOW_ALL_POI_PINS_ZOOM, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=maxzoom-place-display-3';
 import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=clean-country-labels-2';
 import { closestRouteProgress, findLocalRoutes, validateRoutingGraph } from './routing-graph.mjs';
 import { downloadOfflinePack, removeOfflinePack, offlinePackResources } from './offline-pack.mjs';
@@ -31,6 +31,7 @@ if(new URLSearchParams(location.search).has('map-test'))window.__MAZO_MAP_TEST__
  getGeoJSONFeatureCount:id=>{const source=map.getSource(id);return Array.isArray(source?._data?.features)?source._data.features.length:null;},
  getSourceData:id=>{const source=map.getSource(id);return source?._data??null;},
  queryRenderedFeatures:(...args)=>map.queryRenderedFeatures(...args),
+ querySourceFeatures:(...args)=>map.querySourceFeatures(...args),getBounds:()=>map.getBounds(),
 });
 // Keep pinch zoom and keyboard panning, with accessible buttons for direct zoom control.
 configureNorthUpInteractions(map);
@@ -40,6 +41,7 @@ let placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchInde
 let poiReloadTimer=0,poiReloadAttempts=0;
 let liveDataPromise=null,liveDataRuntime=null,stopLiveDataPolling=null;
 let presentedCategory=null,presentedSelectedId=null,presentedVisibility=null;
+let poiOverlapEnabled=null;
 async function getLiveDataRuntime(){
  const localWorkerTest=new URLSearchParams(location.search).get('live-data-test')==='1';
  if(!location.hostname.endsWith('.workers.dev')&&!localWorkerTest)return null;
@@ -154,8 +156,25 @@ function registerIcons(){
  }
 }
 function selectedPoiFeatures(){return {type:'FeatureCollection',features:selectedPlace?.coordinates&&Number.isFinite(+selectedPlace.coordinates.longitude)&&Number.isFinite(+selectedPlace.coordinates.latitude)?[placeFeature(selectedPlace)]:[]}}
+function registerPlaceDot(){
+ if(map.hasImage('mazo-place-dot'))return;
+ const canvas=document.createElement('canvas');canvas.width=20;canvas.height=20;
+ const context=canvas.getContext('2d');context.beginPath();context.arc(10,10,7,0,Math.PI*2);
+ context.fillStyle='#2563eb';context.fill();context.lineWidth=2.5;context.strokeStyle='#fff';context.stroke();
+ map.addImage('mazo-place-dot',context.getImageData(0,0,20,20),{pixelRatio:2});
+}
+function updatePoiOverlapPolicy(){
+ if(!mapStyleReady)return;
+ const allow=map.getZoom()>=SHOW_ALL_POI_PINS_ZOOM;
+ if(poiOverlapEnabled===allow)return;
+ for(const id of ['mazo-poi-major','mazo-poi-district','mazo-poi-local'])if(map.getLayer(id)){
+  map.setLayoutProperty(id,'icon-allow-overlap',allow);
+  map.setLayoutProperty(id,'icon-ignore-placement',allow);
+ }
+ poiOverlapEnabled=allow;
+}
 function poiLayout(){return {
- 'icon-image':['concat','mazo-',['get','kind']],
+ 'icon-image':['step',['zoom'],'mazo-place-dot',13,['concat','mazo-',['get','kind']]],
  'icon-anchor':'bottom',
  'icon-size':['interpolate',['linear'],['zoom'],6,0.48,9,0.56,12,0.64,15,0.74,18,0.82,20,0.9],
  // Keep each valid place anchored by its pin even where nearby names collide.
@@ -165,9 +184,10 @@ function poiLayout(){return {
  // map; selected places use a separate always-visible symbol layer.
  'icon-allow-overlap':false,'icon-ignore-placement':false,
  'icon-padding':['interpolate',['linear'],['zoom'],6,5,9,6,12,7,15,8,18,8,20,8],
- 'text-field':['get','name'],'text-font':['Mazo Maps Sans Regular'],
+ 'text-field':['step',['zoom'],'',13,['get','name']],'text-font':['Mazo Maps Sans Regular'],
  'text-size':['interpolate',['linear'],['zoom'],6,9,9,10,12,11,16,12,20,13],
- 'text-offset':[0,0.8],'text-anchor':'top','text-max-width':11,
+ // Try several nearby placements before hiding a label, as dense map UIs do.
+ 'text-variable-anchor':['top','bottom','left','right'],'text-radial-offset':0.8,'text-max-width':11,
  'text-optional':true,'text-allow-overlap':false,'text-padding':['interpolate',['linear'],['zoom'],6,9,12,8,16,6],
  'symbol-z-order':'auto',
  // MapLibre places lower sort keys first when resolving symbol collisions.
@@ -192,6 +212,7 @@ function ensurePoiLayer(){
  }
  if(!map.getSource(SELECTED_POI_SOURCE))map.addSource(SELECTED_POI_SOURCE,{type:'geojson',data:selectedPoiFeatures(),promoteId:'id'});
  registerIcons();
+ registerPlaceDot();
  if(!map.getLayer('mazo-poi-major'))addPoiSymbolLayer('mazo-poi-major','major',POI_ZOOM_THRESHOLDS.major);
  if(!map.getLayer('mazo-poi-district'))addPoiSymbolLayer('mazo-poi-district','district',POI_ZOOM_THRESHOLDS.district);
  if(!map.getLayer('mazo-poi-local'))addPoiSymbolLayer('mazo-poi-local','local',POI_ZOOM_THRESHOLDS.local);
@@ -201,6 +222,7 @@ function ensurePoiLayer(){
   paint:{'icon-opacity':1,'text-opacity':1,'text-color':MAZO_PALETTE[theme()].label,'text-halo-color':MAZO_PALETTE[theme()].halo,'text-halo-width':2.2},
  });
  updatePoiPresentation();
+ updatePoiOverlapPolicy();
  refresh();
 }
 function removeBootstrapPoiSource(){
@@ -229,6 +251,7 @@ function selectVectorPlace(id){
  if(placeById.has(String(id)))choose();else ensureSearchIndex().then(choose).catch(console.error);
 }
 map.on('click',[...POI_LAYERS.slice(0,3),'places-dot','places-label'],e=>{if(!routePanel.hidden)return;const properties=e.features?.[0]?.properties||{};const place=placeById.get(String(properties.id));if(place&&selectedPlace?.id!==place.id)openPlace(place);else if(!place)selectVectorPlace(properties.id)});
+map.on('zoomend',updatePoiOverlapPolicy);
 map.on('mouseenter',[...POI_LAYERS.slice(0,3),'places-dot','places-label'],()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',[...POI_LAYERS.slice(0,3),'places-dot','places-label'],()=>map.getCanvas().style.cursor='');
 let selectedPlace=null,sheetState='half',dragStart=null,dragDelta=0,closeTimer=null;
@@ -624,7 +647,7 @@ map.on('sourcedata',event=>{
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{mapStyleReady=true;try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}removeBootstrapPoiSource();ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
+map.on('style.load',()=>{mapStyleReady=true;poiOverlapEnabled=null;try{presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}removeBootstrapPoiSource();ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
 async function checkedJson(file,sha256){
  const url=await appDataUrl(file,sha256);
  return retryTransientData(async()=>{

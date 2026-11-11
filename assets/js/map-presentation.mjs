@@ -5,6 +5,9 @@ export const INITIAL_CAMERA = Object.freeze({ center: [80.8, 7.85], zoom: 6.7 })
 // Keep the island overview clean like a road atlas. POI pins are useful once a
 // user is exploring a district, but overwhelm national-scale place labels.
 export const POI_ZOOM_THRESHOLDS = Object.freeze({ major: 8.8, district: 14.5, category: 11.5, local: 15.5 });
+// At street-block zooms, showing valid tap targets is more useful than hiding
+// them behind the symbol collision grid.
+export const SHOW_ALL_POI_PINS_ZOOM = 18;
 
 export const CAMERA_OPTIONS = Object.freeze({
   ...INITIAL_CAMERA,
