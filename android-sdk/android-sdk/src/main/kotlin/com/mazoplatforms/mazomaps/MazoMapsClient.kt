@@ -20,7 +20,7 @@ class MazoMapsClient(
     private val baseUrl = baseUrl.trimEnd('/')
 
     init {
-        require(this.baseUrl.startsWith("https://") || this.baseUrl.startsWith("http://localhost")) {
+        require(isPermittedBaseUrl(this.baseUrl)) {
             "Use HTTPS for hosted map services."
         }
         require(connectTimeoutMillis in 1..60_000 && readTimeoutMillis in 1..120_000)

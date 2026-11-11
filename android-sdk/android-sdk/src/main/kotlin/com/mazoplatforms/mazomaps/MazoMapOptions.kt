@@ -1,5 +1,7 @@
 package com.mazoplatforms.mazomaps
 
+import java.net.URI
+
 enum class MazoTheme(val stylePath: String) {
     LIGHT("/api/v1/style.json"),
     DARK("/api/v1/style/dark.json"),
@@ -26,7 +28,7 @@ data class MazoMapOptions(
 ) {
     init {
         require(zoom.isFinite() && zoom in 0.0..20.0) { "Zoom must be within 0..20." }
-        require(baseUrl.startsWith("https://") || baseUrl.startsWith("http://localhost")) {
+        require(isPermittedBaseUrl(baseUrl)) {
             "Use HTTPS for hosted map services. HTTP is accepted for local development only."
         }
     }
@@ -76,3 +78,10 @@ class MazoApiException(
     val endSnapMeters: Double?,
     message: String,
 ) : Exception(message)
+
+internal fun isPermittedBaseUrl(value: String): Boolean {
+    val uri = runCatching { URI(value) }.getOrNull() ?: return false
+    if (uri.host.isNullOrBlank() || uri.userInfo != null || uri.query != null || uri.fragment != null) return false
+    return uri.scheme.equals("https", ignoreCase = true)
+        || (uri.scheme.equals("http", ignoreCase = true) && uri.host.equals("localhost", ignoreCase = true))
+}

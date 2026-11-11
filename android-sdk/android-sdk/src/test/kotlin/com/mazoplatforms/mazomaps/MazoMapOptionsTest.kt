@@ -22,5 +22,8 @@ class MazoMapOptionsTest {
 
     @Test fun hostedHttpIsRejected() {
         assertThrows(IllegalArgumentException::class.java) { MazoMapOptions(baseUrl = "http://public.example") }
+        assertThrows(IllegalArgumentException::class.java) { MazoMapOptions(baseUrl = "http://localhost.attacker.example") }
+        assertThrows(IllegalArgumentException::class.java) { MazoMapsClient(baseUrl = "http://localhost.attacker.example") }
+        assertEquals("http://localhost:8787/api/v1/style.json", MazoMapOptions(baseUrl = "http://localhost:8787").styleUrl())
     }
 }
