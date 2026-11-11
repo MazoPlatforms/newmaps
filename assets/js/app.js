@@ -289,8 +289,6 @@ function updatePoiPresentation(){
    if(map.getLayer('mazo-poi-local')){
     map.setLayerZoomRange('mazo-poi-local',transitionStart,maxZoom);
     map.setPaintProperty('mazo-poi-local','icon-opacity',['interpolate',['linear'],['zoom'],transitionStart,0,transitionEnd,1]);
-    map.setLayoutProperty('mazo-poi-local','text-field',['step',['zoom'],'',transitionEnd,['get','name']]);
-    map.setPaintProperty('mazo-poi-local','text-opacity',['interpolate',['linear'],['zoom'],transitionEnd-0.1,0,transitionEnd+0.2,1]);
    }
    if(map.getLayer('mazo-poi-local-dot')){
     map.setLayerZoomRange('mazo-poi-local-dot',transitionStart,maxZoom);

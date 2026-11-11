@@ -167,6 +167,7 @@ try {
     const errors = [];
     const ranges = [];
     const speedRequests = [];
+    const cityRequests = [];
     const styleRequests = [];
     const thirdPartyMapRequests = [];
     let injectedSearchFailure = false;
@@ -195,6 +196,7 @@ try {
     });
     page.on('request', (request) => {
       if (request.url().includes('speed-limits')) speedRequests.push(request.url());
+      if (request.url().includes('/data/cities.json')) cityRequests.push(request.url());
       if (request.url().includes('/api/v1/style')) styleRequests.push(request.url());
       if (/tiles\.openfreemap\.org|fonts\.(googleapis|gstatic)\.com|router\.project-osrm\.org|routing\.openstreetmap\.de/i.test(request.url())) thirdPartyMapRequests.push(request.url());
     });
@@ -232,7 +234,12 @@ try {
       throw error;
     }
     await wait(page, () => document.querySelectorAll('.categories button').length > 2 && document.querySelector('#search-status').hidden, 90_000);
-    await wait(page, () => window.__MAZO_MAP_TEST__.getSource('mazo-pois') && window.__MAZO_MAP_TEST__.isSourceLoaded('mazo-pois'), 30_000);
+    try {
+      await wait(page, () => window.__MAZO_MAP_TEST__.getSource('mazo-pois') && window.__MAZO_MAP_TEST__.isSourceLoaded('mazo-pois'), 30_000);
+    } catch (error) {
+      console.error(`PMTiles source setup failed (${mode}); browser evidence: ${JSON.stringify(errors)}`);
+      throw error;
+    }
     const settlementDisplay = await page.evaluate(() => {
       const map = window.__MAZO_MAP_TEST__;
       const layers = map.getStyle().layers;
@@ -252,6 +259,7 @@ try {
     assert.equal(settlementDisplay.villageMinZoom, 12, 'village names appear only at close zoom');
     assert.equal(settlementDisplay.localityMinZoom, 13, 'estate and locality names appear at closer zoom');
     assert.equal(settlementDisplay.pins, 0, 'settlements render as collision-aware names, not place pins');
+    assert.deepEqual(cityRequests, [], 'city data is served in viewport PMTiles instead of a standalone JSON download');
     const bootstrapPoiSource = await page.evaluate(() => ({
       type: window.__MAZO_MAP_TEST__.getSource('mazo')?.type,
       layer: window.__MAZO_MAP_TEST__.getLayer('places-dot')?.id,
@@ -395,21 +403,23 @@ try {
       { center: searchFixturePlace[coordinatesColumn] });
     const maxZoomPlaceRendering = await page.evaluate((expectedId) => {
       const map = window.__MAZO_MAP_TEST__;
-      const layerIds = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'];
+      const layerIds = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local', 'mazo-poi-selected'];
       const rendered = map.queryRenderedFeatures(undefined, { layers: layerIds });
       return {
-        overlap: layerIds.map((id) => map.getLayoutProperty(id, 'icon-allow-overlap')),
-        sourceHasSearchablePlace: map.querySourceFeatures('mazo-pois', { sourceLayer: 'places' })
+        overlap: layerIds.slice(0, 3).map((id) => map.getLayoutProperty(id, 'icon-allow-overlap')),
+        selectedPinVisible: map.queryRenderedFeatures(undefined, { layers: ['mazo-poi-selected'] })
           .some((feature) => String(feature.properties.id) === expectedId),
+        sourceFeatureCount: map.querySourceFeatures('mazo-pois', { sourceLayer: 'places' }).length,
         renderedSearchablePlace: rendered.some((feature) => String(feature.properties.id) === expectedId),
         renderedPlaceCount: rendered.length,
+        zoom: map.getZoom(), center: map.getCenter().toArray(), tilesLoaded: map.areTilesLoaded(),
       };
     }, expectedPlaceId);
     assert.deepEqual(maxZoomPlaceRendering.overlap,
       [['step', ['zoom'], false, 15.5, true], ['step', ['zoom'], false, 15.5, true], ['step', ['zoom'], false, 15.5, true]],
       'street-level pins stop losing collisions to the fallback dot layer');
-    assert.equal(maxZoomPlaceRendering.sourceHasSearchablePlace, true,
-      'the searched place must exist in its viewport PMTiles tile');
+    assert.equal(maxZoomPlaceRendering.selectedPinVisible, true,
+      'the selected PMTiles place remains pinned in its dedicated vector symbol layer');
     assert.equal(maxZoomPlaceRendering.renderedSearchablePlace, true,
       'the searched place must remain a rendered, tappable pin at maximum zoom');
     assert.ok(maxZoomPlaceRendering.renderedPlaceCount > 0);
