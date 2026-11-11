@@ -319,6 +319,8 @@ try {
   const cityVersion2 = manifest2.files['data/cities.json'];
   assert.notEqual(cityVersion2.sha256, first.manifest.files['data/cities.json'].sha256,
     'changed bytes receive a new content address so immutable browser/CDN caches cannot shadow updates');
+  await page.waitForFunction(() => window.__MAZO_MAP_TEST__?.getSource('mazo-pois')?.type === 'vector'
+    && document.querySelector('#search-status')?.hidden, null, { timeout: 60_000 });
   if (browserErrors.length) {
     const failingTileDetails = await Promise.all([...basemapTileResponses].map(async ([url, result]) => [url, await result]));
     const failingPlaceDetails = await Promise.all([...placeTileResponses].map(async ([url, result]) => [url, await result]));
@@ -331,6 +333,8 @@ try {
   assert.deepEqual(rollback.result.uploaded, [], 'rollback reuses the immutable R2 object already retained from the previous version');
   assert.equal(rollback.result.deleted.length, 0);
   await page.waitForFunction((revision) => window.__MAZO_LIVE_DATA_VERSION__?.revision === revision, 'c'.repeat(40), { timeout: 30_000 });
+  await page.waitForFunction(() => window.__MAZO_MAP_TEST__?.getSource('mazo-pois')?.type === 'vector'
+    && document.querySelector('#search-status')?.hidden, null, { timeout: 60_000 });
   const rolledBackManifest = await readJson('api/manifest');
   assert.equal(rolledBackManifest.files['data/cities.json'].sha256, first.manifest.files['data/cities.json'].sha256,
     'rollback republishes the prior GitHub content hash under a newer atomic revision');
