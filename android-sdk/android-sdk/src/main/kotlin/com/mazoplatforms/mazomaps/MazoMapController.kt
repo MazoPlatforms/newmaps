@@ -30,9 +30,10 @@ import org.maplibre.android.style.layers.PropertyFactory.textField
 import org.maplibre.android.style.layers.PropertyFactory.textFont
 import org.maplibre.android.style.layers.PropertyFactory.textHaloColor
 import org.maplibre.android.style.layers.PropertyFactory.textHaloWidth
-import org.maplibre.android.style.layers.PropertyFactory.textOffset
 import org.maplibre.android.style.layers.PropertyFactory.textOptional
+import org.maplibre.android.style.layers.PropertyFactory.textRadialOffset
 import org.maplibre.android.style.layers.PropertyFactory.textSize
+import org.maplibre.android.style.layers.PropertyFactory.textVariableAnchor
 import org.maplibre.android.style.layers.SymbolLayer
 import org.maplibre.android.style.sources.GeoJsonSource
 import org.maplibre.android.style.Style
@@ -131,7 +132,8 @@ class MazoMapController private constructor(
                     iconImage(PIN_IMAGE), iconAnchor("bottom"), iconSize(0.72f),
                     iconAllowOverlap(false), iconIgnorePlacement(false),
                     textField("{name}"), textFont(arrayOf("Mazo Maps Sans Regular")),
-                    textSize(11.0f), textOffset(arrayOf(0.0f, 0.85f)),
+                    textSize(11.0f), textVariableAnchor(arrayOf("top", "bottom", "left", "right")),
+                    textRadialOffset(0.85f),
                     textOptional(true), textAllowOverlap(false),
                     textHaloColor("#ffffff"), textHaloWidth(1.4f),
                 )

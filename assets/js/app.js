@@ -186,7 +186,8 @@ function poiLayout(){return {
  'icon-padding':['interpolate',['linear'],['zoom'],6,5,9,6,12,7,15,8,18,8,20,8],
  'text-field':['step',['zoom'],'',13,['get','name']],'text-font':['Mazo Maps Sans Regular'],
  'text-size':['interpolate',['linear'],['zoom'],6,9,9,10,12,11,16,12,20,13],
- 'text-offset':[0,0.8],'text-anchor':'top','text-max-width':11,
+ // Try several nearby placements before hiding a label, as dense map UIs do.
+ 'text-variable-anchor':['top','bottom','left','right'],'text-radial-offset':0.8,'text-max-width':11,
  'text-optional':true,'text-allow-overlap':false,'text-padding':['interpolate',['linear'],['zoom'],6,9,12,8,16,6],
  'symbol-z-order':'auto',
  // MapLibre places lower sort keys first when resolving symbol collisions.

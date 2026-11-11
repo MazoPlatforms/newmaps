@@ -309,6 +309,7 @@ try {
       return {
         icon: map.getLayoutProperty('mazo-poi-local', 'icon-image'),
         name: map.getLayoutProperty('mazo-poi-local', 'text-field'),
+        anchors: map.getLayoutProperty('mazo-poi-local', 'text-variable-anchor'),
         dot: map.hasImage('mazo-place-dot'),
       };
     });
@@ -316,6 +317,8 @@ try {
       'place markers must grow from dots into category pins as the user zooms');
     assert.deepEqual(progressivePlaceSymbols.name, ['step', ['zoom'], '', 13, ['get', 'name']],
       'place labels must emerge from dots at street zoom');
+    assert.deepEqual(progressivePlaceSymbols.anchors, ['top', 'bottom', 'left', 'right'],
+      'place labels try nearby positions before collision placement hides them');
     assert.equal(progressivePlaceSymbols.dot, true);
     await page.evaluate(({ center }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom: 20, bearing: 0, pitch: 0 }),
       { center: searchFixturePlace[coordinatesColumn] });
