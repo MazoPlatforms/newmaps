@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { CAMERA_OPTIONS, INITIAL_CAMERA, POI_ZOOM_THRESHOLDS, cameraDuration, configureNorthUpInteractions, placeDisplayTier, placeFeature, placePriority, poiLayerFilter, visiblePoiTiers } from '../assets/js/map-presentation.mjs';
+import { CAMERA_OPTIONS, INITIAL_CAMERA, POI_ZOOM_THRESHOLDS, SHOW_ALL_POI_PINS_ZOOM, cameraDuration, configureNorthUpInteractions, placeDisplayTier, placeFeature, placePriority, poiLayerFilter, visiblePoiTiers } from '../assets/js/map-presentation.mjs';
 
 test('map camera starts at a Sri Lanka overview, remains north-up, and allows a world view', () => {
   assert.deepEqual(INITIAL_CAMERA, { center: [80.8, 7.85], zoom: 6.7 });
@@ -36,6 +36,7 @@ test('progressive display prioritizes public facilities before ordinary business
   assert.deepEqual(visiblePoiTiers(16), ['major', 'district', 'local']);
   assert.ok(POI_ZOOM_THRESHOLDS.category < POI_ZOOM_THRESHOLDS.local);
   assert.equal(CAMERA_OPTIONS.fadeDuration, 0);
+  assert.equal(SHOW_ALL_POI_PINS_ZOOM, 18);
 });
 
 test('category filters constrain map display without changing searchable features', () => {

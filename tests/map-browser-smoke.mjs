@@ -265,14 +265,9 @@ try {
     });
     assert.equal(countryScalePlaceCount, 0,
       `Sri Lanka overview should keep place pins hidden until a closer zoom, got ${countryScalePlaceCount} place symbols`);
-    const districtScalePoiLayers = await page.evaluate(() => {
-      const map = window.__MAZO_MAP_TEST__;
-      return Object.fromEntries(['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local']
-        .map((id) => [id, map.getStyle().layers.find((layer) => layer.id === id)?.minzoom]));
-    });
-    assert.deepEqual(districtScalePoiLayers, {
-      'mazo-poi-major': 8.8, 'mazo-poi-district': 14.5, 'mazo-poi-local': 15.5,
-    }, 'dense local businesses should wait for street zoom while category search can reveal a selected type sooner');
+    assert.equal(await page.evaluate(() => ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local']
+      .every((id) => Boolean(window.__MAZO_MAP_TEST__.getLayer(id)))), true,
+    'progressive POI symbol tiers must be installed');
     await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     assert.equal(await page.evaluate(() => new URL(location.href).searchParams.has('delivery')), false, 'production does not require a format flag');
     assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some((entry) => entry.name.includes('batticaloa-district.mzp'))), false,
@@ -309,6 +304,40 @@ try {
       assert.equal(policy.textOptional, true, `${policy.id} labels must yield before the pin`);
       assert.equal(policy.textOverlap, false, `${policy.id} place names must remain collision-aware`);
     }
+    const progressivePlaceSymbols = await page.evaluate(() => {
+      const map = window.__MAZO_MAP_TEST__;
+      return {
+        icon: map.getLayoutProperty('mazo-poi-local', 'icon-image'),
+        name: map.getLayoutProperty('mazo-poi-local', 'text-field'),
+        dot: map.hasImage('mazo-place-dot'),
+      };
+    });
+    assert.deepEqual(progressivePlaceSymbols.icon, ['step', ['zoom'], 'mazo-place-dot', 13, ['concat', 'mazo-', ['get', 'kind']]],
+      'place markers must grow from dots into category pins as the user zooms');
+    assert.deepEqual(progressivePlaceSymbols.name, ['step', ['zoom'], '', 13, ['get', 'name']],
+      'place labels must emerge from dots at street zoom');
+    assert.equal(progressivePlaceSymbols.dot, true);
+    await page.evaluate(({ center }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom: 20, bearing: 0, pitch: 0 }),
+      { center: searchFixturePlace[coordinatesColumn] });
+    const maxZoomPlaceRendering = await page.evaluate((expectedId) => {
+      const map = window.__MAZO_MAP_TEST__;
+      const layerIds = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'];
+      const rendered = map.queryRenderedFeatures(undefined, { layers: layerIds });
+      return {
+        overlap: layerIds.map((id) => map.getLayoutProperty(id, 'icon-allow-overlap')),
+        sourceHasSearchablePlace: map.querySourceFeatures('mazo-pois', { sourceLayer: 'places' })
+          .some((feature) => String(feature.properties.id) === expectedId),
+        renderedSearchablePlace: rendered.some((feature) => String(feature.properties.id) === expectedId),
+        renderedPlaceCount: rendered.length,
+      };
+    }, expectedPlaceId);
+    assert.deepEqual(maxZoomPlaceRendering.overlap, [true, true, true],
+      'at maximum street zoom all PMTiles place pins must expand instead of being hidden by marker collisions');
+    assert.equal(maxZoomPlaceRendering.sourceHasSearchablePlace, true,
+      'the searched place must exist in its viewport PMTiles tile');
+    assert.equal(maxZoomPlaceRendering.renderedSearchablePlace, true,
+      'the searched place must remain a rendered, tappable pin at maximum zoom');
+    assert.ok(maxZoomPlaceRendering.renderedPlaceCount > 0);
     assert.ok(ranges.some((entry) => entry.status === 206 && /^bytes \d+-\d+\/\d+$/.test(entry.contentRange || '')), 'PMTiles must use byte-range requests');
     const startupMs = Date.now() - started;
     const startupTransferBytes = await page.evaluate(() => performance.getEntriesByType('resource').reduce((total, entry) => total + (entry.transferSize || 0), 0));
@@ -463,6 +492,21 @@ try {
     await page.goForward();
     await wait(page, () => !document.querySelector('#place-sheet').hidden, 10_000);
     assert.match(await page.locator('#place-title').innerText(), /Noor Accessories/);
+    await page.evaluate(async (center) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom: 20, bearing: 0, pitch: 0 }),
+      searchFixturePlace[coordinatesColumn]);
+    const fullyZoomedPins = await page.evaluate(() => {
+      const map = window.__MAZO_MAP_TEST__;
+      const layers = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local', 'mazo-poi-selected'];
+      const features = map.queryRenderedFeatures(undefined, { layers });
+      return {
+        overlap: map.getLayoutProperty('mazo-poi-local', 'icon-allow-overlap'),
+        rendered: features.filter((feature) => feature.properties?.id).length,
+        named: features.filter((feature) => feature.properties?.name).length,
+      };
+    });
+    assert.equal(fullyZoomedPins.overlap, true, 'maximum zoom must show valid POIs rather than suppressing them by collisions');
+    assert.ok(fullyZoomedPins.rendered > 0, 'vector place pins remain visible at maximum zoom');
+    assert.ok(fullyZoomedPins.named > 0, 'visible street-level pins carry place names');
     const axeSource = readFileSync(resolve(root, 'node_modules/axe-core/axe.min.js'), 'utf8');
     await page.addScriptTag({ content: axeSource });
     const accessibility = await page.evaluate(async () => {
