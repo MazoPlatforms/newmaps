@@ -89,15 +89,12 @@ export function cameraDuration(milliseconds, reducedMotion = false) {
   return reducedMotion ? 0 : milliseconds;
 }
 
-const PIN_LAYERS = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'];
-
 /*
- * Runtime speed/clutter tuning, applied whenever the style changes:
- *  - POI pins take part in collision detection like Google/Apple Maps instead of
- *    being forced on-screen (icon-allow-overlap) - thousands of overlapping pins
- *    were the main cause of lag and the wall of markers;
- *  - the bootstrap MVT place layers (a duplicate of the PMTiles pins) only draw
- *    at street zoom, so they stop loading and laying out tiles at overview zooms.
+ * Runtime speed tuning, applied whenever the style changes:
+ *  - preserve the POI pin collision policy established by poiLayout(), so
+ *    place pins remain visible even when their optional labels collide;
+ *  - the bootstrap MVT place layers (duplicates of PMTiles pins) only draw
+ *    at street zoom, reducing redundant overview tile/layout work.
  * Every write is guarded by a comparison, so this settles after one pass.
  */
 export function tuneMapPerformance(map) {
@@ -105,12 +102,6 @@ export function tuneMapPerformance(map) {
   const apply = () => {
     queued = false;
     try {
-      for (const id of PIN_LAYERS) {
-        if (!map.getLayer(id)) continue;
-        for (const property of ['icon-allow-overlap', 'icon-ignore-placement']) {
-          if (map.getLayoutProperty(id, property) !== false) map.setLayoutProperty(id, property, false);
-        }
-      }
       for (const [id, minimum] of [['places-dot', 14], ['places-label', 16]]) {
         const layer = map.getLayer(id);
         if (layer && (layer.minzoom ?? 0) < minimum) map.setLayerZoomRange(id, minimum, 24);
