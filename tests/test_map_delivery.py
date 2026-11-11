@@ -68,6 +68,14 @@ class MapDeliveryTests(unittest.TestCase):
                 self.assertTrue(0 <= x < (1 << zoom))
                 self.assertTrue(0 <= y < (1 << zoom))
 
+    def test_settlement_labels_reveal_by_geographic_scale(self):
+        self.assertEqual(delivery.settlement_min_zoom("city"), 5)
+        self.assertEqual(delivery.settlement_min_zoom("town"), 8)
+        self.assertEqual(delivery.settlement_min_zoom("village"), 11)
+        self.assertEqual(delivery.settlement_min_zoom("neighborhood"), 12)
+        self.assertEqual(delivery.settlement_min_zoom("estate"), 13)
+        self.assertEqual(delivery.settlement_min_zoom("locality"), 13)
+
     def test_missing_or_corrupted_pmtiles_archive_is_rejected_and_recoverable(self):
         original = delivery.TILE_ARCHIVE.read_bytes()
         try:
