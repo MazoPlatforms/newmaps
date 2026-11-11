@@ -255,6 +255,7 @@ try {
       markers: document.querySelectorAll('.maplibregl-marker').length,
       source: map.getSource('mazo-pois')?.type,
       layers: map.getStyle().layers.filter((layer) => ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].includes(layer.id)),
+      dots: map.getStyle().layers.filter((layer) => ['mazo-poi-major-dot', 'mazo-poi-district-dot', 'mazo-poi-local-dot'].includes(layer.id)),
     };
   });
   assert.equal(poiStyle.source, 'vector', 'ordinary POIs use the PMTiles vector source');
@@ -274,8 +275,11 @@ try {
     assert.ok(Number.isFinite(layer.minzoom), 'each vector symbol tier has an explicit zoom threshold');
   }
   assert.deepEqual(Object.fromEntries(poiStyle.layers.map(({ id, minzoom }) => [id, minzoom])), {
-    'mazo-poi-major': 8.8, 'mazo-poi-district': 14.5, 'mazo-poi-local': 15.5,
-  }, 'POI tiers appear at their configured zoom levels');
+    'mazo-poi-major': 12.5, 'mazo-poi-district': 14, 'mazo-poi-local': 15,
+  }, 'POI pin layers begin at their configured dot-to-pin transition levels');
+  assert.deepEqual(Object.fromEntries(poiStyle.dots.map(({ id, minzoom }) => [id, minzoom])), {
+    'mazo-poi-major-dot': 8.8, 'mazo-poi-district-dot': 14, 'mazo-poi-local-dot': 15,
+  }, 'tile-backed dot layers introduce the matching place tiers before their pins');
   await page.evaluate((coords) => window.__MAZO_MAP_TEST__.jumpTo({ center: coords, zoom: 17, bearing: 0, pitch: 0 }), browserPlace[coordColumn]);
   await page.waitForFunction((id) => !window.__MAZO_MAP_TEST__.isMoving()
     && window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'] })
