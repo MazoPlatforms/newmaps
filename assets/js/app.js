@@ -159,7 +159,7 @@ function registerIcons(){
   map.addImage(id,ctx.getImageData(0,0,64,64),{pixelRatio:2});
  }
 }
-function selectedPoiFeatures(){return {type:'FeatureCollection',features:selectedPlace?.coordinates&&Number.isFinite(+selectedPlace.coordinates.longitude)&&Number.isFinite(+selectedPlace.coordinates.latitude)?[placeFeature(selectedPlace)]:[]}}
+function selectedPoiFeatures(){const place=selectedPlace||pinnedPlace;return {type:'FeatureCollection',features:place?.coordinates&&Number.isFinite(+place.coordinates.longitude)&&Number.isFinite(+place.coordinates.latitude)?[placeFeature(place)]:[]}}
 function updatePoiOverlapPolicy(){
  if(!mapStyleReady)return;
  // Let MapLibre's symbol-placement engine rank places and suppress overlaps
@@ -241,7 +241,7 @@ function removeBootstrapPoiSource(){
  if(map.getSource('mazo'))map.removeSource('mazo');
 }
 function updatePoiPresentation(){
- const selectedId=selectedPlace?.id||null;
+ const selectedId=(selectedPlace||pinnedPlace)?.id||null;
  const categoryChanged=presentedCategory!==category;
  if(categoryChanged||presentedSelectedId!==selectedId){
   for(const [id,tier] of [['mazo-poi-major','major'],['mazo-poi-district','district'],['mazo-poi-local','local'],
@@ -277,11 +277,11 @@ function selectVectorPlace(id){
  const choose=()=>{const place=placeById.get(String(id));if(place&&selectedPlace?.id!==place.id)openPlace(place)};
  if(placeById.has(String(id)))choose();else ensureSearchIndex().then(choose).catch(console.error);
 }
-map.on('click',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'places-dot','places-label'],e=>{if(!routePanel.hidden)return;const properties=e.features?.[0]?.properties||{};const place=placeById.get(String(properties.id));if(place&&selectedPlace?.id!==place.id)openPlace(place);else if(!place)selectVectorPlace(properties.id)});
+map.on('click',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'mazo-poi-selected','places-dot','places-label'],e=>{if(!routePanel.hidden)return;const properties=e.features?.[0]?.properties||{};const place=placeById.get(String(properties.id));if(place&&selectedPlace?.id!==place.id)openPlace(place);else if(!place)selectVectorPlace(properties.id)});
 map.on('zoomend',updatePoiOverlapPolicy);
 map.on('mouseenter',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'places-dot','places-label'],()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'places-dot','places-label'],()=>map.getCanvas().style.cursor='');
-let selectedPlace=null,sheetState='half',dragStart=null,dragDelta=0,closeTimer=null;
+let selectedPlace=null,pinnedPlace=null,sheetState='half',dragStart=null,dragDelta=0,closeTimer=null;
 const sheet=$('#place-sheet');
 function setSheetState(state){
  sheetState=state;sheet.dataset.state=state;document.querySelector('.map-actions').dataset.sheet=state;
@@ -297,6 +297,7 @@ function clearPlaceHistory(id){
 }
 function closePlace({preserveHistory=false}={}){
  if(!preserveHistory&&selectedPlace)clearPlaceHistory(selectedPlace.id);
+ if(selectedPlace)pinnedPlace=selectedPlace;
  selectedPlace=null;updatePoiPresentation();document.querySelector('.map-actions').removeAttribute('data-sheet');sheet.classList.add('is-closing');clearTimeout(closeTimer);closeTimer=setTimeout(()=>{sheet.hidden=true;sheet.classList.remove('is-closing')},260);map.easeTo({padding:{bottom:0},bearing:0,pitch:0,duration:cameraDuration(260)});
 }
 function openPlace(p,{preserveHistory=false}={}){

@@ -550,24 +550,28 @@ try {
     await wait(page, () => document.querySelector('#place-sheet').hidden, 10_000);
     await wait(page, () => !window.__MAZO_MAP_TEST__.isMoving() && window.__MAZO_MAP_TEST__.areTilesLoaded(), 30_000);
     await wait(page, (id) => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined,
-      { layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'] })
+      { layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local', 'mazo-poi-selected'] })
       .some((feature) => String(feature.properties.id) === String(id)), 10_000, expectedPlaceId);
     const restoredPlacePin = await page.evaluate((id) => {
       const map = window.__MAZO_MAP_TEST__;
       const layers = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'];
+      const selected = map.queryRenderedFeatures(undefined, { layers: ['mazo-poi-selected'] });
       return {
         zoom: map.getZoom(),
         overlap: map.getLayoutProperty('mazo-poi-local', 'icon-allow-overlap'),
         regularPin: map.queryRenderedFeatures(undefined, { layers })
           .some((feature) => String(feature.properties.id) === String(id)),
+        persistentSearchPin: selected.some((feature) => String(feature.properties.id) === String(id)),
       };
     }, expectedPlaceId);
     assert.ok(restoredPlacePin.zoom >= 15.5 && restoredPlacePin.zoom < 18,
       'the regression is checked at the normal zoom reached by search selection, not only maximum zoom');
     assert.equal(restoredPlacePin.overlap, false,
       'ordinary POI icons remain collision-aware after closing the search selection');
-    assert.equal(restoredPlacePin.regularPin, true,
-      'closing a search-selected place must restore that same place as a regular vector map pin');
+    assert.ok(restoredPlacePin.regularPin || restoredPlacePin.persistentSearchPin,
+      'closing a search selection keeps the same place visible as a tile-backed pin, even when collision hides its ordinary symbol');
+    assert.equal(restoredPlacePin.persistentSearchPin, true,
+      'the last search-selected pin remains visible after the details sheet closes');
     await page.goForward();
     await wait(page, () => !document.querySelector('#place-sheet').hidden, 10_000);
     assert.match(await page.locator('#place-title').innerText(), /Noor Accessories/);
