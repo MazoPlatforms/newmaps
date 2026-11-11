@@ -232,19 +232,23 @@ try {
       throw error;
     }
     await wait(page, () => document.querySelectorAll('.categories button').length > 2 && document.querySelector('#search-status').hidden, 90_000);
-    await wait(page, () => window.__MAZO_MAP_TEST__.getSource('mazo-cities') && window.__MAZO_MAP_TEST__.isSourceLoaded('mazo-cities'), 30_000);
+    await wait(page, () => window.__MAZO_MAP_TEST__.getSource('mazo-pois') && window.__MAZO_MAP_TEST__.isSourceLoaded('mazo-pois'), 30_000);
     const settlementDisplay = await page.evaluate(() => {
       const map = window.__MAZO_MAP_TEST__;
       const layers = map.getStyle().layers;
       return {
-        features: map.querySourceFeatures('mazo-cities').length,
+        features: map.querySourceFeatures('mazo-pois', { sourceLayer: 'settlements' }).length,
+        tileSource: layers.find(layer => layer.id === 'mazo-village-labels')?.source,
+        vectorLayer: layers.find(layer => layer.id === 'mazo-village-labels')?.['source-layer'],
         villageMinZoom: layers.find(layer => layer.id === 'mazo-village-labels')?.minzoom,
         localityMinZoom: layers.find(layer => layer.id === 'mazo-locality-labels')?.minzoom,
         pins: layers.filter(layer => /^mazo-(city|town|village|locality)-labels$/.test(layer.id)
           && layer.type !== 'symbol').length,
       };
     });
-    assert.ok(settlementDisplay.features > 10_000, 'self-hosted Sri Lanka settlements are loaded into the map source');
+    assert.ok(settlementDisplay.features > 0, 'settlement labels are read from the visible vector tiles');
+    assert.equal(settlementDisplay.tileSource, 'mazo-pois', 'city data is integrated into the PMTiles source');
+    assert.equal(settlementDisplay.vectorLayer, 'settlements', 'city data is no longer fetched as a large GeoJSON file');
     assert.equal(settlementDisplay.villageMinZoom, 12, 'village names appear only at close zoom');
     assert.equal(settlementDisplay.localityMinZoom, 13, 'estate and locality names appear at closer zoom');
     assert.equal(settlementDisplay.pins, 0, 'settlements render as collision-aware names, not place pins');
@@ -359,17 +363,18 @@ try {
       }));
     });
     for (const policy of placeSymbolPolicy) {
-      assert.equal(policy.iconOverlap, false, `${policy.id} pins must yield to nearby symbols in dense areas`);
-      assert.equal(policy.iconIgnorePlacement, false, `${policy.id} pins must participate in collision placement`);
-      assert.equal(policy.textOptional, true, `${policy.id} labels must yield before the pin`);
-      assert.equal(policy.textOverlap, false, `${policy.id} place names must remain collision-aware`);
+      assert.deepEqual(policy.iconOverlap, ['step', ['zoom'], false, 15.5, true], `${policy.id} always keeps its pin at street zoom`);
+      assert.deepEqual(policy.iconIgnorePlacement, ['step', ['zoom'], false, 15.5, true], `${policy.id} pins stop becoming fallback dots at street zoom`);
+      assert.equal(policy.textOptional, undefined, `${policy.id} icon symbols do not bundle labels`);
+      assert.equal(policy.textOverlap, undefined, `${policy.id} labels are independently collision placed`);
     }
     const progressivePlaceSymbols = await page.evaluate(() => {
       const map = window.__MAZO_MAP_TEST__;
       return {
         icon: map.getLayoutProperty('mazo-poi-local', 'icon-image'),
-        name: map.getLayoutProperty('mazo-poi-local', 'text-field'),
-        anchors: map.getLayoutProperty('mazo-poi-local', 'text-variable-anchor'),
+        name: map.getLayoutProperty('mazo-poi-local-label', 'text-field'),
+        anchor: map.getLayoutProperty('mazo-poi-local-label', 'text-anchor'),
+        offset: map.getLayoutProperty('mazo-poi-local-label', 'text-offset'),
         dotLayer: map.getLayer('mazo-poi-local-dot')?.id,
         dotOpacity: map.getPaintProperty('mazo-poi-local-dot', 'circle-opacity'),
         pinOpacity: map.getPaintProperty('mazo-poi-local', 'icon-opacity'),
@@ -377,10 +382,9 @@ try {
     });
     assert.deepEqual(progressivePlaceSymbols.icon, ['concat', 'mazo-', ['get', 'kind']],
       'the pin layer must use the vector feature category icon');
-    assert.deepEqual(progressivePlaceSymbols.name, ['step', ['zoom'], '', 15.5, ['get', 'name']],
-      'place names must emerge once the matching pin tier is fully expanded');
-    assert.deepEqual(progressivePlaceSymbols.anchors, ['top', 'bottom', 'left', 'right'],
-      'place labels try nearby positions before collision placement hides them');
+    assert.deepEqual(progressivePlaceSymbols.name, ['get', 'name'], 'labels use each place name independently of pin placement');
+    assert.equal(progressivePlaceSymbols.anchor, 'top', 'place names are anchored below the pin');
+    assert.deepEqual(progressivePlaceSymbols.offset, [0, 1.25], 'label text has a stable offset below the pin tip');
     assert.equal(progressivePlaceSymbols.dotLayer, 'mazo-poi-local-dot',
       'lower-zoom vector dots use their own tile-backed map layer');
     assert.deepEqual(progressivePlaceSymbols.dotOpacity, ['interpolate', ['linear'], ['zoom'], 15, 1, 15.5, 0],
@@ -401,8 +405,9 @@ try {
         renderedPlaceCount: rendered.length,
       };
     }, expectedPlaceId);
-    assert.deepEqual(maxZoomPlaceRendering.overlap, [false, false, false],
-      'street-level pins stay subject to importance-ranked collision placement');
+    assert.deepEqual(maxZoomPlaceRendering.overlap,
+      [['step', ['zoom'], false, 15.5, true], ['step', ['zoom'], false, 15.5, true], ['step', ['zoom'], false, 15.5, true]],
+      'street-level pins stop losing collisions to the fallback dot layer');
     assert.equal(maxZoomPlaceRendering.sourceHasSearchablePlace, true,
       'the searched place must exist in its viewport PMTiles tile');
     assert.equal(maxZoomPlaceRendering.renderedSearchablePlace, true,
@@ -521,17 +526,18 @@ try {
     }));
     assert.ok(String(themedColors.ocean).replace(/\s/g, '').toLowerCase().includes('#102b3a') || String(themedColors.ocean).includes('16,43,58'), `dark ocean should use Mazo water palette, received ${JSON.stringify(themedColors.ocean)}`);
     assert.ok(String(themedColors.land).replace(/\s/g, '').toLowerCase().includes('#202d32') || String(themedColors.land).includes('32,45,50'), `dark country fill should use Mazo land palette, received ${JSON.stringify(themedColors.land)}`);
-    const opacities = await page.evaluate(() => ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local', 'mazo-poi-selected']
-      .map((id) => [id, window.__MAZO_MAP_TEST__.getPaintProperty(id, 'icon-opacity'), window.__MAZO_MAP_TEST__.getPaintProperty(id, 'text-opacity')]));
-    for (const [id, iconOpacity, textOpacity] of opacities) {
-      if (id === 'mazo-poi-selected') {
-        assert.equal(iconOpacity, 1, `${id} icon opacity`);
-        assert.equal(textOpacity, 1, `${id} label opacity`);
-      } else {
-        assert.equal(iconOpacity[0], 'interpolate', `${id} pin fades in during zoom`);
-        assert.equal(textOpacity[0], 'interpolate', `${id} labels fade in during zoom`);
-      }
+    const opacities = await page.evaluate(() => ({
+      icons: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].map(id => [id, window.__MAZO_MAP_TEST__.getPaintProperty(id, 'icon-opacity')]),
+      labels: ['mazo-poi-major-label', 'mazo-poi-district-label', 'mazo-poi-local-label'].map(id => [id, window.__MAZO_MAP_TEST__.getLayoutProperty(id, 'text-anchor'), window.__MAZO_MAP_TEST__.getLayoutProperty(id, 'text-offset')]),
+      selected: [window.__MAZO_MAP_TEST__.getPaintProperty('mazo-poi-selected', 'icon-opacity'), window.__MAZO_MAP_TEST__.getPaintProperty('mazo-poi-selected-label', 'text-color')],
+    }));
+    for (const [id, iconOpacity] of opacities.icons) assert.equal(iconOpacity[0], 'interpolate', `${id} pin fades in during zoom`);
+    for (const [id, anchor, offset] of opacities.labels) {
+      assert.equal(anchor, 'top', `${id} label is below the pin tip`);
+      assert.deepEqual(offset, [0, 1.25], `${id} label uses a stable below-pin offset`);
     }
+    assert.equal(opacities.selected[0], 1, 'selected pin stays visible');
+    assert.ok(opacities.selected[1], 'selected place label remains visible in its own layer');
     const theme = await page.evaluate(() => document.documentElement.dataset.theme);
     assert.equal(theme, 'dark');
     if (mode === 'pmtiles' && screenshotDir) {
@@ -582,8 +588,8 @@ try {
     }, expectedPlaceId);
     assert.ok(restoredPlacePin.zoom >= 15.5 && restoredPlacePin.zoom < 18,
       'the regression is checked at the normal zoom reached by search selection, not only maximum zoom');
-    assert.equal(restoredPlacePin.overlap, false,
-      'ordinary POI icons remain collision-aware after closing the search selection');
+    assert.deepEqual(restoredPlacePin.overlap, ['step', ['zoom'], false, 15.5, true],
+      'ordinary POI pins remain visible after closing the search selection');
     assert.ok(restoredPlacePin.regularPin || restoredPlacePin.persistentSearchPin,
       'closing a search selection keeps the same place visible as a tile-backed pin, even when collision hides its ordinary symbol');
     assert.equal(restoredPlacePin.persistentSearchPin, true,
@@ -603,7 +609,7 @@ try {
         named: features.filter((feature) => feature.properties?.name).length,
       };
     });
-    assert.equal(fullyZoomedPins.overlap, false, 'maximum zoom keeps place icons collision-aware');
+    assert.deepEqual(fullyZoomedPins.overlap, ['step', ['zoom'], false, 15.5, true], 'maximum zoom keeps place pins visible');
     assert.ok(fullyZoomedPins.rendered > 0, 'vector place pins remain visible at maximum zoom');
     assert.ok(fullyZoomedPins.named > 0, 'visible street-level pins carry place names');
     const axeSource = readFileSync(resolve(root, 'node_modules/axe-core/axe.min.js'), 'utf8');

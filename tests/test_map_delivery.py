@@ -53,6 +53,8 @@ class MapDeliveryTests(unittest.TestCase):
         self.assertGreaterEqual(cities["count"], 25000)
         self.assertTrue(any(item["level"] == "village" for item in cities["cities"]))
         self.assertTrue(any(item["level"] == "estate" for item in cities["cities"]))
+        self.assertEqual(result["settlements"], len(delivery.read_settlements()),
+                         "city, town, village, estate and locality labels are packed into PMTiles")
         self.assertEqual(result["road_kilometer_posts"], 13047)
         aliases = json.loads((ROOT / "data/places/aliases.json").read_text())["aliases"]
         self.assertEqual(result["aliases"], len(aliases))
