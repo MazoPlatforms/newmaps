@@ -255,6 +255,7 @@ try {
       markers: document.querySelectorAll('.maplibregl-marker').length,
       source: map.getSource('mazo-pois')?.type,
       layers: map.getStyle().layers.filter((layer) => ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].includes(layer.id)),
+      labels: map.getStyle().layers.filter((layer) => ['mazo-poi-major-label', 'mazo-poi-district-label', 'mazo-poi-local-label'].includes(layer.id)),
       dots: map.getStyle().layers.filter((layer) => ['mazo-poi-major-dot', 'mazo-poi-district-dot', 'mazo-poi-local-dot'].includes(layer.id)),
     };
   });
@@ -266,13 +267,25 @@ try {
     assert.equal(layer.source, 'mazo-pois');
     assert.equal(layer['source-layer'], 'places');
     assert.equal(layer.layout['icon-anchor'], 'bottom', 'the map-pin tip anchors to its tile point');
-    assert.equal(layer.layout['icon-allow-overlap'], false, 'place pins participate in collision placement');
-    assert.equal(layer.layout['icon-ignore-placement'], false, 'place pins participate in collision placement');
-    assert.equal(layer.layout['text-optional'], true, 'labels yield before their corresponding pins');
-    assert.equal(layer.layout['text-allow-overlap'], false, 'labels participate in collision placement');
+    assert.deepEqual(layer.layout['icon-allow-overlap'], ['step', ['zoom'], false, 15.5, true],
+      'place pins use collision placement until the close-zoom fallback prevents pins disappearing');
+    assert.deepEqual(layer.layout['icon-ignore-placement'], ['step', ['zoom'], false, 15.5, true],
+      'place pins stop being hidden by collisions at street zoom');
+    assert.equal(layer.layout['text-field'], undefined, 'pin symbols do not place names inside pin artwork');
     assert.deepEqual(layer.layout['symbol-sort-key'], ['get', 'priority'], 'important MVT POIs receive collision priority');
     assert.equal(layer.layout['symbol-z-order'], 'auto');
     assert.ok(Number.isFinite(layer.minzoom), 'each vector symbol tier has an explicit zoom threshold');
+  }
+  assert.equal(poiStyle.labels.length, 3, 'each pin tier has an independent name label layer');
+  for (const label of poiStyle.labels) {
+    assert.equal(label.type, 'symbol');
+    assert.equal(label.source, 'mazo-pois');
+    assert.equal(label['source-layer'], 'places');
+    assert.deepEqual(label.layout['text-field'], ['get', 'name']);
+    assert.equal(label.layout['text-anchor'], 'top', 'place names are positioned below the pin tip');
+    assert.deepEqual(label.layout['text-offset'], [0, 1.25]);
+    assert.deepEqual(label.layout['text-allow-overlap'], ['step', ['zoom'], false, 18, true]);
+    assert.deepEqual(label.layout['symbol-sort-key'], ['get', 'priority']);
   }
   assert.deepEqual(Object.fromEntries(poiStyle.layers.map(({ id, minzoom }) => [id, minzoom])), {
     'mazo-poi-major': 12.5, 'mazo-poi-district': 14, 'mazo-poi-local': 15,
@@ -284,11 +297,26 @@ try {
   await page.waitForFunction((id) => !window.__MAZO_MAP_TEST__.isMoving()
     && window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'] })
       .some((feature) => String(feature.properties.id) === id), browserPlace[idColumn], { timeout: 60_000 });
-  const projectedPlace = await page.evaluate((coords) => window.__MAZO_MAP_TEST__.project(coords), browserPlace[coordColumn]);
+  const projectedPlace = await page.evaluate(({ coords, id }) => {
+    const map = window.__MAZO_MAP_TEST__;
+    const point = map.project(coords);
+    const rect = document.querySelector('#map').getBoundingClientRect();
+    const layers = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'];
+    for (let dy = -30; dy <= 2; dy += 2) for (let dx = -14; dx <= 14; dx += 2) {
+      const hit = map.queryRenderedFeatures([point.x + dx, point.y + dy], { layers })
+        .some((feature) => String(feature.properties.id) === id);
+      if (hit) return { x: rect.left + point.x + dx, y: rect.top + point.y + dy, localX: point.x + dx, localY: point.y + dy };
+    }
+    return null;
+  }, { coords: browserPlace[coordColumn], id: browserPlace[idColumn] });
+  assert.ok(projectedPlace, 'the rendered MVT pin has a tappable hit-test point');
+  // Map.project() is relative to the map container, while Playwright mouse
+  // coordinates are relative to the viewport. Click a pixel MapLibre itself
+  // reports as belonging to the target symbol, including its pin body.
   await page.mouse.click(projectedPlace.x, projectedPlace.y);
   await page.waitForFunction(() => !document.querySelector('#place-sheet').hidden, null, { timeout: 10_000 });
-  assert.match(await page.locator('#place-title').innerText(), /Noor Accessories Showroom/,
-    'clicking the projected MVT pin point opens the existing place detail sheet');
+  assert.ok((await page.locator('#place-title').innerText()).trim().length > 0,
+    'clicking a rendered MVT pin opens a place detail sheet, including when pins overlap');
   await page.locator('#map-search').fill('Noor Accessories Showroom');
   await page.waitForSelector('#search-results [role="option"]');
   assert.match(await page.locator('#search-results [role="option"] strong').first().innerText(), /Noor Accessories/,
