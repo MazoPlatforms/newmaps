@@ -240,23 +240,57 @@ try {
     assert.equal(bootstrapPoiSource.layer, undefined, 'legacy unpinned preview symbols are removed on style load');
     assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getLayoutProperty('boundary_2', 'visibility')), 'none',
       'the duplicate country admin outline must not add a second border around Sri Lanka');
+    const countryCartography = await page.evaluate(() => {
+      const map = window.__MAZO_MAP_TEST__;
+      const styleLayers = map.getStyle().layers;
+      const cityLabels = styleLayers.find((layer) => layer.id === 'label_city');
+      return {
+        latinFallback: JSON.stringify(cityLabels?.layout?.['text-field'] || '').includes('name:latin'),
+        countryLabelLayer: styleLayers.find((layer) => layer.id === 'mazo-country-label')?.minzoom,
+        renderedCountryLabel: map.queryRenderedFeatures(undefined, { layers: ['mazo-country-label'] }).length,
+      };
+    });
+    assert.equal(countryCartography.latinFallback, true, 'basemap settlement labels must use the available Latin name field');
+    assert.equal(countryCartography.countryLabelLayer, 5.5, 'the Sri Lanka country name should be visible at overview zoom');
+    assert.equal(countryCartography.renderedCountryLabel, 1, 'the country name should be rendered in the Sri Lanka overview');
     const initialCamera = await page.evaluate(() => ({ center: window.__MAZO_MAP_TEST__.getCenter().toArray(), zoom: window.__MAZO_MAP_TEST__.getZoom(), bearing: window.__MAZO_MAP_TEST__.getBearing(), pitch: window.__MAZO_MAP_TEST__.getPitch() }));
     assert.ok(Math.abs(initialCamera.center[0] - 80.8) < 0.01 && Math.abs(initialCamera.center[1] - 7.85) < 0.01,
       'the initial view should be centered on Sri Lanka');
-    assert.ok(Math.abs(initialCamera.zoom - 7) < 0.1, 'the initial view should show the whole island with surrounding sea margins');
+    assert.ok(Math.abs(initialCamera.zoom - 6.7) < 0.1, 'the initial view should show the whole island with surrounding sea margins');
     const countryScalePlaceCount = await page.evaluate(async () => {
-      await window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.8, 7.85], zoom: 7, bearing: 0, pitch: 0 });
+      await window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.8, 7.85], zoom: 6.7, bearing: 0, pitch: 0 });
       const map = window.__MAZO_MAP_TEST__;
       const layers = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].filter((id) => map.getLayer(id));
       return layers.length ? map.queryRenderedFeatures(undefined, { layers }).length : 0;
     });
     assert.equal(countryScalePlaceCount, 0,
       `Sri Lanka overview should keep place pins hidden until a closer zoom, got ${countryScalePlaceCount} place symbols`);
+    const districtScalePoiLayers = await page.evaluate(() => {
+      const map = window.__MAZO_MAP_TEST__;
+      return Object.fromEntries(['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local']
+        .map((id) => [id, map.getStyle().layers.find((layer) => layer.id === id)?.minzoom]));
+    });
+    assert.deepEqual(districtScalePoiLayers, {
+      'mazo-poi-major': 8.8, 'mazo-poi-district': 14.5, 'mazo-poi-local': 15.5,
+    }, 'dense local businesses should wait for street zoom while category search can reveal a selected type sooner');
     await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpTo({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     assert.equal(await page.evaluate(() => new URL(location.href).searchParams.has('delivery')), false, 'production does not require a format flag');
     assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some((entry) => entry.name.includes('batticaloa-district.mzp'))), false,
       'production never requests a place MZP archive');
     assert.equal(speedRequests.length, 0, 'speed review data is deferred until street zoom');
+    if (mode === 'pmtiles' && screenshotDir) {
+      for (const [name, center, zoom] of [
+        ['zoom-07-sri-lanka', [80.8, 7.85], 6.7],
+        ['zoom-10-batticaloa', [81.73, 7.68], 10],
+        ['zoom-13-kattankudy', [81.73, 7.68], 13],
+        ['zoom-16-kattankudy', [81.73, 7.68], 16],
+      ]) {
+        await page.evaluate(async (camera) => window.__MAZO_MAP_TEST__.jumpToWhenIdle(camera),
+          { center, zoom, bearing: 0, pitch: 0 });
+        await page.screenshot({ path: `${screenshotDir}/${name}.png` });
+      }
+      await page.evaluate(async () => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.8, 7.85], zoom: 6.7, bearing: 0, pitch: 0 }));
+    }
     await wait(page, () => window.mazoPmtilesUrl !== null && window.mazoPmtilesUrl !== undefined);
     await wait(page, () => performance.getEntriesByType('resource').some((entry) => entry.name.includes('places.pmtiles')));
     const placeSymbolPolicy = await page.evaluate(() => {
@@ -270,8 +304,8 @@ try {
       }));
     });
     for (const policy of placeSymbolPolicy) {
-      assert.equal(policy.iconOverlap, true, `${policy.id} must retain visible place pins in dense areas`);
-      assert.equal(policy.iconIgnorePlacement, true, `${policy.id} pins must not vanish behind colliding labels`);
+      assert.equal(policy.iconOverlap, false, `${policy.id} pins must yield to nearby symbols in dense areas`);
+      assert.equal(policy.iconIgnorePlacement, false, `${policy.id} pins must participate in collision placement`);
       assert.equal(policy.textOptional, true, `${policy.id} labels must yield before the pin`);
       assert.equal(policy.textOverlap, false, `${policy.id} place names must remain collision-aware`);
     }

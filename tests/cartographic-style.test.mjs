@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from '../assets/js/cartographic-style.mjs';
 
 function mockMap(layers) {
@@ -134,14 +135,28 @@ test('only business POI source layers are hidden; settlements and airports remai
   assert.equal(isBasemapPlacePoiLayer({ type: 'symbol', 'source-layer': 'aerodrome_label' }), false);
 });
 
+test('basemap settlement names use latin fallback and label Sri Lanka at country zoom', () => {
+  const style = JSON.parse(readFileSync('assets/styles/mazo-basemap.json', 'utf8'));
+  const placeLayers = style.layers.filter((layer) => layer['source-layer'] === 'place' && layer.layout?.['text-field']);
+  assert.ok(placeLayers.length >= 8);
+  for (const layer of placeLayers) {
+    assert.ok(JSON.stringify(layer.layout['text-field']).includes('name:latin'), `${layer.id} should render Latin place names`);
+  }
+  const countrySource = style.sources['mazo-country-label'];
+  assert.equal(countrySource.data.features[0].properties.name, 'Sri Lanka');
+  const countryLayer = style.layers.find((layer) => layer.id === 'mazo-country-label');
+  assert.equal(countryLayer.minzoom, 5.5);
+  assert.equal(countryLayer.maxzoom, 9);
+});
+
 test('zoomed road hierarchy withholds local streets at country scale and reveals them later', () => {
   const map = mockMap(sample);
   applyMazoCartographicStyle(map, 'light');
   const ranges = Object.fromEntries(map.zoomRanges.map(({ id, minzoom }) => [id, minzoom]));
   assert.equal(ranges.road_motorway, 4.5);
-  assert.equal(ranges.road_trunk_primary, 5.5);
-  assert.equal(ranges.road_secondary_tertiary, 7.5);
-  assert.equal(ranges.road_minor, 10.5);
+  assert.equal(ranges.road_trunk_primary, 6.5);
+  assert.equal(ranges.road_secondary_tertiary, 8.5);
+  assert.equal(ranges.road_minor, 11.5);
   assert.equal(ranges.highway_path, 13.5);
   assert.equal(ranges['highway-name-major'], 8.5);
   assert.equal(ranges['highway-shield-non-us'], 9.5);

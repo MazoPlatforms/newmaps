@@ -1,10 +1,10 @@
 import { discoveryCategoryFor } from './place-categories.mjs';
 
 // Start at a country overview so the Sri Lanka land shape is visible on launch.
-export const INITIAL_CAMERA = Object.freeze({ center: [80.8, 7.85], zoom: 7 });
+export const INITIAL_CAMERA = Object.freeze({ center: [80.8, 7.85], zoom: 6.7 });
 // Keep the island overview clean like a road atlas. POI pins are useful once a
 // user is exploring a district, but overwhelm national-scale place labels.
-export const POI_ZOOM_THRESHOLDS = Object.freeze({ major: 8.8, district: 9.8, category: 10.2, local: 12.4 });
+export const POI_ZOOM_THRESHOLDS = Object.freeze({ major: 8.8, district: 14.5, category: 11.5, local: 15.5 });
 
 export const CAMERA_OPTIONS = Object.freeze({
   ...INITIAL_CAMERA,
@@ -94,7 +94,7 @@ export function cameraDuration(milliseconds, reducedMotion = false) {
 /*
  * Runtime speed tuning, applied whenever the style changes:
  *  - preserve the POI pin collision policy established by poiLayout(), so
- *    place pins remain visible even when their optional labels collide;
+ *    dense places use MapLibre symbol collisions to avoid marker walls;
  *  - the bootstrap MVT place layers (duplicates of PMTiles pins) only draw
  *    at street zoom, reducing redundant overview tile/layout work.
  * Every write is guarded by a comparison, so this settles after one pass.

@@ -39,17 +39,17 @@ function roadWidth(layerId) {
 
 // Roads fade in as they appear (like Google/Apple) instead of a dense network popping in at country scale.
 function roadOpacity(layerId) {
-  const stops = ROAD_MAJOR.test(layerId) ? [4, 0.5, 8, 0.85, 11, 1]
-    : ROAD_SECONDARY.test(layerId) ? [7.5, 0, 9, 0.75, 11, 1]
+  const stops = ROAD_MAJOR.test(layerId) ? [4, 0.16, 6.5, 0.28, 8, 0.55, 10, 0.85, 12, 1]
+    : ROAD_SECONDARY.test(layerId) ? [8.5, 0, 9.5, 0.55, 11, 1]
       : [10.5, 0, 12, 0.85, 14, 1];
   return ['interpolate', ['linear'], ['zoom'], ...stops];
 }
 
 function roadMinimumZoom(id) {
   if (/motorway/i.test(id)) return 4.5;
-  if (/trunk|primary/i.test(id)) return 5.5;
-  if (/secondary|tertiary/i.test(id)) return 7.5;
-  if (/minor|service|track|street/i.test(id)) return 10.5;
+  if (/trunk|primary/i.test(id)) return 6.5;
+  if (/secondary|tertiary/i.test(id)) return 8.5;
+  if (/minor|service|track|street/i.test(id)) return 11.5;
   if (/path|pedestrian/i.test(id)) return 13.5;
   return null;
 }
@@ -203,6 +203,9 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
       }
       if (/^place[_-]/i.test(id) && layer.layout?.['icon-image'] !== undefined) paint('icon-opacity', 1);
       if (/^place[_-]/i.test(id) && hasText) applied.labels++;
+      if (/^label_country_/i.test(id) && hasText) {
+        map.setLayoutProperty(layer.id, 'text-field', ['coalesce', ['get', 'name:latin'], ['get', 'name_en'], ['get', 'name']]);
+      }
     }
   }
   return applied;
