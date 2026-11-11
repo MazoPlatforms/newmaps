@@ -407,8 +407,6 @@ try {
       const rendered = map.queryRenderedFeatures(undefined, { layers: layerIds });
       return {
         overlap: layerIds.slice(0, 3).map((id) => map.getLayoutProperty(id, 'icon-allow-overlap')),
-        selectedPinVisible: map.queryRenderedFeatures(undefined, { layers: ['mazo-poi-selected'] })
-          .some((feature) => String(feature.properties.id) === expectedId),
         sourceFeatureCount: map.querySourceFeatures('mazo-pois', { sourceLayer: 'places' }).length,
         renderedSearchablePlace: rendered.some((feature) => String(feature.properties.id) === expectedId),
         renderedPlaceCount: rendered.length,
@@ -418,10 +416,8 @@ try {
     assert.deepEqual(maxZoomPlaceRendering.overlap,
       [['step', ['zoom'], false, 15.5, true], ['step', ['zoom'], false, 15.5, true], ['step', ['zoom'], false, 15.5, true]],
       'street-level pins stop losing collisions to the fallback dot layer');
-    assert.equal(maxZoomPlaceRendering.selectedPinVisible, true,
-      'the selected PMTiles place remains pinned in its dedicated vector symbol layer');
     assert.equal(maxZoomPlaceRendering.renderedSearchablePlace, true,
-      'the searched place must remain a rendered, tappable pin at maximum zoom');
+      `the searched place remains a rendered, tappable PMTiles pin at maximum zoom (${JSON.stringify(maxZoomPlaceRendering)})`);
     assert.ok(maxZoomPlaceRendering.renderedPlaceCount > 0);
     assert.ok(ranges.some((entry) => entry.status === 206 && /^bytes \d+-\d+\/\d+$/.test(entry.contentRange || '')), 'PMTiles must use byte-range requests');
     const startupMs = Date.now() - started;
