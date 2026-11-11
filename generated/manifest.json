@@ -36981,15 +36981,16 @@
   "delivery": {
     "mvt_pmtiles": {
       "file": "places.pmtiles",
-      "sha256": "868b4dc817478f4ece23ee5d4280eeb3f3d6c213702f35b4960448c474f94736",
-      "bytes": 26457288,
+      "sha256": "d945ec86e14e3496146e2141e0b3cafb635dfcc9368913bd3807f49eefa8e213",
+      "bytes": 35499074,
       "features": 65760,
-      "tiles": 51138,
+      "tiles": 70911,
       "min_zoom": 4,
+      "settlement_features": 25068,
       "max_zoom": 16,
       "tile_type": "MVT",
       "compression": "gzip",
-      "metadata_sha256": "77f9338770bb3028c176e2db64913dee14b1e7aa6ee7252e6c348563f844b0e5"
+      "metadata_sha256": "53e99f46a0b4bc4750d3ba0f5458938777093645ac4732415579c154377549c6"
     },
     "search_index": {
       "file": "search-index.json",
