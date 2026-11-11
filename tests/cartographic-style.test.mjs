@@ -58,6 +58,7 @@ const sample = [
   { id: 'highway-name-major', type: 'symbol', source: 'base', 'source-layer': 'transportation_name', layout: { 'text-field': ['get', 'name'] }, paint: { 'text-color': '#333', 'text-halo-color': '#000' } },
   { id: 'highway-shield-non-us', type: 'symbol', source: 'base', 'source-layer': 'transportation_name', minzoom: 8, layout: { 'icon-image': ['get', 'ref'] } },
   { id: 'place_city', type: 'symbol', source: 'base', 'source-layer': 'place', layout: { 'text-field': ['get', 'name'], 'icon-image': 'circle' }, paint: { 'text-color': '#555', 'icon-opacity': 0.7 } },
+  { id: 'mazo-poi-local', type: 'symbol', source: 'mazo-pois', 'source-layer': 'places', layout: { 'text-field': ['get', 'name'] }, paint: { 'text-opacity': ['interpolate', ['linear'], ['zoom'], 15, 0, 15.5, 1], 'icon-opacity': ['interpolate', ['linear'], ['zoom'], 15, 0, 15.5, 1] } },
 ];
 
 test('dark palette restores separation among water, land, vegetation and buildings', () => {
@@ -95,6 +96,8 @@ test('roads receive class hierarchy and geographic labels become fully opaque an
   assert.equal(byId['highway-name-major'].paint['text-opacity'], 1);
   assert.equal(byId.place_city.paint['text-color'], MAZO_PALETTE.dark.label);
   assert.equal(byId.place_city.paint['icon-opacity'], 1);
+  assert.deepEqual(byId['mazo-poi-local'].paint['text-opacity'], ['interpolate', ['linear'], ['zoom'], 15, 0, 15.5, 1]);
+  assert.deepEqual(byId['mazo-poi-local'].paint['icon-opacity'], ['interpolate', ['linear'], ['zoom'], 15, 0, 15.5, 1]);
 });
 
 test('light palette remains coordinated and reports supported source-layer coverage', () => {

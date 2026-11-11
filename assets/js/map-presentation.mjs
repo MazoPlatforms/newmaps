@@ -5,9 +5,10 @@ export const INITIAL_CAMERA = Object.freeze({ center: [80.8, 7.85], zoom: 6.7 })
 // Keep the island overview clean like a road atlas. POI pins are useful once a
 // user is exploring a district, but overwhelm national-scale place labels.
 export const POI_ZOOM_THRESHOLDS = Object.freeze({ major: 8.8, district: 14.5, category: 11.5, local: 15.5 });
-// At street-block zooms, showing valid tap targets is more useful than hiding
-// them behind the symbol collision grid.
-export const SHOW_ALL_POI_PINS_ZOOM = 18;
+// A place selected from search opens at zoom 16. Make every underlying place
+// pin visible before that camera level so closing the selection reveals its
+// ordinary map pin instead of making it disappear in symbol collision.
+export const SHOW_ALL_POI_PINS_ZOOM = 15.5;
 
 export const CAMERA_OPTIONS = Object.freeze({
   ...INITIAL_CAMERA,
@@ -23,12 +24,16 @@ export const CAMERA_OPTIONS = Object.freeze({
   // this enabled preserves native pinch zoom on touch devices.
   touchZoomRotate: true,
   renderWorldCopies: true,
+  // Retain parent/child vector tiles across pinch zooms so MapLibre can keep
+  // drawing the last complete viewport while replacement tiles are fetched.
+  maxTileCacheZoomLevels: 6,
+  maxTileCacheSize: 128,
   // Bound GPU work on high-density mobile screens; POI symbols remain opaque.
   // 3x phone screens render 2.25x more pixels than 2x for no visible gain on a map.
   pixelRatio: Math.min(globalThis.devicePixelRatio || 1, 2),
-  // Avoid retaining both previous and new symbol placements during rapid
-  // mobile zoom gestures; the fade contributes visible lag on dense tiles.
-  fadeDuration: 0,
+  // Cross-fade the previous zoom's vector tiles while replacement tiles load,
+  // avoiding a flash of only the water background during pinch zoom.
+  fadeDuration: 300,
 });
 
 // Only landmarks receive a country/regional tier. Other institutions become

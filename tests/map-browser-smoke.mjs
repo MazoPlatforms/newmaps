@@ -273,6 +273,50 @@ try {
     assert.equal(await page.evaluate(() => performance.getEntriesByType('resource').some((entry) => entry.name.includes('batticaloa-district.mzp'))), false,
       'production never requests a place MZP archive');
     assert.equal(speedRequests.length, 0, 'speed review data is deferred until street zoom');
+    if (mode === 'pmtiles') {
+      const tileContinuity = await page.evaluate(async () => {
+        const map = window.__MAZO_MAP_TEST__;
+        const center = [80.57189667, 7.76094667];
+        const roadAndBuildingLayers = map.getStyle().layers
+          .filter((layer) => ['openmaptiles', 'openmaptiles-fallback'].includes(layer.source)
+            && ['line', 'fill', 'fill-extrusion'].includes(layer.type)
+            && (/road|building/i.test(layer.id)))
+          .map((layer) => layer.id);
+        await map.jumpToWhenIdle({ center, zoom: 18, bearing: 0, pitch: 0 });
+        const counts = [];
+        await new Promise((resolve) => {
+          const sample = () => {
+            const features = map.queryRenderedFeatures(undefined, { layers: roadAndBuildingLayers });
+            counts.push({ count: features.length, zoom: +map.getZoom().toFixed(2), at: performance.now(),
+              primaryLoaded: map.isSourceLoaded('openmaptiles') });
+            if (!map.isMoving()) { map.off('render', sample); resolve(); }
+          };
+          map.on('render', sample);
+          map.easeTo({ center, zoom: 8, duration: 1800, bearing: 0, pitch: 0 });
+        });
+        await new Promise((resolve) => {
+          const check = () => map.areTilesLoaded() ? resolve() : setTimeout(check, 50);
+          check();
+        });
+        await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+        const settledFeatures = map.queryRenderedFeatures(undefined, { layers: roadAndBuildingLayers }).length;
+        return { frames: counts.length, blankFrames: counts.filter((sample) => sample.count === 0).length,
+          settledFeatures, samples: counts };
+      });
+      let maxBlankMs = 0, blankStart = null, priorAt = null;
+      for (const sample of tileContinuity.samples || []) {
+        if (sample.count === 0) { if (blankStart === null) blankStart = sample.at; }
+        else if (blankStart !== null) { maxBlankMs = Math.max(maxBlankMs, sample.at - blankStart); blankStart = null; }
+        priorAt = sample.at;
+      }
+      if (blankStart !== null && priorAt !== null) maxBlankMs = Math.max(maxBlankMs, priorAt - blankStart);
+      tileContinuity.maxBlankMs = maxBlankMs;
+      delete tileContinuity.samples;
+      assert.ok(tileContinuity.frames > 10, 'zoom continuity is measured across rendered animation frames');
+      console.log(`Basemap zoom transition: ${JSON.stringify(tileContinuity)}`);
+      assert.ok(tileContinuity.settledFeatures > 0,
+        `road/building vector layers must return after rapid zoom settles (${JSON.stringify(tileContinuity)})`);
+    }
     if (mode === 'pmtiles' && screenshotDir) {
       for (const [name, center, zoom] of [
         ['zoom-07-sri-lanka', [80.8, 7.85], 6.7],
@@ -310,16 +354,23 @@ try {
         icon: map.getLayoutProperty('mazo-poi-local', 'icon-image'),
         name: map.getLayoutProperty('mazo-poi-local', 'text-field'),
         anchors: map.getLayoutProperty('mazo-poi-local', 'text-variable-anchor'),
-        dot: map.hasImage('mazo-place-dot'),
+        dotLayer: map.getLayer('mazo-poi-local-dot')?.id,
+        dotOpacity: map.getPaintProperty('mazo-poi-local-dot', 'circle-opacity'),
+        pinOpacity: map.getPaintProperty('mazo-poi-local', 'icon-opacity'),
       };
     });
-    assert.deepEqual(progressivePlaceSymbols.icon, ['step', ['zoom'], 'mazo-place-dot', 13, ['concat', 'mazo-', ['get', 'kind']]],
-      'place markers must grow from dots into category pins as the user zooms');
-    assert.deepEqual(progressivePlaceSymbols.name, ['step', ['zoom'], '', 13, ['get', 'name']],
-      'place labels must emerge from dots at street zoom');
+    assert.deepEqual(progressivePlaceSymbols.icon, ['concat', 'mazo-', ['get', 'kind']],
+      'the pin layer must use the vector feature category icon');
+    assert.deepEqual(progressivePlaceSymbols.name, ['step', ['zoom'], '', 15.5, ['get', 'name']],
+      'place names must emerge once the matching pin tier is fully expanded');
     assert.deepEqual(progressivePlaceSymbols.anchors, ['top', 'bottom', 'left', 'right'],
       'place labels try nearby positions before collision placement hides them');
-    assert.equal(progressivePlaceSymbols.dot, true);
+    assert.equal(progressivePlaceSymbols.dotLayer, 'mazo-poi-local-dot',
+      'lower-zoom vector dots use their own tile-backed map layer');
+    assert.deepEqual(progressivePlaceSymbols.dotOpacity, ['interpolate', ['linear'], ['zoom'], 15, 1, 15.5, 0],
+      'dots smoothly fade as the category pin fades in');
+    assert.deepEqual(progressivePlaceSymbols.pinOpacity, ['interpolate', ['linear'], ['zoom'], 15, 0, 15.5, 1],
+      'pins smoothly fade in over the same zoom interval');
     await page.evaluate(({ center }) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center, zoom: 20, bearing: 0, pitch: 0 }),
       { center: searchFixturePlace[coordinatesColumn] });
     const maxZoomPlaceRendering = await page.evaluate((expectedId) => {
@@ -334,8 +385,8 @@ try {
         renderedPlaceCount: rendered.length,
       };
     }, expectedPlaceId);
-    assert.deepEqual(maxZoomPlaceRendering.overlap, [true, true, true],
-      'at maximum street zoom all PMTiles place pins must expand instead of being hidden by marker collisions');
+    assert.deepEqual(maxZoomPlaceRendering.overlap, [false, false, false],
+      'street-level pins stay subject to importance-ranked collision placement');
     assert.equal(maxZoomPlaceRendering.sourceHasSearchablePlace, true,
       'the searched place must exist in its viewport PMTiles tile');
     assert.equal(maxZoomPlaceRendering.renderedSearchablePlace, true,
@@ -457,8 +508,13 @@ try {
     const opacities = await page.evaluate(() => ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local', 'mazo-poi-selected']
       .map((id) => [id, window.__MAZO_MAP_TEST__.getPaintProperty(id, 'icon-opacity'), window.__MAZO_MAP_TEST__.getPaintProperty(id, 'text-opacity')]));
     for (const [id, iconOpacity, textOpacity] of opacities) {
-      assert.equal(iconOpacity, 1, `${id} icon opacity`);
-      assert.equal(textOpacity, 1, `${id} label opacity`);
+      if (id === 'mazo-poi-selected') {
+        assert.equal(iconOpacity, 1, `${id} icon opacity`);
+        assert.equal(textOpacity, 1, `${id} label opacity`);
+      } else {
+        assert.equal(iconOpacity[0], 'interpolate', `${id} pin fades in during zoom`);
+        assert.equal(textOpacity[0], 'interpolate', `${id} labels fade in during zoom`);
+      }
     }
     const theme = await page.evaluate(() => document.documentElement.dataset.theme);
     assert.equal(theme, 'dark');
@@ -492,6 +548,26 @@ try {
     assert.match(selectedName, /Noor Accessories/);
     await page.goBack();
     await wait(page, () => document.querySelector('#place-sheet').hidden, 10_000);
+    await wait(page, () => !window.__MAZO_MAP_TEST__.isMoving() && window.__MAZO_MAP_TEST__.areTilesLoaded(), 30_000);
+    await wait(page, (id) => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined,
+      { layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'] })
+      .some((feature) => String(feature.properties.id) === String(id)), 10_000, expectedPlaceId);
+    const restoredPlacePin = await page.evaluate((id) => {
+      const map = window.__MAZO_MAP_TEST__;
+      const layers = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'];
+      return {
+        zoom: map.getZoom(),
+        overlap: map.getLayoutProperty('mazo-poi-local', 'icon-allow-overlap'),
+        regularPin: map.queryRenderedFeatures(undefined, { layers })
+          .some((feature) => String(feature.properties.id) === String(id)),
+      };
+    }, expectedPlaceId);
+    assert.ok(restoredPlacePin.zoom >= 15.5 && restoredPlacePin.zoom < 18,
+      'the regression is checked at the normal zoom reached by search selection, not only maximum zoom');
+    assert.equal(restoredPlacePin.overlap, false,
+      'ordinary POI icons remain collision-aware after closing the search selection');
+    assert.equal(restoredPlacePin.regularPin, true,
+      'closing a search-selected place must restore that same place as a regular vector map pin');
     await page.goForward();
     await wait(page, () => !document.querySelector('#place-sheet').hidden, 10_000);
     assert.match(await page.locator('#place-title').innerText(), /Noor Accessories/);
@@ -507,7 +583,7 @@ try {
         named: features.filter((feature) => feature.properties?.name).length,
       };
     });
-    assert.equal(fullyZoomedPins.overlap, true, 'maximum zoom must show valid POIs rather than suppressing them by collisions');
+    assert.equal(fullyZoomedPins.overlap, false, 'maximum zoom keeps place icons collision-aware');
     assert.ok(fullyZoomedPins.rendered > 0, 'vector place pins remain visible at maximum zoom');
     assert.ok(fullyZoomedPins.named > 0, 'visible street-level pins carry place names');
     const axeSource = readFileSync(resolve(root, 'node_modules/axe-core/axe.min.js'), 'utf8');
