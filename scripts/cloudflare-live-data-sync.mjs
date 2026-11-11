@@ -124,16 +124,24 @@ async function retryTransient(operation, attempts = 3) {
 async function pruneNonPmtilesObjects(options, revision) {
   let cursor;
   let deleted = 0;
-  do {
-    const result = await retryTransient(async () => responseJson(await signedFetch({ ...options,
-      pathname: '/api/admin/prune', body: { expected_revision: revision, ...(cursor ? { cursor } : {}) } })));
-    if (result.revision !== revision || !Number.isSafeInteger(result.deleted_count) || result.deleted_count < 0) {
-      throw new Error('Cloudflare returned an invalid R2 cleanup result');
-    }
-    deleted += result.deleted_count;
-    cursor = result.next_cursor || null;
-  } while (cursor);
-  return deleted;
+  try {
+    do {
+      const result = await retryTransient(async () => responseJson(await signedFetch({ ...options,
+        pathname: '/api/admin/prune', body: { expected_revision: revision, ...(cursor ? { cursor } : {}) } })));
+      if (result.revision !== revision || !Number.isSafeInteger(result.deleted_count) || result.deleted_count < 0) {
+        throw new Error('Cloudflare returned an invalid R2 cleanup result');
+      }
+      deleted += result.deleted_count;
+      cursor = result.next_cursor || null;
+    } while (cursor);
+    return { deleted, skipped: false };
+  } catch (error) {
+    // A newer manifest may publish between our commit and optional garbage
+    // collection. Leave old content-addressed objects for the next run;
+    // never let cleanup race a newer publication or mark a successful sync failed.
+    if (error.status === 409 && /revision changed/i.test(error.message)) return { deleted, skipped: true };
+    throw error;
+  }
 }
 
 export async function syncLiveData({ root, manifest, baseUrl, secret, fetcher = fetch }) {
@@ -147,9 +155,10 @@ export async function syncLiveData({ root, manifest, baseUrl, secret, fetcher = 
   await uploadChanged(root, options, upload);
   try {
     const published = await postJson(options, '/api/admin/publish', { manifest, expected_revision: plan.expected_revision ?? null });
-    const pruned = await pruneNonPmtilesObjects(options, published.revision || manifest.revision);
+    const cleanup = await pruneNonPmtilesObjects(options, published.revision || manifest.revision);
     return { ...published, changed: (plan.changed || []).map(({ path }) => path),
-      uploaded: upload.map(({ path }) => path), deleted: plan.deleted || [], unchanged: plan.unchanged || 0, pruned };
+      uploaded: upload.map(({ path }) => path), deleted: plan.deleted || [], unchanged: plan.unchanged || 0,
+      pruned: cleanup.deleted, cleanup_skipped: cleanup.skipped };
   } catch (error) {
     if (error.status !== 409) throw error;
     // Re-plan once if another protected-branch run published while uploads were in flight.
@@ -157,9 +166,10 @@ export async function syncLiveData({ root, manifest, baseUrl, secret, fetcher = 
     upload = plan.upload || plan.changed || [];
     await uploadChanged(root, options, upload);
     const published = await postJson(options, '/api/admin/publish', { manifest, expected_revision: plan.expected_revision ?? null });
-    const pruned = await pruneNonPmtilesObjects(options, published.revision || manifest.revision);
+    const cleanup = await pruneNonPmtilesObjects(options, published.revision || manifest.revision);
     return { ...published, changed: (plan.changed || []).map(({ path }) => path),
-      uploaded: upload.map(({ path }) => path), deleted: plan.deleted || [], unchanged: plan.unchanged || 0, pruned };
+      uploaded: upload.map(({ path }) => path), deleted: plan.deleted || [], unchanged: plan.unchanged || 0,
+      pruned: cleanup.deleted, cleanup_skipped: cleanup.skipped };
   }
 }
 

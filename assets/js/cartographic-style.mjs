@@ -179,6 +179,12 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
       paint('line-color', palette.boundary);
       // Quiet at country scale, clearer when zoomed in.
       paint('line-opacity', ['interpolate', ['linear'], ['zoom'], 4, 0.3, 9, 0.6, 13, 0.9]);
+      // The national admin boundary duplicates the coastline and draws an
+      // unsightly halo around Sri Lanka. Keep internal admin borders, but omit
+      // admin_level=2 country outlines from this island-focused basemap.
+      if (['boundary_2', 'boundary_country_z5-'].includes(layer.id)) {
+        map.setLayoutProperty(layer.id, 'visibility', 'none');
+      }
       if (!containsMaritimeExclusion(layer.filter)) map.setFilter(layer.id, ['all', layer.filter || ['all'], ['!=', ['get', 'maritime'], 1]]);
       applied.boundaries++;
     }

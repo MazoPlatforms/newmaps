@@ -236,15 +236,19 @@ try {
       type: window.__MAZO_MAP_TEST__.getSource('mazo')?.type,
       layer: window.__MAZO_MAP_TEST__.getLayer('places-dot')?.id,
     }));
-    assert.equal(bootstrapPoiSource.type, 'vector', 'place PBF source is part of the initial map style');
-    assert.equal(bootstrapPoiSource.layer, 'places-dot', 'preloaded place features render before the PMTiles marker source initializes');
+    assert.equal(bootstrapPoiSource.type, undefined, 'legacy preview PBF source is removed so PMTiles is the only place renderer');
+    assert.equal(bootstrapPoiSource.layer, undefined, 'legacy unpinned preview symbols are removed on style load');
+    assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getLayoutProperty('boundary_2', 'visibility')), 'none',
+      'the duplicate country admin outline must not add a second border around Sri Lanka');
     const initialCamera = await page.evaluate(() => ({ center: window.__MAZO_MAP_TEST__.getCenter().toArray(), zoom: window.__MAZO_MAP_TEST__.getZoom(), bearing: window.__MAZO_MAP_TEST__.getBearing(), pitch: window.__MAZO_MAP_TEST__.getPitch() }));
     assert.ok(Math.abs(initialCamera.center[0] - 80.8) < 0.01 && Math.abs(initialCamera.center[1] - 7.85) < 0.01,
       'the initial view should be centered on Sri Lanka');
     assert.ok(Math.abs(initialCamera.zoom - 7) < 0.1, 'the initial view should show the whole island with surrounding sea margins');
     const countryScalePlaceCount = await page.evaluate(async () => {
       await window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [80.8, 7.85], zoom: 7, bearing: 0, pitch: 0 });
-      return window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['places-dot'] }).length;
+      const map = window.__MAZO_MAP_TEST__;
+      const layers = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].filter((id) => map.getLayer(id));
+      return layers.length ? map.queryRenderedFeatures(undefined, { layers }).length : 0;
     });
     assert.equal(countryScalePlaceCount, 0,
       `Sri Lanka overview should keep place pins hidden until a closer zoom, got ${countryScalePlaceCount} place symbols`);
@@ -461,7 +465,11 @@ try {
     }
     const selectedFeatures = await page.evaluate(() => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-selected'] }).map((feature) => feature.properties.id));
     assert.ok(selectedFeatures.includes(expectedPlaceId), 'search-selected place remains rendered in the selected state');
-    const duplicateSelectionFeatures = await page.evaluate(() => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, { layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'] }).map((feature) => feature.properties.id));
+    const duplicateSelectionFeatures = await page.evaluate(() => {
+      const map = window.__MAZO_MAP_TEST__;
+      const layers = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].filter((id) => map.getLayer(id));
+      return layers.length ? map.queryRenderedFeatures(undefined, { layers }).map((feature) => feature.properties.id) : [];
+    });
     assert.ok(!duplicateSelectionFeatures.includes(expectedPlaceId), 'selected place is suppressed from ordinary POI tiers to avoid duplicate symbols');
 
     const animation = await page.evaluate(() => new Promise((resolveAnimation) => {

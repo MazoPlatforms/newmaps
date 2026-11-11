@@ -20,10 +20,12 @@ export const CAMERA_OPTIONS = Object.freeze({
   // this enabled preserves native pinch zoom on touch devices.
   touchZoomRotate: true,
   renderWorldCopies: true,
-  // Only brief collision transitions remain; POI symbol opacity itself is 1.
-  fadeDuration: 100,
+  // Bound GPU work on high-density mobile screens; POI symbols remain opaque.
   // 3x phone screens render 2.25x more pixels than 2x for no visible gain on a map.
   pixelRatio: Math.min(globalThis.devicePixelRatio || 1, 2),
+  // Avoid retaining both previous and new symbol placements during rapid
+  // mobile zoom gestures; the fade contributes visible lag on dense tiles.
+  fadeDuration: 0,
 });
 
 // Only landmarks receive a country/regional tier. Other institutions become
