@@ -33,7 +33,7 @@ test('progressive display prioritizes public facilities before ordinary business
   assert.deepEqual(visiblePoiTiers(10), ['major', 'district']);
   assert.deepEqual(visiblePoiTiers(13), ['major', 'district', 'local']);
   assert.ok(POI_ZOOM_THRESHOLDS.category < POI_ZOOM_THRESHOLDS.local);
-  assert.equal(CAMERA_OPTIONS.fadeDuration, 100);
+  assert.equal(CAMERA_OPTIONS.fadeDuration, 0);
 });
 
 test('category filters constrain map display without changing searchable features', () => {

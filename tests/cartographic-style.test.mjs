@@ -50,7 +50,7 @@ const sample = [
   { id: 'road_motorway', type: 'line', source: 'base', 'source-layer': 'transportation', paint: { 'line-color': '#000' } },
   { id: 'road_secondary_tertiary', type: 'line', source: 'base', 'source-layer': 'transportation', paint: { 'line-color': '#000' } },
   { id: 'highway_path', type: 'line', source: 'base', 'source-layer': 'transportation', paint: { 'line-color': '#000' } },
-  { id: 'boundary_country_z5-', type: 'line', source: 'base', 'source-layer': 'boundary', filter: ['==', ['get', 'admin_level'], 2], paint: { 'line-color': '#000' } },
+  { id: 'boundary_2', type: 'line', source: 'base', 'source-layer': 'boundary', filter: ['==', ['get', 'admin_level'], 2], paint: { 'line-color': '#000' } },
   { id: 'poi_r7', type: 'symbol', source: 'base', 'source-layer': 'poi', layout: { 'text-field': ['get', 'name'] } },
   { id: 'place_suburb', type: 'symbol', source: 'base', 'source-layer': 'place', layout: { 'text-field': ['get', 'name'] } },
   { id: 'airport', type: 'symbol', source: 'base', 'source-layer': 'aerodrome_label', layout: { 'text-field': ['get', 'name'] } },
@@ -106,17 +106,26 @@ test('light palette remains coordinated and reports supported source-layer cover
   assert.equal(summary.boundaries, 1);
 });
 
-test('maritime admin boundaries are filtered without touching coast water polygons', () => {
+test('duplicate national outline is hidden without touching coast water polygons', () => {
   const map = mockMap(sample);
   applyMazoCartographicStyle(map, 'dark');
-  const filter = map.style.layers.find((layer) => layer.id === 'boundary_country_z5-').filter;
-  assert.deepEqual(filter, ['all', ['==', ['get', 'admin_level'], 2], ['!=', ['get', 'maritime'], 1]]);
+  const boundary = map.style.layers.find((layer) => layer.id === 'boundary_2');
+  assert.equal(boundary.layout.visibility, 'none');
+  assert.deepEqual(boundary.filter,
+    ['all', ['==', ['get', 'admin_level'], 2], ['!=', ['get', 'maritime'], 1]]);
   const water = map.style.layers.find((layer) => layer.id === 'water');
   assert.deepEqual(water.filter, undefined);
   assert.equal(water.paint['fill-antialias'], true);
-  const firstFilter = structuredClone(filter);
   applyMazoCartographicStyle(map, 'dark');
-  assert.deepEqual(map.style.layers.find((layer) => layer.id === 'boundary_country_z5-').filter, firstFilter);
+  assert.equal(map.style.layers.find((layer) => layer.id === 'boundary_2').layout.visibility, 'none');
+});
+
+test('internal administrative boundaries keep their non-maritime filter', () => {
+  const map = mockMap([{ id: 'boundary_3', type: 'line', source: 'base', 'source-layer': 'boundary',
+    filter: ['==', ['get', 'admin_level'], 3], paint: { 'line-color': '#000' } }]);
+  applyMazoCartographicStyle(map, 'light');
+  assert.deepEqual(map.style.layers[0].filter,
+    ['all', ['==', ['get', 'admin_level'], 3], ['!=', ['get', 'maritime'], 1]]);
 });
 
 test('only business POI source layers are hidden; settlements and airports remain geographic labels', () => {
