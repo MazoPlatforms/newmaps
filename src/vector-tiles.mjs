@@ -262,8 +262,12 @@ function tileJSON(base, revision, state) {
     minzoom: state.minZoom, maxzoom: state.maxZoom,
     bounds: [state.minLon, state.minLat, state.maxLon, state.maxLat],
     center: [81.72, 7.72, 11], attribution: '© Mazo Maps place data contributors',
-    vector_layers: [{ id: 'places', fields: { id: 'String', name: 'String', kind: 'String', priority: 'Number', overview: 'Boolean' },
-      minzoom: state.minZoom, maxzoom: state.maxZoom }],
+    vector_layers: [
+      { id: 'places', fields: { id: 'String', name: 'String', kind: 'String', priority: 'Number', overview: 'Boolean' },
+        minzoom: state.minZoom, maxzoom: state.maxZoom },
+      { id: 'settlements', fields: { id: 'String', name: 'String', level: 'String', population: 'Number', rank: 'Number' },
+        minzoom: 4, maxzoom: state.maxZoom },
+    ],
   };
 }
 

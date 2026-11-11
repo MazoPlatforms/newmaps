@@ -53,6 +53,8 @@ class MapDeliveryTests(unittest.TestCase):
         self.assertGreaterEqual(cities["count"], 25000)
         self.assertTrue(any(item["level"] == "village" for item in cities["cities"]))
         self.assertTrue(any(item["level"] == "estate" for item in cities["cities"]))
+        self.assertEqual(result["settlements"], len(delivery.read_settlements()),
+                         "city, town, village, estate and locality labels are packed into PMTiles")
         self.assertEqual(result["road_kilometer_posts"], 13047)
         aliases = json.loads((ROOT / "data/places/aliases.json").read_text())["aliases"]
         self.assertEqual(result["aliases"], len(aliases))
@@ -65,6 +67,14 @@ class MapDeliveryTests(unittest.TestCase):
                 x, y = delivery.tile_xy(lon, lat, zoom)
                 self.assertTrue(0 <= x < (1 << zoom))
                 self.assertTrue(0 <= y < (1 << zoom))
+
+    def test_settlement_labels_reveal_by_geographic_scale(self):
+        self.assertEqual(delivery.settlement_min_zoom("city"), 5)
+        self.assertEqual(delivery.settlement_min_zoom("town"), 8)
+        self.assertEqual(delivery.settlement_min_zoom("village"), 11)
+        self.assertEqual(delivery.settlement_min_zoom("neighborhood"), 12)
+        self.assertEqual(delivery.settlement_min_zoom("estate"), 13)
+        self.assertEqual(delivery.settlement_min_zoom("locality"), 13)
 
     def test_missing_or_corrupted_pmtiles_archive_is_rejected_and_recoverable(self):
         original = delivery.TILE_ARCHIVE.read_bytes()

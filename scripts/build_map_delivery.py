@@ -56,6 +56,7 @@ MANIFEST = GENERATED / "manifest.json"
 TILE_ARCHIVE = GENERATED / "places.pmtiles"
 SEARCH_INDEX = GENERATED / "search-index.json"
 DETAIL_INDEX = GENERATED / "place-details.json"
+CITIES_SOURCE = ROOT / "data" / "cities.json"
 EXTENT = 4096
 MIN_ZOOM = 4
 MAX_ZOOM = 16
@@ -142,6 +143,43 @@ def visible_from_zoom(feature_priority, zoom):
              zoom >= 10))
 
 
+def settlement_min_zoom(level):
+    return {"country": 4, "region": 4, "county": 5, "city": 5,
+            "town": 8, "village": 11, "neighborhood": 12,
+            "estate": 13, "locality": 13}.get(str(level or "locality").casefold(), 13)
+
+
+def read_settlements():
+    data = json.loads(CITIES_SOURCE.read_text(encoding="utf-8"))
+    result = []
+    for index, row in enumerate(data.get("cities", [])):
+        coords = row.get("coordinates") or {}
+        name = str(row.get("name") or "").strip()
+        try:
+            lon, lat = float(coords["longitude"]), float(coords["latitude"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        if not name or not math.isfinite(lon) or not math.isfinite(lat):
+            continue
+        if not (-180 <= lon <= 180 and -85.05112878 <= lat <= 85.05112878):
+            continue
+        level = str(row.get("level") or "locality").casefold()
+        try:
+            population = max(0, int(row.get("population") or 0))
+        except (TypeError, ValueError):
+            population = 0
+        rank = {"country": 100, "region": 80, "county": 60, "city": 50,
+                "town": 40, "village": 30, "neighborhood": 20,
+                "estate": 10, "locality": 5}.get(level, 5)
+        rank += min(50, math.log10(population + 1) * 10)
+        identity = str(row.get("source_id") or f"settlement-{index}")
+        result.append({"geometry": Point(*mercator(lon, lat)), "coordinates": (lon, lat),
+                       "minzoom": settlement_min_zoom(level),
+                       "properties": {"id": identity, "name": name, "level": level,
+                                      "population": population, "rank": rank}})
+    return result
+
+
 def read_features():
     return [feature for feature in places.public_features()
             if place_quality.is_map_poi(feature["properties"])]
@@ -184,8 +222,8 @@ def build_search_index(features):
     return data, detail_data, categories, len(public_records)
 
 
-def build_tiles(features):
-    tiles = defaultdict(list)
+def build_tiles(features, settlements):
+    tiles = defaultdict(lambda: {"places": [], "settlements": []})
     canonical_ids = set()
     for feature in features:
         feature_id = feature["id"]
@@ -207,12 +245,19 @@ def build_tiles(features):
             x, y = tile_xy(lon, lat, zoom)
             # The full ULID is kept as a property and promoted by MapLibre. MVT's
             # optional uint64 feature-id field cannot represent a 128-bit ULID.
-            tiles[(zoom, x, y)].append({"geometry": point, "properties": compact})
+            tiles[(zoom, x, y)]["places"].append({"geometry": point, "properties": compact})
 
-    min_lon = min(f["geometry"]["coordinates"][0] for f in features)
-    min_lat = min(f["geometry"]["coordinates"][1] for f in features)
-    max_lon = max(f["geometry"]["coordinates"][0] for f in features)
-    max_lat = max(f["geometry"]["coordinates"][1] for f in features)
+    for settlement in settlements:
+        lon, lat = settlement["coordinates"]
+        for zoom in range(settlement["minzoom"], MAX_ZOOM + 1):
+            x, y = tile_xy(lon, lat, zoom)
+            tiles[(zoom, x, y)]["settlements"].append(
+                {"geometry": settlement["geometry"], "properties": settlement["properties"]})
+
+    bounds = [f["geometry"]["coordinates"] for f in features]
+    bounds.extend(row["coordinates"] for row in settlements)
+    min_lon, max_lon = min(p[0] for p in bounds), max(p[0] for p in bounds)
+    min_lat, max_lat = min(p[1] for p in bounds), max(p[1] for p in bounds)
     metadata = {
         "name": "Mazo Maps Places",
         "format": "pbf",
@@ -223,6 +268,11 @@ def build_tiles(features):
             "minzoom": MIN_ZOOM, "maxzoom": MAX_ZOOM,
             "fields": {"id": "String", "name": "String", "kind": "String", "priority": "Number",
                        "overview": "Boolean"},
+        }, {
+            "id": "settlements", "description": "Cities, towns, villages, estates and named localities",
+            "minzoom": 4, "maxzoom": MAX_ZOOM,
+            "fields": {"id": "String", "name": "String", "level": "String",
+                       "population": "Number", "rank": "Number"},
         }],
     }
     header = {
@@ -255,7 +305,8 @@ def build_tiles(features):
                     module=r"mapbox_vector_tile\.encoder",
                 )
                 encoded = mapbox_vector_tile.encode(
-                    [{"name": "places", "features": tile_features}],
+                    [{"name": name, "features": layer_features}
+                     for name, layer_features in tile_features.items() if layer_features],
                     default_options={"quantize_bounds": (west, south, east, north), "extents": EXTENT},
                 )
             writer.write_tile(zxy_to_tileid(zoom, x, y), gzip.compress(encoded, compresslevel=9, mtime=0))
@@ -269,7 +320,8 @@ def build():
     places.build()
     features = read_features()
     search_data, detail_data, categories, eligible_records = build_search_index(features)
-    tile_count, ids, header, metadata = build_tiles(features)
+    settlements = read_settlements()
+    tile_count, ids, header, metadata = build_tiles(features, settlements)
     archive_data = TILE_ARCHIVE.read_bytes()
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     manifest["format"] = "PMTiles/1"
@@ -278,6 +330,7 @@ def build():
         "mvt_pmtiles": {
             "file": TILE_ARCHIVE.name, "sha256": digest(archive_data), "bytes": len(archive_data),
             "features": len(ids), "tiles": tile_count, "min_zoom": header["min_zoom"],
+            "settlement_features": len(settlements),
             "max_zoom": header["max_zoom"], "tile_type": "MVT", "compression": "gzip",
             "metadata_sha256": digest(json.dumps(metadata, sort_keys=True, separators=(",", ":")).encode()),
         },
@@ -295,6 +348,7 @@ def build():
     MANIFEST.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({
         "features": len(features), "pmtiles_bytes": len(archive_data), "pmtiles_sha256": digest(archive_data),
+        "settlements": len(settlements),
         "tile_count": tile_count, "search_index_bytes": len(search_data),
         "search_index_gzip_bytes": len(gzip.compress(search_data, compresslevel=9, mtime=0)), "category_counts": dict(sorted(categories.items())),
         "detail_index_bytes": len(detail_data), "detail_index_gzip_bytes": len(gzip.compress(detail_data, compresslevel=9, mtime=0)),

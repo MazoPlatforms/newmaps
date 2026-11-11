@@ -109,18 +109,25 @@ def validate():
             raise ValueError("Archive is not a gzip-compressed MVT PMTiles archive")
         if (header["min_zoom"], header["max_zoom"]) != (build.MIN_ZOOM, build.MAX_ZOOM):
             raise ValueError("PMTiles zoom metadata mismatch")
-        if metadata.get("vector_layers", [{}])[0].get("id") != "places":
-            raise ValueError("PMTiles vector layer metadata is missing")
+        metadata_layers = {item.get("id"): item for item in metadata.get("vector_layers", [])}
+        if not {"places", "settlements"}.issubset(metadata_layers):
+            raise ValueError("PMTiles places or settlements vector layer metadata is missing")
+        source_settlements = build.read_settlements()
+        expected_settlements = {row["properties"]["id"]: row for row in source_settlements}
+        if len(expected_settlements) != len(source_settlements):
+            raise ValueError("Settlement source has duplicate stable IDs")
+        if tile_entry.get("settlement_features") != len(source_settlements):
+            raise ValueError("PMTiles settlement count does not match the source dataset")
         decoded = {}
         seen_by_zoom = {}
+        settlements_by_zoom = {}
         tile_count = 0
         for (zoom, x, y), compressed in all_tiles(get_bytes):
             tile_count += 1
             payload = decode(gzip.decompress(compressed))
             layer = payload.get("places")
-            if layer is None:
-                raise ValueError(f"Tile {zoom}/{x}/{y} has no places layer")
-            for feature in layer.get("features", []):
+            if layer is not None:
+              for feature in layer.get("features", []):
                 place_id = feature.get("properties", {}).get("id")
                 if not place_id:
                     raise ValueError(f"Tile {zoom}/{x}/{y} has a feature without a stable ULID property")
@@ -135,6 +142,20 @@ def validate():
                     if place_id in decoded:
                         raise ValueError(f"Feature {place_id} is duplicated between tiles at z{zoom}")
                     decoded[place_id] = (zoom, x, y, feature)
+            settlement_layer = payload.get("settlements")
+            for feature in (settlement_layer or {}).get("features", []):
+                settlement_id = feature.get("properties", {}).get("id")
+                if settlement_id not in expected_settlements:
+                    raise ValueError(f"Unexpected settlement feature {settlement_id}")
+                row = expected_settlements[settlement_id]
+                if zoom < row["minzoom"]:
+                    raise ValueError(f"Settlement {settlement_id} appears below its zoom threshold")
+                if feature.get("properties", {}).get("name") != row["properties"]["name"]:
+                    raise ValueError(f"Settlement {settlement_id} lost its display name")
+                seen = settlements_by_zoom.setdefault(zoom, set())
+                if settlement_id in seen:
+                    raise ValueError(f"Settlement {settlement_id} is duplicated between tiles at z{zoom}")
+                seen.add(settlement_id)
         if set(decoded) != set(expected):
             missing = len(set(expected) - set(decoded))
             extra = len(set(decoded) - set(expected))
@@ -145,6 +166,9 @@ def validate():
                       build.visible_from_zoom(build.priority(build.discovery_kind(feature["properties"])), zoom)}
             if seen_by_zoom.get(zoom, set()) != wanted:
                 raise ValueError(f"Progressive tile coverage does not match category policy at z{zoom}")
+            expected_set = {identity for identity, row in expected_settlements.items() if row["minzoom"] <= zoom}
+            if settlements_by_zoom.get(zoom, set()) != expected_set:
+                raise ValueError(f"Settlement tile coverage mismatch at z{zoom}")
         for place_id, (_, x, y, feature) in decoded.items():
             source = expected[place_id]
             lon, lat = source["geometry"]["coordinates"]
@@ -185,6 +209,7 @@ def validate():
         raise ValueError("Delivery manifest does not preserve permanent alias resolution")
     return {
         "valid": True, "features": len(expected), "search_records": len(search_ids),
+        "settlements": len(expected_settlements),
         "canonical_place_quality": quality_counts, "road_kilometer_posts": marker_count,
         "aliases": len(aliases), "tiles": tile_count, "min_zoom": header["min_zoom"],
         "max_zoom": header["max_zoom"], "archive_bytes": len(archive_data),

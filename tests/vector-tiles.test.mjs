@@ -105,6 +105,8 @@ test('TileJSON and light/dark styles are valid MapLibre Native URLs with revisio
   assert.equal(tilejson.tilejson, '3.0.0');
   assert.equal(tilejson.scheme, 'xyz');
   assert.equal(tilejson.vector_layers[0].id, 'places');
+  assert.equal(tilejson.vector_layers[1].id, 'settlements');
+  assert.equal(tilejson.vector_layers[1].fields.name, 'String');
   assert.match(tilejson.tiles[0], /tiles\/\{z\}\/\{x\}\/\{y\}\.pbf\?revision=vector-fixture-revision/);
 
   for (const path of ['/api/v1/style.json', '/api/v1/style/dark.json']) {
