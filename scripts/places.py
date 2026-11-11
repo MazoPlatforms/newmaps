@@ -80,7 +80,7 @@ def load_aliases():
     for retired_id,entry in data['aliases'].items():
         if not isinstance(retired_id,str) or not ULID.fullmatch(retired_id): raise ValueError(f'Invalid retired place ULID: {retired_id!r}')
         if isinstance(entry,dict) and entry.get('deleted') is True:
-            if entry.get('reason') not in {'invalid_place_data_removed','road_reference_moved_to_road_markers'} or 'canonical_id' in entry or 'record' in entry:
+            if entry.get('reason') not in {'invalid_place_data_removed','road_reference_moved_to_road_markers','moved_to_settlements'} or 'canonical_id' in entry or 'record' in entry:
                 raise ValueError(f'Invalid deleted-place tombstone for {retired_id}')
             continue
         if not isinstance(entry,dict) or not isinstance(entry.get('canonical_id'),str) or not ULID.fullmatch(entry['canonical_id']):

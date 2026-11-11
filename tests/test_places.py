@@ -36,7 +36,7 @@ class PlaceTests(unittest.TestCase):
         self.assertGreaterEqual(len(suspicious),0)
         no_coords=[r for r in records if r['coordinates'] is None]
         withheld=sum(not classify_place(record)['eligible_for_public_map'] for record in records)
-        self.assertEqual(len(no_coords),withheld+2)
+        self.assertEqual(len(no_coords),withheld)
         self.assertEqual(sum(r['coordinates'] is not None for r in records)+len(no_coords),len(records))
         self.assertTrue(all(len(places.shard_files(s))<=999 for s in (places.PLACES).iterdir()))
         places.build()

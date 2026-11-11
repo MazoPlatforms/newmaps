@@ -232,6 +232,22 @@ try {
       throw error;
     }
     await wait(page, () => document.querySelectorAll('.categories button').length > 2 && document.querySelector('#search-status').hidden, 90_000);
+    await wait(page, () => window.__MAZO_MAP_TEST__.getSource('mazo-cities') && window.__MAZO_MAP_TEST__.isSourceLoaded('mazo-cities'), 30_000);
+    const settlementDisplay = await page.evaluate(() => {
+      const map = window.__MAZO_MAP_TEST__;
+      const layers = map.getStyle().layers;
+      return {
+        features: map.querySourceFeatures('mazo-cities').length,
+        villageMinZoom: layers.find(layer => layer.id === 'mazo-village-labels')?.minzoom,
+        localityMinZoom: layers.find(layer => layer.id === 'mazo-locality-labels')?.minzoom,
+        pins: layers.filter(layer => /^mazo-(city|town|village|locality)-labels$/.test(layer.id)
+          && layer.type !== 'symbol').length,
+      };
+    });
+    assert.ok(settlementDisplay.features > 10_000, 'self-hosted Sri Lanka settlements are loaded into the map source');
+    assert.equal(settlementDisplay.villageMinZoom, 12, 'village names appear only at close zoom');
+    assert.equal(settlementDisplay.localityMinZoom, 13, 'estate and locality names appear at closer zoom');
+    assert.equal(settlementDisplay.pins, 0, 'settlements render as collision-aware names, not place pins');
     const bootstrapPoiSource = await page.evaluate(() => ({
       type: window.__MAZO_MAP_TEST__.getSource('mazo')?.type,
       layer: window.__MAZO_MAP_TEST__.getLayer('places-dot')?.id,

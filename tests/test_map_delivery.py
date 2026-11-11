@@ -47,7 +47,12 @@ class MapDeliveryTests(unittest.TestCase):
                               delivery.place_quality.is_map_poi(record) for record in records)
         self.assertEqual(result["search_records"], expected_search)
         self.assertGreaterEqual(result["search_records"], len(self.features))
-        self.assertEqual(result["canonical_place_quality"]["settlement"], 18971)
+        self.assertNotIn("settlement", result["canonical_place_quality"],
+                         "settlement labels are stored separately from canonical places")
+        cities = json.loads((ROOT / "data/cities.json").read_text(encoding="utf-8"))
+        self.assertGreaterEqual(cities["count"], 25000)
+        self.assertTrue(any(item["level"] == "village" for item in cities["cities"]))
+        self.assertTrue(any(item["level"] == "estate" for item in cities["cities"]))
         self.assertEqual(result["road_kilometer_posts"], 13047)
         aliases = json.loads((ROOT / "data/places/aliases.json").read_text())["aliases"]
         self.assertEqual(result["aliases"], len(aliases))

@@ -54,7 +54,6 @@
       "source": "openmaptiles",
       "source-layer": "country_land",
       "minzoom": 0,
-      "maxzoom": 14,
       "paint": {
         "fill-color": "#ebe8df",
         "fill-antialias": true

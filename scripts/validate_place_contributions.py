@@ -236,7 +236,9 @@ def validate_changes(base_ref: str, head_ref: str) -> dict:
         record_id = match.group(2)
         if status == "D":
             removed_ids.append(record_id)
-            if record_id not in aliases:
+            # Shard compaction can move an unchanged ULID to another path. That
+            # is a path relocation, not deletion; keep its existing canonical ID.
+            if record_id not in aliases and record_id not in active_by_id:
                 errors.append(f"Deleted place {record_id} has no durable alias; preserve its ID or submit a review request")
             continue
         if status not in {"A", "M"}:

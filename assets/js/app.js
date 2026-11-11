@@ -776,7 +776,7 @@ function applyThemeToMap(){
  for(const id of [...POI_ICON_LAYERS,'mazo-poi-selected'])if(map.getLayer(id)){
   map.setPaintProperty(id,'text-color',palette.label);map.setPaintProperty(id,'text-halo-color',palette.halo);
  }
- if(map.getLayer('mazo-city-labels')){map.setPaintProperty('mazo-city-labels','text-color',palette.label);map.setPaintProperty('mazo-city-labels','text-halo-color',palette.halo)}
+ for(const id of ['mazo-city-labels','mazo-town-labels','mazo-village-labels','mazo-locality-labels'])if(map.getLayer(id)){map.setPaintProperty(id,'text-color',palette.label);map.setPaintProperty(id,'text-halo-color',palette.halo)}
  if(map.getLayer('mazo-road-lines'))map.setPaintProperty('mazo-road-lines','line-color',selected==='dark'?'#89999d':'#f8f9fa');
  if(map.getLayer('mazo-road-names')){map.setPaintProperty('mazo-road-names','text-color',palette.roadLabel);map.setPaintProperty('mazo-road-names','text-halo-color',palette.halo)}
 }
@@ -806,9 +806,24 @@ locateButton.onclick=()=>{
   nearbyMode=false;nearbyOrigin=null;refresh();status.hidden=false;status.textContent=error.code===1?'Location permission denied. You can continue using search and category filters.':error.code===2?'GPS location is unavailable. Check your device settings or continue using search.':'Location request timed out. You can continue using search.';
  },{enableHighAccuracy:true,timeout:12000,maximumAge:10000});
 };
-async function cities(){try{const r=await fetch(await appDataUrl('data/cities.json'));if(!r.ok)return;const d=await r.json();const features=(d.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)).map(c=>({type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:c.name||'',level:c.level||'city'}}));if(map.getSource('mazo-cities'))return;map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features}});map.addLayer({id:'mazo-city-labels',type:'symbol',source:'mazo-cities',layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],5,11,13,17],'text-allow-overlap':false},paint:{'text-color':theme()==='dark'?'#e8edf4':'#27313b','text-halo-color':theme()==='dark'?'#161b22':'#fff','text-halo-width':2}})}catch(e){console.warn('City labels:',e)}}
+async function cities(){
+ try{
+  const response=await fetch(await appDataUrl('data/cities.json'));if(!response.ok)return;
+  const data=await response.json();
+  const levelPriority={country:100,region:80,county:60,city:50,town:40,village:30,neighborhood:20,estate:10,locality:5};
+  const features=(data.cities||[]).filter(c=>Number.isFinite(+c.coordinates?.longitude)&&Number.isFinite(+c.coordinates?.latitude)&&String(c.name||'').trim()).map(c=>{const level=String(c.level||'locality').toLowerCase(),population=Number.isFinite(+c.population)?Math.max(0,+c.population):0;return{type:'Feature',geometry:{type:'Point',coordinates:[+c.coordinates.longitude,+c.coordinates.latitude]},properties:{name:String(c.name).trim(),level,population,rank:(levelPriority[level]||5)+Math.min(50,Math.log10(population+1)*10)}}});
+  if(map.getSource('mazo-cities'))return;
+  map.addSource('mazo-cities',{type:'geojson',data:{type:'FeatureCollection',features},maxzoom:12,cluster:false});
+  const palette=MAZO_PALETTE[theme()];
+  const addLabel=(id,levels,minzoom,maxzoom=24,size=12)=>map.addLayer({id,type:'symbol',source:'mazo-cities',minzoom,maxzoom,filter:['in',['get','level'],['literal',levels]],layout:{'text-field':['get','name'],'text-font':['Mazo Maps Sans Regular'],'text-size':['interpolate',['linear'],['zoom'],minzoom,['+',size,['step',['to-number',['get','population'],0],0,50000,2]],Math.min(18,minzoom+4),['+',size+3,['step',['to-number',['get','population'],0],0,50000,2]]],'text-max-width':10,'text-padding':3,'text-variable-anchor':['top','bottom','left','right'],'text-justify':'auto','text-allow-overlap':false,'text-ignore-placement':false,'symbol-sort-key':['-', ['get','rank']]},paint:{'text-color':palette.label,'text-halo-color':palette.halo,'text-halo-width':2,'text-opacity':['interpolate',['linear'],['zoom'],minzoom,0.75,Math.min(18,minzoom+1),1]}});
+  addLabel('mazo-city-labels',['country','region','county','city'],5.5,12,12);
+  addLabel('mazo-town-labels',['town'],8.5,14,12);
+  addLabel('mazo-village-labels',['village','neighborhood'],12,24,11);
+  addLabel('mazo-locality-labels',['estate','locality'],13,24,10);
+ }catch(error){console.warn('Settlement labels:',error)}
+}
 
-map.on('load',()=>{$('#map-frame').dataset.state='ready';try{ensurePoiLayer()}catch(e){console.warn('POI on load:',e)}if(map.getZoom()>=15.5)void loadSpeedReviews()});
+map.on('load',()=>{$('#map-frame').dataset.state='ready';try{ensurePoiLayer()}catch(e){console.warn('POI on load:',e)}void cities();if(map.getZoom()>=15.5)void loadSpeedReviews()});
 const maybeLoadSpeedReviews=()=>{if(map.getZoom()>=15.5)void loadSpeedReviews()};
 map.on('zoomend',maybeLoadSpeedReviews);
 map.on('moveend',maybeLoadSpeedReviews);
