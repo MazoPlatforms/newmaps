@@ -265,8 +265,8 @@ try {
     assert.equal(layer.source, 'mazo-pois');
     assert.equal(layer['source-layer'], 'places');
     assert.equal(layer.layout['icon-anchor'], 'bottom', 'the map-pin tip anchors to its tile point');
-    assert.equal(layer.layout['icon-allow-overlap'], true, 'place pins remain visible when labels collide');
-    assert.equal(layer.layout['icon-ignore-placement'], true, 'place pins do not disappear behind other symbols');
+    assert.equal(layer.layout['icon-allow-overlap'], false, 'place pins participate in collision placement');
+    assert.equal(layer.layout['icon-ignore-placement'], false, 'place pins participate in collision placement');
     assert.equal(layer.layout['text-optional'], true, 'labels yield before their corresponding pins');
     assert.equal(layer.layout['text-allow-overlap'], false, 'labels participate in collision placement');
     assert.deepEqual(layer.layout['symbol-sort-key'], ['get', 'priority'], 'important MVT POIs receive collision priority');
@@ -274,7 +274,7 @@ try {
     assert.ok(Number.isFinite(layer.minzoom), 'each vector symbol tier has an explicit zoom threshold');
   }
   assert.deepEqual(Object.fromEntries(poiStyle.layers.map(({ id, minzoom }) => [id, minzoom])), {
-    'mazo-poi-major': 8.8, 'mazo-poi-district': 9.8, 'mazo-poi-local': 12.4,
+    'mazo-poi-major': 8.8, 'mazo-poi-district': 14.5, 'mazo-poi-local': 15.5,
   }, 'POI tiers appear at their configured zoom levels');
   await page.evaluate((coords) => window.__MAZO_MAP_TEST__.jumpTo({ center: coords, zoom: 17, bearing: 0, pitch: 0 }), browserPlace[coordColumn]);
   await page.waitForFunction((id) => !window.__MAZO_MAP_TEST__.isMoving()

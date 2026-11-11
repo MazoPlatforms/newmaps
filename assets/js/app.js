@@ -1,7 +1,7 @@
 import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs';
 import { createPlaceLookup, decodePlaceDetails, decodeSearchIndex } from './place-delivery.mjs';
-import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=mobile-pin-collision-1';
-import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=clean-country-outline-1';
+import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=google-zoom-cartography-2';
+import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=clean-country-labels-2';
 import { closestRouteProgress, findLocalRoutes, validateRoutingGraph } from './routing-graph.mjs';
 import { downloadOfflinePack, removeOfflinePack, offlinePackResources } from './offline-pack.mjs';
 import { discoverLiveData, liveDataResourceUrl, startLiveDataPolling } from './live-data-client.mjs';
@@ -161,7 +161,9 @@ function poiLayout(){return {
  // Keep each valid place anchored by its pin even where nearby names collide.
  // Labels remain optional and collision-aware; the separate legacy bootstrap
  // symbols are removed so the full pin layer is drawn only once.
- 'icon-allow-overlap':true,'icon-ignore-placement':true,
+ // Let MapLibre collision placement thin dense areas like a conventional road
+ // map; selected places use a separate always-visible symbol layer.
+ 'icon-allow-overlap':false,'icon-ignore-placement':false,
  'icon-padding':['interpolate',['linear'],['zoom'],6,5,9,6,12,7,15,8,18,8,20,8],
  'text-field':['get','name'],'text-font':['Mazo Maps Sans Regular'],
  'text-size':['interpolate',['linear'],['zoom'],6,9,9,10,12,11,16,12,20,13],

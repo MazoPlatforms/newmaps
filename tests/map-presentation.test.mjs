@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { CAMERA_OPTIONS, INITIAL_CAMERA, POI_ZOOM_THRESHOLDS, cameraDuration, configureNorthUpInteractions, placeDisplayTier, placeFeature, placePriority, poiLayerFilter, visiblePoiTiers } from '../assets/js/map-presentation.mjs';
 
 test('map camera starts at a Sri Lanka overview, remains north-up, and allows a world view', () => {
-  assert.deepEqual(INITIAL_CAMERA, { center: [80.8, 7.85], zoom: 7 });
+  assert.deepEqual(INITIAL_CAMERA, { center: [80.8, 7.85], zoom: 6.7 });
   assert.equal(CAMERA_OPTIONS.minZoom, 0);
   assert.equal(CAMERA_OPTIONS.maxZoom, 20);
   assert.equal(CAMERA_OPTIONS.bearing, 0);
@@ -25,13 +25,15 @@ test('progressive display prioritizes public facilities before ordinary business
   assert.equal(placeDisplayTier({ categories: ['Hotel'] }), 'district');
   assert.equal(placePriority({ categories: ['Restaurant'] }), 3);
   assert.equal(placeDisplayTier({ categories: ['Grocery store'] }), 'local');
-  assert.deepEqual(POI_ZOOM_THRESHOLDS, { major: 8.8, district: 9.8, category: 10.2, local: 12.4 });
+  assert.deepEqual(POI_ZOOM_THRESHOLDS, { major: 8.8, district: 14.5, category: 11.5, local: 15.5 });
   assert.deepEqual(visiblePoiTiers(2), []);
   assert.deepEqual(visiblePoiTiers(6), []);
   assert.deepEqual(visiblePoiTiers(7), []);
   assert.deepEqual(visiblePoiTiers(9), ['major']);
-  assert.deepEqual(visiblePoiTiers(10), ['major', 'district']);
-  assert.deepEqual(visiblePoiTiers(13), ['major', 'district', 'local']);
+  assert.deepEqual(visiblePoiTiers(10), ['major']);
+  assert.deepEqual(visiblePoiTiers(13), ['major']);
+  assert.deepEqual(visiblePoiTiers(15), ['major', 'district']);
+  assert.deepEqual(visiblePoiTiers(16), ['major', 'district', 'local']);
   assert.ok(POI_ZOOM_THRESHOLDS.category < POI_ZOOM_THRESHOLDS.local);
   assert.equal(CAMERA_OPTIONS.fadeDuration, 0);
 });
