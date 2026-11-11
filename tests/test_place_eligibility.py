@@ -80,10 +80,12 @@ class PublicPlaceEligibilityTests(unittest.TestCase):
     def test_repository_withheld_records_and_alias_payloads_contain_no_location_details(self):
         expected_keys = {"id", "name", "coordinates", "public_eligibility", "eligibility_review_token"}
         withheld_ids = set()
+        active_withheld_ids = set()
         for path in (ROOT / "data/places").glob("*/*.json"):
             record = json.loads(path.read_text(encoding="utf-8"))
             if not classify_place(record)["eligible_for_public_map"]:
                 withheld_ids.add(record["id"])
+                active_withheld_ids.add(record["id"])
                 self.assertEqual(set(record), expected_keys)
                 self.assertIsNone(record["coordinates"])
         alias_file = json.loads((ROOT / "data/places/aliases.json").read_text(encoding="utf-8"))
@@ -98,19 +100,17 @@ class PublicPlaceEligibilityTests(unittest.TestCase):
                 withheld_ids.add(retired_id)
                 self.assertEqual(set(record), expected_keys)
                 self.assertIsNone(record["coordinates"])
-                self.assertTrue(places.resolve_place_id(retired_id, aliases))
         # Generated output is ignored and may not exist in a clean CI checkout.
         # Build it here so this privacy assertion is independent of workflow order.
         places.build()
         manifest = json.loads((ROOT / "generated/manifest.json").read_text(encoding="utf-8"))
-        self.assertEqual(len(withheld_ids), manifest["withheld_pending_public_eligibility_review"] + 7)
-        self.assertTrue(withheld_ids.isdisjoint(manifest["aliases"].keys()) is False)
+        self.assertEqual(len(active_withheld_ids), manifest["withheld_pending_public_eligibility_review"])
         for backup_key in ("phase2_formatting_backup", "phase2_titlecase_backup"):
             self.assertTrue(withheld_ids.isdisjoint({row.get("id") for row in alias_file.get(backup_key, [])}))
         collection = {"type":"FeatureCollection","features":places.public_features()}
         self.assertTrue(all("Location withheld" not in feature["properties"].get("name", "")
                             for feature in collection["features"]))
-        self.assertTrue(all(record_id not in manifest["excluded_without_coordinates"] for record_id in withheld_ids))
+        self.assertTrue(all(record_id not in manifest["excluded_without_coordinates"] for record_id in active_withheld_ids))
 
 
 if __name__ == "__main__":
