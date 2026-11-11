@@ -22,6 +22,8 @@ export const CAMERA_OPTIONS = Object.freeze({
   renderWorldCopies: true,
   // Only brief collision transitions remain; POI symbol opacity itself is 1.
   fadeDuration: 100,
+  // 3x phone screens render 2.25x more pixels than 2x for no visible gain on a map.
+  pixelRatio: Math.min(globalThis.devicePixelRatio || 1, 2),
 });
 
 // Only landmarks receive a country/regional tier. Other institutions become
@@ -87,6 +89,35 @@ export function cameraDuration(milliseconds, reducedMotion = false) {
   return reducedMotion ? 0 : milliseconds;
 }
 
+/*
+ * Runtime speed tuning, applied whenever the style changes:
+ *  - preserve the POI pin collision policy established by poiLayout(), so
+ *    place pins remain visible even when their optional labels collide;
+ *  - the bootstrap MVT place layers (duplicates of PMTiles pins) only draw
+ *    at street zoom, reducing redundant overview tile/layout work.
+ * Every write is guarded by a comparison, so this settles after one pass.
+ */
+export function tuneMapPerformance(map) {
+  let queued = false;
+  const apply = () => {
+    queued = false;
+    try {
+      for (const [id, minimum] of [['places-dot', 14], ['places-label', 16]]) {
+        const layer = map.getLayer(id);
+        if (layer && (layer.minzoom ?? 0) < minimum) map.setLayerZoomRange(id, minimum, 24);
+      }
+    } catch (error) {
+      console.warn('Map performance tuning skipped:', error);
+    }
+  };
+  const schedule = () => {
+    if (queued) return;
+    queued = true;
+    (globalThis.requestAnimationFrame || ((callback) => setTimeout(callback, 16)))(apply);
+  };
+  map.on('styledata', schedule);
+}
+
 export function configureNorthUpInteractions(map) {
   map.dragRotate.disable();
   map.touchZoomRotate.disableRotation();
@@ -105,4 +136,5 @@ export function configureNorthUpInteractions(map) {
   map.on('pitch', () => {
     if (Math.abs(map.getPitch()) > 0.001) map.setPitch(0);
   });
+  tuneMapPerformance(map);
 }

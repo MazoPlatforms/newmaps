@@ -57,6 +57,18 @@ def download_source() -> Path:
     return source
 
 
+def write_land_polygon(source: Path) -> None:
+    """Prefer the true OSM shoreline; fall back to the committed maritime-boundary polygon."""
+    target = TMP / "sri-lanka-land.geojson"
+    try:
+        from build_sri_lanka_land import build_land
+        stats = build_land(source, target)
+        print(f"Land polygon derived from OSM coastline: {stats}")
+    except Exception as error:  # the shoreline upgrade must never block the basemap build
+        print(f"WARNING: shoreline land polygon unavailable ({error}); using committed boundary polygon")
+        shutil.copy2(ROOT / "data/basemap/sri-lanka-land.geojson", target)
+
+
 def build_archive(source: Path) -> None:
     (ROOT / "scripts/basemap").mkdir(parents=True, exist_ok=True)
     pbf_inside = "/data/sri-lanka.osm.pbf"
@@ -66,7 +78,7 @@ def build_archive(source: Path) -> None:
         shutil.copy2(source, TMP / "sri-lanka.osm.pbf")
     shutil.copy2(ROOT / "scripts/basemap/config-openmaptiles-srilanka.json", TMP / "config-openmaptiles-srilanka.json")
     shutil.copy2(ROOT / "scripts/basemap/process-openmaptiles.lua", TMP / "process-openmaptiles.lua")
-    shutil.copy2(ROOT / "data/basemap/sri-lanka-land.geojson", TMP / "sri-lanka-land.geojson")
+    write_land_polygon(source)
     ARCHIVE.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run([
         "docker", "run", "--rm", "-v", f"{TMP}:/data", TILEMAKER,
