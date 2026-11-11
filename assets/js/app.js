@@ -43,7 +43,6 @@ let placeById=new Map(),deliveryManifest=null,placeDetailPromise=null,searchInde
 let poiReloadTimer=0,poiReloadAttempts=0;
 let liveDataPromise=null,liveDataRuntime=null,stopLiveDataPolling=null;
 let presentedCategory=null,presentedSelectedId=null,presentedVisibility=null;
-let poiOverlapEnabled=null;
 async function getLiveDataRuntime(){
  const localWorkerTest=new URLSearchParams(location.search).get('live-data-test')==='1';
  if(!location.hostname.endsWith('.workers.dev')&&!localWorkerTest)return null;
@@ -162,18 +161,6 @@ function registerIcons(){
  }
 }
 function selectedPoiFeatures(){const place=selectedPlace||pinnedPlace;return {type:'FeatureCollection',features:place?.coordinates&&Number.isFinite(+place.coordinates.longitude)&&Number.isFinite(+place.coordinates.latitude)?[placeFeature(place)]:[]}}
-function updatePoiOverlapPolicy(){
- if(!mapStyleReady)return;
- // Avoid icon collisions at street zoom: otherwise the fallback circle remains
- // visible while the real pin is suppressed, making places look like dots.
- const allow=['step',['zoom'],false,15.5,true];
- if(poiOverlapEnabled===allow)return;
- for(const id of ['mazo-poi-major','mazo-poi-district','mazo-poi-local'])if(map.getLayer(id)){
-  map.setLayoutProperty(id,'icon-allow-overlap',allow);
-  map.setLayoutProperty(id,'icon-ignore-placement',allow);
- }
- poiOverlapEnabled=allow;
-}
 function poiLayout(pinZoom){return {
  'icon-image':['concat','mazo-',['get','kind']],
  'icon-anchor':'bottom',
@@ -267,7 +254,6 @@ function ensurePoiLayer(){
   paint:{'text-color':MAZO_PALETTE[theme()].label,'text-halo-color':MAZO_PALETTE[theme()].halo,'text-halo-width':2.2}});
  addSettlementLayers();
  updatePoiPresentation();
- updatePoiOverlapPolicy();
  refresh();
 }
 function removeBootstrapPoiSource(){
@@ -304,14 +290,12 @@ function updatePoiPresentation(){
   for(const id of POI_LAYERS)if(map.getLayer(id))map.setLayoutProperty(id,'visibility',placesVisible?'visible':'none');
   presentedVisibility=placesVisible;
  }
- updatePoiOverlapPolicy();
 }
 function selectVectorPlace(id){
  const choose=()=>{const place=placeById.get(String(id));if(place&&selectedPlace?.id!==place.id)openPlace(place)};
  if(placeById.has(String(id)))choose();else ensureSearchIndex().then(choose).catch(console.error);
 }
 map.on('click',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,...POI_LABEL_LAYERS,'mazo-poi-selected','places-dot','places-label'],e=>{if(!routePanel.hidden)return;const properties=e.features?.[0]?.properties||{};const place=placeById.get(String(properties.id));if(place&&selectedPlace?.id!==place.id)openPlace(place);else if(!place)selectVectorPlace(properties.id)});
-map.on('zoomend',updatePoiOverlapPolicy);
 map.on('mouseenter',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'places-dot','places-label'],()=>map.getCanvas().style.cursor='pointer');
 map.on('mouseleave',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'places-dot','places-label'],()=>map.getCanvas().style.cursor='');
 let selectedPlace=null,pinnedPlace=null,sheetState='half',dragStart=null,dragDelta=0,closeTimer=null;
@@ -708,7 +692,7 @@ map.on('sourcedata',event=>{
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{mapStyleReady=true;poiOverlapEnabled=null;presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;try{applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}removeBootstrapPoiSource();ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
+map.on('style.load',()=>{mapStyleReady=true;presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;try{applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}removeBootstrapPoiSource();ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
 async function checkedJson(file,sha256){
  const url=await appDataUrl(file,sha256);
  return retryTransientData(async()=>{
