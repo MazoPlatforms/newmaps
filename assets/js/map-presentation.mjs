@@ -22,6 +22,8 @@ export const CAMERA_OPTIONS = Object.freeze({
   renderWorldCopies: true,
   // Only brief collision transitions remain; POI symbol opacity itself is 1.
   fadeDuration: 100,
+  // 3x phone screens render 2.25x more pixels than 2x for no visible gain on a map.
+  pixelRatio: Math.min(globalThis.devicePixelRatio || 1, 2),
 });
 
 // Only landmarks receive a country/regional tier. Other institutions become
@@ -87,6 +89,44 @@ export function cameraDuration(milliseconds, reducedMotion = false) {
   return reducedMotion ? 0 : milliseconds;
 }
 
+const PIN_LAYERS = ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'];
+
+/*
+ * Runtime speed/clutter tuning, applied whenever the style changes:
+ *  - POI pins take part in collision detection like Google/Apple Maps instead of
+ *    being forced on-screen (icon-allow-overlap) - thousands of overlapping pins
+ *    were the main cause of lag and the wall of markers;
+ *  - the bootstrap MVT place layers (a duplicate of the PMTiles pins) only draw
+ *    at street zoom, so they stop loading and laying out tiles at overview zooms.
+ * Every write is guarded by a comparison, so this settles after one pass.
+ */
+export function tuneMapPerformance(map) {
+  let queued = false;
+  const apply = () => {
+    queued = false;
+    try {
+      for (const id of PIN_LAYERS) {
+        if (!map.getLayer(id)) continue;
+        for (const property of ['icon-allow-overlap', 'icon-ignore-placement']) {
+          if (map.getLayoutProperty(id, property) !== false) map.setLayoutProperty(id, property, false);
+        }
+      }
+      for (const [id, minimum] of [['places-dot', 14], ['places-label', 16]]) {
+        const layer = map.getLayer(id);
+        if (layer && (layer.minzoom ?? 0) < minimum) map.setLayerZoomRange(id, minimum, 24);
+      }
+    } catch (error) {
+      console.warn('Map performance tuning skipped:', error);
+    }
+  };
+  const schedule = () => {
+    if (queued) return;
+    queued = true;
+    (globalThis.requestAnimationFrame || ((callback) => setTimeout(callback, 16)))(apply);
+  };
+  map.on('styledata', schedule);
+}
+
 export function configureNorthUpInteractions(map) {
   map.dragRotate.disable();
   map.touchZoomRotate.disableRotation();
@@ -105,4 +145,5 @@ export function configureNorthUpInteractions(map) {
   map.on('pitch', () => {
     if (Math.abs(map.getPitch()) > 0.001) map.setPitch(0);
   });
+  tuneMapPerformance(map);
 }

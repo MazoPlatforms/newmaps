@@ -22,6 +22,8 @@ export const MAZO_PALETTE = Object.freeze({
 const ROAD_MAJOR = /motorway|trunk|primary|highway_(major|motorway)/i;
 const ROAD_SECONDARY = /secondary|tertiary|highway_(secondary|tertiary)/i;
 const ROAD_LOCAL = /minor|service|track|link|street|path|pedestrian|residential/i;
+// The self-hosted glyph endpoint serves exactly one font stack; any other name 404s and its labels vanish.
+const GLYPH_FONT = Object.freeze(['Mazo Maps Sans Regular']);
 
 function roadWidth(layerId) {
   const group = ROAD_MAJOR.test(layerId) ? 'major' : ROAD_SECONDARY.test(layerId) ? 'secondary' : 'local';
@@ -33,6 +35,14 @@ function roadWidth(layerId) {
   const offset = /casing/i.test(layerId) ? 1.15 : 0;
   const widths = stops.map((value, index) => index % 2 ? value + offset : value);
   return ['interpolate', ['exponential', 1.2], ['zoom'], ...widths];
+}
+
+// Roads fade in as they appear (like Google/Apple) instead of a dense network popping in at country scale.
+function roadOpacity(layerId) {
+  const stops = ROAD_MAJOR.test(layerId) ? [4, 0.5, 8, 0.85, 11, 1]
+    : ROAD_SECONDARY.test(layerId) ? [7.5, 0, 9, 0.75, 11, 1]
+      : [10.5, 0, 12, 0.85, 14, 1];
+  return ['interpolate', ['linear'], ['zoom'], ...stops];
 }
 
 function roadMinimumZoom(id) {
@@ -150,7 +160,11 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
               : palette.roadLocal;
       paint('line-color', color);
       paint('line-width', roadWidth(id));
-      if (/casing/i.test(id) && layer.paint?.['line-opacity'] !== undefined) paint('line-opacity', 1);
+      if (/casing/i.test(id)) {
+        if (layer.paint?.['line-opacity'] !== undefined) paint('line-opacity', 1);
+      } else {
+        paint('line-opacity', roadOpacity(id));
+      }
       const minimumZoom = roadMinimumZoom(id);
       if (minimumZoom !== null) map.setLayerZoomRange(layer.id, Math.max(layer.minzoom || 0, minimumZoom), layer.maxzoom ?? 24);
       applied.roads++;
@@ -163,6 +177,8 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
     }
     if (layer.type === 'line' && sourceLayer === 'boundary') {
       paint('line-color', palette.boundary);
+      // Quiet at country scale, clearer when zoomed in.
+      paint('line-opacity', ['interpolate', ['linear'], ['zoom'], 4, 0.3, 9, 0.6, 13, 0.9]);
       if (!containsMaritimeExclusion(layer.filter)) map.setFilter(layer.id, ['all', layer.filter || ['all'], ['!=', ['get', 'maritime'], 1]]);
       applied.boundaries++;
     }
@@ -175,6 +191,9 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
         paint('text-halo-color', palette.halo);
         paint('text-halo-width', roadLabel ? 1.4 : 1.8);
         paint('text-opacity', 1);
+        if (JSON.stringify(layer.layout['text-font']) !== JSON.stringify(GLYPH_FONT)) {
+          map.setLayoutProperty(layer.id, 'text-font', [...GLYPH_FONT]);
+        }
       }
       if (/^place[_-]/i.test(id) && layer.layout?.['icon-image'] !== undefined) paint('icon-opacity', 1);
       if (/^place[_-]/i.test(id) && hasText) applied.labels++;
