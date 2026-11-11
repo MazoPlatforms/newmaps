@@ -196,7 +196,9 @@ export function applyMazoCartographicStyle(map, theme = 'light') {
         paint('text-color', waterLabel ? palette.waterLabel : roadLabel ? palette.roadLabel : palette.label);
         paint('text-halo-color', palette.halo);
         paint('text-halo-width', roadLabel ? 1.4 : 1.8);
-        paint('text-opacity', 1);
+        // The Mazo POI layers animate label visibility by zoom. Do not replace
+        // their MapLibre expression when applying a light/dark theme.
+        if (!id.startsWith('mazo-poi-')) paint('text-opacity', 1);
         if (JSON.stringify(layer.layout['text-font']) !== JSON.stringify(GLYPH_FONT)) {
           map.setLayoutProperty(layer.id, 'text-font', [...GLYPH_FONT]);
         }
