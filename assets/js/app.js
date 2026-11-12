@@ -241,7 +241,7 @@ function ensurePoiLayer(){
  if(!map.getLayer('mazo-poi-district'))addPoiSymbolLayer('mazo-poi-district','district',POI_ZOOM_THRESHOLDS.district);
  if(!map.getLayer('mazo-poi-local-dot'))addPoiDotLayer('mazo-poi-local-dot','local',POI_ZOOM_THRESHOLDS.local-0.5,POI_ZOOM_THRESHOLDS.local);
  if(!map.getLayer('mazo-poi-local'))addPoiSymbolLayer('mazo-poi-local','local',POI_ZOOM_THRESHOLDS.local);
- if(!map.getLayer('mazo-poi-major-label'))addPoiLabelLayer('mazo-poi-major-label','major',POI_ZOOM_THRESHOLDS.major);
+ if(!map.getLayer('mazo-poi-major-label'))addPoiLabelLayer('mazo-poi-major-label','major',13);
  if(!map.getLayer('mazo-poi-district-label'))addPoiLabelLayer('mazo-poi-district-label','district',POI_ZOOM_THRESHOLDS.district);
  if(!map.getLayer('mazo-poi-local-label'))addPoiLabelLayer('mazo-poi-local-label','local',POI_ZOOM_THRESHOLDS.local);
  if(!map.getLayer('mazo-poi-selected'))map.addLayer({
@@ -276,6 +276,7 @@ function updatePoiPresentation(){
     map.setLayerZoomRange('mazo-poi-local',transitionStart,maxZoom);
     map.setPaintProperty('mazo-poi-local','icon-opacity',['interpolate',['linear'],['zoom'],transitionStart,0,transitionEnd,1]);
    }
+   if(map.getLayer('mazo-poi-local-label'))map.setLayerZoomRange('mazo-poi-local-label',transitionEnd,maxZoom);
    if(map.getLayer('mazo-poi-local-dot')){
     map.setLayerZoomRange('mazo-poi-local-dot',transitionStart,maxZoom);
     map.setPaintProperty('mazo-poi-local-dot','circle-opacity',['interpolate',['linear'],['zoom'],transitionStart,1,transitionEnd,0]);
