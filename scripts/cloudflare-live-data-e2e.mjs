@@ -255,7 +255,7 @@ try {
       markers: document.querySelectorAll('.maplibregl-marker').length,
       source: map.getSource('mazo-pois')?.type,
       layers: map.getStyle().layers.filter((layer) => ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].includes(layer.id)),
-      labels: map.getStyle().layers.filter((layer) => ['mazo-poi-major-label', 'mazo-poi-district-label', 'mazo-poi-local-label'].includes(layer.id)),
+      labels: map.getStyle().layers.filter((layer) => ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].includes(layer.id)),
       dots: map.getStyle().layers.filter((layer) => ['mazo-poi-major-dot', 'mazo-poi-district-dot', 'mazo-poi-local-dot'].includes(layer.id)),
     };
   });
@@ -271,17 +271,17 @@ try {
       'place pins use collision placement until the close-zoom fallback prevents pins disappearing');
     assert.deepEqual(layer.layout['icon-ignore-placement'], ['step', ['zoom'], false, 15.5, true],
       'place pins stop being hidden by collisions at street zoom');
-    assert.equal(layer.layout['text-field'], undefined, 'pin symbols do not place names inside pin artwork');
+    assert.equal(layer.layout['icon-optional'], false, 'a name cannot render without its pin');
     assert.deepEqual(layer.layout['symbol-sort-key'], ['get', 'priority'], 'important MVT POIs receive collision priority');
     assert.equal(layer.layout['symbol-z-order'], 'auto');
     assert.ok(Number.isFinite(layer.minzoom), 'each vector symbol tier has an explicit zoom threshold');
   }
-  assert.equal(poiStyle.labels.length, 3, 'each pin tier has an independent name label layer');
+  assert.equal(poiStyle.labels.length, 3, 'each pin tier carries a name that cannot outlive its pin');
   for (const label of poiStyle.labels) {
     assert.equal(label.type, 'symbol');
     assert.equal(label.source, 'mazo-pois');
     assert.equal(label['source-layer'], 'places');
-    assert.deepEqual(label.layout['text-field'], ['get', 'name']);
+    assert.equal(label.layout['text-field'][0], 'step');
     assert.equal(label.layout['text-anchor'], 'top', 'place names are positioned below the pin tip');
     assert.deepEqual(label.layout['text-offset'], [0, 1.25]);
     assert.deepEqual(label.layout['text-allow-overlap'], ['step', ['zoom'], false, 18, true]);
@@ -291,7 +291,7 @@ try {
     'mazo-poi-major': 12.5, 'mazo-poi-district': 14, 'mazo-poi-local': 15,
   }, 'POI pin layers begin at their configured dot-to-pin transition levels');
   assert.deepEqual(Object.fromEntries(poiStyle.dots.map(({ id, minzoom }) => [id, minzoom])), {
-    'mazo-poi-major-dot': 8.8, 'mazo-poi-district-dot': 14, 'mazo-poi-local-dot': 15,
+    'mazo-poi-major-dot': 8.8, 'mazo-poi-district-dot': 14, 'mazo-poi-local-dot': 13,
   }, 'tile-backed dot layers introduce the matching place tiers before their pins');
   await page.evaluate((coords) => window.__MAZO_MAP_TEST__.jumpTo({ center: coords, zoom: 17, bearing: 0, pitch: 0 }), browserPlace[coordColumn]);
   await page.waitForFunction((id) => !window.__MAZO_MAP_TEST__.isMoving()

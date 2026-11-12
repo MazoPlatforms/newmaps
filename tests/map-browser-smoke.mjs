@@ -225,6 +225,8 @@ try {
       await wait(page, () => !document.querySelector('#places-retry').hidden);
       assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getSource('mazo-pois')), null,
         'failed PMTiles must not silently fall back to GeoJSON/MZP');
+      assert.equal((await page.evaluate(() => window.__MAZO_MAP_TEST__.getSource('mazo')?.type)), 'vector',
+        'the native MVT preview remains available until the full PMTiles source is ready');
       await page.locator('#places-retry').click();
     }
     try {
@@ -264,8 +266,8 @@ try {
       type: window.__MAZO_MAP_TEST__.getSource('mazo')?.type,
       layer: window.__MAZO_MAP_TEST__.getLayer('places-dot')?.id,
     }));
-    assert.equal(bootstrapPoiSource.type, undefined, 'legacy preview PBF source is removed so PMTiles is the only place renderer');
-    assert.equal(bootstrapPoiSource.layer, undefined, 'legacy unpinned preview symbols are removed on style load');
+    assert.equal(bootstrapPoiSource.type, undefined, 'native MVT preview is removed once PMTiles becomes the place renderer');
+    assert.equal(bootstrapPoiSource.layer, undefined, 'preview symbols are removed after the full PMTiles source loads');
     assert.equal(await page.evaluate(() => window.__MAZO_MAP_TEST__.getLayoutProperty('boundary_2', 'visibility')), 'none',
       'the duplicate country admin outline must not add a second border around Sri Lanka');
     const countryCartography = await page.evaluate(() => {
@@ -315,7 +317,8 @@ try {
         await new Promise((resolve) => {
           const sample = () => {
             const features = map.queryRenderedFeatures(undefined, { layers: roadAndBuildingLayers });
-            counts.push({ count: features.length, zoom: +map.getZoom().toFixed(2), at: performance.now(),
+            const land = map.isSourceLoaded('mazo-coastline');
+            counts.push({ count: features.length, land, zoom: +map.getZoom().toFixed(2), at: performance.now(),
               primaryLoaded: map.isSourceLoaded('openmaptiles') });
             if (!map.isMoving()) { map.off('render', sample); resolve(); }
           };
@@ -329,6 +332,8 @@ try {
         await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
         const settledFeatures = map.queryRenderedFeatures(undefined, { layers: roadAndBuildingLayers }).length;
         return { frames: counts.length, blankFrames: counts.filter((sample) => sample.count === 0).length,
+          landBlankFrames: counts.filter((sample) => !sample.land).length,
+          landBlankZooms: counts.filter((sample) => !sample.land).map((sample) => sample.zoom),
           settledFeatures, samples: counts };
       });
       let maxBlankMs = 0, blankStart = null, priorAt = null;
@@ -342,6 +347,8 @@ try {
       delete tileContinuity.samples;
       assert.ok(tileContinuity.frames > 10, 'zoom continuity is measured across rendered animation frames');
       console.log(`Basemap zoom transition: ${JSON.stringify(tileContinuity)}`);
+      assert.equal(tileContinuity.landBlankFrames, 0,
+        'the independent shoreline image should remain loaded throughout the zoom animation');
       assert.ok(tileContinuity.settledFeatures > 0,
         `road/building vector layers must return after rapid zoom settles (${JSON.stringify(tileContinuity)})`);
     }
@@ -373,16 +380,16 @@ try {
     for (const policy of placeSymbolPolicy) {
       assert.deepEqual(policy.iconOverlap, ['step', ['zoom'], false, 15.5, true], `${policy.id} always keeps its pin at street zoom`);
       assert.deepEqual(policy.iconIgnorePlacement, ['step', ['zoom'], false, 15.5, true], `${policy.id} pins stop becoming fallback dots at street zoom`);
-      assert.equal(policy.textOptional, undefined, `${policy.id} icon symbols do not bundle labels`);
-      assert.equal(policy.textOverlap, undefined, `${policy.id} labels are independently collision placed`);
+      assert.equal(policy.textOptional, true, `${policy.id} keeps its pin when its name collides`);
+      assert.deepEqual(policy.textOverlap, ['step', ['zoom'], false, 18, true]);
     }
     const progressivePlaceSymbols = await page.evaluate(() => {
       const map = window.__MAZO_MAP_TEST__;
       return {
         icon: map.getLayoutProperty('mazo-poi-local', 'icon-image'),
-        name: map.getLayoutProperty('mazo-poi-local-label', 'text-field'),
-        anchor: map.getLayoutProperty('mazo-poi-local-label', 'text-anchor'),
-        offset: map.getLayoutProperty('mazo-poi-local-label', 'text-offset'),
+        name: map.getLayoutProperty('mazo-poi-local', 'text-field'),
+        anchor: map.getLayoutProperty('mazo-poi-local', 'text-anchor'),
+        offset: map.getLayoutProperty('mazo-poi-local', 'text-offset'),
         dotLayer: map.getLayer('mazo-poi-local-dot')?.id,
         dotOpacity: map.getPaintProperty('mazo-poi-local-dot', 'circle-opacity'),
         pinOpacity: map.getPaintProperty('mazo-poi-local', 'icon-opacity'),
@@ -390,7 +397,7 @@ try {
     });
     assert.deepEqual(progressivePlaceSymbols.icon, ['concat', 'mazo-', ['get', 'kind']],
       'the pin layer must use the vector feature category icon');
-    assert.deepEqual(progressivePlaceSymbols.name, ['get', 'name'], 'labels use each place name independently of pin placement');
+    assert.deepEqual(progressivePlaceSymbols.name, ['step', ['zoom'], '', 15.5, ['get', 'name']], 'names appear only after the pin transition completes');
     assert.equal(progressivePlaceSymbols.anchor, 'top', 'place names are anchored below the pin');
     assert.deepEqual(progressivePlaceSymbols.offset, [0, 1.25], 'label text has a stable offset below the pin tip');
     assert.equal(progressivePlaceSymbols.dotLayer, 'mazo-poi-local-dot',
@@ -534,7 +541,7 @@ try {
     assert.ok(String(themedColors.land).replace(/\s/g, '').toLowerCase().includes('#202d32') || String(themedColors.land).includes('32,45,50'), `dark country fill should use Mazo land palette, received ${JSON.stringify(themedColors.land)}`);
     const opacities = await page.evaluate(() => ({
       icons: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].map(id => [id, window.__MAZO_MAP_TEST__.getPaintProperty(id, 'icon-opacity')]),
-      labels: ['mazo-poi-major-label', 'mazo-poi-district-label', 'mazo-poi-local-label'].map(id => [id, window.__MAZO_MAP_TEST__.getLayoutProperty(id, 'text-anchor'), window.__MAZO_MAP_TEST__.getLayoutProperty(id, 'text-offset')]),
+      labels: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'].map(id => [id, window.__MAZO_MAP_TEST__.getLayoutProperty(id, 'text-anchor'), window.__MAZO_MAP_TEST__.getLayoutProperty(id, 'text-offset')]),
       selected: [window.__MAZO_MAP_TEST__.getPaintProperty('mazo-poi-selected', 'icon-opacity'), window.__MAZO_MAP_TEST__.getPaintProperty('mazo-poi-selected-label', 'text-color')],
     }));
     for (const [id, iconOpacity] of opacities.icons) assert.equal(iconOpacity[0], 'interpolate', `${id} pin fades in during zoom`);

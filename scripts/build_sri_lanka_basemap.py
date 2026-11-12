@@ -58,15 +58,21 @@ def download_source() -> Path:
 
 
 def write_land_polygon(source: Path) -> None:
-    """Prefer the true OSM shoreline; fall back to the committed maritime-boundary polygon."""
+    """Use the OSM shoreline, with only a validated land polygon as fallback."""
     target = TMP / "sri-lanka-land.geojson"
     try:
         from build_sri_lanka_land import build_land
         stats = build_land(source, target)
         print(f"Land polygon derived from OSM coastline: {stats}")
     except Exception as error:  # the shoreline upgrade must never block the basemap build
-        print(f"WARNING: shoreline land polygon unavailable ({error}); using committed boundary polygon")
-        shutil.copy2(ROOT / "data/basemap/sri-lanka-land.geojson", target)
+        from shapely.geometry import shape
+        fallback = ROOT / "data/basemap/sri-lanka-land.geojson"
+        document = json.loads(fallback.read_text())
+        area = sum(shape(feature["geometry"]).area for feature in document["features"])
+        if not 4.8 <= area <= 6.6:
+            raise ValueError("Fallback polygon includes territorial sea or has invalid land coverage") from error
+        print(f"WARNING: coastline extraction unavailable ({error}); using validated committed shoreline")
+        shutil.copy2(fallback, target)
 
 
 def build_archive(source: Path) -> None:

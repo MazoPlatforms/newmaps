@@ -1,7 +1,7 @@
 import { availableCategories, createPlaceSearchIndex } from './search-engine.mjs';
 import { createPlaceLookup, decodePlaceDetails, decodeSearchIndex } from './place-delivery.mjs';
-import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=poi-zoom-crossfade-4';
-import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=poi-zoom-crossfade-4';
+import { CAMERA_OPTIONS, POI_ZOOM_THRESHOLDS, cameraDuration as reducedMotionDuration, configureNorthUpInteractions, placeFeature, placePriority, poiLayerFilter } from './map-presentation.mjs?v=poi-pin-shore-5';
+import { applyMazoCartographicStyle, isBasemapPlacePoiLayer, MAZO_PALETTE } from './cartographic-style.mjs?v=poi-pin-shore-5';
 import { closestRouteProgress, findLocalRoutes, validateRoutingGraph } from './routing-graph.mjs';
 import { downloadOfflinePack, removeOfflinePack, offlinePackResources } from './offline-pack.mjs';
 import { discoverLiveData, liveDataResourceUrl, startLiveDataPolling } from './live-data-client.mjs';
@@ -122,8 +122,8 @@ const POI_SOURCE='mazo-pois';
 const SELECTED_POI_SOURCE='mazo-selected-place';
 const POI_ICON_LAYERS=['mazo-poi-major','mazo-poi-district','mazo-poi-local'];
 const POI_DOT_LAYERS=['mazo-poi-major-dot','mazo-poi-district-dot','mazo-poi-local-dot'];
-const POI_LABEL_LAYERS=['mazo-poi-major-label','mazo-poi-district-label','mazo-poi-local-label','mazo-poi-selected-label'];
-const CITY_LABEL_LAYERS=['mazo-city-labels','mazo-town-labels','mazo-village-labels','mazo-locality-labels'];
+const POI_LABEL_LAYERS=['mazo-poi-selected-label'];
+const CITY_LABEL_LAYERS=['mazo-city-labels','mazo-region-labels','mazo-district-labels','mazo-town-labels','mazo-village-labels','mazo-locality-labels'];
 const POI_LAYERS=[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'mazo-poi-selected',...POI_LABEL_LAYERS];
 function priority(p){return placePriority(p)}
 function iconFor(k){return 'mazo-'+k}
@@ -165,8 +165,7 @@ function poiLayout(pinZoom){return {
  'icon-image':['concat','mazo-',['get','kind']],
  'icon-anchor':'bottom',
  'icon-size':['interpolate',['linear'],['zoom'],pinZoom-0.5,0.58,pinZoom,0.72,18,0.82,20,0.9],
- // Separate label symbols keep a colliding name from suppressing its pin. At
- // street zoom, let the pin win over nearby symbols so it never degrades to a dot.
+ // At street zoom, keep the pin visible even when nearby icons collide.
  'icon-allow-overlap':['step',['zoom'],false,15.5,true],
  'icon-ignore-placement':['step',['zoom'],false,15.5,true],
  'icon-padding':['interpolate',['linear'],['zoom'],6,5,9,6,12,7,15,8,18,8,20,8],
@@ -177,8 +176,8 @@ function poiLayout(pinZoom){return {
 function poiTextLayout(){return {
  'text-field':['get','name'],'text-font':['Mazo Maps Sans Regular'],
  'text-size':['interpolate',['linear'],['zoom'],12,10,16,12,20,14],
- // Text has its own symbol so it is always positioned below the pin tip and
- // can never be composed inside the pin artwork by variable-anchor placement.
+ // Anchor the label beneath the pin tip; no variable-anchor placement can
+ // put a name inside the artwork.
  'text-anchor':'top','text-offset':[0,1.25],'text-max-width':12,'text-padding':4,
  'text-allow-overlap':['step',['zoom'],false,18,true],
  'text-ignore-placement':false,'symbol-z-order':'auto','symbol-sort-key':['get','priority'],
@@ -196,18 +195,16 @@ function addPoiDotLayer(id,tier,minzoom,pinZoom){
   }});
 }
 function addPoiSymbolLayer(id,tier,pinZoom){
- map.addLayer({id,type:'symbol',source:POI_SOURCE,'source-layer':'places',minzoom:pinZoom-0.5,filter:poiLayerFilter(tier,category),layout:poiLayout(pinZoom),paint:{
+ map.addLayer({id,type:'symbol',source:POI_SOURCE,'source-layer':'places',minzoom:pinZoom-0.5,filter:poiLayerFilter(tier,category),layout:{...poiLayout(pinZoom),...poiTextLayout(),'text-field':['step',['zoom'],'',pinZoom,['get','name']],'text-optional':true,'icon-optional':false},paint:{
   'icon-opacity':poiPinOpacity(pinZoom),
- }});
-}
-function addPoiLabelLayer(id,tier,minzoom){
- map.addLayer({id,type:'symbol',source:POI_SOURCE,'source-layer':'places',minzoom,filter:poiLayerFilter(tier,category),layout:poiTextLayout(),paint:{
   'text-color':MAZO_PALETTE[theme()].label,'text-halo-color':MAZO_PALETTE[theme()].halo,'text-halo-width':1.7,
  }});
 }
 function addSettlementLayers(){
  const levels=[
-  ['mazo-city-labels',['country','region','county','city'],5.5,12],
+  ['mazo-city-labels',['city'],5.5,12],
+  ['mazo-region-labels',['region'],9,13],
+  ['mazo-district-labels',['county'],10,14],
   ['mazo-town-labels',['town'],8.5,14],
   ['mazo-village-labels',['village','neighborhood'],12,24],
   ['mazo-locality-labels',['estate','locality'],13,24],
@@ -239,11 +236,8 @@ function ensurePoiLayer(){
  if(!map.getLayer('mazo-poi-major'))addPoiSymbolLayer('mazo-poi-major','major',13);
  if(!map.getLayer('mazo-poi-district-dot'))addPoiDotLayer('mazo-poi-district-dot','district',POI_ZOOM_THRESHOLDS.district-0.5,POI_ZOOM_THRESHOLDS.district);
  if(!map.getLayer('mazo-poi-district'))addPoiSymbolLayer('mazo-poi-district','district',POI_ZOOM_THRESHOLDS.district);
- if(!map.getLayer('mazo-poi-local-dot'))addPoiDotLayer('mazo-poi-local-dot','local',POI_ZOOM_THRESHOLDS.local-0.5,POI_ZOOM_THRESHOLDS.local);
+ if(!map.getLayer('mazo-poi-local-dot'))addPoiDotLayer('mazo-poi-local-dot','local',13,POI_ZOOM_THRESHOLDS.local);
  if(!map.getLayer('mazo-poi-local'))addPoiSymbolLayer('mazo-poi-local','local',POI_ZOOM_THRESHOLDS.local);
- if(!map.getLayer('mazo-poi-major-label'))addPoiLabelLayer('mazo-poi-major-label','major',13);
- if(!map.getLayer('mazo-poi-district-label'))addPoiLabelLayer('mazo-poi-district-label','district',POI_ZOOM_THRESHOLDS.district);
- if(!map.getLayer('mazo-poi-local-label'))addPoiLabelLayer('mazo-poi-local-label','local',POI_ZOOM_THRESHOLDS.local);
  if(!map.getLayer('mazo-poi-selected'))map.addLayer({
   id:'mazo-poi-selected',type:'symbol',source:SELECTED_POI_SOURCE,minzoom:0,
   layout:{...poiLayout(13),'icon-allow-overlap':true,'icon-ignore-placement':true,'icon-size':1.25,'symbol-sort-key':1000},
@@ -257,7 +251,7 @@ function ensurePoiLayer(){
  refresh();
 }
 function removeBootstrapPoiSource(){
- for(const id of ['places-label','places-dot','places-halo'])if(map.getLayer(id))map.removeLayer(id);
+ for(const id of ['places-pin','places-label','places-dot','places-halo'])if(map.getLayer(id))map.removeLayer(id);
  if(map.getSource('mazo'))map.removeSource('mazo');
 }
 function updatePoiPresentation(){
@@ -265,7 +259,6 @@ function updatePoiPresentation(){
  const categoryChanged=presentedCategory!==category;
  if(categoryChanged||presentedSelectedId!==selectedId){
   for(const [id,tier] of [['mazo-poi-major','major'],['mazo-poi-district','district'],['mazo-poi-local','local'],
-    ['mazo-poi-major-label','major'],['mazo-poi-district-label','district'],['mazo-poi-local-label','local'],
     ['mazo-poi-major-dot','major'],['mazo-poi-district-dot','district'],['mazo-poi-local-dot','local']]){
    if(map.getLayer(id))map.setFilter(id,visiblePoiFilter(tier));
   }
@@ -276,9 +269,9 @@ function updatePoiPresentation(){
     map.setLayerZoomRange('mazo-poi-local',transitionStart,maxZoom);
     map.setPaintProperty('mazo-poi-local','icon-opacity',['interpolate',['linear'],['zoom'],transitionStart,0,transitionEnd,1]);
    }
-   if(map.getLayer('mazo-poi-local-label'))map.setLayerZoomRange('mazo-poi-local-label',transitionEnd,maxZoom);
+   if(map.getLayer('mazo-poi-local'))map.setLayoutProperty('mazo-poi-local','text-field',['step',['zoom'],'',transitionEnd,['get','name']]);
    if(map.getLayer('mazo-poi-local-dot')){
-    map.setLayerZoomRange('mazo-poi-local-dot',transitionStart,maxZoom);
+    map.setLayerZoomRange('mazo-poi-local-dot',category==='all'?13:transitionStart,maxZoom);
     map.setPaintProperty('mazo-poi-local-dot','circle-opacity',['interpolate',['linear'],['zoom'],transitionStart,1,transitionEnd,0]);
     map.setPaintProperty('mazo-poi-local-dot','circle-stroke-opacity',['interpolate',['linear'],['zoom'],transitionStart,1,transitionEnd,0]);
    }
@@ -296,9 +289,9 @@ function selectVectorPlace(id){
  const choose=()=>{const place=placeById.get(String(id));if(place&&selectedPlace?.id!==place.id)openPlace(place)};
  if(placeById.has(String(id)))choose();else ensureSearchIndex().then(choose).catch(console.error);
 }
-map.on('click',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,...POI_LABEL_LAYERS,'mazo-poi-selected','places-dot','places-label'],e=>{if(!routePanel.hidden)return;const properties=e.features?.[0]?.properties||{};const place=placeById.get(String(properties.id));if(place&&selectedPlace?.id!==place.id)openPlace(place);else if(!place)selectVectorPlace(properties.id)});
-map.on('mouseenter',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'places-dot','places-label'],()=>map.getCanvas().style.cursor='pointer');
-map.on('mouseleave',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'places-dot','places-label'],()=>map.getCanvas().style.cursor='');
+map.on('click',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,...POI_LABEL_LAYERS,'mazo-poi-selected','places-dot','places-pin'],e=>{if(!routePanel.hidden)return;const properties=e.features?.[0]?.properties||{};const place=placeById.get(String(properties.id));if(place&&selectedPlace?.id!==place.id)openPlace(place);else if(!place)selectVectorPlace(properties.id)});
+map.on('mouseenter',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'places-dot','places-pin'],()=>map.getCanvas().style.cursor='pointer');
+map.on('mouseleave',[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'places-dot','places-pin'],()=>map.getCanvas().style.cursor='');
 let selectedPlace=null,pinnedPlace=null,sheetState='half',dragStart=null,dragDelta=0,closeTimer=null;
 const sheet=$('#place-sheet');
 function setSheetState(state){
@@ -569,7 +562,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sheet.hidden)close
    map.getCanvas().style.cursor='';$('#route-pickup').value='Map location';routeMarkers();void routeCalculate();return;
   }
   if(!sheet.hidden||!routePanel.hidden)return;
-  const layers=[...POI_LAYERS,'places-dot','places-label'].filter(id=>map.getLayer(id));
+  const layers=[...POI_LAYERS,'places-dot','places-pin'].filter(id=>map.getLayer(id));
   const features=map.queryRenderedFeatures([[e.point.x-14,e.point.y-14],[e.point.x+14,e.point.y+14]],{layers});
   for(const f of features){const place=placeById.get(String(f.properties?.id));if(place){if(selectedPlace?.id!==place.id)openPlace(place);return}selectVectorPlace(f.properties?.id);return}
  });
@@ -693,7 +686,10 @@ map.on('sourcedata',event=>{
 
 // Preserve the vector basemap: roads, city labels and road names remain visible.
 // Only provider POI icons/labels are suppressed, so our own JSON supplies businesses.
-map.on('style.load',()=>{mapStyleReady=true;presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;try{applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}removeBootstrapPoiSource();ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
+map.on('style.load',()=>{mapStyleReady=true;presentedCategory=null;presentedSelectedId=null;presentedVisibility=null;try{applyMazoCartographicStyle(map,theme());for(const layer of map.getStyle().layers||[]){if(!layer.id.startsWith('mazo-')&&isBasemapPlacePoiLayer(layer))map.setLayoutProperty(layer.id,'visibility','none')}ensurePoiLayer();ensureSpeedReview()}catch(error){console.error('Map layer initialization:',error)}});
+// Keep the small native MVT preview on screen until the full PMTiles source is
+// actually ready; removing it at style.load caused a visible POI gap on mobile.
+map.on('sourcedata',(event)=>{if(event.sourceId===POI_SOURCE&&event.isSourceLoaded)removeBootstrapPoiSource()});
 async function checkedJson(file,sha256){
  const url=await appDataUrl(file,sha256);
  return retryTransientData(async()=>{

@@ -36,8 +36,15 @@ class MapDeliveryTests(unittest.TestCase):
         self.assertFalse(delivery.overview_place("overview-fixture-no-match"))
         self.assertTrue(all(delivery.include_tile_feature(place_id, 9) == delivery.overview_place(place_id)
                             for place_id in ids))
-        self.assertTrue(all(delivery.include_tile_feature(place_id, 10) for place_id in ids),
-                        "full place coverage should return at street zoom")
+        local = [feature["id"] for feature in self.features
+                 if delivery.priority(delivery.discovery_kind(feature["properties"])) == 3]
+        counts = [sum(delivery.include_tile_feature(place_id, zoom) for place_id in local)
+                  for zoom in (10, 11, 12, 13, 14, 15, 16)]
+        self.assertEqual(counts, sorted(counts), "local place cohorts grow at every zoom")
+        self.assertTrue(all(left < right for left, right in zip(counts, counts[1:])))
+        self.assertEqual(counts[-1], len(local), "every canonical place must appear at maximum zoom")
+        self.assertTrue(all(delivery.include_tile_feature(place_id, 14, 2) for place_id in ids),
+                        "priority institutions remain available at district zoom")
 
     def test_every_feature_and_alias_is_present_in_generated_search_and_tiles(self):
         result = validate_map_delivery.validate()

@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """Derive the island's real shoreline polygon from OSM natural=coastline ways.
 
-The committed data/basemap/sri-lanka-land.geojson is the OSM *administrative*
-boundary, which includes ~12 nautical miles of territorial sea. Used as the
-`country_land` fill it paints open water around the island as land (the swollen
-North-West, the squared-off Palk Strait, missing lagoons/peninsulas).
-The coastline in the OSM extract gives the true land/sea edge instead.
+The OSM administrative boundary includes territorial sea, so the country's
+`country_land` fill must be derived from shoreline geometry instead. The
+committed polygon is the validated fallback for an unavailable OSM extract.
 """
 import json
 from pathlib import Path
