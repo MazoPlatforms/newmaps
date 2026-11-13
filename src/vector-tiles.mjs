@@ -31,6 +31,13 @@ const POI_LAYERS = [
       'symbol-sort-key': ['get', 'priority'] },
     paint: { 'text-color': '#243238', 'text-halo-color': '#ffffff', 'text-halo-width': 1.4 } },
 ];
+const NATIVE_MAJOR_CITIES = { id: 'native-major-city-labels', type: 'symbol', source: 'mazo',
+  'source-layer': 'settlements', minzoom: 5.5, filter: ['==', ['get', 'major'], 1],
+  layout: { 'text-field': ['get', 'name'], 'text-font': ['Mazo Maps Sans Regular'],
+    'text-size': ['interpolate', ['linear'], ['zoom'], 5.5, 12, 10, 15],
+    'text-allow-overlap': false, 'text-padding': 4,
+    'symbol-sort-key': ['-', ['get', 'rank']] },
+  paint: { 'text-color': '#243238', 'text-halo-color': '#ffffff', 'text-halo-width': 1.8 } };
 
 function json(value, status = 200, headers = {}) {
   return Response.json(value, { status, headers: {
@@ -260,7 +267,7 @@ function tileJSON(base, revision, state) {
     vector_layers: [
       { id: 'places', fields: { id: 'String', name: 'String', kind: 'String', priority: 'Number', overview: 'Boolean' },
         minzoom: state.minZoom, maxzoom: state.maxZoom },
-      { id: 'settlements', fields: { id: 'String', name: 'String', level: 'String', population: 'Number', rank: 'Number' },
+      { id: 'settlements', fields: { id: 'String', name: 'String', level: 'String', population: 'Number', rank: 'Number', major: 'Number' },
         minzoom: 4, maxzoom: state.maxZoom },
     ],
   };
@@ -284,7 +291,7 @@ async function style(env, base, revision, theme = 'light') {
   value.sources.mazo = { type: 'vector', url: `${base}${API}/tiles.json?revision=${encodeURIComponent(revision)}` };
   value.layers = value.layers.filter((layer) => layer['source-layer'] !== 'poi'
     && !/^label_country_[123]$/.test(layer.id));
-  value.layers.push(...POI_LAYERS);
+  value.layers.push(...structuredClone(POI_LAYERS), structuredClone(NATIVE_MAJOR_CITIES));
   for (const layer of value.layers) {
     if (layer.type === 'background') layer.paint = { ...(layer.paint || {}), 'background-color': theme === 'dark' ? '#102b3a' : '#82d5e2' };
     if (layer.type === 'fill' && layer['source-layer'] === 'country_land') {

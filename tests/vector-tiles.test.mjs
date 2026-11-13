@@ -107,6 +107,7 @@ test('TileJSON and light/dark styles are valid MapLibre Native URLs with revisio
   assert.equal(tilejson.vector_layers[0].id, 'places');
   assert.equal(tilejson.vector_layers[1].id, 'settlements');
   assert.equal(tilejson.vector_layers[1].fields.name, 'String');
+  assert.equal(tilejson.vector_layers[1].fields.major, 'Number');
   assert.match(tilejson.tiles[0], /tiles\/\{z\}\/\{x\}\/\{y\}\.pbf\?revision=vector-fixture-revision/);
 
   for (const path of ['/api/v1/style.json', '/api/v1/style/dark.json']) {
@@ -132,6 +133,8 @@ test('TileJSON and light/dark styles are valid MapLibre Native URLs with revisio
     assert.deepEqual(external, [], 'style resources should be served by Mazo rather than third-party hosts');
     assert.equal(style.layers.some(layer => layer['source-layer'] === 'transportation'), true);
     assert.equal(style.layers.some(layer => layer.id === 'places-pin'), true);
+    assert.equal(style.layers.some(layer => layer.id === 'native-major-city-labels'), true,
+      'Android style includes major cities directly from settlement MVT tiles');
     assert.equal(style.layers.some(layer => layer.id === 'places-dot'), true);
     const bootstrapPlaces = style.layers.find(layer => layer.id === 'places-dot');
     assert.equal(bootstrapPlaces.minzoom, 8.8, 'the preloaded preview must stay hidden at national overview scale');
@@ -145,6 +148,10 @@ test('TileJSON and light/dark styles are valid MapLibre Native URLs with revisio
     assert.equal(style.layers.some(layer => layer.id === 'places-halo'), false,
       'a second layer must not amplify dense place tiles');
   }
+  const lightAgain = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/style.json'), fx.env);
+  const lightAgainStyle = await lightAgain.json();
+  assert.equal(lightAgainStyle.layers.find(layer => layer.id === 'native-major-city-labels').paint['text-color'], '#243238',
+    'a dark style request must not mutate shared native-city style objects');
 });
 
 test('font glyph ranges and sprite atlas resources are served as assets with public cross-origin headers', async () => {

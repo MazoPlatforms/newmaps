@@ -295,6 +295,11 @@ try {
     });
     assert.equal(countryScalePlaceCount, 0,
       `Sri Lanka overview should keep place pins hidden until a closer zoom, got ${countryScalePlaceCount} place symbols`);
+    const overviewCities = await page.evaluate(() => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, {
+      layers: ['mazo-major-city-labels'],
+    }).map((feature) => feature.properties.name));
+    assert.ok(overviewCities.includes('Colombo'),
+      `national overview must include Colombo from settlement MVT tiles (${overviewCities.join(', ')})`);
     assert.equal(await page.evaluate(() => ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local']
       .every((id) => Boolean(window.__MAZO_MAP_TEST__.getLayer(id)))), true,
     'progressive POI symbol tiers must be installed');
@@ -568,6 +573,28 @@ try {
       await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [81.5569, 7.8381], zoom: 8.6, bearing: 0, pitch: 0 }));
     }
 
+    if (mode === 'pmtiles') {
+      for (const [name, center] of [
+        ['Colombo', [79.8612, 6.9271]], ['Kandy', [80.6337, 7.2906]],
+        ['Galle', [80.2209, 6.0535]], ['Jaffna', [80.0093, 9.6651]],
+        ['Trincomalee', [81.2152, 8.5874]],
+      ]) {
+        await page.evaluate((position) => window.__MAZO_MAP_TEST__.jumpToWhenIdle({
+          center: position, zoom: 16, bearing: 0, pitch: 0,
+        }), center);
+        await wait(page, () => window.__MAZO_MAP_TEST__.queryRenderedFeatures(undefined, {
+          layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'],
+        }).length > 0, 30_000);
+        const rendered = await page.evaluate(() => {
+          const map = window.__MAZO_MAP_TEST__;
+          return map.queryRenderedFeatures(undefined, {
+            layers: ['mazo-poi-major', 'mazo-poi-district', 'mazo-poi-local'],
+          }).length;
+        });
+        assert.ok(rendered > 0, `${name} must show regular tile-backed POI pins without search selection`);
+      }
+      await page.evaluate(() => window.__MAZO_MAP_TEST__.jumpToWhenIdle({ center: [81.5569, 7.8381], zoom: 8.6 }));
+    }
     const categoryButton = page.locator('.categories button').filter({ hasText: /Electronics/ }).first();
     await categoryButton.click();
     assert.equal(await categoryButton.getAttribute('aria-pressed'), 'true');

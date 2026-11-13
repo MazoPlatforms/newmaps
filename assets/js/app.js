@@ -123,7 +123,7 @@ const SELECTED_POI_SOURCE='mazo-selected-place';
 const POI_ICON_LAYERS=['mazo-poi-major','mazo-poi-district','mazo-poi-local'];
 const POI_DOT_LAYERS=['mazo-poi-major-dot','mazo-poi-district-dot','mazo-poi-local-dot'];
 const POI_LABEL_LAYERS=['mazo-poi-selected-label'];
-const CITY_LABEL_LAYERS=['mazo-city-labels','mazo-region-labels','mazo-district-labels','mazo-town-labels','mazo-village-labels','mazo-locality-labels'];
+const CITY_LABEL_LAYERS=['mazo-major-city-labels','mazo-city-labels','mazo-region-labels','mazo-district-labels','mazo-town-labels','mazo-village-labels','mazo-locality-labels'];
 const POI_LAYERS=[...POI_ICON_LAYERS,...POI_DOT_LAYERS,'mazo-poi-selected',...POI_LABEL_LAYERS];
 function priority(p){return placePriority(p)}
 function iconFor(k){return 'mazo-'+k}
@@ -202,6 +202,7 @@ function addPoiSymbolLayer(id,tier,pinZoom){
 }
 function addSettlementLayers(){
  const levels=[
+  ['mazo-major-city-labels',[],5.5,24],
   ['mazo-city-labels',['city'],5.5,12],
   ['mazo-region-labels',['region'],9,13],
   ['mazo-district-labels',['county'],10,14],
@@ -212,7 +213,8 @@ function addSettlementLayers(){
  for(const [id,accepted,minzoom,maxzoom] of levels){
   if(map.getLayer(id))continue;
   map.addLayer({id,type:'symbol',source:POI_SOURCE,'source-layer':'settlements',minzoom,maxzoom,
-   filter:['in',['get','level'],['literal',accepted]],
+   filter:id==='mazo-major-city-labels'?['==',['get','major'],1]:
+    ['all',['in',['get','level'],['literal',accepted]],['!=',['get','major'],1]],
    layout:{'text-field':['get','name'],'text-font':['Mazo Maps Sans Regular'],
     'text-size':['interpolate',['linear'],['zoom'],minzoom,11,Math.min(18,minzoom+4),14],
     'text-max-width':10,'text-padding':3,'text-allow-overlap':['step',['zoom'],false,18,true],
@@ -251,7 +253,7 @@ function ensurePoiLayer(){
  refresh();
 }
 function removeBootstrapPoiSource(){
- for(const id of ['places-pin','places-label','places-dot','places-halo'])if(map.getLayer(id))map.removeLayer(id);
+ for(const id of ['native-major-city-labels','places-pin','places-label','places-dot','places-halo'])if(map.getLayer(id))map.removeLayer(id);
  if(map.getSource('mazo'))map.removeSource('mazo');
 }
 function updatePoiPresentation(){

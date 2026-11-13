@@ -46,6 +46,13 @@ class MapDeliveryTests(unittest.TestCase):
         self.assertTrue(all(delivery.include_tile_feature(place_id, 14, 2) for place_id in ids),
                         "priority institutions remain available at district zoom")
 
+    def test_major_city_names_come_from_canonical_settlement_tiles(self):
+        settlements = delivery.read_settlements()
+        selected = [row for row in settlements if row["properties"].get("major") == 1]
+        self.assertEqual({row["properties"]["name"] for row in selected}, delivery.MAJOR_CITY_NAMES)
+        self.assertEqual(len(selected), len(delivery.MAJOR_CITY_NAMES))
+        self.assertTrue(all(row["minzoom"] == 5 for row in selected))
+
     def test_every_feature_and_alias_is_present_in_generated_search_and_tiles(self):
         result = validate_map_delivery.validate()
         self.assertEqual(result["features"], len(self.features))
