@@ -107,6 +107,7 @@ test('TileJSON and light/dark styles are valid MapLibre Native URLs with revisio
   assert.equal(tilejson.vector_layers[0].id, 'places');
   assert.equal(tilejson.vector_layers[1].id, 'settlements');
   assert.equal(tilejson.vector_layers[1].fields.name, 'String');
+  assert.equal(tilejson.vector_layers[1].fields.major, 'Number');
   assert.match(tilejson.tiles[0], /tiles\/\{z\}\/\{x\}\/\{y\}\.pbf\?revision=vector-fixture-revision/);
 
   for (const path of ['/api/v1/style.json', '/api/v1/style/dark.json']) {
@@ -119,26 +120,38 @@ test('TileJSON and light/dark styles are valid MapLibre Native URLs with revisio
     assert.match(style.sprite, /\/api\/v1\/basemap\/sprite$/);
     assert.equal(style.sources.mazo.type, 'vector');
     assert.match(style.sources.openmaptiles.url, /\/api\/v1\/basemap\/tiles\.json\?revision=/);
+    assert.equal(style.sources['mazo-coastline'].type, 'image');
+    assert.match(style.sources['mazo-coastline'].url, /\/assets\/data\/sri-lanka-land-(light|dark)\.png\?revision=vector-fixture-revision$/);
+    assert.equal(style.layers[1].id, 'mazo-coastline-fallback',
+      'an independently loaded shoreline image stays underneath road tiles during zoom jumps');
+    assert.equal(style.layers.some(layer => /^label_country_[123]$/.test(layer.id)), false,
+      'the explicit country label must not be duplicated by basemap labels');
     assert.equal(style.layers.some(layer => layer['source-layer'] === 'country_land'), true,
       'the whole-country OSM polygon should distinguish island land from ocean');
     const external = [style.glyphs, style.sprite, ...Object.values(style.sources).flatMap(source => [source.url, ...(source.tiles || [])])]
       .filter(Boolean).filter(value => /https?:\/\//i.test(value) && !value.startsWith('https://maps.mazo.workers.dev/'));
     assert.deepEqual(external, [], 'style resources should be served by Mazo rather than third-party hosts');
     assert.equal(style.layers.some(layer => layer['source-layer'] === 'transportation'), true);
-    assert.equal(style.layers.some(layer => layer.id === 'places-label'), true);
+    assert.equal(style.layers.some(layer => layer.id === 'places-pin'), true);
+    assert.equal(style.layers.some(layer => layer.id === 'native-major-city-labels'), true,
+      'Android style includes major cities directly from settlement MVT tiles');
     assert.equal(style.layers.some(layer => layer.id === 'places-dot'), true);
     const bootstrapPlaces = style.layers.find(layer => layer.id === 'places-dot');
     assert.equal(bootstrapPlaces.minzoom, 8.8, 'the preloaded preview must stay hidden at national overview scale');
     assert.equal(bootstrapPlaces.filter, undefined,
       'country-scale sample selection is encoded in the MVT, not filtered client-side');
-    assert.deepEqual(bootstrapPlaces.layout['text-field'], ['get', 'name'],
-      'the sparse preview should use readable collision-placed labels');
+    assert.equal(bootstrapPlaces.layout['text-field'], undefined,
+      'dots must not show place names before they expand into pins');
     assert.equal(bootstrapPlaces.type, 'symbol', 'dense preview points need MapLibre collision placement');
-    assert.equal(bootstrapPlaces.layout['text-allow-overlap'], false);
-    assert.ok(bootstrapPlaces.layout['text-padding'] >= 4);
+    assert.equal(bootstrapPlaces.layout['icon-allow-overlap'], false);
+    assert.deepEqual(style.layers.find(layer => layer.id === 'places-pin').layout['text-field'], ['get', 'name']);
     assert.equal(style.layers.some(layer => layer.id === 'places-halo'), false,
       'a second layer must not amplify dense place tiles');
   }
+  const lightAgain = await worker.fetch(new Request('https://maps.mazo.workers.dev/api/v1/style.json'), fx.env);
+  const lightAgainStyle = await lightAgain.json();
+  assert.equal(lightAgainStyle.layers.find(layer => layer.id === 'native-major-city-labels').paint['text-color'], '#243238',
+    'a dark style request must not mutate shared native-city style objects');
 });
 
 test('font glyph ranges and sprite atlas resources are served as assets with public cross-origin headers', async () => {

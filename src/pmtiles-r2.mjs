@@ -5,25 +5,25 @@ async function bytesOf(object) {
   return new Uint8Array(await new Response(object.body).arrayBuffer());
 }
 
-async function readChunkBytes(env, path, entry) {
+async function readChunkBytes(env, path, entry, offset, length) {
   const cache = globalThis.caches?.default;
-  const key = new Request(`https://mazo-pmtiles-cache.invalid/${entry.sha256}`);
+  const key = new Request(`https://mazo-pmtiles-cache.invalid/${entry.sha256}/${offset}/${length}`);
   if (cache) {
     try {
       const cached = await cache.match(key);
       if (cached && cached.headers.get('X-Mazo-PMTiles-SHA256') === entry.sha256
         && cached.headers.get('X-Mazo-PMTiles-Path') === path
-        && Number(cached.headers.get('Content-Length')) === entry.bytes) {
+        && Number(cached.headers.get('Content-Length')) === length) {
         const bytes = new Uint8Array(await cached.arrayBuffer());
-        if (bytes.byteLength === entry.bytes) return bytes;
+        if (bytes.byteLength === length) return bytes;
       }
     } catch { /* A cache miss or unavailable Cache API falls back to R2. */ }
   }
-  const object = await env.DATA_BUCKET.get(liveDataObjectKey(path, entry.sha256));
+  const object = await env.DATA_BUCKET.get(liveDataObjectKey(path, entry.sha256), { range: { offset, length } });
   if (!object || object.size !== entry.bytes || object.customMetadata?.sha256 !== entry.sha256
     || object.customMetadata?.path !== path) throw new Error('PMTiles chunk does not match the active manifest');
   const bytes = await bytesOf(object);
-  if (bytes.byteLength !== entry.bytes) throw new Error('PMTiles chunk has an invalid byte length');
+  if (bytes.byteLength !== length) throw new Error('PMTiles chunk has an invalid byte length');
   if (cache) {
     try {
       await cache.put(key, new Response(bytes, { headers: { 'Content-Length': String(bytes.byteLength),
@@ -59,8 +59,7 @@ export async function readR2PmtilesRange({ env, manifest, archivePath, offset, l
     const localOffset = absolute - index * chunkSize;
     const amount = Math.min(length - written, entry.bytes - localOffset);
     if (amount < 1) throw new Error('PMTiles chunk has an invalid byte length');
-    const chunk = await readChunkBytes(env, chunkPath, entry);
-    const part = chunk.subarray(localOffset, localOffset + amount);
+    const part = await readChunkBytes(env, chunkPath, entry, localOffset, amount);
     if (part.byteLength !== amount) throw new Error('PMTiles chunk range is truncated');
     output.set(part, written);
     written += amount;

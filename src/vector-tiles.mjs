@@ -15,27 +15,29 @@ const PMTILES_HEADER_BYTES = 127;
 const encoder = new TextEncoder();
 
 const POI_LAYERS = [
-  // The bootstrap MVT source exists so a few places appear with the first map
-  // tiles while the searchable PMTiles archive loads. Drawing every place as a
-  // circle here bypasses symbol collision and covers the whole island in POIs.
-  // Keep the bootstrap preview to a deterministic, sparse MVT subset. The full
-  // archive is collision-aware; laying out tens of thousands of bootstrap
-  // symbols at once is expensive even when collision eventually hides them.
-  { id: 'places-dot', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 8.8,
-    layout: { 'text-field': ['get', 'name'], 'text-font': ['Mazo Maps Sans Regular'],
-      'text-size': ['interpolate', ['linear'], ['zoom'], 8.8, 10, 12, 12, 16, 14],
-      'text-allow-overlap': false, 'text-ignore-placement': false, 'text-padding': 4, 'text-max-width': 8,
-      'symbol-z-order': 'auto', 'symbol-sort-key': ['get', 'priority'] },
-    paint: { 'text-color': ['match', ['get', 'kind'], 'health', '#d63b4b', 'fuel', '#e28b28',
-      'school', '#7358bd', 'worship', '#29876a', 'landmark', '#b7791f', '#147d91'],
-      'text-halo-color': '#ffffff', 'text-halo-width': 1.2 } },
-  { id: 'places-label', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 12,
-    layout: { 'text-field': ['get', 'name'], 'text-font': ['Mazo Maps Sans Regular'],
-      'text-size': ['interpolate', ['linear'], ['zoom'], 12, 10, 16, 13],
-      'text-offset': [0, 1.15], 'text-anchor': 'top', 'text-max-width': 12,
-      'text-allow-overlap': false, 'text-ignore-placement': false },
+  // The lightweight native-style preview is collision placed. A dot has no
+  // name; a name appears only when the dot becomes a pin at street zoom.
+  { id: 'places-dot', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 8.8, maxzoom: 15.5,
+    layout: { 'icon-image': 'dot_11', 'icon-size': 0.65, 'icon-allow-overlap': false,
+      'symbol-z-order': 'auto', 'symbol-sort-key': ['get', 'priority'] } },
+  { id: 'places-pin', type: 'symbol', source: 'mazo', 'source-layer': 'places', minzoom: 15.5,
+    layout: { 'icon-image': 'marker', 'icon-anchor': 'bottom', 'icon-size': 0.7,
+      'icon-allow-overlap': ['step', ['zoom'], false, 16, true],
+      'icon-ignore-placement': ['step', ['zoom'], false, 16, true],
+      'icon-optional': false, 'text-optional': true,
+      'text-field': ['get', 'name'], 'text-font': ['Mazo Maps Sans Regular'],
+      'text-size': 12, 'text-anchor': 'top', 'text-offset': [0, 1.25],
+      'text-allow-overlap': false, 'symbol-z-order': 'auto',
+      'symbol-sort-key': ['get', 'priority'] },
     paint: { 'text-color': '#243238', 'text-halo-color': '#ffffff', 'text-halo-width': 1.4 } },
 ];
+const NATIVE_MAJOR_CITIES = { id: 'native-major-city-labels', type: 'symbol', source: 'mazo',
+  'source-layer': 'settlements', minzoom: 5.5, filter: ['==', ['get', 'major'], 1],
+  layout: { 'text-field': ['get', 'name'], 'text-font': ['Mazo Maps Sans Regular'],
+    'text-size': ['interpolate', ['linear'], ['zoom'], 5.5, 12, 10, 15],
+    'text-allow-overlap': false, 'text-padding': 4,
+    'symbol-sort-key': ['-', ['get', 'rank']] },
+  paint: { 'text-color': '#243238', 'text-halo-color': '#ffffff', 'text-halo-width': 1.8 } };
 
 function json(value, status = 200, headers = {}) {
   return Response.json(value, { status, headers: {
@@ -265,7 +267,7 @@ function tileJSON(base, revision, state) {
     vector_layers: [
       { id: 'places', fields: { id: 'String', name: 'String', kind: 'String', priority: 'Number', overview: 'Boolean' },
         minzoom: state.minZoom, maxzoom: state.maxZoom },
-      { id: 'settlements', fields: { id: 'String', name: 'String', level: 'String', population: 'Number', rank: 'Number' },
+      { id: 'settlements', fields: { id: 'String', name: 'String', level: 'String', population: 'Number', rank: 'Number', major: 'Number' },
         minzoom: 4, maxzoom: state.maxZoom },
     ],
   };
@@ -279,8 +281,17 @@ async function style(env, base, revision, theme = 'light') {
   value.sprite = `${base}${API}/basemap/sprite`;
   value.sources.openmaptiles = { type: 'vector', url: `${base}${API}/basemap/tiles.json?revision=${encodeURIComponent(revision)}`,
     attribution: '© OpenStreetMap contributors, ODbL 1.0' };
+  // A single geographic image remains on the GPU during large zoom jumps;
+  // tile-based fallback sources can be evicted alongside the road tiles.
+  value.sources['mazo-coastline'] = { type: 'image',
+    url: `${base}/assets/data/sri-lanka-land-${theme}.png?revision=${encodeURIComponent(revision)}`,
+    coordinates: [[79.0, 10.2], [82.8, 10.2], [82.8, 5.4], [79.0, 5.4]] };
+  value.layers.splice(1, 0, { id: 'mazo-coastline-fallback', type: 'raster', source: 'mazo-coastline',
+    paint: { 'raster-opacity': 1, 'raster-fade-duration': 0 } });
   value.sources.mazo = { type: 'vector', url: `${base}${API}/tiles.json?revision=${encodeURIComponent(revision)}` };
-  value.layers.push(...POI_LAYERS);
+  value.layers = value.layers.filter((layer) => layer['source-layer'] !== 'poi'
+    && !/^label_country_[123]$/.test(layer.id));
+  value.layers.push(...structuredClone(POI_LAYERS), structuredClone(NATIVE_MAJOR_CITIES));
   for (const layer of value.layers) {
     if (layer.type === 'background') layer.paint = { ...(layer.paint || {}), 'background-color': theme === 'dark' ? '#102b3a' : '#82d5e2' };
     if (layer.type === 'fill' && layer['source-layer'] === 'country_land') {

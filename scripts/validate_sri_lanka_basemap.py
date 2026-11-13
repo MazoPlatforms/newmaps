@@ -23,7 +23,7 @@ NUMERIC_MAP_NAME = re.compile(r"^[\d\s.,:/#()\-]+$", re.UNICODE)
 COUNTRY_INTERIOR_CHECKS = {
     "Colombo": (79.8612, 6.9271), "Jaffna": (80.0255, 9.6615),
     "Mannar": (79.91, 8.98), "Anuradhapura": (80.4037, 8.3114),
-    "Kandy": (80.6337, 7.2906), "Trincomalee": (81.2335, 8.5874),
+    "Kandy": (80.6337, 7.2906), "Trincomalee": (81.2152, 8.5874),
     "Batticaloa": (81.6934, 7.717), "Hambantota": (81.12, 6.1241),
     "Galle": (80.2209, 6.0535),
 }

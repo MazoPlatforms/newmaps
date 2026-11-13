@@ -1,7 +1,7 @@
 // Cloudflare build replaces this marker with the deployment commit SHA.
 const BUILD_REVISION = '__MAZO_BUILD_REVISION__';
 const APP_CACHE = `mazo-app-shell-${BUILD_REVISION}`;
-const SHELL = ['./', './index.html', './assets/css/site.css?v=phase12-14-1', './assets/js/app.js?v=poi-zoom-crossfade-4', './assets/js/live-data-client.mjs', './assets/js/search-engine.mjs', './assets/js/place-delivery.mjs', './assets/js/map-presentation.mjs?v=poi-zoom-crossfade-4', './assets/js/cartographic-style.mjs?v=poi-zoom-crossfade-4', './assets/js/routing-graph.mjs', './assets/js/offline-pack.mjs', './assets/vendor/pmtiles-4.5.0.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css'];
+const SHELL = ['./', './index.html', './assets/css/site.css?v=phase12-14-1', './assets/js/app.js?v=poi-pin-shore-5', './assets/js/live-data-client.mjs', './assets/js/search-engine.mjs', './assets/js/place-delivery.mjs', './assets/js/map-presentation.mjs?v=poi-pin-shore-5', './assets/js/cartographic-style.mjs?v=poi-pin-shore-5', './assets/js/routing-graph.mjs', './assets/js/offline-pack.mjs', './assets/data/sri-lanka-land-light.png', './assets/data/sri-lanka-land-dark.png', './assets/vendor/pmtiles-4.5.0.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.js', './assets/vendor/maplibre-gl-5.7.0/maplibre-gl.css'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {

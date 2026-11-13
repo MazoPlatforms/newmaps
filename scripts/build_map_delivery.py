@@ -57,6 +57,10 @@ TILE_ARCHIVE = GENERATED / "places.pmtiles"
 SEARCH_INDEX = GENERATED / "search-index.json"
 DETAIL_INDEX = GENERATED / "place-details.json"
 CITIES_SOURCE = ROOT / "data" / "cities.json"
+MAJOR_CITY_NAMES = frozenset({
+    "Colombo", "Kandy", "Jaffna", "Galle", "Trincomalee", "Batticaloa",
+    "Anuradhapura", "Negombo", "Matara", "Polonnaruwa", "Kurunegala",
+})
 EXTENT = 4096
 MIN_ZOOM = 4
 MAX_ZOOM = 16
@@ -116,9 +120,14 @@ def overview_place(feature_id):
     return hashlib.sha256(feature_id.encode("utf-8")).digest()[0] == 0
 
 
-def include_tile_feature(feature_id, zoom):
-    """Keep country/region tiles sparse, then reveal full data at street zoom."""
-    return zoom >= 10 or overview_place(feature_id)
+def include_tile_feature(feature_id, zoom, importance=3):
+    """Reveal local POIs in stable cohorts; retain every place at maximum zoom."""
+    if zoom <= 9:
+        return overview_place(feature_id)
+    if importance <= 2 or zoom >= MAX_ZOOM:
+        return True
+    thresholds = {10: 2, 11: 4, 12: 8, 13: 16, 14: 32, 15: 128}
+    return hashlib.sha256(feature_id.encode("utf-8")).digest()[0] < thresholds[zoom]
 
 
 def mercator(lon, lat):
@@ -151,8 +160,18 @@ def settlement_min_zoom(level):
 
 def read_settlements():
     data = json.loads(CITIES_SOURCE.read_text(encoding="utf-8"))
+    rows = data.get("cities", [])
+    preferred = {}
+    for index, row in enumerate(rows):
+        name = str(row.get("name") or "").strip()
+        if name not in MAJOR_CITY_NAMES:
+            continue
+        level = str(row.get("level") or "locality").casefold()
+        score = {"city": 3, "town": 2}.get(level, 1)
+        if name not in preferred or score > preferred[name][0]:
+            preferred[name] = (score, index)
     result = []
-    for index, row in enumerate(data.get("cities", [])):
+    for index, row in enumerate(rows):
         coords = row.get("coordinates") or {}
         name = str(row.get("name") or "").strip()
         try:
@@ -164,6 +183,7 @@ def read_settlements():
         if not (-180 <= lon <= 180 and -85.05112878 <= lat <= 85.05112878):
             continue
         level = str(row.get("level") or "locality").casefold()
+        major = preferred.get(name, (0, -1))[1] == index
         try:
             population = max(0, int(row.get("population") or 0))
         except (TypeError, ValueError):
@@ -171,12 +191,13 @@ def read_settlements():
         rank = {"country": 100, "region": 80, "county": 60, "city": 50,
                 "town": 40, "village": 30, "neighborhood": 20,
                 "estate": 10, "locality": 5}.get(level, 5)
-        rank += min(50, math.log10(population + 1) * 10)
+        rank += min(50, math.log10(population + 1) * 10) + (100 if major else 0)
         identity = str(row.get("source_id") or f"settlement-{index}")
         result.append({"geometry": Point(*mercator(lon, lat)), "coordinates": (lon, lat),
-                       "minzoom": settlement_min_zoom(level),
+                       "minzoom": 5 if major else settlement_min_zoom(level),
                        "properties": {"id": identity, "name": name, "level": level,
-                                      "population": population, "rank": rank}})
+                                      "population": population, "rank": rank,
+                                      **({"major": 1} if major else {})}})
     return result
 
 
@@ -238,7 +259,7 @@ def build_tiles(features, settlements):
         compact = {"id": feature_id, "name": props["name"], "kind": kind,
                    "priority": importance, "overview": overview_place(feature_id)}
         for zoom in range(MIN_ZOOM, MAX_ZOOM + 1):
-            if not include_tile_feature(feature_id, zoom):
+            if not include_tile_feature(feature_id, zoom, importance):
                 continue
             if not visible_from_zoom(importance, zoom):
                 continue
@@ -272,7 +293,7 @@ def build_tiles(features, settlements):
             "id": "settlements", "description": "Cities, towns, villages, estates and named localities",
             "minzoom": 4, "maxzoom": MAX_ZOOM,
             "fields": {"id": "String", "name": "String", "level": "String",
-                       "population": "Number", "rank": "Number"},
+                       "population": "Number", "rank": "Number", "major": "Number"},
         }],
     }
     header = {
